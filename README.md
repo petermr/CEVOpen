@@ -5,4 +5,4 @@ A joint project between ContentMine, EssoilDB volunteers, and Verriclear volunte
 
 Open to anyone to contribute
 
-See [CEV.md](CEV) for more details
+See [CEV](CEV.md) for more details
