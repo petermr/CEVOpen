@@ -1,0 +1,758 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6262922</article-id><article-id pub-id-type="doi">10.1002/ece3.4536</article-id><article-id pub-id-type="publisher-id">ECE34536</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>The effect of plant identity and mixed feeding on the detection of seed DNA in regurgitates of carabid beetles</article-title><alt-title alt-title-type="left-running-head">SINT et al.</alt-title></title-group><contrib-group><contrib id="ece34536-cr-0001" contrib-type="author"><name><surname>Sint</surname><given-names>Daniela</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3387-4284</contrib-id><xref ref-type="aff" rid="ece34536-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece34536-cr-0002" contrib-type="author"><name><surname>Guenay</surname><given-names>Yasemin</given-names></name><xref ref-type="aff" rid="ece34536-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece34536-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece34536-cr-0003" contrib-type="author"><name><surname>Mayer</surname><given-names>Rebecca</given-names></name><xref ref-type="aff" rid="ece34536-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece34536-cr-0004" contrib-type="author"><name><surname>Traugott</surname><given-names>Michael</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9719-5059</contrib-id><xref ref-type="aff" rid="ece34536-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece34536-cr-0005" contrib-type="author" corresp="yes"><name><surname>Wallinger</surname><given-names>Corinna</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7153-9690</contrib-id><address><email>Corinna.wallinger@uibk.ac.at</email></address><xref ref-type="aff" rid="ece34536-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece34536-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Mountain Agriculture Research Unit, Institute of Ecology</named-content>
+<institution>University of Innsbruck</institution>
+<named-content content-type="city">Innsbruck</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="ece34536-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Institute of Interdisciplinary Mountain Research, IGF</named-content>
+<institution>Austrian Academy of Sciences</institution>
+<named-content content-type="city">Innsbruck</named-content>
+<country country="AT">Austria</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Corinna Wallinger, Institute of Interdisciplinary Mountain Research, IGF, Austrian Academy of Sciences, Innsbruck, Austria.<break/>
+Email: <email>Corinna.wallinger@uibk.ac.at</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>10</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2018</year></pub-date><volume>8</volume><issue>22</issue><issue-id pub-id-type="doi">10.1002/ece3.2018.8.issue-22</issue-id><fpage>10834</fpage><lpage>10846</lpage><history><date date-type="received"><day>30</day><month>5</month><year>2018</year></date><date date-type="accepted"><day>18</day><month>8</month><year>2018</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2018 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2018 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-8-10834.pdf"/><abstract id="ece34536-abs-0001"><title>Abstract</title><p>Carabids are abundant in temperate agroecosystems and play a pivotal role as biocontrol agents for weed seed and pest regulation. While there is good knowledge regarding their effects on invertebrate pests, direct evidence for seed predation in the field is missing. Molecular approaches are ideally suited to investigate these feeding interactions; however, the effects of an omnivorous diet, which is characteristic for many carabid species, and seed identity on the detection success of seed DNA has not yet been investigated. In a series of feeding experiments, seeds of six different Central European weed species were fed to beetles of the species <italic>Pseudoophonus rufipes</italic>, to determine post&#x02010;feeding seed DNA detection rates and how these are affected by plant identity, meal size, and chemical seed composition. Moreover, we investigated the effect of a mixed diet of seeds and mealworm on prey DNA detection. Four out of six seed species were detectable for up to five days after consumption, and seed species identity significantly affected post&#x02010;feeding detection rates. Detectability was negatively influenced by protein content and seed mass, whereas oil content and meal size had a positive effect. The mixed diet led to both increased detection rates and post&#x02010;feeding detection intervals of seed DNA. This suggests that mixed feeding leads to an enhancement of food detection intervals in carabid beetles and that seed identity, their chemical composition, and meal size can affect DNA detection of consumed seeds. These aspects and potential implications of this non&#x02010;invasive approach are discussed as they can become highly relevant for interpreting field&#x02010;derived data.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece34536-kwd-0001">Carabidae</kwd><kwd id="ece34536-kwd-0002">feeding experiment</kwd><kwd id="ece34536-kwd-0003">granivory</kwd><kwd id="ece34536-kwd-0004"><italic>Harpalus rufipes</italic></kwd><kwd id="ece34536-kwd-0005">omnivory</kwd><kwd id="ece34536-kwd-0006">seed predation</kwd><kwd id="ece34536-kwd-0007"><italic>trn</italic>L</kwd></kwd-group><funding-group><award-group><funding-source>Austrian Science Fund</funding-source><award-id>P28578&#x02010;B25</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="3"/><page-count count="13"/><word-count count="10873"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece34536</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.5.3 mode:remove_FC converted:29.11.2018</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece34536-cit-1001">
+<string-name>
+<surname>Sint</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Guenay</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Traugott</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Wallinger</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>The effect of plant identity and mixed feeding on the detection of seed DNA in regurgitates of carabid beetles</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2018</year>;<volume>8</volume>:<fpage>10834</fpage>&#x02013;<lpage>10846</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.4536</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="ece34536-sec-0001"><label>1</label><title>INTRODUCTION</title><p>During the last decades, there has been an increasing demand for food and accordingly agricultural productivity. Although agricultural intensification&#x02014;including reduction of habitat complexity, intense fertilization, and pesticide application&#x02014;has substantially increased crop yield, they are also coupled with higher production costs, pesticide resistance, and negative impacts on ecosystems and human health (Matson, Parton, Power, &#x00026; Swift, <xref rid="ece34536-bib-0041" ref-type="ref">1997</xref>; Tilman, Cassman, Matson, Naylor, &#x00026; Polasky, <xref rid="ece34536-bib-0068" ref-type="ref">2002</xref>). To reduce such negative effects and to make farming sustainable, it is important to implement strategies which boost the efficacy of ecosystem services such as the regulation of crop pests and weeds by natural enemies (Bommarco, Kleijn, &#x00026; Potts, <xref rid="ece34536-bib-0003" ref-type="ref">2013</xref>; Naylor &#x00026; Ehrlich, <xref rid="ece34536-bib-0043" ref-type="ref">1997</xref>). Generalist natural enemies such as carabid beetles have been shown that they can be effective biological control agents (&#x000d6;stman, <xref rid="ece34536-bib-0045" ref-type="ref">2004</xref>; Symondson, Sunderland, &#x00026; Greenstone, <xref rid="ece34536-bib-0063" ref-type="ref">2002</xref>). Compared to specialists, they are already present in a field at the pest's arrival and thus have the potential to prevent pest outbreaks (Chang &#x00026; Kareiva, <xref rid="ece34536-bib-0007" ref-type="ref">1999</xref>; Symondson, Sunderland, et al., <xref rid="ece34536-bib-0063" ref-type="ref">2002</xref>; Wissinger, <xref rid="ece34536-bib-0081" ref-type="ref">1997</xref>). Carabids are widely recognized as important beneficial organisms in arable land, known to provide regulation services on aphids (Lang, <xref rid="ece34536-bib-0030" ref-type="ref">2003</xref>; Roubinet et al., <xref rid="ece34536-bib-0051" ref-type="ref">2017</xref>; Staudacher, Jonsson, &#x00026; Traugott, <xref rid="ece34536-bib-0058" ref-type="ref">2016</xref>), pest slugs (Bohan, Bohan, Glen, Symondson, &#x00026; Wiltshire, <xref rid="ece34536-bib-0001" ref-type="ref">2000</xref>; El&#x02010;Danasoury, Cerecedo, C&#x000f3;rdoba, &#x00026; Iglesias&#x02010;Pi&#x000f1;eiro, <xref rid="ece34536-bib-0009" ref-type="ref">2017</xref>; Fusser, Pfister, Entling, &#x00026; Schirmel, <xref rid="ece34536-bib-0012" ref-type="ref">2016</xref>; Symondson, Glen, Ives, Langdon, &#x00026; Wiltshire, <xref rid="ece34536-bib-0061" ref-type="ref">2002</xref>; Thomas, Harwood, Glen, &#x00026; Symondson, <xref rid="ece34536-bib-0066" ref-type="ref">2009</xref>), and weed seeds (Bohan, Boursault, Brooks, &#x00026; Petit, <xref rid="ece34536-bib-0002" ref-type="ref">2011</xref>; Honek, Martinkova, &#x00026; Jarosik, <xref rid="ece34536-bib-0017" ref-type="ref">2003</xref>; Tooley &#x00026; Brust, <xref rid="ece34536-bib-0069" ref-type="ref">2002</xref>). According to a national&#x02010;scale study, the turnover of the weed seedbank in individual fields is negatively correlated to the abundance of carabids (Bohan et al., <xref rid="ece34536-bib-0002" ref-type="ref">2011</xref>). This indicates their potential impact on the demography of weed species via seed predation (Westerman, Wes, Kropff, &#x00026; Werf, <xref rid="ece34536-bib-0080" ref-type="ref">2003</xref>).</p><p>Among omnivorous carabids, <italic>Pseudoophonus</italic> (<italic>Harpalus</italic>)<italic> rufipes</italic> (De Geer, 1774) is a particularly well&#x02010;studied species (Harrison &#x00026; Gallandt, <xref rid="ece34536-bib-0015" ref-type="ref">2012</xref>). It is widespread throughout arable systems (Brandmayer, <xref rid="ece34536-bib-0005" ref-type="ref">1990</xref>) and usually occupying a dominant position in carabid communities in a wide range of agroecosystems in different countries (J&#x000f8;rgensen &#x00026; Toft, <xref rid="ece34536-bib-0022" ref-type="ref">1997</xref>; Kromp, <xref rid="ece34536-bib-0029" ref-type="ref">1999</xref>; Langmaack, Land, &#x00026; B&#x000fc;chs, <xref rid="ece34536-bib-0031" ref-type="ref">2001</xref>; Luff, <xref rid="ece34536-bib-0037" ref-type="ref">2002</xref>). <italic>Pseudoophonus&#x000a0;rufipes</italic> consumes a broad variety of prey (J&#x000f8;rgensen &#x00026; Toft, <xref rid="ece34536-bib-0022" ref-type="ref">1997</xref>; Kielty, Allen&#x02010;Williams, &#x00026; Underwood, <xref rid="ece34536-bib-0026" ref-type="ref">1999</xref>; Kromp, <xref rid="ece34536-bib-0029" ref-type="ref">1999</xref>; Monzo, Sabater&#x02010;Mu&#x000f1;oz, Urbaneja, &#x00026; Casta&#x000f1;era, <xref rid="ece34536-bib-0042" ref-type="ref">2011</xref>; Renkema, Manning, &#x00026; Cutler, <xref rid="ece34536-bib-0050" ref-type="ref">2013</xref>), and a large proportion of its diet is made up of seeds (Brandmayer, <xref rid="ece34536-bib-0005" ref-type="ref">1990</xref>; Holland, <xref rid="ece34536-bib-0016" ref-type="ref">2002</xref>; Larochelle, <xref rid="ece34536-bib-0032" ref-type="ref">1990</xref>; Tooley &#x00026; Brust, <xref rid="ece34536-bib-0069" ref-type="ref">2002</xref>). However, carabid feeding behavior is known to be dynamic in response to various physiological and environmental conditions, making it difficult to generalize (Lundgren, Saska, &#x00026; Hon&#x0011b;k, <xref rid="ece34536-bib-0040" ref-type="ref">2013</xref>). Despite the comprehensive knowledge on the role of carabids as biocontrol agents in general and the wide potential prey spectrum in the specific case of <italic>P.&#x000a0;rufipes</italic>, field data about its actual food choice are scarce. Most of the dietary information stems from laboratory experiments, demonstrating that specific granivorous carabids select for a particular seed species when provided with a limited choice (Honek et al., <xref rid="ece34536-bib-0017" ref-type="ref">2003</xref>; Honek, Saska, &#x00026; Martinkova, <xref rid="ece34536-bib-0018" ref-type="ref">2006</xref>). However, such experimental setups might distort their natural feeding behavior (Boursault, <xref rid="ece34536-bib-0004" ref-type="ref">2013</xref>; Lundgren, <xref rid="ece34536-bib-0038" ref-type="ref">2009</xref>), and the trophic interactions between carabids and specific prey species seem to be highly dynamic and dependent upon environmental conditions (Roubinet et al., <xref rid="ece34536-bib-0051" ref-type="ref">2017</xref>).</p><p>DNA&#x02010;based diet analysis has become a widely used approach for the identification of trophic interactions under natural conditions (Pompanon et al., <xref rid="ece34536-bib-0048" ref-type="ref">2012</xref>; Symondson &#x00026; Harwood, <xref rid="ece34536-bib-0062" ref-type="ref">2014</xref>; Traugott, Kamenova, Ruess, Seeber, &#x00026; Plantegenest, <xref rid="ece34536-bib-0070" ref-type="ref">2013</xref>). However, apart from a few exceptions (Lundgren et al., <xref rid="ece34536-bib-0040" ref-type="ref">2013</xref>; Lundgren, Ellsbury, &#x00026; Prischmann, <xref rid="ece34536-bib-0039" ref-type="ref">2009</xref>; Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>), granivorous carabids have received little attention in this field. The consumption, digestion, and thus detectability of seeds might be essentially different compared to other plant tissue or animal prey. Earlier experiments in this field showed promising results, where seed DNA had been traced in the regurgitates of carabids for at least 3&#x000a0;days post&#x02010;feeding (Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>), an even longer detection period than previously thought. Among the variety of molecular approaches, next&#x02010;generation sequencing (NGS) enables many consumed species to be detected simultaneously via DNA metabarcoding. To date, numerous NGS studies of herbivory have employed general plant primers targeting the <italic>trn</italic>L&#x02010;region (Pompanon et al., <xref rid="ece34536-bib-0048" ref-type="ref">2012</xref>; Soininen et al., <xref rid="ece34536-bib-0056" ref-type="ref">2009</xref>, <xref rid="ece34536-bib-0057" ref-type="ref">2013</xref> ; Valentini, Miquel, et al., <xref rid="ece34536-bib-0071" ref-type="ref">2009</xref>; Valentini, Pompanon, &#x00026; Taberlet, <xref rid="ece34536-bib-0072" ref-type="ref">2009</xref>). Continual improvement, ongoing decreases in costs, and current expansion of reference databases make species identification based on the <italic>trn</italic>L&#x02010;region a promising approach, also in respect to the detection of trophic links between carabids and specific seed species in arable fields. The present feeding experiments were initiated in view of such field investigations, as differences in the detectability of varying seed species may occur if targeted with general plant primers (Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>). So far, we have a poor understanding of how seed characteristics (i.e., species identity, chemical composition) or the meal size affect post&#x02010;feeding seed DNA detection intervals via general plant primers in carabid beetles. As such, we have employed general plant primers targeting the <italic>trn</italic>L region for investigating the detectability of different consumed seed species.</p><p>Given that the vast majority of carabids is omnivorous and consumes a wide range of food (L&#x000f6;vei &#x00026; Sunderland, <xref rid="ece34536-bib-0036" ref-type="ref">1996</xref>), they may eat both seeds and insect prey at the same time. Dietary mixing of different animal prey showed contradictory influences on the molecular detectability of food in arthropods (L&#x000f6;vei, Sopp, &#x00026; Sunderland, <xref rid="ece34536-bib-0034" ref-type="ref">1987</xref>, <xref rid="ece34536-bib-0035" ref-type="ref">1990</xref> ; Weber &#x00026; Lundgren, <xref rid="ece34536-bib-0079" ref-type="ref">2009</xref>). However, currently there is still no information available on how the DNA detectability of a specific seed is influenced by a mixed diet in carabids, although this information would be highly relevant for the interpretation of field derived molecular trophic data of omnivorous arthropods.</p><p>The aims of the present study were to identify (a) the maximum detection time during which seed consumption can be traced molecularly in carabid regurgitates by the example of <italic>P.&#x000a0;rufipes</italic>, (b) the impact of seed species identity, seed chemical composition, and meal size on post&#x02010;feeding plant DNA detection, and (c) the influence of a mixed diet on the detectability of both consumed seeds and mealworm. To investigate these issues, we established a set of feeding experiments, offering seeds of six different weed species, and a mixed diet to carabids and compared the seed DNA detection success in regurgitates with general plant primers targeting the <italic>trn</italic>L exon (chloroplast DNA), and species&#x02010;specific primers targeting the COI gene (mitochondrial DNA) for the animal prey.</p></sec><sec id="ece34536-sec-0002"><label>2</label><title>MATERIAL AND METHODS</title><sec id="ece34536-sec-0003"><label>2.1</label><title>Species collection and experimental setup</title><p>Adult beetles of <italic>P.&#x000a0;rufipes</italic> were trapped on arable land near Innsbruck (760&#x000a0;m a.s.l.; Tyrol, Austria) in two successive summers (August 2014 and 2015). The beetles were kept individually in a climate cabinet (L:D 14:10&#x000a0;hr at 22 and 12&#x000b0;C, respectively) in plastic beakers (71&#x000a0;&#x000d7;&#x000a0;58&#x000a0;mm, h&#x000a0;&#x000d7;&#x000a0;&#x000d8;, screw top lid), containing a piece of moistened tissue. Beakers were ventilated and the tissues replaced every second day. The beetles were maintained on a diet of 1/3 piece of mealworms (<italic>Tenebrio molitor L</italic>.), which was offered every fifth day. Prior to the feeding experiments, beetles were starved for five days.</p><p>In many plant species, what is regularly referred to as the &#x0201c;seed&#x0201d; is actually an achene, a fruit containing a single seed which does not open at maturity, as it is for <italic>Taraxacum&#x000a0;officinale</italic> and <italic>Senecio&#x000a0;vulgaris</italic>. In the case of <italic>Lolium&#x000a0;perenne,</italic> the grain resembles an achene, except that it is a caryopsis with a seed coat fused to the seed wall. For reasons of simplicity, we will refer to both the achene and the caryopsis as seeds in the text hereafter. For the experiments to test the impact of seed identity, seeds of six plant species were chosen as experimental food: <italic>Capsella bursa&#x02010;pastoris, Lolium perenne, Rumex obtusifolius, Senecio&#x000a0;vulgaris</italic>,<italic> Taraxacum officinale,</italic> and <italic>Trifolium repens</italic>. These plant species are common weeds in Central European arable land and are known to be eaten by <italic>P.&#x000a0;rufipes</italic> (Lundgren, <xref rid="ece34536-bib-0038" ref-type="ref">2009</xref>). The seeds of these plants vary significantly in their mass and nutrient composition. For example, the mass of the heaviest seeds (<italic>L.&#x000a0;perenne</italic>) was 22 times higher than of the lightest seed (<italic>C.&#x000a0;bursa&#x02010;pastoris</italic>) and the oil content ranged from 1.8% (<italic>L.&#x000a0;perenne</italic>) to 32.7% (<italic>S.&#x000a0;vulgaris,</italic> Table <xref rid="ece34536-tbl-0001" ref-type="table">1</xref>).</p><table-wrap id="ece34536-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Seed traits and consumption of the six seed species offered to <italic>Pseudoophonus rufipes</italic> in the species&#x02010;identity feeding experiments. Data source for seed traits: Seed Information Data Base SID (<ext-link ext-link-type="uri" xlink:href="https://data.kew.org/sid">https://data.kew.org/sid</ext-link>). As this database does not provide information on <italic>Senecio vulgaris</italic> seeds, information on the oil content stems from Bretagnolle, Matejicek, Gregoire, Reboud, and Gaba (<xref rid="ece34536-bib-0006" ref-type="ref">2015</xref>); for the estimation of the protein content, we took the mean between <italic>S.&#x000a0;ambrosioides</italic> and <italic>S.&#x000a0;hieracifolius,</italic> that are comparable in seed size and oil content. Mean seed number represents the average number of seeds consumed by <italic>P.&#x000a0;rufipes</italic> during the feeding experiment and the corresponding mean meal size was calculated as mean 1,000 seed mass&#x000a0;&#x000d7;&#x000a0;mean seed number</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Plant species</th><th align="left" valign="top" rowspan="1" colspan="1">Mean 1,000 seed mass (g)</th><th align="left" valign="top" rowspan="1" colspan="1">Oil content (%)</th><th align="left" valign="top" rowspan="1" colspan="1">Protein content (%)</th><th align="left" valign="top" rowspan="1" colspan="1">Mean seed number</th><th align="left" valign="top" rowspan="1" colspan="1">Mean meal size (mg)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>Capsella bursa&#x02010;pastoris</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">0.1</td><td align="char" char="." rowspan="1" colspan="1">30.5</td><td align="char" char="." rowspan="1" colspan="1">28.2</td><td align="char" char="." rowspan="1" colspan="1">1.74</td><td align="char" char="." rowspan="1" colspan="1">0.17</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lolium perenne</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">2.2</td><td align="char" char="." rowspan="1" colspan="1">1.8</td><td align="char" char="." rowspan="1" colspan="1">18.8</td><td align="char" char="." rowspan="1" colspan="1">2.26</td><td align="char" char="." rowspan="1" colspan="1">4.97</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Rumex obtusifolius</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">1.5</td><td align="char" char="." rowspan="1" colspan="1">2.8</td><td align="char" char="." rowspan="1" colspan="1">12.7</td><td align="char" char="." rowspan="1" colspan="1">1.85</td><td align="char" char="." rowspan="1" colspan="1">2.77</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Senecio vulgaris</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">0.2</td><td align="char" char="." rowspan="1" colspan="1">32.7</td><td align="char" char="." rowspan="1" colspan="1">20.2</td><td align="char" char="." rowspan="1" colspan="1">1.80</td><td align="char" char="." rowspan="1" colspan="1">0.36</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Taraxacum officinale</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">26.7</td><td align="char" char="." rowspan="1" colspan="1">30.0</td><td align="char" char="." rowspan="1" colspan="1">2.50</td><td align="char" char="." rowspan="1" colspan="1">1.50</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Trifolium repens</italic>
+</td><td align="char" char="." rowspan="1" colspan="1">0.7</td><td align="char" char="." rowspan="1" colspan="1">6.3</td><td align="char" char="." rowspan="1" colspan="1">35.1</td><td align="char" char="." rowspan="1" colspan="1">1.42</td><td align="char" char="." rowspan="1" colspan="1">0.99</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>For the seed&#x02010;identity experiment, fresh feeding containers (60&#x000a0;&#x000d7;&#x000a0;35&#x000a0;mm, h&#x000a0;&#x000d7;&#x000a0;&#x000d8;) were prepared with a drop of water and five seeds of a single plant species each. The beetles were put individually into the feeding tubes and allowed to feed for 2&#x000a0;hr in the dark climate cabinet. Afterward, carabids that had consumed at least half a seed were put individually in clean beakers and kept in the climate cabinet until regurgitation without any further food provided. Beetles were stimulated to regurgitate in batches of 10&#x02013;15 individuals as described in Wallinger et al. (<xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>) at different time points post&#x02010;feeding (0, 16, 32, 64, 96, 128&#x000a0;hr). Detailed information on the number of included individuals per time point for each seed species is provided in Supporting Information Table <xref rid="ece34536-sup-0001" ref-type="supplementary-material">S1</xref>. Regurgitates were immediately frozen and stored at &#x02212;28&#x000b0;C until DNA extraction. All beetles were set free in their original habitat at the end of the experiments.</p><p>For the mixed&#x02010;diet experiments, the same general procedure was applied as above. Here, two different seed species were selected as a &#x0201c;starter&#x0201d;: <italic>C.&#x000a0;bursa&#x02010;pastoris, L.&#x000a0;perenne,</italic> and afterward one third of a freshly cut mealworm was offered as a &#x0201c;main course.&#x0201d; As carabid beetles did not eat any seeds after having fed on animal prey as a &#x0201c;starter&#x0201d; (personal observation), we refrained from testing the food sequence the other way round. To avoid potential detection of plant DNA present in the herbivorous <italic>T.&#x000a0;molitor</italic> larvae in the carabid regurgitates, mealworms had been starved for 7&#x000a0;days prior freeze killing them for the experiment. Again, beetles were put individually into the feeding tubes and allowed to feed for 2&#x000a0;hr on 5 seeds of either <italic>C.&#x000a0;bursa&#x02010;pastoris</italic> or <italic>L.&#x000a0;perenne</italic> in the dark climate cabinet. Beetles that had consumed at least half of a seed were put individually in fresh beakers and allowed to digest for one (i.e., short between seed and mealworm consumption) and eight hours (long), respectively. Thereafter, they were supplied with one third of a <italic>T.&#x000a0;molitor</italic> larva, which was removed after another hour and beetles were put in clean beakers in the climate cabinet until regurgitation. Beetles were stimulated to regurgitate in batches of 10&#x02013;14 individuals at different time points (0&#x02013;128&#x000a0;hr) post&#x02010;feeding of the mealworm (Supporting Information Table <xref rid="ece34536-sup-0002" ref-type="supplementary-material">S2</xref>).</p></sec><sec id="ece34536-sec-0004"><label>2.2</label><title>DNA extraction, PCR, and electrophoresis</title><p>For lysis, regurgitates were mixed with 200&#x000a0;&#x000b5;l 1&#x000d7;TES buffer 5&#x000a0;&#x000b5;l Proteinase K (20&#x000a0;mg/ml) and approx. 1&#x000a0;mg PVP (Polyvinylpyrrolidone) and incubated for 3&#x000a0;hr at 58&#x000b0;C. DNA was thereafter extracted with the BioSprint 96 DNA Blood Kit (Qiagen, Hilden, Germany) on a Biosprint<sup>&#x000ae;</sup> 96 extraction robotic platform (Qiagen) following the manufacturer's instruction, with the exception of the lysis step described above and DNA elution in 200&#x000a0;&#x000b5;l 1&#x000d7; TE buffer. DNA extracts were stored at &#x02212;28&#x000b0;C. All extractions were conducted in a separate pre&#x02010;PCR laboratory using a UVC&#x02010;equipped laminar flow hood, and two extraction&#x02010;negative controls (PCR&#x02010;grade water instead of seeds or regurgitate) were included in each batch of 48 samples to check for cross&#x02010;sample contamination during the extraction process. None was detected by testing the controls using the diagnostic assays described below.</p><p>To test the regurgitates from the seed&#x02010;identity experiments for the presence of plant DNA, all samples were screened with the general plant primers &#x0201c;<italic>g</italic> A49425&#x0201d; and &#x0201c;<italic>d</italic> B49863&#x0201d; (Taberlet et al., <xref rid="ece34536-bib-0064" ref-type="ref">2007</xref>). They amplify a 300&#x02010;bp fragment from the <italic>trn</italic>L exon, a recommended size for dietary studies (Greenstone, Payton, Weber, &#x00026; Simmons, <xref rid="ece34536-bib-0013" ref-type="ref">2014</xref>). The PCR assay and conditions followed the description provided in Wallinger et al. (<xref rid="ece34536-bib-0078" ref-type="ref">2013</xref>).</p><p>For the mixed&#x02010;diet experiments, DNA extracts were tested twice: once for seed DNA with the same primer combination and PCR conditions as in the seed&#x02010;identity experiment (described above) and once with the mealworm&#x02010;specific primers Ten&#x02010;mol&#x02010;S210 and Ten&#x02010;mol&#x02010;A212, amplifying a 128&#x02010;bp fragment (Oehm, Juen, Nagiller, Neuhauser, &#x00026; Traugott, <xref rid="ece34536-bib-0044" ref-type="ref">2011</xref>). For the mealworm detection, the 15&#x000a0;&#x000b5;l reactions included 4&#x000a0;&#x000b5;l DNA extract, 7.5&#x000a0;&#x000b5;l 2&#x000d7; Type&#x02010;it MutationTM Detect PCR Kit (Qiagen, Hilden, Germany), 0.5&#x000a0;&#x000b5;l 5&#x000d7; Q&#x02010;Solution (Qiagen), 0.5&#x000a0;&#x000b5;g bovine serum albumin (BSA), 4&#x000a0;mM MgCl2, and 0.75&#x000a0;&#x000b5;l of each primer. The cycling protocol included 5&#x000a0;min at 95&#x000b0;C, 35 cycles of 20&#x000a0;s at 92&#x000b0;C, 30&#x000a0;s at 60&#x000b0;C, 30&#x000a0;s at 70&#x000b0;C, and a final elongation of 5&#x000a0;min at 70&#x000b0;C. Within each PCR, one negative control (molecular grade water instead of template DNA) and one positive control (seed/mealworm DNA) was run to check for DNA carryover contamination and amplification success, respectively. All PCR products were visualized using QIAxcel, an automated capillary electrophoresis system (Qiagen), with method AL320, and the results were scored with QIAxcel BioCalculator Fast Analysis Software version 3.0 (Qiagen). Samples showing the expected fragment length with a signal strength exceeding 0.1 relative fluorescent units were deemed to be positive. The DNA extracts of the regurgitates that tested negative in a first run were re&#x02010;tested in a second PCR, running the original DNA template to increase the chances of amplification in samples containing only minute quantities of food DNA (Sint, Raso, Kaufmann, &#x00026; Traugott, <xref rid="ece34536-bib-0053" ref-type="ref">2011</xref>).</p></sec><sec id="ece34536-sec-0005"><label>2.3</label><title>Statistical analyses</title><p>An ANOVA with Bonferroni&#x02010;corrected post hoc tests was performed to analyze differences in the mean number of consumed seeds between the six seed species. Overall plant DNA detection success was tested for significant differences between seed species, using generalized linear models (GLM, LOGIT link function including digestion time (= time post&#x02010;feeding) and the interaction between seed species and time as explanatory factors). Pairwise post hoc comparisons (Wald statistics) of estimated marginal means were performed with digestion time fixed at 0&#x000a0;hr and sequential Bonferroni correction. For the mixed&#x02010;diet experiment, the influence of the two seed species, the length of the meal break (long vs. short), digestion time, and the interaction between seed species and time on the detection of food DNA (seed and mealworm DNA, respectively) were analyzed using GLMs. Other interaction terms were removed from the models based on nonsignificant effects and informed by Akaike's information criterion corrected for finite samples (AICC). For comparisons of estimated marginal means, digestion time was fixed at 0&#x000a0;hr.</p><p>To analyze how time, seed species&#x02010;specific traits, and consumed biomass influence the detection success, a discriminant analysis was performed with &#x0201c;digestion time,&#x0201d; &#x0201c;1,000 seed mass,&#x0201d; &#x0201c;oil content,&#x0201d; &#x0201c;protein content,&#x0201d; and &#x0201c;meal size&#x0201d; (i.e., number of consumed seeds&#x000a0;&#x000d7;&#x000a0;average seed mass obtained from the 1,000 seed mass), as predictive variables. All calculations were performed in IBM SPSS Statistics 24 (IBM, Armonk, NY, USA).</p></sec></sec><sec id="ece34536-sec-0006"><label>3</label><title>RESULTS</title><p>In total, 411 regurgitates were tested for seed DNA in the seed&#x02010;identity experiment and 307 regurgitates for both seed and mealworm DNA in the mixed&#x02010;diet experiment. Overall, the carabid beetles consumed on average 1.97 (&#x000b1;1.00&#x000a0;<italic>SD</italic>) seeds within a 2&#x02010;hr feeding period. Between the six plant species, the average number of consumed seeds varied from 1.4 in <italic>T.&#x000a0;repens</italic> to 2.5 in <italic>T.&#x000a0;officinale,</italic> which resulted in highly significant differences in the meal sizes due to the variation in the 1,000 seed mass (Table <xref rid="ece34536-tbl-0001" ref-type="table">1</xref>). Bonferroni&#x02010;corrected post hoc tests revealed for all pairwise comparisons highly significant differences (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001), except for <italic>S.&#x000a0;vulgaris</italic> versus <italic>T.&#x000a0;repens</italic> (<italic>p</italic>&#x000a0;=&#x000a0;0.013), <italic>S.&#x000a0;vulgaris</italic> versus<italic> C.&#x000a0;bursa&#x02010;pastoris</italic> (n.s.), and <italic>T.&#x000a0;officinale</italic> versus <italic>T.&#x000a0;repens</italic> (n.s).</p><p>In four out of the six plant species tested, the seed consumption could be detected in the beetle regurgitates for up to 128&#x000a0;hr post&#x02010;feeding, the maximum digestion time in our experiments (Figure <xref rid="ece34536-fig-0001" ref-type="fig">1</xref>). For <italic>R.&#x000a0;obtusifolius,</italic> the maximum detection time was 96&#x000a0;hr post&#x02010;feeding, and for <italic>C.&#x000a0;bursa&#x02010;pastoris,</italic> it was 32&#x000a0;hr only. The detectability of seed DNA in regurgitates decreased significantly with digestion time for <italic>C.&#x000a0;bursa&#x02010;pastoris, R.&#x000a0;obtusifolius, S.&#x000a0;vulgaris, T.&#x000a0;officinale,</italic> and <italic>T.&#x000a0;repens</italic>. No such trend could be observed for <italic>L.&#x000a0;perenne</italic> seeds where detection was generally low. The time to reach a predicted detection probability of 50% ranged between 11.3&#x000a0;hr in <italic>C.&#x000a0;bursa&#x02010;pastoris</italic> and 34.3&#x000a0;hr in <italic>S.&#x000a0;vulgaris</italic>. For <italic>L.&#x000a0;perenne</italic> and <italic>T.&#x000a0;repens</italic> seeds, the model predicted detection rates below 50% already at 0&#x000a0;hr post&#x02010;feeding (Figure <xref rid="ece34536-fig-0001" ref-type="fig">1</xref>). The comparison of the overall detection rates for the six plant species with the GLM showed significant main effects for both, &#x0201c;seed species identity&#x0201d; (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;32.922, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and &#x0201c;time post&#x02010;feeding&#x0201d; (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;20.163, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001) as well as a weak but significant interaction of &#x0201c;seed species&#x0201d; and time (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;20.693, <italic>p</italic>&#x000a0;=&#x000a0;0.001). A comparison of the odds ratios for seed DNA detection indicates an elevated detection probability for <italic>C.&#x000a0;bursa&#x02010;pastoris</italic>,<italic> R.&#x000a0;obtusifolius, S.&#x000a0;vulgaris,</italic> and <italic>T&#x000a0;officinale</italic> compared to <italic>L.&#x000a0;perenne</italic> (Figure <xref rid="ece34536-fig-0002" ref-type="fig">2</xref>)<italic>.</italic> Although also the odds for <italic>T.&#x000a0;repens</italic> to detect seed DNA are 1.91 times the ones for <italic>L.&#x000a0;perenne</italic>, the wide confidence intervals including one, do not allow inferring a difference between these two seed species. These findings were also supported by the pairwise comparison of the estimated marginal means for the different seed species, where two species cluster appeared. <italic>Lolium&#x000a0;perenne</italic> and <italic>T.&#x000a0;repens</italic> showed significantly lower predicted detection rates than the other four species (<italic>T.&#x000a0;repens</italic> vs. <italic>R.&#x000a0;obtusifolius p</italic>&#x000a0;=&#x000a0;0.035, <italic>T.&#x000a0;repens</italic> vs. <italic>T&#x000a0;officinale p</italic>&#x000a0;=&#x000a0;0.013, all other pairs between the two clusters <italic>p</italic>&#x000a0;&#x02264;&#x000a0;0.001).</p><fig fig-type="Figure" xml:lang="en" id="ece34536-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Detectability of seed DNA in regurgitates of <italic>Pseudoophonus rufipes</italic> fed with seeds of six different seed species at different time points post&#x02010;feeding ranging from 0 to 128&#x000a0;hr post&#x02010;feeding. A minimum of 10 regurgitates per time point post&#x02010;feeding was tested with general plant primers. Observed detection rates are provided for the different time points as circles along with fitted LOGIT models for the decrease in seed DNA detection success including the lower and upper 95% confidence intervals (thin lines) and the time points where the detection probability equals 50% (dashed lines)</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-8-10834-g001"/></fig><fig fig-type="Figure" xml:lang="en" id="ece34536-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Odds ratios of seed DNA detection compared to <italic>Lolium perenne</italic> (OR&#x000a0;=&#x000a0;1; vertical red line) inferred from the LOGIT regression for the different seed species and the interaction between seed species and time</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-8-10834-g002"/></fig><p>The eigenvalue of the discriminant analysis to investigate the influence of meal size and seed&#x02010;specific traits on the detection probability of seed DNA was 0.229, which is rather low. However, based on the analysis, a total of 73.5% of the regurgitates (302 out of 411 samples) were correctly classified as either &#x0201c;plant DNA detectable&#x0201d; or not (Table <xref rid="ece34536-tbl-0002" ref-type="table">2</xref>). While 81.1% of the positive detections were correctly classified by the discriminant analysis (77 out of 95), the classification success for negative detections was only 71.2% (225 out of 316). The cross&#x02010;validation showed a very small dependency on individual samples, with just two more false&#x02010;positive classifications. The group centroids of the calculated discriminant scores were &#x02212;0.87 for positive and 0.262 for negative detections of plant DNA. This small difference also led to a significant overlap of the discriminant scores of the two groups (Figure <xref rid="ece34536-fig-0003" ref-type="fig">3</xref>), resulting in approx. 26.5% misclassified cases (i.e., false negatives and false positives taken together, also see above). The standardized canonical discriminant function coefficients (Table <xref rid="ece34536-tbl-0003" ref-type="table">3</xref>) indicate that &#x0201c;time post&#x02010;feeding&#x0201d; and &#x0201c;1,000 seed mass&#x0201d; had the strongest predictive power on the detectability of plant DNA. Those two factors as well as &#x0201c;protein content&#x0201d; were correlated with a negative detection. &#x0201c;Meal size&#x0201d; and &#x0201c;oil content,&#x0201d; in contrast, were correlated with a positive plant DNA detection.</p><table-wrap id="ece34536-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Classification of the DNA extracts via a discriminant analysis as &#x0201c;DNA detectable&#x0201d; or &#x0201c;DNA not detectable.&#x0201d; Positive&#x02014;samples that tested positive for seed DNA. Negative&#x02014;samples that tested negative. False positives/false negatives were samples that have been incorrectly assigned to the respective group</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Seed species</th><th align="left" valign="top" rowspan="1" colspan="1">Positive</th><th align="left" valign="top" rowspan="1" colspan="1">Negative</th><th align="left" valign="top" rowspan="1" colspan="1">False positive</th><th align="left" valign="top" rowspan="1" colspan="1">False negative</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>Capsella bursa&#x02010;pastoris</italic> (61)</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">29</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lolium perenne</italic> (83)</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">62</td><td align="char" char="." rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">5</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Rumex obtusifolius</italic> (62)</td><td align="char" char="." rowspan="1" colspan="1">13</td><td align="char" char="." rowspan="1" colspan="1">30</td><td align="char" char="." rowspan="1" colspan="1">17</td><td align="char" char="." rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Senecio vulgaris</italic> (66)</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="char" char="." rowspan="1" colspan="1">23</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Taraxacum officinale</italic> (79)</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="char" char="." rowspan="1" colspan="1">35</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Trifolium repens</italic> (60)</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">46</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1">Total (411)</td><td align="char" char="." rowspan="1" colspan="1">77</td><td align="char" char="." rowspan="1" colspan="1">225</td><td align="char" char="." rowspan="1" colspan="1">91</td><td align="char" char="." rowspan="1" colspan="1">18</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="ece34536-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Histogram of the discriminant scores for samples being classified by the discriminant analysis as positive (green; discriminant score below &#x02212;0.3) or negative (blue; discriminant score above &#x02212;0.3). Dark colors indicate correct classification. Light colors misclassification compared to the actual screening results</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-8-10834-g003"/></fig><table-wrap id="ece34536-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Standardized canonical discriminant function coefficients to predict the detectability of seed DNA in regurgitates of carabid beetles. Note: as in this case a negative discriminant score predicts a successful detection of seed DNA, negative coefficients indicate an enhancement of detections and positive coefficients indicate a correlation with reduced detectability</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Predictive variable</th><th align="left" valign="top" rowspan="1" colspan="1">Coefficient</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Digestion Time (hr)</td><td align="char" char="." rowspan="1" colspan="1">0.982</td></tr><tr><td align="left" rowspan="1" colspan="1">1,000&#x02010;seed mass (g)</td><td align="char" char="." rowspan="1" colspan="1">0.736</td></tr><tr><td align="left" rowspan="1" colspan="1">Oil Content (%)</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;0.149</td></tr><tr><td align="left" rowspan="1" colspan="1">Protein Content (%)</td><td align="char" char="." rowspan="1" colspan="1">0.322</td></tr><tr><td align="left" rowspan="1" colspan="1">Meal size (mg)</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;0.397</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Due to the setup of the mixed&#x02010;diet experiment (meal break between seed and mealworm consumption), the digestion times for the DNA of consumed seeds are longer than for the mealworm for each time point post&#x02010;feeding (i.e., by 1 and 8&#x000a0;hr, respectively). For the sake of simplicity, we will refer to the digestion times in relation to the last meal (i.e., mealworm) in the text hereafter. However, the actual digestion time for the respective meal type (seed and mealworm, respectively) was included in the GLMs and for both models the same main effects (seed species, time, meal break) and interaction term (seed species*time) were considered in the final model based on significance of effects and informed by AICC. In the mixed&#x02010;diet experiment, both mealworm and seed DNA, of either <italic>L.&#x000a0;perenne</italic> or <italic>C.&#x000a0;bursa&#x02010;pastoris,</italic> could be detected for up to 128&#x000a0;hr post&#x02010;feeding. In general, detection rates of animal prey were higher than the ones of seeds (Figure <xref rid="ece34536-fig-0004" ref-type="fig">4</xref>). Detectability of plant DNA in the mixed&#x02010;diet experiment was considerably higher for a given time point post&#x02010;feeding than in the seed&#x02010;identity experiment, where carabids had consumed seeds only. In the mixed&#x02010;diet experiment, the detectability was 100% at 0&#x000a0;hr post&#x02010;feeding for both seed species (including a feeding interval of 1&#x000a0;hr between seed and mealworm) compared to 90 and only 30% for <italic>C.&#x000a0;bursa&#x02010;pastoris</italic> and <italic>L.&#x000a0;perenne</italic> in a pure seed diet. The GLM indicated a highly significant influence of the &#x0201c;length of the meal break&#x0201d; (1&#x000a0;hr vs. 8&#x000a0;hr; Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;15.328, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and time (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;8.618, <italic>p</italic>&#x000a0;=&#x000a0;0.003) on the detection probability of seed DNA. While the seed species, in this case <italic>C.&#x000a0;bursa&#x02010;pastoris</italic> or <italic>L.&#x000a0;perenne,</italic> had no significant influence on the outcome (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;0.946, <italic>p</italic>&#x000a0;=&#x000a0;0.331), the interaction between &#x0201c;seed species&#x0201d; and time was significant (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;6.325, <italic>p</italic>&#x000a0;=&#x000a0;0.012). Not only the detection rates of the seeds were influenced by the mixed diet, but also the probability of mealworm detection changed. For seed detection, the &#x0201c;length of the meal break&#x0201d; (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;5.136, <italic>p</italic>&#x000a0;=&#x000a0;0.023), time (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;65.360, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001), and the interaction between &#x0201c;seed species&#x0201d; and time (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;4.522, <italic>p</italic>&#x000a0;=&#x000a0;0.033) had a significant influence on mealworm detection, but not the seed species per se (Wald &#x003c7;<sup>2</sup>&#x000a0;=&#x000a0;3.368, <italic>p</italic>&#x000a0;=&#x000a0;0.066). The odds ratios revealed an interesting effect of the meal break on the detection probability of the two food types. While the odds for seed DNA detectability were higher with the short, 1&#x000a0;hr meal break compared to the long one, the opposite was true for mealworm DNA (Figure <xref rid="ece34536-fig-0005" ref-type="fig">5</xref>). Comparisons of the estimated marginal means, however, showed only a significant difference in the detection probability depending on the &#x0201c;length of the meal break&#x0201d; for seed DNA (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001) but not for mealworm DNA (<italic>p</italic>&#x000a0;=&#x000a0;0.054) or differences between the seed species (<italic>p</italic>
+<sub>seed</sub>&#x000a0;=&#x000a0;0.328, <italic>p</italic>
+<sub>mealworm</sub>&#x000a0;=&#x000a0;0.089).</p><fig fig-type="Figure" xml:lang="en" id="ece34536-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Detectability of seed and mealworm DNA in regurgitates of <italic>Pseudoophonus rufipes</italic> in a pure and mixed&#x02010;diet feeding scenario at different time points post&#x02010;feeding ranging from 0 to 128&#x000a0;hr after the consumption of their last meal (i.e., mealworm). Carabids were fed with seeds of either <italic>Capsella bursa&#x02010;pastoris</italic> (upper panel) or <italic>Lolium perenne</italic> (lower panel) first and then with mealworm&#x02014;with a meal break of 1 and 8&#x000a0;hr (green for seeds, blue for mealworms), respectively. A minimum of 10 regurgitates per time point post&#x02010;feeding was tested with general plant primers and species&#x02010;specific ones for mealworm DNA. Observed detection rates are provided for the different time points for seeds as black circles (1&#x000a0;hr meal break) and green triangles (8&#x000a0;hr) and for mealworm as black squares (1&#x000a0;hr) and blue triangles (8&#x000a0;hr) along with fitted LOGIT models for the decrease in seed DNA detection success including the lower and upper 95% confidence intervals (thin lines)</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-8-10834-g004"/></fig><fig fig-type="Figure" xml:lang="en" id="ece34536-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Odds ratios of food DNA detection compared to <italic>Lolium perenne</italic> and a meal break of 8&#x000a0;hr, respectively (OR&#x000a0;=&#x000a0;1; vertical red line) inferred from the LOGIT regressions for seed and mealworm DNA detection</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-8-10834-g005"/></fig></sec><sec id="ece34536-sec-0007"><label>4</label><title>DISCUSSION</title><p>The current study demonstrates that DNA of ingested seeds from different plant species can be detected in carabid regurgitates for up to 5&#x000a0;days post&#x02010;feeding under laboratory conditions. These findings indicate the potential of a sufficiently large time frame in which we can detect and identify food sources in field&#x02010;collected carabid beetles, particularly when consumption of a specific prey may date several hours or days prior to collection, as in case of a bad weather period for example. This is highly important when it comes to the analysis of field&#x02010;collected beetles, where the feeding frequency and exact time of actual consumption are usually unknown. The present results are in accordance with earlier experiments, showing extended detection periods/high detection rates of both seed (Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>) and animal prey in <italic>P.&#x000a0;rufipes</italic> (Monzo et al., <xref rid="ece34536-bib-0042" ref-type="ref">2011</xref>; Waldner, Sint, Juen, &#x00026; Traugott, <xref rid="ece34536-bib-0075" ref-type="ref">2013</xref>). These long prey DNA detection intervals may be ascribed to the omnivorous feeding mode of <italic>P.&#x000a0;rufipes</italic> (Waldner et al., <xref rid="ece34536-bib-0075" ref-type="ref">2013</xref>). Like in most carabids, the digestive tract of <italic>P.&#x000a0;rufipes</italic> is characterized by the capability to digest many different food sources, rather than being optimized for the effective breakdown of a certain prey type (Holland, <xref rid="ece34536-bib-0016" ref-type="ref">2002</xref>; Tooley &#x00026; Brust, <xref rid="ece34536-bib-0069" ref-type="ref">2002</xref>). These carabids might therefore exhibit slower basal metabolic rates than comparably sized carnivorous arthropods. Moreover, the enzymatic breakdown of ingested plant tissue or seeds seems to be generally slower than that of insect tissue because plant material is harder to digest. Apart from prolonged DNA detection rates, plant food detectability does not generally seem to follow a logistic decline, as usually seen in the digestion of animal prey. In some cases, detection rates of plant food are already low at the beginning and we can see an increase in detection rates at late time points following an initial decrease, as for example in S. vulgaris. These findings are in accordance with earlier feeding experiments with herbivorous insects (Staudacher, Wallinger, Schallhart, &#x00026; Traugott, <xref rid="ece34536-bib-0059" ref-type="ref">2011</xref>; Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>, <xref rid="ece34536-bib-0078" ref-type="ref">2013</xref> ). The differences may be related to the nature of the digestion of plant tissue. Some plant&#x02010;specific metabolites could have an inhibitory effect resulting in low initial detection rates which can continue until detectability increases again during advanced digestion and associated lysis of plant cell walls or breakdown of plant secondary compounds. Altogether, this make the finding of appropriate models describing the digestion and DNA detectability of plant food challenging. This also prevented the possibility of fitting a single model describing the data of pure seed consumption together with that of the mixed diet in the present experiment. Based on experiences from former feeding experiments, where it had happened that DNA was still detectable at the end of the experiment and did not reach the base line, we already accounted for long detection rates (observation over five days post&#x02010;feeding) and were therefore able to characterize the digestion of most seeds in the pure diet very well. However, the additional consumption of mealworm increased detection rates dramatically. For example, in <italic>C.&#x000a0;bursa&#x02010;pastoris</italic>, no seed DNA was detectable after 32&#x000a0;hr or later if only the seed was consumed, but with subsequent consumption of a mealworm, the detection rate remained at around 60% for five days, and again we saw an increase in detection rates following an initial decline. These aspects regarding DNA detection of plant food in arthropods, contrasting the knowledge of animal tissue digestion, clearly require further investigations.</p><p>As might be expected, seed DNA detectability had been negatively affected by time post&#x02010;feeding. However, the decrease in seed DNA detection rates in beetles regurgitates turned out to be seed species dependent, thus confirming earlier presumptions that seed identity might play a significant role (Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>). The same was true for different plant species in root feeding insects (Wallinger et al., <xref rid="ece34536-bib-0078" ref-type="ref">2013</xref>). While the detectability of some species dropped within the first 32&#x000a0;hr, the DNA of others was still detectable at the maximum period tested (i.e., 5&#x000a0;days post&#x02010;feeding). Accordingly, there were significant differences when pairwise comparing overall DNA detection rates in the single food&#x02010;source experiments. Seed mass and protein content turned out to have a negative effect on the detectability of plant DNA, whereas higher oil content seemed to result in longer detection periods. The latter was in accordance to the findings of Thomas, Jarman, Haman, Trites, and Deagle (<xref rid="ece34536-bib-0067" ref-type="ref">2014</xref>), who reported enhanced prey detection for lipid&#x02010;rich prey as well. This indicates that high lipid content of prey is associated with diminished tissue breakdown and accordingly slower DNA degradation during digestion. That means, in turn, that the ratio of lipid&#x02010;rich seeds is likely to be overestimated compared to other ones, an issue that needs to be considered when it comes to the analysis of field&#x02010;collected data. However, unlike here where the protein content of seeds was negatively correlated with DNA detectability, in the study of diet estimates of Thomas et al. (<xref rid="ece34536-bib-0067" ref-type="ref">2014</xref>), also protein content was correlated with higher detection rates, which the authors ascribed to the fact that increased body protein is associated with elevated levels of mitochondrial DNA, which had been targeted in their work. This factor does not play a role here, as the study by Thomas et al. (2014) was based on animal tissue, whereas the present study used the <italic>trn</italic>L exon, part of the chloroplast DNA, to detect DNA from plant tissue. The &#x0201c;meal size&#x0201d; in earlier feeding experiments with <italic>P.&#x000a0;rufipes</italic> referred to the amount of consumed seeds of two plant species with rather similar size, which did not affect plant DNA detection (Wallinger et al., <xref rid="ece34536-bib-0077" ref-type="ref">2015</xref>). However, when comparing the effect of &#x0201c;meal size&#x0201d; between different seed species, one should also consider the high variation in size and biomass between seeds. Therefore, in the present experiments, &#x0201c;meal size&#x0201d; refers to the number of consumed seeds * average seed mass. Here, it had a positive effect, indicating the importance of the biomass of a certain prey type consumed by a carabid beetle. We want to point out, that these findings on the influence of seed traits here are based on data from six seed species only, covering just a fraction of the variability of those plant traits. Unfortunately, we have a coincidental correlation of &#x0201c;1,000 seed mass&#x0201d; and &#x0201c;oil content&#x0201d; in the present subset due to three species showing a low (&#x0003c;7%) and the three other ones a high (&#x0003e;26%) oil content, respectively, which would be not the case if a wider range of plant species is considered. Thus, a slight reduction in the predictive power of the discriminant analysis due to multicollinearity could not be excluded and we ran the discriminant analysis also with either one variable excluded (data not shown). As expected, the coefficient of the respective other factor increased in these cases, but overall a decrease in the percentage of correct classifications was observed&#x02014;especially in the already difficult prediction of negative samples. Thus, we do not think that the results of the presented discriminant analysis are strongly biased by this fact and decided to keep both explanatory variables. Still, it would be highly interesting to extend the knowledge on the influence of different seed traits to better understand digestion of seeds by carabids and thus to improve in the long run the models predicting the digestion and detectability of plant DNA over time.</p><p>In general, the recovery of food DNA has been shown to be affected by numerous variables (King, Read, Traugott, &#x00026; Symondson, <xref rid="ece34536-bib-0027" ref-type="ref">2008</xref>) and the observed differences might be ascribed to biological reasons or introduced via the methodological approach (Thomas et al., <xref rid="ece34536-bib-0067" ref-type="ref">2014</xref>). Potential methodological biases are, for example, different efficiencies due to varying primer binding sites (Sipos et al., <xref rid="ece34536-bib-0055" ref-type="ref">2007</xref>) or differences in the length of the amplified fragment (Sint et al., <xref rid="ece34536-bib-0053" ref-type="ref">2011</xref>; Waldner et al., <xref rid="ece34536-bib-0075" ref-type="ref">2013</xref>). They can be minimized by a prudent study design including an appropriate assay selection. For example, in the present case, binding sites as well as expected fragment length had been the same for all seed species. On the other hand, biases due to biological factors influencing food DNA detectability are rooted in variation inherent to the system. Primarily, they can be ascribed either to differences in target DNA density in the consumed tissue (Deagle &#x00026; Tollit, <xref rid="ece34536-bib-0008" ref-type="ref">2007</xref>) or in prey DNA survival during digestion. Especially prey DNA survival depends on many factors such as temperature (Hosseini, Schmidt, &#x00026; Keller, <xref rid="ece34536-bib-0020" ref-type="ref">2008</xref>), additional prey consumed (Penry &#x00026; Juman, <xref rid="ece34536-bib-0046" ref-type="ref">1987</xref>), or prey identity, as described above. In case of the latter, the use of correction factors, evaluated by measuring species&#x02010;specific DNA recovery rates, is suggested to improve the estimates (Greenstone et al., <xref rid="ece34536-bib-0013" ref-type="ref">2014</xref>). However, developing such correction factors is not always that straightforward. In the present case, it would require multiple extensive, time&#x02010;consuming feeding trials including every single species that carabids potentially might prey on, or at least an extensive, representative selection to potentially identify certain seed traits as robust predictors. And even if we can generate such correction factors, still not all biases are feasible to mitigate for every potential food source in combination with the multiple factors such as meal size, mixed feeding, and many more. When it comes to the molecular identification of specific taxa to unravel trophic interactions in the field, in some cases a diagnostic approach via species&#x02010;specific primers may thus represent an advisable alternative to NGS and the use of general primers, provided that the primers are balanced in their sensitivity and the potential food sources are restricted to a certain number of known seed species. However, even when many consumed species of an unknown prey spectrum make DNA metabarcoding and accordingly the use of general primer necessary, the identification of seed DNA can clearly provide informative data, as for example correctly identifying frequently consumed seed species. This applied all the more since the differences in DNA detection observed in the seed&#x02010;only experiment were no longer evident in the mixed&#x02010;feeding setup, indicating that the seed type will likely play a minor role in field&#x02010;caught carabids. Moreover, food DNA can still be detected when present at low levels so that the unequal digestion of DNA from different prey species will not necessarily translate into significant biases in a semiquantitative approach based on presence/absence data (Deagle &#x00026; Tollit, <xref rid="ece34536-bib-0008" ref-type="ref">2007</xref>). Therefore, the identification of food DNA in regurgitates seems appropriate for determining the carabid diet composition in the field. In this context, we recommend high numbers of replicates.</p><p>The subsequent feeding of a mealworm after seed consumption led to an increased detectability of seed DNA in the regurgitates and an extension of the detection time post&#x02010;feeding compared to a diet exclusively on seeds: initial detections rates of <italic>C.&#x000a0;bursa&#x02010;pastoris</italic> and <italic>L.&#x000a0;perenne</italic> at 0&#x000a0;hr post&#x02010;feeding were higher and the decrease in detectability was attenuated, especially when the seed and insect food were consumed immediately (1&#x000a0;hr) one after the other. This effect was less pronounced at an extended meal break of 8&#x000a0;hr between seed and mealworm consumption. According to the optimal digestion theory, a meal is expected to disappear faster with access to food following it, than after the target meal only, with no subsequent opportunity to feed (Penry &#x00026; Juman, <xref rid="ece34536-bib-0046" ref-type="ref">1987</xref>). This effect was confirmed in an experiment conducted by Weber and Lundgren (<xref rid="ece34536-bib-0079" ref-type="ref">2009</xref>) who were able to detect DNA of the Colorado potato beetle over a longer time span if the predator was not allowed to feed on other prey thereafter. One might thus expect shorter retention times in the guts, resulting from physical effects of the first meal being displaced by subsequent food. Earlier studies on the influence of dietary mixing of different animal prey types, however, have shown varying influences on the detectability of the target prey, ranging from positive (Fournier et al., <xref rid="ece34536-bib-0010" ref-type="ref">2006</xref>; Harper et al., <xref rid="ece34536-bib-0014" ref-type="ref">2005</xref>), to none (L&#x000f6;vei, Sopp, &#x00026; Sunderland, <xref rid="ece34536-bib-0034" ref-type="ref">1987</xref>, <xref rid="ece34536-bib-0035" ref-type="ref">1990</xref> ), to negative (Weber &#x00026; Lundgren, <xref rid="ece34536-bib-0079" ref-type="ref">2009</xref>). In the current experiment, we found a clear positive effect of subsequent mealworm consumption on the post&#x02010;feeding detection of seed DNA. At the same time, the presence of seed DNA did not seem to have strong effects on the detection of the animal prey when comparing them with other feeding experiments with <italic>P.&#x000a0;rufipes</italic> (Waldner et al., <xref rid="ece34536-bib-0075" ref-type="ref">2013</xref>) or employing the same mealworm primers as we did (Sint et al., <xref rid="ece34536-bib-0053" ref-type="ref">2011</xref>), although the detectability of the mealworm DNA in the present experiment was slightly higher when the meal break between seed and animal prey was longer. Altogether, this indicates that plant and animal food can be detected over a considerable period of time post&#x02010;consumption in omnivorous carabids. That is highly relevant also in field&#x02010;caught beetles, where it remains unclear whether they consumed only one prey type or several ones and how long ago the feeding has happened. This potentially opens the possibility to investigate the full dietary spectrum of omnivorous carabid beetles under field conditions with molecular methods, delivering important insight into their feeding behavior and consequently increase the knowledge on their provision of ecosystem services.</p><p>It should be taken into account that our conclusions are based on the analysis of a single carabid species so far, tested under laboratory conditions. Still, in choosing, <italic>P.&#x000a0;rufipes</italic> we have selected a species that is not only dominant in ground beetle communities but also a representative, in being omnivorous and a chewing feeder like most carabids in arable land. The detection times observed can serve as guidelines for interpreting field&#x02010;derived data, although several factors that are present in the field may additionally influence the detectability of food DNA, such as fluctuating temperatures. High ambient temperatures have been found to effectively decrease detection rates of prey DNA (Hoogendoorn &#x00026; Heimpel, <xref rid="ece34536-bib-0019" ref-type="ref">2001</xref>; Hosseini et al., <xref rid="ece34536-bib-0020" ref-type="ref">2008</xref>; von Berg, Traugott, &#x00026; Scheu, <xref rid="ece34536-bib-0073" ref-type="ref">2012</xref>). Carabids, however, are surface active and many of them are nocturnal (Thiele, <xref rid="ece34536-bib-0065" ref-type="ref">1977</xref>), which implies that they are hiding during the day and might therefore not be subjected to strong daily temperature fluctuations. Thus, the effect of temperature on DNA detection rates probably might be less important for interpreting molecular trophic data. Still, there are various other aspects that need to be taken under consideration, such as the influence of activity levels, the ontogenetic status on digestion or sex&#x02010;specific differences as reported by Lundgren (<xref rid="ece34536-bib-0038" ref-type="ref">2009</xref>), which might be specifically examined in the field to account for the variability present in natural settings. Future work, testing the detection intervals in mesocosms or a field experiment would represent the next logical step toward a better interpretation of field data based on carabid regurgitates.</p><p>In vertebrate studies, non&#x02010;invasive approaches to obtain biological material for molecular analysis have long been preferred (Waits &#x00026; Paetkau, <xref rid="ece34536-bib-0074" ref-type="ref">2005</xref>); however, these approaches have only recently been adopted for use in invertebrate studies (Lefort, Boyer, Worner, &#x00026; Armstrong, <xref rid="ece34536-bib-0033" ref-type="ref">2011</xref>; Raso et al., <xref rid="ece34536-bib-0049" ref-type="ref">2014</xref>; Seeber, Rief, Seeber, Meyer, &#x00026; Traugott, <xref rid="ece34536-bib-0052" ref-type="ref">2010</xref>; Sint, Thurner, Kaufmann, &#x00026; Traugott, <xref rid="ece34536-bib-0054" ref-type="ref">2015</xref>). Apart from ethical reasons, using carabid regurgitates instead of whole&#x02010;body DNA extracts has numerous advantages. First of all, the avoidance of killing the beetles is essential for example in surveys of small populations or when working with beneficial, rare, or endangered species. In addition, the application of this nondestructive approach offers the opportunity to monitor dietary changes in carabid beetles, which can be dependent upon different seasons (Holland, <xref rid="ece34536-bib-0016" ref-type="ref">2002</xref>; Hulme, <xref rid="ece34536-bib-0021" ref-type="ref">2002</xref>) or vary ontogenetically (Lundgren et al., <xref rid="ece34536-bib-0039" ref-type="ref">2009</xref>; Thiele, <xref rid="ece34536-bib-0065" ref-type="ref">1977</xref>). In comparisons of fecal, gut content, and regurgitate samples, prey DNA detection rates were the highest for regurgitates (Frei, <xref rid="ece34536-bib-0011" ref-type="ref">2018</xref>; Kamenova, Mayer, Coissac, Plantegenest, &#x00026; Traugott, <xref rid="ece34536-bib-0025" ref-type="ref">2017</xref>; Waldner &#x00026; Traugott, <xref rid="ece34536-bib-0076" ref-type="ref">2012</xref>). This indicates that they constitute a good source of prey DNA. Also in terms of fixation and storage, regurgitates are an advantageous sample type, as they can be directly dissolved in lysis buffer or quickly preserved in ethanol, which immediately inhibits the activity of digestive enzymes. Preserving invertebrates as a whole, in contrast, has shown to be less efficient in respect to the quality of prey DNA (Waldner &#x00026; Traugott, <xref rid="ece34536-bib-0076" ref-type="ref">2012</xref>). This might be explained by the longer time ethanol needs to penetrate and fixate the gut content. Preserving regurgitates in ethanol will be especially useful for projects conducted in remote areas (e.g., alpine environments, tropics) where freeze&#x02010;storage of samples is difficult. Finally, regurgitates contain comparable low concentrations of predator DNA. This is especially beneficial when DNA extraction methods are used where the overall amount of nucleic acids that can be isolated is limited (e.g., all silica&#x02010;based methods). Furthermore, large amounts of nontarget DNA and inhibitors present in whole&#x02010;body insect extracts can be a particular problem in molecular diet studies, where predator DNA is often present in great excess of food&#x02010;derived DNA. The predominance of one DNA template within a single sample can bias or restrict molecular analysis (Polz &#x00026; Cavanaugh, <xref rid="ece34536-bib-0047" ref-type="ref">1998</xref>), especially if general primers are employed which might co&#x02010;amplify the consumer DNA (Krehenwinkel, Kennedy, Pek&#x000e1;r, &#x00026; Gillespie, <xref rid="ece34536-bib-0028" ref-type="ref">2016</xref>). Aside from carabid beetles, regurgitation is also common in other arthropod taxa, such as spiders (Kaestner, <xref rid="ece34536-bib-0024" ref-type="ref">1993</xref>), grasshoppers (Sword, <xref rid="ece34536-bib-0060" ref-type="ref">2000</xref>), or soil&#x02010;dwelling invertebrate predators (Juen &#x00026; Traugott, <xref rid="ece34536-bib-0023" ref-type="ref">2007</xref>), indicating a wide applicability of the current approach.</p><p>In conclusion, the present data show that with this noninvasive approach, carabid consumption of various seed species can be molecularly detected for at least five days post&#x02010;feeding under laboratory conditions. Although detection times may vary under field conditions, this novel approach provides an opportunity to detect seed&#x02010;feeding and integrate this knowledge into food web ecology for carabid beetles. Our findings indicate that plant identity, chemical composition, and meal size can affect DNA detection of consumed seeds. The results from the mixed&#x02010;feeding experiment suggest that the omnivorous feeding mode of carabids may lead to prolonged detection intervals of consumed seeds, thus enlarging the potential time window for successful food detection compared to what has been previously assumed. The species&#x02010;specific differences observed seem to play a minor role in a mixed diet, which is natural for many carabid species. On the basis of broad tolerance margins and a high sample number, good estimates of trophic interactions between carabids and their seed prey can be drawn. Altogether, this novel approach represents a promising opportunity to identify seed&#x02010;feeding species and integrate this knowledge into food web ecology for carabid beetles. It will enable us to investigate the overall potential of carabid beetles as weed biocontrol agents in arable land. Apart from identifying carabid key species, it will be possible to evaluate the success of facilitation measurements in respect to a robust and resilient provision of this ecosystem service, therefore significantly contributing to international goals in reducing pesticide applications without compromising crop yield.</p></sec><sec id="ece34536-sec-0009"><title>CONFLICT OF INTERESTS</title><p>None declared.</p></sec><sec id="ece34536-sec-0010"><title>AUTHORS CONTRIBUTION</title><p>M.T. and C.W. conceived and designed the study. R.M. and C.W. performed the feeding experiments. R.M was responsible for DNA extractions and PCR screening for the single species experiment. Y.G. performed laboratory work regarding the mixed&#x02010;feeding experiment. D.S analyzed the data and contributed to the first draft. C.W. wrote the manuscript, which all authors revised and finally approved to be published.</p></sec><sec id="ece34536-sec-0011"><title>DATA AVAILABILITY</title><p>The data of the feeding experiments and molecular analysis have been uploaded to DRYAD Provisional <ext-link ext-link-type="uri" xlink:href="http://https:/doi.org/10.5061/dryad.1n4f0b3">http://https:/doi.org/10.5061/dryad.1n4f0b3</ext-link>.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece34536-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-8-10834-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece34536-sup-0002"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-8-10834-s002.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece34536-sec-0008"><title>ACKNOWLEDGMENTS</title><p>Financial support was provided by the project &#x0201c;Trophic assessment of ecosystem services provided by carabid beetles in agricultural land&#x0201d; financed by the Austrian Science Fund FWF (P28578&#x02010;B25). For their valuable assistance in animal keeping and the feeding experiments, we thank Matthias Labeck, Markus Neurauter, Michelle Gruber, and Marcel Sch&#x000f6;n, participating 2014 and 2015 in the program &#x0201c;Young Talents&#x02014;Internships for Students&#x0201d; financed by the Austrian Research Promotion Agency FFG. Victoria Hoffman contributed significantly to the screening of the samples from the mixed&#x02010;diet experiment during her Erasmus stay in Austria.</p></ack><ref-list content-type="cited-references" id="ece34536-bibl-0001"><title>REFERENCES</title><ref id="ece34536-bib-0001"><mixed-citation publication-type="journal" id="ece34536-cit-0001">
+<string-name>
+<surname>Bohan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Bohan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Glen</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wiltshire</surname>, <given-names>C.</given-names>
+</string-name> (<year>2000</year>). <article-title>Spatial dynamics of predation by carabid beetles on slugs</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>69</volume>, <fpage>367</fpage>&#x02013;<lpage>379</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2656.2000.00399.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0002"><mixed-citation publication-type="journal" id="ece34536-cit-0002">
+<string-name>
+<surname>Bohan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Boursault</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Brooks</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Petit</surname>, <given-names>S.</given-names>
+</string-name> (<year>2011</year>). <article-title>National&#x02010;scale regulation of the weed seedbank by carabid predators</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>48</volume>, <fpage>888</fpage>&#x02013;<lpage>898</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2011.02008.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0003"><mixed-citation publication-type="journal" id="ece34536-cit-0003">
+<string-name>
+<surname>Bommarco</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kleijn</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Potts</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>Ecological intensification: Harnessing ecosystem services for food security</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>28</volume>, <fpage>230</fpage>&#x02013;<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2012.10.012</pub-id>
+<pub-id pub-id-type="pmid">23153724</pub-id></mixed-citation></ref><ref id="ece34536-bib-0004"><mixed-citation publication-type="miscellaneous" id="ece34536-cit-0004">
+<string-name>
+<surname>Boursault</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Caract&#x000e9;risation des relations trophiques entre composantes d&#x02019;un agro&#x000e9;cosyst&#x000e8;me: Le cas de la pr&#x000e9;dation des graines d&#x02019;adventices par les Carabidae, INRA/Universite de Bourgogne</article-title>.</mixed-citation></ref><ref id="ece34536-bib-0005"><mixed-citation publication-type="book" id="ece34536-cit-0005">
+<string-name>
+<surname>Brandmayer</surname>, <given-names>T.</given-names>
+</string-name> (<year>1990</year>). <chapter-title>Spermophagous (seed&#x02010;eating) ground beetles: First comparison of the diet and ecology of the harpaline genera <italic>Harpalus</italic> and <italic>Ophonus</italic> (Col., Carabidae)</chapter-title> In <person-group person-group-type="editor"><name><surname>Stork</surname><given-names>N.</given-names></name></person-group> (Ed.), <source xml:lang="en">The role of ground beetles in ecological and environmental studies</source> (pp. <fpage>307</fpage>&#x02013;<lpage>316</lpage>). <publisher-loc>Andover, UK</publisher-loc>: <publisher-name>Intercept</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0006"><mixed-citation publication-type="journal" id="ece34536-cit-0006">
+<string-name>
+<surname>Bretagnolle</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Matejicek</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gregoire</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Reboud</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gaba</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>). <article-title>Determination of fatty acids content, global antioxidant activity and energy value of weed seeds from agricultural fields in France</article-title>. <source xml:lang="en">Weed Research</source>, <volume>56</volume>, <fpage>78</fpage>&#x02013;<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1111/wre.12188</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0007"><mixed-citation publication-type="book" id="ece34536-cit-0007">
+<string-name>
+<surname>Chang</surname>, <given-names>G. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kareiva</surname>, <given-names>P.</given-names>
+</string-name> (<year>1999</year>). <chapter-title>The case for indigenous generalists in biological control</chapter-title> In <person-group person-group-type="editor"><name><surname>Hawkins</surname><given-names>B. A.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Cornell</surname><given-names>H. V.</given-names></name></person-group> (Eds.), <source xml:lang="en">Theoretical approaches to biological control</source> (pp. <fpage>103</fpage>&#x02013;<lpage>115</lpage>). <publisher-loc>Cambridge, UK</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0008"><mixed-citation publication-type="journal" id="ece34536-cit-0008">
+<string-name>
+<surname>Deagle</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tollit</surname>, <given-names>D.</given-names>
+</string-name> (<year>2007</year>). <article-title>Quantitative analysis of prey DNA in pinniped faeces: Potential to estimate diet composition?</article-title>
+<source xml:lang="en">Conservation Genetics</source>, <volume>8</volume>, <fpage>743</fpage>&#x02013;<lpage>747</lpage>. <pub-id pub-id-type="doi">10.1007/s10592-006-9197-7</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0009"><mixed-citation publication-type="journal" id="ece34536-cit-0009">
+<string-name>
+<surname>El&#x02010;Danasoury</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Cerecedo</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>C&#x000f3;rdoba</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Iglesias&#x02010;Pi&#x000f1;eiro</surname>, <given-names>J.</given-names>
+</string-name> (<year>2017</year>). <article-title>Predation by the carabid beetle <italic>Harpalus rufipes</italic> on the pest slug <italic>Deroceras reticulatum</italic> in the laboratory</article-title>. <source xml:lang="en">Annals of Applied Biology</source>, <volume>170</volume>, <fpage>251</fpage>&#x02013;<lpage>262</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0010"><mixed-citation publication-type="journal" id="ece34536-cit-0010">
+<string-name>
+<surname>Fournier</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Hagler</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Daane</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>deL&#x000e9;on</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Groves</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Costa</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Henneberry</surname>, <given-names>T.</given-names>
+</string-name> (<year>2006</year>). <article-title>Development and application of a glassy&#x02010;winged sharpshooter egg&#x02010;specific predator gut content ELISA</article-title>. <source xml:lang="en">Biological Control</source>, <volume>37</volume>, <fpage>108</fpage>&#x02013;<lpage>118</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0011"><mixed-citation publication-type="book" id="ece34536-cit-0011">
+<string-name>
+<surname>Frei</surname>, <given-names>B.</given-names>
+</string-name> (<year>2018</year>). <source xml:lang="en">Trophic interactions of carabid beetles in Central European cereal fields</source> (p. <fpage>40</fpage>). <publisher-loc>Institute of Ecology</publisher-loc>: <publisher-name>Innsbruck</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0012"><mixed-citation publication-type="journal" id="ece34536-cit-0012">
+<string-name>
+<surname>Fusser</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Pfister</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Entling</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schirmel</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Effects of landscape composition on carabids and slugs in herbaceous and woody field margins</article-title>. <source xml:lang="en">Agriculture, Ecosystems &#x00026; Environment</source>, <volume>226</volume>, <fpage>79</fpage>&#x02013;<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1016/j.agee.2016.04.007</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0013"><mixed-citation publication-type="journal" id="ece34536-cit-0013">
+<string-name>
+<surname>Greenstone</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Payton</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Weber</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Simmons</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>The detectability half&#x02010;life in arthropod predator&#x02013;prey research: What it is, why we need it, how to measure it, and how to use it</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>23</volume>, <fpage>3799</fpage>&#x02013;<lpage>3813</lpage>. <pub-id pub-id-type="doi">10.1111/mec.12552</pub-id>
+<pub-id pub-id-type="pmid">24303920</pub-id></mixed-citation></ref><ref id="ece34536-bib-0014"><mixed-citation publication-type="journal" id="ece34536-cit-0014">
+<string-name>
+<surname>Harper</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>King</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Harwood</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Glen</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Bruford</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name> (<year>2005</year>). <article-title>Rapid screening of invertebrate predators for multiple prey DNA targets</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>14</volume>, <fpage>819</fpage>&#x02013;<lpage>827</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2005.02442.x</pub-id>
+<pub-id pub-id-type="pmid">15723673</pub-id></mixed-citation></ref><ref id="ece34536-bib-0015"><mixed-citation publication-type="journal" id="ece34536-cit-0015">
+<string-name>
+<surname>Harrison</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gallandt</surname>, <given-names>E.</given-names>
+</string-name> (<year>2012</year>). <article-title>Behavioural studies of <italic>Harpalus rufipes</italic> De Geer: An important weed seed predator in Northeastern US agroecosystems</article-title>. <source xml:lang="en">International Journal of Ecology</source>, <volume>2012</volume>, <fpage>1</fpage>&#x02013;<lpage>6</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0016"><mixed-citation publication-type="book" id="ece34536-cit-0016">
+<string-name>
+<surname>Holland</surname>, <given-names>J.</given-names>
+</string-name> (<year>2002</year>). <source xml:lang="en">The agroecology of carabid beetles</source>. <publisher-loc>Andover, UK</publisher-loc>: <publisher-name>Intercept Limited</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0017"><mixed-citation publication-type="journal" id="ece34536-cit-0017">
+<string-name>
+<surname>Honek</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Martinkova</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jarosik</surname>, <given-names>V.</given-names>
+</string-name> (<year>2003</year>). <article-title>Ground beetles (Carabidae) as seed predators</article-title>. <source xml:lang="en">European Journal of Entomology</source>, <volume>100</volume>, <fpage>531</fpage>&#x02013;<lpage>544</lpage>. <pub-id pub-id-type="doi">10.14411/eje.2003.081</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0018"><mixed-citation publication-type="journal" id="ece34536-cit-0018">
+<string-name>
+<surname>Honek</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Saska</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Martinkova</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2006</year>). <article-title>Seasonal variation in seed predation by adult carabid beetles</article-title>. <source xml:lang="en">Entomologia Experimentalis Et Applicata</source>, <volume>118</volume>, <fpage>157</fpage>&#x02013;<lpage>162</lpage>. <pub-id pub-id-type="doi">10.1111/j.1570-7458.2006.00376.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0019"><mixed-citation publication-type="journal" id="ece34536-cit-0019">
+<string-name>
+<surname>Hoogendoorn</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Heimpel</surname>, <given-names>G.</given-names>
+</string-name> (<year>2001</year>). <article-title>PCR&#x02010;based gut content analysis of insect predators: Using ribosomal ITS&#x02010;1 fragments from prey to estimate predation frequency</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>10</volume>, <fpage>2059</fpage>&#x02013;<lpage>2067</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-294X.2001.01316.x</pub-id>
+<pub-id pub-id-type="pmid">11555249</pub-id></mixed-citation></ref><ref id="ece34536-bib-0020"><mixed-citation publication-type="journal" id="ece34536-cit-0020">
+<string-name>
+<surname>Hosseini</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Keller</surname>, <given-names>M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Factors affecting detectability of prey DNA in the gut contents of invertebrate predators: A polymerase chain reaction&#x02010;based method</article-title>. <source xml:lang="en">Entomologia Experimentalis Et Applicata</source>, <volume>126</volume>, <fpage>194</fpage>&#x02013;<lpage>202</lpage>. <pub-id pub-id-type="doi">10.1111/j.1570-7458.2007.00657.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0021"><mixed-citation publication-type="book" id="ece34536-cit-0021">
+<string-name>
+<surname>Hulme</surname>, <given-names>P.</given-names>
+</string-name> (<year>2002</year>) <article-title>Seed&#x02010;eaters: seed dispersal, destruction and demography</article-title>. In <person-group person-group-type="editor"><name><surname>Levey</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Silva</surname><given-names>W.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Galetti</surname><given-names>M.</given-names></name></person-group> (Eds.) <source xml:lang="en">Seed dispersal and frugivory: Ecology, evolution and conservation. Third International Symposium&#x02010;Workshop on Frugivores and Seed Dispersal, S&#x000e3;o Pedro, Brazil, 6&#x02013;11 August 2000</source>. <publisher-loc>Wallingford</publisher-loc>: <publisher-name>CABI Publishing</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0022"><mixed-citation publication-type="journal" id="ece34536-cit-0022">
+<string-name>
+<surname>J&#x000f8;rgensen</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Toft</surname>, <given-names>S.</given-names>
+</string-name> (<year>1997</year>). <article-title>Food preference, diet dependent fecundity and larval development in <italic>Harpalus rufipes</italic> (Coleoptera: Carabidae)</article-title>. <source xml:lang="en">Pedobiologia</source>, <volume>41</volume>, <fpage>307</fpage>&#x02013;<lpage>315</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0023"><mixed-citation publication-type="journal" id="ece34536-cit-0023">
+<string-name>
+<surname>Juen</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Revealing species&#x02010;specific trophic links in soil food webs: Molecular identification of scarab predators</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>16</volume>, <fpage>1545</fpage>&#x02013;<lpage>1557</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2007.03238.x</pub-id>
+<pub-id pub-id-type="pmid">17391275</pub-id></mixed-citation></ref><ref id="ece34536-bib-0024"><mixed-citation publication-type="book" id="ece34536-cit-0024">
+<string-name>
+<surname>Kaestner</surname>, <given-names>A.</given-names>
+</string-name> (<year>1993</year>). <chapter-title>Araneomorphae</chapter-title> In <person-group person-group-type="editor"><name><surname>Gruner</surname><given-names>H.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Moritz</surname><given-names>M.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Dunger</surname><given-names>W.</given-names></name></person-group> (Eds.), <source xml:lang="en">Lehrbuch der Speziellen Zoologie</source> (pp. <fpage>244</fpage>&#x02013;<lpage>263</lpage>). <publisher-loc>Heidelberg, Germany</publisher-loc>: <publisher-name>Akademischer Verlag Fischer</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0025"><mixed-citation publication-type="journal" id="ece34536-cit-0025">
+<string-name>
+<surname>Kamenova</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Coissac</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Plantegenest</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>) <article-title>Comparing three types of dietary samples for prey DNA decay in an insect generalist predator</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>18</volume>(<issue>5</issue>), <fpage>966</fpage>&#x02013;<lpage>973</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12775</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0026"><mixed-citation publication-type="journal" id="ece34536-cit-0026">
+<string-name>
+<surname>Kielty</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Allen&#x02010;Williams</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Underwood</surname>, <given-names>N.</given-names>
+</string-name> (<year>1999</year>). <article-title>Prey preferences of six species of Carabidae (Coleoptera) and one Lycosidae (Araneae) commonly found in UK arable crop fields</article-title>. <source xml:lang="en">Journal of Applied Entomology</source>, <volume>123</volume>, <fpage>193</fpage>&#x02013;<lpage>200</lpage>. <pub-id pub-id-type="doi">10.1046/j.1439-0418.1999.00355.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0027"><mixed-citation publication-type="journal" id="ece34536-cit-0027">
+<string-name>
+<surname>King</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Read</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name> (<year>2008</year>). <article-title>Molecular analysis of predation: A review of best practice for DNA&#x02010;based approaches</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>17</volume>, <fpage>947</fpage>&#x02013;<lpage>963</lpage>.<pub-id pub-id-type="pmid">18208490</pub-id></mixed-citation></ref><ref id="ece34536-bib-0028"><mixed-citation publication-type="journal" id="ece34536-cit-0028">
+<string-name>
+<surname>Krehenwinkel</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Kennedy</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Pek&#x000e1;r</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gillespie</surname>, <given-names>R.</given-names>
+</string-name> (<year>2016</year>). <article-title>A cost efficient and simple protocol to enrich prey DNA from extractions of predatory arthropods for large scale gut content analysis by Illumina sequencing</article-title>. <source xml:lang="en">Methods in Ecology and Evolution</source>, <volume>8</volume>, <fpage>126</fpage>&#x02013;<lpage>134</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210X.12647</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0029"><mixed-citation publication-type="journal" id="ece34536-cit-0029">
+<string-name>
+<surname>Kromp</surname>, <given-names>B.</given-names>
+</string-name> (<year>1999</year>). <article-title>Carabid beetles in sustainable agriculture: A review on pest control efficacy cultivation impacts and enhancement</article-title>. <source xml:lang="en">Agriculture, Ecosystems and Environment</source>, <volume>74</volume>, <fpage>187</fpage>&#x02013;<lpage>228</lpage>. <pub-id pub-id-type="doi">10.1016/S0167-8809(99)00037-7</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0030"><mixed-citation publication-type="journal" id="ece34536-cit-0030">
+<string-name>
+<surname>Lang</surname>, <given-names>A.</given-names>
+</string-name> (<year>2003</year>). <article-title>Intraguild interference and biocontrol effects of generalist predators in a winter wheat field</article-title>. <source xml:lang="en">Oecologia</source>, <volume>134</volume>, <fpage>144</fpage>&#x02013;<lpage>153</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-002-1091-5</pub-id>
+<pub-id pub-id-type="pmid">12647191</pub-id></mixed-citation></ref><ref id="ece34536-bib-0031"><mixed-citation publication-type="journal" id="ece34536-cit-0031">
+<string-name>
+<surname>Langmaack</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Land</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>B&#x000fc;chs</surname>, <given-names>W.</given-names>
+</string-name> (<year>2001</year>). <article-title>Effects of different field management systems on the carabid coenosis in oil seed rape with special respect to ecology and nutritional status of predacious Poecilus cupreus L. (Col., Carabidae)</article-title>. <source xml:lang="en">Journal of Applied Entomology</source>, <volume>125</volume>, <fpage>313</fpage>&#x02013;<lpage>320</lpage>. <pub-id pub-id-type="doi">10.1046/j.1439-0418.2001.00531.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0032"><mixed-citation publication-type="journal" id="ece34536-cit-0032">
+<string-name>
+<surname>Larochelle</surname>, <given-names>A.</given-names>
+</string-name> (<year>1990</year>). <article-title>The food of carabid beetles (Coleoptera: Carabidae, including Cicindelinae)</article-title>. <source xml:lang="en">Fabreries, Supplement</source>, <volume>5</volume>, <fpage>1</fpage>&#x02013;<lpage>132</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0033"><mixed-citation publication-type="journal" id="ece34536-cit-0033">
+<string-name>
+<surname>Lefort</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Boyer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Worner</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Armstrong</surname>, <given-names>K.</given-names>
+</string-name> (<year>2011</year>). <article-title>Noninvasive molecular methods to identify live scarab larvae: An example of sympatric pest and nonpest species in New Zealand</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>12</volume>, <fpage>389</fpage>&#x02013;<lpage>395</lpage>. <pub-id pub-id-type="doi">10.1111/j.1755-0998.2011.03103.x</pub-id>
+<pub-id pub-id-type="pmid">22189059</pub-id></mixed-citation></ref><ref id="ece34536-bib-0034"><mixed-citation publication-type="journal" id="ece34536-cit-0034">
+<string-name>
+<surname>L&#x000f6;vei</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Sopp</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sunderland</surname>, <given-names>K.</given-names>
+</string-name> (<year>1987</year>). <article-title>The effect of mixed feeding on the digestion of the carabid <italic>Bembidion lampros</italic>
+</article-title>. <source xml:lang="en">Acta Pathologica Entomologica Hungarica</source>, <volume>22</volume>, <fpage>403</fpage>&#x02013;<lpage>407</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0035"><mixed-citation publication-type="journal" id="ece34536-cit-0035">
+<string-name>
+<surname>L&#x000f6;vei</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Sopp</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sunderland</surname>, <given-names>K.</given-names>
+</string-name> (<year>1990</year>). <article-title>Digestion rate in relation to alternative feeding in three species of polyphagous predators</article-title>. <source xml:lang="en">Ecological Entomology</source>, <volume>15</volume>, <fpage>293</fpage>&#x02013;<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2311.1990.tb00811.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0036"><mixed-citation publication-type="journal" id="ece34536-cit-0036">
+<string-name>
+<surname>L&#x000f6;vei</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sunderland</surname>, <given-names>K.</given-names>
+</string-name> (<year>1996</year>). <article-title>Ecology and behaviour of ground beetles (Coleoptera: Carabidae)</article-title>. <source xml:lang="en">Annual Review of Entomology</source>, <volume>41</volume>, <fpage>231</fpage>&#x02013;<lpage>2356</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0037"><mixed-citation publication-type="book" id="ece34536-cit-0037">
+<string-name>
+<surname>Luff</surname>, <given-names>M.</given-names>
+</string-name> (<year>2002</year>). <chapter-title>Carabid assemblage organization and species composition</chapter-title> In <person-group person-group-type="editor"><name><surname>Holland</surname><given-names>J.</given-names></name></person-group> (Ed.), <source xml:lang="en">The Agroecology of carabid beetles</source> (pp. <fpage>41</fpage>&#x02013;<lpage>79</lpage>). <publisher-loc>Andover, UK</publisher-loc>: <publisher-name>Intercept</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0038"><mixed-citation publication-type="book" id="ece34536-cit-0038">
+<string-name>
+<surname>Lundgren</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>). <source xml:lang="en">Relationships of natural enemies and non&#x02010;prey foods</source>. <publisher-loc>London, UK</publisher-loc>: <publisher-name>Springer Science &#x00026; Business Media</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0039"><mixed-citation publication-type="journal" id="ece34536-cit-0039">
+<string-name>
+<surname>Lundgren</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ellsbury</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Prischmann</surname>, <given-names>D.</given-names>
+</string-name> (<year>2009</year>). <article-title>Analysis of the predator community of a subterranean herbivorous insect based on polymerase chain reaction</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>19</volume>, <fpage>2157</fpage>&#x02013;<lpage>2166</lpage>. <pub-id pub-id-type="doi">10.1890/08-1882.1</pub-id>
+<pub-id pub-id-type="pmid">20014585</pub-id></mixed-citation></ref><ref id="ece34536-bib-0040"><mixed-citation publication-type="journal" id="ece34536-cit-0040">
+<string-name>
+<surname>Lundgren</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Saska</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hon&#x0011b;k</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Molecular approach to describing a seed&#x02010;based food web: The post&#x02010;dispersal granivore community of an invasive plant</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>3</volume>, <fpage>1642</fpage>&#x02013;<lpage>1652</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.580</pub-id>
+<pub-id pub-id-type="pmid">23789074</pub-id></mixed-citation></ref><ref id="ece34536-bib-0041"><mixed-citation publication-type="journal" id="ece34536-cit-0041">
+<string-name>
+<surname>Matson</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Parton</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Power</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Swift</surname>, <given-names>M.</given-names>
+</string-name> (<year>1997</year>). <article-title>Agricultural intensification and ecosystem properties</article-title>. <source xml:lang="en">Science</source>, <volume>277</volume>, <fpage>504</fpage>&#x02013;<lpage>509</lpage>. <pub-id pub-id-type="doi">10.1126/science.277.5325.504</pub-id>
+<pub-id pub-id-type="pmid">20662149</pub-id></mixed-citation></ref><ref id="ece34536-bib-0042"><mixed-citation publication-type="journal" id="ece34536-cit-0042">
+<string-name>
+<surname>Monzo</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Sabater&#x02010;Mu&#x000f1;oz</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Urbaneja</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Casta&#x000f1;era</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>The ground beetle <italic>Pseudophonus rufipes</italic> revealed as predator of <italic>Ceratitis capitata</italic> in citrus orchards</article-title>. <source xml:lang="en">Biological Control</source>, <volume>56</volume>, <fpage>17</fpage>&#x02013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocontrol.2010.09.004</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0043"><mixed-citation publication-type="book" id="ece34536-cit-0043">
+<string-name>
+<surname>Naylor</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ehrlich</surname>, <given-names>P.</given-names>
+</string-name> (<year>1997</year>). <chapter-title>Natural pest control services and agriculture</chapter-title> In <person-group person-group-type="editor"><name><surname>Daily</surname><given-names>G.</given-names></name></person-group> (Ed.), <source xml:lang="en">Nature's services: Societal dependence on natural ecosystems</source> (p. <fpage>151</fpage>). <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>Island Press</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0044"><mixed-citation publication-type="journal" id="ece34536-cit-0044">
+<string-name>
+<surname>Oehm</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Juen</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nagiller</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Neuhauser</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Molecular scatology: How to improve prey DNA detection success in avian faeces?</article-title>
+<source xml:lang="en">Molecular Ecology Resources</source>, <volume>11</volume>, <fpage>620</fpage>&#x02013;<lpage>628</lpage>. <pub-id pub-id-type="doi">10.1111/j.1755-0998.2011.03001.x</pub-id>
+<pub-id pub-id-type="pmid">21676193</pub-id></mixed-citation></ref><ref id="ece34536-bib-0045"><mixed-citation publication-type="journal" id="ece34536-cit-0045">
+<string-name>
+<surname>&#x000d6;stman</surname>, <given-names>&#x000d6;.</given-names>
+</string-name> (<year>2004</year>). <article-title>The relative effects of natural enemy abundance and alternative prey abundance on aphid predation rates</article-title>. <source xml:lang="en">Biological Control</source>, <volume>30</volume>, <fpage>281</fpage>&#x02013;<lpage>287</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocontrol.2004.01.015</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0046"><mixed-citation publication-type="journal" id="ece34536-cit-0046">
+<string-name>
+<surname>Penry</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Juman</surname>, <given-names>P.</given-names>
+</string-name> (<year>1987</year>). <article-title>Modeling animal guts as chemical reactors</article-title>. <source xml:lang="en">American Naturalist</source>, <volume>129</volume>, <fpage>69</fpage>&#x02013;<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1086/284623</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0047"><mixed-citation publication-type="journal" id="ece34536-cit-0047">
+<string-name>
+<surname>Polz</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cavanaugh</surname>, <given-names>C.</given-names>
+</string-name> (<year>1998</year>). <article-title>Bias in template&#x02010;to&#x02010;product ratios in multitemplate PCR</article-title>. <source xml:lang="en">Applied and Environmental Microbiology</source>, <volume>64</volume>, <fpage>3724</fpage>&#x02013;<lpage>3730</lpage>.<pub-id pub-id-type="pmid">9758791</pub-id></mixed-citation></ref><ref id="ece34536-bib-0048"><mixed-citation publication-type="journal" id="ece34536-cit-0048">
+<string-name>
+<surname>Pompanon</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Deagle</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Jarman</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taberlet</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>Who is eating what: Diet assessment using next generation sequencing</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>21</volume>, <fpage>1931</fpage>&#x02013;<lpage>1950</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2011.05403.x</pub-id>
+<pub-id pub-id-type="pmid">22171763</pub-id></mixed-citation></ref><ref id="ece34536-bib-0049"><mixed-citation publication-type="journal" id="ece34536-cit-0049">
+<string-name>
+<surname>Raso</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Sint</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Plangg</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Recheis</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kaufmann</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Intraguild predation in pioneer predator communities of Alpine glacier forelands</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>23</volume>, <fpage>3744</fpage>&#x02013;<lpage>3754</lpage>. <pub-id pub-id-type="doi">10.1111/mec.12649</pub-id>
+<pub-id pub-id-type="pmid">24383765</pub-id></mixed-citation></ref><ref id="ece34536-bib-0050"><mixed-citation publication-type="journal" id="ece34536-cit-0050">
+<string-name>
+<surname>Renkema</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Manning</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cutler</surname>, <given-names>G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Predation of lowbush blueberry insect pests by ground beetles (Coleoptera: Carabidae) in the laboratory</article-title>. <source xml:lang="en">Journal of Pest Science</source>, <volume>86</volume>, <fpage>525</fpage>&#x02013;<lpage>532</lpage>. <pub-id pub-id-type="doi">10.1007/s10340-013-0480-3</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0051"><mixed-citation publication-type="journal" id="ece34536-cit-0051">
+<string-name>
+<surname>Roubinet</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Birkhofer</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Malsher</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Staudacher</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Ekbom</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jonsson</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Diet of generalist predators reflects effects of cropping period and farming system on extra&#x02010; and intraguild prey</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>27</volume>, <fpage>1167</fpage>&#x02013;<lpage>1177</lpage>. <pub-id pub-id-type="doi">10.1002/eap.1510</pub-id>
+<pub-id pub-id-type="pmid">28132400</pub-id></mixed-citation></ref><ref id="ece34536-bib-0052"><mixed-citation publication-type="journal" id="ece34536-cit-0052">
+<string-name>
+<surname>Seeber</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Rief</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Seeber</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>Molecular identification of detritivorous soil invertebrates from their faecal pellets</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>, <volume>42</volume>, <fpage>1263</fpage>&#x02013;<lpage>1267</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2010.04.008</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0053"><mixed-citation publication-type="journal" id="ece34536-cit-0053">
+<string-name>
+<surname>Sint</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Raso</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Kaufmann</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Optimizing methods for PCR&#x02010;based analysis of predation</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>11</volume>, <fpage>795</fpage>&#x02013;<lpage>801</lpage>. <pub-id pub-id-type="doi">10.1111/j.1755-0998.2011.03018.x</pub-id>
+<pub-id pub-id-type="pmid">21507208</pub-id></mixed-citation></ref><ref id="ece34536-bib-0054"><mixed-citation publication-type="journal" id="ece34536-cit-0054">
+<string-name>
+<surname>Sint</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Thurner</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Kaufmann</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Sparing spiders: Faeces as a non&#x02010;invasive source of DNA</article-title>. <source xml:lang="en">Frontiers in Zoology</source>, <volume>12</volume>, <fpage>3</fpage>
+<pub-id pub-id-type="doi">10.1186/s12983-015-0096-y</pub-id>
+<pub-id pub-id-type="pmid">25722736</pub-id></mixed-citation></ref><ref id="ece34536-bib-0055"><mixed-citation publication-type="journal" id="ece34536-cit-0055">
+<string-name>
+<surname>Sipos</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Szekely</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Palatinsky</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000e9;v&#x000e9;sz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>M&#x000e1;rialigeti</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nikolausz</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effect of primer mismatch, annealing temperature and PCR cycle number on 16S rRNA gene&#x02010;targeting bacterial community analysis</article-title>. <source xml:lang="en">FEMS Microbiology Ecology</source>, <volume>60</volume>, <fpage>341</fpage>&#x02013;<lpage>350</lpage>.<pub-id pub-id-type="pmid">17343679</pub-id></mixed-citation></ref><ref id="ece34536-bib-0056"><mixed-citation publication-type="journal" id="ece34536-cit-0056">
+<string-name>
+<surname>Soininen</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Valentini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Coissac</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Miquel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Gielly</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Brochmann</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Taberlet</surname>, <given-names>P.</given-names>
+</string-name> (<year>2009</year>). <article-title>Analysing diet of small herbivores: The efficiency of DNA barcoding coupled with high&#x02010;throughput pyrosequencing for deciphering the composition of complex plant mixtures</article-title>. <source xml:lang="en">Frontiers in Zoology</source>, <volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1186/1742-9994-6-16</pub-id>
+<pub-id pub-id-type="pmid">19128479</pub-id></mixed-citation></ref><ref id="ece34536-bib-0057"><mixed-citation publication-type="journal" id="ece34536-cit-0057">
+<string-name>
+<surname>Soininen</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Zinger</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Gielly</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Bellemain</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Br&#x000e5;then</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Brochmann</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Henden</surname>, <given-names>J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Shedding new light on the diet of Norwegian lemmings: DNA metabarcoding of stomach content</article-title>. <source xml:lang="en">Polar Biology</source>, <volume>36</volume>, <fpage>1069</fpage>&#x02013;<lpage>1076</lpage>. <pub-id pub-id-type="doi">10.1007/s00300-013-1328-2</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0058"><mixed-citation publication-type="journal" id="ece34536-cit-0058">
+<string-name>
+<surname>Staudacher</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Jonsson</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Diagnostic PCR assays to unravel food web interactions in cereal crops with focus on biological control of aphids</article-title>. <source xml:lang="en">Journal of Pest Science</source>, <volume>89</volume>, <fpage>281</fpage>&#x02013;<lpage>293</lpage>. <pub-id pub-id-type="doi">10.1007/s10340-015-0685-8</pub-id>
+<pub-id pub-id-type="pmid">26924957</pub-id></mixed-citation></ref><ref id="ece34536-bib-0059"><mixed-citation publication-type="journal" id="ece34536-cit-0059">
+<string-name>
+<surname>Staudacher</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Wallinger</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Schallhart</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Detecting ingested plant DNA in soil&#x02010;living insect larvae</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>, <volume>43</volume>, <fpage>346</fpage>&#x02013;<lpage>350</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2010.10.022</pub-id>
+<pub-id pub-id-type="pmid">21317975</pub-id></mixed-citation></ref><ref id="ece34536-bib-0060"><mixed-citation publication-type="journal" id="ece34536-cit-0060">
+<string-name>
+<surname>Sword</surname>, <given-names>G.</given-names>
+</string-name> (<year>2000</year>). <article-title>Tasty on the outside, but toxic in the middle: Grasshopper regurgitation and host plant&#x02010;mediated toxicity to a vertebrate predator</article-title>. <source xml:lang="en">Oecologia</source>, <volume>128</volume>, <fpage>416</fpage>&#x02013;<lpage>421</lpage>. <pub-id pub-id-type="doi">10.1007/s004420100666</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0061"><mixed-citation publication-type="journal" id="ece34536-cit-0061">
+<string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Glen</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Ives</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Langdon</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wiltshire</surname>, <given-names>C.</given-names>
+</string-name> (<year>2002</year>). <article-title>Dynamics of the relationship between a generalist predator and slugs over five years</article-title>. <source xml:lang="en">Ecology</source>, <volume>83</volume>, <fpage>137</fpage>&#x02013;<lpage>147</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0062"><mixed-citation publication-type="journal" id="ece34536-cit-0062">
+<string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Harwood</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Special issue on molecular detection of trophic interactions: Unpicking the tangled bank</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>23</volume>, <fpage>3601</fpage>&#x02013;<lpage>3604</lpage>. <pub-id pub-id-type="doi">10.1111/mec.12831</pub-id>
+<pub-id pub-id-type="pmid">25051891</pub-id></mixed-citation></ref><ref id="ece34536-bib-0063"><mixed-citation publication-type="journal" id="ece34536-cit-0063">
+<string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Sunderland</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Greenstone</surname>, <given-names>M.</given-names>
+</string-name> (<year>2002</year>). <article-title>Can generalist predators be effective biocontrol agents?</article-title>
+<source xml:lang="en">Annual Review in Entomology</source>, <volume>47</volume>, <fpage>561</fpage>&#x02013;<lpage>594</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0064"><mixed-citation publication-type="journal" id="ece34536-cit-0064">
+<string-name>
+<surname>Taberlet</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Coissac</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Pompanon</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Gielly</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Miquel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Valentini</surname>, <given-names>A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Willerslev</surname>, <given-names>E.</given-names>
+</string-name> (<year>2007</year>). <article-title>Power and limitations of the chloroplast <italic>trn</italic>L (UAA) intron for plant DNA barcoding</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>35</volume>, <fpage>14</fpage>&#x02013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkl938</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0065"><mixed-citation publication-type="book" id="ece34536-cit-0065">
+<string-name>
+<surname>Thiele</surname>, <given-names>H.&#x02010;U.</given-names>
+</string-name> (<year>1977</year>). <source xml:lang="en">Carabid beetles in their environments: A study on habitat selection by adaptation in physiology and behaviour</source>. <publisher-loc>Berlin and Heidelberg, Germany; New York, NY</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0066"><mixed-citation publication-type="journal" id="ece34536-cit-0066">
+<string-name>
+<surname>Thomas</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Harwood</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Glen</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Symondson</surname>, <given-names>W.</given-names>
+</string-name> (<year>2009</year>). <article-title>Tracking predator density dependence and subterranean predation by carabid larvae on slugs using monoclonal antibodies</article-title>. <source xml:lang="en">Ecological Entomology</source>, <volume>34</volume>, <fpage>569</fpage>&#x02013;<lpage>579</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2311.2009.01104.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0067"><mixed-citation publication-type="journal" id="ece34536-cit-0067">
+<string-name>
+<surname>Thomas</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Jarman</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Haman</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Trites</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Deagle</surname>, <given-names>B.</given-names>
+</string-name> (<year>2014</year>). <article-title>Improving accuracy of DNA diet estimates using food tissue control materials and an evaluation of proxies for digestion bias</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>23</volume>, <fpage>3706</fpage>&#x02013;<lpage>3718</lpage>. <pub-id pub-id-type="doi">10.1111/mec.12523</pub-id>
+<pub-id pub-id-type="pmid">24102760</pub-id></mixed-citation></ref><ref id="ece34536-bib-0068"><mixed-citation publication-type="journal" id="ece34536-cit-0068">
+<string-name>
+<surname>Tilman</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Cassman</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Matson</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Naylor</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Polasky</surname>, <given-names>S.</given-names>
+</string-name> (<year>2002</year>). <article-title>Agricultural sustainability and intensive production practices</article-title>. <source xml:lang="en">Nature</source>, <volume>418</volume>, <fpage>671</fpage>&#x02013;<lpage>677</lpage>. <pub-id pub-id-type="doi">10.1038/nature01014</pub-id>
+<pub-id pub-id-type="pmid">12167873</pub-id></mixed-citation></ref><ref id="ece34536-bib-0069"><mixed-citation publication-type="book" id="ece34536-cit-0069">
+<string-name>
+<surname>Tooley</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Brust</surname>, <given-names>G.</given-names>
+</string-name> (<year>2002</year>). <chapter-title>Weed seed predation by carabid beetles</chapter-title> In<person-group person-group-type="editor"><name><surname>Holland</surname><given-names>J. M.</given-names></name></person-group> (Ed.), <source xml:lang="en">The Agroecology of carabid beetles</source> (pp. <fpage>215</fpage>&#x02013;<lpage>229</lpage>). <publisher-loc>Andover, UK</publisher-loc>: <publisher-name>Intercept</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0070"><mixed-citation publication-type="book" id="ece34536-cit-0070">
+<string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kamenova</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ruess</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Seeber</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Plantegenest</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <chapter-title>Empirically Characterising Trophic Networks: What emerging DNA&#x02010;based methods, stable isotope and fatty acid analyses can offer</chapter-title> In <person-group person-group-type="editor"><name><surname>Woodward</surname><given-names>G.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Bohan</surname><given-names>D. A.</given-names></name></person-group> (Eds.), <source xml:lang="en">Ecological networks in an agricultural world</source> (pp. <fpage>177</fpage>&#x02013;<lpage>224</lpage>). <publisher-loc>London and Oxford, UK; Amsterdam, the Netherlands</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</mixed-citation></ref><ref id="ece34536-bib-0071"><mixed-citation publication-type="journal" id="ece34536-cit-0071">
+<string-name>
+<surname>Valentini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Miquel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Nawaz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bellemain</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Coissac</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Pompanon</surname>, <given-names>F.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Taberlet</surname>, <given-names>P.</given-names>
+</string-name> (<year>2009</year>). <article-title>New perspectives in diet analysis based on DNA barcoding and parallel pyrosequencing: The <italic>trn</italic>L approach</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>9</volume>, <fpage>51</fpage>&#x02013;<lpage>60</lpage>.</mixed-citation></ref><ref id="ece34536-bib-0072"><mixed-citation publication-type="journal" id="ece34536-cit-0072">
+<string-name>
+<surname>Valentini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Pompanon</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taberlet</surname>, <given-names>P.</given-names>
+</string-name> (<year>2009</year>). <article-title>DNA barcoding for ecologists</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>24</volume>, <fpage>110</fpage>&#x02013;<lpage>117</lpage>.<pub-id pub-id-type="pmid">19100655</pub-id></mixed-citation></ref><ref id="ece34536-bib-0073"><mixed-citation publication-type="journal" id="ece34536-cit-0073">
+<string-name>
+<surname>von Berg</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Scheu</surname>, <given-names>S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Scavenging and active predation in generalist predators: A mesocosm study employing DNA&#x02010;based gut content analysis</article-title>. <source xml:lang="en">Pedobiologia</source>, <volume>55</volume>, <fpage>1</fpage>&#x02013;<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1016/j.pedobi.2011.07.001</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0074"><mixed-citation publication-type="journal" id="ece34536-cit-0074">
+<string-name>
+<surname>Waits</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Paetkau</surname>, <given-names>D.</given-names>
+</string-name> (<year>2005</year>). <article-title>Noninvasive genetic sampling tools for wildlife biologists: A review of applications and recommendations for accurate data collection</article-title>. <source xml:lang="en">Journal of Wildlife Management</source>, <volume>69</volume>, <fpage>1419</fpage>&#x02013;<lpage>1433</lpage>. <pub-id pub-id-type="doi">10.2193/0022-541X(2005)69[1419:NGSTFW]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0075"><mixed-citation publication-type="journal" id="ece34536-cit-0075">
+<string-name>
+<surname>Waldner</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sint</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Juen</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>The effect of predator identity on post&#x02010;feeding prey DNA detection success in soil&#x02010;dwelling macro&#x02010;invertebrates</article-title>. <source xml:lang="en">Soil Biology &#x00026; Biochemistry</source>, <volume>63</volume>, <fpage>116</fpage>&#x02013;<lpage>123</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2013.03.030</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0076"><mixed-citation publication-type="journal" id="ece34536-cit-0076">
+<string-name>
+<surname>Waldner</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2012</year>). <article-title>DNA&#x02010;based analysis of regurgitates: A noninvasive approach to examine the diet of invertebrate consumers</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>12</volume>, <fpage>669</fpage>&#x02013;<lpage>675</lpage>. <pub-id pub-id-type="doi">10.1111/j.1755-0998.2012.03135.x</pub-id>
+<pub-id pub-id-type="pmid">22443278</pub-id></mixed-citation></ref><ref id="ece34536-bib-0077"><mixed-citation publication-type="journal" id="ece34536-cit-0077">
+<string-name>
+<surname>Wallinger</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Sint</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Baier</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Detection of seed DNA in regurgitates of granivorous carabid beetles</article-title>. <source xml:lang="en">Bulletin of Entomological Research</source>, <volume>105</volume>, <fpage>728</fpage>&#x02013;<lpage>735</lpage>. <pub-id pub-id-type="doi">10.1017/S000748531500067X</pub-id>
+<pub-id pub-id-type="pmid">26271284</pub-id></mixed-citation></ref><ref id="ece34536-bib-0078"><mixed-citation publication-type="journal" id="ece34536-cit-0078">
+<string-name>
+<surname>Wallinger</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Staudacher</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Schallhart</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Peter</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Dresch</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Juen</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Traugott</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>The effect of plant identity and the level of plant decay on molecular gut content analysis in a herbivorous soil insect</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>13</volume>, <fpage>75</fpage>&#x02013;<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12032</pub-id>
+<pub-id pub-id-type="pmid">23167731</pub-id></mixed-citation></ref><ref id="ece34536-bib-0079"><mixed-citation publication-type="journal" id="ece34536-cit-0079">
+<string-name>
+<surname>Weber</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lundgren</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>). <article-title>Detection of predation using qPCR: Effect of prey quantity, elapsed time, chaser diet, and sample preservation on detectable quantity of prey DNA</article-title>. <source xml:lang="en">Journal of Insect Science</source>, <volume>9</volume>, <fpage>12</fpage>
+<pub-id pub-id-type="doi">10.1673/031.009.4101</pub-id>
+<pub-id pub-id-type="pmid">19613441</pub-id></mixed-citation></ref><ref id="ece34536-bib-0080"><mixed-citation publication-type="journal" id="ece34536-cit-0080">
+<string-name>
+<surname>Westerman</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Wes</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kropff</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Van der Werf</surname>, <given-names>W.</given-names>
+</string-name> (<year>2003</year>). <article-title>Annual losses of weed seeds due to predation in organic cereal fields</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>40</volume>, <fpage>824</fpage>&#x02013;<lpage>836</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2664.2003.00850.x</pub-id>
+</mixed-citation></ref><ref id="ece34536-bib-0081"><mixed-citation publication-type="journal" id="ece34536-cit-0081">
+<string-name>
+<surname>Wissinger</surname>, <given-names>S.</given-names>
+</string-name> (<year>1997</year>). <article-title>Cyclic colonization in predictably ephemeral habitats: A template for biological control in annual crop systems</article-title>. <source xml:lang="en">Biological Control</source>, <volume>10</volume>, <fpage>4</fpage>&#x02013;<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1006/bcon.1997.0543</pub-id>
+</mixed-citation></ref></ref-list></back></article>
