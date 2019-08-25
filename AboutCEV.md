@@ -9,9 +9,19 @@ While EssoilDB V1.0 used manual entry of data, mainly from closed access papers,
 extract plant and chemical data. We have no idea how successful this will be (that's research), but initial searches suggest that there are many thousands
 of OA phytochemical papers and it's OA that has made this project possible.
 
+### Scientific accessibility
+Phytochemical medicine is something that everyone understands at a general level and a high school student can soon understand the principles:
+* plants produce a mixture of chemicals (often oils)
+* oils from plants are used to treat or prevent diseases, kill insects and other biological activities
+
+**However judgments as to whether the published conclusions are valid requires much experience and knowledge of the field** .
+If people wish to volunteer they will need to show they are proficient in plant science/medicinal chemistry/data science.
+
+
+
 ### Hopes
 We hope that we will be able to create a rapid proof of concept (PoC), which will give an indication of what phytochemical activites can be retrieved from the
-literature with current tools (a "scoping review"). It is NOT be a medically quotable result. It will also allow https://en.wikipedia.org/wiki/Content_analysis (the sectioning and labelling of parts of the document). Ultimately this will lead to the identification of the most important scientific objects in the document ("entities"). In time these will be incoporated into dictionaries which can automatically label objects such as
+literature with current tools (a "scoping review"). It is NOT be a medically quotable result. It will also allow https://en.wikipedia.org/wiki/Content_analysis (the sectioning and labelling of parts of the document). Ultimately this will lead to the identification of the most important scientific objects in the document ("entities"). In time these will be incorporated into dictionaries which can automatically label objects such as
 * diseases
 * instruments and procedures
 * drugs
@@ -43,5 +53,6 @@ https://verriclear.com/ , founded by Emanuel Faria (EF) , creates 100% plant-bas
 
 
 ## Volunteers and collaborators
-Initially the project data will be created/extracted by EF and PMR; GY as advisor. We generally welcome 
+Initially the project data will be created/extracted by EF and PMR; GY as advisor. We welcome volunteers of all ages; noting that Lars Willighagen whicle at secondary school did a great ContentMine project. However our time for training is very limited and you take us as you find us.
+
 
