@@ -48,11 +48,11 @@ Email: gy@nipgr.ac.in Phone: +91-11-26735103
 
 Because EssoilDB is created for free re-use we thank Gitanjali and NIPGR for the data in EssoilDB 1.0 (2019-08). Any additions and enhancements can be taken by EssoilDB and incorporated in later versions.
 
-### VerriclearVerriclear
-https://verriclear.com/ , founded by Emanuel Faria (EF) , creates 100% plant-based natural skincare formulations [for] skin conditions. 
+### Verriclear
+https://verriclear.com/, founded by Emanuel Faria (EF), creates 100% plant-based natural skincare formulations [for] skin conditions. 
 
 
 ## Volunteers and collaborators
-Initially the project data will be created/extracted by EF and PMR; GY as advisor. We welcome volunteers of all ages; noting that Lars Willighagen whicle at secondary school did a great ContentMine project. However our time for training is very limited and you take us as you find us.
+Initially the project data will be created/extracted by EF and PMR; GY as advisor. We welcome volunteers of all ages; noting that Lars Willighagen while at secondary school did a great ContentMine project. However our time for training is very limited and you take us as you find us.
 
 
