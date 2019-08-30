@@ -1,6 +1,10 @@
 # README
 This site is a repository for an Open project to mine the plant chemistry literature and make the data instantly and universally available.
 
+## communal resources for OpenNotebook
+Much of the code and processes are shared between the OpenNotebook projects, see:
+[OpenNotebook](https://github.com/petermr/openNotebook/blob/master/README.md)
+
 ## CEVOpen
 The project members and purpose are described in [CEVOpen](AboutCEV.md).
 
