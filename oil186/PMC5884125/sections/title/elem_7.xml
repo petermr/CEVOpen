@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="sec3" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">3. Results</div>
+ <sec id="sec3.1" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">3.1. Sample Collection and Preparation</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">The soil moisture was determined to be 0.03–0.08 m
+   <span class="sup">3</span>/m
+   <span class="sup">3</span>, measured using EM50 Digital data logger, and pH was measured by Jenway 3505 pH meter as 8.5. The viscosity of the heavy crude oil from the well head, which contaminated the soil, was estimated as 4.57°API using RheolabQC Rotation Viscometer. The eTPH of the soil samples ranged within 3.2–4.8%.
+  </p>
+ </sec>
+ <sec id="sec3.2" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">3.2. Genomic DNA Isolation and Identification of Cultivable Spore-Forming Isolates Using 16S rDNA Sequencing</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">The gDNA from all the isolates (
+   <a ref-type="fig" rid="fig1" href="#fig1">Figure 1(a)</a>) and the soil samples (
+   <a ref-type="fig" rid="fig1" href="#fig1">Figure 1(b)</a>) was extracted using PowerSoil DNA Isolation Kit and was successfully amplified using universal primers for bacteria, 27F and 1492R. The amplified product was 1400 bp (
+   <a ref-type="fig" rid="fig2" href="#fig2">Figure 2</a>).
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The purified PCR product was sequenced using 3130 XL Genetic Analyzer and the sequences were submitted to NCBI under the accession numbers KP119097–KP119115 (
+   <a ref-type="table" rid="tab1" href="#tab1">Table 1</a>).
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The sequences were aligned with the closely related species sequences from NCBI nucleotide blast. The branches with bootstrap values above 70% are reliable. The dendrogram was made using ML (maximum likelihood) method, which assumes every single site of the multiple sequence alignment independently with bootstrapping of 1000 replications. The ln likelihood for the cladogram was −6866.09722. The closer the value of likelihood to zero, the better is the dendrogram (
+   <a ref-type="fig" rid="fig3" href="#fig3">Figure 3</a>). Among the listed isolates in 
+   <a ref-type="table" rid="tab1" href="#tab1">Table 1</a>,
+   <span class="italic"> Paenibacillus ehimensis</span> BS1 showed very good potential for applications in MEOR and heavy crude oil biodegradation [
+   <a rid="B11" ref-type="bibr" href="#B11">11</a>].
+  </p>
+ </sec>
+ <sec id="sec3.3" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">3.3. NGS Analysis of Microbial Community in Soil Samples</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">The gDNA was amplified using specific primers targeting the V4 region of the 16S rRNA bacterial gene using 515F (5′-GTGCCAGCMGCCGCGGTAA-3′) and 806R (5′-GGACTACVSGGGTATCTAAT-3′) for Ion Torrent PGM analysis. A total of 825081 raw sequences were obtained from Ion torrent from all the 10 soil samples. After quality filtering 758305 reads were obtained. Clustering with UCLUST provided 755423 OTUs. The average reads per sample was 75542. The OTUs were rarefied to 30000 sequences and jackknifed at 25000 sequences.</p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The 
+   <span class="italic">α</span>-diversity measures of the samples were done in QIIME pipeline and Past3. Shannon index (
+   <span class="italic">H</span>′) and Simpson index (
+   <span class="italic">D</span>) were calculated for all the samples (
+   <a ref-type="table" rid="tab2" href="#tab2">Table 2</a>), which revealed that the species richness and relative abundance were present in all the samples, soil sample 2 being with the least diversity.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">Rarefaction curves with chao1 and Shannon diversity were plotted with the average number of OTUs at each interval against the size of the subsample [
+   <a rid="B27" ref-type="bibr" href="#B27">27</a>] (
+   <a ref-type="fig" rid="fig4" href="#fig4">Figure 4</a>). It was found that, for all the 10 soil samples, the curve reached a plateau at approximately 5000 sequences indicating that sequencing depth was sufficient to capture the full scope of microbial diversity.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">Taxonomic comparison of the OTUs identified four main phyla, Firmicutes, Bacteroidetes, Proteobacteria, and Actinobacteria, the most abundant being Firmicutes followed by Bacteroidetes (
+   <a ref-type="fig" rid="fig5" href="#fig5">Figure 5</a>). Further comparison of genus belonging to these phyla showed that
+   <span class="italic"> Bacillus</span> was the most abundant genus followed by
+   <span class="italic"> Paenibacillus</span>, which was followed by
+   <span class="italic"> Brevibacillus</span>,
+   <span class="italic"> Planococcus</span>,
+   <span class="italic"> Flavobacterium</span>, and so forth (
+   <a ref-type="fig" rid="fig6" href="#fig6">Figure 6</a>).
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The result was confirmed by heatmap analysis in which the highest relative abundance of
+   <span class="italic"> Bacillus</span>,
+   <span class="italic"> Paenibacillus</span>, and
+   <span class="italic"> Brevibacillus</span> was found in all the 10 soil samples and the soil samples with more similar microbial populations were mathematically clustered closer together. The genera (consortium) were used for clustering. Thus, the samples with more similar consortium of genera cluster closer together with the length of connecting lines (top of heatmap) (
+   <a ref-type="fig" rid="fig7" href="#fig7">Figure 7</a>) related to the similarity; shorter lines between two samples indicate closely matched microbial consortium. The heatmap represents the relative percentages of each genus. The predominant genera are represented along the right 
+   <span class="italic">y</span>-axis.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">SHE analysis was performed to evaluate whether species proportion was similar in all of the 10 soil samples to assess the microbial diversity. The community structure was determined as a log-normal distribution, that is, a few species with high or low abundance and many with intermediate abundance [
+   <a rid="B28" ref-type="bibr" href="#B28">28</a>] (
+   <a ref-type="fig" rid="fig8" href="#fig8">Figure 8</a>).
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The resemblance between the bacterial communities, 
+   <span class="italic">β</span>-diversity, was measured using UniFrac analysis, which provided a tree-based (
+   <a ref-type="fig" rid="fig9" href="#fig9">Figure 9(a)</a>) Principal Coordinate Analysis (PCoA) graph (
+   <a ref-type="fig" rid="fig9" href="#fig9">Figure 9(b)</a>), which grouped the soil samples to 4 main clusters. The eigenvalues for PC1, PC2, and PC3 were 0.014, 0.002, and 0.001, respectively, and accounted for 74%, 12%, and 6% of the total variance. Both the two approaches revealed the same pattern.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">UniFrac 
+   <span class="italic">p</span> values were based on comparisons to 1,000 randomized trees. The 
+   <span class="italic">p</span> values are significant only if they were &lt;0.05 (
+   <a ref-type="table" rid="tab3" href="#tab3">Table 3</a>).
+  </p>
+ </sec>
+</sec>

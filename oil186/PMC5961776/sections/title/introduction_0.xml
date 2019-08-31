@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec sec-type="intro" id="sec1" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Introduction</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">Widespread use of Dietary Supplements (DS) is commonly seen among people belonging to different ethnicities, backgrounds, ages and genders across the globe despite insufficient evidence about their safety, efficacy and regulatory guidelines 
+  <span class="sup">
+   <a rid="r1-2840637" ref-type="bibr" href="#r1-2840637">1</a>, 
+   <a rid="r2-2840637" ref-type="bibr" href="#r2-2840637">2</a>
+  </span>. According to National Health and Nutrition Examination Survey data (NHANES) conducted between year cycles 1971–1974 and 2003-2006, the age adjusted consumption of DS has gradually increased in male (28% to 44%) and female (38% to 53%) consumer groups 
+  <span class="sup">
+   <a rid="r3-2840637" ref-type="bibr" href="#r3-2840637">3</a>
+  </span>. High consumption is especially seen among adults aged ≥60 y with 70% of older adults in the United States reported using one or more DS 
+  <span class="sup">
+   <a rid="r4-2840637" ref-type="bibr" href="#r4-2840637">4</a>
+  </span>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Most people consider DS as safe and usually take them without consulting with healthcare providers. However, there is increasing evidence that DS could interact with prescription medicine and also cause serious adverse events. According to the Center for Disease Control and Prevention (CDC), an average of 23,000 annual emergency visits were related to DS in US 
+  <span class="sup">
+   <a rid="r5-2840637" ref-type="bibr" href="#r5-2840637">5</a>
+  </span>. Unlike prescription and over-the-counter medicines, DS are regulated by the Dietary Supplement Health and Education Act of 1994 (DSHEA) 
+  <span class="sup">
+   <a rid="r6-2840637" ref-type="bibr" href="#r6-2840637">6</a>
+  </span> and unlike drugs, clinical trials on DS safety and efficacy before getting marketed are not required. In addition, it is voluntary for healthcare providers to report only serious adverse events, including hospitalization, disability, and death, related to DS in the post-market surveillance. Current safety documentation for DS is very limited as most available information is based either on pharmacologic research, animal models or pharmaco-epidemiologic studies that often solely focus on a small set of drugs or supplements. These have greatly limited our ability to build up our knowledge on safety of DS.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Integrating information across diverse resources (e.g., online databases, biomedical literature) and further developing a data model to comprehensively represent DS and relevant safety information could potentially fill the knowledge gap to improve DS product safety. Common online sources for DS information include commercial databases such as Natural Medicines (NM), a primarily ingredient level resource, and publically available databases, such as U.S. Dietary Supplement Label Database (DSLD) and Canadian Natural Health Product Ingredient database (NHPID), which are both considered as product level resources. Product labeling statements in these resources contain very limited safety information. There remains a critical need to more fully represent supplements by linking these databases using a common data model. Accurate and comprehensive supplement representation is also vital for accurate information extraction from both the biomedical literature and online databases.</p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Our prior work demonstrated number of gaps with regards to term representation in existing standard terminologies (Unified Medical Language System (UMLS), RxNorm and National Drug File-Reference Terminology (NDF-RT)) and clinical notes within Electronic Health Records 
+  <span class="sup">
+   <a rid="r7-2840637" ref-type="bibr" href="#r7-2840637">7</a>, 
+   <a rid="r8-2840637" ref-type="bibr" href="#r8-2840637">8</a>
+  </span>. Currently, no prior work has been done to comprehensively represent DS and the associated data model. In this study, we selected five online databases for DS, both at the ingredient and product level, and compared them against the list of data elements considered essential to comprehensively represent DS. This is the initial step towards the development of formal DS terminology/ontology model that could represent DS related information in a more accurate and consistent format, similar to drugs. The knowledge gained here will promote informatics research in DS, such as information extraction and knowledge discovery of safety on DS.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Current DS resources have term coverage at different levels of granularity (i.e., ingredient and/or product level), and are employed for various purposes by a wide range of users (e.g., pharmacist, physicians, manufacturers, etc.) The knowledge representation within these resources ranges from unstructured and fragmented to structured and comprehensive evidence based data having full monographs/controlled vocabularies and to the most structured and robust standardized terminologies. By definition, “monograph” is a document having detailed information on a concept while “controlled vocabularies” are the list of standardized terms employed for indexing and searching information for a particular concept while. Even within these terminological systems, variability exists in term as well as content coverage (related metadata coverage for each DS e.g., product name, active ingredient(s), drug strength and unit of measure, dosage form) 
+  <span class="sup">
+   <a rid="r9-2840637" ref-type="bibr" href="#r9-2840637">9</a>
+  </span>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">The objective of this study is to evaluate and compare existing online resources for DS representation. Common sources for DS information include databases such as, Dietary Supplement Ingredient Database (DSID) 
+  <span class="sup">
+   <a rid="r10-2840637" ref-type="bibr" href="#r10-2840637">10</a>
+  </span>, Natural Medicine (NM) 
+  <span class="sup">
+   <a rid="r11-2840637" ref-type="bibr" href="#r11-2840637">11</a>
+  </span>, Natural Health Products Ingredients Database (NHPID) 
+  <span class="sup">
+   <a rid="r12-2840637" ref-type="bibr" href="#r12-2840637">12</a>
+  </span>, Dietary Supplement Label Database (DSLD) 
+  <span class="sup">
+   <a rid="r13-2840637" ref-type="bibr" href="#r13-2840637">13</a>
+  </span>, and Licensed Natural Health Products Database (LNHPD) 
+  <span class="sup">
+   <a rid="r14-2840637" ref-type="bibr" href="#r14-2840637">14</a>
+  </span>. Some drug databases also incorporate DS coverage to variable extent, e.g., DailyMed 
+  <span class="sup">
+   <a rid="r15-2840637" ref-type="bibr" href="#r15-2840637">15</a>
+  </span>, drugs.com 
+  <span class="sup">
+   <a rid="r16-2840637" ref-type="bibr" href="#r16-2840637">16</a>
+  </span>, etc., which are not included in this study. This goal is achieved through systematic review of selected resources at both the ingredient and product levels, compilation of the essential elements for DS representation as a preliminary model, and a comparison of the existing databases using this model as a check-list. To achieve this goal, we examined element of three ingredient level databases (DSID, NM, &amp; NHPID) and two product level resources (DSLD &amp; LNHPD), to assess areas of uniqueness, overlaps and gaps where further information may be beneficial.
+ </p>
+</sec>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="Sec12" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Spectral analysis and IR structural indices calculation</div>
+ <p id="Par23" xmlns="http://www.w3.org/1999/xhtml">Localized IR spectra were collected and analyzed using Analysis Studio software (version 3.11.5883, Anasys Instruments) and MATLAB program. IR focus is optimized at 1450 cm
+  <span class="sup">−1</span>, 1600 cm
+  <span class="sup">−1</span>, and 2920 cm
+  <span class="sup">−1</span> prior to the data collection and all IR spectra are normalized to the incident power. IR spectra are acquired from 1300 to 1800 cm
+  <span class="sup">−1</span> and 2800 to 3100 cm
+  <span class="sup">−1</span> with an interval of 4 cm
+  <span class="sup">−1</span> and averaging each data point over 256 pulses. The spectral acquisition time is around 5 min. The localized IR spectra is first smoothed using a three-point average in Analysis Studio, followed by linear baseline removal, normalized, and plotted in MATLAB.
+ </p>
+ <p id="Par24" xmlns="http://www.w3.org/1999/xhtml">Curve fitting of the absorbance bands in IR spectra between 1500−1800 cm
+  <span class="sup">−1</span> and 2800−3100 cm
+  <span class="sup">−1</span> were performed to determine spectral parameters in MATLAB. A combination of Lorentzian–Gaussian curve functions provides a good statistical reconstruction of the measured IR spectra of complex organic matter
+  <span class="sup">
+   <a ref-type="bibr" rid="CR43" href="#CR43">43</a>
+  </span>. The parameters are fitted to the experimental envelope by a least squares iterative procedure. All peaks centers, peak amplitudes, peak half-widths, relative fraction of Lorentzian character for the fit are allowed to vary from initial guesses. Generally, the solved peak centers are typically within a few centimeters from the initialization. The IR structural parameters, namely, Aromaticity, CH
+  <sub>3</sub>/CH
+  <sub>2</sub>, C-Factor, A-Factor, are computed from the peak area ratios as listed in Supplementary Table 
+  <a rid="MOESM1" ref-type="media" href="#MOESM1">1</a>.
+ </p>
+ <p id="Par25" xmlns="http://www.w3.org/1999/xhtml">The spectral region at 2800–3000 cm
+  <span class="sup">−1</span> can be resolved into five discrete bands: CH stretching (2897 cm
+  <span class="sup">−1</span>), symmetric CH
+  <sub>2</sub> stretching (2857 cm
+  <span class="sup">−1</span>), CH
+  <sub>2</sub> asymmetric stretching (2925 cm
+  <span class="sup">−1</span>), CH
+  <sub>3</sub> symmetric stretching (2872 cm
+  <span class="sup">−1</span>), and CH
+  <sub>3</sub> asymmetric stretching (2962 cm
+  <span class="sup">−1</span>). The broad absorbance band between 3000 and 3100 cm
+  <span class="sup">−1</span> region is assigned to aromatic C–H stretching and used to compute Aromaticity. CH
+  <sub>3</sub>/CH
+  <sub>2</sub> ratio are computed from the ratio of integrated peak areas arising from 2957 and 2925 cm
+  <span class="sup">−1</span>, respectively, i.e., A
+  <sub>2957</sub>/A
+  <sub>2925</sub>.
+ </p>
+ <p id="Par26" xmlns="http://www.w3.org/1999/xhtml">The 1500–1800 cm
+  <span class="sup">−1</span> region contains overlapping absorbance bands associated with oxygenated and aromatic carbon groups. The broad absorbance 1600–1630 cm
+  <span class="sup">−1</span> corresponds to aromatic carbon–carbon stretching, and it can be resolved as two distinct peaks in the spectra of organic materials centered at 1610 and 1630 cm
+  <span class="sup">−1</span>. A
+  <sub>1600–1630</sub> represents the integrated peak intensity of the aromatic C=C vibrations centered at 1610 and 1630 cm
+  <span class="sup">−1</span>. The 1450 and 1375 cm
+  <span class="sup">−1</span> absorption signals are due to aliphatic C–H bending. C-factor represents the intensity ratio of the oxygenated versus aromatic functional groups. A-factor is the intensity ratio of aliphatic/ (aliphatic + aromatic) bands. A-factor is calculated slightly different from Craddock’s method
+  <span class="sup">
+   <a ref-type="bibr" rid="CR43" href="#CR43">43</a>
+  </span>. The integrated peak area under 1450 cm
+  <span class="sup">−1</span> is used instead of the area under 2857 and 2925 as the aliphatic absorption bands. This is because the pulsed optical parametric oscillator (OPO) laser used in the nano-IR instrument has two distinct stages. The laser spot size and focus is different in the different stages, thus it is difficult to compute quantitative IR ratios using intensity values from two different stages.
+ </p>
+</sec>

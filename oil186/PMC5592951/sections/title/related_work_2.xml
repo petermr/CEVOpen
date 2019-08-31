@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Related work</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">In spite of the importance of applying artificial computing in biological systems, it is still not widespread in usage. Some researchers have tended to use the artificial computing tools in predicting the antimicrobial effects of EOs, while others have tried to use these tools in classifying the EOs according to their antibacterial activities.</p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Daynac et al have developed a computational model to evaluate the use of the ANNs for predicting the antimicrobial activity of EOs. The suggested model was fast artificial neural network (FANN) software that used 49 EOs with definition of their chemical compositions as the network inputs; the output data reflected the antimicrobial activity of these EOs against four common pathogens: “
+  <span class="italic">Staphylococcus aureus</span>”, “
+  <span class="italic">Escherichia coli</span>”, “
+  <span class="italic">Candida albicans</span>”, and “
+  <span class="italic">Clostridium perfringens</span>”. The ANN has proved its efficiency in predicting &gt;70% of the antimicrobial activities within a 10 mm maximum error range by disk diffusion assays.
+  <a rid="b5-aabc-10-065" ref-type="bibr" href="#b5-aabc-10-065">5</a>
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Neves et al have presented a decision system for predicting the biological activity of the 
+  <span class="italic">Schinus</span> characterized by a variability in its chemical composition depending on its geographical and seasonal growing. The proposed study was conducted with the objective to characterize the founding of a computational framework that uses the knowledge representation and reasoning techniques to set the structure of the information and the associated inference mechanisms by using a logic programming-based approach to the knowledge representation and reasoning complemented with a computational framework based on ANNs. This model has achieved an accuracy of ~85% in predicting the pharmacological activity of the 
+  <span class="italic">Schinus</span> EOs.
+  <a rid="b2-aabc-10-065" ref-type="bibr" href="#b2-aabc-10-065">2</a>
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Another direction of using the artificial computing is the optimization process. Rajkovic et al have developed two optimization models to predict the antifungal effects for mixing the EOs of “
+  <span class="italic">Thymus vulgaris</span> L.” and “
+  <span class="italic">Cinnamomum cassia</span> L.”. The two proposed models are the response surface methodology (RSM) and the ANN combined with the GA. Both of the two models have tended to optimize the variables of the mixture process (i.e., time of action, concentration of individual or mixture EOs, and their mass ratio). Based on the mean relative percent deviation (MRPD), both of the two models have provided a good quality of prediction for the antifungal effect in terms of the three predefined independent variables. Nevertheless, due to the low value of the MRPD for the ANN – GA model, it has achieved more accuracy in predicting the antifungal effect of the EO mixture than the RSM model (±10.7% for RSM and ±0.1% ANN – GA).
+  <a rid="b6-aabc-10-065" ref-type="bibr" href="#b6-aabc-10-065">6</a>
+ </p>
+</sec>

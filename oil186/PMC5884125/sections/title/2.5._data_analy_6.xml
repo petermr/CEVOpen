@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="sec2.5" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">2.5. Data Analysis</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">Primary data analysis was performed with Torrent Suite™ Software v4.0 with automated secondary analysis using Ion Reporter™ Software v4.0. Further analysis was done using a variety of computer packages including Past3, XLstat, NCSS 2007,  “R” and NCSS 2010. Alpha diversity analysis was conducted using QIIME pipeline (version 1.8.0) (QIIME, 2016). Significance reported for any analysis is defined as 
+  <span class="italic">p</span> &lt; 0.05.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Short sequences &lt; 200 bp were removed after depleting primers and barcodes; sequences with ambiguous base calls were also removed. Sequences with homopolymer runs exceeding 6 bp were removed, as the threshold used was 6 bp. Sequences were then denoised and chimeras were removed. Operational taxonomic units (OTUs) were formed at 97% similarity (3% divergence) using UCLUST after removing singleton sequences [
+  <a rid="B13" ref-type="bibr" href="#B13">13</a>]. RDP classifier version 2.2 was used for taxonomic assignments within the GreenGenes taxonomy [
+  <a rid="B14" ref-type="bibr" href="#B14">14</a>, 
+  <a rid="B15" ref-type="bibr" href="#B15">15</a>]. The OTUs were rarefied (randomly subsampled) to 30000 sequences and the signified sequences were aligned to
+  <span class="italic"> 16S </span>reference sequences with PyNAST [
+  <a rid="B16" ref-type="bibr" href="#B16">16</a>]. The aligned multiple sequences were used to create tree in FastTree [
+  <a rid="B17" ref-type="bibr" href="#B17">17</a>].
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Measures of 
+  <span class="italic">α</span>-diversity, the diversity within the community such as (a) Shannon-Wiener index, also termed the Shannon-Wiener index (
+  <span class="italic">H</span>′), which evaluates the relative abundance and refers to species richness and species evenness [
+  <a rid="B18" ref-type="bibr" href="#B18">18</a>] and Simpson index (
+  <span class="italic">D</span>) [
+  <a rid="B19" ref-type="bibr" href="#B19">19</a>] and (b) rarefaction, a method for species estimation based on the presence-absence data [
+  <a rid="B20" ref-type="bibr" href="#B20">20</a>] and (c) Chao 1 [
+  <a rid="B21" ref-type="bibr" href="#B21">21</a>] plots, based on the number of rare OTUs found in sample were measured using QIIME pipeline [
+  <a rid="B22" ref-type="bibr" href="#B22">22</a>].
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Shannon index is 
+  <span class="italic">H</span>′ = ∑⁡
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub>ln⁡
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub>, where 
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> is the proportion of individuals found in species 
+  <span class="italic">i</span>, 
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> = 
+  <span class="italic">n</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub>/
+  <span class="italic">N</span>, where 
+  <span class="italic">n</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> is the number of individuals in species 
+  <span class="italic">i</span> and 
+  <span class="italic">N</span> is the total number of individuals in the community.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Simpson
+  <span class="italic">ʼ</span>s index = 1 − 
+  <span class="italic">D</span>, where 
+  <span class="italic">D</span> is the dominance.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <span class="italic">D</span> = ∑
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub>
+  <span class="sup">2</span>, where 
+  <span class="italic">p</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> is the proportion of individuals found in species 
+  <span class="italic">i</span>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">SHE analysis was done which is based on the mathematical approach that diversity (Shannon diversity, 
+  <span class="italic">H</span>) is related directly to species richness (
+  <span class="italic">S</span>) and evenness (
+  <span class="italic">E</span>) of the distribution [
+  <a rid="B23" ref-type="bibr" href="#B23">23</a>].
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <span class="italic">H</span> = ln⁡(
+  <span class="italic">S</span>)  +  ln⁡(
+  <span class="italic">E</span>), where 
+  <span class="italic">H</span> is Shannon index; 
+  <span class="italic">S</span> is species richness; and 
+  <span class="italic">E</span> is evenness of distribution.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">From all OTUs, representative sequences were selected and using QIIME and RDP classifier, taxonomy was assigned for them. Only those phyla which appeared in 75% of the samples were selected. The relative abundance of the genera present in all 10 soil samples was plotted by a heatmap and graphically represented by interactive Krona charts.</p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <span class="italic">β</span>-Diversity or community similarity analysis was done by determining the pairwise distances using the phylogenetic distance metric, UniFrac generated by QIIME [
+  <a rid="B24" ref-type="bibr" href="#B24">24</a>]. Monte Carlo simulations (weighted UniFrac significance test) were done to test the significant difference in OTUs in the samples in the Unweighted Pair Group Method with Arithmetic Mean (UPGMA) tree generated by UniFrac analysis [
+  <a rid="B25" ref-type="bibr" href="#B25">25</a>], followed by Bonferroni correction [
+  <a rid="B26" ref-type="bibr" href="#B26">26</a>] to reduce type 1 error rate.
+ </p>
+</sec>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="Sec7" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Statistical analysis of the network</div>
+ <p id="Par17" xmlns="http://www.w3.org/1999/xhtml">A series of parameters of the networks for 
+  <span class="italic">O. fragrans</span> var. 
+  <span class="italic">thunbergii</span> essential oil were investigated for more interpretation. Degree (
+  <span class="italic">k</span>) was first calculated and ranked to evaluate the importance of a node. The degree 
+  <span class="italic">k</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> indicates the number of edges connecting to the node 
+  <span class="italic">i</span>. Mean value of 
+  <span class="italic">k</span>
+  <sub>
+   <span class="italic">i</span>
+  </sub> for all nodes in the network is defined as average degree, denoted as ⟨
+  <span class="italic">k</span>⟩. Degree distribution, the proportion of randomly selected nodes with a certain number of connections, was represented as 
+  <span class="italic">P(k)</span>.
+ </p>
+ <p id="Par18" xmlns="http://www.w3.org/1999/xhtml">Average path length (L) refers to the mean distance between two nodes, which is averaged over all pairs of nodes. Diameter (D) is the maximum distance between any pair of nodes. Clustering coefficient (C) is the ratio of all existing edges between the neighbors and the maximum number of edges possible between these neighbors [
+  <a ref-type="bibr" rid="CR26" href="#CR26">26</a>]. C is defined as following:
+  <div id="Equ1" class="disp-formula">
+   <span class="label">1</span>
+   <div class="alternatives">
+    <span id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {\mathrm{C}}_{\mathrm{i}}=\frac{2{\mathrm{e}}_{\mathrm{i}}}{{\mathrm{k}}_{\mathrm{i}}\left({\mathrm{k}}_{\mathrm{i}}-1\right)}\ \left({\mathrm{k}}_{\mathrm{i}}\ge 2\right) $$\end{document}</span>
+    <div id="M2" display="block" class="math">
+     <div class="msub">
+      <span mathvariant="normal" class="mi">C</span>
+      <span mathvariant="normal" class="mi">i</span>
+     </div>
+     <span class="mo">=</span>
+     <div class="mfrac">
+      <div class="mrow">
+       <span class="mn">2</span>
+       <div class="msub">
+        <span mathvariant="normal" class="mi">e</span>
+        <span mathvariant="normal" class="mi">i</span>
+       </div>
+      </div>
+      <div class="mrow">
+       <div class="msub">
+        <span mathvariant="normal" class="mi">k</span>
+        <span mathvariant="normal" class="mi">i</span>
+       </div>
+       <div close=")" open="(" class="mfenced">
+        <div class="mrow">
+         <div class="msub">
+          <span mathvariant="normal" class="mi">k</span>
+          <span mathvariant="normal" class="mi">i</span>
+         </div>
+         <span class="mo">−</span>
+         <span class="mn">1</span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <span width="0.25em" class="mspace"/>
+     <div close=")" open="(" class="mfenced">
+      <div class="mrow">
+       <div class="msub">
+        <span mathvariant="normal" class="mi">k</span>
+        <span mathvariant="normal" class="mi">i</span>
+       </div>
+       <span class="mo">≥</span>
+       <span class="mn">2</span>
+      </div>
+     </div>
+    </div>
+    <div xlink:href="12918_2017_523_Article_Equ1.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </div>
+  </div>where e
+  <sub>ij</sub> is the numbers of edges from node 
+  <span class="italic">i</span> to 
+  <span class="italic">j</span>.
+ </p>
+ <p id="Par19" xmlns="http://www.w3.org/1999/xhtml">Three centrality indices of nodes in the pathway-based protein association network were further evaluated, including degree centrality (
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">d</span>
+  </sub>), betweenness centrality (
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">b</span>
+  </sub>) and closeness centrality (
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">c</span>
+  </sub>). 
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">d</span>
+  </sub> is the proportion of other nodes adjacent to a node. 
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">b</span>
+  </sub> is the total number of shortest paths going through a node. 
+  <span class="italic">C</span>
+  <sub>
+   <span class="italic">c</span>
+  </sub> is the number of other nodes divided by the sum of the distances between a node and all the other nodes. The equations are listed as follows:
+  <div id="Equ2" class="disp-formula">
+   <span class="label">2</span>
+   <div class="alternatives">
+    <span id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {C}_d=\frac{{\mathrm{k}}_{\mathrm{i}}}{\mathrm{N}-1} $$\end{document}</span>
+    <div id="M4" display="block" class="math">
+     <div class="msub">
+      <span class="mi">C</span>
+      <span class="mi">d</span>
+     </div>
+     <span class="mo">=</span>
+     <div class="mfrac">
+      <div class="msub">
+       <span mathvariant="normal" class="mi">k</span>
+       <span mathvariant="normal" class="mi">i</span>
+      </div>
+      <div class="mrow">
+       <span mathvariant="normal" class="mi">N</span>
+       <span class="mo">−</span>
+       <span class="mn">1</span>
+      </div>
+     </div>
+    </div>
+    <div xlink:href="12918_2017_523_Article_Equ2.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </div>
+  </div>
+  <div id="Equ3" class="disp-formula">
+   <span class="label">3</span>
+   <div class="alternatives">
+    <span id="M5" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {C}_b={\sum}_{\mathrm{j}\left(&lt;k\right)}^{\mathrm{N}}{\sum}_{\mathrm{k}}^{\mathrm{N}}\frac{\mathrm{gjk}\left(\mathrm{i}\right)}{\mathrm{gjk}} $$\end{document}</span>
+    <div id="M6" display="block" class="math">
+     <div class="msub">
+      <span class="mi">C</span>
+      <span class="mi">b</span>
+     </div>
+     <span class="mo">=</span>
+     <div class="msubsup">
+      <span class="mo">∑</span>
+      <div class="mrow">
+       <span mathvariant="normal" class="mi">j</span>
+       <div close=")" open="(" class="mfenced">
+        <div class="mrow">
+         <span class="mo">&lt;</span>
+         <span class="mi">k</span>
+        </div>
+       </div>
+      </div>
+      <span mathvariant="normal" class="mi">N</span>
+     </div>
+     <div class="msubsup">
+      <span class="mo">∑</span>
+      <span mathvariant="normal" class="mi">k</span>
+      <span mathvariant="normal" class="mi">N</span>
+     </div>
+     <div class="mfrac">
+      <div class="mrow">
+       <span class="mi">gjk</span>
+       <div close=")" open="(" class="mfenced">
+        <span mathvariant="normal" class="mi">i</span>
+       </div>
+      </div>
+      <span class="mi">gjk</span>
+     </div>
+    </div>
+    <div xlink:href="12918_2017_523_Article_Equ3.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </div>
+  </div>
+  <div id="Equ4" class="disp-formula">
+   <span class="label">4</span>
+   <div class="alternatives">
+    <span id="M7" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {C}_c=\frac{\mathrm{N}-1}{\sum \limits_{\mathrm{j}=1}^{\mathrm{N}}{\mathrm{d}}_{\mathrm{ij}}} $$\end{document}</span>
+    <div id="M8" display="block" class="math">
+     <div class="msub">
+      <span class="mi">C</span>
+      <span class="mi">c</span>
+     </div>
+     <span class="mo">=</span>
+     <div class="mfrac">
+      <div class="mrow">
+       <span mathvariant="normal" class="mi">N</span>
+       <span class="mo">−</span>
+       <span class="mn">1</span>
+      </div>
+      <div class="mrow">
+       <div class="munderover">
+        <span class="mo">∑</span>
+        <div class="mrow">
+         <span mathvariant="normal" class="mi">j</span>
+         <span class="mo">=</span>
+         <span class="mn">1</span>
+        </div>
+        <span mathvariant="normal" class="mi">N</span>
+       </div>
+       <div class="msub">
+        <span mathvariant="normal" class="mi">d</span>
+        <span class="mi">ij</span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div xlink:href="12918_2017_523_Article_Equ4.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </div>
+  </div>where N is the total number of nodes in the network, g
+  <sub>jk</sub> is the numbers of geodesics connecting nodes 
+  <span class="italic">j</span> and 
+  <span class="italic">k</span>, and that d
+  <sub>ij</sub> is the shortest path length from node 
+  <span class="italic">i</span> to 
+  <span class="italic">j</span>. All the parameters were calculated and visualized using MATLAB 2009a (The MathWorks Inc., Natick, MA, USA).
+ </p>
+</sec>

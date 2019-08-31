@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="Sec2" sec-type="materials|methods" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Methods</div>
+ <sec id="Sec3" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Chemicals and media</div>
+  <p id="Par7" xmlns="http://www.w3.org/1999/xhtml">The cinnamon bark essential oil (Chemical Abstract Service (CAS), registry number 8015-91-6) was a steam distilled extract from the dried inner bark (Now foods, USA) of 
+   <span class="italic">Cinnamon zeylanicum</span> (cinnamon). Bacto™ agar, yeast extract and peptone were obtained from Difco (BD Biosciences, NJ, USA), and all other chemicals were purchased from Sigma Chemical Co. (St. Louis, MO, USA).
+  </p>
+ </sec>
+ <sec id="Sec4" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">CNB essential oil analysis</div>
+  <p id="Par8" xmlns="http://www.w3.org/1999/xhtml">CNB oil was analyzed using gas chromatography-flame ionization detection (GC-FID) and gas chromatography–mass spectrometry (GC–MS) with an Agilent 7890A GC according to previously reported methods [
+   <a ref-type="bibr" rid="CR32" href="#CR32">32</a>, 
+   <a ref-type="bibr" rid="CR33" href="#CR33">33</a>]. Briefly, 1 μl of diluted CNB oil (1:10 in ethanol) was injected onto a HP-5 column (30 mm × 0.32 mm × 0.25 µm) and separated using a carrier gas of helium (constant flow of 1.1 mL/min) with the following temperature gradient: 60 °C for 5 min, increased to 210 °C at 3 °C/min and to 260 °C at 10 °C/min. The GC-FID injector and detector temperatures were 250 °C and the split ratio of injection was 20:1. For GC–MS using similar conditions, 0.2 μl was injected with a split ratio of 200:1 and separated on a HP-5MS column (30 mm × 0.25 mm × 0.25 um).
+  </p>
+  <p id="Par9" xmlns="http://www.w3.org/1999/xhtml">Retention indices (RI) were determined using a C8-20 standard (~ 40 mg/L each, in hexanes) for both the GC-FID and GC–MS methods. RI values were averaged between the methods for each component of the oil and identified using the NIST14 database and reported literature [
+   <a ref-type="bibr" rid="CR32" href="#CR32">32</a>, 
+   <a ref-type="bibr" rid="CR34" href="#CR34">34</a>].
+  </p>
+ </sec>
+ <sec id="Sec5" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Strains and culture conditions</div>
+  <p id="Par10" xmlns="http://www.w3.org/1999/xhtml">
+   <span class="italic">Candida albicans</span> strains and clinical isolates used in this study are described in Table 
+   <a rid="Tab1" ref-type="table" href="#Tab1">1</a>. The RSY150 and RSY35 strains were a kind gift of Dr. Richard J. Bennett. RSY150 expresses Tub2-GFP and Htb-RFP and RSY35 is a Kar3 deletion mutant that express only Tub2-GFP [
+   <a ref-type="bibr" rid="CR35" href="#CR35">35</a>]. Kar3 is a bifunctional protein having a kinesin-like motor domain joined to a distinct microtubule binding domain that is essential for yeast nuclear fusion during mating [
+   <a ref-type="bibr" rid="CR36" href="#CR36">36</a>]. Strains were stored as 50% glycerol stocks at − 80 °C and were freshly revived on yeast-extract peptone dextrose agar (YPDA) containing 1% Bacto-yeast extract, 2% Bacto-peptone, 2% glucose and 2% Bacto-agar prior to each experiment. All strains were grown with continuous shaking (200 rpm) at 30 °C in YPD broth and the mutant strains supplemented with 80 mg/L uridine (YPDU). For the yeast to hyphal transition and leakage assays, cells were grown to mid log phase before exposure to CNB oil. For hyphal induction experiments, cells were grown in YPD broth with 10% fetal bovine serum and 2% glucose.
+   <div id="Tab1" class="table-wrap">
+    <span class="label">Table 1</span>
+    <div class="caption">
+     <p>
+      <span class="italic">Candida albicans</span> strains used in this study
+     </p>
+    </div>
+    <table frame="hsides" rules="groups">
+     <thead>
+      <tr>
+       <th align="left">Strain</th>
+       <th align="left">Genotype</th>
+       <th align="left">References</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="left">RSY150</td>
+       <td align="left">
+        <span class="italic">TUB2</span>-
+        <span class="italic">GFP</span>-
+        <span class="italic">SAT1/TUB2</span>_ 
+        <span class="italic">HTB1</span>-
+        <span class="italic">RFP</span>-
+        <span class="italic">ARG4</span>_
+        <span class="italic">/HTB1</span>_ 
+        <span class="italic">arg4</span>_/_
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR35" href="#CR35">35</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">RSY35</td>
+       <td align="left">
+        <span class="italic">leu2::hisG/leu2::hisG his1::hisG/his1::hisG arg4::hisG/arg4::hisG kar3::LEU2/kar3::HIS1 TUB2/TUB2</span>-
+        <span class="italic">GFP::SAT1</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR35" href="#CR35">35</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">CASS1</td>
+       <td align="left">
+        <span class="italic">his3::hisG/his3::hisGleu2::tetRGAL4AD</span>-
+        <span class="italic">URA3/LEU2</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR37" href="#CR37">37</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">ATCC 64548</td>
+       <td align="left">Reference strain</td>
+       <td align="left">Cedarlane Labs, Ontario, Canada</td>
+      </tr>
+      <tr>
+       <td align="left">ATCC 10231</td>
+       <td align="left">Reference strain for clinical isolates</td>
+       <td align="left">RQHR, Regina,</td>
+      </tr>
+      <tr>
+       <td align="left">SK, Canada</td>
+       <td align="left"/>
+       <td align="left"/>
+      </tr>
+      <tr>
+       <td align="left">
+        <span class="italic">C. albicans</span> (1-4)
+       </td>
+       <td align="left">Clinical isolates; 2 blood, 2 genital</td>
+       <td align="left">RQHR, Regina, SK, Canada</td>
+      </tr>
+      <tr>
+       <td align="left"/>
+       <td align="left">
+        <span class="italic">C. albicans</span> knockout mutants
+       </td>
+       <td align="left"/>
+      </tr>
+      <tr>
+       <td align="left">VPS28</td>
+       <td align="left">
+        <span class="italic">his3::hisG/his3::hisGleu2::tetRGAL4AD</span>-
+        <span class="italic">URA3/LEU2</span>-
+        <span class="italic">VPS28</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR37" href="#CR37">37</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">CRH11</td>
+       <td align="left">
+        <span class="italic">his3::hisG/his3::hisGleu2::tetRGAL4AD</span>-
+        <span class="italic">URA3/LEU2</span>-
+        <span class="italic">Crh11</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR37" href="#CR37">37</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">SSU81</td>
+       <td align="left">
+        <span class="italic">his3::hisG/his3::hisGleu2::tetRGAL4AD</span>-
+        <span class="italic">URA3/LEU2</span>-
+        <span class="italic">SSU81</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR37" href="#CR37">37</a>]
+       </td>
+      </tr>
+      <tr>
+       <td align="left">DFG5</td>
+       <td align="left">
+        <span class="italic">his3::hisG/his3::hisGleu2::tetRGAL4AD</span>-
+        <span class="italic">URA3/LEU2</span>-
+        <span class="italic">DGF5</span>
+       </td>
+       <td align="left">[
+        <a ref-type="bibr" rid="CR37" href="#CR37">37</a>]
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </p>
+ </sec>
+ <sec id="Sec6" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Minimum inhibitory concentration (MIC)</div>
+  <p id="Par11" xmlns="http://www.w3.org/1999/xhtml">The MIC of CNB oil was determined for all strains listed in Table 
+   <a rid="Tab1" ref-type="table" href="#Tab1">1</a> following the guidelines of the Clinical and Laboratory Standards Institute [CLSI 2014] [
+   <a ref-type="bibr" rid="CR38" href="#CR38">38</a>] and previously reported method [
+   <a ref-type="bibr" rid="CR15" href="#CR15">15</a>], with slight modifications. Briefly, 100 µl of CNB oil (stock concentration 1000 µg/mL) was serially diluted in triplicate in the wells of flat-bottom polystyrene 96-well microtiter plates (Sarstedt, Nümbrecht, Germany). A suspension (OD
+   <sub>600</sub> = 0.001) of 
+   <span class="italic">C. albicans</span> (2.2 × 10
+   <span class="sup">5</span> cells/mL) in YPD was added, with appropriate positive (amphotericin B) and negative (
+   <span class="italic">Candida</span> only in media) controls and a blank (CNB oil in media) included. The microtiter plates were sealed with parafilm prior to incubation at 30 °C to avoid oil evaporation, and the OD
+   <sub>600</sub> recorded after 24 h (Biotek Epoch; Northern Vermont, USA). The endpoint was defined as the lowest concentration of the compound resulting in total inhibition (MIC 100%) of growth, compared to the growth in negative control wells. All experiments were performed in triplicate. The MICs for cinnamaldehyde (stock concentration 450 μg/mL) and linalool (stock concentration 9.85 mg/mL) were also tested for RSY150 and RSY35 [
+   <a ref-type="bibr" rid="CR16" href="#CR16">16</a>, 
+   <a ref-type="bibr" rid="CR39" href="#CR39">39</a>, 
+   <a ref-type="bibr" rid="CR40" href="#CR40">40</a>].
+  </p>
+ </sec>
+ <sec id="Sec7" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Growth and viability of 
+   <span class="italic">C. albicans</span> with CNB oil exposure
+  </div>
+  <sec id="Sec8" class="sec">
+   <div class="title" xmlns="http://www.w3.org/1999/xhtml">Growth curves</div>
+   <p id="Par12" xmlns="http://www.w3.org/1999/xhtml">To investigate the effect of CNB oil on growth kinetics of 
+    <span class="italic">C. albicans</span>, an overnight culture of 
+    <span class="italic">C. albicans</span> RSY150 diluted to contain 2.2 × 10
+    <span class="sup">5</span> cells/mL (OD
+    <sub>600</sub> of 0.001) was treated with CNB oil (62.5, 31.25 and 15.1 µg/mL corresponding to 1/2 MIC, 1/4 MIC and 1/8 MIC) in separate wells of a microtiter plate in triplicate and incubated at 30 °C [
+    <a ref-type="bibr" rid="CR41" href="#CR41">41</a>, 
+    <a ref-type="bibr" rid="CR42" href="#CR42">42</a>]. The OD
+    <sub>600</sub> was measured at 30 min intervals for 24 h using a BioTek Synergy HTX multi-mode microplate reader (Northern Vermont, USA). Media with CNB oil was used to determine background absorbance for three independent experiments.
+   </p>
+  </sec>
+  <sec id="Sec9" class="sec">
+   <div class="title" xmlns="http://www.w3.org/1999/xhtml">Cell viability</div>
+   <p id="Par13" xmlns="http://www.w3.org/1999/xhtml">The cell viability after CNB oil exposure was determined using the methylene blue dye exclusion assay, as reported previously [
+    <a ref-type="bibr" rid="CR43" href="#CR43">43</a>]. Briefly, mid logarithmic phase 
+    <span class="italic">C. albicans</span> RSY150 cultures (2.2 × 10
+    <span class="sup">5</span> cells/mL) were treated with various concentrations (62.5, 31.25 and 15.1 µg/mL corresponding to 1/2 MIC, 1/4 MIC and 1/8 MIC) of CNB oil at 30 °C for 24 h. Cells fixed with formaldehyde were used as positive controls for staining. The cells were washed and resuspended in phosphate buffered saline (PBS;0.01 M pH 7.4) to ~ 10
+    <span class="sup">7</span> CFU/mL, then 100 µL of treated and control cell suspensions mixed with 100 µL methylene blue (0.1 mg/mL stock solution in 2% sodium citrate) and incubated for 5 min at room temperature. Cells were examined using an Eclipse 80i microscope (Nikon) at 40× magnification. A minimum of 100 cells in consecutive visual fields were examined and the percentage of stained cells were calculated using the Nikon SPOT software [
+    <a ref-type="bibr" rid="CR44" href="#CR44">44</a>].
+   </p>
+   <p id="Par14" xmlns="http://www.w3.org/1999/xhtml">To determine colony forming units (CFU), overnight cultures of CNB oil-treated 
+    <span class="italic">C. albicans</span> RSY150 (1/2 MIC, 1/4 MIC, and 1/8 MIC) along with controls were serially diluted (10
+    <span class="sup">3</span>, 10
+    <span class="sup">4</span>, 10
+    <span class="sup">5</span> cells/mL) and plated in duplicate on YPD agar [
+    <a ref-type="bibr" rid="CR45" href="#CR45">45</a>]. Viable colonies were counted and recorded at each specific concentration of CNB oil prepared in triplicate.
+   </p>
+  </sec>
+ </sec>
+ <sec id="Sec10" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Morphological analysis</div>
+  <p id="Par15" xmlns="http://www.w3.org/1999/xhtml">Calcofluor white (CFW) at a concentration of 0.01 μg/mL was used as a chitin specific dye [
+   <a ref-type="bibr" rid="CR35" href="#CR35">35</a>] to highlight the gross morphology and chitin distribution in CNB oil treated RSY150 along with blood and genital clinical isolates. Cell suspensions at two growth phases each, mid logarithmic (1 × 10
+   <span class="sup">7</span> cells/mL) and stationary (2.2 × 10
+   <span class="sup">5</span> cells/mL), were treated with MIC and 1/2 MIC of CNB oil and imaged on an Axio Observer Z1 inverted epifluorescence microscope (Oberkochen, Germany) at 63× magnification (λ
+   <sub>ex</sub> = 365 nm; λ
+   <sub>em</sub> = 435 nm).
+  </p>
+ </sec>
+ <sec id="Sec11" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Hyphal induction</div>
+  <p id="Par16" xmlns="http://www.w3.org/1999/xhtml">Hyphal induction in 
+   <span class="italic">C. albicans</span> RSY150 was performed according to the literature [
+   <a ref-type="bibr" rid="CR46" href="#CR46">46</a>]. Briefly, a yeast suspension (1 × 10
+   <span class="sup">7</span> CFU/mL) was prepared from mid logarithmic phase cells in pre-warmed YPD with 10% fetal bovine serum (FBS) and deposited into a 12 well plate with the appropriate amounts of CNB oil to achieve MIC and 1/2 MIC. Control cultures lacked CNB oil. The cells were stained with CFW (0.01 μg/mL) to highlight hyphae and pseudo hyphae after 4 h incubation at 37 °C, and images captured on an AxioObserver Z1 inverted epifluorescence microscope (Oberkochen, Germany). Germ tubes were identified when the cell projection was equal to the size of the blastospore. Results from three independent experiments were reported as average ± standard deviation.
+  </p>
+ </sec>
+ <sec id="Sec12" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Ultrastructural and mechanical analysis</div>
+  <p id="Par17" xmlns="http://www.w3.org/1999/xhtml">The cell surface biophysical properties of CNB oil treated 
+   <span class="italic">C. albicans</span> RSY150 and a clinical isolate from blood were analyzed by Quantitative Imaging (QI™) using a Nanowizard III AFM (JPK Instruments, Berlin, Germany) as described previously [
+   <a ref-type="bibr" rid="CR47" href="#CR47">47</a>, 
+   <a ref-type="bibr" rid="CR48" href="#CR48">48</a>]. Briefly, cell suspensions (2.2 × 10
+   <span class="sup">5</span> cells/mL) from both strains treated either with YPD only (control) or YPD with 1/2 MIC CNB oil for 24 h were deposited onto poly-
+   <span class="sc">l</span>-Lysine coated cover slips for 1 h, fixed with formalin and air dried prior to AFM imaging. Cells treated with the fungal wall degrading enzyme, glucanase, served as a positive control. Samples were imaged with silicon nitride cantilevers (HYDRA6R-200NG; Nanosensors, Neuchatel, Switzerland) having calibrated spring constants ranging from 0.03 to 0.062 N/m.
+  </p>
+  <p id="Par18" xmlns="http://www.w3.org/1999/xhtml">QI force curves (JPK software) obtained at each pixel of a 128 × 128 raster scan were collected using a Z-length of 7 μm and a raster scan of 100 μm/s for QI™. Adhesion and Young’s modulus calculations were made from approximately 16,536 force curves collected from each of five biological replicates. All force curves within a 200 × 200 nm square in the center of the cell were batch processed and histogram data exported from the JPK software using Excel. Adhesion was determined using the distance between the lowest point and baseline of the retract curve and Young’s moduli determined using the Hertz model (JPK software), an estimate of cell envelope elasticity. Surface roughness was measured at the mid-point of the cell using the QI™ height images [
+   <a ref-type="bibr" rid="CR48" href="#CR48">48</a>] and cellular volume was calculated using “Ellipsoid” (
+   <span ext-link-type="uri" xlink:href="http://planetcalc.com/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://planetcalc.com/</span>) [
+   <a ref-type="bibr" rid="CR49" href="#CR49">49</a>] for at least 20 different cells from three different samples.
+  </p>
+ </sec>
+ <sec id="Sec13" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Membrane integrity</div>
+  <p id="Par19" xmlns="http://www.w3.org/1999/xhtml">To assess the integrity of the cell membrane following CNB oil exposure, the cellular content leakage assay [
+   <a ref-type="bibr" rid="CR43" href="#CR43">43</a>] was carried out with slight modification. Briefly, a mid logarithmic phase culture of 
+   <span class="italic">C. albicans</span> RSY150 was washed three times and resuspended to ~10
+   <span class="sup">7</span> CFU/mL in PBS. Cell suspensions were transferred to a 24 well plate containing CNB oil at MIC, 1/2, 1/4 and 1/8 MIC in PBS, and incubated at 30 °C for 6 h with shaking (200 rpm). CNB oil in PBS served as a blank, untreated cells in PBS as negative controls, and amphotericin B at MIC served as a positive control. Following incubation, cell leakage was analyzed from supernatant diluted 1:10 with PBS based on absorbance at 260 nm (Varian Cary 100 BIO, UV–VIS spectrophotometer; Midland, ON, Canada) against a blank lacking CNB oil. Nucleotides represent one class of leakage components that absorb at 260 nm, for which uracil containing compounds have the highest absorbance. Mean ratios for each treatment from three independent experiments were calculated and compared to that of corresponding untreated samples.
+  </p>
+ </sec>
+ <sec id="Sec14" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Cell wall stress</div>
+  <p id="Par20" xmlns="http://www.w3.org/1999/xhtml">The sensitivity of 
+   <span class="italic">C albicans</span> to cell wall perturbing agents (Congo red (CR) and CFW) after exposure to CNB oil was tested following a previously reported method [
+   <a ref-type="bibr" rid="CR6" href="#CR6">6</a>], with minor modifications. Briefly, overnight stationary phase cultures of 
+   <span class="italic">C. albicans</span> RSY150 (2.2 × 10
+   <span class="sup">5</span> cell/mL) in YNB complete media, unexposed or exposed to CNB oil at 1/2 MIC and 1/4 MIC, were incubated for 24 h with shaking (200 rpm) at 30 °C in a microtiter plate. Cells were washed with PBS to eliminate oil residues and any carryover effect of the oil to different wells. An aliquot (5 μL) of each was diluted to final densities of 10
+   <span class="sup">5</span>, 10
+   <span class="sup">4</span>, 10
+   <span class="sup">3</span> cells/mL and were spotted on YNB plates supplemented with one of the following cell wall disrupting agents: CFW (15 μg/mL) or CR (15 μg/mL). The plates were incubated at 30 °C and monitored for 
+   <span class="italic">Candida</span> growth over 3 days. Each experiment was performed in triplicate and colonies counted for statistical analysis and graphical representation.
+  </p>
+ </sec>
+ <sec id="Sec15" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Confocal microscopy</div>
+  <p id="Par21" xmlns="http://www.w3.org/1999/xhtml">The effects of CNB oil treatment on the cell cycle was determined by laser scanning confocal microscopy (LSCM) [
+   <a ref-type="bibr" rid="CR35" href="#CR35">35</a>]. RSY150 cells expressing Tub2-GFP and Htb-RFP [
+   <a ref-type="bibr" rid="CR35" href="#CR35">35</a>] at mid logarithmic phase (10
+   <span class="sup">7</span> cells/mL) were treated with CNB oil, cinnamaldehyde and linalool at MIC and 1/2 MIC for 4 h. Treated and control cells were transferred to glass slides sealed with clean coverslips and imaged at 63 × magnification on a Zeiss LSM 780 system (Carl Zeiss Micro imaging, Oberkochen, Germany) using an argon laser (λ
+   <sub>ex</sub> = 488 nm; λ
+   <sub>em</sub> = 512 nm) for Tub2-GFP and HeNe laser (λ
+   <sub>ex</sub> = 543 nm; λ
+   <sub>em</sub> = 605 nm) for Htb-RFP. Cells were identified and enumerated in each cycle phase category. Statistical significance was calculated from three independent experiments.
+  </p>
+ </sec>
+ <sec id="Sec16" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Statistical analysis</div>
+  <p id="Par22" xmlns="http://www.w3.org/1999/xhtml">All experiments were performed in triplicate, unless otherwise stated, and GraphPad Prism7 used for statistical analysis. The results were reported as mean ± standard deviation (SD), differences assessed using a two-tailed unpaired 
+   <span class="italic">t</span> test with Welch’s correction at a 95% confidence interval, for which p &lt; 0.05 was considered statistically significant.
+  </p>
+ </sec>
+</sec>

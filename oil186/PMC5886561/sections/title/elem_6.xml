@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="sec006" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Gut microbiota and dehydration experiments</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">The variables dehydration prior to entombment and gut microbiota and were tested on flies in 
+  <span class="italic">W</span>. 
+  <span class="italic">nobilis</span> resin. This resin was selected because it is a better proxy for amber in the fossil record and because decay in pine resin was so rapid that capture of data on decay would have been difficult using available synchrotron intervals.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">In the gut microbiota treatment group we used untreated wild-type flies and flies treated with an antibiotic to alter their bacterial composition and abundances. Wild-type 
+  <span class="italic">Drosophila melanogaster</span> were collected in October 2015 by netting after the harvest in a vineyard in Market Harborough (UK). Immediately, fertilized females were isolated to generate isofemale lines. The isofemale lines were continuously maintained at 18°C in a 12hr:12hr Light:Dark (LD) cycle on standard corn meal food until the time of the experiment. Groups of 10 males (3–4 days old) were collected from 28 isofemale lines and housed in 20 antibiotic treated or 20 untreated vials (for the antibiotic treatment groups and wild type treatment groups, respectively). A solution of Ampicilin and Cloranphenicol (7mg/ml each in 50% Ethanol) was dropped (100ul) on the surface of the food in the antibiotic treated vials. Treated vials were also exposed to UV O/N. The vials were replaced every 2 days for a total of 10 days in LD12:12 at 25°C. The flies were then collected 3 hours after light on (Zeitgeber Time ZT 3) in UV treated 15ml falcon tube in ice, and were then entombed in resin.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">We confirmed that the antibiotic treatment altered the wild-type fruit fly gut microbiotas, and investigated the gut microbiota composition in more detail, through 16S rRNA ion torrent sequencing of the V1 region of the gut microbiotas of ten untreated flies and nine antibiotic treated flies from the same isofemale lines as the flies used in the experiments. Operational taxonomic units were binned by 97% similarity and classified using the GreenGenes 13_8 reference database. The gut microbiota composition of the wild-type and antibiotic-treated flies were compared using nonmetric multidimensional scaling on three metrics [
+  <a rid="pone.0195482.ref042" ref-type="bibr" href="#pone.0195482.ref042">42</a>, 
+  <a rid="pone.0195482.ref043" ref-type="bibr" href="#pone.0195482.ref043">43</a>]: weighted UniFrac distance; unweighted UniFrac distance; and the Jaccard index. Diversity distributions (based on the Shannon index [
+  <a rid="pone.0195482.ref044" ref-type="bibr" href="#pone.0195482.ref044">44</a>] for alpha diversity and the Jaccard index [
+  <a rid="pone.0195482.ref043" ref-type="bibr" href="#pone.0195482.ref043">43</a>] for beta diversity) were assessed and statistically compared using Kruskal-Wallis tests [
+  <a rid="pone.0195482.ref045" ref-type="bibr" href="#pone.0195482.ref045">45</a>]. All bioinformatics sequence processing up to OTU table generation was conducted using QIIME version 1.9.1 [
+  <a rid="pone.0195482.ref046" ref-type="bibr" href="#pone.0195482.ref046">46</a>]. Statistical analyses and graphical output were performed with Rstudio version 0.99.484. The primary R package used for analysis of the OTU table was Phyloseq 1.12.2 [
+  <a rid="pone.0195482.ref047" ref-type="bibr" href="#pone.0195482.ref047">47</a>].
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Unweighted NMDS cluster analysis with either UniFrac or Jaccard distance measurements completely separates the two treatment groups (
+  <a ref-type="supplementary-material" rid="pone.0195482.s003" href="#pone.0195482.s003">S3 Fig</a>). In particular, there is a significant difference in alpha diversity (
+  <a ref-type="supplementary-material" rid="pone.0195482.s005" href="#pone.0195482.s005">S5 Fig</a>), based on the Shannon index (p = 0.04). There are similarities in microbiota community distribution of genera and phyla (
+  <a ref-type="supplementary-material" rid="pone.0195482.s002" href="#pone.0195482.s002">S2 Fig</a>) between the wild-type and antibiotically-treated groups. All flies, both wild-type and antibiotic-treated, had microbiotas dominated by the genus 
+  <span class="italic">Wolbachia</span> (with a relative abundance of 96% and 98%, respectively, 
+  <a ref-type="supplementary-material" rid="pone.0195482.s002" href="#pone.0195482.s002">S2 Fig</a>, 
+  <a ref-type="supplementary-material" rid="pone.0195482.s009" href="#pone.0195482.s009">S3 Table</a>), an endoparasitic bacterium common in the cell bodies of fruit flies and other insects [
+  <a rid="pone.0195482.ref048" ref-type="bibr" href="#pone.0195482.ref048">48</a>]. 
+  <span class="italic">Wolbachia</span> is not part of the gut microbiota, but is an internal bacterium that may contribute to microbial decay. The next most common genera in both groups are 
+  <span class="italic">Lactobacillus</span>, 
+  <span class="italic">Acetobacter</span>, and 
+  <span class="italic">Streptococcus</span> (
+  <a ref-type="supplementary-material" rid="pone.0195482.s002" href="#pone.0195482.s002">S2 Fig</a>, 
+  <a ref-type="supplementary-material" rid="pone.0195482.s009" href="#pone.0195482.s009">S3 Table</a>), all of which are commonly reported as dominant genera in fruit fly gut microbiotas [
+  <a rid="pone.0195482.ref019" ref-type="bibr" href="#pone.0195482.ref019">19</a>].
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">To summarize, 16S rRNA sequencing of both types of fly showed differences in the minor components of the gut microbiome. Differences in these less-abundant genera are sufficient to separate the untreated and antibiotic treated flies into two distinct gut biota groups, which are cohesive and significantly different from each other. The antibiotic treated flies have a less diverse gut biota, containing 25 genera compared to the 44 genera in the wild-type flies (
+  <a ref-type="supplementary-material" rid="pone.0195482.s003" href="#pone.0195482.s003">S3</a>–
+  <a ref-type="supplementary-material" rid="pone.0195482.s005" href="#pone.0195482.s005">S5</a> Figs, 
+  <a ref-type="supplementary-material" rid="pone.0195482.s009" href="#pone.0195482.s009">S3 Table</a>).
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">The effect of dehydration on decay was investigated using both untreated wild-type flies and antibiotic treated flies (
+  <a ref-type="fig" rid="pone.0195482.g001" href="#pone.0195482.g001">Fig 1</a>). Three states of dehydration were tested: not dehydrated; dehydrated at 50°C for three days while entrapped on the resin surface, but before entombment; and dehydrated isolated from the resin at 50°C for three days before entombment.
+ </p>
+ <div id="pone.0195482.g001" orientation="portrait" position="float" class="fig" xmlns="http://www.w3.org/1999/xhtml">
+  <span pub-id-type="doi" class="object-id">10.1371/journal.pone.0195482.g001</span>
+  <span class="label">Fig 1</span>
+  <div class="caption">
+   <div class="title">Experimental schematic.</div>
+   <p>Schematic representing the variables tested (resin type, gut microbiota and dehydration state) and treatment groups in experiments. The number in each resin circle represents the number of replicates.</p>
+  </div>
+  <div xlink:href="pone.0195482.g001" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </div>
+</sec>

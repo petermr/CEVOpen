@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Problem formulation</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">The EO is a complex mixture of a huge number of compounds. Some of these compounds are characterized by their high antimicrobial activity such as aldehydes, phenols, and terpene alcohols (e.g., cinnamaldehyde, citral, carvacrol, eugenol, and thymol), while other compounds such as ketones or esters (e.g., β-myrcene, α-thujone, and geranyl acetate) have a limited activity against the microbes. On the other hand, EOs that contain terpene hydrocarbons were usually inactive in facing the microbial infection.
+  <a rid="b7-aabc-10-065" ref-type="bibr" href="#b7-aabc-10-065">7</a> The traditional chemical methods used for extracting and analyzing the EOs to determine their chemical composition are usually expensive and complicated due to the variation in the structure and concentration percentage of the EO compositions.
+  <a rid="b3-aabc-10-065" ref-type="bibr" href="#b3-aabc-10-065">3</a> Developing a computational tool may have a significant role in decreasing the time and cost of chemical analysis and in determining the most proper EO that has the optimal antibacterial activity, especially for the scientific industries that are based on using the EOs as antibacterials or antioxidants.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">This article presents a new optimization tool based on EO reduction (Essential Oil Reduction and Optimization Tool [EOROT]) for enhancing the classification process of the EOs according to their antibacterial influence rate. The developed EOROT tool is based on three main phases. Determining the EOs’ chemical composition is the first phase. Second, reducing the huge number of these chemical compounds by specifying the main antibacterial compounds and establishing some logic rules to finding the relation between these compounds. Finally, finding the EOs that have high antibacterial activities and searching for the most-suited EO for every type of the bacteria. 
+  <a ref-type="fig" rid="f1-aabc-10-065" href="#f1-aabc-10-065">Figure 1</a> shows a brief illustration for the methodology of EOROT.
+ </p>
+ <sec sec-type="methods" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Data set of EOs</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Initially, analyzing the EOs is the first stage in the “EOROT” algorithm. The target of this stage is to determine all the compounds and their concentration percentages in the composition of EOs. This stage is the base of the reduction process, which will specify the significant compounds and remove the noninfluential ones.</p>
+  <p xmlns="http://www.w3.org/1999/xhtml">The experimental study in this research is based on 24 types of plant EOs as a sample for antibacterial EOs, which are common in inhibiting the same types of bacteria. These EOs have &gt;850 compounds; 
+   <a ref-type="table" rid="t1-aabc-10-065" href="#t1-aabc-10-065">Table 1</a> lists the number of the identified compounds in every EO and their concentration percentage (the complete data is available in the 
+   <span ext-link-type="uri" xlink:href="https://www.mediafire.com/file/r8b5xejp7qo6y5l/dataset.docx" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">Supplementary material</span> section).
+   <a rid="b8-aabc-10-065" ref-type="bibr" href="#b8-aabc-10-065">8</a>–
+   <a rid="b26-aabc-10-065" ref-type="bibr" href="#b26-aabc-10-065">26</a>
+  </p>
+ </sec>
+ <sec class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Reduction and rules of extraction methodology</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Recently, the emergence of the huge real-time data sets has increased the need for using the data mining and machine learning, which have proved their efficiency in dealing with these types of data. However, many data sets contain unnecessary features that may cause undesirable increase in the processing time. Therefore, the need for reducing the dimension size of the data set becomes a necessary stage in the data mining process.
+   <a rid="b27-aabc-10-065" ref-type="bibr" href="#b27-aabc-10-065">27</a> The reduction process refers to simplifying a data set by reducing its dimensionality through removing a subset of attributes from the original data set while retaining the same predictive accuracy. Generally, the reduction has a number of important benefits for the machine learning and data mining algorithms. It reduces the computation time of the induction algorithm, saves the computational cost, and also improves the accuracy of the induced rules.
+   <a rid="b28-aabc-10-065" ref-type="bibr" href="#b28-aabc-10-065">28</a> RS approach was originally proposed by Pawlak.
+   <a rid="b29-aabc-10-065" ref-type="bibr" href="#b29-aabc-10-065">29</a> It is defined as a mathematical approach that can obtain high-quality classifiers called reduct from the total data set attributes. This “reduct” can be used to predict the decision outputs just like using the original set.
+   <a rid="b28-aabc-10-065" ref-type="bibr" href="#b28-aabc-10-065">28</a> In general, in the RS approach, the information is represented in the form of condition attributes 
+   <span class="italic">C</span> and decision attributes 
+   <span class="italic">D</span>.
+   <a rid="b30-aabc-10-065" ref-type="bibr" href="#b30-aabc-10-065">30</a> The relation between the condition and the decision attributes in RS is defined by the indiscernibility degree of the data points handled using the concept of sets’ approximation. There are two main types of the approximation in RS, upper and lower, which are denoted as 
+   <div class="inline-formula">
+    <div id="mm1" class="math">
+     <div class="mrow">
+      <div accent="true" class="mover">
+       <span class="mi">R</span>
+       <span class="mo">¯</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+    </div>
+   </div> and 
+   <div class="inline-formula">
+    <div id="mm2" class="math">
+     <div class="mrow">
+      <div accentunder="true" class="munder">
+       <span class="mi">R</span>
+       <span stretchy="true" class="mo">_</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+    </div>
+   </div>, respectively; they are defined as follows in 
+   <a ref-type="disp-formula" rid="fd1-aabc-10-065" href="#fd1-aabc-10-065">Equations 1</a> and 
+   <a ref-type="disp-formula" rid="fd2-aabc-10-065" href="#fd2-aabc-10-065">2</a>: 
+   <div id="fd1-aabc-10-065" class="disp-formula">
+    <div id="mm3" class="math">
+     <div class="mrow">
+      <div accent="true" class="mover">
+       <span class="mi">R</span>
+       <span class="mo">¯</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">=</span>
+      <span class="mo">{</span>
+      <span class="mi">x</span>
+      <span class="mo">∈</span>
+      <span class="mi">U</span>
+      <span class="mo">|</span>
+      <div class="msub">
+       <div class="mrow">
+        <div class="mrow">
+         <span class="mo">[</span>
+         <span class="mi">x</span>
+         <span class="mo">]</span>
+        </div>
+       </div>
+       <span class="mi">R</span>
+      </div>
+      <span class="mo">∩</span>
+      <span class="mi">X</span>
+      <span class="mo">≠</span>
+      <span class="mo">∅</span>
+      <span class="mo">}</span>
+     </div>
+    </div>
+    <span class="label">(1)</span>
+   </div>
+   <div id="fd2-aabc-10-065" class="disp-formula">
+    <div id="mm4" class="math">
+     <div class="mrow">
+      <div accentunder="true" class="munder">
+       <span class="mi">R</span>
+       <span stretchy="true" class="mo">_</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">=</span>
+      <span class="mo">{</span>
+      <span class="mi">x</span>
+      <span class="mo">∈</span>
+      <span class="mi">U</span>
+      <span class="mo">|</span>
+      <div class="msub">
+       <div class="mrow">
+        <div class="mrow">
+         <span class="mo">[</span>
+         <span class="mi">x</span>
+         <span class="mo">]</span>
+        </div>
+       </div>
+       <span class="mi">R</span>
+      </div>
+      <span class="mo">⊆</span>
+      <span class="mi">X</span>
+      <span class="mo">}</span>
+     </div>
+    </div>
+    <span class="label">(2)</span>
+   </div>According to the determined upper and lower approximation of the sets, the accuracy of the classification results can be quantified as follows: 
+   <div id="fd3-aabc-10-065" class="disp-formula">
+    <div id="mm5" class="math">
+     <div class="mrow">
+      <div class="msub">
+       <span class="mi">α</span>
+       <span class="mi">c</span>
+      </div>
+      <span class="mo">=</span>
+      <div class="mrow">
+       <span class="mo">|</span>
+       <div class="mrow">
+        <div accentunder="true" class="munder">
+         <span class="mi">R</span>
+         <span stretchy="true" class="mo">_</span>
+        </div>
+        <span stretchy="false" class="mo">(</span>
+        <span class="mi">X</span>
+        <span stretchy="false" class="mo">)</span>
+       </div>
+       <span class="mo">|</span>
+      </div>
+      <span class="mo">/</span>
+      <div class="mrow">
+       <span class="mo">|</span>
+       <div class="mrow">
+        <div accent="true" class="mover">
+         <span class="mi">R</span>
+         <span class="mo">¯</span>
+        </div>
+        <span stretchy="false" class="mo">(</span>
+        <span class="mi">X</span>
+        <span stretchy="false" class="mo">)</span>
+       </div>
+       <span class="mo">|</span>
+      </div>
+     </div>
+    </div>
+    <span class="label">(3)</span>
+   </div>These approximations are the base of finding the reduction for data set. They can also be used to deduce the rules between the condition and decision attributes. The syntax of the decision rules usually has the form of logic expression or if … then rule.
+   <a rid="b30-aabc-10-065" ref-type="bibr" href="#b30-aabc-10-065">30</a>,
+   <a rid="b31-aabc-10-065" ref-type="bibr" href="#b31-aabc-10-065">31</a>
+  </p>
+ </sec>
+ <sec class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Optimization methodology</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">The aim of the optimization is to determine the best-suited solution to a problem under a given set of constraints. The optimization problem is represented as an intelligent search problem where one or more agents are used to determine the optimal solution on the search landscape for the desired problem population.
+   <a rid="b32-aabc-10-065" ref-type="bibr" href="#b32-aabc-10-065">32</a> There are several kinds of numerical optimization methods such as neural network, gradient-based search, GA, ant colony, and PSO.
+   <a rid="b32-aabc-10-065" ref-type="bibr" href="#b32-aabc-10-065">32</a>,
+   <a rid="b33-aabc-10-065" ref-type="bibr" href="#b33-aabc-10-065">33</a> PSO is one of the most famous optimization methods that has proved its efficiency in searching for the optima. Generally, it is a population-based algorithm that can be easily implemented and applied to solve various optimization problems by searching for the optimal solution within the available solutions based on social behavior patterns of organisms that live and interact within large groups. PSO incorporates swarming behaviors observed in flocks of birds, schools of fish, or swarms of bees.
+   <a rid="b34-aabc-10-065" ref-type="bibr" href="#b34-aabc-10-065">34</a>
+  </p>
+ </sec>
+</sec>
