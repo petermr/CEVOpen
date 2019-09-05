@@ -22,6 +22,9 @@ The article resource is dynamic and each operation is likely to create more file
 ### Dictionaries 
 We shall certainly be creating new dictionaries, and also adding fields.
 
+## eLife sprint
+For use of the CEVOpen data for machine learning see https://github.com/caffiendFrog/elife2019/blob/master/README.md
+
 ## Content and Rights
 CEVOpen contain large amounts of open code and scientific articles downloade from the literature. They have been transformed into more semantic formats
 and data has been extracted. All articles are from EuropePMC and we believe we have the right to mount them - please contact us if any problems occur.
