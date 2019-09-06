@@ -9,6 +9,14 @@ https://docs.google.com/document/d/11xogx_YHQavuytlhtNMk-4wj6IIDAa6OG1gJP-mUvyU/
 ## authors
 (in no order) Emanuel Faria, Vinita Lamba1, Shruthi M1, Manish Kumar1, Ambarish Kumar1, Gitanjali Yadav1,2, Peter Murray-Rust2,3, a
 1 National Institute of Plant Genome Research, New Delhi, IN; 2 University of Cambridge, UK; 3 ContentMine Ltd, Cambridge, UK
+Leonie Mueck
+Tiaga Lubiana
+Sophia
+michael owonibi
+Sabine Weber
+[please add yourself if you made contributions and indicate what]
+
+
 
 ## destination
 Submitted to medrxiv preprints and Beilstein J Org Chem (special issue ed Mat Todd)
