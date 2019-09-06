@@ -14,4 +14,7 @@ The creation of a manuscript for Beilstein J. Org. Chem
 ## components
 [Components of the document](components.md)
 
+This is primarily a list of the chunks that we present to readers.
+
+
 
