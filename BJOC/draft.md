@@ -107,9 +107,10 @@ results can be archived and re-analyzed when other tools are developed.
 
 The modules (objects and actions) are:
 
-## Dictionaries. Collections of terms linked to semantic backing (especially wikidata). Dictionaries (e.g. MeSH) have been 
-widely used for decades; the methodologica here is that they are close to the users and can be edited and restructured. 
-Unlike authority-based dictionaries (ICD-10) which take ...
+## Dictionaries
+Collections of terms linked to semantic backing (especially wikidata). Dictionaries (e.g. MeSH) have been 
+widely used for decades; the methodology here is that they are close to the users and can be edited and restructured. 
+Unlike authority-based dictionaries (ICD-10) which take 10-20 years to change, ContentMine dictionaries can be created in minutes or hours, and linked automatically to Wikidata. That makes them ideal for rapid searches and understanding of new terms.
 
 ### Compound dictionary
 ### Plant dictionary
