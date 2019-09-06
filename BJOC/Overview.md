@@ -8,3 +8,10 @@ The creation of a manuscript for Beilstein J. Org. Chem
 ## correspondence
 [Past correspondence](correspondence.md) sets the scene and explains procedures.
 
+## backbone
+[Backbone of the overlay](backbone.md) which desribes the components of the manuscript.
+
+## components
+[Components of the document](components.md)
+
+
