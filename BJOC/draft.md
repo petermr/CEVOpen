@@ -45,12 +45,11 @@ OpenNotebook and Github
 All work is performed as OpenNotebookScience (ONS) where all activities are carried out in full public and resources are versioned. The code and dictionaries are reposited over several Github repositories, the  downloaded articles and extracted data are also reposited in Github. Note that this procedure records *everything*, including misconceptions, “errors”, revisions, raw data, poor structures, etc. Part of this project is a learning process and it can act as a resource for others learning to avoid “mistakes” or how to clean or reorganize resources. The repos are documented for project members - ONS, like OpenSource, guarantees that the material is there but it may take effort to understand parts of it.
 The management of the project takes place largely by Github issues, a system where tasks and incremental results are identified and posted to Issues (each is a stream of messages) and assigned to project members. In general there will be a small number of active issues, and much larger number of open issues in various states (“resting”, “finished”) and then closed issues. Where possible finished issues and duplicate issues should be closed.
 
-
-## Introduction
+## Introduction
 
 Manny, Gita to write and find references… I am writing some lead-in sentences. Correct this savagely.
 
-### Background
+### Background
 
 Many current medicines are derived from plants and many current therapies (e.g. Ayurvedic medicine) are based on plants 
 and their products. We make no comment on the reliability, safety or value of any treatment but note that the scientific 
@@ -67,13 +66,13 @@ have been identified. However, since a single plant contains widely diverse phyt
 whole plant as medicine are uncertain. Further, the phytochemical content and pharmacological actions, if any, of 
 many plants having medicinal potential remain unassessed by rigorous scientific research to define efficacy and safety.[2]
 
-### Phytomedicine
+### Phytomedicine
 
 See https://en.wikipedia.org/wiki/Herbal_medicine#Phytomedicine
 
 
 
-### Source and Extraction of Essential Oils
+### Source and Extraction of Essential Oils
 
 https://en.wikipedia.org/wiki/Essential_oil
 We concentrate here on Essential Oils, the volatile component of a plant’s phytochemistry. 
@@ -116,7 +115,7 @@ results can be archived and re-analyzed when other tools are developed.
 
 The modules (objects and actions) are
 
-## Dictionaries
+## Dictionaries
 
 Collections of terms linked to semantic backing (especially wikidata). Dictionaries (e.g. MeSH) have been 
 widely used for decades; the methodology here is that they are close to the users and can be edited and restructured. 
