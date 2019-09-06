@@ -25,3 +25,10 @@ This article represent a research process which is dynamic in space and time. It
 and has no end time. It's continuing at variable pace and could last for years. It also involves authors from several countries who 
 can drop in and out when they wish.
 
+## locations and technology used
+The document is almost exclusively hosted on Github. The "definitive" version is on http://github.com/petermr/CEVOpen but work has
+been located on (caffiendFrog ... please fill in).
+
+### markup
+The "manuscript text" has been authored in (Github) Markdown - which is widely known and requires no software. It's also possible to convert this to other formats such as DOCX, HTML, etc. A final "version" can be assembled whenever required [HT Alf Eaton: We haven't yet got this working]. Markup supports sections, lists, tables, images, references, hyperlinks.
+
