@@ -2,9 +2,10 @@
 
 [parts may be snipped for personal reasons].
 
-# 20190823, 2019 [PMR -> Gitanjali Yadav]
+# 20190823 [PMR -> Gitanjali Yadav]
 [I am writing]  a paper for Mat Todd's special issue on Medicinal Chemistry.
 https://www.beilstein-journals.org/bjoc/series/98
+
 Mat developed Open NoteBookScience for malaria and so our work on EssoilDB and the new venture into extracting skin 
 related indications for plant extracts would fit brilliantly. (I have written to him).
 I will write the paper. 
