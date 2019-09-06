@@ -1,12 +1,14 @@
 # original draft 
 
 ## history
+
 I started authoring this on GDocs (stil exists) but we are moving to markup
 https://docs.google.com/document/d/11xogx_YHQavuytlhtNMk-4wj6IIDAa6OG1gJP-mUvyU/edit#
 
 # Mining the literature for phytomedicinal data; an OpenNotebook study
 
 ## authors
+
 (in no order) Emanuel Faria, Vinita Lamba1, Shruthi M1, Manish Kumar1, Ambarish Kumar1, Gitanjali Yadav1,2, Peter Murray-Rust2,3, a
 1 National Institute of Plant Genome Research, New Delhi, IN; 2 University of Cambridge, UK; 3 ContentMine Ltd, Cambridge, UK
 Leonie Mueck
@@ -19,12 +21,15 @@ Sabine Weber
 
 
 ## destination
+
 Submitted to medrxiv preprints and Beilstein J Org Chem (special issue ed Mat Todd)
 
 ## context
+
 https://www.beilstein-journals.org/bjoc/series/98
 
 ## Abstract
+
 Essential oils (EO) derived from plants have been an  important resource for treating disease for millennia. The current scientific literature contains thousands of articles whose primary purpose is to report oils extracted from specific plants, the methodology, their chemical composition and their biological and medicinal activities.  EssoilDB1.0 is an 11-year project to manually extract this data, but limited by human resources and the exponential growth of the literature. We now report a toolkit  (AMI+EssoilDB2.0,  AE2)  for automatically searching the Open scientific literature, downloading articles on EOs and precisely extracting a wide range of properties.
 EssoilDB2.0 is a heavily cleaned, normalized version of E1.0 with added semantic links to Open authorities including NCBI, EBI and Wikidata resources. It includes
 a dictionary (1839) of plants known to produce essential oils and rooted in accepted taxonomy
@@ -42,6 +47,7 @@ The management of the project takes place largely by Github issues, a system whe
 
 
 ## Introduction
+
 Manny, Gita to write and find references… I am writing some lead-in sentences. Correct this savagely.
 
 ### Background
@@ -62,11 +68,13 @@ whole plant as medicine are uncertain. Further, the phytochemical content and ph
 many plants having medicinal potential remain unassessed by rigorous scientific research to define efficacy and safety.[2]
 
 ### Phytomedicine
+
 See https://en.wikipedia.org/wiki/Herbal_medicine#Phytomedicine
 
 
 
 ### Source and Extraction of Essential Oils
+
 https://en.wikipedia.org/wiki/Essential_oil
 We concentrate here on Essential Oils, the volatile component of a plant’s phytochemistry. 
 
@@ -86,6 +94,7 @@ The literature does not use controlled vocabularies for this so there is wide va
 The analytical method can also vary, but is usually Gas-Chromatography / Mass spectrometry (GC-MS). Chiral 
 
 ## Methods and Materials
+
 Scope and limitations
 
 This article describes firstly the development of automatic tools for 
@@ -105,9 +114,10 @@ The strategy is modular and after every module the results are available on loca
 they can add, remove or replace individual modules with other systems or local scripts. It also means that intermediate 
 results can be archived and re-analyzed when other tools are developed. 
 
-The modules (objects and actions) are:
+The modules (objects and actions) are
 
 ## Dictionaries
+
 Collections of terms linked to semantic backing (especially wikidata). Dictionaries (e.g. MeSH) have been 
 widely used for decades; the methodology here is that they are close to the users and can be edited and restructured. 
 Unlike authority-based dictionaries (ICD-10) which take 10-20 years to change, ContentMine dictionaries can be created in minutes or hours, and linked automatically to Wikidata. That makes them ideal for rapid searches and understanding of new terms.
