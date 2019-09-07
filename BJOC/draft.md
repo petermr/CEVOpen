@@ -121,9 +121,70 @@ Collections of terms linked to semantic backing (especially wikidata). Dictionar
 widely used for decades; the methodology here is that they are close to the users and can be edited and restructured. 
 Unlike authority-based dictionaries (ICD-10) which take 10-20 years to change, ContentMine dictionaries can be created in minutes or hours, and linked automatically to Wikidata. That makes them ideal for rapid searches and understanding of new terms.
 
+### ContentMine dictionaries
+ContentMine dictionaries are simple; a list of search terms and (where possible) links to Wikidata or Wikipedia. Here's an example:
+```
+<dictionary title="climate">
+	<desc>created from Wikipedia glossary of climate change</desc>
+<entry url="/wiki/Agriculture" name="Agriculture" term="agricultural"/>
+<entry url="/wiki/Albedo" name="Albedo" term="albedo"/>
+<entry url="/wiki/Anoxic_event" name="Anoxic event" term="Anoxic event"/>
+```
+The only mandatory field is `term` (which is used for searching). Searching (in `ami`) uses this as the search term and ignores case, and also applies stemming. The value of dictionaries comes with the links to `Wikipedia` or `Wikidata`. Any taxonomy (higher/lower/broader terms) is left to Wikidata which has a huge range of relations. Wikidata also has synonyms, but some ContentMine dictionary terms have contained `<synonym>` children, but this is not well advanced.
+
+The `title` attribute is mandatory and must match the filename and defines the identity of the dictionary. The `<desc>` is optional. 
+
+## searching with `ami`
+`ami-search` uses dictionaries to find words in the text, with stemming and ignoring case. The results are child directories of the `CTree`s 
+Example:
+```
+ami-search 
+    -p oil186                      # search all CTrees in the child ./oil186 CProject
+    --dictionary                   # a list of dictionaries
+    mydictionaries/compound.xml    # local personal dictionary (relative to cwd)
+    country                        # builtin dictionary
+    disease                        # builtin
+    funders                        # builtin
+    mydictionaries/instrument.xml  # local personal dictionary
+    monoterpene                    # builtin
+    species                        # pseudo-dictionary (uses regex)
+    
+```
+This searches 6 dictionaries and `species` using a regex for binomial names. There's also a (hidden) `word` cloud/frequency 
+tool. The results are in the `CTree` children:
+
+
+PMC6015887/
+├── eupmc_result.json
+├── fulltext.xml
+├── results
+│   ├── search
+│   │   ├── compound
+│   │   │   └── results.xml
+│   │   ├── country
+│   │   │   └── results.xml
+│   │   ├── disease
+│   │   │   └── results.xml
+│   │   ├── funders
+│   │   │   └── results.xml
+│   │   ├── instrument
+│   │   │   └── empty.xml
+│   │   └── monoterpene
+│   │       └── empty.xml
+│   ├── species
+│   │   └── binomial
+│   │       └── results.xml
+│   └── word
+│       └── frequencies
+│           ├── results.html
+│           └── results.xml
+```
+
+### Disease dictionary
+
 ### Compound dictionary
 ### Plant dictionary
-### Disease dictionary
+### Instrument dictionary
 
 ## Initial Remote Search
 ## Local Search
