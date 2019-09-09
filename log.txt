@@ -1,0 +1,30 @@
+getpapers -q "((GC-MS) OR (GC/MS) AND (essential oil))" -o gcms -x -k 1000
+  560  ls
+  561  ami-search -p gcms/ --dictionary country mydictionaries/instrument.xml 
+  562  more mydictionaries/instrument.xml 
+  563  getpapers -q "((GC-MS) OR (GC/MS) AND (essential oil))" -o gcms -x -k 1000
+  564  ls -ltd gcms/* | wc
+  565  ls
+  566  git status
+  567  git add oil186/
+  568  git add gcms/
+  569  git status
+  570  git add mydictionaries/
+  571  rm -rf target/
+  572  git commit -am "1000 gcms papers and simple instrument dictionary"
+  573  git pull
+  574  git push
+  575  cd oil186/
+  576  grep -r -E -o ".{0,50}mass spectromet{0,50}" PMC*/scholarly.html
+  577  grep -r -E -o ".{0,50}QP{0,50}" PMC*/scholarly.html
+  578  grep -r -E -o ".{0,50}QP[0-9]{0,50}" PMC*/scholarly.html | more
+  579  grep -r -E -o ".{0,50}QP[0-9]{0,50}" PMC*/scholarly.html > ../mydictionaries/instrument.txt
+  580  grep -r -E -o ".{0,50}GC\-MS{0,50}" PMC*/scholarly.html
+  581  grep -r -E -o ".{0,50}mass spectromet{50}" PMC*/scholarly.html
+  582  grep -r -E -o ".{0,50}mass spectromet{0,50}" PMC*/scholarly.html
+  583  ami-search -p gcms/ --dictionary country mydictionaries/instrument.xml 
+  584  ami-search -p gcms/ --dictionary country ../mydictionaries/instrument.xml 
+  585  cd ..
+  586  ami-search -p gcms/ --dictionary country species mydictionaries/instrument.xml 
+
+
