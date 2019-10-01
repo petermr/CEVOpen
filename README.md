@@ -10,9 +10,9 @@ Using [EuropePMC](http://europepmc.org) and ContentMine's getpapers/ami up to 10
 These  report some/all of:
 
 * plant identity
-* oil chemical composition (by name)
 * literature survey of previously reported activities 
-* determination of activity (often against organisms)
+* oil chemical composition (by chemical name)
+* experimentals determination of activity (often against organisms)
 
 Dictionaries
 ------------
