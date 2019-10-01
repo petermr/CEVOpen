@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec sec-type="materials|methods" id="sec002" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Materials and methods</div>
+ <sec id="sec003" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Materials</div>
+  <sec id="sec004" class="sec">
+   <div class="title" xmlns="http://www.w3.org/1999/xhtml">Ethics statement</div>
+   <p xmlns="http://www.w3.org/1999/xhtml">No specific permissions were required for these locations/activities. We confirmed that the field studies did not involve endangered or protected species.</p>
+   <p xmlns="http://www.w3.org/1999/xhtml">Oil palm fruits were collected from the Coconut Research Institute, Chinese Agricultural Academy of Tropical Crops, Wenchang, Hainan, China. Fruits at five developmental stages (30–60 days after pollination (DAP), 60–100 DAP, 100-12- DAP, 120–140 DAP, and 140–160 DAP) were immediately frozen in liquid nitrogen and stored at -80°C until use. Wild-type 
+    <span class="italic">Arabidopsis thaliana</span> ecotype Columbia was used in this study. Arabidopsis plants were cultivated in a growth chamber at 23°C with a 16-h photoperiod (16 h of 150 μE m
+    <span class="sup">-2</span> sec
+    <span class="sup">-1</span> light and 8 h of darkness). Yeast (
+    <span class="italic">Saccharomyces cerevisiae</span>) strain INVSc1 (MAT
+    <span class="bold">a</span>
+    <span class="italic">his3</span>Δ
+    <span class="italic">1 leu2 trp1-289 ura3-52</span>/MATα 
+    <span class="italic">his3</span>Δ
+    <span class="italic">1 leu2 trp1-289 ura3-52</span>) and the high copy number shuttle vector pYES2 (Invitrogen, USA) were used for gene function analysis.
+   </p>
+  </sec>
+ </sec>
+ <sec id="sec005" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Bioinformatic analysis</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Nucleotide and amino acid sequence analyses used the BLAST program and open reading frame (ORF) finder from NCBI website (
+   <span ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/</span>). Amino acid alignment of fatty acid desaturases was performed by ClustalX 2.1 program with default setting [
+   <a rid="pone.0196693.ref040" ref-type="bibr" href="#pone.0196693.ref040">40</a>]. A phylogenetic tree was constructed using the neighbor-joining method in MEGA5 [
+   <a rid="pone.0196693.ref041" ref-type="bibr" href="#pone.0196693.ref041">41</a>]. Promoter prediction and 
+   <span class="italic">cis</span>-acting regulatory element analysis were carried out on the PlantCARE (
+   <span ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/plantcare/html/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://bioinformatics.psb.ugent.be/webtools/plantcare/html/</span>) [
+   <a rid="pone.0196693.ref042" ref-type="bibr" href="#pone.0196693.ref042">42</a>].
+  </p>
+ </sec>
+ <sec id="sec006" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Cloning of 
+   <span class="italic">EgFAD8</span> gene
+  </div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Total RNA from mesocarp was extracted by cetyltrimethylammonium bromide (CTAB) based method as described previously [
+   <a rid="pone.0196693.ref043" ref-type="bibr" href="#pone.0196693.ref043">43</a>]. First-strand cDNA was synthesized from 1 μg of total RNA using FastQuant RT Kit (Tiangen, Beijing, China) according to manufacturer’s instructions, and was used for gene cloning and expression analysis. The coding sequence of EgFAD8 was amplified by Phusion High-Fidelity DNA Polymerase (Thermo Fisher Scientific, USA) using primers EgFAD8-pYES2 F and R with restriction site 
+   <span class="italic">Kpn</span>I and 
+   <span class="italic">Xba</span>I, respectively (
+   <a ref-type="table" rid="pone.0196693.t001" href="#pone.0196693.t001">Table 1</a>). PCR was performed with an initial denaturation at 98 °C for 30s, 30 cycles at of 98 °C for 10 s, 56 °C for 30s, 72 °C for 60 s and a final extension step of 72 °C for 5 min. The PCR product was cloned into the pEASY-Blunt vector (Transgen biotech, Beijing, China) and sequenced. The cloning of 
+   <span class="italic">EgFAD8</span> promoter region sequence has been published in our previous study [
+   <a rid="pone.0196693.ref044" ref-type="bibr" href="#pone.0196693.ref044">44</a>].
+  </p>
+  <div id="pone.0196693.t001" orientation="portrait" position="float" class="table-wrap" xmlns="http://www.w3.org/1999/xhtml">
+   <span pub-id-type="doi" class="object-id">10.1371/journal.pone.0196693.t001</span>
+   <span class="label">Table 1</span>
+   <div class="caption">
+    <div class="title">List of primers used in the study.</div>
+   </div>
+   <div class="alternatives">
+    <div id="pone.0196693.t001g" xlink:href="pone.0196693.t001" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    <table frame="hsides" rules="groups">
+     <colgroup span="1">
+      <col align="left" valign="middle" span="1"/>
+      <col align="left" valign="middle" span="1"/>
+     </colgroup>
+     <thead>
+      <tr>
+       <th align="justify" rowspan="1" colspan="1">Primers</th>
+       <th align="justify" rowspan="1" colspan="1">Sequence</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">EgFAD8-pYES2 F</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-TA
+         <span class="underline">GGTACC</span>ATGGCGAGTTGGGTTCTATC-3’
+        </span> (
+        <span class="italic">Kpn</span>I)
+       </td>
+      </tr>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">EgFAD8-pYES2 R</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-GC
+         <span class="underline">TCTAGA</span>TCAATCTGAGTTCTTCTGTGAAA-3’
+        </span> (
+        <span class="italic">Xba</span>I)
+       </td>
+      </tr>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">RT-EgFAD8 F</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-TAACGGGAAACGGGTGAA-3’</span>
+       </td>
+      </tr>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">RT-EgFAD8 R</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-CCATCCAGTTATTGAGGTAGG-3’</span>
+       </td>
+      </tr>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">RT-β-actin F</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-TGGAAGCTGCTGGAATCCAT-3’</span>
+       </td>
+      </tr>
+      <tr>
+       <td align="justify" rowspan="1" colspan="1">RT-β-actin R</td>
+       <td align="justify" rowspan="1" colspan="1">
+        <span class="monospace">5’-TCCTCCACTGAGCACAACGTT-3’</span>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+ </sec>
+ <sec id="sec007" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Gene expression in 
+   <span class="italic">Saccharomyces</span>. 
+   <span class="italic">cerevisiae</span>
+  </div>
+  <p xmlns="http://www.w3.org/1999/xhtml">In order to generate a yeast expression construct, 
+   <span class="italic">EgFAD8</span> fragments were digested with 
+   <span class="italic">Kpn</span>I and 
+   <span class="italic">Xba</span>I from pEASY vector, and subcloned into pYES2 vector. The construct EgFAD8-pYES2 and the control pYES2 were separately transformed into INVSc1 cells using the polyethylene glycol/lithium acetate method [
+   <a rid="pone.0196693.ref045" ref-type="bibr" href="#pone.0196693.ref045">45</a>,
+   <a rid="pone.0196693.ref046" ref-type="bibr" href="#pone.0196693.ref046">46</a>]. Transformants were selected on synthetic complete medium lacking uracil (SC-U) supplemented with 2% (w/v) glucose. Three independent positive clones of each transformation were used for further expression studies.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">Precultures were made in 2 mL SC-U medium with 2% (w/v) raffinose and 1% (w/v) tergitol NP-40 (Sigma, USA), and were grown overnight at 30°C. For induction gene expression, appropriate amount of precultures were inoculated into 20 mL SC-U medium containing 2% (w/v) galactose and 50 μM linoleic acid at an OD
+   <sub>600</sub> of 0.1. Yeast cultures were incubated for three days at 30°C under continuous agitation (250 rpm). Then the cells were harvested and washed twice with sterile deionized water before used for fatty acid analysis.
+  </p>
+ </sec>
+ <sec id="sec008" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Fatty acid analysis</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Yeast cells were directly transmethylated by 2 mL of methanol containing 2.7% (v/v) H
+   <sub>2</sub>SO
+   <sub>4</sub> at 80°C for 2 hours. Then, 3 mL of Hexane was added for recovering fatty acid methyl esters (FAMEs), and 2 mL of NaCl (2.5%, w/v) was used for phase separation. After centrifuge, the upper hexane phase was transferred to a fresh tube and applied for gas chromatography (GC) analysis.
+  </p>
+ </sec>
+ <sec id="sec009" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Exogenous application of low temperature and light treatments</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Ten-day-old seedlings of the T3 generation of transgenic 
+   <span class="italic">Arabidopsis</span> were subjected to stress treatments. For low temperature and light treatments, transgenic plants were planted at 15°C and in dark, respectively, with other conditions are the same with the control (as mentioned in Materials). Quantitative analysis of GUS activity in each plant was carried out after treatments for 24h and 48h.
+  </p>
+ </sec>
+ <sec id="sec010" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Histochemical staining and fluorometric GUS assay</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">For histochemical GUS staining, various tissues of Arabidopsis were incubated in GUS assay buffer with 2 mM X-Gluc, 5 mM K
+   <sub>3</sub>Fe(CN)
+   <sub>6</sub>, 100 mM Na
+   <sub>3</sub>PO
+   <sub>4</sub> (pH 7.0), 5 mM K
+   <sub>4</sub>Fe(CN)
+   <sub>6</sub>, 0.2% Triton X-100 and 10 mM EDTA at 37°C overnight under the darkness, and then cleared with 70% ethanol [
+   <a rid="pone.0196693.ref047" ref-type="bibr" href="#pone.0196693.ref047">47</a>]. The samples were viewed by stereo-microscopy.
+  </p>
+  <p xmlns="http://www.w3.org/1999/xhtml">Quantitative analysis of GUS activity in transgenic Arabidopsis was determined according to Jefferson [
+   <a rid="pone.0196693.ref047" ref-type="bibr" href="#pone.0196693.ref047">47</a>]. The protein concentrations of plant extracts were measured as descried by Bradford [
+   <a rid="pone.0196693.ref048" ref-type="bibr" href="#pone.0196693.ref048">48</a>]. GUS activity was calculated as pmol 4-Methylumbelliferone (4-MU) per min per microgram protein. Three replicates were performed for each sample.
+  </p>
+ </sec>
+ <sec id="sec011" class="sec">
+  <div class="title" xmlns="http://www.w3.org/1999/xhtml">Real-time quantitative PCR analysis</div>
+  <p xmlns="http://www.w3.org/1999/xhtml">Total RNA from mature leaves and mesocarp at five developmental stages were extracted as described previously, and cDNAs was used for real-time quantitative PCR (RT-qPCR). EgFAD8 RT-PCR primers RT-EgFAD8 F/R (
+   <a ref-type="table" rid="pone.0196693.t001" href="#pone.0196693.t001">Table 1</a>) were designed for RT-qPCR. The housekeeper gene β-actin (RT-β-actin F/R, 
+   <a ref-type="table" rid="pone.0196693.t001" href="#pone.0196693.t001">Table 1</a>) was used as an internal control for expression analysis. RT-qPCR was carried out using a CFX Connect
+   <span class="sup">™</span> Real-Time PCR Detection System (Bio-Rad Laboratories) and SYBR
+   <span class="sup">®</span> premix Ex Taq
+   <span class="sup">™</span> II (Tli RNaseH Plus) Kit (Takara, Tokyo, Japan) according to the manufacturer’s instructions. Expression was quantified as comparative threshold cycle (Ct) using 2
+   <span class="sup">–ΔΔCt</span> method [
+   <a rid="pone.0196693.ref049" ref-type="bibr" href="#pone.0196693.ref049">49</a>]. Reactions were in triplicate including template-free and no-reverse-transcriptase negative controls.
+  </p>
+ </sec>
+</sec>

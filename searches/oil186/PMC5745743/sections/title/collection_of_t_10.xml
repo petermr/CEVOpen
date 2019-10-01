@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="Sec5" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Collection of target proteins and pathways analysis</div>
+ <p id="Par14" xmlns="http://www.w3.org/1999/xhtml">Potential target proteins of the ingredients in 
+  <span class="italic">O. fragrans</span> var. 
+  <span class="italic">thunbergii</span> essential oil were collected using cyber tools such as SuperPred (
+  <span ext-link-type="uri" xlink:href="http://prediction.charite.de/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://prediction.charite.de/</span>) and DrugBank (
+  <span ext-link-type="uri" xlink:href="https://www.drugbank.ca/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.drugbank.ca/</span>). Targets having interaction data for less than five compounds have been removed in the database. Information of all the selected proteins were converted and uniformed by Uniprot (
+  <span ext-link-type="uri" xlink:href="http://www.uniprot.org/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.uniprot.org/</span>). In addition, ingredients without any target proteins were excluded.
+ </p>
+ <p id="Par15" xmlns="http://www.w3.org/1999/xhtml">Pathway analysis was performed on the selected target proteins utilizing KEGG pathway database (
+  <span ext-link-type="uri" xlink:href="http://www.kegg.jp/kegg/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.kegg.jp/kegg/</span>). The database contains information about signal transduction, biological processes of cells, and homologous conservative path information of more than 700 species. The queried species in this study is 
+  <span class="italic">Homo sapiens</span>. Pathway analysis was carried out with a 
+  <span class="italic">P</span>-value threshold of 0.01.
+ </p>
+</sec>

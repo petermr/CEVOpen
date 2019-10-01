@@ -1,0 +1,785 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew. Chem. Int. Ed. Engl</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3773</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6563698</article-id><article-id pub-id-type="doi">10.1002/anie.201901462</article-id><article-id pub-id-type="publisher-id">ANIE201901462</article-id><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communications</subject><subj-group subj-group-type="heading"><subject>Enzyme Catalysis</subject></subj-group></subj-group></article-categories><title-group><article-title>Evolving the Promiscuity of <italic>Elizabethkingia meningoseptica</italic> Oleate Hydratase for the Regio&#x02010; and Stereoselective Hydration of Oleic Acid Derivatives</article-title></title-group><contrib-group><contrib id="anie201901462-cr-0001" contrib-type="author"><name><surname>Engleder</surname><given-names>Matthias</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1064-1018</contrib-id><xref ref-type="aff" rid="anie201901462-aff-0001">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="anie201901462-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="anie201901462-cr-0002" contrib-type="author"><name><surname>Strohmeier</surname><given-names>Gernot A.</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201901462-aff-0001">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="anie201901462-aff-0002">
+<sup>3</sup>
+</xref><xref ref-type="author-notes" rid="anie201901462-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="anie201901462-cr-0003" contrib-type="author"><name><surname>Weber</surname><given-names>Hansj&#x000f6;rg</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><xref ref-type="aff" rid="anie201901462-aff-0002">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201901462-cr-0004" contrib-type="author"><name><surname>Steinkellner</surname><given-names>Georg</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7565-8868</contrib-id><xref ref-type="aff" rid="anie201901462-aff-0001">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="anie201901462-aff-0003">
+<sup>4</sup>
+</xref></contrib><contrib id="anie201901462-cr-0005" contrib-type="author"><name><surname>Leitner</surname><given-names>Erich</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2520-2111</contrib-id><xref ref-type="aff" rid="anie201901462-aff-0004">
+<sup>5</sup>
+</xref></contrib><contrib id="anie201901462-cr-0006" contrib-type="author"><name><surname>M&#x000fc;ller</surname><given-names>Monika</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201901462-aff-0005">
+<sup>6</sup>
+</xref></contrib><contrib id="anie201901462-cr-0007" contrib-type="author"><name><surname>Mink</surname><given-names>Daniel</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201901462-aff-0005">
+<sup>6</sup>
+</xref></contrib><contrib id="anie201901462-cr-0008" contrib-type="author"><name><surname>Sch&#x000fc;rmann</surname><given-names>Martin</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0848-0251</contrib-id><xref ref-type="aff" rid="anie201901462-aff-0005">
+<sup>6</sup>
+</xref></contrib><contrib id="anie201901462-cr-0009" contrib-type="author"><name><surname>Gruber</surname><given-names>Karl</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3485-9740</contrib-id><xref ref-type="aff" rid="anie201901462-aff-0001">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="anie201901462-aff-0006">
+<sup>7</sup>
+</xref></contrib><contrib id="anie201901462-cr-0010" contrib-type="author" corresp="yes"><name><surname>Pichler</surname><given-names>Harald</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6043-2137</contrib-id><address><email>harald.pichler@tugraz.at</email></address><xref ref-type="aff" rid="anie201901462-aff-0007">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="anie201901462-aff-0001">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="anie201901462-aff-0007">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Institute of Molecular Biotechnology</named-content>
+<institution>Graz University of Technology, NAWI Graz, BioTechMed Graz</institution>
+<named-content content-type="street">Petersgasse 14</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="anie201901462-aff-0001">
+<label><sup>2</sup></label>
+<institution>ACIB GmbH&#x02014;Austrian Centre of Industrial Biotechnology</institution>
+<named-content content-type="street">Petersgasse 14</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="anie201901462-aff-0002">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Institute of Organic Chemistry</named-content>
+<institution>Graz University of Technology, NAWI Graz</institution>
+<named-content content-type="street">Stremayrgasse 9</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="anie201901462-aff-0003">
+<label><sup>4</sup></label>
+<institution>Innophore GmbH</institution>
+<named-content content-type="street">Am Eisernen Tor 3</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="anie201901462-aff-0004">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Institute of Analytical Chemistry and Food Chemistry</named-content>
+<institution>Graz University of Technology, NAWI Graz</institution>
+<named-content content-type="street">Stremayrgasse 9</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><aff id="anie201901462-aff-0005">
+<label><sup>6</sup></label>
+<institution>InnoSyn B.V.</institution>
+<named-content content-type="street">Urmonderbaan 22</named-content>
+<named-content content-type="post-code">6167 RD</named-content>
+<named-content content-type="city">Geleen</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="anie201901462-aff-0006">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Institute of Molecular Biosciences</named-content>
+<institution>University of Graz, NAWI Graz, BioTechMed Graz</institution>
+<named-content content-type="street">Humboldtstrasse 50</named-content>
+<named-content content-type="post-code">8010</named-content>
+<named-content content-type="city">Graz</named-content>
+<country country="AT">Austria</country>
+</aff><author-notes><fn id="anie201901462-note-1001"><label>&#x02020;</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>17</day><month>4</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>27</day><month>5</month><year>2019</year></pub-date><volume>58</volume><issue>22</issue><issue-id pub-id-type="doi">10.1002/anie.v58.22</issue-id><fpage>7480</fpage><lpage>7484</lpage><history><date date-type="received"><day>01</day><month>2</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Wiley&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley-VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ANIE-58-7480.pdf"/><abstract><title>Abstract</title><p>The addition of water to non&#x02010;activated carbon&#x02013;carbon double bonds catalyzed by fatty acid hydratases (FAHYs) allows for highly regio&#x02010; and stereoselective oxyfunctionalization of renewable oil feedstock. So far, the applicability of FAHYs has been limited to free fatty acids, mainly owing to the requirement of a carboxylate function for substrate recognition and binding. Herein, we describe for the first time the hydration of oleic acid (OA) derivatives lacking this free carboxylate by the oleate hydratase from <italic>Elizabethkingia meningoseptica</italic> (OhyA). Molecular docking of OA to the OhyA 3D&#x02010;structure and a sequence alignment uncovered conserved amino acid residues at the entrance of the substrate channel as target positions for enzyme engineering. Exchange of selected amino acids gave rise to OhyA variants which showed up to an 18&#x02010;fold improved conversion of OA derivatives, while retaining the excellent regio&#x02010; and stereoselectivity in the olefin hydration reaction.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie201901462-kwd-0001">enzyme catalysis</kwd><kwd id="anie201901462-kwd-0002">fatty acid hydratase</kwd><kwd id="anie201901462-kwd-0003">hydrolyases</kwd><kwd id="anie201901462-kwd-0004">protein engineering</kwd><kwd id="anie201901462-kwd-0005">substrate promiscuity</kwd></kwd-group><funding-group><award-group><funding-source>FFG-COMET</funding-source></award-group></funding-group><counts><fig-count count="3"/><table-count count="2"/><ref-count count="46"/><page-count count="5"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>anie201901462</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 27, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.4 mode:remove_FC converted:13.06.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="anie201901462-self">M. Engleder, G. A. Strohmeier, H. Weber, G. Steinkellner, E. Leitner, M. M&#x000fc;ller, D. Mink, M. Sch&#x000fc;rmann, K. Gruber, H. Pichler, <italic>Angew. Chem. Int. Ed.</italic>
+<bold>2019</bold>, <italic>58</italic>, 7480.</mixed-citation>
+</p></notes></front><body><p>Fatty acid hydratases (FAHYs; EC&#x02005;4.2.1.X) catalyze the formation of medium&#x02010; and long&#x02010;chain hydroxylated fatty acids by addition of water to isolated carbon&#x02013;carbon double bonds of free mono&#x02010; or polyunsaturated fatty acids.<xref rid="anie201901462-bib-0001" ref-type="ref">1</xref>, <xref rid="anie201901462-bib-0002" ref-type="ref">2</xref>, <xref rid="anie201901462-bib-0003" ref-type="ref">3</xref>, <xref rid="anie201901462-bib-0004" ref-type="ref">4</xref>, <xref rid="anie201901462-bib-0005" ref-type="ref">5</xref> As such, they provide access to secondary and tertiary alcohols, which makes them valuable tools for the production of a variety of chemicals, including flavor additives,<xref rid="anie201901462-bib-0006" ref-type="ref">6</xref>, <xref rid="anie201901462-bib-0007" ref-type="ref">7</xref>, <xref rid="anie201901462-bib-0008" ref-type="ref">8</xref> surfactants, lubricants, and precursors in polymer chemistry.<xref rid="anie201901462-bib-0009" ref-type="ref">9</xref>, <xref rid="anie201901462-bib-0010" ref-type="ref">10</xref>, <xref rid="anie201901462-bib-0011" ref-type="ref">11</xref>, <xref rid="anie201901462-bib-0012" ref-type="ref">12</xref>, <xref rid="anie201901462-bib-0013" ref-type="ref">13</xref> The use of FAHYs in synthesis promises advantages relating to their exquisite regio&#x02010; and stereoselectivity, which permits reactions that are not possible with unselective acid&#x02010;catalyzed chemical hydrations.<xref rid="anie201901462-bib-0014" ref-type="ref">14</xref>, <xref rid="anie201901462-bib-0015" ref-type="ref">15</xref>, <xref rid="anie201901462-bib-0016" ref-type="ref">16</xref>, <xref rid="anie201901462-bib-0017" ref-type="ref">17</xref>, <xref rid="anie201901462-bib-0018" ref-type="ref">18</xref>, <xref rid="anie201901462-bib-0019" ref-type="ref">19</xref>, <xref rid="anie201901462-bib-0020" ref-type="ref">20</xref>, <xref rid="anie201901462-bib-0021" ref-type="ref">21</xref> Moreover, FAHYs are not impeded by the common challenges of other enzymes applied in hydroxylation reactions, which are often limited by low expression, poor stability and/or complex electron&#x02010;transport chains for nucleotide cofactor regeneration.<xref rid="anie201901462-bib-0001" ref-type="ref">1</xref>, <xref rid="anie201901462-bib-0002" ref-type="ref">2</xref>, <xref rid="anie201901462-bib-0020" ref-type="ref">20</xref>, <xref rid="anie201901462-bib-0021" ref-type="ref">21</xref>, <xref rid="anie201901462-bib-0022" ref-type="ref">22</xref>, <xref rid="anie201901462-bib-0023" ref-type="ref">23</xref>, <xref rid="anie201901462-bib-0024" ref-type="ref">24</xref>, <xref rid="anie201901462-bib-0025" ref-type="ref">25</xref>, <xref rid="anie201901462-bib-0026" ref-type="ref">26</xref>, <xref rid="anie201901462-bib-0027" ref-type="ref">27</xref> This has led to a growing attention for this class of hydrolyases for establishing new routes in sustainable organic syntheses. Most known FAHYs are highly regioselective in hydrating either the <italic>cis</italic>&#x02010;9 or <italic>cis</italic>&#x02010;12 double bond(s) of unsaturated fatty acids.<xref rid="anie201901462-bib-0005" ref-type="ref">5</xref>, <xref rid="anie201901462-bib-0028" ref-type="ref">28</xref>, <xref rid="anie201901462-bib-0029" ref-type="ref">29</xref>, <xref rid="anie201901462-bib-0030" ref-type="ref">30</xref>, <xref rid="anie201901462-bib-0031" ref-type="ref">31</xref>, <xref rid="anie201901462-bib-0032" ref-type="ref">32</xref>, <xref rid="anie201901462-bib-0033" ref-type="ref">33</xref> The only enzyme described so far showing a broader substrate scope is a FAHY isolated from <italic>Lactobacillus acidophilus</italic> NTV001 (FA&#x02010;HY1). It catalyzes the hydration of <italic>cis</italic>&#x02010;9, <italic>cis</italic>&#x02010;12, <italic>cis</italic>&#x02010;13, <italic>cis</italic>&#x02010;14 or <italic>cis</italic>&#x02010;15 double bonds of free fatty acids with different chain lengths and degrees of saturation, but not of the esters thereof,<xref rid="anie201901462-bib-0034" ref-type="ref">34</xref> which highlights limitations of the substrate scope. In contrast, the collection of 2046&#x02005;putative FAHY sequences in a hydratase engineering database (HyED) reflects a hitherto largely unexplored potential of this enzyme class to possibly catalyze reactions that are unattainable with current synthetic methodologies.<xref rid="anie201901462-bib-0035" ref-type="ref">35</xref>
+</p><p>The most thoroughly characterized FAHY to date is the oleate hydratase from <italic>Elizabethkingia meningoseptica</italic> (OhyA, EC&#x02005;4.2.1.53).<xref rid="anie201901462-bib-0036" ref-type="ref">36</xref>, <xref rid="anie201901462-bib-0037" ref-type="ref">37</xref>, <xref rid="anie201901462-bib-0038" ref-type="ref">38</xref> This enzyme catalyzes the regio&#x02010; and stereoselective hydration of oleic acid (OA), yielding (<italic>R</italic>)&#x02010;10&#x02010;hydroxy stearic acid with an excellent <italic>ee</italic> of &#x02265;98&#x02009;% and without the need for co&#x02010;factor recycling.<xref rid="anie201901462-bib-0014" ref-type="ref">14</xref>, <xref rid="anie201901462-bib-0021" ref-type="ref">21</xref>, <xref rid="anie201901462-bib-0037" ref-type="ref">37</xref>, <xref rid="anie201901462-bib-0038" ref-type="ref">38</xref> Currently, it is one of only four FAHYs with a resolved X&#x02010;ray crystal structure, and the only one analyzed in complex with the essential, non&#x02010;covalently bound FAD cofactor.<xref rid="anie201901462-bib-0033" ref-type="ref">33</xref>, <xref rid="anie201901462-bib-0038" ref-type="ref">38</xref>, <xref rid="anie201901462-bib-0039" ref-type="ref">39</xref>, <xref rid="anie201901462-bib-0040" ref-type="ref">40</xref> By comparing the surrounding of the FAD binding site of OhyA with other FAHY structures lacking a co&#x02010;crystallized cofactor, a structural role of the flavin for correct arrangement of the active site was inferred.<xref rid="anie201901462-bib-0005" ref-type="ref">5</xref>, <xref rid="anie201901462-bib-0032" ref-type="ref">32</xref>, <xref rid="anie201901462-bib-0038" ref-type="ref">38</xref>, <xref rid="anie201901462-bib-0039" ref-type="ref">39</xref>, <xref rid="anie201901462-bib-0040" ref-type="ref">40</xref>
+</p><p>Despite the progress in research, the applicability of FAHYs in an industrial setting is still limited, which can be mostly attributed to their strict substrate requirements. All published work demonstrated that a minimum distance of 7&#x02005;carbon atoms between the essential carboxylate and the double bond in <italic>cis</italic>&#x02010;configuration, along with a minimum fatty acid chain length of 11&#x02005;carbon atoms are mandatory for conversion.<xref rid="anie201901462-bib-0005" ref-type="ref">5</xref>, <xref rid="anie201901462-bib-0028" ref-type="ref">28</xref>, <xref rid="anie201901462-bib-0035" ref-type="ref">35</xref>, <xref rid="anie201901462-bib-0042" ref-type="ref">42</xref> Hydration at a terminal carbon atom in unsaturated fatty acids has also not been described so far, as a partial positive charge at the primary carbon atom would not be favored (Markovnikov's rule).<xref rid="anie201901462-bib-0038" ref-type="ref">38</xref>, <xref rid="anie201901462-bib-0043" ref-type="ref">43</xref> Several structural requirements for substrates to undergo OhyA&#x02010;catalyzed hydrations were recently bypassed by Demming and co&#x02010;workers. They succeeded in converting 1&#x02010;decene into (<italic>S</italic>)&#x02010;2&#x02010;decanol in a reaction using whole cells of <italic>Escherichia coli</italic> containing OhyA.<xref rid="anie201901462-bib-0043" ref-type="ref">43</xref> Strikingly, varying an amino acid position (Ala&#x02009;248) located at the end of the alkyl binding pocket to larger hydrophobic or aromatic residues allowed for improved hydration of various short&#x02010;chain 1&#x02010;alkenes, and even permitted the conversion of six out of 23 tested functionalized and internal alkenes.<xref rid="anie201901462-bib-0044" ref-type="ref">44</xref> The activity of their catalytic system was, however, strongly dependent on the addition of a carboxylic acid as decoy molecule to arrange the binding of a non&#x02010;covalently joined &#x0201c;pseudo&#x02010;fatty acid motif&#x0201d;, which is presumably formed in&#x02005;situ by simultaneous alignment of the decoy carboxylic acid and the terminal olefin to be hydrated.<xref rid="anie201901462-bib-0043" ref-type="ref">43</xref>, <xref rid="anie201901462-bib-0044" ref-type="ref">44</xref>, <xref rid="anie201901462-bib-0045" ref-type="ref">45</xref> These and our own results inspired us to further explore the promiscuity of oleate hydratases based on applying OhyA as the model enzyme. Driven by our primary focus on the role of the head group of a fatty acid in substrate recognition, we performed conversion assays with nine different OA derivatives (Scheme&#x02005;<xref rid="anie201901462-fig-5001" ref-type="fig">1</xref>, entries&#x02005;<bold>1&#x02009;a</bold>&#x02013;<bold>1&#x02009;j</bold>). The rationale behind our model substrate selection was to examine the acceptance of head groups with different physiochemical properties regarding size and hydrophobicity, as well as charge and polarization, that is, amine, amide, hydroxamic acid, alcohol, and short&#x02010;chain ester groups. Additionally, we preferably selected OA analogues that were already commonly used in various applications and which could be easily obtained in more than 90&#x02009;% purity through purification of commercially available materials or via synthesis from appropriate precursors.</p><fig fig-type="Scheme" xml:lang="en" id="anie201901462-fig-5001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Regio&#x02010; and stereoselective hydration of oleic acid (OA) and OA derivatives by <italic>E. meningoseptica</italic> oleate hydratase (OhyA). A whole&#x02010;cell <italic>E.&#x02005;coli</italic> biocatalyst harboring OhyA was used in the biotransformation assays.</p></caption><graphic id="nlm-graphic-3" xlink:href="ANIE-58-7480-g002"/></fig><p>At the beginning of our investigations, we incubated cell&#x02010;free lysate containing recombinantly expressed OhyA with the series of non&#x02010;natural substrates, but did not detect compound peaks corresponding to hydrated products in GC&#x02010;MS analyses. Knowing that the previously reported enzyme activity for the hydration of <italic>cis</italic>&#x02010;9&#x02010;undecenoic acid was also found low with cell&#x02010;free lysate, but could be greatly enhanced by using <italic>E.&#x02005;coli</italic> whole cells as enzyme source, we decided to repeat the biotransformations in a whole cell system and judge again the enzyme's activity on alternative substrates.<xref rid="anie201901462-bib-0035" ref-type="ref">35</xref>, <xref rid="anie201901462-bib-0043" ref-type="ref">43</xref>
+</p><p>Remarkably, after 96&#x02005;h of biotransformation, product from most OA derivatives was indeed detected in assays with <italic>E.&#x02005;coli</italic> cells harboring recombinant OhyA. As indicated by characteristic mass fragmentation patterns in GC&#x02010;MS, non&#x02010;physiological substrates <bold>1&#x02009;c</bold>&#x02013;<bold>1&#x02009;g</bold>, as well as <bold>1&#x02009;i</bold> were converted into the respective 10&#x02010;hydroxy compounds <bold>2&#x02009;c</bold>&#x02013;<bold>2&#x02009;g</bold> and <bold>2&#x02009;i</bold> (Figure&#x02005;S1&#x02013;S7 and S9 in the Supporting Information). Control reactions using an OhyA&#x02010;free <italic>E.&#x02005;coli</italic> strain showed no hydration of any substrate and no side reactions (Figure&#x02005;S1&#x02013;S10). Products from biotransformations were extracted, purified and verified by NMR spectroscopy (Figure&#x02005;S11&#x02013;S22, S25 and S26). We were pleased to see that the (<italic>R</italic>)&#x02010;alcohols of the hydrated fatty acid derivatives were obtained with <italic>ee</italic> values &#x02265;95&#x02009;%. This confirmed that the excellent stereoselectivities remained unchanged in OhyA&#x02010;catalyzed hydration reactions when using the selected non&#x02010;natural substrates. Whereas the OhyA&#x02010;mediated conversion of short&#x02010;chain alkenes described by Demming et&#x02005;al.<xref rid="anie201901462-bib-0043" ref-type="ref">43</xref> required the use of a carboxylic acid as decoy molecule, hydration of OA derivatives catalyzed by the same enzyme was independent of any co&#x02010;substrate and worked in the absence of a free carboxylic acid head group. Our study, therefore, presents the first hydration of fatty acid derivatives devoid of a free carboxylate by the action of an oleate hydratase, and, thus, breaks the notion of the essential carboxylic acid function required in substrate recognition by FAHYs.<xref rid="anie201901462-bib-0005" ref-type="ref">5</xref>, <xref rid="anie201901462-bib-0022" ref-type="ref">22</xref>, <xref rid="anie201901462-bib-0028" ref-type="ref">28</xref>, <xref rid="anie201901462-bib-0034" ref-type="ref">34</xref>, <xref rid="anie201901462-bib-0042" ref-type="ref">42</xref>, <xref rid="anie201901462-bib-0043" ref-type="ref">43</xref> In the tested reaction setups, only OA derivatives <bold>1&#x02009;b</bold>, <bold>1&#x02009;h</bold>, and <bold>1&#x02009;j</bold> were not converted. We attribute the non&#x02010;conversion of <bold>1&#x02009;b</bold> to the distinctly different properties of its amine head group, which exists as a cationic ammonium salt under our reaction conditions and, presumably, cannot bind to the enzyme's active site in a proper way to enable hydration. In case of <bold>1&#x02009;h</bold> and <bold>1&#x02009;j</bold>, the hydrophobicity of the substrates combined with the steric constraints of the entrance channel most likely prohibited their conversion.</p><p>Even though we observed hydration of six out of nine tested non&#x02010;natural substrates, the enzyme was notably more active on OA (<bold>1&#x02009;a</bold>). We considered this as a challenge for the development of a strategy to improve enzyme activity on fatty acid derivatives lacking a free carboxylate head group. To start this task, we referred to our previous study,<xref rid="anie201901462-bib-0038" ref-type="ref">38</xref> in which we proposed that several amino acid positions in OhyA (Gln&#x02009;265, Thr&#x02009;436, Asn&#x02009;438, and His&#x02009;442) close to the carboxylate of a docked OA molecule mediate substrate binding. This was supported by an analysis of the sequences compiled in the HyED, which showed that the identified positions were conserved among most members of the database (Figure&#x02005;S29).<xref rid="anie201901462-bib-0035" ref-type="ref">35</xref> Thus, we selected OhyA residues Gln&#x02009;265, Thr&#x02009;436, Asn&#x02009;438 and His&#x02009;442 for rational amino acid exchanges. Ultimately, our goal was to stabilize the interaction between the enzyme and OA derivatives by introducing amino acid side chains that promote binding of the different head groups (Table&#x02005;<xref rid="anie201901462-tbl-0001" ref-type="table">1</xref>). In view of the advantages provided by a whole&#x02010;cell system compared with cell&#x02010;free lysates or purified enzymes, such as the higher operational stability, easier handling and the avoidance of tedious purification steps,<xref rid="anie201901462-bib-0043" ref-type="ref">43</xref>, <xref rid="anie201901462-bib-0044" ref-type="ref">44</xref> we decided to employ recombinant <italic>E.&#x02005;coli</italic> whole&#x02010;cell biocatalysts throughout our work.
+</p><table-wrap id="anie201901462-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Conserved amino acid (AA) positions in the substrate binding region of OhyA selected for the site&#x02010;directed mutagenesis study. Amino acids are colored according to the physiochemical properties of their side chains: Hydrophobic: Black. Positively charged: <styled-content style="color:#00ff19">Green</styled-content>. Negatively charged: <styled-content style="color:#ff0000">Red</styled-content>. Positively polarized, uncharged: <styled-content style="color:#ff6600">Orange</styled-content>. Negatively polarized, uncharged: <styled-content style="color:#007acc">Blue</styled-content>. Aromatic: <styled-content style="color:#999999">Gray</styled-content>.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">AA position</th><th valign="top" rowspan="1" colspan="1">AA in wild type enzyme</th><th valign="top" rowspan="1" colspan="1">Exchanged for</th></tr></thead><tbody valign="top"><tr><td valign="top" rowspan="1" colspan="1">265</td><td valign="top" rowspan="1" colspan="1">
+<styled-content style="color:#ff6600">Gln</styled-content>
+</td><td valign="top" rowspan="1" colspan="1">Ala/<styled-content style="color:#ff0000">Glu</styled-content>/<styled-content style="color:#00ff19">Lys</styled-content>/<styled-content style="color:#007acc">Ser</styled-content>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">436</td><td valign="top" rowspan="1" colspan="1">
+<styled-content style="color:#007acc">Thr</styled-content>
+</td><td valign="top" rowspan="1" colspan="1">Ala/<styled-content style="color:#ff6600">Asn</styled-content>/<styled-content style="color:#ff0000">Asp</styled-content>/<styled-content style="color:#00ff19">Lys</styled-content>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">438</td><td valign="top" rowspan="1" colspan="1">
+<styled-content style="color:#ff6600">Asn</styled-content>
+</td><td valign="top" rowspan="1" colspan="1">Ala/<styled-content style="color:#00ff19">Arg</styled-content>/<styled-content style="color:#ff0000">Asp</styled-content>/<styled-content style="color:#00ff19">Lys</styled-content>/<styled-content style="color:#007acc">Ser</styled-content>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">442</td><td valign="top" rowspan="1" colspan="1">
+<styled-content style="color:#00ff19">His</styled-content>
+</td><td valign="top" rowspan="1" colspan="1">Ala/<styled-content style="color:#ff6600">Asn</styled-content>/<styled-content style="color:#ff0000">Asp</styled-content>/<styled-content style="color:#ff6600">Gln</styled-content>/<styled-content style="color:#ff0000">Glu</styled-content>/<styled-content style="color:#999999">Tyr</styled-content>
+</td></tr></tbody></table><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>To unravel the involved complexity of oleyl amine (<bold>1&#x02009;b</bold>) and oleamide (<bold>1&#x02009;c</bold>) binding, we introduced side chains providing hydroxy and carboxy functions, while the acceptance of <italic>N</italic>&#x02010;hydroxy oleamide (<bold>1&#x02009;d</bold>) and oleyl alcohol (<bold>1&#x02009;e</bold>) was challenged by selecting amide, amine and guanidinium groups, as well as alanines. Binding of OA esters (<bold>1&#x02009;f</bold>&#x02013;<bold>1&#x02009;j</bold>) was fostered by positioning alanine residues at the apex of the substrate binding channel to open up and increase the hydrophobicity at its entrance. In total, we created 33&#x02005;enzyme variants (19&#x02005;single, 10&#x02005;double, three triple, and one quadruple variant) as authoritative subset to represent various tactics in modifying the substrate recognition site. After generation of the variants by site&#x02010;directed mutagenesis, we expressed them in <italic>E.&#x02005;coli</italic> BL21 Star (DE3; see Table&#x02005;S2 for a comprehensive list of all variants). The analysis of cell&#x02010;free <italic>E.&#x02005;coli</italic> lysates containing recombinant enzymes by SDS&#x02010;PAGE confirmed soluble and, overall, largely uniform expression of the wild type enzyme and most variants (Figure&#x02005;S30). Only OhyA His442Asp was prone to being expressed in insoluble fashion, while the OhyA Gln265Ala/Thr436Ala variant was not expressed at all and, thus, not employed in activity assays.</p><p>We tested the activity of each of the remaining 31 variants for the physiological substrate (<bold>1&#x02009;a</bold>) and, consequently, assessed the impact of the amino acid exchanges on the conversion of OA derivatives (<bold>1&#x02009;b</bold>&#x02013;<bold>1&#x02009;j</bold>). While the highest hydration activity for <bold>1&#x02009;a</bold> was still obtained with the wild&#x02010;type enzyme (Figure&#x02005;S31), we were intrigued by the fact that several substitutions affected the conversion of non&#x02010;natural substrates <bold>1&#x02009;c</bold>&#x02013;<bold>1&#x02009;j</bold> (Figure&#x02005;S33&#x02013;S40), confirming our initial selection of important residues for substrate binding (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;a&#x02013;f and Figure&#x02005;S41). We noticed that the impact of each amino acid exchange on enzyme activity was strongly dependent on its location, which indicated a position specific effect of each variation. We would also like to emphasize that the highly <italic>R</italic>&#x02010;selective hydration (<italic>ee</italic> &#x02265;95&#x02009;%) was not affected for any of the tested substrates, confirming the broad utility of this approach for the challenging asymmetric hydration of non&#x02010;activated carbon&#x02013;carbon double bonds (Figure&#x02005;S42&#x02013;S49).
+</p><fig fig-type="Figure" xml:lang="en" id="anie201901462-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Docking of oleic acid (<bold>1&#x02009;a</bold>) and oleic acid derivatives <bold>1&#x02009;c</bold>&#x02013;<bold>1&#x02009;j</bold> to the OhyA 3D structure after in&#x02005;silico mutagenesis of conserved substrate binding residues 265, 436, 438, and 442. a)&#x02013;f) show the enzyme variant&#x02013;substrate combination that resulted in the best conversion to provide structure&#x02010;based evidence for the impact of the amino acid exchanges. The hydrophobicity of the enzyme cavity is represented by a color gradient from red (hydrophobic) to blue (hydrophilic). Co&#x02010;crystallized FAD (yellow) and the substrates in the best docking mode are shown in stick representation. Substrate binding residues and catalytic Glu&#x02009;122 and Tyr&#x02009;241 are highlighted. a)&#x02005;Docking of (<bold>1&#x02009;a</bold>) to the 3D structure of OhyA wild type enzyme. b)&#x02005;Docking of oleamide (<bold>1&#x02009;c</bold>) to OhyA Q265S/N438D. c)&#x02005;Docking of <italic>N</italic>&#x02010;hydroxy oleamide (<bold>1&#x02009;d</bold>) to OhyA Q265A/T436A/N438A. d)&#x02005;Docking of oleyl alcohol (<bold>1&#x02009;e</bold>) to OhyA Q265A/T436A/N438A. e)&#x02005;Docking of methyl (<bold>1&#x02009;f</bold>), ethyl (<bold>1&#x02009;g</bold>) and <italic>n</italic>&#x02010;propyl (<bold>1&#x02009;i</bold>) oleate to OhyA Q265A/T436A/N438A. f)&#x02005;Docking of <italic>i</italic>&#x02010;propyl (<bold>1&#x02009;h</bold>) and <italic>n</italic>&#x02010;butyl (<bold>1&#x02009;j</bold>) oleate to OhyA Q265A/T436A/N438A.</p></caption><graphic id="nlm-graphic-5" xlink:href="ANIE-58-7480-g001"/></fig><p>Hydration of <bold>1&#x02009;c</bold> was improved by substituting the amide side chains of Gln&#x02009;265 and Asn&#x02009;438 for hydroxy or carboxy functions. Most prominently, we found that combining the substitutions in OhyA variant Gln265Ser/Asn438Asp resulted in a 2.7&#x02010;fold increase in formation of <bold>2&#x02009;c</bold> (Figure&#x02005;S50). We explain this higher activity of the double variant towards <bold>1&#x02009;c</bold> with a more favorable interaction between its head group compared to wild&#x02010;type&#x02010;like amino acids (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;b). In case of <bold>1&#x02009;d</bold>, we obtained a 3.6&#x02010;fold increase upon exchanging multiple substrate binding residues for alanines in OhyA Gln265Ala/Thr436Ala/Asn438Ala (Figure&#x02005;S51), whereas all enzyme variants harboring single amino acid exchanges and most variants with two substitutions showed either a substantially lower or wild type&#x02010;like activity. We hypothesize that the extended space in the substrate binding region provided by the triple alanine variant resulted in a better acceptance of the more sterically hindered <bold>1&#x02009;d</bold> (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;c). Hydration of <bold>1&#x02009;e</bold> was also 2&#x02010;fold higher with the triple alanine variant OhyA Gln265Ala/Thr436Ala/Asn438Ala (Figure&#x02005;S52). This observation was somewhat counterintuitive to our initial understanding of substrate recognition by OhyA, since we were expecting that a larger opening of the substrate binding channel would tend to destabilize the binding of the smaller head group of <bold>1&#x02009;e</bold>. We therefore mainly attribute the higher conversion of <bold>1&#x02009;e</bold> to the introduction of a more hydrophobic environment, resulting in a better compatibility of substrate and the binding region (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;d).</p><p>The activity of OhyA on short&#x02010;chain OA esters <bold>1&#x02009;f</bold>&#x02013;<bold>1&#x02009;j</bold> could be increased remarkably with variants harboring alanine residues at the substrate entrance channel. While several single and double alanine substitutions moderately improved ester conversions, the triple alanine variant OhyA Gln265Ala/Thr436Ala/Asn438Ala attracted our attention by showing a 5&#x02010; to 18&#x02010;fold improvement in hydration of <bold>1&#x02009;f</bold>, <bold>1&#x02009;g</bold>, and <bold>1&#x02009;i</bold> (Figure&#x02005;S53, S54, and S56). Most likely, this can be attributed to the larger and more hydrophobic opening of the substrate binding channel, which is lined out by less ester substrate&#x02010;compatible amino acids in the wild&#x02010;type enzyme (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;e). Based on control experiments, we rule out that the hydration of OA esters in <italic>E.&#x02005;coli</italic> cells occurred through sequential ester hydrolysis,<xref rid="anie201901462-bib-0046" ref-type="ref">46</xref> oleic acid hydration and esterification of (<italic>R</italic>)&#x02010;10&#x02010;hydroxy stearic acid. Co&#x02010;incubation of <bold>1&#x02009;f</bold> and <bold>1&#x02009;g</bold> with methanol, ethanol or <italic>i</italic>&#x02010;propanol in bioconversions did not result in the formation of any ester side product derived from a <italic>trans</italic>&#x02010; or re&#x02010;esterification reaction (Figure&#x02005;S58 and S59). It is especially noteworthy that selected OhyA double variants and the triple alanine variant allowed the conversion of sterically demanding fatty acid ester derivatives <bold>1&#x02009;h</bold> and <bold>1&#x02009;j</bold> (Figure&#x02005;<xref rid="anie201901462-fig-0001" ref-type="fig">1</xref>&#x02009;f), whereas the wild&#x02010;type enzyme was inactive on these structures (see Figure&#x02005;S8, S10, S55, and S57 for GC&#x02010;MS and GC&#x02010;FID data, and Figure&#x02005;S23, S24, S27, and S28 for NMR spectra). We also performed activity assays with a respective quadruple alanine variant (OhyA Gln265Ala/Thr436Ala/Asn438Ala/His442Ala), but did not end up with conversion of any of the OA esters. This suggested that the exchange of histidine at position 442 for an alanine was severely affecting enzyme activity.</p><p>In summary, we describe the first regio&#x02010; and stereoselective addition of water to fatty acid derivatives without the prerequisite of a free carboxylate. Stabilizing the interaction between the head groups of OA derivatives and the substrate binding site of OhyA by rational design markedly enhanced the activity on eight different OA derivatives, including amide, hydroxamic acid, alcohol and esters, while the highly <italic>R</italic>&#x02010;selective hydration of the <italic>cis</italic>&#x02010;9 double bond (<italic>ee</italic> &#x02265;95&#x02009;%) was retained in all cases (Table&#x02005;<xref rid="anie201901462-tbl-0002" ref-type="table">2</xref>).
+</p><table-wrap id="anie201901462-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>List of individually best OhyA&#x02010;variants for the regio&#x02010; and stereoselective hydration of OA (<bold>1&#x02009;a</bold>) and OA derivatives (<bold>1&#x02009;c</bold>&#x02013;<bold>1&#x02009;j</bold>) obtained by site&#x02010;directed mutagenesis of substrate binding residues.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">Compound</th><th valign="top" rowspan="1" colspan="1">Best variant for hydration reaction</th><th valign="top" rowspan="1" colspan="1">Improvement<break/>compared to<break/>wild type<sup>[a]</sup>
+</th><th valign="top" rowspan="1" colspan="1">Yield<break/>[%]<sup>[b]</sup>
+</th><th valign="top" rowspan="1" colspan="1">Abs. conf.<break/>at C&#x02010;10<sup>[c]</sup>
+</th></tr></thead><tbody valign="top"><tr><td valign="top" rowspan="1" colspan="1">a</td><td valign="top" rowspan="1" colspan="1">Wild type</td><td valign="top" rowspan="1" colspan="1">&#x02013;</td><td valign="top" rowspan="1" colspan="1">93</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">b</td><td valign="top" rowspan="1" colspan="1">No conversion</td><td valign="top" rowspan="1" colspan="1">&#x02013;</td><td valign="top" rowspan="1" colspan="1">0</td><td valign="top" rowspan="1" colspan="1">
+<italic>&#x02013;</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">c</td><td valign="top" rowspan="1" colspan="1">Gln265Ser/<break/>Asn438Asp</td><td valign="top" rowspan="1" colspan="1">2.7</td><td valign="top" rowspan="1" colspan="1">54</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">d</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">3.6</td><td valign="top" rowspan="1" colspan="1">8</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">e</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">2.0</td><td valign="top" rowspan="1" colspan="1">30</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">f</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">5.2</td><td valign="top" rowspan="1" colspan="1">6</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">g</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">8.8</td><td valign="top" rowspan="1" colspan="1">12</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">h</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">Wild type inactive</td><td valign="top" rowspan="1" colspan="1">1</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">i</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">17.6</td><td valign="top" rowspan="1" colspan="1">4</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">j</td><td valign="top" rowspan="1" colspan="1">Gln265Ala/Thr436Ala/Asn438Ala</td><td valign="top" rowspan="1" colspan="1">Wild type inactive</td><td valign="top" rowspan="1" colspan="1">2</td><td valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+</td></tr></tbody></table><table-wrap-foot><fn id="anie201901462-tnote-0001"><p>[a]&#x02005;Ratio of conversions obtained after 96&#x02005;h compared to the wild&#x02010;type enzyme in application; quantified by GC&#x02010;FID analysis. [b]&#x02005;Isolated yield after chromatography. [c]&#x02005;<italic>ee</italic> values &#x02265;95&#x02009;% (<italic>R</italic>) in all cases as determined by <sup>1</sup>H&#x02005;NMR spectroscopy after esterification of the 10&#x02010;hydroxy group with (<italic>S</italic>)&#x02010;(+)&#x02010;<italic>O</italic>&#x02010;acetylmandelic acid.<xref rid="anie201901462-bib-0038" ref-type="ref">38</xref>
+</p></fn></table-wrap-foot><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>Our work allows for a deeper understanding of the substrate recognition in this enzyme class and, to our knowledge, reports the first successful engineering of a FAHY towards improved conversion of OA derivatives. This knowledge provides a foundation for the development of FAHYs towards applications beyond current limitations.</p><sec disp-level="2" id="anie201901462-sec-0003" sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ANIE-58-7480-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="anie201901462-sec-0002"><title>Acknowledgements</title><p>We thank Lhamo Yachungtsang, Michael Riedl and Myria Bekerle&#x02010;Bogner for excellent technical assistance. This work has been supported by the Federal Ministry of Science, Research and Economy (BMWFW), the Federal Ministry of Traffic, Innovation and Technology (bmvit), the Styrian Business Promotion Agency SFG, the Standortagentur Tirol, the Government of Lower Austria, and Business Agency Vienna through the COMET&#x02010;Funding Program managed by the Austrian Research Promotion Agency FFG.</p></ack><ref-list><ref id="anie201901462-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="anie201901462-cit-0001">
+<string-name>
+<given-names>K.-R.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>D.-K.</given-names>
+<surname>Oh</surname>
+</string-name>, <source xml:lang="en">Biotechnol. Adv.</source>
+<year>2013</year>, <volume>31</volume>, <fpage>1473</fpage>&#x02013;<lpage>1485</lpage>.<pub-id pub-id-type="pmid">23860413</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="anie201901462-cit-0002">
+<string-name>
+<given-names>K.</given-names>
+<surname>Zorn</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Oroz-Guinea</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Brundiek</surname>
+</string-name>, <string-name>
+<given-names>U. T.</given-names>
+<surname>Bornscheuer</surname>
+</string-name>, <source xml:lang="en">Prog. Lipid Res.</source>
+<year>2016</year>, <volume>63</volume>, <fpage>153</fpage>&#x02013;<lpage>164</lpage>.<pub-id pub-id-type="pmid">27301784</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="anie201901462-cit-0003">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <source xml:lang="en">Appl. Microbiol. Biotechnol.</source>
+<year>2013</year>, <volume>97</volume>, <fpage>3323</fpage>&#x02013;<lpage>3331</lpage>.<pub-id pub-id-type="pmid">23494626</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="anie201901462-cit-0004">
+<string-name>
+<given-names>S.</given-names>
+<surname>Koritala</surname>
+</string-name>, <string-name>
+<given-names>C. T.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name>
+<given-names>C. W.</given-names>
+<surname>Hesseltine</surname>
+</string-name>, <string-name>
+<given-names>M. O.</given-names>
+<surname>Bagby</surname>
+</string-name>, <source xml:lang="en">Appl. Microbiol. Biotechnol.</source>
+<year>1989</year>, <volume>32</volume>, <fpage>299</fpage>&#x02013;<lpage>304</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="anie201901462-cit-0005">
+<string-name>
+<given-names>M.</given-names>
+<surname>Engleder</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Pichler</surname>
+</string-name>, <source xml:lang="en">Appl. Microbiol. Biotechnol.</source>
+<year>2018</year>, <volume>102</volume>, <fpage>5841</fpage>&#x02013;<lpage>5858</lpage>.<pub-id pub-id-type="pmid">29785499</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="anie201901462-cit-0006">
+<string-name>
+<given-names>Y.-S.</given-names>
+<surname>Jo</surname>
+</string-name>, <string-name>
+<given-names>J.-U.</given-names>
+<surname>An</surname>
+</string-name>, <string-name>
+<given-names>D.-K.</given-names>
+<surname>Oh</surname>
+</string-name>, <source xml:lang="en">J. Agric. Food Chem.</source>
+<year>2014</year>, <volume>62</volume>, <fpage>6736</fpage>&#x02013;<lpage>6745</lpage>.<pub-id pub-id-type="pmid">24967938</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="anie201901462-cit-0007">
+<string-name>
+<given-names>W. R.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name>
+<given-names>M. J.</given-names>
+<surname>Seo</surname>
+</string-name>, <string-name>
+<given-names>J. U.</given-names>
+<surname>An</surname>
+</string-name>, <string-name>
+<given-names>K. C.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name>
+<given-names>D. K.</given-names>
+<surname>Oh</surname>
+</string-name>, <source xml:lang="en">Biotechnol. Lett.</source>
+<year>2016</year>, <volume>38</volume>, <fpage>817</fpage>&#x02013;<lpage>823</lpage>.<pub-id pub-id-type="pmid">26758723</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="anie201901462-cit-0008">
+<string-name>
+<given-names>U. T.</given-names>
+<surname>Bornscheuer</surname>
+</string-name>, <source xml:lang="en">Annu. Rev. Food Sci. Technol.</source>
+<year>2018</year>, <volume>9</volume>, <fpage>85</fpage>&#x02013;<lpage>103</lpage>.<pub-id pub-id-type="pmid">29350562</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="anie201901462-cit-0009">
+<string-name>
+<given-names>U.</given-names>
+<surname>Biermann</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Bornscheuer</surname>
+</string-name>, <string-name>
+<given-names>M. A. R.</given-names>
+<surname>Meier</surname>
+</string-name>, <string-name>
+<given-names>J. O.</given-names>
+<surname>Metzger</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Sch&#x000e4;fer</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2011</year>, <volume>50</volume>, <fpage>3854</fpage>&#x02013;<lpage>3871</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201901462-cit-0010">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2011</year>, <volume>123</volume>, <fpage>3938</fpage>&#x02013;<lpage>3956</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="anie201901462-cit-0011">
+<string-name>
+<given-names>J.-W.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>E.-Y.</given-names>
+<surname>Jeon</surname>
+</string-name>, <string-name>
+<given-names>D.-H.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>H. Y.</given-names>
+<surname>Jang</surname>
+</string-name>, <string-name>
+<given-names>U. T.</given-names>
+<surname>Bornscheuer</surname>
+</string-name>, <string-name>
+<given-names>D.-K.</given-names>
+<surname>Oh</surname>
+</string-name>, <string-name>
+<given-names>J. B.</given-names>
+<surname>Park</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2013</year>, <volume>52</volume>, <fpage>2534</fpage>&#x02013;<lpage>2537</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201901462-cit-0012">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2013</year>, <volume>125</volume>, <fpage>2594</fpage>&#x02013;<lpage>2597</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="anie201901462-cit-0013">
+<string-name>
+<given-names>J.-W.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>J.-H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>U. T.</given-names>
+<surname>Bornscheuer</surname>
+</string-name>, <string-name>
+<given-names>J.-B.</given-names>
+<surname>Park</surname>
+</string-name>, <source xml:lang="en">Adv. Synth. Catal.</source>
+<year>2014</year>, <volume>356</volume>, <fpage>1782</fpage>&#x02013;<lpage>1788</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="anie201901462-cit-0014">
+<string-name>
+<given-names>B.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Stanton</surname>
+</string-name>, <string-name>
+<given-names>R. P.</given-names>
+<surname>Ross</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>Y. Q.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Chen</surname>
+</string-name>, <source xml:lang="en">Prog. Lipid Res.</source>
+<year>2017</year>, <volume>68</volume>, <fpage>26</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">28889933</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="anie201901462-cit-0015">
+<string-name>
+<given-names>C. T.</given-names>
+<surname>Hou</surname>
+</string-name>, <source xml:lang="en">New Biotechnol.</source>
+<year>2009</year>, <volume>26</volume>, <fpage>2</fpage>&#x02013;<lpage>10</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="anie201901462-cit-0016">
+<string-name>
+<given-names>G. J.</given-names>
+<surname>Schroepfer</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Bloch</surname>
+</string-name>, <source xml:lang="en">J. Biol. Chem.</source>
+<year>1965</year>, <volume>240</volume>, <fpage>54</fpage>&#x02013;<lpage>63</lpage>.<pub-id pub-id-type="pmid">14253467</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="anie201901462-cit-0017">
+<string-name>
+<given-names>G. J.</given-names>
+<surname>Schroepfer</surname>
+</string-name>, <source xml:lang="en">J. Biol. Chem.</source>
+<year>1966</year>, <volume>241</volume>, <fpage>5441</fpage>&#x02013;<lpage>5447</lpage>.<pub-id pub-id-type="pmid">4959364</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="anie201901462-cit-0018">
+<string-name>
+<given-names>W.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Dostal</surname>
+</string-name>, <string-name>
+<given-names>J. P. N.</given-names>
+<surname>Rosazza</surname>
+</string-name>, <source xml:lang="en">Appl. Environ. Microbiol.</source>
+<year>1993</year>, <volume>59</volume>, <fpage>281</fpage>&#x02013;<lpage>284</lpage>.<pub-id pub-id-type="pmid">16348853</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0017"><label>17</label><mixed-citation publication-type="book" id="anie201901462-cit-0019">
+<string-name>
+<given-names>L.</given-names>
+<surname>Hintermann</surname>
+</string-name> in <source xml:lang="en">C&#x02013;X Bond Formation, Topics in Organometallic Chemistry, Vol.&#x02005;31</source> (Ed.: <person-group person-group-type="editor"><string-name>A. Vigalok</string-name></person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Heidelberg</publisher-loc>, <year>2010</year>, pp.&#x02005;<fpage>123</fpage>&#x02013;<lpage>155</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="anie201901462-cit-0020">
+<string-name>
+<given-names>H.</given-names>
+<surname>Gr&#x000f6;ger</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2014</year>, <volume>53</volume>, <fpage>3067</fpage>&#x02013;<lpage>3069</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201901462-cit-0021">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2014</year>, <volume>126</volume>, <fpage>3128</fpage>&#x02013;<lpage>3130</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="anie201901462-cit-0022">
+<string-name>
+<given-names>V.</given-names>
+<surname>Resch</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Hanefeld</surname>
+</string-name>, <source xml:lang="en">Catal. Sci. Technol.</source>
+<year>2015</year>, <volume>5</volume>, <fpage>1385</fpage>&#x02013;<lpage>1399</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="anie201901462-cit-0023">
+<string-name>
+<given-names>B.-S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>L. G.</given-names>
+<surname>Otten</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Hanefeld</surname>
+</string-name>, <source xml:lang="en">Biotechnol. Adv.</source>
+<year>2015</year>, <volume>33</volume>, <fpage>526</fpage>&#x02013;<lpage>546</lpage>.<pub-id pub-id-type="pmid">25640045</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="anie201901462-cit-0024">
+<string-name>
+<given-names>A.</given-names>
+<surname>Brunner</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Hintermann</surname>
+</string-name>, <source xml:lang="en">Helv. Chim. Acta</source>
+<year>2016</year>, <volume>99</volume>, <fpage>928</fpage>&#x02013;<lpage>943</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="anie201901462-cit-0025">
+<string-name>
+<given-names>J.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Hanefeld</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2011</year>, <volume>47</volume>, <fpage>2502</fpage>&#x02013;<lpage>2510</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="anie201901462-cit-0026">
+<string-name>
+<given-names>B.-S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Resch</surname>
+</string-name>, <string-name>
+<given-names>L. G.</given-names>
+<surname>Otten</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Hanefeld</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2015</year>, <volume>21</volume>, <fpage>3020</fpage>&#x02013;<lpage>3030</lpage>.<pub-id pub-id-type="pmid">25529526</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="anie201901462-cit-0027">
+<string-name>
+<given-names>L.</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name>
+<given-names>X. F.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name>
+<given-names>M. Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>Y. Y.</given-names>
+<surname>Jiang</surname>
+</string-name>, <source xml:lang="en">Polym. Adv. Technol.</source>
+<year>2004</year>, <volume>15</volume>, <fpage>346</fpage>&#x02013;<lpage>349</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="anie201901462-cit-0028">
+<string-name>
+<given-names>A. J.</given-names>
+<surname>Boersma</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Coqui&#x000e8;re</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Geerdink</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Rosati</surname>
+</string-name>, <string-name>
+<given-names>B. L.</given-names>
+<surname>Feringa</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Roelfes</surname>
+</string-name>, <source xml:lang="en">Nat. Chem.</source>
+<year>2010</year>, <volume>2</volume>, <fpage>991</fpage>&#x02013;<lpage>995</lpage>.<pub-id pub-id-type="pmid">20966958</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="anie201901462-cit-0029">
+<string-name>
+<given-names>A.</given-names>
+<surname>Kaprakkaden</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>Bisaria</surname>
+</string-name>, <source xml:lang="en">Microb. Cell Fact.</source>
+<year>2017</year>, <volume>16</volume>, <fpage>1</fpage>&#x02013;<lpage>10</lpage>.<pub-id pub-id-type="pmid">28049473</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0027"><label>27</label><mixed-citation publication-type="book" id="anie201901462-cit-0030">
+<string-name>
+<given-names>L.</given-names>
+<surname>Roper</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Grogan</surname>
+</string-name>, in <source xml:lang="en">Organic Synthesis Using Biocatalysis</source> (Eds.: <person-group person-group-type="editor"><string-name>A. Goswami, J.&#x02005;D. Stewart</string-name></person-group>), <publisher-name>Elsevier</publisher-name>, <publisher-loc>Amsterdam</publisher-loc>, <year>2016</year>, pp.&#x02005;<fpage>213</fpage>&#x02013;<lpage>241</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="anie201901462-cit-0031">
+<string-name>
+<given-names>A.</given-names>
+<surname>Hiseni</surname>
+</string-name>, <string-name>
+<given-names>I. W. C. E.</given-names>
+<surname>Arends</surname>
+</string-name>, <string-name>
+<given-names>L. G.</given-names>
+<surname>Otten</surname>
+</string-name>, <source xml:lang="en">ChemCatChem</source>
+<year>2015</year>, <volume>7</volume>, <fpage>29</fpage>&#x02013;<lpage>37</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="anie201901462-cit-0032">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Hudson</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Morvan</surname>
+</string-name>, <string-name>
+<given-names>K. N.</given-names>
+<surname>Joblin</surname>
+</string-name>, <source xml:lang="en">FEMS Microbiol. Lett.</source>
+<year>1998</year>, <volume>169</volume>, <fpage>277</fpage>&#x02013;<lpage>282</lpage>.<pub-id pub-id-type="pmid">9868771</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="anie201901462-cit-0033">
+<string-name>
+<given-names>I.-S.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>H.-J.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>D.-K.</given-names>
+<surname>Oh</surname>
+</string-name>, <source xml:lang="en">Biotechnol. Prog.</source>
+<year>2008</year>, <volume>24</volume>, <fpage>182</fpage>&#x02013;<lpage>186</lpage>.<pub-id pub-id-type="pmid">18197675</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="anie201901462-cit-0034">
+<string-name>
+<given-names>M.</given-names>
+<surname>Takeuchi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kishino</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Tanabe</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hirata</surname>
+</string-name>, <string-name>
+<given-names>S. B.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Shimizu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ogawa</surname>
+</string-name>, <source xml:lang="en">Eur. J. Lipid Sci. Technol.</source>
+<year>2013</year>, <volume>115</volume>, <fpage>386</fpage>&#x02013;<lpage>393</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="anie201901462-cit-0035">
+<string-name>
+<given-names>M.</given-names>
+<surname>Takeuchi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kishino</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hirata</surname>
+</string-name>, <string-name>
+<given-names>S.-B.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Kitamura</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ogawa</surname>
+</string-name>, <source xml:lang="en">J. Biosci. Bioeng.</source>
+<year>2015</year>, <volume>119</volume>, <fpage>636</fpage>&#x02013;<lpage>641</lpage>.<pub-id pub-id-type="pmid">25476761</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="anie201901462-cit-0036">
+<string-name>
+<given-names>J.</given-names>
+<surname>Lorenzen</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Janke</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Waldow</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Qoura</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Loll</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Br&#x000fc;ck</surname>
+</string-name>, <source xml:lang="en">ChemCatChem</source>
+<year>2018</year>, <volume>10</volume>, <fpage>407</fpage>&#x02013;<lpage>414</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="anie201901462-cit-0037">
+<string-name>
+<given-names>A.</given-names>
+<surname>Hirata</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kishino</surname>
+</string-name>, <string-name>
+<given-names>S.-B.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Takeuchi</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Kitamura</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ogawa</surname>
+</string-name>, <source xml:lang="en">J. Lipid Res.</source>
+<year>2015</year>, <volume>56</volume>, <fpage>1340</fpage>&#x02013;<lpage>1350</lpage>.<pub-id pub-id-type="pmid">25966711</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="anie201901462-cit-0038">
+<string-name>
+<given-names>J.</given-names>
+<surname>Schmid</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Steiner</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Fademrecht</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Pleiss</surname>
+</string-name>, <string-name>
+<given-names>K. B.</given-names>
+<surname>Otte</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Hauer</surname>
+</string-name>, <source xml:lang="en">J. Mol. Catal. B</source>
+<year>2016</year>, <volume>133</volume>, S<fpage>243</fpage>&#x02013;S<lpage>249</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="anie201901462-cit-0039">
+<string-name>
+<given-names>L. L.</given-names>
+<surname>Wallen</surname>
+</string-name>, <string-name>
+<given-names>R. G.</given-names>
+<surname>Benedict</surname>
+</string-name>, <string-name>
+<given-names>R. W.</given-names>
+<surname>Jackson</surname>
+</string-name>, <source xml:lang="en">Arch. Biochem. Biophys.</source>
+<year>1962</year>, <volume>99</volume>, <fpage>249</fpage>&#x02013;<lpage>253</lpage>.<pub-id pub-id-type="pmid">13998583</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="anie201901462-cit-0040">
+<string-name>
+<given-names>L. E.</given-names>
+<surname>Bevers</surname>
+</string-name>, <string-name>
+<given-names>M. W. H.</given-names>
+<surname>Pinkse</surname>
+</string-name>, <string-name>
+<given-names>P. D. E. M.</given-names>
+<surname>Verhaert</surname>
+</string-name>, <string-name>
+<given-names>W. R.</given-names>
+<surname>Hagen</surname>
+</string-name>, <source xml:lang="en">J. Bacteriol.</source>
+<year>2009</year>, <volume>191</volume>, <fpage>5010</fpage>&#x02013;<lpage>5012</lpage>.<pub-id pub-id-type="pmid">19465645</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="anie201901462-cit-0041">
+<string-name>
+<given-names>M.</given-names>
+<surname>Engleder</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Pavkov-Keller</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Emmerstorfer-Augustin</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hromic</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Schrempf</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Steinkellner</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Wriessnegger</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Leitner</surname>
+</string-name>, <string-name>
+<given-names>G. A.</given-names>
+<surname>Strohmeier</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Kaluzna</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Mink</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Sch&#x000fc;rmann</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Wallner</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Macheroux</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Gruber</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Pichler</surname>
+</string-name>, <source xml:lang="en">ChemBioChem</source>
+<year>2015</year>, <volume>16</volume>, <fpage>1730</fpage>&#x02013;<lpage>1734</lpage>.<pub-id pub-id-type="pmid">26077980</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="anie201901462-cit-0042">
+<string-name>
+<given-names>A.</given-names>
+<surname>Volkov</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Khoshnevis</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Neumann</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Herrfurth</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Wohlwend</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Ficner</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Feussner</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. D</source>
+<year>2013</year>, <volume>69</volume>, <fpage>648</fpage>&#x02013;<lpage>657</lpage>.<pub-id pub-id-type="pmid">23519674</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="anie201901462-cit-0043">
+<string-name>
+<given-names>A. K.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>G. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>D. W.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>E. H.</given-names>
+<surname>Jang</surname>
+</string-name>, <string-name>
+<given-names>H. T.</given-names>
+<surname>Kwon</surname>
+</string-name>, <string-name>
+<given-names>Y. M.</given-names>
+<surname>Chi</surname>
+</string-name>, <source xml:lang="en">Biochem. Biophys. Res. Commun.</source>
+<year>2018</year>, <volume>499</volume>, <fpage>772</fpage>&#x02013;<lpage>776</lpage>.<pub-id pub-id-type="pmid">29608896</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="anie201901462-cit-0044">
+<string-name>
+<given-names>B.-S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>F. Z. R.</given-names>
+<surname>de&#x02005;Souza</surname>
+</string-name>, <source xml:lang="en">RSC Adv.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>2102</fpage>&#x02013;<lpage>2115</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="anie201901462-cit-0045">
+<string-name>
+<given-names>R. M.</given-names>
+<surname>Demming</surname>
+</string-name>, <string-name>
+<given-names>M.-P.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schmid</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Hauer</surname>
+</string-name>, <source xml:lang="en">Curr. Opin. Chem. Biol.</source>
+<year>2018</year>, <volume>43</volume>, <fpage>43</fpage>&#x02013;<lpage>50</lpage>.<pub-id pub-id-type="pmid">29156448</pub-id></mixed-citation></ref><ref id="anie201901462-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="anie201901462-cit-0046">
+<string-name>
+<given-names>R. M.</given-names>
+<surname>Demming</surname>
+</string-name>, <string-name>
+<given-names>K. B.</given-names>
+<surname>Otte</surname>
+</string-name>, <string-name>
+<given-names>B. M.</given-names>
+<surname>Nestl</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Hauer</surname>
+</string-name>, <source xml:lang="en">ChemCatChem</source>
+<year>2017</year>, <volume>9</volume>, <fpage>758</fpage>&#x02013;<lpage>766</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="anie201901462-cit-0047">
+<string-name>
+<given-names>R. M.</given-names>
+<surname>Demming</surname>
+</string-name>, <string-name>
+<given-names>S. C.</given-names>
+<surname>Hammer</surname>
+</string-name>, <string-name>
+<given-names>B. M.</given-names>
+<surname>Nestl</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Gergel</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Fademrecht</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Pleiss</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Hauer</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>173</fpage>&#x02013;<lpage>177</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201901462-cit-0048">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2019</year>, <volume>131</volume>, <fpage>179</fpage>&#x02013;<lpage>183</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="anie201901462-cit-0049">
+<string-name>
+<given-names>S.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Li</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2019</year>, <volume>55</volume>, <fpage>883</fpage>&#x02013;<lpage>896</lpage>.</mixed-citation></ref><ref id="anie201901462-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="anie201901462-cit-0050">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kadisch</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Schmid</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Buehler</surname>
+</string-name>, <source xml:lang="en">J. Ind. Microbiol. Biotechnol.</source>
+<year>2017</year>, <volume>44</volume>, <fpage>339</fpage>&#x02013;<lpage>335</lpage>.<pub-id pub-id-type="pmid">28012009</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,638 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Eur J Inorg Chem</journal-id><journal-id journal-id-type="iso-abbrev">Eur J Inorg Chem</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1099-0682c</journal-id><journal-id journal-id-type="publisher-id">EJIC</journal-id><journal-title-group><journal-title>European Journal of Inorganic Chemistry</journal-title></journal-title-group><issn pub-type="ppub">1434-1948</issn><issn pub-type="epub">1099-0682</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6582614</article-id><article-id pub-id-type="doi">10.1002/ejic.201900405</article-id><article-id pub-id-type="publisher-id">EJIC201900405</article-id><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Papers</subject><subj-group subj-group-type="heading"><subject>Proton Reduction Catalysts</subject></subj-group></subj-group></article-categories><title-group><article-title>[FeFe]&#x02010;Hydrogenase Mimic Employing &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;Pyridine Bridgehead Catalyzes Proton Reduction at Mild Overpotential</article-title><alt-title alt-title-type="left-running-head">E. C. F Schippers, S. S. Nurttila, J.&#x02010;P. H Oudsen, M. Tromp, W. I. Dzik, J. I. van der Vlugt, J. N. H Reek</alt-title><alt-title alt-title-type="right-running-head">[FeFe]&#x02010;Hydrogenase Mimic Employing &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;Pyridine Bridgehead Catalyzes Proton Reduction at Mild Overpotential</alt-title></title-group><contrib-group><contrib id="ejic201900405-cr-0001" contrib-type="author"><name><surname>Schippers</surname><given-names>Esther C. F.</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="ejic201900405-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0002" contrib-type="author"><name><surname>Nurttila</surname><given-names>Sandra S.</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="ejic201900405-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0003" contrib-type="author"><name><surname>Oudsen</surname><given-names>Jean&#x02010;Pierre H.</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0004" contrib-type="author"><name><surname>Tromp</surname><given-names>Moniek</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0005" contrib-type="author"><name><surname>Dzik</surname><given-names>Wojciech I.</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0006" contrib-type="author"><name><surname>van der Vlugt</surname><given-names>Jarl Ivar</given-names></name><xref ref-type="aff" rid="ejic201900405-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ejic201900405-cr-0007" contrib-type="author" corresp="yes"><name><surname>Reek</surname><given-names>Joost N. H.</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5024-508X</contrib-id><address><email>j.n.h.reek@uva.nl</email></address><xref ref-type="aff" rid="ejic201900405-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ejic201900405-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Homogeneous, Supramolecular and Bio&#x02013;Inspired Catalysis</named-content>
+<named-content content-type="organisation-division">Van 't Hoff Institute for Molecular Sciences</named-content>
+<institution>University of Amsterdam</institution>
+<named-content content-type="street">Science Park 904</named-content>
+<named-content content-type="post-code">1098 XH</named-content>
+<named-content content-type="city">Amsterdam</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="ejic201900405-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Sustainable Materials Characterization</named-content>
+<named-content content-type="organisation-division">Van 't Hoff Institute for Molecular Sciences</named-content>
+<institution>University of Amsterdam</institution>
+<named-content content-type="street">Science Park 904</named-content>
+<named-content content-type="post-code">1098 XH</named-content>
+<named-content content-type="city">Amsterdam</named-content>
+<country country="NL">The Netherlands</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Homogeneous, Supramolecular and Bio&#x02013;Inspired Catalysis, Van 't Hoff Institute for Molecular Sciences, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, The Netherlands<break/>
+E&#x02010;mail: <email>j.n.h.reek@uva.nl</email><break/><ext-link ext-link-type="uri" xlink:href="http://homkat.nl">www.homkat.nl</ext-link><break/></corresp><fn id="ejic201900405-note-0001"><label>&#x02020;</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>15</day><month>5</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>02</day><month>6</month><year>2019</year></pub-date><volume>2019</volume><issue>20</issue><issue-id pub-id-type="doi">10.1002/ejic.v2019.20</issue-id><fpage>2510</fpage><lpage>2517</lpage><history><date date-type="received"><day>10</day><month>4</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 WILEY&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy-nc"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:EJIC-2019-2510.pdf"/><abstract><p>Two novel &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;pyridine bridged [FeFe]&#x02010;H<sub>2</sub>ase mimics (<bold>1</bold> and <bold>2</bold>) have been prepared and are shown to function as efficient molecular catalysts for electrocatalytic proton reduction. The elemental and structural composition of the complexes are confirmed by NMR and IR spectroscopy, high&#x02010;resolution mass spectrometry and single&#x02010;crystal X&#x02010;ray diffraction. Electrochemical investigations reveal that the complexes reduce protons at their first reduction potential, resulting in the lowest overpotential (120 mV) ever reported for [FeFe]&#x02010;H<sub>2</sub>ase mimics in proton reduction catalysis when mild acid (phenol) is used as proton source.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ejic201900405-kwd-0001">Proton reduction</kwd><kwd id="ejic201900405-kwd-0002">Hydrogenase mimics</kwd><kwd id="ejic201900405-kwd-0003">Iron</kwd><kwd id="ejic201900405-kwd-0004">Electrochemistry</kwd><kwd id="ejic201900405-kwd-0005">Homogeneous catalysis</kwd></kwd-group><funding-group><award-group><funding-source>FP7 Ideas: European Research Council</funding-source><award-id>339786</award-id></award-group></funding-group><counts><fig-count count="11"/><table-count count="3"/><page-count count="8"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ejic201900405</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.4 mode:remove_FC converted:13.06.2019</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="ejic201900405-sec-0010"><title>Introduction</title><p>To facilitate large&#x02010;scale production of cheap renewable energy that can be stored cost&#x02010;effectively, there is a great demand for catalysts that can efficiently produce dihydrogen from water and are preferably made from earth&#x02010;abundant transition metals. The [FeFe]&#x02010;hydrogenase ([FeFe]&#x02010;H<sub>2</sub>ase) enzymes catalyze the reversible reduction of protons at ambient conditions with a low overpotential<xref rid="ejic201900405-bib-0001" ref-type="ref">1</xref> It is envisioned that synthetic mimics of the active site of the [FeFe]&#x02010;H<sub>2</sub>ase enzyme can serve as efficient catalysts for proton reduction in renewable fuel applications.<xref rid="ejic201900405-bib-0002" ref-type="ref">2</xref>, <xref rid="ejic201900405-bib-0003" ref-type="ref">3</xref> Ever since the structure of the active site of the [FeFe]&#x02010;H<sub>2</sub>ase enzyme was elucidated,<xref rid="ejic201900405-bib-0004" ref-type="ref">4</xref>, <xref rid="ejic201900405-bib-0005" ref-type="ref">5</xref>, <xref rid="ejic201900405-bib-0006" ref-type="ref">6</xref>, <xref rid="ejic201900405-bib-0007" ref-type="ref">7</xref> a large number of synthetic mimics has been developed.<xref rid="ejic201900405-bib-0008" ref-type="ref">8</xref>, <xref rid="ejic201900405-bib-0009" ref-type="ref">9</xref>, <xref rid="ejic201900405-bib-0010" ref-type="ref">10</xref>, <xref rid="ejic201900405-bib-0011" ref-type="ref">11</xref> It has been shown that it is possible to develop mimics that operate at similar and even higher rates than the natural enzyme.<xref rid="ejic201900405-bib-0012" ref-type="ref">12</xref> Next to a high rate it is important to develop catalytic systems that operate at a low overpotential, as it is essential to reduce the loss of energy in the overall conversion of electrical energy to chemical energy. Despite intensive investigations, the development of synthetic [FeFe]&#x02010;H<sub>2</sub>ase mimics that operate at a mild overpotential remains a challenge to be solved.</p><p>In most [FeFe]&#x02010;H<sub>2</sub>ase mimics the two iron atoms are connected via a bridging dithiolato fragment and each iron atom is coordinated by three terminal carbonyl ligands. Along these lines, the first class of mimics was based on structures in which a propanedithiolato (<italic>&#x000b5;</italic>&#x02010;adt) bridge, wherein the basic amine functionality can act as &#x0201c;proton relay&#x0201d;.<xref rid="ejic201900405-bib-0013" ref-type="ref">13</xref>, <xref rid="ejic201900405-bib-0014" ref-type="ref">14</xref> Among the many other dithiolato bridges, the more rigid benzenedithiolato (<italic>&#x000b5;</italic>&#x02010;bdt) bridge has been studied in some detail and found to give rather active proton reduction catalysts.<xref rid="ejic201900405-bib-0015" ref-type="ref">15</xref>, <xref rid="ejic201900405-bib-0016" ref-type="ref">16</xref> Most parent hexacarbonyl complexes can undergo substitution of one or more of the six carbonyls by a great variety of ligands, which by now has resulted in a library of hundreds of reported complexes. Typically, these substitutions lead to an increase in the complex' overall basicity, resulting in higher reduction potentials. Given the inverse relationship between overall basicity and redox potential, such terminal ligand substitutions generally do not lead to catalysts that operate with high rates at a mild overpotential.</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Common [FeFe]&#x02010;H<sub>2</sub>ase mimics employing different dithiolato&#x02010;based bridges.</p></caption><graphic id="nlm-graphic-3" xlink:href="EJIC-2019-2510-g001"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>The beneficial effect on the catalytic overpotential when transitioning from a <italic>&#x000b5;</italic>&#x02010;pdt to a <italic>&#x000b5;</italic>&#x02010;adt bridge suggests that modification of the bridging ligand could be key to lowering the overpotential. The class of hydrogenase mimics based on a bridging pyridine&#x02013;monothiolato ligand is relatively unexplored. The synthesis of such complexes has been described from the corresponding thioester,<xref rid="ejic201900405-bib-0017" ref-type="ref">17</xref> and to the best of our knowledge there is only one earlier report on the catalytic activity in the presence of acetic acid.<xref rid="ejic201900405-bib-0018" ref-type="ref">18</xref>
+</p><p>With the aim to study the effect of changing the dithiolato bridge for a pyridine bridge on the catalytic overpotential, we report novel [FeFe]&#x02010;H<sub>2</sub>ase mimics <bold>1</bold> and <bold>2</bold>, in which the iron atoms are connected by a pyridine bridge in a &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic> fashion (Figure <xref rid="ejic201900405-fig-0002" ref-type="fig">2</xref>). The pyridine ring of <bold>1</bold> is substituted with a thioisopropyl group and that of <bold>2</bold> with a dimethylamine group, which may serve as a &#x0201c;proton relay&#x0201d; due to its basic nature. The catalysts are capable of reducing protons from acids that are weaker than acetic acid at their first reduction potential, resulting in a catalytic overpotential that is up to 240 mV lower than that of [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>].</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Structures and relative overpotentials of the novel &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic> pyridine di&#x02010;iron complexes.</p></caption><graphic id="nlm-graphic-5" xlink:href="EJIC-2019-2510-g002"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig></sec><sec id="ejic201900405-sec-0020"><title>Results and Discussion</title><sec id="ejic201900405-sec-0030"><title>Synthesis and Characterization</title><p>Ligand <bold>L1</bold> is obtained in one step according to a literature procedure, by reacting 2,3&#x02010;dichloropyridine with an excess of sodium isopropylthiolate at 85 &#x000b0;C in an S<sub>N</sub>Ar reaction.<xref rid="ejic201900405-bib-0019" ref-type="ref">19</xref> Ligand <bold>L2</bold> is prepared in two steps starting from 3&#x02010;amino&#x02010;2&#x02010;chloropyridine. First, the free aminopyridine is methylated using formaldehyde and formic acid in an Eschweiler&#x02013;Clarke reaction. Subsequently, the chloride substituent is displaced by isopropylthiolate in an S<sub>N</sub>2 reaction. Complex <bold>1</bold> is obtained in 27&#x02009;% yield by heating a mixture of <bold>L1</bold> and iron precursor Fe<sub>2</sub>(CO)<sub>9</sub> (2 equiv.) in toluene at 100 &#x000b0;C for 15 min under an inert atmosphere (Scheme <xref rid="ejic201900405-fig-0011" ref-type="fig">1</xref>). Complex <bold>2</bold> (17&#x02009;% yield) is prepared using an identical procedure in the presence of ligand <bold>L2</bold> (for the full synthetic protocol of <bold>1</bold> and <bold>2</bold>, see Supporting information, Section 2).</p><fig fig-type="Scheme" xml:lang="en" id="ejic201900405-fig-0011" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Synthesis of novel [FeFe]&#x02010;H<sub>2</sub>ase mimics <bold>1</bold> and <bold>2</bold>.</p></caption><graphic id="nlm-graphic-7" xlink:href="EJIC-2019-2510-g011"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>Compounds <bold>1</bold> and <bold>2</bold> are fully characterized by IR and NMR spectroscopy, high&#x02010;resolution mass spectrometry and single&#x02010;crystal X&#x02010;ray diffraction (for full characterization, see Supporting information, Section 2). The IR spectra of both complexes display the typical fingerprint of di&#x02010;iron hexacarbonyl complexes (Table <xref rid="ejic201900405-tbl-0001" ref-type="table">1</xref> and Supporting information, Figure S5&#x02013;S7).<xref rid="ejic201900405-bib-0020" ref-type="ref">20</xref>, <xref rid="ejic201900405-bib-0021" ref-type="ref">21</xref> The bands of <bold>2</bold> appear at lower stretching frequencies compared to those of <bold>1</bold>, in line with more electron&#x02010;rich iron centers of <bold>2</bold> due to the electron&#x02010;donating amino substituent. The <sup>1</sup>H NMR spectrum of <bold>1</bold> shows two signals with a doublet splitting pattern for the CH<sub>3</sub> groups of the bridging isopropyl substituent (Supporting information, Figure S1). The doublets in the <sup>1</sup>H NMR spectrum indicate that the CH<sub>3</sub> groups are diastereotopic. X&#x02010;ray analysis of <bold>1</bold> confirms that it exists as two enantiomers, making the methyl groups diastereotopic (Supporting information, Figure S8). The <sup>13</sup>C NMR spectrum of <bold>1</bold> shows a signal at 193.5 ppm, which is typical for a species with a Fe&#x02013;C bond (Supporting information, Figure S2).<xref rid="ejic201900405-bib-0022" ref-type="ref">22</xref> Complex <bold>2</bold> shows similar features in its <sup>1</sup>H and <sup>13</sup>C NMR spectrum (Supporting information, Figure S3&#x02013;S4).</p><table-wrap id="ejic201900405-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>IR stretching frequencies of <bold>1</bold> and <bold>2</bold> compared to [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;pdt)(CO)<sub>6</sub>]</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><thead><tr><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="middle" rowspan="1" colspan="1">Catalyst</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">IR stretches of three main bands [cm<sup>&#x02013;1</sup>]</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Solvent</th></tr></thead><tbody><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Complex <bold>1</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2065, 2024, 1988</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Pentane</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Complex <bold>2</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2062, 2022, 1986</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Pentane</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">[Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;pdt)(CO)<sub>6</sub>]<xref rid="ejic201900405-bib-0023" ref-type="ref">23</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2072, 2032, 1988</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Toluene</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">[Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]<xref rid="ejic201900405-bib-0024" ref-type="ref">24</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2079, 2044, 2004</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Hexane</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Complex <bold>1</bold> was crystallized by layering a dichloromethane solution with pentane. Single crystals of <bold>2</bold> were obtained by slow evaporation of a pentane solution under argon at 5 &#x000b0;C. The crystal structures are similar to previously reported &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;pyridine bridged di&#x02010;iron compounds (Figure <xref rid="ejic201900405-fig-0003" ref-type="fig">3</xref>).<xref rid="ejic201900405-bib-0017" ref-type="ref">17</xref>, <xref rid="ejic201900405-bib-0018" ref-type="ref">18</xref> The Fe1&#x02013;Fe2 bond lengths of <bold>1</bold> and <bold>2</bold> are 2.5741(5) and 2.5726(5) &#x000c5;, respectively. These bonds are slightly longer than the Fe&#x02013;Fe bond length in [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] (2.480(2) &#x000c5;<xref rid="ejic201900405-bib-0020" ref-type="ref">20</xref>) and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;pdt)(CO)<sub>6</sub>] (2.5103(11) &#x000c5;<xref rid="ejic201900405-bib-0025" ref-type="ref">25</xref>). The Fe2&#x02013;C7 bond length is 1.996(3) &#x000c5; for <bold>1</bold> and 1.992(2) &#x000c5; for <bold>2</bold> and this is comparable to the Fe&#x02013;C bond length in similar &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic> bridged hydrogenase mimics.<xref rid="ejic201900405-bib-0017" ref-type="ref">17</xref> The Fe1&#x02013;N1 bond is 1.984(2) for <bold>1</bold> and a little shorter for <bold>2</bold> (1.9744(19) &#x000c5;).</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>X&#x02010;ray crystal structures of <bold>1</bold> (left) and <bold>2</bold> (right) with displacement ellipsoids drawn at 50&#x02009;% probability. Hydrogen atoms have been omitted for clarity. Color code: C, gray; N, blue; O, red; sulfur, yellow; iron, orange.</p></caption><graphic id="nlm-graphic-9" xlink:href="EJIC-2019-2510-g003"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig></sec><sec id="ejic201900405-sec-0040"><title>Redox Behavior of 1 and 2 in the Absence of Acid</title><p>Cyclic voltammetry of <bold>1</bold> in acetonitrile reveals an irreversible reduction wave with a cathodic peak potential of around &#x02013;1.8 V (vs. Fc<sup>0/+</sup>; all potentials are reported against this redox couple), followed by at least one anodically shifted re&#x02010;oxidation wave at around &#x02013;0.6 V (Figure <xref rid="ejic201900405-fig-0004" ref-type="fig">4</xref>). Complex <bold>2</bold> displays similar redox behavior as <bold>1</bold>, but with a 50 mV cathodic shift in both the reduction and oxidation event. This shift is caused by the more electron&#x02010;donating nature of the dimethylamine substituent of <bold>2</bold> as compared to the isopropylthiol substituent of <bold>1</bold>, and this is in line with the observations in the IR measurements (vide supra). Both <bold>1</bold> and <bold>2</bold> are more difficult to reduce than known [FeFe]&#x02010;H<sub>2</sub>ase mimics [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;pdt)(CO)<sub>6</sub>] (Table <xref rid="ejic201900405-tbl-0002" ref-type="table">2</xref> and Supporting information, Figures S13&#x02013;S14). For both <bold>1</bold> and <bold>2</bold> the peak current of the reduction wave varies linearly with the square root of the scan rate, indicative of a solution&#x02010;based redox event (Supporting information, Figures S9&#x02013;S12).<xref rid="ejic201900405-bib-0026" ref-type="ref">26</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>1</bold> and <bold>2</bold> in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> on a glassy carbon working electrode.</p></caption><graphic id="nlm-graphic-11" xlink:href="EJIC-2019-2510-g004"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><table-wrap id="ejic201900405-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Reduction potentials of <bold>1</bold> and <bold>2</bold> compared to [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] and [Fe<sub>2</sub>(&#x000b5;&#x02010;pdt)(CO)<sub>6</sub>] (0.1 V&#x02009;s<sup>&#x02013;1</sup>, 0.1 M NBu<sub>4</sub>PF<sub>6</sub> in CH<sub>3</sub>CN)</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><thead><tr><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="middle" rowspan="1" colspan="1">Catalyst</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Reduction potential [V vs. Fc/Fc<sup>+</sup>]</th></tr></thead><tbody><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Complex <bold>1</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.82</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Complex <bold>2</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.87</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">[Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;pdt)(CO)<sub>6</sub>]</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.65</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">[Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.32</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Spectroelectrochemical studies provided more insight into the structures of the species that are formed upon reduction of <bold>1</bold> and <bold>2</bold>. Linear sweep voltammetry of <bold>1</bold>, while probing the IR spectrum, reveals bleaching of IR signals associated to the neutral complex, concomitant with the appearance of new red&#x02010;shifted bands assigned to the reduced species <bold>1<sup>&#x02013;</sup></bold> (Figure <xref rid="ejic201900405-fig-0005" ref-type="fig">5</xref>a). The absorption&#x02010;difference spectra show a small band growing in at 1730 cm<sup>&#x02013;1</sup>, which is characteristic for reduced diiron compounds with a bridging carbonyl ligand.<xref rid="ejic201900405-bib-0027" ref-type="ref">27</xref>, <xref rid="ejic201900405-bib-0028" ref-type="ref">28</xref> Complex <bold>2</bold> shows similar bands in its IR spectrum upon reduction (Figure <xref rid="ejic201900405-fig-0005" ref-type="fig">5</xref>b).</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>IR spectroscopic changes observed during the reduction of 2 mM <bold>1</bold> (a) and <bold>2</bold> (b) in CH<sub>3</sub>CN containing 0.2 M NBu<sub>4</sub>PF<sub>6</sub> (0.001 V&#x02009;s<sup>&#x02013;1</sup>).</p></caption><graphic id="nlm-graphic-13" xlink:href="EJIC-2019-2510-g005"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>The semi&#x02010;integral convolution plot of <bold>1</bold> in the presence of an equimolar amount of ferrocene suggests a one&#x02010;electron reduction process, assuming that the diffusion constant of <bold>1</bold> and ferrocene are similar (Supporting information, Figure S15). Controlled potential coulometry (&#x02013;1.9 V) of a solution of <bold>1</bold> confirms the passage of one electron per molecule (Supporting information, Figure S16). Moreover, the IR spectrum of <bold>1</bold> in the presence of 1.6 equiv. of the reducing agent decamethylcobaltocene (<italic>E</italic>
+<sub>1/2</sub> = &#x02013;1.91 V in MeCN)<xref rid="ejic201900405-bib-0029" ref-type="ref">29</xref> shows complete reduction to <bold>1</bold>
+<sup>&#x02013;</sup> (Supporting information, Figure S17). On the contrary, the IR spectrum of [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>], which is known to undergo disproportionation and therefore has a two&#x02010;electron reduction at <italic>E</italic>
+<sub>1/2</sub> = &#x02013;1.32 V, shows a mixture of neutral and [FeFe]<sup>2&#x02013;</sup> species in the presence of the same amount of reductant (Supporting information, Figure S18). Based on these experiments we prudently conclude that <bold>1</bold> undergoes a one&#x02010;electron reduction, and <bold>2</bold> is expected to display the same electrochemical behavior, albeit at slightly different potential.</p></sec><sec id="ejic201900405-sec-0050"><title>DFT Calculations and XAS Analysis on the Reduced Species 1<sup>&#x02013;</sup>
+</title><p>The irreversible redox behavior of <bold>1</bold> suggests that the complex displays follow&#x02010;up chemistry upon reduction. More detailed insight into the structure of the mono&#x02010;reduced species comes from DFT calculations (Supporting information, Section 6). Computations were performed on the monoanionic <bold>1</bold>
+<sup>&#x02013;</sup> and anionic <bold>1</bold>
+<sup>2&#x02013;</sup> species, both with all terminal carbonyl ligands and with one bridging carbonyl ligand. A comparison of the computed IR spectra with the experimental spectra reveals that mono&#x02010;anion B, which contains a bridging carbonyl ligand, shows the best fit (Figure <xref rid="ejic201900405-fig-0006" ref-type="fig">6</xref>b). This is consistent with the spectroelectrochemical measurements that indicate the presence of a bridging carbonyl ligand upon reduction of <bold>1</bold>. The significant difference in the calculated and experimental wavenumber for the bridging carbonyl ligand is likely due to its position being greatly affected by the solvent.<xref rid="ejic201900405-bib-0030" ref-type="ref">30</xref> The Fe&#x02013;N bond and one of the Fe&#x02013;S bonds are broken in the mono&#x02010;reduced species, allowing for the structural rearrangement into a bridging carbonyl species (Figure <xref rid="ejic201900405-fig-0006" ref-type="fig">6</xref>a). Such a rearrangement accounts for the irreversibility of the reduction wave observed in the voltammogram and is reminiscent of chemistry observed with benzene dithiolate analogs.<xref rid="ejic201900405-bib-0015" ref-type="ref">15</xref>, <xref rid="ejic201900405-bib-0016" ref-type="ref">16</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>(a) DFT calculated (BP86, def2&#x02010;TZVP) structure (top) and chemical structure (bottom) of species <bold>1<sup>&#x02013;</sup></bold> (mono&#x02010;anion B). (b) DFT calculated IR spectrum of <bold>1<sup>&#x02013;</sup></bold> (blue columns) overlaid with the experimental spectrum of <bold>1<sup>&#x02013;</sup></bold>. The calculated spectrum is scaled by &#x003bd;<sub>CO</sub> (scaled) = 1.023&#x02009;&#x000d7;&#x02009;&#x003bd;<sub>CO</sub> (calc.) &#x02013; 24.6.<xref rid="ejic201900405-bib-0030" ref-type="ref">30</xref>
+</p></caption><graphic id="nlm-graphic-15" xlink:href="EJIC-2019-2510-g006"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>Extended X&#x02010;ray absorption fine structure (EXAFS) analysis of <bold>1</bold>
+<sup>&#x02013;</sup> shows the first Fe&#x02013;C shell at a distance of 1.83(1) &#x000c5; with an overall coordination number of 2.5 and C/N bond lengths of 2.10(1) &#x000c5; with a coordination number of 2 (for full description of EXAFS analysis, see Supporting Information, Section 5). Additionally, the Fe&#x02013;Fe contribution is fitted with an elongated bond length of 2.69(2) &#x000c5; compared to the original value of 2.60(1) &#x000c5;. This analysis confirms the breakage of the Fe&#x02013;N bond and one Fe&#x02013;S bond and the formation of a bridged CO ligand, as suggested by the IR analysis and DFT computations.</p></sec><sec id="ejic201900405-sec-0060"><title>Electrocatalytic Proton Reduction</title><p>To investigate the effect of the &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;pyridine bridge on the catalytic performance of complexes <bold>1</bold> and <bold>2</bold>, cyclic voltammetric studies were undertaken in the presence of various weak acids and the reactivity was compared to that of [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]. In the presence of one equiv. acetic acid (AcOH; p<italic>K</italic>
+<sub>a</sub> = 22.3 in CH<sub>3</sub>CN) the peak potential of <bold>1</bold> undergoes an anodic shift of around 15 mV, indicating an electrochemical event followed by protonation (Figure <xref rid="ejic201900405-fig-0007" ref-type="fig">7</xref>a, inset).<xref rid="ejic201900405-bib-0031" ref-type="ref">31</xref>, <xref rid="ejic201900405-bib-0032" ref-type="ref">32</xref> A slightly larger potential shift (around 25 mV) in the presence of one equiv. of AcOH is observed for <bold>2</bold>, revealing that protonation of <bold>2</bold>
+<sup>&#x02013;</sup> is thermodynamically more favorable than protonation of <bold>1</bold>
+<sup>&#x02013;</sup> (Figure <xref rid="ejic201900405-fig-0007" ref-type="fig">7</xref>b, inset).<xref rid="ejic201900405-bib-0031" ref-type="ref">31</xref> The currents of the reduction waves of <bold>1</bold> and <bold>2</bold> increase as a function of the acid concentration, confirming catalytic proton reduction at the first reduction potential for both complexes (Figure <xref rid="ejic201900405-fig-0007" ref-type="fig">7</xref>a, b).</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Electrocatalytic reduction using AcOH as proton source. (a) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>1</bold> (red trace) and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] (black trace) in CH<sub>3</sub>CN containing NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;60 equiv. AcOH. The inset shows the cyclic voltammogram of <bold>1</bold> in the presence of 0 and 1 equiv. AcOH. (b) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>2</bold> (red trace) and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] (black trace) in CH<sub>3</sub>CN containing NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;60 equiv. AcOH. The inset shows the cyclic voltammogram of <bold>2</bold> in the presence of 0 and 1 equiv. AcOH.</p></caption><graphic id="nlm-graphic-17" xlink:href="EJIC-2019-2510-g007"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>A comparison of the catalytic performance of <bold>1</bold> and <bold>2</bold> to that of [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] reveals that these complexes behave differently (Figure <xref rid="ejic201900405-fig-0007" ref-type="fig">7</xref>a, b). While <bold>1</bold> and <bold>2</bold> reduce protons from AcOH at their first reduction potential, [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] displays catalysis at a considerably more negative potential than its first reduction potential. However, [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] is a faster catalyst, as is evident from its sharper catalytic waves along with a higher current (Figure <xref rid="ejic201900405-fig-0007" ref-type="fig">7</xref>a, b black traces). The catalytic parameters are determined as previously reported<xref rid="ejic201900405-bib-0033" ref-type="ref">33</xref>, <xref rid="ejic201900405-bib-0034" ref-type="ref">34</xref>, <xref rid="ejic201900405-bib-0035" ref-type="ref">35</xref>, <xref rid="ejic201900405-bib-0036" ref-type="ref">36</xref>, <xref rid="ejic201900405-bib-0037" ref-type="ref">37</xref> and summarized in Table <xref rid="ejic201900405-tbl-0003" ref-type="table">3</xref> (For a detailed description of the determination of the catalytic parameters, see Supporting information, Section 7). Complex <bold>2</bold> operates with a three times higher rate than <bold>1</bold>, but it is still 250 times slower than [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] (Table <xref rid="ejic201900405-tbl-0003" ref-type="table">3</xref>, Entries 1&#x02013;3). The calculated overpotential (&#x003b7;) for both <bold>1</bold> and <bold>2</bold> is 0.57 V, which is 170 mV lower than that of [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]. This large decrease in overpotential is a result of <bold>1</bold> and <bold>2</bold> performing catalysis at the potential of their first reduction.</p><table-wrap id="ejic201900405-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Catalytic parameters of <bold>1</bold>, <bold>2</bold> and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] in the presence of different acids (0.1 M NBu<sub>4</sub>PF<sub>6</sub> in CH<sub>3</sub>CN)<xref ref-type="fn" rid="ejic201900405-note-0002">a</xref>
+</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="middle" rowspan="1" colspan="1">Entry</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Catalyst</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Proton source</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Catalytic E<sub>1/2</sub> (V vs. Fc/Fc<sup>+</sup>)</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x003b7; [V]</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">k<sub>cat</sub> [M<sup>&#x02013;1</sup> s<sup>&#x02013;1</sup>]<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</th></tr></thead><tbody><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">AcOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.77</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.57</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">136<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">AcOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.77</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.57</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">391<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">[Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">AcOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.94</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.74</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1&#x000d7;10<sup>5 [38]</sup>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">4</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">PhOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.76</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.12</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1.4<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">5</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">PhOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.81</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.17</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">6.9<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">6</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">ClAcOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.81</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.88</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">566<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">7</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">ClAcOH</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;1.79</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">0.86</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">659<xref ref-type="fn" rid="ejic201900405-note-0003">b</xref>
+</td></tr></tbody></table><table-wrap-foot><fn id="ejic201900405-note-0002"><label>a</label><p>E<sub>HA/H2</sub> = &#x02013;0.028 &#x02013;0.05916&#x02009;&#x000d7;&#x02009;p<italic>K</italic>
+<sub>a</sub>; &#x02013;1.64 V for PhOH and &#x02013;0.93 V for ClCH<sub>2</sub>COOH. For AcOH the effect of homoconjugation has been described<xref rid="ejic201900405-bib-0034" ref-type="ref">34</xref> and by taking this into account a value of &#x02013;1.2 V is obtained and applied as the thermodynamic potential.</p></fn><fn id="ejic201900405-note-0003"><label>b</label><p>Calculated using Dubois' formula as described in the Supporting information, Section 7.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>The low overpotential of <bold>1</bold> and <bold>2</bold> in the catalytic proton reduction of the weak acid AcOH encouraged further studies with the even weaker acid phenol (PhOH; p<italic>K</italic>
+<sub>a</sub> = 27.2 in MeCN). Cyclic voltammetry of <bold>1</bold> or<bold> 2</bold> in the presence of 500 equiv. PhOH as the proton source reveals a catalytic wave at the first reduction potential of the catalysts (Figure <xref rid="ejic201900405-fig-0008" ref-type="fig">8</xref>a, b). Complex <bold>2</bold> operates with a five times higher rate than <bold>1</bold> and again is significantly slower than [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>], in line with studies performed with AcOH (Figure <xref rid="ejic201900405-fig-0008" ref-type="fig">8</xref>c and Table <xref rid="ejic201900405-tbl-0003" ref-type="table">3</xref>, entries 4&#x02013;5). Interestingly, the catalytic overpotentials of both <bold>1</bold> and <bold>2</bold> in the reduction of PhOH are remarkably low, with <bold>1</bold> operating at an overpotential of only 120 mV, which is the lowest overpotential ever reported for a [FeFe]&#x02010;H<sub>2</sub>ase mimic, to the best of our knowledge.</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>Electrocatalytic reduction of PhOH. (a) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>1</bold> in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0 or 500 equiv. PhOH. (b) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>2</bold> in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0 or 500 equiv. PhOH. (c) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;0.09 M PhOH.</p></caption><graphic id="nlm-graphic-19" xlink:href="EJIC-2019-2510-g008"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>To investigate whether the dimethylamine substituent of <bold>2</bold> can be applied as a &#x0201c;proton relay&#x0201d; and thereby also affect the catalytic overpotential, catalytic studies were undertaken using the slightly stronger acid, chloroacetic acid (ClCH<sub>2</sub>COOH; p<italic>K</italic>
+<sub>a</sub> = 15.3). Cyclic voltammetry of <bold>2</bold> in the presence of ClCH<sub>2</sub>COOH reveals that the acid is not strong enough to protonate the complex prior to reduction, as evident from the lack of an anodic shift in the reduction wave (Figure <xref rid="ejic201900405-fig-0009" ref-type="fig">9</xref>b). A significant anodic shift of the reduction wave of the catalyst would be expected if the complex was protonated prior to reduction. Complex <bold>1</bold> shows similar behavior as <bold>2</bold>, whereas [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] displays yet again a higher catalytic rate but also a higher overpotential than both <bold>1</bold> and <bold>2</bold> as clear from the higher current of the catalytic wave as well as its more negative potential (Figure <xref rid="ejic201900405-fig-0009" ref-type="fig">9</xref>a and Figure <xref rid="ejic201900405-fig-0009" ref-type="fig">9</xref>c).</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>Electrocatalytic reduction of ClCH<sub>2</sub>COOH. (a) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>1</bold> in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;50 equiv. ClCH<sub>2</sub>COOH. (b) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM <bold>2</bold> in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;50 equiv. ClCH<sub>2</sub>COOH. (c) Cyclic voltammetry (0.1 V&#x02009;s<sup>&#x02013;1</sup>) of 1.0 mM [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] in CH<sub>3</sub>CN containing 0.1 M NBu<sub>4</sub>PF<sub>6</sub> and 0&#x02013;50 equiv. ClCH<sub>2</sub>COOH.</p></caption><graphic id="nlm-graphic-21" xlink:href="EJIC-2019-2510-g009"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>With the method reported by Artero and Sav&#x000e9;ant, a Tafel plot is constructed for each catalyst&#x02013;substrate combination from TOF<sub>max</sub>=2 <italic>k</italic>
+<sub>cat</sub>[H<sup>+</sup>] (TOF<sub>max</sub> = maximum turnover frequency; extrapolated for a 1 M concentration of substrate).<xref rid="ejic201900405-bib-0039" ref-type="ref">39</xref> The Tafel plot for AcOH clearly demonstrates that <bold>2</bold> displays a higher catalytic rate than <bold>1</bold> and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] when operating at an overpotential below 0.6 V. Above this threshold value, [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] shows a significantly higher rate than <bold>1</bold> and <bold>2</bold> (Figure <xref rid="ejic201900405-fig-0010" ref-type="fig">10</xref>a). In the reduction of PhOH and ClCH<sub>2</sub>COOH <bold>1</bold> and <bold>2</bold> show similar efficiency (Figure <xref rid="ejic201900405-fig-0010" ref-type="fig">10</xref>b). In the case of PhOH the overpotentials of <bold>1</bold> and <bold>2</bold> are similar, but <bold>2</bold> operates with a higher rate. For ClCH<sub>2</sub>COOH, <bold>2</bold> operates with both a higher rate and lower overpotential than <bold>1</bold>.</p><fig fig-type="Figure" xml:lang="en" id="ejic201900405-fig-0010" orientation="portrait" position="float"><label>Figure 10</label><caption><p>(a) Tafel plots of <bold>1</bold>, <bold>2</bold> and [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] in the presence of AcOH. (b) Tafel plots of <bold>1</bold> and <bold>2</bold> in the presence of PhOH and ClCH<sub>2</sub>COOH. The value of TOF<sub>max</sub> is extrapolated for a 1 M concentration of protons.</p></caption><graphic id="nlm-graphic-23" xlink:href="EJIC-2019-2510-g010"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig></sec></sec><sec id="ejic201900405-sec-0070"><title>Conclusions</title><p>In this work we describe the electrocatalytic performance of two novel well&#x02010;defined and structurally characterized &#x003ba;<sup>2</sup>&#x02010;<italic>C</italic>,<italic>N</italic>&#x02010;pyridine&#x02010;bridged [FeFe]&#x02010;H<sub>2</sub>ase mimics (<bold>1</bold> and <bold>2</bold>) in proton reduction catalysis. The effect of the pyridine bridge on the catalytic properties of <bold>1</bold> and <bold>2</bold> is evaluated by comparing the parameters with the known complex [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>]. The novel complexes are shown to reduce protons at their first reduction potential, whereas [Fe<sub>2</sub>(<italic>&#x000b5;</italic>&#x02010;bdt)(CO)<sub>6</sub>] requires a more negative potential to drive catalysis. As a consequence, proton reduction catalysis is demonstrated with the lowest overpotential (120 mV) ever reported for [FeFe]&#x02010;H<sub>2</sub>ase mimics. The impact of the pyridine bridge of <bold>1</bold> and <bold>2</bold> on their overpotential is remarkable, and the effect of modifying the bridging fragment of di&#x02010;iron hydrogenase mimics is interesting to study further, as the development of a system that operates with a mild overpotential is the key challenge to efficient storage of electrical energy in chemical bonds.</p></sec><sec id="ejic201900405-sec-0080"><title>Experimental Section</title><p>
+<bold>General Procedures</bold>
+</p><p>All reactions were carried out under an atmosphere of argon using standard Schlenk techniques. Solvents used for synthesis and analysis were degassed and dried using suitable drying agents. Purification that involves extraction or column chromatography was performed in air with solvents used as received. The iron compounds were protected from light as much as possible. Commercial chemicals were used without further purification. The supporting electrolyte NBu<sub>4</sub>PF<sub>6</sub> was prepared from saturated solutions of NBu<sub>4</sub>Br and KPF<sub>6</sub> in water and recrystallized several times from hot methanol and dried overnight in a vacuum oven. Sodium isopropylthiolate was obtained by stirring an excess of thiol and small pieces of sodium in Et<sub>2</sub>O in a Schlenk flask connected to a gas bubbler at room temperature until all the metallic sodium had reacted. All NMR spectra were recorded on a Bruker Avance 400 (400 MHz) or a Bruker DRX 500 (500 MHz) spectrometer and referenced internally to the residual solvent signal of CD<sub>2</sub>Cl<sub>2</sub>: <sup>1</sup>H (5.32 ppm) and <sup>13</sup>C (54.00 ppm). IR measurements were conducted on a Thermo Nicolet Nexus FTIR spectrometer. Mass spectra were collected on a JMS&#x02013;T100GCV mass spectrometer using field desorption (FD), or a JEOL AccuTOF LC, JMS&#x02013;T100LP mass spectrometer using electron&#x02010;spray ionization (ESI).</p><p>
+<bold>Synthesis of Complex 1</bold>
+</p><p>An oven&#x02010;dried Schlenk flask was charged with Fe<sub>2</sub>(CO)<sub>9</sub> (1.34 g, 3.68 mmol) and equipped with a gas bubbler filled with oil via a needle through the septum of the Schlenk flask. In a separate Schlenk flask, <bold>L1</bold> (0.42 g, 1.85 mmol) was dissolved in 25 mL of toluene. The solution was transferred to the iron precursor and the mixture was heated to 100 &#x000b0;C in a preheated oil bath. The reaction progress was monitored by IR spectroscopy. After a reaction time of 15 minutes the dark red mixture was cooled to room temperature. The volatiles, including the side&#x02010;product Fe(CO)<sub>5</sub>, were carefully removed under vacuum. The crude product was purified by column chromatography (silica, eluent: gradient from hexane to hexane/CH<sub>2</sub>Cl<sub>2</sub>, 80:20). The thus obtained pure compound was dissolved in 25 mL of pentane after which the volatiles were removed under vacuum to afford complex<bold> 1</bold> as an orange powder (27&#x02009;% yield with respect to <bold>L1</bold>). Single crystals suitable for X&#x02010;ray diffraction analysis were obtained by liquid&#x02010;liquid diffusion of pentane into a solution of <bold>1</bold> in dichloromethane. <sup>1</sup>H NMR (400 MHz, CD<sub>2</sub>Cl<sub>2</sub>) &#x003b4; (ppm) = 7.44 (d, <italic>J</italic> = 5.4 Hz, 1H), 7.10 (d, <italic>J</italic> = 7.9 Hz, 1H), 6.67 (dd, <italic>J</italic> = 7.9, 5.4 Hz, 1H), 3.33 (septet, <italic>J</italic> = 6.6 Hz, 1H), 2.61 (septet, <italic>J</italic> = 6.4 Hz, 1H), 1.49 (d, <italic>J</italic> = 6.4 Hz, 3H), 1.48 (d, <italic>J</italic> = 6.8 Hz, 3H), 1.33 (d, <italic>J</italic> = 6.5 Hz, 3H) 1.32 (d, <italic>J</italic> = 6.5 Hz, 3H). <sup>13</sup>C NMR (101 MHz, CD<sub>2</sub>Cl<sub>2</sub>) &#x003b4; (ppm) = 213.60, 211.55, 211.15, 193.54, 150.86, 147.29, 132.49, 120.75, 44.49, 37.95, 30.27, 27.31, 26.88, 22.99. FTIR (pentane) cm<sup>&#x02013;1</sup> = 2065, 2026, 1994, 1985, 1972, 1970. HRMS (FD) calcd. for [<bold>1</bold>]<sup>+</sup> (C<sub>17</sub>H<sub>17</sub>Fe<sub>2</sub>NO<sub>6</sub>S<sub>2</sub>
+<sup>+</sup>) 506.91961, found 506.92126.</p><p>
+<bold>Crystallographic details</bold>
+</p><p>
+<bold>1:</bold> C17H17Fe2NO6S2, Fw = 507.14, orange block, 0.630&#x02009;&#x000d7;&#x02009;0.403&#x02009;&#x000d7;&#x02009;0.200 mm, monoclinic, <italic>P</italic>2<sub>1</sub>/<italic>n</italic> (No: 14)), a = 13.9060(12), b = 9.3308(8), c = 17.1082(14) &#x000c5;, &#x003b2; = 9.3308(8)&#x000b0;, V = 2089.0(3) &#x000c5;<sup>3</sup>, <italic>Z</italic> = 4, D<sub>x</sub> = 1.612 g/cm<sup>3</sup>, &#x000b5; = 1.621 mm<sup>&#x02013;1</sup>. 21812 Reflections were measured up to a resolution of (sin &#x003b8;/&#x003bb;)<sub>max</sub> = 0.84 &#x000c5;<sup>&#x02013;1</sup>. 3693 Reflections were unique (R<sub>int</sub> = 0.0417), of which 3240 were observed [<italic>I</italic>&#x02009;&#x0003e;&#x02009;2&#x003c3;(<italic>I</italic>)]. 257 Parameters were refined with 0 restraints. <italic>R</italic>
+<sub>1</sub>/<italic>wR</italic>
+<sub>2</sub> [<italic>I</italic>&#x02009;&#x0003e;&#x02009;2&#x003c3;(<italic>I</italic>)]: 0.0308/0.1043. <italic>R</italic>
+<sub>1</sub>/<italic>wR</italic>
+<sub>2</sub> [all refl.]: 0.0390/0.1216. S = 1.026. Residual electron density between &#x02013;0.483 and 0.711 e/&#x000c5;<sup>3</sup>.</p><p>
+<bold>Synthesis of Complex 2</bold>
+</p><p>An oven&#x02010;dried Schlenk flask was charged with Fe<sub>2</sub>(CO)<sub>9</sub> (82 mg, 0.23 mmol) and equipped with a gas bubbler filled with oil via a needle through the septum of the Schlenk flask. In a separate Schlenk flask <bold>L2</bold> (40 mg, 0.2 mmol) was dissolved in 8 mL of toluene and transferred to the iron precursor and the resulting mixture was heated to 100 &#x000b0;C in a preheated oil bath. The reaction progress was monitored by IR spectroscopy. After 15 minutes the dark red mixture was cooled down to room temperature. The volatiles, including the side product Fe(CO)<sub>5</sub>, were carefully removed under vacuum. The crude product was purified by column chromatography (silica, eluent: gradient from hexane to 0.5&#x02013;1&#x02009;% trimethylamine in hexane) to yield <bold>2</bold> as an orange solid in 17&#x02009;% yield. Single crystals suitable for X&#x02010;ray diffraction analysis were obtained by slow evaporation of a pentane solution of <bold>2</bold> at 5 &#x000b0;C. <sup>1</sup>H NMR (500 MHz, CD<sub>2</sub>Cl<sub>2</sub>) &#x003b4; (ppm) = 7.39 (d, <italic>J</italic> = 5.3 Hz, 1H), 7.02&#x02013;6.91 (d, <italic>J</italic> = 8.0 Hz, 1H), 6.67 (dd, <italic>J</italic> = 8.0, 5.4 Hz, 1H), 2.63 (s, 6H), 2.57 (septet, <italic>J</italic> = 6.7 Hz, 1H), 1.48 (d, <italic>J</italic> = 6.8 Hz, 3H), 1.46 (d, <italic>J</italic> = 6.8 Hz, 3H). <sup>13</sup>C NMR (126 MHz, CD<sub>2</sub>Cl<sub>2</sub>) &#x003b4; 193.54, 159.05, 150.15, 125.73, 120.83, 45.28, 44.28, 27.22, 26.89. FTIR (pentane) cm<sup>&#x02013;1</sup> =2067, 2063, 2024, 2000, 1991, 1984, 1969, 1963. HRMS (FD) calcd. for [<bold>2</bold>]<sup>+</sup> (C<sub>16</sub>H<sub>16</sub>Fe<sub>2</sub>N<sub>2</sub>O<sub>6</sub>S<sup>+</sup>) 475.94279, found 475.94134.</p><p>
+<bold>Crystallographic details</bold>
+</p><p>
+<bold>2:</bold> C<sub>16</sub>H<sub>16</sub>Fe<sub>2</sub>N<sub>2</sub>O<sub>6</sub>S, Fw = 476.07, dark yellow block, 0.128&#x02009;&#x000d7;&#x02009;0.380&#x02009;&#x000d7;&#x02009;0.506 mm, monoclinic, <italic>P</italic>2<sub>1</sub>/<italic>c</italic> (No: 14)), a = 14.2199(9), b = 14.2199(9), c = 17.2070(11) &#x000c5;, &#x003b2; =109.504(2)&#x000b0;, V = 3959.7(4) &#x000c5;<sup>3</sup>, <italic>Z</italic> = 8, D<sub>x</sub> = 1.597 g/cm<sup>3</sup>, &#x000b5; = 1.604 mm<sup>&#x02013;1</sup>. 114346 Reflections were measured up to a resolution of (sin &#x003b8;/&#x003bb;)<sub>max</sub> = 0.84 &#x000c5;<sup>&#x02013;1</sup>. 6953 Reflections were unique (R<sub>int</sub> = 0.0423), of which 6052 were observed [<italic>I</italic>&#x02009;&#x0003e;&#x02009;2&#x003c3;(<italic>I</italic>)]. 495 Parameters were refined with 0 restraints. <italic>R</italic>
+<sub>1</sub>/<italic>wR</italic>
+<sub>2</sub> [<italic>I</italic>&#x02009;&#x0003e;&#x02009;2&#x003c3;(<italic>I</italic>)]: 0.0310/0.01046. <italic>R</italic>
+<sub>1</sub>/<italic>wR</italic>
+<sub>2</sub> [all refl.]: 0.00391/ 0.1171. S = 0.989. Residual electron density between &#x02013;0.374 and 0.332 e/&#x000c5;<sup>3</sup>.</p><p>
+<ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/ejic.201900405">CCDC</ext-link> 1893259 (for <bold>1</bold>), and 1893262 (for <bold>2</bold>) contain the supplementary crystallographic data for this paper. These data can be obtained free of charge from <ext-link ext-link-type="uri" xlink:href="http://www.ccdc.cam.ac.uk/">The Cambridge Crystallographic Data Centre</ext-link>.</p><p>
+<bold>Conflict of interest</bold>
+</p><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>Supporting Information</p></caption><media xlink:href="EJIC-2019-2510-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ejic201900405-sec-0090"><title>Acknowledgements</title><p>We thank the European Research Council (ERC Adv. NAT&#x02010;CAT Reek) for financial support.</p></ack><ref-list id="ejic201900405-bibl-0001"><title>References</title><ref id="ejic201900405-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0001">
+<string-name>
+<given-names>M.</given-names>
+<surname>Winkler</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Esselborn</surname>
+</string-name> and <string-name>
+<given-names>T.</given-names>
+<surname>Happe</surname>
+</string-name>, <source xml:lang="en">Biochim. Biophys. Acta Bioenerg.</source>, <year>2013</year>, <volume>1827</volume>, <fpage>974</fpage>&#x02013;<lpage>985</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0002">
+<string-name>
+<given-names>W.</given-names>
+<surname>Lubitz</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Ogata</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>R&#x000fc;diger</surname>
+</string-name> and <string-name>
+<given-names>E.</given-names>
+<surname>Reijerse</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>, <year>2014</year>, <volume>114</volume>, <fpage>4081</fpage>&#x02013;<lpage>4148</lpage>.<pub-id pub-id-type="pmid">24655035</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0003">
+<string-name>
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Na</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Gorlov</surname>
+</string-name> and <string-name>
+<given-names>L.</given-names>
+<surname>Sun</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>, <year>2009</year>, <fpage>6458</fpage>&#x02013;<lpage>6467</lpage>.<pub-id pub-id-type="pmid">19672488</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0004">
+<string-name>
+<given-names>J. W.</given-names>
+<surname>Peters</surname>
+</string-name>, <string-name>
+<given-names>W. N.</given-names>
+<surname>Lanzilotta</surname>
+</string-name>, <string-name>
+<given-names>B. J.</given-names>
+<surname>Lemon</surname>
+</string-name> and <string-name>
+<given-names>L. C.</given-names>
+<surname>Seefeldt</surname>
+</string-name>, <source xml:lang="en">Science</source>, <year>1998</year>, <volume>282</volume>, <fpage>1853</fpage>&#x02013;<lpage>1858</lpage>.<pub-id pub-id-type="pmid">9836629</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0005">
+<string-name>
+<given-names>A.</given-names>
+<surname>Silakov</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Wenk</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Reijerse</surname>
+</string-name> and <string-name>
+<given-names>W.</given-names>
+<surname>Lubitz</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>, <year>2009</year>, <volume>11</volume>, <fpage>6592</fpage>&#x02013;<lpage>6599</lpage>.<pub-id pub-id-type="pmid">19639134</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0006">
+<string-name>
+<given-names>A.</given-names>
+<surname>Silakov</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Kamp</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Reijerse</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Happe</surname>
+</string-name> and <string-name>
+<given-names>W.</given-names>
+<surname>Lubitz</surname>
+</string-name>, <source xml:lang="en">Biochemistry</source>, <year>2009</year>, <volume>48</volume>, <fpage>7780</fpage>&#x02013;<lpage>7786</lpage>.<pub-id pub-id-type="pmid">19634879</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0007">
+<string-name>
+<given-names>P.</given-names>
+<surname>Kn&#x000f6;rzer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Silakov</surname>
+</string-name>, <string-name>
+<given-names>C. E.</given-names>
+<surname>Foster</surname>
+</string-name>, <string-name>
+<given-names>F. A.</given-names>
+<surname>Armstrong</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Lubitz</surname>
+</string-name> and <string-name>
+<given-names>T.</given-names>
+<surname>Happe</surname>
+</string-name>, <source xml:lang="en">J. Biol. Chem.</source>, <year>2012</year>, <volume>287</volume>, <fpage>1489</fpage>&#x02013;<lpage>1499</lpage>.<pub-id pub-id-type="pmid">22110126</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0008">
+<string-name>
+<given-names>T. R.</given-names>
+<surname>Simmons</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Berggren</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bacchi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fontecave</surname>
+</string-name> and <string-name>
+<given-names>V.</given-names>
+<surname>Artero</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>, <year>2014</year>, <volume>270&#x02013;271</volume>, <fpage>127</fpage>&#x02013;<lpage>150</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0009">
+<string-name>
+<given-names>C.</given-names>
+<surname>Tard</surname>
+</string-name> and <string-name>
+<given-names>C. J.</given-names>
+<surname>Pickett</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>, <year>2009</year>, <volume>109</volume>, <fpage>2245</fpage>&#x02013;<lpage>2274</lpage>.<pub-id pub-id-type="pmid">19438209</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0010">
+<string-name>
+<given-names>D.</given-names>
+<surname>Schilter</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Camara</surname>
+</string-name>, <string-name>
+<given-names>M. T.</given-names>
+<surname>Huynh</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Hammes&#x02010;Schiffer</surname>
+</string-name> and <string-name>
+<given-names>T. B.</given-names>
+<surname>Rauchfuss</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>, <year>2016</year>, <volume>116</volume>, <fpage>8693</fpage>&#x02013;<lpage>8749</lpage>.<pub-id pub-id-type="pmid">27353631</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0011">
+<string-name>
+<given-names>T. B.</given-names>
+<surname>Rauchfuss</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>, <year>2015</year>, <volume>124</volume>, <fpage>726</fpage>&#x02013;<lpage>727</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0012">
+<string-name>
+<given-names>R.</given-names>
+<surname>Becker</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Amirjalayer</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Woutersen</surname>
+</string-name> and <string-name>
+<given-names>J. N. H.</given-names>
+<surname>Reek</surname>
+</string-name>, <source xml:lang="en">Sci. Adv.</source>, <year>2016</year>, <volume>2</volume>, <fpage>e1501014</fpage>.<pub-id pub-id-type="pmid">26844297</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0013">
+<string-name>
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name> and <string-name>
+<given-names>T. B.</given-names>
+<surname>Rauchfuss</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>, <year>2002</year>, <volume>124</volume>, <fpage>726</fpage>&#x02013;<lpage>727</lpage>.<pub-id pub-id-type="pmid">11817928</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0014">
+<string-name>
+<given-names>M.</given-names>
+<surname>Bourrez</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Steinmetz</surname>
+</string-name> and <string-name>
+<given-names>F.</given-names>
+<surname>Gloaguen</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>, <year>2014</year>, <volume>53</volume>, <fpage>10667</fpage>&#x02013;<lpage>10673</lpage>.<pub-id pub-id-type="pmid">25219687</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0015">
+<string-name>
+<given-names>J. F.</given-names>
+<surname>Capon</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gloaguen</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Schollhammer</surname>
+</string-name> and <string-name>
+<given-names>J.</given-names>
+<surname>Talarmin</surname>
+</string-name>, <source xml:lang="en">J. Electroanal. Chem.</source>, <year>2004</year>, <volume>566</volume>, <fpage>241</fpage>&#x02013;<lpage>247</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0016">
+<string-name>
+<given-names>J.&#x02010;F.</given-names>
+<surname>Capon</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gloaguen</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Schollhammer</surname>
+</string-name> and <string-name>
+<given-names>J.</given-names>
+<surname>Talarmin</surname>
+</string-name>, <source xml:lang="en">J. Electroanal. Chem.</source>, <year>2006</year>, <volume>595</volume>, <fpage>47</fpage>&#x02013;<lpage>52</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0017">
+<string-name>
+<given-names>L.</given-names>
+<surname>Long</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zampella</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>De Gioia</surname>
+</string-name> and <string-name>
+<given-names>X.</given-names>
+<surname>Liu</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>, <year>2012</year>, <volume>41</volume>, <fpage>9482</fpage>&#x02013;<lpage>9492</lpage>.<pub-id pub-id-type="pmid">22751866</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0018">
+<string-name>
+<given-names>Y.&#x02010;C.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name>
+<given-names>Z.&#x02010;D.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>X.&#x02010;L.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name>
+<given-names>Z.&#x02010;W.</given-names>
+<surname>Li</surname>
+</string-name> and <string-name>
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">J. Coord. Chem.</source>, <year>2016</year>, <volume>69</volume>, <fpage>3603</fpage>&#x02013;<lpage>3618</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0019">
+<string-name>
+<given-names>L.</given-names>
+<surname>Testaferri</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Tiecco</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Tingoli</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Bartoli</surname>
+</string-name> and <string-name>
+<given-names>A.</given-names>
+<surname>Massoli</surname>
+</string-name>, <source xml:lang="en">Tetrahedron</source>, <year>1985</year>, <volume>41</volume>, <fpage>1373</fpage>&#x02013;<lpage>1384</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0020">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Cabeza</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Mart&#x000ed;nez&#x02010;Garc&#x000ed;a</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Riera</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Ardura</surname>
+</string-name> and <string-name>
+<given-names>S.</given-names>
+<surname>Garc&#x000ed;a&#x02010;Granda</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>, <year>1998</year>, <volume>17</volume>, <fpage>1471</fpage>&#x02013;<lpage>1477</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0021">
+<string-name>
+<given-names>D.</given-names>
+<surname>Seyferth</surname>
+</string-name>, <string-name>
+<given-names>G. B.</given-names>
+<surname>Womack</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Gallagher</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Cowie</surname>
+</string-name>, <string-name>
+<given-names>B. W.</given-names>
+<surname>Hames</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Fackler</surname>
+</string-name> and <string-name>
+<given-names>A. M.</given-names>
+<surname>Mazany</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>, <year>1987</year>, <volume>6</volume>, <fpage>283</fpage>&#x02013;<lpage>294</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0022">
+<string-name>
+<given-names>R. L.</given-names>
+<surname>Khade</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ling</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Oldfield</surname>
+</string-name> and <string-name>
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>, <year>2014</year>, <volume>53</volume>, <fpage>7574</fpage>&#x02013;<lpage>7578</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejic201900405-cit-0023">
+<source xml:lang="en">Angew. Chem.</source>, <year>2014</year>, <volume>126</volume>, <fpage>7704</fpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0024">
+<string-name>
+<given-names>J.</given-names>
+<surname>Brown&#x02010;McDonald</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Berg</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Peralto</surname>
+</string-name> and <string-name>
+<given-names>C.</given-names>
+<surname>Works</surname>
+</string-name>, <source xml:lang="en">Inorg. Chim. Acta</source>, <year>2009</year>, <volume>362</volume>, <fpage>318</fpage>&#x02013;<lpage>324</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0025">
+<string-name>
+<given-names>R. S.</given-names>
+<surname>Glass</surname>
+</string-name> and <string-name>
+<given-names>M. S.</given-names>
+<surname>Singh</surname>
+</string-name>, <source xml:lang="en">ARKIVOC</source>, <year>2005</year>, <volume>6</volume>, <fpage>185</fpage>&#x02013;<lpage>190</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0026">
+<string-name>
+<given-names>E. J.</given-names>
+<surname>Lyon</surname>
+</string-name>, <string-name>
+<given-names>I. P.</given-names>
+<surname>Georgakaki</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Reibenspies</surname>
+</string-name> and <string-name>
+<given-names>M. Y.</given-names>
+<surname>Darensbourg</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>, <year>1999</year>, <volume>38</volume>, <fpage>3178</fpage>&#x02013;<lpage>3180</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejic201900405-cit-0027">
+<source xml:lang="en">Angew. Chem.</source>, <year>1999</year>, <volume>111</volume>, <fpage>3373</fpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0026"><label>26</label><mixed-citation publication-type="book" id="ejic201900405-cit-0028">
+<string-name>
+<given-names>A. J.</given-names>
+<surname>Bard</surname>
+</string-name> and <string-name>
+<given-names>L. R.</given-names>
+<surname>Faulkner</surname>
+</string-name>, in: <source xml:lang="en">Electrochemical Methods &#x02013; Fundamentals and Applications</source>, <year>2004</year>.</mixed-citation></ref><ref id="ejic201900405-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0029">
+<string-name>
+<given-names>D.</given-names>
+<surname>Morvan</surname>
+</string-name>, <string-name>
+<given-names>J. F.</given-names>
+<surname>Capon</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gloaguen</surname>
+</string-name>, <string-name>
+<given-names>F. Y.</given-names>
+<surname>P&#x000e9;tillon</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Schollhammer</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Talarmin</surname>
+</string-name>, <string-name>
+<given-names>J. J.</given-names>
+<surname>Yaouanc</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Michaud</surname>
+</string-name> and <string-name>
+<given-names>N.</given-names>
+<surname>Kervarec</surname>
+</string-name>, <source xml:lang="en">J. Organomet. Chem.</source>, <year>2009</year>, <volume>694</volume>, <fpage>2801</fpage>&#x02013;<lpage>2807</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0030">
+<string-name>
+<given-names>S. J.</given-names>
+<surname>Borg</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Behrsing</surname>
+</string-name>, <string-name>
+<given-names>S. P.</given-names>
+<surname>Best</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Razavet</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Liu</surname>
+</string-name> and <string-name>
+<given-names>C. J.</given-names>
+<surname>Pickett</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>, <year>2004</year>, <volume>126</volume>, <fpage>16988</fpage>&#x02013;<lpage>16999</lpage>.<pub-id pub-id-type="pmid">15612737</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0031">
+<string-name>
+<given-names>T.</given-names>
+<surname>Gennett</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>Milner</surname>
+</string-name> and <string-name>
+<given-names>M. J.</given-names>
+<surname>Weaver</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem.</source>, <year>1985</year>, <volume>89</volume>, <fpage>2787</fpage>&#x02013;<lpage>2794</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0032">
+<string-name>
+<given-names>L.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Greco</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bruschi</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Ryde</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>De Gioia</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Reiher</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>, <year>2011</year>, <volume>50</volume>, <fpage>3888</fpage>&#x02013;<lpage>3900</lpage>.<pub-id pub-id-type="pmid">21443182</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0033">
+<string-name>
+<given-names>V. D.</given-names>
+<surname>Parker</surname>
+</string-name>, <source xml:lang="en">Acta Chem. Scand.</source>
+<year>1980</year>, <volume>34b</volume>, <fpage>359</fpage>&#x02013;<lpage>361</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0034">
+<string-name>
+<given-names>V. D.</given-names>
+<surname>Parker</surname>
+</string-name>, <source xml:lang="en">Acta Chem. Scand.</source>
+<year>1981</year>, <volume>35b</volume>, <fpage>259</fpage>&#x02013;<lpage>262</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0035">
+<string-name>
+<given-names>G. A.</given-names>
+<surname>Felton</surname>
+</string-name>, <string-name>
+<given-names>R. S.</given-names>
+<surname>Glass</surname>
+</string-name>, <string-name>
+<given-names>D. L.</given-names>
+<surname>Lichtenberger</surname>
+</string-name> and <string-name>
+<given-names>D. H.</given-names>
+<surname>Evans</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>, <year>2006</year>, <volume>45</volume>, <fpage>9181</fpage>&#x02013;<lpage>9184</lpage>.<pub-id pub-id-type="pmid">17083215</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0036">
+<string-name>
+<given-names>V.</given-names>
+<surname>Fourmond</surname>
+</string-name>, <string-name>
+<given-names>P.&#x02010;A.</given-names>
+<surname>Jacques</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fontecave</surname>
+</string-name> and <string-name>
+<given-names>V.</given-names>
+<surname>Artero</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>, <year>2010</year>, <volume>49</volume>, <fpage>10338</fpage>&#x02013;<lpage>10347</lpage>.<pub-id pub-id-type="pmid">20964310</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0037">
+<string-name>
+<given-names>M. L.</given-names>
+<surname>Helm</surname>
+</string-name>, <string-name>
+<given-names>M. P.</given-names>
+<surname>Stewart</surname>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Bullock</surname>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Dubois</surname>
+</string-name> and <string-name>
+<given-names>D. L.</given-names>
+<surname>Dubois</surname>
+</string-name>, <source xml:lang="en">Science</source>, <year>2011</year>, <volume>333</volume>, <fpage>863</fpage>&#x02013;<lpage>866</lpage>.<pub-id pub-id-type="pmid">21836012</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0038">
+<string-name>
+<given-names>J. A. S.</given-names>
+<surname>Roberts</surname>
+</string-name> and <string-name>
+<given-names>R. M.</given-names>
+<surname>Bullock</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>, <year>2013</year>, <volume>52</volume>, <fpage>3823</fpage>&#x02013;<lpage>3835</lpage>.<pub-id pub-id-type="pmid">23488870</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0039">
+<string-name>
+<given-names>A. M.</given-names>
+<surname>Appel</surname>
+</string-name> and <string-name>
+<given-names>M. L.</given-names>
+<surname>Helm</surname>
+</string-name>, <source xml:lang="en">ACS Catal.</source>, <year>2014</year>, <volume>4</volume>, <fpage>630</fpage>&#x02013;<lpage>633</lpage>.</mixed-citation></ref><ref id="ejic201900405-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0040">
+<string-name>
+<given-names>G. A. N.</given-names>
+<surname>Felton</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Vannucci</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>L. T.</given-names>
+<surname>Lockett</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Okumura</surname>
+</string-name>, <string-name>
+<given-names>B. J.</given-names>
+<surname>Petro</surname>
+</string-name>, <string-name>
+<given-names>U. I.</given-names>
+<surname>Zakai</surname>
+</string-name>, <string-name>
+<given-names>D. H.</given-names>
+<surname>Evans</surname>
+</string-name>, <string-name>
+<given-names>R. S.</given-names>
+<surname>Glass</surname>
+</string-name> and <string-name>
+<given-names>D. L.</given-names>
+<surname>Lichtenberger</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>, <year>2007</year>, <volume>129</volume>, <fpage>12521</fpage>&#x02013;<lpage>12530</lpage>.<pub-id pub-id-type="pmid">17894491</pub-id></mixed-citation></ref><ref id="ejic201900405-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ejic201900405-cit-0041">
+<string-name>
+<given-names>V.</given-names>
+<surname>Artero</surname>
+</string-name> and <string-name>
+<given-names>J.&#x02010;M.</given-names>
+<surname>Sav&#x000e9;ant</surname>
+</string-name>, <source xml:lang="en">Energy Environ. Sci.</source>, <year>2014</year>, <volume>7</volume>, <fpage>3808</fpage>&#x02013;<lpage>3814</lpage>.<pub-id pub-id-type="pmid">26269710</pub-id></mixed-citation></ref></ref-list></back></article>

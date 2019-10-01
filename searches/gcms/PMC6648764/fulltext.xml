@@ -1,0 +1,818 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6648764</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b01188</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Equilibrium in the Catalytic Condensation of Carboxylic
+Acids with Methyl Ketones to 1,3-Diketones and the Origin of the Reketonization
+Effect</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Ignatchenko</surname><given-names>Alexey V.</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>DiProspero</surname><given-names>Thomas J.</given-names></name></contrib><contrib contrib-type="author" id="ath3"><name><surname>Patel</surname><given-names>Heni</given-names></name></contrib><contrib contrib-type="author" id="ath4"><name><surname>LaPenna</surname><given-names>Joseph R.</given-names></name></contrib><aff id="aff1">Chemistry Department, <institution>St. John Fisher College</institution>, 3690 East Avenue, Rochester, New York 14618, <country>United
+States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>alexey.ignatchenko@gmail.com</email>. Phone: <phone>(585) 385-8385</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>06</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>30</day><month>06</month><year>2019</year></pub-date><volume>4</volume><issue>6</issue><fpage>11032</fpage><lpage>11043</lpage><history><date date-type="received"><day>25</day><month>04</month><year>2019</year></date><date date-type="accepted"><day>11</day><month>06</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0022" id="ab-tgr1"/></p><p>Acetone is the expected ketone product
+of an acetic acid decarboxylative
+ketonization reaction with metal oxide catalysts used in the industrial
+production of ketones and for biofuel upgrade. Decarboxylative cross-ketonization
+of a mixture of acetic and isobutyric acids yields highly valued unsymmetrical
+methyl isopropyl ketone (MIPK) along with two less valuable symmetrical
+ketones, acetone and diisopropyl ketone (DIPK). We describe a side
+reaction of isobutyric acid with acetone yielding the cross-ketone
+MIPK with monoclinic zirconia and anatase titania catalysts in the
+absence of acetic acid. We call it a reketonization reaction because
+acetone is deconstructed and used for the construction of MIPK. Isotopic
+labeling of the isobutyric acid&#x02019;s carboxyl group shows that
+it is the exclusive supplier of the carbonyl group of MIPK, while
+acetone provides only methyl group for MIPK construction. More branched
+ketones, MIPK or DIPK, are less reactive in their reketonization with
+carboxylic acids. The proposed mechanism of reketonization supported
+by density functional theory (DFT) computations starts with acetone
+enolization and proceeds via its condensation with surface isobutyrate
+to a &#x003b2;-diketone similar to &#x003b2;-keto acid formation in the
+decarboxylative ketonization of acids. Decomposition of unsymmetrical
+&#x003b2;-diketones with water (or methanol) by the retrocondensation
+reaction under the same conditions over metal oxides yields two pairs
+of ketones and acids (or esters in the case of methanol) and proceeds
+much faster compared to their formation. The major direction yields
+thermodynamically more stable products&#x02014;more substituted ketones.
+DFT calculations predict even a larger fraction of the thermodynamically
+preferred pair of products. The difference is explained by some degree
+of a kinetic control in the opposite direction. Reketonization has
+lower reaction rates compared to regular ketonization. Still, a high
+extent of reketonization occurs unnoticeably during the decarboxylative
+ketonization of acetic acid as the result of the acetone reaction
+with acetic acid. This degenerate reaction is the major cause of the
+inhibition by acetone of its own rate of formation from acetic acid
+at high conversions.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b01188</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-011887</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Catalytic
+conversion of carboxylic acids into methyl ketones is
+an important industrial process for the preparation of fine chemicals
+and intermediates.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref5">5</xref></sup> The first industrial scale production of acetone was already operating
+more than a century ago, before World War I, utilizing acetic acid
+derived from pyrolysis of wood.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> In recent
+years, decarboxylative ketonization of carboxylic acids has been also
+viewed as a promising step for the development of biofuel technology,
+which has a purpose of reducing the amount of various carboxylic acids
+in otherwise chemically unstable pyrolysis oil.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup></p><p>The mechanism for the catalytic formation of a ketone
+molecule
+from two molecules of a carboxylic acid involves a Claisen-like condensation
+between &#x003b1;-carbon of the enolized carboxylate and the carboxyl
+group of the second molecule followed by dehydration to the unstable
+&#x003b2;-keto carboxylate and its subsequent decarboxylation (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>). The use of acids
+rather than esters in the heterogeneous catalytic version of the Claisen
+condensation is made possible because of the trapping of carboxylic
+protons on the metal oxide surface.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup></p><fig id="sch1" position="float"><label>Scheme 1</label><caption><title>Mechanism of the Catalytic Decarboxylative Ketonization of Carboxylic
+Acids on Zirconia</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0012" id="gr11" position="float"/></fig><p>Despite being studied for over a century, catalytic decarboxylative
+ketonization is a more complicated reaction relative to how it has
+been described in the literature so far.<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> What has still to be
+understood is a considerable degree of side reactions going unnoticed
+and the fact that the major pathway is reversible. First, the reversibility
+of all of the steps of the reaction mechanism has been only recently
+proposed in the computational study on a zirconium oxide catalyst.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> Subsequently, experimental evidence was found
+supporting the idea that the formation and decomposition of the &#x003b2;-keto
+acid intermediate in <xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref> are reversible. That is to say, ketones can enolize and condense
+with carbon dioxide back to &#x003b2;-keto acids&#x02014;unstable intermediates.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup></p><p>The present work extends the above chemistry
+by adding starting
+carboxylic acids to the list of electrophiles participating in the
+condensation with the enolized ketone products. We hope that the current
+study will draw attention to the kinetic consequences of many side
+reactions taking place during the catalytic decarboxylative ketonization
+of carboxylic acids on metal oxides.</p><p>Condensation between the
+enolized molecule of a ketone and a molecule
+of carboxylic acid catalyzed by metal oxides should lead to 1,3-diketones,
+called &#x003b2;-diketones, but it has not been well documented in the
+literature.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Similarly to the fate of
+&#x003b2;-keto acids, the reaction does not stop at the formation of
+the &#x003b2;-diketone on the surface of metal oxides because of the
+two competing retrocondensation reactions going in opposite directions
+(<xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>).</p><fig id="sch2" position="float"><label>Scheme 2</label><caption><title>Methyl
+Ketone Reketonization via Their Enolization and Claisen-like
+Condensation with Carboxylic Acids Followed by Retrocondensation to
+a Different Pair of Acid/Ketone</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0011" id="gr12" position="float"/></fig><p>A similar behavior is known for a noncatalytic condensation
+in
+solutions between ketones and esters of trifluoroacetic acid when
+using a stoichiometric amount of NaH base. The initial condensation
+transforms an ester function to one of the two keto groups of the
+1,3-diketone intermediate. Then, it is followed by a retrocondensation
+on the other keto group converting it to another ester and yielding
+trifluoromethyl ketones (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>).<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> The product mixture contains
+exclusively the ester of the aromatic acid and trifluoromethyl ketone
+without starting materials, which makes it a highly selective synthetic
+method.</p><fig id="sch3" position="float"><label>Scheme 3</label><caption><title>Preparation of Trifluoromethyl Ketones Similar to Reketonization</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0010" id="gr13" position="float"/></fig><p>In a separate experiment, when
+the intermediate &#x003b2;-diketone
+is treated by OH<sup>&#x02013;</sup> or CH<sub>3</sub>O<sup>&#x02013;</sup>, it decomposes into two pairs of a ketone&#x02013;acid (or a ketone&#x02013;ester)
+via the retrocondensation reaction involving either one of the two
+keto groups.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup></p><p>The equilibrium in <xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref> is shifted to the
+right, but in view of the results of the
+above decomposition, it is not because one of the carbonyl groups
+of the &#x003b2;-diketone is more susceptible to the nucleophilic attack.
+The observed selectivity is explained by a low nucleophilicity of
+the &#x003b1;-carbon on the enolate of the trifluoromethyl ketone, which
+slows down its conversion back to the diketone. Acylation of the trifluoromethyl-substituted
+enolate proceeds on oxygen rather than on carbon, and the reesterification
+of the O-acylated enol by R<sup>2</sup>O<sup>&#x02013;</sup> under
+the reaction conditions brings back the trifluoromethyl ketone. Such
+asymmetry of the ketone reactivity is responsible for the selective
+formation of trifluoromethyl ketones.</p><p>In the current work, we
+describe the results of our study of a
+similar asymmetric effect for the catalytic version of the Claisen-like
+condensation on metal oxides between methyl ketones and carboxylic
+acids when two simple alkyl groups with a different degree of branching
+are used in place of &#x02212;Ar and &#x02212;CF<sub>3</sub>. The resulting
+unsymmetrical &#x003b2;-diketone intermediate decomposes in the opposite
+direction and yields a coupled pair of an acid and a ketone, which
+is formally described as the methyl group transfer. We call it the
+reketonization reaction that occurs when an alkyl group of a ketone
+prepared from one carboxylic acid is replaced by an alkyl group from
+another carboxylic acid through a series of condensation and retrocondensation
+reactions.</p><p>Recognizing the reketonization reaction and understanding
+its mechanism
+will have a significant impact on the industrial technology of asymmetric
+ketone preparation and on the complete understanding of the mechanism
+and kinetics of the related reaction, the decarboxylative ketonization
+of carboxylic acids.</p></sec><sec id="sec2"><label>2</label><title>Experimental Section</title><sec id="sec2.1"><label>2.1</label><title>Abbreviations</title><p>Catalysts are abbreviated
+as follows: ZR, untreated zirconia; ZK, KOH-treated zirconia; TK,
+KOH-treated titania.</p><p>Acids, ketones, and 1,3-diketones are numbered
+by letters according to the type and number of alkyl groups found
+in them: <bold>A</bold> for methyl, <bold>B</bold> for isopropyl,
+and <bold>C</bold> for ethyl (<xref rid="cht1" ref-type="chart">Chart <xref rid="cht1" ref-type="chart">1</xref></xref>).</p><fig id="cht1" position="float"><label>Chart 1</label><caption><title>Compounds Numbering</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0023" id="gr1" position="float"/></fig></sec><sec id="sec2.2"><label>2.2</label><title>Catalysts and Reagents</title><p>Monoclinic
+zirconium oxide and the anatase form of titanium oxide, in a shape
+of cylinders, 3&#x02013;5 mm in length and 3 mm in diameter, were purchased
+from Alfa Aesar. Acetone (<bold>AA)</bold>, 3-methylbutan-2-one (<bold>AB),</bold> MIPK, 2,4-dimethyl-3-pentanone (<bold>BB),</bold> DIPK,
+2-butanone (<bold>AC)</bold> (MEK), acetylacetone (<bold>AAA)</bold>, 3,3-dimethyl-2,4-pentanedione (<bold>ABA)</bold>, acetic <bold>A</bold> and isobutyric <bold>B</bold> acids with natural isotopes,
+and isotopically labeled isobutyric acid, (CH<sub>3</sub>)<sub>2</sub>CH<sup>13</sup>CO<sub>2</sub>H, were purchased from Aldrich. 2,6-Dimethyl-3,5-heptanedione, <bold>BAB</bold>, was purchased from Acros Organics.</p></sec><sec id="sec2.3"><label>2.3</label><title>Preparation of 5-Methylhexane-2,4-dione (<bold>AAB</bold>)</title><p>The synthesis and purification were based on
+a patented procedure.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Toluene (150 mL),
+ethyl acetate (36.2 g, 0.41 mol), and NaH (15.7 g, 0.39 mol; 60% oil
+dispersion) were placed in a 1 L three-necked flask and heated to
+70 &#x000b0;C. 3-Methyl-2-butanone (20.1 g, 0.23 mol) was added dropwise
+over 1 h under stirring while maintaining the temperature at 70 &#x000b0;C.
+After addition was complete, the reaction mixture was stirred at 70&#x000b0;
+C for 1.5 h and chilled to room temperature. A portion of ethanol
+(5 mL) was added under stirring to decompose unreacted NaH. The precipitated
+solid was dissolved by adding 100 mL of water, and the reaction mixture
+was stirred overnight at ambient temperature to complete hydrolysis
+of esters at a pH value of 12.5. The top organic layer containing
+impurities of a low acidity was removed, and the remaining aqueous
+layer was extracted twice with 30 mL portions of hexane. The aqueous
+layer was acidified by carefully adding HCl (15%) to a pH value of
+8.0. The organic layer was separated and saved. The aqueous layer
+was extracted twice with 30 mL portions of hexane. The combined organic
+phases were dried over CaSO4 and concentrated under vacuum in a rotary
+evaporator, and the residue was distilled. Fraction boiling at 81&#x02013;85
+&#x000b0;C/27 mm Hg (lit. bp 70&#x02013;74 &#x000b0;C/20 mm Hg<sup><xref ref-type="bibr" rid="ref17">17</xref></sup>), 13.8 g (46.1% yield), was collected and analyzed
+by GC. The GC-estimated purity of the product was 98.8%.</p></sec><sec id="sec2.4"><label>2.4</label><title>Catalyst Preparation and Characterization</title><p>KOH-treated
+catalysts were used from the same batches that were
+used in the previous study.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> Pellets were
+crushed and sieved to obtain different fractions for the kinetic fit
+experiment in the continuous flow reactor. A fraction of 0.2&#x02013;0.75
+mm was used for all studies. Monoclinic zirconia had a median pore
+diameter of 160/600 &#x000c5;, bimodal total pore volume of 0.30 mL/g,
+and BET surface area of 48 m<sup>2</sup>/g for the untreated catalyst
+and 45 m<sup>2</sup>/g for the KOH-treated catalyst determined by
+nitrogen adsorption at 77 K. Anatase titania had a median pore diameter
+of 270 &#x000c5;, total pore volume of 0.29 mL/g, and BET surface area
+of 42 m<sup>2</sup>/g for the KOH-treated catalyst.</p></sec><sec id="sec2.5"><label>2.5</label><title>Continuous Flow Reactor</title><p>A tubular
+reactor, 3.0 mm in internal diameter, 200 mm in length equipped with
+a thermocouple positioned in the center of the heated zone, was used
+as previously described.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> The bottom and
+the top of the catalyst bed were each filled with PRO-PAK metal-packing
+chips. The catalyst was supported between two pieces of quartz wool.
+The diketone solution in methanol or water or a mixture of ketones
+and carboxylic acids at the specified molar ratios, feed rates, and
+temperatures (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Tables S1&#x02013;S3</ext-link> in the
+Supporting Information) was continuously pumped by a New Era syringe
+pump, model NE-1000, through a preheating line, 1.6 mm in diameter,
+to the top of the reactor. All experiments were conducted at atmospheric
+pressure. Deionized water or methanol was pumped through the reactor
+between switching feeds. Liquid products were collected from the outlet
+of the condenser and analyzed by GC/MS.</p><p>Average turnover frequencies
+(TOF, s<sup>&#x02013;1</sup>) were calculated from the number of moles
+consumed or produced per second on a catalyst with a known weight
+and BET surface area assuming four Zr or Ti metal surface atoms in
+one catalytic site and average densities of 8.4 nm<sup>&#x02013;2</sup> on monoclinic zirconia<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> and 5.7 nm<sup>&#x02013;2</sup> on anatase titania<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> determined by DFT studies.</p><p>Residence times were calculated by dividing the volume of the catalyst
+bed by the volume of the ideal gas produced from vaporization of a
+known number of moles of all liquid components in the feed pumped
+per unit of time.</p></sec><sec id="sec2.6"><label>2.6</label><title>Identification of the Products</title><p>Products
+were analyzed by a Thermo Scientific TRACE 1300 gas chromatograph
+equipped with a Restek XTI-5 capillary column (30 m in length, 0.25
+mm in diameter, 0.25 &#x003bc;m in phase thickness), an FID detector
+for quantitative analysis and with an HP-5 MS UI capillary column
+(30 m in length, 0.25 mm in diameter, 0.25 &#x003bc;m phase thickness),
+and a Thermo Scientific ISQ single quadrupole mass selective detector
+for identification analysis. Ketones <bold>AA</bold>, <bold>AB</bold>, and <bold>BB</bold> and acids and methyl esters of <bold>A</bold> and <bold>B</bold> were identified by matching GC retention times
+and MS spectra with authentic samples.</p></sec><sec id="sec2.7"><label>2.7</label><title>GC Quantitative
+Analysis Method</title><p>Helium
+carrier gas with a constant column flow (0.9 mL/min), a split mode
+of injection with a split ratio of 100:1, and an oven temperature
+of 50 &#x000b0;C holding for 5 min and then rising 15 &#x000b0;C/min were
+used for the quantitative analysis method. The amounts of all products
+and unreacted reagents were calculated using the integration of the
+corresponding peaks relative to the area of the internal standard
+added to the collected product samples, methyl <italic>tert</italic>-butyl ether (MTBE) for &#x003b2;-diketones decomposition, and methanol
+for the reaction of isobutyric acid with acetone. Preliminary calibration
+of carboxylic acids, methyl esters, and ketones included three levels
+of their concentration.</p></sec><sec id="sec2.8"><label>2.8</label><title>&#x0201c;Inside GC/MS&#x0201d;
+Pulse Microreactor</title><p>A GC/MS pulse microreactor was built and
+used as previously described.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup></p></sec><sec id="sec2.9"><label>2.9</label><title>Multilevel
+Factorial Design of Experiments
+(DOE) Model</title><p>The DOE model for the isobutyric acid reaction
+with acetone included three experimental factors, temperature (&#x000b0;C),
+molar fraction of acid B (%), and liquid hourly space velocity (LHSV,
+h<sup>&#x02013;1</sup>), with three levels of each factor and two blocks.
+The amounts of ketone products, AB and BB, were measured, and their
+rates of formation (mmol/g-cat/h) were calculated and used as response
+variables in the regression analysis. The selected design included
+16 runs, using the same portion of the catalyst for all 16 runs and
+collecting one product sample for each run (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S1</ext-link>). Prior to DOE experiments, each catalyst was aged by running
+the reaction at 375&#x02013;400 &#x000b0;C for at least 2 h. A quadratic
+model of the process factors with five coefficients was used (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S2</ext-link> in the Supporting Information). Insignificant
+process factors and their interactions were eliminated during regression
+analysis to achieve the <italic>p</italic> value less than 5%. <italic>R</italic><sup>2</sup> values were ranged from 65% to 99%.</p><p>DOE models for &#x003b2;-diketone decomposition included two experimental
+factors, temperature (&#x000b0;C) and molar fraction of &#x003b2;-diketone
+(%) with three levels of each factor and two blocks. The amounts of
+ketones and ester products were measured, and their rates of formation
+(TOF s<sup>&#x02013;1</sup>) were calculated and used as response variables
+in the regression analysis. The selected design had six runs, using
+the same catalyst loading for all six runs and collecting two product
+samples for each run (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S4</ext-link> in the Supporting
+Information). Regressions coefficients are shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S5</ext-link> of the Supporting Information.</p></sec><sec id="sec2.10"><label>2.10</label><title>Computational Method</title><p>Density functional
+theory (DFT) calculations for periodic structures were performed with
+the DMol<sup>3</sup> program from Dassault Syst&#x000e8;mes Biovia
+Corp.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> previously used in our study of
+the decarboxylative ketonization mechanism<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> and
+water interaction with zirconia and titania surfaces.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> Graphical displays were generated with Materials Studio.
+Electron exchange and correlation were described by the generalized
+gradient approximation (GGA) based on the work of Perdew et al. using
+the PBE functional<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> with a Tkatchenko&#x02013;Scheffler
+(TS) exchange correlation<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> to address
+intermolecular dispersive interactions.</p><p>Periodic slab geometry
+was used to model zirconia surfaces adopting previously used models.<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> A (111) surface was cleaved to
+a depth of &#x0223c;12 &#x000c5;, and a vacuum slab of 20 &#x000c5; in thickness
+was built above the surface. A supercell was constructed of 16 zirconium
+atoms and 32 oxygen atoms. The top three surface layers, consisting
+of twelve ZrO2 units, were allowed to relax, while the bottom layer
+of four ZrO2 units was constrained. Energy minimization and frequency
+calculations were performed for the obtained supercell with and without
+adsorbed molecules by density functional calculations using the double
+numerical plus polarization basis set. Core electron treatment included
+all electron relativistic options. All calculations were performed
+spin restricted. A real space cutoff of 4.6 &#x000c5; and a k-point sampling
+spacing of 0.05 &#x000c5;<sup>-1</sup> were used. SCF density
+convergence, optimization energy convergence, and gradient convergence
+were set to 1 &#x000d7; 10<sup>&#x02013;5</sup>, 2 &#x000d7; 10<sup>&#x02013;5</sup>, and 4 &#x000d7; 10<sup>&#x02013;3</sup> a.u., respectively. Molecule
+geometry in the gas phase was optimized, and frequencies were calculated
+using the same method. Thermodynamic quantities were computed from
+vibrational frequency calculations.</p><p>Transition states were found
+using the improved tangent algorithm
+for the nudged elastic band method,<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> and
+their geometry was subsequently refined, that is, each TS structure
+was optimized to its minimum according to all the coordinates (positive
+frequencies) and to its maximum with respect to the reaction coordinate
+(negative frequency). Frequency calculations were used to characterize
+each TS as a first-order saddle point with only one imaginary frequency.</p></sec></sec><sec id="sec3"><label>3</label><title>Results</title><sec id="sec3.1"><label>3.1</label><title>Catalytic Condensation
+of Acetone with Isobutyric
+Acid</title><p>Mixtures of acetone and isobutyric acid in molar ratios
+from 1:9 to 9:1 were converted to a mixture of MIPK and DIPK within
+the temperature range from 250 to 450 &#x000b0;C in the hot tube reactor
+filled with anatase titania or zirconia catalysts. The amount of products
+was measured by GC/FID analysis and used to calculate reaction rates
+averaged over the conversion range. Data points in a set of 16 statistically
+designed experiments were used in the regression analysis to obtain
+average reaction rates as a continuous function of the temperature
+and molar fraction of isobutyric acid with three different catalysts
+for the formation of MIPK (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) and DIPK (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Dependence of the MIPK (<bold>AB</bold>) rate of formation
+on temperature
+and on the molar fraction of isobutyric acid (<bold>B</bold>) in the
+mixture with acetone (<bold>AA</bold>) for ZR, ZK, and TK catalysts
+at a residence time of 1.7 s and LHSV of 7 h<sup>&#x02013;1</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0021" id="gr2" position="float"/></fig><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Comparison of the reaction rates for MIPK (<bold>AB</bold>) and
+DIPK (<bold>BB</bold>) formation with (a) Zr, (b) ZK, and (c) TK catalysts
+depending on temperature and molar fraction of isobutyric acid (<bold>B</bold>) in the mixture with acetone at a residence time of 1.7
+s and LHSV of 7 h<sup>&#x02013;1</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0020" id="gr3" position="float"/></fig><p>Traces of acetic acid were found in some of the experiments.
+Because
+of the small amount of acetic acid formed and only at some conditions,
+it was not included in the regression analysis. Conversion of acetic
+acid to acetone proceeds much faster under the same conditions and
+with the same catalysts<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> compared to its
+formation in the above reaction.</p><p>KOH-treated catalysts, ZK and
+TK, had slightly higher activity
+for the production of MIPK from acetone and isobutyric acid compared
+to the untreated catalyst, ZR. The highest activity for MIPK production
+was found with the TK catalyst. Surface charts (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) have a similar shape for all three catalysts.
+The MIPK rate with all three catalysts had a linear dependence on
+the fraction of isobutyric acid and a second degree polynomial dependence
+on temperature (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S2</ext-link> in the Supporting
+Information).</p><p>Formation of DIPK from two molecules of isobutyric
+acid was favored
+at high temperatures and at high molar fraction of isobutyric acid,
+while MIPK formation from acetone and isobutyric acid was favored
+at high molar fraction of acetone and started at lower temperatures
+(<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). The selectivity
+to MIPK defined as the ratio of the MIPK rate to the sum of MIPK and
+DIPK rates was the highest with the TK catalyst among all studied
+catalysts under most conditions.</p><p>The above data demonstrated
+that acetone can be used instead of
+acetic acid to produce the cross-ketone, MIPK, in the reaction with
+isobutyric acid. Rates of MIPK formation have been also measured for
+the regular cross-ketonization reaction between acetic and isobutyric
+acids under the same conditions. When two methods are compared directly
+(<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>), it can
+be seen that rates of MIPK formation are faster for the isobutyric
+acid condensation with acetic acid rather than with acetone. The difference
+between the rates in two methods becomes smaller at higher temperature
+and at lower concentration of isobutyric acid.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Comparison of MIPK (<bold>AB</bold>) rates of formation in the
+reaction of isobutyric acid (<bold>B</bold>) with acetone (<bold>AA</bold> + <bold>B</bold>) vs that with acetic acid (<bold>A</bold> + <bold>B</bold>) depending on temperature and molar fraction of isobutyric
+acid (<bold>B</bold>) at LHSV of 7 h<sup>&#x02013;1</sup> using (a)
+ZR, (b) ZK, and (c) TK catalysts.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0019" id="gr4" position="float"/></fig></sec><sec id="sec3.2"><label>3.2</label><title>Condensation of Branched Ketones with Carboxylic
+Acids</title><p>Attempts to produce a similar reketonization effect
+in the reaction of branched ketones, MIPK or DIPK, with acetic or
+isobutyric acids were less successful. In the attempted reaction of
+MIPK with acetic acid under the same conditions, only traces of isobutyric
+acid and DIPK were detected in addition to a large amount of acetone
+coming from the condensation between two molecules of acetic acid.</p><p>Theoretically, reketonization could proceed in two directions depending
+on the side of the MIPK molecule, <bold>AB</bold>, which is enolized.
+In one direction, enolization through the deprotonation of the isopropyl
+group followed by condensation could lead to the symmetrical 1,3-diketone <bold>ABA</bold> formation (<xref rid="sch4" ref-type="scheme">Scheme <xref rid="sch4" ref-type="scheme">4</xref></xref>). Because of its symmetry, there is only one way to decompose <bold>ABA,</bold> that is, back to <bold>AB</bold> and <bold>A</bold>.
+If it does take place, condensation of MIPK (<bold>AB</bold>) with
+acetic acid (<bold>A</bold>) would be a degenerate reaction that remained
+unnoticed.</p><fig id="sch4" position="float"><label>Scheme 4</label><caption><title>Possible <bold>AB</bold> Ketone Condensation with
+Acetic Acid <bold>A</bold> through Enolization on Isopropyl Group
+Side, a Degenerate
+Reaction</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0009" id="gr14" position="float"/></fig><p>For the second direction,
+if the methyl group of MIPK is enolized,
+condensation could lead to the unsymmetrical 1,3-diketone <bold>AAB</bold>, which would decompose to a mixture of acetone (<bold>AA</bold>)
+and isobutyric acid (<bold>B</bold>) according to <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref>.</p><fig id="sch5" position="float"><label>Scheme 5</label><caption><title>Possible <bold>AB</bold> Ketone Condensation with Acetic Acid <bold>A</bold> through Enolization
+on Methyl Group Side</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0008" id="gr15" position="float"/></fig><p>As shown in <xref rid="sec3.1" ref-type="other">Section <xref rid="sec3.1" ref-type="other">3.1</xref></xref>, the reaction in reverse to the equation in <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref>&#x02014;acetone condensation
+with isobutyric acid&#x02014;does take place. For this reason, even
+if the reaction <bold>A</bold> + <bold>AB</bold> does proceed leading
+either to <bold>AAB</bold> or to <bold>AA</bold> + <bold>B</bold>,
+more readily, it may go back to the mixture of <bold>A</bold> and <bold>AB</bold>. In such a case, condensation of the methyl side of MIPK
+with acetic acid will be unnoticed again. In addition, the reketonization
+of <bold>AB</bold> to <bold>AA</bold> is masked by a competing and
+much faster reaction&#x02014;the regular condensation of acetic acid
+with itself followed by decarboxylative ketonization to acetone (<xref rid="sch6" ref-type="scheme">Scheme <xref rid="sch6" ref-type="scheme">6</xref></xref>).</p><fig id="sch6" position="float"><label>Scheme 6</label><caption><title>Decarboxylative Ketonization
+of Acetic Acid <bold>A</bold></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0007" id="gr16" position="float"/></fig><p>Similarly, in the attempted reketonization of DIPK (<bold>BB</bold>) with acetic acid (<bold>A</bold>), acetone was produced
+as the
+major product of acetic acid self-condensation (<xref rid="sch7" ref-type="scheme">Scheme <xref rid="sch7" ref-type="scheme">7</xref></xref>). Traces of MIPK (<bold>AB</bold>) and isobutyric
+acid (<bold>B</bold>) were detected only at high temperatures, 450
+&#x000b0;C, and at a high concentration of DIPK.</p><fig id="sch7" position="float"><label>Scheme 7</label><caption><title>Attempted Reketonization
+of DIPK with Acetic Acid Provided Only Traces
+of <bold>AB</bold> and <bold>B</bold></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0006" id="gr17" position="float"/></fig><p>Reketonization was more successful for the reaction between
+isobutyric
+acid <bold>B</bold> and MEK (<bold>CA</bold>), which is only slightly
+less sterically hindered compared to MIPK. The reaction between <bold>B</bold> + <bold>CA</bold> proceeded in two directions from the entry
+point in the middle of <xref rid="sch8" ref-type="scheme">Scheme <xref rid="sch8" ref-type="scheme">8</xref></xref>.</p><fig id="sch8" position="float"><label>Scheme 8</label><caption><title>Successful Reketonization of <bold>CA</bold> Ketone
+with Isobutyric
+Acid <bold>B</bold> into Ketones <bold>BC</bold> and <bold>AB</bold></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0005" id="gr18" position="float"/></fig><p>Two products of the reketonization, <bold>BC</bold> and <bold>AB</bold>, along with the product of isobutyric
+acid self-condensation, <bold>BB</bold>, were obtained with the ZK
+catalyst (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S4</ext-link>). Identification of
+products was done by using GC/MS
+analysis and spiking with authentic samples. Reketonization of MEK
+with isobutyric acid was about tenfold slower compared to that with
+acetone (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>).
+The relative amounts of <bold>BC</bold> versus <bold>AB</bold> were
+close to each other within the error of the experiment.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Average rates
+for the formation of products in the reketonization
+of methyl ethyl ketone <bold>AC</bold> with isobutyric acid: <bold>BB</bold>, <bold>BC</bold>, <bold>AB</bold>, and the combined rate
+of <bold>AB</bold> and <bold>BC</bold> at LHSV = 1 h<sup>&#x02013;1</sup> with ZK catalyst depending on temperature.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0018" id="gr5" position="float"/></fig><p>A common nature of the reketonization reaction was also confirmed
+by using a long-chain linear acid. A mixture of acetone and stearic
+(octadecanoic) acid in a 99:1 molar ratio was converted to nonadecan-2-one
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S5</ext-link>) at a temperature of 475 &#x000b0;C
+and LHSV of 2 h<sup>&#x02013;1</sup> with the ZK catalyst. Under those
+conditions, a full conversion of stearic acid was achieved. The calculated
+average rate of the reaction, 3.5 mkmol/min/g-cat, was lower than
+for isobutyric acid, but a direct comparison cannot be done in view
+of the full conversion. After all stearic acid had been consumed,
+products of acetone dimerization and trimerization started to form,
+such as mesityl oxide, isophorone, and 1,3,5-trimethylbenzene, typical
+for ketone condensation on metal oxides in the absence of carboxylic
+aicds.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> MEK and MIPK also formed a similar
+type of product.</p><p>Activity of all catalysts has not declined
+below at least 90% of
+the initial value after approximately 80 h of testing time. Relative
+stability of the catalysts was found in the order TK &#x0003e; ZK &#x0003e;
+ZR, which
+was assessed by a small but measurable, less than 2%, weight increase
+at the end of the DOE set and also by a color change (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S6</ext-link>). There were no carbonaceous deposits
+formed on catalysts.</p></sec><sec id="sec3.3"><label>3.3</label><title>Condensation of Acetone
+with Isotopically
+Labeled Isobutyric Acid</title><p>Reketonization of acetone with isobutyric
+acid labeled on its carboxylic group by <sup>13</sup>C was studied
+with the ZK catalyst in the pulse microreactor inside GC/MS. The carbonyl
+group in the MIPK product was monitored by a mass spectrometry detector,
+and it was found to be composed of about 96% of <sup>13</sup>C. It
+was concluded based on the ratios of molecular ions <italic>m</italic>/<italic>z</italic> = 87 to <italic>m</italic>/<italic>z</italic> = 86 and isobutyryl ions <italic>m</italic>/<italic>z</italic> =
+72 to <italic>m</italic>/<italic>z</italic> = 71. The fact that isobutyric
+acid being the exclusive source of the carbonyl group in MIPK is consistent
+with the reketonization mechanism outlined in <xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>.</p><p>The initial atomic percent of <sup>13</sup>C on the carboxyl group of isobutyric acid was 99%. The reason
+that it is decreased to 96% on the carbonyl group of the ketone product
+is most likely because of the <sup>12</sup>C/<sup>13</sup>C exchange
+between labeled isobutyric acid and unlabeled CO<sub>2</sub>, which
+we have recently described.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> The unlabeled
+CO<sub>2</sub> may result from the secondary decarboxylative ketonization
+of acetic acid initially released in the reketonization of acetone.</p></sec><sec id="sec3.4"><label>3.4</label><title>Catalytic Decomposition of &#x003b2;-Diketones
+by the Retrocondensation Reaction</title><p>Because 1,3-diketones are
+proposed as the intermediates of the decarboxylative reketonization
+reaction in <xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref> yet are not isolated, they must decompose faster than they form.
+This assumption was verified in separate experiments by continuously
+feeding 1,3-diketone solutions in water or methanol to the hot tube
+reactor filled with a catalyst.</p><p>Decomposition of acetylacetone
+in water should initially produce acetone and acetic acid in an equal
+number of moles according to the reaction stoichiometry. However,
+the observed amounts of acetic acid and acetone in moles were not
+equal because part of acetic acid was immediately converted to acetone
+by the decarboxylative ketonization reaction according to <xref rid="sch6" ref-type="scheme">Scheme <xref rid="sch6" ref-type="scheme">6</xref></xref>. The rate of acetic
+acid conversion to acetone was calculated from the difference in apparent
+rates of acetone and acetic acid formation (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>).</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Decomposition rate of acetylacetone <bold>AAA</bold> 2.2% M solution
+in water, apparent rates of acetic acid <bold>A</bold> and acetone <bold>AA</bold> formation, and the calculated rate of acetic acid conversion
+into acetone <bold>A</bold> + <bold>A</bold> = <bold>AA</bold> with
+ZK catalyst at a residence time of 0.084 s.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0017" id="gr6" position="float"/></fig><p>To avoid complications due to the side reaction of acetic
+acid
+to acetone, decomposition of 1,3-diketones was studied in anhydrous
+methanol solution. In that case, methyl esters were formed instead
+of free acids together with ketones. Symmetrical 1,3-diketones, <bold>AAA</bold>, <bold>ABA</bold>, and <bold>BAB,</bold> produced only
+one pair of methyl ester and ketone, while unsymmetrical <bold>AAB</bold> ketone produced two pairs, <bold>A</bold> + <bold>AB</bold> and <bold>AA</bold> + <bold>B</bold> (<xref rid="sch9" ref-type="scheme">Scheme <xref rid="sch9" ref-type="scheme">9</xref></xref>). Because anhydrous methanol was used, methyl esters
+did not show any sign of hydrolysis, although some conversion to ketones
+could have occurred to a minor degree as evidenced by the slight asymmetry
+of the amount of ketones versus esters produced. Ketones were always
+produced in methanol in a slightly larger amount compared to esters
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S4</ext-link>), but the difference was not
+as large as in water (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S3</ext-link> and <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>).</p><fig id="sch9" position="float"><label>Scheme 9</label><caption><title>Retrocondensation
+of Unsymmetrical 1,3-Diketone <bold>AAB</bold> with
+Methanol into Two Pairs of Ester/Ketone</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0004" id="gr19" position="float"/></fig><p>Decomposition of three symmetrical and one unsymmetrical
+1,3-diketones
+in methanol was studied under pseudo-first-order reaction conditions
+with the same three catalysts using 1&#x02013;3 mol % solutions at
+the temperature range of 200&#x02013;400 &#x000b0;C. Initial data points
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S4</ext-link> in the Supporting Information)
+were used in a regression analysis to find coefficients for the rate
+dependence on concentration and temperature (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S5</ext-link>). Reaction rates followed first-order dependence on the
+concentration of 1,3-diketone and quadratic polynomial dependence
+on the temperature (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S1</ext-link>).</p><p>The
+untreated zirconia catalyst (ZR) showed a significantly higher
+activity for the decomposition of 1,3-diketones in methanol compared
+to KOH-treated catalysts ZK and TK (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>). With the ZR catalyst, the most reactive
+diketone was the least substituted diketone <bold>AAA</bold>, acetylacetone,
+followed by <bold>ABA</bold>. With both KOH-treated catalysts, <bold>ABA</bold> becomes the most reactive diketone. Its high activity
+is explained in the <xref rid="sec4" ref-type="other">Discussion</xref> section. Activity
+of all catalysts has not declined for the entire duration of the decomposition
+tests. Neither color change nor measurable weight gain has been detected
+at the end.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Decomposition rates of diketones 2% M solution in methanol with
+ZR, ZK, TK catalysts at the temperature of 300 &#x000b0;C and the residence
+time of 0.020 s (for compound abbreviations refer to <xref rid="cht1" ref-type="chart">Chart <xref rid="cht1" ref-type="chart">1</xref></xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0016" id="gr7" position="float"/></fig><p>Decomposition of the unsymmetrical ketone <bold>AAB</bold> was
+faster in the direction of making ketone <bold>AB</bold> (MIPK) versus <bold>AA</bold> (acetone, <xref rid="sch9" ref-type="scheme">Scheme <xref rid="sch9" ref-type="scheme">9</xref></xref>). The preference for MIPK over acetone formation varies slightly
+with the temperature studied in the 250&#x02013;350 &#x000b0;C range (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S6</ext-link>) with the average being 70, 59, and
+65% for ZR, ZK, and TK catalysts, respectively.</p></sec><sec id="sec3.5"><label>3.5</label><title>Adsorption of Ketones and Acids on Metal Oxides</title><p>The
+difference in the adsorption of ketones versus carboxylic acids
+was assessed by a pulse titration method using the &#x0201c;inside
+GC/MS microreactor&#x0201d;. A small amount of a catalyst was placed
+inside the injection port of the GC/MS instrument, and premeasured
+pulses of organic molecules were added until a full saturation was
+achieved. The adsorbed amount for each pulse was calculated as the
+difference between amounts injected and coming out. Coverage was calculated
+by using the BET surface area and assuming a bidentate bridging mode
+of adsorption for carboxylic acids and a monodentate adsorption for
+ketones. For ketones, some bleeding from the surface was noticed only
+for the exposure time in flowing helium gas measured in hours. There
+were no significant differences between the calculated adsorptions
+of acetone when the time between pulses was set to 5, 10, and 30 min.
+Data obtained at the 10 min interval were reported in all experiments.</p><p>As can be seen in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, adsorption of carboxylic acids on the surface is much stronger
+compared to that of ketones. The difference between surface concentrations
+of carboxylic acids and ketones can be one of the reasons explaining
+the difference between the reaction rates of acetic acid versus acetone
+in their reaction with isobutyric acid making MIPK (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b).</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Adsorption of isobutyric
+acid and acetone measured in a pulse microreactor
+inside GC/MS at 200 &#x000b0;C by adding 0.1 &#x003bc;L pulses to 20 mg
+sample of ZK catalyst.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0015" id="gr8" position="float"/></fig></sec><sec id="sec3.6"><label>3.6</label><title>DFT Modeling</title><p>The most important steps
+for the synthesis of diketones from carboxylic acids and ketones and
+for the decomposition of diketones in their reaction with water were
+modeled by DFT computations on the (111) surface of monoclinic zirconia
+using DMol<sup>3</sup> for periodic structures (<xref rid="fig8" ref-type="fig">Figures <xref rid="fig8" ref-type="fig">8</xref></xref> and <xref rid="fig9" ref-type="fig">9</xref> and <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>).</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Free energy profile of
+the catalytic mechanism for three different
+reketonization reactions, <bold>BA + A = AA + B</bold> (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>), <bold>AA + A = A + AA</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S2</ext-link>), <bold>AB + A = A + BA</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figure S3</ext-link>), following elementary steps
+of <xref rid="sch10" ref-type="scheme">Scheme <xref rid="sch10" ref-type="scheme">10</xref></xref>. Energies
+are shown relative to the energy of the empty surface and <bold>AA</bold> + <bold>B</bold> in the gas phase, structure <bold>12</bold>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0014" id="gr9" position="float"/></fig><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Elementary steps of the reaction mechanism on
+(111) surface of
+monoclinic zirconia for (a) <bold>BA + A</bold> = <bold>BAA</bold> reaction and (b) <bold>BAA</bold> = <bold>B</bold> + <bold>AA</bold> reaction according to <xref rid="sch10" ref-type="scheme">Scheme <xref rid="sch10" ref-type="scheme">10</xref></xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0013" id="gr10" position="float"/></fig><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>DFT-Calculated
+Free Energy of Activation
+and of Reaction (in Parenthesis), kcal/mol, for the Elementary Steps
+of the Reaction Mechanism on (111) Surface of Monoclinic Zirconia
+at 300 &#x000b0;C and the Equilibrium Fractions of Structures <bold>2</bold> and <bold>11</bold> Based on the Calculated Equilibrium Constant</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">ketone&#x02013;acid&#x000a0;pair,&#x000a0;<bold>1</bold></th><th style="border:none;" align="center">fraction of <bold>2</bold> in the equilibrium
+between <bold>2</bold> and <bold>11</bold></th><th style="border:none;" align="center">condensation,&#x000a0;<bold>2</bold>&#x000a0;&#x02192;&#x000a0;<bold>4</bold></th><th style="border:none;" align="center">retrocondensation,&#x000a0;<bold>4</bold>&#x000a0;&#x02192;&#x000a0;<bold>2</bold></th><th style="border:none;" align="center">dehydration,&#x000a0;<bold>4</bold>&#x000a0;&#x02192;&#x000a0;<bold>6</bold></th><th style="border:none;" align="center">hydration,&#x000a0;<bold>6</bold>&#x000a0;&#x02192;&#x000a0;<bold>4</bold></th><th style="border:none;" align="center">enolization,&#x000a0;<bold>6</bold>&#x000a0;&#x02192;&#x000a0;<bold>13</bold></th><th style="border:none;" align="center">diketone,&#x000a0;<bold>6</bold></th></tr></thead><tbody><tr><td style="border:none;" align="left"><bold>BA</bold>&#x000a0;+&#x000a0;<bold>A</bold></td><td style="border:none;" align="left">98.6%</td><td style="border:none;" align="left">20.1&#x000a0;(19.9)</td><td style="border:none;" align="left">0.2&#x000a0;(&#x02212;19.9)</td><td style="border:none;" align="left">16.4&#x000a0;(&#x02212;4.1)</td><td style="border:none;" align="left">20.5&#x000a0;(4.1)</td><td style="border:none;" align="left">&#x02013;<xref rid="t1fn1" ref-type="table-fn">a</xref>&#x000a0;(&#x02212;21.3)</td><td style="border:none;" align="left"><bold>BAA</bold></td></tr><tr><td style="border:none;" align="left"><bold>AA</bold>&#x000a0;+&#x000a0;<bold>A</bold></td><td style="border:none;" align="left">50%</td><td style="border:none;" align="left">20.7&#x000a0;(20.2)</td><td style="border:none;" align="left">0.5&#x000a0;(&#x02212;20.2)</td><td style="border:none;" align="left">13.9&#x000a0;(&#x02212;10.6)</td><td style="border:none;" align="left">24.5&#x000a0;(10.6)</td><td style="border:none;" align="left">&#x02013;<xref rid="t1fn1" ref-type="table-fn">a</xref>&#x000a0;(&#x02212;19.2)</td><td style="border:none;" align="left"><bold>AAA</bold></td></tr><tr><td style="border:none;" align="left"><bold>AB</bold>&#x000a0;+&#x000a0;<bold>A</bold></td><td style="border:none;" align="left">50%</td><td style="border:none;" align="left">16.0&#x000a0;(31.5)</td><td style="border:none;" align="left">&#x02013;15.5&#x000a0;(&#x02212;31.5)</td><td style="border:none;" align="left">11.0&#x000a0;(&#x02212;15.4)</td><td style="border:none;" align="left">26.4&#x000a0;(15.4)</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>ABA</bold></td></tr><tr><td style="border:none;" align="left">diketone,&#x000a0;<bold>7</bold></td><td style="border:none;" align="left">enolization,&#x000a0;<bold>7</bold>&#x000a0;&#x02192;&#x000a0;<bold>14</bold></td><td style="border:none;" align="left">hydration,&#x000a0;<bold>7</bold>&#x000a0;&#x02192;&#x000a0;<bold>9</bold></td><td style="border:none;" align="left">dehydration,&#x000a0;<bold>9</bold>&#x000a0;&#x02192;&#x000a0;<bold>7</bold></td><td style="border:none;" align="left">retrocondensation,&#x000a0;<bold>9</bold>&#x000a0;&#x02192;&#x000a0;<bold>11</bold></td><td style="border:none;" align="left">condensation,&#x000a0;<bold>11</bold>&#x000a0;&#x02192;&#x000a0;<bold>9</bold></td><td style="border:none;" align="left">fraction of <bold>11</bold> in the equilibrium between <bold>2</bold> and <bold>11</bold></td><td style="border:none;" align="left">ketone&#x000a0;acid&#x000a0;pair,&#x000a0;<bold>12</bold></td></tr><tr><td style="border:none;" align="left"><bold>AAB</bold></td><td style="border:none;" align="left">&#x02013;<xref rid="t1fn1" ref-type="table-fn">a</xref>&#x000a0;(&#x02212;24.2)</td><td style="border:none;" align="left">10.6&#x000a0;(&#x02212;3.0)</td><td style="border:none;" align="left">13.5&#x000a0;(3.0)</td><td style="border:none;" align="left">6.1&#x000a0;(&#x02212;14.5)</td><td style="border:none;" align="left">20.6&#x000a0;(14.5)</td><td style="border:none;" align="left">1.4%</td><td style="border:none;" align="left"><bold>AA</bold>&#x000a0;+&#x000a0;<bold>B</bold></td></tr><tr><td style="border:none;" align="left"><bold>AAA</bold></td><td style="border:none;" align="left">&#x02013;<xref rid="t1fn1" ref-type="table-fn">a</xref>&#x000a0;(&#x02212;19.2)</td><td style="border:none;" align="left">24.5&#x000a0;(10.6)</td><td style="border:none;" align="left">13.9&#x000a0;(&#x02212;10.6)</td><td style="border:none;" align="left">0.5&#x000a0;(&#x02212;20.2)</td><td style="border:none;" align="left">20.7&#x000a0;(20.2)</td><td style="border:none;" align="left">50%</td><td style="border:none;" align="left"><bold>A</bold>&#x000a0;+&#x000a0;<bold>AA</bold></td></tr><tr><td style="border:none;" align="left"><bold>ABA</bold></td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">26.4&#x000a0;(15.4)</td><td style="border:none;" align="left">11.0&#x000a0;(&#x02212;15.4)</td><td style="border:none;" align="left">&#x02013;15.5&#x000a0;(&#x02212;31.5)</td><td style="border:none;" align="left">16.0&#x000a0;(31.5)</td><td style="border:none;" align="left">50%</td><td style="border:none;" align="left"><bold>A</bold>&#x000a0;+&#x000a0;<bold>BA</bold></td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>En dash (&#x02212;)
+indicates a barrierless
+process.</p></fn></table-wrap-foot></table-wrap><p>The size of the
+supercell was chosen to match experimentally determined
+concentration of acids on the zirconia surface, which is less than
+3 nm<sup>&#x02013;2</sup> (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). The selected model accurately represents a high
+surface saturation, which seems to be an important factor in the decarboxylative
+ketonization mechanism.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> Nonetheless,
+there were no close contacts shorter than 0.35 nm, and the model has
+been previously used to study a similar mechanism between two molecules
+of acids.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup></p><p>We took advantage of the
+previous DFT study in which various options
+for the condensation step between two surface carboxylates have been
+already extensively studied. Accordingly, we have replaced the enolized
+carboxylate in the previous model with the enolized ketone.</p><p>Condensation between the enolized ketone in a monodentate adsorption
+mode and surface carboxylate in a bidentate bridging adsorption mode
+(structures <bold>2</bold> and <bold>11</bold>) is followed by dehydration
+of the resulting intermediate (structures <bold>4</bold> and <bold>9</bold>) and leads to diketones <bold>6</bold> and <bold>7</bold> (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a,b). Reverse
+steps in the opposite direction, that is, hydration of &#x003b2;-diketones <bold>6</bold> or <bold>7</bold> and C&#x02013;C bond cleavage in structures <bold>4</bold> or <bold>9</bold> by retrocondensation (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>b), lead to the complementary
+pair of the enolized ketone and carboxylic acid, <bold>2</bold> or <bold>11</bold>, according to <xref rid="sch10" ref-type="scheme">Scheme <xref rid="sch10" ref-type="scheme">10</xref></xref>.</p><fig id="sch10" position="float"><label>Scheme 10</label><caption><title>Mechanism of the
+Catalytic Reketonization Reaction between Mixture
+of <bold>AA</bold> + <bold>B</bold> and <bold>BA</bold> + <bold>A</bold> via Formation of Unsymmetrical 1,3-Diketone <bold>AAB</bold> (the
+Same as <bold>BAA</bold>) on Surface of ZrO<sub>2</sub></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0003" id="gr20" position="float"/></fig><p>Geometry was optimized, and
+frequency calculations were performed
+for all reactants, products, and transition states, as shown in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a,b and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Figures S2 and S3</ext-link>. Thermodynamic quantities were
+computed from vibrational frequency calculations within the canonical
+transition state theory provided by the Materials Studio software
+package.</p><p>The free energy profile for the interconversion of
+structures <bold>1&#x02013;12</bold> at 300 &#x000b0;C is shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>. In the case of
+the unsymmetrical diketone,
+a universal graph is derived from a combination of red lines (<bold>AA</bold> + <bold>B</bold> and <bold>A</bold> + <bold>AB</bold>),
+which can be used to describe decomposition of the unsymmetrical &#x003b2;-diketone
+when entered from the middle of the catalytic cycle (structures <bold>6</bold> and <bold>7</bold>) or the interconversion between two pairs
+of acid/ketone represented by structures <bold>1</bold> or <bold>12</bold> according to <xref rid="sch10" ref-type="scheme">Scheme <xref rid="sch10" ref-type="scheme">10</xref></xref>. All energies are calculated relative to the empty surface with <bold>AA</bold> and <bold>B</bold> in the gas phase, <bold>12</bold>. Structure <bold>1</bold> represents an empty surface with <bold>BA</bold> and <bold>A</bold> in the gas phase, and it is 5.1 kcal/mol lower in energy
+compared to <bold>12</bold>. The energy of the gas phase <bold>AAB</bold> and the empty surface (structure <bold>15</bold>) is shown to characterize
+desorption of <bold>AAB</bold> from <bold>6</bold> and <bold>7</bold>. It is important to note that abstraction of the most acidic proton
+from surface diketones <bold>6</bold> and <bold>7</bold> proceeds
+with significant energy stabilization (21.3 and 24.2 kcal/mol) into
+structures <bold>13</bold> and <bold>14</bold>, respectively.</p></sec></sec><sec id="sec4"><label>4</label><title>Discussion</title><p>The data presented above show that methyl
+ketones, in general,
+and acetone, in particular, can condense with carboxylic acids in
+the vapor phase over metal oxide catalysts at temperatures above 300
+&#x000b0;C. However, the immediate products of their condensation, &#x003b2;-diketones,
+are not stable under the reaction condition and decompose by the retrocondensation
+to a different pair of an acid and ketone. Formally, this reaction
+results in the transfer of the methyl group from acetone to the acyl
+group of the second carboxylic acid making methyl ketones.</p><p>Acetone
+itself is made from acetic acid under similar conditions
+by the decarboxylative ketonization reaction. Reusing acetone in the
+cross-ketonization with another acid makes it possible to prepare
+unsymmetrical ketones by the mechanism best described as reketonization.
+This reaction is of considerable importance for the industrial production
+of methyl ketones.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> If not utilized, acetone
+would represent up to 50% loss of acetic acid together with a loss
+of the second carboxylic acid to the other symmetrical ketone, dramatically
+reducing cost-effectiveness of the cross-ketonization. On the other
+hand, reketonization of the desired cross-product, methyl ketone <bold>AB</bold>, is unwanted, but the main question is whether such a reaction
+does take place at all.</p><p>Experiments with isotopically labeled
+isobutyric acid (<xref rid="sec3.3" ref-type="other">Section <xref rid="sec3.3" ref-type="other">3.3</xref></xref>) showed that
+it is the exclusive source of the carbonyl group of MIPK and that
+we are dealing with an acid/base-catalyzed condensation of carbonyl
+compounds rather than with an alkyl group shift by some kind of concerted
+mechanism.</p><p>The unsymmetrical ketone <bold>AB</bold> has &#x003b1;-hydrogens
+on both sides of the carbonyl group, which allow its enolization and
+condensation with acids similar to that of acetone <bold>AA</bold>. If <bold>AA</bold> can condense with <bold>B</bold>, similarly, <bold>AB</bold> may condense with <bold>A</bold>.</p><p>Control of the
+forward reaction in <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref> could be either of a thermodynamic or kinetic
+nature or a mixed one. If reactions in <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref> are reversible in both directions and allowed
+to equilibrate, it might be shifted to the left, toward more stable
+mixture, <bold>A</bold> + <bold>AB</bold>. Indeed, thermodynamic quantities
+of the gas phase molecules obtained through vibrational frequency
+calculations by using the same DFT method as for periodic structures
+show that the mixture of <bold>A</bold> and <bold>AB</bold> is more
+stable compared to the mixture of <bold>AA</bold> and <bold>B</bold>. The DFT-calculated free energy difference in the gas phase at 300
+&#x000b0;C is 5.07 kcal/mol, which relates to an equilibrium constant
+of 0.0118 and to the equilibrium fraction of <bold>A</bold> + <bold>AB</bold> equal to 98.8%. By itself, this is a sufficient reason
+for shifting the equilibrium in <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref> to the left hand side, providing that the reaction
+conditions allow for the equilibrium to be established.</p><p>The
+same preference in favor of <bold>A</bold> + <bold>AB</bold> versus <bold>AA</bold> + <bold>B</bold> remains for structures on
+the surface (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). The DFT-calculated free energy for structure <bold>2</bold> representing <bold>A</bold> + <bold>AB</bold>, &#x02212;30.5 kcal/mol, is 1.6 kcal/mol
+lower compared to that for structure <bold>11 (AA</bold> + <bold>B)</bold>, &#x02212;28.9 kcal/mol (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). However, decomposition of the unsymmetrical diketone <bold>AAB</bold> from the two possible adsorption states <bold>6</bold> and <bold>7</bold> (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a,b) has the lower calculated free energy barrier of the hydration
+step when going to the right hand side, that is, toward <bold>AA</bold> + <bold>B</bold>. Condensation steps are not a differentiating factor
+because the free energy barriers for both directions of the condensation, <bold>AA + B</bold> or <bold>A</bold> + <bold>AB</bold>, are almost the
+same, 20.6 kcal/mol or 20.1 kcal/mol, respectively (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). Therefore, DFT computations
+predict <bold>AA</bold> + <bold>B</bold> to be the major direction
+for &#x003b2;-diketones decomposition under kinetic control, while <bold>A</bold> + <bold>AB</bold> will be favored under thermodynamic control.</p><p>Experimentally, we have found only a small but persistent preference
+for the direction of the unsymmetrical diketone <bold>AAB</bold> decomposition
+in methanol toward <bold>A</bold> + <bold>AB</bold> rather than the <bold>AA</bold> + <bold>B</bold> mixture in <xref rid="sch4" ref-type="scheme">Scheme <xref rid="sch4" ref-type="scheme">4</xref></xref>. The preference for the formation of a more
+substituted ketone is about 70% with ZR or 60% with the ZK catalyst
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">Table S6</ext-link>), that is, not as large as the
+98.8% value expected under purely thermodynamic control. The use of
+methanol as a nucleophile instead of water was necessary to reveal
+the selectivity of the initial decomposition by the retrocondensation
+reaction while avoiding further reactions between acids such as <bold>A</bold> + <bold>A</bold> = <bold>AA,</bold> which takes place in
+water (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>). Methyl
+esters formed in methanol are generally much less reactive in the
+decarboxylative ketonization reaction compared to acids.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup></p><p>Thus, experimental results indicate that
+&#x003b2;-diketone decomposition
+is controlled kinetically, but the initial ratio of products changes
+to some extent by the reverse reaction toward the thermodynamic equilibrium.
+From the energy profile shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>, it can be seen that both desorption steps, <bold>2</bold> &#x02192; <bold>1</bold> and <bold>11</bold> &#x02192; <bold>12</bold>, have high energy barriers. Hence, surface species <bold>2</bold>&#x02013;<bold>11</bold> located in the energy well become
+involved in a thermodynamic equilibrium between important steps of
+the reketonization mechanism, C&#x02013;C bond breaking and formation.</p><p>However, the most important factor controlling the direction of
+the reketonization equilibrium seems to be a higher reactivity of
+acetic versus isobutyric acid in the decarboxylative self-ketonization
+reaction,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> and both acids have much higher
+rates in the decarboxylative ketonization relative to the reketonization
+reaction (directly compared in <xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <xref rid="fig3" ref-type="fig">3</xref>). A faster consumption
+of acetic acid versus isobutyric leads to its selective removal from
+the equilibrium in <xref rid="sch5" ref-type="scheme">Scheme <xref rid="sch5" ref-type="scheme">5</xref></xref>, shifting it to the left hand side. In addition, a self-condensation
+of the released acetic acid back to acetone generates more feed for
+the reketonization of acetone and isobutyric acid into MIPK, <bold>AB</bold>, so the overall process at its limit is described by <xref rid="sch11" ref-type="scheme">Scheme <xref rid="sch11" ref-type="scheme">11</xref></xref>.</p><fig id="sch11" position="float"><label>Scheme 11</label><caption><title>Balanced
+Equation for the Reketonization of Acetone into MIPK with
+Isobutyric Acid</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0002" id="gr21" position="float"/></fig><p>The calculated equilibrium
+constant for the reaction in <xref rid="sch11" ref-type="scheme">Scheme <xref rid="sch11" ref-type="scheme">11</xref></xref> at the temperature
+300 &#x000b0;C is 4.9 &#x000d7; 10<sup>7</sup> leading to the equilibrium
+concentration of <bold>AA</bold> + <bold>B</bold> less than 2.0 &#x000d7;
+10<sup>&#x02013;6</sup>%, which explains reketonization of acetone <bold>AA</bold> into MIPK <bold>AB</bold>.</p><p>In a similar fashion,
+the reaction between ketone <bold>AC</bold> and acid <bold>B</bold>, going to the edges from the middle of the
+equation in <xref rid="sch8" ref-type="scheme">Scheme <xref rid="sch8" ref-type="scheme">8</xref></xref>, is able to proceed because it releases two acids, <bold>A</bold> and <bold>C</bold>, both of which are consumed faster on metal oxide
+surfaces compared to acid <bold>B</bold> and are removed from the
+equilibrium. It is due to the well-known fact that less sterically
+hindered acids are more reactive in the decarboxylative ketonization.</p><p>Interestingly, ketone <bold>AC</bold> (2-butanone) was believed
+to be inert and used as a solvent for that reason in a number of decarboxylative
+ketonization studies, for example, in a mixture with butyric, pentanoic,
+and hexanoic acids using a ceria&#x02013;zirconia catalyst.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> However, the temperature in those studies did
+not exceed 350 &#x000b0;C, and products of reketonization were not noticed.</p><p>We may now conclude that the reaction between <bold>A</bold> and <bold>AB</bold> in <xref rid="sch4" ref-type="scheme">Schemes <xref rid="sch4" ref-type="scheme">4</xref></xref> and <xref rid="sch5" ref-type="scheme">5</xref>, most likely, does take place, but
+it is masked and hard to detect. The exact kinetic consequence of
+all reketonization reactions has yet to be determined. It is clear
+that a number of side reactions may inhibit the rate of the decarboxylative
+ketonization of carboxylic acids. Conceivably, the major contributor
+to such inhibition is the degenerate reaction in <xref rid="sch12" ref-type="scheme">Scheme <xref rid="sch12" ref-type="scheme">12</xref></xref> between acetone and acetic
+acid, a pair of the least substituted and sterically less hindered
+ketone and acid.</p><fig id="sch12" position="float"><label>Scheme 12</label><caption><title>Degenerate Reaction between Acetone and Acetic Acid</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-011887_0001" id="gr22" position="float"/></fig><p>As the conversion of acids
+is increasing and more ketones are produced,
+a larger portion of catalytic sites becomes occupied with the reketonization
+reaction slowing down the overall rate of ketone production. The reason
+for the inhibition of the rate of decarboxylative ketonization of
+acetic acid by the acetone product was previously thought to be its
+accumulation on the surface.<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref></sup> However, acetone adsorption
+on the surface is much weaker compared to that of acids (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). A comparable amount
+of acetic and isobutyric acids adsorbed on zirconia at the temperature
+range of 200&#x02013;400 &#x000b0;C was found previously.<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup> Therefore, the most likely reason for the above inhibition is the
+reketonization reaction according to <xref rid="sch12" ref-type="scheme">Scheme <xref rid="sch12" ref-type="scheme">12</xref></xref>, which is more prevalent compared to the
+recently reported condensation between acetone and carbon dioxide.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup></p><p>The apparent rate of MIPK formation was
+found to be lower when
+starting from acetone versus acetic acid in the reaction with isobutyric
+acid (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a&#x02013;b).
+Because the ratio of surface concentrations of ketones to acids is
+approximately equal to the ratio of their apparent rates in the reaction
+with isobutyric acid (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>), we may conclude that the rate constants of the rate limiting
+step, condensation, in the decarboxylative ketonization versus reketonization
+reaction are of a comparable order of magnitude.</p><p>The heterogeneous
+version of the retrocondensation reaction of
+diketones catalyzed by zirconium and titanium metal oxides in our
+study is closely related to the two mechanisms of &#x003b2;-diketones
+and &#x003b2;-keto esters decomposition known in the literature. The
+first one is the retrocondensation through a preliminary chelate complexation
+in the solution by many other transition metals, such as Co, Zn, Cu,
+Ni, Pd, Mn, Pt, and Rh.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> The second one
+is a direct attack by strong nucleophiles such as NaOH and NaOC<sub>2</sub>H<sub>5</sub>, both in the solution and in the solid state.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Zirconium and titanium oxides in our study can
+provide conditions for both types of the retrocondensation mechanism
+through complexation of dicarbonyls on the surface and by hosting
+water and methanol nucleophiles (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a,b). In that regard, the untreated zirconia
+catalyst, ZR, showed higher activity for retrocondensation because
+of its known ability to hold more of dissociatively adsorbed water
+on the surface compared to KOH-treated catalysts,<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> and a similar difference can be expected for methanol adsorption.
+Both nucleophiles, hydroxy and methoxy groups, play a critical role
+in the decomposition of diketones by attacking a carbonyl group of
+&#x003b2;-diketones.</p><p>An important factor, which may slow down
+the retrocondensation
+step, is the enolization of &#x003b2;-diketones proceeding with a large
+energy of stabilization according to the DFT calculations. The position
+of the enolized diketone structures <bold>13</bold> and <bold>14</bold> on the energy diagram is the lowest among all intermediates on the
+surface (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>).
+Quantitative enolization of the condensation product in the classic
+Claisen reaction in solutions is an essential step, which makes that
+reaction possible.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Likewise, due to a
+high C&#x02013;H acidity, enolizable &#x003b2;-diketones are taken out
+of the condensation equilibrium by reacting with basic centers on
+the catalyst surface, which helps to advance the condensation step
+forward. In contrast, non-enolizable &#x003b2;-diketones with alkylated
+methylene groups, such as diketone <bold>ABA</bold>, are difficult
+to synthesize using nucleophilic bases because the equilibrium of
+the Claisen condensation may shift back as the result of the nucleophilic
+attack by such bases on the keto form.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> It was the reason, for which we had to use a non-nucleophilic base,
+NaH, for the preparation of <bold>AAB</bold> in our work to increase
+its yield (<xref rid="sec2.4" ref-type="other">Section <xref rid="sec2.4" ref-type="other">2.4</xref></xref>).<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> Because a higher activity was found
+for the non-enolizable diketone <bold>ABA</bold> relative to enolizable
+diketones in the retrocondensation reaction with all catalysts (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>), enolization of
+diketones and &#x003b2;-keto carboxylates may take place and be an important
+part of the catalytic decarboxylative ketonization mechanism and for
+all concomitant steps discussed in our study.</p></sec><sec id="sec5"><label>5</label><title>Conclusions</title><p>Decarboxylative cross-ketonization of carboxylic acids is surrounded
+by rich chemistry driven by a sequence of condensation and retrocondensation
+steps including decarboxylation. We have disclosed additional side
+reactions in the decarboxylative ketonization mechanism in which not
+only carboxylic acids but also ketones can enolize on the surface
+of metal oxides and participate in the condensation reactions as nucleophiles.
+Their electrophilic partners for condensations are surface carboxylates
+and carbon dioxide molecules. Only in the absence of carboxylic acids
+and carbon dioxide, ketones are able to go through a usual aldol condensation
+with another ketone molecule.</p><p>All reactions are reversible and
+affected to a various degree by
+the thermodynamic stability of products. The equilibrium in the catalytic
+condensation between ketones and carboxylic acids leading to &#x003b2;-diketone
+intermediates is shifted away from the &#x003b2;-diketones. In the case
+of unsymmetrical diketones, the preferred direction of their decomposition
+is toward formation of a more reactive carboxylic acid due to its
+faster disappearance in the decarboxylative homoketonization. The
+reketonization effect is observed in the reaction between a less reactive
+acid and a ketone derived from a more reactive acid, typically, acetone.</p><p>A catalyst activity in such chemistry depends on its acid&#x02013;base
+properties and the surface structure. Because there are no redox steps
+involved in the reaction mechanism, possession of a redox function
+by metal oxide catalysts is unnecessary for the decarboxylative ketonization
+and for the reketonization reactions.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b01188">10.1021/acsomega.9b01188</ext-link>.<list id="silist" list-type="simple"><list-item><p>Regression analysis
+for the rates of isobutyric acid
+condensation with acetone, decomposition of 1,3-diketones in water
+and methanol, and figures for <bold>AA</bold> + <bold>A</bold> = <bold>AAA</bold> and <bold>AB</bold> + <bold>A</bold> = <bold>ABA</bold> DFT calculations of elementary steps (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01188/suppl_file/ao9b01188_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01188_si_001.pdf"><caption><p>ao9b01188_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e2250-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>T.J.D., H.P.,
+and J.R.L. are grateful for the support
+by the Summer Science Research Programs at St. John Fisher College
+in 2014 and 2015. We thank Dr. Evguenii Kozliak (University of North
+Dakota) for useful comments and former SJFC undergraduate students
+Laura Moore and Roberto M. Voica for their participation at the beginning
+of this project.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="patent" id="cit1"><person-group person-group-type="allauthors"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>King</surname><given-names>M. M.</given-names></name>; <name><surname>Liu</surname><given-names>Z.</given-names></name>; <name><surname>Whiddon</surname><given-names>C. W.</given-names></name></person-group><article-title>Catalysts Selective for the Preparation of Mixed Ketones from a Mixture
+of Carboxylic Acids</article-title>. U.S. Patent <patent>7,659,432</patent>, <year>2010</year>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="patent" id="cit2"><person-group person-group-type="allauthors"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>King</surname><given-names>M. M.</given-names></name></person-group><article-title>Catalyst for the Production of Methyl Isopropyl Ketone</article-title>. U.S. Patent <patent>7,501,379</patent>, <year>2009</year>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="patent" id="cit3"><person-group person-group-type="allauthors"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>King</surname><given-names>M. M.</given-names></name>; <name><surname>Liu</surname><given-names>Z.</given-names></name>; <name><surname>Whiddon</surname><given-names>C. W.</given-names></name></person-group><article-title>Catalysts Selective for the Preparation of Mixed Ketones from a Mixture
+of Carboxylic Acids</article-title>. U.S. Patent <patent>7,452,841</patent>, <year>2008</year>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>DeRaddo</surname><given-names>J. S.</given-names></name>; <name><surname>Marino</surname><given-names>V. J.</given-names></name>; <name><surname>Mercado</surname><given-names>A.</given-names></name>
+<article-title>Cross-Selectivity in
+the Catalytic Ketonization of Carboxylic Acids</article-title>. <source>Appl. Catal., A</source>
+<year>2015</year>, <volume>498</volume>, <fpage>10</fpage>&#x02013;<lpage>24</lpage><pub-id pub-id-type="doi">10.1016/j.apcata.2015.03.017</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="patent" id="cit5"><person-group person-group-type="allauthors"><name><surname>Schommer</surname><given-names>C.</given-names></name>; <name><surname>Ebel</surname><given-names>K.</given-names></name>; <name><surname>Dockner</surname><given-names>T.</given-names></name>; <name><surname>Irgang</surname><given-names>M.</given-names></name>; <name><surname>Hoelderich</surname><given-names>W.</given-names></name></person-group><article-title>Harald
+Rust. Preparation of
+Ketones</article-title>. U.S. Patent <patent>4,950,763</patent>, <year>1990</year>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Gorman</surname><given-names>M.</given-names></name>
+<article-title>The History
+of Acetone, 1600-1850</article-title>. <source>Chymia</source>
+<year>1962</year>, <volume>8</volume>, <fpage>97</fpage>&#x02013;<lpage>104</lpage><pub-id pub-id-type="doi">10.2307/27757220</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Kumar</surname><given-names>R.</given-names></name>; <name><surname>Enjamuri</surname><given-names>N.</given-names></name>; <name><surname>Shah</surname><given-names>S.</given-names></name>; <name><surname>Al-Fatesh</surname><given-names>A. S.</given-names></name>; <name><surname>Bravo-Su&#x000e1;rez</surname><given-names>J. J.</given-names></name>; <name><surname>Chowdhury</surname><given-names>B.</given-names></name>
+<article-title>Ketonization
+of Oxygenated Hydrocarbons on Metal Oxide Based Catalysts</article-title>. <source>Catal. Today</source>
+<year>2018</year>, <volume>302</volume>, <fpage>16</fpage>&#x02013;<lpage>49</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2017.09.044</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>McSally</surname><given-names>J. P.</given-names></name>; <name><surname>Bishop</surname><given-names>M. D.</given-names></name>; <name><surname>Zweigle</surname><given-names>J.</given-names></name>
+<article-title>Ab Initio Study of
+the Mechanism of Carboxylic Acids Cross-Ketonization on Monoclinic
+Zirconia via Condensation to Beta-Keto Acids Followed by Decarboxylation</article-title>. <source>Mol. Catal.</source>
+<year>2017</year>, <volume>441</volume>, <fpage>35</fpage>&#x02013;<lpage>62</lpage><pub-id pub-id-type="doi">10.1016/j.mcat.2017.07.019</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Pham</surname><given-names>T. N.</given-names></name>; <name><surname>Sooknoi</surname><given-names>T.</given-names></name>; <name><surname>Crossley</surname><given-names>S. P.</given-names></name>; <name><surname>Resasco</surname><given-names>D. E.</given-names></name>
+<article-title>Ketonization of
+Carboxylic Acids: Mechanisms, Catalysts, and Implications for Biomass
+Conversion</article-title>. <source>ACS Catal.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>2456</fpage><pub-id pub-id-type="doi">10.1021/cs400501h</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Pacchioni</surname><given-names>G.</given-names></name>
+<article-title>Ketonization
+of Carboxylic Acids in Biomass Conversion over TiO<sub>2</sub> and
+ZrO<sub>2</sub> Surfaces: A DFT Perspective</article-title>. <source>ACS Catal.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>2874</fpage>&#x02013;<lpage>2888</lpage><pub-id pub-id-type="doi">10.1021/cs500791w</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Wang</surname><given-names>S.</given-names></name>; <name><surname>Iglesia</surname><given-names>E.</given-names></name>
+<article-title>Experimental and Theoretical
+Assessment of the Mechanism
+and Site Requirements for Ketonization of Carboxylic Acids on Oxides</article-title>. <source>J. Catal.</source>
+<year>2017</year>, <volume>345</volume>, <fpage>183</fpage>&#x02013;<lpage>206</lpage><pub-id pub-id-type="doi">10.1016/j.jcat.2016.11.006</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>Cohen</surname><given-names>A. J.</given-names></name>
+<article-title>Reversibility of
+the Catalytic Ketonization of Carboxylic
+Acids and of Beta-Keto Acids Decarboxylation</article-title>. <source>Catal. Commun.</source>
+<year>2018</year>, <volume>111</volume>, <fpage>104</fpage>&#x02013;<lpage>107</lpage><pub-id pub-id-type="doi">10.1016/j.catcom.2018.04.002</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="conf-proc" id="cit13"><person-group person-group-type="allauthors"><name><surname>DiProspero</surname><given-names>T. J.</given-names></name>; <name><surname>Patel</surname><given-names>H.</given-names></name>; <name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name></person-group><article-title>Catalytic Condensation of Ketones with Carboxylic Acids</article-title>. In <source>24th North American Catalysis Society Meeting</source>; <publisher-name>St. John Fisher College</publisher-name>: <publisher-loc>Pittsburgh, PA</publisher-loc>, <year>2015</year>; Vol. <volume>11885</volume>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Yang</surname><given-names>D.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Xue</surname><given-names>N.</given-names></name>; <name><surname>Qu</surname><given-names>J.</given-names></name>
+<article-title>Synthesis of Trifluoromethyl
+Ketones via Tandem Claisen Condensation and Retro-Claisen C-C Bond-Cleavage
+Reaction</article-title>. <source>J. Org. Chem.</source>
+<year>2013</year>, <volume>78</volume>, <fpage>4171</fpage>&#x02013;<lpage>4176</lpage><pub-id pub-id-type="doi">10.1021/jo400280p</pub-id>.<pub-id pub-id-type="pmid">23517488</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Barkley</surname><given-names>L. B.</given-names></name>; <name><surname>Levine</surname><given-names>R.</given-names></name>
+<article-title>The Synthesis of Certain Ketones and &#x003b1;-Substituted
+&#x003b2;-Diketones Containing Perfluoroalkyl Groups</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>1953</year>, <volume>75</volume>, <fpage>2059</fpage>&#x02013;<lpage>2063</lpage><pub-id pub-id-type="doi">10.1021/ja01105a011</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="patent" id="cit16"><person-group person-group-type="allauthors"><name><surname>Harada</surname><given-names>R.</given-names></name>; <name><surname>Shigetomi</surname><given-names>T.</given-names></name>; <name><surname>Miyazaki</surname><given-names>S.</given-names></name>; <name><surname>Saito</surname><given-names>M.</given-names></name></person-group><article-title>Method for Extracting Asymmetric
+Beta-Diketone Compound from Beta-Diketone Compound</article-title>. WO application <patent>2014069240</patent>, <year>2014</year>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Perfett</surname><given-names>B.
+M.</given-names></name>; <name><surname>Levine</surname><given-names>R.</given-names></name>
+<article-title>A Study of
+Acid Catalysis in Ketone Acylations</article-title>. <source>J. Am.
+Chem. Soc.</source>
+<year>1953</year>, <volume>75</volume>, <fpage>626</fpage>&#x02013;<lpage>628</lpage><pub-id pub-id-type="doi">10.1021/ja01099a031</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Ignatchenko</surname><given-names>A.</given-names></name>; <name><surname>Nealon</surname><given-names>D. G.</given-names></name>; <name><surname>Dushane</surname><given-names>R.</given-names></name>; <name><surname>Humphries</surname><given-names>K.</given-names></name>
+<article-title>Interaction
+of Water with Titania and Zirconia Surfaces</article-title>. <source>J. Mol. Catal. A: Chem.</source>
+<year>2006</year>, <volume>256</volume>, <fpage>57</fpage>&#x02013;<lpage>74</lpage><pub-id pub-id-type="doi">10.1016/j.molcata.2006.04.031</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>; <name><surname>Kozliak</surname><given-names>E. I.</given-names></name>
+<article-title>Distinguishing Enolic
+and Carbonyl Components in the
+Mechanism of Carboxylic Acid Ketonization on Monoclinic Zirconia</article-title>. <source>ACS Catal.</source>
+<year>2012</year>, <volume>2</volume>, <fpage>1555</fpage>&#x02013;<lpage>1562</lpage><pub-id pub-id-type="doi">10.1021/cs3002989</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Delley</surname><given-names>B.</given-names></name>
+<article-title>From Molecules
+to Solids with the DMol<sup>3</sup> Approach</article-title>. <source>J. Chem. Phys.</source>
+<year>2000</year>, <volume>113</volume>, <fpage>7756</fpage>&#x02013;<lpage>7764</lpage><pub-id pub-id-type="doi">10.1063/1.1316015</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Ignatchenko</surname><given-names>A. V.</given-names></name>
+<article-title>Density
+Functional Theory Study of Carboxylic Acids Adsorption and Enolization
+on Monoclinic Zirconia Surfaces</article-title>. <source>J. Phys. Chem.
+C</source>
+<year>2011</year>, <volume>115</volume>, <fpage>16012</fpage>&#x02013;<lpage>16018</lpage><pub-id pub-id-type="doi">10.1021/jp203381h</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized
+Gradient Approximation
+Made Simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Tkatchenko</surname><given-names>A.</given-names></name>; <name><surname>Scheffler</surname><given-names>M.</given-names></name>
+<article-title>Accurate Molecular
+Van Der Waals Interactions from
+Ground-State Electron Density and Free-Atom Reference Data</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2009</year>, <volume>102</volume>, <elocation-id>073005</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.102.073005</pub-id>.<pub-id pub-id-type="pmid">19257665</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Govind</surname><given-names>N.</given-names></name>; <name><surname>Petersen</surname><given-names>M.</given-names></name>; <name><surname>Fitzgerald</surname><given-names>G.</given-names></name>; <name><surname>King-Smith</surname><given-names>D.</given-names></name>; <name><surname>Andzelm</surname><given-names>J.</given-names></name>
+<article-title>A Generalized Synchronous Transit
+Method for Transition
+State Location</article-title>. <source>Comput. Mater. Sci.</source>
+<year>2003</year>, <volume>28</volume>, <fpage>250</fpage>&#x02013;<lpage>258</lpage><pub-id pub-id-type="doi">10.1016/S0927-0256(03)00111-3</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Luo</surname><given-names>S.</given-names></name>; <name><surname>Falconer</surname><given-names>J. L.</given-names></name>
+<article-title>Acetone and Acetaldehyde Oligomerization on TiO<sub>2</sub> Surfaces</article-title>. <source>J. Catal.</source>
+<year>1999</year>, <volume>185</volume>, <fpage>393</fpage>&#x02013;<lpage>407</lpage><pub-id pub-id-type="doi">10.1006/jcat.1999.2511</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Gaertner</surname><given-names>C. A.</given-names></name>; <name><surname>Serrano-Ruiz</surname><given-names>J. C.</given-names></name>; <name><surname>Braden</surname><given-names>D. J.</given-names></name>; <name><surname>Dumesic</surname><given-names>J. A.</given-names></name>
+<article-title>Ketonization Reactions
+of Carboxylic Acids and Esters over Ceria-Zirconia as Biomass-Upgrading
+Processes</article-title>. <source>Ind. Eng. Chem. Res.</source>
+<year>2010</year>, <volume>49</volume>, <fpage>6027</fpage>&#x02013;<lpage>6033</lpage><pub-id pub-id-type="doi">10.1021/ie1004338</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Rajadurai</surname><given-names>S.</given-names></name>
+<article-title>Pathways for
+Carboxylic Acid Decomposition on Transition Metal Oxides</article-title>. <source>Catal. Rev.</source>
+<year>2006</year>, <volume>36</volume>, <fpage>385</fpage>&#x02013;<lpage>403</lpage><pub-id pub-id-type="doi">10.1080/01614949408009466</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Kuriacose</surname><given-names>J. C.</given-names></name>; <name><surname>Jungers</surname><given-names>J. C.</given-names></name>
+<article-title>The Kinetics of
+the Decarboxylation of Fatty Acids
+on Thorium Oxide</article-title>. <source>Bull. des Soc. Chim. Belges</source>
+<year>1955</year>, <volume>64</volume>, <fpage>502</fpage>&#x02013;<lpage>534</lpage>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Akhrem</surname><given-names>I. S.</given-names></name>; <name><surname>Vartanyan</surname><given-names>R. S.</given-names></name>; <name><surname>Afanas&#x02019;eva</surname><given-names>L.
+V.</given-names></name>; <name><surname>Vol&#x02019;pin</surname><given-names>M. E.</given-names></name>
+<article-title>Splitting
+of C-C Bonds in &#x003b2;-Dicarbonyl Compounds Catalyzed by Transition
+Metal Complexes</article-title>. <source>Bull. Acad. Sci. USSR, Div.
+Chem. Sci.</source>
+<year>1983</year>, <volume>32</volume>, <fpage>1217</fpage>&#x02013;<lpage>1220</lpage><pub-id pub-id-type="doi">10.1007/BF00953160</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="book" id="cit30"><person-group person-group-type="allauthors"><name><surname>Smith</surname><given-names>M. B.</given-names></name>; <name><surname>March</surname><given-names>J.</given-names></name></person-group><article-title>Basic Cleavage
+of Beta-Keto Esters and Beta-Diketones</article-title>. In <source>March&#x02019;s Advanced Organic Chemistry</source>; <publisher-name>John Wiley &#x00026; Sons, Inc.</publisher-name>: <year>2001</year>;
+pp <fpage>812</fpage>&#x02013;<lpage>813</lpage>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="book" id="cit31"><person-group person-group-type="allauthors"><name><surname>Wade</surname><given-names>L. G.</given-names></name></person-group><source>Organic Chemistry</source>; <edition>8</edition>th ed.; <publisher-name>Pearson</publisher-name>: <publisher-loc>Boston</publisher-loc>, <year>2013</year>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Hauser</surname><given-names>C. R.</given-names></name>; <name><surname>Renfrow</surname><given-names>W. B.</given-names><suffix>Jr.</suffix></name>
+<article-title>Certain Condensations
+Brought about
+by Bases. I. The Condensation of Ethyl Isobutyrate to Ethyl Isobutyryl-isobutyrate1</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>1937</year>, <volume>59</volume>, <fpage>1823</fpage>&#x02013;<lpage>1826</lpage><pub-id pub-id-type="doi">10.1021/ja01289a010</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Swamer</surname><given-names>F. W.</given-names></name>; <name><surname>Hauser</surname><given-names>C. R.</given-names></name>
+<article-title>Claisen Acylations and Carbethoxylations of Ketones
+and Esters by Means of Sodium Hydride<sup>1</sup></article-title>. <source>J. Am. Chem. Soc.</source>
+<year>1950</year>, <volume>72</volume>, <fpage>1352</fpage>&#x02013;<lpage>1356</lpage><pub-id pub-id-type="doi">10.1021/ja01159a074</pub-id>.</mixed-citation></ref></ref-list></back></article>

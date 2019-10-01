@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Implementation and results analysis of EOROT</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">In this section, the EOROT will be practically applied on the 24 EOs, which are represented in 
+  <a ref-type="table" rid="t1-aabc-10-065" href="#t1-aabc-10-065">Table 1</a>. The suggested EOs have &gt;850 compounds; many of them are not vital compounds in the chemical compositions. As discussed in the previous section, the first phase in EOROT is the reduction process that is based on the reduction of compounds and establishing of logic rules. 
+  <a ref-type="table" rid="t4-aabc-10-065" href="#t4-aabc-10-065">Table 4</a> displays the results after implementing the process of compounds’ reduction.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">By completing the compound’s reduction process, the noninfluential compounds in the EO’s composition will be neglected according to the indiscernibility relation in the RS algorithm that preserves only the core of these compounds that have a vital impact in the EO’s activity. 
+  <a ref-type="fig" rid="f3-aabc-10-065" href="#f3-aabc-10-065">Figure 3</a> displays the difference between the number of EOs’ compounds before and after applying the reduction process using EOROT.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">After reducing the EOs’ compounds, the EOROT continues its job by filtering the 24 EOs to find the ones that have a high antibacterial activity. The logic rules that are defined in 
+  <a ref-type="disp-formula" rid="fd4-aabc-10-065" href="#fd4-aabc-10-065">Equation 4</a> will be applied to calculate the accuracy rate 
+  <span class="italic">a</span> for every EO, which is considered as the measurement parameter in determining the antibacterial activity degree for the EO. Accuracy rate 
+  <span class="italic">a</span> is predefined in our algorithm with the value 0.6; thus, the EOs that have an accuracy rate &lt;0.6 will be neglected as they do not contain effective antibacterial compounds. 
+  <a ref-type="table" rid="t5-aabc-10-065" href="#t5-aabc-10-065">Table 5</a> presents the final results of the EOROT reduction process. As it is displayed, the number of EOs is reduced to 19 and thus achieves a high accuracy rate in antibacterial activity.
+ </p>
+ <div id="bx1-aabc-10-065" position="anchor" class="boxed-text" xmlns="http://www.w3.org/1999/xhtml">
+  <span class="label">Box 1</span>
+  <div class="caption">
+   <div class="title">Pseudo code of EOROT</div>
+  </div>
+  <div id="t7-aabc-10-065" position="anchor" class="table-wrap">
+   <table frame="box" rules="none">
+    <tbody>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">
+       <span class="bold">Reduction stage</span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">1. Set the information system of antibacterial plants 
+       <span class="italic">A</span>=(
+       <span class="italic">U,A</span>)
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">2. Define the indiscernibility matrix 
+       <span class="italic">M</span>(
+       <span class="italic">A</span>)=(
+       <span class="italic">c
+        <sub>ij</sub>
+       </span>)
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">3. Build the discernibility function 
+       <span class="italic">F
+        <sub>A</sub>
+       </span> for the information system 
+       <span class="italic">A</span> as in 
+       <a ref-type="disp-formula" rid="fd1-aabc-10-065" href="#fd1-aabc-10-065">Equation (1)</a>.
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">4. Reduce M attributes using laws of Rough sets (Upper, and Lower Laws).</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">5. Define 
+       <span class="italic">d</span> as number of non-empty rows of reduced 
+       <span class="italic">M</span>.
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">6. Build families sets of 
+       <span class="italic">R
+        <sub>0</sub>, R
+        <sub>1</sub>, R
+        <sub>2</sub>,………… R
+        <sub>d</sub>
+       </span> in the as follows:
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">7. Begin:</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">8. 
+       <span class="italic">R
+        <sub>0</sub>
+       </span> is empty
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">9. For 
+       <span class="italic">i</span> = 1 to 
+       <span class="italic">d</span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">10. 
+       <span class="italic">R
+        <sub>i</sub>
+       </span>=
+       <span class="italic">S
+        <sub>i</sub>
+       </span> ∪ 
+       <span class="italic">T
+        <sub>i</sub>
+       </span>, where 
+       <span class="italic">S
+        <sub>i</sub>
+       </span>={
+       <span class="italic">R</span>∈
+       <span class="italic">R
+        <sub>i</sub>
+       </span>
+       <sub>−</sub>
+       <span class="italic">
+        <sub>1</sub>:R
+       </span> ∩ 
+       <span class="italic">C
+        <sub>i</sub> ≠
+       </span>∅}, and 
+       <div class="inline-formula">
+        <div id="mm12" class="math">
+         <div class="mrow">
+          <span class="mi">T</span>
+          <span class="mi">i</span>
+          <span class="mo">=</span>
+          <div class="msub">
+           <div class="mrow">
+            <div class="mrow">
+             <span class="mo">(</span>
+             <div class="mrow">
+              <span class="mi">R</span>
+              <span class="mo">∪</span>
+              <span class="mo">{</span>
+              <span class="mi">a</span>
+              <span class="mo">}</span>
+             </div>
+             <span class="mo">)</span>
+            </div>
+           </div>
+           <div class="mrow">
+            <span class="mi">a</span>
+            <span class="mo">∈</span>
+            <div class="msub">
+             <span class="mi">C</span>
+             <span class="mi">i</span>
+            </div>
+            <span class="mo">,</span>
+            <span class="mi">R</span>
+            <span class="mo">∈</span>
+            <div class="msub">
+             <span class="mi">R</span>
+             <span class="mi">i</span>
+            </div>
+            <span class="mo">,</span>
+            <span class="mi">R</span>
+            <span class="mo">∩</span>
+            <div class="msub">
+             <span class="mi">C</span>
+             <span class="mi">i</span>
+            </div>
+            <span class="mo">=</span>
+            <span class="mo">∅</span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">11. Calculate the accuracy α for each 
+       <span class="italic">R
+        <sub>i</sub>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">12. End</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">13. If α
+       <span class="italic">
+        <sub>i</sub>
+       </span> &lt; 0.6
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">14. Remove dispensable attribute form each element of 
+       <span class="italic">R
+        <sub>d</sub>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">15. 
+       <span class="italic">RED
+        <sub>A</sub>
+       </span> (
+       <span class="italic">A</span>)= 
+       <span class="italic">R
+        <sub>d</sub>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">
+       <span class="bold">Optimization Stage</span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">16. Set the Population P as a matrix 
+       <span class="italic">P</span> = [
+       <span class="italic">N
+        <sub>i</sub>
+       </span>
+       <span class="sup">*</span>
+       <span class="italic">M
+        <sub>j</sub>
+       </span>] where 
+       <span class="italic">N</span> is the bacteria type and 
+       <span class="italic">M</span> is the plant
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">17. Set the particle is 
+       <span class="italic">P
+        <sub>ij</sub>
+       </span> which is the bacteria 
+       <span class="italic">i</span> on plant 
+       <span class="italic">j</span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">18. For each particle</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">19. Initialize position and velocity</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">20. End For</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">21. Do</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">22. For each particle</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">23. Find in the particle neighborhood, the particles with the best fitness as 
+       <span class="italic">Pbest</span> and 
+       <span class="italic">Gbest</span>.
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">24. Calculate 
+       <span class="italic">P
+        <sub>i</sub>
+       </span> velocity according to the velocity equation
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">25. 
+       <span class="italic">V
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>+
+       <span class="italic">1</span>)=
+       <span class="italic">wv
+        <sub>ij</sub>
+       </span>+
+       <span class="italic">c
+        <sub>1</sub>r
+        <sub>1</sub>
+       </span>[
+       <span class="italic">pbest-x
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>)]+
+       <span class="italic">c
+        <sub>2</sub>r
+        <sub>2</sub>
+       </span>[
+       <span class="italic">gbest-x
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>)]
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">26. Update 
+       <span class="italic">P
+        <sub>i</sub>
+       </span> position according to the position equation
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">27. 
+       <span class="italic">X
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>+
+       <span class="italic">1</span>)=
+       <span class="italic">x
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>)+
+       <span class="italic">v
+        <sub>ij</sub>
+       </span>(
+       <span class="italic">k</span>+
+       <span class="italic">1</span>)
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">28. If the new position for 
+       <span class="italic">P
+        <sub>i</sub>
+       </span> is less than its current position then
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">29. Modify the velocity and position for 
+       <span class="italic">P
+        <sub>i</sub>
+       </span> and 
+       <span class="italic">Pbest</span> and 
+       <span class="italic">Gbest</span>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">30. Else</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">31. Modify the velocity of 
+       <span class="italic">P
+        <sub>i</sub>
+       </span> and keep its old position
+      </td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">32. End For</td>
+     </tr>
+     <tr>
+      <td valign="top" align="left" rowspan="1" colspan="1">33. While maximum iterations or minimum error criteria is not attained</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <fn-group class="fn-group" xmlns="">
+   <fn class="fn">
+    <p xmlns="http://www.w3.org/1999/xhtml">
+     <span class="bold">Abbreviation:</span> EOROT, Essential Oil Reduction and Optimization Tool.
+    </p>
+   </fn>
+  </fn-group>
+ </div>
+ <p xmlns="http://www.w3.org/1999/xhtml">The extracted EOs from the reduction process (i.e., 19 EOs) are tested toward 17 types of bacteria, and as it is displayed in 
+  <a ref-type="table" rid="t2-aabc-10-065" href="#t2-aabc-10-065">Table 2</a>, each type of bacteria can be discouraged by more than an EO with different ratios of MIC. 
+  <a ref-type="fig" rid="f4-aabc-10-065" href="#f4-aabc-10-065">Figure 4</a> gives a brief overview of the MIC values for the EOs on every type of bacteria.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Therefore, the optimization process, which is considered as the last and substantial phase in EOROT tool, begins its work. The target of the optimization is to determine the optimal solution to inhibit the growth of the existing bacteria. Thus, deciding the optimal solution is related to two issues: EOROT will search for the EO that achieves the bacterial activity’s inhibition with the less MIC rate, and at the same time, it will try to maximize the utilization of the selected EO in inhibiting multiple types of the existing bacteria as displayed in 
+  <a ref-type="table" rid="t6-aabc-10-065" href="#t6-aabc-10-065">Table 6</a>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Thus, it could be concluded that the proposed computational tool “EOROT” enhances the process of finding the optimal EO that can inhibit the growth activity of the bacteria with the best MIC rate. In addition, EOROT takes into consideration how to boost the utilization of the available EOs, for instance 
+  <span class="italic">Thymus serpyllum</span> can be used to inhibit the activity of 
+  <span class="italic">E. coli</span>, 
+  <span class="italic">Pseudomonas aeruginosa</span>, 
+  <span class="italic">Bacillus cereus</span>, and 
+  <span class="italic">Proteus vulgaris</span> as evidenced in 
+  <a ref-type="table" rid="t6-aabc-10-065" href="#t6-aabc-10-065">Table 6</a>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">Therefore, according to the extracted information from the EOROT tool, it can also be used to predict the efficiency of the EOs in inhibiting other types of bacterial activities.</p>
+</sec>

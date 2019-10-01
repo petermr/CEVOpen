@@ -1,0 +1,758 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Plant Biotechnol J</journal-id><journal-id journal-id-type="iso-abbrev">Plant Biotechnol. J</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1467-7652</journal-id><journal-id journal-id-type="publisher-id">PBI</journal-id><journal-title-group><journal-title>Plant Biotechnology Journal</journal-title></journal-title-group><issn pub-type="ppub">1467-7644</issn><issn pub-type="epub">1467-7652</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6230952</article-id><article-id pub-id-type="doi">10.1111/pbi.12933</article-id><article-id pub-id-type="publisher-id">PBI12933</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Engineering storage capacity for volatile sesquiterpenes in <italic>Nicotiana benthamiana</italic> leaves</article-title><alt-title alt-title-type="left-running-head"><italic>Thierry L. Delatte</italic> et&#x000a0;al.</alt-title></title-group><contrib-group><contrib id="pbi12933-cr-0001" contrib-type="author" corresp="yes"><name><surname>Delatte</surname><given-names>Thierry L.</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3650-959X</contrib-id><address><email>Thierry.Delatte@wur.nl</email></address><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi12933-cr-0002" contrib-type="author"><name><surname>Scaiola</surname><given-names>Giulia</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi12933-cr-0003" contrib-type="author"><name><surname>Molenaar</surname><given-names>Jamil</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi12933-cr-0004" contrib-type="author"><name><surname>de Sousa Farias</surname><given-names>Katyuce</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi12933-cr-0005" contrib-type="author"><name><surname>Alves Gomes Albertti</surname><given-names>Leticia</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="pbi12933-cr-0006" contrib-type="author"><name><surname>Busscher</surname><given-names>Jacqueline</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi12933-cr-0007" contrib-type="author"><name><surname>Verstappen</surname><given-names>Francel</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi12933-cr-0008" contrib-type="author"><name><surname>Carollo</surname><given-names>Carlos</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi12933-cr-0009" contrib-type="author"><name><surname>Bouwmeester</surname><given-names>Harro</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="pbi12933-curr-0001">
+<sup>5</sup>
+</xref></contrib><contrib id="pbi12933-cr-0010" contrib-type="author"><name><surname>Beekwilder</surname><given-names>Jules</given-names></name><xref ref-type="aff" rid="pbi12933-aff-0004">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="pbi12933-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Lab Plant Physiol</named-content>
+<institution>Wageningen Univ &#x00026; Res</institution>
+<named-content content-type="city">Wageningen</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="pbi12933-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Lab Prod Nat &#x00026; Espectrometria Massas</named-content>
+<institution>Univ Fed Mato Grosso do Sul</institution>
+<named-content content-type="city">Campo Grande</named-content>
+<named-content content-type="country-part">MS</named-content>
+<country country="BR">Brazil</country>
+</aff><aff id="pbi12933-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Lab Ecologia &#x00026; Espectrometria Massas</named-content>
+<institution>Univ Fed Mato Grosso do Sul</institution>
+<named-content content-type="city">Campo Grande</named-content>
+<named-content content-type="country-part">MS</named-content>
+<country country="BR">Brazil</country>
+</aff><aff id="pbi12933-aff-0004">
+<label><sup>4</sup></label>
+<institution>Wageningen Univ &#x00026; Res</institution>
+<institution>Wageningen Plant Res</institution>
+<institution>Biosci</institution>
+<named-content content-type="city">Wageningen</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="pbi12933-curr-0001"><label><sup>5</sup></label>Present address:
+<named-content content-type="organisation-division">Swammerdam Institute for Life Sciences</named-content>
+<institution>University of Amsterdam</institution>
+<named-content content-type="city">Amsterdam</named-content>
+<country country="NL">The Netherlands</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><italic>Correspondence</italic> (Tel 0031317480979; fax 0031 317 481 046; email <email>Thierry.Delatte@wur.nl</email>)</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>5</month><year>2018</year></pub-date><pub-date pub-type="ppub"><month>12</month><year>2018</year></pub-date><volume>16</volume><issue>12</issue><issue-id pub-id-type="doi">10.1111/pbi.2018.16.issue-12</issue-id><fpage>1997</fpage><lpage>2006</lpage><history><date date-type="received"><day>22</day><month>12</month><year>2017</year></date><date date-type="rev-recd"><day>19</day><month>3</month><year>2018</year></date><date date-type="accepted"><day>02</day><month>4</month><year>2018</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2018 Society for Experimental Biology, Association of Applied Biologists and John Wiley & Sons Ltd <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2018 The Authors. <italic>Plant Biotechnology Journal</italic> published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:PBI-16-1997.pdf"/><abstract id="pbi12933-abs-0001"><title>Summary</title><p>Plants store volatile compounds in specialized organs. The properties of these storage organs prevent precarious evaporation and protect neighbouring tissues from cytotoxicity. Metabolic engineering of plants is often carried out in tissues such as leaf mesophyll cells, which are abundant and easily accessible by engineering tools. However, these tissues are not suitable for the storage of volatile and hydrophobic compound such as sesquiterpenes and engineered volatiles are often lost into the headspace. In this study, we show that the seeds of <italic>Arabidopsis thaliana</italic>, which naturally contain lipid bodies, accumulate sesquiterpenes upon engineered expression. Subsequently, storage of volatile sesquiterpenes was achieved in <italic>Nicotiana benthamiana</italic> leaf tissue, by introducing oleosin&#x02010;coated lipid bodies through metabolic engineering. Hereto, different combinations of genes encoding diacylglycerol acyltransferases (<styled-content style="fixed-case">DGAT</styled-content>s), transcription factors (<styled-content style="fixed-case">WRINKL</styled-content>1) and oleosins (<styled-content style="fixed-case">OLE</styled-content>1), from the oil seed&#x02010;producing species castor bean (<italic>Ricinus communis</italic>) and Arabidopsis, were assessed for their suitability to promote lipid body formation. Co&#x02010;expression of &#x003b1;&#x02010;bisabolol synthase with Arabidopsis <italic><styled-content style="fixed-case">DGAT</styled-content>1</italic> and <italic><styled-content style="fixed-case">WRINKL</styled-content>1</italic> and <italic><styled-content style="fixed-case">OLE</styled-content>1</italic> from castor bean promoted storage of &#x003b1;&#x02010;bisabolol in <italic>N.&#x000a0;benthamiana</italic> mesophyll tissue more than 17&#x02010;fold. A clear correlation was found between neutral lipids and storage of sesquiterpenes, using synthases for &#x003b1;&#x02010;bisabolol, (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene and &#x003b1;&#x02010;barbatene. The co&#x02010;localization of neutral lipids and &#x003b1;&#x02010;bisabolol was shown using microscopy. This work demonstrates that lipid bodies can be used as intracellular storage compartment for hydrophobic sesquiterpenes, also in the vegetative parts of plants, creating the possibility to improve yields of metabolic engineering strategies in plants.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="pbi12933-kwd-0001">lipid bodies</kwd><kwd id="pbi12933-kwd-0002">triacylglycerol</kwd><kwd id="pbi12933-kwd-0003">secondary metabolites</kwd><kwd id="pbi12933-kwd-0004">sesquiterpene</kwd><kwd id="pbi12933-kwd-0005"><italic>Nicotiana benthamiana</italic></kwd><kwd id="pbi12933-kwd-0006">storage</kwd></kwd-group><funding-group><award-group><funding-source>NWO&#x02010;CNPq</funding-source><award-id>729.004.013</award-id></award-group><award-group><funding-source>European Science Foundation</funding-source><award-id>1363</award-id></award-group><award-group><funding-source>MOMEVIP</funding-source></award-group><award-group><funding-source>NWO&#x02010;ECHO</funding-source><award-id>713.015.001</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="0"/><page-count count="10"/><word-count count="7861"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>pbi12933</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.5.1 mode:remove_FC converted:12.11.2018</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="pbi12933-sec-0001"><title>Introduction</title><p>Sesquiterpenes form a structurally diverse family of hydrophobic molecules. They consist of three isoprene units concatenated by the farnesyl diphosphate synthase in to the sesquiterpene precursor farnesyl diphosphate (FPP). The sesquiterpene synthase enzymes are functioning via a carbocation rearrangement, and their structural diversity is further increased by oxidation (Vickers <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0055" ref-type="ref">2014</xref>). Plants produce sesquiterpenes as bioactive compounds to protect themselves from insects and pathogenic microorganisms. Plant&#x02010;produced sesquiterpenes are used as ingredients in pharmaceutical, cosmetic and flavouring products. The commercial exploitation of natural terpene&#x02010;containing plant sources requires sustainable plant cultivation. This is particularly challenging when the source plant accumulates the compound of interest in economically viable quantities only after a growth period of 10&#x02013;15&#x000a0;years. Unregulated collection of such plants may endanger their wild populations and ecosystems. For example, the wood of the Candeia tree (<italic>Eremanthus erythropappus</italic> (DC.) McLeish), which grows in Brazilian semi&#x02010;arid regions, has been used extensively as a source of &#x003b1;&#x02010;bisabolol (de Padua <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0043" ref-type="ref">2016</xref>). The steam&#x02010;distilled wood oil, containing 85% &#x003b1;&#x02010;bisabolol, is used in pharmaceutical and cosmetic skin care products for its wound healing properties (Kamatou and Viljoen, <xref rid="pbi12933-bib-0025" ref-type="ref">2010</xref>). As a consequence of overexploitation of the naturally occurring populations, Candeia material is no longer sufficiently available to meet market demands for &#x003b1;&#x02010;bisabolol, and alternative sources for this compound are under investigation (Han <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0020" ref-type="ref">2016</xref>; de Meireles <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0039" ref-type="ref">2015</xref>; Son <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0047" ref-type="ref">2014</xref>).</p><p>Metabolic engineering could provide alternative sources for important sesquiterpenes such as &#x003b1;&#x02010;bisabolol. Studies into the heterologous expression of terpene synthases in fast&#x02010;growing plant species such as <italic>N.&#x000a0;benthamiana</italic> have provided strategies for overproduction of sesquiterpenes in leaf mesophyll cells. Changing the targeting of terpene synthases from the cytosol to plastids or mitochondria has been shown to enhance sesquiterpene production (van Herpen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0022" ref-type="ref">2010</xref>; Wu <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0059" ref-type="ref">2012</xref>). Overexpression of enzymes supplying FPP, the immediate precursor of sesquiterpenes, also resulted in enhanced terpene production (van Herpen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0022" ref-type="ref">2010</xref>; Wu <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0059" ref-type="ref">2012</xref>). Down&#x02010;regulating expression of pathways that compete for FPP, for example phytosterol biosynthesis, also enhanced heterologous terpene production (Cankar <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0007" ref-type="ref">2015</xref>; Chen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0010" ref-type="ref">2000</xref>). However, the capacity of the mesophyll cells for sequestering the overproduced terpenes is limited. As a consequence, enhanced production often leads to enhanced emission, rather than higher accumulation of the sesquiterpene (van Herpen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0022" ref-type="ref">2010</xref>).</p><p>Plants that are naturally rich in hydrophobic compounds such as sesquiterpenes have evolved different strategies to prevent their evaporation under ambient temperatures in aqueous environments (Keating <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0026" ref-type="ref">2017</xref>; Widhalm <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0058" ref-type="ref">2015</xref>). Often, sesquiterpenes are stored in specialized tissues, to isolate them from largely aqueous mesophyll tissues where photosynthesis is taking place. As a result, their evaporation is delayed, and their cytotoxicity is contained, until they are needed for the defence of the plant against insects or microbes. Well&#x02010;studied examples of such tissues include glandular trichomes, idioblasts and resin ducts (Geng <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0017" ref-type="ref">2012</xref>; Lange, <xref rid="pbi12933-bib-0031" ref-type="ref">2015</xref>; Mewalal <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0040" ref-type="ref">2017</xref>; Tissier <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0051" ref-type="ref">2017</xref>). All these plant organs provide a core of hydrophobic material where terpenes can accumulate, which is isolated from the surrounding tissue by a protective layer. Upon tissue damage, for example by pest attack, but also by extraction procedures such as steam distillation, the protective layer is broken and the sesquiterpenes are released.</p><p>Plants also contain lipid bodies, which can also be considered as contained hydrophobic environments. Lipid bodies are hydrophobic particles that predominantly occur in oil&#x02010;rich seeds, for instance those of Arabidopsis, sunflower and castor bean (Branham <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0006" ref-type="ref">2016</xref>; Chen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0011" ref-type="ref">2007</xref>; Gao <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0016" ref-type="ref">2017</xref>). Lipid bodies consist of triacylglycerols (TAG), which assemble into particles of defined size and are clattered by small proteins called oleosins (Pyc <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0044" ref-type="ref">2017</xref>). The cellular processes required for formation of lipid bodies are largely understood from work in Arabidopsis. A number of transcription factors, among which are WRINKL1 and LEC2, up&#x02010;regulate the biosynthesis of fatty acids (Vanhercke <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0054" ref-type="ref">2017</xref>). Through the activity of a diacylglycerol acyltransferase (DGAT), these are condensed into TAG molecules that are deposited between the two phospholipid monolayers of the ER membrane (Chapman <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0009" ref-type="ref">2012</xref>). By action of oleosins, the TAG deposits bud away from the ER membrane and form intracellular hydrophobic particles (Napier <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0041" ref-type="ref">1996</xref>). These particles have been found in lipid&#x02010;accumulating storage organs such as seeds. However, there is a growing interest in increasing the TAG content of vegetative tissues, as a carbon neutral alternative to petroleum (Carlsson <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0008" ref-type="ref">2011</xref>). Therefore, engineering tools have been developed that could mediate lipid body formation in tissues other than seeds. A core set of genes required for the formation of lipid bodies has been identified (Vanhercke <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0052" ref-type="ref">2013</xref>, <xref rid="pbi12933-bib-0053" ref-type="ref">2014</xref>, <xref rid="pbi12933-bib-0054" ref-type="ref">2017</xref>; Xu and Shanklin, <xref rid="pbi12933-bib-0060" ref-type="ref">2016</xref>; Zale <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0061" ref-type="ref">2016</xref>).</p><p>In this work, we explore the possibility to trap volatile sesquiterpenes inside lipid bodies <italic>in&#x000a0;vivo</italic>. The concept of using lipid bodies as storage of sesquiterpenes <italic>in planta</italic> is demonstrated by co&#x02010;engineering sesquiterpene biosynthesis and lipid body formation in leaf mesophyll tissue in <italic>N.&#x000a0;benthamiana</italic> plants.</p></sec><sec id="pbi12933-sec-0002"><title>Results</title><sec id="pbi12933-sec-0003"><title>Seeds of <italic>35S: AtTPS21</italic> expressing Arabidopsis trap (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene</title><p>This research was initiated when a construct expressing the Arabidopsis (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene synthase <italic>AtTPS21</italic> using the 35S promoter was introduced in Arabidopsis <italic>thaliana</italic> (Columbia 0), and seeds from confirmed transformed plants were analysed by GC&#x02010;MS (Ting <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0050" ref-type="ref">2015</xref>). The dry seeds of the 35S:<italic>AtTPS21</italic> plants contained a significant level of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene, whereas the WT seeds did not. This result is in line with similar work in <italic>Camelia sativa</italic>, where plants expressing terpene synthases accumulated terpenes in seed oils (Augustin <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0003" ref-type="ref">2015</xref>; Borghi and Xie, <xref rid="pbi12933-bib-0004" ref-type="ref">2016</xref>).</p><p>To further investigate the localization of <italic>(E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene in the <italic>35S:AtTPS21</italic> Arabidopsis seeds, material was ground and subjected to sucrose gradient centrifugation. In this gradient, lipid bodies will migrate to the top to form an upper layer (Ding <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0013" ref-type="ref">2013</xref>). Three resulting fractions (pellet, soluble and upper layer) were hydrodistilled and analysed by GC&#x02010;MS (Figure&#x000a0;<xref rid="pbi12933-fig-0001" ref-type="fig">1</xref>). Most of the (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene (72%&#x000a0;&#x000b1;&#x000a0;4, <italic>n</italic>&#x000a0;=&#x000a0;3) was found in the upper layer, co&#x02010;localizing with the lipid bodies. The lipid content of Arabidopsis seeds of the Columbia 0 ecotype is 35% (w/w) (Li <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0032" ref-type="ref">2006</xref>). This suggests that lipid bodies naturally present in plant tissues can function as storage for sesquiterpenes.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Sesquiterpene content of seed fractions. Arabidopsis <italic>35S:At<styled-content style="fixed-case">TPS</styled-content>21</italic> seeds were homogenized and separated on a sucrose gradient resulting in three distinct fractions: insoluble (upper panel left), soluble (upper panel middle) and fat layer (upper panel right). These three fractions were then analysed by <styled-content style="fixed-case">GC</styled-content>&#x02010;<styled-content style="fixed-case">MS</styled-content> after hydrodistillation to quantify the amount of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene present (lower panel). Each slice is the average of three independent measurements.</p></caption><graphic id="nlm-graphic-1" xlink:href="PBI-16-1997-g001"/></fig></sec><sec id="pbi12933-sec-0004"><title>Increase in total lipids in <italic>N.&#x000a0;benthamiana</italic> mesophyll upon transient expression of <italic>OLE1</italic> and <italic>DGAT1</italic>
+</title><p>Transient expression using agro&#x02010;infiltration of <italic>N.&#x000a0;benthamiana</italic> was deployed to engineer formation of lipid bodies in leaf mesophyll cells. Constructs containing <italic>DGAT1</italic> from Arabidopsis (<italic>AtDGAT1</italic>) and <italic>OLE1</italic> from castor bean (<italic>RcO</italic>) driven by a 35S promoter were generated, individually transformed to <italic>A.&#x000a0;tumefaciens,</italic> and subsequently co&#x02010;infiltrated into <italic>N</italic>.&#x000a0;<italic>benthamiana</italic>. This combination is known to increase the TAG level in vegetative tissues after agro&#x02010;infiltration (Vanhercke <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0052" ref-type="ref">2013</xref>). To determine the time at which the lipid content due to expression of these genes is the highest, agro&#x02010;infiltrated leaves were harvested at six time points: from 4 to 14 DPI (day post&#x02010;agro&#x02010;infiltration) (Figure&#x000a0;<xref rid="pbi12933-fig-0002" ref-type="fig">2</xref>). At 7 DPI and 9 DPI, total lipid content (on a dry weight basis) was significantly higher (<italic>n</italic>&#x000a0;=&#x000a0;5, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05) in plants expressing <italic>RcO&#x000a0;+&#x000a0;AtDGAT1</italic>, relative to empty&#x02010;vector (EV) control plants. After 7 DPI, a decrease in total lipids in the <italic>RcO&#x000a0;+&#x000a0;AtDGAT1</italic> combination was observed, possibly indicating degradation of lipid bodies. Therefore, for further optimizations, 7 DPI was chosen as the preferred sampling time.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Lipid content over time in agro&#x02010;infiltrated leaf from <italic>N.&#x000a0;benthamiana</italic>. The optimal sampling point for the rest of the study was identified by plotting the total lipid content, analysed by gravimetry, of leaves agro&#x02010;infiltrated with <italic>RcO&#x000a0;+&#x000a0;At<styled-content style="fixed-case">DGAT</styled-content>1</italic> (squares) and empty&#x02010;vector control (<styled-content style="fixed-case">EV</styled-content>, triangles) over a period of 10&#x000a0;days starting at 4 <styled-content style="fixed-case">DPI</styled-content>. Each point is the average of five biological replicates &#x000b1;<styled-content style="fixed-case">SE</styled-content>, a start indicates the significant difference between the two treatments at a given time point. <styled-content style="fixed-case">DW</styled-content>, dry weight; <styled-content style="fixed-case">DPI</styled-content>, day post&#x02010;agro&#x02010;infiltration; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; <italic>RcO, Ricinus communis <styled-content style="fixed-case">OLEOSIN</styled-content>; At<styled-content style="fixed-case">DGAT</styled-content>1, Arabidopsis thaliana</italic> diacylglycerol transferase.</p></caption><graphic id="nlm-graphic-3" xlink:href="PBI-16-1997-g002"/></fig></sec><sec id="pbi12933-sec-0005"><title>Improving total lipid content</title><p>To clearly demonstrate the potential of lipid bodies as a storage for terpenes in vegetative tissues, the &#x000b1;20% increase in lipid content obtained by the expression of <italic>RcO&#x000a0;+&#x000a0;AtDGAT1</italic> was considered not sufficient. To further increase the amount of lipids, the seed filling transcription factor WRINKL1 (WRI1) was added to the system. WRI1 is known to boost fatty acid biosynthesis (An <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0001" ref-type="ref">2017</xref>; Focks and Benning, <xref rid="pbi12933-bib-0014" ref-type="ref">1998</xref>; Grimberg <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0019" ref-type="ref">2015</xref>; Ma <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0036" ref-type="ref">2013</xref>; Vanhercke <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0053" ref-type="ref">2014</xref>). Additional constructs expressing <italic>WRI1</italic> from Arabidopsis (<italic>AtWRI1</italic>) and <italic>WRI1</italic>&#x000a0;and <italic>DGAT1</italic> from castor bean (<italic>RcWRI1</italic> and <italic>RcDGAT1</italic>) were tested in a combinatorial approach, by agro&#x02010;infiltration in&#x000a0;different combinations with <italic>RcO</italic>, and the infiltrated leaves&#x000a0;analysed for total lipid content at 7 DPI (Figure&#x000a0;<xref rid="pbi12933-fig-0003" ref-type="fig">3</xref>). Two combinations clearly stood out from the others. <italic>AtWRI1&#x000a0;+ AtDGAT1&#x000a0;+&#x000a0;RcO</italic> yielded 4.2% (&#x000b1;0.14%) lipid (DW) and <italic>RcWRI1&#x000a0;+ AtDGAT1&#x000a0;+ RcO</italic> even 6.7% (&#x000b1;0.74%) (DW), while EV control leaves were significantly (<italic>n</italic>&#x000a0;=&#x000a0;5, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05) lower in lipid content (2.2&#x000a0;&#x000b1;&#x000a0;0.18% of DW). Apparently synthesis of TAGs in the presence of <italic>AtDGAT1</italic> is strongly stimulated by the castor bean <italic>WRI1</italic> transcription factor. Total lipids, as analysed above (Figure&#x000a0;<xref rid="pbi12933-fig-0003" ref-type="fig">3</xref>), represent not only TAGs, but also membrane phospholipids and other hydrophobic molecules. To confirm that the increased lipid content was the result of TAG accumulation, a subset of the constructs was agro&#x02010;infiltrated again and analysed by thin&#x02010;layer chromatography (TLC, Figure&#x000a0;<xref rid="pbi12933-sup-0001" ref-type="supplementary-material">S1</xref>) for quantification of TAGs (Figure&#x000a0;<xref rid="pbi12933-fig-0004" ref-type="fig">4</xref>a). Overall, the differences observed in the TAG content confirmed the observation for the total lipid continent (Figure&#x000a0;<xref rid="pbi12933-fig-0003" ref-type="fig">3</xref>). Again, the highest content of TAGs was found in the <italic>RcO&#x000a0;+&#x000a0;AtDGAT1&#x000a0;+&#x000a0;RcWRI1</italic> combination, where the quantity of TAG was 10&#x02010;fold higher than the EV control.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Total lipid content influenced by gene combinations. Total lipid content of agro&#x02010;infiltrated <italic>N</italic>.&#x000a0;<italic>benthamiana</italic> leaves harvested at 7 <styled-content style="fixed-case">DPI</styled-content> was gravimetrically analysed. Combinations of <italic><styled-content style="fixed-case">OLE</styled-content>1</italic>,<italic><styled-content style="fixed-case">DGAT</styled-content>1</italic> and <italic><styled-content style="fixed-case">WRI</styled-content>1</italic> originating from castor bean (Rc) or from <italic>Arabidopsis thaliana</italic> (At) were tested. Each bar represents the average of five biological replicates &#x000b1;<styled-content style="fixed-case">SE</styled-content>. <styled-content style="fixed-case">DW</styled-content>, dry weight; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; <styled-content style="fixed-case">OLE</styled-content>1, <styled-content style="fixed-case">OLEOSIN</styled-content>;<styled-content style="fixed-case"> DGAT</styled-content>1, diacylglycerol transferase; <styled-content style="fixed-case">WRI</styled-content>1, <styled-content style="fixed-case">WRINKL</styled-content>1; Rc, <italic>Ricinus communis</italic>; At, <italic>Arabidopsis thaliana</italic>.</p></caption><graphic id="nlm-graphic-5" xlink:href="PBI-16-1997-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Transient expression of <italic>RcO</italic>,<italic><styled-content style="fixed-case">DGAT</styled-content>1</italic> and <italic><styled-content style="fixed-case">WRI</styled-content>1</italic> increases triacylglycerol content in <italic>N.&#x000a0;benthamiana leaves</italic>. (a) Increased triacylglycerol content in leaf tissue at 7 <styled-content style="fixed-case">DPI</styled-content>. The <styled-content style="fixed-case">TGA</styled-content> content was quantified by <styled-content style="fixed-case">TLC</styled-content> (bars are the average of five samples &#x000b1;<styled-content style="fixed-case">SE</styled-content>). (b) Light microscopy images of <italic>N</italic>.&#x000a0;<italic>benthamiana</italic> leaves (at 7 <styled-content style="fixed-case">DPI</styled-content>) after Sudan <styled-content style="fixed-case">IV</styled-content> staining. Blue arrows indicate lipid bodies; bars correspond to 20&#x000a0;&#x003bc;m. <styled-content style="fixed-case">EV</styled-content>, empty binary vector; Rc, <italic>Ricinus communis</italic>; At, <italic>Arabidopsis thaliana</italic>;<styled-content style="fixed-case"> OLE</styled-content>1, <styled-content style="fixed-case">OLEOSIN</styled-content>;<styled-content style="fixed-case"> DGAT</styled-content>1, diacylglycerol transferase; <styled-content style="fixed-case">WRI</styled-content>1, <styled-content style="fixed-case">WRINKL</styled-content>1; RcO, <italic>Ricinus communis </italic>
+<styled-content style="fixed-case">OLE</styled-content>1; At<styled-content style="fixed-case">DGAT</styled-content>1, <italic>Arabidopsis thaliana</italic> diacylglycerol transferase; Rc<styled-content style="fixed-case">WRI</styled-content>1, <italic>Ricinus communis </italic>
+<styled-content style="fixed-case">WRINKL</styled-content>1.</p></caption><graphic id="nlm-graphic-7" xlink:href="PBI-16-1997-g004"/></fig><p>Mesophyll tissues were studied with light microscopy to observe morphological changes that accompany the increase in TAG content (Figure&#x000a0;<xref rid="pbi12933-fig-0004" ref-type="fig">4</xref>b and Figure&#x000a0;<xref rid="pbi12933-sup-0001" ref-type="supplementary-material">S2</xref>), by staining with Sudan IV, a dye specific for neutral lipids (Andrianov <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0002" ref-type="ref">2010</xref>; Bouvier&#x02010;Nave <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0005" ref-type="ref">2000</xref>). While in EV control leaves, hardly any staining was observed, staining particles of diameters up to 6&#x000a0;&#x003bc;m with an average diameter of 2.8&#x000a0;&#x000b1;&#x000a0;0.4&#x000a0;&#x003bc;m were observed in leaves where <italic>AtDGAT1</italic> and <italic>RcO</italic> were expressed. Larger and more numerous staining particles, of diameters up to 20&#x000a0;&#x003bc;m, with an average of 6.1&#x000a0;&#x000b1;&#x000a0;0.7&#x000a0;&#x003bc;m, were observed in leaves expressing the <italic>RcO</italic>&#x000a0;+&#x000a0;<italic>AtDGAT1&#x000a0;</italic>+<italic>&#x000a0;RcWRI1</italic> combination.</p><p>Thus, by transiently co&#x02010;expressing <italic>RcO</italic>,<italic> AtDGAT1</italic> and <italic>RcWRI1</italic> simultaneously in the mesophyll of <italic>N.&#x000a0;benthamiana</italic>, a strong increase in TAG content was observed, as well as formation of lipid bodies. This combination of genes will be referred to as ODW from here onward.</p></sec><sec id="pbi12933-sec-0006"><title>Lipid bodies promote &#x003b1;&#x02010;bisabolol storage</title><p>Having established a system for producing well&#x02010;detectable amounts of lipid bodies in <italic>N.&#x000a0;benthamiana</italic> mesophyll cells, experiments were performed to address changes in the <italic>in&#x000a0;vivo</italic> storage capacity for sesquiterpenes, due to the presence of lipid bodies. To this end, the <italic>Artemisia annua</italic> &#x003b1;&#x02010;bisabolol&#x02010;synthase cDNA (Li <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0033" ref-type="ref">2013</xref>) was subcloned for plant expression in the pB7wG2.0 vector (<italic>AaBOS</italic>). Subsequently, <italic>AaBOS</italic> was co&#x02010;expressed with and without the ODW combination in <italic>N.&#x000a0;benthamiana</italic> leaves, and accumulation of both TAGs and &#x003b1;&#x02010;bisabolol was analysed during 13 DPI, using TLC and GC&#x02010;MS, respectively.</p><p>At 7 and 11 DPI, about fourfold more &#x003b1;&#x02010;bisabolol was detected in the leaves expressing the <italic>ODW</italic> combination than in leaves expressing only <italic>AaBOS</italic> (Figure&#x000a0;<xref rid="pbi12933-fig-0005" ref-type="fig">5</xref>a). At these time points, also the TAG content in the <italic>ODW</italic>&#x02010;expressing leaves was highest (Figure&#x000a0;<xref rid="pbi12933-fig-0005" ref-type="fig">5</xref>b and Figure&#x000a0;<xref rid="pbi12933-sup-0001" ref-type="supplementary-material">S2</xref>). When TAG content decreased, at 13 DPI, &#x003b1;&#x02010;bisabolol content also decreased. Interestingly, the &#x003b1;&#x02010;bisabolol content did not fully parallel the accumulation of TAGs. At 4 DPI, where TAG content had already strongly increased, &#x003b1;&#x02010;bisabolol content had hardly increased in the <italic>ODW</italic>&#x02010;expressing leaves, compared to the EV control. At 11 DPI, when TAG content had already declined by ~40%, &#x003b1;&#x02010;bisabolol content was still very high.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>&#x003b1;&#x02010;Bisabolol storage and <styled-content style="fixed-case">TGA</styled-content> accumulation in <italic>N</italic>.&#x000a0;<italic>benthamiana</italic> leaves. (a) &#x003b1;&#x02010;Bisabolol content over time in <italic>Aa<styled-content style="fixed-case">BOS</styled-content></italic> (dark grey) and <italic>Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> (light grey) agro&#x02010;infiltrated <italic>N.&#x000a0;benthamiana</italic> leaves. &#x003b1;&#x02010;Bisabolol was measured by <styled-content style="fixed-case">GC</styled-content>&#x02010;<styled-content style="fixed-case">MS</styled-content> and quantified by external calibration (bars are the average of five samples &#x000b1;<styled-content style="fixed-case">SE</styled-content>). (b) Triacylglycerol content over time in <styled-content style="fixed-case">EV</styled-content> (dark grey dashed line), <italic>Aa<styled-content style="fixed-case">BOS</styled-content></italic> (black solid line) and <italic>Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> (light grey solid line) agro&#x02010;infiltrated <italic>N.&#x000a0;benthamiana</italic> leaves. Triacylglycerol levels were measured by <styled-content style="fixed-case">TLC</styled-content> and expressed in % of dry weight (each data point is the average of 5 samples &#x000b1;<styled-content style="fixed-case">SE</styled-content>). Samples were harvested at 4,7,11 and 13 <styled-content style="fixed-case">DPI</styled-content>. <styled-content style="fixed-case">DW</styled-content>, dry weight; <styled-content style="fixed-case">DPI</styled-content>, day post&#x02010;agro&#x02010;infiltration; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; Aa<styled-content style="fixed-case">BOS</styled-content>,<italic> Artemisia annua</italic> bisabolol synthase; <styled-content style="fixed-case">ODW</styled-content>,<italic> Ricinus communis </italic>
+<styled-content style="fixed-case">OLEOSIN</styled-content>&#x000a0;+&#x000a0;<italic>Arabidopsis thaliana</italic> diacylglycerol transferase&#x000a0;+&#x000a0;<italic>Ricinus communis </italic>
+<styled-content style="fixed-case">WRKINL</styled-content>1.</p></caption><graphic id="nlm-graphic-9" xlink:href="PBI-16-1997-g005"/></fig></sec><sec id="pbi12933-sec-0007"><title>Is &#x003b1;&#x02010;bisabolol stored in the lipid bodies?</title><p>To confirm that &#x003b1;&#x02010;bisabolol localizes to the lipid bodies <italic>in&#x000a0;vivo</italic>, light microscopy was performed. The presence of lipid bodies was confirmed again by staining with the neutral lipid&#x02010;specific dye Sudan IV, which provides an orange colour to lipid bodies. No differences between tissues expressing <italic>AaBOS&#x000a0;</italic>+&#x000a0;<italic>ODW</italic> (Figure&#x000a0;<xref rid="pbi12933-fig-0006" ref-type="fig">6</xref>a) and EV&#x000a0;+&#x000a0;<italic>ODW</italic> (Figure&#x000a0;<xref rid="pbi12933-fig-0006" ref-type="fig">6</xref>b) combinations could be observed. The same tissues were subsequently stained using the naphthol and diamine (NADI) reaction, which has been developed to selectively stain terpenes (David and Carde, <xref rid="pbi12933-bib-0012" ref-type="ref">1964</xref>; Kolb and Muller, <xref rid="pbi12933-bib-0027" ref-type="ref">2004</xref>). Here, the <italic>AaBOS&#x000a0;</italic>+&#x000a0;<italic>ODW</italic> displayed purple staining of lipid bodies (Figure&#x000a0;<xref rid="pbi12933-fig-0006" ref-type="fig">6</xref>d), while, in the EV&#x000a0;+&#x000a0;<italic>ODW</italic> combination, these structures remained orange after the NADI staining (Figure&#x000a0;<xref rid="pbi12933-fig-0006" ref-type="fig">6</xref>c). The overlap of neutral&#x02010;lipid staining and terpene reactivity indicates that &#x003b1;&#x02010;bisabolol is stored in the lipid bodies.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Histological localization of lipids and terpenes. (a) Tissue of <styled-content style="fixed-case">EV</styled-content>&#x000a0;+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> stained with Sudan <styled-content style="fixed-case">IV</styled-content>; (b) <italic>Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> stained with Sudan <styled-content style="fixed-case">IV</styled-content>; (c) <styled-content style="fixed-case">EV</styled-content>&#x000a0;+&#x000a0;<styled-content style="fixed-case">ODW</styled-content> stained with Sudan <styled-content style="fixed-case">IV</styled-content> followed by a <styled-content style="fixed-case">NADI</styled-content> staining; (d) <italic>Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> stained with Sudan <styled-content style="fixed-case">IV</styled-content> followed by a <styled-content style="fixed-case">NADI</styled-content> staining. Samples were collected at 7 <styled-content style="fixed-case">DPI</styled-content>, bars correspond to 20&#x000a0;&#x003bc;m. <styled-content style="fixed-case">DPI</styled-content>, day post&#x02010;agro&#x02010;infiltration; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; Aa<styled-content style="fixed-case">BOS</styled-content>,<italic> Artemisia annua</italic> bisabolol synthase; <styled-content style="fixed-case">ODW</styled-content>,<italic> Ricinus communis </italic>
+<styled-content style="fixed-case">OLEOSIN</styled-content>&#x000a0;+&#x000a0;<italic>Arabidopsis thaliana</italic> diacylglycerol transferase&#x000a0;+&#x000a0;<italic>Ricinus communis </italic>
+<styled-content style="fixed-case">WRINKL</styled-content>1.</p></caption><graphic id="nlm-graphic-11" xlink:href="PBI-16-1997-g006"/></fig></sec><sec id="pbi12933-sec-0008"><title>Higher &#x003b1;&#x02010;bisabolol production leads to higher trapping</title><p>To test the limit of storage in these lipid bodies, production of &#x003b1;&#x02010;bisabolol was increased by enhancing the availability of its precursor &#x003b1;&#x02010;bisabolol. To this end, a truncated form of the 3&#x02010;hydroxy&#x02010;3&#x02010;methyl&#x02010;glutaryl&#x02010;coenzyme A reductase (<italic>tHMGR</italic>) was co&#x02010;expressed. The tHMGR is a deregulated version of the rate&#x02010;limiting enzyme in the mevalonate pathway, which supplies farnesyl diphosphate, the immediate precursor of sesquiterpenes such as &#x003b1;&#x02010;bisabolol (Cankar <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0007" ref-type="ref">2015</xref>; van Herpen <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0022" ref-type="ref">2010</xref>; Hey <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0023" ref-type="ref">2006</xref>). Co&#x02010;expression of <italic>AaBOS</italic> with <italic>tHMGR</italic> leads to a 10&#x02010;fold increase in &#x003b1;&#x02010;bisabolol in the leaves (Figure&#x000a0;<xref rid="pbi12933-fig-0007" ref-type="fig">7</xref>). Combining <italic>AaBOS</italic> expression with both the <italic>ODW</italic> combination and <italic>tHMGR</italic> further increased the amount of &#x003b1;&#x02010;bisabolol stored in the lipid bodies, to about 20&#x02010;fold, compared to expression of <italic>AaBOS</italic> alone (Figure&#x000a0;<xref rid="pbi12933-fig-0007" ref-type="fig">7</xref>). The quantity of &#x003b1;&#x02010;bisabolol stored in leaves at 7 DPI was consistent between the independent experiments (Figures&#x000a0;<xref rid="pbi12933-fig-0005" ref-type="fig">5</xref>a and <xref rid="pbi12933-fig-0007" ref-type="fig">7</xref>). Apparently, producing higher levels of &#x003b1;&#x02010;bisabolol results in an increase in &#x003b1;&#x02010;bisabolol storage in lipid bodies.</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Enhancing the <styled-content style="fixed-case">MVA</styled-content> pathway increases bisabolol storage in leaves. Bisabolol storage in <italic>N.&#x000a0;benthamiana</italic> leaves was analysed after transient expression of: <italic>Aa<styled-content style="fixed-case">BOS</styled-content></italic>,<italic> Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">tHMGR</styled-content></italic> Aa<italic><styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic> and <italic>Aa<styled-content style="fixed-case">BOS</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">tHMGR</styled-content>&#x000a0;</italic>+&#x000a0;<italic><styled-content style="fixed-case">ODW</styled-content></italic>. Bisabolol content was quantified by <styled-content style="fixed-case">GC</styled-content>&#x02010;<styled-content style="fixed-case">MS</styled-content> analysis on leaf extracts collected at 7&#x000a0;day post&#x02010;agro&#x02010;infiltration and freeze&#x02010;dried (each bar is the average of five biological replicates &#x000b1;<styled-content style="fixed-case">SE</styled-content>). <styled-content style="fixed-case">DW</styled-content>, dry weight; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; Aa<styled-content style="fixed-case">BOS</styled-content>,<italic> Artemisia annua</italic> bisabolol synthase; <styled-content style="fixed-case">tHMGR</styled-content>, truncated Arabidopsis thaliana 3&#x02010;hydroxyl&#x02010;3&#x02010;methyl&#x02010;glutaryl&#x02010;coenzyme A reductase; <styled-content style="fixed-case">ODW</styled-content>,<italic> Ricinus communis </italic>
+<styled-content style="fixed-case">OLEOSIN</styled-content>&#x000a0;+&#x000a0;<italic>Arabidopsis thaliana</italic> diacylglycerol transferase&#x000a0;+&#x000a0;<italic>Ricinus communis</italic> WRKINL1.</p></caption><graphic id="nlm-graphic-13" xlink:href="PBI-16-1997-g007"/></fig></sec><sec id="pbi12933-sec-0009"><title>(<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene and &#x003b1;&#x02010;barbatene are stored in lipid bodies</title><p>To investigate the storability of sesquiterpenes other than &#x003b1;&#x02010;bisabolol in the ODW&#x02010;induced lipid bodies, constructs for Arabidopsis terpene synthases <italic>AtTPS11</italic> and <italic>AtTPS21</italic> (Tholl <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0049" ref-type="ref">2005</xref>) were generated. These two sesquiterpene synthase are responsible for most of the terpenes emitted by Arabidopsis flowers. AtTPS21 mediates biosynthesis of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene and AtTPS11 produces predominantly &#x003b1;&#x02010;barbatene (Tholl <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0049" ref-type="ref">2005</xref>). Both <italic>AtPS21</italic> and <italic>AtTPS11</italic> were co&#x02010;expressed with <italic>tHMGR</italic> in the presence or absence of the ODW combination. When the ODW combination was present, a twofold increase in sesquiterpene storage for both sesquiterpene was observed (Figure&#x000a0;<xref rid="pbi12933-fig-0008" ref-type="fig">8</xref>).</p><fig fig-type="Figure" xml:lang="en" id="pbi12933-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>Improved storage for a broader sesquiterpene range. <italic>At<styled-content style="fixed-case">TPS</styled-content>21</italic> and <italic>At<styled-content style="fixed-case">TPS</styled-content>11</italic> in the presence of <italic><styled-content style="fixed-case">tHMGR</styled-content></italic> were agro&#x02010;infiltrated with and without the <italic><styled-content style="fixed-case">ODW</styled-content></italic> combination. After freeze&#x02010;drying, the tissue was extracted and analysed by <styled-content style="fixed-case">GC</styled-content>&#x02013;<styled-content style="fixed-case">MS</styled-content>. The peak area of the synthase major product was selected. Each bar is the average of four replicate (&#x000b1;<styled-content style="fixed-case">SE</styled-content>). <styled-content style="fixed-case">DW</styled-content>, dry weight; <styled-content style="fixed-case">EV</styled-content>, empty binary vector; At<styled-content style="fixed-case">TPS</styled-content>,<italic> Arabidopsis thaliana</italic> terpene synthase; <styled-content style="fixed-case">tHMGR</styled-content>, truncated Arabidopsis thaliana 3&#x02010;hydroxyl&#x02010;3&#x02010;methyl&#x02010;glutaryl&#x02010;coenzyme A reductase; <styled-content style="fixed-case">ODW</styled-content>,<italic> Ricinus communis </italic>
+<styled-content style="fixed-case">OLEOSIN</styled-content>&#x000a0;+&#x000a0;<italic>Arabidopsis thaliana</italic> diacylglycerol transferase&#x000a0;+&#x000a0;<italic>Ricinus communis</italic> WRINKL1.</p></caption><graphic id="nlm-graphic-15" xlink:href="PBI-16-1997-g008"/></fig></sec></sec><sec id="pbi12933-sec-0010"><title>Discussion</title><p>The storage of volatile molecules has been a serious limitation to the bioengineering of monoterpenes and sesquiterpenes in plants and microorganisms. In this work, we present a novel strategy to store volatile sesquiterpenes in vegetative and reproductive plant tissues. This work was inspired by our finding that Arabidopsis overexpressing a (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene synthase accumulates a significant amount of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene in seeds containing lipid bodies (Figure&#x000a0;<xref rid="pbi12933-fig-0001" ref-type="fig">1</xref>).</p><sec id="pbi12933-sec-0011"><title>Heterologously expressed lipid bodies enhance terpene storage</title><p>Increased TAG accumulation in <italic>N.&#x000a0;benthamiana</italic> correlated with accumulation of &#x003b1;&#x02010;bisabolol (Figures&#x000a0;<xref rid="pbi12933-fig-0005" ref-type="fig">5</xref>, <xref rid="pbi12933-fig-0006" ref-type="fig">6</xref> and <xref rid="pbi12933-fig-0007" ref-type="fig">7</xref>) and other terpenes (Figure&#x000a0;<xref rid="pbi12933-fig-0008" ref-type="fig">8</xref>). A twofold to fourfold increase in storage for each of the three sesquiterpenes &#x003b1;&#x02010;bisabolol, (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene and &#x003b1;&#x02010;barbatene was observed. &#x003b1;&#x02010;Barbatene and (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene represent olefinic sesquiterpenes, and their physicochemical properties differ from that of &#x003b1;&#x02010;bisabolol, a terpene alcohol.&#x000a0;Henry's law constants, which estimates the volatile molecules partitioning in aqueous solutions, are very different for (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene and &#x003b1;&#x02010;barbatene on the one hand and &#x003b1;&#x02010;bisabolol on the other hand (8.1&#x000a0;&#x000d7;&#x000a0;10<sup>&#x02212;1</sup>, 6.9&#x000a0;&#x000d7; 10<sup>&#x02212;1</sup> and 6.8 &#x000d7;&#x000a0;10<sup>&#x02212;5</sup> atm/m<sup>3</sup>/mole respectively). Formation of both lipids and sesquiterpene biosynthesis takes place in the cytoplasm, in close proximity to the endoplasmic reticulum (Pyc <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0044" ref-type="ref">2017</xref>; Vranova <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0056" ref-type="ref">2012</xref>). Thus, both processes seem to be spatially coupled, which may benefit the accumulation of sesquiterpenes in the neo&#x02010;synthesized lipid bodies.</p><p>Plants store their terpenes are stored in specialized tissues or cells. These include resin ducts in pine trees, glandular trichomes on mint leaves, oil cells in liverworts or idioblasts in Cinnamomum species (Glas <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0018" ref-type="ref">2012</xref>; Li <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0034" ref-type="ref">2016</xref>; Tanaka <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0048" ref-type="ref">2016</xref>). In this work, we demonstrated that by inducing the accumulation of neutral lipids in leaf tissue, accumulation of essential oil can be achieved in cells which are not naturally specialized for terpene storage. Mimicking the storage of terpenes observed in specialized oil cells such as idioblasts (Kromer <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0028" ref-type="ref">2016</xref>; Kuster and Vale, <xref rid="pbi12933-bib-0030" ref-type="ref">2016</xref>). For example, idioblasts from <italic>Arnica</italic> species include both lipids and essential oils, where the lipids function as a medium in which the terpenes are dissolved for accumulation (Kromer <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0028" ref-type="ref">2016</xref>). In the current study, the quantity of &#x003b1;&#x02010;bisabolol stored in transiently expressed heterologous lipid bodies represents only fraction of the total lipid content (~1%, w/w), which represents a concentration above 1&#x000a0;m<sc>m</sc> (assuming that 50% of the stored &#x003b1;&#x02010;bisabolol is dissolved in the lipid bodies), which leaves room for improving the ratio between lipids and terpenes. To the best of our knowledge, relative quantities of neutral lipids and sesquiterpenes in natural terpene storage cells have never been reported. Therefore, we cannot compare our findings with a natural system.</p><p>Accumulation of both neutral lipids and terpenes would theoretically be limited by the availability of acetyl&#x02010;CoA, which is a common precursor for both compound classes (Vickers <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0055" ref-type="ref">2014</xref>; Vranova <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0057" ref-type="ref">2013</xref>; Xu and Shanklin, <xref rid="pbi12933-bib-0060" ref-type="ref">2016</xref>). Further improving the allocation balance of acetyl&#x02010;CoA to both biosynthesis pathways could improve the accumulation of stored terpenes.</p></sec><sec id="pbi12933-sec-0012"><title>Seed lipid bodies store terpenes</title><p>The initial observation that triggered the present study was that expression of sesquiterpene synthase AtTPS21 under a 35S promoter resulted in accumulation of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene in seed lipid bodies, even if the 35S promoter is known to be only weakly expressed in seeds (Jefferson <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0024" ref-type="ref">1987</xref>; Odell <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0042" ref-type="ref">1985</xref>). Brassica seeds are known for their high oil content; for instance, Arabidopsis seeds of the Columbia ecotype, used to make the transgenic plants, have up to 35% (w/w) lipid content (Li <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0032" ref-type="ref">2006</xref>). With this nonoptimized system, we detected a modest quantity of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene (~0.1&#x000a0;nmole per gram of dry seeds), which is much less than the quantities of sesquiterpene reported in the optimized <italic>Camelina sativa</italic> seeds (Augustin <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0003" ref-type="ref">2015</xref>; Borghi and Xie, <xref rid="pbi12933-bib-0004" ref-type="ref">2016</xref>). Including terpenes in lipid&#x02010;rich tissues such as seeds may prove useful in the context of bioengineering crops for the production of biofuels. Sesquiterpenes are being deployed as so&#x02010;called drop&#x02010;in molecules. For example, a molecule like (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene has been shown to improve biofuel properties (Harvey <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0021" ref-type="ref">2015</xref>), and expression of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene synthase with the appropriate promoter in the seeds of oil palm or oil seed rape could lead to improved biofuel quality.</p></sec><sec id="pbi12933-sec-0013"><title>Expression of <italic>RcWRI1</italic> results in higher lipid content than <italic>AtWRI1</italic>
+</title><p>WRI1 transcription factors are important for lipid accumulation in oleaginous seeds and have been used to increase lipid accumulation in mesophyll cells of <italic>N.&#x000a0;benthamiana</italic> (Grimberg <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0019" ref-type="ref">2015</xref>). In our hands, the Arabidopsis transcription factor AtWRI1 was much less effective in driving neutral&#x02010;lipid biosynthesis than its castor bean orthologue (Figures&#x000a0;<xref rid="pbi12933-fig-0003" ref-type="fig">3</xref> and <xref rid="pbi12933-fig-0004" ref-type="fig">4</xref>). The AtWRI1 protein was shown to be subject to rapid turnover, resulting from intrinsically disordered domains and phosphorylation by the SnrK1 kinase complex (Ma <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0037" ref-type="ref">2015</xref>; Zhai <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0062" ref-type="ref">2017</xref>). The C&#x02010;terminal region of AtWRI1 was shown to mitigate oil accumulation upon transient expression in <italic>N.&#x000a0;benthamiana,</italic> due to the presence of a PEST domain. The PEST domain is responsible for the destabilization of AtWRI1. Interestingly, analysing the WRI1 sequences using software for predicting PEST domains provided a lower score in the RcWRI1, compared to the AtWRI1 (Figure&#x000a0;<xref rid="pbi12933-sup-0001" ref-type="supplementary-material">S3</xref>). Clearly, many alternative explanations of the differences between AtWRI1 and RcWRI1 are possible, including differences in expression, which are not addressed here, and it is as yet unclear whether differences in stability are at the basis of the strong difference in the ability of the two WRI1 orthologues to drive lipid body formation in <italic>N.&#x000a0;benthamiana</italic>.</p><p>Contrary to the results obtained with the transcription factor WRI1, the enzyme DGAT1 cloned from Arabidopsis was more effective than the one from castor bean (Figures&#x000a0;<xref rid="pbi12933-fig-0003" ref-type="fig">3</xref> and <xref rid="pbi12933-fig-0004" ref-type="fig">4</xref>a). This result is in line with previous finding on the properties of both enzymes, which showed that RcDGAT1 is specialized in forming TAG using hydroxy&#x02010;fatty acids, which are expected to be less available in plants other than castor bean (McKeon and He, <xref rid="pbi12933-bib-0038" ref-type="ref">2015</xref>). Thus, using a combinatorial approach with genes from different sources was beneficial for TAG accumulation and storage of sesquiterpenes.</p></sec></sec><sec id="pbi12933-sec-0014"><title>Conclusion</title><p>In this study, we demonstrate the use of the lipid bodies as a hydrophobic storage organelle for three different hydrophobic molecules from the sesquiterpene family. Improved storage was demonstrated in seeds and mesophyll cells. This work demonstrates a novel concept for engineering terpene accumulation in plants <italic>in&#x000a0;vivo</italic>. Further optimizing composition and size of lipid bodies may lead to even better storage in tissues that are normally not equipped to accumulate terpenes. A system for accumulating lipid bodies and storing volatile compounds such as terpenes could also be deployed in microorganisms. Yeast, for example, which has often been used to produce plant terpenes, can also be engineered to accumulate lipid bodies, by deleting specific lipases (Kurat <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0029" ref-type="ref">2006</xref>). It remains to be explored in how far lipid bodies can also contribute to microbial terpene accumulation. These works bring closer the possibility to produce valuable sesquiterpenes, such as &#x003b1;&#x02010;bisabolol, in an economically viable way in plants. This should, in the end, help to prevent overexploitation of slow&#x02010;growing plant species from vulnerable areas, as exemplified by the Candeia tree.</p></sec><sec id="pbi12933-sec-0015"><title>Materials and methods</title><sec id="pbi12933-sec-0016"><title>Construct design</title><p>The coding sequences of castor bean (<italic>Ricinus communis</italic>), oil body interacting protein oleosin (name: <italic>RcOLE1</italic>; AY360218.1), transcription factor WRI1 (name: <italic>RcWRI1</italic>; NM_001323762.1), the enzyme diacylglycerol acyltransferase type&#x02010;1 (name: <italic>RcDGAT1;</italic> EU391591.1) were amplified from cDNA obtained from green pods. The coding sequences of <italic>AtWRI1</italic> (At3g54320), <italic>AtDGAT1</italic> (At2g19450), <italic>AtTPS11</italic> (At5g44630) were amplified from cDNA obtained from green pods from Arabidopsis thaliana Col0 (respectively, NM_001339659.1, NM_127503.3, NM_123830). After amplification (Table&#x000a0;<xref rid="pbi12933-sup-0001" ref-type="supplementary-material">S1</xref>), the genes were cloned in a TOPO/PCR8 vector (Invitrogen), and the orientation and sequences were confirmed by Sanger sequencing. Subsequently, the coding sequences were introduced in a binary vector (pB7GW2.0) under control of a 35S constitutive promoter. The &#x003b1;&#x02010;bisabolol&#x02010;synthase from <italic>Artemisia annua</italic> (<italic>AaBOS</italic>) used for this project was obtained synthetically (Genscript), based on the gene bank sequence AFV40969. The <italic>AtTPS21</italic> construct used in this study was previously described in Ting <italic>et&#x000a0;al</italic>. (<xref rid="pbi12933-bib-0050" ref-type="ref">2015</xref>). The constructs were transferred to <italic>Agrobacterium tumefaciens</italic> strain AGL0 by electroporation.</p></sec><sec id="pbi12933-sec-0017"><title>Agro&#x02010;infiltration</title><p>Agro&#x02010;infiltration experiments were performed as described in van Herpen <italic>et&#x000a0;al</italic>. (<xref rid="pbi12933-bib-0022" ref-type="ref">2010</xref>). In brief, <italic>Agrobacterium</italic> strains were grown at 28&#x000b0;C at 220&#x000a0;rpm for 48&#x000a0;h in LB media with spectinomycin/rifampicin (100&#x000a0;mg/L). Cells were collected by centrifugation for 20&#x000a0;min at 2000&#x000a0;<italic><bold>g</bold></italic> (15&#x000b0;C) then resuspended (10&#x000a0;m<sc>m</sc> MES, 10&#x000a0;m<sc>m</sc> MgCl<sub>2</sub> and 100&#x000a0;&#x003bc;<sc>m</sc> 4&#x02032;&#x02010;hydroxy&#x02010;3&#x02032;,5&#x02032;&#x02010;dimethoxyacetophenone; Sigma) to a final OD<sub>600</sub> of 0.5, followed by incubation for 2&#x000a0;h (50&#x000a0;rpm, RT). For co&#x02010;infiltration, equal volumes of the <italic>Agrobacterium</italic> strains were mixed. In all experiments, an <italic>Agrobacterium</italic> strain harbouring a gene encoding the TBSV P19 protein was added to suppress gene silencing (Qu and Morris, <xref rid="pbi12933-bib-0045" ref-type="ref">2002</xref>). <italic>N.&#x000a0;benthamiana</italic> plants were grown from seeds on soil in a greenhouse with 16&#x02010;h light at 28&#x000b0;C (16&#x000a0;h)/25&#x000b0;C (8&#x000a0;h). Strain mixtures were infiltrated into leaves of 4&#x02010;week&#x02010;old <italic>N.&#x000a0;benthamiana</italic> plants using a 1&#x02010;mL syringe. The plants were grown under greenhouse conditions until further analysis.</p><p>Arabidopsis (Columbia&#x02010;0) stable transformants were obtained by floral dipping using <italic>Agrobacterium</italic> containing the 35S:AtTPS21 plasmid (Liu, <xref rid="pbi12933-bib-0035" ref-type="ref">2011</xref>). Primary transformants were screed in&#x000a0;vitro on (&#x00026;frac12; MS 1% agar) plates containing 50&#x000a0;&#x003bc;g/mL kanamycin, and selected transformed lines were made homozygous. The production of (<italic>E</italic>)&#x02010;&#x003b2;&#x02010;caryophyllene was confirmed in Arabidopsis as described latter for <italic>N</italic>.&#x000a0;<italic>benthamian</italic>a.</p></sec><sec id="pbi12933-sec-0018"><title>Lipid measurement</title><p>Total lipid quantification adapted with minor modifications from Vanhercke <italic>et&#x000a0;al</italic>. (<xref rid="pbi12933-bib-0053" ref-type="ref">2014</xref>). Leaf samples were collected, snap&#x02010;frozen in liquid N<sub>2</sub> and freeze&#x02010;dried overnight. After weighing, the leaves were ground with mortar and pestle and mixed with chloroform: methanol: acetone 2:1:0.5 (v/v, 6&#x000a0;mL). Samples were collected in glass tubes which were sonicated 15&#x000a0;min (sonicator Branson 3510) and vortexed after adding 2&#x000a0;mL of 0.1&#x000a0;M KCl. The lower phase (chloroform: methanol, 1&#x000a0;mL) below the layer of leaf debris was collected after centrifugation for 10&#x000a0;min at 5000 <italic><bold>g</bold></italic> (centrifuge Harrier 15/80 MSE). The remaining part was washed with 1&#x000a0;mL of chloroform and centrifuged at 5000&#x000a0;<bold><italic>g</italic></bold> for 10&#x000a0;min, and then, the lipid phase was collected again (1&#x000a0;mL) and merged with the previous one. An aliquot of 100&#x000a0;&#x003bc;L was also collected for GC&#x02010;MS analysis. Solvent was evaporated under N<sub>2</sub> flow and the weight of the samples measured to determine gravimetrically the quantity of total lipids. The dried samples were then dissolved in a known volume of chloroform per mg of leaf dry weight (5&#x000d7; dry weight) for TLC analysis.</p></sec><sec id="pbi12933-sec-0019"><title>Thin&#x02010;layer chromatography</title><p>Plates (silica gel TLC plates, 60 &#x000c5; Al foils with fluorescent indicator 254&#x000a0;nm, 20&#x000a0;&#x000d7;&#x000a0;20&#x000a0;cm &#x02013; Sigma&#x02010;Aldrich, used with dimensions of 20&#x000a0;&#x000d7;&#x000a0;10&#x000a0;cm) were activated at 100&#x000b0;C for 45&#x000a0;min after a prewash in chloroform: methanol 2&#x000a0;:&#x000a0;1 (v/v) and methanol: water 1&#x000a0;:&#x000a0;1 (v/v). The samples diluted in methanol (5&#x000d7; DW) were applied with glass pipettes. TLC separation was performed in a closed glass chamber containing a solution of hexane: diethylether: acetic acid 90&#x000a0;:&#x000a0;20&#x000a0;:&#x000a0;1.5 (v/v/v), according to Fowler <italic>et&#x000a0;al</italic>. (<xref rid="pbi12933-bib-0015" ref-type="ref">1987</xref>). The separation was carried out until the solvent reached 1&#x000a0;cm from the top, and then, plates were stabilized by drying in oven at 100&#x000b0;C for 5&#x000a0;min. The plates were developed with iodine vapour. A TAG calibration curve was constructed with a commercially available extra&#x02010;virgin olive oil diluted in chloroform. 0.5&#x000a0;g of oil was diluted in 1&#x000a0;mL of chloroform and used as first sample; this was then diluted in chloroform from 10&#x000d7; to 1,000,000&#x000d7;. The developed TLC plates were imaged using a table top scanner (EPSON v330 Photo), and images were analysed and lipid spots quantified with ImageJ (version 1.4&#x000a0;g) software (Schneider <italic>et&#x000a0;al</italic>., <xref rid="pbi12933-bib-0046" ref-type="ref">2012</xref>).</p></sec><sec id="pbi12933-sec-0020"><title>GC&#x02010;MS analysis</title><p>Sesquiterpene quantification was performed with GC&#x02010;MS. The chloroform: methanol: acetone 2:1:0.5 (v/v/v) extracts were dried by passing them through a Pasteur pipette filled with anhydrous sodium sulphate (Sigma&#x02010;Aldrich). Samples were analysed on an Agilent 7890A gas chromatograph connected to a 5795C mass selective Triple&#x02010;Axis Detector (Agilent Technologies, United States). For that purpose, 1&#x000a0;&#x003bc;L of extract was injected at 250&#x000a0;&#x000b0;C in splitless mode on a ZB&#x02010;5MS column (Phenomenex, 30&#x000a0;m&#x000a0;&#x000d7;&#x000a0;0.25&#x000a0;mm; ID 0.25&#x000a0;&#x003bc;m) with 5&#x000a0;m guard column with a constant flow of helium at 1&#x000a0;mL/min. The oven was programmed for 1&#x000a0;min at 45&#x000a0;&#x000b0;C and then subsequently ramped at 10&#x000a0;&#x000b0;C/min to 300&#x000a0;&#x000b0;C and kept for a final time of 5&#x000a0;min with a solvent delay of 5.5&#x000a0;min. The ionization potential was set at 70&#x000a0;eV, and scanning was performed from 45 to 400 atomic mass units, with a scanning speed of 3.99&#x000a0;scans/sec. Quantification was performed with an external calibration curve from &#x003b1;&#x02010;bisabolol (Sigma&#x02010;Aldrich). The Henry's law constants were calculated with the HENRYWIN program available online (<ext-link ext-link-type="uri" xlink:href="https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface">https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface</ext-link>) at 25&#x000a0;&#x000b0;C [HENRYWIN v3.10] Bond Method.</p></sec><sec id="pbi12933-sec-0021"><title>Light microscopy</title><p>Transformed leaves were subjected to destaining overnight in 70% ethanol, followed by staining in Sudan IV (Sigma&#x02010;Aldrich) solution for 30&#x000a0;min (0.3&#x000a0;g of Sudan IV powder in 10&#x000a0;mL of 70% ethanol). After Sudan IV treatment, destaining was performed in 70% ethanol and then in water. Samples stained with NADI were placed for 30&#x000a0;min in a freshly prepared solution of 1&#x02010;naphtol:N,N&#x02010;dimethyl&#x02010;p&#x02010;phenylenediamine dihydrochloride: ethanol (w/v, 1&#x02030;:1&#x02030;:40%) in 10&#x000a0;m<sc>m</sc> phosphate buffer (pH 7.2) and then washed for 2&#x000a0;min in 100&#x000a0;m<sc>m</sc> phosphate buffer (pH 7.2). Samples were covered with a drop of glycerine (80%, Sigma&#x02010;Aldrich). All images were collected on a Nikon optiphot&#x02010;2 (Nikon) equipped with a Axiocam camera (ERc 5s, Zeiss). Lipid bodies were measured with the ImageJ software. The average size of lipid bodies observed in the focal plan of the <italic>RcO</italic>&#x000a0;+&#x000a0;<italic>AtDGAT1</italic> (103 lipid bodies from eight biological replicates) and <italic>RcO&#x000a0;</italic>+&#x000a0;<italic>AtDGAT1&#x000a0;</italic>+<italic>&#x000a0;RcWRI1</italic> (183 lipid bodies from 10 biological replicates) samples was quantified using the ImageJ software.</p></sec><sec id="pbi12933-sec-0022"><title>Data analysis</title><p>Statistical differences between two samples were performed with a Student's <italic>t</italic>&#x02010;test in Excel (Microsoft Office Professional 2016). The experiments were designed with at least three replicates.</p></sec></sec><sec id="pbi12933-sec-0024"><title>Conflict of interest</title><p>The authors affirm that they do not have any associated conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="pbi12933-sup-0001"><caption><p>
+<bold>Figure&#x000a0;S1</bold> TLC plates with iodine staining (black and white filter) of leaf extract samples at 7 DPI: (a) empty vector, (b) RcO1&#x000a0;+ RcDGAT1, (c) RcO&#x000a0;+&#x000a0;AtDGAT1, (d) RcO&#x000a0;+&#x000a0;AtDGAT1&#x000a0;+&#x000a0;RcWRI1, (e) RcO+RcDGAT1&#x000a0;+&#x000a0;RcWRI1.</p><p>
+<bold>Figure&#x000a0;S2</bold> Mesophyll cells by light microscopy.</p><p>
+<bold>Figure&#x000a0;S3</bold> PEST score estimation. Using the PEST domain prediction tool EpestFind (<ext-link ext-link-type="uri" xlink:href="http://emboss.bioinformatics.nl/cgi-bin/emboss/epestfind">http://emboss.bioinformatics.nl/cgi-bin/emboss/epestfind</ext-link>) for AtWRI1 and RcWRI1.</p><p>
+<bold>Table&#x000a0;S1</bold> primers used in this study.</p></caption><media xlink:href="PBI-16-1997-s001.pptx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="pbi12933-sec-0023"><title>Acknowledgements</title><p>We wish to thank Dr. Hieng&#x02010;Ming Ting for his help in producing the 35S:TPS21 Arabidopsis plants. This research was supported by NWO&#x02010;CNPq project 729.004.013 &#x0201c;Sustainable Bisabolol from Renewable Resources,&#x0201d; the European Science Foundation (1363) MOMEVIP and the NWO&#x02010;ECHO grant 713.015.001.</p></ack><ref-list content-type="cited-references" id="pbi12933-bibl-0001"><title>References</title><ref id="pbi12933-bib-0001"><mixed-citation publication-type="journal" id="pbi12933-cit-0001">
+<string-name>
+<surname>An</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Ju</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Go</surname>, <given-names>Y.S.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>H.U.</given-names>
+</string-name> and <string-name>
+<surname>Suh</surname>, <given-names>M.C.</given-names>
+</string-name> (<year>2017</year>) <article-title>Expression of camelina <italic>WRINKLED1</italic> isoforms rescue the seed phenotype of the arabidopsis <italic>wri1</italic> mutant and increase the triacylglycerol content in tobacco leaves</article-title>. <source xml:lang="en">Front. Plant Sci.</source>
+<volume>8</volume>, <fpage>13</fpage>.<pub-id pub-id-type="pmid">28163712</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0002"><mixed-citation publication-type="journal" id="pbi12933-cit-0002">
+<string-name>
+<surname>Andrianov</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Borisjuk</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Pogrebnyak</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Brinker</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Dixon</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Spitsin</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Flynn</surname>, <given-names>J.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2010</year>) <article-title>Tobacco as a production platform for biofuel: overexpression of Arabidopsis DGAT and LEC2 genes increases accumulation and shifts the composition of lipids in green biomass</article-title>. <source xml:lang="en">Plant Biotechnol. J.</source>
+<volume>8</volume>, <fpage>277</fpage>&#x02013;<lpage>287</lpage>.<pub-id pub-id-type="pmid">20051035</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0003"><mixed-citation publication-type="journal" id="pbi12933-cit-0003">
+<string-name>
+<surname>Augustin</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Higashi</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Feng</surname>, <given-names>X.H.</given-names>
+</string-name> and <string-name>
+<surname>Kutchan</surname>, <given-names>T.M.</given-names>
+</string-name> (<year>2015</year>) <article-title>Production of mono&#x02010; and sesquiterpenes in <italic>Camelina sativa</italic> oilseed</article-title>. <source xml:lang="en">Planta</source>, <volume>242</volume>, <fpage>693</fpage>&#x02013;<lpage>708</lpage>.<pub-id pub-id-type="pmid">26223979</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0004"><mixed-citation publication-type="journal" id="pbi12933-cit-0004">
+<string-name>
+<surname>Borghi</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Xie</surname>, <given-names>D.Y.</given-names>
+</string-name> (<year>2016</year>) <article-title>Tissue&#x02010;specific production of limonene in <italic>Camelina sativa</italic> with the Arabidopsis promoters of genes <italic>BANYULS</italic> and <italic>FRUITFULL</italic>
+</article-title>. <source xml:lang="en">Planta</source>, <volume>243</volume>, <fpage>549</fpage>&#x02013;<lpage>561</lpage>.<pub-id pub-id-type="pmid">26530959</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0005"><mixed-citation publication-type="journal" id="pbi12933-cit-0005">
+<string-name>
+<surname>Bouvier&#x02010;Nave</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Benveniste</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Oelkers</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Sturley</surname>, <given-names>S.L.</given-names>
+</string-name> and <string-name>
+<surname>Schaller</surname>, <given-names>H.</given-names>
+</string-name> (<year>2000</year>) <article-title>Expression in yeast and Tobacco of plant cDNAs encoding acyl CoA : diacylglycerol acyltransferase</article-title>. <source xml:lang="en">Eur. J. Biochem.</source>
+<volume>267</volume>, <fpage>85</fpage>&#x02013;<lpage>96</lpage>.<pub-id pub-id-type="pmid">10601854</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0006"><mixed-citation publication-type="journal" id="pbi12933-cit-0006">
+<string-name>
+<surname>Branham</surname>, <given-names>S.E.</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name>
+<surname>Reba</surname>, <given-names>A.</given-names>
+</string-name> and <string-name>
+<surname>Linder</surname>, <given-names>C.R.</given-names>
+</string-name> (<year>2016</year>) <article-title>Genome&#x02010;wide association study of <italic>Arabidopsis thaliana</italic> identifies determinants of natural variation in seed oil composition</article-title>. <source xml:lang="en">J. Hered.</source>
+<volume>107</volume>, <fpage>248</fpage>&#x02013;<lpage>256</lpage>.<pub-id pub-id-type="pmid">26704140</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0007"><mixed-citation publication-type="journal" id="pbi12933-cit-0007">
+<string-name>
+<surname>Cankar</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Jongedijk</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Klompmaker</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Majdic</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Mumm</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bouwmeester</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Bosch</surname>, <given-names>D.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>(+)&#x02010;Valencene production in <italic>Nicotiana benthamiana</italic> is increased by down&#x02010;regulation of competing pathways</article-title>. <source xml:lang="en">Biotechnol. J.</source>
+<volume>10</volume>, <fpage>180</fpage>&#x02013;<lpage>189</lpage>.<pub-id pub-id-type="pmid">25159317</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0008"><mixed-citation publication-type="journal" id="pbi12933-cit-0008">
+<string-name>
+<surname>Carlsson</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Yilmaz</surname>, <given-names>J.L.</given-names>
+</string-name>, <string-name>
+<surname>Green</surname>, <given-names>A.G.</given-names>
+</string-name>, <string-name>
+<surname>Stymne</surname>, <given-names>S.</given-names>
+</string-name> and <string-name>
+<surname>Hofvander</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>) <article-title>Replacing fossil oil with fresh oil &#x02013; with what and for what?</article-title>
+<source xml:lang="en">Eur. J. Lipid. Sci. Tech.</source>
+<volume>113</volume>, <fpage>812</fpage>&#x02013;<lpage>831</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0009"><mixed-citation publication-type="journal" id="pbi12933-cit-0009">
+<string-name>
+<surname>Chapman</surname>, <given-names>K.D.</given-names>
+</string-name>, <string-name>
+<surname>Dyer</surname>, <given-names>J.M.</given-names>
+</string-name> and <string-name>
+<surname>Mullen</surname>, <given-names>R.T.</given-names>
+</string-name> (<year>2012</year>) <article-title>Biogenesis and functions of lipid droplets in plants</article-title>. <source xml:lang="en">J. Lipid Res.</source>
+<volume>53</volume>, <fpage>215</fpage>&#x02013;<lpage>226</lpage>.<pub-id pub-id-type="pmid">22045929</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0010"><mixed-citation publication-type="journal" id="pbi12933-cit-0010">
+<string-name>
+<surname>Chen</surname>, <given-names>D.H.</given-names>
+</string-name>, <string-name>
+<surname>Ye</surname>, <given-names>H.C.</given-names>
+</string-name> and <string-name>
+<surname>Li</surname>, <given-names>G.F.</given-names>
+</string-name> (<year>2000</year>) <article-title>Expression of a chimeric farnesyl diphosphate synthase gene in <italic>Artemisia annua</italic> L. transgenic plants via Agrobacterium tumefaciens&#x02010;mediated transformation</article-title>. <source xml:lang="en">Plant Sci.</source>
+<volume>155</volume>, <fpage>179</fpage>&#x02013;<lpage>185</lpage>.<pub-id pub-id-type="pmid">10814821</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0011"><mixed-citation publication-type="journal" id="pbi12933-cit-0011">
+<string-name>
+<surname>Chen</surname>, <given-names>G.Q.</given-names>
+</string-name>, <string-name>
+<surname>Turner</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>X.H.</given-names>
+</string-name>, <string-name>
+<surname>Nguyen</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>McKeon</surname>, <given-names>T.A.</given-names>
+</string-name> and <string-name>
+<surname>Laudencia&#x02010;Chingcuanco</surname>, <given-names>D.</given-names>
+</string-name> (<year>2007</year>) <article-title>Expression profiles of genes involved in fatty acid and triacylglycerol synthesis in castor bean (<italic>Ricinus communis</italic> L.)</article-title>. <source xml:lang="en">Lipids</source>, <volume>42</volume>, <fpage>263</fpage>&#x02013;<lpage>274</lpage>.<pub-id pub-id-type="pmid">17393231</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0012"><mixed-citation publication-type="journal" id="pbi12933-cit-0012">
+<string-name>
+<surname>David</surname>, <given-names>R.</given-names>
+</string-name> and <string-name>
+<surname>Carde</surname>, <given-names>J.P.</given-names>
+</string-name> (<year>1964</year>) <article-title>Histochimie &#x02013; coloration differentielle des inclusions lipidiques et terpeniques des pseudophylles du pin maritime au moyen du reactif NADI</article-title>. <source xml:lang="en">Comptes Rendus Hebdomadaires Des Seances De L Academie Des Sciences</source>, <volume>258</volume>, <fpage>1338</fpage>.</mixed-citation></ref><ref id="pbi12933-bib-0013"><mixed-citation publication-type="journal" id="pbi12933-cit-0013">
+<string-name>
+<surname>Ding</surname>, <given-names>Y.F.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>S.Y.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Na</surname>, <given-names>H.M.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>H.N.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>Isolating lipid droplets from multiple species</article-title>. <source xml:lang="en">Nat. Protoc.</source>
+<volume>8</volume>, <fpage>43</fpage>&#x02013;<lpage>51</lpage>.<pub-id pub-id-type="pmid">23222457</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0014"><mixed-citation publication-type="journal" id="pbi12933-cit-0014">
+<string-name>
+<surname>Focks</surname>, <given-names>N.</given-names>
+</string-name> and <string-name>
+<surname>Benning</surname>, <given-names>C.</given-names>
+</string-name> (<year>1998</year>) <article-title>Wrinkled 1: A novel, low&#x02010;seed&#x02010;oil mutant of Arabidopsis with a deficiency in the seed&#x02010;specific regulation of carbohydrate metabolism</article-title>. <source xml:lang="en">Plant Physiol.</source>
+<volume>118</volume>, <fpage>91</fpage>&#x02013;<lpage>101</lpage>.<pub-id pub-id-type="pmid">9733529</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0015"><mixed-citation publication-type="journal" id="pbi12933-cit-0015">
+<string-name>
+<surname>Fowler</surname>, <given-names>S.D.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>W.J.</given-names>
+</string-name>, <string-name>
+<surname>Warfel</surname>, <given-names>J.</given-names>
+</string-name> and <string-name>
+<surname>Greenspan</surname>, <given-names>P.</given-names>
+</string-name> (<year>1987</year>) <article-title>Use of Nile red for the rapid in&#x000a0;situ quantitation of lipids on thin&#x02010;layer chromatograms</article-title>. <source xml:lang="en">J. Lipid Res.</source>
+<volume>28</volume>, <fpage>1225</fpage>&#x02013;<lpage>1232</lpage>.<pub-id pub-id-type="pmid">3681147</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0016"><mixed-citation publication-type="journal" id="pbi12933-cit-0016">
+<string-name>
+<surname>Gao</surname>, <given-names>B.Y.</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>, <given-names>W.Y.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Y.Q.</given-names>
+</string-name> and <string-name>
+<surname>Yu</surname>, <given-names>L.L.</given-names>
+</string-name> (<year>2017</year>) <article-title>Triacylglycerol compositions of sunflower, corn and soybean oils examined with supercritical CO<sub>2</sub> ultra&#x02010;performance convergence chromatography combined with quadrupole time&#x02010;of&#x02010;flight mass spectrometry</article-title>. <source xml:lang="en">Food Chem.</source>
+<volume>218</volume>, <fpage>569</fpage>&#x02013;<lpage>574</lpage>.<pub-id pub-id-type="pmid">27719951</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0017"><mixed-citation publication-type="journal" id="pbi12933-cit-0017">
+<string-name>
+<surname>Geng</surname>, <given-names>S.L.</given-names>
+</string-name>, <string-name>
+<surname>Cui</surname>, <given-names>Z.X.</given-names>
+</string-name>, <string-name>
+<surname>Shu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>S.</given-names>
+</string-name> and <string-name>
+<surname>Yu</surname>, <given-names>X.H.</given-names>
+</string-name> (<year>2012</year>) <article-title>Histochemistry and cell wall specialization of oil cells related to the essential oil accumulation in the bark of <italic>cinnamomum cassia</italic> Presl. (Lauraceae)</article-title>. <source xml:lang="en">Plant. Prod. Sci.</source>
+<volume>15</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0018"><mixed-citation publication-type="journal" id="pbi12933-cit-0018">
+<string-name>
+<surname>Glas</surname>, <given-names>J.J.</given-names>
+</string-name>, <string-name>
+<surname>Schimmel</surname>, <given-names>B.C.J.</given-names>
+</string-name>, <string-name>
+<surname>Alba</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Escobar&#x02010;Bravo</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Schuurink</surname>, <given-names>R.C.</given-names>
+</string-name> and <string-name>
+<surname>Kant</surname>, <given-names>M.R.</given-names>
+</string-name> (<year>2012</year>) <article-title>Plant glandular trichomes as targets for breeding or engineering of resistance to herbivores</article-title>. <source xml:lang="en">Int. J. Mol. Sci.</source>
+<volume>13</volume>, <fpage>17077</fpage>&#x02013;<lpage>17103</lpage>.<pub-id pub-id-type="pmid">23235331</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0019"><mixed-citation publication-type="journal" id="pbi12933-cit-0019">
+<string-name>
+<surname>Grimberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Carlsson</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Marttila</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Bhalerao</surname>, <given-names>R.</given-names>
+</string-name> and <string-name>
+<surname>Hofvander</surname>, <given-names>P.</given-names>
+</string-name> (<year>2015</year>) <article-title>Transcriptional transitions in <italic>Nicotiana benthamiana</italic> leaves upon induction of oil synthesis by WRINKLED1 homologs from diverse species and tissues</article-title>. <source xml:lang="en">BMC Plant Biol.</source>
+<volume>15</volume>, <fpage>17</fpage>.<pub-id pub-id-type="pmid">25604012</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0020"><mixed-citation publication-type="journal" id="pbi12933-cit-0020">
+<string-name>
+<surname>Han</surname>, <given-names>G.H.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>S.K.</given-names>
+</string-name>, <string-name>
+<surname>Yoon</surname>, <given-names>P.K.S.</given-names>
+</string-name>, <string-name>
+<surname>Kang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>B.S.</given-names>
+</string-name>, <string-name>
+<surname>Fu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Sung</surname>, <given-names>B.H.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2016</year>) <article-title>Fermentative production and direct extraction of (&#x02212;)&#x02010;alpha&#x02010;bisabolol in metabolically engineered <italic>Escherichia coli</italic>
+</article-title>. <source xml:lang="en">Microb. Cell Fact.</source>
+<volume>15</volume>, <fpage>13</fpage>.<pub-id pub-id-type="pmid">26783098</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0021"><mixed-citation publication-type="journal" id="pbi12933-cit-0021">
+<string-name>
+<surname>Harvey</surname>, <given-names>B.G.</given-names>
+</string-name>, <string-name>
+<surname>Merriman</surname>, <given-names>W.W.</given-names>
+</string-name> and <string-name>
+<surname>Koontz</surname>, <given-names>T.A.</given-names>
+</string-name> (<year>2015</year>) <article-title>High&#x02010;density renewable diesel and jet fuels prepared from multicyclic sesquiterpanes and a 1&#x02010;hexene&#x02010;derived synthetic paraffinic kerosene</article-title>. <source xml:lang="en">Energy Fuel</source>, <volume>29</volume>, <fpage>2431</fpage>&#x02013;<lpage>2436</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0022"><mixed-citation publication-type="journal" id="pbi12933-cit-0022">
+<string-name>
+<surname>van Herpen</surname>, <given-names>T.W.J.M.</given-names>
+</string-name>, <string-name>
+<surname>Cankar</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Nogueira</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bosch</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Bouwmeester</surname>, <given-names>H.J.</given-names>
+</string-name> and <string-name>
+<surname>Beekwilder</surname>, <given-names>J.</given-names>
+</string-name> (<year>2010</year>) <article-title>
+<italic>Nicotiana benthamiana</italic> as a production platform for artemisinin precursors</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>5</volume>, <fpage>e14222</fpage>.<pub-id pub-id-type="pmid">21151979</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0023"><mixed-citation publication-type="journal" id="pbi12933-cit-0023">
+<string-name>
+<surname>Hey</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name>
+<surname>Powers</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name>
+<surname>Beale</surname>, <given-names>M.H.</given-names>
+</string-name>, <string-name>
+<surname>Hawkins</surname>, <given-names>N.D.</given-names>
+</string-name>, <string-name>
+<surname>Ward</surname>, <given-names>J.L.</given-names>
+</string-name> and <string-name>
+<surname>Halford</surname>, <given-names>N.G.</given-names>
+</string-name> (<year>2006</year>) <article-title>Enhanced seed phytosterol accumulation through expression of a modified HMG&#x02010;CoA reductase</article-title>. <source xml:lang="en">Plant Biotechnol. J.</source>
+<volume>4</volume>, <fpage>219</fpage>&#x02013;<lpage>229</lpage>.<pub-id pub-id-type="pmid">17177798</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0024"><mixed-citation publication-type="journal" id="pbi12933-cit-0024">
+<string-name>
+<surname>Jefferson</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name>
+<surname>Kavanagh</surname>, <given-names>T.A.</given-names>
+</string-name> and <string-name>
+<surname>Bevan</surname>, <given-names>M.W.</given-names>
+</string-name> (<year>1987</year>) <article-title>GUS fusions &#x02013; beta&#x02010;glucuronidase as a sensitive and versatile gene fusion marker in higher&#x02010;plants</article-title>. <source xml:lang="en">EMBO J.</source>
+<volume>6</volume>, <fpage>3901</fpage>&#x02013;<lpage>3907</lpage>.<pub-id pub-id-type="pmid">3327686</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0025"><mixed-citation publication-type="journal" id="pbi12933-cit-0025">
+<string-name>
+<surname>Kamatou</surname>, <given-names>G.P.P.</given-names>
+</string-name> and <string-name>
+<surname>Viljoen</surname>, <given-names>A.M.</given-names>
+</string-name> (<year>2010</year>) <article-title>A review of the application and pharmacological properties of alpha&#x02010;bisabolol and alpha&#x02010;bisabolol&#x02010;rich oils</article-title>. <source xml:lang="en">J. Am. Oil Chem. Soc.</source>
+<volume>87</volume>, <fpage>1</fpage>&#x02013;<lpage>7</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0026"><mixed-citation publication-type="journal" id="pbi12933-cit-0026">
+<string-name>
+<surname>Keating</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Harris</surname>, <given-names>H.H.</given-names>
+</string-name> and <string-name>
+<surname>Chickos</surname>, <given-names>J.S.</given-names>
+</string-name> (<year>2017</year>) <article-title>Vapor pressures and vaporization enthalpy of (&#x02010;) alpha&#x02010;bisabolol and (dl) menthol by correlation gas chromatography</article-title>. <source xml:lang="en">J. Chem. Thermodyn.</source>
+<volume>107</volume>, <fpage>18</fpage>&#x02013;<lpage>25</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0027"><mixed-citation publication-type="journal" id="pbi12933-cit-0027">
+<string-name>
+<surname>Kolb</surname>, <given-names>D.</given-names>
+</string-name> and <string-name>
+<surname>Muller</surname>, <given-names>M.</given-names>
+</string-name> (<year>2004</year>) <article-title>Light, conventional and environmental scanning electron microscopy of the trichomes of <italic>Cucurbita pepo</italic> subsp pepo var. styriaca and histochemistry of glandular secretory products</article-title>. <source xml:lang="en">Ann. Bot&#x02010;London</source>, <volume>94</volume>, <fpage>515</fpage>&#x02013;<lpage>526</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0028"><mixed-citation publication-type="journal" id="pbi12933-cit-0028">
+<string-name>
+<surname>Kromer</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Kreitschitz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Kleinteich</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Gorb</surname>, <given-names>S.N.</given-names>
+</string-name> and <string-name>
+<surname>Szumny</surname>, <given-names>A.</given-names>
+</string-name> (<year>2016</year>) <article-title>Oil secretory system in vegetative organs of three <italic>Arnica taxa</italic>: essential oil synthesis, distribution and accumulation</article-title>. <source xml:lang="en">Plant Cell Physiol.</source>
+<volume>57</volume>, <fpage>1020</fpage>&#x02013;<lpage>1037</lpage>.<pub-id pub-id-type="pmid">26936790</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0029"><mixed-citation publication-type="journal" id="pbi12933-cit-0029">
+<string-name>
+<surname>Kurat</surname>, <given-names>C.F.</given-names>
+</string-name>, <string-name>
+<surname>Natter</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Petschnigg</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Wolinski</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Scheuringer</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Scholz</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>, <given-names>R.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2006</year>) <article-title>Obese yeast: Triglyceride lipolysis is functionally conserved from mammals to yeast</article-title>. <source xml:lang="en">J. Biol. Chem.</source>
+<volume>281</volume>, <fpage>491</fpage>&#x02013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">16267052</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0030"><mixed-citation publication-type="journal" id="pbi12933-cit-0030">
+<string-name>
+<surname>Kuster</surname>, <given-names>V.C.</given-names>
+</string-name> and <string-name>
+<surname>Vale</surname>, <given-names>F.H.A.</given-names>
+</string-name> (<year>2016</year>) <article-title>Leaf histochemistry analysis of four medicinal species from Cerrado</article-title>. <source xml:lang="en">Rev. Bras. Farmacogn.</source>
+<volume>26</volume>, <fpage>673</fpage>&#x02013;<lpage>678</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0031"><mixed-citation publication-type="book" id="pbi12933-cit-0031">
+<string-name>
+<surname>Lange</surname>, <given-names>B.M.</given-names>
+</string-name> (<year>2015</year>) <chapter-title>The evolution of plant secretory structures and emergence of terpenoid chemical diversity</chapter-title> In <source xml:lang="en">Annual Review of Plant Biology</source>, vol. <volume>66</volume> (<person-group person-group-type="editor"><name><surname>Merchant</surname><given-names>S. S.</given-names></name></person-group>, ed), pp. <fpage>139</fpage>&#x02013;<lpage>159</lpage>. <publisher-loc>Palo Alto</publisher-loc>: <publisher-name>Annual Reviews</publisher-name>.</mixed-citation></ref><ref id="pbi12933-bib-0032"><mixed-citation publication-type="journal" id="pbi12933-cit-0032">
+<string-name>
+<surname>Li</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name>
+<surname>Beisson</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Pollard</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Ohlrogge</surname>, <given-names>J.</given-names>
+</string-name> (<year>2006</year>) <article-title>Oil content of Arabidopsis seeds: The influence of seed anatomy, light and plant&#x02010;to&#x02010;plant variation</article-title>. <source xml:lang="en">Phytochemistry</source>, <volume>67</volume>, <fpage>904</fpage>&#x02013;<lpage>915</lpage>.<pub-id pub-id-type="pmid">16600316</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0033"><mixed-citation publication-type="journal" id="pbi12933-cit-0033">
+<string-name>
+<surname>Li</surname>, <given-names>J.X.</given-names>
+</string-name>, <string-name>
+<surname>Fang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Ruan</surname>, <given-names>J.X.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>C.Q.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>L.J.</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>, <given-names>D.J.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>Rational engineering of plasticity residues of sesquiterpene synthases from <italic>Artemisia annua</italic>: product specificity and catalytic efficiency</article-title>. <source xml:lang="en">Biochem. J.</source>
+<volume>451</volume>, <fpage>417</fpage>&#x02013;<lpage>426</lpage>.<pub-id pub-id-type="pmid">23438177</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0034"><mixed-citation publication-type="journal" id="pbi12933-cit-0034">
+<string-name>
+<surname>Li</surname>, <given-names>Y.Q.</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>, <given-names>D.X.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>X.M.</given-names>
+</string-name>, <string-name>
+<surname>Xie</surname>, <given-names>Z.H.</given-names>
+</string-name>, <string-name>
+<surname>Bai</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Huang</surname>, <given-names>S.S.</given-names>
+</string-name>, <string-name>
+<surname>Nian</surname>, <given-names>H.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2016</year>) <article-title>Quality evaluation for essential oil of <italic>Cinnamomum verum</italic> leaves at different growth stages based on GC&#x02010;MS, FTIR and microscopy</article-title>. <source xml:lang="en">Food Anal. Method</source>, <volume>9</volume>, <fpage>202</fpage>&#x02013;<lpage>212</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0035"><mixed-citation publication-type="journal" id="pbi12933-cit-0035">
+<string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name> (<year>2011</year>) <article-title>Reconstitution of the costunolide biosynthetic pathway in yeast and Nicotiana benthamiana</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>6</volume>, <fpage>e23255</fpage>.<pub-id pub-id-type="pmid">21858047</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0036"><mixed-citation publication-type="journal" id="pbi12933-cit-0036">
+<string-name>
+<surname>Ma</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Arondel</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Kilaru</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>, <given-names>P.D.</given-names>
+</string-name>, <string-name>
+<surname>Thrower</surname>, <given-names>N.A.</given-names>
+</string-name>, <string-name>
+<surname>Benning</surname>, <given-names>C.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>WRINKLED1, a ubiquitous regulator in oil accumulating tissues from arabidopsis embryos to oil palm mesocarp</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>8</volume>, <fpage>13</fpage>.</mixed-citation></ref><ref id="pbi12933-bib-0037"><mixed-citation publication-type="journal" id="pbi12933-cit-0037">
+<string-name>
+<surname>Ma</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Grix</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Mantyla</surname>, <given-names>J.J.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Benning</surname>, <given-names>C.</given-names>
+</string-name> and <string-name>
+<surname>Ohlrogge</surname>, <given-names>J.B.</given-names>
+</string-name> (<year>2015</year>) <article-title>Deletion of a C&#x02010;terminal intrinsically disordered region of WRINKLED1 affects its stability and enhances oil accumulation in Arabidopsis</article-title>. <source xml:lang="en">Plant J.</source>
+<volume>83</volume>, <fpage>864</fpage>&#x02013;<lpage>874</lpage>.<pub-id pub-id-type="pmid">26305482</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0038"><mixed-citation publication-type="journal" id="pbi12933-cit-0038">
+<string-name>
+<surname>McKeon</surname>, <given-names>T.A.</given-names>
+</string-name> and <string-name>
+<surname>He</surname>, <given-names>X.H.</given-names>
+</string-name> (<year>2015</year>) <article-title>Castor diacylglycerol acyltransferase type 1 (DGAT1) displays greater activity with diricinolein than Arabidopsis DGAT1</article-title>. <source xml:lang="en">Biocatal. Agric. Biotechnol.</source>
+<volume>4</volume>, <fpage>276</fpage>&#x02013;<lpage>278</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0039"><mixed-citation publication-type="journal" id="pbi12933-cit-0039">
+<string-name>
+<surname>de Meireles</surname>, <given-names>A.L.P.</given-names>
+</string-name>, <string-name>
+<surname>Costa</surname>, <given-names>M.D.</given-names>
+</string-name>, <string-name>
+<surname>Rocha</surname>, <given-names>K.A.D.</given-names>
+</string-name> and <string-name>
+<surname>Gusevskaya</surname>, <given-names>E.V.</given-names>
+</string-name> (<year>2015</year>) <article-title>Heteropoly acid catalyzed cyclization of nerolidol and farnesol: Synthesis of alpha&#x02010;bisabolol</article-title>. <source xml:lang="en">Appl. Catal a&#x02010;Gen.</source>
+<volume>502</volume>, <fpage>271</fpage>&#x02013;<lpage>275</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0040"><mixed-citation publication-type="journal" id="pbi12933-cit-0040">
+<string-name>
+<surname>Mewalal</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Rai</surname>, <given-names>D.K.</given-names>
+</string-name>, <string-name>
+<surname>Kainer</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Kulheim</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Peter</surname>, <given-names>G.F.</given-names>
+</string-name> and <string-name>
+<surname>Tuskan</surname>, <given-names>G.A.</given-names>
+</string-name> (<year>2017</year>) <article-title>Plant&#x02010;derived terpenes: a feedstock for specialty biofuels</article-title>. <source xml:lang="en">Trends Biotechnol.</source>
+<volume>35</volume>, <fpage>227</fpage>&#x02013;<lpage>240</lpage>.<pub-id pub-id-type="pmid">27622303</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0041"><mixed-citation publication-type="journal" id="pbi12933-cit-0041">
+<string-name>
+<surname>Napier</surname>, <given-names>J.A.</given-names>
+</string-name>, <string-name>
+<surname>Stobart</surname>, <given-names>A.K.</given-names>
+</string-name> and <string-name>
+<surname>Shewry</surname>, <given-names>P.R.</given-names>
+</string-name> (<year>1996</year>) <article-title>The structure and biogenesis of plant oil bodies: The role of the ER membrane and the oleosin class of proteins</article-title>. <source xml:lang="en">Plant Mol. Biol.</source>
+<volume>31</volume>, <fpage>945</fpage>&#x02013;<lpage>956</lpage>.<pub-id pub-id-type="pmid">8843938</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0042"><mixed-citation publication-type="journal" id="pbi12933-cit-0042">
+<string-name>
+<surname>Odell</surname>, <given-names>J.T.</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>, <given-names>F.</given-names>
+</string-name> and <string-name>
+<surname>Chua</surname>, <given-names>N.H.</given-names>
+</string-name> (<year>1985</year>) <article-title>Identification of DNA&#x02010;sequences required for activity of the cauliflower mosaic virus&#x02010;35S promoter</article-title>. <source xml:lang="en">Nature</source>, <volume>313</volume>, <fpage>810</fpage>&#x02013;<lpage>812</lpage>.<pub-id pub-id-type="pmid">3974711</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0043"><mixed-citation publication-type="journal" id="pbi12933-cit-0043">
+<string-name>
+<surname>de Padua</surname>, <given-names>J.A.R.</given-names>
+</string-name>, <string-name>
+<surname>Brandao</surname>, <given-names>M.M.</given-names>
+</string-name> and <string-name>
+<surname>de Carvalho</surname>, <given-names>D.</given-names>
+</string-name> (<year>2016</year>) <article-title>Spatial genetic structure in natural populations of the overexploited tree <italic>Eremanthus erythropappus</italic> (DC.) macleish (Asteraceae)</article-title>. <source xml:lang="en">Biochem. Syst. Ecol.</source>
+<volume>66</volume>, <fpage>307</fpage>&#x02013;<lpage>311</lpage>.</mixed-citation></ref><ref id="pbi12933-bib-0044"><mixed-citation publication-type="journal" id="pbi12933-cit-0044">
+<string-name>
+<surname>Pyc</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Cai</surname>, <given-names>Y.Q.</given-names>
+</string-name>, <string-name>
+<surname>Greer</surname>, <given-names>M.S.</given-names>
+</string-name>, <string-name>
+<surname>Yurchenko</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Chapman</surname>, <given-names>K.D.</given-names>
+</string-name>, <string-name>
+<surname>Dyer</surname>, <given-names>J.M.</given-names>
+</string-name> and <string-name>
+<surname>Mullen</surname>, <given-names>R.T.</given-names>
+</string-name> (<year>2017</year>) <article-title>Turning over a new leaf in lipid droplet biology</article-title>. <source xml:lang="en">Trends Plant Sci.</source>
+<volume>22</volume>, <fpage>596</fpage>&#x02013;<lpage>609</lpage>.<pub-id pub-id-type="pmid">28454678</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0045"><mixed-citation publication-type="journal" id="pbi12933-cit-0045">
+<string-name>
+<surname>Qu</surname>, <given-names>F.</given-names>
+</string-name> and <string-name>
+<surname>Morris</surname>, <given-names>T.J.</given-names>
+</string-name> (<year>2002</year>) <article-title>Efficient infection of <italic>Nicotiana benthamiana</italic> by Tomato bushy stunt virus is facilitated by the coat protein and maintained by p19 through suppression of gene silencing</article-title>. <source xml:lang="en">Mol. Plant&#x02010;Microbe Interact.</source>
+<volume>15</volume>, <fpage>193</fpage>&#x02013;<lpage>202</lpage>.<pub-id pub-id-type="pmid">11952121</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0046"><mixed-citation publication-type="journal" id="pbi12933-cit-0046">
+<string-name>
+<surname>Schneider</surname>, <given-names>C.A.</given-names>
+</string-name>, <string-name>
+<surname>Rasband</surname>, <given-names>W.S.</given-names>
+</string-name> and <string-name>
+<surname>Eliceiri</surname>, <given-names>K.W.</given-names>
+</string-name> (<year>2012</year>) <article-title>NIH Image to ImageJ: 25&#x000a0;years of image analysis</article-title>. <source xml:lang="en">Nat. Methods</source>, <volume>9</volume>, <fpage>671</fpage>&#x02013;<lpage>675</lpage>.<pub-id pub-id-type="pmid">22930834</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0047"><mixed-citation publication-type="journal" id="pbi12933-cit-0047">
+<string-name>
+<surname>Son</surname>, <given-names>Y.J.</given-names>
+</string-name>, <string-name>
+<surname>Kwon</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ro</surname>, <given-names>D.K.</given-names>
+</string-name> and <string-name>
+<surname>Kim</surname>, <given-names>S.U.</given-names>
+</string-name> (<year>2014</year>) <article-title>Enantioselective microbial synthesis of the indigenous natural product (&#x02010;)&#x02010;alpha&#x02010;bisabolol by a sesquiterpene synthase from chamomile (<italic>Matricaria recutita</italic>)</article-title>. <source xml:lang="en">Biochem. J.</source>
+<volume>463</volume>, <fpage>239</fpage>&#x02013;<lpage>248</lpage>.<pub-id pub-id-type="pmid">25048207</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0048"><mixed-citation publication-type="journal" id="pbi12933-cit-0048">
+<string-name>
+<surname>Tanaka</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Esaki</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Kenmoku</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Koeduka</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Kiyoyama</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Masujima</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Asakawa</surname>, <given-names>Y.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2016</year>) <article-title>Direct evidence of specific localization of sesquiterpenes and marchantin A in oil body cells of <italic>Marchantia polymorpha</italic> L</article-title>. <source xml:lang="en">Phytochemistry</source>, <volume>130</volume>, <fpage>77</fpage>&#x02013;<lpage>84</lpage>.<pub-id pub-id-type="pmid">27406893</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0049"><mixed-citation publication-type="journal" id="pbi12933-cit-0049">
+<string-name>
+<surname>Tholl</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Petri</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gershenzon</surname>, <given-names>J.</given-names>
+</string-name> and <string-name>
+<surname>Pichersky</surname>, <given-names>E.</given-names>
+</string-name> (<year>2005</year>) <article-title>Two sesquiterpene synthases are responsible for the complex mixture of sesquiterpenes emitted from Arabidopsis flowers</article-title>. <source xml:lang="en">Plant J.</source>
+<volume>42</volume>, <fpage>757</fpage>&#x02013;<lpage>771</lpage>.<pub-id pub-id-type="pmid">15918888</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0050"><mixed-citation publication-type="journal" id="pbi12933-cit-0050">
+<string-name>
+<surname>Ting</surname>, <given-names>H.M.</given-names>
+</string-name>, <string-name>
+<surname>Delatte</surname>, <given-names>T.L.</given-names>
+</string-name>, <string-name>
+<surname>Kolkman</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Misas&#x02010;Villamil</surname>, <given-names>J.C.</given-names>
+</string-name>, <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name>, <string-name>
+<surname>Bouwmeester</surname>, <given-names>H.J.</given-names>
+</string-name> and <string-name>
+<surname>van der Krol</surname>, <given-names>A.R.</given-names>
+</string-name> (<year>2015</year>) <article-title>SNARE&#x02010;RNAi Results in higher terpene emission from ectopically expressed caryophyllene synthase in <italic>Nicotiana benthamiana</italic>
+</article-title>. <source xml:lang="en">Mol. Plant</source>, <volume>8</volume>, <fpage>454</fpage>&#x02013;<lpage>466</lpage>.<pub-id pub-id-type="pmid">25598143</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0051"><mixed-citation publication-type="journal" id="pbi12933-cit-0051">
+<string-name>
+<surname>Tissier</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Morgan</surname>, <given-names>J.A.</given-names>
+</string-name> and <string-name>
+<surname>Dudareva</surname>, <given-names>N.</given-names>
+</string-name> (<year>2017</year>) <article-title>Plant volatiles: Going &#x02018;In&#x02019; but not &#x02018;Out&#x02019; of trichome cavities</article-title>. <source xml:lang="en">Trends Plant Sci.</source>
+<volume>22</volume>, <fpage>930</fpage>&#x02013;<lpage>938</lpage>.<pub-id pub-id-type="pmid">28958712</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0052"><mixed-citation publication-type="journal" id="pbi12933-cit-0052">
+<string-name>
+<surname>Vanhercke</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>El Tahchy</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Shrestha</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>X.R.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>S.P.</given-names>
+</string-name> and <string-name>
+<surname>Petrie</surname>, <given-names>J.R.</given-names>
+</string-name> (<year>2013</year>) <article-title>Synergistic effect of <italic>WRI1</italic> and <italic>DGAT1</italic> coexpression on triacylglycerol biosynthesis in plants</article-title>. <source xml:lang="en">FEBS Lett.</source>
+<volume>587</volume>, <fpage>364</fpage>&#x02013;<lpage>369</lpage>.<pub-id pub-id-type="pmid">23313251</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0053"><mixed-citation publication-type="journal" id="pbi12933-cit-0053">
+<string-name>
+<surname>Vanhercke</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>El Tahchy</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>X.R.</given-names>
+</string-name>, <string-name>
+<surname>Shrestha</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Divi</surname>, <given-names>U.K.</given-names>
+</string-name>, <string-name>
+<surname>Ral</surname>, <given-names>J.P.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Metabolic engineering of biomass for high energy density: oilseed&#x02010;like triacylglycerol yields from plant leaves</article-title>. <source xml:lang="en">Plant Biotechnol. J.</source>
+<volume>12</volume>, <fpage>231</fpage>&#x02013;<lpage>239</lpage>.<pub-id pub-id-type="pmid">24151938</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0054"><mixed-citation publication-type="journal" id="pbi12933-cit-0054">
+<string-name>
+<surname>Vanhercke</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Divi</surname>, <given-names>U.K.</given-names>
+</string-name>, <string-name>
+<surname>El Tahchy</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Mitchell</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>, <given-names>M.C.</given-names>
+</string-name>, <string-name>
+<surname>Eastmond</surname>, <given-names>P.J.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2017</year>) <article-title>Step changes in leaf oil accumulation via iterative metabolic engineering</article-title>. <source xml:lang="en">Metab. Eng.</source>
+<volume>39</volume>, <fpage>237</fpage>&#x02013;<lpage>246</lpage>.<pub-id pub-id-type="pmid">27993560</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0055"><mixed-citation publication-type="journal" id="pbi12933-cit-0055">
+<string-name>
+<surname>Vickers</surname>, <given-names>C.E.</given-names>
+</string-name>, <string-name>
+<surname>Bongers</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Delatte</surname>, <given-names>T.</given-names>
+</string-name> and <string-name>
+<surname>Bouwmeester</surname>, <given-names>H.</given-names>
+</string-name> (<year>2014</year>) <article-title>Metabolic engineering of volatile isoprenoids in plants and microbes</article-title>. <source xml:lang="en">Plant, Cell Environ.</source>
+<volume>37</volume>, <fpage>1753</fpage>&#x02013;<lpage>1775</lpage>.<pub-id pub-id-type="pmid">24588680</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0056"><mixed-citation publication-type="journal" id="pbi12933-cit-0056">
+<string-name>
+<surname>Vranova</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Coman</surname>, <given-names>D.</given-names>
+</string-name> and <string-name>
+<surname>Gruissem</surname>, <given-names>W.</given-names>
+</string-name> (<year>2012</year>) <article-title>Structure and dynamics of the isoprenoid pathway network</article-title>. <source xml:lang="en">Mol. Plant</source>, <volume>5</volume>, <fpage>318</fpage>&#x02013;<lpage>333</lpage>.<pub-id pub-id-type="pmid">22442388</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0057"><mixed-citation publication-type="journal" id="pbi12933-cit-0057">
+<string-name>
+<surname>Vranova</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Coman</surname>, <given-names>D.</given-names>
+</string-name> and <string-name>
+<surname>Gruissem</surname>, <given-names>W.</given-names>
+</string-name> (<year>2013</year>) <article-title>Network analysis of the MVA and MEP pathways for isoprenoid synthesis</article-title>. <source xml:lang="en">Annu. Rev. Plant Biol.</source>
+<volume>64</volume>(<issue>64</issue>), <fpage>665</fpage>&#x02013;<lpage>700</lpage>.<pub-id pub-id-type="pmid">23451776</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0058"><mixed-citation publication-type="journal" id="pbi12933-cit-0058">
+<string-name>
+<surname>Widhalm</surname>, <given-names>J.R.</given-names>
+</string-name>, <string-name>
+<surname>Jaini</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Morgan</surname>, <given-names>J.A.</given-names>
+</string-name> and <string-name>
+<surname>Dudareva</surname>, <given-names>N.</given-names>
+</string-name> (<year>2015</year>) <article-title>Rethinking how volatiles are released from plant cells</article-title>. <source xml:lang="en">Trends Plant Sci.</source>
+<volume>20</volume>, <fpage>545</fpage>&#x02013;<lpage>550</lpage>.<pub-id pub-id-type="pmid">26189793</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0059"><mixed-citation publication-type="journal" id="pbi12933-cit-0059">
+<string-name>
+<surname>Wu</surname>, <given-names>S.Q.</given-names>
+</string-name>, <string-name>
+<surname>Jiang</surname>, <given-names>Z.D.</given-names>
+</string-name>, <string-name>
+<surname>Kempinski</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Nybo</surname>, <given-names>S.E.</given-names>
+</string-name>, <string-name>
+<surname>Husodo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>, <given-names>R.</given-names>
+</string-name> and <string-name>
+<surname>Chappell</surname>, <given-names>J.</given-names>
+</string-name> (<year>2012</year>) <article-title>Engineering triterpene metabolism in tobacco</article-title>. <source xml:lang="en">Planta</source>, <volume>236</volume>, <fpage>867</fpage>&#x02013;<lpage>877</lpage>.<pub-id pub-id-type="pmid">22729821</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0060"><mixed-citation publication-type="book" id="pbi12933-cit-0060">
+<string-name>
+<surname>Xu</surname>, <given-names>C.C.</given-names>
+</string-name> and <string-name>
+<surname>Shanklin</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>) <chapter-title>Triacylglycerol metabolism, function, and accumulation in plant vegetative tissues</chapter-title> In <source xml:lang="en">Annual Review of Plant Biology</source>, vol. <volume>67</volume> (<person-group person-group-type="editor"><name><surname>Merchant</surname><given-names>S. S.</given-names></name></person-group>, ed.), pp. <fpage>179</fpage>&#x02013;<lpage>206</lpage>. <publisher-loc>Palo Alto</publisher-loc>: <publisher-name>Annual Reviews</publisher-name>
+</mixed-citation></ref><ref id="pbi12933-bib-0061"><mixed-citation publication-type="journal" id="pbi12933-cit-0061">
+<string-name>
+<surname>Zale</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>, <given-names>J.H.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>J.Y.</given-names>
+</string-name>, <string-name>
+<surname>Pathak</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Karan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>X.H.</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2016</year>) <article-title>Metabolic engineering of sugarcane to accumulate energy&#x02010;dense triacylglycerols in vegetative biomass</article-title>. <source xml:lang="en">Plant Biotechnol. J.</source>
+<volume>14</volume>, <fpage>661</fpage>&#x02013;<lpage>669</lpage>.<pub-id pub-id-type="pmid">26058948</pub-id></mixed-citation></ref><ref id="pbi12933-bib-0062"><mixed-citation publication-type="journal" id="pbi12933-cit-0062">
+<string-name>
+<surname>Zhai</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name> and <string-name>
+<surname>Shanklin</surname>, <given-names>J.</given-names>
+</string-name> (<year>2017</year>) <article-title>Phosphorylation of WRINKLED1 by KIN10 results in its proteasomal degradation, providing a link between energy homeostasis and lipid biosynthesis</article-title>. <source xml:lang="en">Plant Cell</source>, <volume>29</volume>, <fpage>871</fpage>&#x02013;<lpage>889</lpage>.<pub-id pub-id-type="pmid">28314829</pub-id></mixed-citation></ref></ref-list></back></article>

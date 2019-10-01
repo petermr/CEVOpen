@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="sec2-4" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Phase4 - Data elements coverage comparison</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">During this phase, the five selected databases were first qualitatively evaluated and compared for presences of essential data elements employing the above model as a check-list. Information pertaining to specific data elements was considered present if it existed in the controlled vocabularies (CV), monographs (M) or free text. We have also reported how DS should be represented comprehensively (by obtaining data from multiple resources) through two representative examples, Ginseng and Fish oil, cross checked with the model. A single variant of each example was employed for initial comparison.</p>
+ <p xmlns="http://www.w3.org/1999/xhtml">For the quantitative evaluation, facets were first mapped to the data elements in 
+  <a rid="t1-2840637" ref-type="table" href="#t1-2840637">Table 1</a> by a physician and health informaticist (RR). A coverage analysis was performed (JV) over the mapped facets, shown as the percentage of database entries having a non-null value. We use this evaluation to estimate the completeness of values for each data element for ingredients and products within each of these databases. Multiple facets in the source databases often map to a single data element in our schema. A given DS was considered to have data for a given ontology attribute if one or more of the corresponding facets in its source database was non-null.
+ </p>
+</sec>

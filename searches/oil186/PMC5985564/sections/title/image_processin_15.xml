@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="Sec11" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Image processing</div>
+ <p id="Par29" xmlns="http://www.w3.org/1999/xhtml">All partial images of one root slice were converted from the camera software’s own file format to the compressed free TIFF file format and then manually merged to one complete root-slice image with the image editing program Adobe Photoshop CS6 (Adobe Systems Software, Dublin, Republic of Ireland).</p>
+ <p id="Par30" xmlns="http://www.w3.org/1999/xhtml">The composed root-slice images were analyzed with the image analysis software ImageJ [
+  <a ref-type="bibr" rid="CR38" href="#CR38">38</a>]. Software macros were developed to generate black-white-masks of the oil droplets, the root-slice center and the root-slice edge from each composed root-slice image (Fig. 
+  <a rid="Fig2" ref-type="fig" href="#Fig2">2</a>B–D). More information on the functionality is given in the Additional file 
+  <a rid="MOESM1" ref-type="media" href="#MOESM1">1</a>.
+  <div id="Fig2" class="fig">
+   <span class="label">Fig. 2</span>
+   <div class="caption">
+    <p>Different black-white-masks derived from the original composed root-slice image. 
+     <span class="bold">A</span> Root-slice image with green shining oil droplets. 
+     <span class="bold">B</span>–
+     <span class="bold">D</span> Black-white masks of 
+     <span class="bold">B</span>: the oil droplets, 
+     <span class="bold">C</span> the center of the root slice, 
+     <span class="bold">D</span> the edge of the root-slice. The x–y-coordinates of the oil droplets and the center (black particles in 
+     <span class="bold">B</span> and 
+     <span class="bold">C</span>) and each point of the edge in 
+     <span class="bold">D</span>, and the size of the grey area (seen in 
+     <span class="bold">B</span>–
+     <span class="bold">D</span>) were determined automatically by the image analysis software
+    </p>
+   </div>
+   <div xlink:href="13007_2018_309_Fig2_HTML" id="MO2" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </div>
+ </p>
+ <p id="Par31" xmlns="http://www.w3.org/1999/xhtml">The principle steps were to convert the composed image of the root slice into 8 bits grayscale image, to reduce the background noise using ImageJ image filtering operators (median, dilate), and segment the oil droplet by using the Huang Threshold method implemented in ImageJ.</p>
+ <p id="Par32" xmlns="http://www.w3.org/1999/xhtml">Due to the variable position and the inconsistently round shape of the central cylinder, as well as the edge of the root-slice, the center of the root-slice was manually marked in the original composed root-slice image. After treating images that way, they were converted into a binary image (black and white) and x–y-coordinates of the now black particles were determined by using filters for particle size and particle circularity. The determination of the x–y-coordinates of the centers of the root slices and each point of the edges were done in a similar manner. Each image was treated with the same adjustments.</p>
+</sec>

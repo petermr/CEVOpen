@@ -1,0 +1,593 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6690565</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b01819</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Alkali Earth Catalysts Based on Mesoporous
+MCM-41 and Al-SBA-15 for Sulfone Removal from Middle Distillates</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Karakhanov</surname><given-names>Eduard</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Akopyan</surname><given-names>Argam</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Golubev</surname><given-names>Oleg</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Anisimov</surname><given-names>Alexander</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Glotov</surname><given-names>Aleksandr</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Vutolkina</surname><given-names>Anna</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Maximov</surname><given-names>Anton</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Chemistry Department, <institution>Lomonosov Moscow
+State University</institution>, GSP-1, 1-3 Leninskiye Gory, Moscow 119991, <country>Russia</country></aff><aff id="aff2"><label>&#x02021;</label><institution>Gubkin Russian
+State University of Oil and Gas (National Research University)</institution>, Leninsky Prospekt 65, Moscow 119991, <country>Russia</country></aff><aff id="aff3"><label>&#x000a7;</label>Topchiev Institute of Petrochemical Synthesis, <institution>Russian Academy of Sciences</institution>, Leninsky Prospekt 29, Moscow 119991, <country>Russia</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>kar@petrol.chem.msu.ru</email>.</corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>07</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>31</day><month>07</month><year>2019</year></pub-date><volume>4</volume><issue>7</issue><fpage>12736</fpage><lpage>12744</lpage><history><date date-type="received"><day>19</day><month>06</month><year>2019</year></date><date date-type="accepted"><day>17</day><month>07</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0012" id="ab-tgr1"/></p><p>Mg, Ca, and Ba catalysts
+supported on structured mesoporous silica oxides types MCM-41 and
+Al-SBA-15 were synthesized and investigated in sulfone cracking for
+sulfur removal from oxidized diesel fuel. Functional materials and
+catalysts were characterized by low-temperature nitrogen adsorption/desorption,
+transmission electron microscopy, and inductively coupled plasma atomic
+emission spectroscopy techniques. Catalytic tests were carried out
+in fixed-bed and batch reactors with a model compound dibenzothiophene
+sulfone and oxidized diesel fraction as a feed. MgO/MCM-41 and MgO/Al-MCM-41
+possess high activity in sulfone cracking. The sulfur content in the
+diesel fraction decreases from initial 450 up to 100 ppmw. Catalysts
+can be regenerated for reuse in several cycles and may be potentially
+scaled up for industrial applications</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b01819</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-018192</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Reducing the sulfur content in oil fractions is a permanent issue
+in the oil refining industry to meet the standards for motor fuels.
+Thus, the technical regulation of the Customs Union limits the sulfur
+content of class 5 diesel fuel to the level of 10 ppmw. Nowadays,
+the main industrial processes in oil refining, to reduce the sulfur
+content, are hydrotreating and hydrocracking. These technologies are
+referred to as &#x0201c;hydroprocesses&#x0201d;, i.e., processes where
+the main reaction is hydrogenolysis of sulfur-, nitrogen-, and oxygen-containing
+organic compounds in petroleum fractions. Hydrogenolysis results in
+hydrocarbons with hydrogen sulfide, ammonia, and water formation.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Thus, mercaptans, sulfides, disulfides, and thiophenes
+are converted to paraffins or aromatic compounds with H<sub>2</sub>S release. Among the sulfur compounds, aliphatic ones (sulfides,
+disulfides, mercaptans, etc.) are the most facile to hydrogenate.
+Upon increasing the molecular weight of the fractions (and boiling
+temperatures, consequently), the rate of the hydrodesulfurization
+(HDS) decreases.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> Substituted thiophenes,
+benzothiophenes, and especially dibenzothiophenes (DBT) are sulfur
+compounds that are most difficult to remove from various oil fractions.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> The conversion of alkyl-substituted DBTs to hydrocarbons during
+middle distillates hydrotreating requires rather severe conditions
+due to steric hindrances of the sulfur atom (hydrogen pressure of
+50 atm and higher and a temperature of 330&#x02013;380 &#x000b0;C). The
+combination of factors above significantly increase the cost of processes.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref></sup></p><p>An alternative approach for sulfur removal is oxidative desulfurization<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> where petroleum sulfur compounds
+are oxidized by various agents such as sulfuric acid, nitric acid,
+potassium persulfate, nitrogen oxides, hypochlorites, peroxy acids,
+hydroperoxides, hydrogen peroxide, ozone, and molecular oxygen. The
+reactivity of oxidation increases with the higher electron density
+of the sulfur compounds. Thus, DBT is more readily oxidized than benzothiophene
+and thiophene reverses the reactivity of the HDS.<sup><xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref13">13</xref></sup> As
+a result, sulfur-containing organic compounds (sulfides, disulfides,
+mercaptans, thiophenes, and DBTs) are oxidized to the corresponding
+sulfoxides and sulfones.<sup><xref ref-type="bibr" rid="ref14">14</xref>&#x02212;<xref ref-type="bibr" rid="ref16">16</xref></sup> These compounds can be withdrawn by extraction, adsorption,<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref21">21</xref></sup> or even membrane filtration<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> methods. The process of extractive desulfurization is based
+on the better solubility of sulfur-containing components and aromatic
+hydrocarbons compared to nonaromatic ones in suitable polar solvents.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> Adsorption methods of fuel refining are based
+on the selective extraction of sulfur compounds by solid adsorbents.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Using these methods, however, leads to the loss
+of refined diesel fuel, the
+more the higher sulfur content in the feedstock. Thus, where diesel
+fuel contains 10&#x02009;000 ppm of sulfur (1%), after extraction of
+95% of sulfur organic compounds, the loss of fuel is 4&#x02013;6 wt
+%. To avoid the loss of products, it would be possible to replace
+the process of extracting sulfur- and oxygen-containing organic compounds
+(oxidation products) for their conversion into hydrocarbons. One of
+such oxidation products of sulfuric compounds are sulfones (organosulfur
+compounds having two oxygen atoms attached to sulfur). In this regard,
+the development of catalytic processes for selective removal of sulfur
+from the sulfone molecule is of current interest.</p><p>It should
+be noted that there are a limited number of reports on this issue
+in the literature. It is known that the desulfonylation reaction (the
+destruction of sulfones) is carried out with the help of catalysts
+based on oxides and hydroxides of alkali and alkaline earth metals.<sup><xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref27">27</xref></sup> The
+most active desulfonylation agents, quite attractive in cost as well,
+are oxides of alkaline earth metals, namely, MgO<sup><xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> and
+CaO.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Their catalytic activity can be
+increased by various carriers having a developed surface (to ensure
+an optimal distribution of active sites of the catalyst). One class
+of such supports is the mesoporous materials having a pore size from
+2 to 50 nm.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Such materials are characterized
+by an ordered structure and a narrow pore size distribution.<sup><xref ref-type="bibr" rid="ref32">32</xref>&#x02212;<xref ref-type="bibr" rid="ref35">35</xref></sup> Owing
+to these properties, branched sulfur compounds penetrate into the
+pores and it becomes possible to use materials in the field of heterogeneous
+catalysis,<sup><xref ref-type="bibr" rid="ref36">36</xref>&#x02212;<xref ref-type="bibr" rid="ref41">41</xref></sup> oxidative desulfurization,<sup><xref ref-type="bibr" rid="ref42">42</xref>&#x02212;<xref ref-type="bibr" rid="ref44">44</xref></sup> as well as in sorption processes.<sup><xref ref-type="bibr" rid="ref45">45</xref>,<xref ref-type="bibr" rid="ref46">46</xref></sup> The silicate
+structure of mesoporous materials has no catalytic activity; therefore,
+for carrying out various processes, surface modification or introduction
+of active components into the pore volume is required.</p><p>In the
+present work, catalytic desulfonylation was studied using a composition
+of basic oxides (MgO, CaO, and BaO) supported on mesoporous carriers
+of Al-SBA-15, Al-MCM-41, and MCM-41 types.</p></sec><sec id="sec2"><label>2</label><title>Results and Discussion</title><sec id="sec2.1"><label>2.1</label><title>Catalyst Synthesis and Characterization</title><p>The samples containing MCM-41 and Al-MCM-41 carriers were prepared
+by impregnation thereof with metal salt solutions.</p><p>MgO/Al-SBA-15
+and CaO/Al-SBA-15 catalysts were prepared by direct synthesis (the
+mesoporous structure of aluminosilicates was doped with active components
+during formation thereof). After preparation, the composition of catalysts
+obtained was analyzed by inductively coupled plasma atomic emission
+spectroscopy (ICP-AES) (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>).</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Quantitative Analysis
+of Oxide/Aluminosilicate<xref rid="t1fn1" ref-type="table-fn">a</xref> Catalysts</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="4" align="center" char=".">quantity&#x000a0;of&#x000a0;oxides,&#x000a0;wt&#x000a0;%<hr/></th></tr><tr><th style="border:none;" align="center">sample</th><th style="border:none;" align="center" char=".">SiO<sub>2</sub></th><th style="border:none;" align="center" char=".">MgO</th><th style="border:none;" align="center" char=".">CaO</th><th style="border:none;" align="center" char=".">BaO</th></tr></thead><tbody><tr><td style="border:none;" align="left">MgO/MCM-41</td><td style="border:none;" align="char" char=".">91.45</td><td style="border:none;" align="char" char=".">8.01</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">CaO/MCM-41</td><td style="border:none;" align="char" char=".">89.65</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">10.26</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">BaO/MCM-41</td><td style="border:none;" align="char" char=".">89.16</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">9.58</td></tr><tr><td style="border:none;" align="left">MgO/Al-MCM-41</td><td style="border:none;" align="char" char=".">80.23</td><td style="border:none;" align="char" char=".">9.34</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">CaO/Al-MCM-41</td><td style="border:none;" align="char" char=".">80.57</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">8.89</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">MgO/Al-SBA-15</td><td style="border:none;" align="char" char=".">79.56</td><td style="border:none;" align="char" char=".">9.26</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">CaO/Al-SBA-15</td><td style="border:none;" align="char" char=".">77.05</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">9.03</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Si/Al molar
+ratio equals 10.</p></fn></table-wrap-foot></table-wrap><p>The textural characteristics of catalysts were investigated
+using low-temperature adsorption&#x02013;desorption of nitrogen. The
+adsorption isotherms of samples correspond to type IV with a hysteresis
+loop, which is characteristic of mesoporous materials (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01819/suppl_file/ao9b01819_si_001.pdf">Figure S1</ext-link>). All of the catalysts obtained have
+high specific surface areas (500&#x02013;630 m<sup>2</sup>/g) and pore
+volumes in the range of 0.5&#x02013;1.2 cm<sup>3</sup>/g.</p><p>The
+ordered porous structure of samples is shown in transmission electron
+microphotographs (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Microphotographs of CaO/MCM-41
+(1) and MgO/MCM-41 (2) samples.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0001" id="gr1" position="float"/></fig><p>It can be seen that the synthesized catalysts possess
+an ordered pore structure with a pore diameter of about 3 nm (MCM-41
+supported). The formation of the ordered mesoporous structure is confirmed
+by low-temperature N<sub>2</sub> adsorption/desorption data and low-angle
+X-ray diffraction (XRD) analysis (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>X-ray diffraction pattern
+of the MgO/MCM-41 catalyst.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0002" id="gr2" position="float"/></fig><p>The catalyst with the MCM-41 support
+(for example) shows a strong peak at about 2.5&#x000b0; (2&#x003b8;) due
+to (100) diffractions lines and weak peaks between 4 and 4.5&#x000b0;
+(2&#x003b8;) and between 4.5 and 5.2&#x000b0; (2&#x003b8;) due to higher-order
+(110) and (200) diffractions, respectively, indicating the formation
+of well-ordered mesoporous materials. All of these patterns are assigned
+to the hexagonal symmetry of MCM-41-type mesoporous silica.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup></p></sec><sec id="sec2.2"><label>2.2</label><title>Reactions in the Autoclave</title><sec id="sec2.2.1"><label>2.2.1</label><title>Model Feed</title><p>Diesel fractions contain a large number
+of substituted condensed thiophenes.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> Typical
+representatives of such compounds are DBT and its derivatives. DBT
+molecules are resistant to hydrogenation due to steric hindrance,
+so this compound was chosen as a model compound in the oxidation reaction
+to sulfones.</p><p>The thermal destruction of DBT sulfone (DBTS) at
+temperatures 300&#x02013;450 &#x000b0;C was performed as a comparison
+experiment (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). The composition of the products was determined by gas chromatography
+(GC).</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Results
+of DBTS Destruction at Various Temperatures (300&#x02013;450 &#x000b0;C)
+and a Reaction Time of 1&#x02013;6 h</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="3" align="center" char=".">DBTS&#x000a0;conversion,&#x000a0;%<hr/></th></tr><tr><th style="border:none;" align="center">temperature,&#x000a0;&#x000b0;<bold>C</bold></th><th style="border:none;" align="center" char=".">1&#x000a0;h</th><th style="border:none;" align="center" char=".">3&#x000a0;h</th><th style="border:none;" align="center" char=".">6&#x000a0;h</th></tr></thead><tbody><tr><td style="border:none;" align="left">300</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td></tr><tr><td style="border:none;" align="left">350</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td></tr><tr><td style="border:none;" align="left">400</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">20</td><td style="border:none;" align="char" char=".">25</td></tr><tr><td style="border:none;" align="left">450</td><td style="border:none;" align="char" char=".">70</td><td style="border:none;" align="char" char=".">100</td><td style="border:none;" align="char" char=".">100</td></tr></tbody></table></table-wrap><p>It was revealed that at temperatures up to 350 &#x000b0;C
+inclusive DBTS is stable under the given conditions. However, when
+it reaches 400 &#x000b0;C or more, DBTS starts to decompose. A sharp
+decrease in the amount of sulfone at 450 &#x000b0;C is due to the process
+of thermal cracking in a solvent with the evolution of hydrogen, as
+a result of which a reduction of DBTS to DBT takes place in a closed
+system.</p><p>When studying the general trends of the catalytic destruction
+of DBTS, the tests were first carried out with unsupported calcium
+and magnesium oxides to compare with the published results.<sup><xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> As shown by experiments, the degree of sulfone removal was 0% at
+300 &#x000b0;C. This indicated the inapplicability of these oxides under
+above conditions and the necessity of using a mesoporous carrier.
+Thus, further studies on the catalytic degradation process were carried
+out using the CaO/MCM-41 catalyst under various conditions of temperature,
+reaction time, and catalyst/feedstock ratio. It was found that with
+the increase of temperature (<xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>) the degree of sulfone removal increased, which is
+partly due to the contribution of the thermal destruction process.</p><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Destruction of DBTS on CaO/MCM-41 at Different Temperatures
+(300&#x02013;400 &#x000b0;C) and a Reaction Time of 3 h</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">temperature,&#x000a0;<bold>&#x000b0;C</bold></th><th style="border:none;" align="center" char=".">DBTS&#x000a0;removal&#x000a0;degree,&#x000a0;%</th></tr></thead><tbody><tr><td style="border:none;" align="left">300</td><td style="border:none;" align="char" char=".">20</td></tr><tr><td style="border:none;" align="left">350</td><td style="border:none;" align="char" char=".">24</td></tr><tr><td style="border:none;" align="left">400</td><td style="border:none;" align="char" char=".">42</td></tr></tbody></table></table-wrap><p>Experiments on varying the duration of the sulfone destruction
+process were carried out at 300 and 400 &#x000b0;C. It was found that
+as the reaction time increases the amount of the removed sulfone increases
+at 400 &#x000b0;C (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>).</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>DBTS Conversion in the
+Presence of the CaO/MCM-41 Catalyst.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0003" id="gr3" position="float"/></fig><p>However, when the reaction is carried out at a lower temperature,
+the degree of sulfone removal decreases with the increase of reaction
+time. This fact can be explained by desorption of unreacted sulfone
+from the pores of the carrier.</p><p>The composition of the reaction
+mixture of catalytic degradation at 400 &#x000b0;C was investigated by
+GC with a mass spectrometric detector, and it was found biphenyl as
+the main product of the DBTS destruction (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01819/suppl_file/ao9b01819_si_001.pdf">Figure S2</ext-link>). Moreover, DBT was observed as a byproduct in the mixture,
+which can be explained by the reduction of the sulfone with hydrogen
+liberated by partial cracking of hexadecane (a reaction solvent).</p></sec><sec id="sec2.2.2"><label>2.2.2</label><title>Real Feed</title><p>Experiments in the autoclave were also carried out on the thermal
+and catalytic decomposition of oxidized sulfur compounds, which are
+a part of the oxidized diesel fraction. Oxidation was conducted with
+a homogeneous catalytic system (formic acid and hydrogen peroxide).
+The oxidized diesel fraction was subjected to thermal decomposition
+at 300 &#x000b0;C and catalytic decomposition at 300 and 400 &#x000b0;C
+(<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>).</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Sulfur content in the
+products of the sulfone decomposition
+at various temperature regimes (in real feedstock samples).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0004" id="gr4" position="float"/></fig><p>As
+can be seen in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>, the sulfur content is not decreased in the case of thermal decomposition
+of fuel; however, with the addition of the catalyst, a sharp decrease
+in the amount of sulfur in the product is observed, which is directly
+related to the adsorption effect of the mesoporous carrier. The figure
+shows that without heating the system about 60% of the sulfur compounds
+are adsorbed inside the pores of the catalyst. When heated to 400
+&#x000b0;C, the sulfur content decreases by 80%.</p></sec></sec><sec id="sec2.3"><label>2.3</label><title>Reactions in the Flow System with
+the Fixed-Bed Catalyst</title><p>Due to high contribution of adsorption
+during reactions in an autoclave, catalytic tests of the catalysts
+for the destruction of sulfones on real feedstock were carried out
+in a flow system. The experiment was carried out at the operating
+temperature of the process in the absence of a catalyst as a blank
+test. These blank experiments were carried out at 300 and 400 &#x000b0;C.
+The oxidized diesel fraction was passed through a heated steel reactor
+in a circulating mode; after cooling, the reaction products were fed
+by a pump to the feed tank, from which the mixture was fed back to
+the reactor.</p><p>The samples are taken every 30 min, and the sulfur
+concentration in the sample is measured. It is established that an
+increase in temperature from 300 to 400 &#x000b0;C does not significantly
+reduce the sulfur content of the product, but it accelerates the setting
+of steady-state desulfurization (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>). Furthermore, the oxidized diesel fraction
+samples were desulfurized with the catalyst in a flow-through mode.
+Based on the sulfur content of each sample, a kinetic curve is constructed
+for each experiment. The typical kinetic curve is represented in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Desulfurization
+in the
+course of thermal destruction of feedstock in a flow reactor (blue
+line, 300 &#x000b0;C; violet line, 400 &#x000b0;C).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0005" id="gr5" position="float"/></fig><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Kinetic reaction curve
+in the presence of MgO/Al-SBA-15
+at 400 &#x000b0;C; LHSV = 20 h<sup>&#x02013;1</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0006" id="gr6" position="float"/></fig><p>As can be
+seen, sulfur concentration decreases steeply due to adsorption properties
+of the support. The amount of adsorbed sulfur is approximately 1.6
+mg/g of catalyst, which is typical for mesoporous materials.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> Then, fresh fuel stream elutes the adsorbed
+substances and the decomposition of sulfones begins. The decomposition
+of sulfur compounds occurs in the first 60 min of the experiment and
+then proceeds to a certain final value, which is symbolized by the
+gradual emergence of the kinetic curve on the plateau.</p><p>When
+investigating the catalytic activity of the samples, Al-SBA-15- and
+Al-MCM-41-supported catalysts were first compared. It revealed that
+at 400 &#x000b0;C the decomposition degree of sulfones was almost the
+same for both supports (60% for CaO and 69% for MgO). However, at
+300 &#x000b0;C, Al-MCM-41-supported catalysts were more active (3% more
+for CaO and 10% more for MgO). Then, MCM-41-supported catalysts were
+tested for comparison with Al-MCM-41 ones. The results of catalytic
+decomposition of sulfones in oxidized diesel fraction are summarized
+in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Sulfur removal from oxidized
+diesel in the presence
+of synthesized catalysts.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0007" id="gr7" position="float"/></fig><p>As can be seen, optimal results on sulfur reduction in the fraction
+can be achieved by magnesium oxide as an active component. The sample
+containing BaO showed the worst conversion when compared to that containing
+CaO and MgO. As for the carrier, it can be seen that the one without
+Al shows better results. To study the dependence of mesoporous material
+type in the support on the sulfur removal activity, additional investigations
+were made. The acidity of the supports was measured using the thermoprogrammed
+ammonia desorption technique (<xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>).</p><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Quantity of Ammonia Desorbed, &#x003bc;mol/g</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">sample</th><th style="border:none;" align="center" char=".">medium acid
+sites<xref rid="t4fn1" ref-type="table-fn">a</xref></th><th style="border:none;" align="center" char=".">strong
+acid sites<xref rid="t4fn2" ref-type="table-fn">b</xref></th><th style="border:none;" align="center" char=".">total
+quantity of desorbed ammonia</th></tr></thead><tbody><tr><td style="border:none;" align="left">Al-SBA-15</td><td style="border:none;" align="char" char=".">36</td><td style="border:none;" align="char" char=".">142</td><td style="border:none;" align="char" char=".">178</td></tr><tr><td style="border:none;" align="left">Al-MCM-41</td><td style="border:none;" align="char" char=".">82</td><td style="border:none;" align="char" char=".">33</td><td style="border:none;" align="char" char=".">115</td></tr><tr><td style="border:none;" align="left">MCM-41</td><td style="border:none;" align="char" char=".">25</td><td style="border:none;" align="char" char=".">53</td><td style="border:none;" align="char" char=".">78</td></tr></tbody></table><table-wrap-foot><fn id="t4fn1"><label>a</label><p>Ammonia desorbed below 300 &#x000b0;C.</p></fn><fn id="t4fn2"><label>b</label><p>Ammonia desorbed above 300 &#x000b0;C.</p></fn></table-wrap-foot></table-wrap><p>As can be seen from the table, the acidity
+of the samples increases with the addition of alumina into the mesoporous
+structure. That means that alkaline earth metals are more active in
+the desulfonylation reaction when supported on a silica-based mesoporous
+material rather than aluminosilicate one. Additional analysis was
+made to compare the basicity of catalysts with that of mesoporous
+supports. The basicity is characterized by chloroform adsorption using
+IR spectroscopy. The CHCl<sub>3</sub> molecule is used as a probe
+that is adsorbed by basic sites of a catalyst. The position of the
+C&#x02013;H stretching vibration is shifted to the low-frequency region
+relative to the chloroform band in the liquid phase (3033 cm<sup>&#x02013;1</sup>) due to the interaction of hydrogen with the basic centers of the
+catalyst. Therefore, the shift of the band for the studied samples
+indicates the presence of the basic centers in them, and according
+to the degree of the shift, the strength of these centers is estimated.<sup><xref ref-type="bibr" rid="ref48">48</xref>&#x02212;<xref ref-type="bibr" rid="ref50">50</xref></sup> IR spectra of adsorbed chloroform
+on pure MCM-41 and CaO (MgO)/MCM-41 are represented in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>IR spectra of adsorbed CHCl<sub>3</sub> (<italic>p</italic><sub>eq</sub> = 2 Torr) on MCM-41 samples (spectra of the samples
+before adsorption are subtracted).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0008" id="gr8" position="float"/></fig><p>For the MCM-41 sample,
+only one band of 3031 cm<sup>&#x02013;1</sup> is fixed, the appearance
+of which is accompanied by a decrease in the band of 3743 cm<sup>&#x02013;1</sup> of free silanol groups and the appearance of the 3687 cm<sup>&#x02013;1</sup> band (perturbed silanol groups). The negative area of the spectra
+(3743 cm<sup>&#x02013;1</sup>) corresponds to the reduced bands intensity
+after the adsorption of the CHCl<sub>3</sub>. The frequency of C&#x02013;H
+vibrations, close to the vibration of chloroform in the liquid phase,
+indicates a weak interaction of chloroform with the surface of the
+support, probably through coordination with Si&#x02013;OH groups. When
+chloroform is adsorbed on samples MgO/MCM-41 and CaO/MCM-41, low-frequency
+shoulders appear at 2994 and 2981 cm<sup>&#x02013;1</sup>, respectively,
+which indicate the presence of basic centers on these samples.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> Obtained data correlates with the literature<sup><xref ref-type="bibr" rid="ref28">28</xref>&#x02212;<xref ref-type="bibr" rid="ref30">30</xref></sup> where basic materials (catalysts)
+are used for the desulfonylation reaction.</p><p>The degree of sulfur
+removal in the sulfone destruction process is comparable to that in
+oxidative desulfurization followed by adsorption or extraction.<sup><xref ref-type="bibr" rid="ref51">51</xref></sup> One of the main reasons for insufficient sulfur
+removal is the incomplete oxidation of sulfur compounds. To prove
+this hypothesis, infrared spectroscopy was carried out. IR spectra
+of the diesel fraction before oxidation and after the sulfone destruction
+process were taken. The results (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>) show that the SO<sub>2</sub> peaks (sulfones)
+are not observed in the product, which means all of the oxidized sulfur
+compounds are destroyed completely. The thiophene content is greatly
+reduced, but the residual content is still observed in the product
+of the reaction. This proves that the reaction of desulfonylation
+effectively converts all of the oxidized sulfur compounds to the corresponding
+sulfur-free hydrocarbons (in contrast to the adsorption or extraction
+technique). However, to achieve full removal of sulfur, special conditions
+are needed to oxidize the residual sulfur.</p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>IR spectra of diesel
+fuel before oxidation (left) and
+after the reaction (right).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0009" id="gr9" position="float"/></fig></sec><sec id="sec2.4"><label>2.4</label><title>Catalysts and Feed Properties after the Reaction</title><p>The unloaded catalyst after the reaction was in the form of a powder
+of dark gray color, which indicated that the feedstock was partly
+resinified and coked during the reaction. The amount of coke was determined
+by the thermogravimetric analysis&#x02013;differential scanning calorimetry
+method (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01819/suppl_file/ao9b01819_si_001.pdf">Figure S3</ext-link>). The weight loss in
+the first stage (to 290 &#x000b0;C) was 8.7%. In the second stage, in
+the temperature range 290&#x02013;640 &#x000b0;C, the loss was about 4.3%
+(the maximum weight loss rate was observed at the temperature of about
+490 &#x000b0;C). On the basis of the indicated data, it can be concluded
+that coke formation on the catalyst occurs at a lower degree than
+resinification of the feedstock.</p><p>For regenerated MgO/MCM-41
+and CaO/MCM-41 catalysts, the textural characteristics were analyzed
+by the method of low-temperature adsorption&#x02013;desorption of nitrogen
+(<xref rid="tbl5" ref-type="other">Table <xref rid="tbl5" ref-type="other">5</xref></xref>).</p><table-wrap id="tbl5" position="float"><label>Table 5</label><caption><title>Textural Characteristics of Catalysts</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center" char="."><italic>S</italic>&#x000a0;(BET),&#x000a0;m<sup>2</sup>/g</th><th style="border:none;" align="center" char="."><italic>V</italic><sub>pores</sub>,&#x000a0;cm<sup>3</sup>/g</th><th style="border:none;" align="center" char="."><italic>D</italic><sub>pores</sub>,&#x000a0;&#x000c5;</th></tr></thead><tbody><tr><td style="border:none;" align="left">MgO/MCM-41 before reaction</td><td style="border:none;" align="char" char=".">508</td><td style="border:none;" align="char" char=".">0.42</td><td style="border:none;" align="char" char=".">50</td></tr><tr><td style="border:none;" align="left">MgO/MCM-41 after regeneration</td><td style="border:none;" align="char" char=".">528</td><td style="border:none;" align="char" char=".">0.44</td><td style="border:none;" align="char" char=".">55</td></tr><tr><td style="border:none;" align="left">CaO/MCM-41 before reaction</td><td style="border:none;" align="char" char=".">527</td><td style="border:none;" align="char" char=".">0.66</td><td style="border:none;" align="char" char=".">27</td></tr><tr><td style="border:none;" align="left">CaO/MCM-41 after regeneration</td><td style="border:none;" align="char" char=".">377</td><td style="border:none;" align="char" char=".">0.70</td><td style="border:none;" align="char" char=".">30</td></tr></tbody></table></table-wrap><p>As
+can be seen from the data, the specific surface area of the sample
+MgO/MCM-41, along with the remaining characteristics, slightly increases.
+In contrast, the CaO/MCM-41 catalyst decreases the value of the specific
+surface area, but the pore diameter remains unchanged. An isotherm
+of type IV with a hysteresis loop is observed for all samples. Taking
+into account these data, the catalytic activity tests were carried
+out using the regenerated MgO/MCM-41 catalyst (<xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>).</p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Degree of sulfur removal
+in the presence of fresh (A)
+and regenerated catalysts (B) in flow mode.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0010" id="gr10" position="float"/></fig><p>With the use of the regenerated
+catalyst, the conversion of sulfur compounds is reduced at 300 and
+400 &#x000b0;C by 3 and 4.5%, respectively. The test on the catalyst
+activity
+was made additionally at 400 &#x000b0;C during four more recycles. After
+each recycle, the catalyst was regenerated in the air flow at 650
+&#x000b0;C. The results of several recycles show that the catalyst activity
+is retained; however, it is slightly lower than that in the first
+run (<xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref>).</p><fig id="fig11" position="float"><label>Figure 11</label><caption><p>MgO/MCM-41 catalyst
+recycle tests at
+400 &#x000b0;C; LHSV = 20 h<sup>&#x02013;1</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_0011" id="gr11" position="float"/></fig><p>The fractional composition of the hydrocarbon fraction was investigated
+by the simulated distillation method. The original diesel fraction
+before oxidation, the oxidized fraction that served as the feedstock
+for the reaction, and the product mixture after the reaction (at 300
+and 400 &#x000b0;C) were studied (<xref rid="tbl6" ref-type="other">Table <xref rid="tbl6" ref-type="other">6</xref></xref>).</p><table-wrap id="tbl6" position="float"><label>Table 6</label><caption><title>Characteristics
+of Distillation Fractions</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">sample</th><th style="border:none;" align="center"><italic>T</italic><sub>b</sub>&#x000a0;&#x0003c;&#x000a0;200&#x000a0;&#x000b0;C,&#x000a0;%</th><th style="border:none;" align="center">200&#x000a0;&#x000b0;C&#x000a0;&#x0003c;&#x000a0;<italic>T</italic><sub>b</sub>&#x000a0;&#x0003c;&#x000a0;350&#x000a0;&#x000b0;C,&#x000a0;%</th><th style="border:none;" align="center"><italic>T</italic><sub>b</sub>&#x000a0;&#x0003e;&#x000a0;350&#x000a0;&#x000b0;C,&#x000a0;%</th></tr></thead><tbody><tr><td style="border:none;" align="left">diesel fraction before oxidation</td><td style="border:none;" align="left">19</td><td style="border:none;" align="left">74</td><td style="border:none;" align="left">7</td></tr><tr><td style="border:none;" align="left">oxidized diesel fraction</td><td style="border:none;" align="left">23</td><td style="border:none;" align="left">71</td><td style="border:none;" align="left">6</td></tr><tr><td style="border:none;" align="left">mixture of products (test&#x000a0;using&#x000a0;MgO/MCM-41&#x000a0;cat.;&#x000a0;300&#x000a0;&#x000b0;C)</td><td style="border:none;" align="left">24</td><td style="border:none;" align="left">70.5</td><td style="border:none;" align="left">5.5</td></tr><tr><td style="border:none;" align="left">mixture of products (test&#x000a0;using&#x000a0;MgO/Al-MCM-41&#x000a0;cat.;&#x000a0;300&#x000a0;&#x000b0;C)</td><td style="border:none;" align="left">24</td><td style="border:none;" align="left">71.5</td><td style="border:none;" align="left">4.5</td></tr><tr><td style="border:none;" align="left">mixture of products (test&#x000a0;using&#x000a0;MgO/Al-SBA-15&#x000a0;cat.;&#x000a0;300&#x000a0;&#x000b0;C)</td><td style="border:none;" align="left">25.7</td><td style="border:none;" align="left">69</td><td style="border:none;" align="left">5.3</td></tr><tr><td style="border:none;" align="left">mixture of products (test&#x000a0;using&#x000a0;MgO/Al-SBA-15&#x000a0;cat.;&#x000a0;400&#x000a0;&#x000b0;C)</td><td style="border:none;" align="left">21</td><td style="border:none;" align="left">73.2</td><td style="border:none;" align="left">5.8</td></tr></tbody></table></table-wrap><p>As a result of the reaction at 400 &#x000b0;C,
+the yield of the diesel fraction does not decrease. However, at 300
+&#x000b0;C, there is a slight decrease in the fraction (350 &#x000b0;C to
+EBP), which can be explained by partial resinification of heavier
+components of the fraction and deposition on the catalyst.</p></sec></sec><sec id="sec3"><label>3</label><title>Conclusions</title><p>In
+this study, different catalysts for sulfone destruction were synthesized
+and characterized. The experiment on model feed showed that the mesoporous
+carrier was essential for sulfur removal from DBT sulfone and other
+sulfones contained in diesel fractions. The use of the mesoporous
+material also aids in reducing the active component content that is
+needed for efficient removal of oxidized sulfur compounds (compared
+to literature data<sup><xref ref-type="bibr" rid="ref24">24</xref></sup>). A comparison between
+different catalyst supports revealed that mesoporous materials containing
+silica show better results in the desulfonylation reaction due to
+its low acidity.</p><p>Thus, the use of sulfone destruction catalysts
+based on mesoporous materials makes it possible to achieve a reduction
+in the sulfur content in diesel fuel by 75%. The degree of sulfur
+removal is comparable to adsorption or extraction methods while
+saving valuable hydrocarbons in diesel fuel. The mesoporous structure
+of the catalyst is not destroyed, and the fractional composition of
+diesel fuel remains practically unchanged.</p></sec><sec id="sec4"><label>4</label><title>Experimental Section</title><sec id="sec4.1"><label>4.1</label><title>Catalyst Preparation</title><p>Catalysts based
+on MCM-41 and Al-MCM-41 were prepared using the impregnation procedure
+with excess of water. Mesoporous materials MCM-41 and Al-MCM-41 were
+synthesized previously using standard techniques.<sup><xref ref-type="bibr" rid="ref52">52</xref>,<xref ref-type="bibr" rid="ref53">53</xref></sup> Mg,
+Ca, and Ba oxides were incorporated using water-soluble salts: Mg(OAc)<sub>2</sub>&#x000b7;4H<sub>2</sub>O, Ca(NO<sub>3</sub>)<sub>2</sub>&#x000b7;4H<sub>2</sub>O, and Ba(OAc)<sub>2</sub>&#x000b7;3H<sub>2</sub>O, respectively.
+The calculation was carried out on the oxide content in the catalyst
+in amount of 10%. The mixture of catalyst and impregnation solution
+was stirred for 4 h without heating. Excess of water was vapored using
+a rotary evaporator. The solid residue was dried at 110 &#x000b0;C for
+2 h and then calcined in a muffle furnace at 600 &#x000b0;C for 4 h.</p><p>Catalysts based on Al-SBA-15 were synthesized by the direct synthesis
+method. In a typical synthesis, the mixture of (EtO)<sub>4</sub>Si
+(TEOS) and (sec-BuO)<sub>3</sub>Al was added to a dilute solution
+of HCl (pH = 1.5). Then, Pluronic P123 polymer was dissolved in a
+HCl solution (pH 1.5). Portion of Mg(OAc)<sub>2</sub>&#x000b7;4H<sub>2</sub>O (Ca(NO<sub>3</sub>)<sub>2</sub>&#x000b7;4H<sub>2</sub>O) was
+then added to the Pluronic P123 solution. Then, a mixture of silicon
+and aluminum compounds in a dilute HCl solution was added to the solution
+of the template and the metal salt at 40 &#x000b0;C and was stirred for
+3 h. The flask was sealed, placed in an oven, and held for 48 h at
+95 &#x000b0;C. The resulting precipitate was evaporated on a rotary evaporator
+and air-dried. The sample was then dried for 5 h at 90 &#x000b0;C, for
+2 h at 110 &#x000b0;C, heated in a muffle furnace at a rate of 1 &#x000b0;C/min
+to 600 &#x000b0;C, and calcined at this temperature in air for 4 h. Reagents
+quantities used for synthesis are given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01819/suppl_file/ao9b01819_si_001.pdf">Table S1</ext-link>.</p></sec><sec id="sec4.2"><label>4.2</label><title>Characterization</title><p>Adsorption/desorption isotherms of nitrogen were determined at
+77 K using a Micromeritics Gemini VII 2390t equipment. Before measurements,
+the samples were degassed at 350 &#x000b0;C for 6 h. To calculate the
+surface area, the BET method was applied with adsorption data in the
+range of relative pressures (<italic>P</italic>/<italic>P</italic><sub>0</sub>) of 0.04&#x02013;0.20. The pore volume and the pore size
+distribution were determined from the adsorption branch of the isotherms
+using the Barrett&#x02013;Joyner&#x02013;Halenda model. The specific
+volume of the pores was determined based on the amount of adsorbed
+nitrogen at a relative pressure (<italic>P</italic>/<italic>P</italic><sub>0</sub>) of 0.99.</p><p>The transmission electron microscopy
+analysis was performed using a LEO 912 ABOMEGA apparatus, with magnification
+from 80 to 500&#x02009;000&#x000d7; and image resolution of 0.2&#x02013;0.34
+nm.</p><p>X-ray diffraction (XRD) analysis was carried out using a
+Rigaku Rotaflex RU-200 apparatus (Cu K&#x003b1; radiation) in the 2&#x003b8;
+range of 5&#x02013;100&#x000b0;, with a goniometer (Rigaku D/Max-RC) at
+a rotation speed of 1&#x000b0; 2&#x003b8;/min and a step of 0.04&#x000b0;.</p><p>The content of silicon, aluminum, magnesium, calcium, and barium
+was measured by an iCAP-6500 Duo atomic emission analyzer from Thermo
+Fisher Scientific with a plasma source of radiation (ICP-AES). The
+analyzed sample was transformed into a soluble state; then, the solution
+was sprayed with a strong argon stream and subjected to a stream of
+atomization gas in a spark discharge. Radiation in the near ultraviolet
+and visible region (166&#x02013;847 nm) emitted by the probe was compared
+with the emission of standards with a known content of the analyzed
+elements.</p><p>The acidity of mesoporous materials was determined
+by the NH<sub>3</sub>-temperature programmed desorption (TPD) method
+with a USGA-101 instrument (UNISIT, Russia). The test sample of &#x0223c;0.1
+g with a particle size of 0.5&#x02013;0.25 mm was placed in a quartz
+reactor and treated in a flow of helium at 500 &#x000b0;C for 1 h with
+subsequent blowing by nitrogen. Saturation was performed in a flow
+of dried ammonia diluted with nitrogen at the temperature of 60 &#x000b0;C
+for 15 min. Physically adsorbed ammonia was removed at 100 &#x000b0;C
+in a flow (30 mL/min) of dry helium for 1 h. For obtaining a TPD curve,
+the sample was cooled down to 50&#x02013;60 &#x000b0;C and then the temperature
+was ramped (8 &#x000b0;C/min) up to 500 &#x000b0;C.</p><p>The basicity of
+catalysts was measured by the chloroform chemisorption method. The
+sorption degree was detected by IR spectroscopy with a Nicolet Prot&#x000e9;g&#x000e9;
+460 spectrometer (optical resolution, 4 cm<sup>&#x02013;1</sup>; range,
+4000&#x02013;400 cm<sup>&#x02013;1</sup>). Samples were activated in
+the IR cell at 400 &#x000b0;C (7.5 &#x000b0;C/min heating rate) and 10<sup>&#x02013;5</sup> Torr during 1 h. Chloroform adsorption was carried
+out at room temperature by addition of CHCl<sub>3</sub> portions until
+the equilibrium pressure was 2 Torr.</p></sec><sec id="sec4.3"><label>4.3</label><title>Activity Measurement</title><p>Thermal and catalytic
+decomposition reactions were carried out in a stirred stainless steel
+autoclave (45 cm<sup>3</sup>) wherein 0.1 g of catalyst powder and
+4 mL of model feed were placed. To prepare the model feed, DBT sulfone
+was dissolved in a solvent mixture consisting of 70 vol % benzene
+and 30 vol % hexadecane. The benzene/hexadecane ratio was selected
+based on solubility of the amount of sulfone required to produce a
+mixture with the elemental sulfur content of 500 ppm. While using
+real feedstock (oxidized diesel fraction), the amounts of catalyst
+and feedstock were increased by
+2 times.</p><p>Reactions in the flow system were carried out in a
+laboratory catalytic unit with a fixed-bed catalyst at atmospheric
+pressure. The tests were carried out at 300 and 400 &#x000b0;C. Samples
+were taken after 15, 30, and 60 min of the feedstock time-on-stream
+and then hourly. The experiments were performed until the sulfur content
+in two subsequent samples differed less than 5 ppm.</p><p>The reaction
+product composition of model mixtures and control of the purity of
+starting materials was analyzed by gas chromatography (GC) using &#x0201c;Kristall-2000M&#x0201d;
+with the flame ionization detector (glass capillary column, <italic>l</italic> = 30 m, <italic>d</italic> = 0.32 mm, liquid phase ZB-1,
+thermoprogrammed from 100 to 250 &#x000b0;C, and nitrogen as a carrier
+gas).</p><p>Chromass spectrometry was performed with a LECO Pegasus
+4D instrument for one-dimensional chromatography in electron impact
+mode with an ionizing radiation energy of 70 eV. Separation by GC
+was carried out on a silicone capillary column Rxi-5Sil MS (30 m,
+diameter 0.25 mm) thermoprogrammed from 50 &#x000b0;C (for 2 min) to
+280 &#x000b0;C (for 5 min) with a rate of 20 &#x000b0;C/min. The scanned
+masses are 29&#x02013;500 Da.</p><p>Sulfur concentration in liquid
+products was determined using an energy-dispersive X-ray fluorescent
+sulfur analyzer by ASTM D4294.<sup><xref ref-type="bibr" rid="ref54">54</xref></sup></p><p>Fourier transform infrared (FTIR) spectra of diesel fractions were
+recorded on a Nicolet IR200 FTIR spectrometer in the range of 500&#x02013;4000
+cm<sup>&#x02013;1</sup>.</p><p>The fractional composition of the possible
+liquid products was obtained by simulated distillation by ASTM D2887<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> using a Chromos GC-1000 chromatograph.</p><p>The coke content in the catalyst was determined gravimetrically using
+an SDT Q600 device from Thermal Analysis Instruments. The temperature
+ramp was 5 &#x000b0;C/min in the air flow up to 800 and 1000 &#x000b0;C.</p></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b01819">10.1021/acsomega.9b01819</ext-link>.<list id="silist" list-type="simple"><list-item><p>Reagents quantities for catalyst synthesis; adsorption isotherm of
+the MgO/Al-SBA-15 sample; chromatogram of the product mixture of DBTS
+destruction at 400 &#x000b0;C; and TGA curves of the spent MgO/MCM-41
+catalyst (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01819/suppl_file/ao9b01819_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01819_si_001.pdf"><caption><p>ao9b01819_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e1320-autogenerated"><p>The authors declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work was supported by the Ministry
+of Education and Science of the Russian Federation, FTP Activity 1.3,
+Agreement on granting the subsidy No. 14.607.21.0173 of 26.09.2017.
+The unique identifier of
+applied scientific research is RFMEFI60717X0173. The authors thank
+the group of companies &#x0201c;Chromos&#x0201d; for providing equipment
+(Chromos GC-1000 gas chromatograph).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>van Looij</surname><given-names>F.</given-names></name>; <name><surname>Van der Laan</surname><given-names>P.</given-names></name>; <name><surname>Stork</surname><given-names>W. H. J.</given-names></name>; <name><surname>DiCamillo</surname><given-names>D. J.</given-names></name>; <name><surname>Swain</surname><given-names>J.</given-names></name>
+<article-title>Key parameters in deep hydrodesulfurization of diesel fuel</article-title>. <source>Appl. Catal., A</source>
+<year>1998</year>, <volume>170</volume>, <fpage>1</fpage>&#x02013;<lpage>12</lpage><pub-id pub-id-type="doi">10.1016/S0926-860X(98)00028-3</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Shafi</surname><given-names>R.</given-names></name>; <name><surname>Hutchings</surname><given-names>G. J.</given-names></name>
+<article-title>Hydrodesulfurization
+of hindered dibenzothiophenes: an overview</article-title>. <source>Catal. Today</source>
+<year>2000</year>, <volume>59</volume>, <fpage>423</fpage>&#x02013;<lpage>442</lpage><pub-id pub-id-type="doi">10.1016/S0920-5861(00)00308-4</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="book" id="cit3"><person-group person-group-type="allauthors"><name><surname>S&#x000e1;nchez-Delgado</surname><given-names>R. A.</given-names></name></person-group><source>Organometallic
+Modelling of the Hydrodesulfurization and Hydrodenitrogenation Reactions</source>; <publisher-name>Kluwer Academic Publisher</publisher-name>: <publisher-loc>The Netherlands</publisher-loc>, <year>2002</year>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Ali</surname><given-names>S. A.</given-names></name>; <name><surname>Ahmed</surname><given-names>S.</given-names></name>; <name><surname>Ahmed</surname><given-names>K. W.</given-names></name>; <name><surname>Al-Saleh</surname><given-names>M. A.</given-names></name>
+<article-title>Simultaneous hydrodesulfurization
+of dibenzothiophene and substituted dibenzothiophenes over phosphorus
+modified CoMo/Al<sub>2</sub>O<sub>3</sub> catalysts</article-title>. <source>Fuel Process. Technol.</source>
+<year>2012</year>, <volume>98</volume>, <fpage>39</fpage>&#x02013;<lpage>44</lpage><pub-id pub-id-type="doi">10.1016/j.fuproc.2012.01.027</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Kabe</surname><given-names>T.</given-names></name>; <name><surname>Ishihara</surname><given-names>A.</given-names></name>; <name><surname>Tajima</surname><given-names>H.</given-names></name>
+<article-title>Hydrodesulfurization
+of sulfur-containing polyaromatic compounds in light oil</article-title>. <source>Ind. Eng. Chem. Res.</source>
+<year>1992</year>, <volume>31</volume>, <fpage>1577</fpage>&#x02013;<lpage>1580</lpage><pub-id pub-id-type="doi">10.1021/ie00006a023</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Stanislaus</surname><given-names>A.</given-names></name>; <name><surname>Marafi</surname><given-names>A.</given-names></name>; <name><surname>Rana</surname><given-names>M. S.</given-names></name>
+<article-title>Recent
+advances in the science and technology of ultra-low sulfur diesel
+(ULSD) production</article-title>. <source>Catal. Today</source>
+<year>2010</year>, <volume>153</volume>, <fpage>1</fpage>&#x02013;<lpage>68</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2010.05.011</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Casta&#x000f1;eda</surname><given-names>L. C.</given-names></name>; <name><surname>Mu&#x000f1;oz</surname><given-names>J. A. D.</given-names></name>; <name><surname>Ancheyta</surname><given-names>J.</given-names></name>
+<article-title>Comparison of approaches to determine
+hydrogen consumption during catalytic hydrotreating of oil fractions</article-title>. <source>Fuel</source>
+<year>2011</year>, <volume>90</volume>, <fpage>3593</fpage>&#x02013;<lpage>3601</lpage><pub-id pub-id-type="doi">10.1016/j.fuel.2010.11.047</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Babich</surname><given-names>I. V.</given-names></name>; <name><surname>Moulijn</surname><given-names>J. A.</given-names></name>
+<article-title>Science and technology of novel processes
+for deep desulfurization of oil refinery streams: a review</article-title>. <source>Fuel</source>
+<year>2003</year>, <volume>82</volume>, <fpage>607</fpage>&#x02013;<lpage>631</lpage><pub-id pub-id-type="doi">10.1016/S0016-2361(02)00324-1</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Akopyan</surname><given-names>A. V.</given-names></name>; <name><surname>Ivanov</surname><given-names>E. V.</given-names></name>; <name><surname>Polikarpova</surname><given-names>P. D.</given-names></name>; <name><surname>Tarakanova</surname><given-names>A. V.</given-names></name>; <name><surname>Rakhmanov</surname><given-names>E. V.</given-names></name>; <name><surname>Polyakova</surname><given-names>O. V.</given-names></name>; <name><surname>Anisimov</surname><given-names>A. V.</given-names></name>; <name><surname>Vinokurov</surname><given-names>V. A.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E. A.</given-names></name>
+<article-title>Oxidative
+desulfurization of hydrocarbon fuel with high olefin content</article-title>. <source>Pet. Chem.</source>
+<year>2015</year>, <volume>55</volume>, <fpage>571</fpage>&#x02013;<lpage>574</lpage><pub-id pub-id-type="doi">10.1134/S0965544115070026</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Garc&#x000ed;a-Guti&#x000e9;rrez</surname><given-names>J. L.</given-names></name>; <name><surname>Laredo</surname><given-names>G. C.</given-names></name>; <name><surname>Garc&#x000ed;a-Guti&#x000e9;rrez</surname><given-names>P.</given-names></name>; <name><surname>Jim&#x000e9;nez-Cruz</surname><given-names>F.</given-names></name>
+<article-title>Oxidative desulfurization of diesel using promising
+heterogeneous tungsten catalysts and hydrogen peroxide</article-title>. <source>Fuel</source>
+<year>2014</year>, <volume>138</volume>, <fpage>118</fpage>&#x02013;<lpage>125</lpage><pub-id pub-id-type="doi">10.1016/j.fuel.2014.07.049</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Garc&#x000ed;a-Guti&#x000e9;rrez</surname><given-names>J. L.</given-names></name>; <name><surname>Lozano</surname><given-names>I. P.</given-names></name>; <name><surname>H&#x000e9;rnandez-P&#x000e9;rez</surname><given-names>F.</given-names></name>; <name><surname>Laredo</surname><given-names>G. L.</given-names></name>; <name><surname>Jim&#x000e9;nez-Cruz</surname><given-names>F.</given-names></name>
+<article-title>R&#x00026;D in oxidative desulfurization
+of fuels technologies: from chemistry to patents</article-title>. <source>Recent Pat. Chem. Eng.</source>
+<year>2013</year>, <volume>5</volume>, <fpage>174</fpage>&#x02013;<lpage>196</lpage><pub-id pub-id-type="doi">10.2174/2211334711205030002</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>A.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Ma</surname><given-names>X.</given-names></name>
+<article-title>Oxidative desulfurization of dibenzothiophene and diesel over [Bmim]<sub>3</sub>PMo<sub>12</sub>O<sub>40</sub></article-title>. <source>J. Catal.</source>
+<year>2011</year>, <volume>279</volume>, <fpage>269</fpage>&#x02013;<lpage>275</lpage><pub-id pub-id-type="doi">10.1016/j.jcat.2011.01.016</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Campos-Martin</surname><given-names>J. M.</given-names></name>; <name><surname>Capel-Sanchez</surname><given-names>M. D. C.</given-names></name>; <name><surname>Perez-Presas</surname><given-names>P.</given-names></name>; <name><surname>Fierro</surname><given-names>J. L. G.</given-names></name>
+<article-title>Oxidative processes
+of desulfurization of liquid fuels</article-title>. <source>J. Chem.
+Technol. Biotechnol.</source>
+<year>2010</year>, <volume>85</volume>, <fpage>879</fpage>&#x02013;<lpage>890</lpage><pub-id pub-id-type="doi">10.1002/jctb.2371</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Sikarwar</surname><given-names>P.</given-names></name>; <name><surname>Arun Kumar</surname><given-names>U. K.</given-names></name>; <name><surname>Gosu</surname><given-names>V.</given-names></name>; <name><surname>Subbaramaiah</surname><given-names>V.</given-names></name>
+<article-title>Catalytic
+oxidative desulfurization of DBT using green catalyst (Mo/MCM-41)
+derived from coal fly ash</article-title>. <source>J. Environ. Chem.
+Eng.</source>
+<year>2018</year>, <volume>6</volume>, <fpage>1736</fpage>&#x02013;<lpage>1744</lpage><pub-id pub-id-type="doi">10.1016/j.jece.2018.02.021</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="book" id="cit15"><person-group person-group-type="allauthors"><collab>SulphCo.</collab></person-group><source>Oxidative Desulfurization</source>; <publisher-name>IAEE</publisher-name>: <publisher-loc>Houston</publisher-loc>, <year>2009</year>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Akopyan</surname><given-names>A. V.</given-names></name>; <name><surname>Grigoriev</surname><given-names>D. A.</given-names></name>; <name><surname>Polikarpova</surname><given-names>P. L.</given-names></name>; <name><surname>Eseva</surname><given-names>E. A.</given-names></name>; <name><surname>Litvinova</surname><given-names>V. V.</given-names></name>; <name><surname>Anisimov</surname><given-names>A. V.</given-names></name>
+<article-title>Ozone-assisted oxidative
+desulfurization of light oil fractions</article-title>. <source>Pet.
+Chem.</source>
+<year>2017</year>, <volume>57</volume>, <fpage>904</fpage>&#x02013;<lpage>907</lpage><pub-id pub-id-type="doi">10.1134/S0965544117100024</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Ram&#x000ed;rez-Verduzco</surname><given-names>L. F.</given-names></name>; <name><surname>Torres-Garc&#x000ed;a</surname><given-names>E.</given-names></name>; <name><surname>Gomez-Quintana</surname><given-names>R.</given-names></name>; <name><surname>Gonzalez-Pe&#x000f1;a</surname><given-names>V.</given-names></name>; <name><surname>Murrieta-Guevara</surname><given-names>F.</given-names></name>
+<article-title>Desulfurization
+of diesel by oxidation/extraction scheme: influence of the extraction
+solvent</article-title>. <source>Catal. Today</source>
+<year>2004</year>, <volume>98</volume>, <fpage>289</fpage>&#x02013;<lpage>294</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2004.07.042</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Otsuki</surname><given-names>S.</given-names></name>; <name><surname>Nonaka</surname><given-names>T.</given-names></name>; <name><surname>Takashima</surname><given-names>N.</given-names></name>; <name><surname>Quian</surname><given-names>W.</given-names></name>; <name><surname>Ishihara</surname><given-names>A.</given-names></name>; <name><surname>Imai</surname><given-names>T.</given-names></name>; <name><surname>Kabe</surname><given-names>T.</given-names></name>
+<article-title>Oxidative
+desulfurization of light gas oil and vacuum gas oil by oxidation and
+solvent extraction</article-title>. <source>Energy Fuels</source>
+<year>2000</year>, <volume>14</volume>, <fpage>1232</fpage>&#x02013;<lpage>1239</lpage><pub-id pub-id-type="doi">10.1021/ef000096i</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Maity</surname><given-names>U.</given-names></name>; <name><surname>Basu</surname><given-names>J. K.</given-names></name>; <name><surname>Sengupta</surname><given-names>S.</given-names></name>
+<article-title>Performance study of extraction and
+oxidation extraction coupling processes in the removal of thiophenic
+compounds</article-title>. <source>Fuel Process. Technol.</source>
+<year>2014</year>, <volume>121</volume>, <fpage>119</fpage>&#x02013;<lpage>124</lpage><pub-id pub-id-type="doi">10.1016/j.fuproc.2014.01.012</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Safa</surname><given-names>M. A.</given-names></name>; <name><surname>Al-Majren</surname><given-names>R.</given-names></name>; <name><surname>Al-Shamary</surname><given-names>T.</given-names></name>; <name><surname>Park</surname><given-names>J.-I.</given-names></name>; <name><surname>Ma</surname><given-names>X.</given-names></name>
+<article-title>Removal of
+sulfone compounds formed in oxidative desulfurization of middle distillate</article-title>. <source>Fuel</source>
+<year>2017</year>, <volume>194</volume>, <fpage>123</fpage>&#x02013;<lpage>128</lpage><pub-id pub-id-type="doi">10.1016/j.fuel.2017.01.003</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Earvin Sy Choi</surname><given-names>A.</given-names></name>; <name><surname>Rocesa</surname><given-names>S.</given-names></name>; <name><surname>Dugos</surname><given-names>N.</given-names></name>; <name><surname>Arcega</surname><given-names>A.</given-names></name>; <name><surname>Wan</surname><given-names>M.-W.</given-names></name>
+<article-title>Adsorptive removal of dibenzothiophene sulfone from
+fuel oil using clay material adsorbents</article-title>. <source>J.
+Cleaner Prod.</source>
+<year>2017</year>, <volume>161</volume>, <fpage>267</fpage>&#x02013;<lpage>276</lpage><pub-id pub-id-type="doi">10.1016/j.jclepro.2017.05.072</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Kang</surname><given-names>L.</given-names></name>; <name><surname>Liu</surname><given-names>H.</given-names></name>; <name><surname>He</surname><given-names>H.</given-names></name>; <name><surname>Yang</surname><given-names>C.</given-names></name>
+<article-title>Oxidative desulfurization of dibenzothiophene using molybdenum catalyst
+supported on Ti-pillared montmorillonite and separation of sulfones
+by filtration</article-title>. <source>Fuel</source>
+<year>2018</year>, <volume>234</volume>, <fpage>1229</fpage>&#x02013;<lpage>1237</lpage><pub-id pub-id-type="doi">10.1016/j.fuel.2018.07.148</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Wan Mokhtar</surname><given-names>W. N. A.</given-names></name>; <name><surname>Abu Bakar</surname><given-names>W. A. W.</given-names></name>; <name><surname>Rusmidah</surname><given-names>A.</given-names></name>; <name><surname>Abdul Kadir</surname><given-names>A. A.</given-names></name>
+<article-title>Deep desulfurization of model diesel
+by extraction with N,N-dimethylformamide: Optimization by Box&#x02013;Behnken
+design</article-title>. <source>J. Taiwan Inst. Chem. Eng.</source>
+<year>2014</year>, <volume>45</volume>, <fpage>1542</fpage>&#x02013;<lpage>1548</lpage><pub-id pub-id-type="doi">10.1016/j.jtice.2014.03.017</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Sarda</surname><given-names>K. K.</given-names></name>; <name><surname>Bhandari</surname><given-names>A.</given-names></name>; <name><surname>Pant</surname><given-names>K. K.</given-names></name>; <name><surname>Jain</surname><given-names>S.</given-names></name>
+<article-title>Deep desulfurization
+of diesel fuel by selective adsorption over Ni/Al<sub>2</sub>O<sub>3</sub> and Ni/ZSM-5 extrudates</article-title>. <source>Fuel</source>
+<year>2012</year>, <volume>93</volume>, <fpage>86</fpage>&#x02013;<lpage>91</lpage><pub-id pub-id-type="doi">10.1016/j.fuel.2011.10.020</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Kim</surname><given-names>M. J.</given-names></name>; <name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Jeong</surname><given-names>K.-E.</given-names></name>; <name><surname>Jeong</surname><given-names>S.-Y.</given-names></name>; <name><surname>Park</surname><given-names>Y. K.</given-names></name>; <name><surname>Jeon</surname><given-names>J.-K.</given-names></name>
+<article-title>Catalytic
+decomposition of dibenzothiophene sulfones over layered double hydroxide
+catalysts</article-title>. <source>J. Ind. Eng. Chem.</source>
+<year>2010</year>, <volume>16</volume>, <fpage>539</fpage>&#x02013;<lpage>545</lpage><pub-id pub-id-type="doi">10.1016/j.jiec.2010.03.026</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Wallace</surname><given-names>T. J.</given-names></name>; <name><surname>Heimlich</surname><given-names>B. N.</given-names></name>
+<article-title>The decomposition of dibenzothiophene dioxide and related
+compounds in the presence of molten alkali</article-title>. <source>Tetrahedron</source>
+<year>1968</year>, <volume>24</volume>, <fpage>1311</fpage>&#x02013;<lpage>1322</lpage><pub-id pub-id-type="doi">10.1016/0040-4020(68)88082-2</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>LaCount</surname><given-names>R. B.</given-names></name>; <name><surname>Friedman</surname><given-names>S.</given-names></name>
+<article-title>Oxidation of dibenzothiophene and
+reaction of dibenzothiophene 5,5-dioxide with aqueous alkali</article-title>. <source>J. Org. Chem.</source>
+<year>1977</year>, <volume>42</volume>, <fpage>2751</fpage>&#x02013;<lpage>2754</lpage><pub-id pub-id-type="doi">10.1021/jo00436a021</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Sundararaman</surname><given-names>R.</given-names></name>; <name><surname>Song</surname><given-names>C.</given-names></name>
+<article-title>Catalytic decomposition
+of benzothiophenic and dibenzothiophenic sulfones over MgO-based catalysts</article-title>. <source>Appl. Catal., B</source>
+<year>2014</year>, <volume>148&#x02013;149</volume>, <fpage>80</fpage>&#x02013;<lpage>90</lpage><pub-id pub-id-type="doi">10.1016/j.apcatb.2013.10.033</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Park</surname><given-names>Y. K.</given-names></name>; <name><surname>Kim</surname><given-names>S. Y.</given-names></name>; <name><surname>Kim</surname><given-names>H. J.</given-names></name>; <name><surname>Jung</surname><given-names>K. Y.</given-names></name>; <name><surname>Jeong</surname><given-names>K.-E.</given-names></name>; <name><surname>Jeong</surname><given-names>S.-Y.</given-names></name>; <name><surname>Jeon</surname><given-names>J.-K.</given-names></name>
+<article-title>Removal
+of sulfur dioxide from dibenzothiophene sulfone over Mg-based oxide
+catalysts prepared by spray pyrolysis</article-title>. <source>Korean
+J. Chem. Eng.</source>
+<year>2010</year>, <volume>27</volume>, <fpage>459</fpage>&#x02013;<lpage>464</lpage><pub-id pub-id-type="doi">10.1007/s11814-010-0086-x</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Sundararaman</surname><given-names>R.</given-names></name>; <name><surname>Song</surname><given-names>C.</given-names></name>
+<article-title>Oxidative desulfurization of crude
+oil incorporating sulfone decomposition by alkaline earth metal oxides</article-title>. <source>Energy Fuels</source>
+<year>2013</year>, <volume>27</volume>, <fpage>6372</fpage>&#x02013;<lpage>6376</lpage><pub-id pub-id-type="doi">10.1021/ef401450t</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Rouquerol</surname><given-names>J.</given-names></name>; <name><surname>Avnir</surname><given-names>D.</given-names></name>; <name><surname>Fairbridge</surname><given-names>C. W.</given-names></name>; <name><surname>Everett</surname><given-names>D. H.</given-names></name>; <name><surname>Haynes</surname><given-names>J. M.</given-names></name>; <name><surname>Pernicone</surname><given-names>N.</given-names></name>; <name><surname>Ramsay</surname><given-names>J. D. F.</given-names></name>; <name><surname>Sing</surname><given-names>S. W. K.</given-names></name>; <name><surname>Unger</surname><given-names>K. K.</given-names></name>
+<article-title>Recommendations
+for the characterization of porous solids (Technical Report)</article-title>. <source>Pure Appl. Chem.</source>
+<year>1994</year>, <volume>66</volume>, <fpage>1739</fpage>&#x02013;<lpage>1758</lpage><pub-id pub-id-type="doi">10.1351/pac199466081739</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Kresge</surname><given-names>C. T.</given-names></name>; <name><surname>Leonowicz</surname><given-names>M. E.</given-names></name>; <name><surname>Roth</surname><given-names>W. J.</given-names></name>; <name><surname>Vartuli</surname><given-names>J. C.</given-names></name>; <name><surname>Beck</surname><given-names>J. S.</given-names></name>
+<article-title>Ordered mesoporous
+molecular sieves synthesized by a liquid-crystal template mechanism</article-title>. <source>Nature</source>
+<year>1992</year>, <volume>359</volume>, <fpage>710</fpage>&#x02013;<lpage>712</lpage><pub-id pub-id-type="doi">10.1038/359710a0</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Bagshaw</surname><given-names>S. A.</given-names></name>; <name><surname>Prouzet</surname><given-names>E.</given-names></name>; <name><surname>Pinnavaia</surname><given-names>T. J.</given-names></name>
+<article-title>Templating
+of mesoporous molecular sieves by nonionic polyethylene oxide surfactants</article-title>. <source>Science</source>
+<year>1995</year>, <volume>269</volume>, <fpage>1242</fpage>&#x02013;<lpage>1244</lpage><pub-id pub-id-type="doi">10.1126/science.269.5228.1242</pub-id>.<pub-id pub-id-type="pmid">17732109</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Huo</surname><given-names>Q.</given-names></name>; <name><surname>Leon</surname><given-names>R.</given-names></name>; <name><surname>Petroff</surname><given-names>P. M.</given-names></name>; <name><surname>Stucky</surname><given-names>G. D.</given-names></name>
+<article-title>Mesostructure design with gemini surfactants: supercage
+formation in a three-dimensional hexagonal array</article-title>. <source>Science</source>
+<year>1995</year>, <volume>268</volume>, <fpage>1324</fpage>&#x02013;<lpage>1327</lpage><pub-id pub-id-type="doi">10.1126/science.268.5215.1324</pub-id>.<pub-id pub-id-type="pmid">17778977</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Huo</surname><given-names>Q.</given-names></name>; <name><surname>Margolese</surname><given-names>D. I.</given-names></name>; <name><surname>Ciesla</surname><given-names>U.</given-names></name>; <name><surname>Feng</surname><given-names>P.</given-names></name>; <name><surname>Gier</surname><given-names>T. E.</given-names></name>; <name><surname>Sieger</surname><given-names>P.</given-names></name>; <name><surname>Leon</surname><given-names>R.</given-names></name>; <name><surname>Petroff</surname><given-names>P. M.</given-names></name>; <name><surname>Sh&#x000fc;th</surname><given-names>F.</given-names></name>; <name><surname>Stucky</surname><given-names>G. D.</given-names></name>
+<article-title>Generalized synthesis of periodic surfactant/inorganic
+composite materials</article-title>. <source>Nature</source>
+<year>1994</year>, <volume>368</volume>, <fpage>317</fpage>&#x02013;<lpage>321</lpage><pub-id pub-id-type="doi">10.1038/368317a0</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Karakhanov</surname><given-names>E. A.</given-names></name>; <name><surname>Glotov</surname><given-names>A. P.</given-names></name>; <name><surname>Nikiforova</surname><given-names>A. G.</given-names></name>; <name><surname>Vutolkina</surname><given-names>A. V.</given-names></name>; <name><surname>Ivanov</surname><given-names>A. O.</given-names></name>; <name><surname>Kardashev</surname><given-names>S. V.</given-names></name>; <name><surname>Maksimov</surname><given-names>A. L.</given-names></name>; <name><surname>Lysenko</surname><given-names>S. V.</given-names></name>
+<article-title>Catalytic cracking additives based
+on mesoporous MCM-41 for sulfur removal</article-title>. <source>Fuel
+Process. Technol.</source>
+<year>2016</year>, <volume>153</volume>, <fpage>50</fpage>&#x02013;<lpage>57</lpage><pub-id pub-id-type="doi">10.1016/j.fuproc.2016.07.023</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Boronoev</surname><given-names>M. P.</given-names></name>; <name><surname>Vinnikova</surname><given-names>M. A.</given-names></name>; <name><surname>Ignat&#x02019;eva</surname><given-names>V. I.</given-names></name>; <name><surname>Kulikov</surname><given-names>L. A.</given-names></name>; <name><surname>Putilin</surname><given-names>F. N.</given-names></name>; <name><surname>Maksimov</surname><given-names>A. L.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E. A.</given-names></name>
+<article-title>Bimetallic sulfide catalysts based on mesoporous organic
+supports in the hydrofining of light cycle oil</article-title>. <source>Pet. Chem.</source>
+<year>2017</year>, <volume>57</volume>, <fpage>855</fpage>&#x02013;<lpage>858</lpage><pub-id pub-id-type="doi">10.1134/S0965544117100048</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Mac&#x000ed;as</surname><given-names>G.</given-names></name>; <name><surname>Ram&#x000ed;rez</surname><given-names>J.</given-names></name>; <name><surname>Guti&#x000e9;rrez-Alejandre</surname><given-names>A.</given-names></name>; <name><surname>Cuevas</surname><given-names>R.</given-names></name>
+<article-title>Preparation of highly active NiMo/Al-SBA15 (x) HDS
+catalysts: Preservation of the support hexagonal porous arrangement</article-title>. <source>Catal. Today</source>
+<year>2008</year>, <volume>133&#x02013;135</volume>, <fpage>261</fpage>&#x02013;<lpage>266</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2007.12.079</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Karakhanov</surname><given-names>E.</given-names></name>; <name><surname>Maximov</surname><given-names>A.</given-names></name>; <name><surname>Boronoev</surname><given-names>M.</given-names></name>; <name><surname>Kulikov</surname><given-names>L.</given-names></name>; <name><surname>Terenina</surname><given-names>M.</given-names></name>
+<article-title>Mesoporous organo-inorganic hybrid
+materials as hydrogenation catalysts</article-title>. <source>Pure Appl.
+Chem.</source>
+<year>2017</year>, <volume>89</volume>, <fpage>1157</fpage>&#x02013;<lpage>1166</lpage><pub-id pub-id-type="doi">10.1515/pac-2016-1207</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Vutolkina</surname><given-names>A.</given-names></name>; <name><surname>Glotov</surname><given-names>A.</given-names></name>; <name><surname>Zanina</surname><given-names>A.</given-names></name>; <name><surname>Makhmutov</surname><given-names>D.</given-names></name>; <name><surname>Maximov</surname><given-names>A.</given-names></name>; <name><surname>Egazar&#x02019;yants</surname><given-names>S.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E.</given-names></name>
+<article-title>Mesoporous
+Al-HMS and Al-MCM-41 supported Ni&#x02013;Mo sulfide catalysts for
+HYD and HDS via in situ hydrogen generation through a WGSR</article-title>. <source>Catal. Today</source>
+<year>2019</year>, <volume>329</volume>, <fpage>156</fpage>&#x02013;<lpage>166</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2018.11.030</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Glotov</surname><given-names>A.</given-names></name>; <name><surname>Levshakov</surname><given-names>N.</given-names></name>; <name><surname>Vutolkina</surname><given-names>A.</given-names></name>; <name><surname>Lysenko</surname><given-names>S.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E.</given-names></name>; <name><surname>Vinokurov</surname><given-names>V.</given-names></name>
+<article-title>Aluminosilicates supported La-containing sulfur reduction
+additives for FCC catalyst: correlation between activity, support
+structure and acidity</article-title>. <source>Catal. Today</source>
+<year>2019</year>, <volume>329</volume>, <fpage>135</fpage>&#x02013;<lpage>141</lpage><pub-id pub-id-type="doi">10.1016/j.cattod.2018.10.009</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Wang</surname><given-names>D.</given-names></name>; <name><surname>Liu</surname><given-names>N.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Zhao</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>
+<article-title>Oxidative
+desulfurization using ordered mesoporous silicas as catalysts</article-title>. <source>J. Mol. Catal. A: Chem.</source>
+<year>2014</year>, <volume>393</volume>, <fpage>47</fpage>&#x02013;<lpage>55</lpage><pub-id pub-id-type="doi">10.1016/j.molcata.2014.05.026</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Teimouri</surname><given-names>A.</given-names></name>; <name><surname>Mahmoudsalehi</surname><given-names>M.</given-names></name>; <name><surname>Salavati</surname><given-names>H.</given-names></name>
+<article-title>Catalytic oxidative desulfurization of dibenzothiophene
+utilizing molybdenum and vanadium oxides supported on MCM-41</article-title>. <source>Int. J. Hydrogen Energy</source>
+<year>2018</year>, <volume>43</volume>, <fpage>14816</fpage>&#x02013;<lpage>14833</lpage><pub-id pub-id-type="doi">10.1016/j.ijhydene.2018.05.102</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Polikarpova</surname><given-names>P.</given-names></name>; <name><surname>Akopyan</surname><given-names>A.</given-names></name>; <name><surname>Shigapova</surname><given-names>A.</given-names></name>; <name><surname>Glotov</surname><given-names>A.</given-names></name>; <name><surname>Anisimov</surname><given-names>A.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E.</given-names></name>
+<article-title>Oxidative
+desulfurization of fuels using heterogeneous catalysts based on MCM-41</article-title>. <source>Energy Fuels</source>
+<year>2018</year>, <volume>32</volume>, <fpage>10898</fpage>&#x02013;<lpage>10903</lpage><pub-id pub-id-type="doi">10.1021/acs.energyfuels.8b02583</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Mercier</surname><given-names>L.</given-names></name>; <name><surname>Pinnavaia</surname><given-names>T. J.</given-names></name>
+<article-title>Access
+in mesoporous materials: Advantages of a uniform pore structure in
+the design of a heavy metal ion adsorbent for environmental remediation</article-title>. <source>Adv. Mater.</source>
+<year>1997</year>, <volume>9</volume>, <fpage>500</fpage>&#x02013;<lpage>503</lpage><pub-id pub-id-type="doi">10.1002/adma.19970090611</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Depauw</surname><given-names>G. A.</given-names></name>; <name><surname>Froment</surname><given-names>G. F.</given-names></name>
+<article-title>Molecular analysis
+of the sulphur components in a light cycle oil of a catalytic cracking
+unit by gas chromatography with mass spectrometric and atomic emission
+detection</article-title>. <source>J. Chromatogr. A</source>
+<year>1997</year>, <volume>761</volume>, <fpage>231</fpage>&#x02013;<lpage>247</lpage><pub-id pub-id-type="doi">10.1016/S0021-9673(96)00819-9</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Nanoti</surname><given-names>A.</given-names></name>; <name><surname>Dasgupta</surname><given-names>S.</given-names></name>; <name><surname>Goswami</surname><given-names>A. N.</given-names></name>; <name><surname>Nautiyal</surname><given-names>B. R.</given-names></name>; <name><surname>Rao</surname><given-names>T. V.</given-names></name>; <name><surname>Sain</surname><given-names>B.</given-names></name>; <name><surname>Sharma</surname><given-names>Y. K.</given-names></name>; <name><surname>Nanoti</surname><given-names>S. M.</given-names></name>; <name><surname>Garg</surname><given-names>M. O.</given-names></name>; <name><surname>Gupta</surname><given-names>P.</given-names></name>
+<article-title>Mesoporous silica as
+selective sorbents for removal of sulfones from oxidized diesel fuel</article-title>. <source>Microporous Mesoporous Mater.</source>
+<year>2009</year>, <volume>124</volume>, <fpage>94</fpage>&#x02013;<lpage>99</lpage><pub-id pub-id-type="doi">10.1016/j.micromeso.2009.04.040</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Huber</surname><given-names>S.</given-names></name>; <name><surname>Kn&#x000f6;zinger</surname><given-names>H.</given-names></name>
+<article-title>Adsorption
+of CH-acids on magnesia: An FTIR-spectroscopic study</article-title>. <source>J. Mol. Catal. A: Chem.</source>
+<year>1999</year>, <volume>141</volume>, <fpage>117</fpage>&#x02013;<lpage>127</lpage><pub-id pub-id-type="doi">10.1016/S1381-1169(98)00255-6</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Tamura</surname><given-names>M.</given-names></name>; <name><surname>Shimizu</surname><given-names>K.</given-names></name>; <name><surname>Satsuma</surname><given-names>A.</given-names></name>
+<article-title>Comprehensive
+IR study on acid/base properties of metal oxides</article-title>. <source>Appl. Catal., A</source>
+<year>2012</year>, <volume>433&#x02013;434</volume>, <fpage>135</fpage>&#x02013;<lpage>145</lpage><pub-id pub-id-type="doi">10.1016/j.apcata.2012.05.008</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Bordiga</surname><given-names>S.</given-names></name>; <name><surname>Lamberti</surname><given-names>C.</given-names></name>; <name><surname>Bonino</surname><given-names>F.</given-names></name>; <name><surname>Travert</surname><given-names>A.</given-names></name>; <name><surname>Thibault-Starzyk</surname><given-names>F.</given-names></name>
+<article-title>Probing zeolites by vibrational spectroscopies</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2015</year>, <volume>44</volume>, <fpage>7262</fpage>&#x02013;<lpage>7341</lpage><pub-id pub-id-type="doi">10.1039/C5CS00396B</pub-id>.<pub-id pub-id-type="pmid">26435467</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Akopyan</surname><given-names>A. V.</given-names></name>; <name><surname>Fedorov</surname><given-names>R. A.</given-names></name>; <name><surname>Andreev</surname><given-names>B. V.</given-names></name>; <name><surname>Tarakanova</surname><given-names>A. V.</given-names></name>; <name><surname>Anisimov</surname><given-names>A. V.</given-names></name>; <name><surname>Karakhanov</surname><given-names>E. A.</given-names></name>
+<article-title>Oxidative
+desulfurization of hydrocarbon feedstock</article-title>. <source>Russ.
+J. Appl. Chem.</source>
+<year>2018</year>, <volume>91</volume>, <fpage>529</fpage>&#x02013;<lpage>542</lpage><pub-id pub-id-type="doi">10.1134/S1070427218040018</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Lin</surname><given-names>W. Y.</given-names></name>; <name><surname>Cai</surname><given-names>Q.</given-names></name>; <name><surname>Pang</surname><given-names>W. Q.</given-names></name>; <name><surname>Yue</surname><given-names>Y.</given-names></name>; <name><surname>Zou</surname><given-names>B. S.</given-names></name>
+<article-title>New mineralization agents for the synthesis of MCM-41</article-title>. <source>Microporous Mesoporous Mater.</source>
+<year>1999</year>, <volume>33</volume>, <fpage>187</fpage>&#x02013;<lpage>196</lpage><pub-id pub-id-type="doi">10.1016/S1387-1811(99)00137-7</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Cai</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>H.</given-names></name>; <name><surname>Han</surname><given-names>J.</given-names></name>
+<article-title>Synthesis
+and characterization of ionic liquid-functionalized alumino-silicate
+MCM-41 hybrid mesoporous materials</article-title>. <source>Appl. Surf.
+Sci.</source>
+<year>2011</year>, <volume>257</volume>, <fpage>9802</fpage>&#x02013;<lpage>9808</lpage><pub-id pub-id-type="doi">10.1016/j.apsusc.2011.06.025</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="book" id="cit54"><person-group person-group-type="allauthors"><collab>ASTM International</collab></person-group>. <source>ASTM D4294-10, Standard Test Method for
+Sulfur in Petroleum and Petroleum Products by Energy Dispersive X-ray
+Fluorescence Spectrometry</source>; <publisher-name>ASTM International</publisher-name>: <publisher-loc>West Conshohocken, PA</publisher-loc>, <year>2016</year>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="book" id="cit55"><person-group person-group-type="allauthors"><collab>ASTM
+International</collab></person-group>. <source>ASTM D2887/D2887-16,
+Standard Test Method for Boiling Range Distribution of Petroleum Fractions
+by Gas Chromatography</source>; <publisher-name>ASTM International</publisher-name>: <publisher-loc>West Conshohocken, PA</publisher-loc>, <year>2016</year>.</mixed-citation></ref></ref-list></back></article>

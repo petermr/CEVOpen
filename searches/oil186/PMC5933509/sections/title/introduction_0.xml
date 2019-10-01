@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Introduction</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">Smart materials have attracted significant attention due to their potential for reversible "on-demand" responses to external and/or environmental signals. Temperature-responsive materials have attracted particular interest due to their lower critical solution temperature (LCST) behavior, resulting in temperature-driven precipitation at temperatures T&gt;LCST
+  <a rid="B0" ref-type="bibr" href="#B0">1</a>
+  <a rid="B1" ref-type="bibr" href="#B1">2</a>. In the context of thermoresponsive hydrogels, this lower critical solution temperature behavior is manifested by reversible swelling/de-swelling events that result in temperature-tunable bulk sizes (larger at T&lt;LCST)
+  <a rid="B2" ref-type="bibr" href="#B2">3</a>, pore sizes (larger at T&lt;LCST)
+  <a rid="B3" ref-type="bibr" href="#B3">4</a>, and interfacial properties (more hydrophilic at T&lt;LCST)
+  <a rid="B4" ref-type="bibr" href="#B4">5</a>. Such transitions have been widely applied in drug delivery (for external or environmentally-triggerable drug release
+  <a rid="B3" ref-type="bibr" href="#B3">4</a>
+  <a rid="B5" ref-type="bibr" href="#B5">6</a>
+  <a rid="B6" ref-type="bibr" href="#B6">7</a>), tissue engineering and cell culture (for thermoreversible cell adhesion/delamination
+  <a rid="B7" ref-type="bibr" href="#B7">8</a>
+  <a rid="B8" ref-type="bibr" href="#B8">9</a>
+  <a rid="B9" ref-type="bibr" href="#B9">10</a>), separations (for switchable membrane porosities and permeabilities or thermally-recyclable diagnostic supports
+  <a rid="B10" ref-type="bibr" href="#B10">11</a>
+  <a rid="B11" ref-type="bibr" href="#B11">12</a>
+  <a rid="B12" ref-type="bibr" href="#B12">13</a>), microfluidic processes (for on-off valves regulating flow
+  <a rid="B13" ref-type="bibr" href="#B13">14</a>
+  <a rid="B14" ref-type="bibr" href="#B14">15</a>), and rheological modifiers (for temperature-tunable viscosities
+  <a rid="B15" ref-type="bibr" href="#B15">16</a>). The most commonly investigated thermoresponsive hydrogels are based on poly(N-isopropylacrylamide) (PNIPAM)
+  <a rid="B16" ref-type="bibr" href="#B16">17</a>, although significant (and increasing) work has also been conducted on poly(oligoethylene glycol methacrylate) (POEGMA)
+  <a rid="B1" ref-type="bibr" href="#B1">2</a>
+  <a rid="B17" ref-type="bibr" href="#B17">18</a> and poly(vinylcaprolactam) (PVCL)
+  <a rid="B18" ref-type="bibr" href="#B18">19</a>
+  <a rid="B19" ref-type="bibr" href="#B19">20</a>. POEGMA has attracted particular recent interest given its anticipated improved biocompatibility
+  <a rid="B20" ref-type="bibr" href="#B20">21</a>
+  <a rid="B21" ref-type="bibr" href="#B21">22</a>and its facile-to-tune LCST behavior, in which linearly-predictable mixtures of monomers with different numbers of ethylene oxide repeat units in their side chains can alter the LCST from ~20 °C to &gt;90 °C
+  <a rid="B1" ref-type="bibr" href="#B1">2</a>
+  <a rid="B22" ref-type="bibr" href="#B22">23</a>. However, each of these polymers is prepared by free radical polymerization and thus contains a carbon-carbon backbone, significantly limiting the potential utility and translatability of such polymers in the context of biomedical applications in which degradation (or at least the capacity for clearance through renal filtration) is typically a requirement.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">In response to this limitation, we have recently reported extensively on the application of hydrazone chemistry (
+  <span class="italic">i.e</span>., the reaction between hydrazide and aldehyde-functionalized pre-polymers) to prepare degradable analogues of thermoresponsive hydrogels
+  <a rid="B23" ref-type="bibr" href="#B23">24</a>
+  <a rid="B24" ref-type="bibr" href="#B24">25</a>
+  <a rid="B25" ref-type="bibr" href="#B25">26</a>
+  <a rid="B26" ref-type="bibr" href="#B26">27</a>
+  <a rid="B27" ref-type="bibr" href="#B27">28</a>
+  <a rid="B28" ref-type="bibr" href="#B28">29</a>. The rapid and reversible reaction between hydrazide and aldehyde groups upon mixing of the functionalized precursor polymers
+  <a rid="B29" ref-type="bibr" href="#B29">30</a> enables both 
+  <span class="italic">in situ </span>gelation (enabling facile injection of these materials without the need for surgical implantation or any type of external polymerization stimulus such as UV irradiation or chemical initiation) as well as hydrolytic degradation of the network at a rate controlled by the chemistry and density of the crosslinking sites. Furthermore, by maintaining the molecular weight of the pre-polymers used to prepare the hydrogels below the renal filtration limit, hydrogels made using this approach degrade back into the oligomeric precursor polymers that can be cleared from the body
+  <a rid="B24" ref-type="bibr" href="#B24">25</a>
+  <a rid="B26" ref-type="bibr" href="#B26">27</a>
+  <a rid="B27" ref-type="bibr" href="#B27">28</a>. Coupled with the low cytotoxicity and low inflammatory tissue response induced by these materials
+  <a rid="B24" ref-type="bibr" href="#B24">25</a>
+  <a rid="B25" ref-type="bibr" href="#B25">26</a>
+  <a rid="B26" ref-type="bibr" href="#B26">27</a>, this approach offers a potentially translatable method for the use of thermoresponsive smart hydrogels in medicine, particularly if well-controlled degradable analogues of such hydrogels on all length scales (bulk, micro, and nano) can be fabricated.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">In this protocol, we describe methods for making synthetic thermoresponsive pre-polymers functionalized with controlled numbers of hydrazide and aldehyde groups as well as methods to apply these polymers to create hydrogels with well-defined dimensions on various length scales. In particular, this manuscript describes four distinct approaches we have developed to control the mixing of the reactive hydrazide and aldehyde-functionalized pre-polymers and thus create thermoresponsive hydrogel networks with well-defined geometries and morphologies:</p>
+ <p xmlns="http://www.w3.org/1999/xhtml">To create degradable bulk hydrogels with defined sizes, a templating strategy is described by which the reactive pre-polymers are loaded into separate barrels of a double-barrel syringe equipped at its outlet with a static mixer and subsequently co-extruded into a silicone mold with the desired hydrogel shape and dimensions
+  <a rid="B20" ref-type="bibr" href="#B20">21</a>
+  <a rid="B26" ref-type="bibr" href="#B26">27</a> (
+  <a ref-type="fig" rid="F1" href="#F1">Figure 1</a>).
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <div id="F1" orientation="portrait" position="float" class="fig">
+   <div xlink:href="jove-134-54502-0" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </div>
+  <a ref-type="fig" rid="F1" href="#F1">Figure 1</a>
+  <span class="bold">: Schematic of bulk hydrogel formation.</span> Hydrazide and aldehyde-functionalized polymer solutions (in water or aqueous buffer) are loaded into separate barrels of a double barrel syringe and then co-extruded through a static mixer into a cylindrical silicone mold. Rapid 
+  <span class="italic">in situ</span> gelation upon mixing forms a hydrazone crosslinked hydrogel, which is free standing (once the mold is removed) within seconds to minutes depending on concentration and functional group density of the precursor polymers. 
+  <span ext-link-type="uri" xlink:href="//cloudflare.jove.com/files/ftp_upload/54502/54502fig1large.jpg" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">Please click here to view a larger version of this figure.</span>
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">To create degradable gel particles on the micron-scale, a reactive microfluidics method is described in which precursor polymer solutions are simultaneously mixed and emulsified using a soft lithography-templated microfluidic chip design, enabling the formation of mixed reactive polymer droplets that subsequently gel 
+  <span class="italic">in situ </span>to form gel microparticles with sizes templated by the emulsion (
+  <a ref-type="fig" rid="F2" href="#F2">Figure 2</a>)
+  <a rid="B30" ref-type="bibr" href="#B30">31</a>
+  <a rid="B31" ref-type="bibr" href="#B31">32</a>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <div id="F2" orientation="portrait" position="float" class="fig">
+   <div xlink:href="jove-134-54502-1" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </div>
+  <a ref-type="fig" rid="F2" href="#F2">Figure 2</a>
+  <span class="bold">: Schematic of gel microparticle formation via reactive microfluidics.</span> (A,B) Hydrazide and aldehyde-functionalized polymer solutions (in water or aqueous buffer) are fed by syringe pump into separate reservoirs that are connected downstream across a zig-zag series of channels designed to create a pressure gradient preventing backflow. The polymers are then mixed just before being sheared by paraffin oil flowing from both sides (also driven by a syringe pump) and forced through a nozzle, resulting in flow-focusing production of aqueous (polymer solution) droplets in a continuous paraffin oil phase (see (B) for an illustration of the nozzle area and the droplet formation process). An additional two paraffin oil inlets are positioned after the nozzle to further separate the droplets in the collection channel to allow for complete gelation prior to particle removal from laminar flow, after which the resulting microparticulate gels are collected in a magnetically stirred beaker; (C) Picture of droplet generation process at the nozzle (note that hydrazide polymer is labeled as blue to illustrate mixing) 
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">To create degradable gel particles on the nanoscale, a thermally-driven reactive self-assembly method is described in which a solution of one of the reactive precursor polymers (the "seed" polymer) is heated above its LCST to form a stable nanoaggregate that is subsequently crosslinked by the addition of the complementary reactive precursor polymer (the "crosslinking" polymer); the resulting hydrazone crosslinked nanogel has a size templated directly by the nanoaggregate (
+  <a ref-type="fig" rid="F3" href="#F3">Figure 3</a>)
+  <a rid="B27" ref-type="bibr" href="#B27">28</a>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <div id="F3" orientation="portrait" position="float" class="fig">
+   <div xlink:href="jove-134-54502-2" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </div>
+  <a ref-type="fig" rid="F3" href="#F3">Figure 3</a>
+  <span class="bold">: Schematic of nanogel formation via thermally-driven reactive self-assembly.</span> An aqueous solution containing the (thermoresponsive) hydrazide-functionalized polymer is heated above its lower critical solution temperature to create a stable uncrosslinked nanoaggregate. Following, an aldehyde-functionalized polymer is added to crosslink the nanoaggregate via hydrazone bond formation and thus stabilize the nanogel particle upon cooling below the LCST. 
+  <span ext-link-type="uri" xlink:href="//cloudflare.jove.com/files/ftp_upload/54502/54502fig3v2large.jpg" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">Please click here to view a larger version of this figure.</span>
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">To create degradable nanofibers, a reactive electrospinning technique is described in which a double barrel syringe equipped with a static mixer at its outlet (as used for making bulk hydrogels) is attached to a standard electrospinning platform (
+  <a ref-type="fig" rid="F4" href="#F4">Figure 4</a>)
+  <a rid="B32" ref-type="bibr" href="#B32">33</a>.
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">
+  <div id="F4" orientation="portrait" position="float" class="fig">
+   <div xlink:href="jove-134-54502-3" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </div>
+  <a ref-type="fig" rid="F4" href="#F4">Figure 4</a>
+  <span class="bold">: Schematic of hydrogel nanofiber formation via reactive electrospinning.</span> A double barrel syringe with a static mixer (loaded as described for bulk hydrogels but also including a fraction of high molecular weight poly(ethylene oxide) as an electrospinning aid) is mounted on a syringe pump, with the needle at the end of the syringe connected to a high voltage power supply. Hydrazone crosslinking occurs during the fiber spinning process so that when the stream hits the collector (either aluminum foil or a rotating aluminum disk) the nanofibrous morphology is maintained. 
+  <span ext-link-type="uri" xlink:href="//cloudflare.jove.com/files/ftp_upload/54502/54502fig4large.jpg" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">Please click here to view a larger version of this figure.</span>
+ </p>
+ <p xmlns="http://www.w3.org/1999/xhtml">The application of such methods for creating degradable smart hydrogel networks is demonstrated in this protocol using either PNIPAM or POEGMA as the polymer of interest; however, the basic approaches described can be translated to any water-soluble polymer, albeit with suitable adjustments for viscosity and (in the case of the self-assembly nanogel fabrication method) the stability of the pre-polymer in forming the seed nanoaggregate.</p>
+</sec>

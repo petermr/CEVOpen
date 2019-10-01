@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="sec2-1-3" class="sec">
+ <div class="title" xmlns="http://www.w3.org/1999/xhtml">Phase3 - Data element model generation</div>
+ <p xmlns="http://www.w3.org/1999/xhtml">A comprehensive list of data elements to be used as a standard check-list was generated based on LanguaL code (food) &amp; AHFSA (drugs) after an iterative process comprising an extensive review of DS and drug databases (both as controlled vocabularies, monographs or free text), their respective guidelines, and discussion among experts (RR, RZ, TA, JB). These data elements are defined in 
+  <a rid="t1-2840637" ref-type="table" href="#t1-2840637">Table 1</a>. It was found during this process that some data elements, while not explicitly present in a given database, are indeed expressed indirectly. For example, while none of the databases have a “lexicon variant” data element, alternate spellings for ingredients could be discovered by finding multiple synonymous entries that are spelled differently, e.g., “Ginkgo” and “Gingko”. Thus, a new facet, lexicon variant, could be created to explicitly express this concept. The model was further strengthened by including valuable inputs from experts, a team of informaticists, physicians and pharmacists (RZ, RR, TA, JB, GM, SP). The resulting data elements are all those deemed essential for comprehensive representation of DS.
+ </p>
+</sec>
