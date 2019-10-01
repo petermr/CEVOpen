@@ -18,8 +18,10 @@ Dictionaries
 ------------
 The literature is analyzed to suggests terms for inclusion in dictionaries. All terms are linked to Wikidata where possible
 
-* [plant](dictionary/plant) (species binomial or genus)
-* [chemical compound](dictionary/compound) 
+* [plant](dictionary/plant) (species binomial or genus) from EssoilDB (cleaned)
+* [plant part](dictionary/plantpart) not yet transferred
+* [extraction methodology] and metadata not yet transferred 
+* [chemical compound](dictionary/compound) from EssoildDB (cleaned)
 * [activity](dictionary/activity) (medicinal, other biological (e.g. insect repellent, pheromone))
 * [targetOrganism](dictionary/targetOrganism) (e.g. bacteria, viruses, fungi, parasites, vectors)
 
