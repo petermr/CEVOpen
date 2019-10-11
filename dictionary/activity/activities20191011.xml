@@ -3,8 +3,8 @@
  <entry term="abortifacient" wikipedia="abortifacient" wikidata="Q50415114" name="Abortifacient Agents, Nonsteroidal" description="Non-steroidal chemical compounds with abortifacient activity." id="CM.activitiesNorm.0"/>
  <entry term="acaricide" wikipedia="acaricide" wikidata="Q416014" name="Acaricide" description="agent that kills members of the arachnid subclass Acari" id="CM.activitiesNorm.1"/>
  <entry term="ace-inhibitor" wikidata="Q288280" name="ACE inhibitor" description="pharmaceutical drug used primarily for the treatment of hypertension (elevated blood pressure) and congestive heart failure" id="CM.activitiesNorm.2"/>
- <entry term="ache-inhibitor" wikidata="Q46819957" name="Effects of switching from an AChE inhibitor to a dual AChE-BuChE inhibitor in patients with Alzheimer's disease." description="scientific article published in November 2005" id="CM.activitiesNorm.3"/>
- <entry term="aldose-reductase inhibitor" wikidata="Q28248630" name="Long-term clinical effects of epalrestat, an aldose reductase inhibitor, on diabetic peripheral neuropathy: the 3-year, multicenter, comparative Aldose Reductase Inhibitor-Diabetes Complications Trial" description="scientific article" id="CM.activitiesNorm.4"/>
+ <entry term="ache-inhibitor" id="CM.activitiesNorm.3"/>
+ <entry term="aldose-reductase inhibitor" id="CM.activitiesNorm.4"/>
  <entry term="allelochemic" id="CM.activitiesNorm.5"/>
  <entry term="allelopathic" wikipedia="allelopathic" wikidata="Q64241759" name="" description="" id="CM.activitiesNorm.6"/>
  <entry term="allergenic" wikipedia="allergenic" id="CM.activitiesNorm.7"/>
@@ -42,10 +42,10 @@
  <entry term="anti-irritant" id="CM.activitiesNorm.39"/>
  <entry term="anti-keratotic" name="anti-keratotic" id="CM.activitiesNorm.40"/>
  <entry term="anti-leishmanial" id="CM.activitiesNorm.41"/>
- <entry term="anti-leukemic" wikidata="Q34608592" name="Aminoparthenolides as novel anti-leukemic agents: Discovery of the NF-kappaB inhibitor, DMAPT (LC-1)." description="scientific article" id="CM.activitiesNorm.42"/>
+ <entry term="anti-leukemic" id="CM.activitiesNorm.42"/>
  <entry term="anti-lithic" name="anti-lithic" id="CM.activitiesNorm.43"/>
  <entry term="anti-lymphomic" name="anti-lymphomic" id="CM.activitiesNorm.44"/>
- <entry term="anti-malarial" wikipedia="anti-malarial" wikidata="Q57619744" name="The interaction of anti-malarial drugs and steroid hormone metabolism" description="doctoral thesis" id="CM.activitiesNorm.45"/>
+ <entry term="anti-malarial" id="CM.activitiesNorm.45"/>
  <entry term="anti-mange" wikidata="Q57021083" name="" description="" id="CM.activitiesNorm.46"/>
  <entry term="anti-melasmic" name="anti-melasmic" id="CM.activitiesNorm.47"/>
  <entry term="anti-microbial" wikipedia="anti-microbial" id="CM.activitiesNorm.48"/>
@@ -55,7 +55,7 @@
  <entry term="anti-nitrosaminic" name="anti-nitrosaminic" id="CM.activitiesNorm.52"/>
  <entry term="anti-nitrosating" id="CM.activitiesNorm.53"/>
  <entry term="anti-obesity" wikipedia="anti-obesity" wikidata="Q2255024" name="Anti-obesity medication" description="Agents that increase energy expenditure and weight loss by neural and chemical regulation. Beta-adrenergic agents and serotoninergic drugs have been experimentally used in patients with non-insulin dependent diabetes mellitus (niddm) to treat obesit" id="CM.activitiesNorm.54"/>
- <entry term="anti-oxidant" wikipedia="anti-oxidant" wikidata="Q24179445" name="anti-oxidant protein blr5308" description="microbial gene found in Bradyrhizobium diazoefficiens USDA 110" id="CM.activitiesNorm.55"/>
+ <entry term="anti-oxidant" wikipedia="anti-oxidant" id="CM.activitiesNorm.55"/>
  <entry term="anti-parasitic" wikipedia="anti-parasitic" id="CM.activitiesNorm.56"/>
  <entry term="anti-plasmodial" id="CM.activitiesNorm.57"/>
  <entry term="anti-pneumonic" name="anti-pneumonic" id="CM.activitiesNorm.58"/>
@@ -65,7 +65,7 @@
  <entry term="anti-radicular" id="CM.activitiesNorm.62"/>
  <entry term="anti-rheumatalgic" name="anti-rheumatalgic" id="CM.activitiesNorm.63"/>
  <entry term="anti-rhinoviral" id="CM.activitiesNorm.64"/>
- <entry term="anti-salmonella" wikidata="Q50284079" name="[Immunochemical study of Salmonella. II. Analysis of precipitins of some anti-Salmonella gallinarum and anti-Salmonella typhi sera.]" description="scientific article published in September 1956" id="CM.activitiesNorm.65"/>
+ <entry term="anti-salmonella" id="CM.activitiesNorm.65"/>
  <entry term="anti-septic" wikipedia="anti-septic" id="CM.activitiesNorm.66"/>
  <entry term="anti-shock" wikidata="Q7048978" name="" description="" id="CM.activitiesNorm.67"/>
  <entry term="anti-spasmodic" wikipedia="anti-spasmodic" id="CM.activitiesNorm.68"/>
@@ -73,9 +73,6 @@
  <entry term="anti-thromboxane" wikidata="Q57164623" name="" description="" id="CM.activitiesNorm.70"/>
  <entry term="anti-tnf" wikidata="Q1536078" name="" description="" id="CM.activitiesNorm.71"/>
  <entry term="anti-tumor" wikipedia="anti-tumor" wikidata="Q57751326" name="" description="" id="CM.activitiesNorm.72"/>
- <entry term="anti-tumor (breast)" id="CM.activitiesNorm.73"/>
- <entry term="anti-tumor (pancreas)" id="CM.activitiesNorm.74"/>
- <entry term="anti-tumor (prostate)" id="CM.activitiesNorm.75"/>
  <entry term="anti-tussive" wikipedia="anti-tussive" id="CM.activitiesNorm.76"/>
  <entry term="anti-ulcer" wikidata="Q41602594" name="anti-ulcer drug" description="class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract" id="CM.activitiesNorm.77"/>
  <entry term="anti-viral" wikipedia="anti-viral" id="CM.activitiesNorm.78"/>
@@ -93,7 +90,7 @@
  <entry term="carcinogenic" wikipedia="carcinogenic" id="CM.activitiesNorm.90"/>
  <entry term="cardiotoxic" wikipedia="cardiotoxic" id="CM.activitiesNorm.91"/>
  <entry term="carminative" wikipedia="carminative" wikidata="Q1734091" name="" description="" id="CM.activitiesNorm.92"/>
- <entry term="chemopreventive" wikipedia="chemopreventive" wikidata="Q28300555" name="Cancer chemopreventive activity of resveratrol, a natural product derived from grapes" description="scientific article" id="CM.activitiesNorm.93"/>
+ <entry term="chemopreventive" wikipedia="chemopreventive" id="CM.activitiesNorm.93"/>
  <entry term="choleretic" wikipedia="choleretic" wikidata="Q905101" name="" description="" id="CM.activitiesNorm.94"/>
  <entry term="cns-depressant" wikidata="Q1976211" name="depressant" description="drug or endogenous compound that lowers neurotransmission levels" id="CM.activitiesNorm.95"/>
  <entry term="cns-stimulant" id="CM.activitiesNorm.96"/>
@@ -113,7 +110,7 @@
  <entry term="dermal sensitizer" id="CM.activitiesNorm.110"/>
  <entry term="dermatitigenic" name="dermatitigenic" id="CM.activitiesNorm.111"/>
  <entry term="detoxicant" id="CM.activitiesNorm.112"/>
- <entry term="detoxifier" wikidata="Q37623315" name="KatG is the primary detoxifier of hydrogen peroxide produced by aerobic metabolism in Bradyrhizobium japonicum." description="scientific article published on December 2004" id="CM.activitiesNorm.113"/>
+ <entry term="detoxifier" id="CM.activitiesNorm.113"/>
  <entry term="diuretic" wikipedia="diuretic" wikidata="Q200656" name="diuretic" description="substance that promotes the production of urine" id="CM.activitiesNorm.114"/>
  <entry term="ecbolic" wikipedia="ecbolic" id="CM.activitiesNorm.115"/>
  <entry term="emetic" wikipedia="emetic" wikidata="Q1930829" name="emetic" description="drug that induces vomiting" id="CM.activitiesNorm.116"/>
@@ -139,7 +136,7 @@
  <entry term="hypoglycemic" wikipedia="hypoglycemic" wikidata="Q575062" name="anti-diabetic medication" description="Substances which lower blood glucose levels" id="CM.activitiesNorm.136"/>
  <entry term="hypothermic" wikipedia="hypothermic" id="CM.activitiesNorm.137"/>
  <entry term="immunomodulator" wikipedia="immunomodulator" wikidata="Q1660194" name="" description="" id="CM.activitiesNorm.138"/>
- <entry term="immunotoxic" wikipedia="immunotoxic" wikidata="Q28300263" name="Immunotoxic activity of ochratoxin A" description="scientific article" id="CM.activitiesNorm.139"/>
+ <entry term="immunotoxic" id="CM.activitiesNorm.139"/>
  <entry term="insect attractant" id="CM.activitiesNorm.140"/>
  <entry term="insect repellent" wikipedia="insect repellent" wikidata="Q1340459" name="insect repellent" description="substance which repels insects" id="CM.activitiesNorm.141"/>
  <entry term="insecticide" wikipedia="insecticide" wikidata="Q181322" name="insecticide" description="pesticide used against insects" id="CM.activitiesNorm.142"/>
@@ -160,14 +157,11 @@
  <entry term="ornithine-decarboxylase inhibitor" wikidata="Q23362677" name="ornithine decarboxylase inhibitor- sigma54 transciptional regulator RB4179" description="microbial gene found in Rhodopirellula baltica SH 1" id="CM.activitiesNorm.157"/>
  <entry term="oxytocic" wikipedia="oxytocic" wikidata="Q50430113" name="Oxytocics" description="Drugs that stimulate contraction of the myometrium. They are used to induce labor, obstetric at term, to prevent or control postpartum or postabortion hemorrhage, and to assess fetal status in high risk pregnancies. They may also be used alone or wi" id="CM.activitiesNorm.158"/>
  <entry term="ozone-scavenger" id="CM.activitiesNorm.159"/>
- <entry term="perfumery" wikipedia="perfumery" wikidata="Q1509937" name="perfumery" description="shop which sells perfumes" id="CM.activitiesNorm.160"/>
  <entry term="peristaltic" wikipedia="peristaltic" wikidata="Q650921" name="" description="" id="CM.activitiesNorm.161"/>
  <entry term="pesticide" wikipedia="pesticide" wikidata="Q131656" name="pesticide" description="substance used to destroy pests" id="CM.activitiesNorm.162"/>
  <entry term="pheromone" wikipedia="pheromone" wikidata="Q167377" name="pheromone" description="secreted or excreted chemical factor that triggers a social response in members of the same species" id="CM.activitiesNorm.163"/>
- <entry term="phosphorus" wikipedia="phosphorus" wikidata="Q674" name="phosphorus" description="chemical element with the atomic number of 15" id="CM.activitiesNorm.164"/>
  <entry term="photoprotectant" id="CM.activitiesNorm.165"/>
  <entry term="photosensitizer" wikipedia="photosensitizer" wikidata="Q18388377" name="photosensitizer" description="A photosensitizer is a molecule that produces a chemical change in another molecule in a photochemical process." id="CM.activitiesNorm.166"/>
- <entry term="potassium" wikipedia="potassium" wikidata="Q703" name="potassium" description="element with the atomic number of 19" id="CM.activitiesNorm.167"/>
  <entry term="prooxidant" wikipedia="prooxidant" id="CM.activitiesNorm.168"/>
  <entry term="prostaglandin synthesis-inhibitor" id="CM.activitiesNorm.169"/>
  <entry term="prostatitigenic" name="prostatitigenic" id="CM.activitiesNorm.170"/>
