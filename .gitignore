@@ -1,4 +1,16 @@
 .DS_Store
-.gitignore
+#.gitignore
 .project
 .classpath
+
+## KNIME files
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/
+internalTables/
