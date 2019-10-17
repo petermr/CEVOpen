@@ -12,7 +12,7 @@
 </config>
 <config key="nodeIDCol">
 <entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Term1 as String"/>
+<entry key="columnName" type="xstring" value="Term1"/>
 </config>
 <config key="nodeCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -44,12 +44,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="edgeCol" type="xstring" value="role"/>
+<entry key="edgeCol" type="xstring" isnull="true" value=""/>
 <config key="directedEdge_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="directedEdge" type="xboolean" value="false"/>
+<entry key="directedEdge" type="xboolean" value="true"/>
 <config key="weightOption_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -132,7 +132,7 @@
 <entry key="edgeIdNodeSeparator" type="xstring" value=""/>
 <config key="linkNodesDirect_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="linkNodesDirect" type="xboolean" value="false"/>
 <config key="trimObjectIds_Internals">
@@ -176,7 +176,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 68, edges: 35, UUID: fe1fbc79-5fb3-414a-9548-5a4b2777443d"/>
+<entry key="port_object_summary" type="xstring" value="id: ID, directed, nodes: 50, edges: 35, UUID: b8e13f50-bfca-4f35-9f43-904ee5101189"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -184,6 +184,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a0231cac-c820-4cac-8ebd-66d321796015"/>
+<entry key="file_store_id" type="xstring" value="eb290364-ccc2-40f7-b5da-f4ce8d5196a1"/>
 </config>
 </config>
