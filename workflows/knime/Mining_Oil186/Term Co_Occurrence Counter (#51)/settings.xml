@@ -16,21 +16,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="termColumn" type="xstring" value="Term"/>
-<config key="inclNeighbors_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inclNeighbors" type="xstring" value="DOCUMENT"/>
-<config key="checkTags_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="checkTags" type="xboolean" value="true"/>
-<config key="skipMetaInfoSection_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="skipMetaInfoSection" type="xboolean" value="true"/>
 <config key="sortInputTable_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -41,6 +26,21 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="noOfThreads" type="xint" value="8"/>
+<config key="checkTags_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="checkTags" type="xboolean" value="true"/>
+<config key="inclNeighbors_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inclNeighbors" type="xstring" value="DOCUMENT"/>
+<config key="skipMetaInfoSection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="skipMetaInfoSection" type="xboolean" value="true"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="by document"/>
@@ -83,6 +83,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d50d0300-2821-4a0b-9d9b-b26a284c2fbc"/>
+<entry key="file_store_id" type="xstring" value="61e69a44-2cb7-4843-8a3d-eea53dc6d2f4"/>
 </config>
 </config>

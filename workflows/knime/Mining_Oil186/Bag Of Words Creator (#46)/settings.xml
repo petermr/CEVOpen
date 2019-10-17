@@ -11,11 +11,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="DocumentColumn" type="xstring" value="Document"/>
-<config key="TermColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="ColumnFilter_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -52,6 +47,11 @@
 </config>
 </config>
 </config>
+<config key="TermColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TermColumn" type="xstring" value="Term"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="extract terms"/>
@@ -94,6 +94,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="43d37abf-41ca-4b9f-a972-1a88d41eb485"/>
+<entry key="file_store_id" type="xstring" value="b2c3dd54-c1fe-4b8f-b96e-59f507aa4fe0"/>
 </config>
 </config>

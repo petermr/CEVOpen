@@ -11,8 +11,8 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="edgeIdColumn">
-<entry key="useRowID" type="xboolean" value="true"/>
-<entry key="columnName" type="xstring" isnull="true" value=""/>
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="Document"/>
 </config>
 <config key="nodeIdColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -29,8 +29,9 @@
 <config key="featureColumnNames">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="2"/>
 <entry key="0" type="xstring" value="Document cooccurrence"/>
+<entry key="1" type="xstring" value="role"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="17"/>
@@ -93,7 +94,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-<entry key="port_object_summary" type="xstring" value="id: ID, directed, nodes: 262, edges: 2,166, UUID: ec457397-3f2b-4645-b29b-6bf2070cbde8"/>
+<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 68, edges: 35, UUID: 5b308764-f19f-4211-8a44-fb16793a8c2d"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -101,6 +102,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6d6d9de5-0087-4ffb-a636-0085b5eed17d"/>
+<entry key="file_store_id" type="xstring" value="2c64bc83-575b-4efa-986b-777fbbc9f327"/>
 </config>
 </config>

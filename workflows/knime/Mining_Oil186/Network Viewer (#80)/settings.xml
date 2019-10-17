@@ -43,7 +43,7 @@
 <entry key="nodeDefaultSize" type="xint" value="30"/>
 <entry key="nodeOutlineDefaultWidth" type="xint" value="1"/>
 <entry key="nodeSizeFeature" type="xstring" isnull="true" value=""/>
-<entry key="edgeWidthFeature" type="xstring" value="Document cooccurrence"/>
+<entry key="edgeWidthFeature" type="xstring" isnull="true" value=""/>
 <entry key="nodeOutlineWidthFeature" type="xstring" isnull="true" value=""/>
 <entry key="redrawOnFilter" type="xboolean" value="true"/>
 <entry key="displayRedrawOnFilter" type="xboolean" value="false"/>
@@ -114,13 +114,13 @@
 </config>
 <config key="availableLayouts">
 <entry key="numAvailableLayouts" type="xint" value="7"/>
-<entry key="availableLayout_0" type="xstring" value="circle"/>
-<entry key="availableLayout_1" type="xstring" value="breadthfirst"/>
-<entry key="availableLayout_2" type="xstring" value="concentric"/>
-<entry key="availableLayout_3" type="xstring" value="random"/>
-<entry key="availableLayout_4" type="xstring" value="grid"/>
-<entry key="availableLayout_5" type="xstring" value="cose"/>
-<entry key="availableLayout_6" type="xstring" value="preset"/>
+<entry key="availableLayout_0" type="xstring" value="random"/>
+<entry key="availableLayout_1" type="xstring" value="concentric"/>
+<entry key="availableLayout_2" type="xstring" value="cose"/>
+<entry key="availableLayout_3" type="xstring" value="circle"/>
+<entry key="availableLayout_4" type="xstring" value="preset"/>
+<entry key="availableLayout_5" type="xstring" value="grid"/>
+<entry key="availableLayout_6" type="xstring" value="breadthfirst"/>
 </config>
 <config key="layouts">
 <entry key="numSettings" type="xint" value="1"/>
@@ -283,6 +283,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="71566c55-81cc-44cf-9321-6268fe57825c"/>
+<entry key="file_store_id" type="xstring" value="e1b0c365-8253-4515-b82d-6fc25855cfbe"/>
 </config>
 </config>
