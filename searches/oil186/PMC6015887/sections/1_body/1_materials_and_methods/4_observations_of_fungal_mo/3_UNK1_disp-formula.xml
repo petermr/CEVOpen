@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E3" class="disp-formula">
+ <div id="M3" class="math" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="mrow">
+   <span class="mtext">MI</span>
+   <span stretchy="false" class="mo">(</span>
+   <span class="mi">%</span>
+   <span stretchy="false" class="mo">)</span>
+   <span class="mo">=</span>
+   <div class="mrow">
+    <span class="mo">[</span>
+    <div class="mrow">
+     <span class="mn">1</span>
+     <span class="mo">−</span>
+     <div class="mrow">
+      <span class="mo">(</span>
+      <div class="mrow">
+       <div class="mfrac">
+        <div class="mrow">
+         <span class="mtext">number of stained spores</span>
+        </div>
+        <div class="mrow">
+         <span class="mtext">number of total spores</span>
+        </div>
+       </div>
+      </div>
+      <span class="mo">)</span>
+     </div>
+    </div>
+    <span class="mo">]</span>
+   </div>
+   <span class="mo">×</span>
+   <span class="mn">100</span>
+  </div>
+ </div>
+</disp-formula>

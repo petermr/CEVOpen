@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Recently, the emergence of the huge real-time data sets has increased the need for using the data mining and machine learning, which have proved their efficiency in dealing with these types of data. However, many data sets contain unnecessary features that may cause undesirable increase in the processing time. Therefore, the need for reducing the dimension size of the data set becomes a necessary stage in the data mining process.
+ <xref rid="b27-aabc-10-065" ref-type="bibr" class="xref">27</xref> The reduction process refers to simplifying a data set by reducing its dimensionality through removing a subset of attributes from the original data set while retaining the same predictive accuracy. Generally, the reduction has a number of important benefits for the machine learning and data mining algorithms. It reduces the computation time of the induction algorithm, saves the computational cost, and also improves the accuracy of the induced rules.
+ <xref rid="b28-aabc-10-065" ref-type="bibr" class="xref">28</xref> RS approach was originally proposed by Pawlak.
+ <xref rid="b29-aabc-10-065" ref-type="bibr" class="xref">29</xref> It is defined as a mathematical approach that can obtain high-quality classifiers called reduct from the total data set attributes. This “reduct” can be used to predict the decision outputs just like using the original set.
+ <xref rid="b28-aabc-10-065" ref-type="bibr" class="xref">28</xref> In general, in the RS approach, the information is represented in the form of condition attributes 
+ <italic class="italic">C</italic> and decision attributes 
+ <italic class="italic">D</italic>.
+ <xref rid="b30-aabc-10-065" ref-type="bibr" class="xref">30</xref> The relation between the condition and the decision attributes in RS is defined by the indiscernibility degree of the data points handled using the concept of sets’ approximation. There are two main types of the approximation in RS, upper and lower, which are denoted as 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm1" class="math">
+   <div class="mrow">
+    <div accent="true" class="mover">
+     <span class="mi">R</span>
+     <span class="mo">¯</span>
+    </div>
+    <span stretchy="false" class="mo">(</span>
+    <span class="mi">X</span>
+    <span stretchy="false" class="mo">)</span>
+   </div>
+  </div>
+ </div> and 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm2" class="math">
+   <div class="mrow">
+    <div accentunder="true" class="munder">
+     <span class="mi">R</span>
+     <span stretchy="true" class="mo">_</span>
+    </div>
+    <span stretchy="false" class="mo">(</span>
+    <span class="mi">X</span>
+    <span stretchy="false" class="mo">)</span>
+   </div>
+  </div>
+ </div>, respectively; they are defined as follows in 
+ <xref ref-type="disp-formula" rid="fd1-aabc-10-065" class="xref">Equations 1</xref> and 
+ <xref ref-type="disp-formula" rid="fd2-aabc-10-065" class="xref">2</xref>: 
+ <disp-formula id="fd1-aabc-10-065" class="disp-formula">
+  <div id="mm3" class="math" xmlns="http://www.w3.org/1999/xhtml">
+   <div class="mrow">
+    <div accent="true" class="mover">
+     <span class="mi">R</span>
+     <span class="mo">¯</span>
+    </div>
+    <span stretchy="false" class="mo">(</span>
+    <span class="mi">X</span>
+    <span stretchy="false" class="mo">)</span>
+    <span class="mo">=</span>
+    <span class="mo">{</span>
+    <span class="mi">x</span>
+    <span class="mo">∈</span>
+    <span class="mi">U</span>
+    <span class="mo">|</span>
+    <div class="msub">
+     <div class="mrow">
+      <div class="mrow">
+       <span class="mo">[</span>
+       <span class="mi">x</span>
+       <span class="mo">]</span>
+      </div>
+     </div>
+     <span class="mi">R</span>
+    </div>
+    <span class="mo">∩</span>
+    <span class="mi">X</span>
+    <span class="mo">≠</span>
+    <span class="mo">∅</span>
+    <span class="mo">}</span>
+   </div>
+  </div>
+  <label class="label">(1)</label>
+ </disp-formula>
+ <disp-formula id="fd2-aabc-10-065" class="disp-formula">
+  <div id="mm4" class="math" xmlns="http://www.w3.org/1999/xhtml">
+   <div class="mrow">
+    <div accentunder="true" class="munder">
+     <span class="mi">R</span>
+     <span stretchy="true" class="mo">_</span>
+    </div>
+    <span stretchy="false" class="mo">(</span>
+    <span class="mi">X</span>
+    <span stretchy="false" class="mo">)</span>
+    <span class="mo">=</span>
+    <span class="mo">{</span>
+    <span class="mi">x</span>
+    <span class="mo">∈</span>
+    <span class="mi">U</span>
+    <span class="mo">|</span>
+    <div class="msub">
+     <div class="mrow">
+      <div class="mrow">
+       <span class="mo">[</span>
+       <span class="mi">x</span>
+       <span class="mo">]</span>
+      </div>
+     </div>
+     <span class="mi">R</span>
+    </div>
+    <span class="mo">⊆</span>
+    <span class="mi">X</span>
+    <span class="mo">}</span>
+   </div>
+  </div>
+  <label class="label">(2)</label>
+ </disp-formula>According to the determined upper and lower approximation of the sets, the accuracy of the classification results can be quantified as follows: 
+ <disp-formula id="fd3-aabc-10-065" class="disp-formula">
+  <div id="mm5" class="math" xmlns="http://www.w3.org/1999/xhtml">
+   <div class="mrow">
+    <div class="msub">
+     <span class="mi">α</span>
+     <span class="mi">c</span>
+    </div>
+    <span class="mo">=</span>
+    <div class="mrow">
+     <span class="mo">|</span>
+     <div class="mrow">
+      <div accentunder="true" class="munder">
+       <span class="mi">R</span>
+       <span stretchy="true" class="mo">_</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+     <span class="mo">|</span>
+    </div>
+    <span class="mo">/</span>
+    <div class="mrow">
+     <span class="mo">|</span>
+     <div class="mrow">
+      <div accent="true" class="mover">
+       <span class="mi">R</span>
+       <span class="mo">¯</span>
+      </div>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">X</span>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+     <span class="mo">|</span>
+    </div>
+   </div>
+  </div>
+  <label class="label">(3)</label>
+ </disp-formula>These approximations are the base of finding the reduction for data set. They can also be used to deduce the rules between the condition and decision attributes. The syntax of the decision rules usually has the form of logic expression or if … then rule.
+ <xref rid="b30-aabc-10-065" ref-type="bibr" class="xref">30</xref>,
+ <xref rid="b31-aabc-10-065" ref-type="bibr" class="xref">31</xref>
+</p>

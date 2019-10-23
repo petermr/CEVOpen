@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The reduction process based on the RS theory is the first step in the proposed EOROT algorithm. It is divided into three phases. 1) It begins with reducing the number of the compounds for every EO by keeping only the compounds that affect the EO concentration. This process depends on defining the threshold value for the compound’s concentration percentage by 2% and ignoring the compounds that do not exceed this threshold. 2) After the reduction of compounds, the RS starts establishing some logic rules; these rules can help in determining the EOs that have a high antibacterial effect generally without testing them on certain types of bacteria as defined in the following equation: 
+ <disp-formula id="fd4-aabc-10-065" class="disp-formula">
+  <div id="mm6" class="math" xmlns="http://www.w3.org/1999/xhtml">
+   <div columnalign="left" class="mtable">
+    <div class="mtr">
+     <div class="mtd">
+      <div class="msub">
+       <span class="mi">F</span>
+       <span class="mi">A</span>
+      </div>
+      <span class="mo">=</span>
+      <span class="mo">{</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">E</span>
+      <span class="mo">∧</span>
+      <span class="mi">V</span>
+      <span class="mo">.</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">E</span>
+      <span class="mo">∧</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">D</span>
+      <span class="mo">∧</span>
+      <span class="mi">V</span>
+      <span class="mo">.</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+     </div>
+    </div>
+    <div class="mtr">
+     <div class="mtd">
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">D</span>
+      <span class="mo">∧</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">D</span>
+      <span class="mo">∧</span>
+      <span class="mi">L</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">C</span>
+      <span class="mo">∧</span>
+      <span class="mi">V</span>
+      <span class="mo">.</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">C</span>
+      <span class="mo">∧</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+     </div>
+    </div>
+    <div class="mtr">
+     <div class="mtd">
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">C</span>
+      <span class="mo">∧</span>
+      <span class="mi">L</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">B</span>
+      <span class="mo">∧</span>
+      <span class="mi">V</span>
+      <span class="mo">.</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">B</span>
+      <span class="mo">∧</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">B</span>
+      <span class="mo">∧</span>
+      <span class="mi">L</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+     </div>
+    </div>
+    <div class="mtr">
+     <div class="mtd">
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">B</span>
+      <span class="mo">∧</span>
+      <span class="mi">N</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">A</span>
+      <span class="mo">∧</span>
+      <span class="mi">V</span>
+      <span class="mo">.</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">A</span>
+      <span class="mo">∧</span>
+      <span class="mi">H</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">A</span>
+      <span class="mo">∧</span>
+      <span class="mi">L</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">∨</span>
+     </div>
+    </div>
+    <div class="mtr">
+     <div class="mtd">
+      <span width="6.2em" class="mspace"/>
+      <span stretchy="false" class="mo">(</span>
+      <span class="mi">A</span>
+      <span class="mo">∧</span>
+      <span class="mi">N</span>
+      <span stretchy="false" class="mo">)</span>
+      <span class="mo">}</span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <label class="label">(4)</label>
+ </disp-formula>where the symbols 
+ <italic class="italic">A</italic>, 
+ <italic class="italic">B</italic>, 
+ <italic class="italic">C</italic>, 
+ <italic class="italic">D</italic>, 
+ <italic class="italic">E</italic>, and 
+ <italic class="italic">F</italic> are the concentration percentage rates of the compound in the EO and the symbols 
+ <italic class="italic">V</italic>.
+ <italic class="italic">H</italic>, 
+ <italic class="italic">H</italic>, 
+ <italic class="italic">N</italic>, and 
+ <italic class="italic">L</italic> are the antibacterial activity degrees for these compounds. 
+ <xref ref-type="table" rid="t3-aabc-10-065" class="xref">Table 3</xref> displays these symbols and their significances. 3) The last phase in the reduction process is applying the extracted rules to constringe the number of EOs by finding the significant antibacterial EOs only. The pseudo code of the EOROT algorithm is presented in 
+ <xref ref-type="boxed-text" rid="bx1-aabc-10-065" class="xref">Box 1</xref>.
+</p>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44" class="p">Read qualities were analysed using FastQC [
+ <xref ref-type="bibr" rid="CR27" class="xref">27</xref>], primer and adapter sequences were removed using “cutadapt” [
+ <xref ref-type="bibr" rid="CR28" class="xref">28</xref>] (standard parameters with primer sequences), before remaining phiX sequences were removed by mapping the reads to the phiX reference genome (Genbank acc. nr. J02482.1) using “BWA mem” with default settings [
+ <xref ref-type="bibr" rid="CR29" class="xref">29</xref>]. Reads aligning were removed using seqtk with the 
+ <italic class="italic">subseq</italic> command [
+ <xref ref-type="bibr" rid="CR30" class="xref">30</xref>]. Downstream processing and sequence analysis was performed using Mothur (v. 1.36.1) according to the Mothur Illumina MiSeq SOP [
+ <xref ref-type="bibr" rid="CR31" class="xref">31</xref>]. Briefly, paired-end reads were joined using “make.contigs” and filtered based upon a minimum average Phred quality score of 25, contig length (max 289 bp) and a zero-tolerance to ambiguous base pairs. Chimeras were removed using the UCHIME algorithm [
+ <xref ref-type="bibr" rid="CR32" class="xref">32</xref>] implemented in Mothur, before the sequences (V4 region) were aligned and classified using the Silva SEED bacterial database (v. 119) as reference. The dataset was clustered into OTUs based on a 97% similarity sequence similarity using average neighbour clustering. The OTU table output of Mothur was imported into R studio [
+ <xref ref-type="bibr" rid="CR33" class="xref">33</xref>] (based on R (v. 3.2.3) [
+ <xref ref-type="bibr" rid="CR34" class="xref">34</xref>]) for further processing using the R package “phyloseq” (v. 1.14.0) [
+ <xref ref-type="bibr" rid="CR35" class="xref">35</xref>]. Results were visualized using the R package “ggplot2” (2.0.0) [
+ <xref ref-type="bibr" rid="CR36" class="xref">36</xref>].
+</p>

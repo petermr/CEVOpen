@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In 
+ <xref ref-type="fig" rid="f2-aabc-10-065" class="xref">Figure 2</xref>, 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm7" class="math">
+   <div class="mrow">
+    <div class="msubsup">
+     <span class="mi">X</span>
+     <div class="mrow">
+      <span stretchy="false" class="mo">(</span>
+      <div class="msub">
+       <span class="mi">M</span>
+       <span class="mi">i</span>
+      </div>
+      <span class="mo">,</span>
+      <div class="msub">
+       <span class="mi">N</span>
+       <span class="mi">i</span>
+      </div>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+     <span class="mi">k</span>
+    </div>
+   </div>
+  </div>
+ </div> represents the initial value of the particles (i.e., the initial bacteria and EO), 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm8" class="math">
+   <div class="mrow">
+    <span class="mi">P</span>
+    <span class="mi">b</span>
+    <span class="mi">e</span>
+    <span class="mi">s</span>
+    <div class="msub">
+     <span class="mi">t</span>
+     <div class="mrow">
+      <span stretchy="false" class="mo">(</span>
+      <div class="msub">
+       <span class="mi">M</span>
+       <span class="mi">i</span>
+      </div>
+      <span class="mo">,</span>
+      <div class="msub">
+       <span class="mi">N</span>
+       <span class="mi">i</span>
+      </div>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div> and 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm9" class="math">
+   <div class="mrow">
+    <span class="mi">G</span>
+    <span class="mi">b</span>
+    <span class="mi">e</span>
+    <span class="mi">s</span>
+    <div class="msub">
+     <span class="mi">t</span>
+     <div class="mrow">
+      <span stretchy="false" class="mo">(</span>
+      <div class="msub">
+       <span class="mi">M</span>
+       <span class="mi">i</span>
+      </div>
+      <span class="mo">,</span>
+      <div class="msub">
+       <span class="mi">N</span>
+       <span class="mi">i</span>
+      </div>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>are the best suggested positions for the current particle, and the 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm10" class="math">
+   <div class="mrow">
+    <span class="mi">T</span>
+    <span class="mi">a</span>
+    <span class="mi">r</span>
+    <span class="mi">g</span>
+    <span class="mi">e</span>
+    <div class="msub">
+     <span class="mi">t</span>
+     <div class="mrow">
+      <span stretchy="false" class="mo">(</span>
+      <div class="msub">
+       <span class="mi">M</span>
+       <span class="mi">i</span>
+      </div>
+      <span class="mo">,</span>
+      <div class="msub">
+       <span class="mi">N</span>
+       <span class="mi">i</span>
+      </div>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div> is the optimal solution (i.e., the EO with the minimum MIC that can inhibit this bacteria). In the search process, every particle moves with a certain velocity 
+ <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
+  <div id="mm11" class="math">
+   <div class="mrow">
+    <div class="msubsup">
+     <span class="mi">V</span>
+     <div class="mrow">
+      <span stretchy="false" class="mo">(</span>
+      <div class="msub">
+       <span class="mi">M</span>
+       <span class="mi">i</span>
+      </div>
+      <span class="mo">,</span>
+      <div class="msub">
+       <span class="mi">N</span>
+       <span class="mi">i</span>
+      </div>
+      <span stretchy="false" class="mo">)</span>
+     </div>
+     <span class="mi">k</span>
+    </div>
+   </div>
+  </div>
+ </div> that determines its new position, and the search will stop when the new position becomes close to the target.
+</p>
