@@ -4,37 +4,37 @@
   <label class="label">2</label>
   <alternatives class="alternatives">
    <tex-math id="M7" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Slope}={\mathrm{K}}_{\mathrm{m}}/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}+{\mathrm{K}}_{\mathrm{m}}\ \left[\mathrm{I}\right]/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}{\mathrm{K}}_{\mathrm{i}} $$\end{document}</tex-math>
-   <div id="M8" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mtext">Slope</span>
-    <span class="mo">=</span>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">K</span>
-     <span mathvariant="normal" class="mi">m</span>
-    </div>
-    <span class="mo">/</span>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">V</span>
-     <span class="mi">max</span>
-    </div>
-    <span class="mo">+</span>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">K</span>
-     <span mathvariant="normal" class="mi">m</span>
-    </div>
-    <span width="0.25em" class="mspace"/>
-    <div close="]" open="[" class="mfenced">
-     <span mathvariant="normal" class="mi">I</span>
-    </div>
-    <span class="mo">/</span>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">V</span>
-     <span class="mi">max</span>
-    </div>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">K</span>
-     <span mathvariant="normal" class="mi">i</span>
-    </div>
-   </div>
+   <math id="M8" display="block" class="math">
+    <mtext class="mtext">Slope</mtext>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">K</mi>
+     <mi mathvariant="normal" class="mi">m</mi>
+    </msub>
+    <mo class="mo">/</mo>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">V</mi>
+     <mi class="mi">max</mi>
+    </msub>
+    <mo class="mo">+</mo>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">K</mi>
+     <mi mathvariant="normal" class="mi">m</mi>
+    </msub>
+    <mspace width="0.25em" class="mspace"/>
+    <mfenced close="]" open="[" class="mfenced">
+     <mi mathvariant="normal" class="mi">I</mi>
+    </mfenced>
+    <mo class="mo">/</mo>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">V</mi>
+     <mi class="mi">max</mi>
+    </msub>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">K</mi>
+     <mi mathvariant="normal" class="mi">i</mi>
+    </msub>
+   </math>
    <graphic xlink:href="12906_2018_2145_Article_Equ2.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>or
@@ -42,43 +42,43 @@
   <label class="label">3</label>
   <alternatives class="alternatives">
    <tex-math id="M9" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Y}-\mathrm{intercept}=1/{{\mathrm{V}}_{\mathrm{max}}}^{\mathrm{app}}=1/{\mathrm{V}}_{\mathrm{max}}+1/{\upalpha \mathrm{K}}_{\mathrm{i}}{\mathrm{V}}_{\mathrm{max}}\ \left[\mathrm{I}\right] $$\end{document}</tex-math>
-   <div id="M10" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span mathvariant="normal" class="mi">Y</span>
-    <span class="mo">−</span>
-    <span class="mtext">intercept</span>
-    <span class="mo">=</span>
-    <span class="mn">1</span>
-    <span class="mo">/</span>
-    <div class="msup">
-     <div class="msub">
-      <span mathvariant="normal" class="mi">V</span>
-      <span class="mi">max</span>
-     </div>
-     <span class="mi">app</span>
-    </div>
-    <span class="mo">=</span>
-    <span class="mn">1</span>
-    <span class="mo">/</span>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">V</span>
-     <span class="mi">max</span>
-    </div>
-    <span class="mo">+</span>
-    <span class="mn">1</span>
-    <span class="mo">/</span>
-    <div class="msub">
-     <span class="mi">αK</span>
-     <span mathvariant="normal" class="mi">i</span>
-    </div>
-    <div class="msub">
-     <span mathvariant="normal" class="mi">V</span>
-     <span class="mi">max</span>
-    </div>
-    <span width="0.25em" class="mspace"/>
-    <div close="]" open="[" class="mfenced">
-     <span mathvariant="normal" class="mi">I</span>
-    </div>
-   </div>
+   <math id="M10" display="block" class="math">
+    <mi mathvariant="normal" class="mi">Y</mi>
+    <mo class="mo">−</mo>
+    <mtext class="mtext">intercept</mtext>
+    <mo class="mo">=</mo>
+    <mn class="mn">1</mn>
+    <mo class="mo">/</mo>
+    <msup class="msup">
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">V</mi>
+      <mi class="mi">max</mi>
+     </msub>
+     <mi class="mi">app</mi>
+    </msup>
+    <mo class="mo">=</mo>
+    <mn class="mn">1</mn>
+    <mo class="mo">/</mo>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">V</mi>
+     <mi class="mi">max</mi>
+    </msub>
+    <mo class="mo">+</mo>
+    <mn class="mn">1</mn>
+    <mo class="mo">/</mo>
+    <msub class="msub">
+     <mi class="mi">αK</mi>
+     <mi mathvariant="normal" class="mi">i</mi>
+    </msub>
+    <msub class="msub">
+     <mi mathvariant="normal" class="mi">V</mi>
+     <mi class="mi">max</mi>
+    </msub>
+    <mspace width="0.25em" class="mspace"/>
+    <mfenced close="]" open="[" class="mfenced">
+     <mi mathvariant="normal" class="mi">I</mi>
+    </mfenced>
+   </math>
    <graphic xlink:href="12906_2018_2145_Article_Equ3.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

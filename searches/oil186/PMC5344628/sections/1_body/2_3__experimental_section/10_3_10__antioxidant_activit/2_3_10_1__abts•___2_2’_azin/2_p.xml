@@ -3,62 +3,62 @@
  <xref rid="B70-materials-10-00045" ref-type="bibr" class="xref">70</xref>]: 
  <disp-formula id="FD2-materials-10-00045" class="disp-formula">
   <label class="label">(2)</label>
-  <div id="mm2" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div class="mrow">
-     <span mathvariant="bold-italic" class="mi">I</span>
-     <span mathvariant="bold-italic" class="mi">n</span>
-     <span mathvariant="bold-italic" class="mi">h</span>
-     <span mathvariant="bold-italic" class="mi">i</span>
-     <span mathvariant="bold-italic" class="mi">b</span>
-     <span mathvariant="bold-italic" class="mi">i</span>
-     <span mathvariant="bold-italic" class="mi">t</span>
-     <span mathvariant="bold-italic" class="mi">i</span>
-     <span mathvariant="bold-italic" class="mi">o</span>
-     <span mathvariant="bold-italic" class="mi">n</span>
-     <span stretchy="false" class="mo">(</span>
-     <span class="mo">%</span>
-     <span stretchy="false" class="mo">)</span>
-     <span class="mo">=</span>
-     <div class="mrow">
-      <span class="mo">[</span>
-      <div class="mrow">
-       <div class="mfrac">
-        <div class="mrow">
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">control</span>
-          </div>
-         </div>
-         <span class="mo">−</span>
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">sample</span>
-          </div>
-         </div>
-        </div>
-        <div class="mrow">
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">control</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <span class="mo">×</span>
-       <span class="mn">100</span>
-      </div>
-      <span class="mo">]</span>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="bold-italic" class="mi">I</mi>
+     <mi mathvariant="bold-italic" class="mi">n</mi>
+     <mi mathvariant="bold-italic" class="mi">h</mi>
+     <mi mathvariant="bold-italic" class="mi">i</mi>
+     <mi mathvariant="bold-italic" class="mi">b</mi>
+     <mi mathvariant="bold-italic" class="mi">i</mi>
+     <mi mathvariant="bold-italic" class="mi">t</mi>
+     <mi mathvariant="bold-italic" class="mi">i</mi>
+     <mi mathvariant="bold-italic" class="mi">o</mi>
+     <mi mathvariant="bold-italic" class="mi">n</mi>
+     <mo stretchy="false" class="mo">(</mo>
+     <mo class="mo">%</mo>
+     <mo stretchy="false" class="mo">)</mo>
+     <mo class="mo">=</mo>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">control</mi>
+          </mrow>
+         </msub>
+         <mo class="mo">−</mo>
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">sample</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">control</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo class="mo">×</mo>
+       <mn class="mn">100</mn>
+      </mrow>
+      <mo class="mo">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
  </disp-formula> where 
  <italic class="italic">A</italic>
- <sub xmlns="http://www.w3.org/1999/xhtml">control</sub> is the absorbance of the ABTS radical in methanol, and 
+ <sub class="sub">control</sub> is the absorbance of the ABTS radical in methanol, and 
  <italic class="italic">A</italic>
- <sub xmlns="http://www.w3.org/1999/xhtml">sample</sub> is the absorbance of an ABTS radical solution mixed with the sample. All determinations were performed in triplicate.
+ <sub class="sub">sample</sub> is the absorbance of an ABTS radical solution mixed with the sample. All determinations were performed in triplicate.
 </p>

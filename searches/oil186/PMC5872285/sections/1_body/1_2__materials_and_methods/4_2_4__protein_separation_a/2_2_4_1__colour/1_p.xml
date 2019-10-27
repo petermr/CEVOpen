@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p class="p">A Hunterlab spectrocolourimeter (MiniScan XE Plus, Reston Virginia, USA) was used to determine the colour of the LM and the three fractions (SLF, IFL and SF). Equipment was set at illuminant D65, 22 mm aperture, and 10° observer. Calibration was run using black and white tiles in accordance with the standard manual. The averages were used to calculate the change in colour 
- <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
-  <div id="mm1" class="math">
-   <div class="mrow">
-    <div class="mrow">
-     <div class="mrow">
-      <span class="mo">(</span>
-      <div class="mrow">
-       <span class="mo">Δ</span>
-       <span mathvariant="normal" class="mi">E</span>
-      </div>
-      <span class="mo">)</span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div> using the following equation:
+ <inline-formula class="inline-formula">
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mo class="mo">Δ</mo>
+       <mi mathvariant="normal" class="mi">E</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> using the following equation:
  <disp-formula id="FD1-insects-09-00020" class="disp-formula">
   <label class="label">(1)</label>
-  <div id="mm2" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div class="mrow">
-     <span class="mo">Δ</span>
-     <span mathvariant="normal" class="mi">E</span>
-     <span class="mo">=</span>
-     <div class="msqrt">
-      <div class="mrow">
-       <div class="mrow">
-        <span class="mo">(</span>
-        <div class="mrow">
-         <div class="msup">
-          <div class="mrow">
-           <span class="mo">Δ</span>
-           <span mathvariant="normal" class="mi">L</span>
-          </div>
-          <span class="mn">2</span>
-         </div>
-         <span class="mo">+</span>
-         <div class="msup">
-          <div class="mrow">
-           <span class="mo">Δ</span>
-           <span mathvariant="normal" class="mi">a</span>
-          </div>
-          <span class="mn">2</span>
-         </div>
-         <span class="mo">+</span>
-         <div class="msup">
-          <div class="mrow">
-           <span class="mo">Δ</span>
-           <span mathvariant="normal" class="mi">b</span>
-          </div>
-          <span class="mn">2</span>
-         </div>
-        </div>
-        <span class="mo">)</span>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">Δ</mo>
+     <mi mathvariant="normal" class="mi">E</mi>
+     <mo class="mo">=</mo>
+     <msqrt class="msqrt">
+      <mrow class="mrow">
+       <mrow class="mrow">
+        <mo class="mo">(</mo>
+        <mrow class="mrow">
+         <msup class="msup">
+          <mrow class="mrow">
+           <mo class="mo">Δ</mo>
+           <mi mathvariant="normal" class="mi">L</mi>
+          </mrow>
+          <mn class="mn">2</mn>
+         </msup>
+         <mo class="mo">+</mo>
+         <msup class="msup">
+          <mrow class="mrow">
+           <mo class="mo">Δ</mo>
+           <mi mathvariant="normal" class="mi">a</mi>
+          </mrow>
+          <mn class="mn">2</mn>
+         </msup>
+         <mo class="mo">+</mo>
+         <msup class="msup">
+          <mrow class="mrow">
+           <mo class="mo">Δ</mo>
+           <mi mathvariant="normal" class="mi">b</mi>
+          </mrow>
+          <mn class="mn">2</mn>
+         </msup>
+        </mrow>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
  </disp-formula> where: L* value indicates lightness, a* value indicates red/green colour and b* value represents the yellow/blue colour of the sample.
 </p>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contrib-group class="contrib-group">
  <contrib contrib-type="author" corresp="yes" class="contrib">
-  <span contrib-id-type="orcid" class="contrib-id" xmlns="http://www.w3.org/1999/xhtml">http://orcid.org/0000-0001-9628-296X</span>
+  <contrib-id contrib-id-type="orcid" class="contrib-id">http://orcid.org/0000-0001-9628-296X</contrib-id>
   <name class="name">
    <surname class="surname">Zhang</surname>
    <given-names class="given-names">Qing-Wen</given-names>
   </name>
   <address class="address">
-   <span class="phone" xmlns="http://www.w3.org/1999/xhtml">+853 8822 4879</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">qwzhang@umac.mo</span>
+   <phone class="phone">+853 8822 4879</phone>
+   <email class="email">qwzhang@umac.mo</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -18,7 +18,7 @@
    <given-names class="given-names">Li-Gen</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">ligenl@umac.mo</span>
+   <email class="email">ligenl@umac.mo</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -28,8 +28,8 @@
    <given-names class="given-names">Wen-Cai</given-names>
   </name>
   <address class="address">
-   <span class="phone" xmlns="http://www.w3.org/1999/xhtml">+86 20 8522 0936</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">chywc@aliyun.com</span>
+   <phone class="phone">+86 20 8522 0936</phone>
+   <email class="email">chywc@aliyun.com</email>
   </address>
   <xref ref-type="aff" rid="Aff2" class="xref">2</xref>
  </contrib>
@@ -38,11 +38,11 @@
  </aff>
  <aff id="Aff2" class="aff">
   <label class="label">2</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0004 1790 3548</span>
-   <span institution-id-type="GRID" class="institution-id">grid.258164.c</span>
-   <span class="institution">Institute of Traditional Chinese Medicine &amp; Natural Products, and Guangdong Provincial Engineering Research Center for Modernization of TCM, College of Pharmacy, </span>
-   <span class="institution">Jinan University, </span>
-  </div>Guangzhou, 510632 People’s Republic of China 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0004 1790 3548</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.258164.c</institution-id>
+   <institution class="institution">Institute of Traditional Chinese Medicine &amp; Natural Products, and Guangdong Provincial Engineering Research Center for Modernization of TCM, College of Pharmacy, </institution>
+   <institution class="institution">Jinan University, </institution>
+  </institution-wrap>Guangzhou, 510632 People’s Republic of China 
  </aff>
 </contrib-group>

@@ -4,32 +4,32 @@
  <disp-formula id="Equa" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \%\mathrm{DPPH}\ \mathrm{scavenging}=\left[\left(\mathrm{control}\ \mathrm{OD}-\mathrm{sample}\ \mathrm{OD}\right)/\mathrm{control}\ \mathrm{OD}\right]\times 100 $$\end{document}</tex-math>
-   <div id="M2" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mo">%</span>
-    <span class="mtext">DPPH scavenging</span>
-    <span class="mo">=</span>
-    <div close="]" open="[" class="mfenced">
-     <div class="mrow">
-      <div close=")" open="(" class="mfenced">
-       <div class="mrow">
-        <span class="mtext">control</span>
-        <span width="0.25em" class="mspace"/>
-        <span class="mi">OD</span>
-        <span class="mo">-</span>
-        <span class="mtext">sample</span>
-        <span width="0.25em" class="mspace"/>
-        <span class="mi">OD</span>
-       </div>
-      </div>
-      <span class="mo">/</span>
-      <span class="mtext">control</span>
-      <span width="0.25em" class="mspace"/>
-      <span class="mi">OD</span>
-     </div>
-    </div>
-    <span class="mo">×</span>
-    <span class="mn">100</span>
-   </div>
+   <math id="M2" display="block" class="math">
+    <mo class="mo">%</mo>
+    <mtext class="mtext">DPPH scavenging</mtext>
+    <mo class="mo">=</mo>
+    <mfenced close="]" open="[" class="mfenced">
+     <mrow class="mrow">
+      <mfenced close=")" open="(" class="mfenced">
+       <mrow class="mrow">
+        <mtext class="mtext">control</mtext>
+        <mspace width="0.25em" class="mspace"/>
+        <mi class="mi">OD</mi>
+        <mo class="mo">-</mo>
+        <mtext class="mtext">sample</mtext>
+        <mspace width="0.25em" class="mspace"/>
+        <mi class="mi">OD</mi>
+       </mrow>
+      </mfenced>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">control</mtext>
+      <mspace width="0.25em" class="mspace"/>
+      <mi class="mi">OD</mi>
+     </mrow>
+    </mfenced>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+   </math>
    <graphic xlink:href="12944_2017_645_Article_Equa.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

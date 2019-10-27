@@ -1,321 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table-wrap id="t7-aabc-10-065" position="anchor" class="table-wrap">
  <table frame="box" rules="none" class="table">
-  <tbody xmlns="http://www.w3.org/1999/xhtml">
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">
-     <bold class="bold" xmlns="">Reduction stage</bold>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Reduction stage</bold>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">1. Set the information system of antibacterial plants 
-     <italic class="italic" xmlns="">A</italic>=(
-     <italic class="italic" xmlns="">U,A</italic>)
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">1. Set the information system of antibacterial plants 
+     <italic class="italic">A</italic>=(
+     <italic class="italic">U,A</italic>)
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">2. Define the indiscernibility matrix 
-     <italic class="italic" xmlns="">M</italic>(
-     <italic class="italic" xmlns="">A</italic>)=(
-     <italic class="italic" xmlns="">c
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">2. Define the indiscernibility matrix 
+     <italic class="italic">M</italic>(
+     <italic class="italic">A</italic>)=(
+     <italic class="italic">c
+      <sub class="sub">ij</sub>
      </italic>)
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">3. Build the discernibility function 
-     <italic class="italic" xmlns="">F
-      <sub xmlns="http://www.w3.org/1999/xhtml">A</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">3. Build the discernibility function 
+     <italic class="italic">F
+      <sub class="sub">A</sub>
      </italic> for the information system 
-     <italic class="italic" xmlns="">A</italic> as in 
-     <xref ref-type="disp-formula" rid="fd1-aabc-10-065" class="xref" xmlns="">Equation (1)</xref>.
+     <italic class="italic">A</italic> as in 
+     <xref ref-type="disp-formula" rid="fd1-aabc-10-065" class="xref">Equation (1)</xref>.
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">4. Reduce M attributes using laws of Rough sets (Upper, and Lower Laws).</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">4. Reduce M attributes using laws of Rough sets (Upper, and Lower Laws).</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">5. Define 
-     <italic class="italic" xmlns="">d</italic> as number of non-empty rows of reduced 
-     <italic class="italic" xmlns="">M</italic>.
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">5. Define 
+     <italic class="italic">d</italic> as number of non-empty rows of reduced 
+     <italic class="italic">M</italic>.
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">6. Build families sets of 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">0</sub>, R
-      <sub xmlns="http://www.w3.org/1999/xhtml">1</sub>, R
-      <sub xmlns="http://www.w3.org/1999/xhtml">2</sub>,………… R
-      <sub xmlns="http://www.w3.org/1999/xhtml">d</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">6. Build families sets of 
+     <italic class="italic">R
+      <sub class="sub">0</sub>, R
+      <sub class="sub">1</sub>, R
+      <sub class="sub">2</sub>,………… R
+      <sub class="sub">d</sub>
      </italic> in the as follows:
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">7. Begin:</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">7. Begin:</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">8. 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">0</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">8. 
+     <italic class="italic">R
+      <sub class="sub">0</sub>
      </italic> is empty
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">9. For 
-     <italic class="italic" xmlns="">i</italic> = 1 to 
-     <italic class="italic" xmlns="">d</italic>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">9. For 
+     <italic class="italic">i</italic> = 1 to 
+     <italic class="italic">d</italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">10. 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">10. 
+     <italic class="italic">R
+      <sub class="sub">i</sub>
      </italic>=
-     <italic class="italic" xmlns="">S
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+     <italic class="italic">S
+      <sub class="sub">i</sub>
      </italic> ∪ 
-     <italic class="italic" xmlns="">T
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+     <italic class="italic">T
+      <sub class="sub">i</sub>
      </italic>, where 
-     <italic class="italic" xmlns="">S
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+     <italic class="italic">S
+      <sub class="sub">i</sub>
      </italic>={
-     <italic class="italic" xmlns="">R</italic>∈
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+     <italic class="italic">R</italic>∈
+     <italic class="italic">R
+      <sub class="sub">i</sub>
      </italic>
-     <sub>−</sub>
-     <italic class="italic" xmlns="">
-      <sub xmlns="http://www.w3.org/1999/xhtml">1</sub>:R
+     <sub class="sub">−</sub>
+     <italic class="italic">
+      <sub class="sub">1</sub>:R
      </italic> ∩ 
-     <italic class="italic" xmlns="">C
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub> ≠
+     <italic class="italic">C
+      <sub class="sub">i</sub> ≠
      </italic>∅}, and 
-     <div class="inline-formula">
-      <div id="mm12" class="math">
-       <div class="mrow">
-        <span class="mi">T</span>
-        <span class="mi">i</span>
-        <span class="mo">=</span>
-        <div class="msub">
-         <div class="mrow">
-          <div class="mrow">
-           <span class="mo">(</span>
-           <div class="mrow">
-            <span class="mi">R</span>
-            <span class="mo">∪</span>
-            <span class="mo">{</span>
-            <span class="mi">a</span>
-            <span class="mo">}</span>
-           </div>
-           <span class="mo">)</span>
-          </div>
-         </div>
-         <div class="mrow">
-          <span class="mi">a</span>
-          <span class="mo">∈</span>
-          <div class="msub">
-           <span class="mi">C</span>
-           <span class="mi">i</span>
-          </div>
-          <span class="mo">,</span>
-          <span class="mi">R</span>
-          <span class="mo">∈</span>
-          <div class="msub">
-           <span class="mi">R</span>
-           <span class="mi">i</span>
-          </div>
-          <span class="mo">,</span>
-          <span class="mi">R</span>
-          <span class="mo">∩</span>
-          <div class="msub">
-           <span class="mi">C</span>
-           <span class="mi">i</span>
-          </div>
-          <span class="mo">=</span>
-          <span class="mo">∅</span>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
+     <inline-formula class="inline-formula">
+      <math id="mm12" class="math">
+       <mrow class="mrow">
+        <mi class="mi">T</mi>
+        <mi class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <msub class="msub">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">R</mi>
+            <mo class="mo">∪</mo>
+            <mo class="mo">{</mo>
+            <mi class="mi">a</mi>
+            <mo class="mo">}</mo>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">a</mi>
+          <mo class="mo">∈</mo>
+          <msub class="msub">
+           <mi class="mi">C</mi>
+           <mi class="mi">i</mi>
+          </msub>
+          <mo class="mo">,</mo>
+          <mi class="mi">R</mi>
+          <mo class="mo">∈</mo>
+          <msub class="msub">
+           <mi class="mi">R</mi>
+           <mi class="mi">i</mi>
+          </msub>
+          <mo class="mo">,</mo>
+          <mi class="mi">R</mi>
+          <mo class="mo">∩</mo>
+          <msub class="msub">
+           <mi class="mi">C</mi>
+           <mi class="mi">i</mi>
+          </msub>
+          <mo class="mo">=</mo>
+          <mo class="mo">∅</mo>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">11. Calculate the accuracy α for each 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">11. Calculate the accuracy α for each 
+     <italic class="italic">R
+      <sub class="sub">i</sub>
      </italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">12. End</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">12. End</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">13. If α
-     <italic class="italic" xmlns="">
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">13. If α
+     <italic class="italic">
+      <sub class="sub">i</sub>
      </italic> &lt; 0.6
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">14. Remove dispensable attribute form each element of 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">d</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">14. Remove dispensable attribute form each element of 
+     <italic class="italic">R
+      <sub class="sub">d</sub>
      </italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">15. 
-     <italic class="italic" xmlns="">RED
-      <sub xmlns="http://www.w3.org/1999/xhtml">A</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">15. 
+     <italic class="italic">RED
+      <sub class="sub">A</sub>
      </italic> (
-     <italic class="italic" xmlns="">A</italic>)= 
-     <italic class="italic" xmlns="">R
-      <sub xmlns="http://www.w3.org/1999/xhtml">d</sub>
+     <italic class="italic">A</italic>)= 
+     <italic class="italic">R
+      <sub class="sub">d</sub>
      </italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">
-     <bold class="bold" xmlns="">Optimization Stage</bold>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Optimization Stage</bold>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">16. Set the Population P as a matrix 
-     <italic class="italic" xmlns="">P</italic> = [
-     <italic class="italic" xmlns="">N
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">16. Set the Population P as a matrix 
+     <italic class="italic">P</italic> = [
+     <italic class="italic">N
+      <sub class="sub">i</sub>
      </italic>
-     <sup class="sup" xmlns="">*</sup>
-     <italic class="italic" xmlns="">M
-      <sub xmlns="http://www.w3.org/1999/xhtml">j</sub>
+     <sup class="sup">*</sup>
+     <italic class="italic">M
+      <sub class="sub">j</sub>
      </italic>] where 
-     <italic class="italic" xmlns="">N</italic> is the bacteria type and 
-     <italic class="italic" xmlns="">M</italic> is the plant
+     <italic class="italic">N</italic> is the bacteria type and 
+     <italic class="italic">M</italic> is the plant
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">17. Set the particle is 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">17. Set the particle is 
+     <italic class="italic">P
+      <sub class="sub">ij</sub>
      </italic> which is the bacteria 
-     <italic class="italic" xmlns="">i</italic> on plant 
-     <italic class="italic" xmlns="">j</italic>
+     <italic class="italic">i</italic> on plant 
+     <italic class="italic">j</italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">18. For each particle</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">18. For each particle</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">19. Initialize position and velocity</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">19. Initialize position and velocity</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">20. End For</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">20. End For</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">21. Do</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">21. Do</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">22. For each particle</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">22. For each particle</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">23. Find in the particle neighborhood, the particles with the best fitness as 
-     <italic class="italic" xmlns="">Pbest</italic> and 
-     <italic class="italic" xmlns="">Gbest</italic>.
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">23. Find in the particle neighborhood, the particles with the best fitness as 
+     <italic class="italic">Pbest</italic> and 
+     <italic class="italic">Gbest</italic>.
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">24. Calculate 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">24. Calculate 
+     <italic class="italic">P
+      <sub class="sub">i</sub>
      </italic> velocity according to the velocity equation
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">25. 
-     <italic class="italic" xmlns="">V
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">25. 
+     <italic class="italic">V
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>+
-     <italic class="italic" xmlns="">1</italic>)=
-     <italic class="italic" xmlns="">wv
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+     <italic class="italic">k</italic>+
+     <italic class="italic">1</italic>)=
+     <italic class="italic">wv
+      <sub class="sub">ij</sub>
      </italic>+
-     <italic class="italic" xmlns="">c
-      <sub xmlns="http://www.w3.org/1999/xhtml">1</sub>r
-      <sub xmlns="http://www.w3.org/1999/xhtml">1</sub>
+     <italic class="italic">c
+      <sub class="sub">1</sub>r
+      <sub class="sub">1</sub>
      </italic>[
-     <italic class="italic" xmlns="">pbest-x
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+     <italic class="italic">pbest-x
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>)]+
-     <italic class="italic" xmlns="">c
-      <sub xmlns="http://www.w3.org/1999/xhtml">2</sub>r
-      <sub xmlns="http://www.w3.org/1999/xhtml">2</sub>
+     <italic class="italic">k</italic>)]+
+     <italic class="italic">c
+      <sub class="sub">2</sub>r
+      <sub class="sub">2</sub>
      </italic>[
-     <italic class="italic" xmlns="">gbest-x
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+     <italic class="italic">gbest-x
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>)]
+     <italic class="italic">k</italic>)]
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">26. Update 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">26. Update 
+     <italic class="italic">P
+      <sub class="sub">i</sub>
      </italic> position according to the position equation
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">27. 
-     <italic class="italic" xmlns="">X
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">27. 
+     <italic class="italic">X
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>+
-     <italic class="italic" xmlns="">1</italic>)=
-     <italic class="italic" xmlns="">x
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+     <italic class="italic">k</italic>+
+     <italic class="italic">1</italic>)=
+     <italic class="italic">x
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>)+
-     <italic class="italic" xmlns="">v
-      <sub xmlns="http://www.w3.org/1999/xhtml">ij</sub>
+     <italic class="italic">k</italic>)+
+     <italic class="italic">v
+      <sub class="sub">ij</sub>
      </italic>(
-     <italic class="italic" xmlns="">k</italic>+
-     <italic class="italic" xmlns="">1</italic>)
+     <italic class="italic">k</italic>+
+     <italic class="italic">1</italic>)
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">28. If the new position for 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">28. If the new position for 
+     <italic class="italic">P
+      <sub class="sub">i</sub>
      </italic> is less than its current position then
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">29. Modify the velocity and position for 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">29. Modify the velocity and position for 
+     <italic class="italic">P
+      <sub class="sub">i</sub>
      </italic> and 
-     <italic class="italic" xmlns="">Pbest</italic> and 
-     <italic class="italic" xmlns="">Gbest</italic>
+     <italic class="italic">Pbest</italic> and 
+     <italic class="italic">Gbest</italic>
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">30. Else</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">30. Else</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">31. Modify the velocity of 
-     <italic class="italic" xmlns="">P
-      <sub xmlns="http://www.w3.org/1999/xhtml">i</sub>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">31. Modify the velocity of 
+     <italic class="italic">P
+      <sub class="sub">i</sub>
      </italic> and keep its old position
     </td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">32. End For</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">32. End For</td>
    </tr>
-   <tr>
-    <td valign="top" align="left" rowspan="1" colspan="1">33. While maximum iterations or minimum error criteria is not attained</td>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">33. While maximum iterations or minimum error criteria is not attained</td>
    </tr>
   </tbody>
  </table>

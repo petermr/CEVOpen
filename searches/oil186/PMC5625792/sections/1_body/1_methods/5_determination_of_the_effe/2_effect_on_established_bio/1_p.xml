@@ -5,37 +5,37 @@
  <disp-formula id="Equb" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {\left[\left(\mathrm{OD}\ \left(\mathrm{growth}\ \mathrm{control}\right)\hbox{--} \mathrm{OD}\ \left(\mathrm{sample}\right)\right)/\mathrm{OD}\ \left(\mathrm{growth}\ \mathrm{control}\right)\right]}^{\ast }100 $$\end{document}</tex-math>
-   <div id="M4" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <div class="msup">
-     <div close="]" open="[" class="mfenced">
-      <div class="mrow">
-       <div close=")" open="(" class="mfenced">
-        <div class="mrow">
-         <span class="mi">OD</span>
-         <span width="0.25em" class="mspace"/>
-         <div close=")" open="(" class="mfenced">
-          <span class="mtext">growth control</span>
-         </div>
-         <span class="mo">–</span>
-         <span class="mi">OD</span>
-         <span width="0.25em" class="mspace"/>
-         <div close=")" open="(" class="mfenced">
-          <span class="mtext">sample</span>
-         </div>
-        </div>
-       </div>
-       <span class="mo">/</span>
-       <span class="mi">OD</span>
-       <span width="0.25em" class="mspace"/>
-       <div close=")" open="(" class="mfenced">
-        <span class="mtext">growth control</span>
-       </div>
-      </div>
-     </div>
-     <span class="mo">∗</span>
-    </div>
-    <span class="mn">100</span>
-   </div>
+   <math id="M4" display="block" class="math">
+    <msup class="msup">
+     <mfenced close="]" open="[" class="mfenced">
+      <mrow class="mrow">
+       <mfenced close=")" open="(" class="mfenced">
+        <mrow class="mrow">
+         <mi class="mi">OD</mi>
+         <mspace width="0.25em" class="mspace"/>
+         <mfenced close=")" open="(" class="mfenced">
+          <mtext class="mtext">growth control</mtext>
+         </mfenced>
+         <mo class="mo">–</mo>
+         <mi class="mi">OD</mi>
+         <mspace width="0.25em" class="mspace"/>
+         <mfenced close=")" open="(" class="mfenced">
+          <mtext class="mtext">sample</mtext>
+         </mfenced>
+        </mrow>
+       </mfenced>
+       <mo class="mo">/</mo>
+       <mi class="mi">OD</mi>
+       <mspace width="0.25em" class="mspace"/>
+       <mfenced close=")" open="(" class="mfenced">
+        <mtext class="mtext">growth control</mtext>
+       </mfenced>
+      </mrow>
+     </mfenced>
+     <mo class="mo">∗</mo>
+    </msup>
+    <mn class="mn">100</mn>
+   </math>
    <graphic xlink:href="12944_2017_580_Article_Equb.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

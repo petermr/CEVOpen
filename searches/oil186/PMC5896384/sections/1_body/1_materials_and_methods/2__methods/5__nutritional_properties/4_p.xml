@@ -2,130 +2,130 @@
 <p class="p">
  <disp-formula id="uneq3" class="disp-formula">
   <label class="label">Equation 3</label>
-  <div id="m3" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <span class="mi">H</span>
-    <span class="mi">H</span>
-    <span class="mo">=</span>
-    <div class="mfrac">
-     <div class="mrow">
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">18</span>
-        <span class="mo">:</span>
-        <span class="mn">1</span>
-        <span class="mi">C</span>
-        <span class="mi">I</span>
-        <span class="mn">39</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">18</span>
-        <span class="mo">:</span>
-        <span class="mi">Z</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">6</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">20</span>
-        <span class="mo">:</span>
-        <span class="mn">4</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">6</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">18</span>
-        <span class="mo">:</span>
-        <span class="mn">3</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">3</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">20</span>
-        <span class="mo">:</span>
-        <span class="mn">5</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">3</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">22</span>
-        <span class="mo">:</span>
-        <span class="mn">5</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">3</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">22</span>
-        <span class="mo">:</span>
-        <span class="mn">6</span>
-        <div accent="true" class="mover">
-         <span class="mi">ω</span>
-         <span class="mo">¯</span>
-        </div>
-        <span class="mn">3</span>
-       </div>
-      </div>
-     </div>
-     <div class="mrow">
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">14</span>
-        <span class="mo">:</span>
-        <span class="mn">0</span>
-       </div>
-      </div>
-      <span class="mo">+</span>
-      <div class="msub">
-       <span class="mi">C</span>
-       <div class="mrow">
-        <span class="mn">16</span>
-        <span class="mo">:</span>
-        <span class="mn">0</span>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="m3" class="math">
+   <mrow class="mrow">
+    <mi class="mi">H</mi>
+    <mi class="mi">H</mi>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">18</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">1</mn>
+        <mi class="mi">C</mi>
+        <mi class="mi">I</mi>
+        <mn class="mn">39</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">18</mn>
+        <mo class="mo">:</mo>
+        <mi class="mi">Z</mi>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">6</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">20</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">4</mn>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">6</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">18</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">3</mn>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">3</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">20</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">5</mn>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">3</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">22</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">5</mn>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">3</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">22</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">6</mn>
+        <mover accent="true" class="mover">
+         <mi class="mi">ω</mi>
+         <mo class="mo">¯</mo>
+        </mover>
+        <mn class="mn">3</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">14</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">C</mi>
+       <mrow class="mrow">
+        <mn class="mn">16</mn>
+        <mo class="mo">:</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
  </disp-formula>
 </p>

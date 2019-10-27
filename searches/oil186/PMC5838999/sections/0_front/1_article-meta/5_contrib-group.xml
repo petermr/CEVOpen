@@ -6,8 +6,8 @@
    <given-names class="given-names">Habib</given-names>
   </name>
   <address class="address">
-   <span class="phone" xmlns="http://www.w3.org/1999/xhtml">+216-73463374</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">mosbah_habib@yahoo.fr</span>
+   <phone class="phone">+216-73463374</phone>
+   <email class="email">mosbah_habib@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -17,7 +17,7 @@
    <given-names class="given-names">Hassiba</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">hassiba_chahdoura@yahoo.fr</span>
+   <email class="email">hassiba_chahdoura@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -27,7 +27,7 @@
    <given-names class="given-names">Jannet</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">jannet1.kamoun@gmail.com</span>
+   <email class="email">jannet1.kamoun@gmail.com</email>
   </address>
   <xref ref-type="aff" rid="Aff2" class="xref">2</xref>
  </contrib>
@@ -37,7 +37,7 @@
    <given-names class="given-names">Malek Besbes</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">angelkm2007@yahoo.fr</span>
+   <email class="email">angelkm2007@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff3" class="xref">3</xref>
  </contrib>
@@ -47,7 +47,7 @@
    <given-names class="given-names">Hanen</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">louati_hanen@yahoo.fr</span>
+   <email class="email">louati_hanen@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff2" class="xref">2</xref>
  </contrib>
@@ -57,7 +57,7 @@
    <given-names class="given-names">Saoussen</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">saoussenhammami@voila.fr</span>
+   <email class="email">saoussenhammami@voila.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff4" class="xref">4</xref>
  </contrib>
@@ -67,7 +67,7 @@
    <given-names class="given-names">Guido</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">guido.flamini@farm.unipi.it</span>
+   <email class="email">guido.flamini@farm.unipi.it</email>
   </address>
   <xref ref-type="aff" rid="Aff5" class="xref">5</xref>
   <xref ref-type="aff" rid="Aff6" class="xref">6</xref>
@@ -78,7 +78,7 @@
    <given-names class="given-names">Lotfi</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">lotfiachour@yahoo.fr</span>
+   <email class="email">lotfiachour@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -88,7 +88,7 @@
    <given-names class="given-names">Boulbaba</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">selmi_boulbaba@yahoo.fr</span>
+   <email class="email">selmi_boulbaba@yahoo.fr</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -97,19 +97,19 @@
  </aff>
  <aff id="Aff2" class="aff">
   <label class="label">2</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0001 2323 5644</span>
-   <span institution-id-type="GRID" class="institution-id">grid.412124.0</span>
-   <span class="institution">Laboratory of Biochemistry and Enzymatic Engineering of Lipases, ENIS, </span>
-  </div>3038 Sfax, Tunisia 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0001 2323 5644</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.412124.0</institution-id>
+   <institution class="institution">Laboratory of Biochemistry and Enzymatic Engineering of Lipases, ENIS, </institution>
+  </institution-wrap>3038 Sfax, Tunisia 
  </aff>
  <aff id="Aff3" class="aff">
   <label class="label">3</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0004 0593 5040</span>
-   <span institution-id-type="GRID" class="institution-id">grid.411838.7</span>
-   <span class="institution">Laboratory of Transmissible Diseases and Biological Active Substances, Faculty of Pharmacy, </span>
-  </div>Avicenne Avenue, 5000 Monastir, Tunisia 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0004 0593 5040</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.411838.7</institution-id>
+   <institution class="institution">Laboratory of Transmissible Diseases and Biological Active Substances, Faculty of Pharmacy, </institution>
+  </institution-wrap>Avicenne Avenue, 5000 Monastir, Tunisia 
  </aff>
  <aff id="Aff4" class="aff">
   <label class="label">4</label>Research Unit Applied Chemistry and Environment (UR13ES63), Faculty of Sciences of Monastir, Environment Avenue, 5019 Monastir, Tunisia 
@@ -119,11 +119,11 @@
  </aff>
  <aff id="Aff6" class="aff">
   <label class="label">6</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0004 1757 3729</span>
-   <span institution-id-type="GRID" class="institution-id">grid.5395.a</span>
-   <span class="institution">Centro Interdipartimentale di Ricerca “Nutraceutica e Alimentazione per la Salute”, </span>
-   <span class="institution">Università di Pisa, </span>
-  </div>Pisa, Italy 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0004 1757 3729</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.5395.a</institution-id>
+   <institution class="institution">Centro Interdipartimentale di Ricerca “Nutraceutica e Alimentazione per la Salute”, </institution>
+   <institution class="institution">Università di Pisa, </institution>
+  </institution-wrap>Pisa, Italy 
  </aff>
 </contrib-group>

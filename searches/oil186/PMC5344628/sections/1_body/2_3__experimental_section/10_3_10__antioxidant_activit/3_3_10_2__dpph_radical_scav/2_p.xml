@@ -2,54 +2,54 @@
 <p class="p">The radical scavenging activity was calculated according to the following equation: 
  <disp-formula id="FD3-materials-10-00045" class="disp-formula">
   <label class="label">(3)</label>
-  <div id="mm3" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div class="mrow">
-     <span class="mo">%</span>
-     <span mathvariant="bold-italic" class="mi">R</span>
-     <span mathvariant="bold-italic" class="mi">S</span>
-     <span mathvariant="bold-italic" class="mi">A</span>
-     <span class="mo">=</span>
-     <span class="mn">100</span>
-     <span class="mo">×</span>
-     <div class="mrow">
-      <span class="mo">(</span>
-      <div class="mrow">
-       <div class="mfrac">
-        <div class="mrow">
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">control</span>
-          </div>
-         </div>
-         <span class="mo">−</span>
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">sample</span>
-          </div>
-         </div>
-        </div>
-        <div class="mrow">
-         <div class="msub">
-          <span mathvariant="bold-italic" class="mi">A</span>
-          <div class="mrow">
-           <span class="mi">control</span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <span class="mo">)</span>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">%</mo>
+     <mi mathvariant="bold-italic" class="mi">R</mi>
+     <mi mathvariant="bold-italic" class="mi">S</mi>
+     <mi mathvariant="bold-italic" class="mi">A</mi>
+     <mo class="mo">=</mo>
+     <mn class="mn">100</mn>
+     <mo class="mo">×</mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">control</mi>
+          </mrow>
+         </msub>
+         <mo class="mo">−</mo>
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">sample</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi mathvariant="bold-italic" class="mi">A</mi>
+          <mrow class="mrow">
+           <mi class="mi">control</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
  </disp-formula> where 
  <italic class="italic">A</italic>
- <sub xmlns="http://www.w3.org/1999/xhtml">sample</sub> represents the absorbance of the sample solution in the presence of DPPH, and 
+ <sub class="sub">sample</sub> represents the absorbance of the sample solution in the presence of DPPH, and 
  <italic class="italic">A</italic>
- <sub xmlns="http://www.w3.org/1999/xhtml">control</sub> is the absorbance of the standard DPPH solution. For more details, see ref. [
+ <sub class="sub">control</sub> is the absorbance of the standard DPPH solution. For more details, see ref. [
  <xref rid="B72-materials-10-00045" ref-type="bibr" class="xref">72</xref>].
 </p>

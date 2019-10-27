@@ -4,24 +4,24 @@
  <disp-formula id="Equa" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ Mortality\kern0.5em \left(\%\right)=\frac{X-Y}{X}\times 100 $$\end{document}</tex-math>
-   <div id="M2" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span mathvariant="italic" class="mtext">Mortality</span>
-    <span width="0.5em" class="mspace"/>
-    <div close=")" open="(" class="mfenced">
-     <span class="mo">%</span>
-    </div>
-    <span class="mo">=</span>
-    <div class="mfrac">
-     <div class="mrow">
-      <span class="mi">X</span>
-      <span class="mo">−</span>
-      <span class="mi">Y</span>
-     </div>
-     <span class="mi">X</span>
-    </div>
-    <span class="mo">×</span>
-    <span class="mn">100</span>
-   </div>
+   <math id="M2" display="block" class="math">
+    <mtext mathvariant="italic" class="mtext">Mortality</mtext>
+    <mspace width="0.5em" class="mspace"/>
+    <mfenced close=")" open="(" class="mfenced">
+     <mo class="mo">%</mo>
+    </mfenced>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+      <mo class="mo">−</mo>
+      <mi class="mi">Y</mi>
+     </mrow>
+     <mi class="mi">X</mi>
+    </mfrac>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+   </math>
    <graphic xlink:href="13071_2017_2355_Article_Equa.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

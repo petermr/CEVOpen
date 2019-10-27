@@ -6,97 +6,97 @@
  <disp-formula id="Equa" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Lee}\ \mathrm{index}=\frac{\sqrt[3]{\mathrm{body}\ \mathrm{weight}\ \left(\mathrm{g}\right)}\times {10}^3}{\mathrm{naso}\hbox{-} \mathrm{anal}\ \mathrm{length}\ \left(\mathrm{cm}\right)} $$\end{document}</tex-math>
-   <div id="M2" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mi">Lee</span>
-    <span width="0.25em" class="mspace"/>
-    <span class="mtext">index</span>
-    <span class="mo">=</span>
-    <div class="mfrac">
-     <div class="mrow">
-      <span class="mroot">
-       <div class="mrow">
-        <span class="mtext">body weight</span>
-        <span width="0.25em" class="mspace"/>
-        <div close=")" open="(" class="mfenced">
-         <span mathvariant="normal" class="mi">g</span>
-        </div>
-       </div>
-       <span class="mn">3</span>
-      </span>
-      <span class="mo">×</span>
-      <div class="msup">
-       <span class="mn">10</span>
-       <span class="mn">3</span>
-      </div>
-     </div>
-     <div class="mrow">
-      <span class="mtext">naso</span>
-      <span class="mo">‐</span>
-      <span class="mtext">anal length</span>
-      <span width="0.25em" class="mspace"/>
-      <div close=")" open="(" class="mfenced">
-       <span class="mi">cm</span>
-      </div>
-     </div>
-    </div>
-   </div>
+   <math id="M2" display="block" class="math">
+    <mi class="mi">Lee</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mtext class="mtext">index</mtext>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mroot class="mroot">
+       <mrow class="mrow">
+        <mtext class="mtext">body weight</mtext>
+        <mspace width="0.25em" class="mspace"/>
+        <mfenced close=")" open="(" class="mfenced">
+         <mi mathvariant="normal" class="mi">g</mi>
+        </mfenced>
+       </mrow>
+       <mn class="mn">3</mn>
+      </mroot>
+      <mo class="mo">×</mo>
+      <msup class="msup">
+       <mn class="mn">10</mn>
+       <mn class="mn">3</mn>
+      </msup>
+     </mrow>
+     <mrow class="mrow">
+      <mtext class="mtext">naso</mtext>
+      <mo class="mo">‐</mo>
+      <mtext class="mtext">anal length</mtext>
+      <mspace width="0.25em" class="mspace"/>
+      <mfenced close=")" open="(" class="mfenced">
+       <mi class="mi">cm</mi>
+      </mfenced>
+     </mrow>
+    </mfrac>
+   </math>
    <graphic xlink:href="12986_2018_275_Article_Equa.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>
  <disp-formula id="Equb" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{The}\ \mathrm{ratio}\ \mathrm{of}\ \mathrm{fat}\ \mathrm{to}\ \mathrm{body}\ \mathrm{weight}=\frac{\mathrm{epididymal}\ \mathrm{fat}\ \mathrm{pads}+\mathrm{perirenal}\ \mathrm{fat}\ \mathrm{pads}}{\mathrm{body}\ \mathrm{weight}}\times 100\% $$\end{document}</tex-math>
-   <div id="M4" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mtext">The ratio of</span>
-    <span width="0.25em" class="mspace"/>
-    <span class="mi">fat</span>
-    <span width="0.25em" class="mspace"/>
-    <span class="mtext">to body weight</span>
-    <span class="mo">=</span>
-    <div class="mfrac">
-     <div class="mrow">
-      <span class="mtext">epididymal</span>
-      <span width="0.25em" class="mspace"/>
-      <span class="mi">fat</span>
-      <span width="0.25em" class="mspace"/>
-      <span class="mtext">pads</span>
-      <span class="mo">+</span>
-      <span class="mtext">perirenal</span>
-      <span width="0.25em" class="mspace"/>
-      <span class="mi">fat</span>
-      <span width="0.25em" class="mspace"/>
-      <span class="mtext">pads</span>
-     </div>
-     <span class="mtext">body weight</span>
-    </div>
-    <span class="mo">×</span>
-    <span class="mn">100</span>
-    <span mathvariant="normal" class="mo">%</span>
-   </div>
+   <math id="M4" display="block" class="math">
+    <mtext class="mtext">The ratio of</mtext>
+    <mspace width="0.25em" class="mspace"/>
+    <mi class="mi">fat</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mtext class="mtext">to body weight</mtext>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mtext class="mtext">epididymal</mtext>
+      <mspace width="0.25em" class="mspace"/>
+      <mi class="mi">fat</mi>
+      <mspace width="0.25em" class="mspace"/>
+      <mtext class="mtext">pads</mtext>
+      <mo class="mo">+</mo>
+      <mtext class="mtext">perirenal</mtext>
+      <mspace width="0.25em" class="mspace"/>
+      <mi class="mi">fat</mi>
+      <mspace width="0.25em" class="mspace"/>
+      <mtext class="mtext">pads</mtext>
+     </mrow>
+     <mtext class="mtext">body weight</mtext>
+    </mfrac>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+    <mo mathvariant="normal" class="mo">%</mo>
+   </math>
    <graphic xlink:href="12986_2018_275_Article_Equb.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>
  <disp-formula id="Equc" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M5" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Atherosclerosis}\ \mathrm{index}=\frac{\mathrm{TC}-\mathrm{HDL}-\mathrm{C}}{\mathrm{LDL}-\mathrm{C}} $$\end{document}</tex-math>
-   <div id="M6" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mtext">Atherosclerosis index</span>
-    <span class="mo">=</span>
-    <div class="mfrac">
-     <div class="mrow">
-      <span class="mi">TC</span>
-      <span class="mo">-</span>
-      <span class="mi">HDL</span>
-      <span class="mo">-</span>
-      <span mathvariant="normal" class="mi">C</span>
-     </div>
-     <div class="mrow">
-      <span class="mi">LDL</span>
-      <span class="mo">-</span>
-      <span mathvariant="normal" class="mi">C</span>
-     </div>
-    </div>
-   </div>
+   <math id="M6" display="block" class="math">
+    <mtext class="mtext">Atherosclerosis index</mtext>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mi class="mi">TC</mi>
+      <mo class="mo">-</mo>
+      <mi class="mi">HDL</mi>
+      <mo class="mo">-</mo>
+      <mi mathvariant="normal" class="mi">C</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">LDL</mi>
+      <mo class="mo">-</mo>
+      <mi mathvariant="normal" class="mi">C</mi>
+     </mrow>
+    </mfrac>
+   </math>
    <graphic xlink:href="12986_2018_275_Article_Equc.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

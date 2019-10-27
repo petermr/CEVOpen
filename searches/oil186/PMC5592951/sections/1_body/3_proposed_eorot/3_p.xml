@@ -1,143 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p class="p">The reduction process based on the RS theory is the first step in the proposed EOROT algorithm. It is divided into three phases. 1) It begins with reducing the number of the compounds for every EO by keeping only the compounds that affect the EO concentration. This process depends on defining the threshold value for the compound’s concentration percentage by 2% and ignoring the compounds that do not exceed this threshold. 2) After the reduction of compounds, the RS starts establishing some logic rules; these rules can help in determining the EOs that have a high antibacterial effect generally without testing them on certain types of bacteria as defined in the following equation: 
  <disp-formula id="fd4-aabc-10-065" class="disp-formula">
-  <div id="mm6" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div columnalign="left" class="mtable">
-    <div class="mtr">
-     <div class="mtd">
-      <div class="msub">
-       <span class="mi">F</span>
-       <span class="mi">A</span>
-      </div>
-      <span class="mo">=</span>
-      <span class="mo">{</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">E</span>
-      <span class="mo">∧</span>
-      <span class="mi">V</span>
-      <span class="mo">.</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">E</span>
-      <span class="mo">∧</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">D</span>
-      <span class="mo">∧</span>
-      <span class="mi">V</span>
-      <span class="mo">.</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-     </div>
-    </div>
-    <div class="mtr">
-     <div class="mtd">
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">D</span>
-      <span class="mo">∧</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">D</span>
-      <span class="mo">∧</span>
-      <span class="mi">L</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">C</span>
-      <span class="mo">∧</span>
-      <span class="mi">V</span>
-      <span class="mo">.</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">C</span>
-      <span class="mo">∧</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-     </div>
-    </div>
-    <div class="mtr">
-     <div class="mtd">
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">C</span>
-      <span class="mo">∧</span>
-      <span class="mi">L</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">B</span>
-      <span class="mo">∧</span>
-      <span class="mi">V</span>
-      <span class="mo">.</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">B</span>
-      <span class="mo">∧</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">B</span>
-      <span class="mo">∧</span>
-      <span class="mi">L</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-     </div>
-    </div>
-    <div class="mtr">
-     <div class="mtd">
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">B</span>
-      <span class="mo">∧</span>
-      <span class="mi">N</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">A</span>
-      <span class="mo">∧</span>
-      <span class="mi">V</span>
-      <span class="mo">.</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">A</span>
-      <span class="mo">∧</span>
-      <span class="mi">H</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">A</span>
-      <span class="mo">∧</span>
-      <span class="mi">L</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">∨</span>
-     </div>
-    </div>
-    <div class="mtr">
-     <div class="mtd">
-      <span width="6.2em" class="mspace"/>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">A</span>
-      <span class="mo">∧</span>
-      <span class="mi">N</span>
-      <span stretchy="false" class="mo">)</span>
-      <span class="mo">}</span>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="mm6" class="math">
+   <mtable columnalign="left" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <msub class="msub">
+       <mi class="mi">F</mi>
+       <mi class="mi">A</mi>
+      </msub>
+      <mo class="mo">=</mo>
+      <mo class="mo">{</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">E</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">V</mi>
+      <mo class="mo">.</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">E</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">D</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">V</mi>
+      <mo class="mo">.</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">D</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">D</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">L</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">C</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">V</mi>
+      <mo class="mo">.</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">C</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">C</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">L</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">B</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">V</mi>
+      <mo class="mo">.</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">B</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">B</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">L</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">B</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">N</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">A</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">V</mi>
+      <mo class="mo">.</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">A</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">H</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">A</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">L</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">∨</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mspace width="6.2em" class="mspace"/>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">A</mi>
+      <mo class="mo">∧</mo>
+      <mi class="mi">N</mi>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">}</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
   <label class="label">(4)</label>
  </disp-formula>where the symbols 
  <italic class="italic">A</italic>, 

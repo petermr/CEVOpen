@@ -7,36 +7,36 @@
  <disp-formula id="Equb" class="disp-formula">
   <alternatives class="alternatives">
    <tex-math id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Inhibition}\ \mathrm{percentage}\ \left(\%\right)=\left(1-\left({\Delta \mathrm{OD}}_{\mathrm{sample}}/{\Delta \mathrm{OD}}_{\mathrm{control}}\right)\right)\times 100. $$\end{document}</tex-math>
-   <div id="M4" display="block" class="math" xmlns="http://www.w3.org/1999/xhtml">
-    <span class="mtext">Inhibition percentage</span>
-    <span width="0.25em" class="mspace"/>
-    <div close=")" open="(" class="mfenced">
-     <span class="mo">%</span>
-    </div>
-    <span class="mo">=</span>
-    <div close=")" open="(" class="mfenced">
-     <div class="mrow">
-      <span class="mn">1</span>
-      <span class="mo">−</span>
-      <div close=")" open="(" class="mfenced">
-       <div class="mrow">
-        <div class="msub">
-         <span class="mi">ΔOD</span>
-         <span class="mtext">sample</span>
-        </div>
-        <span class="mo">/</span>
-        <div class="msub">
-         <span class="mi">ΔOD</span>
-         <span class="mtext">control</span>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <span class="mo">×</span>
-    <span class="mn">100</span>
-    <span class="mo">.</span>
-   </div>
+   <math id="M4" display="block" class="math">
+    <mtext class="mtext">Inhibition percentage</mtext>
+    <mspace width="0.25em" class="mspace"/>
+    <mfenced close=")" open="(" class="mfenced">
+     <mo class="mo">%</mo>
+    </mfenced>
+    <mo class="mo">=</mo>
+    <mfenced close=")" open="(" class="mfenced">
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mfenced close=")" open="(" class="mfenced">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">ΔOD</mi>
+         <mtext class="mtext">sample</mtext>
+        </msub>
+        <mo class="mo">/</mo>
+        <msub class="msub">
+         <mi class="mi">ΔOD</mi>
+         <mtext class="mtext">control</mtext>
+        </msub>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfenced>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+    <mo class="mo">.</mo>
+   </math>
    <graphic xlink:href="12906_2018_2145_Article_Equb.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>

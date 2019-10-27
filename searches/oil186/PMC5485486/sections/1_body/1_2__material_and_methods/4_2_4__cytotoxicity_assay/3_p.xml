@@ -2,54 +2,54 @@
 <p class="p">The viability was evaluated by the following formula:
  <disp-formula id="eq1" class="disp-formula">
   <label class="label">(1)</label>
-  <div id="M1" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div style="T1" class="mtable">
-    <div class="mtr">
-     <div class="mtd">
-      <span class="mi">%</span>
-      <span class="mo"> </span>
-      <span class="mo"> </span>
-      <span mathvariant="normal" class="mi">V</span>
-      <span mathvariant="normal" class="mi">i</span>
-      <span mathvariant="normal" class="mi">a</span>
-      <span mathvariant="normal" class="mi">b</span>
-      <span mathvariant="normal" class="mi">i</span>
-      <span mathvariant="normal" class="mi">l</span>
-      <span mathvariant="normal" class="mi">i</span>
-      <span mathvariant="normal" class="mi">t</span>
-      <span mathvariant="normal" class="mi">y</span>
-      <span class="mo">=</span>
-      <div separators="|" class="mfenced">
-       <div class="mrow">
-        <span height="13.2pt" depth="9.55399pt" class="mspace"/>
-        <div class="mfrac">
-         <div class="mrow">
-          <span mathvariant="normal" class="mi">O</span>
-          <span mathvariant="normal" class="mi">D</span>
-         </div>
-         <div class="mrow">
-          <div class="msub">
-           <div class="mrow">
-            <span mathvariant="normal" class="mi">O</span>
-            <span mathvariant="normal" class="mi">D</span>
-           </div>
-           <div class="mrow">
-            <span class="mn">0</span>
-           </div>
-          </div>
-         </div>
-        </div>
-        <span height="13.2pt" depth="9.55399pt" class="mspace"/>
-       </div>
-      </div>
-      <span class="mo">×</span>
-      <span mathvariant="normal" class="mn">100</span>
-      <span class="mo">.</span>
-     </div>
-    </div>
-   </div>
-  </div>
+  <math id="M1" class="math">
+   <mtable style="T1" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mi class="mi">%</mi>
+      <mo class="mo"> </mo>
+      <mo class="mo"> </mo>
+      <mi mathvariant="normal" class="mi">V</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+      <mi mathvariant="normal" class="mi">a</mi>
+      <mi mathvariant="normal" class="mi">b</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+      <mi mathvariant="normal" class="mi">l</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+      <mi mathvariant="normal" class="mi">t</mi>
+      <mi mathvariant="normal" class="mi">y</mi>
+      <mo class="mo">=</mo>
+      <mfenced separators="|" class="mfenced">
+       <mrow class="mrow">
+        <mspace height="13.2pt" depth="9.55399pt" class="mspace"/>
+        <mfrac class="mfrac">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">O</mi>
+          <mi mathvariant="normal" class="mi">D</mi>
+         </mrow>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi mathvariant="normal" class="mi">O</mi>
+            <mi mathvariant="normal" class="mi">D</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mn class="mn">0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mspace height="13.2pt" depth="9.55399pt" class="mspace"/>
+       </mrow>
+      </mfenced>
+      <mo class="mo">×</mo>
+      <mn mathvariant="normal" class="mn">100</mn>
+      <mo class="mo">.</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
  </disp-formula>OD is the optical density of the solution in wells containing cells treated with essential oils and OD
- <sub xmlns="http://www.w3.org/1999/xhtml">0</sub> is the optical density of the solution in wells containing DMSO treated cells (negative control). The test was performed in triplicate. The IC
- <sub xmlns="http://www.w3.org/1999/xhtml">50</sub> values were graphically determined using the Microsoft excel 2013 edition.
+ <sub class="sub">0</sub> is the optical density of the solution in wells containing DMSO treated cells (negative control). The test was performed in triplicate. The IC
+ <sub class="sub">50</sub> values were graphically determined using the Microsoft excel 2013 edition.
 </p>

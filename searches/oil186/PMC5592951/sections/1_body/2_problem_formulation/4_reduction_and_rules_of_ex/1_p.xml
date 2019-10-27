@@ -7,139 +7,139 @@
  <italic class="italic">C</italic> and decision attributes 
  <italic class="italic">D</italic>.
  <xref rid="b30-aabc-10-065" ref-type="bibr" class="xref">30</xref> The relation between the condition and the decision attributes in RS is defined by the indiscernibility degree of the data points handled using the concept of sets’ approximation. There are two main types of the approximation in RS, upper and lower, which are denoted as 
- <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
-  <div id="mm1" class="math">
-   <div class="mrow">
-    <div accent="true" class="mover">
-     <span class="mi">R</span>
-     <span class="mo">¯</span>
-    </div>
-    <span stretchy="false" class="mo">(</span>
-    <span class="mi">X</span>
-    <span stretchy="false" class="mo">)</span>
-   </div>
-  </div>
- </div> and 
- <div class="inline-formula" xmlns="http://www.w3.org/1999/xhtml">
-  <div id="mm2" class="math">
-   <div class="mrow">
-    <div accentunder="true" class="munder">
-     <span class="mi">R</span>
-     <span stretchy="true" class="mo">_</span>
-    </div>
-    <span stretchy="false" class="mo">(</span>
-    <span class="mi">X</span>
-    <span stretchy="false" class="mo">)</span>
-   </div>
-  </div>
- </div>, respectively; they are defined as follows in 
+ <inline-formula class="inline-formula">
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mover accent="true" class="mover">
+     <mi class="mi">R</mi>
+     <mo class="mo">¯</mo>
+    </mover>
+    <mo stretchy="false" class="mo">(</mo>
+    <mi class="mi">X</mi>
+    <mo stretchy="false" class="mo">)</mo>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <munder accentunder="true" class="munder">
+     <mi class="mi">R</mi>
+     <mo stretchy="true" class="mo">_</mo>
+    </munder>
+    <mo stretchy="false" class="mo">(</mo>
+    <mi class="mi">X</mi>
+    <mo stretchy="false" class="mo">)</mo>
+   </mrow>
+  </math>
+ </inline-formula>, respectively; they are defined as follows in 
  <xref ref-type="disp-formula" rid="fd1-aabc-10-065" class="xref">Equations 1</xref> and 
  <xref ref-type="disp-formula" rid="fd2-aabc-10-065" class="xref">2</xref>: 
  <disp-formula id="fd1-aabc-10-065" class="disp-formula">
-  <div id="mm3" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div accent="true" class="mover">
-     <span class="mi">R</span>
-     <span class="mo">¯</span>
-    </div>
-    <span stretchy="false" class="mo">(</span>
-    <span class="mi">X</span>
-    <span stretchy="false" class="mo">)</span>
-    <span class="mo">=</span>
-    <span class="mo">{</span>
-    <span class="mi">x</span>
-    <span class="mo">∈</span>
-    <span class="mi">U</span>
-    <span class="mo">|</span>
-    <div class="msub">
-     <div class="mrow">
-      <div class="mrow">
-       <span class="mo">[</span>
-       <span class="mi">x</span>
-       <span class="mo">]</span>
-      </div>
-     </div>
-     <span class="mi">R</span>
-    </div>
-    <span class="mo">∩</span>
-    <span class="mi">X</span>
-    <span class="mo">≠</span>
-    <span class="mo">∅</span>
-    <span class="mo">}</span>
-   </div>
-  </div>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mover accent="true" class="mover">
+     <mi class="mi">R</mi>
+     <mo class="mo">¯</mo>
+    </mover>
+    <mo stretchy="false" class="mo">(</mo>
+    <mi class="mi">X</mi>
+    <mo stretchy="false" class="mo">)</mo>
+    <mo class="mo">=</mo>
+    <mo class="mo">{</mo>
+    <mi class="mi">x</mi>
+    <mo class="mo">∈</mo>
+    <mi class="mi">U</mi>
+    <mo class="mo">|</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mrow class="mrow">
+       <mo class="mo">[</mo>
+       <mi class="mi">x</mi>
+       <mo class="mo">]</mo>
+      </mrow>
+     </mrow>
+     <mi class="mi">R</mi>
+    </msub>
+    <mo class="mo">∩</mo>
+    <mi class="mi">X</mi>
+    <mo class="mo">≠</mo>
+    <mo class="mo">∅</mo>
+    <mo class="mo">}</mo>
+   </mrow>
+  </math>
   <label class="label">(1)</label>
  </disp-formula>
  <disp-formula id="fd2-aabc-10-065" class="disp-formula">
-  <div id="mm4" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div accentunder="true" class="munder">
-     <span class="mi">R</span>
-     <span stretchy="true" class="mo">_</span>
-    </div>
-    <span stretchy="false" class="mo">(</span>
-    <span class="mi">X</span>
-    <span stretchy="false" class="mo">)</span>
-    <span class="mo">=</span>
-    <span class="mo">{</span>
-    <span class="mi">x</span>
-    <span class="mo">∈</span>
-    <span class="mi">U</span>
-    <span class="mo">|</span>
-    <div class="msub">
-     <div class="mrow">
-      <div class="mrow">
-       <span class="mo">[</span>
-       <span class="mi">x</span>
-       <span class="mo">]</span>
-      </div>
-     </div>
-     <span class="mi">R</span>
-    </div>
-    <span class="mo">⊆</span>
-    <span class="mi">X</span>
-    <span class="mo">}</span>
-   </div>
-  </div>
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <munder accentunder="true" class="munder">
+     <mi class="mi">R</mi>
+     <mo stretchy="true" class="mo">_</mo>
+    </munder>
+    <mo stretchy="false" class="mo">(</mo>
+    <mi class="mi">X</mi>
+    <mo stretchy="false" class="mo">)</mo>
+    <mo class="mo">=</mo>
+    <mo class="mo">{</mo>
+    <mi class="mi">x</mi>
+    <mo class="mo">∈</mo>
+    <mi class="mi">U</mi>
+    <mo class="mo">|</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mrow class="mrow">
+       <mo class="mo">[</mo>
+       <mi class="mi">x</mi>
+       <mo class="mo">]</mo>
+      </mrow>
+     </mrow>
+     <mi class="mi">R</mi>
+    </msub>
+    <mo class="mo">⊆</mo>
+    <mi class="mi">X</mi>
+    <mo class="mo">}</mo>
+   </mrow>
+  </math>
   <label class="label">(2)</label>
  </disp-formula>According to the determined upper and lower approximation of the sets, the accuracy of the classification results can be quantified as follows: 
  <disp-formula id="fd3-aabc-10-065" class="disp-formula">
-  <div id="mm5" class="math" xmlns="http://www.w3.org/1999/xhtml">
-   <div class="mrow">
-    <div class="msub">
-     <span class="mi">α</span>
-     <span class="mi">c</span>
-    </div>
-    <span class="mo">=</span>
-    <div class="mrow">
-     <span class="mo">|</span>
-     <div class="mrow">
-      <div accentunder="true" class="munder">
-       <span class="mi">R</span>
-       <span stretchy="true" class="mo">_</span>
-      </div>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">X</span>
-      <span stretchy="false" class="mo">)</span>
-     </div>
-     <span class="mo">|</span>
-    </div>
-    <span class="mo">/</span>
-    <div class="mrow">
-     <span class="mo">|</span>
-     <div class="mrow">
-      <div accent="true" class="mover">
-       <span class="mi">R</span>
-       <span class="mo">¯</span>
-      </div>
-      <span stretchy="false" class="mo">(</span>
-      <span class="mi">X</span>
-      <span stretchy="false" class="mo">)</span>
-     </div>
-     <span class="mo">|</span>
-    </div>
-   </div>
-  </div>
+  <math id="mm5" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">α</mi>
+     <mi class="mi">c</mi>
+    </msub>
+    <mo class="mo">=</mo>
+    <mrow class="mrow">
+     <mo class="mo">|</mo>
+     <mrow class="mrow">
+      <munder accentunder="true" class="munder">
+       <mi class="mi">R</mi>
+       <mo stretchy="true" class="mo">_</mo>
+      </munder>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">X</mi>
+      <mo stretchy="false" class="mo">)</mo>
+     </mrow>
+     <mo class="mo">|</mo>
+    </mrow>
+    <mo class="mo">/</mo>
+    <mrow class="mrow">
+     <mo class="mo">|</mo>
+     <mrow class="mrow">
+      <mover accent="true" class="mover">
+       <mi class="mi">R</mi>
+       <mo class="mo">¯</mo>
+      </mover>
+      <mo stretchy="false" class="mo">(</mo>
+      <mi class="mi">X</mi>
+      <mo stretchy="false" class="mo">)</mo>
+     </mrow>
+     <mo class="mo">|</mo>
+    </mrow>
+   </mrow>
+  </math>
   <label class="label">(3)</label>
  </disp-formula>These approximations are the base of finding the reduction for data set. They can also be used to deduce the rules between the condition and decision attributes. The syntax of the decision rules usually has the form of logic expression or if … then rule.
  <xref rid="b30-aabc-10-065" ref-type="bibr" class="xref">30</xref>,

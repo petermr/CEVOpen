@@ -27,7 +27,7 @@
    <given-names class="given-names">Andrew E.</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">apomerantz@slb.com</span>
+   <email class="email">apomerantz@slb.com</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
  </contrib>
@@ -36,10 +36,10 @@
  </aff>
  <aff id="Aff2" class="aff">
   <label class="label">2</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000000121546924</span>
-   <span institution-id-type="GRID" class="institution-id">grid.2865.9</span>
-   <span class="institution">U.S. Geological Survey, </span>
-  </div>Reston, VA 20192 USA 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000000121546924</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.2865.9</institution-id>
+   <institution class="institution">U.S. Geological Survey, </institution>
+  </institution-wrap>Reston, VA 20192 USA 
  </aff>
 </contrib-group>

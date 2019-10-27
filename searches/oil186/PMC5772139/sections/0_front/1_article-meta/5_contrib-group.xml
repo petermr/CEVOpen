@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contrib-group class="contrib-group">
  <contrib contrib-type="author" corresp="yes" class="contrib">
-  <span contrib-id-type="orcid" class="contrib-id" xmlns="http://www.w3.org/1999/xhtml">http://orcid.org/0000-0003-4452-4570</span>
+  <contrib-id contrib-id-type="orcid" class="contrib-id">http://orcid.org/0000-0003-4452-4570</contrib-id>
   <name class="name">
    <surname class="surname">Zuin</surname>
    <given-names class="given-names">Vânia G.</given-names>
   </name>
   <address class="address">
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">vaniaz@ufscar.br</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">vania.zuin@york.ac.uk</span>
+   <email class="email">vaniaz@ufscar.br</email>
+   <email class="email">vania.zuin@york.ac.uk</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref">1</xref>
   <xref ref-type="aff" rid="Aff2" class="xref">2</xref>
@@ -22,19 +22,19 @@
  </contrib>
  <aff id="Aff1" class="aff">
   <label class="label">1</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0001 2163 588X</span>
-   <span institution-id-type="GRID" class="institution-id">grid.411247.5</span>
-   <span class="institution">Department of Chemistry, </span>
-   <span class="institution">Federal University of São Carlos, </span>
-  </div>Rod. Washington Luís, km 235, São Carlos, 13565-905 Brazil 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0001 2163 588X</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.411247.5</institution-id>
+   <institution class="institution">Department of Chemistry, </institution>
+   <institution class="institution">Federal University of São Carlos, </institution>
+  </institution-wrap>Rod. Washington Luís, km 235, São Carlos, 13565-905 Brazil 
  </aff>
  <aff id="Aff2" class="aff">
   <label class="label">2</label>
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0004 1936 9668</span>
-   <span institution-id-type="GRID" class="institution-id">grid.5685.e</span>
-   <span class="institution">Green Chemistry Centre of Excellence, University of York, </span>
-  </div>North Yorkshire, YO10 5DD UK 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0004 1936 9668</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.5685.e</institution-id>
+   <institution class="institution">Green Chemistry Centre of Excellence, University of York, </institution>
+  </institution-wrap>North Yorkshire, YO10 5DD UK 
  </aff>
 </contrib-group>

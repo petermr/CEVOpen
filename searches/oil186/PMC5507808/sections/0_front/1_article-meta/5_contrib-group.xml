@@ -6,9 +6,9 @@
    <given-names class="given-names">Euloge S.</given-names>
   </name>
   <address class="address">
-   <span class="phone" xmlns="http://www.w3.org/1999/xhtml">(+229)96843378</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">eulogesenan@yahoo.fr</span>
-   <span class="email" xmlns="http://www.w3.org/1999/xhtml">euloge.adjou@epac.uac.bj</span>
+   <phone class="phone">(+229)96843378</phone>
+   <email class="email">eulogesenan@yahoo.fr</email>
+   <email class="email">euloge.adjou@epac.uac.bj</email>
   </address>
   <xref ref-type="aff" rid="Aff1" class="xref"/>
  </contrib>
@@ -41,11 +41,11 @@
   <xref ref-type="aff" rid="Aff1" class="xref"/>
  </contrib>
  <aff id="Aff1" class="aff">
-  <div class="institution-wrap" xmlns="http://www.w3.org/1999/xhtml">
-   <span institution-id-type="ISNI" class="institution-id">0000 0001 0382 0205</span>
-   <span institution-id-type="GRID" class="institution-id">grid.412037.3</span>
-   <span class="institution">Laboratory of Research and Study in Applied Chemistry, Polytechnic School of Abomey-Calavi, </span>
-   <span class="institution">University of Abomey-Calavi, </span>
-  </div>01, P.O.B: 2009, Cotonou, Bénin 
+  <institution-wrap class="institution-wrap">
+   <institution-id institution-id-type="ISNI" class="institution-id">0000 0001 0382 0205</institution-id>
+   <institution-id institution-id-type="GRID" class="institution-id">grid.412037.3</institution-id>
+   <institution class="institution">Laboratory of Research and Study in Applied Chemistry, Polytechnic School of Abomey-Calavi, </institution>
+   <institution class="institution">University of Abomey-Calavi, </institution>
+  </institution-wrap>01, P.O.B: 2009, Cotonou, Bénin 
  </aff>
 </contrib-group>
