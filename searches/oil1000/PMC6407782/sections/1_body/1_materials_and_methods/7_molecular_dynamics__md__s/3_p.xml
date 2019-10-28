@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Energy minimization was performed in two steps. In each step, 1,000 steepest descent and conjugate gradient algorithm cycles were applied. In these steps, bad contacts and possible steric conflicts were removed, and the protein system acquired the most energetically favorable conformational state. First, the protein structure was restrained with a harmonic force constant of 100 kcal/mol Å
+ <sup class="sup">−2,</sup> and the water molecules and counterions were not treated with harmonic restraints. Then, the harmonic constraint was removed to perform the MD run of the protein system (protein, water, and counterions). This system was then heated to 300 K in five steps for 500 ps. In the first four steps, we applied a harmonic force constant of 25 kcal/mol Å
+ <sup class="sup">−2</sup> to restrain all heavy atoms. In the last heating step, the harmonic force constraint was removed. The Langevin thermostat [
+ <xref rid="pone.0213393.ref033" ref-type="bibr" class="xref">33</xref>] within a collision frequency of 2 ps
+ <sup class="sup">−1</sup>was used to maintain the temperature. Thus, 5 ns of MD simulation without harmonic restraints at 300 K was carried out to obtain system equilibrium. Finally, a 100-ns MD simulation was performed for all protein systems.
+</p>

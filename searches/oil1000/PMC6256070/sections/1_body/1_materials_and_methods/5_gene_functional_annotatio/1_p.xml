@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Gene putative function was annotated by using diamond v0.8.22 against the NCBI non-redundant protein sequences (Nr) database (e-value = Ie
+ <sup class="sup">−5</sup>), NCBI blast against the NCBI non-redundant nucleotide sequences (Nt) database (e-value = Ie
+ <sup class="sup">−5</sup>), HMMER 3.0 against the Protein family (Pfam) database (e-value = 0.01), diamond v0.8.22 against the Cluster of Orthologous Groups of proteins (KOG/COG) database (e-value = Ie
+ <sup class="sup">−3</sup>), diamond v0.8.22 against A manually annotated and reviewed protein sequence database (Swiss-Prot) database (e-value = Ie
+ <sup class="sup">−5</sup>), KEGG automatic annotation server against the Kyoto Encyclopedia of Genes and Genomes (KEGG) database (e-value = Ie
+ <sup class="sup">−10</sup>), and Blast2GO against the Gene Onthology (GO) database (e-value = Ie
+ <sup class="sup">−6</sup>). Transcription factors (TFs) were identified by doing BLASTx against all plant transcription factors database (
+ <ext-link ext-link-type="uri" xlink:href="http://planttfdb.cbi.pku.edu.cn/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://planttfdb.cbi.pku.edu.cn/</ext-link>), at e-value 1e
+ <sup class="sup">−5</sup> and query coverage 50%. The CDS prediction was performed by blast into nr and Swissprot protein database and the ORF protein coding sequences were extracted and translated into protein sequences according to standard codon. For those unmapped sequences or mapped but with no predicted sequences the sequences were subjected to prediction by estscan (3.0.3) software.
+</p>

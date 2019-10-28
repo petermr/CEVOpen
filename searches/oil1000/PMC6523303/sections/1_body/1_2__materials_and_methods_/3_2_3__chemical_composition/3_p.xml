@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">ADC (1) and ADCi (2) were calculated according to the following equations:
+ <disp-formula id="FD1-animals-09-00181" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">A</mi>
+     <mi class="mi">D</mi>
+     <mi class="mi">C</mi>
+     <mo class="mo"> </mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mo class="mo">%</mo>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">=</mo>
+     <mn class="mn">100</mn>
+     <mo class="mo">−</mo>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mrow class="mrow">
+       <mn class="mn">100</mn>
+       <mo class="mo">×</mo>
+       <mrow class="mrow">
+        <mo class="mo">(</mo>
+        <mrow class="mrow">
+         <mi class="mi">I</mi>
+         <mi class="mi">d</mi>
+         <mo class="mo">/</mo>
+         <mi class="mi">I</mi>
+         <mi class="mi">f</mi>
+         <mo class="mo">×</mo>
+         <mi class="mi">N</mi>
+         <mi class="mi">f</mi>
+         <mo class="mo">/</mo>
+         <mi class="mi">N</mi>
+         <mi class="mi">d</mi>
+        </mrow>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mrow>
+      <mo class="mo">]</mo>
+     </mrow>
+     <mo class="mo"> </mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mn class="mn">1</mn>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD2-animals-09-00181" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">A</mi>
+     <mi class="mi">D</mi>
+     <mi class="mi">C</mi>
+     <mi class="mi">i</mi>
+     <mo class="mo"> </mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mo class="mo">%</mo>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">=</mo>
+     <mi class="mi">A</mi>
+     <mi class="mi">D</mi>
+     <mi class="mi">C</mi>
+     <mi class="mi">d</mi>
+     <mi class="mi">t</mi>
+     <mo class="mo">+</mo>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mrow class="mrow">
+       <mi class="mi">A</mi>
+       <mi class="mi">D</mi>
+       <mi class="mi">C</mi>
+       <mi class="mi">d</mi>
+       <mi class="mi">t</mi>
+       <mo class="mo">−</mo>
+       <mi class="mi">A</mi>
+       <mi class="mi">D</mi>
+       <mi class="mi">C</mi>
+       <mi class="mi">r</mi>
+       <mi class="mi">e</mi>
+       <mi class="mi">f</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">×</mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">r</mi>
+       <mo class="mo">×</mo>
+       <mi class="mi">N</mi>
+       <mi class="mi">r</mi>
+       <mi class="mi">e</mi>
+       <mi class="mi">f</mi>
+       <mo class="mo">/</mo>
+       <mi class="mi">i</mi>
+       <mo class="mo">×</mo>
+       <mi class="mi">N</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo stretchy="false" class="mo">]</mo>
+     <mo class="mo"> </mo>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mn class="mn">2</mn>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> in which 
+ <list list-type="simple" class="list">
+  <list-item class="list-item">
+   <label class="label">(1)</label>
+   <p class="p">
+    <italic class="italic">ADC</italic> is the apparent digestibility coefficient;
+   </p>
+   <p class="p">
+    <italic class="italic">Id</italic> is chromic oxide’s concentration in the diet (%); 
+   </p>
+   <p class="p">
+    <italic class="italic">If</italic> is chromic oxide’s concentration in the feces (%); 
+   </p>
+   <p class="p">
+    <italic class="italic">Nd</italic> is the nutrient’s concentration in the diet (%); 
+   </p>
+   <p class="p">
+    <italic class="italic">Nf</italic> is the nutrient’s concentration in the feces (%);
+   </p>
+  </list-item>
+  <list-item class="list-item">
+   <label class="label">(2)</label>
+   <p class="p">
+    <italic class="italic">ADCi</italic> is the nutrient’s apparent digestibility coefficient in the test ingredient;
+   </p>
+   <p class="p">
+    <italic class="italic">ADCdt</italic> is the nutrient’s apparent digestibility coefficient in the test diet; 
+   </p>
+   <p class="p">
+    <italic class="italic">ADCref</italic> is the nutrient’s apparent digestibility coefficient in the reference diet; 
+   </p>
+   <p class="p">
+    <italic class="italic">r</italic> is the reference diet’s proportion in the test diet (0.6994); 
+   </p>
+   <p class="p">
+    <italic class="italic">i</italic> is the test ingredient’s proportion in the test diet (0.3); 
+   </p>
+   <p class="p">
+    <italic class="italic">Nref</italic> is the nutrient’s concentration in the reference diet (% as fed); 
+   </p>
+   <p class="p">
+    <italic class="italic">Ni</italic> is the nutrient’s concentration in the ingredient (% as fed).
+   </p>
+  </list-item>
+ </list>
+</p>

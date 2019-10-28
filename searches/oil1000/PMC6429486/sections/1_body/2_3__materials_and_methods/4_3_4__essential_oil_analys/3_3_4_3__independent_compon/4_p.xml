@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">ICA aims to determine both A (proportions) and S (ICs), knowing only X, so it calculates a demixing matrix, W, that approximates the inverse mixing matrix so that the source signals (rows of the matrix S) may be recovered from the matrix of the measured signals (matrix X) by [
+ <xref rid="B53-ijms-20-01026" ref-type="bibr" class="xref">53</xref>,
+ <xref rid="B54-ijms-20-01026" ref-type="bibr" class="xref">54</xref>]: 
+ <disp-formula class="disp-formula"> S = W × X 
+  <label class="label">(2)</label>
+ </disp-formula>
+</p>

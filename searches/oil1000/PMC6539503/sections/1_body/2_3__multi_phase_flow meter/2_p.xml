@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">
+ <inline-formula class="inline-formula">
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">A</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the cross-section area of the pipe. 
+ <inline-formula class="inline-formula">
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mi class="mi">α</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula class="inline-formula">
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mi class="mi">β</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm5" class="math">
+   <mrow class="mrow">
+    <mi class="mi">χ</mi>
+   </mrow>
+  </math>
+ </inline-formula> are the gas void fraction, water fraction and oil fraction respectively. 
+ <inline-formula class="inline-formula">
+  <math id="mm6" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mspace width="4pt" class="mspace"/>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">g</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula class="inline-formula">
+  <math id="mm7" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mspace width="4pt" class="mspace"/>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm8" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mspace width="4pt" class="mspace"/>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the instantaneous velocity of gas, water and oil. The sum of the fraction of the three phases should equal one, which means that only two of the three phase fractions need to be measured. Equation (
+ <xref ref-type="disp-formula" rid="FD1-sensors-19-02184" class="xref">1</xref>) can then be simplified as Equation (
+ <xref ref-type="disp-formula" rid="FD2-sensors-19-02184" class="xref">2</xref>):
+ <disp-formula id="FD2-sensors-19-02184" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm9" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Q</mi>
+     <mo class="mo">=</mo>
+     <mi class="mi">A</mi>
+     <mo class="mo">(</mo>
+     <mi class="mi">α</mi>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">g</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mi class="mi">β</mi>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">w</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mi class="mi">α</mi>
+       <mo class="mo">+</mo>
+       <mi class="mi">β</mi>
+       <mo class="mo">)</mo>
+      </mrow>
+      <mo class="mo">]</mo>
+     </mrow>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">o</mi>
+     </msub>
+     <mo class="mo">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Cross-correlation analysis was performed to analyse the stability of samples pre- and post-fixation. Analysis was performed using a custom-written plugin for Fiji (
+ <xref rid="B64" ref-type="bibr" class="xref">64</xref>) using tools from the NanoJ-Core software package (
+ <xref rid="B55" ref-type="bibr" class="xref">55</xref>). Phase contrast images were first drift-corrected using the drift correction functionality of NanoJ-Core. A normalized 2D cross-correlation matrix (CCM) was calculated between each frame of the image series and the frame immediately preceding it. The peak intensity in the CCM indicates the similarity between the two images, where a value of 1.0 indicates perfect similarity between the images. The plugin for this analysis is including in the latest release of the NanoJ-Core software package as “Similarity Evolution”.
+</p>

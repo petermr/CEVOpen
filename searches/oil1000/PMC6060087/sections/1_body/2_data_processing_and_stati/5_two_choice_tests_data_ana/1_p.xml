@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0160" class="p">Hypothesis testing about the moth oviposition preference in the two-choice experiments was analyzed using classical nonparametric methods in which for each individual the observations consists of the number of times choice 1 (or choice 2) is preferred to lay eggs [
+ <xref rid="bib0290" ref-type="bibr" class="xref">58</xref>]. Data were examined to verify whether they met the assumptions of normality, and all statistical comparisons were made using two-sample 
+ <italic class="italic">t</italic>-tests. The hypothesis of 
+ <italic class="italic">H
+  <sub class="sub">0</sub>:m
+  <sub class="sub">1</sub>-m
+  <sub class="sub">2</sub>
+ </italic> 
+ <italic class="italic">= d
+  <sub class="sub">0</sub>
+ </italic> versus 
+ <italic class="italic">H
+  <sub class="sub">1</sub>:m
+  <sub class="sub">1</sub>-m
+  <sub class="sub">2</sub>
+ </italic> 
+ <italic class="italic">≠ d
+  <sub class="sub">0</sub>
+ </italic>, where 
+ <italic class="italic">m
+  <sub class="sub">1</sub>
+ </italic> and 
+ <italic class="italic">m
+  <sub class="sub">2</sub>
+ </italic> are the population means and 
+ <italic class="italic">d</italic>
+ <sub class="sub">
+  <italic class="italic">0</italic>
+ </sub> is the hypothesized difference between the two oviposition means, was tested for α = 
+ <italic class="italic">0.05</italic> level of significance [
+ <xref rid="bib0210" ref-type="bibr" class="xref">42</xref>]. The 
+ <italic class="italic">t</italic>-statistic is calculated as:
+ <disp-formula id="eq0070" class="disp-formula">
+  <label class="label">(14)</label>
+  <math id="M26" altimg="si26.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">t</mi>
+    <mo class="mo">=</mo>
+    <mo stretchy="false" class="mo">(</mo>
+    <mover accent="true" class="mover">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">x</mi>
+       <mn class="mn">1</mn>
+      </msub>
+     </mrow>
+     <mo stretchy="true" class="mo">¯</mo>
+    </mover>
+    <mo class="mo">−</mo>
+    <mover accent="true" class="mover">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">x</mi>
+       <mn class="mn">2</mn>
+      </msub>
+     </mrow>
+     <mo stretchy="true" class="mo">¯</mo>
+    </mover>
+    <mo class="mo">/</mo>
+    <msqrt class="msqrt">
+     <mrow class="mrow">
+      <mo stretchy="false" class="mo">{</mo>
+      <mfenced open="[" close="]" class="mfenced">
+       <mrow class="mrow">
+        <msup class="msup">
+         <mrow class="mrow">
+          <mfenced open="(" close=")" class="mfenced">
+           <mrow class="mrow">
+            <msub class="msub">
+             <mi class="mi">n</mi>
+             <mn class="mn">1</mn>
+            </msub>
+            <mo class="mo">−</mo>
+            <mn class="mn">1</mn>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mn class="mn">2</mn>
+        </msup>
+        <mo class="mo">⋅</mo>
+        <msubsup class="msubsup">
+         <mi class="mi">s</mi>
+         <mn class="mn">1</mn>
+         <mn class="mn">2</mn>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msup class="msup">
+         <mrow class="mrow">
+          <mfenced open="(" close=")" class="mfenced">
+           <mrow class="mrow">
+            <msub class="msub">
+             <mi class="mi">n</mi>
+             <mn class="mn">2</mn>
+            </msub>
+            <mo class="mo">−</mo>
+            <mn class="mn">1</mn>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mn class="mn">2</mn>
+        </msup>
+        <mo class="mo">⋅</mo>
+        <msubsup class="msubsup">
+         <mi class="mi">s</mi>
+         <mn class="mn">2</mn>
+         <mn class="mn">2</mn>
+        </msubsup>
+       </mrow>
+      </mfenced>
+      <mo class="mo">/</mo>
+      <mfenced open="(" close=")" class="mfenced">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">n</mi>
+         <mn class="mn">1</mn>
+        </msub>
+        <mo class="mo">+</mo>
+        <msub class="msub">
+         <mi class="mi">n</mi>
+         <mn class="mn">2</mn>
+        </msub>
+        <mo class="mo">−</mo>
+        <mn class="mn">2</mn>
+       </mrow>
+      </mfenced>
+      <mo stretchy="false" class="mo">}</mo>
+      <mo class="mo">⋅</mo>
+      <mo stretchy="false" class="mo">[</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">1</mn>
+      </msub>
+      <mo class="mo">+</mo>
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">2</mn>
+      </msub>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">/</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">1</mn>
+      </msub>
+      <mo class="mo">⋅</mo>
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">2</mn>
+      </msub>
+     </mrow>
+    </msqrt>
+    <mo stretchy="false" class="mo">)</mo>
+    <mo stretchy="false" class="mo">]</mo>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

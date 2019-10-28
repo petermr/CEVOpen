@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29" class="p">Confocal Laser Scanning Microscopy (CLSM) was used to assess fluorescent probes’ mobility by Fluorescence Recovery After Photobleaching (FRAP). Experiments were performed using a Leica TCS SP8 confocal microscope (Leica Microsystems, Germany) equipped with 63× oil-immersion objective and 488 nm and 553 nm laser lines in a controlled temperature room (20 ± 2 °C). 60-µm-thick sections of the different samples were cut from polyethylene glycol-embedded fragments, thoroughly washed and incubated overnight in 0.01% (w/v) fluorescent probe solutions. Sections were then mounted in the probe solutions between slide and cover slip sealed with polish for microscopy analysis. Acousto-Optical Tunable Filters (AOTF) were set to collect fluorescence emission from 562 to 650 nm. Images with a size of 128 × 256 pixels were acquired using a ×4.5 zoom factor with a scan frequency of 1400 Hz. A circular region of interest (ROI1) with a diameter of 3 µm was selected for bleaching. This ROI1 was located in the xylem of the poplar sections and centred on the secondary wall of early wood cells. The fluorescence intensity in ROI1 was corrected using the fluorescence measured in three control ROIs located nearby, and normalised to get a value of 1 before bleaching and of 0 immediately after bleaching according to (Eq. 
+ <xref rid="Equ1" ref-type="" class="xref">1</xref>), where 
+ <italic class="italic">I</italic>
+ <sub class="sub">t</sub> is the normalised fluorescence intensity of ROI1 at time 
+ <italic class="italic">t</italic>, 
+ <italic class="italic">I</italic>
+ <sub class="sub">0</sub> is the normalised intensity of ROI1 immediately after bleaching and 
+ <italic class="italic">I</italic>
+ <sub class="sub">pre</sub> is the normalised intensity of ROI1 before the bleaching step.
+ <disp-formula id="Equ1" class="disp-formula">
+  <label class="label">1</label>
+  <alternatives class="alternatives">
+   <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R\left( t \right) = \frac{{I_{\text{t}} - I_{ 0} }}{{I_{\text{pre}} - I_{ 0} }}$$\end{document}</tex-math>
+   <math id="M2" display="block" class="math">
+    <mrow class="mrow">
+     <mi class="mi">R</mi>
+     <mfenced close=")" open="(" class="mfenced">
+      <mi class="mi">t</mi>
+     </mfenced>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">I</mi>
+        <mtext class="mtext">t</mtext>
+       </msub>
+       <mo class="mo">-</mo>
+       <msub class="msub">
+        <mi class="mi">I</mi>
+        <mn class="mn">0</mn>
+       </msub>
+      </mrow>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">I</mi>
+        <mtext class="mtext">pre</mtext>
+       </msub>
+       <mo class="mo">-</mo>
+       <msub class="msub">
+        <mi class="mi">I</mi>
+        <mn class="mn">0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="13068_2018_1267_Article_Equ1.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

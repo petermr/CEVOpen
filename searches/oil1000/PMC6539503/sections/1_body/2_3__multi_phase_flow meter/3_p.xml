@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">To calculate the mass flow rate
+ <inline-formula class="inline-formula">
+  <math id="mm10" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mspace width="4pt" class="mspace"/>
+     <mi class="mi">M</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of the multi-phase flow, the density of each phase needs to be obtained. The mass flow rate is calculated in Equation (
+ <xref ref-type="disp-formula" rid="FD3-sensors-19-02184" class="xref">3</xref>):
+ <disp-formula id="FD3-sensors-19-02184" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm11" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">M</mi>
+     <mo class="mo">=</mo>
+     <mi class="mi">A</mi>
+     <mo class="mo">(</mo>
+     <mi class="mi">α</mi>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">g</mi>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">g</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mi class="mi">β</mi>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">w</mi>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">w</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mi class="mi">α</mi>
+       <mo class="mo">+</mo>
+       <mi class="mi">β</mi>
+       <mo class="mo">)</mo>
+      </mrow>
+      <mo class="mo">]</mo>
+     </mrow>
+     <msub class="msub">
+      <mi class="mi">v</mi>
+      <mi class="mi">o</mi>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">o</mi>
+     </msub>
+     <mo class="mo">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm12" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">ρ</mi>
+     <mi class="mi">g</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula class="inline-formula">
+  <math id="mm13" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">ρ</mi>
+     <mi class="mi">w</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm14" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">ρ</mi>
+     <mi class="mi">o</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the density of the gas, water and oil [
+ <xref rid="B6-sensors-19-02184" ref-type="bibr" class="xref">6</xref>]. To monitor the volumetric and/or mass flow rate of the multi-phase flow, different technologies have been invented. Over a lifetime of the well each of the parameter can vary. Hence, it is important for the MPFM to measure both density, velocity and phase fraction of the flow.
+</p>

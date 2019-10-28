@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Clean reads were obtained by removing reads containing adapter, poly-N and low quality reads. The high-quality reads were then 
+ <italic class="italic">de novo</italic> assembled using the Trinity platform (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/trinityrnaseq/trinityrnaseq/wiki" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/trinityrnaseq/trinityrnaseq/wiki</ext-link>) with the parameters “K-mer=25, min_kmer_cov=2.” The reads obtained for all samples were assembled together. Short reads were first assembled into draft transcript contigs, then pooled into components and finally assembled into transcripts. The longest transcript was taken as one unigene. All transcriptome sequence data were deposited in NCBI Short Read Achieve (SRA) database under the accession number 
+ <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="SRP133897" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">SRP133897</ext-link>.
+</p>

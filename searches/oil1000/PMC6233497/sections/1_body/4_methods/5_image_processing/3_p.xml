@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par77" class="p">We used a nonlinear unmixing chain developed by Heylen et al. [
+ <xref ref-type="bibr" rid="CR37" class="xref">37</xref>, 
+ <xref ref-type="bibr" rid="CR41" class="xref">41</xref>], where endmember extraction and determination of the corresponding abundances is based on graph-geodesic distances between the pixels located in the n dimensional spectral space. The distance metric is based on internal distances of the pixel spectra along a K-nearest neighbour graph and thus accounts for nonlinearities in the data cloud [
+ <xref ref-type="bibr" rid="CR41" class="xref">41</xref>]. Applying this method to HCARS data is based on the following idea: The spectral differences of the pixel in a hyperspectral image reflect the underlying nonlinear CARS process, namely differences of the quadratically concentration dependent resonant signals and the nonresonant background. Thus, the geometrical representation of the pixel spectra in n-dimensional spectral space should yield a nonlinear shape of the resulting data cloud [
+ <xref ref-type="bibr" rid="CR41" class="xref">41</xref>]. An unmixing model considering spectral differences along a K-nearest neighbour graph should therefore better reflect the nonlinear nature of CARS than a linear unmixing model, which does not account for the internal structure of the data cloud.
+</p>

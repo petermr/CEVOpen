@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The tension resultant in the section of the abscissa 
+ <italic class="italic">x</italic> is the traction force to which the bar is submitted:
+ <disp-formula id="FD2-materials-12-01232" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm11" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">F</mi>
+     <mo class="mo">=</mo>
+     <munder class="munder">
+      <mrow class="mrow">
+       <mspace width="0.277778em" class="mspace"/>
+       <mpadded width="-3pt" class="mpadded">
+        <mo class="mo">∫</mo>
+       </mpadded>
+       <mpadded width="-3pt" class="mpadded">
+        <mo class="mo">∫</mo>
+       </mpadded>
+       <mspace width="0.277778em" class="mspace"/>
+      </mrow>
+      <mfenced open="(" close=")" class="mfenced">
+       <mi class="mi">S</mi>
+      </mfenced>
+     </munder>
+     <mi class="mi">σ</mi>
+     <mfenced open="(" close=")" class="mfenced">
+      <mi class="mi">x</mi>
+     </mfenced>
+     <mi class="mi">d</mi>
+     <mi class="mi">S</mi>
+     <mo class="mo">=</mo>
+     <mi class="mi">b</mi>
+     <munderover class="munderover">
+      <mo class="mo">∑</mo>
+      <mrow class="mrow">
+       <mi class="mi">k</mi>
+       <mo class="mo">=</mo>
+       <mn class="mn">1</mn>
+      </mrow>
+      <mi class="mi">n</mi>
+     </munderover>
+     <msub class="msub">
+      <mi class="mi">h</mi>
+      <mi class="mi">k</mi>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">E</mi>
+      <mi class="mi">k</mi>
+     </msub>
+     <mfenced open="(" close=")" class="mfenced">
+      <mi class="mi">x</mi>
+     </mfenced>
+     <mo class="mo">·</mo>
+     <mi class="mi">ε</mi>
+     <mfenced open="(" close=")" class="mfenced">
+      <mi class="mi">x</mi>
+     </mfenced>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm12" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">h</mi>
+     <mi class="mi">k</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the thickness of the layer 
+ <italic class="italic">k</italic>.
+</p>

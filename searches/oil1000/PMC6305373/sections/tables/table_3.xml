@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T3" position="float" class="table-wrap">
+ <label class="label">Table 3</label>
+ <caption class="caption">
+  <p class="p">Tables of results for the untargeted and targeted chemical datasets.</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th valign="top" align="center" colspan="5" style="border-bottom: thin solid #000000;" rowspan="1" class="th">
+     <bold class="bold">Untargeted dataset</bold>
+    </th>
+    <th valign="top" align="center" colspan="5" style="border-bottom: thin solid #000000;" rowspan="1" class="th">
+     <bold class="bold">Targeted dataset</bold>
+    </th>
+   </tr>
+   <tr class="tr">
+    <th valign="top" align="center" colspan="3" style="border-bottom: thin solid #000000;" rowspan="1" class="th">
+     <bold class="bold">MGLM-ANOVA</bold>
+    </th>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th valign="top" align="center" colspan="3" style="border-bottom: thin solid #000000;" rowspan="1" class="th">
+     <bold class="bold">MGLM-ANOVA</bold>
+    </th>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+   </tr>
+   <tr class="tr">
+    <th valign="top" align="left" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Parameter</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Df</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Df difference</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">Deviance</italic>
+     </bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">P</italic>-value
+     </bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Parameter</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Df</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Df difference</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">Deviance</italic>
+     </bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">P</italic>-value
+     </bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Species</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">34</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">3</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">741.1</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">0.002</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">Species</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">34</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">3</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">649.8</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">0.002</bold>
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="center" colspan="5" style="border-bottom: thin solid #000000;" rowspan="1" class="td">
+     <bold class="bold">PERMANOVA (Species as Strata)</bold>
+    </td>
+    <td valign="top" align="center" colspan="5" style="border-bottom: thin solid #000000;" rowspan="1" class="td">
+     <bold class="bold">PERMANOVA (species as strata)</bold>
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Parameter</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Df</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">F</bold>
+     </italic>
+     <bold class="bold">-value</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">R</bold>
+     </italic>
+     <sup class="sup">
+      <bold class="bold">2</bold>
+     </sup>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">P</bold>
+     </italic>
+     <bold class="bold">-value</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Parameter</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Df</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">F</bold>
+     </italic>
+     <bold class="bold">-value</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">R</bold>
+     </italic>
+     <sup class="sup">
+      <bold class="bold">2</bold>
+     </sup>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <italic class="italic">
+      <bold class="bold">P</bold>
+     </italic>
+     <bold class="bold">-value</bold>
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Year</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">1</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">3.275</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">0.083</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">
+     <bold class="bold">0.021</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">Year</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">2.700</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.070</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.272</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Altitude</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.372</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.042</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.607</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">Altitude</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.788</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.055</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.417</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">PCNM1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.884</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.056</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.139</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">PCNM1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.956</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.058</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.244</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">PCNM2</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.741</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.022</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.910</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">PCNM2</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.935</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.028</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.964</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <p class="p">
+   <italic class="italic">Initially, species effects were tested for using multivariate generalized modeling coupled with analysis of variance (MGLM-ANOVA). Secondly, PERMANOVAs were performed individually for year of collection, altitude and geography (as principal coordinates of neighbor matrix 1 and 2). Bold text represents significant effects (P &lt; 0.050)</italic>.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

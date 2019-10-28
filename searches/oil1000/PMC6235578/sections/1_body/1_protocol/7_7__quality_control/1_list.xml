@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order" class="list">
+ <list-item class="list-item">
+  <p class="p">To be confident with the obtained automated contact angle, conduct a quality check by comparing the automated contact angle values measured from the segmented images using the AlRatrout 
+   <italic class="italic">et al.</italic>
+   <xref rid="B26" ref-type="bibr" class="xref">27</xref> method to the values measured manually from raw X-ray images using the approach of Andrew
+   <italic class="italic"> et al.</italic>
+   <xref rid="B23" ref-type="bibr" class="xref">24</xref>.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">To conduct the quality check, crop and segment a sub-volume from each mini-sample (
+   <xref ref-type="fig" rid="F8" class="xref">Figure 8</xref>). Use the data visualization and data analysis software to crop a small sub-volume containing 1 or more oil ganglia that can be used to perform the manual contact angle measurement.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Run the automated code to measure the 
+   <italic class="italic">in situ</italic> contact angle distribution of these sub-volumes. Please refer to step 6 for how this is done.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Load the *_Layered_Smooth.vtk file in the data visualization software to visualize the surfaces and select the 
+   <bold class="bold">Region</bold> option to view the oil and brine phases, see 
+   <xref ref-type="fig" rid="F9" class="xref">Figure 9</xref>. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Click on 
+      <bold class="bold">Probe Location</bold> and add the spatial coordinates (
+      <italic class="italic">x</italic>, 
+      <italic class="italic">y</italic>, and 
+      <italic class="italic">z</italic>) of a randomly selected contact angle point measured using the automated contact angle method (
+      <italic class="italic">i.e.</italic>, 60°). Locate its spatial location at the three-phase contact line, such as that at 
+      <xref ref-type="fig" rid="F9" class="xref">Figure 9</xref>
+      <bold class="bold">a</bold> showing the location of the selected point (60°) as a yellow dot.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Then, go to the data visualization and data analysis software to conduct the manual contact angle measurement. Load the segmented sub-volume image.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Filter the noise from the raw X-ray image using a noise reduction filter to be used for the manual contact angle measurement only. NOTE: A non-local means filter
+   <xref rid="B48" ref-type="bibr" class="xref">49</xref>
+   <xref rid="B49" ref-type="bibr" class="xref">50</xref> was applied in this case.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Use the segmented image to render the rock transparent and only visualize the oil and brine phases to help in identifying the location of the selected point, as shown in 
+   <xref ref-type="fig" rid="F9" class="xref">Figure 9</xref>
+   <bold class="bold">b</bold>. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Use the 
+      <bold class="bold">Arithmetic</bold> module to perform the calculation on the segmented image. In the 
+      <bold class="bold">Expression</bold>, specify the mathematical expression to isolate the oil and brine phases separately [
+      <italic class="italic">i.e.,</italic> the mathematical expression 
+      <bold class="bold">a==1</bold> means isolate phase 1 (brine in this case)].
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Then, use the module 
+      <bold class="bold">Generate Surface</bold> to generate the oil and brine surfaces, and use the module 
+      <bold class="bold">Surface View</bold> to visualize the oil and brine surfaces in the desired colors.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Once the location of the point is identified, bring the filtered-raw X-ray image slice to the same location, as shown in 
+   <xref ref-type="fig" rid="F9" class="xref">Figure 9</xref>
+   <bold class="bold">c</bold>. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Open the module 
+      <bold class="bold">Slice</bold> and change the 
+      <bold class="bold">Translate</bold> value.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Extract the three-phase contact line using the 
+   <bold class="bold">Label Interfaces</bold> module on the segmented image. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Type 
+      <bold class="bold">3</bold> in the 
+      <bold class="bold">Number of Phases</bold> box. Select 
+      <bold class="bold">No</bold> in the 
+      <bold class="bold">Only Black Voxels</bold>, apply and open the 
+      <bold class="bold">Isosurface</bold> module on the labeled interfaces, and change the 
+      <bold class="bold">Colormap</bold> and 
+      <bold class="bold">Threshold</bold> values as desired for the effective visualization.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">In the 
+   <bold class="bold">Slice</bold> module, turn on the 
+   <bold class="bold">Plane Definition</bold>, and in the options, select 
+   <bold class="bold">Show dragger</bold>. Hold the dragger and move it to the desired location at which that manual contact angle will be measured. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">In the 
+      <bold class="bold">Display Options</bold>, select the rotate option. Hold the rotate handle to rotate the slice.Rotate the slice to be perpendicular to the three-phase contact line and measure the contact angle manually using the angle measurement tool as shown in 
+      <xref ref-type="fig" rid="F9" class="xref">Figure 9</xref>
+      <bold class="bold">d</bold>. NOTE: Here, the contact angle was found to be 61°.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Plot the manually measured contact angle against the automated contact angle value measured at the same location to confirm the accuracy of the automated contact angle measurements. Look at 
+   <xref ref-type="fig" rid="F10" class="xref">Figure 10</xref> to observe the comparison measurements of the contact angle between the automated method and the manual method of the sub-volume from mini-sample 1.
+  </p>
+ </list-item>
+</list>

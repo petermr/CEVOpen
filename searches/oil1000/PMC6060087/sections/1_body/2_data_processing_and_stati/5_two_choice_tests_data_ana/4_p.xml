@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0175" class="p">The test statistic is defined below:
+ <disp-formula id="eq0080" class="disp-formula">
+  <label class="label">(16)</label>
+  <math id="M34" altimg="si34.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">U</mi>
+     <mn class="mn">1</mn>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">1</mn>
+    </msub>
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">2</mn>
+    </msub>
+    <mo class="mo">+</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">1</mn>
+      </msub>
+      <mfenced open="(" close=")" class="mfenced">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">n</mi>
+         <mn class="mn">1</mn>
+        </msub>
+        <mo class="mo">+</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+      </mfenced>
+     </mrow>
+     <mn class="mn">2</mn>
+    </mfrac>
+    <mo class="mo">−</mo>
+    <msub class="msub">
+     <mi class="mi">R</mi>
+     <mn class="mn">1</mn>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="eq0085" class="disp-formula">
+  <label class="label">(17)</label>
+  <math id="M35" altimg="si35.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mtext class="mtext">and</mtext>
+    <mtext class="mtext"> </mtext>
+    <mtext class="mtext"> </mtext>
+    <msub class="msub">
+     <mi class="mi">U</mi>
+     <mn class="mn">2</mn>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">1</mn>
+    </msub>
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">2</mn>
+    </msub>
+    <mo class="mo">+</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mn class="mn">2</mn>
+      </msub>
+      <mfenced open="(" close=")" class="mfenced">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">n</mi>
+         <mn class="mn">2</mn>
+        </msub>
+        <mo class="mo">+</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+      </mfenced>
+     </mrow>
+     <mn class="mn">2</mn>
+    </mfrac>
+    <mo class="mo">−</mo>
+    <msub class="msub">
+     <mi class="mi">R</mi>
+     <mn class="mn">2</mn>
+    </msub>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic class="italic">R
+  <sub class="sub">1</sub>
+ </italic> and 
+ <italic class="italic">R
+  <sub class="sub">2</sub>
+ </italic> denote the sum of the ranks in samples 
+ <inline-formula class="inline-formula">
+  <math id="M36" altimg="si31.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">1</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="M37" altimg="si32.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">n</mi>
+     <mn class="mn">2</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, respectively. For equal populations we expect 
+ <italic class="italic">R
+  <sub class="sub">1</sub>
+ </italic>and 
+ <italic class="italic">R
+  <sub class="sub">2</sub>
+ </italic>to be similar. The smaller value 
+ <italic class="italic">U</italic>
+ <sub class="sub">i</sub> of 
+ <italic class="italic">U</italic>
+ <sub class="sub">1</sub> and 
+ <italic class="italic">U</italic>
+ <sub class="sub">2</sub> is then used to consult significance tables. The theoretical range of 
+ <italic class="italic">U</italic>
+ <sub class="sub">i</sub> is from 0 (complete separation between groups; 
+ <italic class="italic">H
+  <sub class="sub">0</sub>
+ </italic> most likely false and 
+ <italic class="italic">H
+  <sub class="sub">1</sub>
+ </italic> most likely true) to n
+ <sub class="sub">1</sub>*n
+ <sub class="sub">2</sub> (little evidence in support of 
+ <italic class="italic">H
+  <sub class="sub">1</sub>
+ </italic>). Thus, 
+ <italic class="italic">H
+  <sub class="sub">0</sub>
+ </italic> is rejected for low values of 
+ <italic class="italic">U</italic>
+ <sub class="sub">i</sub>.
+</p>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">As described by (
+ <xref ref-type="disp-formula" rid="EEq1" class="xref">1</xref>) and (
+ <xref ref-type="disp-formula" rid="EEq2" class="xref">2</xref>), percent cytotoxicity at each concentration was calculated from the obtained optical density (OD) by the plate reader. Before any further interpretation, all data were blank-adjusted. As described by (
+ <xref ref-type="disp-formula" rid="EEq3" class="xref">3</xref>), equations obtained from the logarithmic plot of % cytotoxicity versus concentration (
+ <italic class="italic">μ</italic>g/mL) were used to calculate IC
+ <sub class="sub">50</sub>.
+ <disp-formula id="EEq1" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="M1" class="math">
+   <mtable style="T18" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <mi class="mi">%</mi>
+      <mtext class="mtext">  cells  viability</mtext>
+      <malignmark class="malignmark"/>
+      <mo id="GWQVJSR0" class="mo"/>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mtext class="mtext">mean  OD  of  extract  wells</mtext>
+       </mrow>
+       <mrow class="mrow">
+        <mtext class="mtext">mean  OD  of  control  wells</mtext>
+       </mrow>
+      </mfrac>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <malignmark class="malignmark"/>
+      <mspace width="11.436553955078125pt" class="mspace"/>
+      <mo class="mo">×</mo>
+      <mn class="mn">100</mn>
+      <mi class="mi">%</mi>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+ <disp-formula id="EEq2" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="EEq2EBAAAAAADCA" class="math">
+   <mtable class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <mi class="mi">%</mi>
+      <mtext class="mtext">  Cytotoxicity</mtext>
+      <malignmark class="malignmark"/>
+      <mo id="CHCBDVK1" class="mo"/>
+      <mo class="mo">=</mo>
+      <mn class="mn">100</mn>
+      <mi class="mi">%</mi>
+      <mo class="mo">−</mo>
+      <mi class="mi">%</mi>
+      <mtext class="mtext">  cells  viability</mtext>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <malignmark class="malignmark"/>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+ <disp-formula id="EEq3" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="EEq3EAAAAAAADCA" class="math">
+   <mtable class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <mn class="mn">50</mn>
+      <malignmark class="malignmark"/>
+      <mo id="CHCBDVK2" class="mo"/>
+      <mo class="mo">=</mo>
+      <mtext class="mtext">slope</mtext>
+      <mo class="mo">×</mo>
+      <mtext class="mtext">Ln  </mtext>
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">I</mi>
+        <mi mathvariant="normal" class="mi">C</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mn class="mn">50</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">+</mo>
+      <mtext class="mtext">constant</mtext>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <maligngroup class="maligngroup"/>
+      <malignmark class="malignmark"/>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+</p>

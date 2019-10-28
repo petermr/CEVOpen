@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">With regard to the issue of spectral line quantification, it was shown that the use of different algorithms can lead to different analytic results.
+ <xref rid="jmri26605-bib-0030" ref-type="ref" class="xref">30</xref> AMARES quantification software offers an easy and robust solution for the quantification of MR signals without the simulation of metabolite basis sets, which, in the case of large molecules such as FA, could be very difficult. The ideal spectral line‐shape for lipids could be characterized by the Voigt function
+ <xref rid="jmri26605-bib-0031" ref-type="ref" class="xref">31</xref>; however, this line‐shape is not included in the AMARES quantification. The Voigt line‐shape can be approximated by a combination of Lorentzian and Gaussian functions. From our experience, the Lorentzian line‐shape of the stronger CH
+ <sub class="sub">3</sub> signal can underestimate the amplitude of the minor n‐3 CH
+ <sub class="sub">3</sub> signal, and using the Lorentz‐Gaussian time domain filtering function may result in small, but unknown, variations in signal amplitudes.
+ <xref rid="jmri26605-bib-0032" ref-type="ref" class="xref">32</xref> Instead of this combination and filter, two Gaussian lines with a fixed frequency were used to fit the CH
+ <sub class="sub">3</sub> signal and their ratio was automatically estimated by AMARES.
+</p>

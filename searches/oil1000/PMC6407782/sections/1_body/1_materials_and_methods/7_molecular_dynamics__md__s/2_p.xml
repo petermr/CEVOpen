@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The protonation state of all ionizable residues was determined by the PDB2PQR server [
+ <xref rid="pone.0213393.ref026" ref-type="bibr" class="xref">26</xref>,
+ <xref rid="pone.0213393.ref027" ref-type="bibr" class="xref">27</xref>], and the protein structure was treated with the ff14SB force-field [
+ <xref rid="pone.0213393.ref028" ref-type="bibr" class="xref">28</xref>] in all MD simulations. The protein system was solvated in octahedral periodic box with the TIP3P explicit solvation model [
+ <xref rid="pone.0213393.ref029" ref-type="bibr" class="xref">29</xref>]. Counterions were added to neutralize the system charges. The system contained approximately 16,200 water molecules and 55,500 atoms. A cut-off distance of 12 Å and the particle mesh Ewald method [
+ <xref rid="pone.0213393.ref030" ref-type="bibr" class="xref">30</xref>] was used for electrostatic calculations, and the SHAKE algorithm was used to keep all the hydrogen bonds at their pre-defined equilibrium distances during minimization [
+ <xref rid="pone.0213393.ref031" ref-type="bibr" class="xref">31</xref>]. Before the MD simulation, production systems underwent simulations for energy minimization, heating, and equilibration that were performed with the Sander module and pmemd. CUDA [
+ <xref rid="pone.0213393.ref032" ref-type="bibr" class="xref">32</xref>].
+</p>

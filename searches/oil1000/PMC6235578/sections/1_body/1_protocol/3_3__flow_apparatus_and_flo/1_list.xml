@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order" class="list">
+ <list-item class="list-item">
+  <p class="p">Prepare the flow apparatus (
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>) that is made up of 4 high-pressure syringe pumps (see 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">A</bold> for the oil pump, 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">B</bold> for the receiving pump, 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">C</bold> for the brine pump, and 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">D</bold> for the confining pump), a core holder assembly (see 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">E</bold>), a PID controller (see 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">F</bold>), and a CO
+   <sub class="sub">2</sub> cylinder (see 
+   <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+   <bold class="bold">G</bold>), to perform waterflooding at the subsurface conditions.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Use a clamp to hold the core holder assembly and place it on the rotation stage inside the X-ray microtomography scanner.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Use the flexible PEEK tubing to connect the fluids from the pumps to the sample and the confining annulus.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Fill the isolated annulus gap with deionized water and vent the air out. Apply 1.5 MPa of confining pressure to squeeze the rubber tubing to prevent a flow along the sides of the core.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Connect the CO
+   <sub class="sub">2</sub> cylinder to the base three-way valve and flush CO
+   <sub class="sub">2 </sub>at a low rate through the sample for 1 h to remove the air from the pore space.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Connect the brine pump (filled with 7 weight percent KI brine) to the base of the core holder via the base three-way valve and flush the air out of the brine injection line into the other side of the three-way valve before injecting the brine into the pore space. Inject the brine at 0.3 mL/min for 1 h (about 200 pore volumes) to fully saturate the sample with brine. Then, close the top and base three-way valves.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Pressure test the oil pump against the receiving pump to determine the equivalent pressure in both pumps before conducting any drainage (oil injection). First, connect both pumps through a two-way valve and keep the valve closed. Increase the pressure to 10 MPa in both pumps and stop the oil pump and open the two-way valve while the receiving pump is still running. Record the pressure reading of the oil pump (
+   <italic class="italic">i.e.</italic>, 10.01 MPa), which is equivalent to 10 MPa in the receiving pump.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Establish the subsurface conditions by raising the pore pressure to 10 MPa and the temperature to 60 or 80 °C. Connect the flexible heating jacket and the thermocouple to the PID controller and apply the target value (60 or 80 °C). Connect the receiving pump (filled with KI brine) to the base three-way valve and increase the pore pressure in 1 MPa steps along with the confining pressure until achieving a pore pressure of 10 MPa and a confining pressure of 11.5 MPa. At this stage, the conditions replicate the hydrocarbon reservoir before the oil migration from the source rock.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Connect the oil pump to the top of the core holder via the top three-way valve and flush the oil through the other side of the valve to remove any air in the line. Increase the pressure to the tested equivalent pressure (
+   <italic class="italic">i.e.</italic>, 10.01 MPa) while keeping the valve closed. Then, stop the oil pump and open the top three-way valve and start the drainage by injecting 20 pore volumes of oil using a constant flow rate of 0.015 mL/min (this rate is in the capillary-dominated flow regime) at subsurface conditions of 10 MPa and 60 or 80 °C.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Leave the system to reach equilibrium for at least 2 h after the oil injection and then acquire a high-resolution scan (
+   <italic class="italic">i.e.</italic>, 2 µm/voxel) using an X-ray microtomography scanner. Please refer to step 4 for more details on how this is done.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Then, move the core holder assembly out of the X-ray microtomography scanner very carefully with all safety precautions in place, place the core holder assembly inside the oven, and reconnect the flow lines to perform the aging over 3 weeks to alter the rock wettability. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">To investigate the oil recovery as a function of wettability, use different aging protocols to generate different wettability conditions. Control the degree of wettability alteration (water-wet to oil-wet) by using different temperatures and oil compositions
+      <xref rid="B29" ref-type="bibr" class="xref">30</xref>
+      <xref rid="B30" ref-type="bibr" class="xref">31</xref>
+      <xref rid="B43" ref-type="bibr" class="xref">44</xref>.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">For example, to generate mixed-wet rock with more oil-wet surfaces, apply a relatively high temperature (80 °C) and inject crude oil (with a density of 830 ± 5 kg/m
+      <sup class="sup">3</sup> at 21 °C) continuously or frequently (dynamic aging) to provide a continuous supply of the polar crude oil components that can speed up the wettability alteration
+      <xref rid="B44" ref-type="bibr" class="xref">45</xref>. To generate weakly water-wet rock, use a lower temperature (60 °C) and no crude oil injection during the aging (static aging). To generate a mixed-wet reservoir rock with a mean contact angle close to 90°, perform dynamic aging with relatively heavier crude oil (with a density of 870 ± 5 kg/m
+      <sup class="sup">3</sup> at 21 °C mixed with heptane to induce asphaltene precipitation
+      <xref rid="B45" ref-type="bibr" class="xref">46</xref>
+      <xref rid="B46" ref-type="bibr" class="xref">47</xref>
+      <xref rid="B47" ref-type="bibr" class="xref">48</xref>) but at 60 °C
+      <xref rid="B30" ref-type="bibr" class="xref">31</xref>.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Once the aging process is completed, move the core holder assembly back into the X-ray microtomography scanner.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Conduct waterflooding at subsurface conditions. Pressure test the brine pump against the receiving pump before conducting waterflooding by following the same procedure as mentioned in step 3.7. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">First, connect the brine line to the base three-way valve, and connect the receiving pump to the top of the core holder via the top three-way valve.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Perform waterflooding of 20 pore volumes at subsurface conditions using a constant low flow rate (
+      <italic class="italic">i.e.</italic>, 0.015 mL/min), ensuring a low capillary number of approximately 10
+      <sup class="sup">-7</sup>.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Finally, leave the system to reach equilibrium for at least 2 h after waterflooding and acquire a high-resolution scan again at the same location. NOTE: Conducting such high-pressure and -temperature experiments requires a detailed risk assessment and rigorous testing of the whole flow apparatus outside the X-ray microtomography scanner before conducting any 
+      <italic class="italic">in situ</italic> experiments with all safety precautions in place.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+</list>

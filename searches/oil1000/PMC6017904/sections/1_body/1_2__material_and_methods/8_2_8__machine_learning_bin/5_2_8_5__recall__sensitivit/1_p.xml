@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">TPR (Equation (3)) measures the proportion of positive predicted labels which are correctly identified as such. That is, the ability of the classifier to find all the positives samples. The best value is 1 and the worst value is 0. 
+ <disp-formula id="FD3-molecules-23-00482" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">TPR</mi>
+     <mtext class="mtext"> </mtext>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+      </mrow>
+      <mi mathvariant="normal" class="mi">P</mi>
+     </mfrac>
+     <mtext class="mtext"> </mtext>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">+</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">FN</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

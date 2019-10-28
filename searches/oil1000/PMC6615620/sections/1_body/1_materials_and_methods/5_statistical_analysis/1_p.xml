@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The obtained HPLC chromatograms of 
+ <italic class="italic">Lavendulae</italic> methanolic extracts were exported as txt ASCII files and the chemometric process was performed using SpecAlign program (version 2.4.1.) (
+ <ext-link ext-link-type="uri" xlink:href="http://powcs.med.unsw.edu.au/research/adult-cancer-program/services-resources/specalign" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://powcs.med.unsw.edu.au/research/adult-cancer-program/services-resources/specalign</ext-link>). The source data are in 
+ <xref ref-type="supplementary-material" rid="pone.0218974.s001" class="xref">S1 Table</xref>. The 9000 rows and 7 columns matrix was generated and saved as csv (comma-separated values) files. The chromatograms were smoothed using the Savitzky-Golay algorithm and next, the noise was reduced using the discrete waves transformation "Symmlet-8". The baseline was assigned (the window width equal to 20% of length of the chromatogram) and it was removed to elimination the increase resulting from the ‘background’. The alignment of the chromatograms was performed using the recursive alignment by fast Fourier transform algorithm [
+ <xref rid="pone.0218974.ref034" ref-type="bibr" class="xref">34</xref>,
+ <xref rid="pone.0218974.ref035" ref-type="bibr" class="xref">35</xref>]. Next, the aligned chromatograms were divided into the segments and synchronized with selected target in all segments [
+ <xref rid="pone.0218974.ref036" ref-type="bibr" class="xref">36</xref>]. Synchronization was performed with max Shift equal to five. The obtained data were exported as csv to the Microsoft Excel for Windows and the correlation matrix was created.
+</p>

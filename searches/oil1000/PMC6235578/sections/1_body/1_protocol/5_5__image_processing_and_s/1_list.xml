@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order" class="list">
+ <list-item class="list-item">
+  <p class="p">First, reconstruct the X-ray tomography dataset using the software (
+   <bold class="bold">Table of Materials</bold>) to generate three-dimensional X-ray images (.txm). Click 
+   <bold class="bold">Browse</bold> to import the input file (.txrm). Then, select the 
+   <bold class="bold">Manual Center Shift</bold> and search for the most appropriate center shift correction value to account for any sample movement during the scan acquisition. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Search for the appropriate center shift value. Start with a large range (-10 to 10) and a large step size (1.0). Then narrow down the search range and the step size (0.1), until the optimal value is obtained.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Reconstruct the scan using the optimal center shift value. Account for any beam hardening effects before the image reconstruction.</p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Use an appropriate segmentation method that is suitable for the specific application. To characterize the 
+   <italic class="italic">in situ</italic> wettability accurately, use a machine learning-based image segmentation method such TWS
+   <xref rid="B31" ref-type="bibr" class="xref">32</xref> to turn gray-scale images to three-phase segmented images (oil, brine, and rock).Open the image in TWS - which is a Fiji (ImageJ)
+   <xref rid="B31" ref-type="bibr" class="xref">32</xref> plugin - to segment the images without applying any noise filtering to avoid voxel averaging especially close to the three-phase contact line at which the contact angle is measured.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Select the random-forest algorithm and training features, such as Mean, Variance, and Edges, to apply a featured-based segmentation. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Click 
+      <bold class="bold">Settings</bold> to find the 12 
+      <bold class="bold">Training Features</bold> in the Segmentation settings (Gaussian blur, Derivatives, Structure, Difference of Gaussian, Maximum, Median, Variance, Mean, Minimum, Edges, Laplacian, and Hessian) from which to select the best training features. The selection is based on segmentation trials using different training features or a combination of them. For example, the combination of the Edges, Mean, and Variance training features was found to give the best segmentation results for this carbonate reservoir rock system.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">In the 
+      <bold class="bold">Classifier options</bold>, choose 
+      <bold class="bold">FastRandomForest</bold>.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">To add a new phase (
+      <italic class="italic">i.e.</italic>, oil), click 
+      <bold class="bold">Create new class</bold>.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Label the pixels from all 3 phases (oil, brine, and rock) manually as an input to train a classifier model. Using the freehand drawing tool in ImageJ software (Fiji), highlight the 3 phases. Try to follow the shape of the phase while labeling the pixels. Once completed, click 
+   <bold class="bold">Add to class</bold>. Then, perform the same for the other 2 phases.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Apply the trained classifier to segment the whole image into 3 phases by clicking the 
+   <bold class="bold">Train classifier</bold> button.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Repeat steps 5.4 and 5.5 until good segmentation results are achieved. Click 
+   <bold class="bold">Create result</bold> to visualize the segmented image. Finally, click 
+   <bold class="bold">Save as TIFF</bold> to save the image. Look at 
+   <xref ref-type="fig" rid="F5" class="xref">Figure 5</xref> to see an example of a good segmentation.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Make sure that the segmented images are in an 8-bit unsigned format and the 3 phases are assigned as 0, 1, and 2 for brine, rock, and oil, respectively, before measuring the 
+   <italic class="italic">in situ</italic> contact angle using the automated method. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">In the data visualization and data analysis software (
+      <bold class="bold">Table of Materials</bold>), use the module 
+      <bold class="bold">Convert Image Type</bold> to convert the image to the 
+      <bold class="bold">16-bit label</bold> type. Use the 
+      <bold class="bold">Arithmetic</bold> module to perform the computation on the segmented image. In the 
+      <bold class="bold">Expression</bold>, specify the mathematical expression to change the number of the assigned phase [
+      <italic class="italic">i.e.</italic>, if rock is phase 2, then a mathematical expression of 
+      <bold class="bold">1*(a==2)</bold> means to assign rock as phase 1 instead of phase 2].
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Convert the three-dimensional segmented X-ray images from (.am) to binary raw un-signed data of 8-bit format (*.raw). Use the 
+      <bold class="bold">Convert Image Type</bold> module and, in the 
+      <bold class="bold">Output Type</bold>, select the option 
+      <bold class="bold">8-bit unsigned</bold> and click 
+      <bold class="bold">Apply</bold>. Export data as 
+      <bold class="bold">Raw Data 3D</bold> (*.raw).
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+</list>

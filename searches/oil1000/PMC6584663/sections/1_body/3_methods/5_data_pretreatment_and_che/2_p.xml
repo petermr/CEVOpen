@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29" class="p">The data were then converted in a pivot table, with compound codes as lines and EOs as columns. The table contained 343 compounds from 66 EOs. Each box contained the relative integration of the compound in each corresponding EO. To reduce the number of variables, the compounds that did not account for at least 9% of one EO were removed. Sixty compounds remained. An orthogonal partial least square analysis (OPLS) was performed with Umetrics Simca 15. X-variables were the compound relative proportions in each EO, and the Y-variable was the note of antifungal activity recorded for each EO. One orthogonal component was sufficient to capture most of the inertia of the model. R
+ <sup class="sup">2</sup>Y (cum) was 67%, R
+ <sup class="sup">2</sup>X (cum) 4%, and Q
+ <sup class="sup">2</sup> (cum) 34%. The permutations plot provided in supporting information (Fig. 
+ <xref rid="MOESM1" ref-type="media" class="xref">S1</xref>) suggests that the model is valid. The regression coefficients for variables with positive coefficients are reported in Fig. 
+ <xref rid="Fig1" ref-type="fig" class="xref">1</xref>. A full data table is provided in the Supporting Information (Table 
+ <xref rid="MOESM1" ref-type="media" class="xref">S2</xref>). Due to controversies over SIMCA permutation plots
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR49" class="xref">49</xref>
+ </sup> the model was concurrently assessed using R 
+ <italic class="italic">ropls</italic> package (
+ <ext-link ext-link-type="uri" xlink:href="https://www.bioconductor.org/packages/devel/bioc/vignettes/ropls/inst/doc/ropls-vignette.html" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioconductor.org/packages/devel/bioc/vignettes/ropls/inst/doc/ropls-vignette.html</ext-link>). In this analysis R
+ <sup class="sup">2</sup>Y(cum) was 79%, R
+ <sup class="sup">2</sup>X(cum) 10%, and Q
+ <sup class="sup">2</sup>(cum) 33%. This permutations plot is provided in supporting information (Fig. 
+ <xref rid="MOESM1" ref-type="media" class="xref">S2</xref>) alongside with inertia barplot, observation diagnostics of the model and scores plot. Loadings plot obtained using Umetrics Simca 15 is presented as Fig. 
+ <xref rid="MOESM1" ref-type="media" class="xref">S3</xref>.
+</p>

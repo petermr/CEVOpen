@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0085" class="p">The following polynomial equation of function 
+ <italic class="italic">Xi</italic> was fitted for each factor evaluated at each experimental point, where 
+ <italic class="italic">Y</italic> is the variable response and 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">1</italic>
+ </sub>, 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">2</italic>
+ </sub>, 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">3</italic>
+ </sub>, 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">12</italic>
+ </sub>, 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">13</italic>
+ </sub>, and 
+ <italic class="italic">β</italic>
+ <sub class="sub">
+  <italic class="italic">23</italic>
+ </sub> are constant regression coefficients (
+ <xref rid="fd2" ref-type="disp-formula" class="xref">Eq. 2</xref>):
+ <disp-formula id="fd2" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="M2" altimg="si2.svg" alttext="Equation 2." class="math">
+   <mrow class="mrow">
+    <mi class="mi">Y</mi>
+    <mo linebreak="badbreak" class="mo">=</mo>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">j</mi>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">1</mn>
+      <mo linebreak="badbreak" class="mo">+</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mi class="mi">j</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">j</mi>
+     </mrow>
+    </msub>
+    <mrow class="mrow">
+     <mo stretchy="true" class="mo">(</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">&lt;</mo>
+      <mi class="mi">j</mi>
+     </mrow>
+     <mo stretchy="true" class="mo">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+      <mspace width="0.25em" class="mspace"/>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <mspace width="0.25em" class="mspace"/>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <mspace width="0.25em" class="mspace"/>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">12</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <mspace width="0.25em" class="mspace"/>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">13</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <mspace width="0.25em" class="mspace"/>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">β</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">23</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

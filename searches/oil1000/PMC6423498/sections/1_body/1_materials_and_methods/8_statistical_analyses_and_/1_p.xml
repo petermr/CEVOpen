@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">All experiments were performed in triplicate, and the data were subjected to a one-way ANOVA (SAS, 1985), with pairwise comparisons of treatment mean values performed using Tukey’s procedure at 
+ <italic class="italic">P</italic> &lt; 0.05 using Statistica for Windows (Statistica 6.0 per Windows 1998). Principal component analysis (PCA) was performed suing Statistica for Windows and PermutmatrixEN to analyze the proteome profiles (
+ <xref rid="B16" ref-type="bibr" class="xref">De Angelis et al., 2008</xref>, 
+ <xref rid="B17" ref-type="bibr" class="xref">2015</xref>). Permutation analysis was performed using the relative volume of protein spots as found in each conditions (
+ <xref rid="B64" ref-type="bibr" class="xref">Siragusa et al., 2014</xref>). Changes in the protein amount (average of three replicates) are represented colorimetrically, with red and green indicating the highest and lowest values of the standardized data, respectively, for each protein of different conditions. All data were shown as a percentage of dissimilarity using Euclidean distance. To study changes in the expression of metabolic enzymes related to the adaptation to different antimicrobial products, all of the identified proteins were mapped to Kyoto Encyclopedia of Genes and Genomes pathways using both the enter gene ID and/or EC number functions
+ <sup class="sup">
+  <xref ref-type="fn" rid="fn01" class="xref">1</xref>
+ </sup> (
+ <xref rid="B4" ref-type="bibr" class="xref">Bove et al., 2012</xref>). The comprehensive symbolic systems biology Pathway Tools (PT) software version 19.0 and the relative encompassed MetaCyc multiorganism database were used to reconstruct the metabolic pathways. The sample differences were normalized at the reaction, pathway and mega-pathway hierarchical levels. The use of custom scripts and manually checking steps allowed us to improve the functional characterization for the EC numbers, KEGG codes, and multiple subunits taking part in the same enzymatic reaction. To track the enzymes in our datasets, we used the REST-style KEGG API to link KEGG and MetaCyc pathways to EC numbers.
+</p>

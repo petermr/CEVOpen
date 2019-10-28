@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The binary classification models were numerically and graphically evaluated by accuracy (ACC), Matthews correlation coefficient (MCC), receiver operating characteristic (ROC) and precision-recall (PR) curves. Finally, the importance of EOs chemical components was evaluated individually through the “feature importance” and “partial dependence” plots [
+ <xref rid="B28-molecules-24-00890" ref-type="bibr" class="xref">28</xref>] as implemented in the Skater python library [
+ <xref rid="B58-molecules-24-00890" ref-type="bibr" class="xref">58</xref>,
+ <xref rid="B59-molecules-24-00890" ref-type="bibr" class="xref">59</xref>]. Feature importance is a generic term for the degree to which a predictive model relies on a particular feature. Skater feature importance implementation is based on an information theoretic criteria, measuring the entropy in the change of predictions, given a perturbation of a given feature [
+ <xref rid="B58-molecules-24-00890" ref-type="bibr" class="xref">58</xref>].
+</p>

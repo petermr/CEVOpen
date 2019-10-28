@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0050" class="p">Optimization condition of protein hydrolysis was carried out using Minitab 8.0 with a face-centered Central Composite Design (CCD) with the factors and level for the hydrolysis of defatted BSFL are shown in 
+ <xref rid="tbl1" ref-type="table" class="xref">Table 1</xref>. The data were modelled using a second-order polynomial as shown in equation 
+ <xref rid="fd3" ref-type="disp-formula" class="xref">Eq. (3)</xref>.
+ <disp-formula id="fd3" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="M1" altimg="si1.svg" alttext="Equation 3." class="math">
+   <mrow class="mrow">
+    <mi class="mi">y</mi>
+    <mo linebreak="badbreak" class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">b</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">b</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <mspace width="0.25em" class="mspace"/>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mspace width="0.25em" class="mspace"/>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">b</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <msubsup class="msubsup">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msubsup>
+    <mo linebreak="goodbreak" class="mo">+</mo>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">&lt;</mo>
+      <mi class="mi">j</mi>
+      <mo linebreak="badbreak" class="mo">=</mo>
+      <mn class="mn">2</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">3</mn>
+     </mrow>
+    </munderover>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">b</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mi class="mi">j</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">X</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">j</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where y is degree of hydrolysis (%), b
+ <sub class="sub">0</sub> is a constant value, b
+ <sub class="sub">i</sub> is coefficient of each variables, X
+ <sub class="sub">1</sub> is enzyme concentration (%), X
+ <sub class="sub">2</sub> is pH, and X
+ <sub class="sub">3</sub> is hydrolysis time (hours). The regression equation was obtained by backward elimination of non-significant coefficients as suggested by 
+ <xref rid="bib1" ref-type="bibr" class="xref">Abduh et al. (2016)</xref>. The optimum conditions for the hydrolysis defatted biomass of BSFL were determined using the numerical optimization function available in Minitab 8.0.
+</p>

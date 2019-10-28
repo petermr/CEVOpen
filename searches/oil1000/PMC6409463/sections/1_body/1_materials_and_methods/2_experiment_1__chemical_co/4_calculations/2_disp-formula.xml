@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="fd1-ajas-18-0340" class="disp-formula">
+ <math id="m1" class="math">
+  <mrow class="mrow">
+   <mtable columnalign="left" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">AME diet </mtext>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">MJ</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">kg</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mo stretchy="false" class="mo">(</mo>
+        <mtext class="mtext">FI</mtext>
+        <mo class="mo">×</mo>
+        <mtext class="mtext">GEdiet</mtext>
+        <mo stretchy="false" class="mo">)</mo>
+        <mo class="mo">-</mo>
+        <mo stretchy="false" class="mo">(</mo>
+        <mtext class="mtext">excreta output</mtext>
+        <mo class="mo">×</mo>
+        <mtext class="mtext">GEexcreta</mtext>
+        <mo stretchy="false" class="mo">)</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mtext class="mtext">FI</mtext>
+       </mrow>
+      </mfrac>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">AME lupine seed </mtext>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">MJ</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">kg</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mo stretchy="false" class="mo">(</mo>
+        <mtext class="mtext">AME of lupine diet</mtext>
+        <mo stretchy="false" class="mo">)</mo>
+        <mo class="mo">-</mo>
+        <mo stretchy="false" class="mo">(</mo>
+        <mtext class="mtext">AME of basal diet</mtext>
+        <mo class="mo">×</mo>
+        <mn class="mn">0.75</mn>
+        <mo stretchy="false" class="mo">)</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mn class="mn">0.25</mn>
+       </mrow>
+      </mfrac>
+     </mtd>
+    </mtr>
+   </mtable>
+  </mrow>
+ </math>
+</disp-formula>

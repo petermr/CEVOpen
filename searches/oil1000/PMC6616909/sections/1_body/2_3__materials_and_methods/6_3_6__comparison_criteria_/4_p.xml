@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">c. The mean relative error (MRE) 
+ <disp-formula id="FD8-foods-08-00191" class="disp-formula">
+  <label class="label">(16)</label>
+  <math id="mm17" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">MRE</mi>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mn class="mn">100</mn>
+       <mo class="mo">%</mo>
+      </mrow>
+      <mi class="mi">n</mi>
+     </mfrac>
+     <mi class="mi">Σ</mi>
+     <mrow class="mrow">
+      <mo class="mo">|</mo>
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mrow class="mrow">
+         <mi class="mi">y</mi>
+         <mi class="mi">i</mi>
+         <mo class="mo">−</mo>
+         <mover accent="true" class="mover">
+          <mi class="mi">y</mi>
+          <mo class="mo">^</mo>
+         </mover>
+         <mi class="mi">i</mi>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">y</mi>
+         <mi class="mi">i</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo class="mo">|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

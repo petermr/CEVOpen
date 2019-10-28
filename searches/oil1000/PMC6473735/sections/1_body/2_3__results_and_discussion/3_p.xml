@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Despite the simplicity of the mass spectrum shown in 
+ <xref ref-type="fig" rid="polymers-11-00394-f001" class="xref">Figure 1</xref>, the vegetable triglyceride oils and their epoxidized forms, being samples of natural origin, are complex systems with numerous minor intensity mass peaks with a wide variety in the numbers of double bonds (or epoxide groups) and CH
+ <sub class="sub">2</sub> groups. Furthermore, the side products of the epoxidation can also be observed, e.g., diols are formed by the subsequent addition of water. Hence, the mass spectrometric study of complex natural samples requires effective data processing and visualization methods [
+ <xref rid="B17-polymers-11-00394" ref-type="bibr" class="xref">17</xref>]. Recently, we proposed a simple algorithm, mass-remainder analysis (MARA), for the processing of complex copolymer mass spectra [
+ <xref rid="B18-polymers-11-00394" ref-type="bibr" class="xref">18</xref>]. In the first step, MARA assigns a mass remainder (MR) value to the mass spectrum peaks defined by Equation (1), 
+ <disp-formula class="disp-formula">
+  <italic class="italic">MR</italic> = 
+  <italic class="italic">m</italic>/
+  <italic class="italic">z</italic> MOD 
+  <italic class="italic">B</italic>,
+  <label class="label">(1)</label>
+ </disp-formula> where 
+ <italic class="italic">B</italic> is the exact mass of a base unit and the modulo (MOD) operation finds the remainder after the division. For example, the MR value of the most intense peak in 
+ <xref ref-type="fig" rid="polymers-11-00394-f001" class="xref">Figure 1</xref>a at 
+ <italic class="italic">m</italic>/
+ <italic class="italic">z</italic> 997.696 is 2.5848 (see the largest dot in 
+ <xref ref-type="fig" rid="polymers-11-00394-f002" class="xref">Figure 2</xref>b), because 997.696 = 71 × 14.01565 + 2.5848, where 14.01565 is the exact mass of the base unit 
+ <italic class="italic">B</italic>, such as CH
+ <sub class="sub">2</sub>. Choosing the CH
+ <sub class="sub">2</sub> group as the base unit, the mass peaks of the ETGs can be easily identified and the number of epoxide groups (NEG) can be simultaneously determined, as detailed in the following.
+</p>

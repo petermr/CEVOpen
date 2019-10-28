@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32" class="p">The images were then segmented at a unified pixel value of 115 to identify the surface minerals. This value was defined based on the Auto Threshold function in ImageJ, which uses the IsoData method for thresholding
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR83" class="xref">83</xref>
+ </sup>. The sum of pixels was estimated for the entire thresholded image after each flooding using ImageJ. The net percentage change between each flooding scenario and dry image was measured as
+ <disp-formula id="Equ9" class="disp-formula">
+  <label class="label">9</label>
+  <alternatives class="alternatives">
+   <tex-math id="M37" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \% \,{\rm{Change}}=\frac{{P}_{dry}-{P}_{Inj}}{{P}_{dry}}\times 100$$\end{document}</tex-math>
+   <math id="M38" display="block" class="math">
+    <mo class="mo">%</mo>
+    <mspace width=".25em" class="mspace"/>
+    <mi mathvariant="normal" class="mi">Change</mi>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">P</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">d</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">y</mi>
+       </mrow>
+      </msub>
+      <mo class="mo">−</mo>
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">P</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">I</mi>
+        <mi class="mi">n</mi>
+        <mi class="mi">j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow class="mrow">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">P</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">d</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">y</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+   </math>
+   <graphic xlink:href="41598_2018_33495_Article_Equ9.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic class="italic">P</italic>
+ <sub class="sub">
+  <italic class="italic">dry</italic>
+ </sub> is the sum of pixel values of the dry geo-material PDMS and 
+ <italic class="italic">P</italic>
+ <sub class="sub">
+  <italic class="italic">inj</italic>
+ </sub> is the sum of pixel values in the geo-material PDMS after the different injection scenario. We also provide grey-scale images before and after treatment to illustrate the sensitivity of the calculation presented in Eq. 
+ <xref rid="Equ9" ref-type="" class="xref">9</xref>. To allow for better quantification and visualisation of the changes occurring from the dry geo-material PDMS and the above-mentioned floods (connate water, decane and DI water), surface roughness was measured (as described previously) and SEM images (Hitachi, S-3400N) were taken for the dry chip and after drying the sample from the final flooding scenario (DI water).
+</p>

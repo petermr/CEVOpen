@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17" class="p">Further analysis of alpha diversity (Observed OTUs, Chao1 richness estimator and Shannon diversity estimator) and beta diversity (Bray–Curtis dissimilarities) were performed using the 
+ <italic class="italic">phyloseq</italic> [
+ <xref ref-type="bibr" rid="CR48" class="xref">48</xref>] pipeline in R (v3.4.3). Normality of the alpha diversity data was tested using the Shapiro–Wilk test. A t-test was used for normal distributed data, whereas the Mann–Whitney U test was used for not normal distributed data. Differences in beta diversity were examined using the 
+ <italic class="italic">anosim</italic> function from the 
+ <italic class="italic">vegan</italic> package. Differences in relative abundance at the phylum level were assessed using the two-sided Welch 
+ <italic class="italic">t</italic>-test from the mt wrapper in 
+ <italic class="italic">phyloseq</italic>, with the p-value adjusted for multiple hypothesis testing using the Benjamini–Hochberg method. To detect differentially abundant taxa between the different diet groups, DESeq 2 was applied on the non-rarified community composition data for either caecal or ileal communities [
+ <xref ref-type="bibr" rid="CR49" class="xref">49</xref>]. Significant differences were obtained using a Wald test followed by a Benjamini–Hochberg multiple hypothesis correction. For all tests, a 
+ <italic class="italic">p</italic>-value &lt; 0.05 was considered significant.
+</p>

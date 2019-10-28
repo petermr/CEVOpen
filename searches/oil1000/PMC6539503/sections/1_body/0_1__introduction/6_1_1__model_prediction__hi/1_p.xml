@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">With an accurate model of the reservoir, it is possible to approximate the future behavior of the field, to perform computer simulations and to manage the reservoir. The model is periodically updated based on observed reservoir behavior, which is based on e.g., multi-phase flow measurements of the wells. The approach is called history matching and has been described in [
+ <xref rid="B7-sensors-19-02184" ref-type="bibr" class="xref">7</xref>,
+ <xref rid="B8-sensors-19-02184" ref-type="bibr" class="xref">8</xref>,
+ <xref rid="B9-sensors-19-02184" ref-type="bibr" class="xref">9</xref>,
+ <xref rid="B10-sensors-19-02184" ref-type="bibr" class="xref">10</xref>,
+ <xref rid="B11-sensors-19-02184" ref-type="bibr" class="xref">11</xref>,
+ <xref rid="B12-sensors-19-02184" ref-type="bibr" class="xref">12</xref>], where possible optimization options are also introduced. History matching is an approach where the current reservoir model is fitted to reproduce the past behavior, so that the oil recovery is at its maximum over the lifetime of the field. This can e.g., be done by enhanced oil recovery process [
+ <xref rid="B28-sensors-19-02184" ref-type="bibr" class="xref">28</xref>,
+ <xref rid="B29-sensors-19-02184" ref-type="bibr" class="xref">29</xref>,
+ <xref rid="B30-sensors-19-02184" ref-type="bibr" class="xref">30</xref>,
+ <xref rid="B31-sensors-19-02184" ref-type="bibr" class="xref">31</xref>]. To see the behavior of the model and the oil production, decline curve analysis is employed. Decline curve analysis is applied for production forecasting and reserves estimation [
+ <xref rid="B32-sensors-19-02184" ref-type="bibr" class="xref">32</xref>]. The decline curve analysis is introduced in [
+ <xref rid="B33-sensors-19-02184" ref-type="bibr" class="xref">33</xref>,
+ <xref rid="B34-sensors-19-02184" ref-type="bibr" class="xref">34</xref>,
+ <xref rid="B35-sensors-19-02184" ref-type="bibr" class="xref">35</xref>], and based on the decline of the curve, enhanced oil recovery methods such as water injection are decided and implemented. The data for the decline curve analysis is based on performance history and observed production over time. These datasets, which e.g., consist of the phase fraction and velocity of the multi-phase flow, need to be accurate to avoid errors in the model. Hence, the water decision of injection and injection volumes is dependent on the accuracy of the multi-phase flow measurements of the wells.
+</p>

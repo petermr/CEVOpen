@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order" class="list">
+ <list-item class="list-item">
+  <p class="p">Measure the 
+   <italic class="italic">in situ</italic> contact angle distribution from the segmented images using the automated contact angle method of AlRatrout
+   <italic class="italic"> et al.</italic>
+   <xref rid="B26" ref-type="bibr" class="xref">27</xref> (example results are shown in 
+   <xref ref-type="fig" rid="F6" class="xref">Figure 6</xref>). To perform these measurements, follow the steps below, as illustrated in 
+   <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>.
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Install the OpenFOAM library to perform the automatic contact angle and fluid-fluid interface curvature measurements.</p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Save the image file (*.raw) in a folder (case) which contains a header file and a folder called 
+   <bold class="bold">System</bold>. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Open the header file and declare the number of voxels in three dimensions (
+      <italic class="italic">x</italic>, 
+      <italic class="italic">y</italic>, and 
+      <italic class="italic">z</italic>), the voxel dimensions (
+      <italic class="italic">x</italic>, 
+      <italic class="italic">y</italic>, and 
+      <italic class="italic">z</italic>) in microns, and the offset distance (0 0 0 for no shifting). Rename the header file as the image file.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Use the folder called 
+      <bold class="bold">System</bold> to comply with the basic directory structure for an OpenFOAM case.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Make sure that there are 2 files (a 
+   <italic class="italic">controlDict</italic> file and a 
+   <italic class="italic">meshingDict</italic> file) in the system folder that contain the setting parameters. The 
+   <italic class="italic">controlDict</italic> file is where the run control parameters are set, including the start/end time. The 
+   <italic class="italic">meshingDict</italic> file is where the input and output files in each step of the algorithm are specified. Replace the file name with the new segmented image name in the 
+   <italic class="italic">meshingDict</italic> file for the steps explained below (
+   <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>). 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Extract the surface (multi-zone mesh 
+      <italic class="italic">M</italic>) (look at 
+      <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>
+      <bold class="bold">b</bold>).
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Add a 
+      <bold class="bold">layer</bold> near the three-phase contact line.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Smooth the surface (look at 
+      <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>
+      <bold class="bold">c</bold>).
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Set the required smoothing parameters that include the Gaussian radius kernel (R
+      <sub class="sub">Gauss</sub>), Gaussian iterations, the Gaussian relaxation factor (β), the curvature radius kernel (R
+      <sub class="sub">K</sub>), the curvature relaxation factor (γ), and curvature iterations. For more details, see AlRatrout
+      <italic class="italic"> et al.</italic>
+      <xref rid="B26" ref-type="bibr" class="xref">27</xref>.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Open a terminal from the same folder directory and type the following command, 
+   <bold class="bold">voxelToSurfaceML &amp;&amp; surfaceAddLayerToCL &amp;&amp; surfaceSmoothVP</bold>, to run the code and perform the contact angle and oil/brine curvature measurements. 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Look at 
+      <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref> to follow the computation steps of the contact angle on each vertex belonging to the contact line (
+      <graphic xlink:href="jove-140-57915-0.jpg" position="float" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>) through the brine phase by: 
+      <graphic xlink:href="jove-140-57915-1.jpg" position="float" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/> NOTE: The normal vectors are computed on the vertices comprising the contact line
+      <italic class="italic"/>
+      <graphic xlink:href="jove-140-57915-0.jpg" position="float" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>. Each vertex is represented with 2 vectors normal to the oil/brine interface (
+      <italic class="italic">z</italic>
+      <sub class="sub">2</sub>) and the brine/rock interface (
+      <italic class="italic">z</italic>
+      <sub class="sub">3</sub>), as shown in 
+      <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Make sure that the smooth surface file *_Layered_Smooth.vtk is generated. This file contains the measurements of the contact angle and the oil/brine interface curvature, which can be visualized using a data visualization software (
+   <bold class="bold">Table of Materials</bold>), as demonstrated in 
+   <xref ref-type="fig" rid="F7" class="xref">Figure 7</xref>.
+  </p>
+ </list-item>
+</list>

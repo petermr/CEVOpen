@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">ANN were used to classify the ripening stages of EOs. Multilayer perceptron (MLP), a common type of ANN for classification purposes [
+ <xref rid="B40-sensors-18-01922" ref-type="bibr" class="xref">40</xref>], was used as the classifier in MATLAB, Neural Network Toolbox. The ability to model complex non-linear input space partitions are among the benefits which are provided by ANNs [
+ <xref rid="B41-sensors-18-01922" ref-type="bibr" class="xref">41</xref>]. For the classification of ripening stages, ANNs were designed, trained, and tested according to the procedure described in 
+ <xref ref-type="fig" rid="sensors-18-01922-f002" class="xref">Figure 2</xref>. The initial data set consisted of 303 samples (101 EOs were measured in triplicate) and 22 features (logarithmic peak heights) as inputs. The MLPs had four outputs; each class of ripening was coded by a four-digit binary number where 1 indicates class membership.
+</p>

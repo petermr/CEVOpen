@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The robustness of the final calibration model is evaluated from its ability to perform calibration and prediction. The calibration performance of the model is determined from the standard error of calibration (SEC), root mean square error of calibration (RMSEC) and the coefficient of determination (
+ <inline-formula class="inline-formula">
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">C</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) in the calibration set. Validation performance is determined via the root mean square error of cross-validation (RMSECV) and the coefficient of determination (
+ <inline-formula class="inline-formula">
+  <math id="mm5" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">V</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) in the validation set. Meanwhile, the prediction performance of the model is identified from standard error of prediction (SEP), root mean square error of prediction (RMSEP), residual predictive deviation (RPD) and the coefficient of determination (
+ <inline-formula class="inline-formula">
+  <math id="mm6" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">P</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) in the prediction set. Ideally, an effective model should register low SEC, RMSEC, RMSECV, SEP and RMSEP, with a minimum difference between SEC and SEP. Not least, higher 
+ <inline-formula class="inline-formula">
+  <math id="mm7" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">C</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula class="inline-formula">
+  <math id="mm8" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">P</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula class="inline-formula">
+  <math id="mm9" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">r</mi>
+      <mi mathvariant="normal" class="mi">P</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and RPD are preferable [
+ <xref rid="B36-molecules-24-02025" ref-type="bibr" class="xref">36</xref>].
+</p>

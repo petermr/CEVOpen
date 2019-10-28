@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The model selection and model performance assessment were based on the correct classification rate (CCR). CCR is the ratio of the number of correctly classified samples to the total number of samples (CCR = Nright/N) [
+ <xref rid="B40-sensors-18-01922" ref-type="bibr" class="xref">40</xref>]. Model selection was based on the CCR estimated in the internal validation set (see iv. in 
+ <xref ref-type="fig" rid="sensors-18-01922-f002" class="xref">Figure 2</xref>). To obtain parsimonious models, when several architectures provided similar performance, the simplest model was chosen. Once the best ANN architecture with 22 inputs (all peak heights) was chosen, the ANN was retrained fusing the training and internal validation data (see v. in 
+ <xref ref-type="fig" rid="sensors-18-01922-f002" class="xref">Figure 2</xref>). Then, model performance assessment was performed based on the external validation set (see vi. in 
+ <xref ref-type="fig" rid="sensors-18-01922-f002" class="xref">Figure 2</xref>).
+</p>

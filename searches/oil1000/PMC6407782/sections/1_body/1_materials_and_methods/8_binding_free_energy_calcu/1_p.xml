@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The molecular mechanics–generalized Born surface area (MM-GBSA) method [
+ <xref rid="pone.0213393.ref034" ref-type="bibr" class="xref">34</xref>,
+ <xref rid="pone.0213393.ref035" ref-type="bibr" class="xref">35</xref>] was used to measure the binding free energies of the ligands, thymol and thymol acetate. The binding free energies (Δ
+ <italic class="italic">G</italic>
+ <sub class="sub">bind</sub>) were calculated according to the following equations: 
+ <disp-formula id="pone.0213393.e001" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0213393.e001.jpg" id="pone.0213393.e001g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">bind</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">complex</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">‑</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">receptor</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">‑</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">ligand</mi>
+     </mrow>
+    </msub>
+   </math>
+  </alternatives>
+  <label class="label">(1)</label>
+ </disp-formula> Each free energy state is calculated by the following equations: 
+ <disp-formula id="pone.0213393.e002" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0213393.e002.jpg" id="pone.0213393.e002g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M2" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">bind</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <mi mathvariant="normal" class="mi">Δ</mi>
+    <mi mathvariant="normal" class="mi">H</mi>
+    <mo class="mo">‑</mo>
+    <mi mathvariant="normal" class="mi">T</mi>
+    <mi mathvariant="normal" class="mi">Δ</mi>
+    <mi mathvariant="normal" class="mi">S</mi>
+    <mo class="mo">≈</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">MM</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">+</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">solv</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">‑</mo>
+    <mi mathvariant="normal" class="mi">T</mi>
+    <mi mathvariant="normal" class="mi">Δ</mi>
+    <mi mathvariant="normal" class="mi">S</mi>
+   </math>
+  </alternatives>
+  <label class="label">(2)</label>
+ </disp-formula>
+ <disp-formula id="pone.0213393.e003" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0213393.e003.jpg" id="pone.0213393.e003g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M3" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">MM</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">internal</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">+</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">ele</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">+</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">vdW</mi>
+     </mrow>
+    </msub>
+   </math>
+  </alternatives>
+  <label class="label">(3)</label>
+ </disp-formula>
+ <disp-formula id="pone.0213393.e004" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0213393.e004.jpg" id="pone.0213393.e004g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M4" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">solv</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">GB</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">+</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δ</mi>
+      <mi mathvariant="normal" class="mi">G</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">SA</mi>
+     </mrow>
+    </msub>
+   </math>
+  </alternatives>
+  <label class="label">(4)</label>
+ </disp-formula>
+</p>

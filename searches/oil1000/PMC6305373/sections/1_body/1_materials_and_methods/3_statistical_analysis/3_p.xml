@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The targeted dataset consisted of 20 compounds for which standards were obtained as described above (Table 
+ <xref rid="T2" ref-type="table" class="xref">2</xref>). The targeted chemical composition was analyzed as before, undergoing nMDS for visualization), MGLM-ANOVA and PERMANOVAs to assess for compositional effects, and ANOVA and MLM to assess for differences in chemical richness. Given that standards allowed for reliable quantification, each individual compound also underwent generalized linear modeling (GLM) to test for species effects, with compound serving as the independent variable and species serving as the dependent using the glm function of the native stats package of 
+ <italic class="italic">R</italic>. MLM was performed to test for the effects of year of collection, altitude and geography (as PCNM1 and 2) whilst accounting for potential species effects. Individual compounds from the targeted data served as the independent variable, species served as the random effect, and either year of collection, altitude, or PCNM1 and PCNM2 (together) serving as the fixed effect.
+</p>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl1" class="table-wrap">
+ <label class="label">Table 1</label>
+ <caption class="caption">
+  <p class="p">Algorithm for fluid selection for inhibitive and non-inhibitive fluid selection.</p>
+ </caption>
+ <alt-text id="alttext0065" class="alt-text">Table 1</alt-text>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th class="th">Fluids Selection Variables</th>
+    <th colspan="9" class="th">Algorithm</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td class="td">Fluid Types</td>
+    <td class="td">1</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">4</td>
+    <td class="td">5</td>
+    <td class="td">6</td>
+    <td class="td">7</td>
+    <td class="td">8</td>
+    <td class="td">9</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Dispersed</td>
+    <td class="td">NO</td>
+    <td class="td">NO</td>
+    <td class="td">YES/NO</td>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td">NO</td>
+    <td class="td">NO</td>
+    <td class="td">NO</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Environmental Impact</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Base Fluid</td>
+    <td class="td">FW/SW</td>
+    <td class="td">FW</td>
+    <td class="td">FW/SW</td>
+    <td class="td">FW/SW</td>
+    <td class="td">FW/SW</td>
+    <td class="td">DIESEL</td>
+    <td class="td">DIESEL OIL</td>
+    <td class="td">ALT OIL</td>
+    <td class="td">ALT OIL</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Temperature Tolerance</td>
+    <td class="td">2</td>
+    <td class="td">1</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">4</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Density</td>
+    <td class="td">Medium</td>
+    <td class="td">Low</td>
+    <td class="td">Medium</td>
+    <td class="td">Medium</td>
+    <td class="td">Medium</td>
+    <td class="td">Medium</td>
+    <td class="td">High</td>
+    <td class="td">Medium</td>
+    <td class="td">Medium</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Chemical Cont Tolerance</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Filtrate/Loss Circ</td>
+    <td class="td">2</td>
+    <td class="td">1</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">1</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Solid Tolerance</td>
+    <td class="td">2</td>
+    <td class="td">1</td>
+    <td class="td"/>
+    <td class="td">1</td>
+    <td class="td">1</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Formation Inhibition</td>
+    <td class="td">1</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Salt Formation</td>
+    <td class="td">YES</td>
+    <td class="td">NO</td>
+    <td class="td">NO</td>
+    <td class="td">YES</td>
+    <td class="td">NO</td>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td"/>
+    <td class="td"/>
+   </tr>
+   <tr class="tr">
+    <td class="td">Cutting Inhibition</td>
+    <td class="td">3</td>
+    <td class="td">1</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Solid Removal</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">2</td>
+    <td class="td">1</td>
+    <td class="td">1</td>
+    <td class="td">3</td>
+    <td class="td">1</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Lubricant Properties</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">2</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+    <td class="td">3</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Deviated Wells</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td class="td">YES</td>
+    <td class="td"/>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td">YES</td>
+    <td class="td"/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn id="tspara0025" class="fn">
+   <p class="p">*Density: Low = Below 9 ppg; Medium = 9–12; High = 13.2–16 ppg.</p>
+  </fn>
+  <fn id="tspara0030" class="fn">
+   <p class="p">*To convert to Specific Gravity (S.G), divide the mud density in ppg by 8.33 (
+    <xref rid="bib12" ref-type="bibr" class="xref">Okoro et al., 2018a</xref>).
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

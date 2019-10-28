@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The Shannon-Weaver diversity index (
+ <italic class="italic">H</italic>) and Simpson index (
+ <italic class="italic">D</italic>) were used to express the diversity of the soil fungal community, which are calculated as follows: 
+ <disp-formula id="eq1" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="M1" class="math">
+   <mtable displaystyle="true" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">H</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">S</mi>
+        <mi mathvariant="normal" class="mi">h</mi>
+        <mi mathvariant="normal" class="mi">a</mi>
+        <mi mathvariant="normal" class="mi">n</mi>
+        <mi mathvariant="normal" class="mi">n</mi>
+        <mi mathvariant="normal" class="mi">o</mi>
+        <mi mathvariant="normal" class="mi">n</mi>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <mo class="mo">−</mo>
+      <munderover class="munderover">
+       <mrow class="mrow">
+        <mo movablelimits="false" class="mo">∑</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi class="mi">S</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">o</mi>
+          <mi mathvariant="normal" class="mi">b</mi>
+          <mi mathvariant="normal" class="mi">s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </munderover>
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mrow class="mrow">
+         <msub class="msub">
+          <mrow class="mrow">
+           <mi class="mi">n</mi>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">i</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">N</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mi mathvariant="normal" class="mi">ln</mi>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">N</mi>
+       </mrow>
+      </mfrac>
+      <mo class="mo">,</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">D</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">S</mi>
+        <mi mathvariant="normal" class="mi">i</mi>
+        <mi mathvariant="normal" class="mi">m</mi>
+        <mi mathvariant="normal" class="mi">p</mi>
+        <mi mathvariant="normal" class="mi">s</mi>
+        <mi mathvariant="normal" class="mi">o</mi>
+        <mi mathvariant="normal" class="mi">n</mi>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mo class="mo">∑</mo>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">=</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi class="mi">S</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mi mathvariant="normal" class="mi">o</mi>
+            <mi mathvariant="normal" class="mi">b</mi>
+            <mi mathvariant="normal" class="mi">s</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msubsup>
+        <mrow class="mrow">
+         <msub class="msub">
+          <mrow class="mrow">
+           <mi class="mi">n</mi>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">i</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mfenced open="(" close=")" class="mfenced">
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi class="mi">n</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mi class="mi">i</mi>
+           </mrow>
+          </msub>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </mfenced>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">N</mi>
+        <mfenced open="(" close=")" class="mfenced">
+         <mrow class="mrow">
+          <mi class="mi">N</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </mfrac>
+      <mo class="mo">,</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>where 
+ <italic class="italic">S</italic>
+ <sub class="sub">obs</sub> is the number of OTUs, 
+ <italic class="italic">n</italic>
+ <sub class="sub">
+  <italic class="italic">i</italic>
+ </sub> is the number of sequence in OTU
+ <sub class="sub">
+  <italic class="italic">i</italic>
+ </sub>, and 
+ <italic class="italic">N</italic> is the sum of all the sequences in OTUs.
+</p>

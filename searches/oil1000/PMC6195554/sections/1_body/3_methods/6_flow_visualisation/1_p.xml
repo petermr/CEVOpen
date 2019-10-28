@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30" class="p">To reproduce fluid distributions within a natural reservoir, the chips were first injected with brine of 10% NaCl (w/v) and 2% green food colour (w/v) (AmeriColor, Placentia, CA, USA), and then decane (Sigma Aldrich, USA) was injected to achieve a 80–90% oil saturation and left 20 minutes to equilibrate. This step establishes connate water saturation within the chip. Then, DI water with 2% red food colour (w/v) (AmeriColor, Placentia, CA, USA) was injected at a capillary number (
+ <italic class="italic">Ca</italic>) of 10
+ <sup class="sup">−5</sup> to replicate water flooding conditions. A high-precision infusion syringe pump (Fusion 100 Infusion, Chemyx, Australia) is used to monitor and control the flow rate (4 µm/min). Optical microscope images were collected using a CCD digital camera (Zeiss, Axiocam 506 colour) coupled with a stereo zoom microscope (Zeiss, Axio Zoom V16) with a size of 2752 × 2208 pixels. All the experiments were conducted at ambient conditions. The Young-Laplace equation, which relates the mean curvature of the fluid-fluid interface to capillary pressure (
+ <italic class="italic">P</italic>
+ <sub class="sub">
+  <italic class="italic">c</italic>
+ </sub>) was used to study the snap-off event. Differences in local capillary pressure are known to result in snap-off under specific criteria
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR67" class="xref">67</xref>,
+  <xref ref-type="bibr" rid="CR79" class="xref">79</xref>,
+  <xref ref-type="bibr" rid="CR80" class="xref">80</xref>
+ </sup>. Capillary pressure (
+ <italic class="italic">P</italic>
+ <sub class="sub">
+  <italic class="italic">c</italic>
+ </sub>) is calculated as
+ <disp-formula id="Equ8" class="disp-formula">
+  <label class="label">8</label>
+  <alternatives class="alternatives">
+   <tex-math id="M35" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${P}_{c}=\sigma (\frac{1}{{R}_{1}}+\frac{1}{{R}_{2}})$$\end{document}</tex-math>
+   <math id="M36" display="block" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">P</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">c</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <mi class="mi">σ</mi>
+    <mrow class="mrow">
+     <mo stretchy="true" class="mo">(</mo>
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mn class="mn">1</mn>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi class="mi">R</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mo class="mo">+</mo>
+      <mfrac class="mfrac">
+       <mn class="mn">1</mn>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi class="mi">R</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true" class="mo">)</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2018_33495_Article_Equ8.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic class="italic">σ</italic> is interfacial tension (N/m) and 
+ <italic class="italic">R</italic>
+ <sub class="sub">1</sub> and 
+ <italic class="italic">R</italic>
+ <sub class="sub">2</sub> are the principal radii of curvatures for the oil/water interface (m). The principal radii of curvature (R
+ <sub class="sub">1</sub>) of the fluid/fluid interface that is visualised in the focal plan can be directly measured from the image
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR67" class="xref">67</xref>
+ </sup>. The second principal radii (R
+ <sub class="sub">2</sub>) of curvature is estimated based on the form of the interface. If the interface is hyperboloid, then R
+ <sub class="sub">2</sub> can be directly measured from the image as half the width of the hyperboloid at its narrowest constriction. For the case of the interfaces at the front and end menisci of an oil cluster, R
+ <sub class="sub">2</sub> cannot be directly measured from the collected images and it is assumed to be half of the microfluidics device depth. A similar assumption is made in previous publications
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR80" class="xref">80</xref>–
+  <xref ref-type="bibr" rid="CR82" class="xref">82</xref>
+ </sup>. Due to the complexity in measuring contact angle for the functionalised surface, there is no direct way to actually measure the curvature in the plane orthogonal to the focal plane, and thus, we assume complete wetting conditions. This assumption is only an order of magnitude estimate that allows for evaluation of capillary pressure difference over the nonwetting phase.
+</p>

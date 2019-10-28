@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The PRESS was used to evaluate the predictive performance of sorption models [
+ <xref rid="B31-foods-08-00191" ref-type="bibr" class="xref">31</xref>]. The criterion was derived from the predictive error, e
+ <sub class="sub">-i</sub>. When a dataset was used to compare the predictive ability of a model, the i observation was withdrawn, and the remaining n-1 data were used to estimate the parameters of the model. The i data was substituted into this regression model to calculated the predicted value 
+ <inline-formula class="inline-formula">
+  <math id="mm18" class="math">
+   <mrow class="mrow">
+    <mover accent="true" class="mover">
+     <mi class="mi">y</mi>
+     <mo class="mo">^</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>
+ <sub class="sub">-i</sub>. The difference between the original y
+ <sub class="sub">i</sub> value and y
+ <sub class="sub">-i</sub> value was called the predictive error, e
+ <sub class="sub">-i</sub>. The sum of the square e
+ <sub class="sub">-i</sub>, 
+ <inline-formula class="inline-formula">
+  <math id="mm19" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="sans-serif" class="mi">Σ</mi>
+     <msup class="msup">
+      <mrow class="mrow">
+       <mrow class="mrow">
+        <mo class="mo">(</mo>
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi class="mi">e</mi>
+          <mrow class="mrow">
+           <mtext mathvariant="italic" class="mtext">-i</mtext>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mrow>
+      <mn class="mn">2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is called the PRESS. 
+</p>

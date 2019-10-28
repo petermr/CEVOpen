@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9" class="p">In order to collect the planktonic microorganisms being present in the feed water of RO system, the feed water was filtered through nitrocellulose membranes with pore sizes of 0.22 and 0.05 µm (MF-millipore, Merck). In each collection, 0.7 to 1.0 L of the feed water was filtered, and the membrane was subjected to DNA extraction. For the fouled RO membrane, approximately 100-mm
+ <sup class="sup">2</sup> pieces of the membrane samples were taken and stored at −20 °C until DNA extraction. The sample pieces were cut from inner region of spiral membrane. Total DNA was extracted from the feed water and membrane-attached biofilm samples according to a direct-lysis protocol that included bead-beating
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR19" class="xref">19</xref>
+ </sup>, and detailed procedures were described in previous report
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR13" class="xref">13</xref>
+ </sup>. Three replicates were conducted for the DNA extraction and the subsequent procedures for the feed water and biofilm samples. The PCR amplification with the universal primers targeting the V4 region of 16S rRNA genes
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR20" class="xref">20</xref>,
+  <xref ref-type="bibr" rid="CR21" class="xref">21</xref>
+ </sup> was performed as described previously
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR13" class="xref">13</xref>
+ </sup>. High-throughput Illumina sequencing was performed according to the previously mentioned procedure
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR22" class="xref">22</xref>
+ </sup>. Briefly, the PCR products were purified with an AMPure XP kit (Beckman Coulter, CA, USA) and then with a QIAquick gel extraction kit (Qiagen, Venlo, Netherlands). The concentrations of purified PCR products were quantified with a Quant-iT PicoGreen dsDNA reagent (Life Technologies, CA, USA) and a NanoDrop 3300 (Thermo Fisher Scientific). An appropriate amount of the purified fragment and an internal control (PhiX Control V3; Illumina, CA, USA) was subjected to paired-end sequencing with a 300-cycle MiSeq reagent kit (Illumina) and a MiSeq sequencer (Illumina). The removal of the PhiX control, chimeric and low-quality (Q &lt; 30) sequences and the assembling of the paired-end reads were performed following the procedure reported previously
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR23" class="xref">23</xref>
+ </sup>. The sorted sequences in each library were phylogenetically characterized using the QIIME software
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR24" class="xref">24</xref>
+ </sup>. OTU was defined using the cut-off of 97% sequence identity. The closest relative of the OTU was determined by NCBI BLAST search (
+ <ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://blast.ncbi.nlm.nih.gov/</ext-link>). Alpha-diversity indices (i.e., Chao1, Shannon and Simpson reciprocal) and the weighted UniFrac distances for the principal coordinate analysis (PCoA) were calculated based on an equal number (n = 25,894) of sequences using the QIIME software
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR24" class="xref">24</xref>
+ </sup>. The α-diversity index Chao1 indicates the predicted total number of microbial species (i.e., richness), whereas the Shannon and Simpson reciprocal indices reflect the evenness and richness of microbiomes with a focus on the minor and dominant microorganisms, respectively
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR25" class="xref">25</xref>
+ </sup>. The raw sequence data obtained in this study were deposited in the sequence read archive in the DDBJ database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ddbj.nig.ac.jp/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ddbj.nig.ac.jp/</ext-link>) under the accession number DRA006513.
+</p>

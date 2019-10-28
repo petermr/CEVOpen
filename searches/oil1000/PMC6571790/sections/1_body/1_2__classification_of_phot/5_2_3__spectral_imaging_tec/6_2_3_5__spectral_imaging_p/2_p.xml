@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Similar to the imaging and spectroscopy techniques, the raw spectral image data in BIP, BIL and BSQ formats should undergo pre-processing in both the spatial and spectral aspects before being utilized for further analysis. The raw spectral image, which represents detector signal intensity, will first undergo flat-field calibration or reflectance calibration to form useful reflectance or absorbance image. From the spatial aspect, the generated reflectance image can be further improved through image enhancement processes such as edge and contrast enhancement, magnifying, pseudo-coloring and sharpening. Noise reduction can also be achieved through spatial filtering, Fourier transform (FT) and wavelet transform (WT). From the spectral aspect, noise reduction and baseline correction can be performed through algorithms such as MSC, SNV, Savitzky-Golay smoothing, first and second derivatives, FT, WT as well as orthogonal signal correction (OSC) [
+ <xref rid="B35-molecules-24-02025" ref-type="bibr" class="xref">35</xref>,
+ <xref rid="B36-molecules-24-02025" ref-type="bibr" class="xref">36</xref>].
+</p>

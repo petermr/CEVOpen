@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Expression levels of unigenes were normalized and calculated as the values of fragments per kilobase of transcripts per million mapped fragments (FPKM) during the assembly and clustering process. Differential expression analysis of unigenes was performed using the DESeq R package (1.10.1). DESeq provides statistical routines for assessing the differential genes expression in leaf tissues and assigns genes as differential expressed when the 
+ <italic class="italic">P</italic>-value &lt; 0.05. 
+ <italic class="italic">P</italic>-value results were corrected using the Benjamini and Hochberg approach for controlling the false discovery rate (FDR).
+ <xref rid="dsy028-B19" ref-type="bibr" class="xref">
+  <sup class="sup">19</sup>
+ </xref>
+</p>

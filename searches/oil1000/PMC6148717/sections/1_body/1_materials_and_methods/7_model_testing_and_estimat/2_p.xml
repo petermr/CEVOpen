@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0115" class="p">To determine the correlation among the selected variables and the responses, a simple linear regression must be satisfied. The connection between the oil/biodiesel and the selected factors under consideration are expressed by 
+ <xref rid="fd2" ref-type="disp-formula" class="xref">Eq. (2)</xref>. Meanwhile, Eqs. 
+ <xref rid="fd5" ref-type="disp-formula" class="xref">(5)</xref>, 
+ <xref rid="fd6" ref-type="disp-formula" class="xref">(6)</xref>, 
+ <xref rid="fd7" ref-type="disp-formula" class="xref">(7)</xref>, and 
+ <xref rid="fd8" ref-type="disp-formula" class="xref">(8)</xref> were used for model testing and estimation capabilities. These values were used together to compare the BBD
+ <sub class="sub">RSM</sub> and ANN
+ <sub class="sub">GA</sub> models by comparing the evaluated values for the models 
+ <xref rid="bib39" ref-type="bibr" class="xref">[39]</xref>.
+ <disp-formula id="fd5" class="disp-formula">
+  <label class="label">(5)</label>
+  <math id="M12" altimg="si7.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">A</mi>
+    <mi class="mi">D</mi>
+    <mi class="mi">D</mi>
+    <mo class="mo">=</mo>
+    <mrow class="mrow">
+     <mo stretchy="true" class="mo">{</mo>
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">n</mi>
+       </mrow>
+      </mfrac>
+      <mrow class="mrow">
+       <mo stretchy="true" class="mo">|</mo>
+       <mrow class="mrow">
+        <munderover class="munderover">
+         <mo movablelimits="false" class="mo">∑</mo>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">=</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+         </mrow>
+        </munderover>
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo stretchy="true" class="mo">(</mo>
+          <mrow class="mrow">
+           <mfrac class="mfrac">
+            <mrow class="mrow">
+             <msub class="msub">
+              <mrow class="mrow">
+               <mo class="mo">∅</mo>
+              </mrow>
+              <mrow class="mrow">
+               <mi class="mi">i</mi>
+               <mo class="mo">,</mo>
+               <mi class="mi">e</mi>
+               <mi class="mi">x</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+             <mo class="mo">−</mo>
+             <msub class="msub">
+              <mrow class="mrow">
+               <mo class="mo">∅</mo>
+              </mrow>
+              <mrow class="mrow">
+               <mi class="mi">i</mi>
+               <mo class="mo">,</mo>
+               <mi class="mi">c</mi>
+               <mi class="mi">a</mi>
+               <mi class="mi">l</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mrow class="mrow">
+               <mo class="mo">∅</mo>
+              </mrow>
+              <mrow class="mrow">
+               <mi class="mi">i</mi>
+               <mo class="mo">,</mo>
+               <mi class="mi">e</mi>
+               <mi class="mi">x</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo stretchy="true" class="mo">)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo stretchy="true" class="mo">|</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true" class="mo">}</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd6" class="disp-formula">
+  <label class="label">(6)</label>
+  <math id="M13" altimg="si8.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">R</mi>
+    <mi class="mi">M</mi>
+    <mi class="mi">S</mi>
+    <mi class="mi">E</mi>
+    <mo class="mo">=</mo>
+    <msqrt class="msqrt">
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mo class="mo">∑</mo>
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo stretchy="true" class="mo">(</mo>
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">c</mi>
+             <mi class="mi">a</mi>
+             <mi class="mi">l</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">−</mo>
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mtext class="mtext">exp</mtext>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo stretchy="true" class="mo">)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">ρ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msqrt>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd7" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="M14" altimg="si9.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msup class="msup">
+     <mrow class="mrow">
+      <mi class="mi">R</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msup>
+    <mo class="mo">=</mo>
+    <mn class="mn">1</mn>
+    <mo class="mo">−</mo>
+    <munderover class="munderover">
+     <mo movablelimits="false" class="mo">∑</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">n</mi>
+     </mrow>
+    </munderover>
+    <mrow class="mrow">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msup class="msup">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo stretchy="true" class="mo">(</mo>
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">c</mi>
+             <mi class="mi">a</mi>
+             <mi class="mi">l</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">−</mo>
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">e</mi>
+             <mi class="mi">x</mi>
+             <mi class="mi">p</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo stretchy="true" class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mn class="mn">2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mrow class="mrow">
+       <msup class="msup">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo stretchy="true" class="mo">(</mo>
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">a</mi>
+             <mi class="mi">v</mi>
+             <mi class="mi">g</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">e</mi>
+             <mi class="mi">x</mi>
+             <mi class="mi">p</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">−</mo>
+           <msub class="msub">
+            <mrow class="mrow">
+             <mo class="mo">∅</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">e</mi>
+             <mi class="mi">x</mi>
+             <mi class="mi">p</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo stretchy="true" class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mn class="mn">2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd8" class="disp-formula">
+  <label class="label">(8)</label>
+  <math id="M15" altimg="si10.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msup class="msup">
+     <mrow class="mrow">
+      <mover accent="true" class="mover">
+       <mi class="mi">R</mi>
+       <mo class="mo">¯</mo>
+      </mover>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </msup>
+    <mo class="mo">=</mo>
+    <mn class="mn">1</mn>
+    <mo class="mo">−</mo>
+    <mrow class="mrow">
+     <mo stretchy="true" class="mo">(</mo>
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <msup class="msup">
+       <mrow class="mrow">
+        <mi class="mi">R</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mn class="mn">2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true" class="mo">)</mo>
+    </mrow>
+    <mrow class="mrow">
+     <mo stretchy="true" class="mo">[</mo>
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mi class="mi">ρ</mi>
+        <mo class="mo">−</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">ρ</mi>
+        <mo class="mo">−</mo>
+        <mrow class="mrow">
+         <mo stretchy="true" class="mo">(</mo>
+         <mrow class="mrow">
+          <mo class="mo">∅</mo>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mo stretchy="true" class="mo">)</mo>
+        </mrow>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true" class="mo">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>with the number of observed data/sample size is 
+ <inline-formula class="inline-formula">
+  <math id="M16" altimg="si11.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mspace width="0.25em" class="mspace"/>
+    <mi class="mi">ρ</mi>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </inline-formula>
+ <inline-formula class="inline-formula">
+  <math id="M17" altimg="si12.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mo class="mo">∅</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">,</mo>
+      <mi class="mi">e</mi>
+      <mi class="mi">x</mi>
+      <mi class="mi">p</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the experimental value, 
+ <inline-formula class="inline-formula">
+  <math id="M18" altimg="si13.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mo class="mo">∅</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">,</mo>
+      <mi class="mi">c</mi>
+      <mi class="mi">a</mi>
+      <mi class="mi">l</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the calculated value and 
+ <inline-formula class="inline-formula">
+  <math id="M19" altimg="si14.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mo class="mo">∅</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">a</mi>
+      <mi class="mi">v</mi>
+      <mi class="mi">g</mi>
+      <mo class="mo">,</mo>
+      <mi class="mi">e</mi>
+      <mi class="mi">x</mi>
+      <mi class="mi">p</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the average experimental value, 
+ <inline-formula class="inline-formula">
+  <math id="M20" altimg="si15.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mo class="mo">∅</mo>
+    <mspace width="0.25em" class="mspace"/>
+   </mrow>
+  </math>
+ </inline-formula> is the number of independent variables in the regression analysis. AAD is the absolute average deviation, RMSE is the root mean square error, R
+ <sup class="sup">2</sup> is the coefficient of determination and is the adjusted coefficient of determination.
+</p>

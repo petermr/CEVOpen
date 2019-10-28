@@ -1,0 +1,2826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Because the mathematical equations were complex, obtaining an analytical solution was difficult [
+ <xref rid="B41-polymers-10-00857" ref-type="bibr" class="xref">41</xref>]. Here, the control volume finite difference method, which is a numerical method, was applied to obtain a solution, and a block-centered grid was employed as the grid system. The discretized forms of the mass conservation equations are as follows:
+ <disp-formula id="FD24-polymers-10-00857" class="disp-formula">
+  <label class="label">(24)</label>
+  <math id="mm81" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mtable columnalign="left" class="mtable">
+      <mtr class="mtr">
+       <mtd class="mtd">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+       <mtd class="mtd">
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">o</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mi class="mi">Q</mi>
+         <mrow class="mrow">
+          <mi class="mi">o</mi>
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mrow class="mrow">
+         <mo class="mo">=</mo>
+         <mrow class="mrow">
+          <mo class="mo">[</mo>
+          <mrow class="mrow">
+           <msubsup class="msubsup">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <mi class="mi">v</mi>
+                 <mi class="mi">ϕ</mi>
+                 <msub class="msub">
+                  <mi class="mi">s</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">n</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+            </mrow>
+           </msubsup>
+           <mo class="mo">−</mo>
+           <msubsup class="msubsup">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <mi class="mi">v</mi>
+                 <mi class="mi">ϕ</mi>
+                 <msub class="msub">
+                  <mi class="mi">s</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+            <mi class="mi">n</mi>
+           </msubsup>
+          </mrow>
+          <mo class="mo">]</mo>
+         </mrow>
+         <mo class="mo">/</mo>
+         <mo class="mo">Δ</mo>
+         <mi class="mi">t</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD26-polymers-10-00857" class="disp-formula">
+  <label class="label">(25)</label>
+  <math id="mm83" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mtable class="mtable">
+      <mtr class="mtr">
+       <mtd columnalign="right" class="mtd">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+       <mtd columnalign="left" class="mtd">
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd columnalign="right" class="mtd">
+        <mo class="mo">+</mo>
+       </mtd>
+       <mtd columnalign="left" class="mtd">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mi class="mi">Q</mi>
+         <mrow class="mrow">
+          <mi class="mi">w</mi>
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd columnalign="right" class="mtd">
+        <mo class="mo">=</mo>
+       </mtd>
+       <mtd columnalign="left" class="mtd">
+        <mrow class="mrow">
+         <mo class="mo">[</mo>
+         <mrow class="mrow">
+          <msubsup class="msubsup">
+           <mrow class="mrow">
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mfrac class="mfrac">
+               <mrow class="mrow">
+                <mi class="mi">v</mi>
+                <mi class="mi">ϕ</mi>
+                <msub class="msub">
+                 <mi class="mi">s</mi>
+                 <mi class="mi">w</mi>
+                </msub>
+               </mrow>
+               <mrow class="mrow">
+                <msub class="msub">
+                 <mi class="mi">B</mi>
+                 <mi class="mi">w</mi>
+                </msub>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+           </mrow>
+           <mrow class="mrow">
+            <mi class="mi">i</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">j</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">k</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mi class="mi">n</mi>
+            <mo class="mo">+</mo>
+            <mn class="mn">1</mn>
+           </mrow>
+          </msubsup>
+          <mo class="mo">−</mo>
+          <msubsup class="msubsup">
+           <mrow class="mrow">
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mfrac class="mfrac">
+               <mrow class="mrow">
+                <mi class="mi">v</mi>
+                <mi class="mi">ϕ</mi>
+                <msub class="msub">
+                 <mi class="mi">s</mi>
+                 <mi class="mi">w</mi>
+                </msub>
+               </mrow>
+               <mrow class="mrow">
+                <msub class="msub">
+                 <mi class="mi">B</mi>
+                 <mi class="mi">w</mi>
+                </msub>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+           </mrow>
+           <mrow class="mrow">
+            <mi class="mi">i</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">j</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">k</mi>
+           </mrow>
+           <mi class="mi">n</mi>
+          </msubsup>
+         </mrow>
+         <mo class="mo">]</mo>
+        </mrow>
+        <mo class="mo">/</mo>
+        <mo class="mo">Δ</mo>
+        <mi class="mi">t</mi>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD28-polymers-10-00857" class="disp-formula">
+  <label class="label">(26)</label>
+  <math id="mm85" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mtable columnalign="left" class="mtable">
+      <mtr class="mtr">
+       <mtd class="mtd">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+       <mtd class="mtd">
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">R</mi>
+             <mrow class="mrow">
+              <mi class="mi">p</mi>
+              <mi class="mi">d</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <msub class="msub">
+             <mi class="mi">Q</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">=</mo>
+        <mo class="mo">{</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mfrac class="mfrac">
+             <mrow class="mrow">
+              <mi class="mi">v</mi>
+              <mi class="mi">ϕ</mi>
+              <mrow class="mrow">
+               <mo class="mo">(</mo>
+               <mrow class="mrow">
+                <mn class="mn">1</mn>
+                <mo class="mo">−</mo>
+                <msub class="msub">
+                 <mi class="mi">f</mi>
+                 <mrow class="mrow">
+                  <mi class="mi">i</mi>
+                  <mi class="mi">p</mi>
+                  <mi class="mi">v</mi>
+                 </mrow>
+                </msub>
+               </mrow>
+               <mo class="mo">)</mo>
+              </mrow>
+              <msub class="msub">
+               <mi class="mi">s</mi>
+               <mi class="mi">w</mi>
+              </msub>
+              <msub class="msub">
+               <mi class="mi">c</mi>
+               <mrow class="mrow">
+                <mi class="mi">h</mi>
+                <mi class="mi">p</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">B</mi>
+               <mi class="mi">w</mi>
+              </msub>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mfrac class="mfrac">
+             <mrow class="mrow">
+              <mi class="mi">v</mi>
+              <mi class="mi">ϕ</mi>
+              <mrow class="mrow">
+               <mo class="mo">(</mo>
+               <mrow class="mrow">
+                <mn class="mn">1</mn>
+                <mo class="mo">−</mo>
+                <msub class="msub">
+                 <mi class="mi">f</mi>
+                 <mrow class="mrow">
+                  <mi class="mi">i</mi>
+                  <mi class="mi">p</mi>
+                  <mi class="mi">v</mi>
+                 </mrow>
+                </msub>
+               </mrow>
+               <mo class="mo">)</mo>
+              </mrow>
+              <msub class="msub">
+               <mi class="mi">s</mi>
+               <mi class="mi">w</mi>
+              </msub>
+              <msub class="msub">
+               <mi class="mi">c</mi>
+               <mrow class="mrow">
+                <mi class="mi">h</mi>
+                <mi class="mi">p</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">B</mi>
+               <mi class="mi">w</mi>
+              </msub>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mi class="mi">n</mi>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <msub class="msub">
+               <mi class="mi">f</mi>
+               <mrow class="mrow">
+                <mi class="mi">i</mi>
+                <mi class="mi">p</mi>
+                <mi class="mi">v</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <mi class="mi">ϕ</mi>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <msub class="msub">
+             <mi class="mi">ρ</mi>
+             <mi class="mi">r</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+              <mi class="mi">a</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <msub class="msub">
+               <mi class="mi">f</mi>
+               <mrow class="mrow">
+                <mi class="mi">i</mi>
+                <mi class="mi">p</mi>
+                <mi class="mi">v</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <mi class="mi">ϕ</mi>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <msub class="msub">
+             <mi class="mi">ρ</mi>
+             <mi class="mi">r</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+              <mi class="mi">a</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mi class="mi">n</mi>
+        </msubsup>
+        <mo class="mo">}</mo>
+        <mo class="mo">/</mo>
+        <mo class="mo">Δ</mo>
+        <mi class="mi">t</mi>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD31-polymers-10-00857" class="disp-formula">
+  <label class="label">(27)</label>
+  <math id="mm88" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mtable columnalign="left" class="mtable">
+      <mtr class="mtr">
+       <mtd class="mtd">
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+       <mtd class="mtd">
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">T</mi>
+            <msub class="msub">
+             <mi class="mi">λ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">Δ</mo>
+            <msub class="msub">
+             <mi mathvariant="sans-serif" class="mi">Φ</mi>
+             <mi class="mi">w</mi>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+          <mo class="mo">−</mo>
+          <mn class="mn">1</mn>
+          <mo class="mo">/</mo>
+          <mn class="mn">2</mn>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">h</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">R</mi>
+             <mrow class="mrow">
+              <mi class="mi">p</mi>
+              <mi class="mi">d</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <msub class="msub">
+             <mi class="mi">Q</mi>
+             <mi class="mi">w</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">=</mo>
+        <mo class="mo">{</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mfrac class="mfrac">
+             <mrow class="mrow">
+              <mi class="mi">v</mi>
+              <mi class="mi">ϕ</mi>
+              <mrow class="mrow">
+               <mo class="mo">(</mo>
+               <mrow class="mrow">
+                <mn class="mn">1</mn>
+                <mo class="mo">−</mo>
+                <msub class="msub">
+                 <mi class="mi">f</mi>
+                 <mrow class="mrow">
+                  <mi class="mi">i</mi>
+                  <mi class="mi">p</mi>
+                  <mi class="mi">v</mi>
+                 </mrow>
+                </msub>
+               </mrow>
+               <mo class="mo">)</mo>
+              </mrow>
+              <msub class="msub">
+               <mi class="mi">s</mi>
+               <mi class="mi">w</mi>
+              </msub>
+              <msub class="msub">
+               <mi class="mi">c</mi>
+               <mrow class="mrow">
+                <mi class="mi">l</mi>
+                <mi class="mi">p</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">B</mi>
+               <mi class="mi">w</mi>
+              </msub>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mfrac class="mfrac">
+             <mrow class="mrow">
+              <mi class="mi">v</mi>
+              <mi class="mi">ϕ</mi>
+              <mrow class="mrow">
+               <mo class="mo">(</mo>
+               <mrow class="mrow">
+                <mn class="mn">1</mn>
+                <mo class="mo">−</mo>
+                <msub class="msub">
+                 <mi class="mi">f</mi>
+                 <mrow class="mrow">
+                  <mi class="mi">i</mi>
+                  <mi class="mi">p</mi>
+                  <mi class="mi">v</mi>
+                 </mrow>
+                </msub>
+               </mrow>
+               <mo class="mo">)</mo>
+              </mrow>
+              <msub class="msub">
+               <mi class="mi">s</mi>
+               <mi class="mi">w</mi>
+              </msub>
+              <msub class="msub">
+               <mi class="mi">c</mi>
+               <mrow class="mrow">
+                <mi class="mi">l</mi>
+                <mi class="mi">p</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">B</mi>
+               <mi class="mi">w</mi>
+              </msub>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mi class="mi">n</mi>
+        </msubsup>
+       </mtd>
+      </mtr>
+      <mtr class="mtr">
+       <mtd class="mtd"/>
+       <mtd class="mtd">
+        <mspace width="-2.222222em" class="mspace"/>
+        <mo class="mo">+</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <msub class="msub">
+               <mi class="mi">f</mi>
+               <mrow class="mrow">
+                <mi class="mi">i</mi>
+                <mi class="mi">p</mi>
+                <mi class="mi">v</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <mi class="mi">ϕ</mi>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <msub class="msub">
+             <mi class="mi">ρ</mi>
+             <mi class="mi">r</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+              <mi class="mi">a</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">n</mi>
+          <mo class="mo">+</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+        </msubsup>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">[</mo>
+           <mrow class="mrow">
+            <mi class="mi">v</mi>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <msub class="msub">
+               <mi class="mi">f</mi>
+               <mrow class="mrow">
+                <mi class="mi">i</mi>
+                <mi class="mi">p</mi>
+                <mi class="mi">v</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <mrow class="mrow">
+             <mo class="mo">(</mo>
+             <mrow class="mrow">
+              <mn class="mn">1</mn>
+              <mo class="mo">−</mo>
+              <mi class="mi">ϕ</mi>
+             </mrow>
+             <mo class="mo">)</mo>
+            </mrow>
+            <msub class="msub">
+             <mi class="mi">ρ</mi>
+             <mi class="mi">r</mi>
+            </msub>
+            <msub class="msub">
+             <mi class="mi">c</mi>
+             <mrow class="mrow">
+              <mi class="mi">l</mi>
+              <mi class="mi">p</mi>
+              <mi class="mi">a</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">]</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">j</mi>
+          <mo class="mo">,</mo>
+          <mi class="mi">k</mi>
+         </mrow>
+         <mi class="mi">n</mi>
+        </msubsup>
+        <mo class="mo">}</mo>
+        <mo class="mo">/</mo>
+        <mo class="mo">Δ</mo>
+        <mi class="mi">t</mi>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm91" class="math">
+   <mrow class="mrow">
+    <mi class="mi">n</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the time step number and 
+ <inline-formula class="inline-formula">
+  <math id="mm92" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the grid block number. 
+ <inline-formula class="inline-formula">
+  <math id="mm93" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">/</mo>
+       <mn class="mn">2</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mn class="mn">2</mn>
+       <msub class="msub">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo class="mo">(</mo>
+          <mrow class="mrow">
+           <mi class="mi">d</mi>
+           <mi class="mi">y</mi>
+           <mi class="mi">d</mi>
+           <mi class="mi">z</mi>
+           <msub class="msub">
+            <mi class="mi">k</mi>
+            <mrow class="mrow">
+             <mi class="mi">x</mi>
+             <mi class="mi">x</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <msub class="msub">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo class="mo">(</mo>
+          <mrow class="mrow">
+           <mi class="mi">d</mi>
+           <mi class="mi">y</mi>
+           <mi class="mi">d</mi>
+           <mi class="mi">z</mi>
+           <msub class="msub">
+            <mi class="mi">k</mi>
+            <mrow class="mrow">
+             <mi class="mi">x</mi>
+             <mi class="mi">x</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">+</mo>
+         <mn class="mn">1</mn>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo class="mo">(</mo>
+          <mrow class="mrow">
+           <mi class="mi">d</mi>
+           <mi class="mi">y</mi>
+           <mi class="mi">d</mi>
+           <mi class="mi">z</mi>
+           <msub class="msub">
+            <mi class="mi">k</mi>
+            <mrow class="mrow">
+             <mi class="mi">x</mi>
+             <mi class="mi">x</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <mi class="mi">d</mi>
+       <msub class="msub">
+        <mi class="mi">x</mi>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">+</mo>
+         <mn class="mn">1</mn>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <mo class="mo">+</mo>
+       <msub class="msub">
+        <mrow class="mrow">
+         <mrow class="mrow">
+          <mo class="mo">(</mo>
+          <mrow class="mrow">
+           <mi class="mi">d</mi>
+           <mi class="mi">y</mi>
+           <mi class="mi">d</mi>
+           <mi class="mi">z</mi>
+           <msub class="msub">
+            <mi class="mi">k</mi>
+            <mrow class="mrow">
+             <mi class="mi">x</mi>
+             <mi class="mi">x</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo class="mo">)</mo>
+         </mrow>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">+</mo>
+         <mn class="mn">1</mn>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <mi class="mi">d</mi>
+       <msub class="msub">
+        <mi class="mi">x</mi>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is a conductivity coefficient in the x direction between the grid blocks 
+ <inline-formula class="inline-formula">
+  <math id="mm94" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm95" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in um
+ <sup class="sup">2</sup>·m; in which 
+ <inline-formula class="inline-formula">
+  <math id="mm96" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">dx</mi>
+     <mo class="mo">,</mo>
+     <mi class="mi">dy</mi>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm97" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">dz</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the length of the grid block in the x, y and z directions in m, respectively; and 
+ <inline-formula class="inline-formula">
+  <math id="mm98" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">k</mi>
+      <mrow class="mrow">
+       <mi class="mi">x</mi>
+       <mi class="mi">x</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the absolute permeability in the x direction. 
+ <inline-formula class="inline-formula">
+  <math id="mm99" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">Δ</mo>
+     <msub class="msub">
+      <mi mathvariant="sans-serif" class="mi">Φ</mi>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">/</mo>
+       <mn class="mn">2</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">p</mi>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">−</mo>
+     <msub class="msub">
+      <mi class="mi">p</mi>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">+</mo>
+     <mfrac class="mfrac">
+      <mn class="mn">1</mn>
+      <mn class="mn">2</mn>
+     </mfrac>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mrow class="mrow">
+         <mi class="mi">o</mi>
+         <mi class="mi">i</mi>
+         <mo class="mo">+</mo>
+         <mn class="mn">1</mn>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <mo class="mo">+</mo>
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mrow class="mrow">
+         <mi class="mi">o</mi>
+         <mi class="mi">i</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mi class="mi">g</mi>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">D</mi>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">+</mo>
+         <mn class="mn">1</mn>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+       <mo class="mo">−</mo>
+       <msub class="msub">
+        <mi class="mi">D</mi>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">j</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">k</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the potential difference in Pa, 
+ <inline-formula class="inline-formula">
+  <math id="mm100" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">λ</mi>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">/</mo>
+       <mn class="mn">2</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <mrow class="mrow">
+      <mo class="mo">{</mo>
+      <mrow class="mrow">
+       <mtable class="mtable">
+        <mtr class="mtr">
+         <mtd class="mtd">
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">k</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">r</mi>
+                   <mi class="mi">o</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">μ</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo"> </mo>
+           <mi class="mi">i</mi>
+           <mi class="mi">f</mi>
+           <mo class="mo"> </mo>
+           <mo class="mo">Δ</mo>
+           <msub class="msub">
+            <mi mathvariant="sans-serif" class="mi">Φ</mi>
+            <mrow class="mrow">
+             <mi class="mi">o</mi>
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">/</mo>
+             <mn class="mn">2</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">≥</mo>
+           <mn class="mn">0</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr class="mtr">
+         <mtd class="mtd">
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">k</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">r</mi>
+                   <mi class="mi">o</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">μ</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">o</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo"> </mo>
+           <mi class="mi">i</mi>
+           <mi class="mi">f</mi>
+           <mo class="mo"> </mo>
+           <mo class="mo">Δ</mo>
+           <msub class="msub">
+            <mi mathvariant="sans-serif" class="mi">Φ</mi>
+            <mrow class="mrow">
+             <mi class="mi">o</mi>
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">/</mo>
+             <mn class="mn">2</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">&lt;</mo>
+           <mn class="mn">0</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm101" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">λ</mi>
+      <mrow class="mrow">
+       <mi class="mi">w</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">/</mo>
+       <mn class="mn">2</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <mrow class="mrow">
+      <mo class="mo">{</mo>
+      <mrow class="mrow">
+       <mtable class="mtable">
+        <mtr class="mtr">
+         <mtd class="mtd">
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">k</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">r</mi>
+                   <mi class="mi">w</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">μ</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">w</mi>
+                   <mi class="mi">e</mi>
+                  </mrow>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">w</mi>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">R</mi>
+                  <mi class="mi">k</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo"> </mo>
+           <mi class="mi">i</mi>
+           <mi class="mi">f</mi>
+           <mo class="mo"> </mo>
+           <mo class="mo">Δ</mo>
+           <msub class="msub">
+            <mi mathvariant="sans-serif" class="mi">Φ</mi>
+            <mrow class="mrow">
+             <mi class="mi">w</mi>
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">/</mo>
+             <mn class="mn">2</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">≥</mo>
+           <mn class="mn">0</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr class="mtr">
+         <mtd class="mtd">
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mfrac class="mfrac">
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">k</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">r</mi>
+                   <mi class="mi">w</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mrow class="mrow">
+                 <msub class="msub">
+                  <mi class="mi">μ</mi>
+                  <mrow class="mrow">
+                   <mi class="mi">w</mi>
+                   <mi class="mi">e</mi>
+                  </mrow>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">B</mi>
+                  <mi class="mi">w</mi>
+                 </msub>
+                 <msub class="msub">
+                  <mi class="mi">R</mi>
+                  <mi class="mi">k</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+            </mrow>
+            <mrow class="mrow">
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo"> </mo>
+           <mi class="mi">i</mi>
+           <mi class="mi">f</mi>
+           <mo class="mo"> </mo>
+           <mo class="mo">Δ</mo>
+           <msub class="msub">
+            <mi mathvariant="sans-serif" class="mi">Φ</mi>
+            <mrow class="mrow">
+             <mi class="mi">w</mi>
+             <mi class="mi">i</mi>
+             <mo class="mo">+</mo>
+             <mn class="mn">1</mn>
+             <mo class="mo">/</mo>
+             <mn class="mn">2</mn>
+             <mo class="mo">,</mo>
+             <mi class="mi">j</mi>
+             <mo class="mo">,</mo>
+             <mi class="mi">k</mi>
+            </mrow>
+           </msub>
+           <mo class="mo">&lt;</mo>
+           <mn class="mn">0</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the mobilities for the oil and water phases in the x direction between the grid blocks 
+ <inline-formula class="inline-formula">
+  <math id="mm118" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm102" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">+</mo>
+       <mn class="mn">1</mn>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in mPa·s
+ <sup class="sup">−1</sup>. 
+ <inline-formula class="inline-formula">
+  <math id="mm103" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="normal" class="mi">T</mi>
+     <mi mathvariant="sans-serif" class="mi">λ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> can be called transmissibility; 
+ <inline-formula class="inline-formula">
+  <math id="mm104" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi mathvariant="normal" class="mi">Q</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm105" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">Q</mi>
+      <mrow class="mrow">
+       <mi class="mi">w</mi>
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the oil and water flow rates in the grid block 
+ <inline-formula class="inline-formula">
+  <math id="mm106" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> under the ground standard conditions in m
+ <sup class="sup">3</sup>/day, respectively. Production is negative, and injection is positive. 
+ <inline-formula class="inline-formula">
+  <math id="mm107" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">v</mi>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the volume of the grid block 
+ <inline-formula class="inline-formula">
+  <math id="mm108" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">j</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">k</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Similar quantities can be obtained but are not presented here.
+</p>

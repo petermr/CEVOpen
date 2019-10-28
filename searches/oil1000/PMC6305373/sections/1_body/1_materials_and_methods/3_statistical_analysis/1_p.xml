@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">All statistical analyses were performed using 
+ <italic class="italic">R</italic> statistical software (version 2.14.9). Initially untargeted data was converted into a Bray-Curtis similarity matrix and non-metric multidimensional scaling was performed using the Vegan package (Oksanen et al., 
+ <xref rid="B53" ref-type="bibr" class="xref">2013</xref>), which was visualized using ggplot2 (Wickham, 
+ <xref rid="B78" ref-type="bibr" class="xref">2016</xref>). A significant species effect on the untargeted chemical composition was tested using multivariate generalized linear modeling followed by analysis of variance (MGLM-ANOVA), which was performed using the manyglm and anova functions within the MVABUND package (Wang et al., 
+ <xref rid="B76" ref-type="bibr" class="xref">2012</xref>). Given the strong expected effects of species on plant chemistry (e.g., Hegnauer, 
+ <xref rid="B31" ref-type="bibr" class="xref">1962–1973</xref>; Rønsted et al., 
+ <xref rid="B59" ref-type="bibr" class="xref">2012</xref>), PERMANOVAs were ran to test for the effects of collection year, altitude and geography on untargeted chemical composition, using the adonis function with the Vegan package. Due to incomplete datasets, the effect of each was tested for individually in a PERMANOVA. Furthermore, sample GPS coordinates were converted into a principle coordinates of neighbor matrix (PCNM), with the resulting first two principle components (PCNM1 and PCNM2) used within the PERMANOVA testing for geographical effects on the untargeted chemical composition.
+</p>

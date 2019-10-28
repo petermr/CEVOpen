@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E1" class="disp-formula">
+ <math id="M1" class="math">
+  <mtable columnalign="left" class="mtable">
+   <mtr class="mtr">
+    <mtd class="mtd">
+     <mtext mathvariant="normal" class="mtext">Y</mtext>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">β</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mn class="mn">0</mn>
+      </mrow>
+     </msub>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover accentunder="false" accent="false" class="munderover">
+       <mrow class="mrow">
+        <mo class="mo">∑</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">n</mi>
+       </mrow>
+      </munderover>
+     </mstyle>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">β</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">i</mtext>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">x</mtext>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">i</mtext>
+      </mrow>
+     </msub>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover accentunder="false" accent="false" class="munderover">
+       <mrow class="mrow">
+        <mo class="mo">∑</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mtext mathvariant="normal" class="mtext">n</mtext>
+       </mrow>
+      </munderover>
+     </mstyle>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">β</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">ii</mtext>
+      </mrow>
+     </msub>
+     <msubsup class="msubsup">
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">x</mtext>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">i</mtext>
+      </mrow>
+      <mrow class="mrow">
+       <mn class="mn">2</mn>
+      </mrow>
+     </msubsup>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover accentunder="false" accent="false" class="munderover">
+       <mrow class="mrow">
+        <mo class="mo">∑</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mtext class="mtext">i</mtext>
+        <mo class="mo">≠</mo>
+        <mtext class="mtext">j</mtext>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">n</mi>
+       </mrow>
+      </munderover>
+     </mstyle>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">β</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">ii</mtext>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">x</mtext>
+      </mrow>
+      <mrow class="mrow">
+       <mtext mathvariant="normal" class="mtext">i</mtext>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">x</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mi class="mi">j</mi>
+      </mrow>
+     </msub>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

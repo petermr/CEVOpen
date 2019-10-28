@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T3" position="float" class="table-wrap">
+ <label class="label">Table 3</label>
+ <caption class="caption">
+  <p class="p">Analysis of Variance (ANOVA).</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th valign="top" align="left" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Source</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Sum of squares</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Degrees of freedom</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Mean square</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">F</italic>-value
+     </bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">
+      <italic class="italic">p</italic>-value
+     </bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td valign="top" align="left" colspan="6" rowspan="1" class="td">Dependent Variable = Biomass (g. L
+     <sup class="sup">−1</sup>); 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup> = 0.92592; Adj. 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup> = 0.92203; MS Pure Error = 1.705811
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1 (L+Q)</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1555.49</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">2.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">777.74</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">455.94</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X2</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">152.83</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">152.83</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">89.59</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1X2</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">95.10</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">95.10</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">55.75</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Lack of Fit</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">14.17</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">4.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">3.54</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">2.08</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.0928</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Pure Error</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">122.82</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">72.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.71</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Total SS</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1849.25</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">80.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" colspan="6" rowspan="1" class="td">Dependent Variable = Lipid Weight (g. L
+     <sup class="sup">−1</sup>); R
+     <sup class="sup">2</sup> = 0.95642; Adj. R
+     <sup class="sup">2</sup> = 0.95224; MS Pure Error = 0.2361527
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1 (L)</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">184.11</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">184.11</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">779.60</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X2 (L+Q)</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">132.88</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">2.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">66.44</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">281.35</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1X2</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">49.61</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">4.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">12.40</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">52.52</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Lack of Fit</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.62</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.62</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">2.64</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.1085</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Pure Error</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">17.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">72.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.24</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Total SS</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">404.42</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">80.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" colspan="6" rowspan="1" class="td">Dependent Variable = Lipid Content (w/w); 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup> = 0.90226; Adj. 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup> = 0.89288; MS Pure Error = 16.54639
+    </td>
+   </tr>
+   <tr style="border-top: thin solid #000000;" class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1098.95</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1098.95</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">66.42</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X2 (L+Q)</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">8828.59</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">2.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">4414.30</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">266.78</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" style="color:#ee1c25" rowspan="1" colspan="1" class="td">X1X2</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">1230.42</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">4.00</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">307.61</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">18.59</td>
+    <td valign="top" align="center" style="color:#ee1c25" rowspan="1" colspan="1" class="td">0.0000</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Lack of Fit</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">36.18</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">36.18</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">2.19</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">0.1436</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Pure Error</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">1191.34</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">72.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">16.55</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+   <tr class="tr">
+    <td valign="top" align="left" rowspan="1" colspan="1" class="td">Total SS</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">12558.62</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">80.00</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+    <td valign="top" align="center" rowspan="1" colspan="1" class="td">–</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

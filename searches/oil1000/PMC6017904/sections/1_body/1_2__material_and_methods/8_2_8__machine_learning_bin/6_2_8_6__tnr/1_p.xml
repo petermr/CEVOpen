@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">TNR (Equation (4)) measures the proportion of negative predicted labels that are correctly identified as such. That is, is the ability of the classifier to find all the negative samples. The best value is 1 and the worst is 0. 
+ <disp-formula id="FD4-molecules-23-00482" class="disp-formula">
+  <label class="label">(4)</label>
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">TNR</mi>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TN</mi>
+      </mrow>
+      <mi mathvariant="normal" class="mi">N</mi>
+     </mfrac>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TN</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">TN</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">+</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">FP</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

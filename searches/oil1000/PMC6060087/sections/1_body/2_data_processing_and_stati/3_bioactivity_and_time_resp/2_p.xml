@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0120" class="p">Data were aggregated for every covariate pattern and response data considered as binary (success or failure), so that each response represents a random realization which is described according to a binomial distribution:
+ <disp-formula id="eq0030" class="disp-formula">
+  <label class="label">(6)</label>
+  <math id="M10" altimg="si10.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mtable columnalign="center" class="mtable">
+     <mtr columnalign="center" class="mtr">
+      <mtd columnalign="center" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">P</mi>
+        <mfenced open="(" close=")" class="mfenced">
+         <mrow class="mrow">
+          <msub class="msub">
+           <mi class="mi">x</mi>
+           <mi class="mi">i</mi>
+          </msub>
+          <mo class="mo">=</mo>
+          <msub class="msub">
+           <mi class="mi">r</mi>
+           <mi class="mi">i</mi>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mo class="mo">=</mo>
+        <mfenced open="(" close=")" class="mfenced">
+         <mrow class="mrow">
+          <mtable columnalign="center" class="mtable">
+           <mtr columnalign="center" class="mtr">
+            <mtd columnalign="center" class="mtd">
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">n</mi>
+               <mi class="mi">i</mi>
+              </msub>
+             </mrow>
+            </mtd>
+           </mtr>
+           <mtr columnalign="center" class="mtr">
+            <mtd columnalign="center" class="mtd">
+             <mrow class="mrow">
+              <msub class="msub">
+               <mi class="mi">r</mi>
+               <mi class="mi">i</mi>
+              </msub>
+             </mrow>
+            </mtd>
+           </mtr>
+          </mtable>
+         </mrow>
+        </mfenced>
+        <msubsup class="msubsup">
+         <mi class="mi">P</mi>
+         <mi class="mi">i</mi>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mi class="mi">r</mi>
+           <mi class="mi">i</mi>
+          </msub>
+         </mrow>
+        </msubsup>
+        <msup class="msup">
+         <mrow class="mrow">
+          <mfenced open="(" close=")" class="mfenced">
+           <mrow class="mrow">
+            <mn class="mn">1</mn>
+            <mo class="mo">−</mo>
+            <msub class="msub">
+             <mi class="mi">P</mi>
+             <mi class="mi">i</mi>
+            </msub>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow class="mrow">
+          <mtext class="mtext"> </mtext>
+          <msub class="msub">
+           <mi class="mi">n</mi>
+           <mi class="mi">i</mi>
+          </msub>
+          <mo class="mo">−</mo>
+          <msub class="msub">
+           <mi class="mi">r</mi>
+           <mi class="mi">i</mi>
+          </msub>
+         </mrow>
+        </msup>
+        <mo class="mo">,</mo>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+        <mo class="mo">,</mo>
+        <mn class="mn">2</mn>
+        <mo class="mo">,</mo>
+        <mo class="mo">…</mo>
+        <mo class="mo">,</mo>
+        <mi class="mi">n</mi>
+        <mo class="mo">,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>where: 
+ <italic class="italic">n
+  <sub class="sub">i</sub>
+ </italic> and 
+ <italic class="italic">r
+  <sub class="sub">i</sub>
+ </italic> represent the number of subjects and responses for 
+ <italic class="italic">i</italic>-th of the 
+ <italic class="italic">m</italic> covariate pattern, respectively.
+</p>

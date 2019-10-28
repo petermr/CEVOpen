@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3" class="table-wrap">
+ <label class="label">Table 3</label>
+ <caption class="caption">
+  <p class="p">Model fitting of lamotrigine matrix patches (A1–A5) release profile</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th align="left" class="th">Mathematical models</th>
+    <th align="left" class="th">A1</th>
+    <th align="left" class="th">A2</th>
+    <th align="left" class="th">A3</th>
+    <th align="left" class="th">A4</th>
+    <th align="left" class="th">A5</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">Zero order</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.9701</td>
+    <td char="." align="char" class="td">0.9422</td>
+    <td char="." align="char" class="td">0.9701</td>
+    <td char="." align="char" class="td">0.9821</td>
+    <td char="." align="char" class="td">0.9558</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">k</italic>
+     <sub class="sub">o</sub> (h
+     <sup class="sup">−1</sup>)
+    </td>
+    <td char="." align="char" class="td">5.017</td>
+    <td char="." align="char" class="td">7.414</td>
+    <td char="." align="char" class="td">8.240</td>
+    <td char="." align="char" class="td">8.906</td>
+    <td char="." align="char" class="td">7.133</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">First order</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.9431</td>
+    <td char="." align="char" class="td">0.9230</td>
+    <td char="." align="char" class="td">0.9385</td>
+    <td char="." align="char" class="td">0.9797</td>
+    <td char="." align="char" class="td">0.9626</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">k</italic>
+     <sub class="sub">1</sub> (h
+     <sup class="sup">−1</sup>)
+    </td>
+    <td char="." align="char" class="td">0.063</td>
+    <td char="." align="char" class="td">0.125</td>
+    <td char="." align="char" class="td">0.143</td>
+    <td char="." align="char" class="td">0.170</td>
+    <td char="." align="char" class="td">0.119</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">Higuchi model</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.8934</td>
+    <td char="." align="char" class="td">0.9448</td>
+    <td char="." align="char" class="td">0.9472</td>
+    <td char="." align="char" class="td">0.9896</td>
+    <td char="." align="char" class="td">0.9783</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">k</italic>
+     <sub class="sub">H</sub> (h
+     <sup class="sup">−1/2</sup>)
+    </td>
+    <td char="." align="char" class="td">13.435</td>
+    <td char="." align="char" class="td">21.655</td>
+    <td char="." align="char" class="td">23.535</td>
+    <td char="." align="char" class="td">25.505</td>
+    <td char="." align="char" class="td">20.876</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">Korsmeyer–Peppas</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.9915</td>
+    <td char="." align="char" class="td">0.9404</td>
+    <td char="." align="char" class="td">0.9560</td>
+    <td char="." align="char" class="td">0.9932</td>
+    <td char="." align="char" class="td">0.9770</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">N</italic>
+    </td>
+    <td char="." align="char" class="td">1.524</td>
+    <td char="." align="char" class="td">0.365</td>
+    <td char="." align="char" class="td">0.599</td>
+    <td char="." align="char" class="td">0.600</td>
+    <td char="." align="char" class="td">0.392</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">K</italic>
+     <sub class="sub">kp</sub> (h
+     <sup class="sup">−n</sup>)
+    </td>
+    <td char="." align="char" class="td">1.584</td>
+    <td char="." align="char" class="td">28.065</td>
+    <td char="." align="char" class="td">19.345</td>
+    <td char="." align="char" class="td">20.947</td>
+    <td char="." align="char" class="td">25.730</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">Weibull</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.9923</td>
+    <td char="." align="char" class="td">0.9398</td>
+    <td char="." align="char" class="td">0.9707</td>
+    <td char="." align="char" class="td">0.9932</td>
+    <td char="." align="char" class="td">0.9767</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">A</italic>
+    </td>
+    <td char="." align="char" class="td">1282.570</td>
+    <td char="." align="char" class="td">794,556.783</td>
+    <td char="." align="char" class="td">161.762</td>
+    <td char="." align="char" class="td">2,251,097.401</td>
+    <td char="." align="char" class="td">90.271</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">B</italic>
+    </td>
+    <td char="." align="char" class="td">1.975</td>
+    <td char="." align="char" class="td">0.658</td>
+    <td char="." align="char" class="td">1.368</td>
+    <td char="." align="char" class="td">0.603</td>
+    <td char="." align="char" class="td">0.398</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" colspan="6" class="td">Makoid–Banakar</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">R</italic>
+     <sup class="sup">2</sup>
+    </td>
+    <td char="." align="char" class="td">0.9926</td>
+    <td char="." align="char" class="td">0.9959</td>
+    <td char="." align="char" class="td">0.9855</td>
+    <td char="." align="char" class="td">0.9969</td>
+    <td char="." align="char" class="td">0.9944</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">N</italic>
+    </td>
+    <td char="." align="char" class="td">2.937</td>
+    <td char="." align="char" class="td">-0.002</td>
+    <td char="." align="char" class="td">0.042</td>
+    <td char="." align="char" class="td">0.312</td>
+    <td char="." align="char" class="td">0.156</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">k</italic>
+     <sub class="sub">MB</sub>
+    </td>
+    <td char="." align="char" class="td">0.058</td>
+    <td char="." align="char" class="td">28.092</td>
+    <td char="." align="char" class="td">25.195</td>
+    <td char="." align="char" class="td">25.753</td>
+    <td char="." align="char" class="td">26.470</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" class="td"> 
+     <italic class="italic">C</italic>
+    </td>
+    <td char="." align="char" class="td">0.066</td>
+    <td char="." align="char" class="td">-0.089</td>
+    <td char="." align="char" class="td">-0.105</td>
+    <td char="." align="char" class="td">-0.048</td>
+    <td char="." align="char" class="td">-0.054</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0125" class="p">The log likelihood 
+ <italic class="italic">L</italic> for 
+ <italic class="italic">m</italic>observations, after ignoring the constant factor, is:
+ <disp-formula id="eq0035" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="M11" altimg="si11.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">L</mi>
+    <mo class="mo">=</mo>
+    <munderover class="munderover">
+     <mo class="mo">∑</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mi class="mi">m</mi>
+    </munderover>
+    <msub class="msub">
+     <mi class="mi">r</mi>
+     <mi class="mi">i</mi>
+    </msub>
+    <mtext class="mtext">ln</mtext>
+    <msub class="msub">
+     <mi class="mi">P</mi>
+     <mi class="mi">i</mi>
+    </msub>
+    <mo class="mo">+</mo>
+    <mfenced open="(" close=")" class="mfenced">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">n</mi>
+       <mi class="mi">i</mi>
+      </msub>
+      <mo class="mo">−</mo>
+      <mi class="mi">r</mi>
+     </mrow>
+    </mfenced>
+    <mi class="mi">ln</mi>
+    <mfenced open="(" close=")" class="mfenced">
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mi class="mi">P</mi>
+     </mrow>
+    </mfenced>
+    <mo class="mo">.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

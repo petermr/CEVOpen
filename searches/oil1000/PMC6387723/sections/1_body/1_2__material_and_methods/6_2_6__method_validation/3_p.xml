@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The LOD and LOQ were calculated from the calibration curve according to
+ <disp-formula id="EEq1" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="M1" class="math">
+   <mtable class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">LOD</mtext>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mn class="mn">3.3</mn>
+        <mi class="mi">σ</mi>
+       </mrow>
+       <mi class="mi">s</mi>
+      </mfrac>
+      <mo class="mo">,</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+ <disp-formula id="EEq2" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="EEq2EAAAHDCCCA" class="math">
+   <mtable class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">LOQ</mtext>
+      <mo class="mo">=</mo>
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mn class="mn">10</mn>
+        <mi class="mi">σ</mi>
+       </mrow>
+       <mi class="mi">s</mi>
+      </mfrac>
+      <mo class="mo">,</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>where 
+ <italic class="italic">σ</italic> is the standard deviation of the response and 
+ <italic class="italic">s</italic> is the slope of the calibration curve. The residual standard deviation of the line regression or the standard deviation of 
+ <italic class="italic">y</italic>-intercepts of the line regression may be used as the standard deviation.
+</p>

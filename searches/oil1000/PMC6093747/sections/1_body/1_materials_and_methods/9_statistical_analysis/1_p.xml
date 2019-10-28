@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In experiment 1, the results were modeled using multiple linear regression procedures of the MODDE statistical software (version 11.0.1, Umetrics AB, Umeå, Sweden). The replicated center-point experiments (runs 25, 26, and 27) were used to estimate the replicative error. For each measured characteristic (solubility, pH, IVPD of solubilized and residual fraction), and calculated total IVPD, a complete model with all linear, interaction, and quadratic terms was first developed. Then, statistically insignificant terms were removed to maximize the level of prediction (Q
+ <sup class="sup">2</sup>) and the goodness of fit (R
+ <sup class="sup">2</sup>). The model was considered good if Q
+ <sup class="sup">2</sup> &gt; 0.5 and the difference between R
+ <sup class="sup">2</sup> and Q
+ <sup class="sup">2</sup> &lt; 0.2 to 0.3 (Eriksson et al., 
+ <xref rid="bib7" ref-type="bibr" class="xref">2008</xref>). The quadratic model of the system is presented in Eq. 
+ <xref ref-type="disp-formula" rid="equ1" class="xref">1</xref>: 
+ <disp-formula id="equ1" class="disp-formula">
+  <label class="label">(1)</label>
+  <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{upgreek} \usepackage{mathrsfs} \setlength{\oddsidemargin}{-69pt} \begin{document} }{}\begin{eqnarray*} y &amp;=&amp; {\alpha _0} + {\alpha _1}{\chi _1} + {\alpha _2}{\chi _2} + {\alpha _3}{\chi _3} + {\alpha _4}{\chi _4} + {\alpha _{12}}{\chi _1}{\chi _2}\nonumber\\ &amp;&amp;+\, {\alpha _{13}}{\chi _1}{\chi _3} + {\alpha _{14}}{\chi _1}{\chi _4} + {\alpha _{23}}{\chi _2}{\chi _3} + {\alpha _{24}}{\chi _2}{\chi _4}\nonumber\\ &amp;&amp; +\, {\alpha _{34}}{\chi _3}{\chi _4}+ {\alpha _{11}}{\chi _1}^2+ {\alpha _{22}}{\chi _2}^2 + {\alpha _{33}}{\chi _3}^2 + {\alpha _{44}}{\chi _4}^2\nonumber\\ \end{eqnarray*}\end{document}</tex-math>
+ </disp-formula>
+</p>

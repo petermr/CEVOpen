@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In the past few years, the Illumina sequencing platform has become a powerful method for analysing and discovering the genomes of non-model plants.
+ <xref rid="dsy028-B17" ref-type="bibr" class="xref">
+  <sup class="sup">17</sup>
+ </xref>
+ <sup class="sup">,</sup>
+ <xref rid="dsy028-B25" ref-type="bibr" class="xref">
+  <sup class="sup">25</sup>
+ </xref>In this context, to generate transcriptome sequences, complementary DNA (cDNA) libraries were prepared from leaf tissues of 
+ <italic class="italic">S. guaranitica</italic>, and cDNA was then sequenced using PE reads sequencing using an Illumina HiSeq 2000 platform. Previous reports involving Illumina sequencing reported that the use of PE sequencing showed significant improvement in the efficiency of 
+ <italic class="italic">de novo</italic> assembly and increased the depth of sequencing.
+ <xref rid="dsy028-B10" ref-type="bibr" class="xref">
+  <sup class="sup">10</sup>
+ </xref>
+ <sup class="sup">,</sup>
+ <xref rid="dsy028-B26" ref-type="bibr" class="xref">
+  <sup class="sup">26</sup>
+ </xref> The cDNA sequencing generated 4 Gb of raw data from 
+ <italic class="italic">S. guaranitica</italic> leaves. After filtering and removing the adapter sequences from the raw data, the number of reads was 32,862,861 (32.86 million), comprising of 186,299,510 high-quality nucleotide bases, with 96.32% Q20, 92.42% Q30 and 47.55% GC content. For further analysis, high-quality reads were selected, and the transcriptome was assembled using the Trinity program,
+ <xref rid="dsy028-B18" ref-type="bibr" class="xref">
+  <sup class="sup">18</sup>
+ </xref> which produced 179,369 transcripts with an N50 length of 1,603 bp, an N90 length of 462 bp and a mean length of 1,039 bp. Moreover, 61,400 unigenes could be detected with an N50 length of 1,334 bp, an N90 length of 277 bp and a mean length of 731 bp. The distribution of the assembled transcript length ranged from 200 to &gt; 2,000 bases; the maximum number of transcripts (66,664 transcripts, 37.165%) ranged from 200 to 500 bp, followed by 48,716 transcripts (27.159%) ranging from 1,000 to 2,000 bp and then 40,323 transcripts (22.480%) ranging from 500 to 1,000 bp. On the contrary, the lowest number of transcripts (23,666 transcripts, 13.194%) was obtained for a size of more than 2,000 bp. In contrast, the assembled unigene lengths were distributed between 200 and &gt; 2,000 bp. The maximum number of unigenes (37,659 unigenes, 37.165%) ranged from 200 to 500 bp, followed by 10,132 unigenes (16.501%) ranged from 500 to 1,000 bp, and then 8,777 unigenes (14.294%) ranging from 1,000 to 2,000 bp. Finally, the lowest number of unigenes (4,832 unigenes, 7.869%) was obtained for a size of &gt;2,000 bp. The length distribution of the transcripts and unigenes are shown in (
+ <xref ref-type="supplementary-material" rid="sup2" class="xref">Supplementary Table S4</xref> and 
+ <xref ref-type="supplementary-material" rid="sup1" class="xref">Fig. S2</xref>). Our results are in agreement with those for 
+ <italic class="italic">Salvia officinalis</italic>, 
+ <italic class="italic">Boehmeria nivea</italic>, 
+ <italic class="italic">Curcuma longa</italic>, 
+ <italic class="italic">Medicago sativa</italic>, 
+ <italic class="italic">Centella as</italic>iatica and 
+ <italic class="italic">Apium graveolens</italic> in which the largest number of both transcript and unigene lengths were found to range between 75 and 500 bp.
+ <xref rid="dsy028-B6" ref-type="bibr" class="xref">
+  <sup class="sup">6</sup>
+ </xref>
+ <sup class="sup">,</sup>
+ <xref rid="dsy028-B27" ref-type="bibr" class="xref">
+  <sup class="sup">27</sup>
+ </xref>
+ <sup class="sup">,</sup>
+ <xref rid="dsy028-B28" ref-type="bibr" class="xref">
+  <sup class="sup">28</sup>
+ </xref>
+</p>

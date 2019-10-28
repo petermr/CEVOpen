@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35" class="p">The raw data obtained from UPLC-Q-TOF/MS were background noise subtracted, peak aligned and calibrated by Data Analysis (version 4.1, Bruker). The generated data list was opened in Profile Analysis (version 2.1, Bruker) for bucketing, normalization and bucket filtering. The rectangle bucketing was performed using the following settings: retention time range 18 ~ 480 s, mass range (
+ <italic class="italic">m/z</italic>) 60 ~ 700 Da, retention time width 20 s, and mass width (
+ <italic class="italic">m/z</italic>) 1 Da. The “Sum of bucket values in analysis” option was used for normalization. The value count of group attribute within bucket ≥20% was set for the bucket filter. The consequent “bucket table” was then imported to SIMCA-P software (version 13.0, Umetrics AB) for multivariate statistical analysis. PCA was first performed as the unsupervised method for outlier identification
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR35" class="xref">35</xref>
+ </sup>. Subsequently, the OPLS-DA was implemented as the supervised method to identify potential biomarkers. The data were pre-treated using unit variance scaling and mean-centring before PCA, and Pareto scaling before OPLS-DA. The missing value tolerance was set at variable 50% and observation 50%. In SIMCA-P software, the OPLS-DA models were validated using 7-fold cross-validation and permutation testing. The 
+ <italic class="italic">P</italic> value provided by cross-validated ANOVA (
+ <italic class="italic">P</italic>
+ <sub class="sub">CV-ANPVA</sub>) was used to estimate the model significance
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR36" class="xref">36</xref>
+ </sup>. Model variance and predictability were assessed by R
+ <sup class="sup">2</sup> and Q
+ <sup class="sup">2</sup> values. The R
+ <sup class="sup">2</sup>X and R
+ <sup class="sup">2</sup>Y values represented the explained variation in X and Y matrices, respectively
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR37" class="xref">37</xref>
+ </sup>. Customarily, permutation testing with 200 iterations was also performed for further validation
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR38" class="xref">38</xref>
+ </sup>. In addition to the multivariate statistical analysis, the Student’s 
+ <italic class="italic">t</italic>-test was also applied to measure the significance of the differences observed in PCA score scatter plots, as well as the significance of each metabolite. The 
+ <italic class="italic">P</italic> values across all metabolites within each comparison were adjusted by a false discovery rate method to account for multiple testing. The adjusted 
+ <italic class="italic">P</italic> values (
+ <italic class="italic">P</italic> &lt; 0.05) and VIP values (VIP &gt; 1.5) were utilized together for filtering biomarkers
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR39" class="xref">39</xref>
+ </sup>.
+</p>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30" class="p">Quality controlled and verified DNA sequence reads from BL
+ <sub class="sub">0</sub> were aligned to the 18S rRNA gene coding sequence from 
+ <italic class="italic">B. braunii</italic> Ayamé AJ581910 using bwa mem
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR56" class="xref">56</xref>
+ </sup>. A consensus sequence was extracted using samtools
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR57" class="xref">57</xref>
+ </sup> and aligned against 18S rRNA gene coding sequences from a robust and published phylogeny of 57 different algal species
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR2" class="xref">2</xref>
+ </sup> in addition to 
+ <italic class="italic">Ostreococcus tauri</italic> GQ426346, 
+ <italic class="italic">Chlorella vulgaris</italic> KX618655, 
+ <italic class="italic">Tetradesmus obliquus</italic> KX618656, 
+ <italic class="italic">Pediastrum angulosum</italic> AY663032
+ <italic class="italic">, Pediastrum duplex</italic> AY780662, 
+ <italic class="italic">Volvox tertius</italic> FJ610144 and 
+ <italic class="italic">Botryococcus braunii</italic> KR869723 using MUSCLE
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR58" class="xref">58</xref>
+ </sup>. Maximum likelihood analysis was performed using PhyML 3.1
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR59" class="xref">59</xref>
+ </sup>, a GTR substitution model with four substitution rates and a gamma shape parameter of 0.477. A total of 100 bootstrap replications were performed. The resultant tree was drawn using iToL v4
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR60" class="xref">60</xref>
+ </sup>.
+</p>

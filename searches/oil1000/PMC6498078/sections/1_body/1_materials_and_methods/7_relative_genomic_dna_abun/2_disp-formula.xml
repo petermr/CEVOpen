@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="fd1-ajas-18-0652" class="disp-formula">
+ <math id="m1" class="math">
+  <mrow class="mrow">
+   <mtable columnalign="left" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">Relative quantification</mtext>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mo class="mo">=</mo>
+      <msup class="msup">
+       <mrow class="mrow">
+        <mn class="mn">2</mn>
+       </mrow>
+       <mrow class="mrow">
+        <mo class="mo">-</mo>
+        <mo stretchy="false" class="mo">[</mo>
+        <mo stretchy="false" class="mo">(</mo>
+        <mi class="mi">C</mi>
+        <mtext class="mtext">t target gene</mtext>
+        <mo class="mo">-</mo>
+        <mi class="mi">C</mi>
+        <mtext class="mtext">t reference gene</mtext>
+        <mo stretchy="false" class="mo">)</mo>
+        <mi class="mi"> </mi>
+        <mtext class="mtext">treatment group</mtext>
+        <mo class="mo">-</mo>
+        <mo stretchy="false" class="mo">(</mo>
+        <mi class="mi">C</mi>
+        <mtext class="mtext">t target gene</mtext>
+        <mo class="mo">-</mo>
+        <mi class="mi">C</mi>
+        <mtext class="mtext">t reference gene</mtext>
+        <mo stretchy="false" class="mo">)</mo>
+        <mi class="mi"> </mi>
+        <mtext class="mtext">control group</mtext>
+        <mo stretchy="false" class="mo">]</mo>
+       </mrow>
+      </msup>
+     </mtd>
+    </mtr>
+   </mtable>
+  </mrow>
+ </math>
+</disp-formula>

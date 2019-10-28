@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Polymer flooding simulation was chosen due to its effectiveness in forecasting, estimating, and analyzing the factors that influence polymer flooding [
+ <xref rid="B26-polymers-10-00857" ref-type="bibr" class="xref">26</xref>]. Most polymer physicochemical properties can be characterized [
+ <xref rid="B27-polymers-10-00857" ref-type="bibr" class="xref">27</xref>]. However, despite the continuous improvement of numerical simulation research, one key problem has not yet been completely solved: how to reasonably and accurately describe the polymer degradation with a simulation. Polymer degradation was even directly ignored in previous polymer flooding models [
+ <xref rid="B28-polymers-10-00857" ref-type="bibr" class="xref">28</xref>,
+ <xref rid="B29-polymers-10-00857" ref-type="bibr" class="xref">29</xref>]. Moreover, commercial simulation software, such as ECLIPSE and the Computer Modeling Group (CMG) GEM, have also poorly treated polymer degradation [
+ <xref rid="B30-polymers-10-00857" ref-type="bibr" class="xref">30</xref>]. To improve polymer flooding simulation, some methods have been proposed [
+ <xref rid="B31-polymers-10-00857" ref-type="bibr" class="xref">31</xref>,
+ <xref rid="B32-polymers-10-00857" ref-type="bibr" class="xref">32</xref>]. The first-order concentration attenuation model was used to characterize polymer concentration reduction during polymer flooding and could be embedded into the polymer mass conservation equations in simulation [
+ <xref rid="B33-polymers-10-00857" ref-type="bibr" class="xref">33</xref>]. However, the model does not appropriately describe the process of polymer degradation in which the concentration remains the same and viscosity decreases, which is inconsistent with polymer theory. A viscosity reduction model could describe the variation in the polymer viscosity with time under static conditions [
+ <xref rid="B32-polymers-10-00857" ref-type="bibr" class="xref">32</xref>,
+ <xref rid="B34-polymers-10-00857" ref-type="bibr" class="xref">34</xref>], but the model was difficult to apply in polymer flooding simulations because it was unable to accurately obtain the polymer degradation time in each grid when a polymer solution flows. Although the concept of “time flux” was proposed to calculate an equivalent polymer degradation time [
+ <xref rid="B35-polymers-10-00857" ref-type="bibr" class="xref">35</xref>], this method has no practical physical meaning, and cannot be validated by experiments. Thus, the calculation accuracy cannot be verified. Moreover, polymer static and dynamic degradations were not distinguished during simulation processes in these proposed methods. As a result, an accurate simulation result for polymer flooding is unlikely. Thus, designing a simulator that can reasonably and accurately describe polymer degradation with identifying the polymer static and dynamic degradations is necessary.
+</p>

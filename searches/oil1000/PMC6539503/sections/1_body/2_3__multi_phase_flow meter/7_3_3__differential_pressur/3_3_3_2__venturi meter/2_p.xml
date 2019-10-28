@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">To obtain the volumetric flow rate using a venturi meter, the same equation as the orifice plate is used. The only difference in Equation (
+ <xref ref-type="disp-formula" rid="FD5-sensors-19-02184" class="xref">5</xref>) is that the discharge coefficient is higher for a venturi meter compared to the orifice plate. For a venturi meter the discharged coefficient (
+ <inline-formula class="inline-formula">
+  <math id="mm40" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">C</mi>
+      <mi class="mi">d</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) is between 0.984–0.995 [
+ <xref rid="B131-sensors-19-02184" ref-type="bibr" class="xref">131</xref>]. The venturi meter is widely used with respect to multi-phase flow in the offshore industry. In [
+ <xref rid="B65-sensors-19-02184" ref-type="bibr" class="xref">65</xref>] a solution has been presented for a two-phase flow meter consisting of an ECT sensor and a venturi meter. The ECT sensor is measuring the void fraction information’s while the venturi meter is obtaining the velocity of the two-phase flow. The venturi meter has also been investigated together with an ERT sensor. This is described in [
+ <xref rid="B137-sensors-19-02184" ref-type="bibr" class="xref">137</xref>], where the method is presented. The ERT sensor measures the real-time flow pattern, while the void fraction and mass quality is calculated and determined by the presented model. The mass flowrates are calculated based on the mass quality and the differential pressure across the venturi meter. For bubble and slug flow the root mean square error of the total mass flowrate is less than 0.03 and 0.06 respectively. The relative error is less than 5%.
+</p>

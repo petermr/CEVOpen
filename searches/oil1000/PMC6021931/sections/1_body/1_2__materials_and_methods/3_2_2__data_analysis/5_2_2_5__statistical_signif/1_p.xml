@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In order to assess the statistical significance of the obtained CCR values in the external validation set, a permutation test was used [
+ <xref rid="B49-sensors-18-01922" ref-type="bibr" class="xref">49</xref>]. In this test, random labels are assigned to the feature vectors and the whole machine learning procedure is repeated 1000 times. In this way an estimation of the probability distribution of the null hypothesis (H
+ <sub class="sub">0</sub>) can be created: H
+ <sub class="sub">0</sub> being the presence of no relationship between feature vectors and labels, and H
+ <sub class="sub">1</sub> being the existence of predictive power from the feature vectors to their real labels. In this way, we can calculate the 
+ <italic class="italic">p</italic>-value of the obtained CCR taking into account the estimated probability function of the null hypothesis for the CCR [
+ <xref rid="B50-sensors-18-01922" ref-type="bibr" class="xref">50</xref>].
+</p>

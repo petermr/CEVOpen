@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18" class="p">To gain more insight into the effect of resin acids on the possible functional pathways of the microbial communities, the functional composition was predicted using PICRUSt (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States; [
+ <xref ref-type="bibr" rid="CR50" class="xref">50</xref>]). PICRUSt uses precomputed ancestral state reconstructions based on the Greengenes database. Therefore, OTU picking was reperformed as described above with following modifications: closed-reference OTU picking was used, and OTU taxonomy was assigned against the Greengenes database (v 13.5) [
+ <xref ref-type="bibr" rid="CR51" class="xref">51</xref>] after which the OTU counts were normalized by their expected 16 s copy number using QIIME [
+ <xref ref-type="bibr" rid="CR52" class="xref">52</xref>, 
+ <xref ref-type="bibr" rid="CR53" class="xref">53</xref>]. Metagenome predictions were performed against the KEGG database (Kyoto Encyclopedia of Genes and Genomes; [
+ <xref ref-type="bibr" rid="CR54" class="xref">54</xref>]), after which the resulting KEGG orthologues were further summarized as functional pathways using PICRUSt.
+</p>

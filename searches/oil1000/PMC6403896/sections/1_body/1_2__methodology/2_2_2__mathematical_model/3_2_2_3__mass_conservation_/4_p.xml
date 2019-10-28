@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">For the high molecular weight polymer component:
+ <disp-formula id="FD6-polymers-10-00857" class="disp-formula">
+  <label class="label">(6)</label>
+  <math id="mm17" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mtable columnalign="left" class="mtable">
+       <mtr class="mtr">
+        <mtd class="mtd">
+         <mo class="mo">∇</mo>
+         <mo class="mo">·</mo>
+         <mrow class="mrow">
+          <mo class="mo">[</mo>
+          <mrow class="mrow">
+           <mfrac class="mfrac">
+            <mrow class="mrow">
+             <mover accent="true" class="mover">
+              <mi class="mi">k</mi>
+              <mo class="mo">→</mo>
+             </mover>
+             <msub class="msub">
+              <mi class="mi">k</mi>
+              <mrow class="mrow">
+               <mi class="mi">r</mi>
+               <mi class="mi">w</mi>
+              </mrow>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">h</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mi class="mi">μ</mi>
+              <mrow class="mrow">
+               <mi class="mi">w</mi>
+               <mi class="mi">e</mi>
+              </mrow>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">B</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">R</mi>
+              <mi class="mi">k</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+           <mrow class="mrow">
+            <mo class="mo">(</mo>
+            <mrow class="mrow">
+             <mo class="mo">∇</mo>
+             <msub class="msub">
+              <mi class="mi">p</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <mo class="mo">−</mo>
+             <msub class="msub">
+              <mi class="mi">ρ</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <mi class="mi">g</mi>
+             <mo class="mo">∇</mo>
+             <mi class="mi">D</mi>
+            </mrow>
+            <mo class="mo">)</mo>
+           </mrow>
+          </mrow>
+          <mo class="mo">]</mo>
+         </mrow>
+         <mo class="mo">−</mo>
+         <msub class="msub">
+          <mi class="mi">c</mi>
+          <mrow class="mrow">
+           <mi class="mi">h</mi>
+           <mi class="mi">p</mi>
+          </mrow>
+         </msub>
+         <msub class="msub">
+          <mi class="mi">R</mi>
+          <mrow class="mrow">
+           <mi class="mi">p</mi>
+           <mi class="mi">d</mi>
+          </mrow>
+         </msub>
+         <mo class="mo">+</mo>
+         <msub class="msub">
+          <mi class="mi">q</mi>
+          <mi class="mi">w</mi>
+         </msub>
+         <msub class="msub">
+          <mi class="mi">c</mi>
+          <mrow class="mrow">
+           <mi class="mi">h</mi>
+           <mi class="mi">p</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr class="mtr">
+        <mtd class="mtd">
+         <mspace width="7.222222em" class="mspace"/>
+         <mo class="mo">=</mo>
+         <mfrac class="mfrac">
+          <mo class="mo">∂</mo>
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mi class="mi">t</mi>
+          </mrow>
+         </mfrac>
+         <mrow class="mrow">
+          <mo class="mo">[</mo>
+          <mrow class="mrow">
+           <mfrac class="mfrac">
+            <mrow class="mrow">
+             <mi class="mi">ϕ</mi>
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <msub class="msub">
+                <mi class="mi">f</mi>
+                <mrow class="mrow">
+                 <mi class="mi">i</mi>
+                 <mi class="mi">p</mi>
+                 <mi class="mi">v</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <msub class="msub">
+              <mi class="mi">s</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">h</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mi class="mi">B</mi>
+              <mi class="mi">w</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo class="mo">]</mo>
+         </mrow>
+         <mo class="mo">+</mo>
+         <mfrac class="mfrac">
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mrow class="mrow">
+            <mo class="mo">[</mo>
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <msub class="msub">
+                <mi class="mi">f</mi>
+                <mrow class="mrow">
+                 <mi class="mi">i</mi>
+                 <mi class="mi">p</mi>
+                 <mi class="mi">v</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <mi class="mi">ϕ</mi>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <msub class="msub">
+              <mi class="mi">ρ</mi>
+              <mi class="mi">r</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">h</mi>
+               <mi class="mi">p</mi>
+               <mi class="mi">a</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mo class="mo">]</mo>
+           </mrow>
+          </mrow>
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mi class="mi">t</mi>
+          </mrow>
+         </mfrac>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> For the low molecular weight polymer component:
+ <disp-formula id="FD7-polymers-10-00857" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="mm18" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mtable columnalign="left" class="mtable">
+       <mtr class="mtr">
+        <mtd class="mtd">
+         <mo class="mo">∇</mo>
+         <mo class="mo">·</mo>
+         <mrow class="mrow">
+          <mo class="mo">[</mo>
+          <mrow class="mrow">
+           <mfrac class="mfrac">
+            <mrow class="mrow">
+             <mover accent="true" class="mover">
+              <mi class="mi">k</mi>
+              <mo class="mo">→</mo>
+             </mover>
+             <msub class="msub">
+              <mi class="mi">k</mi>
+              <mrow class="mrow">
+               <mi class="mi">r</mi>
+               <mi class="mi">w</mi>
+              </mrow>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">l</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mi class="mi">μ</mi>
+              <mrow class="mrow">
+               <mi class="mi">w</mi>
+               <mi class="mi">e</mi>
+              </mrow>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">B</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">R</mi>
+              <mi class="mi">k</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+           <mrow class="mrow">
+            <mo class="mo">(</mo>
+            <mrow class="mrow">
+             <mo class="mo">∇</mo>
+             <msub class="msub">
+              <mi class="mi">p</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <mo class="mo">−</mo>
+             <msub class="msub">
+              <mi class="mi">ρ</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <mi class="mi">g</mi>
+             <mo class="mo">∇</mo>
+             <mi class="mi">D</mi>
+            </mrow>
+            <mo class="mo">)</mo>
+           </mrow>
+          </mrow>
+          <mo class="mo">]</mo>
+         </mrow>
+         <mo class="mo">+</mo>
+         <msub class="msub">
+          <mi class="mi">c</mi>
+          <mrow class="mrow">
+           <mi class="mi">h</mi>
+           <mi class="mi">p</mi>
+          </mrow>
+         </msub>
+         <msub class="msub">
+          <mi class="mi">R</mi>
+          <mrow class="mrow">
+           <mi class="mi">p</mi>
+           <mi class="mi">d</mi>
+          </mrow>
+         </msub>
+         <mo class="mo">+</mo>
+         <msub class="msub">
+          <mi class="mi">q</mi>
+          <mi class="mi">w</mi>
+         </msub>
+         <msub class="msub">
+          <mi class="mi">c</mi>
+          <mrow class="mrow">
+           <mi class="mi">l</mi>
+           <mi class="mi">p</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr class="mtr">
+        <mtd class="mtd">
+         <mspace width="7.222222em" class="mspace"/>
+         <mo class="mo">=</mo>
+         <mfrac class="mfrac">
+          <mo class="mo">∂</mo>
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mi class="mi">t</mi>
+          </mrow>
+         </mfrac>
+         <mrow class="mrow">
+          <mo class="mo">[</mo>
+          <mrow class="mrow">
+           <mfrac class="mfrac">
+            <mrow class="mrow">
+             <mi class="mi">ϕ</mi>
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <msub class="msub">
+                <mi class="mi">f</mi>
+                <mrow class="mrow">
+                 <mi class="mi">i</mi>
+                 <mi class="mi">p</mi>
+                 <mi class="mi">v</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <msub class="msub">
+              <mi class="mi">s</mi>
+              <mi class="mi">w</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">l</mi>
+               <mi class="mi">p</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mi class="mi">B</mi>
+              <mi class="mi">w</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo class="mo">]</mo>
+         </mrow>
+         <mo class="mo">+</mo>
+         <mfrac class="mfrac">
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mrow class="mrow">
+            <mo class="mo">[</mo>
+            <mrow class="mrow">
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <msub class="msub">
+                <mi class="mi">f</mi>
+                <mrow class="mrow">
+                 <mi class="mi">i</mi>
+                 <mi class="mi">p</mi>
+                 <mi class="mi">v</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <mrow class="mrow">
+              <mo class="mo">(</mo>
+              <mrow class="mrow">
+               <mn class="mn">1</mn>
+               <mo class="mo">−</mo>
+               <mi class="mi">ϕ</mi>
+              </mrow>
+              <mo class="mo">)</mo>
+             </mrow>
+             <msub class="msub">
+              <mi class="mi">ρ</mi>
+              <mi class="mi">r</mi>
+             </msub>
+             <msub class="msub">
+              <mi class="mi">c</mi>
+              <mrow class="mrow">
+               <mi class="mi">l</mi>
+               <mi class="mi">p</mi>
+               <mi class="mi">a</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mo class="mo">]</mo>
+           </mrow>
+          </mrow>
+          <mrow class="mrow">
+           <mo class="mo">∂</mo>
+           <mi class="mi">t</mi>
+          </mrow>
+         </mfrac>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm19" class="math">
+   <mrow class="mrow">
+    <mo class="mo">∇</mo>
+   </mrow>
+  </math>
+ </inline-formula> is the divergence operator, 
+ <inline-formula class="inline-formula">
+  <math id="mm20" class="math">
+   <mrow class="mrow">
+    <mover accent="true" class="mover">
+     <mi class="mi">k</mi>
+     <mo class="mo">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is the absolute permeability tensor in μm
+ <sup class="sup">2</sup>, 
+ <inline-formula class="inline-formula">
+  <math id="mm21" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">k</mi>
+      <mrow class="mrow">
+       <mi class="mi">r</mi>
+       <mi class="mi">o</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm22" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">k</mi>
+      <mrow class="mrow">
+       <mi class="mi">r</mi>
+       <mi class="mi">w</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the relative permeabilities of oil and water, respectively; 
+ <inline-formula class="inline-formula">
+  <math id="mm23" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">μ</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the viscosity of the oil phase in mPa·s; 
+ <inline-formula class="inline-formula">
+  <math id="mm24" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">μ</mi>
+      <mrow class="mrow">
+       <mi class="mi">w</mi>
+       <mi class="mi">e</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the effective viscosity of the water phase in mPa·s; 
+ <inline-formula class="inline-formula">
+  <math id="mm25" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">B</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm26" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">B</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the oil and water formation volume factors in m
+ <sup class="sup">3</sup>/m
+ <sup class="sup">3</sup>, respectively; 
+ <inline-formula class="inline-formula">
+  <math id="mm27" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">p</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm28" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">p</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the pressures of the oil and water phases in Pa, respectively; 
+ <inline-formula class="inline-formula">
+  <math id="mm29" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm30" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the oil and water densities in kg/m
+ <sup class="sup">3</sup>, respectively; and 
+ <inline-formula class="inline-formula">
+  <math id="mm31" class="math">
+   <mrow class="mrow">
+    <mi class="mi">g</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the gravitational acceleration in m/s
+ <sup class="sup">2</sup>. 
+ <inline-formula class="inline-formula">
+  <math id="mm32" class="math">
+   <mrow class="mrow">
+    <mi class="mi">D</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the vertical height in m and 
+ <inline-formula class="inline-formula">
+  <math id="mm33" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">q</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm34" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">q</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the source/sink terms for the oil and water phases in m
+ <sup class="sup">3</sup>/(day·m
+ <sup class="sup">3</sup>) respectively. The source term is negative, and the sink term is positive. 
+ <inline-formula class="inline-formula">
+  <math id="mm35" class="math">
+   <mrow class="mrow">
+    <mo class="mo">∂</mo>
+   </mrow>
+  </math>
+ </inline-formula> is the symbol used to denote partial derivatives, and 
+ <inline-formula class="inline-formula">
+  <math id="mm36" class="math">
+   <mrow class="mrow">
+    <mi class="mi">t</mi>
+   </mrow>
+  </math>
+ </inline-formula> is time in days. 
+ <inline-formula class="inline-formula">
+  <math id="mm37" class="math">
+   <mrow class="mrow">
+    <mi class="mi">ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the porosity; 
+ <inline-formula class="inline-formula">
+  <math id="mm38" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">s</mi>
+      <mi class="mi">o</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm39" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">s</mi>
+      <mi class="mi">w</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the oil and water phase saturation, respectively; 
+ <inline-formula class="inline-formula">
+  <math id="mm40" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mrow class="mrow">
+       <mi class="mi">l</mi>
+       <mi class="mi">p</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the low molecular weight polymer concentration in kg/m
+ <sup class="sup">3</sup>; 
+ <inline-formula class="inline-formula">
+  <math id="mm41" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">f</mi>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mi class="mi">p</mi>
+       <mi class="mi">v</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the inaccessible pore volume factor; 
+ <inline-formula class="inline-formula">
+  <math id="mm42" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">ρ</mi>
+      <mi class="mi">r</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the rock density in kg/m
+ <sup class="sup">3</sup>; and 
+ <inline-formula class="inline-formula">
+  <math id="mm43" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mrow class="mrow">
+       <mi class="mi">h</mi>
+       <mi class="mi">p</mi>
+       <mi class="mi">a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm44" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mrow class="mrow">
+       <mi class="mi">l</mi>
+       <mi class="mi">p</mi>
+       <mi class="mi">a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the adsorption concentrations of the high and low molecular weight polymers in kg/kg, respectively.
+</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par78" class="p">After construction of the K-nearest neighbour graph and calculation of the geodesic distances on this graph a distance geometric version of the maximum distance algorithm (DMaxD) extracts the endmember spectra by using the graph-geodesic distances [
+ <xref ref-type="bibr" rid="CR37" class="xref">37</xref>]. The DMaxD algorithm first assumes that the pixels with smallest and largest magnitude are endmembers. Further endmembers are added iteratively by orthogonal projection of the remaining pixels on the hyperplane through the already retrieved endmembers. The pixel with the largest distance to this hyperplane is selected as new endmember [
+ <xref ref-type="bibr" rid="CR37" class="xref">37</xref>]. Abundance maps of the retrieved endmembers are calculated by a distance simplex projection unmixing (DSPU) algorithm, which is a distance geometric version of the simplex projection unmixing algorithm (SPU) and also uses the graph-geodesic distances as distance metric [
+ <xref ref-type="bibr" rid="CR37" class="xref">37</xref>, 
+ <xref ref-type="bibr" rid="CR41" class="xref">41</xref>, 
+ <xref ref-type="bibr" rid="CR62" class="xref">62</xref>]. The algorithm makes use of the fact that a constrained least squares problem is geometrically equivalent to a projection operation on a simplex.
+</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The illumination unit (
+ <xref ref-type="fig" rid="pone.0216093.g001" class="xref">Fig 1D</xref>) incorporates a warm white LED with 125° emission (MWWHD3—3000 K, 2000 mW LED on a metal-core PCB, 700mA, Thor Labs, USA). The emission spectrum can be found in 
+ <xref ref-type="supplementary-material" rid="pone.0216093.s001" class="xref">S1 Fig</xref>. The PCB is mounted onto an in-house fabricated aluminium cooling unit fixed to an acrylic glass thread matching the specifications of conventional Nikon objectives. The illumination unit was installed inside the objective revolver replacing a conventional objective. The electrical connection to the LED has to be positioned with care and 360° rotations of the revolver must be avoided to minimise the risk of a detached wiring. (see 
+ <xref ref-type="fig" rid="pone.0216093.g001" class="xref">Fig 1D</xref>). The LED irradiance intensity was controlled by an LEDD1B T-Cube LED Driver (Thor Labs, USA), which was governed by an USB-6008 DAQ device (National Instruments, USA). The illumination was controlled via macros (see 
+ <xref ref-type="supplementary-material" rid="pone.0216093.s003" class="xref">S2</xref> and 
+ <xref ref-type="supplementary-material" rid="pone.0216093.s004" class="xref">S3</xref> Files) implemented into the Nikon NIS Elements software in such a way, that the LED was automatically switched off when the objective revolver changed to the desired objective and time-lapse imaging was initiated.
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Application of the PCA coupled with logistic regression led to the formulation of 4 robust models that were characterized by quite good Accuracy, MCC, Precision-Recall and ROC-AUC values (
+ <xref rid="molecules-24-00890-t007" ref-type="table" class="xref">Table 7</xref>). Model agnostic feature importance and partial dependence plots were used to find the marginal effect that each EO chemical component has on the predicted outcome of the binary classification models built on the 3.125 mg/mL response variables. Feature importance is a measure of the prediction error of the model after the feature’s values are permuted and highlights the absolute importance of each chemical constituent while partial dependence plots show whether the relationship between the bioactivity and the chemical component is linear, monotonous or more complex. 
+</p>

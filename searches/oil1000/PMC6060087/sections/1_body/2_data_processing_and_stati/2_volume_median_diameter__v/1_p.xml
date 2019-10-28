@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0100" class="p">The calculation of median droplet diameter was based on the definition of moments of a distribution. Since the relationship between droplet diameter (or volume/time) and pressure (PSI) in not linear, an exponential probability function was used to describe VMD frequency distributions, as follows [
+ <xref rid="bib0215" ref-type="bibr" class="xref">[43]</xref>, 
+ <xref rid="bib0220" ref-type="bibr" class="xref">[44]</xref>, 
+ <xref rid="bib0225" ref-type="bibr" class="xref">[45]</xref>]:
+ <disp-formula id="eq0015" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="M3" altimg="si3.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">f</mi>
+    <mfenced open="(" close=")" class="mfenced">
+     <mrow class="mrow">
+      <mi class="mi">x</mi>
+      <mo class="mo">;</mo>
+      <mi class="mi">λ</mi>
+     </mrow>
+    </mfenced>
+    <mo class="mo">=</mo>
+    <mfenced open="{" class="mfenced">
+     <mrow class="mrow">
+      <mtable columnalign="center" class="mtable">
+       <mtr columnalign="center" class="mtr">
+        <mtd columnalign="center" class="mtd">
+         <mrow class="mrow">
+          <mi class="mi">λ</mi>
+          <mtext class="mtext"> </mtext>
+          <msup class="msup">
+           <mi class="mi">e</mi>
+           <mrow class="mrow">
+            <mo class="mo">−</mo>
+            <mi class="mi">λ</mi>
+            <mi class="mi">x</mi>
+           </mrow>
+          </msup>
+          <mo class="mo">,</mo>
+          <mi class="mi">x</mi>
+          <mo class="mo">≥</mo>
+          <mn class="mn">0</mn>
+         </mrow>
+        </mtd>
+       </mtr>
+       <mtr columnalign="center" class="mtr">
+        <mtd columnalign="center" class="mtd">
+         <mrow class="mrow">
+          <mn class="mn">0</mn>
+          <mtext class="mtext"> </mtext>
+          <mo class="mo">,</mo>
+          <mtext class="mtext"> </mtext>
+          <mi class="mi">x</mi>
+          <mo class="mo">&lt;</mo>
+          <mn class="mn">0</mn>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Using custom Perl scripts, all datasets were randomly rarefied to 1800 reads, which were then used to create “shared”-type formatted files. All subsequent steps were performed using commands in MOTHUR [
+ <xref rid="B19-microorganisms-07-00120" ref-type="bibr" class="xref">19</xref>]. Chao1, Shannon, and Simpson indices, as well as observed OTUs and coverage, were determined from the shared files using summary.single. For principal coordinate analysis (PCoA), Bray–Curtis distances were first determined using summary.shared, which were then used as input for the command pcoa. Principal Components 1 (PC1) and 2 (PC2), representing the highest levels of variation, were plotted using Microsoft Excel. Canonical correspondence analysis (CCA) was conducted in R (version 3.2.3) using the command cca from the vegan package (version 3.2.5), with outputs plotted using the command plot. 
+</p>

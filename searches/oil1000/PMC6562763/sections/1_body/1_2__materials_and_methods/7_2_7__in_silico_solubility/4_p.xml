@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In addition, COSMO
+ <italic class="italic">thermX</italic> also calculated the relative solubility of COSMO-RS simulated volatile and non-volatile bioactive compounds in various oil solvents and mixtures with their derivatives based on the logarithm of the solubility in mole fractions. The relative solubility 
+ <italic class="italic">x
+  <sub class="sub">j</sub>
+ </italic> of compound 
+ <italic class="italic">j</italic> is always calculated in infinite dilution according to the equation as follows:
+ <disp-formula id="FD1-antioxidants-08-00140" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">log</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mn class="mn">10</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false" class="mo">(</mo>
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mi class="mi">j</mi>
+     </msub>
+     <mo stretchy="false" class="mo">)</mo>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">log</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mn class="mn">10</mn>
+      </mrow>
+     </msub>
+     <mrow class="mrow">
+      <mo class="mo">[</mo>
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mrow class="mrow">
+         <mi class="mi">e</mi>
+         <mi class="mi">x</mi>
+         <mi class="mi">p</mi>
+         <mo stretchy="false" class="mo">(</mo>
+         <msubsup class="msubsup">
+          <mi class="mi">μ</mi>
+          <mi class="mi">j</mi>
+          <mrow class="mrow">
+           <mi class="mi">p</mi>
+           <mi class="mi">u</mi>
+           <mi class="mi">r</mi>
+           <mi class="mi">e</mi>
+          </mrow>
+         </msubsup>
+         <mo class="mo">−</mo>
+         <msubsup class="msubsup">
+          <mi class="mi">μ</mi>
+          <mi class="mi">j</mi>
+          <mrow class="mrow">
+           <mi class="mi">s</mi>
+           <mi class="mi">o</mi>
+           <mi class="mi">l</mi>
+           <mi class="mi">v</mi>
+           <mi class="mi">e</mi>
+           <mi class="mi">n</mi>
+           <mi class="mi">t</mi>
+          </mrow>
+         </msubsup>
+         <mo class="mo">−</mo>
+         <mo class="mo">△</mo>
+         <msub class="msub">
+          <mi class="mi">G</mi>
+          <mrow class="mrow">
+           <mi class="mi">j</mi>
+           <mo class="mo">.</mo>
+           <mi class="mi">f</mi>
+           <mi class="mi">u</mi>
+           <mi class="mi">s</mi>
+           <mi class="mi">i</mi>
+           <mi class="mi">o</mi>
+           <mi class="mi">n</mi>
+          </mrow>
+         </msub>
+         <mo stretchy="false" class="mo">)</mo>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">R</mi>
+         <mi class="mi">T</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo class="mo">]</mo>
+     </mrow>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi class="mi">μ</mi>
+      <mi class="mi">j</mi>
+      <mrow class="mrow">
+       <mi class="mi">p</mi>
+       <mi class="mi">u</mi>
+       <mi class="mi">r</mi>
+       <mi class="mi">e</mi>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the chemical potential of pure compound j (J/mol), 
+ <inline-formula class="inline-formula">
+  <math id="mm1000" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi class="mi">μ</mi>
+      <mi class="mi">j</mi>
+      <mrow class="mrow">
+       <mi class="mi">s</mi>
+       <mi class="mi">o</mi>
+       <mi class="mi">l</mi>
+       <mi class="mi">v</mi>
+       <mi class="mi">e</mi>
+       <mi class="mi">n</mi>
+       <mi class="mi">t</mi>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the chemical potential of j at infinite dilution (J/mol), 
+ <inline-formula class="inline-formula">
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">△</mo>
+     <msub class="msub">
+      <mi class="mi">G</mi>
+      <mrow class="mrow">
+       <mi class="mi">j</mi>
+       <mo class="mo">.</mo>
+       <mi class="mi">f</mi>
+       <mi class="mi">u</mi>
+       <mi class="mi">s</mi>
+       <mi class="mi">i</mi>
+       <mi class="mi">o</mi>
+       <mi class="mi">n</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the free energy of fusion of j (J/mol), 
+ <inline-formula class="inline-formula">
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mrow class="mrow">
+       <mi class="mi">j</mi>
+       <mo class="mo"> </mo>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the solubility of j (g/g solvent), R is the gas constant, and T is the temperature (K).
+</p>

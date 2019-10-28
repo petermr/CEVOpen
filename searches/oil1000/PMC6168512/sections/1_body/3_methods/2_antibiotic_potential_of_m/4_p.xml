@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41" class="p">The bacteria growth inhibition assay (standard time-kill assay) was performed following the 96-well plate protocol of Erler and colleagues
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR7" class="xref">7</xref>
+ </sup>, which monitors the complete bacterial growth curve and allows one to determine the starting point and linear slope of the logarithmic growth phase. Plates were incubated for 24 hours in a Synergy Mx microplate reader (BioTek, Winooski, VT, USA). 
+ <italic class="italic">M</italic>. 
+ <italic class="italic">plutonius</italic> was the only bacterium that needed to be cultivated in a CO
+ <sub class="sub">2</sub>-incubator (10% CO
+ <sub class="sub">2</sub>). Bacterial growth of this species was measured once a day (every 24 h) for 4 consecutive days using the same microplate reader, without shaking mode. All substances and controls (pure medium, medium with DMSO, medium with terpenes dissolved in DMSO) were tested with and without the respective bacterium. Substances and controls with bacterium were run in five replicates each, whereas negative controls (without bacterium) were run with two to three replicates each. Final growth curves were normalised to their respective negative controls. The slope of the log-phase was determined using a linear regression (with at least four data points and the highest correlation coefficient) and standard spreadsheet software. The bacterial growth inhibition was estimated with the formula described earlier
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR7" class="xref">7</xref>
+ </sup> and used to estimate the minimum inhibitory concentration (MIC), the relative half maximum inhibitory concentration (IC
+ <sub class="sub">50</sub>, which is the same as the EC
+ <sub class="sub">50</sub> - half maximum effective concentration) and the maximum inhibitory concentration (IC
+ <sub class="sub">max</sub>)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR55" class="xref">55</xref>
+ </sup>. Therefore, the growth inhibition values for the nine different concentrations (five per concentration, in %, Supplementary Data 
+ <xref rid="MOESM1" ref-type="media" class="xref">S1</xref>) were plotted against the terpene concentration (ppm as log-values), and fitted with at least 100 iterations to a non-linear (sigmoidal) dose-response curve with variable slope, as implemented in Origin
+ <sup class="sup">TM</sup> (Microcal
+ <sup class="sup">TM</sup> Origin
+ <sup class="sup">TM</sup>, Version 5.0) (Fig. 
+ <xref rid="MOESM1" ref-type="media" class="xref">S1</xref>):
+ <disp-formula id="Equ1" class="disp-formula">
+  <label class="label">1</label>
+  <alternatives class="alternatives">
+   <tex-math id="M1" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y=\frac{A1-A2}{\begin{array}{c}1+{e}^{(x-x0)/dx}\end{array}}+A2$$\end{document}</tex-math>
+   <math id="M2" display="block" class="math">
+    <mi class="mi">y</mi>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mi class="mi">A</mi>
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mi class="mi">A</mi>
+      <mn class="mn">2</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mtable class="mtable">
+       <mtr class="mtr">
+        <mtd class="mtd">
+         <mrow class="mrow">
+          <mn class="mn">1</mn>
+          <mo class="mo">+</mo>
+          <msup class="msup">
+           <mrow class="mrow">
+            <mi class="mi">e</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mrow class="mrow">
+             <mo stretchy="true" class="mo">(</mo>
+             <mrow class="mrow">
+              <mi class="mi">x</mi>
+              <mo class="mo">−</mo>
+              <mi class="mi">x</mi>
+              <mn class="mn">0</mn>
+             </mrow>
+             <mo stretchy="true" class="mo">)</mo>
+            </mrow>
+            <mo class="mo">/</mo>
+            <mi class="mi">d</mi>
+            <mi class="mi">x</mi>
+           </mrow>
+          </msup>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfrac>
+    <mo class="mo">+</mo>
+    <mi class="mi">A</mi>
+    <mn class="mn">2</mn>
+   </math>
+   <graphic xlink:href="41598_2018_32849_Article_Equ1.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>with
+ <disp-formula id="Equa" class="disp-formula">
+  <alternatives class="alternatives">
+   <tex-math id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}A1 &amp; = &amp; {\rm{lowest}}\,{\rm{growth}}\,{\rm{inhibition}}\,{\rm{after}}\,{\rm{fitting}}\\ A2 &amp; = &amp; {\rm{highest}}\,{\rm{growth}}\,{\rm{inhibition}}\,{\rm{after}}\,{\rm{fitting}}\,({\rm{usually}}\,100 \% )\\ x0 &amp; = &amp; {\rm{relative}}\,{{\rm{IC}}}_{50}({\rm{see}}\,{\rm{formula}}\,(2))\\ dx &amp; = &amp; {\rm{width}}\end{array}$$\end{document}</tex-math>
+   <math id="M4" display="block" class="math">
+    <mtable columnalign="left" class="mtable">
+     <mtr columnalign="left" class="mtr">
+      <mtd columnalign="right" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">A</mi>
+        <mn class="mn">1</mn>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center" class="mtd">
+       <mo class="mo">=</mo>
+      </mtd>
+      <mtd columnalign="left" class="mtd">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">lowest</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">growth</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">inhibition</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">after</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">fitting</mi>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left" class="mtr">
+      <mtd columnalign="right" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">A</mi>
+        <mn class="mn">2</mn>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center" class="mtd">
+       <mo class="mo">=</mo>
+      </mtd>
+      <mtd columnalign="left" class="mtd">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">highest</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">growth</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">inhibition</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">after</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">fitting</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mo stretchy="false" class="mo">(</mo>
+        <mi mathvariant="normal" class="mi">usually</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mn class="mn">100</mn>
+        <mo class="mo">%</mo>
+        <mo stretchy="false" class="mo">)</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left" class="mtr">
+      <mtd columnalign="right" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mn class="mn">0</mn>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center" class="mtd">
+       <mo class="mo">=</mo>
+      </mtd>
+      <mtd columnalign="left" class="mtd">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">relative</mi>
+        <mspace width=".25em" class="mspace"/>
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">IC</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">50</mn>
+         </mrow>
+        </msub>
+        <mo stretchy="false" class="mo">(</mo>
+        <mi mathvariant="normal" class="mi">see</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mi mathvariant="normal" class="mi">formula</mi>
+        <mspace width=".25em" class="mspace"/>
+        <mo stretchy="false" class="mo">(</mo>
+        <mn class="mn">2</mn>
+        <mo stretchy="false" class="mo">)</mo>
+        <mo stretchy="false" class="mo">)</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left" class="mtr">
+      <mtd columnalign="right" class="mtd">
+       <mrow class="mrow">
+        <mi class="mi">d</mi>
+        <mi class="mi">x</mi>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center" class="mtd">
+       <mo class="mo">=</mo>
+      </mtd>
+      <mtd columnalign="left" class="mtd">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">width</mi>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2018_32849_Article_Equa.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>All inhibitory concentrations (MIC, IC
+ <sub class="sub">50</sub>, and IC
+ <sub class="sub">max</sub>)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR55" class="xref">55</xref>
+ </sup> were calculated using the linear part of the dose-response curve modelled by Origin
+ <sup class="sup">TM</sup> with at least 13 data points and the highest correlation coefficient. The MIC was generated with the 
+ <italic class="italic">A</italic>1 value and IC
+ <sub class="sub">max</sub> with the 
+ <italic class="italic">A</italic>2 value of the dose-response curve formula (1). For computing the relative IC
+ <sub class="sub">50</sub>, the formula:
+ <disp-formula id="Equ2" class="disp-formula">
+  <label class="label">2</label>
+  <alternatives class="alternatives">
+   <tex-math id="M5" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I{C}_{50}=(A1+A2)/2$$\end{document}</tex-math>
+   <math id="M6" display="block" class="math">
+    <mi class="mi">I</mi>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">C</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">50</mn>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <mo stretchy="false" class="mo">(</mo>
+    <mi class="mi">A</mi>
+    <mn class="mn">1</mn>
+    <mo class="mo">+</mo>
+    <mi class="mi">A</mi>
+    <mn class="mn">2</mn>
+    <mo stretchy="false" class="mo">)</mo>
+    <mo class="mo">/</mo>
+    <mn class="mn">2</mn>
+   </math>
+   <graphic xlink:href="41598_2018_32849_Article_Equ2.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>was used.
+</p>

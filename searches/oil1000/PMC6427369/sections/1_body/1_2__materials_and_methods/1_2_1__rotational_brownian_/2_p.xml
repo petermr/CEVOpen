@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Unlike translational Brownian motion, few studies have been carried out using rotational Brownian motion because extra effort is needed to detect the rotational diffusivity. Comparing Equations (1) and (2), rotational diffusivity is apparently more sensitive to viscosity changes than translational diffusivity as the bead size is reduced. To realize the measurement of rotational Brownian motion, Janus microbeads were used to generate the desired blinking signals. This blinking effect results from the jittering motion of microbeads suspended in a medium. High viscosity produces high friction acting on the surfaces of the microbeads, thereby lowering their angular velocity. Instead of tracking individual microbeads, in this work, we sequentially applied the cross-correlation algorithm on two particle images separated by a time interval 
+ <italic class="italic">Δt</italic> starting from 0 s to 50 s. The correlation intensity tends to decline as 
+ <italic class="italic">Δt</italic> increases (
+ <xref ref-type="fig" rid="sensors-19-01217-f001" class="xref">Figure 1</xref>b) due to the low degree of correlation between two particle images. The intensity was normalized by dividing the following intensity with the previous one. The time-elapsed correlation intensity was eventually approximated by exponential curve fitting as follows [
+ <xref rid="B40-sensors-19-01217" ref-type="bibr" class="xref">40</xref>]:
+ <disp-formula id="FD3-sensors-19-01217" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">A</mi>
+     <mi class="mi">exp</mi>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mo class="mo">−</mo>
+       <mfrac class="mfrac">
+        <mi class="mi">t</mi>
+        <mo class="mo">∅</mo>
+       </mfrac>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo class="mo">+</mo>
+     <mi class="mi">B</mi>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic class="italic">A</italic> and 
+ <italic class="italic">B</italic> are constants determined by fitting of the exponential curve to the data, 
+ <italic class="italic">t</italic> is the elapsed time, and ø is the characteristic correlation time of this curve. The correlation time can be expressed as [
+ <xref rid="B40-sensors-19-01217" ref-type="bibr" class="xref">40</xref>]:
+ <disp-formula id="FD4-sensors-19-01217" class="disp-formula">
+  <label class="label">(4)</label>
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">∅</mo>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">μ</mi>
+       <mi class="mi">V</mi>
+      </mrow>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">k</mi>
+        <mi class="mi">B</mi>
+       </msub>
+       <mi class="mi">T</mi>
+      </mrow>
+     </mfrac>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic class="italic">V</italic> represents the equivalent volume of the microbeads. The correlation time is, therefore, proportional to the viscosity when the equivalent volume of the microbeads is fixed.
+</p>

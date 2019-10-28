@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25" class="p">The raw sequence data generated from 16S rRNA MiSeq sequencing were demultiplexed and quality-filtered using the QIIME (version 1.17) software package [
+ <xref ref-type="bibr" rid="CR27" class="xref">27</xref>]. Gaps in each sequence were discarded from all samples to decrease noise by screening, filtering, and pre-clustering processes as described by a previous study [
+ <xref ref-type="bibr" rid="CR28" class="xref">28</xref>]. Operational taxonomic units (OTUs) were clustered with a cut-off of value 97% similarity using UPARSE (version 7.1, 
+ <ext-link ext-link-type="uri" xlink:href="http://drive5.com/uparse/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://drive5.com/uparse/</ext-link>), and chimeric sequences were identified and removed using UCHIME [
+ <xref ref-type="bibr" rid="CR29" class="xref">29</xref>]. The representative sequence of each OTU was analyzed with the Ribosomal Database Project Classifier (RRID: SCR_006633) against the Silva (SSU119) 16S rRNA database at a confidence level of 90%.
+</p>

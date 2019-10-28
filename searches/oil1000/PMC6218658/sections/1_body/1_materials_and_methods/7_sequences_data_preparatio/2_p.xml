@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">For bacterial sequences, Mothur v.1.39.5 (
+ <xref rid="B87" ref-type="bibr" class="xref">Schloss et al., 2009</xref>) was applied in order to remove sequences with large homopolymers (≥10), sequences that did not align within the targeted V3–V4 region, chimeric sequences (
+ <xref rid="B33" ref-type="bibr" class="xref">Edgar et al., 2011</xref>) and sequences that were not classified as bacterial after alignment against the Mothur version of the RDP training data set. The resulting high- quality sequences were analyzed with Mothur and R
+ <sup class="sup">
+  <xref ref-type="fn" rid="fn02" class="xref">2</xref>
+ </sup> following the OTU and the taxonomy-based approach. Sequences were first aligned against the SILVA reference aligned database for bacteria (
+ <xref rid="B79" ref-type="bibr" class="xref">Pruesse et al., 2007</xref>) using the NAST algorithm and a kmer approach (
+ <xref rid="B86" ref-type="bibr" class="xref">Schloss, 2010</xref>) and then clustered at the 3% distance using the average linkage algorithm. OTUs were classified into taxa by alignment against the Greengenes database (
+ <xref rid="B64" ref-type="bibr" class="xref">McDonald et al., 2012</xref>).
+</p>

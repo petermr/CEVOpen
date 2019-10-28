@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Spectra were preprocessed using Omnic v7.3 software and a manual baseline correction by two points was applied to flatten the baseline. Spectral bands height were measured and calculated using the Omnic software. For unloaded matrices, the spectral variations were carried out on the spectra of the grinded matrices based on the 2900–2950 cm
+ <sup class="sup">-1</sup> spectroscopic band (wavenumber region used to normalize all spectra). Relative amount of clove EO was achieved applying univariate regression analysis using the TQ Analyst v7.3 software (Thermo electron). Regression was performed basing on the specific spectral band at 1514 cm
+ <sup class="sup">-1</sup> using 71 acquisitions (from the 108 spectral data) to construct the classical least squares (CLS) prediction model. The relative amounts of spearmint EO were achieved by multivariate regression analysis integrating three specific spectral bands at 885, 799 and 1676–1680 cm
+ <sup class="sup">-1</sup> using 36 acquisitions (from the 54 spectra data). Calibration models were validated by a cross validation (leave “one out” for each point of the standard curves) using a regression CLS calibration algorithm where the efficiency was measured with the coefficient of determination (
+ <italic class="italic">R</italic>
+ <sup class="sup">
+  <italic class="italic">2</italic>
+ </sup>) and the root mean square error of calibration (RMSEC) values. The models were then tested on an independent validation data set (
+ <italic class="italic">n</italic> = 37 for clove EO [N = 108] and 
+ <italic class="italic">n</italic> = 18 for spearmint EO [N = 54]) where the performance is reported as the coefficient of determination of validation (
+ <italic class="italic">r</italic>
+ <sup class="sup">
+  <italic class="italic">2</italic>
+ </sup>
+ <italic class="italic">)</italic>, the root mean square error of cross validation (RMSECV), and root mean square error of prediction (RMSEP). The standard error of prediction to the standard deviation of the reference data (RPD) was calculated. RPD values over a value of 5 could be considered as a good indicator for prediction purposes on quality control (Williams &amp; Norris, 2001). The following equations were used: 
+ <disp-formula id="pone.0207401.e001" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0207401.e001.jpg" id="pone.0207401.e001g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1" class="math">
+    <mi class="mi">R</mi>
+    <mi class="mi">M</mi>
+    <mi class="mi">S</mi>
+    <mi class="mi">E</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mo class="mo">(</mo>
+    <mi class="mi">C</mi>
+    <mi class="mi">V</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mi class="mi">o</mi>
+    <mi class="mi">r</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mi class="mi">P</mi>
+    <mo class="mo">)</mo>
+    <mo class="mo">=</mo>
+    <msqrt class="msqrt">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mrow class="mrow">
+        <mstyle displaystyle="false" class="mstyle">
+         <msubsup class="msubsup">
+          <mo class="mo">∑</mo>
+          <mrow class="mrow">
+           <mi class="mi">i</mi>
+           <mo class="mo">=</mo>
+           <mn class="mn">1</mn>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">n</mi>
+          </mrow>
+         </msubsup>
+        </mstyle>
+        <mrow class="mrow">
+         <msup class="msup">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <msub class="msub">
+             <mrow class="mrow">
+              <mi class="mi">y</mi>
+             </mrow>
+             <mrow class="mrow">
+              <mi class="mi">i</mi>
+             </mrow>
+            </msub>
+            <mo class="mo">−</mo>
+            <msub class="msub">
+             <mrow class="mrow">
+              <mover accent="true" class="mover">
+               <mrow class="mrow">
+                <mi class="mi">y</mi>
+               </mrow>
+               <mo class="mo">^</mo>
+              </mover>
+             </mrow>
+             <mrow class="mrow">
+              <mi class="mi">i</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+          <mrow class="mrow">
+           <mn class="mn">2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">n</mi>
+      </mrow>
+     </mfrac>
+    </msqrt>
+   </math>
+  </alternatives>
+  <label class="label">(1)</label>
+ </disp-formula>
+ <disp-formula id="pone.0207401.e002" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0207401.e002.jpg" id="pone.0207401.e002g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M2" class="math">
+    <mi class="mi">S</mi>
+    <mi class="mi">d</mi>
+    <mo class="mo">=</mo>
+    <msqrt class="msqrt">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mn class="mn">1</mn>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">n</mi>
+       <mo class="mo">−</mo>
+       <mn class="mn">1</mn>
+      </mrow>
+     </mfrac>
+     <mrow class="mrow">
+      <mstyle displaystyle="false" class="mstyle">
+       <msubsup class="msubsup">
+        <mo stretchy="false" class="mo">∑</mo>
+        <mrow class="mrow">
+         <mi class="mi">i</mi>
+         <mo class="mo">=</mo>
+         <mn class="mn">1</mn>
+        </mrow>
+        <mrow class="mrow">
+         <mi class="mi">n</mi>
+        </mrow>
+       </msubsup>
+      </mstyle>
+      <mrow class="mrow">
+       <msup class="msup">
+        <mrow class="mrow">
+         <mo class="mo">(</mo>
+         <msub class="msub">
+          <mrow class="mrow">
+           <mi class="mi">y</mi>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">i</mi>
+          </mrow>
+         </msub>
+         <mo class="mo">−</mo>
+         <mover accent="true" class="mover">
+          <mrow class="mrow">
+           <mi class="mi">y</mi>
+          </mrow>
+          <mo class="mo">¯</mo>
+         </mover>
+         <mo class="mo">)</mo>
+        </mrow>
+        <mrow class="mrow">
+         <mn class="mn">2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+     </mrow>
+    </msqrt>
+   </math>
+  </alternatives>
+  <label class="label">(2)</label>
+ </disp-formula>
+ <disp-formula id="pone.0207401.e003" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0207401.e003.jpg" id="pone.0207401.e003g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M3" class="math">
+    <mi class="mi">R</mi>
+    <mi class="mi">P</mi>
+    <mi class="mi">D</mi>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mi class="mi">S</mi>
+      <mi class="mi">d</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">S</mi>
+      <mi class="mi">E</mi>
+      <mi class="mi">P</mi>
+     </mrow>
+    </mfrac>
+   </math>
+  </alternatives>
+  <label class="label">(3)</label>
+ </disp-formula>
+</p>

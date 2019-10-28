@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40" class="p">Uni-genes were compared to NCBI’s NR (version: 2016-11-05) database using the DIAMOND software pair (blastp, e-value ≤1e-5) [
+ <xref ref-type="bibr" rid="CR39" class="xref">39</xref>]. For the alignment of each sequence, the authors selected the e-value ≤ minimum e-value × 10 for subsequent analysis [
+ <xref ref-type="bibr" rid="CR40" class="xref">40</xref>]. After filtering, and since there may be multiple alignment results for each sequence, multiple different species classification information was obtained. To ensure biological significance, the LCA algorithm (system classification applied to MEGAN software) used a branch before the classification level, as the sequence of species annotation information [
+ <xref ref-type="bibr" rid="CR42" class="xref">42</xref>]. All genes available in the gene research catalogue were aligned to the KEGG database (Release 73.1, with animal and plant genes removed). Abundance of the KEGG orthologue/module was calculated by summing the abundance of genes that were annotated to the same feature. Metagenome sequences generated were entered into the National Center for Biotechnology Information (NCBI) under accession numbers SRA: SRP149856.
+</p>

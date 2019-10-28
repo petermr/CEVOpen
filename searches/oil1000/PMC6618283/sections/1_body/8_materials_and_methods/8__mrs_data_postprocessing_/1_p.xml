@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The CH
+ <sub class="sub">2</sub>, CH
+ <sub class="sub">3</sub>, and n‐3 CH
+ <sub class="sub">3</sub> signals were quantified in jMRUI with the AMARES algorithm.
+ <xref rid="jmri26605-bib-0023" ref-type="ref" class="xref">23</xref> In oils, only the CH
+ <sub class="sub">2</sub> peak and central peaks of the methyl triplets were fitted with a single Gaussian line (oil prior knowledge). The T
+ <sub class="sub">2</sub> relaxation times were calculated in MATLAB (MathWorks, Natick, MA, USA), with the following monoexponential fitting function:
+ <disp-formula id="jmri26605-disp-0003" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="nlm-math-3" class="math">
+   <mi class="mi">S</mi>
+   <mfenced open="(" close=")" class="mfenced">
+    <mi mathvariant="italic" class="mi">TE</mi>
+   </mfenced>
+   <mo class="mo">=</mo>
+   <msub class="msub">
+    <mi class="mi">S</mi>
+    <mn class="mn">0</mn>
+   </msub>
+   <mi class="mi">exp</mi>
+   <mfenced open="(" close=")" class="mfenced">
+    <mrow class="mrow">
+     <mo class="mo">−</mo>
+     <mi mathvariant="italic" class="mi">TE</mi>
+     <mo class="mo">/</mo>
+     <msub class="msub">
+      <mi class="mi">T</mi>
+      <mn class="mn">2</mn>
+     </msub>
+    </mrow>
+   </mfenced>
+  </math>
+ </disp-formula>where S
+ <sub class="sub">0</sub> represents the signal (magnetization) at TE = 0 msec. The coefficient of determination (R
+ <sup class="sup">2</sup>) was used as an indicator of the quality of the fit.
+</p>

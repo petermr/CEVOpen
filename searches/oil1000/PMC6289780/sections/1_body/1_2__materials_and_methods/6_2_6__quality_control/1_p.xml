@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Raw data (raw reads) in the fastq format were first processed through in-house Perl scripts. During this step, clean data (clean reads) were obtained by removing reads containing adapters, reads containing ploy-N and low-quality reads from the raw data. At the same time, Q20, Q30, GC content and sequence duplication level of the clean data were calculated. All of the downstream analyses were based on high-quality clean data.</p>

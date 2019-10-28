@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">After sequencing, the raw reads (fastq format) were firstly processed through custom Perl and Python scripts to obtain clean reads, and then a certain range of lengths was chosen from the clean reads to perform all the downstream analyses. The small RNA tags were mapped to the reference sequence by Bowtie 
+ <xref rid="B29" ref-type="bibr" class="xref">29</xref> without mismatch to analyze their expression and distribution on the reference. The mapped small RNA tags were aligned to Repeat Masker, Rfam database or those types of data from the specified species itself to remove tags originating from protein-coding genes, repeat sequences, rRNA, tRNA, snRNA, and snoRNA. The remaining tags were then aligned with known miRNA and mapped to miRBase21.0 
+ <xref rid="B30" ref-type="bibr" class="xref">30</xref> and modified by mirdeep2 software 
+ <xref rid="B31" ref-type="bibr" class="xref">31</xref>. Novel miRNA were predicted using the characteristics of the hairpin structure of the miRNA precursor, and the miREvo 
+ <xref rid="B32" ref-type="bibr" class="xref">32</xref> and mirdeep2 software 
+ <xref rid="B31" ref-type="bibr" class="xref">31</xref> were integrated to predict novel miRNAs through exploring the secondary structure, the Dicer cleavage site and the minimum free energy of the small RNA tags unannotated in the former steps. The known families were identified using miFam.dat (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mirbase.org/ftp.shtml" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.mirbase.org/ftp.shtml</ext-link>) and the novel miRNA precursors were submitted to Rfam (
+ <ext-link ext-link-type="uri" xlink:href="http://rfam.sanger.ac.uk/search/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://rfam.sanger.ac.uk/search/</ext-link>) to search for Rfam families.
+</p>

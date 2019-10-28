@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The response of the optimum ANN to perturbations made to individual predictor variables (peaks) while locking in all other parameters to their mean value is illustrated in 
+ <xref ref-type="fig" rid="sensors-18-01922-f004" class="xref">Figure 4</xref>. The higher the response (sensitivity) is, the more effective the peak is for predicting each class. Using a sensitivity analysis, the peaks were ranked based on their relevance to predicting each class in 
+ <xref rid="sensors-18-01922-t002" ref-type="table" class="xref">Table 2</xref>. Peaks number 1, 11, and 19 are the most effective ones for predicting ripening classes. As detailed in the Materials and Methods Section, feature selection was carried out based on the rankings provided by sensitivity analysis combined with prediction accuracy in internal validation based on random subsampling. The classification accuracy in cross-validation is shown in 
+ <xref ref-type="fig" rid="sensors-18-01922-f005" class="xref">Figure 5</xref>. As it can be seen, step viii. including 15 peaks (
+ <xref rid="sensors-18-01922-t003" ref-type="table" class="xref">Table 3</xref>) showed the highest CCR. Thus, it was selected as the best set of inputs; including the peaks No. 1 (ND), 3 (α-pinene), 4 (β-pinene), 8 (ocimene), 9 (Cyclopropane,1,2-dibutyl-), 14 (ND), 17 (linalyl butyrate), 18 (α-terpineol), 19 (3-carne), and 20 (nerol). Less sensitivity for other compounds means that their changes do not significantly contribute to output prediction and may therefore be possibly disregarded. Such pruning results in reducing the network complexity and assisting in the network interpretation [
+ <xref rid="B51-sensors-18-01922" ref-type="bibr" class="xref">51</xref>]. Fifteen peaks selected as the most effective ones for modeling the output classes are shown in 
+ <xref ref-type="fig" rid="sensors-18-01922-f001" class="xref">Figure 1</xref>c.
+</p>

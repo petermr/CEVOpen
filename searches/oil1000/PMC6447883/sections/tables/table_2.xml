@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T2" position="float" class="table-wrap">
+ <label class="label">Table 2</label>
+ <caption class="caption">
+  <p class="p">ANOVA for the coefficients of quadratic model in the method of response surface curves for logarithmic reduction of 
+   <italic class="italic">E. coli</italic>(CFU/mL) in rosewater
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Source</bold>
+    </th>
+    <th style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Df</bold>
+    </th>
+    <th style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Sum of Squares</bold>
+    </th>
+    <th style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="th">
+     <bold class="bold">Mean Square</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Model</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">14</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">4.02</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.29
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Microwave power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.12</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.12
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Temperature</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">2.44</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">2.44
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Ultrasonic power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.96</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.96
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Time</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.21</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.21
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Microwave power × Temperature</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.015</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.015
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Microwave power × Ultrasonic power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.397E-003</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.397E-003
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Microwave power × Time</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.489E-004</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.489E-004
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Temperature × Ultrasonic power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">7.720E-003</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">7.720E-003
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Temperature × Time</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.013</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.013
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Ultrasonic power × Time</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.341E-004</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.341E-004
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Microwave power × Microwave power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.017</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">0.017 ns</td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Temperature × Temperature</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.19</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.19
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Ultrasonic power × Ultrasonic power</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.014E-003</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.014E-003
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Time × Time</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.504E-003</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.504E-003 ns</td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Residual</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">14</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.014</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.027E-003</td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Lack of Fit</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">10</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">0.013</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">1.309E-003 ns</td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Pure Error</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">4</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">1.280E-003</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">3.201E-004
+     <xref ref-type="table-fn" rid="TFN1" class="xref">**</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">Cor Total</td>
+    <td style=" color:#231F20;" align="left" rowspan="1" colspan="1" class="td">28</td>
+    <td style=" color:#231F20;" align="center" rowspan="1" colspan="1" class="td">4.03</td>
+    <td align="left" rowspan="1" colspan="1" class="td"/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn id="TFN1" class="fn">
+   <label class="label">**</label>
+   <p class="p">Showed a significant effect at 10% level.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

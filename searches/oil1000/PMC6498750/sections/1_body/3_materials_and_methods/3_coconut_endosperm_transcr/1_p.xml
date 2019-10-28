@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The extracted RNA samples (
+ <italic class="italic">n</italic> = 2) from the developing coconut endosperm were sent to a commercial sequencing provider, Australian Genome Research Facility (AGRF: Melbourne, VIC, Australia) for sequencing using a single lane of Illumina HiSeq 2500 (access: 
+ <ext-link ext-link-type="doi" xlink:href="10.4225/08/5ab330902ddb8" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.4225/08/5ab330902ddb8</ext-link>). QC and read filtering was performed using BioKanga (v3.8.4; NGSQC and filter), discarding reads that overlapped less than 50% with any other read or contained ambiguous bases. Assembly was performed using BioKanga (v3.8.4; assemb) using default parameters, with an initial overlap of 150 bp with a final overlap of 35 bp (PE) and 25 bp (SE). Scaffolding was performed using BioKanga (v3.8.4; scaffold) using default parameters with an insert length of 100–750 bp. The scaffolded 
+ <italic class="italic">de novo</italic> assembly was assessed using CEGMA (
+ <xref rid="pcy247-B50" ref-type="bibr" class="xref">Parra et�al. 2007</xref>, 
+ <xref rid="pcy247-B51" ref-type="bibr" class="xref">Parra et�al. 2009)</xref> and BUSCO (
+ <xref rid="pcy247-B60" ref-type="bibr" class="xref">Sim�o et�al. 2015)</xref>. Back alignment was performed using BioKanga (v3.8.4; align) using 4% of read lengths as substitutions and 1% of read length as ambiguous bases, with any orphans treated as single ended reads (
+ <xref ref-type="supplementary-material" rid="sup1" class="xref">Supplementary Tables S1–S4</xref>).
+</p>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">b. The standard error of the model (s) 
+ <disp-formula id="FD7-foods-08-00191" class="disp-formula">
+  <label class="label">(15)</label>
+  <math id="mm14" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">s</mi>
+     <mo class="mo">=</mo>
+     <mo stretchy="false" class="mo">(</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">Σ</mi>
+       <mrow class="mrow">
+        <mo class="mo">(</mo>
+        <mrow class="mrow">
+         <mi class="mi">y</mi>
+         <mi class="mi">i</mi>
+         <mo class="mo">−</mo>
+         <mover accent="true" class="mover">
+          <mrow class="mrow">
+           <mi class="mi">y</mi>
+          </mrow>
+          <mo stretchy="true" class="mo">^</mo>
+         </mover>
+         <mi class="mi">i</mi>
+        </mrow>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">n</mi>
+       <mo class="mo">−</mo>
+       <mn class="mn">2</mn>
+      </mrow>
+     </mfrac>
+     <msup class="msup">
+      <mo stretchy="false" class="mo">)</mo>
+      <mn class="mn">0.5</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula class="inline-formula">
+  <math id="mm15" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">yi</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the measured value, 
+ <inline-formula class="inline-formula">
+  <math id="mm16" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mover accent="true" class="mover">
+      <mi class="mi">y</mi>
+      <mo class="mo">^</mo>
+     </mover>
+     <mi class="mi">i</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the predicted value from model, and n is the number of data.
+</p>

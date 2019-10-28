@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37" class="p">In Eq. 
+ <xref rid="Equ4" ref-type="" class="xref">4</xref>, E
+ <sub class="sub">x</sub> denotes the total electronic energy obtained from DFT for the respective structure. In order to calculate the free energy of an edge structure, entropic corrections need to be applied:
+ <disp-formula id="Equ5" class="disp-formula">
+  <label class="label">5</label>
+  <alternatives class="alternatives">
+   <tex-math id="M9" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{\Delta \mu }}_{\mathrm{S}} = R{\mathrm{T}}\,\ln \left( {\frac{{{\mathrm{P}}_{{\mathrm{H}}_2{\mathrm{S}}}}}{{{\mathrm{P}}_{{\mathrm{H}}_2}}}} \right) - {\mathrm{T}}\left( {{\mathrm{S}}_{{\mathrm{H}}_2{\mathrm{S}}}^{\mathrm{o}} - {\mathrm{S}}_{{\mathrm{H}}_2}^{\mathrm{o}}} \right)$$\end{document}</tex-math>
+   <math id="M10" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δμ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">S</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <mi class="mi">R</mi>
+    <mi mathvariant="normal" class="mi">T</mi>
+    <mspace width="0.25em" class="mspace"/>
+    <mo class="mo">ln</mo>
+    <mfenced close=")" open="(" separators="" class="mfenced">
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">P</mi>
+         </mrow>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi mathvariant="normal" class="mi">H</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mn class="mn">2</mn>
+           </mrow>
+          </msub>
+          <mi mathvariant="normal" class="mi">S</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">P</mi>
+         </mrow>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi mathvariant="normal" class="mi">H</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mn class="mn">2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mfenced>
+    <mo class="mo">-</mo>
+    <mi mathvariant="normal" class="mi">T</mi>
+    <mfenced close=")" open="(" separators="" class="mfenced">
+     <mrow class="mrow">
+      <msubsup class="msubsup">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">S</mi>
+       </mrow>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">H</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">2</mn>
+         </mrow>
+        </msub>
+        <mi mathvariant="normal" class="mi">S</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">o</mi>
+       </mrow>
+      </msubsup>
+      <mo class="mo">-</mo>
+      <msubsup class="msubsup">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">S</mi>
+       </mrow>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">H</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi"> o</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="41467_2019_10526_Article_Equ5.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ6" class="disp-formula">
+  <label class="label">6</label>
+  <alternatives class="alternatives">
+   <tex-math id="M11" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{\Delta \mu }}_{\mathrm{H}} = \frac{1}{2}\left( {R{\mathrm{T}}\, \ln \left( {{\mathrm{P}}_{{\mathrm{H}}_2}} \right) - {\mathrm{T}}\;{\mathrm{S}}_{{\mathrm{H}}_2}^{\mathrm{o}}} \right)$$\end{document}</tex-math>
+   <math id="M12" class="math">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">Δμ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi mathvariant="normal" class="mi">H</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+     </mrow>
+    </mfrac>
+    <mfenced close=")" open="(" separators="" class="mfenced">
+     <mrow class="mrow">
+      <mi class="mi">R</mi>
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mspace width="0.25em" class="mspace"/>
+      <mo class="mo">ln</mo>
+      <mfenced close=")" open="(" separators="" class="mfenced">
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">P</mi>
+         </mrow>
+         <mrow class="mrow">
+          <msub class="msub">
+           <mrow class="mrow">
+            <mi mathvariant="normal" class="mi">H</mi>
+           </mrow>
+           <mrow class="mrow">
+            <mn class="mn">2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfenced>
+      <mo class="mo">-</mo>
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mspace width="0.16em" class="mspace"/>
+      <msubsup class="msubsup">
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">S</mi>
+       </mrow>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mi mathvariant="normal" class="mi">H</mi>
+         </mrow>
+         <mrow class="mrow">
+          <mn class="mn">2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi"> o</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="41467_2019_10526_Article_Equ6.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

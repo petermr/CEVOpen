@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The fundamental rate equation usually applied is:
+ <disp-formula id="FD1-materials-12-00553" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">dX</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">dt</mi>
+      </mrow>
+     </mfrac>
+     <mo class="mo">=</mo>
+     <mi mathvariant="normal" class="mi">k</mi>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mi mathvariant="normal" class="mi">f</mi>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mi mathvariant="normal" class="mi">X</mi>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where k is the rate constant and f(X) is the reaction model that describes the reaction mechanism. The conversion rate X is given by Equation (2):
+ <disp-formula id="FD2-materials-12-00553" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="normal" class="mi">X</mi>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">W</mi>
+        <mn class="mn">0</mn>
+       </msub>
+       <mo class="mo">−</mo>
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">W</mi>
+        <mi mathvariant="normal" class="mi">t</mi>
+       </msub>
+      </mrow>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">W</mi>
+        <mn class="mn">0</mn>
+       </msub>
+       <mo class="mo">−</mo>
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">W</mi>
+        <mi mathvariant="normal" class="mi">f</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where W
+ <sub class="sub">t</sub>, W
+ <sub class="sub">0</sub>, and W
+ <sub class="sub">f</sub> are time t, initial and final weights of the sample, respectively.
+</p>

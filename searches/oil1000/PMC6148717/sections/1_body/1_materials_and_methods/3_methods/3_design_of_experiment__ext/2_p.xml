@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0070" class="p">To design experiment for oil extraction from lucky nut powder, three independent variable factors were careful considered, since 2
+ <sup class="sup">n</sup> (where n = 3) full factors design and central composite design will give 20 experimental runs [
+ <xref rid="bib14" ref-type="bibr" class="xref">14</xref>, 
+ <xref rid="bib37" ref-type="bibr" class="xref">37</xref>]. In order to reduce the number of experimental runs, Box-Behnken Design (BBD
+ <sub class="sub">RSM</sub>) was employed which generated seventeen experimental runs used to study the effects of selected factors on oil yield. 
+ <xref rid="tbl1" ref-type="table" class="xref">Table 1</xref> showed the selected factors such as sample weight: X
+ <sub class="sub">1</sub>, extraction time: X
+ <sub class="sub">2</sub>, solvent volume: X
+ <sub class="sub">3</sub> and their levels. For the coefficient of the quadratic model of the response fitting, multiple regressions model was adopted using SEDE. 11.0.4 x86/x64. Regression analysis and test of significance are the computational exhaustive route that is best carried out via statistical software; hence the quality of the fitted model was estimated using test of significance and regression analysis of variance (ANOVA) via 
+ <xref rid="fd2" ref-type="disp-formula" class="xref">Eq. (2)</xref>.
+ <disp-formula id="fd2" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="M2" altimg="si2.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">R</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">F</mi>
+     </mrow>
+    </msub>
+    <mo class="mo">=</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">τ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">0</mn>
+     </mrow>
+    </msub>
+    <mo class="mo">+</mo>
+    <munderover class="munderover">
+     <mo movablelimits="false" class="mo">∑</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">k</mi>
+     </mrow>
+    </munderover>
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">τ</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">X</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo class="mo">+</mo>
+    <munderover class="munderover">
+     <mo movablelimits="false" class="mo">∑</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">k</mi>
+     </mrow>
+    </munderover>
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">τ</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+     <msubsup class="msubsup">
+      <mrow class="mrow">
+       <mi class="mi">X</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mn class="mn">2</mn>
+      </mrow>
+     </msubsup>
+    </mrow>
+    <mo class="mo">+</mo>
+    <munderover class="munderover">
+     <mo movablelimits="false" class="mo">∑</mo>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mo class="mo">&lt;</mo>
+      <mi class="mi">j</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">k</mi>
+     </mrow>
+    </munderover>
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">τ</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+       <mi class="mi">j</mi>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">X</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mrow class="mrow">
+       <mi class="mi">X</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">j</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">+</mo>
+     <mi class="mi">e</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>With RF is the experimental value, 
+ <inline-formula class="inline-formula">
+  <math id="M3" altimg="si26.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">τ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">0</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the intercept term, 
+ <inline-formula class="inline-formula">
+  <math id="M4" altimg="si27.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">τ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the coefficient terms for linear 
+ <inline-formula class="inline-formula">
+  <math id="M5" altimg="si28.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">τ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mi class="mi">i</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, quadratic 
+ <inline-formula class="inline-formula">
+  <math id="M6" altimg="si29.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">τ</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">i</mi>
+      <mi class="mi">j</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and interaction 
+ <inline-formula class="inline-formula">
+  <math id="M7" altimg="si30.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">i</mi>
+    <mo class="mo">,</mo>
+    <mi class="mi">j</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the selected factors, = 1, 2, 3.
+</p>

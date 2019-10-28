@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order" class="list">
+ <list-item class="list-item">
+  <p class="p">Fabrication of Microfluidic Chip 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Dehydrate a silicon wafer (D = 76.2 mm, 380 µm thickness, P-doped, &lt;100&gt; orientation) by heating on a hotplate at 200 °C for 5 min.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Center the wafer on a spin coater and coat a ~100 µm thick layer of SU-8 100 photoresist by applying ~7 mL of SU-8 resist, ramping the spin speed up to 3000 rpm at a rate of 500 rpm/s, and then holding the speed at 3000 rpm for 30 seconds.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Pre-bake the coating at 65 °C for 10 min and then soft-bake the coating at 95 °C for 30 min.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Print a photomask on a transparency with the microfluidic pattern defined by 
+      <xref ref-type="fig" rid="F2" class="xref">Figure 2</xref>
+      <bold class="bold">A</bold>, such that the transparent sections are the desired pattern of the polymerized photoresist layer.
+     </p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Insert the photoresist-coated silicon wafer and the photomask in a mask aligner and expose the wafer to 365 nm light for 95 s (6.5 W exposure power).</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Bake the patterned wafer for 10 min at 95 °C, first by placing it on a hotplate at 65 °C and subsequently heating the hotplate to 95 °C at 10 °C/min.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Remove the wafer from the hotplate and place in a 500 mL beaker containing 100 mL SU-8 developer for at least 10 min, swirling the wafer slowly in the solution throughout to remove non-exposed photoresist. After 10 min, rinse the patterned wafer with isopropanol and dry with air. Store the patterned wafer in a cool, dry environment away from light when not in use for soft lithography replica molding.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Place the patterned microfluidic mold in a Petri dish. Position ~10 mm lengths of L/S 13 silicone tubing on the inlets and outlets of the chip.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Pour ~10 mL of poly(dimethyl siloxane) (PDMS; prepared by mixing Silicone Elastomer Base and Silicone Elastomer Curing Agent in a 10:1 ratio) on top of the chip, carefully avoiding incorporating any PDMS within the placed silicone tubing.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Place the Petri dish in a vacuum chamber for ~10 min to remove air bubbles persisting in and around the patterned structure during curing.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Cure the PDMS by placing the Petri dish containing the patterned mold and uncured PDMS on a hotplate at 85 °C for 2-3 h.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Carefully peel off the cured PDMS from the patterned silicon wafer to expose the soft lithographic patterned PDMS replica of the microfluidic mold.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Place the patterned PDMS and a glass slide upside-down in a high-power plasma cleaner with an air feed. Apply the plasma at 200 mTorr and 45 W for 90 s to bond the PDMS to the glass slide and create the final microfluidic chip.</p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+ <list-item class="list-item">
+  <p class="p">Synthesis of Gel Microparticles 
+   <list list-type="order" class="list">
+    <list-item class="list-item">
+     <p class="p">Prepare hydrazide-functionalized PNIPAM (PNIPAM-Hzd) by dissolving NIPAM (4.5g), acrylic acid (0.5 g - 15 mol% total monomer), thioglycolic acid (TGA, 80 µL), and 2,2-azobisisobutyric acid dimethyl ester (AIBME, 0.056 g) in 20 mL of anhydrous ethanol and subsequently following steps 1.4-1.14 to complete the synthesis, although changing the reaction temperature to 56 °C in step 1.5.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Prepare aldehyde-functionalized PNIPAM (PNIPAM-Ald) by dissolving NIPAM (4 g), N-(2,2-dimethoxyethyl)methacrylate (DMEMA, 0.95 g - 13.4 mol% total monomer), thioglycolic acid (TGA, 80 µL), and 2,2-azobisisobutyric acid dimethyl ester (AIBME, 0.056 g) in 20 mL of ethanol and subsequently following steps 2.2.4-2.2.10 to complete the synthesis, although changing the reaction temperature to 56 °C in step 2.2.5.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Dissolve PNIPAM-Hzd and PNIPAM-Ald at 6 wt% in deionized water and load into separate standard 5 mL syringes.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Dissolve 1 wt% nonionic surfactant (e.g., Span 80) in heavy paraffin oil and load the solution into a standard 60 mL syringe.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Connect the two precursor polymer solution syringes individually to the two separate polymer inlet channels on the microfluidic chip and the paraffin oil solution to the oil inlet channel on the microfluidic chip via 1/32” ID silicone tubing (~30 cm length per inlet, ~45 cm length per outlet).</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Using two seperate infusion syringe pumps (one for the oil upstream, one for the oil added after the nozzle), deliver the oil into the chip at a flow rate between 1.1 mL/h and 5.5 mL/h without starting the polymer flow to prime the chip and ensure the chip is defect-free and operational (typically maintained over a 30 min period).</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Using a separate infusion syringe pump, deliver each of the aqueous polymer solutions to the chip at a flow rate of 0.03 mL/h.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Following an initial stabilization period to ensure that the flow has equilibrated and uniform particles are formed (30 min - 1 h), collect the particles in a magnetically stirred round bottom flask.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Collect the particles until all oil is consumed (12-55 h, depending on flow). Stop the syringe pumps and, if desired, immediately pump water in place of the precursor polymer solutions through the chip to clean.  However, given the rapid in situ gelation of these materials when the flow is stopped, it is recommended to use a new chip for each separate experiment.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Turn off the magnetic stirring and allow the gel microparticles to settle. Decant off all available paraffin oil using a pipette.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">To remove the remaining paraffin oil, wash the gel microparticles  with pentane (applied at a volume of 10 mL for every 0.5 mL of microparticle volume), vigorously mix the emulsion for ~ 1 minute, allow the gel microparticles to re-settle for ~1-2 hours, and decant off the residual organic phase using a pipette. Repeat at least 5 times to ensure full paraffin oil removal.</p>
+    </list-item>
+    <list-item class="list-item">
+     <p class="p">Resuspend the gel microparticles  in 10 mL deionized water inside a 20 mL glass scintillation vial and purge the vial with nitrogen overnight to remove any residual pentane.</p>
+    </list-item>
+   </list>
+  </p>
+ </list-item>
+</list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Since the heights of relevant compounds may vary over several orders of magnitude, first a logarithmic transformation of the chromatogram was performed. As depicted in 
+ <xref ref-type="fig" rid="sensors-18-01922-f001" class="xref">Figure 1</xref>a, the limonene peak is considerably higher than other peaks in the chromatograms and the logarithmic transformation has highlighted minor peaks (
+ <xref ref-type="fig" rid="sensors-18-01922-f001" class="xref">Figure 1</xref>b). The next step was to correct the baseline of the chromatograms. This was carried out using the algorithm named ‘
+ <italic class="italic">psalsa</italic>’ (
+ <xref ref-type="fig" rid="sensors-18-01922-f001" class="xref">Figure 1</xref>c), previously developed by the Reference [
+ <xref rid="B38-sensors-18-01922" ref-type="bibr" class="xref">38</xref>]. This algorithm is a modification of the asymmetric least squares (ALS) baseline removal technique proposed by Eilers and Boelens [
+ <xref rid="B39-sensors-18-01922" ref-type="bibr" class="xref">39</xref>]. Briefly, an adaptive value for the weights of the ALS method depending on the residuals was implemented in order to be more robust in term of parameter variations and to provide more accurate peak intensities [
+ <xref rid="B38-sensors-18-01922" ref-type="bibr" class="xref">38</xref>].
+</p>

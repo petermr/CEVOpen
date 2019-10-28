@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0120" class="p">Measurement results for inputs are represented as averages, and variability in inputs are expressed as standard deviations in time-series measurements, given as 
+ <inline-formula class="inline-formula">
+  <math id="M1" altimg="si1.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mover accent="true" class="mover">
+      <mi class="mi">X</mi>
+      <mo class="mo">¯</mo>
+     </mover>
+    </mrow>
+    <mo stretchy="false" class="mo">(</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">s</mi>
+     </mrow>
+     <mrow class="mrow">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">X</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>), where 
+ <inline-formula class="inline-formula">
+  <math id="M2" altimg="si2.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mover accent="true" class="mover">
+     <mi class="mi">X</mi>
+     <mo class="mo">¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>, is the average value for the data 
+ <italic class="italic">X</italic>
+ <sub class="sub">
+  <italic class="italic">i</italic>
+ </sub>, and 
+ <inline-formula class="inline-formula">
+  <math id="M3" altimg="si3.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">s</mi>
+     </mrow>
+     <mrow class="mrow">
+      <msub class="msub">
+       <mrow class="mrow">
+        <mi class="mi">X</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the standard deviation for the data. Measurement results for outputs and calculated parameters are represented as average values based on a two-tailed 
+ <italic class="italic">t</italic>-test (95% confidence, 5% significance threshold), represented as 
+ <inline-formula class="inline-formula">
+  <math id="M4" altimg="si4.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mover accent="true" class="mover">
+      <mi class="mi">X</mi>
+      <mo class="mo">¯</mo>
+     </mover>
+    </mrow>
+    <mo class="mo">±</mo>
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mover accent="true" class="mover">
+       <mi class="mi">X</mi>
+       <mo class="mo">¯</mo>
+      </mover>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula class="inline-formula">
+  <math id="M5" altimg="si5.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mrow class="mrow">
+      <mi class="mi">E</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mover accent="true" class="mover">
+       <mi class="mi">X</mi>
+       <mo class="mo">¯</mo>
+      </mover>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the 95% confidence interval.
+</p>

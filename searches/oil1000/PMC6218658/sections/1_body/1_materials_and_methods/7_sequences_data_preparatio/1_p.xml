@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The first steps for sequences processing and filtering were the same for both 16S and ITS amplicons. Raw paired Illumina sequences were merged with the “pandaseq” script (
+ <xref rid="B63" ref-type="bibr" class="xref">Masella et al., 2012</xref>) with a minimum overlap of 30 bp between read pairs and 2 maximum allowed mismatches. Sequences were multiplexed according to sample indexes and primers with the fastx-toolkit
+ <sup class="sup">
+  <xref ref-type="fn" rid="fn01" class="xref">1</xref>
+ </sup>. Both bacterial and fungal amplicons were analyzed with taxonomy-based and OTU-based analyses: in the first case, all sequences were individually classified at taxonomical level against relevant database (GreenGenes for bacteria, UNITE for fungi), while in the OTU-based analyses, sequences were grouped at 97% similarities. For 16S amplicons, both operational taxonomic units (OTUs) and taxonomy-based matrixes were produced with a pipeline in Mothur (
+ <xref rid="B87" ref-type="bibr" class="xref">Schloss et al., 2009</xref>). For ITS amplicons, taxonomy-based analyses were also performed in Mothur, whereas OTUs were determined in UPARSE (
+ <xref rid="B32" ref-type="bibr" class="xref">Edgar, 2013</xref>). The reason for this discrepancy was that no aligned databases are available for ITS, and the OTU-clustering method implemented in Mothur does not allow analysis of sequences that have dissimilar lengths, which was the case with the ITS amplicons.
+</p>

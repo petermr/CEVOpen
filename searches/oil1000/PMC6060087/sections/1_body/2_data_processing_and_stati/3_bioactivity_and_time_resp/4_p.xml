@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0130" class="p">For the time (or dose) - response models it was further assumed that:
+ <disp-formula id="eq0040" class="disp-formula">
+  <label class="label">(8)</label>
+  <math id="M12" altimg="si12.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">P</mi>
+     <mi class="mi">i</mi>
+    </msub>
+    <mo class="mo">=</mo>
+    <mi class="mi">γ</mi>
+    <mo class="mo">+</mo>
+    <mfenced open="(" close=")" class="mfenced">
+     <mrow class="mrow">
+      <mn class="mn">1</mn>
+      <mo class="mo">−</mo>
+      <mi class="mi">γ</mi>
+     </mrow>
+    </mfenced>
+    <mi class="mi">F</mi>
+    <mfenced open="(" close=")" class="mfenced">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">X</mi>
+       <mi class="mi">i</mi>
+      </msub>
+      <mo class="mo">;</mo>
+      <mi class="mi">β</mi>
+     </mrow>
+    </mfenced>
+    <mo class="mo">,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where, 
+ <italic class="italic">γ</italic> represents the natural response rate and 
+ <italic class="italic">X
+  <sub class="sub">i</sub>
+ </italic> is a 
+ <italic class="italic">n </italic>× (
+ <italic class="italic">p </italic>+ 
+ <italic class="italic">q</italic>) matrix with element 
+ <italic class="italic">x
+  <sub class="sub">ij</sub>
+ </italic>, which represents the 
+ <italic class="italic">j-</italic>th covariate for the 
+ <italic class="italic">i-</italic>th covariate pattern for p number of independent variables and 
+ <italic class="italic">q</italic> number of levels of the grouping variable.
+</p>

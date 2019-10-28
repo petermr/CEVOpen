@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16" class="p">We analyzed the univariate traits (see Table 
+ <xref rid="Tab1" ref-type="table" class="xref">1</xref>) using Kruskal-Wallis tests and Levene tests to access the overall differences and the variance among resources, respectively. Scatter plots showing all data points and individual posthoc comparisons (Dunn’s test [
+ <xref ref-type="bibr" rid="CR46" class="xref">46</xref>] and false discovery rate [
+ <xref ref-type="bibr" rid="CR47" class="xref">47</xref>] to correct for multiple tests as implemented in “PMCMR”) for each trait-resource combination can be found in the Additional files 
+ <xref rid="MOESM3" ref-type="media" class="xref">3</xref> and 
+ <xref rid="MOESM4" ref-type="media" class="xref">4</xref>. For multivariate traits [=chemical composition (as Bray-Curtis similarities) and morphometric measures (as Euclidean distances)] we also analyzed the differences and variances among resources using PERMANOVA [
+ <xref ref-type="bibr" rid="CR48" class="xref">48</xref>] and PERMDISP [
+ <xref ref-type="bibr" rid="CR48" class="xref">48</xref>], respectively as implemented in “vegan”. Both multivariate traits were ordinated using discriminant analysis of principal components (DAPC; see [
+ <xref ref-type="bibr" rid="CR49" class="xref">49</xref>]) using the package “adgenet”. DAPC transforms the original data by principal component analysis (PCA) prior to the discriminant analysis. We retained 6 (for chemical composition) and 7 (for morphometry) PC-axes based on their Eigenvalues (&gt; 1) and the explained variance (total cumulative variance &gt; 95%).
+</p>

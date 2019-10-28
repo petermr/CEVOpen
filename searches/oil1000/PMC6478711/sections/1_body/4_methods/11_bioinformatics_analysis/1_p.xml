@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41" class="p">Bioinformatics analysis was done separately for each of the three samples (control, DDVP and EO) using Quantitative Insights Into Microbial Ecology (QIIME) 1.9.0 pipeline
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR65" class="xref">65</xref>
+ </sup>. Raw pyrosequencing reads (54,885) were denoised using the “pre.cluster” command (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mothur.org/wiki/Pre.cluster" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.mothur.org/wiki/Pre.cluster</ext-link>) in mothur platform (version 1.25.0; 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mothur.org" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.mothur.org</ext-link>)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR66" class="xref">66</xref>
+ </sup>. Any mismatch in the barcode, more than two primer mismatches, homopolymers of more than 8 bases and sequences less than 160 bp were discarded for the analysis. Chimeric sequences were identified and removed using UCHIME, and the remaining unique sequences were clustered into Operational Taxonomic Units (OTUs) using the Greengenes database filtered at 97% similarity, which is the consensus threshold for species boundaries
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR67" class="xref">67</xref>
+ </sup>. A total of 47,766 high-quality pyrosequencing reads were produced according to barcode- and primer-sequence filtering, and were used for further analysis.
+</p>

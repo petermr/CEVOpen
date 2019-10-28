@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">
+ <italic class="italic">De novo</italic> assembly of the processed reads was carried out using Trinity program (Version: trinityaseq_r 2012-10-05)
+ <sup class="sup">17,</sup>
+ <xref rid="dsy028-B18" ref-type="bibr" class="xref">
+  <sup class="sup">18</sup>
+ </xref> with the min_kmer_cov set to 2 by default and all other parameters set to default. The Trinity method consists of three software modules, (1) Inchworm, (2) Chrysalis and (3) Butterfly, applied sequentially to process large volumes of RNA-Seq reads. In the first step, read datasets were assembled into linear contigs by the first module (Inchworm program). The minimally overlapping contigs were then clustered into sets of connected components (build graph components) by the second module (Chrysalis program), and the transcripts were then constructed from each de Bruijn graph by the third software module (Butterfly program). Finally, the transcripts were clustered by a similarity of correct match length beyond 80% for longer transcripts or 90% for shorter transcripts using the multiple sequence alignment tool. The transcriptome data from 
+ <italic class="italic">S. guaranitica</italic> was submitted to the NCBI under submission ID (1955911). And the accession number from BankIt1954130 (KX869088) to BankIt1954278 (KX869125), and from BankIt1955703 (KX893913) to BankIt1955935 (KX894017) see 
+ <xref rid="dsy028-T1" ref-type="table" class="xref">Tables 1</xref> and 
+ <xref rid="dsy028-T2" ref-type="table" class="xref">2</xref>. And any inquiries about my submission should be sent to 
+ <email class="email">gb-admin@ncbi.nlm.nih.gov</email> or sent to 
+ <email class="email">info@ncbi.nlm.nih.gov</email>. 
+</p>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" orientation="portrait" position="float" class="table-wrap">
+ <label class="label">Table 1.</label>
+ <caption class="caption">
+  <p class="p">Coded, actual, and observed levels in the central composite design matrix of experiment 1 including 4 factors and 3 levels of each factor applied to study second-order response surfaces on pH, DM solubility, and IVPD.</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th rowspan="1" colspan="1" class="th"/>
+    <th align="center" colspan="4" rowspan="1" class="th">Coded level</th>
+    <th align="center" colspan="4" rowspan="1" class="th">Actual level</th>
+    <th align="center" colspan="5" rowspan="1" class="th">Observed level</th>
+   </tr>
+   <tr class="tr">
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th rowspan="1" colspan="1" class="th"/>
+    <th align="center" colspan="3" rowspan="1" class="th">IVPD</th>
+   </tr>
+   <tr class="tr">
+    <th align="left" rowspan="1" colspan="1" class="th">Run</th>
+    <th align="left" rowspan="1" colspan="1" class="th">χ
+     <sub class="sub">1</sub>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">χ
+     <sub class="sub">2</sub>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">χ
+     <sub class="sub">3</sub>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">χ
+     <sub class="sub">4</sub>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">NaOH, % (v/v)</th>
+    <th align="left" rowspan="1" colspan="1" class="th">Na
+     <sub class="sub">2</sub>SO
+     <sub class="sub">3</sub>,% (v/v)
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">Enzyme, % (v/v)
+     <sup class="sup">
+      <xref ref-type="fn" rid="tb1fn1" class="xref">1</xref>
+     </sup>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">AC time, min
+     <sup class="sup">
+      <xref ref-type="fn" rid="tb1fn2" class="xref">2</xref>
+     </sup>
+    </th>
+    <th align="left" rowspan="1" colspan="1" class="th">pH</th>
+    <th align="left" rowspan="1" colspan="1" class="th">DM solubility, g/kg of DM</th>
+    <th align="left" rowspan="1" colspan="1" class="th">Solubilized fraction, g/kg of DM</th>
+    <th align="left" rowspan="1" colspan="1" class="th">Residual fraction, g/kg of DM</th>
+    <th align="left" rowspan="1" colspan="1" class="th">Total, g/kg of DM</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">6.3</td>
+    <td rowspan="1" colspan="1" class="td">30</td>
+    <td rowspan="1" colspan="1" class="td">735</td>
+    <td rowspan="1" colspan="1" class="td">158</td>
+    <td rowspan="1" colspan="1" class="td">169</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">2</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">12.4</td>
+    <td rowspan="1" colspan="1" class="td">577</td>
+    <td rowspan="1" colspan="1" class="td">850</td>
+    <td rowspan="1" colspan="1" class="td">395</td>
+    <td rowspan="1" colspan="1" class="td">654</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">3</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">7.4</td>
+    <td rowspan="1" colspan="1" class="td">62</td>
+    <td rowspan="1" colspan="1" class="td">846</td>
+    <td rowspan="1" colspan="1" class="td">294</td>
+    <td rowspan="1" colspan="1" class="td">328</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">4</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">12.5</td>
+    <td rowspan="1" colspan="1" class="td">588</td>
+    <td rowspan="1" colspan="1" class="td">877</td>
+    <td rowspan="1" colspan="1" class="td">384</td>
+    <td rowspan="1" colspan="1" class="td">679</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">5</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">7.0</td>
+    <td rowspan="1" colspan="1" class="td">40</td>
+    <td rowspan="1" colspan="1" class="td">808</td>
+    <td rowspan="1" colspan="1" class="td">215</td>
+    <td rowspan="1" colspan="1" class="td">232</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">6</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">12.4</td>
+    <td rowspan="1" colspan="1" class="td">650</td>
+    <td rowspan="1" colspan="1" class="td">860</td>
+    <td rowspan="1" colspan="1" class="td">446</td>
+    <td rowspan="1" colspan="1" class="td">710</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">7</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">7.4</td>
+    <td rowspan="1" colspan="1" class="td">121</td>
+    <td rowspan="1" colspan="1" class="td">853</td>
+    <td rowspan="1" colspan="1" class="td">258</td>
+    <td rowspan="1" colspan="1" class="td">331</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">8</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">12.5</td>
+    <td rowspan="1" colspan="1" class="td">597</td>
+    <td rowspan="1" colspan="1" class="td">887</td>
+    <td rowspan="1" colspan="1" class="td">389</td>
+    <td rowspan="1" colspan="1" class="td">693</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">9</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">6.8</td>
+    <td rowspan="1" colspan="1" class="td">136</td>
+    <td rowspan="1" colspan="1" class="td">963</td>
+    <td rowspan="1" colspan="1" class="td">658</td>
+    <td rowspan="1" colspan="1" class="td">692</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">10</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">9.9</td>
+    <td rowspan="1" colspan="1" class="td">953</td>
+    <td rowspan="1" colspan="1" class="td">920</td>
+    <td rowspan="1" colspan="1" class="td">632</td>
+    <td rowspan="1" colspan="1" class="td">889</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">11</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">7.0</td>
+    <td rowspan="1" colspan="1" class="td">230</td>
+    <td rowspan="1" colspan="1" class="td">939</td>
+    <td rowspan="1" colspan="1" class="td">890</td>
+    <td rowspan="1" colspan="1" class="td">899</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">12</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">9.9</td>
+    <td rowspan="1" colspan="1" class="td">993</td>
+    <td rowspan="1" colspan="1" class="td">922</td>
+    <td rowspan="1" colspan="1" class="td">682</td>
+    <td rowspan="1" colspan="1" class="td">925</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">13</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">6.8</td>
+    <td rowspan="1" colspan="1" class="td">138</td>
+    <td rowspan="1" colspan="1" class="td">970</td>
+    <td rowspan="1" colspan="1" class="td">751</td>
+    <td rowspan="1" colspan="1" class="td">758</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">14</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">9.9</td>
+    <td rowspan="1" colspan="1" class="td">960</td>
+    <td rowspan="1" colspan="1" class="td">919</td>
+    <td rowspan="1" colspan="1" class="td">678</td>
+    <td rowspan="1" colspan="1" class="td">897</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">15</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">7.2</td>
+    <td rowspan="1" colspan="1" class="td">271</td>
+    <td rowspan="1" colspan="1" class="td">949</td>
+    <td rowspan="1" colspan="1" class="td">875</td>
+    <td rowspan="1" colspan="1" class="td">894</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">16</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">9.9</td>
+    <td rowspan="1" colspan="1" class="td">1024</td>
+    <td rowspan="1" colspan="1" class="td">915</td>
+    <td rowspan="1" colspan="1" class="td">630</td>
+    <td rowspan="1" colspan="1" class="td">947</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">17</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">6.9</td>
+    <td rowspan="1" colspan="1" class="td">142</td>
+    <td rowspan="1" colspan="1" class="td">919</td>
+    <td rowspan="1" colspan="1" class="td">841</td>
+    <td rowspan="1" colspan="1" class="td">834</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">18</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">10.2</td>
+    <td rowspan="1" colspan="1" class="td">971</td>
+    <td rowspan="1" colspan="1" class="td">899</td>
+    <td rowspan="1" colspan="1" class="td">618</td>
+    <td rowspan="1" colspan="1" class="td">886</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">19</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.7</td>
+    <td rowspan="1" colspan="1" class="td">755</td>
+    <td rowspan="1" colspan="1" class="td">961</td>
+    <td rowspan="1" colspan="1" class="td">695</td>
+    <td rowspan="1" colspan="1" class="td">877</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">20</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.8</td>
+    <td rowspan="1" colspan="1" class="td">860</td>
+    <td rowspan="1" colspan="1" class="td">947</td>
+    <td rowspan="1" colspan="1" class="td">724</td>
+    <td rowspan="1" colspan="1" class="td">916</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">21</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.7</td>
+    <td rowspan="1" colspan="1" class="td">800</td>
+    <td rowspan="1" colspan="1" class="td">945</td>
+    <td rowspan="1" colspan="1" class="td">705</td>
+    <td rowspan="1" colspan="1" class="td">889</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">22</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.8</td>
+    <td rowspan="1" colspan="1" class="td">820</td>
+    <td rowspan="1" colspan="1" class="td">947</td>
+    <td rowspan="1" colspan="1" class="td">686</td>
+    <td rowspan="1" colspan="1" class="td">897</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">23</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">–1</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">12.0</td>
+    <td rowspan="1" colspan="1" class="td">208</td>
+    <td rowspan="1" colspan="1" class="td">820</td>
+    <td rowspan="1" colspan="1" class="td">286</td>
+    <td rowspan="1" colspan="1" class="td">394</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">24</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">9.5</td>
+    <td rowspan="1" colspan="1" class="td">872</td>
+    <td rowspan="1" colspan="1" class="td">941</td>
+    <td rowspan="1" colspan="1" class="td">735</td>
+    <td rowspan="1" colspan="1" class="td">901</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">25</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.8</td>
+    <td rowspan="1" colspan="1" class="td">819</td>
+    <td rowspan="1" colspan="1" class="td">940</td>
+    <td rowspan="1" colspan="1" class="td">693</td>
+    <td rowspan="1" colspan="1" class="td">890</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">26</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.7</td>
+    <td rowspan="1" colspan="1" class="td">809</td>
+    <td rowspan="1" colspan="1" class="td">952</td>
+    <td rowspan="1" colspan="1" class="td">699</td>
+    <td rowspan="1" colspan="1" class="td">894</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">27</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.8</td>
+    <td rowspan="1" colspan="1" class="td">821</td>
+    <td rowspan="1" colspan="1" class="td">927</td>
+    <td rowspan="1" colspan="1" class="td">729</td>
+    <td rowspan="1" colspan="1" class="td">878</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">N-5</td>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">6.1</td>
+    <td rowspan="1" colspan="1" class="td">56</td>
+    <td rowspan="1" colspan="1" class="td">842</td>
+    <td rowspan="1" colspan="1" class="td">156</td>
+    <td rowspan="1" colspan="1" class="td">189</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">N-13</td>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">0</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">6.6</td>
+    <td rowspan="1" colspan="1" class="td">121</td>
+    <td rowspan="1" colspan="1" class="td">993</td>
+    <td rowspan="1" colspan="1" class="td">639</td>
+    <td rowspan="1" colspan="1" class="td">658</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">N-16</td>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">1</td>
+    <td rowspan="1" colspan="1" class="td">120</td>
+    <td rowspan="1" colspan="1" class="td">10.0</td>
+    <td rowspan="1" colspan="1" class="td">992</td>
+    <td rowspan="1" colspan="1" class="td">913</td>
+    <td rowspan="1" colspan="1" class="td">642</td>
+    <td rowspan="1" colspan="1" class="td">915</td>
+   </tr>
+   <tr class="tr">
+    <td align="left" rowspan="1" colspan="1" class="td">N-25</td>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td"/>
+    <td rowspan="1" colspan="1" class="td">0.25</td>
+    <td rowspan="1" colspan="1" class="td">0.125</td>
+    <td rowspan="1" colspan="1" class="td">0.5</td>
+    <td rowspan="1" colspan="1" class="td">60</td>
+    <td rowspan="1" colspan="1" class="td">9.7</td>
+    <td rowspan="1" colspan="1" class="td">785</td>
+    <td rowspan="1" colspan="1" class="td">940</td>
+    <td rowspan="1" colspan="1" class="td">709</td>
+    <td rowspan="1" colspan="1" class="td">869</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn id="tb1fn1" class="fn">
+   <p class="p">
+    <sup class="sup">1</sup>Cibenza IDN900 in runs 1 to 27; NovoProD in runs N-5 to N-25; runs N-5 to N-25 were not used in modeling.
+   </p>
+  </fn>
+  <fn id="tb1fn2" class="fn">
+   <p class="p">
+    <sup class="sup">2</sup>AC = autoclaving, 2.4 bar, 133°C.
+   </p>
+  </fn>
+  <fn id="tb1fn3" class="fn">
+   <p class="p">IVPD, in vitro protein digestibility.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

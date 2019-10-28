@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">
+ <disp-formula id="fsn3671-disp-0007" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="nlm-math-7" class="math">
+   <mrow class="mrow">
+    <mtext class="mtext">RSA</mtext>
+    <mrow class="mrow">
+     <mo stretchy="false" class="mo">(</mo>
+     <mo class="mo">%</mo>
+     <mo stretchy="false" class="mo">)</mo>
+    </mrow>
+    <mo class="mo">=</mo>
+    <mfenced close="]" open="[" separators="" class="mfenced">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">A</mi>
+        <mrow class="mrow">
+         <mi mathvariant="italic" class="mi">control</mi>
+        </mrow>
+       </msub>
+       <mo class="mo">−</mo>
+       <msub class="msub">
+        <mi class="mi">A</mi>
+        <mrow class="mrow">
+         <mi mathvariant="italic" class="mi">VCO</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <msub class="msub">
+       <mi class="mi">A</mi>
+       <mrow class="mrow">
+        <mi mathvariant="italic" class="mi">control</mi>
+       </mrow>
+      </msub>
+     </mfrac>
+    </mfenced>
+    <mo class="mo">×</mo>
+    <mn class="mn">100</mn>
+    <mo class="mo">%</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

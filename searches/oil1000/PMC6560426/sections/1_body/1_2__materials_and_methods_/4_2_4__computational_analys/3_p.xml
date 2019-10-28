@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">OTUs were screened for DNA sequence artifacts using the following methods. Chimeric sequences were first identified with the chimera.uchime and chimera.slayer commands from the MOTHUR open source software package [
+ <xref rid="B19-microorganisms-07-00120" ref-type="bibr" class="xref">19</xref>]. Secondly, the integrity of the 5′ and 3′ ends of OTUs was evaluated using a database alignment search-based approach; when compared to their closest match of equal or longer sequence length from the NCBI nt database, as determined by BLAST [
+ <xref rid="B20-microorganisms-07-00120" ref-type="bibr" class="xref">20</xref>], OTUs with more than five nucleotides missing from the 5′ or 3′ end of their respective alignments were discarded as artifacts. Single read OTUs were subjected to an additional screen, where only sequences that had a perfect or near perfect match to a sequence in the NCBI nt database were kept for analysis (i.e., that the alignment had to span the entire sequence of the OTU, and a maximum of 1% of dissimilar nucleotides was tolerated). 
+</p>

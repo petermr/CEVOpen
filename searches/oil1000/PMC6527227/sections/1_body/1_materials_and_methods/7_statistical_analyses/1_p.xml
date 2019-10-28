@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">All data were subjected to least squares ANOVA for a 3 × 3 Latin square design [
+ <xref rid="pone.0217054.ref022" ref-type="bibr" class="xref">22</xref>] by using the PROC MIXED procedure of SAS (version 9.4, SAS Institute Inc., Cary, NC). The linear statistical model used was: 
+ <disp-formula id="pone.0217054.e001" class="disp-formula">
+  <alternatives class="alternatives">
+   <graphic xlink:href="pone.0217054.e001.jpg" id="pone.0217054.e001g" mimetype="image" position="anchor" orientation="portrait" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1" class="math">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">Y</mi>
+      <mrow class="mrow">
+       <mi mathvariant="normal" class="mi">i</mi>
+       <mi mathvariant="normal" class="mi">j</mi>
+       <mi mathvariant="normal" class="mi">k</mi>
+       <mi mathvariant="normal" class="mi">l</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <mi mathvariant="normal" class="mi">μ</mi>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mi mathvariant="normal" class="mi">ι</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">S</mi>
+      <mi mathvariant="normal" class="mi">j</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">P</mi>
+      <mi mathvariant="normal" class="mi">k</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">C</mi>
+      <mrow class="mrow">
+       <mi mathvariant="normal" class="mi">i</mi>
+       <mi mathvariant="normal" class="mi">j</mi>
+       <mi mathvariant="normal" class="mi">k</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">H</mi>
+      <mi mathvariant="normal" class="mi">l</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">T</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+     </msub>
+     <mi mathvariant="normal" class="mi">x</mi>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">H</mi>
+      <mi mathvariant="normal" class="mi">l</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">e</mi>
+      <mrow class="mrow">
+       <mi mathvariant="normal" class="mi">i</mi>
+       <mi mathvariant="normal" class="mi">j</mi>
+       <mi mathvariant="normal" class="mi">k</mi>
+       <mi mathvariant="normal" class="mi">l</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

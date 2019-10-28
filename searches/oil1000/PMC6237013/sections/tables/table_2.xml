@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2" class="table-wrap">
+ <label class="label">Table 2</label>
+ <caption class="caption">
+  <p class="p">Analysis of variance (ANOVA) of the estimated regression models for biomass yield, sugar consumption, and oil and protein contents in the fungal biomass at 72 h</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th class="th">Estimated regression models</th>
+    <th class="th">R
+     <sup class="sup">2</sup>
+    </th>
+    <th class="th">F
+     <sub class="sub">cal</sub>
+    </th>
+    <th class="th">F
+     <sub class="sub">tab</sub>
+    </th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td class="td">Estimated biomass yield (g/L) = 6.04 + 1.32 X
+     <sub class="sub">2</sub>
+    </td>
+    <td class="td">0.82</td>
+    <td class="td">40.6</td>
+    <td class="td">5.12</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Estimated sugar consumption (%) = 62.92 + 14.56X
+     <sub class="sub">2</sub>
+    </td>
+    <td class="td">0.88</td>
+    <td class="td">68.8</td>
+    <td class="td">5.12</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Estimated oil content (%) = 14.97 + 1.75X
+     <sub class="sub">2</sub>
+    </td>
+    <td class="td">0.87</td>
+    <td class="td">61.1</td>
+    <td class="td">5.12</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">Estimated protein content (%) = 24.62–1.07X
+     <sub class="sub">2</sub>
+    </td>
+    <td class="td">0.78</td>
+    <td class="td">31.5</td>
+    <td class="td">5.12</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <p class="p">Only parameters significant at 
+   <italic class="italic">p</italic> &lt; 0.05 were used in the regression models. X
+   <sub class="sub">2</sub> is the coded level corresponding to temperature variable, F
+   <sub class="sub">cal</sub> is the calculated F-ratio (MS regression/MS residual) and F
+   <sub class="sub">tab</sub> is the tabulated F-value (0.95, df regression, df residual), where MS is mean square and df is degrees of freedom
+  </p>
+ </table-wrap-foot>
+</table-wrap>

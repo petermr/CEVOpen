@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="fd1-ajas-18-0647" class="disp-formula">
+ <math id="m1" class="math">
+  <mrow class="mrow">
+   <mtable columnalign="left" class="mtable">
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">Apparent ileal digestibility </mtext>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">AID</mtext>
+      <mo class="mo">,</mo>
+      <mo class="mo">%</mo>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">=</mo>
+      <mn class="mn">100</mn>
+      <mo class="mo">-</mo>
+      <mo stretchy="false" class="mo">[</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">ND</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">NF</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">×</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">CrF</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">CrD</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">×</mo>
+      <mn class="mn">100</mn>
+      <mo stretchy="false" class="mo">]</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">Basal endogenous AA losses </mtext>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">EAL</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">=</mo>
+      <mo stretchy="false" class="mo">[</mo>
+      <mtext class="mtext">ND</mtext>
+      <mo class="mo">×</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">CrF</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">CrD</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo stretchy="false" class="mo">]</mo>
+     </mtd>
+    </mtr>
+    <mtr class="mtr">
+     <mtd class="mtd">
+      <mtext class="mtext">SID </mtext>
+      <mo stretchy="false" class="mo">(</mo>
+      <mo class="mo">%</mo>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo class="mo">=</mo>
+      <mo stretchy="false" class="mo">[</mo>
+      <mtext class="mtext">AID</mtext>
+      <mo class="mo">+</mo>
+      <mo stretchy="false" class="mo">(</mo>
+      <mtext class="mtext">EAL</mtext>
+      <mo class="mo">/</mo>
+      <mtext class="mtext">NF</mtext>
+      <mo stretchy="false" class="mo">)</mo>
+      <mo stretchy="false" class="mo">]</mo>
+      <mo class="mo">×</mo>
+      <mn class="mn">100</mn>
+     </mtd>
+    </mtr>
+   </mtable>
+  </mrow>
+ </math>
+</disp-formula>

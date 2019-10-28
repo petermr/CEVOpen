@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In order to determine the effect of shared evolutionary history on the variation in the nuptial gift composition, Pagel's lambda value was calculated in R (Pagel, 
+ <xref rid="ece34232-bib-0024" ref-type="ref" class="xref">1999</xref>). Pagel's lambda represents an estimate of the covariance between the traits of the clade and their phylogeny (Pagel, 
+ <xref rid="ece34232-bib-0024" ref-type="ref" class="xref">1999</xref>). Lambda values range from 0 to 1, where a value approaching 0 means that the phylogeny does not indicate covariance in amino acid profiles following Brownian motion. A value of 1 indicates amino acid covariances are those expected under a standard Brownian motion model (Revell, 
+ <xref rid="ece34232-bib-0027" ref-type="ref" class="xref">2012</xref>). Moreover, a lack of phylogenetic signal in nuptial gift composition indicates that phylogenetic comparative and frequentist statistical methods will perform identically. Pagel's lambda was calculated for this dataset using two equations from different packages in R. Two methods for the calculation of lambda were performed: first using the “phylosig” function from the 
+ <italic class="italic">phytools</italic> package, which estimates the joint lambda value across all amino acid data. The second method used the “fitContinuous” function from the R package 
+ <italic class="italic">geiger</italic> (Harmon et al., 
+ <xref rid="ece34232-bib-0016" ref-type="ref" class="xref">2008</xref>); this method calculates a separate lambda value for each amino acid. The phylogeny used in the Pagel's lambda analyses was a maximum clade credibility tree developed from nuclear and mitochondrial sequence data (Burns, Hedin, &amp; Shultz, 
+ <xref rid="ece34232-bib-0003" ref-type="ref" class="xref">2012</xref>; Burns, Hedin, &amp; Shultz, 
+ <xref rid="ece34232-bib-0004" ref-type="ref" class="xref">2013</xref>) and pruned to represent the five taxa sampled in this study.
+</p>

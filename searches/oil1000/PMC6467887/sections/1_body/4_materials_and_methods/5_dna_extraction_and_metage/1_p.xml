@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29" class="p">Fresh soil samples were used for DNA extraction with the E.Z.N.A. Soil DNA kit (OMEGA Bio-Tek, Inc., Norcross, GA, USA). DNA library was constructed using TruSeq™ DNA Sample Prep Kit and subjected to Illumina Hiseq sequencing (OE Biotech CO., LTD, Shanghai, China). In detail, genomic DNA was checked by 1% agarose gel electrophoresis at various steps like after fragmentation, end-repair for DNA samples with ultrasonic treatment, A-tailing, and addition of sequencing adapters to both end of fragments. After removal of self-ligated fragments by magnetic beads purification and fragment screening, library amplification was performed by PCR. For sequencing data, reads containing less than 70% bases with Q20 were filtered out using NGSQC toolkit (version 2.3.2)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR41" class="xref">41</xref>
+ </sup>. Metagenome assembly was performed using SOAPdenovo2 (version 2.0)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR42" class="xref">42</xref>
+ </sup> after getting valid reads. Gaps inside the scaffold were used as breakpoint to interrupt the scaffold into new contigs (ScafContig) and these new contigs with length &gt;/= 200 bp were retained. ORF prediction of assembled scaffolds using prodigal (version 2.6.3)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR43" class="xref">43</xref>
+ </sup> was performed and translated into amino acid sequences. The non-redundant gene sets were built for all predicted genes using CDHIT (version 4.5.4)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR44" class="xref">44</xref>
+ </sup>. The clustering parameters included 95% identity and 90% coverage. The longest gene was selected as representative sequence of each gene set.
+</p>

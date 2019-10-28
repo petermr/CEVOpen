@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The mathematical model was used to predict the response obtained from the experimental design applied:
+ <disp-formula id="FD1-molecules-23-00651" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="normal" class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">b</mi>
+      <mn class="mn">0</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover class="munderover">
+       <mo class="mo">∑</mo>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mi mathvariant="normal" class="mi">k</mi>
+      </munderover>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mi mathvariant="normal" class="mi">i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">X</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover class="munderover">
+       <mo class="mo">∑</mo>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">i</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+       <mi mathvariant="normal" class="mi">k</mi>
+      </munderover>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mi class="mi">ii</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">X</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+     <mo class="mo">+</mo>
+     <mstyle displaystyle="true" class="mstyle">
+      <munderover class="munderover">
+       <mo class="mo">∑</mo>
+       <mrow class="mrow">
+        <mi mathvariant="normal" class="mi">i</mi>
+        <mo class="mo">&lt;</mo>
+        <mi mathvariant="normal" class="mi">j</mi>
+       </mrow>
+       <mi mathvariant="normal" class="mi">k</mi>
+      </munderover>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mi class="mi">ij</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">X</mi>
+      <mi mathvariant="normal" class="mi">i</mi>
+     </msub>
+     <msub class="msub">
+      <mi mathvariant="normal" class="mi">X</mi>
+      <mi mathvariant="normal" class="mi">j</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mi mathvariant="sans-serif" class="mi">ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where Y represents the predicted response, b
+ <sub class="sub">0</sub>, is the model intercept, b
+ <sub class="sub">i</sub>, b
+ <sub class="sub">ii</sub>, and b
+ <sub class="sub">ij</sub> are the coefficients of the linear terms X
+ <sub class="sub">i</sub>, X
+ <sub class="sub">i</sub>
+ <sup class="sup">2</sup> and X
+ <sub class="sub">j</sub> are independent variables and ε corresponds to the model residue. The statistical significance of each coefficient term was determined by evaluating the 
+ <italic class="italic">p</italic>- and 
+ <italic class="italic">F</italic>-values with 95% confidence level (CL) obtained from the analysis of variance (ANOVA). The lack-of-fit of the regression model was evaluated with 95% CL. The statistical fit of the experimental results to the polynomial model equation was expressed by the coefficient of determination (
+ <italic class="italic">R</italic>
+ <sup class="sup">2</sup>) and the adjusted coefficient of determination (
+ <italic class="italic">R</italic>
+ <sup class="sup">2</sup>
+ <sub class="sub">adj</sub>). Response surface plots were obtained by using the fitted model and by keeping one independent variable constant at zero level while varying the remaining two variables. Once an adjusted response to the polynomial model was obtained, the best conditions of volatile oil extraction were defined using desirability function analysis. All calculations and graphs were obtained using Statsoft version 7.0 (Statistica, TIBCO Software Inc., Palo Alto, CA, USA).
+</p>

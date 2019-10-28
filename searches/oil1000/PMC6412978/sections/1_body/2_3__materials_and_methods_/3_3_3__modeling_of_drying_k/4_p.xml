@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Table Curve 2D Windows v2.03 was used to fit the basic drying models to the measured MR determined accordingly to Equation (2). There are several drying models in the literature that can be used to describe the kinetics of drying plant materials. For drying model selection, drying curves were fitted to five well known thin drying models, including the modified Page model. Henderson–Pabis, logarithmic, Midilli-Kucuk, and Weibull ones. The best fit was determined using two parameters: the value of the coefficient of determination (R
+ <sup class="sup">2</sup>) and root-mean squared error (RMSE). A model fits better if the value of R
+ <sup class="sup">2</sup> is closer to 1, and the RMSE value is closer to 0, using the following equations:
+ <disp-formula id="FD3-molecules-24-00764" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msup class="msup">
+      <mi class="mi">R</mi>
+      <mn class="mn">2</mn>
+     </msup>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mstyle displaystyle="true" class="mstyle">
+        <munderover class="munderover">
+         <mo class="mo">∑</mo>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">=</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mi class="mi">N</mi>
+        </munderover>
+        <mrow class="mrow">
+         <mo stretchy="false" class="mo">(</mo>
+         <mi class="mi">M</mi>
+         <msub class="msub">
+          <mi class="mi">R</mi>
+          <mrow class="mrow">
+           <mi class="mi">p</mi>
+           <mi class="mi">r</mi>
+           <msub class="msub">
+            <mi class="mi">e</mi>
+            <mi class="mi">i</mi>
+           </msub>
+          </mrow>
+         </msub>
+         <mo class="mo">−</mo>
+         <msub class="msub">
+          <mrow class="mrow">
+           <mover accent="true" class="mover">
+            <mrow class="mrow">
+             <mi class="mi">M</mi>
+             <mi class="mi">R</mi>
+            </mrow>
+            <mo stretchy="true" class="mo">¯</mo>
+           </mover>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">exp</mi>
+          </mrow>
+         </msub>
+         <mo stretchy="false" class="mo">)</mo>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mrow class="mrow">
+       <mstyle displaystyle="true" class="mstyle">
+        <munderover class="munderover">
+         <mo class="mo">∑</mo>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">=</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mi class="mi">N</mi>
+        </munderover>
+        <mrow class="mrow">
+         <mo stretchy="false" class="mo">(</mo>
+         <mi class="mi">M</mi>
+         <msub class="msub">
+          <mi class="mi">R</mi>
+          <mrow class="mrow">
+           <msub class="msub">
+            <mrow class="mrow">
+             <mi class="mi">exp</mi>
+            </mrow>
+            <mi class="mi">i</mi>
+           </msub>
+          </mrow>
+         </msub>
+         <mo class="mo">−</mo>
+         <msub class="msub">
+          <mrow class="mrow">
+           <mover accent="true" class="mover">
+            <mrow class="mrow">
+             <mi class="mi">M</mi>
+             <mi class="mi">R</mi>
+            </mrow>
+            <mo stretchy="true" class="mo">¯</mo>
+           </mover>
+          </mrow>
+          <mrow class="mrow">
+           <mi class="mi">exp</mi>
+          </mrow>
+         </msub>
+         <mo stretchy="false" class="mo">)</mo>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-molecules-24-00764" class="disp-formula">
+  <label class="label">(4)</label>
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">R</mi>
+     <mi class="mi">M</mi>
+     <mi class="mi">S</mi>
+     <mi class="mi">E</mi>
+     <mo class="mo">=</mo>
+     <msqrt class="msqrt">
+      <mrow class="mrow">
+       <mfrac class="mfrac">
+        <mn class="mn">1</mn>
+        <mi class="mi">N</mi>
+       </mfrac>
+       <mo class="mo">⋅</mo>
+       <mstyle displaystyle="true" class="mstyle">
+        <munderover class="munderover">
+         <mo class="mo">∑</mo>
+         <mrow class="mrow">
+          <mi class="mi">i</mi>
+          <mo class="mo">=</mo>
+          <mn class="mn">1</mn>
+         </mrow>
+         <mi class="mi">N</mi>
+        </munderover>
+        <mrow class="mrow">
+         <msup class="msup">
+          <mrow class="mrow">
+           <mo stretchy="false" class="mo">(</mo>
+           <mi class="mi">M</mi>
+           <msub class="msub">
+            <mi class="mi">R</mi>
+            <mrow class="mrow">
+             <msub class="msub">
+              <mrow class="mrow">
+               <mi class="mi">exp</mi>
+              </mrow>
+              <mi class="mi">i</mi>
+             </msub>
+            </mrow>
+           </msub>
+           <mo class="mo">−</mo>
+           <mi class="mi">M</mi>
+           <msub class="msub">
+            <mi class="mi">R</mi>
+            <mrow class="mrow">
+             <mi class="mi">p</mi>
+             <mi class="mi">r</mi>
+             <msub class="msub">
+              <mi class="mi">e</mi>
+              <mi class="mi">i</mi>
+             </msub>
+            </mrow>
+           </msub>
+           <mo stretchy="false" class="mo">)</mo>
+          </mrow>
+          <mn class="mn">2</mn>
+         </msup>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic class="italic">MR</italic> is moisture ratio, 
+ <inline-formula class="inline-formula">
+  <math id="mm5" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mover accent="true" class="mover">
+      <mrow class="mrow">
+       <mi class="mi">M</mi>
+       <mi class="mi">R</mi>
+      </mrow>
+      <mo stretchy="true" class="mo">¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the mean value of moisture ratio, “
+ <italic class="italic">pre</italic>” and “exp” indicate predicted and experimental values, respectively, while “
+ <italic class="italic">i</italic>“ indicates subsequent experimental data and 
+ <italic class="italic">N</italic> is the number of observations.
+</p>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Fe solubility from mineral dust in the four models (and for combustion aerosols in IMPACT and CAM4) increases with atmospheric processing. The amount of dissolved Fe is primarily determined by two factors: (i) content of labile Fe and (ii) dissolution rates of less labile Fe. Only a fraction of the less labile Fe can be dissolved during aerosol lifetimes in the atmosphere. Laboratory studies have demonstrated that the dissolution rate of Fe from minerals is strongly dependent on the proton concentration in bulk solution, the mineral surface concentration of oxalate, solar radiation, and the mineralogy (
+ <xref rid="R16" ref-type="bibr" class="xref">
+  <italic class="italic">16</italic>
+ </xref>, 
+ <xref rid="R20" ref-type="bibr" class="xref">
+  <italic class="italic">20</italic>
+ </xref>, 
+ <xref rid="R27" ref-type="bibr" class="xref">
+  <italic class="italic">27</italic>
+ </xref>, 
+ <xref rid="R30" ref-type="bibr" class="xref">
+  <italic class="italic">30</italic>
+ </xref>). IMPACT, TM4-ECPL, and GEOS-Chem involved thermodynamic equilibrium modules to estimate the acidity in the aqueous phase of hygroscopic particles (
+ <xref rid="R7" ref-type="bibr" class="xref">
+  <italic class="italic">7</italic>
+ </xref>, 
+ <xref rid="R17" ref-type="bibr" class="xref">
+  <italic class="italic">17</italic>
+ </xref>, 
+ <xref rid="R18" ref-type="bibr" class="xref">
+  <italic class="italic">18</italic>
+ </xref>). On the other hand, CAM4 used two pH values (i.e., pH = 2 or pH = 7.5), which depended on the simulated ratio of calcite to sulfate (
+ <xref rid="R13" ref-type="bibr" class="xref">
+  <italic class="italic">13</italic>
+ </xref>). Note that coating of aerosols with inorganic and organic matter, and restructuring of the aggregates during the dispersion of the plume released by the combustion sources, is part of the so-called plume chemistry and is a sub–grid scale phenomenon in coarse-scale models. Thus, models that prescribed the Fe solubility for combustion aerosols at the emission level (table S1) implicitly assumed that atmospheric processing of aerosols also produced labile Fe within each grid box at the emission level. Therefore, the emissions treated in the models as primary sources also included secondary sources occurring within the large grid box, which could not be separated into primary emission and rapid secondary formation in the atmosphere. The Fe solubilities were derived from the sum of mineral dust and combustion aerosols in IMPACT, TM4-ECPL, and CAM4, but only for mineral dust in GEOS-Chem.
+</p>

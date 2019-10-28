@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Model selection and assessment were based on double cross-validation (also named cross model validation (CMV) [
+ <xref rid="B42-sensors-18-01922" ref-type="bibr" class="xref">42</xref>]) using a three-way split [
+ <xref rid="B43-sensors-18-01922" ref-type="bibr" class="xref">43</xref>]. A double random subsampling approach was used with 70% for training, 10% for internal validation and model optimization, and 20% for external validation and model assessment (see 
+ <xref ref-type="fig" rid="sensors-18-01922-f002" class="xref">Figure 2</xref>). For precise evaluation of models, some points were considered: (1) all three replicates of each EO were kept at the same subset; (2) the ratio of subsampling for the samples of each class was the same. For example, from 27 samples of the second class, 19 samples (70%) with their replicates were randomly assigned to the training subset in each random subsampling. This strategy was followed in each random subsampling and each subset. Random subsampling was carried out with a total of 1000 partitions.
+</p>

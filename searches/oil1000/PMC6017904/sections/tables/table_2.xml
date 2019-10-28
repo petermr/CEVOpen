@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="molecules-23-00482-t002" orientation="portrait" position="float" class="table-wrap">
+ <object-id pub-id-type="pii" class="object-id">molecules-23-00482-t002_Table 2</object-id>
+ <label class="label">Table 2</label>
+ <caption class="caption">
+  <p class="p">Cross-validation scores for the binary GB classification models 
+   <sup class="sup">a</sup>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Statistical Parameter</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">At 48.8 µg/mL</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">At 3.125 mg/mL</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">
+     <bold class="bold">ACC CV</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.90</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.72</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">
+     <bold class="bold">MCC CV</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.64</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.51</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">
+     <bold class="bold">Precision–Recall AUC</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.84</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.72</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">
+     <bold class="bold">ROC AUC</bold>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.80</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.68</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn class="fn">
+   <p class="p">
+    <sup class="sup">a</sup> final optimized models were obtained with the following settings: max depth = 3, max features = 0.9, min samples_leaf = 16, 
+    <italic class="italic">n</italic> estimators = 500.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

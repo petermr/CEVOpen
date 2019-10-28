@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="molecules-24-00890-t007" orientation="portrait" position="float" class="table-wrap">
+ <object-id pub-id-type="pii" class="object-id">molecules-24-00890-t007_Table 7</object-id>
+ <label class="label">Table 7</label>
+ <caption class="caption">
+  <p class="p">Chance correlation control by Y-scrambling procedure results. Mean, standard deviation (St Dev), maximum (max) and minimum (min) values for Accuracy
+   <sub class="sub">Y-S</sub>, MCC
+   <sub class="sub">Y-S</sub>, Precision-Recall
+   <sub class="sub">Y-S</sub> and ROC-AUC
+   <sub class="sub">Y-S</sub> ROC-AUC coefficients for cross-validated 100 runs. Values refer to RP62A/inhibition, O-47/inhibition, 6538P/activation and 259237/activation optimized models at 3.125 mg/mL.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Type of Model</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Strain</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Coefficient</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Mean</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">St Dev</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Max</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Min</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td rowspan="8" align="center" valign="middle" style="border-bottom:solid thin" colspan="1" class="td">Biofilm Inhibition Models</td>
+    <td rowspan="4" align="center" valign="middle" colspan="1" class="td">RP62A</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Accuracy
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.500</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.079</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.644</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.219</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">MCC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.000</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.159</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.290</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.567</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Precision-Recall
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.496</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.063</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.643</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.353</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">ROC-AUC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.459</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.094</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.627</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.198</td>
+   </tr>
+   <tr class="tr">
+    <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1" class="td">O-47</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Accuracy
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.494</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.081</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.665</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.286</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">MCC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.011</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.164</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.342</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.429</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Precision-Recall
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.506</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.068</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.668</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.377</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">ROC-AUC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.474</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.089</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.645</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.241</td>
+   </tr>
+   <tr class="tr">
+    <td rowspan="8" align="center" valign="middle" style="border-bottom:solid thin" colspan="1" class="td">Biofilm Activation Models</td>
+    <td rowspan="4" align="center" valign="middle" colspan="1" class="td">6538P</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Accuracy
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.492</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.082</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.637</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.249</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">MCC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.017</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.169</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.275</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.522</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Precision-Recall
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.507</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.071</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.661</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.347</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">ROC-AUC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.470</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.100</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.644</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.166</td>
+   </tr>
+   <tr class="tr">
+    <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1" class="td">25923</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Accuracy
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.508</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.083</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.680</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.292</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">MCC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.013</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.170</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.361</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">−0.433</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Precision-Recall
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.524</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.071</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.746</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.355</td>
+   </tr>
+   <tr class="tr">
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">ROC-AUC
+     <sub class="sub">Y-S</sub>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.490</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.102</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.675</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.179</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

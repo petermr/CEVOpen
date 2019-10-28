@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Principal component analysis (PCA) [
+ <xref rid="B24-molecules-23-00482" ref-type="bibr" class="xref">24</xref>] was used to check for linear data separability, while gradient boosting (GB) [
+ <xref rid="B25-molecules-23-00482" ref-type="bibr" class="xref">25</xref>] for non-linear classification. Cross-validation was used to search for the optimal inhibition percentage cut-off value in order to define active and inactive samples. The optimal cut-off values were used to obtain the final classification model. Hyper-parameter optimization was finally achieved through a systematic grid search of number of stages to perform (number of trees), maximum depth of individual tree which limits the number of nodes in the tree (max depth), minimum number of samples required to be at a leaf node (min sample leaf), and the number of features to consider (
+ <xref ref-type="app" rid="app1-molecules-23-00482" class="xref">Supplementary Materials Table S1</xref>).
+</p>

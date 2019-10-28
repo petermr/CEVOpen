@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">For the evaluation of the variables related to the animals, the experimental design was randomized, and the results were analyzed using PROC MIXED (SAS Inst., Inc., Cary, NC, USA), with Tukey’s test for significant results in the analysis of variance. In the evaluation of the variables related to children, the following model was considered: 
+ <disp-formula class="disp-formula">Y
+  <italic class="italic">
+   <sub class="sub">ijk</sub>
+  </italic> = 
+  <italic class="italic">μ</italic> + Diet
+  <sub class="sub">i</sub> + Time
+  <italic class="italic">
+   <sub class="sub">j</sub>
+  </italic> + (Diet × Time)
+  <italic class="italic">
+   <sub class="sub">ij</sub>
+  </italic> + e
+  <italic class="italic">
+   <sub class="sub">ijk</sub>
+  </italic>
+ </disp-formula> where Y
+ <italic class="italic">
+  <sub class="sub">ijk</sub>
+ </italic> = dependent variable; Μ = the general population mean; W
+ <italic class="italic">
+  <sub class="sub">i</sub>
+ </italic> = effect of collection day, (days) (
+ <italic class="italic">i</italic> = 0, 28, and 84 days) with day as a repeated factor; Diet
+ <italic class="italic">
+  <sub class="sub">j</sub>
+ </italic> = effect of the diet (
+ <italic class="italic">j</italic> = 1, 2, 3, and 4); and e
+ <italic class="italic">
+  <sub class="sub">ijk</sub>
+ </italic> = the unexplained residual element assumed to be independent and normally distributed. The data collected over time were analyzed as measures repeated in time with the following sampling times: 0, 28, and 84 days. The fixed effects of treatments, days of collection, and interaction of days × treatments were considered. The means were obtained through LSMEANS, and the significance level was 5%.
+</p>

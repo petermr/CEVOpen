@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29" class="p">DNA sequence data quality was analysed and visualised using FastQC
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR54" class="xref">54</xref>
+ </sup>
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>. DNA sequences reads which had a Phred score below 20 were removed using Trim-Galore
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR55" class="xref">55</xref>
+ </sup>.
+</p>

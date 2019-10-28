@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27" class="p">The resulting sequences were processed using QIIME (version 1.17)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR67" class="xref">67</xref>
+ </sup>. After removing sequences with average quality score &lt;25 over a 50 bp sliding window and sequences shorter than 200 bp, with homopolymers longer than six nucleotides, and containing ambiguous base calls or incorrect primer sequences, high-quality sequences were produced. Operational Taxonomic Units (OTUs) were clustered with 97% similarity cutoff using UPARSE (version 7.1 
+ <ext-link ext-link-type="uri" xlink:href="http://drive5.com/uparse/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://drive5.com/uparse/</ext-link>)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR19" class="xref">19</xref>,
+  <xref ref-type="bibr" rid="CR68" class="xref">68</xref>
+ </sup> and chimeric sequences were identified and removed using UCHIME. The phylogenetic affiliation of each 16S rRNA gene sequence was analyzed by RDP Classifier (
+ <ext-link ext-link-type="uri" xlink:href="http://rdp.cme.msu.edu/" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://rdp.cme.msu.edu/</ext-link>) against the silva (SSU115)16S rRNA database using confidence threshold of 70%
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR19" class="xref">19</xref>,
+  <xref ref-type="bibr" rid="CR32" class="xref">32</xref>,
+  <xref ref-type="bibr" rid="CR68" class="xref">68</xref>
+ </sup>. The beta diversity analysis was carried out using UniFrac to compare the results of PCA at the OTU level with the community ecology package, R-forge (vegan 2.0 package was used to generate a PCA figure)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR35" class="xref">35</xref>,
+  <xref ref-type="bibr" rid="CR69" class="xref">69</xref>
+ </sup>.
+</p>

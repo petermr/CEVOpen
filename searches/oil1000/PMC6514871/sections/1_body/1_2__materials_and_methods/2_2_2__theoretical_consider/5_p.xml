@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The average modulus of elasticity of the bar can be determined by the ratio:
+ <disp-formula id="FD3-materials-12-01232" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm13" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">E</mi>
+      <mrow class="mrow">
+       <mi class="mi">m</mi>
+       <mi class="mi">e</mi>
+       <mi class="mi">d</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">F</mi>
+       <mo class="mo">·</mo>
+       <mi class="mi">l</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mo class="mo">Δ</mo>
+       <mi class="mi">l</mi>
+       <mo class="mo">·</mo>
+       <mi class="mi">A</mi>
+      </mrow>
+     </mfrac>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mi class="mi">l</mi>
+      <mrow class="mrow">
+       <mi class="mi">h</mi>
+       <munderover class="munderover">
+        <mo class="mo">∫</mo>
+        <mrow class="mrow">
+         <mn class="mn">0</mn>
+        </mrow>
+        <mi class="mi">l</mi>
+       </munderover>
+       <mfrac class="mfrac">
+        <mn class="mn">1</mn>
+        <mrow class="mrow">
+         <mstyle displaystyle="true" class="mstyle">
+          <munderover class="munderover">
+           <mo class="mo">∑</mo>
+           <mrow class="mrow">
+            <mi class="mi">k</mi>
+            <mo class="mo">=</mo>
+            <mn class="mn">1</mn>
+           </mrow>
+           <mi class="mi">n</mi>
+          </munderover>
+         </mstyle>
+         <msub class="msub">
+          <mi class="mi">h</mi>
+          <mi class="mi">k</mi>
+         </msub>
+         <msub class="msub">
+          <mi class="mi">E</mi>
+          <mi class="mi">k</mi>
+         </msub>
+         <mfenced open="(" close=")" class="mfenced">
+          <mi class="mi">x</mi>
+         </mfenced>
+        </mrow>
+       </mfrac>
+       <mi class="mi">d</mi>
+       <mi class="mi">x</mi>
+      </mrow>
+     </mfrac>
+     <mo class="mo">.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

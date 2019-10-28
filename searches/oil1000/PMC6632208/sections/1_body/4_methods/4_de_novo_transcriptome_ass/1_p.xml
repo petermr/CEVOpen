@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par63" class="p">De novo assembly of the processed reads was carried out using the Trinity program (r20140413p1) with min_kmer_cov set to 2 by default and all other parameters set to default. For functional annotation, unigenes were used as query sequences to search seven annotation databases. Using NCBI blast (v2.2.28+), the unigenes were annotated to NR, NT, Swiss-Pro (
+ <italic class="italic">e</italic>-value = 1e-5), KOG/COG (
+ <italic class="italic">e</italic>-value = 1e-3) databases. For KEGG, Pfam and GO annotation, KAAS (r140224), hmmscan (HMMER 3) and blast2go (b2g4pipe_v2.5) were used with thresholds of 1
+ <sup class="sup">e-10</sup>, 0.01 and 1
+ <sup class="sup">e-6</sup>, respectively. Moreover, GO enrichment analysis was implemented by using the topGO R packages based on the Kolmogorov–Smirnov test (
+ <italic class="italic">P</italic> &lt; 0.05). We used KOBAS software (v2.0.12) to test the statistical enrichment of genes (
+ <italic class="italic">P</italic> &lt; 0.05) in the KEGG pathways.
+</p>

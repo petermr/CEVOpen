@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl4" position="float" class="table-wrap">
+ <label class="label">Table 4</label>
+ <caption class="caption">
+  <p class="p">Analysis of variance results in ANOVA table, Validity coefficients of linear regression equation for predicting essential oil content in analytical model.</p>
+ </caption>
+ <alt-text id="alttext0070" class="alt-text">Table 4</alt-text>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th colspan="10" class="th">ANOVA
+     <xref rid="tbl4fnb" ref-type="table-fn" class="xref">b</xref>
+     <hr class="hr"/>
+    </th>
+   </tr>
+   <tr class="tr">
+    <th rowspan="2" class="th">Model</th>
+    <th rowspan="2" class="th">R</th>
+    <th rowspan="2" class="th">R
+     <sup class="sup">2</sup>
+    </th>
+    <th colspan="2" class="th">Unstandardized Coefficients
+     <hr class="hr"/>
+    </th>
+    <th class="th">Standardized Coefficients
+     <hr class="hr"/>
+    </th>
+    <th rowspan="2" class="th">t</th>
+    <th rowspan="2" class="th">df</th>
+    <th rowspan="2" class="th">F</th>
+    <th rowspan="2" class="th">Sig.</th>
+   </tr>
+   <tr class="tr">
+    <th class="th">B</th>
+    <th class="th">Std. Error</th>
+    <th class="th">Beta</th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td class="td">1</td>
+    <td align="right" class="td">0.821
+     <xref rid="tbl4fna" ref-type="table-fn" class="xref">a</xref>
+    </td>
+    <td align="right" class="td">0.673</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">2</td>
+    <td align="right" class="td">126.858</td>
+    <td align="right" class="td">.000
+     <xref rid="tbl4fna" ref-type="table-fn" class="xref">a</xref>
+    </td>
+   </tr>
+   <tr class="tr">
+    <td class="td">(Constant)</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.159</td>
+    <td align="right" class="td">.052</td>
+    <td class="td"/>
+    <td align="right" class="td">3.054</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.003</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">P</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.072</td>
+    <td align="right" class="td">.005</td>
+    <td align="right" class="td">.757</td>
+    <td align="right" class="td">14.70</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.000</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">T</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.001</td>
+    <td align="right" class="td">.000</td>
+    <td align="right" class="td">.316</td>
+    <td align="right" class="td">6.130</td>
+    <td class="td"/>
+    <td class="td"/>
+    <td align="right" class="td">.000</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn id="tbl4fna" class="fn">
+   <label class="label">a</label>
+   <p id="ntpara0015" class="p">Predictors: (Constant), Time, Pressure.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot class="table-wrap-foot">
+  <fn id="tbl4fnb" class="fn">
+   <label class="label">b</label>
+   <p id="ntpara0015a" class="p">Dependent Variable: Essential oil.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

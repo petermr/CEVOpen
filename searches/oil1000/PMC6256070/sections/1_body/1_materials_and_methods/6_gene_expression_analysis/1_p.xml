@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Gene expression levels were estimated by RSEM for each sample. The clean data were mapped back onto the assembled transcriptome. Readcount for each gene was obtained from the mapping results and normalized into a FPKM value (expected number of Fragments Per Kilobase of transcript sequence per Millions base pairs sequenced, Trapnell et al., 
+ <xref rid="B53" ref-type="bibr" class="xref">2010</xref>). Differential expression analysis of two conditions was performed using the DESeq R package. The resulting 
+ <italic class="italic">P</italic>-values were adjusted using the Benjamini and Hochberg's approach for controlling the false discovery rate. Unigenes with an adjusted 
+ <italic class="italic">P</italic>-value (
+ <italic class="italic">p</italic>adj) &lt; 0.05 found by DESeq were assigned as differentially expressed. Gene Ontology (GO) enrichment analysis of the differentially expressed unigenes (DEGs) was implemented by the GOseq R packages based Wallenius non-central hyper-geometric distribution, which can adjust for gene length bias in DEGs. The KOBAS software was used to test the statistical enrichment of DEGs in KEGG pathways. Gene expression correlation network between candidate STPS genes and WRKY genes was constructed with the Weighted Gene Co-expression Network Analysis (WGCNA) method (Langfelder and Horvath, 
+ <xref rid="B26" ref-type="bibr" class="xref">2008</xref>). Heat map was produced by the software Heatmap 2.0 (Toddenroth et al., 
+ <xref rid="B52" ref-type="bibr" class="xref">2014</xref>).
+</p>

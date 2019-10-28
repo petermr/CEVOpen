@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Data were analyzed using PROC MIXED (SAS Institute, Cary, NC, USA) [
+ <xref rid="B25-animals-09-00032" ref-type="bibr" class="xref">25</xref>], according to the model:
+ <disp-formula class="disp-formula">Yijkl = μ + Si + Pj + Ck(i) + Tl + STil + εijkl,
+  <label class="label">(1)</label>
+ </disp-formula> where Yijkl is the response variable, μ is the overall mean, Si is the effect of square i, Pj is the effect of period j, Ck(i) is the random effect of goat k (within square i), Tl is the effect of treatment l, STil is the interaction between square i and treatment l, and εijkl is the residual error. Sampling times were added to the model for the analysis of ruminal fermentation characteristics and plasma metabolites, and were analyzed as repeated measures by using PROC MIXED. Orthogonal polynomial contrasts were used to test linear and quadratic effects of stevioside concentration in the diet. Results were reported as least squares means ± standard error of the means. Significance was declared at 
+ <italic class="italic">p</italic> &lt; 0.05.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The genomic DNA of 
+ <italic class="italic">P. maritimus</italic> SAMP were extracted, purified and sequenced following the protocol described by 
+ <xref rid="B66" ref-type="bibr" class="xref">Suryavanshi et al. (2017)</xref>. The whole genome sequencing library was constructed using DNA kits (Nextera) and sequenced on the Illumina
+ <sup class="sup">®</sup> MiSeq platform. Quality of the genome sequence was analyzed for quality control with the help of FastQC software. The reads were trimmed and only the bases with quality above 20 (Q20) were used for assembly. After analysis, raw sequences were trimmed and assembled using 
+ <italic class="italic">de novo</italic> assemblers SPAdes 3.6.1 (
+ <xref rid="B12" ref-type="bibr" class="xref">Bankevich et al., 2012</xref>). The obtained contigs shorter than 200 bp were eliminated. NCBI-Prokaryotic Genome Annotation Pipeline was used to annotate and identify the metabolic pathways encoded on the draft genome. The ver3.3, released (2013) was used for annotation refinement and registration of the genome put at the International Nucleotide Sequence Database Collaboration (GenBank, United States) (
+ <xref rid="B68" ref-type="bibr" class="xref">Tatusova et al., 2016</xref>).
+</p>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">MCC (Equation (5)) [
+ <xref rid="B26-molecules-23-00482" ref-type="bibr" class="xref">26</xref>] is a measure of the quality of binary (two-class) classifications. The best value is 1 and the worst value is 0. 
+ <disp-formula id="FD5-molecules-23-00482" class="disp-formula">
+  <label class="label">(5)</label>
+  <math id="mm5" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">MCC</mi>
+     <mtext class="mtext"> </mtext>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">×</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">TN</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">−</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">FP</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">×</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">FN</mi>
+      </mrow>
+      <mrow class="mrow">
+       <msqrt class="msqrt">
+        <mrow class="mrow">
+         <mo stretchy="false" class="mo">(</mo>
+         <mi class="mi">TP</mi>
+         <mtext class="mtext"> </mtext>
+         <mo class="mo">+</mo>
+         <mtext class="mtext"> </mtext>
+         <mi class="mi">FP</mi>
+         <mo class="mo">)</mo>
+         <mo class="mo">(</mo>
+         <mi class="mi">TP</mi>
+         <mtext class="mtext"> </mtext>
+         <mo class="mo">+</mo>
+         <mtext class="mtext"> </mtext>
+         <mi class="mi">FN</mi>
+         <mo class="mo">)</mo>
+         <mo class="mo">(</mo>
+         <mi class="mi">TN</mi>
+         <mtext class="mtext"> </mtext>
+         <mo class="mo">+</mo>
+         <mtext class="mtext"> </mtext>
+         <mi class="mi">FP</mi>
+         <mo class="mo">)</mo>
+         <mo class="mo">(</mo>
+         <mi class="mi">TN</mi>
+         <mtext class="mtext"> </mtext>
+         <mo class="mo">+</mo>
+         <mtext class="mtext"> </mtext>
+         <mi class="mi">FN</mi>
+         <mo stretchy="false" class="mo">)</mo>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

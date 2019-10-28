@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">A particular case is that of the samples with length 
+ <italic class="italic">l</italic>, made of 
+ <italic class="italic">n</italic> layers, in which at 
+ <inline-formula class="inline-formula">
+  <math id="mm22" class="math">
+   <mrow class="mrow">
+    <mfenced separators="" open="(" close=")" class="mfenced">
+     <mi class="mi">n</mi>
+     <mo class="mo">−</mo>
+     <mi class="mi">k</mi>
+    </mfenced>
+   </mrow>
+  </math>
+ </inline-formula> layers, which are identical, the reinforcement has the same proportion and orientation along the whole length, and at 
+ <italic class="italic">k</italic> layers, between two sections situated at a distance 
+ <inline-formula class="inline-formula">
+  <math id="mm23" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">l</mi>
+     <mn class="mn">0</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, the reinforcement is removed and replaced by resin. In this case, the elasticity factor and the resistance factor are expressed by:
+ <disp-formula id="FD7-materials-12-01232" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="mm24" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">f</mi>
+      <mi class="mi">E</mi>
+     </msub>
+     <mo class="mo">=</mo>
+     <msup class="msup">
+      <mfenced separators="" open="[" close="]" class="mfenced">
+       <mn class="mn">1</mn>
+       <mo class="mo">−</mo>
+       <mfrac class="mfrac">
+        <msub class="msub">
+         <mi class="mi">l</mi>
+         <mn class="mn">0</mn>
+        </msub>
+        <mi class="mi">l</mi>
+       </mfrac>
+       <mo class="mo">+</mo>
+       <mfrac class="mfrac">
+        <msub class="msub">
+         <mi class="mi">l</mi>
+         <mn class="mn">0</mn>
+        </msub>
+        <mi class="mi">l</mi>
+       </mfrac>
+       <mfrac class="mfrac">
+        <mn class="mn">1</mn>
+        <mrow class="mrow">
+         <mn class="mn">1</mn>
+         <mo class="mo">−</mo>
+         <mfrac class="mfrac">
+          <mi class="mi">k</mi>
+          <mi class="mi">n</mi>
+         </mfrac>
+         <mo class="mo">+</mo>
+         <mfrac class="mfrac">
+          <mi class="mi">k</mi>
+          <mi class="mi">n</mi>
+         </mfrac>
+         <mfrac class="mfrac">
+          <msub class="msub">
+           <mi class="mi">E</mi>
+           <mi class="mi">r</mi>
+          </msub>
+          <msub class="msub">
+           <mi class="mi">E</mi>
+           <mi class="mi">s</mi>
+          </msub>
+         </mfrac>
+        </mrow>
+       </mfrac>
+      </mfenced>
+      <mrow class="mrow">
+       <mo class="mo">−</mo>
+       <mn class="mn">1</mn>
+      </mrow>
+     </msup>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-materials-12-01232" class="disp-formula">
+  <label class="label">(8)</label>
+  <math id="mm25" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">f</mi>
+      <mi class="mi">σ</mi>
+     </msub>
+     <mo class="mo">=</mo>
+     <mn class="mn">1</mn>
+     <mo class="mo">−</mo>
+     <mfrac class="mfrac">
+      <mi class="mi">k</mi>
+      <mi class="mi">n</mi>
+     </mfrac>
+     <mo class="mo">+</mo>
+     <mfrac class="mfrac">
+      <mi class="mi">k</mi>
+      <mi class="mi">n</mi>
+     </mfrac>
+     <mfrac class="mfrac">
+      <msub class="msub">
+       <mi class="mi">E</mi>
+       <mi class="mi">r</mi>
+      </msub>
+      <msub class="msub">
+       <mi class="mi">E</mi>
+       <mi class="mi">s</mi>
+      </msub>
+     </mfrac>
+     <mo class="mo">,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm26" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">E</mi>
+     <mi class="mi">s</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the elasticity modulus of a layer without discontinuities and 
+ <inline-formula class="inline-formula">
+  <math id="mm27" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">E</mi>
+     <mi class="mi">r</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the elasticity modulus of the resin replacing the removed reinforcement.
+</p>

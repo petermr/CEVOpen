@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28" class="p">PICRUSt analysis was performed to predict metagenomic functional content based on the software package (PICRUSt v1. 0. 0)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR70" class="xref">70</xref>
+ </sup>. This approach exploits the relationship between phylogeny and function by combining 16 s data with a database of reference genomes (Greengenes) to predict the presence of gene families. The 16S rDNA sequences were clustered into a collection of OTUs using a closed-reference OUT picking protocol (QIIME1.8.0)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR71" class="xref">71</xref>
+ </sup>. The obtained OUT table was normalized by 16S rRNA gene copy number, and then used to predict metagenomic functional content based on the PICRUSt software package
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR70" class="xref">70</xref>
+ </sup>. Functional predictions were exported as KEGG orthologs.
+</p>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">When the flow inside the pipe is gas dominant and the water and oil fraction together is less than 5%, wet gas conditions are valid [
+ <xref rid="B6-sensors-19-02184" ref-type="bibr" class="xref">6</xref>,
+ <xref rid="B138-sensors-19-02184" ref-type="bibr" class="xref">138</xref>]. A wet gas flow can be defined by Lockhart-Martinelli parameter, which is a dimensionless number ranging from 0 to 0.3. Zero is representing a completely dry gas [
+ <xref rid="B139-sensors-19-02184" ref-type="bibr" class="xref">139</xref>]. As described in [
+ <xref rid="B140-sensors-19-02184" ref-type="bibr" class="xref">140</xref>] the Lockhart-Martinelli parameter can be defined as Equation (
+ <xref ref-type="disp-formula" rid="FD7-sensors-19-02184" class="xref">7</xref>). 
+ <disp-formula id="FD7-sensors-19-02184" class="disp-formula">
+  <label class="label">(7)</label>
+  <math id="mm41" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">X</mi>
+      <mrow class="mrow">
+       <mi class="mi">L</mi>
+       <mi class="mi">M</mi>
+      </mrow>
+     </msub>
+     <mo class="mo">=</mo>
+     <msqrt class="msqrt">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mi class="mi">S</mi>
+        <mi class="mi">u</mi>
+        <mi class="mi">p</mi>
+        <mi class="mi">e</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">f</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">c</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">a</mi>
+        <mi class="mi">l</mi>
+        <mi class="mi">L</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">q</mi>
+        <mi class="mi">u</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">d</mi>
+        <mi class="mi">I</mi>
+        <mi class="mi">n</mi>
+        <mi class="mi">e</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">t</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">a</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">S</mi>
+        <mi class="mi">u</mi>
+        <mi class="mi">p</mi>
+        <mi class="mi">e</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">f</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">c</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">a</mi>
+        <mi class="mi">l</mi>
+        <mi class="mi">G</mi>
+        <mi class="mi">a</mi>
+        <mi class="mi">s</mi>
+        <mi class="mi">I</mi>
+        <mi class="mi">n</mi>
+        <mi class="mi">e</mi>
+        <mi class="mi">r</mi>
+        <mi class="mi">t</mi>
+        <mi class="mi">i</mi>
+        <mi class="mi">a</mi>
+       </mrow>
+      </mfrac>
+     </msqrt>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <msub class="msub">
+       <mi class="mi">m</mi>
+       <mi class="mi">l</mi>
+      </msub>
+      <msub class="msub">
+       <mi class="mi">m</mi>
+       <mi class="mi">g</mi>
+      </msub>
+     </mfrac>
+     <msqrt class="msqrt">
+      <mfrac class="mfrac">
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mi class="mi">g</mi>
+       </msub>
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mi class="mi">l</mi>
+       </msub>
+      </mfrac>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm42" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">m</mi>
+     <mi class="mi">l</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the mass flow rate of the liquid and 
+ <inline-formula class="inline-formula">
+  <math id="mm43" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">m</mi>
+     <mi class="mi">g</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the mass flow rate of the gas. 
+ <inline-formula class="inline-formula">
+  <math id="mm44" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">ρ</mi>
+     <mi class="mi">g</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm45" class="math">
+   <mrow class="mrow">
+    <msub class="msub">
+     <mi class="mi">ρ</mi>
+     <mi class="mi">l</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the density of gas and liquid respectively. To predict the wet gas flow pattern the Lockhart-Martinelli parameter combined with the gas and liquid densimetric Froude number is used [
+ <xref rid="B140-sensors-19-02184" ref-type="bibr" class="xref">140</xref>]. The gas and liquid densimetric Froude number is defined as Equations (
+ <xref ref-type="disp-formula" rid="FD8-sensors-19-02184" class="xref">8</xref>) and (
+ <xref ref-type="disp-formula" rid="FD9-sensors-19-02184" class="xref">9</xref>) [
+ <xref rid="B140-sensors-19-02184" ref-type="bibr" class="xref">140</xref>]:
+ <disp-formula id="FD8-sensors-19-02184" class="disp-formula">
+  <label class="label">(8)</label>
+  <math id="mm46" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">F</mi>
+     <msub class="msub">
+      <mi class="mi">r</mi>
+      <mi class="mi">g</mi>
+     </msub>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <msup class="msup">
+       <mrow class="mrow"/>
+       <msub class="msub">
+        <mi class="mi">U</mi>
+        <mrow class="mrow">
+         <mi class="mi">s</mi>
+         <mi class="mi">g</mi>
+        </mrow>
+       </msub>
+      </msup>
+      <msqrt class="msqrt">
+       <mrow class="mrow">
+        <mi class="mi">g</mi>
+        <mi class="mi">D</mi>
+       </mrow>
+      </msqrt>
+     </mfrac>
+     <msqrt class="msqrt">
+      <mfrac class="mfrac">
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mi class="mi">g</mi>
+       </msub>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">ρ</mi>
+         <mi class="mi">l</mi>
+        </msub>
+        <mo class="mo">−</mo>
+        <msub class="msub">
+         <mi class="mi">ρ</mi>
+         <mi class="mi">g</mi>
+        </msub>
+       </mrow>
+      </mfrac>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD9-sensors-19-02184" class="disp-formula">
+  <label class="label">(9)</label>
+  <math id="mm47" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">F</mi>
+     <msub class="msub">
+      <mi class="mi">r</mi>
+      <mi class="mi">l</mi>
+     </msub>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <msup class="msup">
+       <mrow class="mrow"/>
+       <msub class="msub">
+        <mi class="mi">U</mi>
+        <mrow class="mrow">
+         <mi class="mi">s</mi>
+         <mi class="mi">l</mi>
+        </mrow>
+       </msub>
+      </msup>
+      <msqrt class="msqrt">
+       <mrow class="mrow">
+        <mi class="mi">g</mi>
+        <mi class="mi">D</mi>
+       </mrow>
+      </msqrt>
+     </mfrac>
+     <msqrt class="msqrt">
+      <mfrac class="mfrac">
+       <msub class="msub">
+        <mi class="mi">ρ</mi>
+        <mi class="mi">l</mi>
+       </msub>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mi class="mi">ρ</mi>
+         <mi class="mi">l</mi>
+        </msub>
+        <mo class="mo">−</mo>
+        <msub class="msub">
+         <mi class="mi">ρ</mi>
+         <mi class="mi">g</mi>
+        </msub>
+       </mrow>
+      </mfrac>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">For vertical orifice plates the volumetric flow rate in terms of the pressure difference (
+ <inline-formula class="inline-formula">
+  <math id="mm29" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mo class="mo">Δ</mo>
+     <mi class="mi">P</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) is calculated as Equation (
+ <xref ref-type="disp-formula" rid="FD5-sensors-19-02184" class="xref">5</xref>):
+ <disp-formula id="FD5-sensors-19-02184" class="disp-formula">
+  <label class="label">(5)</label>
+  <math id="mm30" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Q</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">C</mi>
+      <mi class="mi">d</mi>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">A</mi>
+      <mrow class="mrow">
+       <mi class="mi">o</mi>
+       <mi class="mi">r</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+     <mi class="mi">Y</mi>
+     <msqrt class="msqrt">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mn class="mn">2</mn>
+        <mo class="mo">(</mo>
+        <mo class="mo">Δ</mo>
+        <mi class="mi">P</mi>
+        <mo class="mo">+</mo>
+        <mi class="mi">ρ</mi>
+        <mi class="mi">g</mi>
+        <mo class="mo">Δ</mo>
+        <mi class="mi">z</mi>
+        <mo class="mo">)</mo>
+       </mrow>
+       <mrow class="mrow">
+        <mi class="mi">ρ</mi>
+        <mo class="mo">(</mo>
+        <mn class="mn">1</mn>
+        <mo class="mo">−</mo>
+        <msubsup class="msubsup">
+         <mi class="mi">β</mi>
+         <mrow class="mrow">
+          <mi class="mi">d</mi>
+         </mrow>
+         <mn class="mn">4</mn>
+        </msubsup>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mfrac>
+     </msqrt>
+     <mi class="mi">l</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

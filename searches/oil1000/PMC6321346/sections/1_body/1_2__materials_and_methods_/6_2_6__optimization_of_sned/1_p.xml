@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">In order to reduce the number of trials needed in the optimization of SNEDDS formulation, and to characterize the relationship between the formulation factors and the output variables, a response surface methodology based on Face Centered Central Composite Design was utilized. The amount of oil and S
+ <sub class="sub">mix</sub> ratio can significantly influence the quality and performance of a nanoemulsion, so different oil:S
+ <sub class="sub">mix</sub> (1:8, 1:6, 1:4) ratios and emulgent:co-emulgent (1:1, 2:1, 3:1) ratios were analyzed as formulation variables (X
+ <sub class="sub">1</sub>, X
+ <sub class="sub">2</sub>). In the study, a three-level (coded as +1, 0, −1) factorial design for the optimization of two variables with 13 runs (5 center points) was applied. Droplet size (Y1), transmittance (Y2), zeta-potential (Y3), and PDI (Y4) were selected as responses. Experiments were run in random order to increase the predictability of the model. The modelling of corresponding response surfaces was carried out using second order models, which can describe the surface curvature with the following polynomial equation:
+ <disp-formula id="FD1-pharmaceutics-10-00275" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mn class="mn">0</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mrow class="mrow">
+       <mn class="mn">12</mn>
+      </mrow>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mrow class="mrow">
+       <mn class="mn">11</mn>
+      </mrow>
+     </msub>
+     <msubsup class="msubsup">
+      <mi class="mi">x</mi>
+      <mn class="mn">1</mn>
+      <mn class="mn">2</mn>
+     </msubsup>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mrow class="mrow">
+       <mn class="mn">22</mn>
+      </mrow>
+     </msub>
+     <msubsup class="msubsup">
+      <mi class="mi">x</mi>
+      <mn class="mn">2</mn>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic class="italic">Y</italic> is the dependent variable; 
+ <inline-formula class="inline-formula">
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">b</mi>
+      <mn class="mn">0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> the intercept is the arithmetic average of all quantity outcomes of 13 runs; 
+ <italic class="italic">x</italic> are the independent variables (
+ <inline-formula class="inline-formula">
+  <math id="mm3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">1</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> oil:S
+ <sub class="sub">mix</sub> ratio, 
+ <inline-formula class="inline-formula">
+  <math id="mm4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">x</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <mo class="mo"> </mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> emulgent:co-emulgent ratio) and 
+ <italic class="italic">b</italic> parameters mark the regression coefficients characterizing the main (
+ <italic class="italic">b</italic>
+ <sub class="sub">1</sub>, 
+ <italic class="italic">b</italic>
+ <sub class="sub">2</sub>), the quadratic (
+ <italic class="italic">b</italic>
+ <sub class="sub">11</sub>, 
+ <italic class="italic">b</italic>
+ <sub class="sub">22</sub>), and the interaction effects (
+ <italic class="italic">b</italic>
+ <sub class="sub">12</sub>).
+</p>

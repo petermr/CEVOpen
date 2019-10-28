@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42" class="p">To obtain additional information regarding species diversity composition, sequence reads were subjected to redundancy treatment with Mothur software to count the number of identical tags. Taxonomic classification of OTUs was done via the ribosomal database project (RDP), with naïve Bayesian settings at 0.5 confidence threshold
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR68" class="xref">68</xref>
+ </sup>. Rarefaction analysis was used to compare sequencing depth and bacterial species richness within and between F
+ <sub class="sub">1</sub> and F
+ <sub class="sub">5</sub> generations. Only OTUs that reached 97% identity level were used for alpha diversity (Shannon and Simpson) and richness (Chao1) analysis. Dataset was normalized at 300 sequences per sample, and this rarified threshold was used to identify the OTUs which were highly affected by the pesticides
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR69" class="xref">69</xref>
+ </sup>. Mothur program was used to construct Venn diagram to show OTUs that are unique or shared between treatments (Control, DDVP and EOs)
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR70" class="xref">70</xref>
+ </sup>. Principal components analyses were generated using Bayesian algorithms
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR71" class="xref">71</xref>
+ </sup> and dendrograms showing the similarity of bacterial communities in different treatments were constructed through a 
+ <italic class="italic">jackknife</italic>-beta-diversity script from QIIME
+ <sup class="sup">
+  <xref ref-type="bibr" rid="CR65" class="xref">65</xref>
+ </sup>.
+</p>

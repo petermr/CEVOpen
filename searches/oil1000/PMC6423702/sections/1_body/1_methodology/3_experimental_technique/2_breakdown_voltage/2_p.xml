@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0050" class="p">The breakdown voltage measurement is carried out in accordance with IEC 60156 standards 
+ <xref rid="bib21" ref-type="bibr" class="xref">[21]</xref>. Each tested sample of oil is poured into a container (spark gap) in which are placed horizontally two semi-elliptical and 36 mm diameter steel electrodes and at a distance of 2.5 mm from each other. We apply a voltage at the terminals of the electrodes and it is increased step by step at a speed of 2 kV/s until the appearance of electric shock 
+ <xref rid="bib18" ref-type="bibr" class="xref">[18]</xref>. The 
+ <xref rid="fd1" ref-type="disp-formula" class="xref">Eq. (1)</xref> of the voltage value in which this electrical discharge appears is the value of the breakdown voltage of the tested oil sample. Each measurement of this breakdown voltage is repeated six times. The value of the breakdown voltage adapted in this work is the average value of the six measurements of this voltage:
+ <disp-formula id="fd1" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="M1" altimg="si1.gif" overflow="scroll" class="math">
+   <mrow class="mrow">
+    <mi class="mi">U</mi>
+    <mo class="mo">=</mo>
+    <munderover class="munderover">
+     <mrow class="mrow">
+      <mo class="mo">∑</mo>
+     </mrow>
+     <mrow class="mrow">
+      <mi class="mi">m</mi>
+      <mo class="mo">=</mo>
+      <mn class="mn">1</mn>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">6</mn>
+     </mrow>
+    </munderover>
+    <mfrac class="mfrac">
+     <mrow class="mrow">
+      <mi class="mi">U</mi>
+      <mi class="mi">m</mi>
+     </mrow>
+     <mrow class="mrow">
+      <mn class="mn">6</mn>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

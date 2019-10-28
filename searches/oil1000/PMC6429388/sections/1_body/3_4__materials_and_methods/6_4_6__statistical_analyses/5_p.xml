@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">For 
+ <italic class="italic">J. sabina</italic>, the most appropriate regression model that describes the relationship between DT and EO content, as well as the concentrations of α-thujene, α-pinene, sabinene, β-pinene, and limonene, was Power (convex) (Equation (3)), whereas the relationship between DT and the concentrations of terpinen-4-ol and methyl eugenol was best described by the Asymptotic (convex) (Equation (2)) model. There was no relationship between DT and the concentration of citronellic acid methyl ester. 
+ <disp-formula id="FD1-molecules-24-00986" class="disp-formula">
+  <label class="label">(1)</label>
+  <math id="mm20" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">β</mi>
+      <mn class="mn">0</mn>
+     </msub>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">β</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <mi class="mi">X</mi>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">β</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <msup class="msup">
+      <mi class="mi">X</mi>
+      <mn class="mn">2</mn>
+     </msup>
+     <mo class="mo">+</mo>
+     <msub class="msub">
+      <mi class="mi">β</mi>
+      <mn class="mn">3</mn>
+     </msub>
+     <msup class="msup">
+      <mi class="mi">X</mi>
+      <mn class="mn">3</mn>
+     </msup>
+     <mo class="mo">+</mo>
+     <mi class="mi">ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD2-molecules-24-00986" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm21" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">θ</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <mo class="mo">−</mo>
+     <msub class="msub">
+      <mi class="mi">θ</mi>
+      <mn class="mn">2</mn>
+     </msub>
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">exp</mi>
+       <mo stretchy="false" class="mo">(</mo>
+       <mo class="mo">−</mo>
+       <msub class="msub">
+        <mi class="mi">θ</mi>
+        <mn class="mn">3</mn>
+       </msub>
+       <mi class="mi">X</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+     <mo stretchy="false" class="mo">)</mo>
+     <mo class="mo">+</mo>
+     <mi class="mi">ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-molecules-24-00986" class="disp-formula">
+  <label class="label">(3)</label>
+  <math id="mm22" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi class="mi">θ</mi>
+      <mn class="mn">1</mn>
+     </msub>
+     <msup class="msup">
+      <mi class="mi">X</mi>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">θ</mi>
+        <mn class="mn">2</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mo class="mo">+</mo>
+     <mi class="mi">ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-molecules-24-00986" class="disp-formula">
+  <label class="label">(4)</label>
+  <math id="mm23" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">Y</mi>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">θ</mi>
+        <mn class="mn">1</mn>
+       </msub>
+       <mi class="mi">X</mi>
+      </mrow>
+      <mrow class="mrow">
+       <msub class="msub">
+        <mi class="mi">θ</mi>
+        <mn class="mn">2</mn>
+       </msub>
+       <mo class="mo">+</mo>
+       <mi class="mi">X</mi>
+      </mrow>
+     </mfrac>
+     <mo class="mo">+</mo>
+     <mi class="mi">ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where Y is the dependent (response) variable, X is the independent (DT) variable, and the error term 
+ <inline-formula class="inline-formula">
+  <math id="mm24" class="math">
+   <mrow class="mrow">
+    <mi class="mi">ε</mi>
+   </mrow>
+  </math>
+ </inline-formula> is assumed to have normal distribution with constant variance. 
+</p>

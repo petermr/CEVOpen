@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16" class="p">Demultiplexing of the amplicon dataset and deletion of the barcodes was done by the sequencing provider. Quality of the raw sequence data was checked with the FastQC quality-control tool (Babraham Bioinformatics, Cambridge, United Kingdom) followed by initial quality filtering using Trimmomatic v0.38 by cutting reads with an average quality per base below 15 using a 4-base sliding window and discarding reads with a minimum length of 200 bp [
+ <xref ref-type="bibr" rid="CR41" class="xref">41</xref>]. The paired-end sequences were assembled and primers were removed using PANDAseq [
+ <xref ref-type="bibr" rid="CR42" class="xref">42</xref>], with a quality threshold of 0.9 and length cut-off values for the merged sequences between 390 and 430 bp. Chimeric sequences were removed using UCHIME [
+ <xref ref-type="bibr" rid="CR43" class="xref">43</xref>]. Open-reference operational taxonomic unit (OTU) picking was performed at 97% sequence similarity using USEARCH (v6.1) and converted to an OTU table [
+ <xref ref-type="bibr" rid="CR44" class="xref">44</xref>]. OTU taxonomy was assigned against the Silva database (v128, clustered at 97% identity) [
+ <xref ref-type="bibr" rid="CR45" class="xref">45</xref>] using the PyNast algorithm with QIIME (v1.9.1) default parameters [
+ <xref ref-type="bibr" rid="CR46" class="xref">46</xref>]. OTUs with a total abundance below 0.01% of the total sequences were discarded [
+ <xref ref-type="bibr" rid="CR47" class="xref">47</xref>], resulting in an average of approximately 48 336 reads per sample. Alpha rarefaction curves were generated using the QIIME “alpha_rarefaction.py” script and a subsampling depth of 10 000 reads was selected. One ileal and 1 caecal sample from the resin acids-supplemented group were excluded from further analysis due to insufficient sequencing depth.
+</p>

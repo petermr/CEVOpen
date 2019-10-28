@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1" class="table-wrap">
+ <label class="label">Table 1</label>
+ <caption class="caption">
+  <p class="p">Enzyme kinetic properties of three SaTPSs</p>
+ </caption>
+ <table frame="hsides" rules="groups" class="table">
+  <thead class="thead">
+   <tr class="tr">
+    <th class="th">Enzyme</th>
+    <th class="th">Substrate</th>
+    <th class="th">
+     <italic class="italic">K</italic>
+     <sub class="sub">
+      <italic class="italic">m</italic>
+     </sub> (μM)
+    </th>
+    <th class="th">
+     <italic class="italic">K</italic>
+     <sub class="sub">
+      <italic class="italic">cat</italic>
+     </sub> (s
+     <sup class="sup">−1</sup>)
+    </th>
+    <th class="th">
+     <italic class="italic">k</italic>
+     <sub class="sub">cat</sub>/
+     <italic class="italic">K</italic>
+     <sub class="sub">m</sub> (s
+     <sup class="sup">−1</sup> μM
+     <sup class="sup">− 1</sup>)
+    </th>
+   </tr>
+  </thead>
+  <tbody class="tbody">
+   <tr class="tr">
+    <td class="td">SaTPS1</td>
+    <td class="td">GPP</td>
+    <td class="td">9.08 ± 1.26</td>
+    <td class="td">0.155 ± 0.007</td>
+    <td class="td">0.0171</td>
+   </tr>
+   <tr class="tr">
+    <td rowspan="2" class="td">SaTPS2</td>
+    <td class="td">FPP</td>
+    <td class="td">12.15 ± 1.32</td>
+    <td class="td">0.200 ± 0.008</td>
+    <td class="td">0.0164</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">GPP</td>
+    <td class="td">12.27 ± 1.32</td>
+    <td class="td">0.189 ± 0.007</td>
+    <td class="td">0.0154</td>
+   </tr>
+   <tr class="tr">
+    <td rowspan="2" class="td">SaTPS3</td>
+    <td class="td">FPP</td>
+    <td class="td">16.29 ± 1.48</td>
+    <td class="td">0.171 ± 0.006</td>
+    <td class="td">0.0105</td>
+   </tr>
+   <tr class="tr">
+    <td class="td">GPP</td>
+    <td class="td">14.38 ± 1.20</td>
+    <td class="td">0.257 ± 0.008</td>
+    <td class="td">0.0179</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot class="table-wrap-foot">
+  <p class="p">Values for FPP and GPP were measured in the presence of 10 mM Mg
+   <sup class="sup">2+</sup>
+  </p>
+  <p class="p">All values represent mean ± SE, 
+   <italic class="italic">n</italic> = 3. 
+   <italic class="italic">K</italic>
+   <sub class="sub">
+    <italic class="italic">m</italic>
+   </sub>, Michaelis constant; 
+   <italic class="italic">k</italic>
+   <sub class="sub">
+    <italic class="italic">cat</italic>
+   </sub>, turnover
+  </p>
+ </table-wrap-foot>
+</table-wrap>

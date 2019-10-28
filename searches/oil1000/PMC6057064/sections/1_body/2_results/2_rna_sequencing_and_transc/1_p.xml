@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42" class="p">To identify genes involved in terpenoid biosynthesis in 
+ <italic class="italic">C. camphora</italic>, four RNA libraries (F_L1 and F_L2 were linalool-types, L_L1 and L_L2 were borneol-types) were prepared and analyzed on Illumina Hiseq2000 platform with a pair-end length of 150 bp. A total of 249.6 million reads were generated from four libraries. After filtering out low quality sequences, approximately 237.6 million clean reads with 46.5% GC content were obtained. The throughput and quality of the RNA-Seq data are included in Table 
+ <xref rid="Tab2" ref-type="table" class="xref">2</xref>. All the clean reads obtained from two different chemotypes were assembled by the Trinity method, resulting in 156,184 unigenes with an N50 length of 1430 bp. The total number of assembled unigenes might be overestimated due to the absence of a reference genome. Additionally, a total of 179,016,590 reads (75.34% of all clean reads) were perfectly mapped (mismatch = 0) to the reference transcriptome by RSEM, which showed that the quality of these mapped genes was sufficient to conduct the subsequent analysis (Table 
+ <xref rid="Tab3" ref-type="table" class="xref">3</xref>).
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">Peak volumes were translated into upper distance bounds with the CALIBA routine from the CYANA software package. [
+ <xref rid="pone.0204042.ref053" ref-type="bibr" class="xref">53</xref>] The requisite pseudo-atom corrections were applied for non-stereo specifically assigned protons at prochiral centres and for the methyl group. After discarding redundant and duplicated constraints, the final list of experimental constraints was used to generate a group of 100 structures by the standard CYANA protocol of simulated annealing in the torsion angle space (using 10.000 steps). No dihedral angle or hydrogen bond restraints were applied. The best 20 structures that had low target function values and small residual violations were refined by 
+ <italic class="italic">in vacuo</italic> minimization in the AMBER 1991 force field using the SANDER program of the AMBER 5.0 suite. [
+ <xref rid="pone.0204042.ref054" ref-type="bibr" class="xref">54</xref>, 
+ <xref rid="pone.0204042.ref055" ref-type="bibr" class="xref">55</xref>] In order to mimic the effect of solvent screening, all net charges were reduced to 20% of their true values. Additionally, a distance-dependent dielectric constant (ε = r) was used. The cut-off for non-bonded interactions was 12 Å. The NMR-derived upper bounds were imposed as semi-parabolic penalty functions, with force constants of 16 Kcal/mol Å
+ <sup class="sup">2</sup>. The function was shifted to be linear when the violation exceeded 0.5 Å. The best 10 structures after minimization had AMBER energies ranging from -441.4 to -391.1 Kcal/mol. The final structures were analysed using AutoDock 4.2 software. [
+ <xref rid="pone.0204042.ref056" ref-type="bibr" class="xref">56</xref>]
+</p>

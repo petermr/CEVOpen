@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The sample size based on:
+ <disp-formula id="FD1-biomolecules-09-00215" class="disp-formula">
+  <math id="mm1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">n</mi>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msup class="msup">
+        <mrow class="mrow">
+         <mo stretchy="false" class="mo">(</mo>
+         <msub class="msub">
+          <mi class="mi">z</mi>
+          <mi class="mi">α</mi>
+         </msub>
+         <mo class="mo">+</mo>
+         <msub class="msub">
+          <mi class="mi">z</mi>
+          <mi class="mi">β</mi>
+         </msub>
+         <mo stretchy="false" class="mo">)</mo>
+        </mrow>
+        <mn class="mn">2</mn>
+       </msup>
+       <mfenced class="mfenced">
+        <mrow class="mrow">
+         <msub class="msub">
+          <mi class="mi">p</mi>
+          <mn class="mn">1</mn>
+         </msub>
+         <mfenced class="mfenced">
+          <mrow class="mrow">
+           <mn class="mn">1</mn>
+           <mo class="mo">−</mo>
+           <msub class="msub">
+            <mi class="mi">p</mi>
+            <mn class="mn">1</mn>
+           </msub>
+          </mrow>
+         </mfenced>
+         <mo class="mo">+</mo>
+         <msub class="msub">
+          <mi class="mi">p</mi>
+          <mn class="mn">2</mn>
+         </msub>
+         <mfenced class="mfenced">
+          <mrow class="mrow">
+           <mn class="mn">1</mn>
+           <mo class="mo">−</mo>
+           <msub class="msub">
+            <mi class="mi">p</mi>
+            <mn class="mn">2</mn>
+           </msub>
+          </mrow>
+         </mfenced>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mrow class="mrow">
+       <msup class="msup">
+        <mrow class="mrow">
+         <mfenced class="mfenced">
+          <mrow class="mrow">
+           <mi class="mi">ε</mi>
+           <mo class="mo">−</mo>
+           <mi class="mi">δ</mi>
+          </mrow>
+         </mfenced>
+        </mrow>
+        <mrow class="mrow">
+         <mo class="mo"> </mo>
+         <mn class="mn">2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> 95% confidence interval, 80% power, 
+ <inline-formula class="inline-formula">
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">δ</mi>
+     <mo class="mo">=</mo>
+     <mn class="mn">0.5</mn>
+     <mo class="mo">,</mo>
+     <mo class="mo"> </mo>
+     <mi class="mi">ε</mi>
+     <mo class="mo">=</mo>
+     <mn class="mn">0.1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and α = 0.05 was calculated 20 individuals per group. Final sample was estimated 25 women, considering 25% probable drop-out for each group.
+</p>

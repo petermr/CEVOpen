@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38" class="p">For the assembly library, raw data (raw reads) in FASTQ format were first processed through CASAVA base-calling. Trimmomatic (version 0.36) [
+ <xref ref-type="bibr" rid="CR32" class="xref">32</xref>] were used to trim and crop FASTQ data as well as to remove adapters. The parameters of removing reads containing N or low quality (reads containing more than 50% bases with Q-value ≤20) were default with paired end mode. All the libraries were mixed together to generate an assembly using Trinity (version r20140413pl) [
+ <xref ref-type="bibr" rid="CR33" class="xref">33</xref>], and default parameters were used except for the minimum kmer coverage setting to 2. The assembly results were further clustered and filtered to get the non-redundant unigenes by Corset (version 1.07) [
+ <xref ref-type="bibr" rid="CR34" class="xref">34</xref>]. Gene function was annotated using BLAST program with an E-value cut-off of 1e
+ <sup class="sup">− 5</sup> against the following databases: NCBI non-redundant protein sequences (Nr, 
+ <ext-link ext-link-type="uri" xlink:href="https://blast.ncbi.nlm.nih.gov" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://blast.ncbi.nlm.nih.gov</ext-link>/), NCBI non-redundant nucleotide sequences (Nt, 
+ <ext-link ext-link-type="uri" xlink:href="https://blast.ncbi.nlm.nih.gov" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">https://blast.ncbi.nlm.nih.gov</ext-link>/), Protein family (Pfam, 
+ <ext-link ext-link-type="uri" xlink:href="http://pfam.sanger.ac.uk" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://pfam.sanger.ac.uk</ext-link>/), and EuKaryotic Orthologous Groups (KOG) database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/COG" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih.gov/COG/</ext-link>). Functional annotation by Gene ontology (GO) terms was analyzed by Blast2GO version 2.5 [
+ <xref ref-type="bibr" rid="CR35" class="xref">35</xref>] (
+ <ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org" class="ext-link" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.geneontology.org</ext-link>). The annotation of gene association with the Kyoto encyclopedia of genes and genomes (KEGG) pathways was performed by KAAS (r140224).
+</p>

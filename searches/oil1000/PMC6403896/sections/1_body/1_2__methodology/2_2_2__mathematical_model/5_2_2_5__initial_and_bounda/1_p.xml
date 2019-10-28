@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The initial conditions include the distribution of initial pressure, saturation and high and low molecular weight polymer concentrations:
+ <disp-formula id="FD17-polymers-10-00857" class="disp-formula">
+  <label class="label">(17)</label>
+  <math id="mm57" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">p</mi>
+       <mi class="mi">r</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <mi class="mi">t</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">p</mi>
+       <mrow class="mrow">
+        <mi class="mi">r</mi>
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD18-polymers-10-00857" class="disp-formula">
+  <label class="label">(18)</label>
+  <math id="mm58" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">s</mi>
+       <mi class="mi">w</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <mi class="mi">t</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">s</mi>
+       <mrow class="mrow">
+        <mi class="mi">w</mi>
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD19-polymers-10-00857" class="disp-formula">
+  <label class="label">(19)</label>
+  <math id="mm59" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mrow class="mrow">
+        <mi class="mi">h</mi>
+        <mi class="mi">p</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <mi class="mi">t</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mrow class="mrow">
+        <mi class="mi">h</mi>
+        <mi class="mi">p</mi>
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD20-polymers-10-00857" class="disp-formula">
+  <label class="label">(20)</label>
+  <math id="mm60" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mrow class="mrow">
+        <mi class="mi">l</mi>
+        <mi class="mi">p</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <mi class="mi">t</mi>
+        <mo class="mo">=</mo>
+        <mn class="mn">0</mn>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mrow class="mrow">
+        <mi class="mi">l</mi>
+        <mi class="mi">p</mi>
+        <mi class="mi">i</mi>
+       </mrow>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm61" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mo class="mo">(</mo>
+      <mrow class="mrow">
+       <mi class="mi">x</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">y</mi>
+       <mo class="mo">,</mo>
+       <mi class="mi">z</mi>
+      </mrow>
+      <mo class="mo">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the coordinates, 
+ <inline-formula class="inline-formula">
+  <math id="mm62" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">p</mi>
+      <mrow class="mrow">
+       <mi class="mi">r</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the initial reservoir pressure in Pa, 
+ <inline-formula class="inline-formula">
+  <math id="mm63" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">s</mi>
+      <mrow class="mrow">
+       <mi class="mi">w</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the initial water saturation, and 
+ <inline-formula class="inline-formula">
+  <math id="mm64" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mrow class="mrow">
+       <mi class="mi">h</mi>
+       <mi class="mi">p</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="mm65" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mrow class="mrow">
+       <mi class="mi">l</mi>
+       <mi class="mi">p</mi>
+       <mi class="mi">i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the initial high and low molecular weight polymer concentrations in kg/m
+ <sup class="sup">3</sup>, respectively. The outer boundary is a closed boundary with no-flow:
+ <disp-formula id="FD21-polymers-10-00857" class="disp-formula">
+  <label class="label">(21)</label>
+  <math id="mm66" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <mfrac class="mfrac">
+       <mrow class="mrow">
+        <mo class="mo">∂</mo>
+        <mi class="mi">p</mi>
+       </mrow>
+       <mrow class="mrow">
+        <mo class="mo">∂</mo>
+        <mi class="mi">n</mi>
+       </mrow>
+      </mfrac>
+      <msub class="msub">
+       <mo stretchy="false" class="mo">|</mo>
+       <mi class="mi">B</mi>
+      </msub>
+      <mo class="mo">=</mo>
+      <mi class="mi">f</mi>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">t</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <mo class="mo">=</mo>
+      <mn class="mn">0</mn>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm67" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mo class="mo">∂</mo>
+       <mi class="mi">p</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mo class="mo">∂</mo>
+       <mi class="mi">n</mi>
+      </mrow>
+     </mfrac>
+     <msub class="msub">
+      <mo stretchy="false" class="mo">|</mo>
+      <mi class="mi">B</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denotes the derivative of the boundary pressure in the direction of the outer normal. The inner boundary conditions are as follows:
+ <disp-formula id="FD22-polymers-10-00857" class="disp-formula">
+  <label class="label">(22)</label>
+  <math id="mm68" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">Q</mi>
+       <mi class="mi">l</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">t</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">x</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">y</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">z</mi>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">w</mi>
+          <mi class="mi">e</mi>
+          <mi class="mi">l</mi>
+          <mi class="mi">l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">Q</mi>
+       <mi class="mi">l</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mi class="mi">t</mi>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD23-polymers-10-00857" class="disp-formula">
+  <label class="label">(23)</label>
+  <math id="mm69" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mrow class="mrow">
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mi class="mi">i</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mrow class="mrow">
+        <mi class="mi">x</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">y</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">z</mi>
+        <mo class="mo">,</mo>
+        <mi class="mi">t</mi>
+       </mrow>
+       <mo class="mo">)</mo>
+      </mrow>
+      <msub class="msub">
+       <mo class="mo">|</mo>
+       <mrow class="mrow">
+        <msub class="msub">
+         <mrow class="mrow">
+          <mrow class="mrow">
+           <mo class="mo">(</mo>
+           <mrow class="mrow">
+            <mi class="mi">x</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">y</mi>
+            <mo class="mo">,</mo>
+            <mi class="mi">z</mi>
+           </mrow>
+           <mo class="mo">)</mo>
+          </mrow>
+         </mrow>
+         <mrow class="mrow">
+          <mi class="mi">w</mi>
+          <mi class="mi">e</mi>
+          <mi class="mi">l</mi>
+          <mi class="mi">l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo class="mo">=</mo>
+      <msub class="msub">
+       <mi class="mi">c</mi>
+       <mi class="mi">i</mi>
+      </msub>
+      <mrow class="mrow">
+       <mo class="mo">(</mo>
+       <mi class="mi">t</mi>
+       <mo class="mo">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula class="inline-formula">
+  <math id="mm70" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">Q</mi>
+      <mi class="mi">l</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the flow rate of phase 
+ <inline-formula class="inline-formula">
+  <math id="mm71" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi mathvariant="normal" class="mi">l</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which can be calculated by Peaceman’s well model [
+ <xref rid="B40-polymers-10-00857" ref-type="bibr" class="xref">40</xref>]; 
+ <inline-formula class="inline-formula">
+  <math id="mm72" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mrow class="mrow">
+       <mrow class="mrow">
+        <mo class="mo">(</mo>
+        <mrow class="mrow">
+         <mi class="mi">x</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">y</mi>
+         <mo class="mo">,</mo>
+         <mi class="mi">z</mi>
+        </mrow>
+        <mo class="mo">)</mo>
+       </mrow>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">w</mi>
+       <mi class="mi">e</mi>
+       <mi class="mi">l</mi>
+       <mi class="mi">l</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the grid coordinate of a well; 
+ <inline-formula class="inline-formula">
+  <math id="mm73" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi class="mi">c</mi>
+      <mi class="mi">i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the concentration of the component 
+ <inline-formula class="inline-formula">
+  <math id="mm74" class="math">
+   <mrow class="mrow">
+    <mi class="mi">i</mi>
+   </mrow>
+  </math>
+ </inline-formula>; 
+ <inline-formula class="inline-formula">
+  <math id="mm75" class="math">
+   <mrow class="mrow">
+    <mi class="mi">l</mi>
+   </mrow>
+  </math>
+ </inline-formula> represents the oil or water phase, 
+ <inline-formula class="inline-formula">
+  <math id="mm76" class="math">
+   <mrow class="mrow">
+    <mi class="mi">o</mi>
+   </mrow>
+  </math>
+ </inline-formula> represents the oil phase; 
+ <inline-formula class="inline-formula">
+  <math id="mm77" class="math">
+   <mrow class="mrow">
+    <mi class="mi">w</mi>
+   </mrow>
+  </math>
+ </inline-formula> represents the water phase; 
+ <inline-formula class="inline-formula">
+  <math id="mm78" class="math">
+   <mrow class="mrow">
+    <mi class="mi">i</mi>
+   </mrow>
+  </math>
+ </inline-formula> represents the high or low molecular weight polymer; 
+ <inline-formula class="inline-formula">
+  <math id="mm79" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">h</mi>
+     <mi class="mi">p</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represents the high molecular weight polymer; and 
+ <inline-formula class="inline-formula">
+  <math id="mm80" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">l</mi>
+     <mi class="mi">p</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represents the low molecular weight polymer. 
+</p>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">The daily averages of Fe concentration and solubility at the surface from four models were used for a comparison with the ambient measurements over the oceans (fig. S1 and table S2) (
+ <xref rid="R10" ref-type="bibr" class="xref">
+  <italic class="italic">10</italic>
+ </xref>, 
+ <xref rid="R21" ref-type="bibr" class="xref">
+  <italic class="italic">21</italic>
+ </xref>, 
+ <xref rid="R23" ref-type="bibr" class="xref">
+  <italic class="italic">23</italic>
+ </xref>, 
+ <xref rid="R24" ref-type="bibr" class="xref">
+  <italic class="italic">24</italic>
+ </xref>, 
+ <xref rid="R26" ref-type="bibr" class="xref">
+  <italic class="italic">26</italic>
+ </xref>, 
+ <xref rid="R37" ref-type="bibr" class="xref">
+  <italic class="italic">37</italic>
+ </xref>, 
+ <xref rid="R41" ref-type="bibr" class="xref">
+  <italic class="italic">41</italic>
+ </xref>–
+ <xref rid="R43" ref-type="bibr" class="xref">
+  <italic class="italic">43</italic>
+ </xref>, 
+ <xref rid="R49" ref-type="bibr" class="xref">
+  <italic class="italic">49</italic>
+ </xref>, 
+ <xref rid="R50" ref-type="bibr" class="xref">
+  <italic class="italic">50</italic>
+ </xref>, 
+ <xref rid="R52" ref-type="bibr" class="xref">
+  <italic class="italic">52</italic>
+ </xref>–
+ <xref rid="R59" ref-type="bibr" class="xref">
+  <italic class="italic">59</italic>
+ </xref>). When the field data uncertainties were not available, regional averages of relative SDs (SD divided by the average number of replicates) were used to estimate the SDs of the measurements. Mineral dust and biomass burning emissions are highly episodic and exhibit seasonal and interannual variability (
+ <xref rid="R5" ref-type="bibr" class="xref">
+  <italic class="italic">5</italic>
+ </xref>). It is, therefore, problematic to compare the monthly mean values of model estimates with the field data from different times of year, or different years. Moreover, the field observations have shown relatively high solubility at low concentration in aerosols influenced by combustion sources (
+ <xref rid="R24" ref-type="bibr" class="xref">
+  <italic class="italic">24</italic>
+ </xref>–
+ <xref rid="R26" ref-type="bibr" class="xref">
+  <italic class="italic">26</italic>
+ </xref>). Thus, aerosols at high atmospheric concentration can be more representative of mineral dust aerosols, while mixed aerosols from different sources, i.e., dust and combustion aerosols, may be more representative at low atmospheric concentration. This suggests that modeled Fe concentrations should be consistent with the measurements to assess the relative contribution of each source. However, direct association of model estimates to a specific cruise track and time period can introduce biases when used as a reference for larger regions and different time periods. The maximum likelihood method has been operationally implemented to atmospheric data assimilation systems to estimate the state of the atmosphere from observations and models. Therefore, the MLEs of Fe concentration, 
+ <italic class="italic">s</italic>
+ <sub class="sub">a</sub>, with error variance, 
+ <inline-formula class="inline-formula">
+  <math id="m1" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">σ</mi>
+      <mi mathvariant="normal" class="mi">a</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, were derived from the measurements, 
+ <italic class="italic">s</italic>
+ <sub class="sub">o</sub>, and a priori daily estimates modeled in the same month as the measurements, 
+ <italic class="italic">s</italic>
+ <sub class="sub">b</sub>, with corresponding error variances, 
+ <inline-formula class="inline-formula">
+  <math id="m2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">σ</mi>
+      <mi mathvariant="normal" class="mi">o</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula class="inline-formula">
+  <math id="m3" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">σ</mi>
+      <mi mathvariant="normal" class="mi">b</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, respectively.
+ <disp-formula id="E1" class="disp-formula">
+  <math id="m4" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msub class="msub">
+      <mi mathvariant="italic" class="mi">s</mi>
+      <mi mathvariant="normal" class="mi">a</mi>
+     </msub>
+     <mo class="mo">=</mo>
+     <msub class="msub">
+      <mi mathvariant="italic" class="mi">s</mi>
+      <mi mathvariant="normal" class="mi">b</mi>
+     </msub>
+     <mo class="mo">+</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+      </mrow>
+      <mrow class="mrow">
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">o</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+       <mo class="mo">+</mo>
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+      </mrow>
+     </mfrac>
+     <mo class="mo"> </mo>
+     <mo class="mo">×</mo>
+     <mo class="mo"> </mo>
+     <mo stretchy="false" class="mo">(</mo>
+     <msub class="msub">
+      <mi mathvariant="italic" class="mi">s</mi>
+      <mi mathvariant="normal" class="mi">o</mi>
+     </msub>
+     <mo class="mo">−</mo>
+     <msub class="msub">
+      <mi mathvariant="italic" class="mi">s</mi>
+      <mi mathvariant="normal" class="mi">b</mi>
+     </msub>
+     <mo stretchy="false" class="mo">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+  <label class="label">(1)</label>
+ </disp-formula>
+ <disp-formula id="E2" class="disp-formula">
+  <math id="m5" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <msubsup class="msubsup">
+      <mi mathvariant="normal" class="mi">σ</mi>
+      <mi mathvariant="normal" class="mi">a</mi>
+      <mn class="mn">2</mn>
+     </msubsup>
+     <mo class="mo">=</mo>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">o</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+      </mrow>
+      <mrow class="mrow">
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">o</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+       <mo class="mo">+</mo>
+       <msubsup class="msubsup">
+        <mi mathvariant="normal" class="mi">σ</mi>
+        <mi mathvariant="normal" class="mi">b</mi>
+        <mn class="mn">2</mn>
+       </msubsup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+  <label class="label">(2)</label>
+ </disp-formula>
+</p>

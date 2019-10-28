@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18" class="p">To quantify the trait (Table 
+ <xref rid="Tab1" ref-type="table" class="xref">1</xref>) variation for all ten resource treatments and every trait we calculated ln CV (coefficient of variation) according to Nakagawa et al. [
+ <xref ref-type="bibr" rid="CR50" class="xref">50</xref>] using eq. (2)
+ <disp-formula id="Equb" class="disp-formula">
+  <alternatives class="alternatives">
+   <tex-math id="M3" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ (2)\ln CV=\ln \sigma -\ln \overline{x}+\frac{1}{2\left(n-1\right)} $$\end{document}</tex-math>
+   <math id="M4" display="block" class="math">
+    <mfenced close=")" open="(" class="mfenced">
+     <mn class="mn">2</mn>
+    </mfenced>
+    <mo class="mo">ln</mo>
+    <mi mathvariant="italic" class="mi">CV</mi>
+    <mo class="mo">=</mo>
+    <mo class="mo">ln</mo>
+    <mi class="mi">σ</mi>
+    <mo class="mo">−</mo>
+    <mo class="mo">ln</mo>
+    <mover accent="true" class="mover">
+     <mi class="mi">x</mi>
+     <mo stretchy="true" class="mo">¯</mo>
+    </mover>
+    <mo class="mo">+</mo>
+    <mfrac class="mfrac">
+     <mn class="mn">1</mn>
+     <mrow class="mrow">
+      <mn class="mn">2</mn>
+      <mfenced close=")" open="(" class="mfenced">
+       <mrow class="mrow">
+        <mi class="mi">n</mi>
+        <mo class="mo">−</mo>
+        <mn class="mn">1</mn>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="12983_2018_297_Article_Equb.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq1" class="inline-formula">
+  <alternatives class="alternatives">
+   <tex-math id="M5" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \overline{x} $$\end{document}</tex-math>
+   <math id="M6" display="inline" class="math">
+    <mover accent="true" class="mover">
+     <mi class="mi">x</mi>
+     <mo stretchy="true" class="mo">¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="12983_2018_297_Article_IEq1.gif" class="inline-graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the sample mean, σ is the standard deviation and n is the sample size, yielding nine different trait ln CVs for each resource. To summarize the multivariate traits (chemical composition and morphometry) we first calculated the ln CVs for each single component and subsequently averaged the single ln CVs to obtain the mean ln CV for both traits. We used a Kruskal-Wallis test to check whether the nine trait ln CVs across all resources are prone to more/less variation compared to others and if trait types (chemical, life history, morphology) possess different variability using the mean across resource ln CVs. We further analyzed the mean trait variation across traits to test whether some resources produce more variable traits than others and if the variation of trait variation differs across resources using a Kruskal-Wallis and Levene test, respectively. Afterwards, we used these values to calculate the mean ln CV for each resource (see last row of Table 
+ <xref rid="Tab3" ref-type="table" class="xref">3</xref>), to eventually test for optimality of C/N-ratios using a non-linear regression model (using the package “Rcmdr”). Additionally, we used the same analysis to test the influence of the C/N-ratios on the ln CVs of the nine individual traits. Finally, we accessed the relationship of mean and variance of the different traits across all resources by using the mean normalized trait value 
+ <italic class="italic">t’</italic>
+ <sub class="sub">
+  <italic class="italic">mean</italic>
+ </sub> and the ln CV of the univariate traits (because multivariate traits do not have a mean t’). Because the different traits within one resource treatment are not independent from each other we used a linear mixed effect model (LMM) with trait variation as dependent, trait mean as independent and resource treatment as random variable using the R packages “lme4” and “car”. The model was checked for normality of residuals and variance homogeneity, and no further transformation was necessary.
+</p>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p class="p">PPV (Equation (2)) describes the ability of the classifier not to label as positive a sample that is negative. That is, given a positive prediction, how likely is the classifier to be correct. The best value is 1 and the worst value is 0. 
+ <disp-formula id="FD2-molecules-23-00482" class="disp-formula">
+  <label class="label">(2)</label>
+  <math id="mm2" class="math">
+   <mrow class="mrow">
+    <mrow class="mrow">
+     <mi class="mi">PPV</mi>
+     <mtext class="mtext"> </mtext>
+     <mo class="mo">=</mo>
+     <mtext class="mtext"> </mtext>
+     <mfrac class="mfrac">
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+      </mrow>
+      <mrow class="mrow">
+       <mi class="mi">TP</mi>
+       <mtext class="mtext"> </mtext>
+       <mo class="mo">+</mo>
+       <mtext class="mtext"> </mtext>
+       <mi class="mi">FP</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>
