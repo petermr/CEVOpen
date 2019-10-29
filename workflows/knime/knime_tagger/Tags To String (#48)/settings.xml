@@ -6,21 +6,21 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<config key="TermColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="TagTypes_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="TagTypes">
 <entry key="array-size" type="xint" value="3"/>
-<entry key="0" type="xstring" value="ENTITY"/>
-<entry key="1" type="xstring" value="PHARMA"/>
+<entry key="0" type="xstring" value="PHARMA"/>
+<entry key="1" type="xstring" value="NE"/>
 <entry key="2" type="xstring" value="OSCAR"/>
 </config>
-<config key="TermColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="MissingString_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -62,12 +62,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 332963, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 302501, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="70ecf7cc-3e07-4038-98bd-77b60fedc277"/>
+<entry key="file_store_id" type="xstring" value="4f646bb8-5993-406e-93ed-bb2722a2902d"/>
 </config>
 </config>

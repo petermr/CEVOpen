@@ -12,7 +12,7 @@
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; FALSE"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; FALSE"/>
 <entry key="3" type="xstring" value="// TRUE =&gt; TRUE"/>
-<entry key="4" type="xstring" value="MISSING $ENTITY$ AND MISSING $PHARMA$ AND MISSING $OSCAR$ =&gt;TRUE"/>
+<entry key="4" type="xstring" value="MISSING $NE$ AND MISSING $PHARMA$ AND MISSING $OSCAR$ =&gt;TRUE"/>
 <entry key="5" type="xstring" value="$Term as String$ = &quot;and&quot; =&gt; TRUE"/>
 </config>
 <entry key="new-column-name" type="xstring" value=""/>
@@ -60,12 +60,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 28652, Cols: 7"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 28652, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7ef2e93e-a3a2-4689-a8fd-b25a8422267f"/>
+<entry key="file_store_id" type="xstring" value="db7f8f42-6d62-47a8-8811-62800fcd4270"/>
 </config>
 </config>

@@ -11,6 +11,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="DocumentColumn" type="xstring" value="Document"/>
+<config key="TermColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="ColumnFilter_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -47,11 +52,6 @@
 </config>
 </config>
 </config>
-<config key="TermColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="TermColumn" type="xstring" value="Term"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="extract terms"/>
@@ -88,12 +88,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 332963, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 302501, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6451b350-4dfa-4d36-9211-b004629363bb"/>
+<entry key="file_store_id" type="xstring" value="71b9ecd9-8642-4e83-98a6-45785cbcb7b0"/>
 </config>
 </config>
