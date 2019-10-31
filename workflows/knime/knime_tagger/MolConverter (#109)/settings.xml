@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="structure_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="structure_column" type="xstring" value="Term as Structure"/>
+<entry key="outformat" type="xstring" value="mrv"/>
+<entry key="fragments" type="xboolean" value="false"/>
+<entry key="cleaning" type="xboolean" value="false"/>
+<entry key="dimensions" type="xstring" value="dim2"/>
+<entry key="cleanOpts" type="xstring" value=""/>
+<entry key="atomMap" type="xstring" value=""/>
+<entry key="outoption" type="xstring" value=""/>
+<entry key="append" type="xboolean" value="false"/>
+<entry key="appendColumnName" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="jp.co.infocom.cheminfo.marvin.molconverter.MolConverterNodeFactory"/>
+<entry key="node-name" type="xstring" value="MolConverter"/>
+<entry key="node-bundle-name" type="xstring" value="ChemAxon/Infocom Marvin Extensions"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="jp.co.infocom.cheminfo.marvin"/>
+<entry key="node-bundle-vendor" type="xstring" value="Infocom Corporation"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v191500"/>
+<entry key="node-feature-name" type="xstring" value="ChemAxon/Infocom Marvin Extensions Feature"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="jp.co.infocom.cheminfo.marvin.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Infocom Corporation"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v191500"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="MolConverter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 10983, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="1f0e020a-4a0b-4cb4-ab40-0e35191e0f41"/>
+</config>
+</config>
