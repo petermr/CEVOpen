@@ -11,6 +11,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Document Column" type="xstring" value="Document"/>
+<config key="Preprocess Unmodifiable_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
 <config key="Replace Document_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,11 +26,16 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="New Document Column Name" type="xstring" value="Preprocessed Document"/>
-<config key="Preprocess Unmodifiable_Internals">
+<config key="Column name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="Column name" type="xstring" isnull="true" value=""/>
+<config key="Case sensitive_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="Preprocess Unmodifiable" type="xboolean" value="false"/>
+<entry key="Case sensitive" type="xboolean" value="false"/>
 <config key="Use built-in list_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -41,16 +51,6 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="Use custom list" type="xboolean" value="false"/>
-<config key="Column name_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="Column name" type="xstring" isnull="true" value=""/>
-<config key="Case sensitive_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Case sensitive" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -79,6 +79,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="a3f3d2dc-c723-4ead-96e6-7f77510888e3"/>
+<entry key="file_store_id" type="xstring" value="11fbfe96-efe7-47dd-9d84-866b16eebc5f"/>
 </config>
 </config>
