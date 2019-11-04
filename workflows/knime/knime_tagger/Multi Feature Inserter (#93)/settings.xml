@@ -6,19 +6,19 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="edgeIdColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="edgeIdColumn">
-<entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" isnull="true" value=""/>
-</config>
 <config key="nodeIdColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="nodeIdColumn">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" isnull="true" value=""/>
+</config>
+<config key="edgeIdColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="edgeIdColumn">
 <entry key="useRowID" type="xboolean" value="false"/>
 <entry key="columnName" type="xstring" isnull="true" value=""/>
 </config>
@@ -107,7 +107,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 237, edges: 977, UUID: f7cb9b3a-246b-4223-8e6a-20cfe58dccd5"/>
+<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 888, edges: 6,058, UUID: 9564457a-e685-4903-a71d-984d2ffe2e74"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -115,6 +115,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2fa81dc7-7f41-491a-b16e-e6719073779b"/>
+<entry key="file_store_id" type="xstring" value="86d47103-f651-4a9e-847a-7292f075c0f1"/>
 </config>
 </config>

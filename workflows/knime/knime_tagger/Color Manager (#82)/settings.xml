@@ -6,9 +6,9 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<entry key="palette_option" type="xstring" value="custom_set"/>
 <entry key="selected_column" type="xstring" value="role"/>
 <entry key="is_nominal" type="xboolean" value="true"/>
-<entry key="palette_option" type="xstring" value="custom_set"/>
 <entry key="ACTIVITY" type="xint" value="-33024"/>
 <entry key="COMPOUND" type="xint" value="-5845277"/>
 <entry key="PLANT" type="xint" value="-4989335"/>
@@ -69,7 +69,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 977, Cols: 15"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6058, Cols: 15"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
@@ -84,6 +84,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="44e04d82-e170-4bb1-abaa-e76f1bffb080"/>
+<entry key="file_store_id" type="xstring" value="70b3e44e-7f67-4b19-a489-0b1f613df18b"/>
 </config>
 </config>

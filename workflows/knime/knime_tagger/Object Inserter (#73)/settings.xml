@@ -6,70 +6,6 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="nodeIDCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="nodeIDCol">
-<entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Term1 as String"/>
-</config>
-<config key="nodeCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="nodeCol" type="xstring" value="Term1 as String"/>
-<config key="optional2NodeIdCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="optional2NodeIdCol">
-<entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Term2 as String"/>
-</config>
-<config key="optional2NodeCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="optional2NodeCol" type="xstring" value="Term2 as String"/>
-<config key="edgeIDCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="edgeIDCol">
-<entry key="useRowID" type="xboolean" value="true"/>
-<entry key="columnName" type="xstring" isnull="true" value=""/>
-</config>
-<config key="edgeCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="edgeCol" type="xstring" isnull="true" value=""/>
-<config key="directedEdge_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="directedEdge" type="xboolean" value="false"/>
-<config key="weightOption_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="weightOption" type="xstring" value="NONE"/>
-<config key="defaultEdgeWeight_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="defaultEdgeWeight" type="xdouble" value="1.0"/>
-<config key="edgeWeightCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="edgeWeightCol" type="xstring" value="Document cooccurrence"/>
-<config key="uniformEdgeWeight_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="uniformEdgeWeight" type="xboolean" value="false"/>
 <config key="nodePartitionCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -85,16 +21,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="addPartition2ExistingNodes" type="xboolean" value="false"/>
-<config key="inCellSeparator_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inCellSeparator" type="xstring" value=""/>
-<config key="skipRegex_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="skipRegex" type="xstring" value=""/>
 <config key="edgePartitionCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -110,6 +36,80 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="addPartition2ExistingEdges" type="xboolean" value="true"/>
+<config key="edgeCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="edgeCol" type="xstring" isnull="true" value=""/>
+<config key="nodeCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nodeCol" type="xstring" value="Term1 as String"/>
+<config key="optional2NodeCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="optional2NodeCol" type="xstring" value="Term2 as String"/>
+<config key="edgeIDCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="edgeIDCol">
+<entry key="useRowID" type="xboolean" value="true"/>
+<entry key="columnName" type="xstring" isnull="true" value=""/>
+</config>
+<config key="nodeIDCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="nodeIDCol">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="Term1 as String"/>
+</config>
+<config key="optional2NodeIdCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="optional2NodeIdCol">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="Term2 as String"/>
+</config>
+<config key="edgeWeightCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="edgeWeightCol" type="xstring" value="Document cooccurrence"/>
+<config key="defaultEdgeWeight_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="defaultEdgeWeight" type="xdouble" value="1.0"/>
+<config key="directedEdge_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="directedEdge" type="xboolean" value="false"/>
+<config key="weightOption_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="weightOption" type="xstring" value="NONE"/>
+<config key="inCellSeparator_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inCellSeparator" type="xstring" value=""/>
+<config key="skipRegex_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="skipRegex" type="xstring" value=""/>
+<config key="linkNodesDirect_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="linkNodesDirect" type="xboolean" value="false"/>
 <config key="createUniqueEdgeId_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -130,11 +130,11 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="edgeIdNodeSeparator" type="xstring" value=""/>
-<config key="linkNodesDirect_Internals">
+<config key="uniformEdgeWeight_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
-<entry key="linkNodesDirect" type="xboolean" value="false"/>
+<entry key="uniformEdgeWeight" type="xboolean" value="false"/>
 <config key="trimObjectIds_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -176,7 +176,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 237, edges: 977, UUID: 83661615-bc17-458b-939b-c34d5ff0b744"/>
+<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 888, edges: 6,058, UUID: 0fb257f0-7cea-4937-827a-86ec3284c7cb"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -184,6 +184,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="3c7b9fa1-d7be-4aa0-9139-9f587e2092e1"/>
+<entry key="file_store_id" type="xstring" value="521bde7d-2c03-43c9-8822-ce3a0c455c5a"/>
 </config>
 </config>
