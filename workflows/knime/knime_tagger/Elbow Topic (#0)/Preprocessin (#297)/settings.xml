@@ -21,7 +21,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Execution canceled"/>
+</config>
 <entry key="virtual-in-ID" type="xint" value="37"/>
 <config key="inports">
 <config key="inport_0">

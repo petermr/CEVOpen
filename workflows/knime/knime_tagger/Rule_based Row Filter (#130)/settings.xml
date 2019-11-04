@@ -11,7 +11,7 @@
 <entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; FALSE"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; FALSE"/>
-<entry key="3" type="xstring" value="$role$ = &quot;PLANT&quot; =&gt;TRUE"/>
+<entry key="3" type="xstring" value="$role_A$=&quot;PLANT&quot;=&gt;TRUE"/>
 </config>
 <entry key="new-column-name" type="xstring" value=""/>
 <entry key="replace-column-name" type="xstring" value=""/>
@@ -26,8 +26,8 @@
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="select plants"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="2627"/>
-<entry key="y-coordinate" type="xint" value="419"/>
+<entry key="x-coordinate" type="xint" value="2507"/>
+<entry key="y-coordinate" type="xint" value="219"/>
 <entry key="width" type="xint" value="106"/>
 <entry key="height" type="xint" value="15"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
@@ -58,12 +58,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 820545, Cols: 18"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 138325, Cols: 17"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="33152bf0-b4b3-48b4-bc65-8c3d00cfa5a3"/>
+<entry key="file_store_id" type="xstring" value="2b13863f-14eb-4ceb-b4d8-43012c432445"/>
 </config>
 </config>
