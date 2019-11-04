@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CEVTaggerNode-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.cevopen.tagger; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: cevtaggernode.jar
+Bundle-Activator: org.cevopen.tagger.CEVTaggerNodeNodePlugin
+Bundle-Vendor: Clyde Davies
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.knime.ext.textprocessing;bundle-version="4.0.2"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.cevopen.cevtagset,
+ org.cevopen.tagger
+
