@@ -6,11 +6,6 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="TermColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="TagTypes_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -20,6 +15,11 @@
 <entry key="0" type="xstring" value="CEV"/>
 <entry key="1" type="xstring" value="OSCAR"/>
 </config>
+<config key="TermColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TermColumn" type="xstring" value="Term"/>
 <config key="MissingString_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -67,6 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="657a5229-56e7-4cae-814c-9c183a59a4ad"/>
+<entry key="file_store_id" type="xstring" value="474e89b2-a9de-47c2-b65c-88a2f7b45a66"/>
 </config>
 </config>

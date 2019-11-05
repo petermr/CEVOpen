@@ -6,6 +6,16 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<config key="Number of threads_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Number of threads" type="xint" value="3"/>
+<config key="Word tokenizer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Word tokenizer" type="xstring" value="OpenNLP English WordTokenizer"/>
 <config key="Document Column_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,16 +31,6 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="New Document Column Name" type="xstring" value="Tagged Document"/>
-<config key="Word tokenizer_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Word tokenizer" type="xstring" value="OpenNLP English WordTokenizer"/>
-<config key="Number of threads_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Number of threads" type="xint" value="3"/>
 <config key="SetUnmodifiable_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -64,6 +64,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="fa29ae15-0d13-4d5a-ad9f-7ee863b9463e"/>
+<entry key="file_store_id" type="xstring" value="635a2777-f368-4911-854e-1ec112be2612"/>
 </config>
 </config>
