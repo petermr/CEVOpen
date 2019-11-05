@@ -46,7 +46,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Output file 'E:\source\repos\CEVOpen\workflows\knime\knime_tagger\co-occurrence.csv' exists and will be overwritten"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.csvwriter.CSVWriterNodeFactory"/>
 <entry key="node-name" type="xstring" value="CSV Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -59,11 +63,11 @@
 <entry key="node-feature-version" type="xstring" value="4.0.2.v201909300912"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="CSV Writer"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f14fcaf3-c149-4958-a8ac-7940af3b36c2"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

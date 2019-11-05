@@ -79,7 +79,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.network.node.inserter.feature.MultiFeatureInserterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Multi Feature Inserter"/>
 <entry key="node-bundle-name" type="xstring" value="Network Base Plug-in"/>
@@ -92,21 +92,16 @@
 <entry key="node-feature-version" type="xstring" value="4.0.1.v201908131226"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Multi Feature Inserter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-<entry key="port_object_summary" type="xstring" value="id: ID, nodes: 532, edges: 2,723, UUID: ce90e3c5-d0b3-4df5-acf2-b89fce70beb1"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="84c6c978-9219-4e80-b7f6-00c33da49e2f"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
