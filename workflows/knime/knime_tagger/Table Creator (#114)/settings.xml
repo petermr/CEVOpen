@@ -7,16 +7,31 @@
 </config>
 <config key="model">
 <config key="rowIndices">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xint" value="0"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="2"/>
+<entry key="3" type="xint" value="3"/>
+<entry key="4" type="xint" value="4"/>
+<entry key="5" type="xint" value="5"/>
 </config>
 <config key="columnIndices">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xint" value="0"/>
+<entry key="1" type="xint" value="0"/>
+<entry key="2" type="xint" value="0"/>
+<entry key="3" type="xint" value="0"/>
+<entry key="4" type="xint" value="0"/>
+<entry key="5" type="xint" value="0"/>
 </config>
 <config key="values">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="Thymus vulgaris"/>
+<entry key="1" type="xstring" value="Rosmarinus officinalis"/>
+<entry key="2" type="xstring" value="Mentha spicata"/>
+<entry key="3" type="xstring" value="Myrtus communis"/>
+<entry key="4" type="xstring" value="Eucalyptus gunnii"/>
+<entry key="5" type="xstring" value="Eucalyptus gunii"/>
 </config>
 <entry key="rowIdPrefix" type="xstring" value="Row"/>
 <entry key="rowIdSuffix" type="xstring" value=""/>
@@ -72,12 +87,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b09f4a67-128b-4ba6-8096-3e20667f1078"/>
+<entry key="file_store_id" type="xstring" value="b7808145-dadf-474e-97ae-eb475849f964"/>
 </config>
 </config>
