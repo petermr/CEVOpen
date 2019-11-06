@@ -21,11 +21,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Error during execution:%%00010  Term To String 0:0:0:335:0:8 : Status: DataLoadError: Term To String 0:0:0:335:0:8%%00010  Status: DataLoadError: Unable to load port content for node &quot;Term To String&quot;: No BufferedDataTable  with ID 1233%%00010  Status: DataLoadError: State has changed from EXECUTED to IDLE%%00010"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="virtual-in-ID" type="xint" value="68"/>
 <config key="inports">
 <config key="inport_0">
