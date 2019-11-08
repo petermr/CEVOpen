@@ -1,16 +1,63 @@
-PMCID	Plant	Compound	Compound_dictionary_lookpup	E2.0_compound_identifiers	notes	wikidata_identifier
-PMC4391421	 thyme	alpha-Thujene	(-)-alpha-thujene ; (+)-alpha-thujene	C764 ; C786	stereo-isomers of the compounds are there.	Q27121815 ; Q27121804
-		alpha-Pinene	alpha-Pinene	C2849	Also, stereo-isomers of the compounds are there.	Q27104380
-		beta-Pinene	beta-Pinene	C349	Also, stereo-isomers of the compounds are there.	
-		beta-Myrcene	beta-Myrcene	C345		Q424577
-		alpha-Phellandrene	alpha-Phellandrene	C2848		Q19606345
-		Carene<δ-2->	2-carene	C1720	Lookup is of '2-carene'	
-		D-Limonene	(+)-limonene	C792		Q27888324
-		beta-Phellandrene	beta-Phellandrene	C3426		Q19606727
-		para-Cymene	cymene	C4118	Other cymene are present as 'm-cymenene', 'dehydro-p-cymene', 'o-cymene', 	Q284072
-		gamma-Terpinene	beta-terpinene	C355	Present as beta-terpinene	Q23057921
-		Terpineol	1-terpineol	C1482		Q27276701
-		Terpinen-4-ol	(+)-terpinen-4-ol	C795		Q27280168
-		Thymol			not present.	
-		Caryophyllene	(z)-caryophyllene ; 9-epi-(E)-caryophyllene ; alpha-caryophyllene	C1255 ; C2705 ; C2915 	Stereo-isomers are present	NA ; Q27137093 ; Q1995108
-		Cyclohexene, 1-methyl-4-(5-methyl-1-methylene-4-hexenyl)				
+PMCID	table_identifier	caption	Plant	Compound_column_title	Compound	Compound_dictionary_lookpup	E2.0_compound_identifiers	notes_for_lookup_in_compound_dictionary	wikidata_identifier			
+PMC4391421	Table 1	Chemical composition of thyme EO	 thyme	Constituents*	alpha-Thujene	(-)-alpha-thujene ; (+)-alpha-thujene	C764 ; C786	stereo-isomers of the compounds are there.	Q27121815 ; Q27121804			
+					alpha-Pinene	alpha-Pinene	C2849	Also, stereo-isomers of the compounds are there.	Q27104380			
+					beta-Pinene	beta-Pinene	C349	Also, stereo-isomers of the compounds are there.				
+					beta-Myrcene	beta-Myrcene	C345		Q424577			
+					alpha-Phellandrene	alpha-Phellandrene	C2848		Q19606345			
+					Carene<δ-2->	2-carene	C1720	Lookup is of '2-carene'				
+					D-Limonene	(+)-limonene ; (-)-limonene	C792 ; C773		Q27888324 ; Q27089405			
+					beta-Phellandrene	beta-Phellandrene	C3426		Q19606727			
+					para-Cymene	cymene	C4118	Other cymene are present as 'm-cymenene', 'dehydro-p-cymene', 'o-cymene', 	Q284072			
+					gamma-Terpinene			Present as beta-terpinene				
+					Terpineol	1-terpineol	C1482		Q27276701			
+					Terpinen-4-ol	(+)-terpinen-4-ol	C795		Q27280168			
+					Thymol			not present.				
+					Caryophyllene	(z)-caryophyllene ; 9-epi-(E)-caryophyllene ; alpha-caryophyllene	C1255 ; C2705 ; C2915 	Stereo-isomers are present	NA ; Q27137093 ; Q1995108			
+					Cyclohexene, 1-methyl-4-(5-methyl-1-methylene-4-hexenyl)							
+												
+PMC5080681	Table 1	Chemical composition, concentrations (%) and calculated retention indices, of T. bovei	T. bovei	Constituents	Trans-geraniol (Lemonol)							
+					α-citral (Trans-citral)							
+					β-citral (Cis-citral)							
+					Cis-geraniol (nerol)	cis-geraniol	C424		Q415359			
+					3-octanol		C174		Q27154917			
+					DL-camphor	camphor	C378		Q181559			
+					Eucalyptol(1,8) cineole							
+					3-octanone	3-octanone	C175		Q18349104			
+					Thymol							
+					β-linalool	(-)-linalool ; (+)-linalool	C774 ; C793 		Q27105200 ; Q27105233			
+					β-farnesene	(E)-beta-farnesene	C22		Q27108631			
+					Geranylisobutyrate	geranyl isobutyrate	C594		Q27286284			
+					L-borneol	borneol	C361		Q27103499			
+					Isocaryophyllene							
+					Camphene	Camphene	C376		Q416775			
+					Bergamiol							
+					Dihydrocarveol acetate	Dihydrocarveol acetate	C4286					
+					α-cyclocitral							
+					β-ocimene	(E)-beta-ocimene	C932		Q26777012			
+					Geranyl propionate							
+					β-myrcene	beta-myrcene	C345		Q424577			
+					α-terpineol	(+)-alpha-terpineol ; (-)-alpha-terpineol ; 1-alpha-terpineol	C785 ; C763 ;  C1365		Q27105290 ; Q27105253 ; Q27109437			
+												
+												
+												
+												
+PMC5132230	Table 1	Chemical composition of the Aeollanthus suaveolens essential ...	Aeollanthus suaveolens	Compounds	β-myrcene	beta-myrcene	C345		Q424577			
+					limonene	(+)-limonene ; (-)-limonene	C792 ; C773		Q27888324 ; Q27089405			
+					1,8-Cineole	1.8-cineole	C1604		Q161572			
+					β –ocimene	(Z)-beta-ocimene	C1229		Q26777005			
+					Linalol	linalol	C5311		Q410932			
+					Borneol		C361		Q27103499			
+					α- Terpineol	(-)-alpha-terpineol ; (-)-alpha-terpineol ; 1-alpha-terpineol	C763 ; C785 ; C1365		Q27105253 ; Q27105290 ; Q27109437			
+					Nerol							
+					Geraniol	cis-geraniol ; (E)-geraniol	C424 ; C977		Q415359 ; Q410836			
+					Linalyl acetate							
+					Geraniol formate (CAS)	geraniol formate	C4730		Q15726045			
+					α-Santalene	alpha-santalene	C270		Q29529955			
+					(E)-α-Bergamoteno							
+					(E)-β-Farnesene	(E)-beta-farnesene	C22		Q27108631			
+					Massoia lactona							
+					(Z), (E)- α-farnesene	(E)-alpha-farnesene 	C923 ;		Q419814			
+					(E)–caryophyllene	alpha-caryophyllene ;  ; beta-caryophyllen	C3062 ; C3275		Q1995108 ; Q27106968			
+					δ- decalactone							
+												
+												
