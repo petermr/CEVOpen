@@ -6,76 +6,36 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="Title mode_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="Title mode" type="xstring" value="Column"/>
-<config key="TitleCol_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="TitleCol" type="xstring" value="article-title"/>
 <config key="TextCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="TextCol" type="xstring" value="abstract"/>
-<config key="DocumentSource_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="DocumentSource" type="xstring" value=""/>
-<config key="UseSourceColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="UseSourceColumn" type="xboolean" value="false"/>
-<config key="SourceColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="SourceColumn" type="xstring" value="article-title"/>
-<config key="DocumentCategory_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="DocumentCategory" type="xstring" value=""/>
-<config key="UseCategoryColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="UseCategoryColumn" type="xboolean" value="false"/>
-<config key="CategoryColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="CategoryColumn" type="xstring" value="article-title"/>
-<config key="useAuthorsColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="useAuthorsColumn" type="xboolean" value="true"/>
 <config key="AuthorsCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="AuthorsCol" type="xstring" value="article-title"/>
+<config key="TitleCol_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TitleCol" type="xstring" value="article-title"/>
 <config key="AuthorSplitChar_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="AuthorSplitChar" type="xstring" value=", "/>
-<config key="AuthorFirstName_Internals">
+<config key="DocumentSource_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="AuthorFirstName" type="xstring" value="-"/>
-<config key="AuthorLastName_Internals">
+<entry key="DocumentSource" type="xstring" value=""/>
+<config key="DocumentCategory_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="AuthorLastName" type="xstring" value="-"/>
+<entry key="DocumentCategory" type="xstring" value=""/>
 <config key="DocumentType_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -86,38 +46,78 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="PublicationDate" type="xstring" value="2019-11-06"/>
-<config key="UsePubDateColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="UsePubDateColumn" type="xboolean" value="false"/>
 <config key="PubdateCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="PubdateCol" type="xstring" isnull="true" value=""/>
-<config key="Document column_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<config key="UseCategoryColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="Document column" type="xstring" value="Document"/>
+<entry key="UseCategoryColumn" type="xboolean" value="false"/>
+<config key="UseSourceColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="UseSourceColumn" type="xboolean" value="false"/>
+<config key="useAuthorsColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="useAuthorsColumn" type="xboolean" value="true"/>
+<config key="UsePubDateColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="UsePubDateColumn" type="xboolean" value="false"/>
+<config key="CategoryColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CategoryColumn" type="xstring" value="article-title"/>
+<config key="SourceColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="SourceColumn" type="xstring" value="article-title"/>
 <config key="Number of threads_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Number of threads" type="xint" value="2"/>
+<config key="AuthorFirstName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="AuthorFirstName" type="xstring" value="-"/>
+<config key="AuthorLastName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="AuthorLastName" type="xstring" value="-"/>
 <config key="Word Tokenizer_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Word Tokenizer" type="xstring" value="OpenNLP English WordTokenizer"/>
+<config key="Document column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Document column" type="xstring" value="Document"/>
+<config key="Title mode_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Title mode" type="xstring" value="Column"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="abstract-&gt;document"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="603"/>
-<entry key="y-coordinate" type="xint" value="819"/>
-<entry key="width" type="xint" value="115"/>
+<entry key="x-coordinate" type="xint" value="405"/>
+<entry key="y-coordinate" type="xint" value="1539"/>
+<entry key="width" type="xint" value="110"/>
 <entry key="height" type="xint" value="15"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
@@ -153,6 +153,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="b66444e2-521d-4995-889d-a3fc7faa4edd"/>
+<entry key="file_store_id" type="xstring" value="f9e69136-ae0d-4b7a-aeea-4130508e6075"/>
 </config>
 </config>

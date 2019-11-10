@@ -65,6 +65,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created an empty data table."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Bag Of Words Creator"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
@@ -84,12 +88,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 297, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="987c1e6d-04dd-4d61-a587-ed2808460e86"/>
+<entry key="file_store_id" type="xstring" value="e2a087fe-18d2-4a1b-9fc2-be0a7938d48a"/>
 </config>
 </config>

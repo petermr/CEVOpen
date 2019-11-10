@@ -69,6 +69,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created empty data tables on all out-ports."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory"/>
 <entry key="node-name" type="xstring" value="Topic Extractor (Parallel LDA)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
@@ -88,26 +92,26 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 30, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 <config key="port_3">
 <entry key="index" type="xint" value="3"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_3"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d67a72f9-563f-44ac-ab10-16190d672a2f"/>
+<entry key="file_store_id" type="xstring" value="3a8a0de8-b89c-498d-8fca-68e867be02d9"/>
 </config>
 </config>
