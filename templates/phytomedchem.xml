@@ -1,10 +1,12 @@
 <templateList>
 	<template name="composition">
 		<title find="
-		     [Cc]omposition
-			 [Oo]il
-			 EO
-			 [Pp]ercentage
+		     [Cc]hemical composition _OR
+			 [Mm]ajor constituents _OR
+             [Cc]ompound composition _OR
+             [Pp]hytochemical constituents _OR
+		     [Cc]omposition of _OR
+		     ([Mm]ain|[Mm]ajor) (components|constituents|compounds)
 			 "
 			 exclude=""
 			 />
@@ -16,7 +18,7 @@
 		    "/>
 		<column name="percentage" find="
 			[Pp]ercentage
-			[Aa]rea
+			[Pp]eak [Aa]rea
 			%"
 		/>
 	</template>
