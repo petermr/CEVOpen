@@ -1,14 +1,32 @@
 <templateList>
 	<template name="composition">
-		<title regex="composition oil"/>
-		<table regex=".*/table_\\d+\\.xml"/>
-		<column name="compound" regex="[Cc]onstituent.*|[Cc]ompound.*|[Cc]omponent.*"/>
-		<column name="percentage" regex=".*[Pp]ercentage.*|.*Area.*|.*%.*"/>
+		<title find="
+		     [Cc]omposition
+			 [Oo]il
+			 EO
+			 [Pp]ercentage
+			 "
+			 exclude=""
+			 />
+		<table regex=".*\/table_\d+\.xml"/>
+		<column name="compound" find="
+		    [Cc]onstituent
+		    [Cc]ompound
+		    [Cc]omponent
+		    "/>
+		<column name="percentage" find="
+			[Pp]ercentage
+			[Aa]rea
+			%"
+		/>
 	</template>
 	<template name="activity">
-		<title regex="activity target"/>
-		<table regex=".*/table_\\d+\\.xml"/>
-		<column name="activity" regex="activity.*"/>
-		<column name="target" regex=".*target"/>
+		<title find="
+		[Aa]ctivity
+		target"
+		/>
+		<table regex=".*/table_\d+\.xml"/>
+		<column name="activity" find="activity"/>
+		<column name="target" find="target"/>
 	</template>
 </templateList>
