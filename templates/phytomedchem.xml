@@ -12,13 +12,13 @@
 			 />
 		<table regex=".*\/table_\d+\.xml"/>
 		<column name="compound" find="
-		    [Cc]onstituent
-		    [Cc]ompound
+		    [Cc]onstituent _OR
+		    [Cc]ompound _OR
 		    [Cc]omponent
 		    "/>
 		<column name="percentage" find="
-			[Pp]ercentage
-			[Pp]eak [Aa]rea
+			[Pp]ercentage _OR
+			[Pp]eak [Aa]rea _OR
 			%"
 		/>
 	</template>
