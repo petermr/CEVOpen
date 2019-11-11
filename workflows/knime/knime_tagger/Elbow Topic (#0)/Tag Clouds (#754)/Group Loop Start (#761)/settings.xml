@@ -30,19 +30,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="2"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Topic id"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="topic_2"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="groupIdentifier"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="%topic_2%"/>
+<entry key="value" type="xstring" value=""/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -92,6 +86,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created an empty data table."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.meta.looper.group.GroupLoopStartNodeFactory"/>
 <entry key="node-name" type="xstring" value="Group Loop Start"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -111,12 +109,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 5"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="06284129-81a4-48cf-9c04-a3af8b808fa2"/>
+<entry key="file_store_id" type="xstring" value="54072625-5428-45dd-9658-664fc8690941"/>
 </config>
 </config>

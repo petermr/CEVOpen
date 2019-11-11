@@ -55,6 +55,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created an empty data table."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.tagcloud.TagCloudViewNodeFactory"/>
 <entry key="node-name" type="xstring" value="Tag Cloud"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
@@ -74,7 +78,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-<entry key="port_object_summary" type="xstring" value="SVG 507 x 310"/>
+<entry key="port_object_summary" type="xstring" value="SVG 800 x 600"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -83,7 +87,7 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>

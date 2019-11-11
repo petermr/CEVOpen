@@ -6,11 +6,16 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="documentColumnName_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<config key="ignoreTermTags_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="documentColumnName" type="xstring" value="Document"/>
+<entry key="ignoreTermTags" type="xboolean" value="true"/>
+<config key="nrHighKeyTerms_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nrHighKeyTerms" type="xint" value="12"/>
 <config key="nrKeywords_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,16 +26,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="nrHighFreqTerms" type="xint" value="30"/>
-<config key="nrHighKeyTerms_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<config key="documentColumnName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="nrHighKeyTerms" type="xint" value="12"/>
-<config key="ignoreTermTags_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="ignoreTermTags" type="xboolean" value="true"/>
+<entry key="documentColumnName" type="xstring" value="Document"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -59,6 +59,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="a1328586-3485-4483-9985-510624bee7ef"/>
+<entry key="file_store_id" type="xstring" value="0d09a86a-1970-4f96-a946-5ba5d26cad9f"/>
 </config>
 </config>

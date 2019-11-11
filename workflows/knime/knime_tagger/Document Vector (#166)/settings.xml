@@ -8,14 +8,14 @@
 <config key="model">
 <config key="Value_Col_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="Value_Col" type="xstring" value="TF-IDF"/>
 <config key="Boolean_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="Boolean" type="xboolean" value="false"/>
+<entry key="Boolean" type="xboolean" value="true"/>
 <config key="Document_Col_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -68,6 +68,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="9d74b2c4-832f-43a7-9361-89e79e3185a2"/>
+<entry key="file_store_id" type="xstring" value="cc36b32a-ce9c-4de4-b920-e57e99b81da8"/>
 </config>
 </config>
