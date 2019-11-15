@@ -1,5 +1,8 @@
 <templateList>
+<!-- composition table (percentage of compounds in oils)
+ -->
 	<template name="composition">
+	    <!--  title of table -->
 		<title find="
 		     [Cc]hemical composition _OR
 			 [Mm]ajor constituents _OR
@@ -8,27 +11,92 @@
 		     [Cc]omposition of _OR
 		     ([Mm]ain|[Mm]ajor) (components|constituents|compounds)
 			 "
-			 exclude=""
-			 />
-		<table regex=".*\/table_\d+\.xml"/>
+			 >
+			  <query case="insensitive">
+				 chemical composition OR
+				 composition of OR
+	             compound composition OR
+	             phytochemical constituents OR
+			     (main|major) (components|constituents|compounds)
+			  </query>
+			 </title>
+			 
+        <!--  filename of table -->
+		<file regex=".*\/table_\d+\.xml"/>
+		
+		<!-- column to retrieve/extract (names of compounds)-->
 		<column name="compound" find="
 		    [Cc]onstituent _OR
 		    [Cc]ompound _OR
 		    [Cc]omponent
-		    "/>
+		    " >
+		    <title>
+			    <query>
+				    constituent OR
+				    compound OR
+				    component
+			    </query>
+		    </title>
+			<cells>
+	  		  <regex oper="OR">percentage</regex>
+			</cells>
+		</column>
+		    
+		<!-- column to retrieve/extract (percentages of compounds)-->
 		<column name="percentage" find="
 			[Pp]ercentage _OR
 			[Pp]eak [Aa]rea _OR
-			%"
-		/>
+			%" 
+		>
+			<title>
+	  		    <query>
+				    percentage OR
+				    peak area OR
+				    ^.*%.*$
+				    NOT activity
+			    </query>
+			</title>
+			<cell>
+	  		    <query>
+	  		        FLOAT
+	  		    </query>
+			</cell>
+			<footer>
+			    <query>
+			        AFTER total
+			    </query>
+			</footer>
+		</column>
 	</template>
+	
 	<template name="activity">
 		<title find="
 		[Aa]ctivity
 		target"
 		/>
-		<table regex=".*/table_\d+\.xml"/>
-		<column name="activity" find="activity"/>
-		<column name="target" find="target"/>
+		<file regex=".*/table_\d+\.xml"/>
+		<column name="activity" find="activity">
+		  <title>
+		  </title>
+		  <cells>
+		  </cells>
+		</column>
+		<column name="target" find="target">
+		</column>
 	</template>
+	
+    <template name="mic">
+		<title find="
+		[Aa]ctivity
+		target"
+		/>
+		<table regex=".*/table_\d+\.xml"/>
+		<column name="activity" find="activity">
+		  <title>
+		  </title>
+		  <cell>
+		  </cell>
+		</column>
+	</template>
+	<!--  https://stackoverflow.com/questions/9830506/how-do-you-use-colspan-and-rowspan-in-html-tables/9830847#9830847  -->
 </templateList>
