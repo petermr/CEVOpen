@@ -1,0 +1,47 @@
+<templateList case="insensitive">
+    <!--  filename of table -->
+	<file id="root.file">
+	  <query id="root.file.q">
+	      ^.*\/table_\d+\.xml$
+	  </query>
+	</file>
+    <variable name="@FLOAT@">\-?\d+\.\d+</variable>
+    <variable name="@FLOAT_ERROR@">@FLOAT@\s*±\s*@FLOAT@</variable>
+    <variable name="@CHEMICAL@">[A-Za-z0-9\(][A-Za-z0-9\.\-\(\)\s]+[A-Za-z\)]</variable>
+    <variable name="@CEV@">/Users/pm286/workspace/CEVOpen</variable>
+    <variable name="@DICTIONARY@">@CEV@/dictionary/</variable>
+    <variable name="@COMPOUND_DICT@">@DICTIONARY@/compound/compound.xml</variable>
+
+<!-- composition table (percentage of compounds in oils) -->
+	<template name="composition" id="comp">
+	    <!--  title of table -->
+		<title id="comp.tit">
+			  <query id="comp.tit.q" case="insensitive">
+				 chemical composition OR
+				 composition of OR
+	             compound composition OR
+	             phytochemical constituents OR
+			     (main|major) (components|constituents|compounds)
+			  </query>
+		</title>
+			 
+		
+		<!-- column to retrieve/extract (names of compounds)-->
+		<column name="compound" case="insensitive" id="comp.col.comp">
+		    <title id="comp.col.comp.tit">
+			    <query id="comp.col.comp.tit.q">
+				    constituent OR
+				    compound OR
+				    component
+				    NOT activity
+			    </query>
+		    </title>
+			<cell id="comp.col.comp.cell">
+	  		  <query id="comp.col.comp.cell.q1">^@CHEMICAL@$</query>
+	  		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query>
+			</cell>
+		</column>
+		    
+	</template>
+			
+</templateList>
