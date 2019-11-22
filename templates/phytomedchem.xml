@@ -1,102 +1,112 @@
-<templateList>
-<!-- composition table (percentage of compounds in oils)
- -->
-	<template name="composition">
+<templateList case="insensitive">
+	<variable name="@EMDASH@">—</variable>
+    <variable name="@INT@">\-?\d+</variable>
+    <variable name="@FLOAT@">\-?\d+\.\d+</variable>
+    <variable name="@NUM@">@INT@|@FLOAT@</variable>
+	
+	<variable name="@ALPHANUM@">A-Za-z0-9</variable>
+	<variable name="@GREEK@">αβγδ</variable>
+    <variable name="@NUM_PERCENT@">@NUM@\s*%</variable>
+    <variable name="@NUM_ERROR@">@NUM@\s*±\s*@NUM@</variable>
+    <variable name="@CHEMICAL@">^[@ALPHANUM@@GREEK@\(\)\-\.,\s]+$</variable>
+	
+    <variable name="@SPECIES@">(?-i) [A-Z](\.|[a-z]+)\s+[a-z]+</variable>
+    <variable name="@CEV@">/Users/pm286/workspace/CEVOpen</variable>
+    <variable name="@DICTIONARY@">@CEV@/dictionary/</variable>
+    <variable name="@COMPOUND_DICT@">@DICTIONARY@/compound/compound.xml</variable>
+    <!--  filename of table -->
+	<file id="root.file">
+	  <query id="root.file.q">
+	      ^.*\/table_\d+\.html$
+	  </query>
+	</file>
+
+<!-- composition table (percentage of compounds in oils) -->
+	<template name="composition" id="comp">
 	    <!--  title of table -->
-		<title find="
-		     [Cc]hemical composition _OR
-			 [Mm]ajor constituents _OR
-             [Cc]ompound composition _OR
-             [Pp]hytochemical constituents _OR
-		     [Cc]omposition of _OR
-		     ([Mm]ain|[Mm]ajor) (components|constituents|compounds)
-			 "
-			 >
-			  <query case="insensitive">
-				 chemical composition OR
-				 composition of OR
-	             compound composition OR
-	             phytochemical constituents OR
-			     (main|major) (components|constituents|compounds)
+		<title id="comp.tit">
+			  <query id="comp.tit.q" case="insensitive">
+				 dummmy OR
+				 chemical\s+composition OR
+				 composition\s+of OR
+	             compound\s+composition OR
+	             phytochemical\s+constituents OR
+			     (main|major)\s+(components|constituents|compounds)
+				 NOT (class|proximate|effects?)
 			  </query>
-			 </title>
+		</title>
 			 
-        <!--  filename of table -->
-		<file regex=".*\/table_\d+\.xml"/>
 		
 		<!-- column to retrieve/extract (names of compounds)-->
-		<column name="compound" find="
-		    [Cc]onstituent _OR
-		    [Cc]ompound _OR
-		    [Cc]omponent
-		    " >
-		    <title>
-			    <query>
+		<column name="compound" case="insensitive" id="comp.col.comp">
+		    <title id="comp.col.comp.tit">
+			    <query id="comp.col.comp.tit.q">
 				    constituent OR
 				    compound OR
 				    component
+					NOT class
 			    </query>
 		    </title>
-			<cells>
-	  		  <regex oper="OR">percentage</regex>
-			</cells>
+			<cell id="comp.col.comp.cell">
+	  		  <query id="comp.col.comp.cell.q1">@CHEMICAL@</query>
+<!--	  		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query> -->
+			</cell>
 		</column>
 		    
 		<!-- column to retrieve/extract (percentages of compounds)-->
-		<column name="percentage" find="
-			[Pp]ercentage _OR
-			[Pp]eak [Aa]rea _OR
-			%" 
+		<column name="percentage" count="1,*" id="comp.col.perc"
 		>
-			<title>
-	  		    <query>
-				    percentage OR
-				    peak area OR
-				    ^.*%.*$
+			<title id="comp.col.perc.tit">
+	  		    <query id="comp.col.perc.tit.q">
+				    percentage  
+				    OR peak area 
+				    OR ^.*%.*$
 				    NOT activity
 			    </query>
 			</title>
-			<cell>
-	  		    <query>
-	  		        FLOAT
-	  		    </query>
+			<cell id="comp.col.perc.cell">
+			  <query id="comp.col.perc.cell.q">
+  		        @NUM@ OR
+  		        @NUM_ERROR@ OR
+  		        @NUM_PERCENT@ OR
+				^\s*$ OR
+				^\-$ OR
+				@EMDASH@ OR
+				^t$
+			  </query>
 			</cell>
-			<footer>
-			    <query>
-			        AFTER total
+			<footer id="comp.col.perc.foot">
+			    <query id="comp.col.perc.foot.q">
+			        Total
 			    </query>
 			</footer>
 		</column>
 	</template>
 	
+	<!--
 	<template name="activity">
-		<title find="
-		[Aa]ctivity
-		target"
+		<title 
 		/>
-		<file regex=".*/table_\d+\.xml"/>
-		<column name="activity" find="activity">
+		<column name="target" >
 		  <title>
 		  </title>
-		  <cells>
-		  </cells>
-		</column>
-		<column name="target" find="target">
+		  <cell>
+		    @SPECIES@
+		  </cell>
 		</column>
 	</template>
 	
     <template name="mic">
-		<title find="
-		[Aa]ctivity
-		target"
+		<title 
 		/>
-		<table regex=".*/table_\d+\.xml"/>
-		<column name="activity" find="activity">
+		<column name="activity">
 		  <title>
+		    
 		  </title>
 		  <cell>
 		  </cell>
 		</column>
 	</template>
+		-->
 	<!--  https://stackoverflow.com/questions/9830506/how-do-you-use-colspan-and-rowspan-in-html-tables/9830847#9830847  -->
 </templateList>
