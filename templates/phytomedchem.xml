@@ -51,6 +51,9 @@
 	  		  <query id="comp.col.comp.cell.q1">@CHEMICAL@</query>
 <!--	  		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query> -->
 			</cell>
+			<footer>
+				<query>total OR yield OR terpene</query>
+			</footer>
 		</column>
 		    
 		<!-- column to retrieve/extract (percentages of compounds)-->
@@ -75,11 +78,15 @@
 				^t$
 			  </query>
 			</cell>
+			<!--
 			<footer id="comp.col.perc.foot">
 			    <query id="comp.col.perc.foot.q">
-			        Total
+			        total OR
+					Mean OR
+					average
 			    </query>
 			</footer>
+				-->
 		</column>
 	</template>
 	
