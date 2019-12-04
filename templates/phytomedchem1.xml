@@ -1,0 +1,61 @@
+<templateList case="insensitive">
+	<variable name="@EMDASH@">—</variable>
+    <variable name="@INT@">\-?\d+</variable>
+    <variable name="@FLOAT@">\-?\d+\.\d+</variable>
+    <variable name="@NUM@">@INT@|@FLOAT@</variable>
+	
+	<variable name="@ALPHANUM@">A-Za-z0-9</variable>
+	<variable name="@GREEK@">αβγδ</variable>
+    <variable name="@NUM_PERCENT@">@NUM@\s*%</variable>
+    <variable name="@NUM_ERROR@">@NUM@\s*±\s*@NUM@</variable>
+    <variable name="@CHEMICAL@">^[@ALPHANUM@@GREEK@\(\)\-\.,\s]+$</variable>
+	
+    <variable name="@SPECIES@">(?-i) [A-Z](\.|[a-z]+)\s+[a-z]+</variable>
+    <variable name="@CEV@">/Users/pm286/projects/CEVOpen</variable>
+    <variable name="@DICTIONARY@">@CEV@/dictionary</variable>
+    <variable name="@COMPOUND_DICT@">@DICTIONARY@/compound/compound.xml</variable>
+    <!--  filename of table -->
+	<file id="root.file">
+	  <query id="root.file.q">
+	      ^.*\/table_\d+\.html$
+	  </query>
+	</file>
+
+<!-- composition table (percentage of compounds in oils) -->
+	<template name="composition" id="comp">
+			 
+		
+		<!-- column to retrieve/extract (names of compounds)-->
+		<column name="compound" case="insensitive" id="comp.col.comp">
+		    <title id="comp.col.comp.tit">
+			    <query id="comp.col.comp.tit.q">
+				    constituent OR
+				    compound OR
+				    component
+					NOT class
+			    </query>
+		    </title>
+			<cell id="comp.col.comp.cell"> 
+	  		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query>
+			</cell>
+			<footer>
+				<query>total OR yield OR terpene</query>
+			</footer>
+		</column>
+		    
+	    <!--  title of table -->
+		<title id="comp.tit">
+			  <query id="comp.tit.q" case="insensitive">
+				 dummmy OR
+				 chemical\s+composition OR
+				 composition\s+of OR
+	             compound\s+composition OR
+	             phytochemical\s+constituents OR
+			     (main|major)\s+(components|constituents|compounds)
+				 NOT (class|proximate|effects?)
+			  </query>
+		</title>
+	</template>
+	
+
+</templateList>

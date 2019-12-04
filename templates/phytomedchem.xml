@@ -49,7 +49,7 @@
 		    </title>
 			<cell id="comp.col.comp.cell">
 	  		  <query id="comp.col.comp.cell.q1">@CHEMICAL@</query>
-<!--	  		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query> -->
+    		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query> -->
 			</cell>
 			<footer>
 				<query>total OR yield OR terpene</query>
