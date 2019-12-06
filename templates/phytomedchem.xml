@@ -11,9 +11,10 @@
     <variable name="@CHEMICAL@">^[@ALPHANUM@@GREEK@\(\)\-\.,\s]+$</variable>
 	
     <variable name="@SPECIES@">(?-i) [A-Z](\.|[a-z]+)\s+[a-z]+</variable>
-    <variable name="@CEV@">/Users/pm286/workspace/CEVOpen</variable>
+    <variable name="@CEV@">/Users/pm286/projects/CEVOpen</variable>
     <variable name="@DICTIONARY@">@CEV@/dictionary/</variable>
     <variable name="@COMPOUND_DICT@">@DICTIONARY@/compound/compound.xml</variable>
+    <variable name="@SPECIES_DICT@">@DICTIONARY@/species/species.xml</variable>
     <!--  filename of table -->
 	<file id="root.file">
 	  <query id="root.file.q">
@@ -48,8 +49,9 @@
 			    </query>
 		    </title>
 			<cell id="comp.col.comp.cell">
-	  		  <query id="comp.col.comp.cell.q1">@CHEMICAL@</query>
-    		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query> -->
+	  		  <!-- <query id="comp.col.comp.cell.q1">@CHEMICAL@</query> -->
+    		  <query id="comp.col.comp.cell.q2" mode="lookup">@COMPOUND_DICT@</query>
+			  
 			</cell>
 			<footer>
 				<query>total OR yield OR terpene</query>
@@ -57,18 +59,17 @@
 		</column>
 		    
 		<!-- column to retrieve/extract (percentages of compounds)-->
-		<column name="percentage" count="1,*" id="comp.col.perc"
-		>
-			<title id="comp.col.perc.tit">
-	  		    <query id="comp.col.perc.tit.q">
+		<column name="percentage" count="1,*" id="comp.col.percent">
+			<title id="comp.col.percent.tit">
+	  		    <query id="comp.col.percent.tit.q">
 				    percentage  
 				    OR peak area 
 				    OR ^.*%.*$
 				    NOT activity
 			    </query>
 			</title>
-			<cell id="comp.col.perc.cell">
-			  <query id="comp.col.perc.cell.q">
+			<cell id="comp.col.percent.cell">
+			  <query id="comp.col.percent.cell.q">
   		        @NUM@ OR
   		        @NUM_ERROR@ OR
   		        @NUM_PERCENT@ OR
@@ -78,40 +79,78 @@
 				^t$
 			  </query>
 			</cell>
-			<!--
-			<footer id="comp.col.perc.foot">
-			    <query id="comp.col.perc.foot.q">
+			<footer id="comp.col.percent.foot">
+			    <query id="comp.col.percent.foot.q">
 			        total OR
 					Mean OR
 					average
 			    </query>
 			</footer>
-				-->
 		</column>
 	</template>
 	
-	<!--
 	<template name="activity">
-		<title 
-		/>
+	    <!--  title of table -->
+		<title id="activ.tit">
+		    <query id="activ.tit.q">
+			    activity OR
+			    bacter.*
+				NOT class
+		    </query>
+		</title>
 		<column name="target" >
-		  <title>
+		  <title >
+			    <query id="activ.col.target.tit.q">
+				    target OR
+				    pathogen OR
+				    bacteria
+					NOT class
+			    </query>
 		  </title>
 		  <cell>
 		    @SPECIES@
 		  </cell>
 		</column>
-	</template>
-	
-    <template name="mic">
-		<title 
-		/>
-		<column name="activity">
-		  <title>
-		    
+		<column name="value" >
+		  <title >
+			    <query id="activ.col.value.tit.q">
+				    target OR
+				    pathogen OR
+				    Oflox.*
+					NOT class
+			    </query>
 		  </title>
 		  <cell>
+			  @NUM@
 		  </cell>
+		</column>
+	</template>
+	
+	<!-- 
+    <template name="dummy">
+		<title id="dummy.tit">
+		    <query id="dummy.tit.q">
+			    dummy OR
+			    rummy 
+				NOT gummy
+		    </query>
+		</title>
+		<column name="plugh" id="dummy.col.plugh>
+		    <title id="dummy.col.plugh.tit">
+			    <query id="dummy.col.plugh.tit.q">
+				    constituent OR
+				    compound OR
+				    component
+					NOT class
+			    </query>
+		    </title>
+			<cell id="dummy.col.plugh.cell">
+	  		  <query id="dummy.col.plugh.q1">@CHEMICAL@</query>
+    		  <query id="dummy.col.plugh.q2" mode="lookup">@COMPOUND_DICT@</query>
+			</cell>
+			<footer>
+				<query>total OR yield OR terpene</query>
+			</footer>
 		</column>
 	</template>
 		-->
