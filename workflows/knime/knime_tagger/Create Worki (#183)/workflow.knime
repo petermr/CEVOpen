@@ -4,6 +4,12 @@
 <entry key="created_by_nightly" type="xboolean" value="false"/>
 <entry key="version" type="xstring" value="3.8.0"/>
 <entry key="name" type="xstring" value="Create Working Paths"/>
+<config key="authorInformation">
+<entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
+<entry key="authored-when" type="xstring" value="1970-01-01 01:00:00 +0100"/>
+<entry key="lastEdited-by" type="xstring" isnull="true" value=""/>
+<entry key="lastEdited-when" type="xstring" isnull="true" value=""/>
+</config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
@@ -148,5 +154,14 @@
 </config>
 </config>
 </config>
+</config>
+<config key="workflow_editor_settings">
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.gridX" type="xint" value="-1"/>
+<entry key="workflow.editor.gridY" type="xint" value="-1"/>
+<entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+<entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
+<entry key="workflow.editor.connectionWidth" type="xint" value="1"/>
 </config>
 </config>
