@@ -93,8 +93,15 @@
 	    <!--  title of table -->
 		<title id="activ.tit">
 		    <query id="activ.tit.q">
-			    activity OR
-			    bacter.*
+			    activit.* OR
+			    bacteri.* OR 
+			    mortalit.* OR 
+			    [Aa]ntibact.* OR 
+			    [Aa]ntifung.* OR 
+			    [Aa]nti?infect.* OR 
+			    [Aa]nti?oxid.* OR 
+			    [Aa]nti?helm.* OR 
+			    effects?
 				NOT class
 		    </query>
 		</title>
