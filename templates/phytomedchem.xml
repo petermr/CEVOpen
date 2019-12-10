@@ -6,11 +6,13 @@
 	
 	<variable name="@ALPHANUM@">A-Za-z0-9</variable>
 	<variable name="@GREEK@">αβγδ</variable>
-    <variable name="@NUM_PERCENT@">@NUM@\s*%</variable>
-    <variable name="@NUM_ERROR@">@NUM@\s*±\s*@NUM@</variable>
+    <variable name="@NUM_PERCENT@">(@NUM@)\s*%</variable>
+    <variable name="@NUM_ERROR@">(@NUM@)\s*±\s*(@NUM@)</variable>
     <variable name="@CHEMICAL@">^[@ALPHANUM@@GREEK@\(\)\-\.,\s]+$</variable>
 	
-    <variable name="@SPECIES@">(?-i) [A-Z](\.|[a-z]+)\s+[a-z]+</variable>
+    <variable name="@S_I@">__i_</variable>
+    <variable name="@E_I@">_i__</variable>
+    <variable name="@SPECIES@">@S_I@\s*[A-Z](\.|[a-z]+)\s+[a-z]+\s*@E_I@</variable>
     <variable name="@CEV@">/Users/pm286/projects/CEVOpen</variable>
     <variable name="@DICTIONARY@">@CEV@/dictionary/</variable>
     <variable name="@COMPOUND_DICT@">@DICTIONARY@/compound/compound.xml</variable>
@@ -36,7 +38,13 @@
 				 NOT (class|proximate|effects?)
 			  </query>
 		</title>
-			 
+		<!-- 
+		<split id="comp.split">
+			<query id="comp.split.q" titles="THEAD THEAD_err">
+				 @NUM_ERROR@
+			</query>
+		</split>
+		-->
 		
 		<!-- column to retrieve/extract (names of compounds)-->
 		<column name="compound" case="insensitive" id="comp.col.comp">
@@ -70,9 +78,9 @@
 			</title>
 			<cell id="comp.col.percent.cell">
 			  <query id="comp.col.percent.cell.q">
-  		        @NUM@ OR
   		        @NUM_ERROR@ OR
   		        @NUM_PERCENT@ OR
+  		        @NUM@ OR
 				^\s*$ OR
 				^\-$ OR
 				@EMDASH@ OR
@@ -93,41 +101,46 @@
 	    <!--  title of table -->
 		<title id="activ.tit">
 		    <query id="activ.tit.q">
-			    activit.* OR
-			    bacteri.* OR 
-			    mortalit.* OR 
+			    [Aa]ctivit.* OR
+			    [Bb]acteri.* OR 
+			    [Mm]ortalit.* OR 
+			    [Aa]caricid.* OR 
 			    [Aa]ntibact.* OR 
 			    [Aa]ntifung.* OR 
 			    [Aa]nti?infect.* OR 
 			    [Aa]nti?oxid.* OR 
 			    [Aa]nti?helm.* OR 
+			    [Ii]nhibit.* OR 
+			    [Tt]oxicit.* OR 
+			    MIC OR 
+			    MFC OR
+			    MBC OR 
 			    effects?
-				NOT class
+				NOT (class|proximate|amino|content|composition|mineral)
 		    </query>
 		</title>
+		<!--  using .* doesn't work yet  -->
+		<!--  need to add when the cell values match -->
 		<column name="target" >
 		  <title >
-			    <query id="activ.col.target.tit.q">
-				    target OR
-				    pathogen OR
-				    bacteria
-					NOT class
-			    </query>
+		    <query id="activ.col.target.tit.q">
+		    .*organism.*
+		    </query>
 		  </title>
-		  <cell>
+		  <cell match="0.2">
 		    @SPECIES@
 		  </cell>
 		</column>
+		
 		<column name="value" >
 		  <title >
-			    <query id="activ.col.value.tit.q">
-				    target OR
-				    pathogen OR
-				    Oflox.*
-					NOT class
-			    </query>
+		    <query id="activ.col.value.tit.q">
+		    MIC OR MBC OR activit.*
+		    </query>
 		  </title>
-		  <cell>
+		  <cell match="0.2">
+			  @NUM_ERROR@ OR
+			  @NUM_PERCENT@ OR
 			  @NUM@
 		  </cell>
 		</column>
