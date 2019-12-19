@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p id="Par34" class="p">In general, there are four types of enzyme inhibition: competitive, non-competitive, uncompetitive and mixed. For mixed-type inhibition, the Lineweaver-Burk equation in a double reciprocal form can be expressed as follows:
- <disp-formula id="Equ1" class="disp-formula">
-  <label class="label">1</label>
-  <alternatives class="alternatives">
-   <tex-math id="M5" class="tex-math">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ 1/v={\mathrm{K}}_{\mathrm{m}}/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}\ \left(1+\left[\mathrm{I}\right]/{\mathrm{K}}_{\mathrm{i}}\right)\ 1/\left[\mathrm{S}\right]+1/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}\ \left(1+\left[\mathrm{I}\right]/{\upalpha \mathrm{K}}_{\mathrm{i}}\right) $$\end{document}</tex-math>
-   <math id="M6" display="block" class="math">
-    <mn class="mn">1</mn>
-    <mo class="mo">/</mo>
-    <mi class="mi">v</mi>
-    <mo class="mo">=</mo>
-    <msub class="msub">
-     <mi mathvariant="normal" class="mi">K</mi>
-     <mi mathvariant="normal" class="mi">m</mi>
+<p id="Par34">In general, there are four types of enzyme inhibition: competitive, non-competitive, uncompetitive and mixed. For mixed-type inhibition, the Lineweaver-Burk equation in a double reciprocal form can be expressed as follows:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ 1/v={\mathrm{K}}_{\mathrm{m}}/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}\ \left(1+\left[\mathrm{I}\right]/{\mathrm{K}}_{\mathrm{i}}\right)\ 1/\left[\mathrm{S}\right]+1/{\mathrm{V}}_{\mathrm{m}\mathrm{ax}}\ \left(1+\left[\mathrm{I}\right]/{\upalpha \mathrm{K}}_{\mathrm{i}}\right) $$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mn>1</mn>
+    <mo>/</mo>
+    <mi>v</mi>
+    <mo>=</mo>
+    <msub>
+     <mi mathvariant="normal">K</mi>
+     <mi mathvariant="normal">m</mi>
     </msub>
-    <mo class="mo">/</mo>
-    <msub class="msub">
-     <mi mathvariant="normal" class="mi">V</mi>
-     <mi class="mi">max</mi>
+    <mo>/</mo>
+    <msub>
+     <mi mathvariant="normal">V</mi>
+     <mi>max</mi>
     </msub>
-    <mspace width="0.25em" class="mspace"/>
-    <mfenced close=")" open="(" class="mfenced">
-     <mrow class="mrow">
-      <mn class="mn">1</mn>
-      <mo class="mo">+</mo>
-      <mfenced close="]" open="[" class="mfenced">
-       <mi mathvariant="normal" class="mi">I</mi>
+    <mspace width="0.25em"/>
+    <mfenced close=")" open="(">
+     <mrow>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mfenced close="]" open="[">
+       <mi mathvariant="normal">I</mi>
       </mfenced>
-      <mo class="mo">/</mo>
-      <msub class="msub">
-       <mi mathvariant="normal" class="mi">K</mi>
-       <mi mathvariant="normal" class="mi">i</mi>
+      <mo>/</mo>
+      <msub>
+       <mi mathvariant="normal">K</mi>
+       <mi mathvariant="normal">i</mi>
       </msub>
      </mrow>
     </mfenced>
-    <mspace width="0.25em" class="mspace"/>
-    <mn class="mn">1</mn>
-    <mo class="mo">/</mo>
-    <mfenced close="]" open="[" class="mfenced">
-     <mi mathvariant="normal" class="mi">S</mi>
+    <mspace width="0.25em"/>
+    <mn>1</mn>
+    <mo>/</mo>
+    <mfenced close="]" open="[">
+     <mi mathvariant="normal">S</mi>
     </mfenced>
-    <mo class="mo">+</mo>
-    <mn class="mn">1</mn>
-    <mo class="mo">/</mo>
-    <msub class="msub">
-     <mi mathvariant="normal" class="mi">V</mi>
-     <mi class="mi">max</mi>
+    <mo>+</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <msub>
+     <mi mathvariant="normal">V</mi>
+     <mi>max</mi>
     </msub>
-    <mspace width="0.25em" class="mspace"/>
-    <mfenced close=")" open="(" class="mfenced">
-     <mrow class="mrow">
-      <mn class="mn">1</mn>
-      <mo class="mo">+</mo>
-      <mfenced close="]" open="[" class="mfenced">
-       <mi mathvariant="normal" class="mi">I</mi>
+    <mspace width="0.25em"/>
+    <mfenced close=")" open="(">
+     <mrow>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mfenced close="]" open="[">
+       <mi mathvariant="normal">I</mi>
       </mfenced>
-      <mo class="mo">/</mo>
-      <msub class="msub">
-       <mi class="mi">αK</mi>
-       <mi mathvariant="normal" class="mi">i</mi>
+      <mo>/</mo>
+      <msub>
+       <mi>αK</mi>
+       <mi mathvariant="normal">i</mi>
       </msub>
      </mrow>
     </mfenced>
    </math>
-   <graphic xlink:href="12906_2018_2145_Article_Equ1.gif" position="anchor" class="graphic" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <graphic xlink:href="12906_2018_2145_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
   </alternatives>
  </disp-formula>
 </p>

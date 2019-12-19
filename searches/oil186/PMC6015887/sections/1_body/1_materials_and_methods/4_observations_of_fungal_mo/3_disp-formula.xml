@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<disp-formula id="E3" class="disp-formula">
- <math id="M3" class="math">
-  <mrow class="mrow">
-   <mtext class="mtext">MI</mtext>
-   <mo stretchy="false" class="mo">(</mo>
-   <mi class="mi">%</mi>
-   <mo stretchy="false" class="mo">)</mo>
-   <mo class="mo">=</mo>
-   <mrow class="mrow">
-    <mo class="mo">[</mo>
-    <mrow class="mrow">
-     <mn class="mn">1</mn>
-     <mo class="mo">−</mo>
-     <mrow class="mrow">
-      <mo class="mo">(</mo>
-      <mrow class="mrow">
-       <mfrac class="mfrac">
-        <mrow class="mrow">
-         <mtext class="mtext">number of stained spores</mtext>
+<disp-formula id="E3">
+ <math id="M3">
+  <mrow>
+   <mtext>MI</mtext>
+   <mo stretchy="false">(</mo>
+   <mi>%</mi>
+   <mo stretchy="false">)</mo>
+   <mo>=</mo>
+   <mrow>
+    <mo>[</mo>
+    <mrow>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mtext>number of stained spores</mtext>
         </mrow>
-        <mrow class="mrow">
-         <mtext class="mtext">number of total spores</mtext>
+        <mrow>
+         <mtext>number of total spores</mtext>
         </mrow>
        </mfrac>
       </mrow>
-      <mo class="mo">)</mo>
+      <mo>)</mo>
      </mrow>
     </mrow>
-    <mo class="mo">]</mo>
+    <mo>]</mo>
    </mrow>
-   <mo class="mo">×</mo>
-   <mn class="mn">100</mn>
+   <mo>×</mo>
+   <mn>100</mn>
   </mrow>
  </math>
 </disp-formula>

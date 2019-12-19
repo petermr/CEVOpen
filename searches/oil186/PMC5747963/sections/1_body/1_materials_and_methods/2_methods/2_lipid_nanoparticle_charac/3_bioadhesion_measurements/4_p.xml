@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p class="p">The normalized adhesion parameter ΔAUC/AUC was subsequently calculated according to the following equation: 
- <disp-formula id="fd1-ijn-13-175" class="disp-formula">
-  <math id="mm1" class="math">
-   <mrow class="mrow">
-    <mi mathvariant="normal" class="mi">Δ</mi>
-    <mtext class="mtext">AUC</mtext>
-    <mo class="mo">/</mo>
-    <mtext class="mtext">AUC</mtext>
-    <mo class="mo">=</mo>
-    <mo stretchy="false" class="mo">(</mo>
-    <msub class="msub">
-     <mrow class="mrow">
-      <mtext class="mtext">AUC</mtext>
+<p>The normalized adhesion parameter ΔAUC/AUC was subsequently calculated according to the following equation: 
+ <disp-formula id="fd1-ijn-13-175">
+  <math id="mm1">
+   <mrow>
+    <mi mathvariant="normal">Δ</mi>
+    <mtext>AUC</mtext>
+    <mo>/</mo>
+    <mtext>AUC</mtext>
+    <mo>=</mo>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mtext>AUC</mtext>
      </mrow>
-     <mrow class="mrow">
-      <mtext class="mtext">bs</mtext>
-     </mrow>
-    </msub>
-    <mo class="mo">−</mo>
-    <msub class="msub">
-     <mrow class="mrow">
-      <mtext class="mtext">AUC</mtext>
-     </mrow>
-     <mrow class="mrow">
-      <mtext class="mtext">blank</mtext>
+     <mrow>
+      <mtext>bs</mtext>
      </mrow>
     </msub>
-    <mo stretchy="false" class="mo">)</mo>
-    <mo class="mo">/</mo>
-    <msub class="msub">
-     <mrow class="mrow">
-      <mtext class="mtext">AUC</mtext>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mtext>AUC</mtext>
      </mrow>
-     <mrow class="mrow">
-      <mtext class="mtext">blank</mtext>
+     <mrow>
+      <mtext>blank</mtext>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>/</mo>
+    <msub>
+     <mrow>
+      <mtext>AUC</mtext>
+     </mrow>
+     <mrow>
+      <mtext>blank</mtext>
      </mrow>
     </msub>
    </mrow>
   </math>
  </disp-formula>where: 
- <list list-type="simple" class="list">
-  <list-item class="list-item">
-   <p class="p">AUC
-    <sub class="sub">bs</sub> = work of adhesion obtained in presence of the biologic substrate;
+ <list list-type="simple">
+  <list-item>
+   <p>AUC
+    <sub>bs</sub> = work of adhesion obtained in presence of the biologic substrate;
    </p>
   </list-item>
-  <list-item class="list-item">
-   <p class="p">AUC
-    <sub class="sub">blank</sub> = work of adhesion obtained from blank measurements.
+  <list-item>
+   <p>AUC
+    <sub>blank</sub> = work of adhesion obtained from blank measurements.
    </p>
   </list-item>
  </list>

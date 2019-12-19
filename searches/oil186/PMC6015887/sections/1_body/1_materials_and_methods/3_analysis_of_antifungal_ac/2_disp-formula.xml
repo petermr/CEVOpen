@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<disp-formula id="E1" class="disp-formula">
- <math id="M1" class="math">
-  <mrow class="mrow">
-   <mtext class="mtext">PI</mtext>
-   <mo stretchy="false" class="mo">(</mo>
-   <mtext class="mtext">%</mtext>
-   <mo stretchy="false" class="mo">)</mo>
-   <mo class="mo">=</mo>
-   <mo stretchy="false" class="mo">(</mo>
-   <mtext class="mtext">dc</mtext>
-   <mo class="mo">−</mo>
-   <mtext class="mtext">dt</mtext>
-   <mo stretchy="false" class="mo">)</mo>
-   <mo class="mo">/</mo>
-   <mtext class="mtext">dc</mtext>
-   <mo class="mo">×</mo>
-   <mn class="mn">100</mn>
+<disp-formula id="E1">
+ <math id="M1">
+  <mrow>
+   <mtext>PI</mtext>
+   <mo stretchy="false">(</mo>
+   <mtext>%</mtext>
+   <mo stretchy="false">)</mo>
+   <mo>=</mo>
+   <mo stretchy="false">(</mo>
+   <mtext>dc</mtext>
+   <mo>−</mo>
+   <mtext>dt</mtext>
+   <mo stretchy="false">)</mo>
+   <mo>/</mo>
+   <mtext>dc</mtext>
+   <mo>×</mo>
+   <mn>100</mn>
   </mrow>
  </math>
 </disp-formula>

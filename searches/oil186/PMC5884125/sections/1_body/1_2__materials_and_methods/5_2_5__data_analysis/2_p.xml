@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p class="p">Short sequences &lt; 200 bp were removed after depleting primers and barcodes; sequences with ambiguous base calls were also removed. Sequences with homopolymer runs exceeding 6 bp were removed, as the threshold used was 6 bp. Sequences were then denoised and chimeras were removed. Operational taxonomic units (OTUs) were formed at 97% similarity (3% divergence) using UCLUST after removing singleton sequences [
- <xref rid="B13" ref-type="bibr" class="xref">13</xref>]. RDP classifier version 2.2 was used for taxonomic assignments within the GreenGenes taxonomy [
- <xref rid="B14" ref-type="bibr" class="xref">14</xref>, 
- <xref rid="B15" ref-type="bibr" class="xref">15</xref>]. The OTUs were rarefied (randomly subsampled) to 30000 sequences and the signified sequences were aligned to
- <italic class="italic"> 16S </italic>reference sequences with PyNAST [
- <xref rid="B16" ref-type="bibr" class="xref">16</xref>]. The aligned multiple sequences were used to create tree in FastTree [
- <xref rid="B17" ref-type="bibr" class="xref">17</xref>].
+<p>Short sequences &lt; 200 bp were removed after depleting primers and barcodes; sequences with ambiguous base calls were also removed. Sequences with homopolymer runs exceeding 6 bp were removed, as the threshold used was 6 bp. Sequences were then denoised and chimeras were removed. Operational taxonomic units (OTUs) were formed at 97% similarity (3% divergence) using UCLUST after removing singleton sequences [
+ <xref rid="B13" ref-type="bibr">13</xref>]. RDP classifier version 2.2 was used for taxonomic assignments within the GreenGenes taxonomy [
+ <xref rid="B14" ref-type="bibr">14</xref>, 
+ <xref rid="B15" ref-type="bibr">15</xref>]. The OTUs were rarefied (randomly subsampled) to 30000 sequences and the signified sequences were aligned to
+ <italic> 16S </italic>reference sequences with PyNAST [
+ <xref rid="B16" ref-type="bibr">16</xref>]. The aligned multiple sequences were used to create tree in FastTree [
+ <xref rid="B17" ref-type="bibr">17</xref>].
 </p>

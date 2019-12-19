@@ -1,138 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p class="p">The predicted biological value (BV) of the protein isolates was obtained using the regression equation described by Chavan et al. (
- <xref rid="fsn3508-bib-0016" ref-type="ref" class="xref">2001</xref>) as shown below:
- <disp-formula id="fsn3508-disp-0001" class="disp-formula">
-  <math id="nlm-math-1" class="math">
-   <mrow class="mrow">
-    <mtext class="mtext">BV</mtext>
-    <mo class="mo">=</mo>
-    <msup class="msup">
-     <mn class="mn">10</mn>
-     <mrow class="mrow">
-      <mn class="mn">2.15</mn>
+<p>The predicted biological value (BV) of the protein isolates was obtained using the regression equation described by Chavan et al. (
+ <xref rid="fsn3508-bib-0016" ref-type="ref">2001</xref>) as shown below:
+ <disp-formula id="fsn3508-disp-0001">
+  <math id="nlm-math-1">
+   <mrow>
+    <mtext>BV</mtext>
+    <mo>=</mo>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mn>2.15</mn>
      </mrow>
     </msup>
-    <mo class="mo">×</mo>
-    <msubsup class="msubsup">
-     <mi class="mi">q</mi>
-     <mrow class="mrow">
-      <mi mathvariant="normal" class="mi">Lys</mi>
+    <mo>×</mo>
+    <msubsup>
+     <mi>q</mi>
+     <mrow>
+      <mi mathvariant="normal">Lys</mi>
      </mrow>
-     <mrow class="mrow">
-      <mn class="mn">0.41</mn>
-     </mrow>
-    </msubsup>
-    <mo class="mo">×</mo>
-    <msubsup class="msubsup">
-     <mi class="mi">q</mi>
-     <mrow class="mrow">
-      <mi mathvariant="normal" class="mi">Phe</mi>
-      <mo class="mo">+</mo>
-      <mi mathvariant="normal" class="mi">Tyr</mi>
-     </mrow>
-     <mrow class="mrow">
-      <mn class="mn">0.60</mn>
+     <mrow>
+      <mn>0.41</mn>
      </mrow>
     </msubsup>
-    <mo class="mo">×</mo>
-    <msubsup class="msubsup">
-     <mi class="mi">q</mi>
-     <mrow class="mrow">
-      <mi mathvariant="normal" class="mi">Met</mi>
-      <mo class="mo">+</mo>
-      <mi mathvariant="normal" class="mi">Cys</mi>
+    <mo>×</mo>
+    <msubsup>
+     <mi>q</mi>
+     <mrow>
+      <mi mathvariant="normal">Phe</mi>
+      <mo>+</mo>
+      <mi mathvariant="normal">Tyr</mi>
      </mrow>
-     <mrow class="mrow">
-      <mn class="mn">0.77</mn>
+     <mrow>
+      <mn>0.60</mn>
      </mrow>
     </msubsup>
-    <mo class="mo">×</mo>
-    <msubsup class="msubsup">
-     <mi class="mi">q</mi>
-     <mrow class="mrow">
-      <mi mathvariant="normal" class="mi">Thr</mi>
+    <mo>×</mo>
+    <msubsup>
+     <mi>q</mi>
+     <mrow>
+      <mi mathvariant="normal">Met</mi>
+      <mo>+</mo>
+      <mi mathvariant="normal">Cys</mi>
      </mrow>
-     <mn class="mn">24</mn>
+     <mrow>
+      <mn>0.77</mn>
+     </mrow>
     </msubsup>
-    <mo class="mo">×</mo>
-    <msubsup class="msubsup">
-     <mi class="mi">q</mi>
-     <mrow class="mrow">
-      <mi mathvariant="normal" class="mi">Trp</mi>
+    <mo>×</mo>
+    <msubsup>
+     <mi>q</mi>
+     <mrow>
+      <mi mathvariant="normal">Thr</mi>
      </mrow>
-     <mrow class="mrow">
-      <mn class="mn">0.21</mn>
+     <mn>24</mn>
+    </msubsup>
+    <mo>×</mo>
+    <msubsup>
+     <mi>q</mi>
+     <mrow>
+      <mi mathvariant="normal">Trp</mi>
+     </mrow>
+     <mrow>
+      <mn>0.21</mn>
      </mrow>
     </msubsup>
    </mrow>
   </math>
  </disp-formula>where,
- <disp-formula id="fsn3508-disp-0002" class="disp-formula">
-  <math id="nlm-math-2" class="math">
-   <mrow class="mrow">
-    <mi class="mi">q</mi>
-    <mo class="mo">=</mo>
-    <mfrac class="mfrac">
-     <msub class="msub">
-      <mi class="mi">a</mi>
-      <mrow class="mrow">
-       <mi class="mi">i</mi>
-       <mspace width="0.166667em" class="mspace"/>
-       <mi mathvariant="normal" class="mi">Sample</mi>
+ <disp-formula id="fsn3508-disp-0002">
+  <math id="nlm-math-2">
+   <mrow>
+    <mi>q</mi>
+    <mo>=</mo>
+    <mfrac>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mspace width="0.166667em"/>
+       <mi mathvariant="normal">Sample</mi>
       </mrow>
      </msub>
-     <msub class="msub">
-      <mi class="mi">a</mi>
-      <mrow class="mrow">
-       <mi class="mi">i</mi>
-       <mspace width="0.166667em" class="mspace"/>
-       <mi mathvariant="normal" class="mi">Reference</mi>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mspace width="0.166667em"/>
+       <mi mathvariant="normal">Reference</mi>
       </mrow>
      </msub>
     </mfrac>
    </mrow>
   </math>
  </disp-formula>for 
- <italic class="italic">a</italic>
- <sub class="sub">
-  <italic class="italic">i</italic>
+ <italic>a</italic>
+ <sub>
+  <italic>i</italic>
  </sub> Sample ≤ 
- <italic class="italic">a</italic>
- <sub class="sub">
-  <italic class="italic">i</italic>
+ <italic>a</italic>
+ <sub>
+  <italic>i</italic>
  </sub> Reference
- <disp-formula id="fsn3508-disp-0003" class="disp-formula">
-  <math id="nlm-math-3" class="math">
-   <mrow class="mrow">
-    <mi class="mi">q</mi>
-    <mo class="mo">=</mo>
-    <mfrac class="mfrac">
-     <msub class="msub">
-      <mi class="mi">a</mi>
-      <mrow class="mrow">
-       <mi class="mi">i</mi>
-       <mspace width="0.166667em" class="mspace"/>
-       <mi mathvariant="normal" class="mi">Sample</mi>
+ <disp-formula id="fsn3508-disp-0003">
+  <math id="nlm-math-3">
+   <mrow>
+    <mi>q</mi>
+    <mo>=</mo>
+    <mfrac>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mspace width="0.166667em"/>
+       <mi mathvariant="normal">Sample</mi>
       </mrow>
      </msub>
-     <msub class="msub">
-      <mi class="mi">a</mi>
-      <mrow class="mrow">
-       <mi class="mi">i</mi>
-       <mspace width="0.166667em" class="mspace"/>
-       <mi mathvariant="normal" class="mi">Reference</mi>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mspace width="0.166667em"/>
+       <mi mathvariant="normal">Reference</mi>
       </mrow>
      </msub>
     </mfrac>
    </mrow>
   </math>
  </disp-formula>for 
- <italic class="italic">a</italic>
- <sub class="sub">
-  <italic class="italic">i</italic>
+ <italic>a</italic>
+ <sub>
+  <italic>i</italic>
  </sub> Reference ≥ 
- <italic class="italic">a</italic>
- <sub class="sub">
-  <italic class="italic">i</italic>
+ <italic>a</italic>
+ <sub>
+  <italic>i</italic>
  </sub>Sample
 </p>

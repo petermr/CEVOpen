@@ -1,85 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<table-wrap id="medicines-04-00030-t002" orientation="portrait" position="float" class="table-wrap">
- <object-id pub-id-type="pii" class="object-id">medicines-04-00030-t002_Table 2</object-id>
- <label class="label">Table 2</label>
- <caption class="caption">
-  <p class="p">AA of 
-   <italic class="italic">Achillea millefolium</italic> L. essential oil evaluated in sunflower oxidation test (Oxipres method).
-  </p>
- </caption>
- <table frame="hsides" rules="groups" class="table">
-  <thead class="thead">
-   <tr class="tr">
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Additive</th>
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Concentration %</th>
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Protection Factor (PF) 
-     <sup class="sup">a</sup>
-    </th>
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Antioxidant Activity (AA) 
-     <sup class="sup">b</sup>
-    </th>
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">Induction Period (IP) 
-     <sup class="sup">c</sup>
-    </th>
-    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1" class="th">RSD 
-     <sup class="sup">d</sup>
-    </th>
-   </tr>
-  </thead>
-  <tbody class="tbody">
-   <tr class="tr">
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Without additive</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.00</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.00</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">-</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">2.90</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.30</td>
-   </tr>
-   <tr class="tr">
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">BHT</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.02</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.47</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.00</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">4.26</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.50</td>
-   </tr>
-   <tr class="tr">
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Essential oil</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.20</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.71</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.51</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">4.96</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.50</td>
-   </tr>
-   <tr class="tr">
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">Essential oil</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.10</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.29</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">0.62</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">3.74</td>
-    <td align="center" valign="middle" rowspan="1" colspan="1" class="td">1.00</td>
-   </tr>
-   <tr class="tr">
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">Essential oil</td>
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.05</td>
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">1.17</td>
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.36</td>
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">3.39</td>
-    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1" class="td">0.40</td>
-   </tr>
-  </tbody>
- </table>
- <table-wrap-foot class="table-wrap-foot">
-  <fn class="fn">
-   <p class="p">
-    <sup class="sup">a</sup> PF = IP
-    <sub class="sub">(sample with additive)</sub>/IP
-    <sub class="sub">(sample without additive)</sub>; 
-    <sup class="sup">b</sup> AA was determined by comparison with the reference (BHT 0.02%); 
-    <sup class="sup">c</sup> IP = time when the pressure start to reduce suddenly; 
-    <sup class="sup">d</sup> RSD: the relative standard deviation (
-    <italic class="italic">n</italic> = 3).
-   </p>
-  </fn>
- </table-wrap-foot>
-</table-wrap>
+<table xmlns="http://www.w3.org/1999/xhtml">
+ <tr>
+  <td>0-0-. // Additive</td>
+  <td>0-1-. // Concentration %</td>
+  <td>0-2-. // Protection Fact</td>
+  <td>0-3-. // Antioxidant Act</td>
+  <td>0-4-. // Induction Perio</td>
+  <td>0-5-. // RSD d </td>
+ </tr>
+</table>

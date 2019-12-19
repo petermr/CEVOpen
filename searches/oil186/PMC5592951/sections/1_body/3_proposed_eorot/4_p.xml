@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p class="p">After completing the reduction phase, the optimization process begins its role in the EOROT algorithm. Generally, the optimization process is a popular computational technique that tends to find the optimal solution to the current problem. The main purpose of the optimization phase in EOROT is to find the proper EO that can inhibit the bacteria with the best MIC. PSO is the optimization algorithm that is used in EOROT; it is based on defining the population of the current problem that consists of some particles (i.e., bacteria and EOs) represented by a matrix 
- <italic class="italic">P</italic> = [
- <italic class="italic">N
-  <sub class="sub">i</sub>
+<p>After completing the reduction phase, the optimization process begins its role in the EOROT algorithm. Generally, the optimization process is a popular computational technique that tends to find the optimal solution to the current problem. The main purpose of the optimization phase in EOROT is to find the proper EO that can inhibit the bacteria with the best MIC. PSO is the optimization algorithm that is used in EOROT; it is based on defining the population of the current problem that consists of some particles (i.e., bacteria and EOs) represented by a matrix 
+ <italic>P</italic> = [
+ <italic>N
+  <sub>i</sub>
  </italic> * 
- <italic class="italic">M
-  <sub class="sub">j</sub>
+ <italic>M
+  <sub>j</sub>
  </italic>], where 
- <italic class="italic">N</italic> is the bacteria and 
- <italic class="italic">M</italic> is the EO. For every bacteria, the target is to find the inhibitory EO with minimum MIC. Thus, the searching process begins by initializing the bacteria and the EO’s MIC degree and changing the velocity of the search until the optimal solution is reached. This method reduces time and cost substantially, where the algorithm takes into consideration how to optimize the number of EOs that affects the bacteria to achieve a high utilization of one EO in inhibiting multiple types of bacteria. 
- <xref ref-type="fig" rid="f2-aabc-10-065" class="xref">Figure 2</xref> displays how the PSO works in order to find the optimal EO for the selected bacteria.
+ <italic>N</italic> is the bacteria and 
+ <italic>M</italic> is the EO. For every bacteria, the target is to find the inhibitory EO with minimum MIC. Thus, the searching process begins by initializing the bacteria and the EO’s MIC degree and changing the velocity of the search until the optimal solution is reached. This method reduces time and cost substantially, where the algorithm takes into consideration how to optimize the number of EOs that affects the bacteria to achieve a high utilization of one EO in inhibiting multiple types of bacteria. 
+ <xref ref-type="fig" rid="f2-aabc-10-065">Figure 2</xref> displays how the PSO works in order to find the optimal EO for the selected bacteria.
 </p>
