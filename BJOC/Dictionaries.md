@@ -11,11 +11,11 @@
 
 * https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv 
 
-186-paper table  of target microorganisms, activity term, and sectionTitles.
+**186-paper table**  of target microorganisms, activity term, and sectionTitles.
 
 * https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv
 
-dictionary of 134 microrganisms + WikidataID and frequencies 
+**dictionary** of 134 microrganisms + WikidataID and frequencies 
 
 ## Location
 (Origins of the plant material, not of where the experiments were conducted)
