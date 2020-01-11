@@ -1,30 +1,70 @@
-# Manually created dictionaries
+**Manually created dictionaries**
+=================================
 
-## Plant 
-(Layman and Botanical Names / Species)
+ 
 
-## Plant Parts 
-(from which oils are extracted)
+ 
 
-## Microorganisms 
-(upon which experiments are conducted to determine whether EOs have any effect on them, and if so, how much)
+**Plant**
+---------
 
-* https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv 
+**[Layman and Botanical Names / Species]**
 
-**186-paper table**  of target microorganisms, activity term, and sectionTitles.
+ 
 
-* https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv
+**Plant Parts**
+---------------
 
-**dictionary** of 134 microrganisms + WikidataID and frequencies 
+**[The various parts from which oils are extracted]**
 
-## Location
-(Origins of the plant material, not of where the experiments were conducted)
+ 
 
-## Extraction
-(Methods and materials used for EO extraction)
+**Location**
+------------
 
-## Chemical Analysis
-(Constituent components and their relative quantities)
+**[Origins of the harvested plant material, not where the experiments were
+conducted]**
 
-## Activities
+ 
 
+**Extraction Methods**
+----------------------
+
+**[Methods and materials used for EO extraction]**
+
+ 
+
+**Essential Oils**
+------------------
+
+ 
+
+**Chemical Analysis**
+---------------------
+
+**[Constituent components and their relative quantities]**
+
+ 
+
+**Activities** 
+---------------
+
+ 
+
+**Microorganisms**
+------------------
+
+[Bacteria, Fungi, and or \____\_ upon which experiments are conducted to
+determine what effect EOs have on them ; if any, and if so, how much)
+
+-   https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv
+
+**186-paper table** of target microorganisms, activity term, and sectionTitles.
+
+**Dictionary** of 134 microrganisms + WikidataID and frequencies
+
+-   https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv
+
+ 
+
+ 
