@@ -19,8 +19,11 @@
 
  
 
-**Origin​**
-----------
+**Plant Origin​**[^1]
+--------------------
+
+[^1]: [@petermr] Suggest we rename “Location” to “Plant Origin” to remove
+ambiguity
 
 **[Origins of the harvested plant material, not where the experiments were
 conducted]**
