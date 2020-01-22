@@ -84,7 +84,7 @@ Dictionaries and their contents
 ------------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Microorganisms are the bacteria, fungi, yeasts and molds, protozoa, algae, or viruses upon which the experiments were conducted to determine what effect (Activities) EOs may have on them.
+[In this version of the Dictionary?] Microorganisms are the bacteria, fungi, yeasts and molds, protozoa, algae, or viruses upon which the experiments were conducted to determine what effect (Activities) EOs may have on them.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Dictionaries and their contents
@@ -94,11 +94,6 @@ Microorganisms are the bacteria, fungi, yeasts and molds, protozoa, algae, or vi
 
 -   [Dictionary of 134 microrganisms + WikidataID and
     frequencies](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv)
-
- 
-
-**Peter, should I omit Viruses from the definition since we’re not focusing on
-that right now, or leave it in and see what the data delivers?**
 
  
 
