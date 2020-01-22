@@ -1,76 +1,106 @@
-**Manually created dictionaries**
+**Manually Created Dictionaries**
 =================================
 
  
 
  
 
-**Plants**
-----------
+**Plant**
+---------
 
-*[Layman and Botanical Names / Species]*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Origins of the Essential Oil extracts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
-
-**Plant Parts**
----------------
-
-*[The various parts from which oils are extracted]*
+Layman and Botanical Names / Species
 
  
 
-**Plant Origins​**[^1]
+**Plant Part**
+--------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The various parts from which oils are extracted
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+
+ 
+
+**Plant Origins**
+-----------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The geographical origins of the harvested plant material
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dictionaries and their contents
+
+ 
+
+**Essential Oil (Extracts?)**
+-----------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The concentrated hydrophobic liquid containing volatile chemical compounds extracted from plants. Essential oils are also known as volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from which they were extracted, such as oil of clove.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+
+**Extraction Method**
 ---------------------
 
-[^1]: [@petermr] Suggest we rename “Location” to “Plant Origin” to remove
-ambiguity
-
-*[Origins of the harvested plant material, not where the experiments were
-conducted]*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Equipment, methods and materials used for EO extraction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
-**Essential Oils**
-------------------
-
  
 
-**Extraction Methods**
-----------------------
-
-*[Methods and materials used for EO extraction]*
-
- 
-
-**Chemical Analyses**
+**Chemical Analysis**
 ---------------------
 
-*[Constituent components and their relative quantities]*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Qualitative (constituent compounds) and quantitative (%) analysis of the chemical composition of the tested Essential Oils (Extracts?), with each known compound linked to it's IUPAC International Chemical Identifier (InChI). 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
-**Activities** 
----------------
+ 
+
+**Activities**
+--------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tested biochemical and/or biological activities, and where available, their measured results.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dictionaries and their contents
 
  
 
 **Microorganisms**
 ------------------
 
-*[Microortanisms are Bacteria, Fungi, and/or \____\_ upon which experiments are
-conducted to determine what effect EOs have on them ; if any, and if so, how
-much)*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Microorganisms are the bacteria, fungi, yeasts and molds, protozoa, algae, or viruses upon which the experiments were conducted to determine what effect (Activities) EOs may have on them.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--    
+### Dictionaries and their contents
 
-**186-paper table** of target microorganisms, activity term, and sectionTitles.
+-   [186-paper table of target microorganisms, activity term, and
+    sectionTitles](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv)
 
--   https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv
-
-**Dictionary** of 134 microrganisms + WikidataID and frequencies
-
--   https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv
+-   [Dictionary of 134 microrganisms + WikidataID and
+    frequencies](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv)
 
  
 
+**Peter, should I omit Viruses from the definition since we’re not focusing on
+that right now, or leave it in and see what the data delivers?**
+
  
+
+**Diseases**
+------------
