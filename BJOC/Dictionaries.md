@@ -67,6 +67,11 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the chemica
 
  
 
+Instruments
+-----------
+
+ 
+
  
 
 Activities
@@ -80,30 +85,32 @@ Dictionaries and their contents
 
  
 
-Microorganisms
+Target Species
 --------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[In this version of the Dictionary?] Microorganisms are the bacteria, fungi, yeasts and molds, protozoa, algae, or viruses upon which the experiments were conducted to determine what effect (Activities) EOs may have on them.
+The organisms used as targets of experiments conducted to determine what effect(s) (Activities) tested EOs may have on them. They may occur as A) single-cells or colonies, such as bacteria, fungi, yeasts and molds, protozoa, algae, or viruses; B) insects such as mosquitos, flies, etc.; or, C) they may be helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes (flukes).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
-### **Dictionaries** and their contents **extracted from 186-papers**: 
+### **Dictionaries** and their contents **extracted from 186-papers**:
 
 -    
 
--   [targetOrganismCount.csv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv
-    ) A dictionary of 133 microrganisms mentioned in tests + WikidataID +
+-   [targetOrganismCount.csv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv)
+    A dictionary of 133 target organisms mentioned in tests + WikidataID +
     frequencies (the number of times the organisms occurred in the 186 source
     papers)
+
+-   [country20191222DESCRIPTION.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/country20191222.tsv)
 
  
 
 ### **Tables** and their contents, originally **imported from EssOilDbv1.**0
 
--   [targetOrganismSpecies20191218.tsv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv
-    ) A table of target microorganisms, activity term, and sectionTitles
+-   [targetOrganismSpecies20191218.tsv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismSpecies20191218.tsv)
+    A table of target microorganisms, activity term, and sectionTitles
 
 -   oil186ManualAnalysis20191019.tsv
 

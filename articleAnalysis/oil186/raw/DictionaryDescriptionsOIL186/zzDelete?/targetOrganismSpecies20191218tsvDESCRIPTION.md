@@ -1,5 +1,10 @@
-Description of Table & Contents:
-================================
+Target Organism Dictionary
+==========================
+
+ 
+
+Description of Table and its Contents:
+--------------------------------------
 
 A dictionary of **[number]**:
 
@@ -29,7 +34,11 @@ File Data
 Table Column Headings
 ---------------------
 
--   **PMCID:** Unique identifier linked to EssOilDbv1.0
+-   **PMCID:** [Identification code for the article from which the data is being
+    extracted. PubMed Central](http://www.ncbi.nlm.nih.gov/pmc/)** **is an
+    **archive** of **full-text** journal articles. The National Library of
+    Medicine assigns a PMCID, also known as a PMC Identifier, to each full-text
+    paper in PubMed Central.
 
 -   **activity:** Activities related to the tested Essential Oil
 

@@ -1,5 +1,10 @@
-Description of Table & Contents:
-================================
+**Target Organism Dictionary**
+------------------------------
+
+ 
+
+Description of Table and its Contents:
+--------------------------------------
 
 A dictionary of 133 microrganisms mentioned in tests + WikidataID + frequencies
 (the number of times the organisms occurred in the 186 source papers)
@@ -13,8 +18,6 @@ File Data
 
 -   **File Location**:
     <https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv>
-
--   **Last Table Commit:** Dec 20, 2019
 
  
 
@@ -44,6 +47,8 @@ Contents/Results
 
 -   **Genera (single word or spp):** 10
 
+ 
+
 Notes:
 ------
 
@@ -61,6 +66,9 @@ Notes:
 
  
 
-**NOTE: After resolving duplicates, we must update the No. Of Entries (currently
+**Questions for Peter:**
+========================
+
+After resolving for duplicates, should must update the No. Of Entries (currently
 133) under the title and Contents/Results section of this document — as well as
-the main Dictionaries.md file**
+the main Dictionaries.md file
