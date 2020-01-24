@@ -1,7 +1,14 @@
-Manually Created Dictionaries
-=============================
+**AboutOIL186Dictionaries.md**
+==============================
 
- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This document contains informatin about the Manually Created Dictionaries for OIL186. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PLEASE NOTE: Rather than alphabetical order, they are listed here in the logical
+progression from Plants -\> Extracts -\> Testing Methods and Instruments -\>
+Results Analysis -\> Activities -\> Target Organisms the activities were tested
+upon -\> Diseases related to those target organisms
 
  
 
