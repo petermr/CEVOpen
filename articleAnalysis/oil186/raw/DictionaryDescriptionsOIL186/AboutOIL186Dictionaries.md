@@ -34,7 +34,10 @@ Plant Origins
 The geographical origins of the harvested plant material
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Dictionaries and their contents
+A dictionary of 46 countries of origin mentioned in the 186 source articles for
+plants being tested.
+
+PlantOriginDescription.md
 
  
 
@@ -96,14 +99,10 @@ The organisms used as targets of experiments conducted to determine what effect(
 
 ### **Dictionaries** and their contents **extracted from 186-papers**:
 
--    
-
 -   [targetOrganismCount.csv](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/targetOrganismCount.csv)
     A dictionary of 133 target organisms mentioned in tests + WikidataID +
     frequencies (the number of times the organisms occurred in the 186 source
     papers)
-
--   [country20191222DESCRIPTION.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/country20191222.tsv)
 
  
 
