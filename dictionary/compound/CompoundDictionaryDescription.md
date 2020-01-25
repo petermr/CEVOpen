@@ -23,18 +23,19 @@ File Data
 Table Column Headings
 ---------------------
 
--   **/\@title:** type of data to be normalized and tagged with Wikidata ID.
+-   **title:** type of data to be normalized and tagged with Wikidata ID.
 
--   **/desc: **data source
+-   **desc:** data source
 
--   **/entry/\@name: **Name from original source
+-   **name:** The name is a human readable string describing the concept.
 
--   **/entry/\@term: **Name
+-   **term:** The term is the precise string used to identify the concept. Name
+    and Term are often the same.
 
--   **/entry/\@wikidata:** Unique identifier linked to Wikidata.org — a free and
-    open knowledge base that can be read and edited by both humans and machines.
+-   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
+    knowledge base that can be read and edited by both humans and machines.
 
- 
+    1qwertyui
 
 Contents/Results
 ----------------
