@@ -35,7 +35,7 @@ Table Column Headings
 -   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
-    1qwertyui
+ 
 
 Contents/Results
 ----------------
