@@ -21,10 +21,16 @@ Layman and Botanical Names / Species
 
 ### [OilPlant.xml](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml)
 
-A dictionary of **1678** constituent chemical compounds extracted from Essential
-Oils mentioned in the 186 test articles downloaded from PubMed. Of the **1678**
-entries, **??????** had their names normalized and tagged with corresponding
-Wikidata IDs, the other 112 remain to be resolved.
+-   **Description:** A dictionary of **1678** constituent chemical compounds
+    extracted from Essential Oils mentioned in the 186 test articles downloaded
+    from PubMed. Of the **1678** entries, **??????** had their names normalized
+    and tagged with corresponding Wikidata IDs, the other 112 remain to be
+    resolved.
+
+-   **Filename:** compound.xml
+
+-   **File Location**:
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml>
 
  
 
@@ -145,7 +151,19 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the chemica
 A dictionary of [24] makes/models of Gas chromatography–mass spectrometry equipment used to identify different substances within a test sample — in this case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### InstrumentDictionaryDescription.md
+ 
+
+### [InstrumentDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/InstrumentDictionaryDescription.md)
+
+-   **Description:** A dictionary of **[24]** makes/models of Gas
+    chromatography–mass spectrometry equipment used to identify different
+    substances within a test sample — in this case, Essential Oils mentioned in
+    the 186 test articles downloaded from PubMed.
+
+-   **Filename:** instrument.xml
+
+-   **File
+    Location**: <https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/raw/instrument.xml>
 
  
 
