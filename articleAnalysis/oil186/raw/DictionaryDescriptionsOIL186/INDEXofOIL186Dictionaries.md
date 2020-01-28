@@ -1,10 +1,10 @@
-**About the OIL186 Dictionaries**
-=================================
+**Index of​ the OIL186 Dictionaries**
+====================================
 
-<https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/AboutOIL186Dictionaries.md>
+<https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/>INDEXofOIL186Dictionaries.md
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This document contains informatin about the Manually Created Dictionaries for OIL186. 
+This document contains information about the Manually Created Dictionaries for OIL186. 
 
 PLEASE NOTE: Rather than alphabetical order, are listed here in the logical progression from Plants -> Extracts -> Testing Methods and Instruments -> Results Analysis -> Activities -> Target Organisms the activities were tested upon -> Diseases related to those target organisms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -119,13 +119,36 @@ Equipment, methods and materials used for EO extraction
 
  
 
-**EO Chemical Analysis**
-------------------------
+**EO Analysis Instruments**
+---------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A dictionary of [24] makes/models of Gas chromatography–mass spectrometry equipment used to identify different substances within a test sample — in this case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+
+### [InstrumentDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/InstrumentDictionaryDescription.md)
+
+-   **Description:** A dictionary of **[24]** makes/models of Gas
+    chromatography–mass spectrometry equipment used to identify different
+    substances within a test sample — in this case, Essential Oils mentioned in
+    the 186 test articles downloaded from PubMed.
+
+-   **Filename:** instrument.xml
+
+-   **File
+    Location**: <https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/raw/instrument.xml>
+
+ 
+
+**EO Chemical Analysis Results - Constituents and Concentrations**
+------------------------------------------------------------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile chemical compounds extracted from plants. Essential oils are also known as volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from which they were extracted, such as oil of clove.
 
-Qualitative (constituent compounds) and quantitative (%) analysis of the chemical composition of the tested Essential Oils (Extracts?), with each known compound linked to it's IUPAC International Chemical Identifier (InChI).
+Qualitative (constituent compounds) and quantitative (%) analysis of the chemical composition of the tested Essential Oils (Extracts?), with each known compound linked to its IUPAC International Chemical Identifier (InChI).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
@@ -156,27 +179,6 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the chemica
     <https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/compound.xml>
 
  
-
-**Analysis Instruments**
-------------------------
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A dictionary of [24] makes/models of Gas chromatography–mass spectrometry equipment used to identify different substances within a test sample — in this case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
- 
-
-### [InstrumentDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/InstrumentDictionaryDescription.md)
-
--   **Description:** A dictionary of **[24]** makes/models of Gas
-    chromatography–mass spectrometry equipment used to identify different
-    substances within a test sample — in this case, Essential Oils mentioned in
-    the 186 test articles downloaded from PubMed.
-
--   **Filename:** instrument.xml
-
--   **File
-    Location**: <https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/raw/instrument.xml>
 
  
 
