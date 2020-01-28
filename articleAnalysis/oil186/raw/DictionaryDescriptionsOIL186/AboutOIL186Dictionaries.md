@@ -1,14 +1,11 @@
-**AboutOIL186Dictionaries.md**
-==============================
+**About the OIL186 Dictionaries**
+=================================
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This document contains informatin about the Manually Created Dictionaries for OIL186. 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PLEASE NOTE: Rather than alphabetical order,  are listed here in the logical
-progression from Plants -\> Extracts -\> Testing Methods and Instruments -\>
-Results Analysis -\> Activities -\> Target Organisms the activities were tested
-upon -\> Diseases related to those target organisms
+PLEASE NOTE: Rather than alphabetical order, are listed here in the logical progression from Plants -> Extracts -> Testing Methods and Instruments -> Results Analysis -> Activities -> Target Organisms the activities were tested upon -> Diseases related to those target organisms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
@@ -19,7 +16,9 @@ upon -\> Diseases related to those target organisms
 Layman and Botanical Names / Species
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### [OilPlant.xml](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml)
+ 
+
+### [OilPlantDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/plant/OilPlantDictionaryDescription.md )
 
 -   **Description:** A dictionary of **1678** constituent chemical compounds
     extracted from Essential Oils mentioned in the 186 test articles downloaded
@@ -27,12 +26,10 @@ Layman and Botanical Names / Species
     and tagged with corresponding Wikidata IDs, the other 112 remain to be
     resolved.
 
--   **Filename:** compound.xml
+-   **Filename:** OilPlant.xml
 
 -   **File Location**:
     <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml>
-
- 
 
  
 
@@ -43,13 +40,13 @@ Layman and Botanical Names / Species
 The plant part or parts from which the mentioned oils are extracted
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--   **Dictionary:** PlantPartsDictionaryDescription.md
+ 
 
--   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from Essential Oils mentioned in the 186 test articles downloaded
-    from PubMed. Of the **1678** entries, **??????** had their names normalized
-    and tagged with corresponding Wikidata IDs, the other 112 remain to be
-    resolved.
+### [PlantPartsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/OilPlantDictionaryDescription.md)
+
+-   **Description:** A dictionary of **[XX]** part(s) of a plant from which
+    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
+    — were extracted.
 
 -   **Filename:** compound.xml
 
@@ -77,14 +74,34 @@ The geographical origins of the harvested plant material
 
  
 
-**Plant Extracts**
-------------------
+**Plant Harvesting Process**
+----------------------------
+
+**I don’t know how to describe this dictionary. **
+
+ 
+
+### ProcessDictionaryDescription.md
+
+-   **Description:** A dictionary of **[XX]** plant **processes** from which
+    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
+    — were **harvested**.
+
+-   **Filename:** process20191014.xml
+
+-   **File Location**:
+    [https://github.com/petermr/CEVOpen/blob/master/dictionary/process/process20191014.xml](https://github.com/petermr/CEVOpen/blob/master/dictionary/process/process20191014.xml)process20191014[.xml](.xml)
+
+ 
+
+**Plant Extracts (Essential Oils)**
+-----------------------------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The concentrated hydrophobic liquid containing volatile chemical compounds extracted from plants. Essential oils are also known as volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from which they were extracted, such as oil of clove.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+**This dictionary does not yet exits**
 
  
 
@@ -187,6 +204,20 @@ The organisms used as targets of experiments conducted to determine what effect(
 
  
 
+### TargetOrganismDictionaryDescription.md **Final???**
+
+-   **Description:** A dictionary of **[55]** organisms mentioned **[as subjects
+    of experiment?]** in the 186 test articles downloaded from PubMed.
+
+-   **Filename:** targetOrganism.xml
+
+-   **File Location**:
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetOrganism.xml>
+
+ 
+
+ 
+
 ### [TargetOrganismDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/TargetOrganismDictionaryDescription.md)
 
 -   **Description:** A dictionary of 133 microrganisms mentioned in tests +
@@ -200,11 +231,11 @@ The organisms used as targets of experiments conducted to determine what effect(
 
  
 
- 
-
 **Diseases**
 ------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Text for definitions goes here
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**This dictionary does not yet exits**
