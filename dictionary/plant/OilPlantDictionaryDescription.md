@@ -56,7 +56,8 @@ Contents/Results
 Notes:
 ------
 
--   Let’s rename this Dictionary.
+-   I propose we rename this Dictionary to “Plants”. (If we do, will we need to
+    update links elsewhere in GitHub, or will they resolve themselves?)
 
 -   I’m not sure how to deal with the duplicates… do we re-serialize the “id”?
 
@@ -65,9 +66,9 @@ Notes:
 
 -   **Duplicates (some of them more than once):** 48
 
-    -   *(See oil
-        *[OilPlantCopy.xlsx](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/OilPlantCopy.xlsx)*
-        for duplicates I’ve highlighted in yellow boxes.)*
+    -   *(See oil*
+        [OilPlantCopy.xlsx](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/OilPlantCopy.xlsx)
+        *for duplicates I’ve highlighted in yellow boxes.)*
 
     1.  Artemisia lobelii
 
