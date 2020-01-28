@@ -57,8 +57,8 @@ The plant part or parts from which the mentioned oils are extracted
 
  
 
-**Plant Origins**
------------------
+**Locations​**
+-------------
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The geographical origins of the harvested plant material
@@ -78,11 +78,8 @@ The geographical origins of the harvested plant material
 
  
 
-**Plant Growth/Collection/Processing Methods**
-----------------------------------------------
-
-**I don’t know how to best name/describe this dictionary. It’s shares entries
-with other dictionaries.**
+**Plant Material History**
+--------------------------
 
  
 
@@ -95,7 +92,7 @@ with other dictionaries.**
 -   **Filename:** process20191014.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/process/process20191014.xml>process20191014[.xml](.xml)
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/process/process20191014.xml>
 
  
 
@@ -153,19 +150,6 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the chemica
 
  
 
-### [ChemicalConstituentsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/ChemicalConstituentsDictionaryDescription.md)
-
--   **Description:** A dictionary of 30 chemical compounds extracted from
-    Essential Oil extraction and 6 Types of Chemical Analysis, mentioned in the
-    186 source articles for plant extracts being tested.
-
--   **Filename:** EOconstituents.tsv
-
--   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/EOconstituents.tsv>
-
- 
-
 ### [CompoundDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/CompoundDictionaryDescription.md)
 
 -   **Description:** A dictionary of 2114 constituent chemical compounds
@@ -220,7 +204,7 @@ The organisms used as targets of experiments conducted to determine what effect(
 -   **Filename:** targetOrganism.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetOrganism.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetorganism/targetOrganism.xml>
 
  
 
