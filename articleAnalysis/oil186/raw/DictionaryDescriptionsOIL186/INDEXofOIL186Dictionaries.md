@@ -1,18 +1,25 @@
-**Index of​ the OIL186 Dictionaries**
-====================================
+[Index of​ the OIL186 Dictionaries](<https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/>INDEXofOIL186Dictionaries.md )
+==========================================================================================================================================================================
 
-<https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/>INDEXofOIL186Dictionaries.md
+This document contains information about the Manually Created Dictionaries for
+OIL186.  
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This document contains information about the Manually Created Dictionaries for OIL186. 
-Dictionaries Purpose
-identify objects/concepts which are “concepts” eg. e.coli is a concept.
-Give them clear lexical names they can be searched with
-Give them a link to wikidata or other authorities so we can learn more about them.
-An object that goes by more than one name is a synonym
 
-PLEASE NOTE: Rather than alphabetical order, are listed here in the logical progression from Plants -> Extracts -> Testing Methods and Instruments -> Results Analysis -> Activities -> Target Organisms the activities were tested upon -> Diseases related to those target organisms
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**The purpose/function of Dictionaries:**
+
+1.  *Identify objects/concepts (eg. “e.coli" is a concept.). *
+
+2.  *Give each object clear lexical names by which they can be searched. (An
+    object that goes by more than one name is a synonym*)
+
+3.  *Give each object a link to wikidata (or other authorities) by which we can
+    learn more about them.*
+
+  
+*PLEASE NOTE: Rather than alphabetical order, are listed here in the logical
+progression from Plants -\> Extracts -\> Testing Methods and Instruments -\>
+Results Analysis -\> Activities -\> Target Organisms the activities were tested
+upon -\> Diseases related to those target organisms*
 
  
 
