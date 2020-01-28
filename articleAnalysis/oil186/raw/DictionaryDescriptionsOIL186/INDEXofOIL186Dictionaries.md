@@ -5,6 +5,11 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This document contains information about the Manually Created Dictionaries for OIL186. 
+Dictionaries Purpose
+identify objects/concepts which are “concepts” eg. e.coli is a concept.
+Give them clear lexical names they can be searched with
+Give them a link to wikidata or other authorities so we can learn more about them.
+An object that goes by more than one name is a synonym
 
 PLEASE NOTE: Rather than alphabetical order, are listed here in the logical progression from Plants -> Extracts -> Testing Methods and Instruments -> Results Analysis -> Activities -> Target Organisms the activities were tested upon -> Diseases related to those target organisms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -204,7 +209,7 @@ The organisms used as targets of experiments conducted to determine what effect(
 -   **Filename:** targetOrganism.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetorganism/targetOrganism.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetOrganism/targetOrganism.xml>
 
  
 
