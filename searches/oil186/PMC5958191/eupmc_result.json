@@ -53,6 +53,14 @@
           "initials": [
             "N"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-9836-0316",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of Basic Medical Sciences, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, United Arab Emirates."
           ]
@@ -111,6 +119,18 @@
       ]
     }
   ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9836-0316",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
   "journalInfo": [
     {
       "volume": [
@@ -134,7 +154,7 @@
       "journal": [
         {
           "title": [
-            "Frontiers in pharmacology"
+            "Frontiers in Pharmacology"
           ],
           "ISOAbbreviation": [
             "Front Pharmacol"
@@ -199,19 +219,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5958191?pdf=render"
+            "https://doi.org/10.3389/fphar.2018.00465"
           ]
         },
         {
@@ -233,19 +253,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.3389/fphar.2018.00465"
+            "http://europepmc.org/articles/PMC5958191?pdf=render"
           ]
         }
       ]
@@ -271,6 +291,9 @@
   ],
   "citedByCount": [
     "0"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -303,6 +326,9 @@
     "2018-06-06"
   ],
   "firstIndexDate": [
+    "2018-06-06"
+  ],
+  "fullTextReceivedDate": [
     "2018-06-06"
   ],
   "dateOfRevision": [

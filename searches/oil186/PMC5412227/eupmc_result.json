@@ -36,6 +36,14 @@
           "initials": [
             "B"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-2537-0628",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Razi Herbal Medicines Research Center, Lorestan University of Medical Sciences."
           ]
@@ -121,6 +129,12 @@
         },
         {
           "_": "0000-0001-6174-9013",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2537-0628",
           "$": {
             "type": "ORCID"
           }
@@ -570,19 +584,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5412227?pdf=render"
+            "https://doi.org/10.21010/ajtcam.v14i3.23"
           ]
         },
         {
@@ -604,19 +618,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.21010/ajtcam.v14i3.23"
+            "http://europepmc.org/articles/PMC5412227?pdf=render"
           ]
         }
       ]
@@ -641,7 +655,10 @@
     "N"
   ],
   "citedByCount": [
-    "0"
+    "2"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -675,6 +692,9 @@
   ],
   "firstIndexDate": [
     "2017-05-08"
+  ],
+  "fullTextReceivedDate": [
+    "2017-06-10"
   ],
   "dateOfRevision": [
     "2017-08-15"

@@ -78,6 +78,14 @@
           "initials": [
             "S"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-7996-8553",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of Food Science and Technology, Faculty of Agriculture, University of Tabriz, Tabriz, Iran."
           ]
@@ -105,6 +113,12 @@
   "authorIdList": [
     {
       "authorId": [
+        {
+          "_": "0000-0002-7996-8553",
+          "$": {
+            "type": "ORCID"
+          }
+        },
         {
           "_": "0000-0001-5040-9769",
           "$": {
@@ -204,19 +218,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5896384?pdf=render"
+            "https://doi.org/10.15171/apb.2018.013"
           ]
         },
         {
@@ -238,19 +252,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.15171/apb.2018.013"
+            "http://europepmc.org/articles/PMC5896384?pdf=render"
           ]
         }
       ]
@@ -276,6 +290,9 @@
   ],
   "citedByCount": [
     "1"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -309,6 +326,9 @@
   ],
   "firstIndexDate": [
     "2018-04-20"
+  ],
+  "fullTextReceivedDate": [
+    "2018-05-04"
   ],
   "dateOfRevision": [
     "2018-04-22"

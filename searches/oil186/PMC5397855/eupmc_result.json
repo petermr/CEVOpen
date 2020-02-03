@@ -267,24 +267,226 @@
       ]
     }
   ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tenebrio"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Garlic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oils, Volatile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Extracts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insecticides"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Larva"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pupa"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Plant Extracts"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Insecticides"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Oils, Volatile"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
   "fullTextUrlList": [
     {
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5397855?pdf=render"
+            "https://doi.org/10.1038/srep46406"
           ]
         },
         {
@@ -306,19 +508,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1038/srep46406"
+            "http://europepmc.org/articles/PMC5397855?pdf=render"
           ]
         }
       ]
@@ -343,7 +545,10 @@
     "Y"
   ],
   "citedByCount": [
-    "3"
+    "6"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -372,14 +577,20 @@
   "hasTMAccessionNumbers": [
     "N"
   ],
+  "dateOfCompletion": [
+    "2019-07-26"
+  ],
   "dateOfCreation": [
     "2017-04-21"
   ],
   "firstIndexDate": [
     "2017-04-20"
   ],
+  "fullTextReceivedDate": [
+    "2017-04-25"
+  ],
   "dateOfRevision": [
-    "2019-06-20"
+    "2019-07-26"
   ],
   "electronicPublicationDate": [
     "2017-04-20"

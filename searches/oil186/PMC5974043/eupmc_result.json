@@ -163,6 +163,14 @@
           "initials": [
             "F"
           ],
+          "authorId": [
+            {
+              "_": "0000-0003-3198-2580",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of Veterinary Sciences, University of Messina, Messina, Italy."
           ]
@@ -173,6 +181,12 @@
   "authorIdList": [
     {
       "authorId": [
+        {
+          "_": "0000-0003-3198-2580",
+          "$": {
+            "type": "ORCID"
+          }
+        },
         {
           "_": "0000-0001-8331-212X",
           "$": {
@@ -205,7 +219,7 @@
       "journal": [
         {
           "title": [
-            "Frontiers in Physiology"
+            "Frontiers in physiology"
           ],
           "ISOAbbreviation": [
             "Front Physiol"
@@ -268,19 +282,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5974043?pdf=render"
+            "https://doi.org/10.3389/fphys.2018.00596"
           ]
         },
         {
@@ -297,24 +311,24 @@
             "Europe_PMC"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5974043"
+            "https://europepmc.org/articles/PMC5974043"
           ]
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.3389/fphys.2018.00596"
+            "https://europepmc.org/articles/PMC5974043?pdf=render"
           ]
         }
       ]
@@ -339,7 +353,10 @@
     "N"
   ],
   "citedByCount": [
-    "0"
+    "2"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -379,6 +396,9 @@
     "2018-06-08"
   ],
   "firstIndexDate": [
+    "2018-06-08"
+  ],
+  "fullTextReceivedDate": [
     "2018-06-08"
   ],
   "dateOfRevision": [

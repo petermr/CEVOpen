@@ -489,19 +489,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5909600?pdf=render"
+            "https://doi.org/10.1371/journal.pone.0196035"
           ]
         },
         {
@@ -523,19 +523,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1371/journal.pone.0196035"
+            "http://europepmc.org/articles/PMC5909600?pdf=render"
           ]
         }
       ]
@@ -562,6 +562,9 @@
   "citedByCount": [
     "1"
   ],
+  "hasData": [
+    "Y"
+  ],
   "hasReferences": [
     "Y"
   ],
@@ -587,7 +590,14 @@
     "N"
   ],
   "hasTMAccessionNumbers": [
-    "N"
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refseq"
+      ]
+    }
   ],
   "dateOfCompletion": [
     "2018-07-23"
@@ -597,6 +607,9 @@
   ],
   "firstIndexDate": [
     "2018-04-20"
+  ],
+  "fullTextReceivedDate": [
+    "2018-05-11"
   ],
   "dateOfRevision": [
     "2018-07-23"

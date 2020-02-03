@@ -95,6 +95,14 @@
           "initials": [
             "A"
           ],
+          "authorId": [
+            {
+              "_": "0000-0001-7852-6326",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Federal Research Centre for Cultivated Plants, Institute for Ecological Chemistry, Plant Analysis and Stored Product Protection, Julius Kühn-Institute (JKI), Königin-Luise-Straße 19, 14195 Berlin, Germany."
           ]
@@ -140,6 +148,12 @@
     {
       "authorId": [
         {
+          "_": "0000-0001-7852-6326",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
           "_": "0000-0003-2009-2064",
           "$": {
             "type": "ORCID"
@@ -171,7 +185,7 @@
       "journal": [
         {
           "title": [
-            "Plant Methods"
+            "Plant methods"
           ],
           "ISOAbbreviation": [
             "Plant Methods"
@@ -238,19 +252,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5985564?pdf=render"
+            "https://doi.org/10.1186/s13007-018-0309-4"
           ]
         },
         {
@@ -272,19 +286,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1186/s13007-018-0309-4"
+            "http://europepmc.org/articles/PMC5985564?pdf=render"
           ]
         }
       ]
@@ -310,6 +324,9 @@
   ],
   "citedByCount": [
     "0"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -343,6 +360,9 @@
   ],
   "firstIndexDate": [
     "2018-06-09"
+  ],
+  "fullTextReceivedDate": [
+    "2018-06-11"
   ],
   "dateOfRevision": [
     "2018-06-10"

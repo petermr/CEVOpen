@@ -70,6 +70,14 @@
           "initials": [
             "K"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-5755-7112",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of life sciences, Laboratory of Biodiversity and Aquatic Ecosystems, Faculty of sciences, University of Sfax Tunisia, Road of Soukra Km 3.5, BP 1171, PC 3000, Sfax, Tunisia."
           ]
@@ -141,6 +149,18 @@
           "affiliation": [
             "Department of Life Sciences, Animal Ecophysiology Laboratory, Faculty of sciences, University of Sfax Tunisia, Road of Soukra Km 3.5, BP 1171, PC 3000, Sfax, Tunisia."
           ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5755-7112",
+          "$": {
+            "type": "ORCID"
+          }
         }
       ]
     }
@@ -961,19 +981,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5761127?pdf=render"
+            "https://doi.org/10.1186/s12944-017-0645-9"
           ]
         },
         {
@@ -995,19 +1015,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1186/s12944-017-0645-9"
+            "http://europepmc.org/articles/PMC5761127?pdf=render"
           ]
         }
       ]
@@ -1033,6 +1053,9 @@
   ],
   "citedByCount": [
     "1"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -1069,6 +1092,9 @@
   ],
   "firstIndexDate": [
     "2018-01-11"
+  ],
+  "fullTextReceivedDate": [
+    "2018-01-18"
   ],
   "dateOfRevision": [
     "2018-08-06"

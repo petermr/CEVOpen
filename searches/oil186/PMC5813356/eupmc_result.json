@@ -121,6 +121,14 @@
           "initials": [
             "Y"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-7788-9886",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of Analytical Chemistry, Applied Chemometrics and Molecular Modelling (FABI), Center for Pharmaceutical Research (CePhaR), Vrije Universiteit Brussel (VUB), Laarbeeklaan 103, 1090, Brussels, Belgium. Yvan.Vander.Heyden@vub.be."
           ]
@@ -141,6 +149,24 @@
           "affiliation": [
             "Pharmacognosy Research Group (GNOS), Louvain Drug Research Institute (LDRI), Université catholique de Louvain (UCL), B1.72.03 Av. E. Mounier 72, B-1200, Bruxelles, Belgium."
           ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2278-6206",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7788-9886",
+          "$": {
+            "type": "ORCID"
+          }
         }
       ]
     }
@@ -626,19 +652,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5813356?pdf=render"
+            "https://doi.org/10.1186/s12906-018-2128-6"
           ]
         },
         {
@@ -660,19 +686,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1186/s12906-018-2128-6"
+            "http://europepmc.org/articles/PMC5813356?pdf=render"
           ]
         }
       ]
@@ -697,7 +723,10 @@
     "N"
   ],
   "citedByCount": [
-    "0"
+    "1"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -734,6 +763,9 @@
   ],
   "firstIndexDate": [
     "2018-02-16"
+  ],
+  "fullTextReceivedDate": [
+    "2018-02-19"
   ],
   "dateOfRevision": [
     "2018-04-12"

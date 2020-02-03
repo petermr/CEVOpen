@@ -178,6 +178,14 @@
           "initials": [
             "L"
           ],
+          "authorId": [
+            {
+              "_": "0000-0003-0484-1918",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Programa de Pós-Graduação em Ciências Aplicadas a Produtos para Saúde, Departamento de Farmácia e Administração Farmacêutica, Faculdade de Farmácia, Universidade Federal Fluminense, Rua Doutor Mário Viana 523, 24241-000 Niterói, RJ, Brazil."
           ]
@@ -286,6 +294,12 @@
           }
         },
         {
+          "_": "0000-0003-0484-1918",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
           "_": "0000-0003-0309-9328",
           "$": {
             "type": "ORCID"
@@ -375,19 +389,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5651092?pdf=render"
+            "https://doi.org/10.1155/2017/5342947"
           ]
         },
         {
@@ -409,19 +423,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1155/2017/5342947"
+            "http://europepmc.org/articles/PMC5651092?pdf=render"
           ]
         }
       ]
@@ -446,7 +460,10 @@
     "N"
   ],
   "citedByCount": [
-    "1"
+    "2"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -479,6 +496,9 @@
     "2017-11-11"
   ],
   "firstIndexDate": [
+    "2017-11-11"
+  ],
+  "fullTextReceivedDate": [
     "2017-11-11"
   ],
   "dateOfRevision": [

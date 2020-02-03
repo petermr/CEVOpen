@@ -121,6 +121,14 @@
           "initials": [
             "R"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-8152-6826",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "ISTO, UMR 7327 CNRS Université d'Orléans, 1A rue de la Férollerie, 45071 Orléans CEDEX 2, France. regis.guegan@univ-orleans.fr."
           ]
@@ -158,6 +166,18 @@
           "affiliation": [
             "Faculty of Land Reclamation and Environmental Engineering, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, Sector 1, 011464 Bucharest, Romania. carmencimpeanu@yahoo.com."
           ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8152-6826",
+          "$": {
+            "type": "ORCID"
+          }
         }
       ]
     }
@@ -247,19 +267,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5978029?pdf=render"
+            "https://doi.org/10.3390/ma11050652"
           ]
         },
         {
@@ -281,19 +301,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.3390/ma11050652"
+            "http://europepmc.org/articles/PMC5978029?pdf=render"
           ]
         }
       ]
@@ -318,7 +338,10 @@
     "N"
   ],
   "citedByCount": [
-    "0"
+    "1"
+  ],
+  "hasData": [
+    "N"
   ],
   "hasReferences": [
     "Y"
@@ -352,6 +375,9 @@
   ],
   "firstIndexDate": [
     "2018-04-26"
+  ],
+  "fullTextReceivedDate": [
+    "2018-06-03"
   ],
   "dateOfRevision": [
     "2018-06-01"

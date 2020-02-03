@@ -95,6 +95,14 @@
           "initials": [
             "J"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-2887-6392",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Department of Pharmacognosy, University of Szeged, Szeged, Hungary."
           ]
@@ -208,6 +216,12 @@
     {
       "authorId": [
         {
+          "_": "0000-0002-2887-6392",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
           "_": "0000-0002-4725-9189",
           "$": {
             "type": "ORCID"
@@ -304,19 +318,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5897738?pdf=render"
+            "https://doi.org/10.3389/fphar.2018.00323"
           ]
         },
         {
@@ -333,24 +347,24 @@
             "Europe_PMC"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5897738"
+            "https://europepmc.org/articles/PMC5897738"
           ]
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.3389/fphar.2018.00323"
+            "https://europepmc.org/articles/PMC5897738?pdf=render"
           ]
         }
       ]
@@ -376,6 +390,9 @@
   ],
   "citedByCount": [
     "2"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -409,6 +426,9 @@
   ],
   "firstIndexDate": [
     "2018-04-23"
+  ],
+  "fullTextReceivedDate": [
+    "2018-05-04"
   ],
   "dateOfRevision": [
     "2018-04-25"

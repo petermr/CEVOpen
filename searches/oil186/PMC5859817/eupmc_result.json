@@ -78,6 +78,14 @@
           "initials": [
             "SM"
           ],
+          "authorId": [
+            {
+              "_": "0000-0002-3170-0785",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Institute of Biotechnology and Food Technology, Industrial University of Ho Chi Minh City, 12 Nguyen Van Bao Street, Go Vap District, Ho Chi Minh City, Vietnam."
           ]
@@ -90,6 +98,12 @@
       "authorId": [
         {
           "_": "0000-0001-7207-8120",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3170-0785",
           "$": {
             "type": "ORCID"
           }
@@ -172,19 +186,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5859817?pdf=render"
+            "https://doi.org/10.1155/2018/2730169"
           ]
         },
         {
@@ -206,19 +220,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.1155/2018/2730169"
+            "http://europepmc.org/articles/PMC5859817?pdf=render"
           ]
         }
       ]
@@ -244,6 +258,9 @@
   ],
   "citedByCount": [
     "0"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -277,6 +294,9 @@
   ],
   "firstIndexDate": [
     "2018-04-26"
+  ],
+  "fullTextReceivedDate": [
+    "2018-05-04"
   ],
   "dateOfRevision": [
     "2018-04-29"

@@ -172,6 +172,14 @@
           "initials": [
             "DJ"
           ],
+          "authorId": [
+            {
+              "_": "0000-0003-2314-6435",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
           "affiliation": [
             "Program in Comparative Biology and Bioinformatics, Yale University, New Haven, CT, United States."
           ]
@@ -201,6 +209,12 @@
       "authorId": [
         {
           "_": "0000-0002-0969-7823",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2314-6435",
           "$": {
             "type": "ORCID"
           }
@@ -237,7 +251,7 @@
       "journal": [
         {
           "title": [
-            "Frontiers in plant science"
+            "Frontiers in Plant Science"
           ],
           "ISOAbbreviation": [
             "Front Plant Sci"
@@ -320,19 +334,19 @@
       "fullTextUrl": [
         {
           "availability": [
-            "Open access"
+            "Subscription required"
           ],
           "availabilityCode": [
-            "OA"
+            "S"
           ],
           "documentStyle": [
-            "pdf"
+            "doi"
           ],
           "site": [
-            "Europe_PMC"
+            "DOI"
           ],
           "url": [
-            "http://europepmc.org/articles/PMC5694497?pdf=render"
+            "https://doi.org/10.3389/fpls.2017.01931"
           ]
         },
         {
@@ -354,19 +368,19 @@
         },
         {
           "availability": [
-            "Subscription required"
+            "Open access"
           ],
           "availabilityCode": [
-            "S"
+            "OA"
           ],
           "documentStyle": [
-            "doi"
+            "pdf"
           ],
           "site": [
-            "DOI"
+            "Europe_PMC"
           ],
           "url": [
-            "https://doi.org/10.3389/fpls.2017.01931"
+            "http://europepmc.org/articles/PMC5694497?pdf=render"
           ]
         }
       ]
@@ -392,6 +406,9 @@
   ],
   "citedByCount": [
     "0"
+  ],
+  "hasData": [
+    "Y"
   ],
   "hasReferences": [
     "Y"
@@ -425,6 +442,9 @@
   ],
   "firstIndexDate": [
     "2017-12-05"
+  ],
+  "fullTextReceivedDate": [
+    "2017-11-30"
   ],
   "dateOfRevision": [
     "2019-04-24"
