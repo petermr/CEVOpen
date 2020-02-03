@@ -1,0 +1,1814 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Manny</LastAuthor>
+  <Created>2020-02-03T19:14:02Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>0</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>1</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>2</Index>
+    <RGB>#AAAAAA</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#DBDBDB</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#AFE489</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FFD38A</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#FF9781</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#0563C1</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#FFDF7F</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#CC9900</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#FFFFFF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>28220</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#DBDBDB" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFDF7F" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#CC9900" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFDF7F" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#DBDBDB" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Font ss:FontName="Helvetica" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="processoil18620191018">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="84" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="414"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="157"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="127"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="242"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="98" ss:Span="2"/>
+   <Column ss:Index="11" ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="119"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="145"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="301"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="323"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Span="241"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">/@title</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">/entry/@description</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">/entry/@id</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">/entry/@name</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PlantHistoryCat1</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PlantHistoryCat2</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">/entry/@term</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">/entry/@wikidata</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">/link/@wikidata</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">/wikiIDconfidence</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">/desc/@wikidata</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">/entry/@wikipedia</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">/desc/@wikipedia</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Notes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.26</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Light</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">full sunlight</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">height in relation to a certain reference point; (general) distance measurement, usually in the vertical or &quot;up&quot; direction, between a reference datum and a point or object. The reference datum also often varies according to the context</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.2</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Location</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">altitude</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q190200</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">altitude</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">height in relation to a certain reference point; (general) distance measurement, usually in the vertical or up direction, between a reference datum and a point or object. The reference datum also often varies according to the context</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Do I delete this row or transfer it to another dictionary?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.38</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Propagation Method</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">micropropagated</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1934105</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">the propagation of plants by growing plantlets in tissue culture and then planting them out.</Data></Cell>
+    <Cell ss:StyleID="s25" ss:HRef="https://en.wikipedia.org/wiki/Plant_propagation"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">synonyms - distinguish DAVE id - Should we distinguish other propagation methods? (</Font><U><Font
+        html:Color="#0563C1">https://en.wikipedia.org/wiki/Plant_propagation</Font></U><Font
+       html:Color="#000000">) (</Font><U><Font html:Color="#0563C1">https://en.wikipedia.org/wiki/Micropropagation</Font></U><Font
+       html:Color="#000000">)  (</Font><U><Font html:Color="#0563C1">https://en.wikipedia.org/wiki/Plant_tissue_culture</Font></U><Font
+       html:Color="#000000">)</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">DAVE.PlantMaterialHistory.38</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Propagation Method</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">micropropagation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1934105</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">the propagation of plants by growing plantlets in tissue culture and then planting them out.</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">synonyms - distinguish DAVE id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between autumn and spring</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.73</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">winter</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1311</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between autumn and spring</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">winter</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">water source</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.57</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">spring</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1312</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between winter and summer</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">spring</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between spring and autumn</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.59</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">summer</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1313</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between spring and autumn</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">summer</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between summer and winter</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.4</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">autumn</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1314</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">one of the Earth's four temperate seasons, occurring between summer and winter</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">autumn</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">yearly period of low rainfall, especially in the tropics</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.15</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">dry season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q146575</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">yearly period of low rainfall, especially in the tropics</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">dry season</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.48</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">rainy season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q3117517</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">yearly period of high rainfall, especially in the tropics</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">rainy season</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">yearly period of high rainfall, especially in the tropics</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.71</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">wet season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q3117517</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">yearly period of high rainfall, especially in the tropics</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">wet season</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.43</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">planting time</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.52</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Season</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">seasonal change</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.14</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Stress Type</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">drought stress</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q12142810</Data></Cell>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/wiki/Q12142810"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/wiki/Q12142810</Font></U></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Links to Drought Tollerance</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">drought stress</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.51</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Stress Type</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">salinity stress</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.64</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Temperature</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">temperature</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q11466</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">The physical property of matter that quantitatively expresses the common notions of hot and cold</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Where terms like these cannot be linked to wikidata, do we tag them differently or treat them as “semantic” phrases?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.64</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Temperature</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">temperature variation</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Where terms like these cannot be linked to wikidata, do we tag them differently or treat them as “semantic” phrases?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.33</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Water</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">irrigation with fresh water</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.32</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Growth Conditions</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">incubated</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Do I category “icubated” as temperature? Or is it temperature + tim? or…?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">wood which has been dried in a kiln or oven</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.42</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">oven-dried</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q56403287</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">wood which has been dried in a kiln or oven</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">oven-dried</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">wood which has been dried in a kiln or oven</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.20</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">freeze-dried</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q723912</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">freeze-dried</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">state of extreme dryness, or the process of extreme drying</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DAVE.PlantMaterialHistory.11</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">desiccated</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q903071</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">state of extreme dryness, or the process of extreme drying</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">desiccated</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">synonyms - distinguish DAVE id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">state of extreme dryness, or the process of extreme drying</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.11</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">desiccation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q903071</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">state of extreme dryness, or the process of extreme drying</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">desiccation</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">state of extreme dryness, or the process of extreme drying</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">synonyms - distinguish DAVE id</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.1</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">air-drying</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25" ss:HRef="https://en.wikipedia.org/wiki/Drying"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Should we all the other drying methods listed in wikipedia? </Font><U><Font
+        html:Color="#0563C1">https://en.wikipedia.org/wiki/Drying</Font></U></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.40</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">microwave-dried</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.53</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Drying technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">shade-dried</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="263">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.31</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">hydrodistillation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1164392</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">hydrodistillation</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25" ss:HRef="https://www.researchgate.net/post/What_is_different_between_water_steam_distillation_and_steam_distillation_system"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Found here: </Font><U><Font html:Color="#0563C1">https://www.researchgate.net/post/What_is_different_between_water_steam_distillation_and_steam_distillation_system</Font></U><Font
+       html:Color="#000000">   In water distillation or hydrodistillation, elevated pressures is used with plants whose essential oils are difficult to extract at higher temperatures.&#10;&#10;In steam distillation, plant material is placed into a steam distillation chamber. Steam is forced into the chamber with it. As the essential oil interacts with the steam, the steam flows into the chilled condensed chamber, turning back into a liquid, providing the essential oil.&#10; Hydro distillation with Clevenger trap is used for the extraction of volatile oil(essential oil) and steam distillation is used in Industries for the isolation of volatile oil.  The advantage of steam distillation is that the plant material can be recovered after oil extraction for solvent extraction for the isolation of other non volatile compounds whereas in hydrodistillation the plant material is continuously boiled and not possible to recover. For large scale distillation handling of water is also not convenient.   Recovery of oil is higher in hydro distillation compared to steam distillation. </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.58</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">steam distillation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1164392</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">steam distillation</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.69</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">water distillation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q274959</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">water distillation</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">water that has had many of its impurities removed through distillation</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.29</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">headspace solvent microextraction</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q43844354</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.62</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">supercritical fluid extraction</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q4410204</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.28</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">headspace solid phase microextraction</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q58832405</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25" ss:HRef="https://www.google.com/search?newwindow=1&amp;safe=active&amp;sxsrf=ACYBGNTYc3gVt_mXBv4Rfa7itfqY120Idg:1580315638470&amp;ei=9rMxXs67HNfA5OUPkMqA4Ak&amp;q=headspace+solid+phase+microextraction+method&amp;oq=headspace+solid+phase+microextraction&amp;gs_l=psy-ab.3.1.0l2j0i22i30l8.962557.962557..966440...0.3..0.248.248.2-1......0....2j1..gws-wiz.......0i71.eHiTO5nfWUs"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">More info</Font></U></ss:Data></Cell>
+    <Cell ss:StyleID="s25" ss:HRef="https://www.wikidata.org/w/index.php?search=headspace+solid+phase+microextraction&amp;search=headspace+solid+phase+microextraction&amp;title=Special:Search&amp;go=Go&amp;ns0=1&amp;ns120=1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Peter, </Font><U><Font html:Color="#0563C1">which of these</Font></U><Font
+       html:Color="#000000">, if any, would be the right WikiID? How can I decide with confidence? Where WikiIDs don’t exist, what data will be the minimum required to make it worth uploading to wikidata? If we do upload, when/where will get get that new ID, and how do we feed it back into our Dictionary?</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.36</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">micro-steam distillation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q71541573</Data></Cell>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/wiki/Q71541573"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/wiki/Q71541573</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.37</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">microdistillation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q71541573</Data></Cell>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/wiki/Q71541573"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/wiki/Q71541573</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">method to separate compounds based on their relative solubilities in two different immiscible liquids, usually water and an organic solvent; extraction of a substance from one liquid into another liquid phase</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.55</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">solvent extraction</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q866399</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">solvent extraction</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">method to separate compounds based on their relative solubilities in two different immiscible liquids, usually water and an organic solvent; extraction of a substance from one liquid into another liquid phase</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Is this an extraction technique, or does the “solvent” make it an extraction component?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">solid phase extraction sampling technique that involves the use of a fiber coated with an extracting phase, that can be a liquid or a solid, which extracts different kinds of analytes from different kinds of media, that can be in liquid or gas phase</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.54</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">solid-phase microextraction</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q903970</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">solid-phase microextraction</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">solid phase extraction sampling technique that involves the use of a fiber coated with an extracting phase, that can be a liquid or a solid, which extracts different kinds of analytes from different kinds of media, that can be in liquid or gas phase</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.8</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">cold pressed</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.16</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">extraction technique</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="159">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.30</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">hexane extract</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/w/index.php?sort=relevance&amp;search=hexane+extraction&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns120=1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/w/index.php?sort=relevance&amp;search=hexane+extraction&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns120=1</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="107">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.39</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">microwave distillation</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/w/index.php?search=microwave%20distillation&amp;title=Special%3ASearch&amp;fulltext=1&amp;ns0=1&amp;ns120=1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/w/index.php?search=microwave%20distillation&amp;title=Special%3ASearch&amp;fulltext=1&amp;ns0=1&amp;ns120=1</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/wiki/Q42687459"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/wiki/Q42687459</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.60</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">supercritical co2</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/w/index.php?search=&amp;search=supercritical+co2+extraction&amp;title=Special%3ASearch&amp;go=Go&amp;ns0=1&amp;ns120=1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/w/index.php?search=&amp;search=supercritical+co2+extraction&amp;title=Special%3ASearch&amp;go=Go&amp;ns0=1&amp;ns120=1</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="159">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.61</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">supercritical extraction</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/w/index.php?sort=relevance&amp;search=supercritical+extraction&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns120=1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/w/index.php?sort=relevance&amp;search=supercritical+extraction&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns120=1</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.63</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EO extraction technique</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">superheated water extraction</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.13</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">dried</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">dried</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.45</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">powdered</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.49</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Post-Harvest Treatment</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">re-hydration</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q56355737</Data></Cell>
+    <Cell ss:StyleID="s24" ss:HRef="https://www.wikidata.org/wiki/Q56355737"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://www.wikidata.org/wiki/Q56355737</Font></U><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.10</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Breed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">cultivated breeds</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q788558</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.56</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Breed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">species comparision</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.66</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">variety comparision</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Breed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">variety comparision</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.72</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Breed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">wild breed</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.41</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Other</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">non-fruiting trees</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.21</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">fresh plant</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.17</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sex</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">female plant</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q43445</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.35</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Selection</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sex</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">male plant</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q44148</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">male plant</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.65</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">vacuum distilled oil</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Plant Material Product</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Extract</Data></Cell>
+    <Cell ss:StyleID="s24"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">vacuum distilled </Font><B><Font
+        html:Color="#000000">oil</Font></B></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1648382</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.9</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Product</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Extract</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">conventionally distilled oil</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Is this an EO extraction technique or a plant extract?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.50</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Product</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Extract</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">residual oil</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">I’m not sure how best to describe Plant Treatment, State, and Product</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.68</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Product</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Extract</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">volatile extract</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.70</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Material Product</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Extract</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">wax extract</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.23</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">fruiting</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1364</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">https://www.wikidata.org/wiki/Q1364</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">fruiting</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">part of a flowering plant</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.27</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">harvested</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q213753</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">form of asexual reproduction in plants</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.67</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">vegetative</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q464666</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">vegetative</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">form of asexual reproduction in plants</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.12</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">developmental stage</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q48834911</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">developmental stage</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.0</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">after flowering</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">DAVE.PlantMaterialHistory.19</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">anthesis</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">flowering</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">structure found in some plants (division Magnoliophyta / angiosperms) to support reproduction</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.5</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">beginning of flowering</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25" ss:HRef="https://wikidiff.com/bloom/flower"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://wikidiff.com/bloom/flower</Font></U></ss:Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">This page exists in wikipedia, but it has no data in it. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.19</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">flowering</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">flowering</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">structure found in some plants (division Magnoliophyta / angiosperms) to support reproduction</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.34</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">late flowering</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">form of asexual reproduction</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.7</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">budding</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q845312</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">budding</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">form of asexual reproduction</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.18</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">floral budding</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q845312</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.25</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">full budding</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q845312</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.6</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">blooming stage</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q885360</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25" ss:HRef="https://wikidiff.com/bloom/flower"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><U><Font
+        html:Color="#0563C1">https://wikidiff.com/bloom/flower</Font></U></ss:Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">This page exists in wikipedia, but it has no data in it. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.24</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">full bloom</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q885360</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.47</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">pre-blooming</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">pre-blooming</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q885360</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">anthesis: the flowering period of a plant, from the opening of the flower bud</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.22</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">fruit set</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fruit set&#160;is the process in which flowers become&#160;fruit&#160;and potential&#160;fruit&#160;size is determined. It occurs after pollen is released from male flower parts (anthers), lands on receptive female flower parts (stigmas), produces a tube that grows to the ovules, and fertilizes eggs contained in them.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.44</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">post anthesis</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.46</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">pre anthesis</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q593803</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">anthesis: the flowering period of a plant, from the opening of the flower bud</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">seed stage</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q40763</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">germination stage</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q193838</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">growth stage</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q1342838</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Plant Life Stage</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">pollination</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q134624</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">process</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">DAVE.PlantMaterialHistory.3</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">autolysis products</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Q787099</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">https://www.wikidata.org/wiki/Q787099</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">MED</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">A programmed cell death process observed in bacteria and filamentous fungi and leading to spontaneous death by lysis.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">In the food industry, autolysis involves killing yeast and encouraging breakdown of its cells by various enzymes. The resulting autolyzed yeast is used as a flavoring or flavor enhancer. For yeast extract, when this process is triggered by the addition of salt, it is known as plasmolysis</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">/dictionary</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Footer x:Data="&amp;C&amp;&quot;Helvetica Neue,Regular&quot;&amp;12&amp;K000000&amp;P"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>0</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C10:R84C10</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;-,HIGH,MED,LOW&quot;</Value>
+  </DataValidation>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C10:R84C10</Range>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>&quot;High&quot;</Value1>
+    <Format Style='color:black;background:#AFE489;mso-pattern:black none'/>
+   </Condition>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>&quot;MED&quot;</Value1>
+    <Format Style='color:black;background:#FFD38A;mso-pattern:black none'/>
+   </Condition>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>&quot;LOW&quot;</Value1>
+    <Format Style='color:black;background:#FF9781;mso-pattern:black none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>
