@@ -1,58 +1,56 @@
-[Index of​ the OIL186 Dictionaries](<https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/>INDEXofOIL186Dictionaries.md )
-==========================================================================================================================================================================
+**Index of​ the OIL186 Dictionaries**
+====================================
 
-This document contains information about the Manually Created Dictionaries for
-OIL186.  
+This
+[index](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/INDEXofOIL186Dictionaries.md)
+contains information about the Manually Created Dictionaries for OIL186.
+
+*PLEASE NOTE: Rather than alphabetical order, are listed here in the logical
+progression.*  
 
 
 **The purpose/function of Dictionaries:**
 
-1.  *Identify objects/concepts (eg. “e.coli" is a concept.). *
+1.  *Identify “things” as objects or concepts (eg. “e.coli" is a concept.).*
 
-2.  *Give each object clear lexical names by which they can be searched. (An
-    object that goes by more than one name is a synonym*)
+2.  *Give each object clear lexical names by which they can be searched. *  
+    *(An object that goes by more than one name is a synonym*.)
 
 3.  *Give each object a link to wikidata (or other authorities) by which we can
     learn more about them.*
 
-  
-*PLEASE NOTE: Rather than alphabetical order, are listed here in the logical
-progression from Plants -\> Extracts -\> Testing Methods and Instruments -\>
-Results Analysis -\> Activities -\> Target Organisms the activities were tested
-upon -\> Diseases related to those target organisms*
-
  
 
-**Plants**
-----------
+\*\*\*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Plant Essential Oils**
+------------------------
+
 Layman and Botanical Names / Species
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
-### [OilPlantDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/plant/OilPlantDictionaryDescription.md)
+### [PlantOilDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/plant/PlantOilDictionaryDescription.md)
 
 -   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from Essential Oils mentioned in the 186 test articles downloaded
-    from PubMed. Of the **1678** entries, **??????** had their names normalized
-    and tagged with corresponding Wikidata IDs, the other 112 remain to be
-    resolved.
+    extracted from the Essential Oils of **[XX] plants **mentioned in the 186
+    test articles downloaded from PubMed. Of the **1678** entries, **??????**
+    had their names normalized and tagged with corresponding Wikidata IDs, the
+    other 112 remain to be resolved.
 
--   **Filename:** OilPlant.xml
+-   **Filename:** PlantOil.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/PlantOil.xml>
 
  
+
+\*\*\*
 
 **Plant Parts**
 ---------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The plant part or parts from which the mentioned oils are extracted
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
@@ -69,12 +67,12 @@ The plant part or parts from which the mentioned oils are extracted
 
  
 
-**Locations​**
--------------
+\*\*\*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Location**
+------------
+
 The geographical origins of the harvested plant material
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
@@ -83,15 +81,20 @@ The geographical origins of the harvested plant material
 -   **Description:** A dictionary of 46 countries of origin mentioned in the 186
     source articles for plants being tested.
 
--   **Filename:** country20191222.tsv
+-   **Filename:** location20191222.tsv
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/country20191222.tsv>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/location20191222.tsv>
 
  
 
+\*\*\*
+
 **Plant Material History**
 --------------------------
+
+Identification of concepts related to growing, collecting and processing plant
+material before undergoing an EO extraction process.
 
  
 
@@ -108,12 +111,14 @@ The geographical origins of the harvested plant material
 
  
 
+\*\*\*
+
 **EO Extraction and Chemical Analysis Methods**
 -----------------------------------------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Equipment, methods and materials used for EO extraction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
 
 ### [ExtractionAndChemicalAnalysisMethodsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/EOExtractionAndChemicalAnalysisMethodsDictionaryDescription.md)
 
@@ -128,12 +133,14 @@ Equipment, methods and materials used for EO extraction
 
  
 
+\*\*\*
+
 **EO Analysis Instruments**
 ---------------------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A dictionary of [24] makes/models of Gas chromatography–mass spectrometry equipment used to identify different substances within a test sample — in this case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A dictionary of **[24]** makes/models of Gas chromatography–mass spectrometry
+equipment used to identify different substances within a test sample — in this
+case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
 
  
 
@@ -151,14 +158,21 @@ A dictionary of [24] makes/models of Gas chromatography–mass spectrometry equi
 
  
 
-**EO Chemical Analysis Results - Constituents and Concentrations**
-------------------------------------------------------------------
+\*\*\*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile chemical compounds extracted from plants. Essential oils are also known as volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from which they were extracted, such as oil of clove.
+**EO Chemical Analysis Results**
+--------------------------------
 
-Qualitative (constituent compounds) and quantitative (%) analysis of the chemical composition of the tested Essential Oils (Extracts?), with each known compound linked to its IUPAC International Chemical Identifier (InChI).
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile
+chemical compounds extracted from plants. Essential oils are also known as
+volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from
+which they were extracted, such as oil of clove.  
+  
+Qualitative (constituent compounds) and quantitative (%) analysis of the
+chemical composition of the tested Essential Oils (Extracts?), with each known
+compound linked to its IUPAC International Chemical Identifier (InChI).
+
+** - Constituents and Concentrations**
 
  
 
@@ -176,14 +190,13 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the chemica
 
  
 
- 
+\*\*\*
 
 **EO Activities**
 -----------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Tested biochemical and/or biological activities, and where available, their measured results.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tested biochemical and/or biological activities, and where available, their
+measured results.
 
 ###  
 
@@ -199,12 +212,17 @@ Tested biochemical and/or biological activities, and where available, their meas
 
  
 
+\*\*\*
+
 **Target Organisms**
 --------------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The organisms used as targets of experiments conducted to determine what effect(s) (Activities) tested EOs may have on them. They may occur as A) single-cells or colonies, such as bacteria, fungi, yeasts and molds, protozoa, algae, or viruses; B) insects such as mosquitos, flies, etc.; or, C) they may be helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes (flukes).
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The organisms used as targets of experiments conducted to determine what
+effect(s) (Activities) tested EOs may have on them. They may occur as A)
+single-cells or colonies, such as bacteria, fungi, yeasts and molds, protozoa,
+algae, or viruses; B) insects such as mosquitos, flies, etc.; or, C) they may be
+helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
+(flukes).
 
  
 
@@ -233,11 +251,11 @@ The organisms used as targets of experiments conducted to determine what effect(
 
  
 
+\*\*\*
+
 **Diseases**
 ------------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Text for definitions goes here
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **This dictionary does not yet exist**

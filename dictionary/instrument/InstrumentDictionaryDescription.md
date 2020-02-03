@@ -1,5 +1,5 @@
-**Instrument​​ Dictionary**
-=========================
+**EO Analysis Instrument​​s Dictionary**
+======================================
 
  
 

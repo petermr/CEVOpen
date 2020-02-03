@@ -1,5 +1,5 @@
-**Plant/EO Country of Origin Dictionary**
-=========================================
+**Location​ Dictionary**
+=======================
 
  
 
@@ -14,10 +14,10 @@ plants being tested.
 File Data
 ---------
 
--   **Filename:** country20191222.tsv
+-   **Filename:** location20191222.tsv
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/country20191222.tsv>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/location20191222.tsv>
 
  
 

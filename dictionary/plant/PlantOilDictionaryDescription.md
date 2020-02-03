@@ -1,22 +1,25 @@
-**OilPlant​​ Dictionary**
-=======================
+**Plant Essential Oils​​ Dictionary**
+===================================
 
  
 
-A dictionary of **1678** constituent chemical compounds extracted from Essential
-Oils mentioned in the 186 test articles downloaded from PubMed. Of the **1678**
-entries, **??????** had their names normalized and tagged with corresponding
-Wikidata IDs, the other 112 remain to be resolved.
+Description
+-----------
+
+A dictionary of **1678** constituent chemical compounds extracted from the
+Essential Oils of **[XX] plants **mentioned in the 186 test articles downloaded
+from PubMed. Of the **1678** entries, **??????** had their names normalized and
+tagged with corresponding Wikidata IDs, the other 112 remain to be resolved.
 
  
 
 File Data
 ---------
 
--   **Filename:** compound.xml
+-   **Filename:** PlantOil.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/PlantOil.xml>
 
  
 
