@@ -6,14 +6,13 @@ This
 contains information about the Manually Created Dictionaries for OIL186.
 
 *PLEASE NOTE: Rather than alphabetical order, are listed here in the logical
-progression.*  
-
+progression.*
 
 **The purpose/function of Dictionaries:**
 
 1.  *Identify “things” as objects or concepts (eg. “e.coli" is a concept.).*
 
-2.  *Give each object clear lexical names by which they can be searched. *  
+2.  *Give each object clear lexical names by which they can be searched.*  
     *(An object that goes by more than one name is a synonym*.)
 
 3.  *Give each object a link to wikidata (or other authorities) by which we can
@@ -26,14 +25,10 @@ progression.*
 **Plant Essential Oils**
 ------------------------
 
-Layman and Botanical Names / Species
-
- 
-
 ### [PlantOilDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/plant/PlantOilDictionaryDescription.md)
 
 -   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from the Essential Oils of **[XX] plants **mentioned in the 186
+    extracted from the Essential Oils of **[XX] plants** mentioned in the 186
     test articles downloaded from PubMed. Of the **1678** entries, **??????**
     had their names normalized and tagged with corresponding Wikidata IDs, the
     other 112 remain to be resolved.
@@ -49,10 +44,6 @@ Layman and Botanical Names / Species
 
 **Plant Parts**
 ---------------
-
-The plant part or parts from which the mentioned oils are extracted
-
- 
 
 ### [PlantPartsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant%5Barts/PlantPartsDictionaryDescription.md)
 
@@ -72,11 +63,7 @@ The plant part or parts from which the mentioned oils are extracted
 **Location**
 ------------
 
-The geographical origins of the harvested plant material
-
- 
-
-### [PlantOriginDescription.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/PlantOriginDescription.md)
+### [LocationDescription.md​](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/PlantOriginDescription.md)
 
 -   **Description:** A dictionary of 46 countries of origin mentioned in the 186
     source articles for plants being tested.
@@ -93,21 +80,20 @@ The geographical origins of the harvested plant material
 **Plant Material History**
 --------------------------
 
-Identification of concepts related to growing, collecting and processing plant
-material before undergoing an EO extraction process.
+### PlantMaterialHistory.md
 
- 
+-   **Description:** A dictionary of **98** entries relating to the plant
+    material history leading up to the extraction of Essential Oils mentioned in
+    selected literature chosen from the **186** test articles downloaded from
+    PubMed. The entries include key words and phrases describing: growth
+    conditions, plant life stages, plant material selection, post-harvest
+    treatment methods, and extracted plant material products. Of the 98 entries,
+    68 were resolved to WikidataIDs.
 
-### ProcessDictionaryDescription.md
-
--   **Description:** A dictionary of **[XX]** plant **processes** from which
-    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
-    — were **harvested**.
-
--   **Filename:** process20191014.xml
+-   **Filename:** plantmaterialhistory.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/process/process20191014.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plantmaterialhistory/plantmaterialhistory.xml>
 
  
 
@@ -166,13 +152,13 @@ case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
 Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile
 chemical compounds extracted from plants. Essential oils are also known as
 volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from
-which they were extracted, such as oil of clove.  
-  
+which they were extracted, such as oil of clove.
+
 Qualitative (constituent compounds) and quantitative (%) analysis of the
 chemical composition of the tested Essential Oils (Extracts?), with each known
 compound linked to its IUPAC International Chemical Identifier (InChI).
 
-** - Constituents and Concentrations**
+\*\* - Constituents and Concentrations\*\*
 
  
 
