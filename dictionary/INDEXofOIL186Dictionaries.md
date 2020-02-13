@@ -181,15 +181,11 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 **EO Activities**
 -----------------
 
-Tested biochemical and/or biological activities, and where available, their
-measured results.
-
-###  
-
 ### [ActivityDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/activity/ActivityDictionaryDescription.md)
 
--   **Description:** A dictionary of **184** activities mentioned in the 186
-    test articles downloaded from PubMed.
+-   **Description:** A dictionary of \*\*the names of **438** essential oil or
+    constituent compound biochemical and/or biological activities, **340** of
+    which resolved to wikidata IDs, and **336** with short descriptions.
 
 -   **Filename:** activity.xml
 

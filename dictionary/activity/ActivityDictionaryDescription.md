@@ -3,8 +3,9 @@
 
  
 
-A dictionary of **184** activities mentioned in the 186 test articles downloaded
-from PubMed.
+A dictionary of **the names of 438** essential oil or constituent compound
+biochemical and/or biological activities, **340** of which resolved to wikidata
+IDs.
 
  
 
@@ -21,21 +22,15 @@ File Data
 Table Column Headings
 ---------------------
 
--   **title:** type of data to be normalized and tagged with Wikidata ID.
+-   **daveactivityid:** *DAVE.activity.n* where *n* is a serialized number
 
--   **desc:** data source
+-   **activity:** The name is a human readable string describing the concept.
 
--   **id:** *CM.activities.n* where *n* is a serialized number
-
--   **name:** The name is a human readable string describing the concept.
-
--   **term:** The term is the precise string used to identify the concept. Name
-    and Term are often the same.
-
--   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
+-   **wikidataid:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
--   **wikipedia:**
+-   **description:** short description of the activity sourced from wikidata
+    and/or wikipedia
 
  
 
@@ -44,32 +39,26 @@ Contents/Results
 
 -   **No. of source papers:** 186
 
--   **No. of Entries (Headers are not counted):** 184
+-   **No. of entries (Headers are not counted):** 438
 
--   **No. of unique compound names (including alternate spellings or
-    synonyms):** 184
+-   **No. of unique activity names (including alternate spellings or
+    synonyms):** 438
 
--   **No. of Chemical Compounds resolved in Wikidata:** 74
+-   **No. of activities resolved in wikidata (including alternate spellings or
+    synonyms):** 340
 
--   **No. of Chemical Compounds NOT resolved in Wikidata:** 110
+-   **Number of unique wikidata ids attributed to activities (normalizing for
+    alternate spellings and synonyms):** 250
+
+-   **No. of entries withoug wikidataid:** 98
+
+-   **No. of entries with descriptions: **336
+
+-   **No. of entries without descriptions:** 102
 
  
 
 Notes:
 ------
 
--   No source papers are listed. Should we assume 186, or delete that from
-    Contents/Results?
-
--   We need to normalize the headings across all Dictionaries
-
-    -   This is the third case where the column heading “description” means
-        something other than "data source / method of input"
-
-    -   Capitalization
-
--   In this case, is the column heading “id” related to Essoil? I don’t know how
-    to describe it here. The format is: *CM.activities.n* where *n* is a
-    serialized number
-
--   I don’t know how to describe the column headings for “Wikipedia” here
+-    
