@@ -3,9 +3,9 @@
 
  
 
-A dictionary of **the names of 438** essential oil or constituent compound
-biochemical and/or biological activities, **340** of which resolved to wikidata
-IDs.
+A dictionary of **438** essential oil or constituent compound biochemical and/or
+biological activities, **340** of which resolved to wikidata IDs, and **336**
+with descriptions of 250 characters or less.
 
  
 
@@ -52,7 +52,7 @@ Contents/Results
 
 -   **No. of entries withoug wikidataid:** 98
 
--   **No. of entries with descriptions: **336
+-   **No. of entries with descriptions:** 336
 
 -   **No. of entries without descriptions:** 102
 

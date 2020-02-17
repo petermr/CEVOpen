@@ -121,12 +121,18 @@ Equipment, methods and materials used for EO extraction
 
 \*\*\*
 
-**EO Analysis Instruments**
----------------------------
+**EO Analysis Methods and Instruments**
+---------------------------------------
 
 A dictionary of **[24]** makes/models of Gas chromatography–mass spectrometry
 equipment used to identify different substances within a test sample — in this
 case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
+
+ 
+
+Modern **methods** routinely used for determining the composition and quality
+of **essential oils** include GC, high performance liquid chromatography (HPLC),
+Mass Spectrometry (MS) and Nuclear Magnetic Resonance (NMR) spectroscopy
 
  
 
@@ -183,9 +189,9 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
 ### [ActivityDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/activity/ActivityDictionaryDescription.md)
 
--   **Description:** A dictionary of \*\*the names of **438** essential oil or
-    constituent compound biochemical and/or biological activities, **340** of
-    which resolved to wikidata IDs, and **336** with short descriptions.
+-   **Description:** A dictionary of **438** essential oil or constituent
+    compound biochemical and/or biological activities, **340** of which resolved
+    to wikidata IDs, and **336** with descriptions of 250 characters or less.
 
 -   **Filename:** activity.xml
 
