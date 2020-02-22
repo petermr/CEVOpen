@@ -164,11 +164,9 @@ Qualitative (constituent compounds) and quantitative (%) analysis of the
 chemical composition of the tested Essential Oils (Extracts?), with each known
 compound linked to its IUPAC International Chemical Identifier (InChI).
 
-\*\* - Constituents and Concentrations\*\*
-
  
 
-### [EOConstituentCompoundsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/EOConstituentCompoundsDictionaryDescription.md)
+### [EOConstituentCompoundsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompoundsDictionaryDescription.md)
 
 -   **Description:** A dictionary of 2114 constituent chemical compounds
     extracted from Essential Oils mentioned in the 186 test articles downloaded
