@@ -152,8 +152,8 @@ Mass Spectrometry (MS) and Nuclear Magnetic Resonance (NMR) spectroscopy
 
 \*\*\*
 
-**EO Chemical Analysis Results**
---------------------------------
+**EO Constituent Compounds**
+----------------------------
 
 Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile
 chemical compounds extracted from plants. Essential oils are also known as
@@ -168,17 +168,17 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
  
 
-### [CompoundDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/CompoundDictionaryDescription.md)
+### [EOConstituentCompoundsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/EOConstituentCompoundsDictionaryDescription.md)
 
 -   **Description:** A dictionary of 2114 constituent chemical compounds
     extracted from Essential Oils mentioned in the 186 test articles downloaded
     from PubMed. Of the 2114 entries, 1010 had their names normalized and tagged
     with corresponding Wikidata IDs, the other 1104 remain to be resolved.
 
--   **Filename:** compound.xml
+-   **Filename:** EOConstituentCompounds.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/compound.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompounds.xml>
 
  
 

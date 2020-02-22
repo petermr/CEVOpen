@@ -1,5 +1,5 @@
-**Compound​ Dictionary**
-=======================
+**EO Constituent Compounds​ Dictionary**
+=======================================
 
  
 
@@ -13,10 +13,11 @@ IDs, the other 1104 remain to be resolved
 File Data
 ---------
 
--   **Filename:** compound.xml
+-   **Filename:** EOConstituentCompounds.xml
 
--   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/compound/compound.xml>
+**File Location**:
+[https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompounds.xml](
+https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompounds.xml)
 
  
 
