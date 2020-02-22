@@ -1,188 +1,442 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dictionary title="activity">
- <entry term="abortifacient" wikipedia="abortifacient" wikidata="Q50415114" name="‎Abortifacient Agents, Nonsteroidal‎" description="Non-steroidal chemical compounds with abortifacient activity." id="CM.activities.2"/>
- <entry term="acaricide" wikipedia="acaricide" wikidata="Q416014" name="‎Acaricide‎" description="agent that kills members of the arachnid subclass Acari" id="CM.activities.3"/>
- <entry term="ace inhibitor" wikidata="Q288280" name="‎ACE inhibitor‎" description="pharmaceutical drug used primarily for the treatment of hypertension (elevated blood pressure) and congestive heart failure" id="CM.activities.4"/>
- <entry term="ache-inhibitor" id="CM.activities.5"/>
- <entry term="aldose-reductase-inhibitor" id="CM.activities.6"/>
- <entry term="allelochemic" id="CM.activities.7"/>
- <entry term="allelopathic" wikipedia="allelopathic" id="CM.activities.9"/>
- <entry term="analgesic" wikipedia="analgesic" wikidata="Q173235" name="‎analgesic‎" description="pharmaceutical drug" id="CM.activities.10"/>
- <entry term="anesthetic" wikipedia="anesthetic" wikidata="Q4990531" name="‎anesthetic‎" description="drug that causes anesthesia" id="CM.activities.11"/>
- <entry term="anti-inflammatory" wikipedia="anti-inflammatory" wikidata="Q188724" name="‎non-steroidal anti-inflammatory drug‎" description="class of drug" id="CM.activities.12"/>
- <entry term="anti-irritant" id="CM.activities.13"/>
- <entry term="anti-microbial" wikipedia="anti-microbial" id="CM.activities.14"/>
- <entry term="anti-tnf" wikidata="Q1536078" name="" description="" id="CM.activities.15"/>
- <entry term="anti-tumor" wikipedia="anti-tumor" wikidata="Q57751326" name="" description="" id="CM.activities.16"/>
- <entry term="antiacetylcholinesterase" id="CM.activities.17"/>
- <entry term="antiacne" wikipedia="antiacne" id="CM.activities.18"/>
- <entry term="antiaggregant" wikipedia="antiaggregant"  id="CM.activities.19"/>
- <entry term="antiallergic" wikipedia="antiallergic" wikidata="Q50430264" name="‎Anti-Allergic Agents‎" description="Agents that are used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)" id="CM.activities.20"/>
- <entry term="antialzheimeran" name="antialzheimeran" id="CM.activities.21"/>
- <entry term="antianaphylactic"  id="CM.activities.22"/>
- <entry term="antiarachidonate" name="antiarachidonate" id="CM.activities.23"/>
- <entry term="antiasthmatic" wikidata="Q50430265" name="‎Anti-Asthmatic Agents‎" description="Drugs that are used to treat asthma" id="CM.activities.24"/>
- <entry term="antibacillary"  id="CM.activities.25"/>
- <entry term="antibacteria" wikidata="Q58117783" name="" description="" id="CM.activities.26"/>
- <entry term="antibacterial" wikipedia="antibacterial" wikidata="Q804539" name="‎bactericide‎" description="substance that kills bacteria" id="CM.activities.27"/>
- <entry term="anticancer" wikipedia="anticancer"  id="CM.activities.28"/>
- <entry term="anticariogenic" wikipedia="anticariogenic"  id="CM.activities.29"/>
- <entry term="anticholinesterase" wikipedia="anticholinesterase" wikidata="Q2592323" name="‎cholinesterase inhibitor‎" description="drugs that inhibit cholinesterases" id="CM.activities.30"/>
- <entry term="anticonvulsant" wikipedia="anticonvulsant" wikidata="Q576618" name="‎anticonvulsant‎" description="class of medications" id="CM.activities.31"/>
- <entry term="antidiarrheic" wikipedia="antidiarrheic"  id="CM.activities.32"/>
- <entry term="antidysenteric"  id="CM.activities.33"/>
- <entry term="antiedemic"  id="CM.activities.34"/>
- <entry term="antiemetic" wikipedia="antiemetic" wikidata="Q575136" name="‎antiemetic‎" description="drug used to prevent nausea or vomiting" id="CM.activities.35"/>
- <entry term="antiestrogenic" wikipedia="antiestrogenic"  id="CM.activities.36"/>
- <entry term="antifeedant" wikipedia="antifeedant" wikidata="Q56062995" name="" description="" id="CM.activities.37"/>
- <entry term="antifibrositic" name="antifibrositic" id="CM.activities.38"/>
- <entry term="antiflu"  id="CM.activities.39"/>
- <entry term="antifungal" wikipedia="antifungal" wikidata="Q578726" name="‎antifungal medication‎" description="Category of pharmaceutical drugs" id="CM.activities.40"/>
- <entry term="antigenotoxic"  id="CM.activities.41"/>
- <entry term="antiglutamaergic" name="antiglutamaergic" id="CM.activities.42"/>
- <entry term="antiherpetic"  id="CM.activities.43"/>
- <entry term="antihistaminic" wikipedia="antihistaminic" wikidata="Q324089" name="‎histamine antagonist‎" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists" id="CM.activities.44"/>
- <entry term="antiinflammatory" wikipedia="antiinflammatory" wikidata="Q188724" name="‎non-steroidal anti-inflammatory drug‎" description="class of drug" id="CM.activities.45"/>
- <entry term="antikeratotic" name="antikeratotic" id="CM.activities.46"/>
- <entry term="antileishmanial" wikipedia="antileishmanial"  id="CM.activities.47"/>
- <entry term="antileukemic"  id="CM.activities.48"/>
- <entry term="antilithic"  id="CM.activities.49"/>
- <entry term="antilymphomic" name="antilymphomic" id="CM.activities.50"/>
- <entry term="antimalarial" wikipedia="antimalarial" wikidata="Q521616" name="‎antimalarial‎" description="Agents used in the treatment of malaria. They are usually classified on the basis of their action against plasmodia at different stages in their life cycle in the human. (from ama, drug evaluations annual, 1992, p1585)" id="CM.activities.51"/>
- <entry term="antimange" name="antimange" id="CM.activities.52"/>
- <entry term="antimicrobial" wikipedia="antimicrobial" wikidata="Q643839" name="‎multiple drug resistance‎" description="antimicrobial resistance to multiple drugs" id="CM.activities.53"/>
- <entry term="antimitotic" wikipedia="antimitotic" wikidata="Q6881918" name="‎mitotic inhibitor‎" description="chemical" id="CM.activities.54"/>
- <entry term="antimutagenic" wikipedia="antimutagenic" wikidata="Q56442771" name="" description="" id="CM.activities.55"/>
- <entry term="antineuralgic"  id="CM.activities.56"/>
- <entry term="antinitrosaminic" name="antinitrosaminic" id="CM.activities.57"/>
- <entry term="antinitrosating" wikidata="Q60441939" name="" description="" id="CM.activities.58"/>
- <entry term="antiobesity" wikipedia="antiobesity" wikidata="Q433777" name="‎ATC code A08‎" description="Antiobesity preparations, excluding diet products is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System" id="CM.activities.59"/>
- <entry term="antioxidant" wikipedia="antioxidant" wikidata="Q133948" name="‎antioxidant‎" description="molecule that inhibits the oxidation of other molecules" id="CM.activities.60"/>
- <entry term="antiplasmodial" wikipedia="antiplasmodial"  id="CM.activities.61"/>
- <entry term="antipneumonic" name="antipneumonic" id="CM.activities.62"/>
- <entry term="antiprostaglandin"  id="CM.activities.63"/>
- <entry term="antipruritic" wikipedia="antipruritic" wikidata="Q2853347" name="‎antipruritic‎" description="drug, usually applied topically, that relieves pruritus (itching)" id="CM.activities.64"/>
- <entry term="antipyretic" wikipedia="antipyretic" wikidata="Q582687" name="‎antipyretic‎" description="drug that prevents or reduces fever by lowering the body temperature from a raised state" id="CM.activities.65"/>
- <entry term="antiradicular" name="antiradicular" id="CM.activities.66"/>
- <entry term="antirheumatalgic" name="antirheumatalgic" id="CM.activities.67"/>
- <entry term="antirhinoviral"  id="CM.activities.68"/>
- <entry term="antisalmonella"  id="CM.activities.69"/>
- <entry term="antiseptic" wikipedia="antiseptic" id="CM.activities.70"/>
- <entry term="antishock"  id="CM.activities.71"/>
- <entry term="antispasmodic" wikipedia="antispasmodic" wikidata="Q93978" name="‎antispasmodic‎" description="class of medications" id="CM.activities.72"/>
- <entry term="antistaphylococcic"  id="CM.activities.73"/>
- <entry term="antithromboxane"  id="CM.activities.74"/>
- <entry term="antitumor" wikipedia="antitumor"  id="CM.activities.75"/>
- <entry term="antitussive" wikipedia="antitussive" wikidata="Q584209" name="‎antitussive‎" description="Agents that suppress cough. They act centrally on the medullary cough center. Expectorants, also used in the treatment of cough, act locally" id="CM.activities.79"/>
- <entry term="antiulcer" wikipedia="antiulcer" wikidata="Q41602594" name="‎anti-ulcer drug‎" description="class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract" id="CM.activities.80"/>
- <entry term="antiviral" wikipedia="antiviral" wikidata="Q846227" name="‎antiviral drug‎" description="Class of medications" id="CM.activities.81"/>
- <entry term="apifuge" name="apifuge" id="CM.activities.82"/>
- <entry term="apoptotic" wikipedia="apoptotic" wikidata="Q14599311" name="‎apoptotic process‎" description="programmed cell death process" id="CM.activities.83"/>
- <entry term="bactericidal" wikipedia="bactericidal"  id="CM.activities.84"/>
- <entry term="bacteriostatic" wikipedia="bacteriostatic" wikidata="Q223417" name="‎bacteriostatic agent‎" description="biological or chemical agent that stops bacteria from reproducing, while not necessarily killing them otherwise" id="CM.activities.85"/>
- <entry term="barbituate-synergist" name="barbituate-synergist" id="CM.activities.86"/>
- <entry term="bronchoprotectant" name=" bronchoprotectant" id="CM.activities.0"/>
- <entry term="bronchorelaxant" id="CM.activities.1"/>
- <entry term="calcium-antagonist" wikidata="Q421700" name="‎calcium channel blocker‎" description="several medications that disrupt the movement of calcium (Ca2+) through calcium channels" id="CM.activities.87"/>
- <entry term="cancer-preventive"  id="CM.activities.88"/>
- <entry term="candidicide" name="candidicide" id="CM.activities.89"/>
- <entry term="candidistat" name="candidistat" id="CM.activities.90"/>
- <entry term="carcinogenic" wikipedia="carcinogenic"  id="CM.activities.91"/>
- <entry term="carminative" wikipedia="carminative" wikidata="Q1734091" name="" description="" id="CM.activities.92"/>
- <entry term="chemopreventive" wikipedia="chemopreventive"  id="CM.activities.93"/>
- <entry term="choleretic" wikipedia="choleretic" wikidata="Q905101" name="" description="" id="CM.activities.94"/>
- <entry term="cns-depressant" wikidata="Q1976211" name="‎depressant‎" description="drug or endogenous compound that lowers neurotransmission levels" id="CM.activities.95"/>
- <entry term="cns-stimulant"  id="CM.activities.96"/>
- <entry term="coleoptophile" name="coleoptophile" id="CM.activities.97"/>
- <entry term="convulsant" wikipedia="convulsant" wikidata="Q5166679" name="‎convulsant‎" description="substance that acts in the brain stem or spinal cord to produce tonic or clonic convulsions, often by removing normal inhibitory tone" id="CM.activities.98"/>
- 
- <entry term="counterirritant" wikipedia="counterirritant"  id="CM.activities.100"/>
- <entry term="cox-1-inhibitor"  id="CM.activities.101"/>
- <entry term="cox-2-inhibitor" wikidata="Q377458" name="‎COX-2 inhibitor‎" description="A subclass of cyclooxygenase inhibitors with specificity for cyclooxygenase-2" id="CM.activities.102"/>
- <entry term="culicide"  id="CM.activities.103"/>
- <entry term="cytochrome-p450-inhibitor"  id="CM.activities.104"/>
- <entry term="cytotoxic" wikipedia="cytotoxic" wikidata="Q974135" name="‎chemotherapy‎" description="treatment of cancer with one or more cytotoxic anti-neoplastic drugs" id="CM.activities.105"/>
- <entry term="decongestant" wikipedia="decongestant" wikidata="Q430719" name="‎decongestant‎" description="drug to relieve nasal congestion" id="CM.activities.106"/>
- <entry term="deliriant" wikipedia="deliriant" wikidata="Q901434" name="" description="" id="CM.activities.107"/>
- <entry term="deodorant" wikipedia="deodorant" wikidata="Q309035" name="‎deodorant‎" description="substance applied to the body to prevent body odor" id="CM.activities.108"/>
- <entry term="dermatitigenic" name="dermatitigenic" id="CM.activities.109"/>
- <entry term="detoxicant"  id="CM.activities.110"/>
- <entry term="diuretic" wikipedia="diuretic" wikidata="Q200656" name="‎diuretic‎" description="substance that promotes the production of urine" id="CM.activities.111"/>
- <entry term="ecbolic" wikipedia="ecbolic"  id="CM.activities.112"/>
- <entry term="emetic" wikipedia="emetic" wikidata="Q1930829" name="‎emetic‎" description="drug that induces vomiting" id="CM.activities.113"/>
- <entry term="enterocontractant" name="enterocontractant" id="CM.activities.114"/>
- <entry term="epileptigenic" name="epileptigenic" id="CM.activities.115"/>
- <entry term="expectorant" wikipedia="expectorant"  id="CM.activities.116"/>
- <entry term="fungicidal" wikipedia="fungicidal"  id="CM.activities.120"/>
- <entry term="fungicide" wikipedia="fungicide" wikidata="Q193237" name="‎fungicide‎" description="pesticide used to kill fungi" id="CM.activities.121"/>
- <entry term="fungiphilic" name="fungiphilic" id="CM.activities.122"/>
- <entry term="fungistat" wikipedia="fungistat" wikidata="Q7701687" name="‎Terconazole‎" description="chemical compound" id="CM.activities.123"/>
- <entry term="gaba-nergic" name="gaba-nergic" id="CM.activities.124"/>
- <entry term="glaucomagenic" name="glaucomagenic" id="CM.activities.125"/>
- <entry term="gst-inducer"  id="CM.activities.126"/>
- <entry term="hepatoprotective" wikipedia="hepatoprotective"  id="CM.activities.127"/>
- <entry term="herbicide" wikipedia="herbicide" wikidata="Q178266" name="‎herbicide‎" description="chemical used to kill unwanted plants" id="CM.activities.128"/>
- <entry term="histaminic" wikipedia="histaminic" wikidata="Q324089" name="‎histamine antagonist‎" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists" id="CM.activities.129"/>
- <entry term="hypnotic" wikipedia="hypnotic" wikidata="Q62962" name="‎hypnotic‎" description="class of medications" id="CM.activities.130"/>
- <entry term="hypocholesterolemic" wikipedia="hypocholesterolemic"  id="CM.activities.131"/>
- <entry term="hypothermic" wikipedia="hypothermic"  id="CM.activities.132"/>
- <entry term="immunomodulator" wikipedia="immunomodulator" wikidata="Q1660194" name="" description="" id="CM.activities.133"/>
- <entry term="insect-attractant"  id="CM.activities.134"/>
- <entry term="insect-repellent" wikidata="Q1340459" name="‎insect repellent‎" description="substance which repels insects" id="CM.activities.135"/>
- <entry term="insecticide" wikipedia="insecticide" wikidata="Q181322" name="‎insecticide‎" description="pesticide used against insects" id="CM.activities.136"/>
- <entry term="insectifuge"  id="CM.activities.137"/>
- <entry term="insectiphile" name="insectiphile" id="CM.activities.138"/>
- <entry term="irritant" wikipedia="irritant" wikidata="Q1799146" name="‎irritant dermatitis‎" description="Human disease" id="CM.activities.139"/>
- <entry term="juvabional" name="juvabional" id="CM.activities.140"/>
- <entry term="larvicide" wikipedia="larvicide" wikidata="Q522817" name="" description="" id="CM.activities.141"/>
- <entry term="laxative" wikipedia="laxative" wikidata="Q217972" name="‎laxative‎" description="Agents that produce a soft formed stool, and relax and loosen the bowels, typically used over a protracted period, to relieve constipation" id="CM.activities.142"/>
- <entry term="lipolytic" wikipedia="lipolytic"  id="CM.activities.143"/>
- <entry term="mosquito-attractant"  id="CM.activities.144"/>
- <entry term="motor-depressant"  id="CM.activities.145"/>
- <entry term="myorelaxant" wikipedia="myorelaxant"  id="CM.activities.146"/>
- <entry term="nematicide" wikipedia="nematicide" wikidata="Q910391" name="" description="" id="CM.activities.147"/>
- <entry term="neurotoxic" wikipedia="neurotoxic"  id="CM.activities.148"/>
- <entry term="no-genic" id="CM.activities.149"/>
- <entry term="occuloirritant" name="occuloirritant" id="CM.activities.150"/>
- <entry term="ornithine-decarboxylase-inhibitor" wikidata="Q23362677" name="‎ornithine decarboxylase inhibitor- sigma54 transciptional regulator RB4179‎" description="microbial gene found in Rhodopirellula baltica SH 1" id="CM.activities.151"/>
- <entry term="ozone-scavenger"  id="CM.activities.152"/>
- <entry term="p450-inducer"  id="CM.activities.154"/>
- <entry term="perfumery" wikipedia="perfumery" wikidata="Q1509937" name="‎perfumery‎" description="shop which sells perfumes" id="CM.activities.155"/>
- <entry term="pesticide" wikipedia="pesticide" wikidata="Q131656" name="‎pesticide‎" description="substance used to destroy pests" id="CM.activities.156"/>
- <entry term="pheromone" wikipedia="pheromone" wikidata="Q167377" name="‎pheromone‎" description="secreted or excreted chemical factor that triggers a social response in members of the same species" id="CM.activities.157"/>
- <entry term="photosensitizer" wikipedia="photosensitizer" wikidata="Q18388377" name="‎photosensitizer‎" description="A photosensitizer is a molecule that produces a chemical change in another molecule in a photochemical process." id="CM.activities.158"/>
- <entry term="prooxidant" wikipedia="prooxidant"  id="CM.activities.159"/>
- <entry term="prostaglandin synthesis-inhibitor"  id="CM.activities.160"/>
- <entry term="prostatitigenic" name="prostatitigenic" id="CM.activities.161"/>
- <entry term="pungency" wikipedia="pungency" wikidata="Q1517948" name="‎pungency‎" description="taste" id="CM.activities.162"/>
- <entry term="renoirritant" name="renoirritant" id="CM.activities.163"/>
- <entry term="respirainhibitor" name="respirainhibitor" id="CM.activities.164"/>
- <entry term="respirastimulant" name="respirastimulant" id="CM.activities.165"/>
- <entry term="rubefacient" wikipedia="rubefacient" wikidata="Q3446580" name="" description="" id="CM.activities.166"/>
- <entry term="secretolytic" wikidata="Q57718544" name="" description="" id="CM.activities.167"/>
- <entry term="sedative" wikipedia="sedative" wikidata="Q847705" name="‎sedative‎" description="Substance" id="CM.activities.168"/>
- <entry term="skin-healing"  id="CM.activities.169"/>
- <entry term="skin-penetration"  id="CM.activities.170"/>
- <entry term="spasmogenic"  id="CM.activities.171"/>
- <entry term="spermicide" wikipedia="spermicide" wikidata="Q513122" name="‎Spermicide‎" description="birth control" id="CM.activities.172"/>
- <entry term="stimulant" wikipedia="stimulant" wikidata="Q211036" name="‎stimulant‎" description="type of psychoactive drug" id="CM.activities.173"/>
- <entry term="stomachic" wikipedia="stomachic" wikidata="Q17100700" name="" description="" id="CM.activities.174"/>
- <entry term="teratogenic" wikipedia="teratogenic"  id="CM.activities.175"/>
- <entry term="termiticide" wikipedia="termiticide"  id="CM.activities.176"/>
- <entry term="termitifuge" name="termitifuge" id="CM.activities.177"/>
- <entry term="tranquilizer" wikipedia="tranquilizer" wikidata="Q1941660" name="‎tranquilizer‎" description="drug that induces tranquility in an individual" id="CM.activities.178"/>
- <entry term="transdermal" wikipedia="transdermal" wikidata="Q7833952" name="‎transdermal‎" description="route of administration wherein active ingredients are delivered across the skin" id="CM.activities.179"/>
- <entry term="trichomonicide"  id="CM.activities.180"/>
- <entry term="trichomonistat" name="trichomonistat" id="CM.activities.181"/>
- <entry term="trypsin-enhancer"  id="CM.activities.182"/>
- <entry term="tumor-promoter"  id="CM.activities.183"/>
- <entry term="tyrosinase-inhibito" name="tyrosinase-inhibito" id="CM.activities.184"/>
- <entry term="ulcerogenic"  id="CM.activities.185"/>
- <entry term="varroacide"  id="CM.activities.186"/>
- <entry term="vasodilator" wikipedia="vasodilator" wikidata="Q4008956" name="‎vasodilator agent‎" description="drug used to cause dilation of the blood vessels" id="CM.activities.187"/>
- <entry term="vermifuge" wikipedia="vermifuge" wikidata="Q572294" name="‎anthelmintic‎" description="substance intended to kill helminths (parasitic worms)" id="CM.activities.188"/>
- <entry term="verrucolytic" name="verrucolytic" id="CM.activities.189"/>
- <entry term="vibriocide" name="vibriocide" id="CM.activities.190"/>
- <entry term="vitamin a stabiliser" name="vitamin a stabiliser" id="CM.activities.191"/>
- <entry term="vulnerary" wikipedia="vulnerary"  id="CM.activities.192"/>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary title="activities">
+	<desc>terms relating to essential oil and compound activities</desc>
+	<entry DAVEid="DAVE.activity.01" activity="abortifacient" wikidataid="Q50415114" description="Non-steroidal chemical compounds with abortifacient activity."/>
+	<entry DAVEid="DAVE.activity.02" activity="acaricide" wikidataid="Q416014" description="agent that kills members of the arachnid subclass Acari"/>
+	<entry DAVEid="DAVE.activity.03" activity="ace inhibitor" wikidataid="Q288280" description="pharmaceutical drug used primarily for the treatment of hypertension (elevated blood pressure) and congestive heart failure"/>
+	<entry DAVEid="DAVE.activity.04" activity="acetylcholinesterase inhibitor" wikidataid="Q2592323" description="drugs that inhibit cholinesterases"/>
+	<entry DAVEid="DAVE.activity.05" activity="ache inhibitor" wikidataid="Q2592323"/>
+	<entry DAVEid="DAVE.activity.06" activity="anti acetylcholinesterase" wikidataid="Q2592323" description="drugs that inhibit cholinesterases"/>
+	<entry DAVEid="DAVE.activity.07" activity="anti cholinesterase" wikidataid="Q2592323" description="drugs that inhibit cholinesterases"/>
+	<entry DAVEid="DAVE.activity.08" activity="acnegenic" wikidataid="Q84997245" description="A role played by the molecular entity or part thereof which causes the development of the pathological process of acne."/>
+	<entry DAVEid="DAVE.activity.09" activity="adaptogen" wikidataid="Q352551"/>
+	<entry DAVEid="DAVE.activity.10" activity="adaptogenic" wikidataid="Q352551" description="A substance or compounds that results in stabilization of physiological processes and promotion of homeostasis, an example being by decreased cellular sensitivity to stress."/>
+	<entry DAVEid="DAVE.activity.11" activity="Adenosine inhibitor" wikidataid="Q190012"/>
+	<entry DAVEid="DAVE.activity.12" activity="adjuvant" wikidataid="Q357896" description="Any pharmacological or immunological agent that modifies or enhances the effect of other agents such as drugs or vaccines while having few if any direct effects when given by itself."/>
+	<entry DAVEid="DAVE.activity.13" activity="aedifuge" wikidataid="Q84954230" description="Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."/>
+	<entry DAVEid="DAVE.activity.14" activity="mosquito repellant" wikidataid="Q84954230" description="a substance applied to skin, clothing, or other surfaces which discourages insects (mosquitos, specifically) from landing or climbing on that surface"/>
+	<entry DAVEid="DAVE.activity.15" activity="mosquito repellent" wikidataid="Q84954230" description="a substance applied to skin, clothing, or other surfaces which discourages insects (mosquitos, specifically) from landing or climbing on that surface"/>
+	<entry DAVEid="DAVE.activity.16" activity="mosquitofuge" wikidataid="Q84954230" description="Strictly, a substance intended to kill members of the class Insecta. In common usage, any substance used for preventing, destroying, repelling or controlling insects."/>
+	<entry DAVEid="DAVE.activity.17" activity="aldose-reductase inhibitor" wikidataid="Q4713968"/>
+	<entry DAVEid="DAVE.activity.18" activity="allelochemic" wikidataid="Q190334"/>
+	<entry DAVEid="DAVE.activity.19" activity="allelopathic" wikidataid="Q190334"/>
+	<entry DAVEid="DAVE.activity.20" activity="allergenic" wikidataid="Q186752" description="A chemical compound which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy."/>
+	<entry DAVEid="DAVE.activity.21" activity="allergenicity" wikidataid="Q186752"/>
+	<entry DAVEid="DAVE.activity.22" activity="amebicide" wikidataid="Q4742080"/>
+	<entry DAVEid="DAVE.activity.23" activity="anti amebic" wikidataid="Q4742080"/>
+	<entry DAVEid="DAVE.activity.24" activity="analgesic" wikidataid="Q173235" description="An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms."/>
+	<entry DAVEid="DAVE.activity.25" activity="anaphrodisiac" wikidataid="Q486061" description="An agent that quells or blunts the libido."/>
+	<entry DAVEid="DAVE.activity.26" activity="anaphylactic" wikidataid="Q84957514" description="Allergent causing anaphylaxis, an allergic reaction with symptoms such as itchy rash, throat swelling, low blood pressure."/>
+	<entry DAVEid="DAVE.activity.27" activity="androgenic" wikidataid="Q84958628" description="An agent, usually a steroid hormone, that stimulates or controls the development and maintenance of male characteristics in vertebrates by binding to androgen receptors."/>
+	<entry DAVEid="DAVE.activity.28" activity="anesthetic" wikidataid="Q4990531" description="drug that causes anesthesia"/>
+	<entry DAVEid="DAVE.activity.29" activity="angiogenic" wikidataid="Q84997315" description="An agent that induces or stimulates the physiologic angiogenesis process."/>
+	<entry DAVEid="DAVE.activity.30" activity="anorectic" wikidataid="Q567709" description="drug which reduces appetite"/>
+	<entry DAVEid="DAVE.activity.31" activity="anti appetant" wikidataid="Q567709" description="An agent which regulates the physiologic mechanisms that control the appetite and food intake."/>
+	<entry DAVEid="DAVE.activity.32" activity="appetite suppressant" wikidataid="Q567709" description="drug which reduces appetite"/>
+	<entry DAVEid="DAVE.activity.33" activity="antacid" wikidataid="Q274083"/>
+	<entry DAVEid="DAVE.activity.34" activity="anthelmintic" wikidataid="Q572294" description="substance intended to kill helminths parasitic worms"/>
+	<entry DAVEid="DAVE.activity.35" activity="vermifuge" wikidataid="Q572294" description="substance intended to kill helminths (parasitic worms)"/>
+	<entry DAVEid="DAVE.activity.36" activity="anti acne" wikidataid="Q84960524" description="A bioactive chemical compound or drug or used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.37" activity="anti aggregant" wikidataid="Q721432"/>
+	<entry DAVEid="DAVE.activity.38" activity="platelet aggregation inhibitor" wikidataid="Q721432"/>
+	<entry DAVEid="DAVE.activity.39" activity="anti allergen" wikidataid="Q50430264" description="Agents used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)"/>
+	<entry DAVEid="DAVE.activity.40" activity="anti allergenic" wikidataid="Q50430264" description="Agents used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)"/>
+	<entry DAVEid="DAVE.activity.41" activity="anti allergic" wikidataid="Q50430264" description="Agents used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)"/>
+	<entry DAVEid="DAVE.activity.42" activity="anti alopecic" wikidataid="Q21045470" description="A substance that counteracts hair loss."/>
+	<entry DAVEid="DAVE.activity.43" activity="anti anaphylactic" wikidataid="Q84958741" description="Anti allergent prohibiting the onset or state of anaphylaxis, an allergic reaction with symptoms such as itchy rash, throat swelling, low blood pressure."/>
+	<entry DAVEid="DAVE.activity.44" activity="anti androgen" wikidataid="Q84957515" description="A compound which inhibits or antagonises the biosynthesis or actions of androgens"/>
+	<entry DAVEid="DAVE.activity.45" activity="anti androgenic" wikidataid="Q84957515" description="A compound which inhibits or antagonises the biosynthesis or actions of androgens."/>
+	<entry DAVEid="DAVE.activity.46" activity="anti angiogenic" wikidataid="Q84957515" description="A compound which inhibits or antagonises the biosynthesis or actions of androgens"/>
+	<entry DAVEid="DAVE.activity.47" activity="anti apoptotic" wikidataid="Q84959790" description="An agent that inhibits the process of apoptosis, or programmed cell death."/>
+	<entry DAVEid="DAVE.activity.48" activity="anti asthmatic" wikidataid="Q50430265" description="Drugs that are used to treat asthma"/>
+	<entry DAVEid="DAVE.activity.49" activity="anti bacillary" wikidataid="Q84958793" description="A substance that kills or slows the growth of bacteria."/>
+	<entry DAVEid="DAVE.activity.50" activity="anti bacteria" wikidataid="Q804539"/>
+	<entry DAVEid="DAVE.activity.51" activity="anti bacterial" wikidataid="Q804539" description="substance that kills bacteria"/>
+	<entry DAVEid="DAVE.activity.52" activity="anti pertussic" wikidataid="Q804539" description="A substance that kills or slows the growth of bacteria."/>
+	<entry DAVEid="DAVE.activity.53" activity="anti pertussive" wikidataid="Q804539" description="A substance that kills or slows the growth of bacteria."/>
+	<entry DAVEid="DAVE.activity.54" activity="bactericidal" wikidataid="Q804539"/>
+	<entry DAVEid="DAVE.activity.55" activity="bactericide" wikidataid="Q804539"/>
+	<entry DAVEid="DAVE.activity.56" activity="anti biofilm" wikidataid="Q84959117" description="compound inhibiting the biosynthesis or actions of biofilms: groups of microorganisms in which cells stick together and often to a surface, become embedded within a slimy extracellular matrix that is composed of extracellular polymeric substances"/>
+	<entry DAVEid="DAVE.activity.57" activity="anti cancer" wikidataid="Q2853144"/>
+	<entry DAVEid="DAVE.activity.58" activity="anti neoplastic" wikidataid="Q2853144" description="anti cancer agent"/>
+	<entry DAVEid="DAVE.activity.59" activity="anti neoplastic agent" wikidataid="Q2853144"/>
+	<entry DAVEid="DAVE.activity.60" activity="anti tumor" wikidataid="Q2853144" description="A substance that inhibits or prevents the proliferation of neoplasms."/>
+	<entry DAVEid="DAVE.activity.61" activity="Cytostatic anti neoplastic agent" wikidataid="Q2853144"/>
+	<entry DAVEid="DAVE.activity.62" activity="anti coagulant" wikidataid="Q215118" description="chemical substances that prevent or reduce coagulation of blood, prolonging the clotting time"/>
+	<entry DAVEid="DAVE.activity.63" activity="anti collagenic" wikidataid="Q84997332" description="An agent, or anti body, that binds collagen and prevents buildup in connective tissues. It may be used to treat heart disease."/>
+	<entry DAVEid="DAVE.activity.64" activity="anti collegenase" wikidataid="Q84997335" description="A compound or agent that combines with a Collagenase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction. Collagenases are enzymes that break the peptide bonds in collagen"/>
+	<entry DAVEid="DAVE.activity.65" activity="anti comedogenic" wikidataid="Q84962992" description="An agent that prevents blackheads blocking the pores of the skin."/>
+	<entry DAVEid="DAVE.activity.66" activity="anti convulsant" wikidataid="Q576618" description="class of medications"/>
+	<entry DAVEid="DAVE.activity.67" activity="anti dermatophytic" wikidataid="Q84959377" description="An agent, or essential oil, used to treat fungal infections of skin, hair, or nails."/>
+	<entry DAVEid="DAVE.activity.68" activity="anti diabetic" wikidataid="Q575062" description="Substances which lower blood glucose levels"/>
+	<entry DAVEid="DAVE.activity.69" activity="anti hyperglycemic" wikidataid="Q575062"/>
+	<entry DAVEid="DAVE.activity.70" activity="hypoglycemic" wikidataid="Q575062" description="Substances which lower blood glucose levels"/>
+	<entry DAVEid="DAVE.activity.71" activity="anti diarrheic" wikidataid="Q2742649" description="An anti diarrhoeal drug (or anti diarrheal drug in American English) is any medication which provides symptomatic relief for diarrhoea"/>
+	<entry DAVEid="DAVE.activity.72" activity="Anti diarrhoeal" wikidataid="Q2742649" description="Miscellaneous agents found useful in the symptomatic treatment of diarrhea. They have no effect on the agent(s) that cause diarrhea, but merely alleviate the condition"/>
+	<entry DAVEid="DAVE.activity.73" activity="anti elastase" wikidataid="Q84962840" description="A compound or agent that combines with elastase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction."/>
+	<entry DAVEid="DAVE.activity.74" activity="anti emetic" wikidataid="Q575136" description="drug used to prevent nausea or vomiting"/>
+	<entry DAVEid="DAVE.activity.75" activity="anti erythemic" wikidataid="Q84997870" description="A substance used to treat or prevent Erythema, redness of the skin or mucous membranes, caused by hyperemia (increased blood flow) in superficial capillaries. It occurs with any skin injury, infection, or inflammation"/>
+	<entry DAVEid="DAVE.activity.76" activity="anti feedant" wikidataid="Q56062995" description="Anti feedants are organic compounds produced by plants to inhibit attack by insects and grazing animals"/>
+	<entry DAVEid="DAVE.activity.77" activity="Anti fibrinolytic" wikidataid="Q575222" description="Anti fibrinolytics are a class of medication that are inhibitors of fibrinolysis"/>
+	<entry DAVEid="DAVE.activity.78" activity="anti fungal" wikidataid="Q578726" description="any pharmaceutical or chemical fungicide or fungistatic used to treat and prevent mycosis such as athlete's foot, ringworm, candidiasis, serious systemic infections such as cryptococcal meningitis, and others"/>
+	<entry DAVEid="DAVE.activity.79" activity="anti mycotic" wikidataid="Q578726" description="any pharmaceutical or chemical fungicide or fungistatic used to treat and prevent mycosis such as athlete's foot, ringworm, candidiasis, serious systemic infections such as cryptococcal meningitis, and others"/>
+	<entry DAVEid="DAVE.activity.80" activity="fungistat" wikidataid="Q578726" description="any pharmaceutical or chemical fungicide or fungistatic used to treat and prevent mycosis such as athlete's foot, ringworm, candidiasis, serious systemic infections such as cryptococcal meningitis, and others"/>
+	<entry DAVEid="DAVE.activity.81" activity="anti furuncular" wikidataid="Q84998040" description="An agent that relieves skin sores. A furuncle, is a deep folliculitis, infection of the hair follicle"/>
+	<entry DAVEid="DAVE.activity.82" activity="anti hemorrhagic" wikidataid="Q1642182" description="substance that promotes hemostasis"/>
+	<entry DAVEid="DAVE.activity.83" activity="anti hepatotoxic" wikidataid="Q3817359"/>
+	<entry DAVEid="DAVE.activity.84" activity="hepatoprotection" wikidataid="Q3817359"/>
+	<entry DAVEid="DAVE.activity.85" activity="hepatoprotective" wikidataid="Q3817359"/>
+	<entry DAVEid="DAVE.activity.86" activity="anti histaminic" wikidataid="Q324089" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists"/>
+	<entry DAVEid="DAVE.activity.87" activity="antihistaminic" wikidataid="Q324089" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists"/>
+	<entry DAVEid="DAVE.activity.88" activity="Histamine antagonist" wikidataid="Q324089" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists"/>
+	<entry DAVEid="DAVE.activity.89" activity="Anti hyperkeratinization" wikidataid="Q5958197" description="Hyperkeratinization American English or hyperkeratinisation in British) is a disorder of the cells lining the inside of a hair follicle"/>
+	<entry DAVEid="DAVE.activity.90" activity="anti hyperkeratotic" wikidataid="Q84998042" description="An agent that relieves severe flaking and cracking of the skin associated with hyperkeratosis, the thickening of the stratum corneum (the outermost layer of the epidermis), often associated with the presence of an abnormal quantity of keratin"/>
+	<entry DAVEid="DAVE.activity.91" activity="anti hypertensive" wikidataid="Q575890" description="all drugs for hypertension's treatment"/>
+	<entry DAVEid="DAVE.activity.92" activity="anti ichthyosic" wikidataid="Q84998043" description="An agent that prevents or relieves severly dry, scaly skin caused by ichthyosis."/>
+	<entry DAVEid="DAVE.activity.93" activity="anti infective" wikidataid="Q50377176" description="Infection control"/>
+	<entry DAVEid="DAVE.activity.94" activity="anti inflammatory" wikidataid="Q581996" description="substance that reduces or suppresses inflammation"/>
+	<entry DAVEid="DAVE.activity.95" activity="anti irritant" wikidataid="Q2142251"/>
+	<entry DAVEid="DAVE.activity.96" activity="gastric irritant" wikidataid="Q2142251"/>
+	<entry DAVEid="DAVE.activity.97" activity="irritant" wikidataid="Q2142251" description="substance that acts locally on cutaneous or mucosal surfaces to produce inflammation"/>
+	<entry DAVEid="DAVE.activity.98" activity="occuloirritant" wikidataid="Q2142251"/>
+	<entry DAVEid="DAVE.activity.99" activity="skin irritant" wikidataid="Q2142251" description="substance that acts locally on cutaneous or mucosal surfaces to produce inflammation"/>
+	<entry DAVEid="DAVE.activity.100" activity="anti leishmanic" wikidataid="Q84959304" description="A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans"/>
+	<entry DAVEid="DAVE.activity.101" activity="anti leucodermic" wikidataid="Q84998051" description="An agent, such as a herbal extrat, used for treatment of vitiligo white patches or dysfunctionalty of melanocyte cells that cause depigmentation resulting in loss of skin color with irregular white, milky white and pink patches.SAME"/>
+	<entry DAVEid="DAVE.activity.102" activity="anti manic" wikidataid="Q84998051" description="An agent or drug that stabilizes mood by controlling symptoms of mania, the abnormal psychological state of excitement."/>
+	<entry DAVEid="DAVE.activity.103" activity="anti vitiligic" wikidataid="Q84998051" description="An agent that prevents loss of skin pigmentation, characteristic of vitiligo."/>
+	<entry DAVEid="DAVE.activity.104" activity="anti leukotriene" wikidataid="Q84953633" description="An anti leukotriene is a medication which functions to oppose the function of Leukotriene inflammatory mediators, thus countering bronchoconstriction, inflammation, microvascular permeability, and mucus secretion in asthma and COPD."/>
+	<entry DAVEid="DAVE.activity.105" activity="leukotriene inhibitor" wikidataid="Q84953633" description="An anti leukotriene is a medication which functions to oppose the function of Leukotriene inflammatory mediators, thus countering bronchoconstriction, inflammation, microvascular permeability, and mucus secretion in asthma and COPD."/>
+	<entry DAVEid="DAVE.activity.106" activity="anti malarial" wikidataid="Q521616" description="Agents used in the treatment of malaria. They are usually classified on the basis of their action against plasmodia at different stages in their life cycle in the human. (from ama, drug evaluations annual, 1992, p1585)"/>
+	<entry DAVEid="DAVE.activity.107" activity="anti melanogenic" wikidataid="Q84998059" description="A substance that inhibits or prevents the proliferation of Melanocytes, melanin-producing neural crest-derived cells located in the bottom layer (the stratum basale) of the skin's epidermis."/>
+	<entry DAVEid="DAVE.activity.108" activity="anti melasmic" wikidataid="Q84961334" description="An agent used to relieve effects of melasma, characterized by a tan or dark skin discoloration often during pregnancy."/>
+	<entry DAVEid="DAVE.activity.109" activity="anti microbial" wikidataid="Q68541106" description="anti microbial resistance to multiple drugs"/>
+	<entry DAVEid="DAVE.activity.110" activity="anti mitotic" wikidataid="Q6881918" description="chemical"/>
+	<entry DAVEid="DAVE.activity.111" activity="mitotic inhibitor" wikidataid="Q6881918" description="chemical"/>
+	<entry DAVEid="DAVE.activity.112" activity="anti mutagen" wikidataid="Q12529398" description="An agent that interferes with the mutagenicity of a substance. The interference can be in the form of prevention of the transformation of a mutagenic compound into mutagen, inactivation, or otherwise the prevention of Mutagen-DNA reaction."/>
+	<entry DAVEid="DAVE.activity.113" activity="anti mutagenic" wikidataid="Q12529398" description="An agent that interferes with the mutagenicity of a substance. The interference can be in the form of prevention of the transformation of a mutagenic compound into mutagen, inactivation, or otherwise the prevention of Mutagen-DNA reaction."/>
+	<entry DAVEid="DAVE.activity.114" activity="anti neuralgic" wikidataid="Q11905748" description="medication that treats neuralgia"/>
+	<entry DAVEid="DAVE.activity.115" activity="anti nitrosating" wikidataid="Q84962587" description="An agent that prevents the conversion of organic compounds into nitroso derivatives."/>
+	<entry DAVEid="DAVE.activity.116" activity="anti nociceptive" wikidataid="Q84961500" description="A class of drugs producing both physiological and psychological pain-relieving effects through a variety of mechanisms involving the central nervous system."/>
+	<entry DAVEid="DAVE.activity.117" activity="anti obesity" wikidataid="Q2255024" description="Agents that increase energy expenditure and weight loss by neural and chemical regulation"/>
+	<entry DAVEid="DAVE.activity.118" activity="anti oxidant" wikidataid="Q133948" description="molecule that inhibits the oxidation of other molecules"/>
+	<entry DAVEid="DAVE.activity.119" activity="anti radical" wikidataid="Q133948"/>
+	<entry DAVEid="DAVE.activity.120" activity="free-radical scavenger" wikidataid="Q133948"/>
+	<entry DAVEid="DAVE.activity.121" activity="anti panniculopathic" wikidataid="Q84998172" description="An agent used to treat cellulite (Edematous Fibrosclerotic Panniculopathy), which is persistent subcutaneous fat that causes dimpling of the skin."/>
+	<entry DAVEid="DAVE.activity.122" activity="anti parasitic" wikidataid="Q581102" description="A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans."/>
+	<entry DAVEid="DAVE.activity.123" activity="anti permeability" wikidataid="Q84998248" description="An agent that prevents the updtake of a substance by a cell, or tissue."/>
+	<entry DAVEid="DAVE.activity.124" activity="anti perspirant" wikidataid="Q1423889" description="An agent, or anti microbial, that controls sweat and body odor by preventing sweat reaching the skin surface, or by reducing the bacteria that causes body odour."/>
+	<entry DAVEid="DAVE.activity.125" activity="anti proliferative" wikidataid="Q3009547" description="the inhibition of cell growth and multiplication. Cytostatic refers to a cellular component or medicine that inhibits cell growth"/>
+	<entry DAVEid="DAVE.activity.126" activity="cytostatic" wikidataid="Q3009547" description="the inhibition of cell growth and multiplication. Cytostatic refers to a cellular component or medicine that inhibits cell growth"/>
+	<entry DAVEid="DAVE.activity.127" activity="anti prostaglandin" wikidataid="Q2853342" description="A chemical substance which inhibits the function of the endocrine glands, the biosynthesis of their secreted hormones, or the action of hormones upon their specific sites."/>
+	<entry DAVEid="DAVE.activity.128" activity="anti protozoal" wikidataid="Q582559" description="class of pharmaceuticals used in treatment of protozoan infection"/>
+	<entry DAVEid="DAVE.activity.129" activity="anti pruritic" wikidataid="Q2853347" description="drug, usually applied topically, that relieves pruritus (itching)"/>
+	<entry DAVEid="DAVE.activity.130" activity="anti psoriac" wikidataid="Q84998654" description="A substance that inhibits or prevents the psoriasis, a long-lasting autoimmune disease characterized by patches of abnormal skin. These skin patches are typically red, or purple on some people with darker skin, dry, itchy, and scaly."/>
+	<entry DAVEid="DAVE.activity.131" activity="anti psoriatic" wikidataid="Q84998654" description="A substance that inhibits or prevents the psoriasis, a long-lasting autoimmune disease characterized by patches of abnormal skin. These skin patches are typically red, or purple on some people with darker skin, dry, itchy, and scaly."/>
+	<entry DAVEid="DAVE.activity.132" activity="anti purpuric" wikidataid="Q84999146" description="A substance that inhibits or prevents Purpura, a condition of red or purple discolored spots on the skin that do not blanch on applying pressure, caused by bleeding underneath the skin secondary to platelet, vascular,  or coagulation disorders."/>
+	<entry DAVEid="DAVE.activity.133" activity="anti pyretic" wikidataid="Q582687" description="drug that prevents or reduces fever by lowering the body temperature from a raised state"/>
+	<entry DAVEid="DAVE.activity.134" activity="febrifuge" wikidataid="Q582687" description="drug that prevents or reduces fever by lowering the body temperature from a raised state"/>
+	<entry DAVEid="DAVE.activity.135" activity="anti scar" wikidataid="Q5119340" description="An agent that promotes healing through the formation of scar tissue. For example, sandalwood is a natural cicatrizant."/>
+	<entry DAVEid="DAVE.activity.136" activity="cicatrizant" wikidataid="Q5119340" description="An agent that promotes healing through the formation of scar tissue. For example, sandalwood is a natural cicatrizant."/>
+	<entry DAVEid="DAVE.activity.137" activity="anti septic" wikidataid="Q274493" description="A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans."/>
+	<entry DAVEid="DAVE.activity.138" activity="anti spasmodic" wikidataid="Q93978" description="a pharmaceutical drug or other agent that suppresses muscle spasms"/>
+	<entry DAVEid="DAVE.activity.139" activity="anti tnf" wikidataid="Q1536078"/>
+	<entry DAVEid="DAVE.activity.140" activity="tnf inhibitor" wikidataid="Q1536078"/>
+	<entry DAVEid="DAVE.activity.141" activity="anti tussive" wikidataid="Q584209" description="Agents that suppress cough. They act centrally on the medullary cough center. Expectorants, also used in the treatment of cough, act locally"/>
+	<entry DAVEid="DAVE.activity.142" activity="anti ulcer" wikidataid="Q41602594" description="class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract"/>
+	<entry DAVEid="DAVE.activity.143" activity="anti ulcerogenic" wikidataid="Q41602594" description="class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract"/>
+	<entry DAVEid="DAVE.activity.144" activity="anti viral" wikidataid="Q846227" description="A substance that destroys or inhibits replication of viruses."/>
+	<entry DAVEid="DAVE.activity.145" activity="anti wrinkle" wikidataid="Q84999154" description="An agent that prevents or diminishes the formation of wrinkles, often a factor of aging."/>
+	<entry DAVEid="DAVE.activity.146" activity="anxiolytic" wikidataid="Q62903" description="medication or other intervention that inhibits anxiety"/>
+	<entry DAVEid="DAVE.activity.147" activity="aphrodisiac" wikidataid="Q211420" description="Chemical agents or odorants that stimulate sexual desires"/>
+	<entry DAVEid="DAVE.activity.148" activity="apoptotic" wikidataid="Q84959751" description="An agent that stimulates the process of apoptosis, or programmed cell death."/>
+	<entry DAVEid="DAVE.activity.149" activity="appetite stimulant" wikidataid="Q17100700" description="An agent, or drug, that promotes the appetite or assists digestion"/>
+	<entry DAVEid="DAVE.activity.150" activity="stomachic" wikidataid="Q17100700" description="An agent, or drug, that promotes the appetite or assists digestion"/>
+	<entry DAVEid="DAVE.activity.151" activity="ascaricide" wikidataid="Q4803792" description="Ascaricides are drugs to treat ascariasis that is caused by infections with parasitic nematodes (roundworms) of the genus Ascaris (giant intestinal roundworms)."/>
+	<entry DAVEid="DAVE.activity.152" activity="astringent" wikidataid="Q378705" description="chemical compound that tends to shrink or constrict body tissues"/>
+	<entry DAVEid="DAVE.activity.153" activity="bacteriostatic" wikidataid="Q223417" description="biological or chemical agent that stops bacteria from reproducing, while not necessarily killing them otherwise"/>
+	<entry DAVEid="DAVE.activity.154" activity="barbiturate" wikidataid="Q206348" description="drugs that act as central nervous system depressants"/>
+	<entry DAVEid="DAVE.activity.155" activity="bronchodilator" wikidataid="Q927234" description="substance that dilates the bronchi and bronchioles, decreasing resistance in the respiratory airway and increasing airflow to the lungs"/>
+	<entry DAVEid="DAVE.activity.156" activity="Calcium channel blocker" wikidataid="Q421700" description="several medications that disrupt the movement of calcium (Ca2+) through calcium channels"/>
+	<entry DAVEid="DAVE.activity.157" activity="calcium-antagonist" wikidataid="Q421700" description="several medications that disrupt the movement of calcium (Ca2+) through calcium channels"/>
+	<entry DAVEid="DAVE.activity.158" activity="cancer-preventive" wikidataid="Q1069606"/>
+	<entry DAVEid="DAVE.activity.159" activity="chemopreventive" wikidataid="Q1069606"/>
+	<entry DAVEid="DAVE.activity.160" activity="chemoprophylaxis" wikidataid="Q1069606"/>
+	<entry DAVEid="DAVE.activity.161" activity="candidicide" wikidataid="Q84961820" description="An agent which kills of organisms of the genus Candida , such as Candida albicans."/>
+	<entry DAVEid="DAVE.activity.162" activity="candidistat" wikidataid="Q84961856" description="An agent inhibits growth of organisms of the genus Candida , such as Candida albicans."/>
+	<entry DAVEid="DAVE.activity.163" activity="carcinogen" wikidataid="Q187661" description="substance, radionuclide, or radiation directly involved in causing cancer"/>
+	<entry DAVEid="DAVE.activity.164" activity="carcinogenic" wikidataid="Q187661" description="substance, radionuclide, or radiation directly involved in causing cancer"/>
+	<entry DAVEid="DAVE.activity.165" activity="carminative" wikidataid="Q1734091" description="An herb or preparation intended to either prevent formation of gas in the gastrointestinal tract or facilitate the expulsion of said gas, thereby combatting flatulence."/>
+	<entry DAVEid="DAVE.activity.166" activity="cathartic" wikidataid="Q3774852" description="Agents that are used to stimulate evacuation of the bowels"/>
+	<entry DAVEid="DAVE.activity.167" activity="choleretic" wikidataid="Q905101" description="substance that increase the volume of secretion of bile from the liver"/>
+	<entry DAVEid="DAVE.activity.168" activity="cns-depressant" wikidataid="Q1976211" description="drug or endogenous compound that lowers neurotransmission levels"/>
+	<entry DAVEid="DAVE.activity.169" activity="collagenase inhibitor" wikidataid="Q85001503" description="A compound or agent that combines with the collagenase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction."/>
+	<entry DAVEid="DAVE.activity.170" activity="collagenic" wikidataid="Q85001558" description="An agent that stimulates production of collagen, the fibrous protein constituent of bone, cartilage, tendon, and other connective tissue."/>
+	<entry DAVEid="DAVE.activity.171" activity="colorant" wikidataid="Q911922" description="substance used to impart colour to another substance or object"/>
+	<entry DAVEid="DAVE.activity.172" activity="comedogenic" wikidataid="Q85001732" description="An agent that causes blackheads by blocking the pores of the skin."/>
+	<entry DAVEid="DAVE.activity.173" activity="comedolytic" wikidataid="Q85001844" description="An agent that resolves comedones or prevents the formation of new comedones (skin-coloured, small bumps (papules) frequently found on the forehead and chin of those with acne)."/>
+	<entry DAVEid="DAVE.activity.174" activity="convulsant" wikidataid="Q5166679" description="substance that acts in the brain stem or spinal cord to produce tonic or clonic convulsions, often by removing normal inhibitory tone"/>
+	<entry DAVEid="DAVE.activity.175" activity="cosmetic" wikidataid="Q131207" description="substances used to enhance the appearance or odor of the human body"/>
+	<entry DAVEid="DAVE.activity.176" activity="COX inhibitor" wikidataid="Q26697606"/>
+	<entry DAVEid="DAVE.activity.177" activity="cyclooxygenase inhibitor" wikidataid="Q26697606"/>
+	<entry DAVEid="DAVE.activity.178" activity="cox-1 inhibitor" wikidataid="Q84944531" description="A subclass of cyclooxygenase inhibitors with specificity for cyclooxygenase-1"/>
+	<entry DAVEid="DAVE.activity.179" activity="cox-2 inhibitor" wikidataid="Q377458" description="A subclass of cyclooxygenase inhibitors with specificity for cyclooxygenase-2"/>
+	<entry DAVEid="DAVE.activity.180" activity="culicide" wikidataid="Q84962003" description="An agent that destroys mosquitoes."/>
+	<entry DAVEid="DAVE.activity.181" activity="cytochrome-P450-1A inducer" wikidataid="Q84960246" description="An agent that stimulates the activity of cytochrome-P450-1A, a cytochrome-P450 enzyme involved in phase I xenobiotic and drug metabolism, as well as metabolic activation of aromatic hydrocarbons."/>
+	<entry DAVEid="DAVE.activity.182" activity="cytochrome-P450-2B inducer" wikidataid="Q84960335" description="An agent that stimulates the activity of cytochrome-P450-2B a cytochrome-P450 that catalyzes many reactions involved in drug metabolism (anti cancer drugs cyclophosphamide and ifosphamide) and synthesis of cholesterol, steroids, lipids."/>
+	<entry DAVEid="DAVE.activity.183" activity="Cytokine Modulator" wikidataid="Q14862699" description="Functions to control the survival, growth, differentiation and effector function of tissues and cells"/>
+	<entry DAVEid="DAVE.activity.184" activity="Cytokine promotor" wikidataid="Q14862699" description="Functions to control the survival, growth, differentiation and effector function of tissues and cells"/>
+	<entry DAVEid="DAVE.activity.185" activity="cytotoxic" wikidataid="Q246181" description="treatment of cancer with one or more cytotoxic anti neoplastic drugs"/>
+	<entry DAVEid="DAVE.activity.186" activity="decongestant" wikidataid="Q430719" description="drug to relieve nasal congestion"/>
+	<entry DAVEid="DAVE.activity.187" activity="deliriant" wikidataid="Q901434"/>
+	<entry DAVEid="DAVE.activity.188" activity="deodorant" wikidataid="Q309035" description="substance applied to the body to prevent body odor"/>
+	<entry DAVEid="DAVE.activity.189" activity="depigmentor" wikidataid="Q3705665" description="A pigment-suppressing agent that has a lightening effect on skin."/>
+	<entry DAVEid="DAVE.activity.190" activity="dermal" wikidataid="Q4669896" description="route through which substances may be received"/>
+	<entry DAVEid="DAVE.activity.191" activity="dermatitigenic" wikidataid="Q84961940" description="An agent that causes inflammation of the skin (dermatitis)."/>
+	<entry DAVEid="DAVE.activity.192" activity="disinfectant" wikidataid="Q73984" description="anti microbial agent that is applied to non-living objects (compare: anti sepsis) to reduce the number of microorganisms (unwanted germs and parasites) on them (compare:sterilization)"/>
+	<entry DAVEid="DAVE.activity.193" activity="diuretic" wikidataid="Q200656" description="substance that promotes the production of urine"/>
+	<entry DAVEid="DAVE.activity.194" activity="ecbolic" wikidataid="Q7902662" description="substance that induces labor and stimulates childbirth and delivery"/>
+	<entry DAVEid="DAVE.activity.195" activity="Uterotonic" wikidataid="Q7902662" description="substance that induces labor and stimulates childbirth and delivery"/>
+	<entry DAVEid="DAVE.activity.196" activity="elastase inhibitor" wikidataid="Q85001852" description="A compound or agent that combines with the elastase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction."/>
+	<entry DAVEid="DAVE.activity.197" activity="emetic" wikidataid="Q1930829" description="drug that induces vomiting"/>
+	<entry DAVEid="DAVE.activity.198" activity="emmenagogue" wikidataid="Q2602077" description=" herbs which stimulate blood flow in the pelvic area and uterus; some stimulate menstruation"/>
+	<entry DAVEid="DAVE.activity.199" activity="emollient" wikidataid="Q85001855" description="Emollients are cosmetic preparations used for protecting, moisturizing, and lubricating the skin"/>
+	<entry DAVEid="DAVE.activity.200" activity="enterorelaxant" wikidataid="Q84962361" description="An agent that reduces or inhibits the movement of muscles of the intestine."/>
+	<entry DAVEid="DAVE.activity.201" activity="enterotoxin" wikidataid="Q421978" description="An enterotoxin is a protein exotoxin released by a microorganism that targets the intestines"/>
+	<entry DAVEid="DAVE.activity.202" activity="expectorant" wikidataid="Q1384342" description="Drugs that clear mucus from airways"/>
+	<entry DAVEid="DAVE.activity.203" activity="mucokinetic" wikidataid="Q1384342" description="An agent that aids in the clearance of mucus from the airways, lungs, bronchi, and trachea."/>
+	<entry DAVEid="DAVE.activity.204" activity="Mucokinetics" wikidataid="Q1384342" description="Drugs that clear mucus from airways"/>
+	<entry DAVEid="DAVE.activity.205" activity="fungicidal" wikidataid="Q193237"/>
+	<entry DAVEid="DAVE.activity.206" activity="fungicide" wikidataid="Q193237" description="pesticide used to kill fungi"/>
+	<entry DAVEid="DAVE.activity.207" activity="gabaergic" wikidataid="Q18356742" description="GABAergic means pertaining to or affecting the neurotransmitter GABA"/>
+	<entry DAVEid="DAVE.activity.208" activity="gastroprotective" wikidataid="Q84951095" description="the ability of certain endogenous factors, chemical compounds and drugs to counteract gastric mucosal damage through mechanisms unrelated to inhibition of acid secretion"/>
+	<entry DAVEid="DAVE.activity.209" activity="genotoxic" wikidataid="Q18663259" description="the property of chemical agents that damages the genetic information within a cell causing mutations, which may lead to cancer"/>
+	<entry DAVEid="DAVE.activity.210" activity="haemotoxic" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.211" activity="haemotoxin" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.212" activity="hematotoxic" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.213" activity="hematotoxin" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.214" activity="hemotoxic" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.215" activity="hemotoxin" wikidataid="Q886593" description="Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells (that is, cause haemotoxin), disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage"/>
+	<entry DAVEid="DAVE.activity.216" activity="hallucinogenic" wikidataid="Q194270" description="An agent that causes hallucinations, perception anomalies, and other substantial subjective changes in thoughts, emotion, and consciousness."/>
+	<entry DAVEid="DAVE.activity.217" activity="hepatotoxic" wikidataid="Q1349821" description="chemical or drug-induced liver injury"/>
+	<entry DAVEid="DAVE.activity.218" activity="herbicide" wikidataid="Q178266" description="chemical used to kill unwanted plants"/>
+	<entry DAVEid="DAVE.activity.219" activity="histamine inhibitor" wikidataid="Q324089" description="Histamine antagonists are the drugs that bind to but do not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists."/>
+	<entry DAVEid="DAVE.activity.220" activity="histaminergic" wikidataid="Q18349602" description="drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists"/>
+	<entry DAVEid="DAVE.activity.221" activity="histaminic" wikidataid="Q85001861" description="A histamine agonist is a drug which causes increased activity at one or more of the four histamine receptor subtypes."/>
+	<entry DAVEid="DAVE.activity.222" activity="humectant" wikidataid="Q911854" description="hygroscopic substance used to keep things moist. A humectant that is used as a food additive to prevent foodstuffs from drying out"/>
+	<entry DAVEid="DAVE.activity.223" activity="hyaluronidase inhibitor" wikidataid="Q85002068" description="A compound or agent that combines with the Hyaluronidase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction. Hyaluronidases are a family of enzymes that catalyse the degradation of hyaluronic acid"/>
+	<entry DAVEid="DAVE.activity.224" activity="hypnotic" wikidataid="Q62962" description="class of psychoactive drugs whose primary function is to induce sleep and to be used in the treatment of insomnia (sleeplessness), or for surgical anesthesia"/>
+	<entry DAVEid="DAVE.activity.225" activity="hypocholesterolemic" wikidataid="Q955332" description="Hypolipidemic agents, cholesterol-lowering drugs or anti hyperlipidemic agents, are a diverse group of pharmaceuticals that are used in the treatment of high levels of fats (lipids), such as cholesterol, in the blood (hyperlipidemia)"/>
+	<entry DAVEid="DAVE.activity.226" activity="hypothermic" wikidataid="Q84953056" description="drug or chemical substance that induces body temperature cooling"/>
+	<entry DAVEid="DAVE.activity.227" activity="immunomodulator" wikidataid="Q1660194" description="Immunomodulators are the active agents of immunotherapy. They are a diverse array of recombinant, synthetic, and natural preparations."/>
+	<entry DAVEid="DAVE.activity.228" activity="immunostimulant" wikidataid="Q901656" description="A substance that augments, stimulates, activates, potentiates, or modulates the immune response at either the cellular or humoral level. A classical agent (Freund's adjuvant, BCG, Corynebacterium parvum, et al.) contains bacterial anti gens. It could also be endogenous (e.g., histamine, interferon, transfer factor, tuftsin, interleukin-1). Its mode of action is either non-specific, resulting in increased immune responsiveness to a wide variety of anti gens, or anti gen-specific, i.e., affecting a restricted type of immune response to a narrow group of anti gens. The therapeutic efficacy is related to its anti gen-specific immunoadjuvanti city."/>
+	<entry DAVEid="DAVE.activity.229" activity="immunosuppressant" wikidataid="Q249619" description="An agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response."/>
+	<entry DAVEid="DAVE.activity.230" activity="immunotoxic" wikidataid="Q249619"/>
+	<entry DAVEid="DAVE.activity.231" activity="immunotoxin" wikidataid="Q249619"/>
+	<entry DAVEid="DAVE.activity.232" activity="inflammatory" wikidataid="Q85002288" description="An agent that causes inflammation of a part of the body."/>
+	<entry DAVEid="DAVE.activity.233" activity="insect attractant" wikidataid="Q84953547" description="A chemical that attracts insects"/>
+	<entry DAVEid="DAVE.activity.234" activity="insectiphile" wikidataid="Q84953547" description="A chemical that attracts insects"/>
+	<entry DAVEid="DAVE.activity.235" activity="insect repellent" wikidataid="Q1340459" description="substance which repels insects"/>
+	<entry DAVEid="DAVE.activity.236" activity="insectifuge" wikidataid="Q1340459" description="substance which repels insects"/>
+	<entry DAVEid="DAVE.activity.237" activity="repellent" wikidataid="Q1340459" description="substance which repels insects"/>
+	<entry DAVEid="DAVE.activity.238" activity="insecticide" wikidataid="Q181322" description="pesticide used against insects"/>
+	<entry DAVEid="DAVE.activity.239" activity="juvabional" wikidataid="Q84953576" description="Jubiavonials have the effect of insect hormones that physical maturation of some insects. Jubiavonials can be ingredients in insecticides which prevent insects from developing past the larval stage, thus preventing them from breeding."/>
+	<entry DAVEid="DAVE.activity.240" activity="keratolytic" wikidataid="Q445580" description="drug that softens, separates, and causes desquamation of the cornified epithelium or horny layer of skin. An agent that removes warts and other lesions in which the epidermis produces excess skin."/>
+	<entry DAVEid="DAVE.activity.241" activity="larvicide" wikidataid="Q522817" description="an insecticide that is specifically targeted against the larval life stage of an insect. Their most common use is against mosquitoes. Larvicides may be contact poisons, stomach poisons, growth regulators, or (increasingly) biological control agents."/>
+	<entry DAVEid="DAVE.activity.242" activity="laxative" wikidataid="Q217972" description="Agents that produce a soft formed stool, and relax and loosen the bowels, typically used over a protracted period, to relieve constipation"/>
+	<entry DAVEid="DAVE.activity.243" activity="lipolytic" wikidataid="Q84953651" description="activity involved in the breakdown of lipids and involves hydrolysis of triglycerides into glycerol and three fatty acids"/>
+	<entry DAVEid="DAVE.activity.244" activity="lipoxygenase inhibitor" wikidataid="Q16909071" description="Compounds that bind to and inhibit that enzymatic activity of lipoxygenases. Included under this category are inhibitors that are specific for lipoxygenase subtypes and act to reduce the production of leukotrienes"/>
+	<entry DAVEid="DAVE.activity.245" activity="mast-cell stabilizer" wikidataid="Q745130" description="An agent, such as a cromone medication, used to prevent or control certain allergic disorders. They block a calcium channel essential for mast cell degranulation, stabilizing the cell and thereby preventing the release of histamine and related mediators."/>
+	<entry DAVEid="DAVE.activity.246" activity="mastogenic" wikidataid="Q85002611" description="A compound or agent that promotes natural swelling and growth of breast tissues."/>
+	<entry DAVEid="DAVE.activity.247" activity="melaninogenic" wikidataid="Q85002666" description="An agent that stimulates production of melanin, which determines skin and hair color and is naturally present in the skin to varying degrees."/>
+	<entry DAVEid="DAVE.activity.248" activity="mitogen" wikidataid="Q1926141" description="A chemical substance that encourages a cell to commence cell division, triggering mitosis."/>
+	<entry DAVEid="DAVE.activity.249" activity="mitogenic" wikidataid="Q1926141" description="A substance, usually some form of a protein, that encourages a cell to commence cell division, triggering mitosis."/>
+	<entry DAVEid="DAVE.activity.250" activity="mitotic" wikidataid="Q1926141" description="Pertaining to mitosis, a process of nuclear division in eukaryotic cells that occurs when a parent cell divides to produce two identical daughter cells."/>
+	<entry DAVEid="DAVE.activity.251" activity="Molluscicidal" wikidataid="Q901537" description="Molluscicides are pesticides against molluscs, which are usually used in agriculture or gardening, in order to control gastropod pests specifically slugs and snails which damage crops or other valued plants by feeding on them."/>
+	<entry DAVEid="DAVE.activity.252" activity="mucolytic" wikidataid="Q84963984" description="A compound that alters the structure of mucus so as to decrease its viscosity and thereby facilitate its removal by ciliary action and expectoration. Compare with anti tussives, which suppress the cough reflex, and expectorants, which are considered to increase the volume of secretions in the respiratory tract, so facilitating their removal by ciliary action and coughing."/>
+	<entry DAVEid="DAVE.activity.253" activity="muscle relaxant" wikidataid="Q1225289" description="drug or chemical that affects skeletal muscle function, decreases muscle tone"/>
+	<entry DAVEid="DAVE.activity.254" activity="myorelaxant" wikidataid="Q1225289" description="drug or chemical that affects skeletal muscle function, decreases muscle tone"/>
+	<entry DAVEid="DAVE.activity.255" activity="nematicide" wikidataid="Q910391" description="A nematicide is a type of chemical pesticide used to kill plant-parasitic nematodes"/>
+	<entry DAVEid="DAVE.activity.256" activity="nephrotoxicity" wikidataid="Q1468324" description="Toxicity of the Kidneys"/>
+	<entry DAVEid="DAVE.activity.257" activity="nervine" wikidataid="Q84954685" description="a medicine used to calm the nerves"/>
+	<entry DAVEid="DAVE.activity.258" activity="neuroprotection" wikidataid="Q1981368" description="relative preservation of neuronal structure and function"/>
+	<entry DAVEid="DAVE.activity.259" activity="neuroprotective" wikidataid="Q1981368" description="relative preservation of neuronal structure and function"/>
+	<entry DAVEid="DAVE.activity.260" activity="neurostimulant" wikidataid="Q85002964" description="An agent that quickens the functional activity of neurons."/>
+	<entry DAVEid="DAVE.activity.261" activity="neurotoxic" wikidataid="Q407752" description="substance poisonous or destructive to nerve tissue"/>
+	<entry DAVEid="DAVE.activity.262" activity="neurotoxin" wikidataid="Q407752" description="substance poisonous or destructive to nerve tissue"/>
+	<entry DAVEid="DAVE.activity.263" activity="ornithine-decarboxylase inhibitor" wikidataid="Q21139980" description="The stopping, prevention or reduction of the activity of the enzyme ornithine decarboxylase"/>
+	<entry DAVEid="DAVE.activity.264" activity="oxidant" wikidataid="Q187689" description="chemical compound used to oxidize another substance in a chemical reaction. A substance that removes electrons from another reactant in a redox reaction."/>
+	<entry DAVEid="DAVE.activity.265" activity="oxytocic" wikidataid="Q50430113" description="Drugs that stimulate contraction of the myometrium. They are used to induce labor, obstetric at term, to prevent or control postpartum or postabortion hemorrhage, and to assess fetal status in high risk pregnancies"/>
+	<entry DAVEid="DAVE.activity.266" activity="ozone-scavenger" wikidataid="Q84955111" description="An agent that retains ozone from a gas stream"/>
+	<entry DAVEid="DAVE.activity.267" activity="pediculicide" wikidataid="Q3411675" description="drugs or chemicals which irradicate the infestation of human head lice"/>
+	<entry DAVEid="DAVE.activity.268" activity="pemphigenic" wikidataid="Q85003091" description="An agent that induces formation of fluid-filled blisters on the skin (pemphigoid), an auto-immune disorder."/>
+	<entry DAVEid="DAVE.activity.269" activity="percutaneostimulant" wikidataid="Q85003128" description="A stimulant that is effective through the skin."/>
+	<entry DAVEid="DAVE.activity.270" activity="perfumery" wikidataid="Q131746" description="mixture used to produce a pleasant smell"/>
+	<entry DAVEid="DAVE.activity.271" activity="peristaltic" wikidataid="Q84955132" description="drug or chemical which stimulates a radially symmetrical contraction and relaxation of muscles that propagates in a wave down a tube, in an anterograde direction"/>
+	<entry DAVEid="DAVE.activity.272" activity="pesticide" wikidataid="Q131656" description="substance used to destroy pests"/>
+	<entry DAVEid="DAVE.activity.273" activity="pheromonal" wikidataid="Q85003208" description="A semiochemical used in olfactory communication between organisms of the same species eliciting a change in sexual or social behaviour."/>
+	<entry DAVEid="DAVE.activity.274" activity="pheromone" wikidataid="Q167377" description="A semiochemical used in olfactory communication between organisms of the same species eliciting a change in sexual or social behaviour."/>
+	<entry DAVEid="DAVE.activity.275" activity="photoactive" wikidataid="Q85003209" description="Having the ability to respond to light photoelectrically, or to respond to sunlight or ultraviolet radiation by chemical reaction."/>
+	<entry DAVEid="DAVE.activity.276" activity="photocarcinogenic" wikidataid="Q7187720" description="A role played by a chemical compound which is known to induce a process of carcinogenesis by corrupting normal cellular pathways, leading to the acquistion of tumoral capabilities."/>
+	<entry DAVEid="DAVE.activity.277" activity="photodermatitigenic" wikidataid="Q608085" description="An agent, or allergen, which is activated by light to sensitize the allergic response, which causes a rash or other systemic effects upon exposure, including photodermatitis"/>
+	<entry DAVEid="DAVE.activity.278" activity="photoprotectant" wikidataid="Q676558" description="Photoprotection is the biochemical process that helps organisms cope with molecular damage caused by sunlight"/>
+	<entry DAVEid="DAVE.activity.279" activity="photoprotectoe" wikidataid="Q676558" description="Photoprotection is the biochemical process that helps organisms cope with molecular damage caused by sunlight"/>
+	<entry DAVEid="DAVE.activity.280" activity="photosensitizer" wikidataid="Q18388377" description="A molecule that produces a chemical change in another molecule in a photochemicalprocess. Photosensitizers are commonly used in polymer chemistry in reactions such as photopolymerization, photocrosslinking, and photodegradation.Photosensitizers generally act by absorbing energy electromagentic radiation in the form of ultraviolet or visible light and transferring it to adjacent molecules."/>
+	<entry DAVEid="DAVE.activity.281" activity="phototoxic" wikidataid="Q2088972" description="An agent that renders the skin susceptible to damage (as sunburn or blisters) upon exposure to light and especially ultraviolet light."/>
+	<entry DAVEid="DAVE.activity.282" activity="phototoxicity" wikidataid="Q2088972" description="An agent that renders the skin susceptible to damage (as sunburn or blisters) upon exposure to light and especially ultraviolet light."/>
+	<entry DAVEid="DAVE.activity.283" activity="phytotoxic" wikidataid="Q3774857" description="An agent poisonous to plants, having a toxic effect on plant growth."/>
+	<entry DAVEid="DAVE.activity.284" activity="procollagen" wikidataid="Q76797715" description="A biosynthetic precursor of collagen containing additional amino acid sequences at the amino-terminal and carboxyl-terminal ends of the polypeptide chains"/>
+	<entry DAVEid="DAVE.activity.285" activity="proliferative" wikidataid="Q84955175" description="a substance which stimulates the phase of growth called cell division, referred to as proliferation, where a cell, known as the mother cell, grows and divides to produce two daughter cells"/>
+	<entry DAVEid="DAVE.activity.286" activity="prooxidant" wikidataid="Q3922210" description="Pro-oxidants are chemicals that induce oxidative stress, either by generating reactive oxygen species or by inhibiting anti oxidant systems."/>
+	<entry DAVEid="DAVE.activity.287" activity="prostaglandin" wikidataid="Q209717" description="group of physiologically active lipid compounds"/>
+	<entry DAVEid="DAVE.activity.288" activity="Prostaglandin antagonist" wikidataid="Q7250944" description="A compound that inhibits the action of prostaglandins."/>
+	<entry DAVEid="DAVE.activity.289" activity="prostaglandin inhibitor" wikidataid="Q7250944" description="A compound that inhibits the action of prostaglandins."/>
+	<entry DAVEid="DAVE.activity.290" activity="prostatitigenic" wikidataid="Q84956389" description="Pertaining to inflammation of the prostate gland."/>
+	<entry DAVEid="DAVE.activity.291" activity="protease Inhibitor" wikidataid="Q166774" description="A compound which inhibits or antagonizes the biosynthesis or actions of proteases (endopeptidases)."/>
+	<entry DAVEid="DAVE.activity.292" activity="protein kinase inhibitor" wikidataid="Q7251487" description="An EC 2.7.* (P-containing group transferase) inhibitor that interferes with the action of protein kinases."/>
+	<entry DAVEid="DAVE.activity.293" activity="pungency" wikidataid="Q1517948" description="Pungency is the condition of having a strong, sharp smell or flavor that is often so strong that it is unpleasant"/>
+	<entry DAVEid="DAVE.activity.294" activity="purgative" wikidataid="Q3410946" description="An agent that produces a soft formed stool, and relaxes and loosens the bowels, typically used over a protracted period, to relieve constipation. Compare with cathartic, which is a substance that accelerates defecation. A substances can be both a laxative and a cathartic."/>
+	<entry DAVEid="DAVE.activity.295" activity="Radiation-Protective Agents" wikidataid="Q50430144" description="Drugs used to protect against ionizing radiation. They are usually of interest for use in radiation therapy but have been considered for other, e.g. Military, purposes"/>
+	<entry DAVEid="DAVE.activity.296" activity="radioprotective" wikidataid="Q50430144" description="Drugs used to protect against ionizing radiation. They are usually of interest for use in radiation therapy but have been considered for other, e.g. Military, purposes"/>
+	<entry DAVEid="DAVE.activity.297" activity="renoirritant" wikidataid="Q84956474" description="An agent that causes irritation or inflammation of kydney tissue."/>
+	<entry DAVEid="DAVE.activity.298" activity="reproductive toxicity" wikidataid="Q3427345" description="Reproductive toxicity is a hazard associated with some chemical substances, which interfere in some way with normal reproduction; such substances are called reprotoxic."/>
+	<entry DAVEid="DAVE.activity.299" activity="reprotoxic" wikidataid="Q3427345" description="Reproductive toxicity is a hazard associated with some chemical substances, which interfere in some way with normal reproduction; such substances are called reprotoxic."/>
+	<entry DAVEid="DAVE.activity.300" activity="rubefacient" wikidataid="Q3446580" description="A substance for topical application that produces redness of the skin, by causing dilation of the capillaries and an increase in blood circulation."/>
+	<entry DAVEid="DAVE.activity.301" activity="scabicide" wikidataid="Q85003234" description="An acaricide that kills mites of the genus Sarcoptes."/>
+	<entry DAVEid="DAVE.activity.302" activity="schistosomicide" wikidataid="Q7431537" description="An agent, or drug, destructive to schistosomes, blood flukes transmitted by snails to human hosts in many parts of Africa, Brazil, and Asia. Praziquantel, albendazole, niridazole, metrifonate, oxamniquine hycanthone hydrochloride, and various salts of anti mony, including stibophen, are potent anti schistosomal agents."/>
+	<entry DAVEid="DAVE.activity.303" activity="sclerosant" wikidataid="Q85003391" description="An injectable irritant that is used in the treatment of varicose veins and that causes inflammation and subsequentfibrosis, thus obliterating the lumen of the vein."/>
+	<entry DAVEid="DAVE.activity.304" activity="sebostatic" wikidataid="Q1696730" description="A substance causing the halt in the production of sebum (sebostasis) by the sebaceous glands."/>
+	<entry DAVEid="DAVE.activity.305" activity="secretolytic" wikidataid="Q84956492" description="An agent that increases the production of serous mucus in the respiratory tract."/>
+	<entry DAVEid="DAVE.activity.306" activity="sedative" wikidataid="Q847705" description="A central nervous system depressant used to induce drowsiness or sleep or to reduce psychological excitement or anxiety."/>
+	<entry DAVEid="DAVE.activity.307" activity="sensitizer" wikidataid="Q84956495" description="Chemical sensitizer, a chemical that causes allergic reaction in normal tissue after exposure"/>
+	<entry DAVEid="DAVE.activity.308" activity="sequestrant" wikidataid="Q905648" description="A food preservative that acts by chelating with metal cations (particularly those of copper, iron and nickel) that catalyse the oxidation of fats in food."/>
+	<entry DAVEid="DAVE.activity.309" activity="sialogogue" wikidataid="Q3482889" description="A drug or substance that increases the flow rate of saliva"/>
+	<entry DAVEid="DAVE.activity.310" activity="skin healing" wikidataid="Q84956500" description="A drug or chemical compound used in treating and healing of wounds."/>
+	<entry DAVEid="DAVE.activity.311" activity="vulnerary" wikidataid="Q84956500" description="A drug or chemical compound used in treating and healing of wounds"/>
+	<entry DAVEid="DAVE.activity.312" activity="skin-healing" wikidataid="Q1509074" description="The series of events that restore integrity to a damaged tissue, following an injury"/>
+	<entry DAVEid="DAVE.activity.313" activity="wound healing" wikidataid="Q1509074" description="The series of events that restore integrity to a damaged tissue, following an injury"/>
+	<entry DAVEid="DAVE.activity.314" activity="skin-penetration" wikidataid="Q7833952" description="route of administration wherein active ingredients are delivered across the skin"/>
+	<entry DAVEid="DAVE.activity.315" activity="transdermal" wikidataid="Q7833952" description="A route of administration wherein active ingredients are delivered across the skin for systemic distribution. Examples include transdermal patches used for medicine delivery, and transdermal implants used for medical or aesthetic purposes."/>
+	<entry DAVEid="DAVE.activity.316" activity="spasmogenic" wikidataid="Q84956514" description="An agent that causes spasms, which are sudden involuntary muscular contraction or convulsive movement"/>
+	<entry DAVEid="DAVE.activity.317" activity="spermicide" wikidataid="Q513122" description="A contraceptive substance that destroys sperm, inserted vaginally prior to intercourse to prevent pregnancy."/>
+	<entry DAVEid="DAVE.activity.318" activity="stimulant" wikidataid="Q211036" description="An agent, or drug, that induces temporary improvements in either mental or physical functions or both. Examples of these kinds of effects may include enhanced alertness, wakefulness, and locomotion, among others."/>
+	<entry DAVEid="DAVE.activity.319" activity="sunscreen" wikidataid="Q827658" description="topical skin product that helps protect against sunburn"/>
+	<entry DAVEid="DAVE.activity.320" activity="UV-screen" wikidataid="Q827658" description="topical skin product that helps protect against sunburn"/>
+	<entry DAVEid="DAVE.activity.321" activity="teratogenic" wikidataid="Q84956686" description="A role played by a chemical compound in biological systems with adverse consequences in embryo developments, leading to birth defects, embryo death or altered development, growth retardation and functional defect."/>
+	<entry DAVEid="DAVE.activity.322" activity="termiticide" wikidataid="Q84956852" description="An agent that kills termites, eusocial insects that are classified at the taxonomic rank of infraorder Isoptera, or as epifamily Termitoidae within the cockroach order Blattodea."/>
+	<entry DAVEid="DAVE.activity.323" activity="termitifuge" wikidataid="Q84956887" description="Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."/>
+	<entry DAVEid="DAVE.activity.324" activity="tranquilizer" wikidataid="Q1941660" description="drug that induces tranquility in an individual"/>
+	<entry DAVEid="DAVE.activity.325" activity="transmucosal" wikidataid="Q84957317" description="route of administration wherein active ingredients are delivered via diffusion through a mucous membrane. e.g. insufflation (snorting), sublingual, sublabial (between the lips and gingiva), or anal or vaginal suppositories."/>
+	<entry DAVEid="DAVE.activity.326" activity="trichomonicide" wikidataid="Q50429885" description="An agent that kills Trichomonas organisms, such as in treating vaginitis that is caused by Trichomonas vaginalis"/>
+	<entry DAVEid="DAVE.activity.327" activity="trichomonistat" wikidataid="Q84957398" description="An agent that inhibits growth of protozoan parasites of the genus Trichomonas, such as Trichomonas vaginalis."/>
+	<entry DAVEid="DAVE.activity.328" activity="trypsin enhancer" wikidataid="Q84957440" description="An agent that increases the activity of trypsin, a serine protease that hydrolyses proteins in the digestive system of many vertebrates."/>
+	<entry DAVEid="DAVE.activity.329" activity="tumor promoter" wikidataid="Q84957471" description="A role played by a chemical compound which is known to induce a process of carcinogenesis by corrupting normal cellular pathways, leading to the acquistion of tumoral capabilities."/>
+	<entry DAVEid="DAVE.activity.330" activity="tyrosinase inhibitor" wikidataid="Q84957488" description="inhibitor that interferes with the action of tyrosinase, an enzyme that catalyses the oxidation of phenols (such as tyrosine) and is widespread in plants and animals"/>
+	<entry DAVEid="DAVE.activity.331" activity="ulcerogenic" wikidataid="Q84957489" description="An agent that causes production of ulcers."/>
+	<entry DAVEid="DAVE.activity.332" activity="varroacide" wikidataid="Q84957495" description="An agent that kills parasitic mites."/>
+	<entry DAVEid="DAVE.activity.333" activity="vasodilator" wikidataid="Q4008956" description="drug used to cause dilation of the blood vessels"/>
+	<entry DAVEid="DAVE.activity.334" activity="vasorelaxant" wikidataid="Q84957504" description="An agent htat promotes vasorelaxation, or a reduction in vascular tension, as opposed to vasodilation which is an active widening of the blood vessels"/>
+	<entry DAVEid="DAVE.activity.335" activity="verrucolytic" wikidataid="Q84957506" description="An agent that acts against verruca, a contagious and usually painful wart on the sole of the foot."/>
+	<entry DAVEid="DAVE.activity.336" activity="vesicant" wikidataid="Q662959" description="Any compound that causes severe skin, eye and mucosal pain and irritation. Blister agent. "/>
+	<entry DAVEid="DAVE.activity.337" activity="vibriocide" wikidataid="Q84957510" description="An agent that is destructive to bacteria of the genus Vibrio, especially V. cholerae."/>
+	<entry DAVEid="DAVE.activity.338" activity="virucidal" wikidataid="Q3560867" description="A virucide is any physical or chemical agent that deactivates or destroys viruses. This differs from an anti viral drug, which inhibits the proliferation of the virus."/>
+	<entry DAVEid="DAVE.activity.339" activity="virucide" wikidataid="Q3560867" description="A virucide is any physical or chemical agent that deactivates or destroys viruses. This differs from an anti viral drug, which inhibits the proliferation of the virus."/>
+	<entry DAVEid="DAVE.activity.340" activity="ant repellent" description="Strictly, a substance intended to kill members of the class Insecta. In common usage, any substance used for preventing, destroying, repelling or controlling insects."/>
+	<entry DAVEid="DAVE.activity.341" activity="anti acrodermatitic" description="A drug used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.342" activity="anti acrodynic" description="A drug used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.343" activity="anti ADD" description="A drug used to treat attention deficit disorder, often a stimulant that promotes concentration and attention."/>
+	<entry DAVEid="DAVE.activity.344" activity="anti aging"/>
+	<entry DAVEid="DAVE.activity.345" activity="anti alzheimer agent"/>
+	<entry DAVEid="DAVE.activity.346" activity="anti alzheimeran"/>
+	<entry DAVEid="DAVE.activity.347" activity="anti anxiety"/>
+	<entry DAVEid="DAVE.activity.348" activity="anti arachidonate"/>
+	<entry DAVEid="DAVE.activity.349" activity="anti arthritic"/>
+	<entry DAVEid="DAVE.activity.350" activity="anti atherosclerotic"/>
+	<entry DAVEid="DAVE.activity.351" activity="anti bradykinin"/>
+	<entry DAVEid="DAVE.activity.352" activity="anti cariogenic" description="Tooth decay, also known as dental caries or cavities, is a breakdown of teeth due to acids made by bacteria."/>
+	<entry DAVEid="DAVE.activity.353" activity="anti cataract"/>
+	<entry DAVEid="DAVE.activity.354" activity="anti cortisol"/>
+	<entry DAVEid="DAVE.activity.355" activity="anti cytotoxic" description="Any protective agent counteracting or neutralizing the action of poisons."/>
+	<entry DAVEid="DAVE.activity.356" activity="anti dandruff" description="An agent that reduces the production or flaking of dandruff."/>
+	<entry DAVEid="DAVE.activity.357" activity="anti depressant"/>
+	<entry DAVEid="DAVE.activity.358" activity="anti dermatic" description="A drug used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.359" activity="anti dermatitic" description="A drug used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.360" activity="anti dermatotic" description="A drug used to treat or prevent skin disorders or for the routine care of skin."/>
+	<entry DAVEid="DAVE.activity.361" activity="anti dysenteric"/>
+	<entry DAVEid="DAVE.activity.362" activity="anti ecchymotic" description="An agent that prevents ecchymosis, or the rupture of blood vessels that leads to the passage of blood into subcutaneous tissue."/>
+	<entry DAVEid="DAVE.activity.363" activity="anti eczema"/>
+	<entry DAVEid="DAVE.activity.364" activity="anti eczemic"/>
+	<entry DAVEid="DAVE.activity.365" activity="anti edemic"/>
+	<entry DAVEid="DAVE.activity.366" activity="anti epileptogenic"/>
+	<entry DAVEid="DAVE.activity.367" activity="anti estrogenic"/>
+	<entry DAVEid="DAVE.activity.368" activity="anti fertility"/>
+	<entry DAVEid="DAVE.activity.369" activity="anti fibrosis"/>
+	<entry DAVEid="DAVE.activity.370" activity="anti fibrositic"/>
+	<entry DAVEid="DAVE.activity.371" activity="anti flatulent"/>
+	<entry DAVEid="DAVE.activity.372" activity="anti genic" description="A substance that when introduced into the body stimulates the production of an anti body. Anti gens include toxins, bacteria, foreign blood cells, and the cells of transplanted organs."/>
+	<entry DAVEid="DAVE.activity.373" activity="anti genotoxic"/>
+	<entry DAVEid="DAVE.activity.374" activity="anti glutamaergic" description="An agent or drug that modulates the transmission of glutamate, or inhibits glutamate currents, for muscle relaxation, anti seizure, or neuroprotective effects. May be used for ALS."/>
+	<entry DAVEid="DAVE.activity.375" activity="anti herpetic"/>
+	<entry DAVEid="DAVE.activity.376" activity="anti hyperactivity" description="An agent or drug, which may be a stimulant, used to treat ADHD."/>
+	<entry DAVEid="DAVE.activity.377" activity="anti keratotic" description="An agent acting against keratosis, overgrowth of horny tissue of the skin (such as warts)."/>
+	<entry DAVEid="DAVE.activity.378" activity="anti leukemic"/>
+	<entry DAVEid="DAVE.activity.379" activity="anti lithic"/>
+	<entry DAVEid="DAVE.activity.380" activity="anti lymphomic"/>
+	<entry DAVEid="DAVE.activity.381" activity="anti mange" description="An agent used to treat mange, a skin disease of mammals caused by parasitic mites and occasionally communicable to humans."/>
+	<entry DAVEid="DAVE.activity.382" activity="anti melanomic" description="A substance that inhibits or prevents the proliferation of neoplasms."/>
+	<entry DAVEid="DAVE.activity.383" activity="anti nitrosaminic"/>
+	<entry DAVEid="DAVE.activity.384" activity="anti papillomic" description="A substance that destroys or inhibits replication of viruses."/>
+	<entry DAVEid="DAVE.activity.385" activity="anti pityriasic" description="An agent that relieves symptoms of skin diseases that cause formation of fine, branny scales."/>
+	<entry DAVEid="DAVE.activity.386" activity="anti plasmodial" description="A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans."/>
+	<entry DAVEid="DAVE.activity.387" activity="anti pneumonic"/>
+	<entry DAVEid="DAVE.activity.388" activity="anti radicular" description="An agent that relieves inflammation or irritation of the nerve root of a tooth."/>
+	<entry DAVEid="DAVE.activity.389" activity="anti retroviral" description="A substance that destroys or inhibits replication of viruses."/>
+	<entry DAVEid="DAVE.activity.390" activity="anti rheumatic"/>
+	<entry DAVEid="DAVE.activity.391" activity="anti rhinoviral"/>
+	<entry DAVEid="DAVE.activity.392" activity="anti salmonella"/>
+	<entry DAVEid="DAVE.activity.393" activity="anti shock"/>
+	<entry DAVEid="DAVE.activity.394" activity="anti staphylococcic"/>
+	<entry DAVEid="DAVE.activity.395" activity="anti stress"/>
+	<entry DAVEid="DAVE.activity.396" activity="anti thromboxane"/>
+	<entry DAVEid="DAVE.activity.397" activity="Anti trypanosomal"/>
+	<entry DAVEid="DAVE.activity.398" activity="anti wart" description="An agent that removes or diminishes warts."/>
+	<entry DAVEid="DAVE.activity.399" activity="anti xerotic" description="An agent that relieves or diminishes abnormal dryness of the skin, eyes, or mucous membranes (xerosis), or that may diminish the normal hardening of aging tissue."/>
+	<entry DAVEid="DAVE.activity.400" activity="aphicide" description="An insecticide used against aphids."/>
+	<entry DAVEid="DAVE.activity.401" activity="aphidifuge" description="Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."/>
+	<entry DAVEid="DAVE.activity.402" activity="apifuge" description="Bee repellant"/>
+	<entry DAVEid="DAVE.activity.403" activity="arachidonic acid inhibitor"/>
+	<entry DAVEid="DAVE.activity.404" activity="arteriodilator" description="An agent that acts to dilate arteries to increase blood flow in the heart, or away form the heart."/>
+	<entry DAVEid="DAVE.activity.405" activity="bronchoprotectant"/>
+	<entry DAVEid="DAVE.activity.406" activity="bronchorelaxant"/>
+	<entry DAVEid="DAVE.activity.407" activity="cardiotoxic"/>
+	<entry DAVEid="DAVE.activity.408" activity="chemoprotective"/>
+	<entry DAVEid="DAVE.activity.409" activity="cns-stimulant"/>
+	<entry DAVEid="DAVE.activity.410" activity="coleoptophile" description="A substance able to kill or inhibit the activity of beetles"/>
+	<entry DAVEid="DAVE.activity.411" activity="Corticotropin-releasing hormone inhibitor"/>
+	<entry DAVEid="DAVE.activity.412" activity="counterirritant" description="A counterirritant is a substance which creates irritation or mild inflammation in one location with the goal of lessening discomfort and/or inflammation in another location. This strategy falls into the more general category of counterstimulation"/>
+	<entry DAVEid="DAVE.activity.413" activity="Crh Inhibitor"/>
+	<entry DAVEid="DAVE.activity.414" activity="cytochrome p450-inducer"/>
+	<entry DAVEid="DAVE.activity.415" activity="cytochrome-p450 inhibitor"/>
+	<entry DAVEid="DAVE.activity.416" activity="Cytokine inhibitor"/>
+	<entry DAVEid="DAVE.activity.417" activity="decarboxylase inhibitor"/>
+	<entry DAVEid="DAVE.activity.418" activity="detoxicant"/>
+	<entry DAVEid="DAVE.activity.419" activity="detoxifier"/>
+	<entry DAVEid="DAVE.activity.420" activity="enterocontractant" description="substances that cause the intestines to contract"/>
+	<entry DAVEid="DAVE.activity.421" activity="epileptogenic" description="substance that triggers epilepsy"/>
+	<entry DAVEid="DAVE.activity.422" activity="fungiphilic"/>
+	<entry DAVEid="DAVE.activity.423" activity="glaucomagenic"/>
+	<entry DAVEid="DAVE.activity.424" activity="glutathione s-transferase inducer"/>
+	<entry DAVEid="DAVE.activity.425" activity="gst-inducer"/>
+	<entry DAVEid="DAVE.activity.426" activity="lipase inducer" description="An agent that stimulates the activity of lipase, and enzyme that catalyzes the hydrolysis of fats (lipids)."/>
+	<entry DAVEid="DAVE.activity.427" activity="lipase inhibitor" description="A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction."/>
+	<entry DAVEid="DAVE.activity.428" activity="memory enhancing"/>
+	<entry DAVEid="DAVE.activity.429" activity="mosquito-attractant"/>
+	<entry DAVEid="DAVE.activity.430" activity="motor-depressant"/>
+	<entry DAVEid="DAVE.activity.431" activity="optical toxicity"/>
+	<entry DAVEid="DAVE.activity.432" activity="PAF inhibitor"/>
+	<entry DAVEid="DAVE.activity.433" activity="platelet-activating factor Inhibitor"/>
+	<entry DAVEid="DAVE.activity.434" activity="protein kinase A inhibitor"/>
+	<entry DAVEid="DAVE.activity.435" activity="protein kinase B inhibitor"/>
+	<entry DAVEid="DAVE.activity.436" activity="respirainhibitor"/>
+	<entry DAVEid="DAVE.activity.437" activity="respirastimulant"/>
+	<entry DAVEid="DAVE.activity.438" activity="respiratory toxicity"/>
 </dictionary>
