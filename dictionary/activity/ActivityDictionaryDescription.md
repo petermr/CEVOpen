@@ -22,9 +22,9 @@ File Data
 Table Column Headings
 ---------------------
 
--   **daveactivityid:** *DAVE.activity.n* where *n* is a serialized number
+-   **id:** *DAVE.activity.n* where *n* is a serialized number
 
--   **activity:** The name is a human readable string describing the concept.
+-   **term:** The name is a human readable string describing the concept.
 
 -   **wikidataid:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
