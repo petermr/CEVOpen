@@ -82,13 +82,13 @@ progression.*
 
 ### PlantMaterialHistory.md
 
--   **Description:** A dictionary of **98** entries relating to the plant
+-   **Description:** A dictionary of **82** entries relating to the plant
     material history leading up to the extraction of Essential Oils mentioned in
     selected literature chosen from the **186** test articles downloaded from
     PubMed. The entries include key words and phrases describing: growth
     conditions, plant life stages, plant material selection, post-harvest
-    treatment methods, and extracted plant material products. Of the 98 entries,
-    68 were resolved to WikidataIDs.
+    treatment methods, and extracted plant material products. Of the 82 entries,
+    **60** were resolved to WikidataIDs.
 
 -   **Filename:** plantmaterialhistory.xml
 
