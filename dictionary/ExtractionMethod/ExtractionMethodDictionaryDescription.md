@@ -13,11 +13,7 @@ A dictionary of 73 terms for Essential Oil extraction methods.
 File Data
 ---------
 
--   **Filename:** ExtractionMethod.xml
-
-|   |   |
-|---|---|
-|   |   |
+-   **Filename:** ExtractionMethod.xm
 
 -   **File Location**:
 
