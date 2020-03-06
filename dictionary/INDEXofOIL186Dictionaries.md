@@ -99,23 +99,19 @@ progression.*
 
 \*\*\*
 
-**EO Extraction and Chemical Analysis Methods**
------------------------------------------------
+**EO Extraction Method Dictionary**
+-----------------------------------
 
-Equipment, methods and materials used for EO extraction
+### [EOExtractionMethodDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/EOExtractionMethodDictionaryDescription.md)
 
- 
+-   **Description:** A dictionary of 73 terms for Essential Oil extraction
+    methods.
 
-### [ExtractionAndChemicalAnalysisMethodsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/EOExtractionAndChemicalAnalysisMethodsDictionaryDescription.md)
+-   **Filename:** ExtractionMethod.xml
 
--   **Description:** A dictionary of 6 Methods of Essential Oil extraction and 6
-    Types of Chemical Analysis, mentioned in the 186 source articles for plant
-    extracts being tested.
+-   **File Location**:
 
--   **Filename:** methodAndAnalysisExtraction20191225.tsv
-
--   **File
-    Location**: <https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/methodAndAnalysisExtraction20191225.tsv>
+https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/ExtractionMethod.xml
 
  
 
