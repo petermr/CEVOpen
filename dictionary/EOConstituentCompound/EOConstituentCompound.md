@@ -23,10 +23,10 @@ File Data
     normalized and tagged with corresponding Wikidata IDs, the other **1104**
     remain to be resolved as no Wikidata IDs currently exist for them.
 
--   **Filename:** EOConstituentCompounds.xml
+-   **Filename:** EOConstituentCompound.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompounds.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompound/EOConstituentCompound.xml>
 
  
 

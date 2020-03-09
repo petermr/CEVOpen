@@ -12,7 +12,7 @@ File Data
 -   **Filename:** targetOrganism.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetOrganism.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/TargetOrganism/TargetOrganism.xml>
 
  
 

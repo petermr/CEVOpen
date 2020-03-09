@@ -15,7 +15,7 @@ File Data
 -   **Filename:** Plant.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/plant.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Plant/Plant.xml>
 
  
 
