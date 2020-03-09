@@ -9,7 +9,7 @@ File Data
 -   **Description:** A dictionary of **[55]** organisms mentioned **[as subjects
     of experiment?]** in the 186 test articles downloaded from PubMed.
 
--   **Filename:** targetOrganism.xml
+-   **Filename:** TargetOrganism.xml
 
 -   **File Location**:
     <https://github.com/petermr/CEVOpen/blob/master/dictionary/TargetOrganism/TargetOrganism.xml>

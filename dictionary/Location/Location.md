@@ -9,10 +9,10 @@ File Data
 -   **Description:** A dictionary of 46 countries of origin mentioned in the 186
     source articles for plants being tested.
 
--   **Filename:** location20191222.tsv
+-   **Filename:** Location.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/location20191222.tsv>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/Location.xml>
 
  
 
