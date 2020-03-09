@@ -74,5 +74,3 @@ Notes:
     here:
 
     -   <https://www.thomasnet.com/nsearch.html?cov=NA&heading=96153267&typed_term=Gas+chromatography&searchterm=Gas+Chromatography+%28GC%29+Instruments&what=Gas+Chromatography+%28GC%29+Instruments&WTZO=Find+Suppliers&searchsource=suppliers>
-
-    -    

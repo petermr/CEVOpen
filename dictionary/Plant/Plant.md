@@ -12,10 +12,10 @@ File Data
     had their names normalized and tagged with corresponding Wikidata IDs, the
     other 112 remain to be resolved.
 
--   **Filename:** Plants.xml
+-   **Filename:** Plant.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plants/plants.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/plant.xml>
 
  
 
