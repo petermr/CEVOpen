@@ -36,10 +36,6 @@ Table Column Headings
     to Wikidata.org — a free and open knowledge base that can be read and edited
     by both humans and machines.
 
--   **wikipedia:**
-
--   **query:**
-
  
 
 Contents/Results
