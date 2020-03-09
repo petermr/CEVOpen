@@ -3,23 +3,16 @@
 
  
 
-Description of Table and its Contents:
---------------------------------------
-
-A dictionary of 73 terms for Essential Oil extraction methods.
-
- 
-
 File Data
 ---------
+
+-   **Description:** A dictionary of 73 terms for Essential Oil extraction
+    methods.
 
 -   **Filename:** ExtractionMethod.xm
 
 -   **File Location**:
-
-https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/ExtractionMethod.xml
-
- 
+    https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/ExtractionMethod.xml
 
  
 

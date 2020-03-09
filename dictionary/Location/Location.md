@@ -3,16 +3,11 @@
 
  
 
-Description of Table and its Contents:
---------------------------------------
-
-A dictionary of 46 countries of origin mentioned in the 186 source articles for
-plants being tested.
-
- 
-
 File Data
 ---------
+
+-   **Description:** A dictionary of 46 countries of origin mentioned in the 186
+    source articles for plants being tested.
 
 -   **Filename:** location20191222.tsv
 

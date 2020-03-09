@@ -1,35 +1,35 @@
-**EO Analysis Instrument​​s Dictionary**
-======================================
-
- 
-
-A dictionary of **[24]** makes/models of Gas chromatography–mass spectrometry
-equipment used to identify different substances within a test sample — in this
-case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
+**Analysis Instrument​​s Dictionary**
+===================================
 
  
 
 File Data
 ---------
 
--   **Filename:** instrument.xml
+-   **Description:** A dictionary of **[24]** makes/models of Gas
+    chromatography–mass spectrometry equipment used to identify different
+    substances within a test sample — in this case, Essential Oils mentioned in
+    the 186 test articles downloaded from PubMed.
+
+-   **Filename:** AnalysisInstrument.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/instrument/raw/instrument.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/AnalysisInstrument/AnalysisInstrument.xml>
 
  
 
 Table Column Headings
 ---------------------
 
--   **title:** type of data to be normalized and tagged with Wikidata ID.
+-   **id:** *DAVE.activity.n* where *n* is a serialized number
 
--   **desc:** data source / method of input
+-   **term:** The name is a human readable string describing the concept.
 
--   **name:** a human readable string describing the concept.
+-   **wikidataid:** Unique identifier linked to Wikidata.org — a free and open
+    knowledge base that can be read and edited by both humans and machines.
 
--   **term:** the precise string used to identify the concept. Name and Term are
-    often the same.
+-   **description:** short description of the activity sourced from wikidata
+    and/or wikipedia
 
  
 

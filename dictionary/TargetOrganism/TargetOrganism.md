@@ -3,13 +3,11 @@
 
  
 
-A dictionary of **[55]** organisms mentioned **[as subjects of experiment?]** in
-the 186 test articles downloaded from PubMed.
-
- 
-
 File Data
 ---------
+
+-   **Description:** A dictionary of **[55]** organisms mentioned **[as subjects
+    of experiment?]** in the 186 test articles downloaded from PubMed.
 
 -   **Filename:** targetOrganism.xml
 
@@ -27,7 +25,7 @@ Table Column Headings
 -   **description:** Short description of the plant part being identified in
     that row
 
--   **id: ***CM.TargetOrganism.n* where *n* is a serialized number
+-   **id:** *CM.TargetOrganism.n* where *n* is a serialized number
 
 -   **name:** a human readable string describing the concept.
 
@@ -62,10 +60,6 @@ Contents/Results
 
 Notes:
 ------
-
-More work needs to be done on this dictionary.
-
-**Errors?**
 
 -   We need to normalize the headings across all Dictionaries
 

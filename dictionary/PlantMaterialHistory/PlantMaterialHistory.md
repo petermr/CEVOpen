@@ -1,24 +1,21 @@
 **Plant Material History​​​​​ Dictionary**
 =====================================
 
- 
-
-A dictionary of **82** entries relating to the plant material history leading up
-to the extraction of Essential Oils mentioned in selected literature chosen from
-the **186** test articles downloaded from PubMed. The entries include key words
-and phrases describing: growth conditions, plant life stages, plant material
-selection, post-harvest treatment methods, and extracted plant material
-products. Of the 82 entries, **60** were resolved to WikidataIDs.
-
- 
-
 File Data
 ---------
 
--   **Filename:** plantmaterialhistory.xml
+-   **Description:** A dictionary of **82** entries relating to the plant
+    material history leading up to the extraction of Essential Oils mentioned in
+    selected literature chosen from the **186** test articles downloaded from
+    PubMed. The entries include key words and phrases describing: growth
+    conditions, plant life stages, plant material selection, post-harvest
+    treatment methods, and extracted plant material products. Of the 82 entries,
+    **60** were resolved to WikidataIDs.
+
+-   **Filename:** PlantMaterialHistory.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plantmaterialhistory/plantmaterialhistory.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantMaterialHistory/PlantMaterialHistory.xml>
 
  
 

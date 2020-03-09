@@ -1,20 +1,16 @@
-**Plants​​ Dictionary**
-=====================
-
- 
-
-Description
------------
-
-A dictionary of **1678** constituent chemical compounds extracted from the
-Essential Oils of **[XX] plants** mentioned in the 186 test articles downloaded
-from PubMed. Of the **1678** entries, **??????** had their names normalized and
-tagged with corresponding Wikidata IDs, the other 112 remain to be resolved.
+**Plant​​ Dictionary**
+====================
 
  
 
 File Data
 ---------
+
+-   **Description:** A dictionary of **1678** constituent chemical compounds
+    extracted from the Essential Oils of **[XX] plants** mentioned in the 186
+    test articles downloaded from PubMed. Of the **1678** entries, **??????**
+    had their names normalized and tagged with corresponding Wikidata IDs, the
+    other 112 remain to be resolved.
 
 -   **Filename:** Plants.xml
 
@@ -59,13 +55,8 @@ Contents/Results
 Notes:
 ------
 
--   I propose we rename this Dictionary to “Plants”. (If we do, will we need to
-    update links elsewhere in GitHub, or will they resolve themselves?)
-
--   I’m not sure how to deal with the duplicates… do we re-serialize the “id”?
-
--   Once the duplicates are removed, please update the figures in this document
-    description as well as the results.
+-   I still need to deal with the duplicates, and once de-dupbed, will update
+    the figures in this document description as well as the results.
 
 -   **Duplicates (some of them more than once):** 48
 

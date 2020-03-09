@@ -1,5 +1,5 @@
-**Index of​ the OIL186 Dictionaries**
-====================================
+**Index  Oil186 Dictionaries**
+==============================
 
 This
 [index](https://github.com/petermr/CEVOpen/blob/master/articleAnalysis/oil186/raw/DictionaryDescriptionsOIL186/INDEXofOIL186Dictionaries.md)
@@ -90,10 +90,10 @@ progression.*
     treatment methods, and extracted plant material products. Of the 82 entries,
     **60** were resolved to WikidataIDs.
 
--   **Filename:** plantmaterialhistory.xml
+-   **Filename:** PlantMaterialHistory.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plantmaterialhistory/plantmaterialhistory.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantMaterialHistory/PlantMaterialHistory.xml>
 
  
 
@@ -164,10 +164,11 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
 ### [EOConstituentCompoundsDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompounds/EOConstituentCompoundsDictionaryDescription.md)
 
--   **Description:** A dictionary of 2114 constituent chemical compounds
-    extracted from Essential Oils mentioned in the 186 test articles downloaded
-    from PubMed. Of the 2114 entries, 1010 had their names normalized and tagged
-    with corresponding Wikidata IDs, the other 1104 remain to be resolved.
+-   **Description:** A dictionary of **2114** constituent chemical compounds
+    extracted from Essential Oils mentioned in the **186** test articles
+    downloaded from PubMed. Of the 2114 entries, **1010** had their names
+    normalized and tagged with corresponding Wikidata IDs, the other **1104**
+    remain to be resolved as no Wikidata IDs currently exist for them.
 
 -   **Filename:** EOConstituentCompounds.xml
 
@@ -178,8 +179,8 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
 \*\*\*
 
-**EO Activities**
------------------
+**Activity**
+------------
 
 ### [ActivityDictionaryDescription.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/activity/ActivityDictionaryDescription.md)
 
@@ -190,9 +191,7 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 -   **Filename:** activity.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/activity/activity.xml>
-
- 
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Activity/Activity.xml>
 
 \*\*\*
 

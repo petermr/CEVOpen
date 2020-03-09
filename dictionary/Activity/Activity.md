@@ -3,19 +3,17 @@
 
  
 
-A dictionary of **438** essential oil or constituent compound biochemical and/or
-biological activities, **340** of which resolved to wikidata IDs, and **336**
-with descriptions of 250 characters or less.
-
- 
-
 File Data
 ---------
 
--   **Filename:** activity.xml
+-   **Description:** A dictionary of **438** essential oil or constituent
+    compound biochemical and/or biological activities, **340** of which resolved
+    to wikidata IDs, and **336** with descriptions of 250 characters or less.
+
+-   **Filename:** Activity.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/activity/activity.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Activity/Activity.xml>
 
  
 

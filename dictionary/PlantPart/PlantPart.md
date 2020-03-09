@@ -1,33 +1,30 @@
-**Plant​ Parts​​​ Dictionary**
-==========================
-
- 
-
-A dictionary of **[XX]** part(s) of a plant from which Essential Oils
-— mentioned in the 186 test articles downloaded from PubMed — were extracted.
-
- 
+**Plant​ Part​​​ Dictionary**
+=========================
 
 File Data
 ---------
 
--   **Filename:** plantParts20191014.xml
+-   **Description:** A dictionary of **[XX]** part(s) of a plant from which
+    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
+    — were extracted.
+
+-   **Filename:** PlantPart.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/plantparts/raw/plantParts20191014.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantPart/PlantPart.xml>
 
  
 
 Table Column Headings
 ---------------------
 
+-   **id:**
+
 -   **title:** type of data to be normalized and tagged with Wikidata ID. In
-    this case, **“plantParts"**
+    this case, **“Plant Parts"**
 
 -   **description:** Short description of the plant part being identified in
     that row
-
--   **id:**
 
 -   **name:** a human readable string describing the concept.
 
@@ -37,10 +34,6 @@ Table Column Headings
 -   **wikidata:** Unique identifier for each normalized dictionary term, linked
     to Wikidata.org — a free and open knowledge base that can be read and edited
     by both humans and machines.
-
--   **wikipedia:**
-
--   **query:**
 
  
 
