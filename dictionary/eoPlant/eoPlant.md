@@ -6,11 +6,10 @@
 File Data
 ---------
 
--   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from the Essential Oils of **[XX] plants** mentioned in the 186
-    test articles downloaded from PubMed. Of the **1678** entries, **??????**
-    had their names normalized and tagged with corresponding Wikidata IDs, the
-    other 112 remain to be resolved.
+-   **Description:** A dictionary of **1678** plant names extracted mentioned in
+    the 186 test articles downloaded from PubMed. Of the **1678** entries,
+    **1567** had their names normalized and tagged with corresponding Wikidata
+    IDs.
 
 -   **Filename:** eoPlant.xml
 
@@ -41,11 +40,11 @@ Contents/Results
 -   **No. of Entries (Headers are not counted):** 1678
 
 -   **No. of unique plant names (including alternate spellings or synonyms):**
-    1678 **- DUPLICATES = ??**
+    1678
 
--   **No. of Chemical Compounds resolved in Wikidata:** *????*
+-   **No. of entries resolved to wikidataIDs:** 1567
 
--   **No. of Chemical Compounds NOT resolved in Wikidata:** 112
+ 
 
  
 

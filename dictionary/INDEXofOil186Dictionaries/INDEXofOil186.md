@@ -27,11 +27,10 @@ progression.*
 
 ### [eoPlant.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlant/eoPlant.md)
 
--   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from the Essential Oils of **[XX] plants** mentioned in the 186
-    test articles downloaded from PubMed. Of the **1678** entries, **??????**
-    had their names normalized and tagged with corresponding Wikidata IDs, the
-    other 112 remain to be resolved.
+-   **Description:** A dictionary of **1678** plant names extracted mentioned in
+    the 186 test articles downloaded from PubMed. Of the **1678** entries,
+    **1567** had their names normalized and tagged with corresponding Wikidata
+    IDs.
 
 -   **Filename:** eoPlant.xml
 
@@ -47,9 +46,7 @@ progression.*
 
 ### [eoPlantPart.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantPart/eoPlantPart.md)
 
--   **Description:** A dictionary of **[XX]** part(s) of a plant from which
-    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
-    — were extracted.
+-   **Description:** A dictionary of **285** plant part terms.
 
 -   **Filename:** eoPlantPart.xml
 
@@ -80,15 +77,15 @@ progression.*
 **EO Plant Material History**
 -----------------------------
 
-### [eoPlantMaterialHistory.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantMaterialHistory/eoPlantMaterialHistory.me )
+### [eoPlantMaterialHistory.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantMaterialHistory/eoPlantMaterialHistory.me)
 
--   **Description:** A dictionary of **82** entries relating to the plant
+-   **Description:** A dictionary of **81** entries relating to the plant
     material history leading up to the extraction of Essential Oils mentioned in
     selected literature chosen from the **186** test articles downloaded from
     PubMed. The entries include key words and phrases describing: growth
     conditions, plant life stages, plant material selection, post-harvest
     treatment methods, and extracted plant material products. Of the 82 entries,
-    **60** were resolved to WikidataIDs.
+    **58** were resolved to WikidataIDs.
 
 -   **Filename:** eoPlantMaterialHistory.xml
 
@@ -104,18 +101,13 @@ progression.*
 
 ### [eoExtractionMethod.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoExtractionMethod/eoExtractionMethod.md)
 
--   **Description:** A dictionary of **82** entries relating to the plant
-    material history leading up to the extraction of Essential Oils mentioned in
-    selected literature chosen from the **186** test articles downloaded from
-    PubMed. The entries include key words and phrases describing: growth
-    conditions, plant life stages, plant material selection, post-harvest
-    treatment methods, and extracted plant material products. Of the 82 entries,
-    **60** were resolved to WikidataIDs.
+-   **Description:** A dictionary of 73 terms for Essential Oil extraction
+    methods.
 
--   **Filename:** eoPlantMaterialHistory.xml
+-   **Filename:** eoExtractionMethod.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantMaterialHistory/eoPlantMaterialHistory.xml>
+    https://github.com/petermr/CEVOpen/blob/master/dictionary/eoExtractionMethod/eoExtractionMethod.xml
 
  
 
@@ -172,10 +164,10 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 ### [eoCompound.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoCompound/eoCompound.md)
 
 -   **Description**: A dictionary of **2114** constituent chemical compounds
-    extracted from Essential Oils mentioned in the **186** test articles
-    downloaded from PubMed. Of the 2114 entries, **1010** had their names
-    normalized and tagged with corresponding Wikidata IDs, the other **1104**
-    remain to be resolved as no Wikidata IDs currently exist for them.
+    extracted from Essential Oils converted from essoldb1.0 data. Of the 2114
+    entries, **1010** had their names normalized and tagged with corresponding
+    Wikidata IDs, the other **1104** remain to be resolved as no Wikidata IDs
+    currently exist for them.
 
 -   **Filename:** eoCompound.xml
 

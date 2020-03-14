@@ -4,9 +4,7 @@
 File Data
 ---------
 
--   **Description:** A dictionary of **[XX]** part(s) of a plant from which
-    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
-    — were extracted.
+-   **Description:** A dictionary of **285** plant part terms.
 
 -   **Filename:** eoPlantPart.xml
 
@@ -37,31 +35,15 @@ Table Column Headings
 Contents/Results
 ----------------
 
--   **No. of source papers:** ??
+-   **No. of Entries (Headers are not counted):** 285
 
--   **No. of Entries (Headers are not counted):** 18
+-   **No. of unique entries (including alternate spellings or synonyms):** 285
 
--   **No. of unique entries (including alternate spellings or synonyms):** 18
-
--   **No. of Chemical Compounds resolved in Wikidata:** *????*
-
--   **No. of Chemical Compounds NOT resolved in Wikidata:** ???
+-   **No. of entries resolved in Wikidata:** *231*
 
  
 
 Notes:
 ------
 
-More work needs to be done on this dictionary.
-
-**Errors?**
-
--   This is the first case where the column heading “description” means
-    something other than "data source / method of input"
-
--   In this case, is the column heading “id” related to Essoil? I don’t know how
-    to describe it here. The format is: *CM.plantParts.n* where *n* is a
-    serialized number
-
--   I don’t know how to describe the column headings for “Wikipedia” or “query”
-    in this case
+ 

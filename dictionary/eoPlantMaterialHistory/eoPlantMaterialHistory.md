@@ -4,13 +4,13 @@
 File Data
 ---------
 
--   **Description:** A dictionary of **82** entries relating to the plant
+-   **Description:** A dictionary of **81** entries relating to the plant
     material history leading up to the extraction of Essential Oils mentioned in
     selected literature chosen from the **186** test articles downloaded from
     PubMed. The entries include key words and phrases describing: growth
     conditions, plant life stages, plant material selection, post-harvest
     treatment methods, and extracted plant material products. Of the 82 entries,
-    **60** were resolved to WikidataIDs.
+    **58** were resolved to WikidataIDs.
 
 -   **Filename:** eoPlantMaterialHistory.xml
 
@@ -42,13 +42,9 @@ Contents/Results
 
 -   **No. of source papers:** 186
 
--   **No. of Entries (Headers are not counted):** 82
+-   **No. of unique entries (including alternate spellings or synonyms):** 81
 
--   **No. of unique entries (including alternate spellings or synonyms):** 82
-
--   **No. of unique WikidataIDs resolved to SearchTerms:** *38*
-
--   **No. of processes NOT resolved in Wikidata:** 22
+-   **No. of unique WikidataIDs resolved to SearchTerms:** *58*
 
  
 

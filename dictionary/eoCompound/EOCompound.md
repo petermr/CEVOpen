@@ -18,10 +18,10 @@ File Data
 ---------
 
 -   **Description**: A dictionary of **2114** constituent chemical compounds
-    extracted from Essential Oils mentioned in the **186** test articles
-    downloaded from PubMed. Of the 2114 entries, **1010** had their names
-    normalized and tagged with corresponding Wikidata IDs, the other **1104**
-    remain to be resolved as no Wikidata IDs currently exist for them.
+    extracted from Essential Oils converted from essoldb1.0 data. Of the 2114
+    entries, **1010** had their names normalized and tagged with corresponding
+    Wikidata IDs, the other **1104** remain to be resolved as no Wikidata IDs
+    currently exist for them.
 
 -   **Filename:** eoCompound.xml
 
