@@ -22,39 +22,36 @@ progression.*
 
 \*\*\*
 
-**Plant Essential Oils**
-------------------------
+**EO Plant**
+------------
 
-### [Plant.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/Plant/Plant.md)
+### [eoPlant.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/plant/oilplant.xml%20OilPlantDictionaryDescription.mdhttps://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlant/eoPlant.md)
 
--   **Description:** A dictionary of **1678** constituent chemical compounds
-    extracted from the Essential Oils of **[XX] plants** mentioned in the 186
-    test articles downloaded from PubMed. Of the **1678** entries, **??????**
-    had their names normalized and tagged with corresponding Wikidata IDs, the
-    other 112 remain to be resolved.
+-   **Description:** A dictionary of **1678** plant names extracted mentioned in
+    the 186 test articles downloaded from PubMed. Of the **1678** entries,
+    **1567** had their names normalized and tagged with corresponding Wikidata
+    IDs.
 
--   **Filename:** Plant.xml
+-   **Filename:** eoPlant.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Plant/Plant.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlant/eoPlant.xml>
 
  
 
 \*\*\*
 
-**Plant Part**
---------------
+**EO Plant Part**
+-----------------
 
-### [PlantPart.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantPart/PlantPart.md)
+### [eoPlantPart.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantPart/eoPlantPart.md)
 
--   **Description:** A dictionary of **[XX]** part(s) of a plant from which
-    Essential Oils — mentioned in the 186 test articles downloaded from PubMed
-    — were extracted.
+-   **Description:** A dictionary of **285** plant part terms.
 
--   **Filename:** PlantPart.xml
+-   **Filename:** eoPlantPart.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantPart/PlantPart.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantPart/eoPlantPart.xml>
 
  
 
@@ -77,53 +74,51 @@ progression.*
 
 \*\*\*
 
-**Plant Material History**
---------------------------
+**EO Plant Material History**
+-----------------------------
 
-### PlantMaterialHistory.md
+### [eoPlantMaterialHistory.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantMaterialHistory/eoPlantMaterialHistory.me)
 
--   **Description:** A dictionary of **82** entries relating to the plant
+-   **Description:** A dictionary of **81** entries relating to the plant
     material history leading up to the extraction of Essential Oils mentioned in
     selected literature chosen from the **186** test articles downloaded from
     PubMed. The entries include key words and phrases describing: growth
     conditions, plant life stages, plant material selection, post-harvest
     treatment methods, and extracted plant material products. Of the 82 entries,
-    **60** were resolved to WikidataIDs.
+    **58** were resolved to WikidataIDs.
 
--   **Filename:** PlantMaterialHistory.xml
+-   **Filename:** eoPlantMaterialHistory.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/PlantMaterialHistory/PlantMaterialHistory.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoPlantMaterialHistory/eoPlantMaterialHistory.xml>
 
  
 
 \*\*\*
 
-**Extraction Method Dictionary**
---------------------------------
+**EO Extraction Method**
+------------------------
 
-### [ExtractionMethod.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/ExtractionMethod.md)
+### [eoExtractionMethod.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoExtractionMethod/eoExtractionMethod.md)
 
 -   **Description:** A dictionary of 73 terms for Essential Oil extraction
     methods.
 
--   **Filename:** ExtractionMethod.xml
+-   **Filename:** eoExtractionMethod.xml
 
 -   **File Location**:
-    https://github.com/petermr/CEVOpen/blob/master/dictionary/ExtractionMethod/ExtractionMethod.xml
+    https://github.com/petermr/CEVOpen/blob/master/dictionary/eoExtractionMethod/eoExtractionMethod.xml
 
  
 
 \*\*\*
 
-**Chemical​ Analysis Method**
-----------------------------
+**O​​ Analysis Method**
+---------------------
 
 A dictionary of **[24]** makes/models of Gas chromatography–mass spectrometry
 equipment used to identify different substances within a test sample — in this
 case, Essential Oils mentioned in the 186 test articles downloaded from PubMed.
-
- 
 
 Modern **methods** routinely used for determining the composition and quality
 of **essential oils** include GC, high performance liquid chromatography (HPLC),
@@ -131,27 +126,29 @@ Mass Spectrometry (MS) and Nuclear Magnetic Resonance (NMR) spectroscopy
 
  
 
-**AnalysisInstrument​**
-----------------------
+\*\*\*
 
-### [AnalysisInstrument.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/AnalysisInstrument/AnalysisInstrument.md)
+**EO Analysis Instrument​**
+--------------------------
+
+### [eoAnalysisInstrument.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoAnalysisInstrument/eoAnalysisInstrument.md)
 
 -   **Description:** A dictionary of **[24]** makes/models of Gas
     chromatography–mass spectrometry equipment used to identify different
     substances within a test sample — in this case, Essential Oils mentioned in
     the 186 test articles downloaded from PubMed.
 
--   **Filename:** AnalysisInstrument.xml
+-   **Filename:** eoAnalysisInstrument.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/AnalysisInstrument/AnalysisInstrument.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoAnalysisInstrument/eoAnalysisInstrument.xml>
 
  
 
 \*\*\*
 
-**EO Constituent Compound**
----------------------------
+**EO Compound**
+---------------
 
 Essential Oils (EOs) are the concentrated hydrophobic liquid containing volatile
 chemical compounds extracted from plants. Essential oils are also known as
@@ -164,36 +161,36 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
  
 
-### [EOConstituentCompound.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompound/EOConstituentCompound.md)
+### [eoCompound.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoCompound/eoCompound.md)
 
 -   **Description**: A dictionary of **2114** constituent chemical compounds
-    extracted from Essential Oils mentioned in the **186** test articles
-    downloaded from PubMed. Of the 2114 entries, **1010** had their names
-    normalized and tagged with corresponding Wikidata IDs, the other **1104**
-    remain to be resolved as no Wikidata IDs currently exist for them.
+    extracted from Essential Oils converted from essoldb1.0 data. Of the 2114
+    entries, **1010** had their names normalized and tagged with corresponding
+    Wikidata IDs, the other **1104** remain to be resolved as no Wikidata IDs
+    currently exist for them.
 
--   **Filename:** EOConstituentCompound.xml
+-   **Filename:** eoCompound.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/EOConstituentCompound/EOConstituentCompound.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoCompound/eoCompound.xml>
 
  
 
 \*\*\*
 
-**Activity**
-------------
+**EO Activity**
+---------------
 
-### [Activity.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/Activity/Activity.md)
+### [eoActivity.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoActivity/eoActivity.md)
 
 -   **Description:** A dictionary of **438** essential oil or constituent
     compound biochemical and/or biological activities, **340** of which resolved
     to wikidata IDs, and **336** with descriptions of 250 characters or less.
 
--   **Filename:** Activity.xml
+-   **Filename:** eoActivity.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Activity/Activity.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoActivity/eoActivity.xml>
 
  
 
@@ -211,15 +208,15 @@ helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
 
  
 
-### [TargetOrganism.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/TargetOrganism/TargetOrganism.md)
+### [eoTargetOrganism.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoTargetOrganism/eoTargetOrganism.md)
 
 -   **Description:** A dictionary of **[55]** organisms mentioned **[as subjects
     of experiment?]** in the 186 test articles downloaded from PubMed.
 
--   **Filename:** TargetOrganism.xml
+-   **Filename:** eoTargetOrganism.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/targetOrganism/targetOrganism.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/eoTargetOrganism/eoTargetOrganism.xml>
 
  
 
