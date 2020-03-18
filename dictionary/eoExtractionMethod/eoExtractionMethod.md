@@ -6,8 +6,8 @@
 File Data
 ---------
 
--   **Description:** A dictionary of 73 terms for Essential Oil extraction
-    methods.
+-   **Description:** A dictionary of 87 terms for Essential Oil extraction
+    methods and apparatus.
 
 -   **Filename:** eoExtractionMethod.xml
 
@@ -39,15 +39,11 @@ Table Column Headings
 Contents/Results
 ----------------
 
--   **No. of Entries (The header is not counted):** 73
+-   **No. of Entries (The header is not counted):** 87
 
 -   **No. of terms describing EO Extraction Methods resolved in Wikidata:** 71
 
 -   **No. of unique Wikidata IDs (including synonyms):** 37
-
--   **No. of entries with no Wikidata IDs:** 2
-
--   **No. of source articles with no Analysis Type found:** 64
 
  
 

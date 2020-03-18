@@ -101,8 +101,8 @@ progression.*
 
 ### [eoExtractionMethod.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoExtractionMethod/eoExtractionMethod.md)
 
--   **Description:** A dictionary of 73 terms for Essential Oil extraction
-    methods.
+-   **Description:** A dictionary of 87 terms for Essential Oil extraction
+    methods and apparatus.
 
 -   **Filename:** eoExtractionMethod.xml
 
@@ -210,8 +210,9 @@ helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
 
 ### [eoTargetOrganism.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoTargetOrganism/eoTargetOrganism.md)
 
--   **Description:** A dictionary of **[55]** organisms mentioned **[as subjects
-    of experiment?]** in the 186 test articles downloaded from PubMed.
+-   **Description:** A dictionary of **307** target organisms resolved to
+    wikidataIDs, including genus and species of bacteria, fungi, protist,
+    protozoa, and other microorgnisms.
 
 -   **Filename:** eoTargetOrganism.xml
 
