@@ -6,9 +6,10 @@
 File Data
 ---------
 
--   **Description:** A dictionary of 307 target organisms resolved to
-    wikidataIDs, including genus and species of bacteria, fungi, protist,
-    protozoa, and other microorgnisms.
+-   **Description:** A dictionary of terms describing 307 target organisms
+    resolved to wikidataIDs (including genus and species of bacteria, fungi,
+    protist, protozoa, and other microorgnisms), with 154 terms including names
+    of related diseases.
 
 -   **Filename:** eoTargetOrganism.xml
 
@@ -46,6 +47,8 @@ Contents/Results
 -   **No. of terms resolved in Wikidata:** 307
 
 -   **No. of terms NOT resolved in Wikidata:** 0
+
+-   **No. of terms including related diseases:** 154
 
  
 

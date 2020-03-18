@@ -196,8 +196,8 @@ compound linked to its IUPAC International Chemical Identifier (InChI).
 
 \*\*\*
 
-**Target Organism**
--------------------
+**EO Target Organism**
+----------------------
 
 The organisms used as targets of experiments conducted to determine what
 effect(s) (Activities) tested EOs may have on them. They may occur as A)
@@ -210,9 +210,10 @@ helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
 
 ### [eoTargetOrganism.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/eoTargetOrganism/eoTargetOrganism.md)
 
--   **Description:** A dictionary of **307** target organisms resolved to
-    wikidataIDs, including genus and species of bacteria, fungi, protist,
-    protozoa, and other microorgnisms.
+-   **Description:** A dictionary of terms describing 307 target organisms
+    resolved to wikidataIDs (including genus and species of bacteria, fungi,
+    protist, protozoa, and other microorgnisms), with 154 terms including names
+    of related diseases.
 
 -   **Filename:** eoTargetOrganism.xml
 
