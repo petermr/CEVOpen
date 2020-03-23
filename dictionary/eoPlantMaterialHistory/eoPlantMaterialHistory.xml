@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dictionary title="eoPlantMaterialHistory">
     <desc>A dictionary of 1678 plant names extracted mentioned in the 186 test articles downloaded from PubMed. Of the **1678** entries, 1567 had their names normalized and tagged with corresponding Wikidata IDs</desc>
+	<authors>Emanuel Arruda, President https://www.verriclar.com, https://www.verriclar.com.br/</authors>
+	<contributors>Ambarish Kumar</contributors>
+    <datasource>http://www.nipgr.ac.in/Essoildb/, wikidata.org, wikipedia.org</datasource>
+	<lastupdate> 2020-03-14 by Emanuel Faria</lastupdate>
     <entry id="PMH01" term="Spray drying" wikidataid="Q1066303" description="method of producing a dry powder from a liquid or slurry by rapidly drying with a hot gas" cat1="Post-Harvest Treatment" cat2="Drying method"></entry>
     <entry id="PMH02" term="temperature" wikidataid="Q11466" description="" cat1="Growth Conditions" cat2="Temperature"></entry>
     <entry id="PMH03" term="drought stress" wikidataid="Q12142810" description="Links to Drought Tollerance" cat1="Growth Conditions" cat2="Stress Type"></entry>
