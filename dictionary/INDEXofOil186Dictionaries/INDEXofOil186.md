@@ -250,6 +250,11 @@ helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
 **Disease**
 -----------
 
-Text for definitions goes here
+### [disease.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/disease/disease.md)
 
-**This dictionary does not yet exist**
+-   **Description:** A dictionary of **3412** terms related to human diseases.
+
+-   **Filename:** disease.xml
+
+-   **File Location**:
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/disease/disease.xml>
