@@ -57,18 +57,24 @@ progression.*
 
 \*\*\*
 
-**Location**
-------------
+**Geo Location**
+----------------
 
-### [Location.md​](https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/Location.md)
+### [geoLocation.md​](https://github.com/petermr/CEVOpen/blob/master/dictionary/geoLocation/geoLocation.md)
 
--   **Description:** A dictionary of 46 countries of origin mentioned in the 186
-    source articles for plants being tested.
+-   **Description:** A dictionary of **9568** entries for geolocations including
+    country, countryISOcode, city, latitude, longitude, postal code and time
+    zone sourced from http://www.ip2location.com, along with data agumenting
+    Indian States-Cities created and maintained over the years obtained at
+    https://network.convergenceservices.in/forum/12-joomla-development/4305-mysql-tables-for-country-states-and-indian-states-cities.html.
 
--   **Filename:** Location.xml
+-   **License information**: This site or product includes IP2Location LITE data
+    available from http://www.ip2location.com
+
+-   **Filename:** geoLocation.xml
 
 -   **File Location**:
-    <https://github.com/petermr/CEVOpen/blob/master/dictionary/Location/Location.xml>
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/geoLocation/geoLocation.xml>
 
  
 
@@ -258,3 +264,23 @@ helminths, such as Nematodes (roundworms), Cestodes (tapeworms), and Trematodes
 
 -   **File Location**:
     <https://github.com/petermr/CEVOpen/blob/master/dictionary/disease/disease.xml>
+
+ 
+
+\*\*\*
+
+**Pests​**
+---------
+
+### [disease.md](https://github.com/petermr/CEVOpen/blob/master/dictionary/disease/disease.md)
+
+-   **Description:** A dictionary of **1032** terms for two categories of
+    insects: A) Insect vectors of human pathogens sourced from
+    https://en.wikipedia.org/wiki/Category:Insect_vectors_of_human_pathogens,
+    and B) Winged insects soursed from
+    https://www.insectidentification.org/winged-insect-key.asp
+
+-   **Filename:** pests.xml
+
+-   **File Location**:
+    <https://github.com/petermr/CEVOpen/blob/master/dictionary/pests/pests.xml>
