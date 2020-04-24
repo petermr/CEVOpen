@@ -4,7 +4,7 @@
 File Data
 ---------
 
--   **Description:** A dictionary of **81** entries relating to the plant
+-   **Description:** A dictionary of **103** entries relating to the plant
     material history leading up to the extraction of Essential Oils mentioned in
     selected literature chosen from the **186** test articles downloaded from
     PubMed. The entries include key words and phrases describing: growth
