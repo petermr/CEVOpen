@@ -25,9 +25,9 @@ Table Column Headings
 
 -   **term:** the precise string used to identify the concept.
 
--   **wikidataID:** Unique identifier for each normalized dictionary term,
-    linked to Wikidata.org — a free and open knowledge base that can be read and
-    edited by both humans and machines.
+-   **wikidata:** Unique identifier for each normalized dictionary term, linked
+    to Wikidata.org — a free and open knowledge base that can be read and edited
+    by both humans and machines.
 
 -   **description:** Short description of the plant part being identified in
     that row

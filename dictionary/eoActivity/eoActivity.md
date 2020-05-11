@@ -24,7 +24,7 @@ Table Column Headings
 
 -   **term:** The name is a human readable string describing the concept.
 
--   **wikidataID:** Unique identifier linked to Wikidata.org — a free and open
+-   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
 -   **description:** short description of the activity sourced from wikidata
@@ -48,7 +48,7 @@ Contents/Results
 -   **Number of unique wikidata ids attributed to activities (normalizing for
     alternate spellings and synonyms):** 250
 
--   **No. of entries withoug wikidataid:** 98
+-   **No. of entries without wikidata:** 98
 
 -   **No. of entries with descriptions:** 336
 

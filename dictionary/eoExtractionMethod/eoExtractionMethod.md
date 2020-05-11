@@ -28,7 +28,7 @@ Table Column Headings
 -   **Apparatus**: Apparatus used to conduct the extraction method described by
     the term.
 
--   **wikidataID:** Unique identifier linked to Wikidata.org — a free and open
+-   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
 -   **description:** short description of the activity sourced from wikidata

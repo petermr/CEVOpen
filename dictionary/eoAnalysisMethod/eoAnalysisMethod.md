@@ -62,7 +62,7 @@ Table Column Headings
 
 -   **acronym**: standard abbreviations for the term
 
--   **wikidataID:** Unique identifier linked to Wikidata.org — a free and open
+-   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
 -   **description:** short description of the activity sourced from wikidata
@@ -83,7 +83,7 @@ Contents/Results
 -   **Number of unique wikidata ids attributed to activities (normalizing for
     alternate spellings and synonyms):** 78
 
--   **No. of entries withoug wikidataid:** 13
+-   **No. of entries withoug wikidata:** 13
 
 -   **No. of entries with descriptions:** 95
 

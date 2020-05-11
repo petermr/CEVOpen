@@ -42,7 +42,7 @@ Table Column Headings
 -   **term:** The term is the precise string used to identify the concept. Name
     and Term are often the same.
 
--   **wikidataID:** Unique identifier linked to Wikidata.org — a free and open
+-   **wikidata:** Unique identifier linked to Wikidata.org — a free and open
     knowledge base that can be read and edited by both humans and machines.
 
  

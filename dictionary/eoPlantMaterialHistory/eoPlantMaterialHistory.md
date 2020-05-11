@@ -31,9 +31,9 @@ Table Column Headings
 -   **Term**: the precise string used to identify the concept to be normalized
     and tagged with Wikidata ID.
 
--   **wikidataID**: Unique identifier for each normalized dictionary term,
-    linked to Wikidata.org — a free and open knowledge base that can be read and
-    edited by both humans and machines
+-   **wikidata**: Unique identifier for each normalized dictionary term, linked
+    to Wikidata.org — a free and open knowledge base that can be read and edited
+    by both humans and machines
 
  
 
@@ -44,7 +44,7 @@ Contents/Results
 
 -   **No. of unique entries (including alternate spellings or synonyms):** 81
 
--   **No. of unique WikidataIDs resolved to SearchTerms:** *58*
+-   **No. of unique Wikidata IDs resolved to SearchTerms:** *58*
 
  
 
