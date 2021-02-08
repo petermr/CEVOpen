@@ -22,3 +22,10 @@ amidict -vv --dictionary plant_genus --directory plant_genus_dictionary --input 
 ```
 # No. of Terms
 The dictionary contains ~25,000 terms
+
+# To-Do
+- Add metadata
+  - dictionary owner
+  - date of creation
+  - Restful URL of the query
+- Add property id to the dictionary (P1421)
