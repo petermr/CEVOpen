@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Approximately 10 mg of fine root tissue was collected from each individual after 14 weeks of growth. Root material was placed immediately in 95% methanol to denature myrosinase enzyme, and stored at 4 °C until glucosinolates were extracted and quantified on an Agilent 1260 HPLC using previously described methods (see Lankau 
+ <italic>et al</italic>. 
+ <xref rid="fec12685-bib-0025" ref-type="ref">2009</xref>). We additionally sampled leaf material from each individual and stored them at −80 °C until their DNA was extracted with a commercial kit (Omega Bio‐tek, E‐Z 96 Plant DNA kit, Atlanta, GA, USA). Each sample was scored at 8 microsatellite loci using the methods from Durka, Bossdorf &amp; Gautschi (
+ <xref rid="fec12685-bib-0008" ref-type="ref">2004</xref>). Microsatellites were scored manually by two observers in GeneMarker (Softgenetics, LLC State College, PA, USA). Sinigrin concentrations (μmol g
+ <sup>−1</sup> fresh root tissue) were analysed using linear mixed models with the 
+ <sc>lme4</sc> package in R (Bates 
+ <italic>et al</italic>. 
+ <xref rid="fec12685-bib-0002" ref-type="ref">2014</xref>). Population, grandmaternal family nested within population and selfed family nested within grandmaternal family were treated as random effects, with greenhouse block and linear and quadratic terms for root weight as fixed effects. Root weight refers to the mass of root tissue from which glucosinolates were extracted, and was included as a fixed covariate to account for a tendency towards lower extraction efficiencies as the amount of root tissue ground increased. Best linear unbiased predictors (BLUPs) for the mean sinigrin concentration of each population were extracted for comparison to demographic rates. Variance components for population and family terms were used to calculate 
+ <italic>Q</italic>
+ <sub>ST</sub>, as Variance(
+ <sub>population</sub>)/[Variance(
+ <sub>population</sub>) + Variance(
+ <sub>family</sub>)]. 95% confidence intervals for 
+ <italic>Q</italic>
+ <sub>ST</sub> were determined by parametric bootstrapping of the linear mixed model 5000 times. Variance components from each replicate were retained, corrected for any bias in the bootstrapped replicates and combined using the above formula to determine the replicate 
+ <italic>Q</italic>
+ <sub>ST</sub> values. Confidence intervals were taken as the 2·5% and 97·5% values of the resampled 
+ <italic>Q</italic>
+ <sub>ST</sub> values.
+</p>

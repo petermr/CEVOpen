@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>There are several differences between the data and calculations in the original 
+ <italic>A. petiolata</italic> demography paper and those used in the present study. (i) For the present analysis, we excluded the Homer Lake site because seed collection for sinigrin quantification and demographic measurements were made in two different areas within the study site that had very different population densities. We also excluded the Illini Plantations site because Lankau 
+ <italic>et al</italic>. (
+ <xref rid="fec12685-bib-0025" ref-type="ref">2009</xref>) did not sample seeds there and thus could not measure sinigrin. (ii) We recalculated λ
+ <sub>S</sub> using just the second 2 of 3 years of demographic data from Evans 
+ <italic>et al</italic>. (
+ <xref rid="fec12685-bib-0010" ref-type="ref">2012</xref>) for two reasons. First, we wanted the demographic rates to reflect the population dynamics at the time when Lankau 
+ <italic>et al</italic>. (
+ <xref rid="fec12685-bib-0025" ref-type="ref">2009</xref>) collected seeds in the fall of 2007. Secondly, quadrat placement in demography studies can be biased towards areas with locally higher initial population densities, contributing to apparent declines in population growth rates over time (Buckley 
+ <italic>et al</italic>. 
+ <xref rid="fec12685-bib-0004" ref-type="ref">2010</xref>). We excluded the 2005 ‘cohort’ to minimize the impacts of any such bias, if present (see Appendix S1, Supportinginformation for an alternative analysis using all years of data). Using just the 2006 and 2007 vital rates, we re‐calculated stochastic lambda for each site using the 
+ <sc>popbio</sc> package in R (Stubben &amp; Milligan 
+ <xref rid="fec12685-bib-0034" ref-type="ref">2007</xref>; R Core Team 
+ <xref rid="fec12685-bib-0028" ref-type="ref">2015</xref>). The structure of the annual population projection matrices is unchanged from Evans 
+ <italic>et al</italic>. (
+ <xref rid="fec12685-bib-0010" ref-type="ref">2012</xref>). We also calculated a composite vital rate, ‘early survival’, as the product of seedling and summer rosette survival probabilities during each site and year. Because seedling and summer survival were measured in different physical quadrats, we were not able to treat early survival as a binomial response variable (e.g. in a logistic regression context), so we restricted analyses of early survival to simple linear regressions and correlations using the mean value across years for each site. See Appendix S2.
+</p>

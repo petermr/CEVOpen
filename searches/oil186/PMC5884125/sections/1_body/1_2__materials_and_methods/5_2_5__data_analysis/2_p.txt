@@ -1,0 +1,7 @@
+0: Short sequences< 200 bp were removed after depleting primers and barcodes; sequences with ambiguous base calls were also removed.
+1: Sequences with homopolymer runs exceeding 6 bp were removed, as the threshold used was 6 bp.
+2: Sequences were then denoised and chimeras were removed.
+3: Operational taxonomic units (OTUs) were formed at 97% similarity (3% divergence) using UCLUST after removing singleton sequences [ 13].
+4: RDP classifier version 2.2 was used for taxonomic assignments within the GreenGenes taxonomy [ 14,  15].
+5: The OTUs were rarefied (randomly subsampled) to 30000 sequences and the signified sequences were aligned to  16S reference sequences with PyNAST [ 16].
+6: The aligned multiple sequences were used to create tree in FastTree [ 17].

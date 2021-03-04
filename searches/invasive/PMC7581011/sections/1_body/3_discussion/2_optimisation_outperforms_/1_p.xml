@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For all scenarios assessed (including those based on an incorrectly parametrised model), the optimised surveillance strategy outperformed all strategies based on risk metrics (Figs 
+ <xref ref-type="fig" rid="pbio.3000863.g002">2</xref>, 
+ <xref ref-type="fig" rid="pbio.3000863.g004">4</xref>, 
+ <xref ref-type="fig" rid="pbio.3000863.g005">5</xref> and 
+ <xref ref-type="fig" rid="pbio.3000863.g006">6</xref>, 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s004">S3</xref>, 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s005">S4</xref>, 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s006">S5</xref> and 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s007">S6</xref> Figs). This results from the optimisation being able to explicitly capture relevant aspects of the transmission and detection process and evaluate the surveillance plan whilst considering the system as a whole, thereby identifying and accounting for ‘clusters of risk’. This is shown schematically in 
+ <xref ref-type="fig" rid="pbio.3000863.g007">Fig 7</xref>, in which the risk status of the 2 upper locations is correlated (that is, when one site is infected, the other is also likely to be infected). In the presence of an effective detection method, visiting either of these locations would give valuable information on the other, thereby effectively freeing up surveillance resources to be placed in the third site, even though the probability of infection in this site is lower. This complex interplay between the spread of the pathogen and the performance of the detection method requires the consideration of patterns of spread on a run-by-run basis, which lends itself naturally to simulation modelling, which can replicate large numbers of simulation realisations. These patterns cannot be explicitly captured using conventional targeted surveillance strategies based on risk metrics, which are commonly more focused on ‘average’ patterns of spread, nor by other heuristic methods of site selection [
+ <xref rid="pbio.3000863.ref045" ref-type="bibr">45</xref>]. The use of an optimisation algorithm provides a valuable method of collating and interpreting these individual simulation model outputs.
+</p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate if vegetation metrics varied between large and small patches, we conducted separate effect size analyses for each treatment, at each scale, within each monitoring year. The effect size approach enabled us to evaluate if the direction and magnitude of treatment effects varied between small and large patches (
+ <xref rid="B96" ref-type="bibr">Rinella and James, 2010</xref>). For our effect size statistic, we calculated natural log response ratio (lnRR) of 
+ <italic>Phragmites</italic> cover and native perennial cover where lnRR for each site = ln(treated/control). We performed a meta-analysis of each variable using the metafor package in R (
+ <xref rid="B113" ref-type="bibr">Viechtbauer, 2010</xref>). We analyzed effect sizes with the RMA function and restricted maximum-likelihood (REML) method. We used mixed-effects models, with patch as the random effect, to test the significance (α = 0.05) of effect size estimates (
+ <italic>z</italic>-test; H0: 
+ <italic>m</italic> = 0) from each treatment, at each scale, within each year, and examine the difference between scales during each year (
+ <italic>Q</italic>
+ <sub>M</sub>-test; H0: 
+ <italic>b</italic>
+ <sub>1</sub> = 
+ <italic>b</italic>
+ <sub>2</sub> = 0) (
+ <xref rid="B72" ref-type="bibr">Monaco et al., 2018</xref>).
+</p>

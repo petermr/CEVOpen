@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We assume the proportion of detectable hosts in any site increases logistically following first infection, meaning—in site 
+ <italic>L</italic> at time 
+ <italic>t</italic> in model iteration 
+ <italic>i</italic>—the proportion of detectable hosts is given by 
+ <disp-formula id="pbio.3000863.e001">
+  <alternatives>
+   <graphic xlink:href="pbio.3000863.e001.jpg" id="pbio.3000863.e001g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1">
+    <mrow>
+     <mtable equalcolumns="true" equalrows="true">
+      <mtr>
+       <mtd>
+        <mrow>
+         <mi>φ</mi>
+         <mo>(</mo>
+         <mrow>
+          <mi>L</mi>
+          <mo>,</mo>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo>)</mo>
+         <mo>=</mo>
+        </mrow>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mrow>
+          <mo>{</mo>
+          <mtable equalcolumns="true" equalrows="true">
+           <mtr>
+            <mtd>
+             <mrow>
+              <mfrac>
+               <mn>1</mn>
+               <mrow>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mo>(</mo>
+                <mrow>
+                 <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                   <msub>
+                    <mi>ς</mi>
+                    <mn>0</mn>
+                   </msub>
+                  </mrow>
+                 </mfrac>
+                 <mo>−</mo>
+                 <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+                <msup>
+                 <mi>e</mi>
+                 <mrow>
+                  <mo>−</mo>
+                  <mi>s</mi>
+                  <mo>(</mo>
+                  <mrow>
+                   <mi>t</mi>
+                   <mo>−</mo>
+                   <mi>τ</mi>
+                   <mo>(</mo>
+                   <mrow>
+                    <mi>L</mi>
+                    <mo>,</mo>
+                    <mi>i</mi>
+                   </mrow>
+                   <mo>)</mo>
+                  </mrow>
+                  <mo>)</mo>
+                 </mrow>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+            </mtd>
+            <mtd>
+             <mrow>
+              <mspace width="4pt"/>
+              <mtext>if</mtext>
+              <mspace width="4pt"/>
+              <mi>t</mi>
+              <mo>≥</mo>
+              <mi>τ</mi>
+              <mo>(</mo>
+              <mrow>
+               <mi>L</mi>
+               <mo>,</mo>
+               <mi>i</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mtd>
+           </mtr>
+           <mtr>
+            <mtd>
+             <mn>0</mn>
+            </mtd>
+            <mtd>
+             <mrow>
+              <mtext>otherwise</mtext>
+             </mrow>
+            </mtd>
+           </mtr>
+          </mtable>
+         </mrow>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+     <mo>,</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> in which 
+ <italic>τ</italic>(
+ <italic>L</italic>, 
+ <italic>i</italic>) is the iteration-specific time at which site 
+ <italic>L</italic> first becomes infected, 
+ <italic>ς</italic>
+ <sub>0</sub> is the proportion of detectable sites at the time of first infection, and 
+ <italic>s</italic> is the rate of increase in detectability.
+</p>

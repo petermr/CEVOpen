@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All the UAV data was pre-processed and delivered by Firemap SA using Structure-from-motion (SFM) available in Agisoft Photoscan version 1.2.0. Besides delivering the orthophotos of each location with 4 bands (RGB and NIR), the SFM by-products of Digital Surface Model (DSM) and Digital Elevation Model (DEM) were also delivered. The DEM was obtained by cloud-point semi-supervised classification methods which are readily available in Agisoft Photoscan. The Canopy Height Model (CHM) was obtained by subtracting the DEM from the DSM (
+ <xref rid="B49" ref-type="bibr">Matese et al., 2017</xref>). This resulted in 5 different covariates used for the classification exercise: Red, Blue, Green, and NIR bands and the CHM.
+</p>

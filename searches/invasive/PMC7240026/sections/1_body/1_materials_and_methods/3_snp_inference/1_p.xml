@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify 
+ <italic>S. halepense</italic> SNPs, reads from 
+ <italic>S. halepense</italic> were aligned to the reference 
+ <italic>S. bicolor</italic> genome by BWA and SNPs determined with nucleotide groups for each reference 
+ <italic>S. bicolor</italic> genomic position by an in-house script. False positive 
+ <italic>S. halepense</italic> SNPs for each position of the reference 
+ <italic>S. bicolor</italic> genome were inferred and removed, based on three criteria: (i) if the top two nucleotide groups are the same as reference 
+ <italic>S. bicolor</italic> and 
+ <italic>S. propinquum</italic>, respectively, there are no false positive SNPs; (ii) if read depth of an SNP is 1 (noting the average 14X coverage of the 
+ <italic>S. halepense</italic> genome), a false positive was inferred; (iii) if 
+ <italic>p</italic>-value calculated by the Fisher exact test for the actual and theoretical read depths (bicolor:propinquum is 1:1), is less than 0.1, a false positive was inferred. The full SNP table with the reference 
+ <italic>S. bicolor</italic>, 
+ <italic>S. propinquum</italic>, and 
+ <italic>S. halepense</italic> SNPs as well as wild 
+ <italic>S. bicolor</italic> and 
+ <italic>S. timorense</italic> SNPs determined with total RNA and genomic DNA, respectively, against the reference 
+ <italic>S. bicolor</italic> genome, is provided (
+ <xref ref-type="supplementary-material" rid="TS1">Supplementary Table 1</xref>). Classifications of duplicated genes into paralogs versus homologs followed the 
+ <italic>S. bicolor</italic> reference genome (
+ <xref rid="B36" ref-type="bibr">Paterson et al., 2009</xref>).
+</p>

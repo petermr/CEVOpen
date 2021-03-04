@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To examine how control performance depends on the cull radius, we performed 10000 replicate simulations for epidemics spreading according to the default parameters (
+ <italic>cf</italic>. 
+ <xref rid="pcbi.1004211.t001" ref-type="table">Table 1</xref>), at control radii ranging from 
+ <italic>L</italic> = 0m to 
+ <italic>L</italic> = 500m (
+ <xref rid="pcbi.1004211.g002" ref-type="fig">Fig 2a</xref>). The epidemic impact, κ
+ <sub>
+  <italic>E</italic>
+ </sub> (the total number of hosts lost to disease or control by the time of eradication) is highly sensitive to the cull radius, 
+ <italic>L</italic>. At small 
+ <italic>L</italic>, the region of cryptic infection surrounding detected trees is underestimated and the disease spreads widely; at large 
+ <italic>L</italic>, many healthy trees are unnecessarily removed. At intermediate cull radii, performance improves markedly, and an optimum radius can be uniquely determined if the objective is phrased in terms of minimising an average of the epidemic impact, κ
+ <sub>
+  <italic>E</italic>
+ </sub>. For example, median κ
+ <sub>
+  <italic>E</italic>
+ </sub> is minimised at cull radius 
+ <italic>L</italic> = 159m, with a median of 132 hosts removed from the total of 2000. The radius 
+ <italic>L</italic> = 159m is therefore optimal in the sense of previous modelling studies [
+ <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+ <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>,
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>], and the “intrinsic scale of the epidemic” 
+ <italic>sensu</italic> Gilligan [
+ <xref rid="pcbi.1004211.ref035" ref-type="bibr">35</xref>] has therefore been identified at this radius.
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Total RNA was extracted from a seedling collected from Yuxi (24.5246°N, 102.1235°E; herbarium ID YNU-YX106 at Yunnan University) using the Agilent Plant RNA Isolation Mini Kit (Agilent Technologies, Santa Clara, California, USA). Sequencing by synthesis of the normalized cDNA library was performed with HiSeq 2000 (Illumina, San Diego, California, USA; sequencing performed by BGI, Shenzhen, China), which produced 48,619,098 clean reads. CLC Genomics Workbench 7.5.1 (CLC bio, Aarhus, Denmark) was used to run de novo assembly, resulting in 113,774 unigenes with an N50 length of 1289 bp. SSR detection was performed with MISA (
+ <xref rid="bib4" ref-type="bibr">Thiel, 2003</xref>) using unigenes as reference. The following search criteria were implemented: ≥6 repeat units for dinucleotides and ≥5 repeat units for tri-, tetra-, penta-, and hexanucleotides. We used the QDD version 3.1 pipeline (
+ <xref rid="bib2" ref-type="bibr">Meglécz et al., 2014</xref>) to remove redundant sequences and design primers for 5907 sequences with PCR product length longer than 80 bp. The default parameters were used.
+</p>

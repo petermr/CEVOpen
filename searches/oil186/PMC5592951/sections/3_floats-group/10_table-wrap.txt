@@ -1,0 +1,36 @@
+0: Reduction stage1.
+1: Set the information system of antibacterial plants      A=(     U,A)    2.
+2: Define the indiscernibility matrix      M(     A)=(     c      ij)    3.
+3: Build the discernibility function      F      A for the information system      A as in      Equation (1).
+4: 4.
+5: Reduce M attributes using laws of Rough sets (Upper, and Lower Laws).5.
+6: Define      d as number of non-empty rows of reduced      M.    6.
+7: Build families sets of      R      0, R      1, R      2,............ R      d in the as follows:    7.
+8: Begin:8.
+9: R      0 is empty    9.
+10: For      i = 1 to      d10.
+11: R      i=     S      i       T      i, where      S      i={     R     R      i1:R            C      i =     }, and      Ti=(R{a})aCi,RRi,RCi=11.
+12: Calculate the accuracy  for each      R      i12.
+13: End13.
+14: If      i< 0.6    14.
+15: Remove dispensable attribute form each element of      R      d15.
+16: RED      A (     A)=      R      dOptimization Stage16.
+17: Set the Population P as a matrix      P = [     N      i*M      j] where      N is the bacteria type and      M is the plant    17.
+18: Set the particle is      P      ij which is the bacteria      i on plant      j18.
+19: For each particle19.
+20: Initialize position and velocity20.
+21: End For21.
+22: Do22.
+23: For each particle23.
+24: Find in the particle neighborhood, the particles with the best fitness as      Pbest and      Gbest.
+25: 24.
+26: Calculate      P      i velocity according to the velocity equation    25.
+27: V      ij(     k+     1)=     wv      ij+     c      1r      1[     pbest-x      ij(     k)]+     c      2r      2[     gbest-x      ij(     k)]    26.
+28: Update      P      i position according to the position equation    27.
+29: X      ij(     k+     1)=     x      ij(     k)+     v      ij(     k+     1)    28.
+30: If the new position for      P      i is less than its current position then    29.
+31: Modify the velocity and position for      P      i and      Pbest and      Gbest30.
+32: Else31.
+33: Modify the velocity of      P      i and keep its old position    32.
+34: End For33.
+35: While maximum iterations or minimum error criteria is not attained

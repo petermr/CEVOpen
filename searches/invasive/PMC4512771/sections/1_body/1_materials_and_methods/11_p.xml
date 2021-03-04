@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To determine whether morphological and physiological traits of competitor plants were associated with competitive ability, we used phylogenetic generalized least squares (PGLS) multiple regression, with competitive ability (either CR or CE) as the dependent variable and traits as independent variables. Growth form of plants was used as a covariate in the analysis. Because root traits were assessed in a different experiment, multiple regression analyses were run separately for aboveground and belowground traits. To analyze data, we used the time calibrated phylogenetic tree from 
+ <xref rid="ref-21" ref-type="bibr">Davies et al. (2004)</xref> in Phylomatic (
+ <xref rid="ref-73" ref-type="bibr">Webb, Ackerly &amp; Kembel, 2008</xref>), pruned to include the competitor species. In PGLS regression, the phylogenetic variance–covariance matrix is incorporated into the calculation of coefficients (
+ <italic>β</italic>) for either a univariate or multiple regression model (
+ <xref rid="ref-47" ref-type="bibr">Martins &amp; Hansen, 1997</xref>; 
+ <xref rid="ref-54" ref-type="bibr">Pagel, 1999</xref>). To calculate the magnitude of phylogenetic effects on the regression, maximum likelihood is used to estimate 
+ <italic>λ</italic>, an index which varies from 0, indicating complete independence between variation in the regression residuals and phylogeny, and 1, indicating complete dependence between residual variation with Brownian model of evolution (
+ <xref rid="ref-25" ref-type="bibr">Freckleton, Harvey &amp; Pagel, 2002</xref>). When 
+ <italic>λ</italic> = 0, the PGLS regression is identical to ordinary least squares regression. PGLS regression and estimates of 
+ <italic>λ</italic> were done in R version 3.12 (
+ <xref rid="ref-59" ref-type="bibr">R Core Team, 2014</xref>) using the ‘pgls’ command in the package caper, version 0.5.2 (
+ <xref rid="ref-53" ref-type="bibr">Orme et al., 2013</xref>).
+</p>

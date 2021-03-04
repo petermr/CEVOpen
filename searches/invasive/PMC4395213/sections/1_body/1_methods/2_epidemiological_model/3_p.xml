@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The dispersal kernel, 
+ <italic>K</italic>(
+ <italic>d</italic>;
+ <italic>α</italic>), reflects the probability that an infectious host causes infection of a susceptible host at distance 
+ <italic>d</italic>, and is governed by scale parameter α. To allow robustness to the form of dispersal to be explored, we consider two contrasting kernels: the thin-tailed exponential kernel, 
+ <italic>K</italic>(
+ <italic>d</italic>;
+ <italic>α</italic>) = 
+ <italic>A</italic> exp (–
+ <italic>d</italic>/
+ <italic>α</italic>), and the thick-tailed Cauchy kernel, 
+ <italic>K</italic>(
+ <italic>d</italic>;
+ <italic>α</italic>) = 
+ <italic>A</italic>/(1+(
+ <italic>d</italic>/
+ <italic>α</italic>)
+ <sup>2</sup>). In each case the normalising constant 
+ <italic>A</italic> is set via 
+ <inline-formula id="pcbi.1004211.e011">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e011.jpg" id="pcbi.1004211.e011g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M11">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mi>N</mi>
+     <mo stretchy="false">)</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mi>i</mi>
+      </munder>
+      <mrow>
+       <mstyle displaystyle="true">
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <mi>j</mi>
+          <mo>≠</mo>
+          <mi>i</mi>
+         </mrow>
+        </munder>
+        <mrow>
+         <mi>K</mi>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>d</mi>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+          </mrow>
+         </msub>
+         <mo>;</mo>
+         <mi>α</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula>.
+</p>

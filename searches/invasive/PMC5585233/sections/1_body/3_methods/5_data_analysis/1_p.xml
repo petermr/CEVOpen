@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">After sequencing, fastq-join
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup> was used to match paired end reads using default parameters and the resulting data were demultiplexed and quality filtered
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup> in QIIME
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup> (version 1.9.1). We used closed-reference picking with uclust
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup> to determine operational taxonomic units (OTUs) at a 97% sequence identity using the Greengenes 13.8 Core Reference Alignment
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup>. Chimeric sequences were identified and removed using Chimera Slayer
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>
+ </sup> and singletons were also removed prior to downstream analysis. We compared the bacterial community composition of each sample by calculating the Bray–Curtis dissimilarity metric and we visualized the resulting distance metric using a principal coordinates analysis in QIIME. Alpha diversity was calculated based on data rarified to the lowest sequencing depth, 5394 sequences per sample. We calculated a core microbiome, defined as taxa that were present in 100% of the samples within a given lineage using QIIME, and we assessed significant differences in taxonomic abundance among the different lineages using a Kruskal–Wallis test followed by a Benjamini–Hochberg correction to correct for false discovery.
+</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">We implemented the STSM described above using the stsim base package (version 3.1.21
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>) with the stsim-farsite add-on package (version 3.1.21) running on SyncroSim version 2.0.41. The stsim-farsite package integrates the FARSITE fire area simulator software version 4.1.055
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> into ST-Sim. We provided FARSITE with current time step fuel model attributes of each cell in the landscape along with the number of ignitions (one per time step) and weather information (see
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> for details), and FARSITE then produced fire perimeters at each time step. If ignitions occurred in non-burnable areas, the perimeter would be zero for that time step.
+</p>

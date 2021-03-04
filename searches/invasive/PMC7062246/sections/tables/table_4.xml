@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0229253.t004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0229253.t004</object-id>
+ <label>Table 4</label>
+ <caption>
+  <title>Model assessment rubric from Sofaer et al. [
+   <xref rid="pone.0229253.ref012" ref-type="bibr">12</xref>] for fountain grass and goutweed models.
+  </title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0229253.t004g" xlink:href="pone.0229253.t004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="left" rowspan="1" colspan="1"/>
+     <th align="left" rowspan="1" colspan="1"/>
+     <th align="left" rowspan="1" colspan="1">Fountain grass</th>
+     <th align="left" rowspan="1" colspan="1">Goutweed</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="center" rowspan="3" colspan="1">Species Data</td>
+     <td align="left" rowspan="1" colspan="1">Presence data quality</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Location data evaluated for accuracy (taxonomic, spatial coordinates). Locations compared with reported distributions.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Location data evaluated for accuracy (taxonomic, spatial coordinates). Locations compared with reported distributions.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Absence/ background data</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Background data selected using target background approach to reflect sampling biases of invasive plants or weighted based on presence point density (mimic spreading species with less background at expanding edges).</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Background data selected using target background approach to reflect sampling biases of invasive plants or weighted based on presence point density (mimic spreading species with less background at expanding edges).</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Evaluation data</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Cross-validation of training data.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Cross-validation of training data.</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="2" colspan="1">Environmental Predictors</td>
+     <td align="left" rowspan="1" colspan="1">Ecological and predictive relevance</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Predictors chosen based on natural history information for a perennial C4 grass.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Predictors chosen based on natural history information.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Spatial and temporal alignment</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Predictors match sampling period as closely as possible. Used available resolution closest to that desired for mapped products.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Predictors match sampling period as closely as possible. Used available resolution closest to that desired for mapped products.</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="5" colspan="1">Modeling Process</td>
+     <td align="left" rowspan="1" colspan="1">Algorithm choice</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Used a range of algorithms (regression based, tree based, machine learning) that were evaluated separately based on 
+      <italic>a priori</italic> criteria for inclusion in final model.
+     </td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Used a range of algorithms (regression based, tree based, machine learning) that were evaluated separately based on 
+      <italic>a priori</italic> criteria for inclusion in final model.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Sensitivity</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Evaluated five different algorithms and two background generation methods. Analyzed each algorithm’s settings separately based on 
+      <italic>a priori</italic> criteria.
+     </td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Evaluated five different algorithms and two background generation methods. Analyzed each algorithm’s settings separately based on 
+      <italic>a priori</italic> criteria.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Statistical rigor</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Examined collinearity issues and visually evaluated residual map for spatial patterns.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Examined collinearity issues and visually evaluated residual map for spatial patterns.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Performance</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Evaluated multiple evaluation metrics to ensure they met 
+      <italic>a priori</italic> criteria. Visually examined mapped products to evaluate ecological plausibility. Included independent occurrence data set.
+     </td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Evaluated multiple evaluation metrics to ensure they met 
+      <italic>a priori</italic> criteria. Visually examined mapped products to evaluate ecological plausibility.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Model review</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Review by regional species experts of initial response curves and regional and local maps experts pointed to independent data for evaluation.</td>
+     <td align="left" style="background-color:#F58787" rowspan="1" colspan="1">Interpret with caution: Reviewed only by model developers. Needs regional species expert review.</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="3" colspan="1">Model Products</td>
+     <td align="left" rowspan="1" colspan="1">Mapped products</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Ensemble of binary maps created for various thresholds that correspond to different intended uses.</td>
+     <td align="left" style="background-color:#EBF28A" rowspan="1" colspan="1">Acceptable: Ensemble of binary maps created for various thresholds that correspond to different intended uses.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Interpretation support products</td>
+     <td align="left" style="background-color:#92D050" rowspan="1" colspan="1">Ideal: Model attributes described. Invasive plant management community engaged in development of models and the format of delivery.</td>
+     <td align="left" style="background-color:#92D050" rowspan="1" colspan="1">Ideal: Model attributes described. Invasive plant management community engaged in development of models and the format of delivery.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Reproducibility</td>
+     <td align="left" style="background-color:#92D050" rowspan="1" colspan="1">Ideal: Inputs, scripts, settings, and results available.</td>
+     <td align="left" style="background-color:#92D050" rowspan="1" colspan="1">Ideal: Inputs, scripts, settings, and results available.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">Iterative</td>
+     <td align="left" style="background-color:#F58787" rowspan="1" colspan="1">Interpret with caution: First iteration</td>
+     <td align="left" style="background-color:#F58787" rowspan="1" colspan="1">Interpret with caution: First iteration</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

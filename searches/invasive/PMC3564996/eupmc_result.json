@@ -1,0 +1,582 @@
+{
+  "id": [
+    "23390612"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23390612"
+  ],
+  "pmcid": [
+    "PMC3564996"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC3564996"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1534/g3.112.003871"
+  ],
+  "title": [
+    "Allele identification for transcriptome-based population genomics in the invasive plant Centaurea solstitialis."
+  ],
+  "authorString": [
+    "Dlugosch KM, Lai Z, Bonin A, Hierro J, Rieseberg LH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dlugosch KM"
+          ],
+          "firstName": [
+            "Katrina M"
+          ],
+          "lastName": [
+            "Dlugosch"
+          ],
+          "initials": [
+            "KM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7302-6637",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Botany, University of British Columbia, Vancouver, BC V6T1Z4, Canada. kdlugosch@email.arizona.edu"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lai Z"
+          ],
+          "firstName": [
+            "Zhao"
+          ],
+          "lastName": [
+            "Lai"
+          ],
+          "initials": [
+            "Z"
+          ]
+        },
+        {
+          "fullName": [
+            "Bonin A"
+          ],
+          "firstName": [
+            "Aurélie"
+          ],
+          "lastName": [
+            "Bonin"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7800-8609",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hierro J"
+          ],
+          "firstName": [
+            "José"
+          ],
+          "lastName": [
+            "Hierro"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Rieseberg LH"
+          ],
+          "firstName": [
+            "Loren H"
+          ],
+          "lastName": [
+            "Rieseberg"
+          ],
+          "initials": [
+            "LH"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2712-2417",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7302-6637",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7800-8609",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2712-2417",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "wikipedia",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2007669"
+      ],
+      "dateOfPublication": [
+        "2013 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "G3 (Bethesda, Md.)"
+          ],
+          "ISOAbbreviation": [
+            "G3 (Bethesda)"
+          ],
+          "medlineAbbreviation": [
+            "G3 (Bethesda)"
+          ],
+          "NLMid": [
+            "101566598"
+          ],
+          "ISSN": [
+            "2160-1836"
+          ],
+          "ESSN": [
+            "2160-1836"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "359-367"
+  ],
+  "abstractText": [
+    "Transcriptome sequences are becoming more broadly available for multiple individuals of the same species, providing opportunities to derive population genomic information from these datasets. Using the 454 Life Science Genome Sequencer FLX and FLX-Titanium next-generation platforms, we generated 11-430 Mbp of sequence for normalized cDNA for 40 wild genotypes of the invasive plant Centaurea solstitialis, yellow starthistle, from across its worldwide distribution. We examined the impact of sequencing effort on transcriptome recovery and overlap among individuals. To do this, we developed two novel publicly available software pipelines: SnoWhite for read cleaning before assembly, and AllelePipe for clustering of loci and allele identification in assembled datasets with or without a reference genome. AllelePipe is designed specifically for cases in which read depth information is not appropriate or available to assist with disentangling closely related paralogs from allelic variation, as in transcriptome or previously assembled libraries. We find that modest applications of sequencing effort recover most of the novel sequences present in the transcriptome of this species, including single-copy loci and a representative distribution of functional groups. In contrast, the coverage of variable sites, observation of heterozygosity, and overlap among different libraries are all highly dependent on sequencing effort. Nevertheless, the information gained from overlapping regions was informative regarding coarse population structure and variation across our small number of population samples, providing the first genetic evidence in support of hypothesized invasion scenarios."
+  ],
+  "affiliation": [
+    "Department of Botany, University of British Columbia, Vancouver, BC V6T1Z4, Canada. kdlugosch@email.arizona.edu"
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Centaurea"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cluster Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Library"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alleles"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome, Plant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Databases, Factual"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Metagenomics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Loci"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Introduced Species"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Invasive species",
+        "Normalized Ests",
+        "Allele Clustering",
+        "454 Gs Flx Titanium",
+        "Yellow Starthistle"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23390612/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23390612/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1534/g3.112.003871"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3564996"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3564996?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "16"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2013-08-14"
+  ],
+  "dateOfCreation": [
+    "2013-02-08"
+  ],
+  "firstIndexDate": [
+    "2013-02-08"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-14"
+  ],
+  "dateOfRevision": [
+    "2018-11-13"
+  ],
+  "electronicPublicationDate": [
+    "2013-02-01"
+  ],
+  "firstPublicationDate": [
+    "2013-02-01"
+  ]
+}

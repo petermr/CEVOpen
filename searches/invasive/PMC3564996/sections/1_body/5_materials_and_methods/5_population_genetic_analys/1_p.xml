@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We examined the impact of both sequencing effort and source region (native 
+ <italic>vs.</italic> invading) on assembled contig numbers, observed SNP positions, observed heterozygosity, and SNP overlap. SNP frequencies and overlap among individuals were quantified using custom Perl scripts. Significance of relationships was tested with linear model fits in R, using the lm function (
+ <xref rid="bib55" ref-type="bibr">R Development Core Team 2010</xref>). Geographic partitioning of genetic variation in the native range was assessed with STRUCTURE v2.3.2.1 for 1-4 subpopulations (K), using 10,000 burnin steps and 10,000 iterations of the models (
+ <xref rid="bib54" ref-type="bibr">Pritchard 
+  <italic>et al.</italic> 2000
+ </xref>; 
+ <xref rid="bib27" ref-type="bibr">Falush 
+  <italic>et al.</italic> 2003
+ </xref>). Runs were repeated three to five times at each K to verify convergence. Naturalized and invading samples were then assigned to native sub-populations using STRUCTURE, and results were plotted using Distruct v 1.1 (
+ <xref rid="bib57" ref-type="bibr">Rosenberg 2004</xref>).
+</p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">Synonymous codon usage (SCU) and dinucleotide composition bias has been used to infer putative host-virus association and taxonomic placement for a given virus sequence [
+ <xref ref-type="bibr" rid="CR43">43</xref>, 
+ <xref ref-type="bibr" rid="CR44">44</xref>]. To gain further insight about the host of the tenui-like sequences reported here, we used principal component analysis (PCA) to compare the compositional bias between plant tenuivirus and other viruses infecting plants and animals (vertebrates and invertebrates). SCU counts were determined for the full-length nucleotide sequence of RNA-dependent RNA polymerase (RdRp), glycoprotein, nucleocapsid and non-structural protein 4 (NS4) protein, using the coRdon package [
+ <xref ref-type="bibr" rid="CR45">45</xref>] in R software. Dinucleotide bias was calculated as the frequency of dinucleotide 
+ <italic>XY</italic> divided by the product of frequencies of nucleotide 
+ <italic>X</italic> and nucleotide 
+ <italic>Y</italic> using the SeqinR package [
+ <xref ref-type="bibr" rid="CR46">46</xref>] in R software. Sequences highly divergent with no conserved domain according to CDD analysis were not included. Principal components analysis was performed on codon usage counts and dinucleotide bias using the function prcomp and plotted using the factoextra package [
+ <xref ref-type="bibr" rid="CR47">47</xref>], both implemented in R software.
+</p>

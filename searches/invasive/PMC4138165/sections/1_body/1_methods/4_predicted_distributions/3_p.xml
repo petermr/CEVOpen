@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For SDMs regularization, we smoothed the models to avoid over-parameterization 
+ <xref rid="pone.0105025-Phillips1" ref-type="bibr">[43]</xref>, 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>. The regularization refers to smoothing the model, making it more regular, so as to avoid fitting too complex a model 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>. In Maxent, the fit of the model is measured at the occurrence sites, using a “log likelihood” (see Box 1 in 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>). A highly complex model will have a high log likelihood, but may not generalize well 
+ <xref rid="pone.0105025-Phillips1" ref-type="bibr">[43]</xref>, 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>. The aim of regularization is to trade off model fit and model complexity 
+ <xref rid="pone.0105025-Phillips1" ref-type="bibr">[43]</xref>, 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>. The smoothing was achieved by modifying a β parameter i.e. the value that smoothens the model, making it more regular. β = 1 was the best choice as it led to the most conservative model 
+ <xref rid="pone.0105025-Elith2" ref-type="bibr">[48]</xref>, penalizing over-parameterization (
+ <xref ref-type="table" rid="pone-0105025-t001">Table 1</xref>).
+</p>

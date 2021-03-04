@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The default cull radius of 75m as used in the front-end was chosen to emphasise how stochasticity can affect the effectiveness of a single control scenario when all parameters are fixed. We show here the results from this scenario, using fixed default epidemiological and control parameters (see 
+ <xref rid="pcbi.1004211.t001" ref-type="table">Table 1</xref>), as seen by the user of our front-end interface. Control efficacy is extremely variable (Fig 
+ <xref rid="pcbi.1004211.g007" ref-type="fig">7a</xref> and 
+ <xref rid="pcbi.1004211.g007" ref-type="fig">7b</xref>). The realisation shown in 
+ <xref rid="pcbi.1004211.g007" ref-type="fig">Fig 7a</xref> leads to fewer than 10% of hosts (159 from 2000) removed before eradication at 790 days. However the simulation run shown in 
+ <xref rid="pcbi.1004211.g007" ref-type="fig">Fig 7b</xref> reveals the risk of a far greater epidemic impact, despite identical parameters controlling disease spread and control. A small proportion of asymptomatic but infectious trees escape control on each round of removal, and this leads to widespread disease. Nearly 90% of hosts (1743 out of 2000) are eventually removed before the pathogen is fully controlled at 
+ <italic>t</italic> = 4300d. Similar behaviour is easily observable via the interface (
+ <italic>cf</italic>. 
+ <xref rid="pcbi.1004211.g007" ref-type="fig">Fig 7c</xref>, which shows typical histograms summarising the final state of 500 runs using the default parameterisation).
+</p>

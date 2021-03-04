@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We built our IPM kernel as follows:
+ <disp-formula id="ecy3219-disp-0001">
+  <label>(1)</label>
+  <math id="nlm-math-1">
+   <mrow>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>,</mo>
+     <mi>z</mi>
+     <mo>,</mo>
+     <mi>w</mi>
+     <mo>,</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">f</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mi>s</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo>,</mo>
+     <mi>w</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>‐</mo>
+     <msub>
+      <mi>p</mi>
+      <mi>b</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>z</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>G</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>,</mo>
+     <mi>z</mi>
+     <mo>,</mo>
+     <mi>w</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <mi>s</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo>,</mo>
+     <mi>w</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msub>
+     <mi>p</mi>
+     <mi>b</mi>
+    </msub>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>b</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msub>
+     <mi>p</mi>
+     <mi>r</mi>
+    </msub>
+    <msub>
+     <mi>c</mi>
+     <mn>0</mn>
+    </msub>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>,</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">f</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>z</italic> denotes size at time 
+ <italic>t</italic>, 
+ <italic>z</italic>′ denotes size at time 
+ <italic>t</italic> + 1, 
+ <italic>w</italic> denotes temperature treatment, and 
+ <italic>d</italic>
+ <sub>f</sub> denotes day of year of first flowering. We included the effects of temperature and phenology in model components wherever statistical analysis indicated they had a significant effect. The kernel 
+ <italic>K</italic>(
+ <italic>z</italic>′, 
+ <italic>z, w, d</italic>
+ <sub>f</sub>) describes how the population of individuals with sizes 
+ <italic>z</italic> at time 
+ <italic>t</italic> transitions to a population with sizes 
+ <italic>z</italic>′ at time 
+ <italic>t</italic> + 1, under temperature treatment 
+ <italic>w</italic> and with date of first flowering 
+ <italic>d</italic>
+ <italic>
+  <sub>f</sub>
+ </italic>. The first term in the kernel describes year‐to‐year size transitions for individuals that do not reproduce. These individuals survive with probability given by the size‐ and temperature‐dependent survival function 
+ <italic>s</italic>(
+ <italic>z</italic>,
+ <italic>w</italic>). They do not reproduce, so this term includes 1 – 
+ <italic>p
+  <sub>b</sub>
+ </italic>(
+ <italic>z</italic>), where 
+ <italic>p
+  <sub>b</sub>
+ </italic>(
+ <italic>z</italic>) is the size‐dependent probability of reproduction. Non‐flowering individuals grow to a new size given by the size‐ and temperature‐dependent growth kernel 
+ <italic>G</italic>(
+ <italic>z</italic>′
+ <italic>,z,w</italic>), which projects the probabilities of all possible annual size transitions from 
+ <italic>z</italic> to 
+ <italic>z</italic>′. The second term in the kernel describes annual transitions for reproducing individuals. Because 
+ <italic>C. nutans</italic> is a monocarp, these individuals all die, but they contribute to the next year’s population by producing offspring. They survive to reproduction with probability 
+ <italic>s</italic>(
+ <italic>z, w</italic>) and flower with probability 
+ <italic>p
+  <sub>b</sub>
+ </italic>(
+ <italic>z</italic>). They produce a number of seeds given by 
+ <italic>b</italic>(
+ <italic>z</italic>), which germinate and become established with probability 
+ <italic>p
+  <sub>r</sub>
+ </italic>. Offspring enter the population with size given by 
+ <italic>c
+  <sub>0</sub>
+ </italic>(
+ <italic>z</italic>′
+ <italic>, d</italic>
+ <sub>f</sub>). This frequency distribution of offspring sizes depends on the day of first flowering as described in the following section. See Appendix 
+ <xref rid="ecy3219-sup-0001" ref-type="supplementary-material">S1</xref>: Table S2 for fitted model parameters.
+</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A large number of total biomass values were zero due to the lack of germination of 
+ <italic>E. axillaris</italic> and 
+ <italic>E. foetida</italic>. Consequently, a finite mixture model (
+ <xref rid="CIT0050" ref-type="bibr">McLachlan and Peel 2000</xref>) was chosen to analyse the data. A finite mixture model is a weighted average of two or more models. We used a two-point mixture distribution where the distribution was degenerate at zero in the case of no germination and the other was a lognormal distribution, conditional on germination. Both individual models are generalized linear models. The mixing probabilities were the probability of no germination for the degenerate distribution and the probability of germination for the lognormal distribution.
+</p>

@@ -1,0 +1,735 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7593150</article-id><article-id pub-id-type="doi">10.1002/ece3.6811</article-id><article-id pub-id-type="publisher-id">ECE36811</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Differences in rhizosphere microbial communities between native and non&#x02010;native <italic>Phragmites australis</italic> may depend on stand density</article-title><alt-title alt-title-type="left-running-head">BICKFORD et al.</alt-title></title-group><contrib-group><contrib id="ece36811-cr-0001" contrib-type="author" corresp="yes"><name><surname>Bickford</surname><given-names>Wesley A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7612-1325</contrib-id><xref ref-type="aff" rid="ece36811-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece36811-aff-0002">
+<sup>2</sup>
+</xref><address><email>wbickford@usgs.gov</email></address></contrib><contrib id="ece36811-cr-0002" contrib-type="author"><name><surname>Zak</surname><given-names>Donald R.</given-names></name><xref ref-type="aff" rid="ece36811-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ece36811-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece36811-cr-0003" contrib-type="author"><name><surname>Kowalski</surname><given-names>Kurt P.</given-names></name><xref ref-type="aff" rid="ece36811-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece36811-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece36811-cr-0004" contrib-type="author"><name><surname>Goldberg</surname><given-names>Deborah E.</given-names></name><xref ref-type="aff" rid="ece36811-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece36811-aff-0001">
+<label><sup>1</sup></label>
+<institution>U.S. Geological Survey &#x02013; Great Lakes Science Center</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36811-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Ecology and Evolutionary Biology</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36811-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">School for Environment and Sustainability</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Wesley A. Bickford, U.S. Geological Survey &#x02013; Great Lakes Science Center, Ann Arbor, MI 48015, USA.<break/>
+Email: <email>wbickford@usgs.gov</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>9</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2020</year></pub-date><volume>10</volume><issue>20</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.20</issue-id><fpage>11739</fpage><lpage>11751</lpage><history><date date-type="received"><day>07</day><month>4</month><year>2020</year></date><date date-type="rev-recd"><day>02</day><month>8</month><year>2020</year></date><date date-type="accepted"><day>05</day><month>8</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd This article has been contributed to by US Government employees and their work is in the public domain in the USA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-11739.pdf"/><abstract id="ece36811-abs-0001"><title>Abstract</title><p>Microorganisms surrounding plant roots may benefit invasive species through enhanced mutualism or decreased antagonism, when compared to surrounding native species. We surveyed the rhizosphere soil microbiome of a prominent invasive plant, <italic>Phragmites australis</italic>, and its co&#x02010;occurring native subspecies for evidence of microbial drivers of invasiveness. If the rhizosphere microbial community is important in driving plant invasions, we hypothesized that non&#x02010;native <italic>Phragmites</italic> would cultivate a different microbiome from native <italic>Phragmites</italic>, containing fewer pathogens, more mutualists, or both. We surveyed populations of native and non&#x02010;native <italic>Phragmites</italic> across Michigan and Ohio USA, and we described rhizosphere microbial communities using culture&#x02010;independent next&#x02010;generation sequencing. We found little evidence that native and non&#x02010;native <italic>Phragmites</italic> cultivate distinct bacterial, fungal, or oomycete rhizosphere communities. Microbial community differences in our Michigan survey were not associated with plant lineage but were mainly driven by environmental factors, such as soil saturation and nutrient concentrations. Intensive sampling along transects consisting of dense monocultures of each lineage and mixed zones revealed bacterial community differences between lineages in dense monoculture, but not in mixture. We found no evidence of functional differences in the microbial communities surrounding each lineage. We extrapolate that the invasiveness of non&#x02010;native <italic>Phragmites</italic>, when compared to its native congener, does not result from the differential cultivation of beneficial or antagonistic rhizosphere microorganisms.</p></abstract><abstract abstract-type="graphical" id="ece36811-abs-0002"><p>We explored whether microbial communities differed in rhizosphere of native and non&#x02010;native <italic>Phragmites autralis</italic>. We found that rhizosphere communities were not different in most locations, but subtle differences could emerge in bacterial communities of dense patches. We concluded that rhizosphere microbial communities do not likely drive invasiveness of <italic>Phragmites</italic>, but may change as a consequence of ongoing invasions.<boxed-text position="anchor" content-type="graphic" id="ece36811-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-11739-g006.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece36811-kwd-0001">bacteria</kwd><kwd id="ece36811-kwd-0002">fungi</kwd><kwd id="ece36811-kwd-0003">oomycetes</kwd><kwd id="ece36811-kwd-0004">rhizoplane</kwd><kwd id="ece36811-kwd-0005">rhizosphere</kwd><kwd id="ece36811-kwd-0006">soil conditioning</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>US Geological Survey </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000203</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source>Great Lakes Restoration Initiative</funding-source></award-group><award-group id="funding-0003"><funding-source>University of Michigan's 2016&#x02010;2107 EEB Block Grant</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="3"/><page-count count="13"/><word-count count="9559"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.3 mode:remove_FC converted:28.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece36811-cit-1001">
+<string-name>
+<surname>Bickford</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name>
+<surname>Zak</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Kowalski</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name>
+<surname>Goldberg</surname>
+<given-names>DE</given-names>
+</string-name>. <article-title>Differences in rhizosphere microbial communities between native and non&#x02010;native <italic>Phragmites australis</italic> may depend on stand density</article-title>. <source xml:lang="en">Ecol. Evol.</source>
+<year>2020</year>;<volume>10</volume>:<fpage>11739</fpage>&#x02013;<lpage>11751</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6811</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece36811-body-0001"><sec id="ece36811-sec-0001"><label>1</label><title>INTRODUCTION</title><p>The plant&#x02010;associated microbiome can dramatically influence plant performance and therefore may play a vital role in driving plant invasions in many ecosystems (Kowalski et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0017" ref-type="ref">2015</xref>; Reinhart &#x00026; Callaway,&#x000a0;<xref rid="ece36811-bib-0031" ref-type="ref">2006</xref>). Plant&#x02010;microbial interactions span a spectrum from beneficial to antagonistic, and plants may perform better or worse than heterospecifics if their community of microorganisms functionally differs. If invasive plants associate with relatively fewer pathogens than native plants, they will realize performance advantages (Keane &#x00026; Crawley,&#x000a0;<xref rid="ece36811-bib-0015" ref-type="ref">2002</xref>; Reinhart &#x00026; Callaway,&#x000a0;<xref rid="ece36811-bib-0031" ref-type="ref">2006</xref>). Similarly, interaction with more mutualists may provide disproportionally stronger benefits to invaders, relative to native species (Reinhart &#x00026; Callaway,&#x000a0;<xref rid="ece36811-bib-0031" ref-type="ref">2006</xref>; Richardson et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0032" ref-type="ref">2000</xref>).</p><p>Soil dwelling microorganisms may play a prominent role in a plant's invasiveness. For example, a recent meta&#x02010;analysis found that plant invasions can alter rhizosphere microbial communities, specifically increasing nitrogen mineralization, extracellular enzyme activity, and arbuscular mycorrhizal fungi (AMF) abundance, while decreasing soil pathogen and herbivore abundance (Zhang et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0041" ref-type="ref">2019</xref>). Additionally, invasive plants may accumulate pathogens in the soil that are more virulent to native plants than themselves (Crocker et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0011" ref-type="ref">2015</xref>; Mangla &#x00026; Callaway, <xref rid="ece36811-bib-0020" ref-type="ref">2008</xref>). Consequently, a better understanding of plant&#x02010;microbial interactions and how they differ between native and invasive plant species will improve our collective understanding of the mechanisms underlying plant invasiveness and may ultimately improve invasive species management outcomes.</p><p>
+<italic>Phragmites australis</italic> is a cosmopolitan wetland grass with multiple lineages worldwide and is considered a model organism for studying plant invasions (Meyerson et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0023" ref-type="ref">2016</xref>). Invasive to North America, the European lineage (<italic>P.&#x000a0;australis</italic> haplotype M; hereafter, non&#x02010;native <italic>Phragmites</italic>) is highly productive and fast growing, often forming dense stands supporting a low overall species diversity. A native lineage in North America (<italic>Phragmites australis</italic> subsp. <italic>americanus</italic>, hereafter native <italic>Phragmites</italic>) is conversely characteristic of low nutrient, high&#x02010;diversity wetlands and is considered desirable for wildlife habitat (Price et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0027" ref-type="ref">2013</xref>).</p><p>The microorganisms associated with <italic>Phragmites</italic> populations have been implicated in its performance in a variety of settings worldwide. For instance, in native European populations, bacterial and oomycete communities in the rhizosphere correlated with stages of decline in populations affected by reed die&#x02010;back syndrome (Bacci et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0002" ref-type="ref">2018</xref>; Cerri et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0009" ref-type="ref">2017</xref>). Likewise, several authors have suggested the key to understanding the invasive nature of non&#x02010;native <italic>Phragmites</italic> in North America may lie in microbial associations (Clay et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0010" ref-type="ref">2016</xref>; Kowalski et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0017" ref-type="ref">2015</xref>; Shearin et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0036" ref-type="ref">2018</xref>). However, the sum of evidence for widespread differences in microbial assemblages between native and non&#x02010;native <italic>Phragmites</italic> lineages is mixed. For instance, Nelson and Karp (<xref rid="ece36811-bib-0024" ref-type="ref">2013</xref>) found different rhizosphere pathogen communities (mainly <italic>Pythium</italic> spp.) associated with each lineage, although the total abundance of rhizosphere pathogens did not differ. They speculated that those differences may increase invasiveness of non&#x02010;native <italic>Phragmites</italic> due to enemy release (Keane &#x00026; Crawley,&#x000a0;<xref rid="ece36811-bib-0015" ref-type="ref">2002</xref>). Additional evidence indicates that differential virulence of pathogens might favor non&#x02010;native <italic>Phragmites</italic> over native <italic>Phragmites</italic> and especially over other native species (Crocker et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0011" ref-type="ref">2015</xref>).</p><p>Importantly, Bowen et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0007" ref-type="ref">2017</xref>) showed that bacterial communities in the rhizosphere differed dramatically among the dominant <italic>Phragmites</italic> lineages broadly distributed across the east and west coasts of North America. In fact, geographically distant <italic>Phragmites</italic> populations of the same lineage had more similar bacterial communities than neighboring populations of different lineages, suggesting that lineage&#x02010;specific cultivation drives rhizosphere community composition (Bowen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0007" ref-type="ref">2017</xref>). Despite this compelling evidence of lineage&#x02010;specific bacterial selection in the rhizosphere, the authors could not elucidate any functional link between bacterial communities and plant performance.</p><p>Several studies have found less support for differential microbial community cultivation between native and non&#x02010;native <italic>Phragmites</italic> lineages. For example, in tidal wetlands of the Chesapeake Bay region (Mid&#x02010;Atlantic coast of USA), <italic>Phragmites</italic> lineages cultivated dissimilar rhizosphere archaeal communities, but contrary to the findings of Bowen et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0007" ref-type="ref">2017</xref>), rhizosphere bacterial communities did not differ between lineages (Yarwood et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0040" ref-type="ref">2016</xref>). Likewise, our recent study examining root endophytes residing in native and non&#x02010;native <italic>Phragmites australis</italic> roots in the state of Michigan, USA, revealed that root bacterial, fungal, and oomycetes communities did not differ between native and non&#x02010;native <italic>Phragmites</italic> lineages (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>). Instead, root microbial communities were strongly influenced by environmental characteristics, such as soil saturation and nutrient status. Because microbial communities residing in native and non&#x02010;native <italic>Phragmites</italic> roots did not differ in either composition or function, there was no evidence to suggest that root endophytes contributed to the invasiveness of the non&#x02010;native lineage.</p><p>Plants may select for particular belowground microbial communities through release of specific root exudates or by altering the rhizosphere soil environment. For instance, in waterlogged soils, oxygen diffusion into the soil could select for more aerobic organisms in the root zone. Importantly, native and non&#x02010;native <italic>Phragmites</italic> differ vastly in their ability to aerate soils in the root zone, with the differences driven mostly by higher live stem density and a large number of senesced stems from previous years in invasive populations (Tulbure et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0038" ref-type="ref">2012</xref>). Therefore, microbial community differences between <italic>Phragmites</italic> lineages may result from differences in soil oxygen concentrations and the strength of differences may depend on the stand age, density, and dominance of the patch.</p><p>Here, we expand upon our previous study on microbes internal to the roots of <italic>Phragmites</italic> (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>) to examine broad components of the rhizosphere soil microbiome (i.e., bacteria, fungi, and oomycetes) in native and non&#x02010;native <italic>Phragmites</italic> populations. Given the mixed evidence for distinction in rhizosphere microbial communities between <italic>Phragmites</italic> lineages, we sought to examine whether soil communities surrounding each lineage differed or, as with the root communities of the Great Lakes, were similar. Despite no differences found in roots (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>), rhizosphere communities may be driven by a separate set of factors such as differences in oxygen diffusion sensu Tulbure et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0038" ref-type="ref">2012</xref>). Accordingly, stand density and dominance may play an important role in the strength of differentiation in microbial communities between lineages. This is the first study to explore rhizosphere soil microbes of multiple groups surrounding lineages of <italic>Phragmites</italic> in the Great Lakes region and is also the first to qualitatively address the impact of stand age, density, and dominance in rhizosphere community development.</p><p>We assessed the rhizosphere microbiome of each lineage to investigate the potential role of the rhizosphere microbiome in fostering the invasion of non&#x02010;native <italic>Phragmites</italic>. If performance differences between native and non&#x02010;native plant lineages are driven by their rhizosphere microbial communities, we would expect (a) the rhizosphere community of native and non&#x02010;native <italic>Phragmites</italic> to harbor compositionally dissimilar bacteria, fungi, and oomycete communities and (b) the non&#x02010;native lineage to associate with more mutualistic and/or fewer pathogenic microbes in rhizosphere soil.</p><p>We tested these hypotheses over a range of sites across Michigan, USA that varied in environmental conditions, thereby allowing us to explore additional drivers of microbial community composition, such as soil nutrient content and saturation. We further tested our hypotheses at two sites in the state of Ohio, USA, in which dense and extensive populations of native and non&#x02010;native <italic>Phragmites</italic> intergrade from nearly pure stands to mixtures of each. Intensive sampling along 20&#x02010;m transects at these two sites allowed us to explore (a) whether the degree of differentiation differed between dense monoculture stands and mixed plant community zones within the same environment and (b) whether differential rhizosphere cultivation between lineages was detectable at across spatial scales. We included multiple levels of soil proximity to host plant roots in paired samples (rhizoplane, rhizosphere, and bulk soil), allowing us to determine if either lineage cultivates a microbial community that is detectably different from the bulk soil community, and whether the strength or direction of cultivation differs by plant lineage.</p></sec><sec sec-type="materials-and-methods" id="ece36811-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece36811-sec-0003"><label>2.1</label><title>Site selection</title><p>Our study included 6 sites distributed across Michigan, USA with co&#x02010;occurring populations of native and non&#x02010;native <italic>Phragmites</italic> (hereafter Michigan Sites; Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>) and two sites in Ohio, USA, in which dense native and non&#x02010;native <italic>Phragmites</italic> stands co&#x02010;occur and mix (hereafter, Ohio Sites; Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). Sampling protocols differed slightly between the two regions and are described in detail below.</p></sec><sec id="ece36811-sec-0004"><label>2.2</label><title>Michigan sites</title><p>In August 2016, we sampled rhizosphere and bulk soils from native and non&#x02010;native <italic>Phragmites</italic> at 6 sites distributed across Michigan, USA (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). We selected sites that had at least 3 distinct patches of native and non&#x02010;native <italic>Phragmites</italic> in close proximity to one another, growing under similar environmental conditions (e.g., soil type, hydrology) with no recent history of invasive plant management (e.g., herbicide, burning). Due to the rarity of co&#x02010;occurring native and non&#x02010;native <italic>Phragmites</italic> populations that met these criteria (non&#x02010;native is rare and well&#x02010;managed in northern Michigan; native is rare in southern Michigan), patch size and density varied considerably among sites (1&#x000a0;m<sup>2</sup> to 100&#x000a0;m<sup>2</sup>) and many patches were of low density. Exact stand age is unknown, but based on Great Lakes water level trends and historical aerial imagery, we can estimate that the stands in northern Michigan were &#x0003c;5&#x000a0;years old when sampled. The stands in southern Michigan appear &#x0003c;10&#x000a0;years old based on aerial imagery. We use the Ohio sites (described below) to assess whether patch size and density changes the extent of microbial community cultivation.</p><p>At each site, we morphologically identified all <italic>Phragmites</italic> patches as native or non&#x02010;native and leaf material from each was collected for later genetic confirmation of lineage using the methods of Saltonstall (<xref rid="ece36811-bib-0034" ref-type="ref">2002</xref>). We classified the degree of soil saturation as either unsaturated, saturated, or saturated with standing water, and recorded depth of water (if over the surface) and the nature of surrounding vegetation. At each site, we collected rhizosphere and bulk soil samples in each of three native and three non&#x02010;native patches (one site did not have three distinct non&#x02010;native patches, see Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). One ramet near the center of each patch was randomly selected for collection of paired rhizosphere and bulk soils. Using a serrated knife, we cut a 10&#x02010;cm diameter circle around the chosen ramet, exhuming subtending roots with adhering soil. The root ball was shaken to remove loosely associated soil. To sample rhizosphere soils, we then vigorously shook the root ball in a bag, saving the soil that fell off. Bulk soils were sampled outside of each <italic>Phragmites</italic> patch and paired with rhizosphere soils at the patch level. Leaf samples from the same stem were collected for tissue nutrient analysis. All samples were kept on ice until returned from the field.</p></sec><sec id="ece36811-sec-0005"><label>2.3</label><title>Ohio sites</title><p>In September of 2017, we established two 20&#x02010;m transects within the Cedar Point National Wildlife Refuge, in Ohio USA (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). The transects were established where large, dense native and non&#x02010;native <italic>Phragmites</italic> co&#x02010;occur and intermix. Exact age of each transect location is unknown, but based on historical aerial imagery, stands appear to be &#x0003e;10&#x000a0;years old at the time of sampling. Each transect contained a high&#x02010;density zone of non&#x02010;native <italic>Phragmites</italic> dominance, a mixed zone containing both native and non&#x02010;native, and a high&#x02010;density zone of native <italic>Phragmites</italic> dominance. Each lineage's high&#x02010;density dominant zone was a near monoculture (i.e., included few other plant species at low abundance and did not include the opposite lineage); they will hereafter be referred to as monocultures. Samples were collected within 0.5&#x000a0;&#x000d7;&#x000a0;0.5&#x000a0;m plots at 2&#x02010;m intervals in the monoculture zones of both transects. In the mixed zones, samples were collected at 0.5&#x02010;m intervals in Transect 1 and 1.0&#x000a0;m intervals in Transect 2 (Transect 1 had 44 total sampling locations; 21 native, 23 non&#x02010;native; Transect 2 had 25 total sampling locations; 12 native, 13 non&#x02010;native. See Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref> for more details). Within each plot, we assessed plant species composition by counting the stems of each <italic>Phragmites</italic> lineage, identifying other plant species, and estimating total percent plant cover. One <italic>Phragmites</italic> ramet of each lineage was collected within each plot (1 sample in monoculture; 2 in mixed plots). Paired bulk and rhizosphere soils were collected as described above; bulk soils were collected adjacent to the plot in a zone of low stem density to avoid root influence. In addition, the entire root ball with adhering soil particles (rhizoplane soils) from the selected ramet was also collected and returned to the lab on ice.</p></sec><sec id="ece36811-sec-0006"><label>2.4</label><title>Sample preparation</title><p>Samples collected from both sampling regions were prepared identically, except for the rhizoplane soils sampled from only the Ohio sites. For soil nutrient analysis, a subset of the bulk soil from each sample was passed through a 2&#x02010;mm sieve and oven dried at 60&#x000b0;C for 48&#x000a0;hr. Dried samples were ground with a mortar and pestle, and subsamples from each (0.5&#x000a0;g) were processed in duplicate in a Leco CNS2000 Analyzer (LECO&#x000ae;) to measure total carbon and nitrogen. Extractable soil phosphorus was determined colorimetrically following the Bray P1 extraction method (Bray &#x00026; Kurtz,&#x000a0;<xref rid="ece36811-bib-0008" ref-type="ref">1945</xref>).</p><p>Rhizosphere and the remainder of each bulk soil sample were passed through a sterilized 2&#x02010;mm sieve and stored at &#x02212;80&#x000b0;C until DNA extraction. To obtain rhizoplane soils (Ohio sites), we collected ~10 coarse roots randomly from the root ball of each plant using sterile forceps. Sampled roots were placed into a sterile 50&#x02010;ml centrifuge tube with 30&#x000a0;ml of phosphate buffered saline (PBS). Tubes were vigorously shaken for 5&#x000a0;min, after which the roots were removed. Tubes were centrifuged at 8,000&#x000a0;<italic>g</italic> for 10&#x000a0;min. Supernatant was decanted, and the pellet was resuspended in 5&#x02013;10&#x000a0;ml of supernatant in a 15&#x02010;ml tube and centrifuged again at 8,000&#x000a0;<italic>g</italic> for 10&#x000a0;min. After decanting supernatant, each tube containing pelletized rhizoplane soil was stored at &#x02212;80&#x000b0;C until DNA extraction.</p><p>DNA was extracted from 50&#x000a0;mg (wet weight) of soils using Qiagen PowerSoil PowerLyzer DNA extraction kits. We used manufacturer protocols, with the exception of improvements to reduce ethanol contamination (e.g., extra spins, more frequent transfers to sterile tubes). DNA was eluted with molecular grade water. All genomic DNA extracts were verified by electrophoresis. Extracts were checked for quality on a NanoDrop UV/Vis spectrophotometer and concentration using a Quant&#x02010;iT PicoGreen dsDNA kit (Invitrogen).</p><p>All polymerase chain reactions (PCR) for each microbial group (i.e., fungi, bacteria, oomycetes) were performed using subsamples of the same template genomic DNA sample. Genomic DNA was diluted to ensure equimolar concentration of template DNA in each PCR reaction. Bacterial amplicons were generated using primers described in Kozich et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0018" ref-type="ref">2013</xref>), which target the V4 region of the 16S rRNA gene. Fungal amplicons were produced using primers described by Taylor et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0037" ref-type="ref">2016</xref>), which target the ITS2 region of the 5.8S rRNA gene. Oomycete amplicons were generated using primers adapted from Riit et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0033" ref-type="ref">2016</xref>) and Taylor et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0037" ref-type="ref">2016</xref>) that also target the ITS2 region of the 5.8S rRNA gene. See Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref> Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S2</xref> for specific primer sequences and PCR conditions. All PCR reactions were performed in triplicate using Phusion High Fidelity DNA Polymerase and master mix (New England BioLabs). Libraries were normalized using SequalPrep Normalization Plate Kit (Life technologies cat # A10510&#x02010;01) following the manufactures protocol for sequential elution. The concentration of the pooled samples was determined using Kapa Biosystems Library Quantification kit for Illumina platforms (Kapa Biosystems KK4824). The sizes of the amplicons in the library were determined using the Agilent Bioanalyzer High Sensitivity DNA analysis kit (cat# 5067&#x02010;4626). The final library consisted of equal molar amounts from each of the plates, normalized to the pooled plate at the lowest concentration. Amplicons were sequenced by the Microbial Systems Molecular Biology Laboratory (MSMBL) at the University of Michigan on the Illumina MiSeq platform, using a MiSeq Reagent Kit V2 500 cycles (Illumina cat# MS102&#x02010;2003), according to the manufacturer's instructions. Sequences were uploaded to the NCBI Sequence Read Archive under SRA accession number PRJNA601975.</p></sec><sec id="ece36811-sec-0007"><label>2.5</label><title>Bioinformatic analysis</title><p>Raw bacterial sequence data were processed using mothur v1.39.5 (Schloss et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0035" ref-type="ref">2009</xref>). Operational taxonomic units (OTUs) were clustered at 97% for bacterial sequences. Bacterial taxonomy was determined by comparing representative sequences to the taxa found in the SILVA database (Quast et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0028" ref-type="ref">2018</xref>). Raw fungal and oomycete sequences were processed using QIIME2 (Bolyen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0006" ref-type="ref">2019</xref>) because QIIME2 can implement de novo sequence clustering of actual sequence variants (ASVs). Fungal sequences were clustered into OTUs at 97% similarity and assigned to taxonomy based on the UNITE database (Nilsson et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0016" ref-type="ref">2013</xref>). Oomycete sequences were clustered at 97% similarity and assigned taxonomy in mothur using a custom oomycete&#x02010;specific database from the Barcode of Life Database (Ratnasingham &#x00026; Hebert,&#x000a0;<xref rid="ece36811-bib-0030" ref-type="ref">2007</xref>). Each microbial group was rarefied according to the sample that yielded the fewest number of sequences to ensure equal coverage across all samples. Bacteria were rarefied to 13,956 sequences, fungi to 11,036 sequences, and oomycetes to 1,000 sequences (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). OTUs observed less than twice across all samples were removed from community analyses. Bacterial taxa were analyzed to identify the proportion belonging to common plant pathogen groups using genera found in Wood (<xref rid="ece36811-bib-0039" ref-type="ref">1967</xref>) and Mansfield et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0021" ref-type="ref">2012</xref>). To evaluate functional potential of fungal OTUs, we used FUNGuild (Nguyen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0025" ref-type="ref">2015</xref>), which parses fungal communities by trophic mode and functional guilds. We analyzed outputs at the trophic mode and guild level to group fungal taxa into putative functional groups. All oomycetes were assumed to be pathogens.</p></sec><sec id="ece36811-sec-0008"><label>2.6</label><title>Statistical analyses</title><p>All statistical analyses were run in the R environment (R Core Team,&#x000a0;<xref rid="ece36811-bib-0029" ref-type="ref">2018</xref>). We separately analyzed the data collected from the Michigan sites and Ohio sites because the sampling design differed between regions. We employed a multi&#x02010;stage approach in both regions to address whether the rhizosphere community of native and non&#x02010;native <italic>Phragmites</italic> harbored compositionally dissimilar bacteria, fungi, and oomycete communities. Permutational multivariate analysis of variance (PERMANOVA using the <italic>adonis</italic> function in the vegan package; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) tested whether plant lineage or site predicted significant microbial community differences among our samples. Homogeneity of Dispersions (PERMDISP using the <italic>betadisper</italic> function in the vegan package; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) further assessed whether microbial community samples differed in their degree of dispersion from their centroid. Finally, we used distance&#x02010;based redundancy analysis (db&#x02010;RDA using the <italic>capscale</italic> function in the vegan package; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) to constrain ordinations of Bray&#x02013;Curtis distances by significant environmental drivers. Environmental drivers included in the model were determined by backward selection (using the <italic>ordistep</italic> function in the vegan package; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>). To assess whether communities differed between rhizosphere and bulk soils at a given sampling location, we performed a partial db&#x02010;RDA of soil fraction effect on composition with sample as a conditioning variable. In addition, we explored microbial alpha diversity and relative sequence abundance at various taxonomic levels using only the rhizosphere data and differences with respect to site and plant lineage were assessed using two&#x02010;way ANOVA (Type III sum of squares using the <italic>ANOVA</italic> function in the car package; Fox &#x00026; Weisberg, <xref rid="ece36811-bib-0013" ref-type="ref">2019</xref>). To further understand if either lineage showed evidence of microbial cultivation at increasing proximity to the root surface, we used paired <italic>t</italic> tests to explore differences in diversity between paired rhizosphere, rhizoplane (in Ohio sites only), and bulk soil samples. To understand the potential environmental drivers of site differences, we assessed the impact of soil nutrients and saturation on microbial diversity, including potential interactions with lineage using Analysis of Co&#x02010;Variance (ANCOVA using the <italic>lm</italic> and <italic>ANOVA</italic> functions).</p><p>In addition to the analyses mentioned above, we performed a few additional tests at the Ohio sites to take advantage of the unique sampling regime of the transects. To compare communities of bacteria between lineages in monoculture zones and in mixture zones, we used a pairwise PERMANOVA using a Bonferroni correction for multiple comparisons (Martinez Arbizu,&#x000a0;<xref rid="ece36811-bib-0022" ref-type="ref">2018</xref>). We again used a partial db&#x02010;RDA to explore community differences between soil fractions and host lineages using sample plot as a conditioning variable to explore evidence of spatial structure in microbial communities.</p><p>For both regions, we calculated relative abundance of trophic modes determined by FUNGuild to assess the putative function of microbes and compare between lineages and used ANOVA to explore differences among sites and lineages and ANCOVA to determine impacts of soil nutrients and saturation on trophic mode relative abundance. All analyses used a threshold of <italic>&#x003b1;</italic>&#x000a0;=&#x000a0;0.05 to assess significance, noting .05&#x000a0;&#x0003c;&#x000a0;<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.1 as marginally significant. All R code, notes, and associated data can be accessed at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P93BBZWU">https://doi.org/10.5066/P93BBZWU</ext-link>.</p></sec></sec><sec sec-type="results" id="ece36811-sec-0009"><label>3</label><title>RESULTS</title><sec id="ece36811-sec-0010"><label>3.1</label><title>Michigan sites</title><p>We found little evidence that native and non&#x02010;native plant lineages cultivated compositionally different microbial communities at the Michigan sites; communities of bacterial, fungi, and oomycetes did not significantly differ between <italic>Phragmites</italic> lineages (Table&#x000a0;<xref rid="ece36811-tbl-0001" ref-type="table">1a</xref>, Figure&#x000a0;<xref rid="ece36811-fig-0001" ref-type="fig">1</xref>). In contrast, sampling site was a significant predictor of variation in rhizosphere community composition for all three microbial groups (Table&#x000a0;<xref rid="ece36811-tbl-0001" ref-type="table">1a</xref>). However, a significant test for homogeneity of multivariate dispersions (PERMDISP) suggested that the site differences in bacterial and oomycete communities were likely due to differences in dispersion around the centroids, rather than in mean composition (Table&#x000a0;<xref rid="ece36811-tbl-0001" ref-type="table">1b</xref>). Soil phosphorus was important in structuring bacterial communities (Table&#x000a0;<xref rid="ece36811-tbl-0001" ref-type="table">1</xref>, Figure&#x000a0;<xref rid="ece36811-fig-0001" ref-type="fig">1</xref>).</p><table-wrap id="ece36811-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Results of (a) PERMANOVA analysis, (b) homogeneity of multivariate Dispersions (PERMDISP), and (c) distance&#x02010;based redundancy analysis (db&#x02010;RDA) for all three microbial groups in the rhizosphere</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">(a)</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Site</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Lineage</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Site&#x000a0;&#x000d7;&#x000a0;Lineage</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>3.605</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.379</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1.084</td><td align="char" char="." rowspan="1" colspan="1">0.023</td><td align="char" char="." rowspan="1" colspan="1">.292</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">1.098</td><td align="char" char="." rowspan="1" colspan="1">0.115</td><td align="char" char="." rowspan="1" colspan="1">.273</td></tr><tr><td align="left" rowspan="1" colspan="1">Fungi</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>2.191</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.284</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1.033</td><td align="char" char="." rowspan="1" colspan="1">0.027</td><td align="char" char="." rowspan="1" colspan="1">.386</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.930</td><td align="char" char="." rowspan="1" colspan="1">0.120</td><td align="char" char="." rowspan="1" colspan="1">.791</td></tr><tr><td align="left" rowspan="1" colspan="1">Oomycetes</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>1.769</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.275</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1.097</td><td align="char" char="." rowspan="1" colspan="1">0.034</td><td align="char" char="." rowspan="1" colspan="1">.243</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">1.040</td><td align="char" char="." rowspan="1" colspan="1">0.162</td><td align="char" char="." rowspan="1" colspan="1">.314</td></tr></tbody></table><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">(b)</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Site</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Lineage</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>3.553</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.014</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">0.497</td><td align="char" char="." rowspan="1" colspan="1">.520</td></tr><tr><td align="left" rowspan="1" colspan="1">Fungi</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.579</td><td align="char" char="." rowspan="1" colspan="1">.715</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">0.095</td><td align="char" char="." rowspan="1" colspan="1">.760</td></tr><tr><td align="left" rowspan="1" colspan="1">Oomycetes</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>2.710</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.046</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">0.678</td><td align="char" char="." rowspan="1" colspan="1">.431</td></tr></tbody></table><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">(c)</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Site</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Soil P</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>3.617</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.671</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>.038</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Fungi</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>2.216</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="left" colspan="3" rowspan="1">(not in best model)</td></tr><tr><td align="left" rowspan="1" colspan="1">Oomycetes</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>1.746</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.001</bold>
+</td><td align="left" colspan="3" rowspan="1">(not in best model)</td></tr></tbody></table><table-wrap-foot id="ece36811-ntgp-0001"><title>Note</title><fn id="ece36811-note-0001"><p>For PERMANOVA and PERMDISP, model included only Site and Lineage; the db&#x02010;RDA model used backwards selection to select the most significant variables for the model. Note that Lineage was not selected in the best model in the db&#x02010;RDA for any microbial group. Bold values indicate significance at &#x003b1;&#x000a0;=&#x000a0;0.05.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="FIGURE" xml:lang="en" id="ece36811-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Distance&#x02010;based redundancy analysis plots of (a) bacterial, (b) fungal, and (c) oomycete communities found in the rhizosphere of the Michigan sites. Crosses indicate centroids of each site. Site was a significant predictor of variation in each microbial group. Vectors of significant environmental predictors also included (see Table&#x000a0;<xref rid="ece36811-tbl-0001" ref-type="table">1</xref> for statistics)</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-11739-g001"/></fig><p>Relative abundance of particular microbial phyla found in the rhizosphere also did not strongly differ by plant lineage, providing further evidence that native and non&#x02010;native plant lineages do not cultivate distinct microbial communities. Many of the most abundant bacterial phyla were differentiated among sites (Figure&#x000a0;<xref rid="ece36811-fig-0002" ref-type="fig">2a</xref>), mainly driven by saturation (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S2</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S3</xref>). Soil saturation was a major factor in these differences among sites as it significantly affected abundance of most bacterial phyla (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S2</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S3</xref>). Proteobacteria (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.218, <italic>p</italic>&#x000a0;=&#x000a0;.002) and Chloroflexi (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.143, <italic>p</italic>&#x000a0;=&#x000a0;.014) increased with degree of saturation whereas Acidobacteria decreased (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.525, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36811-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Relative abundance of dominant phyla of (a) bacterial, (b) fungal, and (c) oomycete families found in the rhizosphere. <italic>p</italic> values from a two&#x02010;way ANOVA with Type III sum of squares. Bonferroni correction applied for multiple comparisons. Significant <italic>p</italic> values in bold</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-11739-g002"/></fig><p>Abundance of fungal phyla also did not differ between native and non&#x02010;native <italic>Phragmites</italic> rhizosphere soil, although some common phyla differed among sites (Figure&#x000a0;<xref rid="ece36811-fig-0002" ref-type="fig">2b</xref>). Soil saturation was a significant determinant of Mortierellomycota abundance (ANCOVA <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001), such that it decreased in saturated soil (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.404, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001; Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S3</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S4</xref>). The majority of oomycete sequences recovered belonged to Pythiaceae. Site and lineage interacted marginally in affecting Pythiaceae abundance (<italic>p</italic>&#x000a0;=&#x000a0;.076) as well as abundance of unclassified oomycetes (<italic>p</italic>&#x000a0;=&#x000a0;.051). Soil saturation and plant host lineage significantly interacted in affecting Pythiaceae (ANCOVA <italic>p</italic>&#x000a0;=&#x000a0;.018) and unclassified oomycete relative abundance (ANCOVA <italic>p</italic>&#x000a0;=&#x000a0;.021) such that the non&#x02010;native lineage hosted slightly less Pythiaceae (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.398, <italic>p</italic>&#x000a0;=&#x000a0;.016) and more unclassified oomycetes (<italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.377, <italic>p</italic>&#x000a0;=&#x000a0;.011) in saturated sites (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S4</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S5</xref>). The phylogenetic resolution of our recovered sequences did not allow us to compare abundance of Pythiaceae genera or species between <italic>Phragmites</italic> lineages.</p><p>We examined the differences in community composition and diversity between rhizosphere and bulk soil samples across the Michigan sites to provide additional context to the lack of community differences seen in rhizosphere communities between the lineages. On average, microbial community composition did not differ between bulk and rhizosphere soils for all three microbial groups (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S5</xref>), and these results hold for both lineages. Results were similar when spatial structure was accounted for by pairing at the patch level: communities of bacteria, fungi, and oomycetes still did not differ in composition between the bulk and rhizosphere soils (Table&#x000a0;<xref rid="ece36811-tbl-0002" ref-type="table">2</xref>). Diversity of bacteria, fungi, and oomycetes also did not differ between rhizosphere and bulk soil samples, when compared between pairs of co&#x02010;collected samples (Table&#x000a0;<xref rid="ece36811-tbl-0003" ref-type="table">3</xref>; Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S6</xref>).</p><table-wrap id="ece36811-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Partial distance&#x02010;based redundancy analysis (db&#x02010;RDA) statistics comparing community composition of paired bulk and rhizosphere soils in the Michigan sites</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">Sum of squares</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>F</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="char" char="." rowspan="1" colspan="1">0.132</td><td align="char" char="." rowspan="1" colspan="1">1.08</td><td align="char" char="." rowspan="1" colspan="1">.358</td></tr><tr><td align="left" rowspan="1" colspan="1">Fungi</td><td align="char" char="." rowspan="1" colspan="1">0.288</td><td align="char" char="." rowspan="1" colspan="1">1.28</td><td align="char" char="." rowspan="1" colspan="1">.109</td></tr><tr><td align="left" rowspan="1" colspan="1">Oomycetes</td><td align="char" char="." rowspan="1" colspan="1">0.313</td><td align="char" char="." rowspan="1" colspan="1">1.03</td><td align="char" char="." rowspan="1" colspan="1">.428</td></tr></tbody></table><table-wrap-foot id="ece36811-ntgp-0002"><title>Note</title><fn id="ece36811-note-0002"><p>Sample pair was defined as a conditioning variable to remove variation associated with sample location.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><table-wrap id="ece36811-tbl-0003" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 3</label><caption><p>Paired <italic>t</italic> test statistics comparing inverse Simpson diversity of paired bulk and rhizosphere soils</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">Paired &#x02010; <italic>t</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="char" char="." rowspan="1" colspan="1">0.414</td><td align="char" char="." rowspan="1" colspan="1">31</td><td align="char" char="." rowspan="1" colspan="1">.682</td></tr><tr><td align="left" rowspan="1" colspan="1">Fungi</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.101</td><td align="char" char="." rowspan="1" colspan="1">31</td><td align="char" char="." rowspan="1" colspan="1">.280</td></tr><tr><td align="left" rowspan="1" colspan="1">Oomycetes</td><td align="char" char="." rowspan="1" colspan="1">0.479</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="char" char="." rowspan="1" colspan="1">.636</td></tr></tbody></table><table-wrap-foot id="ece36811-ntgp-0003"><title>Note</title><fn id="ece36811-note-0003"><p>Separate paired <italic>t</italic> tests within lineage were also nonsignificant.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36811-sec-0011"><label>3.2</label><title>Ohio sites</title><p>The intensive sampling arrangement at the Ohio sites allowed us to explore bacterial cultivation at a finer scale than we were able at the Michigan sites and illuminated some subtle, but important bacterial community differences between lineages. First, we compared the rhizosphere bacterial communities between lineages in both the monoculture and mixed zones. This analysis illustrated that lineage effects on rhizosphere bacterial communities depend on the relative density of natives and nonnatives (lineage by stand type interaction; PERMANOVA <italic><underline underline-style="single">r</underline></italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.023, <italic>p</italic>&#x000a0;=&#x000a0;.070). Specifically, rhizosphere communities differed between monocultures of the two lineages (Figure&#x000a0;<xref rid="ece36811-fig-0003" ref-type="fig">3</xref>; Pairwise PERMANOVA <italic>r</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.159, <italic>p</italic>&#x000a0;=&#x000a0;.048, Pairwise PERMDISP <italic>p</italic>&#x000a0;=&#x000a0;.826) while the lineages did not differ in mixtures (Figure&#x000a0;<xref rid="ece36811-fig-0003" ref-type="fig">3</xref>, Pairwise PERMANOVA, <italic>p</italic>&#x000a0;=&#x000a0;1.000, Pairwise PERMDISP <italic>p</italic>&#x000a0;=&#x000a0;.852, Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S6</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36811-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>Principle coordinate analysis of Bray&#x02013;Curtis distances between rhizosphere bacterial communities in the Ohio sites. Large points indicate centroids of each group with error bars denoting 95% confidence intervals</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-10-11739-g003"/></fig><p>We also explored the rhizoplane soils for evidence of differential cultivation between lineages. Lineage was a marginally significant predictor of variation across all plots (PERMANOVA <italic>p&#x000a0;=&#x000a0;</italic>.075); however, it only accounted for ~2% of the variation in community composition and the differences may be caused by differential dispersion between the groups (PERMDISP <italic>p&#x000a0;=&#x000a0;</italic>.023). Rhizoplane communities of different lineages, therefore, show little separation graphically (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S7</xref>). Thus, across mixed and monoculture zones, we found no evidence of differentiation in microbial communities between lineages, even at a tight proximity to root. Interestingly, differences in rhizoplane soils by lineage did not seem to depend on stand dominance or density as pairwise comparisons showed no differences in community between lineages in monoculture stands (<italic>p</italic>&#x000a0;=&#x000a0;1.000, Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S7</xref>), and however, this result may have been influenced by the small sample sizes of rhizoplane soils in monocultures (<italic>n</italic>&#x000a0;=&#x000a0;8 in non&#x02010;native, <italic>n</italic>&#x000a0;=&#x000a0;3 in native, Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Table <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>).</p><p>Next, to determine the extent to which <italic>Phragmites</italic> lineages were cultivating microbes near the root surface, we took advantage of the paired soil sampling design and compared the bacterial composition and diversity in the rhizoplane to both rhizosphere and bulk soil. There was evidence of some spatial structure in soil fractions as communities of bacteria differed significantly between bulk, rhizosphere, and rhizoplane soils paired at the plot level (partial db&#x02010;RDA, sum of squares&#x000a0;=&#x000a0;1.7973, <italic>F</italic>&#x000a0;=&#x000a0;8.8593, <italic>p</italic>&#x000a0;=&#x000a0;.001, Figure&#x000a0;<xref rid="ece36811-fig-0004" ref-type="fig">4</xref>). In addition, rhizosphere soils were more diverse then the adjacent paired bulk soil and more diverse than paired rhizoplane. Rhizoplane was not different in diversity from bulk soil (Appendix <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S8</xref>). This suggests that more microbial species are present in the more &#x0201c;biologically active&#x0201d; zone of the rhizosphere compared to bulk soil, but only a subset of those are present in the still more narrowly defined zone of the rhizoplane.</p><fig fig-type="FIGURE" xml:lang="en" id="ece36811-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Comparison of bulk, rhizosphere, and rhizoplane soil bacterial communities paired at each plot along the Ohio transects. When sample location is set as a conditioning variable in a constrained ordination (db&#x02010;RDA), communities clearly separate depending on their proximity to the root surface. Soil fraction is a significant predictor of variation at the plot level (<italic>F</italic>&#x000a0;=&#x000a0;8.8593, <italic>p</italic>&#x000a0;=&#x000a0;.001) but lineage is not (<italic>F</italic>&#x000a0;=&#x000a0;1.0239, <italic>p</italic>&#x000a0;=&#x000a0;.338)</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-10-11739-g004"/></fig></sec><sec id="ece36811-sec-0012"><label>3.3</label><title>Functional determination</title><p>Putative functional determinations of the microbial taxa in the rhizosphere revealed little to explain mechanisms of invasion. Only 0.5% of the bacterial sequences recovered belonged to known bacterial plant pathogens in the Michigan sites, and of that small portion, potential bacterial pathogens were not differentially abundant between native and non&#x02010;native lineages (ANOVA <italic>F</italic>&#x000a0;=&#x000a0;1.575, <italic>p&#x000a0;=&#x000a0;</italic>.215). Potential pathogens made up 1% of the bacterial sequences in the Ohio sites and also did not differ in abundance between lineages (ANOVA <italic>F</italic>&#x000a0;=&#x000a0;0.119, <italic>p&#x000a0;=&#x000a0;</italic>.731). Fungal functional determinations produced a similar result. First, 32.5% of all fungal sequences could not be classified at even the phylum level, leaving their functional potential also unknown. Of the classified sequences that matched the FUNGuild database, the majority were likely soil or litter saprotrophs. While small portion (~3%) were known plant pathogens, the proportion recovered from native rhizospheres was not different from non&#x02010;native (Figure&#x000a0;<xref rid="ece36811-fig-0005" ref-type="fig">5</xref>). Likewise, none of the other functional groups, including the group that makes up the most common fungal mutualists, arbuscular mycorrhizal fungi, differed in relative abundance among sites or between plant lineages. We assume that all oomycete groups are pathogenic and although the relative abundance of one dominant family of pathogens, Pythiaceae, was marginally greater in the native lineage, the relative abundance of unclassified oomycetes (likely matching uncultured oomycetes) differed in the opposite direction (Figure&#x000a0;<xref rid="ece36811-fig-0002" ref-type="fig">2c</xref>). Given the lack of consistency in lineage differences between oomycete families, we do not have compelling evidence that native <italic>Phragmites</italic> receives higher oomycete pathogen pressure than non&#x02010;native.</p><fig fig-type="FIGURE" xml:lang="en" id="ece36811-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>Relative abundance of dominant fungal functional groups found in the rhizosphere. Results of a two&#x02010;way ANOVA with Type III sum of squares verified that no comparisons between sites, lineages, or their interactions were significant at <italic>&#x003b1;</italic>&#x000a0;=&#x000a0;0.05</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-10-11739-g005"/></fig></sec></sec><sec sec-type="discussion" id="ece36811-sec-0013"><label>4</label><title>DISCUSSION</title><p>We found negligible evidence that native and non&#x02010;native <italic>Phragmites</italic> cultivated microbial communities that drive the differences in invasiveness that exist between them. Communities cultivated by each plant lineage were not different for any microbial group we examined at the Michigan sites, and we could find no meaningful differences in functional potential across all Michigan sites. The strongest evidence for differential cultivation comes from the Ohio sites in which native and non&#x02010;native monocultures, but not mixtures, significantly differed in their rhizosphere bacterial communities. The monoculture zones of the Ohio sites in which much of the difference occurred were more dominant, denser, and likely older than the sampling locations in Michigan. We argue below that the observation of differences only in the more dominant, denser patches suggests that rhizosphere microbial community differences are likely a consequence of invasion rather than a cause.</p><p>Our results contrast with two previous studies. Nelson and Karp (<xref rid="ece36811-bib-0024" ref-type="ref">2013</xref>) explored rhizosphere pathogens and found that oomycete communities differed between native and non&#x02010;native <italic>Phragmites</italic> populations in New York, USA. Although our study did find marginal site&#x000a0;&#x000d7;&#x000a0;lineage interactions in relative abundance of Pythiaceae and unclassified Oomycetes, we did not find overall differences in community composition. It is possible this disparity arises due to sequencing depth in these respective studies. Nelson and Karp (<xref rid="ece36811-bib-0024" ref-type="ref">2013</xref>) used a different sequencing platform that allowed much longer reads than our study (~475&#x000a0;bp vs. ~275&#x000a0;bp). The shorter reads and lower phylogenetic resolution in our study may have contributed to the smaller breadth of oomycete families we observed, thereby affecting community composition. However, in a study of endophytic root communities in the same Michigan sites as studied here, Bickford et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>) found no difference in oomycete communities between <italic>Phragmites</italic> lineages using the same phylogenetic resolution as the rhizosphere data from Nelson and Karp (<xref rid="ece36811-bib-0024" ref-type="ref">2013</xref>). Therefore, our results may accurately reflect the oomycete communities, but the lack of differences observed between <italic>Phragmites</italic> lineages in these two Great Lakes studies could plausibly be a reflection of the small, low density Michigan patches sampled.</p><p>Our results also contrast with those found in rhizosphere bacterial communities by Bowen et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0007" ref-type="ref">2017</xref>). These investigators reported that <italic>Phragmites</italic> lineages cultivated consistent and distinct bacterial communities in the rhizosphere, regardless of geography, environmental characteristics, or temporal variation. The lack of consistency between our studies is surprising, and there are no clear ecological explanations that resolve the differences. For instance, while their dataset includes samples collected from <italic>Phragmites</italic> populations along the east, west, and Gulf coasts of the United States, their sites span a broad range of tidal influence and salinity regimes. Therefore, differences in salinity, hydrology, or both between our studies are not likely responsible for the different patterns observed. Instead, we argue that stand density and degree of dominance may explain the contrast in results.</p><p>Bowen et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0007" ref-type="ref">2017</xref>) focused primarily on well&#x02010;established, large, dense <italic>Phragmites</italic> stands in which density differences between lineages may have been prominent. In contrast, our Michigan sites were comprised of smaller stands of each <italic>Phragmites</italic> lineage, due to the lack of sites with large, dense patches of both lineages. One potential consequence of differences in density is soil oxygen concentration. Non&#x02010;native <italic>Phragmites</italic> has a much higher ventilation efficiency than native <italic>Phragmites</italic>, thereby leading to a more oxygenated rhizosphere; this effect is thought to arise from a higher density of <italic>Phragmites</italic> stems in non&#x02010;native stands (Tulbure et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0038" ref-type="ref">2012</xref>). In anoxic wetland soils, an increase in the soil oxygen concentration could plausibly change the composition of bacterial communities, such that more aerobic microbes are present. We speculate that the lack of differences observed in our sites could arise from the small, less dense patches sampled and correspondingly small differences in ventilation between native and non&#x02010;native lineages at our sites. The fact that the only place where we found differences between lineages was in the dense monoculture zones of the Ohio sites is consistent with this potential mechanism and indicates that dominance may factor into the degree of bacterial community differentiation between lineages, wherein high density, dominant patches may be more likely to host different bacterial communities. Future work should explicitly explore the effects of stand size, density, and soil oxygen concentrations on differential rhizosphere cultivation.</p><p>Data from our Michigan sites suggest the patterns in the rhizosphere microbiome largely mirror those of the root microbiome, where we also found no differences between <italic>Phragmites</italic> lineages across three major microbial groups (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>). In exploration of the root microbiome, Bickford et&#x000a0;al.&#x000a0;(<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>) speculated that roots may select similar microbial inhabitants across lineages, despite the differences that may occur in the rhizosphere. However, the data presented here suggest, at least in low density patches, the rhizosphere microbial communities are driven by the environment, as they seem to be in the roots. Another recently published study of root endophyte communities focused on well&#x02010;established, high&#x02010;density native and non&#x02010;native <italic>Phragmites</italic> stands and found significant community differences between lineages (Gonzalez Mateu et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0014" ref-type="ref">2020</xref>). Therefore, root community differences may also be related to stand density and dominance.</p><p>The cumulative evidence from our studies of roots, rhizosphere, and bulk soil suggest that at low densities, <italic>Phragmites</italic> lineages do not affect microbial communities differently, but as high&#x02010;density monocultures establish, dissimilarity in bacterial communities emerges. The functional implication of this dissimilarity is unresolved in regard to invasive capacity. In low density patches, environmental characteristics such as water saturation and soil nutrient content, but not lineage were strong determinants of community composition both in the roots (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>) and in the rhizosphere (this study). We speculate that the differences at high density are a consequence of a successful invasion, rather than driving differential success at the initial stages of invasion. We cannot separate the effects of stand age from stand density and dominance as <italic>Phragmites</italic> patches become denser and more dominant with time. Therefore, it is possible that as stands mature, becoming denser and more monotypic, dissimilarities in the belowground microenvironments of dense patches of different lineages may drive differences in belowground microbial communities. Subtle microbial community differences could potentially enhance invasiveness if they increased the interaction with mutualistic microbes or conditioned soils to the detriment of other native plants. However, direct comparisons of changes in microbial community function with stand age were outside of the scope of this study.</p><p>Our evidence also suggests that in small, less dense stands, neither <italic>Phragmites</italic> lineage cultivates a community that is substantially different from the surrounding bulk soil. We could not distinguish the communities of any microbial group between bulk and rhizosphere soils at the Michigan sites. Conversely, when we looked for evidence of cultivation at a fine spatial scale at the Ohio sites, we found clear separation in communities between all three soil fractions (Figure&#x000a0;<xref rid="ece36811-fig-0004" ref-type="fig">4</xref>). Rhizoplane soils at the Ohio sites were also less diverse in bacteria than rhizosphere soils, indicating that only a small subset colonize that zone. The biologically active rhizosphere extends to about 4&#x000a0;mm from the root surface, with enzyme activity and oxygen concentration decreasing with increasing distance from the root (Kuzyakov &#x00026; Razavi,&#x000a0;<xref rid="ece36811-bib-0019" ref-type="ref">2019</xref>), likely creating gradients that drive microbial colonization at different spatial scales. Our inability to detect cultivation in the rhizosphere of the Michigan sites could result from the sampling method not being sensitive enough to pick up differences between soil fractions (i.e., not including rhizoplane samples). Although rhizosphere sampling is common, the methods employed often vary slightly, and small variations can cause difference in the microbes recovered (Barillot et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0003" ref-type="ref">2013</xref>). Nonetheless, our inability to detect differences in the Michigan sites using standard methods is more likely a reflection of the strength of cultivation in the less dense stands.</p><p>We gleaned little evidence from putative functional descriptors of our microbial communities that suggests invasiveness of <italic>Phragmites</italic> is explained by differential cultivation of microbes in rhizosphere soils. In addition to the similarity in composition between native and non&#x02010;native lineages, both lineages harbored functionally similar microbial communities, consisting mostly of saprotrophic fungi, few known fungal or bacterial pathogens, and a small subset of mutualists (mainly AMF). AMF abundance in the rhizosphere also did not differ among sites. Non&#x02010;native <italic>Phragmites</italic> roots have been found to be more heavily colonized by fungi than native <italic>Phragmites</italic> with the differences being greatest in drier sites (Bickford et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0005" ref-type="ref">2018</xref>). Therefore, while sites do not differ in AMF abundance in soils, recruitment into roots may differ between lineages. Still, given the low abundance of AMF in both studies, especially in wet sites in which the non&#x02010;native lineage is often highly successful, it is not likely a major driver of invasiveness in <italic>Phragmites</italic>. Lacking evidence to support the role of root&#x02010;associated microorganisms in fostering invasive properties in the non&#x02010;native <italic>Phragmites</italic> compared to the native, we suspect differences in plant performance arise due to other aspects of plant growth.</p><p>Although we saw no consistent evidence that <italic>Phragmites</italic> lineages cultivate different soil microbiomes, except for at high densities, it is possible that the response to soil microbes differs between lineages to a similar community of microbes. To investigate whether each lineage has a unique response to soil microbes, we would need to take an experimental approach and keep soil communities constant to see how the growth of each lineage is affected by soil microbes. In fact, experimental results indicate that native and non&#x02010;native lineages are capable of differential response to similar microbial communities (Bickford,&#x000a0;<xref rid="ece36811-bib-0004" ref-type="ref">2020</xref>). It is also important to note that although both lineages seem to be cultivating compositionally similar communities, those microbes may negatively impact other native plants (Allen et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0001" ref-type="ref">2018</xref>; Crocker et&#x000a0;al.,&#x000a0;<xref rid="ece36811-bib-0012" ref-type="ref">2017</xref>), facilitating expansion after establishment.</p><p>Cumulatively, the results we report here and elsewhere provide little evidence to support the idea that non&#x02010;native <italic>Phragmites</italic> out&#x02010;performs native <italic>Phragmites</italic> by altering the composition and function of root&#x02010;associated microbial communities in soil. Alteration of the soil microbiome may occur in dense high&#x02010;density patches of native and non&#x02010;native <italic>Phragmites</italic>. However, those differences do not likely drive initial invasiveness and may in fact be consequences of alteration of the soil physical environment as non&#x02010;native <italic>Phragmites</italic> increases dominance and increases surrounding soil oxygen concentration relative to native <italic>Phragmites</italic>, so could potentially be important in later stages of maintaining invasion or expansion. Future research should experimentally examine the role that stand density and dominance play in differential microbial community cultivation, assess the belowground selective forces driving rhizosphere community composition, and evaluate their effects on range expansion and invasiveness.</p></sec><sec sec-type="COI-statement" id="ece36811-sec-0015"><title>CONFLICT OF INTEREST</title><p>Authors have no conflict of interest to declare.</p></sec><sec id="ece36811-sec-0016"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Wesley A. Bickford:</bold> Conceptualization (lead); data curation (lead); formal analysis (lead); funding acquisition (supporting); investigation (lead); methodology (lead); project administration (equal); software (lead); validation (lead); visualization (lead); writing &#x02013; original draft (lead); writing &#x02013; review &#x00026; editing (lead). <bold>Donald R. Zak:</bold> Conceptualization (equal); methodology (supporting); project administration (equal); supervision (equal); writing &#x02013; original draft (supporting); writing &#x02013; review &#x00026; editing (supporting). <bold>Kurt P. Kowalski:</bold> Conceptualization (supporting); funding acquisition (lead); project administration (equal); supervision (equal); writing &#x02013; original draft (supporting); writing &#x02013; review &#x00026; editing (supporting). <bold>Deborah E. Goldberg:</bold> Conceptualization (equal); project administration (equal); supervision (equal); writing &#x02013; original draft (supporting); writing &#x02013; review &#x00026; editing (supporting).</p></sec><sec id="ece36811-sec-0017"><sec disp-level="2" id="ece36811-sec-0018"><title>Open Research Badges</title><p>This article has earned an Open Data Badge for making publicly available the digitally&#x02010;shareable data necessary to reproduce the reported results. The data is available at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P9HP8UXZ">https://doi.org/10.5066/P9HP8UXZ</ext-link> and <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P93BBZWU">https://doi.org/10.5066/P93BBZWU</ext-link>.</p></sec></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece36811-sup-0001"><caption><p>Appendix S1</p></caption><media xlink:href="ECE3-10-11739-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece36811-sec-0014"><title>ACKNOWLEDGMENTS</title><p>Financial support was provided by the U.S. Geological Survey, the Great Lakes Restoration Initiative, and the University of Michigan's 2016&#x02010;2107 EEB Block Grant Awards. We thank the landowners and organizations who allowed collections on their properties: Michigan State Parks, US Fish and Wildlife Service, Three Shores CISMA, and D.E. Wee. We thank Rima Upchurch, Madeleine Dwortz, Danielle Snow, Madison Nightengale, Anna Neville, Mike Eggleston, Dan Engel, McKenzie Smith, Aaron DeVries, Sydney Salley, and JJ Vance for field and laboratory assistance. Thanks to Tim James for helping with primer design and providing helpful feedback and reviews. We are thankful to Emily Farrer for providing a review of this manuscript. This research was supported by work performed by The University of Michigan Microbial Systems Molecular Biology Laboratory. Any use of trade, firm, or product names is for descriptive proposes only and does not imply endorsement by the U.S. Government.</p></ack><sec sec-type="data-availability" id="ece36811-sec-0019"><title>DATA AVAILABILITY STATEMENT</title><p>DNA sequences: NCBI SRA Accession number PRJNA601975. Field and laboratory data: Peer&#x02010;reviewed data release on USGS ScienceBase (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P9HP8UXZ" specific-use="dataset is-supplemented-by">https://doi.org/10.5066/P9HP8UXZ</ext-link>). All code for bioinformatics and statistical analysis made public via peer&#x02010;reviewed USGS software release and deposited on code.usgs.gov (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P93BBZWU" specific-use="dataset is-supplemented-by">https://doi.org/10.5066/P93BBZWU</ext-link>).</p></sec><ref-list content-type="cited-references" id="ece36811-bibl-0001"><title>REFERENCES</title><ref id="ece36811-bib-0001"><mixed-citation publication-type="journal" id="ece36811-cit-0001">
+<string-name>
+<surname>Allen</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Meyerson</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name>
+<surname>Flick</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cronin</surname>, <given-names>J. T.</given-names>
+</string-name> (<year>2018</year>). <article-title>Intraspecific variation in indirect plant&#x02013;soil feedbacks influences a wetland plant invasion</article-title>. <source xml:lang="en">Ecology</source>, <volume>99</volume>(<issue>6</issue>), <fpage>1430</fpage>&#x02013;<lpage>1440</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.2344</pub-id>
+<pub-id pub-id-type="pmid">29771449</pub-id></mixed-citation></ref><ref id="ece36811-bib-0002"><mixed-citation publication-type="journal" id="ece36811-cit-0002">
+<string-name>
+<surname>Bacci</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Cerri</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lastrucci</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Ferranti</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Ferri</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Foggi</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gigante</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Venanzoni</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Viciani</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Mengoni</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Reale</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Coppi</surname>, <given-names>A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Applying predictive models to decipher rhizobacterial modifications in common reed die&#x02010;back affected populations</article-title>. <source xml:lang="en">Science of the Total Environment</source>, <volume>642</volume>, <fpage>708</fpage>&#x02013;<lpage>722</lpage>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.06.066</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0003"><mixed-citation publication-type="journal" id="ece36811-cit-0003">
+<string-name>
+<surname>Barillot</surname>, <given-names>C. D. C.</given-names>
+</string-name>, <string-name>
+<surname>Sarde</surname>, <given-names>C. O.</given-names>
+</string-name>, <string-name>
+<surname>Bert</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Tarnaud</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cochet</surname>, <given-names>N.</given-names>
+</string-name> (<year>2013</year>). <article-title>A standardized method for the sampling of rhizosphere and rhizoplan soil bacteria associated to a herbaceous root system</article-title>. <source xml:lang="en">Annals of Microbiology</source>, <volume>63</volume>(<issue>2</issue>), <fpage>471</fpage>&#x02013;<lpage>476</lpage>. <pub-id pub-id-type="doi">10.1007/s13213-012-0491-y</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0004"><mixed-citation publication-type="book" id="ece36811-cit-0004">
+<string-name>
+<surname>Bickford</surname>, <given-names>W. A.</given-names>
+</string-name> (<year>2020</year>). <source xml:lang="en">Plant invasions and microbes: The interactive effects of plant&#x02010;associated microbes on invasiveness of <italic toggle="yes">Phragmites australis</italic></source>. <publisher-name>University of Michigan</publisher-name> Retrieved from <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/2027.42/155108">http://hdl.handle.net/2027.42/155108</ext-link>
+</mixed-citation></ref><ref id="ece36811-bib-0005"><mixed-citation publication-type="journal" id="ece36811-cit-0005">
+<string-name>
+<surname>Bickford</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name>
+<surname>Goldberg</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name>
+<surname>Kowalski</surname>, <given-names>K. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zak</surname>, <given-names>D. R.</given-names>
+</string-name> (<year>2018</year>). <article-title>Root endophytes and invasiveness: No difference between native and non&#x02010;native Phragmites in the Great Lakes Region</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>9</volume>(<issue>12</issue>), <elocation-id>e02526</elocation-id>
+<pub-id pub-id-type="doi">10.1002/ecs2.2526</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0006"><mixed-citation publication-type="journal" id="ece36811-cit-0006">
+<string-name>
+<surname>Bolyen</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Rideout</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Dillon</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Bokulich</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name>
+<surname>Abnet</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Al&#x02010;Ghalith</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name>
+<surname>Alexander</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Alm</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name>
+<surname>Arumugam</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Asnicar</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Bai</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Bisanz</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Bittinger</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Brejnrod</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Brislawn</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>C. T.</given-names>
+</string-name>, <string-name>
+<surname>Callahan</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Caraballo&#x02010;Rodr&#x000ed;guez</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Chase</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Caporaso</surname>, <given-names>J. G.</given-names>
+</string-name> (<year>2019</year>). <article-title>Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2</article-title>. <source xml:lang="en">Nature Biotechnology</source>, <volume>37</volume>(<issue>8</issue>), <fpage>852</fpage>&#x02013;<lpage>857</lpage>. <pub-id pub-id-type="doi">10.1038/s41587-019-0209-9</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0007"><mixed-citation publication-type="journal" id="ece36811-cit-0007">
+<string-name>
+<surname>Bowen</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Kearns</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Byrnes</surname>, <given-names>J. E. K.</given-names>
+</string-name>, <string-name>
+<surname>Wigginton</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Greenwood</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Tran</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Cronin</surname>, <given-names>J. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Meyerson</surname>, <given-names>L. A.</given-names>
+</string-name> (<year>2017</year>). <article-title>Lineage overwhelms environmental conditions in determining rhizosphere bacterial community structure in a cosmopolitan invasive plant</article-title>. <source xml:lang="en">Nature Communications</source>, <volume>8</volume>(<issue>1</issue>), <fpage>433</fpage>
+<pub-id pub-id-type="doi">10.1038/s41467-017-00626-0</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0008"><mixed-citation publication-type="journal" id="ece36811-cit-0008">
+<string-name>
+<surname>Bray</surname>, <given-names>R. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kurtz</surname>, <given-names>L. T.</given-names>
+</string-name> (<year>1945</year>). <article-title>Determination of total, organic and available forms of phosphate in soils</article-title>. <source xml:lang="en">Soil Science</source>, <volume>59</volume>, <fpage>39</fpage>&#x02013;<lpage>45</lpage>.</mixed-citation></ref><ref id="ece36811-bib-0009"><mixed-citation publication-type="journal" id="ece36811-cit-0009">
+<string-name>
+<surname>Cerri</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sapkota</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Coppi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Ferri</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Foggi</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gigante</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Lastrucci</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Selvaggi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Venanzoni</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Nicolaisen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ferranti</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reale</surname>, <given-names>L.</given-names>
+</string-name> (<year>2017</year>). <article-title>Oomycete communities associated with reed die&#x02010;back syndrome</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>8</volume>(<issue>1550</issue>), <fpage>1</fpage>&#x02013;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.3389/fpls.2017.01550</pub-id>
+<pub-id pub-id-type="pmid">28220127</pub-id></mixed-citation></ref><ref id="ece36811-bib-0010"><mixed-citation publication-type="journal" id="ece36811-cit-0010">
+<string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Shearin</surname>, <given-names>Z. R.</given-names>
+</string-name>, <string-name>
+<surname>Bourke</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name>
+<surname>Bickford</surname>, <given-names>W. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kowalski</surname>, <given-names>K. P.</given-names>
+</string-name> (<year>2016</year>). <article-title>Diversity of fungal endophytes in non&#x02010;native <italic>Phragmites australis</italic> in the Great Lakes</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>18</volume>(<issue>9</issue>), <fpage>2703</fpage>&#x02013;<lpage>2716</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-016-1137-y</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0011"><mixed-citation publication-type="journal" id="ece36811-cit-0011">
+<string-name>
+<surname>Crocker</surname>, <given-names>E. V.</given-names>
+</string-name>, <string-name>
+<surname>Karp</surname>, <given-names>M. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nelson</surname>, <given-names>E. B.</given-names>
+</string-name> (<year>2015</year>). <article-title>Virulence of oomycete pathogens from <italic>Phragmites australis</italic> &#x02010;invaded and noninvaded soils to seedlings of wetland plant species</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>5</volume>(<issue>11</issue>), <fpage>2127</fpage>&#x02013;<lpage>2139</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.1468</pub-id>
+<pub-id pub-id-type="pmid">26078850</pub-id></mixed-citation></ref><ref id="ece36811-bib-0012"><mixed-citation publication-type="journal" id="ece36811-cit-0012">
+<string-name>
+<surname>Crocker</surname>, <given-names>E. V.</given-names>
+</string-name>, <string-name>
+<surname>Nelson</surname>, <given-names>E. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2017</year>). <article-title>Soil conditioning effects of <italic>Phragmites australis</italic> on native wetland plant seedling survival</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>7</volume>(<issue>15</issue>), <fpage>5571</fpage>&#x02013;<lpage>5579</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.3024</pub-id>
+<pub-id pub-id-type="pmid">28808539</pub-id></mixed-citation></ref><ref id="ece36811-bib-0013"><mixed-citation publication-type="book" id="ece36811-cit-0013">
+<string-name>
+<surname>Fox</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Weisberg</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <source xml:lang="en">An R Companion to Applied Regression</source>, <edition>3rd ed.</edition>
+<publisher-loc>Thousand Oaks CA</publisher-loc>: <publisher-name>Sage</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://socialsciences.mcmaster.ca/jfox/Books/Companion/">https://socialsciences.mcmaster.ca/jfox/Books/Companion/</ext-link>
+</mixed-citation></ref><ref id="ece36811-bib-0014"><mixed-citation publication-type="journal" id="ece36811-cit-0014">
+<string-name>
+<surname>Gonzalez Mateu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Baldwin</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name>
+<surname>Maul</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yarwood</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Dark septate endophyte improves salt tolerance of native and invasive lineages of <italic>Phragmites australis</italic>
+</article-title>. <source xml:lang="en">ISME Journal</source>, <volume>14</volume>(<issue>8</issue>), <fpage>1943</fpage>&#x02013;<lpage>1954</lpage>. <pub-id pub-id-type="doi">10.1038/s41396-020-0654-y</pub-id>
+<pub-id pub-id-type="pmid">32341473</pub-id></mixed-citation></ref><ref id="ece36811-bib-0015"><mixed-citation publication-type="journal" id="ece36811-cit-0015">
+<string-name>
+<surname>Keane</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Crawley</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Exotic plant invasions and the enemy release hypothesis</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>17</volume>(<issue>4</issue>), <fpage>164</fpage>&#x02013;<lpage>170</lpage>. <pub-id pub-id-type="doi">10.1016/S0169-5347(02)02499-0</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0016"><mixed-citation publication-type="journal" id="ece36811-cit-0016">
+<string-name>
+<surname>K&#x000f5;ljalg</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Nilsson</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name>
+<surname>Abarenkov</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Tedersoo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>, <given-names>A. F. S.</given-names>
+</string-name>, <string-name>
+<surname>Bahram</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name>
+<surname>Bruns</surname>, <given-names>T. D.</given-names>
+</string-name>, <string-name>
+<surname>Bengtsson&#x02010;Palme</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Callaghan</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name>
+<surname>Douglas</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Drenkhan</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Eberhardt</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Due&#x000f1;as</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Grebenc</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Griffith</surname>, <given-names>G. W.</given-names>
+</string-name>, <string-name>
+<surname>Hartmann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kirk</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Kohout</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Larsson</surname>, <given-names>K.&#x02010;H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Towards a unified paradigm for sequence&#x02010;based identification of fungi</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>22</volume>, <fpage>5271</fpage>&#x02013;<lpage>5277</lpage>. <pub-id pub-id-type="doi">10.1111/mec.12481</pub-id>
+<pub-id pub-id-type="pmid">24112409</pub-id></mixed-citation></ref><ref id="ece36811-bib-0017"><mixed-citation publication-type="journal" id="ece36811-cit-0017">
+<string-name>
+<surname>Kowalski</surname>, <given-names>K. P.</given-names>
+</string-name>, <string-name>
+<surname>Bacon</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Bickford</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Braun</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Leduc&#x02010;Lapierre</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lillard</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>McCormick</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name>
+<surname>Nelson</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Torres</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wilcox</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Advancing the science of microbial symbiosis to support invasive species management: A case study on Phragmites in the Great Lakes</article-title>. <source xml:lang="en">Frontiers in Microbiology</source>, <volume>6</volume>(<issue>February</issue>), <fpage>1</fpage>&#x02013;<lpage>14</lpage>. <pub-id pub-id-type="doi">10.3389/fmicb.2015.00095</pub-id>
+<pub-id pub-id-type="pmid">25653648</pub-id></mixed-citation></ref><ref id="ece36811-bib-0018"><mixed-citation publication-type="journal" id="ece36811-cit-0018">
+<string-name>
+<surname>Kozich</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Westcott</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Baxter</surname>, <given-names>N. T.</given-names>
+</string-name>, <string-name>
+<surname>Highlander</surname>, <given-names>S. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schloss</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2013</year>). <article-title>Development of a dual&#x02010;index sequencing strategy and curation pipeline for analyzing amplicon sequence data on the MiSeq</article-title>. <source xml:lang="en">Applied and Environmental Microbiology</source>, <volume>79</volume>(<issue>17</issue>), <fpage>5112</fpage>&#x02013;<lpage>5120</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.01043-13</pub-id>
+<pub-id pub-id-type="pmid">23793624</pub-id></mixed-citation></ref><ref id="ece36811-bib-0019"><mixed-citation publication-type="journal" id="ece36811-cit-0019">
+<string-name>
+<surname>Kuzyakov</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Razavi</surname>, <given-names>B. S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Rhizosphere size and shape: Temporal dynamics and spatial stationarity</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>, <volume>135</volume>, <fpage>343</fpage>&#x02013;<lpage>360</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2019.05.011</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0020"><mixed-citation publication-type="journal" id="ece36811-cit-0020">
+<string-name>
+<surname>Mangla</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Exotic invasive plant accumulates native soil pathogens which inhibit native plants</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>96</volume>(<issue>1</issue>), <fpage>58</fpage>&#x02013;<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2007.01312.x</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0021"><mixed-citation publication-type="journal" id="ece36811-cit-0021">
+<string-name>
+<surname>Mansfield</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Genin</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Magori</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Citovsky</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Sriariyanum</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ronald</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Dow</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Verdier</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Beer</surname>, <given-names>S. V.</given-names>
+</string-name>, <string-name>
+<surname>Machado</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Toth</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Salmond</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Foster</surname>, <given-names>G. D.</given-names>
+</string-name> (<year>2012</year>). <article-title>Top 10 plant pathogenic bacteria in molecular plant pathology</article-title>. <source xml:lang="en">Molecular Plant Pathology</source>, <volume>13</volume>(<issue>6</issue>), <fpage>614</fpage>&#x02013;<lpage>629</lpage>. <pub-id pub-id-type="doi">10.1111/J.1364-3703.2012.00804.X</pub-id>
+<pub-id pub-id-type="pmid">22672649</pub-id></mixed-citation></ref><ref id="ece36811-bib-0022"><mixed-citation publication-type="miscellaneous" id="ece36811-cit-0022">
+<string-name>
+<surname>Martinez Arbizu</surname>, <given-names>P.</given-names>
+</string-name> (<year>2018</year>). <article-title>pairwiseAdonis: Pairwise multilevel comparison using adonis</article-title>.</mixed-citation></ref><ref id="ece36811-bib-0023"><mixed-citation publication-type="journal" id="ece36811-cit-0023">
+<string-name>
+<surname>Meyerson</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name>
+<surname>Cronin</surname>, <given-names>J. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2016</year>). <article-title>
+<italic>Phragmites australis</italic> as a model organism for studying plant invasions</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>18</volume>(<issue>April</issue>), <fpage>2421</fpage>&#x02013;<lpage>2431</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-016-1132-3</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0024"><mixed-citation publication-type="journal" id="ece36811-cit-0024">
+<string-name>
+<surname>Nelson</surname>, <given-names>E. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Karp</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Soil pathogen communities associated with native and non&#x02010;native <italic>Phragmites australis</italic> populations in freshwater wetlands</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>3</volume>, <fpage>5254</fpage>&#x02013;<lpage>5267</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.900</pub-id>
+<pub-id pub-id-type="pmid">24455153</pub-id></mixed-citation></ref><ref id="ece36811-bib-0025"><mixed-citation publication-type="journal" id="ece36811-cit-0025">
+<string-name>
+<surname>Nguyen</surname>, <given-names>N. H.</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name>
+<surname>Branco</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tedersoo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Menke</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Schilling</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kennedy</surname>, <given-names>P. G.</given-names>
+</string-name> (<year>2015</year>). <article-title>FUNGuild: An open annotation tool for parsing fungal community datasets by ecological guild</article-title>. <source xml:lang="en">Fungal Ecology</source>, <volume>20</volume>, <fpage>241</fpage>&#x02013;<lpage>248</lpage>. <pub-id pub-id-type="doi">10.1016/j.funeco.2015.06.006</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0026"><mixed-citation publication-type="miscellaneous" id="ece36811-cit-0026">
+<string-name>
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Blanchet</surname>, <given-names>F. G.</given-names>
+</string-name>, <string-name>
+<surname>Friendly</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kindt</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>McGlinn</surname>, <given-names>D.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wagner</surname>, <given-names>H.</given-names>
+</string-name> (<year>2019</year>). <article-title>vegan: Community Ecology Package</article-title>. R package version 2.5&#x02010;6. <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=vegan">https://CRAN.R&#x02010;project.org/package=vegan</ext-link>
+</mixed-citation></ref><ref id="ece36811-bib-0027"><mixed-citation publication-type="journal" id="ece36811-cit-0027">
+<string-name>
+<surname>Price</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name>
+<surname>Fant</surname>, <given-names>J. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Larkin</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Ecology of native vs. introduced <italic>Phragmites australis</italic> (common reed) in Chicago&#x02010;area wetlands</article-title>. <source xml:lang="en">Wetlands</source>, <volume>34</volume>(<issue>2</issue>), <fpage>369</fpage>&#x02013;<lpage>377</lpage>. <pub-id pub-id-type="doi">10.1007/s13157-013-0504-z</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0028"><mixed-citation publication-type="journal" id="ece36811-cit-0028">
+<string-name>
+<surname>Quast</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Pruesse</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Yilmaz</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Gerken</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Schweer</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Glo</surname>, <given-names>F. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yarza</surname>, <given-names>P.</given-names>
+</string-name> (<year>2018</year>). <article-title>The SILVA ribosomal RNA gene database project: Improved data processing and web&#x02010;based tools</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>41</volume>(<issue>November 2012</issue>), <fpage>590</fpage>&#x02013;<lpage>596</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gks1219</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0029"><mixed-citation publication-type="book" id="ece36811-cit-0029">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-name>R Core Team</publisher-name> Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r&#x02010;project.org/</ext-link>
+</mixed-citation></ref><ref id="ece36811-bib-0030"><mixed-citation publication-type="journal" id="ece36811-cit-0030">
+<string-name>
+<surname>Ratnasingham</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hebert</surname>, <given-names>P. D. N.</given-names>
+</string-name> (<year>2007</year>). <article-title>The barcode of life data system</article-title>. <source xml:lang="en">Molecular Ecology Notes</source>, <volume>7</volume>(<issue>April 2016</issue>), <fpage>355</fpage>&#x02013;<lpage>364</lpage>. <pub-id pub-id-type="doi">10.1111/j.1471-8286.2006.01678.x</pub-id>
+<pub-id pub-id-type="pmid">18784790</pub-id></mixed-citation></ref><ref id="ece36811-bib-0031"><mixed-citation publication-type="journal" id="ece36811-cit-0031">
+<string-name>
+<surname>Reinhart</surname>, <given-names>K. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2006</year>). <article-title>Soil biota and invasive plants</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>170</volume>, <fpage>445</fpage>&#x02013;<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-8137.2006.01715.x</pub-id>
+<pub-id pub-id-type="pmid">16626467</pub-id></mixed-citation></ref><ref id="ece36811-bib-0032"><mixed-citation publication-type="journal" id="ece36811-cit-0032">
+<string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Allsopp</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Antonio</surname>, <given-names>C. M. D.</given-names>
+</string-name>, <string-name>
+<surname>Milton</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rejma</surname>, <given-names>M.</given-names>
+</string-name> (<year>2000</year>). <article-title>Plant invasions &#x02013; The role of mutualisms</article-title>. <source xml:lang="en">Biological Reviews</source>, <volume>75</volume>, <fpage>65</fpage>&#x02013;<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1017/S0006323199005435</pub-id>
+<pub-id pub-id-type="pmid">10740893</pub-id></mixed-citation></ref><ref id="ece36811-bib-0033"><mixed-citation publication-type="journal" id="ece36811-cit-0033">
+<string-name>
+<surname>Riit</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Tedersoo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Drenkhan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Runno&#x02010;Paurson</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Kokko</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anslan</surname>, <given-names>S.</given-names>
+</string-name> (<year>2016</year>). <article-title>Oomycete&#x02010;specific ITS primers for identification and metabarcoding</article-title>. <source xml:lang="en">MycoKeys</source>, <volume>30</volume>, <fpage>17</fpage>&#x02013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.3897/mycokeys.14.9244</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0034"><mixed-citation publication-type="journal" id="ece36811-cit-0034">
+<string-name>
+<surname>Saltonstall</surname>, <given-names>K.</given-names>
+</string-name>
+<year>2002</year>). <article-title>Cryptic invasion by a non&#x02010;native genotype of the common reed, <italic>Phragmites australis</italic>, into North America</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>99</volume>(<issue>4</issue>), <fpage>2445</fpage>&#x02013;<lpage>2449</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.032477999</pub-id>
+<pub-id pub-id-type="pmid">11854535</pub-id></mixed-citation></ref><ref id="ece36811-bib-0035"><mixed-citation publication-type="journal" id="ece36811-cit-0035">
+<string-name>
+<surname>Schloss</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name>
+<surname>Westcott</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Ryabin</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Hartmann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hollister</surname>, <given-names>E. B.</given-names>
+</string-name>, <string-name>
+<surname>Lesniewski</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Oakley</surname>, <given-names>B. B.</given-names>
+</string-name>, <string-name>
+<surname>Parks</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name>
+<surname>Robinson</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Sahl</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name>
+<surname>Stres</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Thallinger</surname>, <given-names>G. G.</given-names>
+</string-name>, <string-name>
+<surname>Van Horn</surname>, <given-names>D. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Weber</surname>, <given-names>C. F.</given-names>
+</string-name> (<year>2009</year>). <article-title>Introducing mothur: Open&#x02010;source, platform&#x02010;independent, community&#x02010;supported software for describing and comparing microbial communities</article-title>. <source xml:lang="en">Applied and Environmental Microbiology</source>, <volume>75</volume>(<issue>23</issue>), <fpage>7537</fpage>&#x02013;<lpage>7541</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.01541-09</pub-id>
+<pub-id pub-id-type="pmid">19801464</pub-id></mixed-citation></ref><ref id="ece36811-bib-0036"><mixed-citation publication-type="journal" id="ece36811-cit-0036">
+<string-name>
+<surname>Shearin</surname>, <given-names>Z. R. C.</given-names>
+</string-name>, <string-name>
+<surname>Filipek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Desai</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bickford</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name>
+<surname>Kowalski</surname>, <given-names>K. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> (<year>2018</year>). <article-title>Fungal endophytes from seeds of invasive, non&#x02010;native <italic>Phragmites australis</italic> and their potential role in germination and seedling growth</article-title>. <source xml:lang="en">Plant and Soil</source>, <volume>422</volume>, <fpage>183</fpage>&#x02013;<lpage>194</lpage>. <pub-id pub-id-type="doi">10.1007/s11104-017-3241-x</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0037"><mixed-citation publication-type="journal" id="ece36811-cit-0037">
+<string-name>
+<surname>Taylor</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name>
+<surname>Walters</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name>
+<surname>Lennon</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Bochicchio</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Krohn</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Caporaso</surname>, <given-names>J. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pennanen</surname>, <given-names>T.</given-names>
+</string-name> (<year>2016</year>). <article-title>Accurate estimation of fungal diversity and abundance through improved lineage&#x02010;specific primers optimized for illumina amplicon sequencing</article-title>. <source xml:lang="en">Applied and Environmental Microbiology</source>, <volume>82</volume>(<issue>24</issue>), <fpage>7217</fpage>&#x02013;<lpage>7226</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.02576-16.Editor</pub-id>
+<pub-id pub-id-type="pmid">27736792</pub-id></mixed-citation></ref><ref id="ece36811-bib-0038"><mixed-citation publication-type="journal" id="ece36811-cit-0038">
+<string-name>
+<surname>Tulbure</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name>
+<surname>Ghioca&#x02010;Robrecht</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Johnston</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Whigham</surname>, <given-names>D. F.</given-names>
+</string-name> (<year>2012</year>). <article-title>Inventory and ventilation efficiency of nonnative and native <italic>Phragmites australis</italic> (common reed) in tidal wetlands of the Chesapeake bay</article-title>. <source xml:lang="en">Estuaries and Coasts</source>, <volume>35</volume>(<issue>5</issue>), <fpage>1353</fpage>&#x02013;<lpage>1359</lpage>. <pub-id pub-id-type="doi">10.1007/s12237-012-9529-4</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0039"><mixed-citation publication-type="book" id="ece36811-cit-0039">
+<string-name>
+<surname>Wood</surname>, <given-names>R. K. S.</given-names>
+</string-name> (<year>1967</year>). <source xml:lang="en">Physiological plant pathology</source>. <publisher-name>Blackwell Scientific Publications</publisher-name>.</mixed-citation></ref><ref id="ece36811-bib-0040"><mixed-citation publication-type="journal" id="ece36811-cit-0040">
+<string-name>
+<surname>Yarwood</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Baldwin</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name>
+<surname>Gonzalez Mateu</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Buyer</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2016</year>). <article-title>Archaeal rhizosphere communities differ between the native and invasive lineages of the wetland plant <italic>Phragmites australis</italic> (common reed) in a Chesapeake Bay subestuary</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>18</volume>(<issue>9</issue>), <fpage>2717</fpage>&#x02013;<lpage>2728</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-016-1144-z</pub-id>
+</mixed-citation></ref><ref id="ece36811-bib-0041"><mixed-citation publication-type="journal" id="ece36811-cit-0041">
+<string-name>
+<surname>Zhang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hu</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Invasive plants differentially affect soil biota through litter and rhizosphere pathways: A meta&#x02010;analysis</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>22</volume>(<issue>1</issue>), <fpage>200</fpage>&#x02013;<lpage>210</lpage>. <pub-id pub-id-type="doi">10.1111/ele.13181</pub-id>
+<pub-id pub-id-type="pmid">30460738</pub-id></mixed-citation></ref></ref-list></back></article>

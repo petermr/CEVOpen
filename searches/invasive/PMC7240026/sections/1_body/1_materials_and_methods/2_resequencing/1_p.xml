@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Sorghum halepense</italic>, 
+ <italic>S. propinquum</italic>, 
+ <italic>S. timorense</italic> and representatives of each of the wild 
+ <italic>S. bicolor</italic> races (
+ <italic>S. bicolor</italic> ssp. drummondii, SRP116974; 
+ <italic>S. bicolor</italic> ssp. verticilliflorum race aethiopicum, SRP116975: 
+ <italic>S. bicolor</italic> ssp. verticilliflorum race arundinaceum, SRP116973; 
+ <italic>S. bicolor</italic> ssp. verticilliflorum race verticilliflorum, SRP116978: 
+ <italic>S. bicolor</italic> ssp. verticilliflorum race virgatum SRP116940) were sequenced using standard methods implemented at the US Department of Energy Joint Genome Institute, as part of a larger project including 27 genomes and 39 transcriptomes in total. From each accession, 76-bp paired-end reads were aligned to the 
+ <italic>Sorghum bicolor</italic> reference genome (v1.4) using BWA version 0.5.9 (
+ <xref rid="B26" ref-type="bibr">Li and Durbin, 2009</xref>). Multiple-sample SNP calling was performed using the mpileup program in the samtools package and bcftools (
+ <xref rid="B27" ref-type="bibr">Li et al., 2009</xref>). Reads with mapping quality score &gt; = 25 and base quality &gt; = 20 are used for SNP calling. Raw SNPs are further filtered according to read depth distribution to avoid paralog contamination and low coverage regions. Each accession’s genotype is calculated using maximum likelihood estimation using reads with coverage between 4 and 30X. The genotype with the largest likelihood is assigned to each individual. SNPs with allele frequency &gt; = 0.01 are used for downstream analysis.
+</p>

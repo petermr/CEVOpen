@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Raw bacterial sequence data were processed using mothur v1.39.5 (Schloss et al., 
+ <xref rid="ece36811-bib-0035" ref-type="ref">2009</xref>). Operational taxonomic units (OTUs) were clustered at 97% for bacterial sequences. Bacterial taxonomy was determined by comparing representative sequences to the taxa found in the SILVA database (Quast et al., 
+ <xref rid="ece36811-bib-0028" ref-type="ref">2018</xref>). Raw fungal and oomycete sequences were processed using QIIME2 (Bolyen et al., 
+ <xref rid="ece36811-bib-0006" ref-type="ref">2019</xref>) because QIIME2 can implement de novo sequence clustering of actual sequence variants (ASVs). Fungal sequences were clustered into OTUs at 97% similarity and assigned to taxonomy based on the UNITE database (Nilsson et al., 
+ <xref rid="ece36811-bib-0016" ref-type="ref">2013</xref>). Oomycete sequences were clustered at 97% similarity and assigned taxonomy in mothur using a custom oomycete‐specific database from the Barcode of Life Database (Ratnasingham &amp; Hebert, 
+ <xref rid="ece36811-bib-0030" ref-type="ref">2007</xref>). Each microbial group was rarefied according to the sample that yielded the fewest number of sequences to ensure equal coverage across all samples. Bacteria were rarefied to 13,956 sequences, fungi to 11,036 sequences, and oomycetes to 1,000 sequences (Appendix 
+ <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>, Figure 
+ <xref rid="ece36811-sup-0001" ref-type="supplementary-material">S1</xref>). OTUs observed less than twice across all samples were removed from community analyses. Bacterial taxa were analyzed to identify the proportion belonging to common plant pathogen groups using genera found in Wood (
+ <xref rid="ece36811-bib-0039" ref-type="ref">1967</xref>) and Mansfield et al. (
+ <xref rid="ece36811-bib-0021" ref-type="ref">2012</xref>). To evaluate functional potential of fungal OTUs, we used FUNGuild (Nguyen et al., 
+ <xref rid="ece36811-bib-0025" ref-type="ref">2015</xref>), which parses fungal communities by trophic mode and functional guilds. We analyzed outputs at the trophic mode and guild level to group fungal taxa into putative functional groups. All oomycetes were assumed to be pathogens.
+</p>

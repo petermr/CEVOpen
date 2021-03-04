@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All analyses were performed in R version 3.6.0 (R Development Core Team, 
+ <xref rid="ece36737-bib-0059" ref-type="ref">2018</xref>). We used the base “lm” function for linear models and the “lme” function of the “nlme” package version 3.1‐139 (Pinheiro, Bates, DebRoy, &amp; Sarkar, 
+ <xref rid="ece36737-bib-0057" ref-type="ref">2016</xref>) for linear mixed‐effects models. Full models were reduced in a stepwise, backwards variable selection removing the least significant term until minimum adequate models were reached. Data were cube‐root or log‐transformed to improve normality (see Table 
+ <xref rid="ece36737-tbl-0001" ref-type="table">1</xref>, Appendix 
+ <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table 
+ <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S4</xref>). We calculated contrasts for specific combinations of treatments using the “contrast” function from the “contrast” package version 0.21 (Kuhn, Weston, Wing, Forester, &amp; Thaler, 
+ <xref rid="ece36737-bib-0035" ref-type="ref">2016</xref>). For models on transformed data, back‐transformed contrast predictions and standard errors (
+ <italic>SE</italic>s) were calculated. Due to back transformation, 
+ <italic>SE</italic>s of contrasts were asymmetrical and are thus reported as values ± one 
+ <italic>SE</italic>. Stated 
+ <italic>t‐</italic> and 
+ <italic>p‐</italic>values are taken directly from the calculated contrasts from back‐transformed values.
+</p>

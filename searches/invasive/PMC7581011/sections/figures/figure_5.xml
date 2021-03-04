@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pbio.3000863.g005" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pbio.3000863.g005</object-id>
+ <label>Fig 5</label>
+ <caption>
+  <title>Impact of varying sample size on detection probability.</title>
+  <p>These plots show the effect of varying the number of sites—and therefore also the expected cost of surveillance—on the detection probability before the threshold prevalence is reached. Again, we consider a range of selection strategies: an optimised arrangement (based in this case on a single optimisation run for each number of sites) and 100 runs of a weighted sampling strategy based on 4 different ‘risk metrics’. These risk metrics are the product of travel census probabilities and citrus density (‘Entry and spread’), citrus density, probability of entry according to the travel census model (‘Pathogen entry’), and random (that is, unweighted) selection. Estimates of the probability of detection were made for all numbers of sites between 1 and 50 for all selection methods and additionally for all numbers of sites between 51 and 150 for the risk metric strategies, and estimates of the detection probability were interpolated using locally weighted regression. Plot A shows the mean probability of detection for a range of different numbers of sampling locations and demonstrates the variation in probability of detection for any given sample size, with the vertical dashed line representing the ‘baseline’ scenario of 20 sites. Plot B shows the mean expected annual surveillance costs required to achieve any given probability of detection between 0.50 and 0.95 for the different selection strategies. We assume that the total surveillance cost is the product of the number of sampling sites and the per-site cost of surveillance, as described in the text. The data used to create these plots can be found at 
+   <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17866/rd.salford.12759929.v1" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.17866/rd.salford.12759929.v1</ext-link> (files ‘optimisationOutputs_numSites.csv’ and ‘costEstimates.csv’).
+  </p>
+ </caption>
+ <graphic xlink:href="pbio.3000863.g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

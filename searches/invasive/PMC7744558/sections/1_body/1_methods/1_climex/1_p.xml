@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">The CLIMEX Compare Locations model simulates a species population response to climate on a weekly timescale; tracking the potential for population growth during favourable seasons, and population decreases during the stressful seasons. CLIMEX calculates an annual Growth Index (GI
+ <sub>A</sub>) to describe the potential for population growth as a function of weekly soil moisture and temperature during favourable conditions (Eq. 
+ <xref rid="Equ1" ref-type="">1</xref>).
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\text{GI}}_{{\text{A}}} = 100\sum\limits_{i = 1}^{52} {GI_{{W_{i} }} } /52$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mrow>
+     <msub>
+      <mtext>GI</mtext>
+      <mtext>A</mtext>
+     </msub>
+     <mo>=</mo>
+     <mn>100</mn>
+     <munderover>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>52</mn>
+     </munderover>
+     <mrow>
+      <mi>G</mi>
+      <msub>
+       <mi>I</mi>
+       <msub>
+        <mi>W</mi>
+        <mi>i</mi>
+       </msub>
+      </msub>
+     </mrow>
+     <mo stretchy="false">/</mo>
+     <mn>52</mn>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_79149_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where GI
+ <sub>W</sub> is the weekly Growth Index, composed of the weekly Temperature Index multiplied by the weekly Moisture Index. The Temperature and Moisture Indices are specified with a functional form that accords with the Law of Tolerance
+ <sup>
+  <xref ref-type="bibr" rid="CR73">73</xref>–
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup>, and are combined in a multiplicative manner that accords with the Law of the Minimum
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>
+ </sup>. CLIMEX employs up to four stress indices (cold, wet, hot, dry) and their interactions (cold–wet, cold–dry, hot–wet and hot–dry); respectively 
+ <italic>CS, WS, HS, DS, CWX, CDX, HWX, HDX</italic>) to estimate the ability of the population to survive unfavourable conditions (Eqs. 
+ <xref rid="Equ2" ref-type="">2</xref>, 
+ <xref rid="Equ3" ref-type="">3</xref>).
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$SI \, = \, \left( {1 - \frac{CS}{{100}}} \right)\left( {1 - \frac{DS}{{100}}} \right)\left( {1 - \frac{HS}{{100}}} \right)\left( {1 - \frac{WS}{{100}}} \right)$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <mrow>
+     <mi>S</mi>
+     <mi>I</mi>
+     <mspace width="0.166667em"/>
+     <mo>=</mo>
+     <mspace width="0.166667em"/>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">CS</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">DS</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">HS</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">WS</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_79149_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$SX \, = \, \left( {1 - \frac{CDX}{{100}}} \right)\left( {1 - \frac{CWX}{{100}}} \right)\left( {1 - \frac{HDX}{{100}}} \right)\left( {1 - \frac{HWX}{{100}}} \right)$$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mrow>
+     <mi>S</mi>
+     <mi>X</mi>
+     <mspace width="0.166667em"/>
+     <mo>=</mo>
+     <mspace width="0.166667em"/>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">CDX</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">CWX</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">HDX</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="italic">HWX</mi>
+        </mrow>
+        <mn>100</mn>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_79149_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

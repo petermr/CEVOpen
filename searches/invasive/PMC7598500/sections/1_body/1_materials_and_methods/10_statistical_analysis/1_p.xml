@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The final germination percentage data collected were modelled using two different models (sigmoid and Gaussian). The final germination percentage data of osmotic potential, salinity and mulch experiments were modelled by three-parameter sigmd model. The model was 
+ <disp-formula id="pone.0241601.e001">
+  <alternatives>
+   <graphic xlink:href="pone.0241601.e001.jpg" id="pone.0241601.e001g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1">
+    <mrow>
+     <mi mathvariant="normal">G</mi>
+     <mo>=</mo>
+     <msub>
+      <mi mathvariant="normal">G</mi>
+      <mrow>
+       <mi mathvariant="normal">m</mi>
+       <mi mathvariant="normal">a</mi>
+       <mi mathvariant="normal">x</mi>
+      </mrow>
+     </msub>
+     <mo>/</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi mathvariant="normal">e</mi>
+       <mspace width="0.25em"/>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mi mathvariant="normal">‐</mi>
+         <mi mathvariant="normal">x</mi>
+         <mi mathvariant="normal">‐</mi>
+         <msub>
+          <mi mathvariant="normal">T</mi>
+          <mrow>
+           <mn>50</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>/</mo>
+       <msub>
+        <mi mathvariant="normal">G</mi>
+        <mrow>
+         <mi mathvariant="normal">r</mi>
+         <mi mathvariant="normal">a</mi>
+         <mi mathvariant="normal">t</mi>
+         <mi mathvariant="normal">e</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(1)</label>
+ </disp-formula> Here; G = seed germination percentage, G
+ <sub>max</sub> = maximum germination percentage, T
+ <sub>50</sub> = respective environmental condition for retarding 50% of maximum germination, and G
+ <sub>rate</sub> = slope.
+</p>

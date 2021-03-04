@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">To investigate the impact of fire, we provided information to FARSITE at each time step, including fuel model associated with the current state for each cell, average weather conditions, and topography (described in detail in
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>).We calculated the amount of burned area at each time step, the number of years that have fire (while there is a maximum of one ignition per year, an ignition occurring in non-flammable vegetation will not result in a fire), and the number of fires that burned to the forest edge. We exported ST-Sim output to R to create all graphics and conduct statistical analyses using the R packages tidyverse
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>, raster
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup>, and hier.part
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> in R version 3.4.2
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>.
+</p>

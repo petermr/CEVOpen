@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Seed set was a binary variable that represented a positive (at least one seed set) or negative (no seeds) response to pollination per each mom/dad combination. A binomial generalized linear model with a logit link was used to estimate seed-set rate per cross-type. For all other variables considered, we used linear mixed models that were fitted using the restricted maximum-likelihood approach (REML) to account for unbalanced data (Table 
+ <xref ref-type="table" rid="tbl1">1</xref>). In all models, mother was included as a random factor, while cross-type, population, and the interaction between cross-type and population were included as fixed factors. Diagnostic plots of the residuals were checked for normality, and data were transformed when necessary to meet normality assumptions (Table 
+ <xref ref-type="table" rid="tbl2">2</xref>). Standard errors were calculated on back-transformed variables, and standard error of the differences (SED) was used to test for significance between means. Analyses were performed in GenStat (Payne et al. 
+ <xref ref-type="bibr" rid="b28">2009</xref>).
+</p>

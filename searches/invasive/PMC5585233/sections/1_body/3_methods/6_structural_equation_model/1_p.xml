@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">We used mixed model Structural Equation Modeling (SEM)
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>–
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup> to assess the interactions among 
+ <italic>P. australis</italic> lineage, bacterial processes, and plant and soil properties. All data and code for the SEM is available at: at 
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/jebyrnes/phrag_common_garden_sem" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/jebyrnes/phrag_common_garden_sem</ext-link>. Parameters in the model included 
+ <italic>P. australis</italic> lineage, above and belowground plant biomass, belowground gallic acid concentration (phenolics), soil percents and nitrogen, and three bacterial parameters: number of OTUs, activity (per taxon ratio of 16S rRNA to the 16S rRNA gene), and metabolism (calculated from KEGG pathways indicated by PiCrust). We allowed 
+ <italic>P. australis</italic> lineage to affect bacterial richness (number of taxa), activity (16S rRNA:16S rRNA gene ratio), and metabolism (based on ancestral state reconstruction of metabolic pathways). Lineage and all ecosystem variables could affect aboveground and belowground biomass, and all variables influenced soil carbon and nitrogen pools, which could also covary.
+</p>

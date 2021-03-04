@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Removing highly correlated variables are recommended in predictive modeling [
+ <xref rid="B55-entropy-21-00571" ref-type="bibr">55</xref>,
+ <xref rid="B67-entropy-21-00571" ref-type="bibr">67</xref>] as variables can be correlated and the combined effect may change the model’s performance, resulting in inaccurate and misleading predictions [
+ <xref rid="B68-entropy-21-00571" ref-type="bibr">68</xref>]. Pearson Correlation Coefficients (r) among 19 bioclim variables were calculated using ‘removeCollinearity’ function of the Package ‘virtualspecies’ (version 1.4-4) in R [
+ <xref rid="B69-entropy-21-00571" ref-type="bibr">69</xref>]. Variables with a correlation value of r ≥0.7 were excluded (
+ <xref ref-type="app" rid="app1-entropy-21-00571">Supplementary material S1</xref>). This threshold level is an acceptable measure to minimize multicollinearity of the fitted models [
+ <xref rid="B68-entropy-21-00571" ref-type="bibr">68</xref>]. This resulted in variables into seven groups of intercorrelated variables. A subset of seven non-correlated environmental variables was selected for the model run (
+ <xref rid="entropy-21-00571-t002" ref-type="table">Table 2</xref>). While selecting variables, special attention was paid to select variables that were highly responsive for a plausible forecast of species relationship to climate change and widely used in invasive species modeling literature [
+ <xref rid="B70-entropy-21-00571" ref-type="bibr">70</xref>,
+ <xref rid="B71-entropy-21-00571" ref-type="bibr">71</xref>,
+ <xref rid="B72-entropy-21-00571" ref-type="bibr">72</xref>]. 
+</p>

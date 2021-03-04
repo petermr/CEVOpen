@@ -1,0 +1,246 @@
+10:39:18.085 INFO  org.contentmine.ami.tools.AMI - args: [-p, invasive/, section, --sections=ALL]
+10:39:18.117 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+10:39:18.117 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+10:39:18.117 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+10:39:18.118 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/CEVOpen/searches/logs/ami.log)
+10:39:18.302 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2020.08.09_09.54-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.15.7 x86_64
+
+10:39:18.305 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+10:39:18.305 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMISectionTool)
+10:39:18.305 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+10:39:18.455 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+10:39:18.455 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+10:39:18.455 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            /Users/pm286/projects/CEVOpen/searches/invasive
+10:39:18.455 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
+10:39:18.456 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           200 trees [invasive/10.1101, invasive/PMC3288080, invasive/P
+10:39:18.456 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+10:39:18.456 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+10:39:18.456 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+10:39:18.457 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+10:39:18.457 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+10:39:18.457 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+10:39:18.457 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+10:39:18.457 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+10:39:18.457 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMISectionTool)
+10:39:18.457 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+10:39:18.458 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami section':
+10:39:18.460 INFO  org.contentmine.ami.tools.AbstractAMITool - --boldsections      : d     false
+10:39:18.460 INFO  org.contentmine.ami.tools.AbstractAMITool - --extract           : d [tab, fig, supplementary]
+10:39:18.460 INFO  org.contentmine.ami.tools.AbstractAMITool - --html              : d      null
+10:39:18.460 INFO  org.contentmine.ami.tools.AbstractAMITool - --hypertree         : d        {}
+10:39:18.461 INFO  org.contentmine.ami.tools.AbstractAMITool - --sections          : m [ABBREVIATION, ABSTRACT, ACK_FUND, APPENDIX, ARTICLE, ARTICLE_META, ARTICLE_TITLE, CONTRIB, AUTH_CONT, BACK, BODY, CASE, CONCL, COMP_INT, DISCUSS, FINANCIAL, FIG, FRONT, INTRO, JOURNAL_META, JOURNAL_TITLE, PUBLISHER_NAME, KEYWORD, METHODS, OTHER, PMCID, REF, RESULTS, SUPPL, TABLE, SUBTITLE, TITLE, AUTO]
+10:39:18.461 INFO  org.contentmine.ami.tools.AbstractAMITool - --sectiontype       : d       XML
+10:39:18.461 INFO  org.contentmine.ami.tools.AbstractAMITool - --summary           : d        []
+10:39:18.461 INFO  org.contentmine.ami.tools.AbstractAMITool - --whitespace        : d      true
+10:39:18.461 INFO  org.contentmine.ami.tools.AbstractAMITool - --write             : d      true
+10:39:18.462 INFO  org.contentmine.ami.tools.AbstractAMITool - --xpath             : d      null
+10:39:18.462 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+10:39:18.462 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+10:39:18.462 DEBUG org.contentmine.ami.tools.AMISectionTool - sec>[]
+10:39:18.462 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: 10.1101
+10:39:18.464 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml
+10:39:18.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3288080
+10:39:18.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3291943
+10:39:18.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3481469
+10:39:18.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3485296
+10:39:18.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3564996
+10:39:18.466 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3605860
+10:39:18.466 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3646738
+10:39:18.466 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3658920
+10:39:18.466 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3667845
+10:39:18.467 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3686198
+10:39:18.467 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3689352
+10:39:18.467 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3695028
+10:39:18.468 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3808376
+10:39:18.468 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3873342
+10:39:18.468 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3892369
+10:39:18.469 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC3937081
+10:39:18.469 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml
+10:39:18.469 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4016281
+10:39:18.469 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4039472
+10:39:18.470 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4063465
+10:39:18.470 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4086457
+10:39:18.470 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4138165
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4207246
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4215188
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4221027
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4303759
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4312900
+10:39:18.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4325956
+10:39:18.472 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4334550
+10:39:18.472 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4395213
+10:39:18.473 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4405095
+10:39:18.473 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4423395
+10:39:18.473 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4454509
+10:39:18.473 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4457889
+10:39:18.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4480049
+10:39:18.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4496918
+10:39:18.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4511186
+10:39:18.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4512771
+10:39:18.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4546075
+10:39:18.475 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4583994
+10:39:18.475 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4593686
+10:39:18.475 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4633154
+10:39:18.476 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4767409
+10:39:18.476 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4867706
+10:39:18.476 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4874543
+10:39:18.477 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4913424
+10:39:18.477 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC4948902
+10:39:18.477 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5042559
+10:39:18.478 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5069306
+10:39:18.478 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5101519
+10:39:18.478 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5383480
+10:39:18.478 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5425025
+10:39:18.479 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5496547
+10:39:18.479 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5534022
+10:39:18.479 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5555634
+10:39:18.480 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5558803
+10:39:18.480 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5585233
+10:39:18.480 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5653781
+10:39:18.480 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5700193
+10:39:18.481 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5816611
+10:39:18.481 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5838032
+10:39:18.481 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5838077
+10:39:18.482 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC5853265
+10:39:18.482 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6053366
+10:39:18.482 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6175876
+10:39:18.482 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6246596
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6268672
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6405495
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6407507
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6499188
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6553085
+10:39:18.483 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6571004
+10:39:18.484 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6686308
+10:39:18.484 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6686332
+10:39:18.484 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6795282
+10:39:18.484 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6918439
+10:39:18.485 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6956869
+10:39:18.485 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC6963816
+10:39:18.485 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7062246
+10:39:18.485 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7098561
+10:39:18.485 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7161574
+10:39:18.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7176691
+10:39:18.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7206761
+10:39:18.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7240026
+10:39:18.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7246212
+10:39:18.487 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7282705
+10:39:18.487 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7315593
+10:39:18.487 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7392769
+10:39:18.488 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7404986
+10:39:18.488 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7436051
+10:39:18.488 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7450053
+10:39:18.489 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7464584
+10:39:18.489 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7472528
+10:39:18.489 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7477091
+10:39:18.490 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7494242
+10:39:18.490 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7503722
+10:39:18.490 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7509433
+10:39:18.490 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7513728
+10:39:18.490 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7515060
+10:39:18.491 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7521714
+10:39:18.491 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7548199
+10:39:18.491 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7569287
+10:39:18.491 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7570294
+10:39:18.491 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7576218
+10:39:18.492 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7580985
+10:39:18.492 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7581011
+10:39:18.492 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7583829
+10:39:18.493 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7584219
+10:39:18.493 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7589393
+10:39:18.493 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7589717
+10:39:18.493 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7589998
+10:39:18.494 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7592744
+10:39:18.494 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7593150
+10:39:18.494 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7593186
+10:39:18.494 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7593253
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7593257
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7598500
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7601790
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7642205
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7643150
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7646078
+10:39:18.495 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7666561
+10:39:18.496 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7673401
+10:39:18.496 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7674477
+10:39:18.496 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7676722
+10:39:18.496 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7677259
+10:39:18.496 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7678378
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7679399
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7680054
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7684899
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7686326
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7686530
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7688627
+10:39:18.497 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7688957
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7694036
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7696314
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7697618
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7700408
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7710102
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7713913
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7713915
+10:39:18.498 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7713920
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7713930
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7713981
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7714445
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7722924
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7723884
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7724741
+10:39:18.499 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7744558
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7747965
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7748015
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7748722
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7752214
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7757809
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7759884
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7762155
+10:39:18.500 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7762184
+10:39:18.501 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7767224
+10:39:18.501 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7770431
+10:39:18.501 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7771124
+10:39:18.501 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7781371
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7781676
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7783342
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7783811
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7785435
+10:39:18.502 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7787535
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7788728
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7790614
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7790651
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7792949
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7800964
+10:39:18.503 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7803342
+10:39:18.504 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7803343
+10:39:18.504 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7803345
+10:39:18.504 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7806977
+10:39:18.504 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7809103
+10:39:18.504 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7809426
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7810738
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7815857
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7816242
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7816256
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7816994
+10:39:18.505 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7823393
+10:39:18.506 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7823679
+10:39:18.506 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7823977
+10:39:18.506 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7824349
+10:39:18.506 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7824427
+10:39:18.506 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7824498
+10:39:18.507 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7825567
+10:39:18.507 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7827223
+10:39:18.507 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7827401
+10:39:18.507 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7827921
+10:39:18.508 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7828442
+10:39:18.508 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7828476
+10:39:18.508 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7845050
+10:39:18.508 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7845991
+10:39:18.508 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7846199
+10:39:18.509 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7846734
+10:39:18.509 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7846740
+10:39:18.509 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7849753
+10:39:18.510 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml

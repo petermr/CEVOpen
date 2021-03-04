@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We aligned assembled male-specific scaffolds to the 
+ <italic>A. palmeri</italic> draft genome v 1.1 (
+ <xref rid="CIT0033" ref-type="bibr">Montgomery et al. 2020</xref>) using minimap2 (
+ <xref rid="CIT0023" ref-type="bibr">Li 2018</xref>) with -ax asm5 and extracted all covered sites using samtools 1.9 depth (
+ <xref rid="CIT0024" ref-type="bibr">Li et al. 2009</xref>). In addition, we mapped all extracted male and female-specific reads directly to the 
+ <italic>A. palmeri</italic> draft genome using BWA-MEM (
+ <xref rid="CIT0022" ref-type="bibr">Li 2013</xref>) and samtools to extract read depths for the male and female pool. We evaluated the sequencing depth of base pairs covered at least 50x to remove noise, as average coverage sequenced was over 300.
+</p>

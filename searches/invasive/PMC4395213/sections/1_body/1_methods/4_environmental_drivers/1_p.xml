@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We model environmental suitability for pathogen spread via a discrete-time Markov chain with two states, (S)uitable and (U)nsuitable (
+ <xref rid="pcbi.1004211.g001" ref-type="fig">Fig 1b</xref>). This controls 
+ <italic>ω</italic>(
+ <italic>t</italic>) in (
+ <xref rid="pcbi.1004211.e001" ref-type="disp-formula">Equation 1</xref>), with 
+ <italic>ω</italic>(
+ <italic>t</italic>) = 
+ <italic>ω</italic>
+ <sub>s</sub> = 1 for state S and 
+ <italic>ω</italic>(
+ <italic>t</italic>) = 
+ <italic>ω</italic>
+ <sub>
+  <italic>u</italic>
+ </sub>
+ <italic>≤</italic> 1 for state U. The value 
+ <italic>ω</italic>
+ <sub>
+  <italic>u</italic>
+ </sub> is therefore a measure of the relative unsuitability of state U. A probabilistic transition between states potentially occurs every 
+ <italic>T</italic>
+ <sub>
+  <italic>w</italic>
+ </sub> units of time. The probability of entering either state then depends only upon the current state, with p(U | S) = 
+ <italic>η</italic> and p(S | U) = 
+ <italic>ρ</italic>. At equilibrium, the probability of the environment being suitable (i.e. in state S) is 
+ <inline-formula id="pcbi.1004211.e012">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e012.jpg" id="pcbi.1004211.e012g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M12">
+    <mrow>
+     <mi>π</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mo mathvariant="normal">ρ</mo>
+      <mrow>
+       <mi>η</mi>
+       <mo>+</mo>
+       <mo mathvariant="normal">ρ</mo>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula>, and so the mean value of 
+ <italic>ω</italic>(
+ <italic>t</italic>) is 
+ <italic>π</italic> + (1–
+ <italic>π</italic>)
+ <italic>ω</italic>
+ <sub>
+  <italic>u</italic>
+ </sub>. The initial state is chosen randomly according to π, ensuring that the equilibrium properties of the chain control its statistics.
+</p>

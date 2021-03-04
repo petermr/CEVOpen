@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The raw sequencing data were in the FASTQ format. The paired-end reads were preprocessed using Trimmomatic software [
+ <xref rid="pone.0230822.ref040" ref-type="bibr">40</xref>] to detect and remove ambiguous bases (N). We also removed low-quality sequences, i.e., those with an average quality score below 20, using the sliding window trimming approach. After trimming, the paired-end reads were assembled using FLASH software [
+ <xref rid="pone.0230822.ref041" ref-type="bibr">41</xref>]. The parameters of assembly were a minimum of 10 bp overlapping, a maximum of 200 bp overlapping and a 20% maximum mismatch rate. The sequences were further denoised as follows: the reads with ambiguous, homologous sequences or sequences below 200 bp were abandoned, reads with 75% of bases above Q20 were retained, and reads with chimeras were detected and removed. These steps were performed using QIIME software (version 1.8.0) [
+ <xref rid="pone.0230822.ref042" ref-type="bibr">42</xref>].
+</p>

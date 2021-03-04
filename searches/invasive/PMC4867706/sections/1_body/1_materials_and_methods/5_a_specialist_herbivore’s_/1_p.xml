@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We selected the oligophagous leaf beetle 
+ <italic>G. quinquepunctata</italic> for a case study of host preference. We chose this species because (i) it has very recently (probably in the early 1990s) colonized 
+ <italic>P. serotina</italic> in north-central Europe (
+ <xref rid="ref-37" ref-type="bibr">Klaiber, 1999</xref>; 
+ <xref rid="ref-26" ref-type="bibr">Halarewicz &amp; Jackowski, 2011</xref>; 
+ <xref rid="ref-47" ref-type="bibr">Meijer et al., 2012</xref>; 
+ <xref rid="ref-45" ref-type="bibr">Mazderek et al., 2015</xref>); (ii) it is a specialized species, originally feeding chiefly on rowan, 
+ <italic>Sorbus aucuparia</italic> (
+ <xref rid="ref-79" ref-type="bibr">Wimmer &amp; Winkel, 2000</xref>; 
+ <xref rid="ref-38" ref-type="bibr">Koch, 1992</xref>). Within a circle with 6-km radius around Eelde (53°08′N, 6°34′E), this beetle only feeds on the original native host 
+ <italic>S. aucuparia</italic> and the novel introduced 
+ <italic>P. serotina</italic> (not on any other hosts), and is equally abundant on both (
+ <xref rid="ref-46" ref-type="bibr">Meijer, 2013</xref>). In May 2011, 83 adults and 138 larvae were collected from 
+ <italic>S. aucuparia</italic> and 63 adults and 57 larvae were collected from 
+ <italic>P. serotina</italic>, and kept separate by collection locality and host plant. These were used in host choice experiments: one 
+ <italic>S. aucuparia</italic> and one 
+ <italic>P. serotina</italic> branch (with 3–5 leaves each) was placed in a bottle filled with water, which was then placed in the centre of a 0.25 m
+ <sup>3</sup> cage. Between one and five adults or between two and 10 larvae were selected from one of the live, host-specific collections and placed on the plug in the neck of the bottle. Each experiment was conducted with individuals from only one of the two hosts, and each individual was tested only once. Adults and larvae were not mixed within an experiment. After 21 h, the position for each individual was recorded and the animals were returned to their respective live collections. The test was performed 107 times. Tests were carried out on animals collected within a two-week period and were begun on the date that they were collected. We then tested for host preference using a GLM with binomial distribution. The model included the fixed factors of original host plant, life stage (larva or adult), interaction between original host plant and life stage, collection date, locality of origin, and cage (multiple cages were used). The effect of each factor was tested by removing one factor and comparing the complete model with the reduced model, and to do this successively with each of the factors, using ANOVA. Host preference in 
+ <italic>G. quinquepunctata</italic> was tested with a proportion test, by comparing the host choices for all animals, depending on their host of origin. All analyses were done in R (
+ <xref rid="ref-58" ref-type="bibr">R Development Core Team, 2010</xref>).
+</p>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Variance components were estimated in the Statistical Analysis System [
+ <xref rid="B94-plants-09-01392" ref-type="bibr">94</xref>] with Proc Mixed using the restricted maximum likelihood analysis. Haplotype effects were fixed whereas region, population, and plant effects were assumed to be random, and data analyses were performed using the statistical model for a three-stage nested design [
+ <xref rid="B95-plants-09-01392" ref-type="bibr">95</xref>]:
+ <disp-formula>Y
+  <italic>
+   <sub>ijkl</sub>
+  </italic> = μ + τ
+  <italic>
+   <sub>i</sub>
+  </italic> + β
+  <italic>
+   <sub>j(k)</sub>
+  </italic> + δ
+  <italic>
+   <sub>(ij)k</sub>
+  </italic> + e
+  <italic>
+   <sub>(ijk)l</sub>
+  </italic>
+  <label>(1)</label>
+ </disp-formula> where Y
+ <italic>
+  <sub>ijkl</sub>
+ </italic> is the average value for the dependent variable for the 
+ <italic>i</italic>th region (Quebec or Kashmir), for the 
+ <italic>j</italic>th population nested in the 
+ <italic>i</italic>th region, for the 
+ <italic>k</italic>th haplotype (invasive or native) nested in the 
+ <italic>j</italic>th population and further in the 
+ <italic>i</italic>th region, and for the 
+ <italic>l</italic>th plant nested in the 
+ <italic>k</italic>th 
+ <italic>P. australis</italic> haplotype nested in the 
+ <italic>j</italic>th population further nested in the 
+ <italic>i</italic>th region; μ is the overall mean; τ
+ <italic>
+  <sub>i</sub>
+ </italic>, β
+ <italic>
+  <sub>j(k)</sub>
+ </italic>, δ
+ <italic>
+  <sub>(ij)k</sub>
+ </italic> and e
+ <italic>
+  <sub>(ijk)l</sub>
+ </italic> corresponded, respectively, to region effect (i.e., the between-region variance), to population effect (i.e., the among-population variance), to haplotype effect (i.e., the between-haplotype variance), and to plant effect (i.e., the within-population variance), the last term being the source of experimental error in the model. Post hoc multiple comparison of means was performed using Duncan Multiple Range Tests. 
+ <italic>P</italic>
+ <sub>ST</sub> values for each measured character were estimated using the following formula [
+ <xref rid="B22-plants-09-01392" ref-type="bibr">22</xref>,
+ <xref rid="B96-plants-09-01392" ref-type="bibr">96</xref>]:
+ <disp-formula>
+  <italic>P</italic>
+  <sub>ST</sub> = 
+  <italic>V</italic>
+  <sub>AP</sub>/(
+  <italic>V</italic>
+  <sub>AP</sub> + 2
+  <italic>V</italic>
+  <sub>WP</sub>)
+  <label>(2)</label>
+ </disp-formula> where 
+ <italic>V</italic>
+ <sub>AP</sub> is the among-population variance and 
+ <italic>V</italic>
+ <sub>WP</sub> the within-population variance.
+</p>

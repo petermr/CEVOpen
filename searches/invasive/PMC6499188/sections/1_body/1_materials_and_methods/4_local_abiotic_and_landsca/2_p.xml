@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We derived most of the landscape predictor variables from publicly available spatial datasets in ArcGIS 10.2. We determined if each plot was positioned within an impounded wetland by consulting the National Wetlands Inventory classification for each plot location. Many GSL wetlands are impounded to mitigate water losses in wetlands due to upstream diversions for urban and agricultural uses, which stabilizes the availability of waterfowl habitat, but has implications for wetland condition (
+ <xref rid="B25" ref-type="bibr">Downard et al., 2014</xref>). We used ArcGIS’s NEAR function which calculates distances between features to determine each plots distance to the nearest point source discharge using the locations of Utah Pollutant Discharge Elimination System (NPDES) permits from the Utah Department of Environmental Water Quality. Distance to UPDES permits was a significant factor associated with 
+ <italic>Phragmites</italic> presence in a GSL species distribution model (
+ <xref rid="B61" ref-type="bibr">Long et al., 2017a</xref>).
+</p>

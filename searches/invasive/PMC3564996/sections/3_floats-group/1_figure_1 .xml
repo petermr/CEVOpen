@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1" fig-type="figure" position="float">
+ <label>Figure 1 </label>
+ <caption>
+  <p>AllelePipe workflow for identifying alleles without a reference genome. Unigenes from all individuals are pooled and clustered by similarity. Clustered sequences are aligned and consensus sequences are generated, providing a pseudo-reference genome. Unigenes from the same and/or different individuals are aligned to the reference, and SNPs are identified. Multilocus SNP information is used to construct a minimum set of haplotypes for each individual, and clusters in which individuals are represented by an excess number of putative alleles are flagged as potential multigene clusters.</p>
+ </caption>
+ <graphic xlink:href="359f1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

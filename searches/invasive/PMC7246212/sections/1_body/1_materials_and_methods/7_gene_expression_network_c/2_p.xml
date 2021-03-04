@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Weighted gene correlation network analysis (WGCNA) is used to construct the expressed gene network and identify stress‐related candidate key genes. This method has been widely applied in model organisms and nonmodel organisms for gene expression studies (Fu et al., 
+ <xref rid="ece36206-bib-0014" ref-type="ref">2014</xref>; Lou et al., 
+ <xref rid="ece36206-bib-0037" ref-type="ref">2017</xref>). The gene network was constructed using the R package WGCNA (Langfelder &amp; Horvath, 
+ <xref rid="ece36206-bib-0023" ref-type="ref">2008</xref>), and all the DEGs between the shade treatment and control were applied to WGCNA. These collected genes were clustered to form different modules, which were assembled by unique color. A significant correlation for each module was satisfied with coefficients &gt;0.80 and 
+ <italic>p</italic>‐values &lt; .01. Modules that were significantly correlated with shade stress were extracted and exported into Cytoscape (ver. 2.8, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.cytoscape.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.cytoscape.org/</ext-link>) for network visualization (Smoot, Ono, Ruscheinski, Wang, &amp; Ideker, 
+ <xref rid="ece36206-bib-0059" ref-type="ref">2011</xref>). Hub genes were identified based on the connection degree of each node in the network.
+</p>

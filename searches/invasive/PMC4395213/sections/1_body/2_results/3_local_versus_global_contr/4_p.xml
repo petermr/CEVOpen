@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The epidemic time, τ
+ <sub>
+  <italic>E</italic>
+ </sub>, may be of particular significance to policy makers, since the duration of a control programme will be an important determinant of public opinion. However, the time taken to eradicate the pathogen is of course not the only way of characterising the risk of pathogen spread outside the area that is actively being controlled. The area under the disease progress curve 
+ <disp-formula id="pcbi.1004211.e022">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e022.jpg" id="pcbi.1004211.e022g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M22">
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mi>E</mi>
+     </msub>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo mathvariant="normal">∫</mo>
+        <mrow>
+         <mi>t</mi>
+         <mo>=</mo>
+         <mn>0</mn>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>τ</mi>
+          <mi>E</mi>
+         </msub>
+        </mrow>
+       </munderover>
+       <mrow>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>C</mi>
+          <mo stretchy="false">(</mo>
+          <mi>t</mi>
+          <mo stretchy="false">)</mo>
+          <mo>+</mo>
+          <mi>I</mi>
+          <mo stretchy="false">(</mo>
+          <mi>t</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>t</mi>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> quantifies the total amount of inoculum that would be exported over the course of the entire epidemic (
+ <xref rid="pcbi.1004211.g004" ref-type="fig">Fig 4c</xref>). This can be used to calculate the probability of at least one escape to the region that is not being controlled, 
+ <italic>p</italic>
+ <sub>
+  <italic>E</italic>
+ </sub>, via 
+ <disp-formula id="pcbi.1004211.e023">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e023.jpg" id="pcbi.1004211.e023g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M23">
+    <mrow>
+     <msub>
+      <mi>p</mi>
+      <mi>E</mi>
+     </msub>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mtext>exp</mtext>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>λ</mi>
+       <msub>
+        <mi>A</mi>
+        <mi>E</mi>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </math>
+  </alternatives>
+ </disp-formula> where λ is a measure of the degree of connectivity between the local and non-local populations of host plants. In principle the connectivity (λ) could be determined for any particular landscape structure, although as we show here, the response of 
+ <italic>p</italic>
+ <sub>
+  <italic>E</italic>
+ </sub> to the cull radius (
+ <italic>L)</italic> is robust to extremely wide variations in the value of λ (
+ <xref rid="pcbi.1004211.g004" ref-type="fig">Fig 4d</xref>). Assuming that a single escape from the region under active control would be sufficient to initiate a global epidemic, we can then define a variant measure of epidemic cost via 
+ <disp-formula id="pcbi.1004211.e024">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e024.jpg" id="pcbi.1004211.e024g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M24">
+    <mrow>
+     <msub>
+      <mi>ζ</mi>
+      <mi>E</mi>
+     </msub>
+     <mtext>= </mtext>
+     <mo>​</mo>
+     <mo>​</mo>
+     <mtext>(1-</mtext>
+     <mi mathvariant="normal">δ</mi>
+     <mtext>) </mtext>
+     <msub>
+      <mover accent="true">
+       <mi>κ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+     <mtext> + </mtext>
+     <mi mathvariant="normal">δ</mi>
+     <mtext> </mtext>
+     <msub>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+    <mo>,</mo>
+   </math>
+  </alternatives>
+ </disp-formula> where δ controls the importance assigned to local vs. global impacts (i.e. δ plays the same role in the definition ζ
+ <sub>
+  <italic>E</italic>
+ </sub> of as does η in the definition of Ψ
+ <sub>
+  <italic>E</italic>
+ </sub>), and where 
+ <inline-formula id="pcbi.1004211.e025">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e025.jpg" id="pcbi.1004211.e025g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M25">
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> is 
+ <italic>p</italic>
+ <sub>
+  <italic>E</italic>
+ </sub> normalised to a [0,1] scale (by dividing by the maximum value of 
+ <italic>p</italic>
+ <sub>
+  <italic>E</italic>
+ </sub>, which occurs at 
+ <italic>L</italic> = 0). The response of ζ
+ <sub>
+  <italic>E</italic>
+ </sub> to the weighting parameter δ is similar to the response of Ψ
+ <sub>
+  <italic>E</italic>
+ </sub> to η (
+ <italic>cf</italic>. 
+ <xref rid="pcbi.1004211.g004" ref-type="fig">Fig 4e</xref>, the response to different values of δ when λ = 10
+ <sup>-5</sup>d
+ <sup>-1</sup>), and the conclusion that the optimal radius increases with increasing the weighting of global impacts, δ, is robust to all values of the connectivity, λ, we consider, over a range of orders of magnitude (
+ <xref rid="pcbi.1004211.g004" ref-type="fig">Fig 4f</xref>). Again, very extensive controls in the region under active management become optimal when the possible global impacts of disease are judged to be important.
+</p>

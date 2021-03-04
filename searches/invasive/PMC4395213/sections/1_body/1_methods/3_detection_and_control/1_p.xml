@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We assume that the host landscape is surveyed for disease at regular intervals 
+ <italic>T</italic>
+ <sub>
+  <italic>s</italic>
+ </sub>, starting at time 
+ <italic>t</italic> = 
+ <italic>T</italic>
+ <sub>
+  <italic>0</italic>
+ </sub>, and on each survey any symptomatic (i.e. class D or I) hosts are independently detected with probability 
+ <italic>p</italic>. Detected hosts are flagged for subsequent removal, together with any other hosts (irrespective of disease status) within a pre-determined distance 
+ <italic>L</italic> of each detected focus. In practice, removal actually occurs after a variable time delay, and we assume this is normally distributed with specified mean (
+ <italic>T</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>) and standard deviation (
+ <italic>σ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>). This allows for logistic delay(s) in control, including notice periods to allow for legal challenges, or delays in deployment of requisite equipment and/or manpower. A truncated normal distribution is used to ensure that all delays are positive and so that removal occurs strictly after detection. Removed hosts are not replanted in our model, in keeping with the original practice for citrus canker in Florida.
+</p>

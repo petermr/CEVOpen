@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0006" orientation="portrait" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>GO circle plot displaying gene annotation enrichment analysis. Radar chart shows the distribution of individual terms in the annotation categories. The fold changes (FC) of gene expression values (log2 FC) were derived from three biological replications corresponding to each sample. Within each selected GO term, blue dot shows a gene downregulated at shading stress and red dot indicates a gene upregulated at shading stress. The outer to inner layers of gray circles indicate the relative fold change of gene expression (from higher to lower). The height of the inner rectangle represents the 
+   <italic>p</italic>‐value of the GO term. The rectangles were colored with the red gradient according to the z‐score. (
+   <italic>p</italic> &lt; .05, FDR adjusted 
+   <italic>p</italic> &lt; .05) 
+   <math id="nlm-math-1">
+    <mrow>
+     <mi>Z</mi>
+     <mrow>
+      <mspace width="0.333333em"/>
+      <mo>-</mo>
+      <mspace width="0.333333em"/>
+      <mtext>score</mtext>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mtext>upregulated</mtext>
+      <mo>-</mo>
+      <mtext>downregulated</mtext>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">/</mo>
+     <msqrt>
+      <mrow>
+       <mtext>upregulated</mtext>
+       <mo>+</mo>
+       <mtext>downregulated</mtext>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </math>
+  </p>
+ </caption>
+ <graphic id="nlm-graphic-13" xlink:href="ECE3-10-4391-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

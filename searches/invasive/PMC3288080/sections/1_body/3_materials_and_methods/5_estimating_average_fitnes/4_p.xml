@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The trade-off between seed mass and number, and its relation with seed and seedling survival rates, were integrated together with other fitness components (i.e., germination, tree growth, survival and fertility rates) within a (
+ <italic>9×9</italic>) demographic transition matrix 
+ <italic>A</italic>
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>:
+ <disp-formula>
+  <graphic xlink:href="pone.0032323.e004.jpg" mimetype="image" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where matrix 
+ <italic>A</italic> projects the fate of the individuals between the 9 life-stages between two time steps 
+ <italic>t−1</italic> to 
+ <italic>t</italic>. In matrix 
+ <italic>A</italic>, two annual fertility rates are implemented in order to represent the different fates of a seed from 
+ <italic>t−1</italic> to 
+ <italic>t</italic>. 
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e005.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> represents the actual rate that a tree at a particular volume class 
+ <bold>
+  <italic>V</italic>
+ </bold> at time 
+ <italic>t−1</italic> is alive half way between censuses 
+ <italic>t−1/2</italic> (
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e006.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>) and produces a number of seeds (
+ <italic>f
+  <sub>V[t−1/2]</sub>
+ </italic>) that will survive from 
+ <italic>t−1/2</italic> to 
+ <italic>t</italic> (
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e007.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>) and stay dormant in the seed bank (1−
+ <italic>Germ</italic>):
+ <disp-formula>
+  <graphic xlink:href="pone.0032323.e008.jpg" mimetype="image" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>(3)</label>
+ </disp-formula>
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e009.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> represents the rate of the seeds produced that will germinate and survive as seedlings (
+ <italic>S
+  <sub>sg</sub>
+ </italic>) from 
+ <italic>t−1/2</italic> to 
+ <italic>t</italic> and therefore establish as 
+ <italic>Juv</italic> at time 
+ <italic>t</italic>:
+ <disp-formula>
+  <graphic xlink:href="pone.0032323.e010.jpg" mimetype="image" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>(4)</label>
+ </disp-formula>
+</p>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">To examine the dependence of soil taxonomic composition on latitude and soil type, we performed ANCOVAs using pairwise dissimilarity indices (two separate response variables), differences in latitude (continuous predictor), and combinations of soil types (categorical predictor). For every pair of data points 
+ <italic>p</italic> and 
+ <italic>q</italic>, we calculated their Euclidean distance 
+ <italic>d</italic> (
+ <italic>p</italic>, 
+ <italic>q</italic>), which reflects both OTU presence/absence and changes in OTU dominance as sqrt([
+ <italic>p</italic>
+ <sub>1</sub> − 
+ <italic>q</italic>
+ <sub>1</sub>]
+ <sup>2</sup> + [
+ <italic>p</italic>
+ <sub>2</sub> − 
+ <italic>q</italic>
+ <sub>2</sub>]
+ <sup>2</sup> + … + [
+ <italic>p</italic>
+ <sub>
+  <italic>n</italic>
+ </sub> − 
+ <italic>q</italic>
+ <sub>
+  <italic>n</italic>
+ </sub>]
+ <sup>2</sup>), where 
+ <sub>
+  <italic>pi</italic>
+ </sub> is the proportion of reads that were OTU
+ <sub>
+  <italic>i</italic>
+ </sub> for sample 
+ <italic>p</italic>, 
+ <italic>q</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the proportion of reads that were OTU
+ <sub>
+  <italic>i</italic>
+ </sub> for sample 
+ <italic>q</italic>, and 
+ <italic>n</italic> is the total number of OTUs across all samples. We calculated their Jaccard’s dissimilarity index, which uses OTU presence/absence only and, therefore, only includes changes in species composition. Jaccard’s dissimilarity index is calculated as one minus the number of OTUs that occurred in both 
+ <italic>p</italic> and 
+ <italic>q</italic> divided by the total number of OTUs that occurred in 
+ <italic>p</italic> and/or 
+ <italic>q</italic>. We calculated the difference between their latitudes of collection and assigned them a category to indicate whether a pair of samples were both from 
+ <italic>A. philoxeroides</italic> soils, both from 
+ <italic>A. sessilis</italic> soils, or from different soil types.
+</p>

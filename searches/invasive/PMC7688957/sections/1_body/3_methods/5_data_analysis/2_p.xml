@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">Vine health metrics were assessed using generalized linear mixed models, with either a binomial (leaf redness, shoot death) or a normal distribution (number of clusters, gall severity). Health metrics were modeled with previous SLF infestation (average adult SLF per vine) as the fixed effect whereas vineyard and year were considered random effects in model. Mark and recapture data were analyzed assuming a binomial model where the total number of recaptured SLF was compared to the total number of SLF released. Adjusted R squared values were computed for all significant models using R package, MuMIn
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. All models were tested for appropriateness of fit by testing for overdispersion using package blmeco and function dispersion_glmer()
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> or normality using functions qqnorm() and qqline().
+</p>

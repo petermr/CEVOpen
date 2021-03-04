@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To map the flower presence/absence in each image we used the Random Forest algorithm (
+ <xref rid="B8" ref-type="bibr">Breiman, 2001</xref>). The Random Forest is a classification algorithm widely used in the field of Remote Sensing (
+ <xref rid="B20" ref-type="bibr">Feng et al., 2015</xref>; 
+ <xref rid="B4" ref-type="bibr">Belgiu and Drăgut, 2016</xref>). It’s a non-parametric supervised classification which consists in an ensemble of Classification and Regression Tree’s to identify the target classes (
+ <xref rid="B9" ref-type="bibr">Breiman et al., 1984</xref>; 
+ <xref rid="B8" ref-type="bibr">Breiman, 2001</xref>). The tree creation process consists in subsetting the training samples with replacement and using part of the data to train the tree while the remaining data is used to measure the prediction error (
+ <xref rid="B4" ref-type="bibr">Belgiu and Drăgut, 2016</xref>). The final error estimate is known as the Out-of-Bag error (OOB) and is given by averaging the prediction error (
+ <xref rid="B8" ref-type="bibr">Breiman, 2001</xref>; 
+ <xref rid="B4" ref-type="bibr">Belgiu and Drăgut, 2016</xref>).
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Soil moisture data were modeled using linear mixed-effects models using restricted maximum-likelihood (
+ <xref rid="B38" ref-type="bibr">Harrison et al., 2018</xref>). A first-order continuous time covariate nested within each experimental plot was included to account for strong temporal autocorrelation between daily soil moisture (
+ <xref rid="B71" ref-type="bibr">Pinheiro and Bates, 2002</xref>). Plot effects were in turn nested within blocks, while blocks were nested within year to account for spatial heterogeneity across experiments, as well as strong annual variability in climate. Continuous time covariates were scaled and centered to improve model convergence. Altered precipitation treatments did not significantly affect phenology in our experiments but warming treatments did. Therefore, this analysis of soil moisture focused only on the effects warming treatments in order to explore mechanisms for warming treatment effects on 
+ <italic>B. tectorum</italic> phenology. Significance of warming treatment effects was assessed using treatment-group pairwise comparisons of estimated marginal means adjusted for multiple comparisons using Tukey’s method (
+ <xref rid="B52" ref-type="bibr">Lenth, 2016</xref>). Separate models with identical terms were constructed for each experiment. All soil moisture data were analyzed using R version 3.6.3 and utilized the packages ‘nlme’ and ‘emmeans’ (
+ <xref rid="B53" ref-type="bibr">Lenth, 2020</xref>; 
+ <xref rid="B72" ref-type="bibr">Pinheiro et al., 2020</xref>; 
+ <xref rid="B75" ref-type="bibr">RCore Team, 2020</xref>).
+</p>

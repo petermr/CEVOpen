@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pcbi.1004211.g004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pcbi.1004211.g004</object-id>
+ <label>Fig 4</label>
+ <caption>
+  <title>Local vs. global control.</title>
+  <p>(a) Epidemic time (τ
+   <sub>
+    <italic>E</italic>
+   </sub>); i.e. the time for the epidemic to be controlled, as a function of the cull radius 
+   <italic>L</italic>. The black dots on the x-axis mark 
+   <italic>L</italic> = 159m, the cull radius at which the median epidemic impact (κ
+   <sub>
+    <italic>E</italic>
+   </sub>) is minimised, and 
+   <italic>L</italic> = 63m, the radius at which the median epidemic time (τ
+   <sub>
+    <italic>E</italic>
+   </sub>) is maximised. (b) Normalised epidemic cost (
+   <inline-formula id="pcbi.1004211.e013">
+    <alternatives>
+     <graphic id="pcbi.1004211.e013g" xlink:href="pcbi.1004211.e013" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     <math id="M13">
+      <mrow>
+       <msub>
+        <mo>ψ</mo>
+        <mi>E</mi>
+       </msub>
+       <mtext>= ​​(1-η) </mtext>
+       <msub>
+        <mover accent="true">
+         <mi>κ</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+       <mtext> + η </mtext>
+       <msub>
+        <mover accent="true">
+         <mi>τ</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+      </mrow>
+     </math>
+    </alternatives>
+   </inline-formula>) for a number of values of the weighting factor, η. 
+   <inline-formula id="pcbi.1004211.e014">
+    <alternatives>
+     <graphic id="pcbi.1004211.e014g" xlink:href="pcbi.1004211.e014" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     <math id="M14">
+      <mrow>
+       <msub>
+        <mover accent="true">
+         <mi>κ</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+      </mrow>
+     </math>
+    </alternatives>
+   </inline-formula> and 
+   <inline-formula id="pcbi.1004211.e015">
+    <alternatives>
+     <graphic id="pcbi.1004211.e015g" xlink:href="pcbi.1004211.e015" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     <math id="M15">
+      <mrow>
+       <msub>
+        <mover accent="true">
+         <mi>τ</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+      </mrow>
+     </math>
+    </alternatives>
+   </inline-formula> are the epidemic impact and epidemic time normalised according to their maximum values over all cull radii considered, whereas η controls the relative weighting given to potential global impacts of the epidemic outside the area of immediate interest. The inset shows the value of 
+   <italic>L</italic> at which the minimum Ψ
+   <sub>
+    <italic>E</italic>
+   </sub> is obtained as a function of η. As global impacts are increasingly weighted (
+   <italic>η</italic> → 1), the optimum cull radius increases, despite the increased number of local removals that would then result. (c) Area under the disease progress curve (
+   <italic>A</italic>
+   <sub>
+    <italic>E</italic>
+   </sub>) as a function of cull radius, 
+   <italic>L</italic>. The inset shows the logarithm of 
+   <italic>A</italic>
+   <sub>
+    <italic>E</italic>
+   </sub> as 
+   <italic>L</italic> is changed. (d) The probability of escape, 
+   <italic>p</italic>
+   <sub>
+    <italic>E</italic>
+   </sub>, as function of the cull radius, 
+   <italic>L</italic>, for different values of the connectivity parameter λ. (e) Normalised epidemic cost (
+   <inline-formula id="pcbi.1004211.e016">
+    <alternatives>
+     <graphic id="pcbi.1004211.e016g" xlink:href="pcbi.1004211.e016" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     <math id="M16">
+      <mrow>
+       <msub>
+        <mi>ζ</mi>
+        <mi>E</mi>
+       </msub>
+       <mtext>= </mtext>
+       <mo>​</mo>
+       <mo>​</mo>
+       <mtext>(1-</mtext>
+       <mi>δ</mi>
+       <mtext>) </mtext>
+       <msub>
+        <mover accent="true">
+         <mi>κ</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+       <mtext> + </mtext>
+       <mi>δ</mi>
+       <mtext> </mtext>
+       <msub>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>^</mo>
+        </mover>
+        <mi>E</mi>
+       </msub>
+      </mrow>
+     </math>
+    </alternatives>
+   </inline-formula>) in which the probability of escape rather than the time until eradication is included, for a number of values of the weighting factor, δ, and for fixed connectivity parameter λ = 10
+   <sup>-5</sup> d
+   <sup>-1</sup>. The inset shows the value of 
+   <italic>L</italic> at which the optimum ζ
+   <sub>
+    <italic>E</italic>
+   </sub> is obtained for 0 ≤ δ ≤ 1. (f) Robustness to the value of λ. The inset to panel (e) is repeated for a number of values of λ; as potential global impacts are increasingly weighted (
+   <italic>δ</italic> → 1), the optimal cull radius again becomes larger, for each value of λ we consider.
+  </p>
+ </caption>
+ <graphic xlink:href="pcbi.1004211.g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

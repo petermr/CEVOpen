@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Model 5 describes the functional group identity effect and separate pairwise species interactions: 
+ <disp-formula id="ece32799-disp-0006">
+  <label>(6)</label>
+  <math id="nlm-math-6">
+   <mrow>
+    <mi>y</mi>
+    <mo>=</mo>
+    <msub>
+     <mi mathvariant="normal">β</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mi>P</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mi mathvariant="normal">β</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mi>P</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mi mathvariant="normal">β</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mi>P</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mi mathvariant="normal">β</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mi>P</mi>
+     <mrow>
+      <mi mathvariant="normal">FG</mi>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <munderover>
+     <mo>∑</mo>
+     <mfrac linethickness="0pt">
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mi>j</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mi>i</mi>
+       <mo>&lt;</mo>
+       <mi>j</mi>
+      </mrow>
+     </mfrac>
+     <mi>s</mi>
+    </munderover>
+    <mrow>
+     <msub>
+      <mi mathvariant="normal">δ</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mi>P</mi>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mi>P</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+    <mo>+</mo>
+    <mi mathvariant="normal">ε</mi>
+   </mrow>
+  </math>
+ </disp-formula>where δ
+ <sub>
+  <italic>ij</italic>
+ </sub> is the coefficient of separate pairwise interaction between species 
+ <italic>i</italic> and species 
+ <italic>j</italic>.
+</p>

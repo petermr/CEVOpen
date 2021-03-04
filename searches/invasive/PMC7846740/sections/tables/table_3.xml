@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Results of multiple linear regression of daily water use of 
+   <italic>Prosopis</italic> across 11 months and pedo-climatic factors.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Drivers</th>
+    <th align="left">Estimate</th>
+    <th align="left">Std. Error</th>
+    <th align="left">v t-value</th>
+    <th align="left">Pr( &gt;|t|)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="5">
+     <bold>(A) Actual evapotranspiration—ETa (mm/day)</bold>
+     <sup>
+      <bold>a</bold>
+     </sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">(Intercept)</td>
+    <td char="." align="char">10.641</td>
+    <td char="." align="char">1.98635</td>
+    <td char="." align="char">5.357</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">Solar Radiation</td>
+    <td char="." align="char">0.029</td>
+    <td char="." align="char">0.025</td>
+    <td char="." align="char">1.171</td>
+    <td align="left">0.242</td>
+   </tr>
+   <tr>
+    <td align="left">Wind Speed</td>
+    <td char="." align="char">0.435</td>
+    <td char="." align="char">0.091</td>
+    <td char="." align="char">4.795</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">Soil Moisture</td>
+    <td char="." align="char">0.091</td>
+    <td char="." align="char">0.016</td>
+    <td char="." align="char">5.790</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">VPD</td>
+    <td char="." align="char">− 1.415</td>
+    <td char="." align="char">0.223</td>
+    <td char="." align="char">− 6.334</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">ETo</td>
+    <td char="." align="char">0.773</td>
+    <td char="." align="char">0.172</td>
+    <td char="." align="char">4.508</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5">
+     <bold>(B) Sap flow (l/tree/day)</bold>
+     <sup>
+      <bold>b</bold>
+     </sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">(Intercept)</td>
+    <td char="." align="char">1.524</td>
+    <td char="." align="char">1.253</td>
+    <td char="." align="char">1.214</td>
+    <td align="left">0.225</td>
+   </tr>
+   <tr>
+    <td align="left">Solar Radiation</td>
+    <td char="." align="char">0.0418</td>
+    <td char="." align="char">0.016</td>
+    <td char="." align="char">2.587</td>
+    <td align="left">0.010*</td>
+   </tr>
+   <tr>
+    <td align="left">Wind Speed</td>
+    <td char="." align="char">− 0.178</td>
+    <td char="." align="char">0.057</td>
+    <td char="." align="char">− 3.109</td>
+    <td align="left">0.002**</td>
+   </tr>
+   <tr>
+    <td align="left">Soil Moisture</td>
+    <td char="." align="char">− 0.031</td>
+    <td char="." align="char">0.009</td>
+    <td char="." align="char">− 3.161</td>
+    <td align="left"> &lt; 0.001***</td>
+   </tr>
+   <tr>
+    <td align="left">VPD</td>
+    <td char="." align="char">0.627</td>
+    <td char="." align="char">0.141</td>
+    <td char="." align="char">4.450</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">ETo</td>
+    <td char="." align="char">0.006</td>
+    <td char="." align="char">0.108</td>
+    <td char="." align="char">0.058</td>
+    <td align="left">0.954</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5">
+     <bold>(C) Sap flow (mm/day) in floodplains</bold>
+     <sup>
+      <bold>c</bold>
+     </sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">(Intercept)</td>
+    <td char="." align="char">0.655</td>
+    <td char="." align="char">0.610</td>
+    <td char="." align="char">1.073</td>
+    <td align="left">0.284</td>
+   </tr>
+   <tr>
+    <td align="left">Solar Radiation</td>
+    <td char="." align="char">0.002</td>
+    <td char="." align="char">0.007</td>
+    <td char="." align="char">0.352</td>
+    <td align="left">0.725</td>
+   </tr>
+   <tr>
+    <td align="left">Wind Speed</td>
+    <td char="." align="char">− 0.056</td>
+    <td char="." align="char">0.027</td>
+    <td char="." align="char">− 2.018</td>
+    <td align="left">0.044*</td>
+   </tr>
+   <tr>
+    <td align="left">Soil Moisture</td>
+    <td char="." align="char">− 0.001</td>
+    <td char="." align="char">0.004</td>
+    <td char="." align="char">− 0.250</td>
+    <td align="left">0.803</td>
+   </tr>
+   <tr>
+    <td align="left">VPD</td>
+    <td char="." align="char">0.199</td>
+    <td char="." align="char">0.068</td>
+    <td char="." align="char">2.910</td>
+    <td align="left">0.003**</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <underline>ETo</underline>
+    </td>
+    <td char="." align="char">− 0.075</td>
+    <td char="." align="char">0.052</td>
+    <td char="." align="char">− 1.435</td>
+    <td align="left">0.152</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5">
+     <bold>(D) Sap flow (mm/day) in drylands</bold>
+     <sup>
+      <bold>d</bold>
+     </sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">(Intercept)</td>
+    <td char="." align="char">0.418</td>
+    <td char="." align="char">0.566</td>
+    <td char="." align="char">0.739</td>
+    <td align="left">0.460</td>
+   </tr>
+   <tr>
+    <td align="left">Solar Radiation</td>
+    <td char="." align="char">0.019</td>
+    <td char="." align="char">0.007</td>
+    <td char="." align="char">2.638</td>
+    <td align="left">0.008**</td>
+   </tr>
+   <tr>
+    <td align="left">Wind Speed</td>
+    <td char="." align="char">− 0.061</td>
+    <td char="." align="char">0.025</td>
+    <td char="." align="char">− 2.385</td>
+    <td align="left">0.017*</td>
+   </tr>
+   <tr>
+    <td align="left">Soil Moisture</td>
+    <td char="." align="char">− 0.015</td>
+    <td char="." align="char">0.004</td>
+    <td char="." align="char">− 3.419</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">VPD</td>
+    <td char="." align="char">0.214</td>
+    <td char="." align="char">0.063</td>
+    <td char="." align="char">3.357</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">ETo</td>
+    <td char="." align="char">0.045</td>
+    <td char="." align="char">0.048</td>
+    <td char="." align="char">0.931</td>
+    <td align="left">0.352</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5">
+     <bold>(E) Sap flow (mm/day) in both floodplains and drylands</bold>
+     <sup>
+      <bold>e</bold>
+     </sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Intercept)</td>
+    <td char="." align="char">0.752</td>
+    <td char="." align="char">0.624</td>
+    <td char="." align="char">1.206</td>
+    <td align="left">0.228</td>
+   </tr>
+   <tr>
+    <td align="left">Solar Radiation</td>
+    <td char="." align="char">0.020</td>
+    <td char="." align="char">0.008</td>
+    <td char="." align="char">2.582</td>
+    <td align="left">0.010*</td>
+   </tr>
+   <tr>
+    <td align="left">Wind Speed</td>
+    <td char="." align="char">− 0.091</td>
+    <td char="." align="char">0.028</td>
+    <td char="." align="char">− 3.169</td>
+    <td align="left"> &lt; 0.001**</td>
+   </tr>
+   <tr>
+    <td align="left">Soil Moisture</td>
+    <td char="." align="char">− 0.016</td>
+    <td char="." align="char">0.004</td>
+    <td char="." align="char">− 3.229</td>
+    <td align="left"> &lt; 0.001**</td>
+   </tr>
+   <tr>
+    <td align="left">VPD</td>
+    <td char="." align="char">0.313</td>
+    <td char="." align="char">0.0701</td>
+    <td char="." align="char">4.456</td>
+    <td align="left"> &lt; 0.0001***</td>
+   </tr>
+   <tr>
+    <td align="left">ETo </td>
+    <td char="." align="char">0.008</td>
+    <td char="." align="char">0.0534</td>
+    <td char="." align="char">0.150</td>
+    <td align="left">0.881</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>Residual standard error: 1.148 on 310 degrees of freedom, Multiple R-squared: 0.3179, Adjusted R-squared: 0.3069, F-statistic: 28.9 on 5 and 310 DF, 
+   <italic>p </italic>value: &lt; 2.2e−16.
+  </p>
+  <p>
+   <sup>b</sup>Residual standard error: 0.7245 on 310 degrees of freedom, Multiple R-squared: 0.1929, Adjusted R-squared: 0.1799, F-statistic: 14.82 on 5 and 310 DF, 
+   <italic>p </italic>value: 4.879e−13.
+  </p>
+  <p>
+   <sup>c</sup>Residual standard error: 0.3531 on 310 degrees of freedom, Multiple R-squared: 0.05818, Adjusted R-squared: 0.04299, F-statistic: 3.83 on 5 and 310 DF, 
+   <italic>p </italic>value: 0.002212.
+  </p>
+  <p>
+   <sup>d</sup>Residual standard error: 0.3276 on 310 degrees of freedom, Multiple R-squared: 0.1547, Adjusted R-squared: 0.1411, F-statistic: 11.35 on 5 and 310 DF, 
+   <italic>p </italic>value: 4.59e−10.
+  </p>
+  <p>
+   <sup>e</sup>Residual standard error: 0.3609 on 310 degrees of freedom, Multiple R-squared: 0.1946, Adjusted R-squared: 0.1816, F-statistic: 14.98 on 5 and 310 DF, 
+   <italic>p </italic>value: 3.521e−13; Asterisks indicate level of significance: *** =  &lt; 0.001, ** &lt; 0.01, * =  &lt; 0.05.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

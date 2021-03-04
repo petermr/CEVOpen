@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Neri 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>] recently fitted a model of the type we use here to the dataset on the spread of citrus canker in Miami that we described in the Introduction (note this is also the dataset used by Cook 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>]). In common with Cook 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>], Neri 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>] found that an exponential dispersal kernel was best-supported by the data. However these authors found only a small difference in model goodness of fit between the exponential and Cauchy kernels. Neri 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>] suggest this partial lack of identifiability is driven by the effect of continual primary infection (i.e. infection from outside the study site, within which disease spread was mapped). At large distances from infected hosts, the small and slowly decreasing probability of infection that would be associated with Cauchy dispersal is very difficult to distinguish from the small and effectively unchanging probability that would follow an exponential kernel combined with a constant background rate of primary infection caused by fat-tailed dispersal from one or more distant sources of inoculum, or by anthropomorphic introduction of inoculum on implements, clothing or cuttings. The study sites were relatively small (&lt;10km
+ <sup>2</sup>) uncontrolled regions embedded within a large ongoing epidemic. A non-zero rate of primary infection from outside was necessary to fit the spread data in these sites, since there was significant ingress of infection from outside each site. Here, since we specifically target an isolated outbreak of emerging plant disease, far from any large source of inoculum, primary infection is not required in the analyses in the current paper. We accordingly set the rate of primary infection to zero throughout our analyses, and default to using an exponential dispersal kernel, for consistency with the fitting of Neri 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>] and Cook 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>], together with the previous analyses of Parnell 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+ <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>].
+</p>

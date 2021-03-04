@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Twenty‐two species were selected based on expert opinion of the invaded system and availability of seed. To address the hypotheses, existing functional trait information for the study species was sourced. The TRY trait database (Kattge et al., 
+ <xref rid="ece32799-bib-0050" ref-type="ref">2011</xref>) was used to obtain the functional traits of species, and specific leaf area, canopy height, life span, growth form, woodiness, relative growth rate, and leaf dry matter content were selected. These functional traits are relevant to the list of common core plant traits related to dispersal, establishment, and persistence (Weiher et al., 
+ <xref rid="ece32799-bib-0119" ref-type="ref">1999</xref>) and were also related to competitive ability and growth (Funk et al., 
+ <xref rid="ece32799-bib-0040" ref-type="ref">2008</xref>). To build a species‐trait matrix, the median value of a measured trait per species was used for data to be consistent. Species were classified into functional groups based on trait similarity. Based on these functional traits, Gower's similarity coefficient among species was calculated using the 
+ <italic>gowdis</italic> function in the R statistical software package (Gower, 
+ <xref rid="ece32799-bib-0044" ref-type="ref">1971</xref>; Podani, 
+ <xref rid="ece32799-bib-0086" ref-type="ref">1999</xref>). All traits were standardized and equally weighted in the calculation of the similarity coefficient.
+</p>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The appropriate balance between local and global impacts is necessarily a pragmatic choice to be made by the decision maker, and it is impossible for us to be too prescriptive. We account for this need for flexibility by introducing a tuneable composite measure of global “epidemic cost”, Ψ
+ <sub>
+  <italic>E</italic>
+ </sub>, intended to balance the epidemic impact and epidemic time, allowing for different weightings of local vs. global impacts. In particular, we define the normalised epidemic cost via 
+ <disp-formula id="pcbi.1004211.e017">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e017.jpg" id="pcbi.1004211.e017g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M17">
+    <mrow>
+     <msub>
+      <mo mathvariant="normal">ψ</mo>
+      <mi>E</mi>
+     </msub>
+     <mtext>=</mtext>
+     <mo>​</mo>
+     <mo>​</mo>
+     <mtext>(1-η)</mtext>
+     <msub>
+      <mover accent="true">
+       <mi>κ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+     <mtext>+η</mtext>
+     <msub>
+      <mover accent="true">
+       <mi>τ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+    <mo>,</mo>
+   </math>
+  </alternatives>
+ </disp-formula> where 
+ <inline-formula id="pcbi.1004211.e018">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e018.jpg" id="pcbi.1004211.e018g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M18">
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>κ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="pcbi.1004211.e019">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e019.jpg" id="pcbi.1004211.e019g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M19">
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>τ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> are simply the epidemic impact, κ
+ <sub>
+  <italic>E</italic>
+ </sub>, and the epidemic time, τ
+ <sub>
+  <italic>E</italic>
+ </sub>, normalised to a [0,1] scale (this is done by dividing by the maximum of the median values over all cull radii; for κ
+ <sub>
+  <italic>E</italic>
+ </sub> this is 1980 hosts at 
+ <italic>L</italic> = 0m, whereas for τ
+ <sub>
+  <italic>E</italic>
+ </sub> it is 3200d at 
+ <italic>L</italic> = 63m). The dimensionless weighting parameter η then controls the relative importance assigned to global impacts. In particular, taking η = 0 means only local impacts would be considered, with normalised epidemic cost 
+ <inline-formula id="pcbi.1004211.e020">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e020.jpg" id="pcbi.1004211.e020g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M20">
+    <mrow>
+     <msub>
+      <mo>ψ</mo>
+      <mi>E</mi>
+     </msub>
+     <mtext>= </mtext>
+     <mo>​</mo>
+     <msub>
+      <mover accent="true">
+       <mi>κ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> (i.e. the normalised epidemic impact), whereas η = 1 would entirely focus on impacts outside the region of immediate interest, with 
+ <inline-formula id="pcbi.1004211.e021">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e021.jpg" id="pcbi.1004211.e021g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M21">
+    <mrow>
+     <msub>
+      <mo mathvariant="normal">ψ</mo>
+      <mi>E</mi>
+     </msub>
+     <mtext>= </mtext>
+     <mo>​</mo>
+     <msub>
+      <mover accent="true">
+       <mi>τ</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>E</mi>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> (i.e. the normalised epidemic time). As η is increased, the cull radius that minimises Ψ
+ <sub>
+  <italic>E</italic>
+ </sub> is increased (
+ <xref rid="pcbi.1004211.g004" ref-type="fig">Fig 4b</xref>): the larger weighting given to global impacts means that it becomes increasingly optimal to control very aggressively to eradicate the local epidemic as quickly as possible, despite the large number of local removals that would then be required.
+</p>

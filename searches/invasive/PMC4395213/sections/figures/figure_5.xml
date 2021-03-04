@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pcbi.1004211.g005" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pcbi.1004211.g005</object-id>
+ <label>Fig 5</label>
+ <caption>
+  <title>The effect of thick-tailed dispersal.</title>
+  <p>(a) Response of the epidemic impact κ
+   <sub>
+    <italic>E</italic>
+   </sub> to the cull radius 
+   <italic>L</italic> with Cauchy dispersal and low infection rate (
+   <italic>β</italic> = 0.007d
+   <sup>-1</sup>). (b) Response of median κ
+   <sub>
+    <italic>E</italic>
+   </sub> to 
+   <italic>L</italic> for a number of values of 
+   <italic>β</italic>. Note how quickly the performance of control degrades with only relatively small increases to 
+   <italic>β</italic>. (c) Full response of κ
+   <sub>
+    <italic>E</italic>
+   </sub> to 
+   <italic>L</italic> when 
+   <italic>β</italic> = 0.01d
+   <sup>-1</sup>. Note the extreme variability at even the optimal radius (e.g. 
+   <italic>L</italic> = 300m, inset C), and the significant probability of a large epidemic at this cull radius, even though the median κ
+   <sub>
+    <italic>E</italic>
+   </sub> is optimised. (d) Risk of failure for 
+   <italic>β</italic> = 0.01d
+   <sup>-1</sup>: it is impossible to select a range of radii for which p(Risk &lt; Ω) &lt; 0.1 for Ω = 20% (
+   <italic>cf</italic>. 
+   <xref rid="pcbi.1004211.g002" ref-type="fig">Fig 2b</xref>).
+  </p>
+ </caption>
+ <graphic xlink:href="pcbi.1004211.g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

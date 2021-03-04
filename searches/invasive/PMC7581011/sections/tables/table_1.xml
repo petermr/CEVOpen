@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pbio.3000863.t001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pbio.3000863.t001</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>Description of parameters used in the model.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pbio.3000863.t001g" xlink:href="pbio.3000863.t001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="left" rowspan="1" colspan="1">Interpretation</th>
+     <th align="left" rowspan="1" colspan="1">Value</th>
+     <th align="left" rowspan="1" colspan="1">Rationale</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" colspan="3" rowspan="1">
+      <bold>Simulation model</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Proportion of citrus in cell.</td>
+     <td align="left" rowspan="1" colspan="1">[Spatial grid]</td>
+     <td align="left" rowspan="1" colspan="1">Estimated as the sum of the commercial and residential citrus density.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Citrus density threshold for spread simulation.</td>
+     <td align="left" rowspan="1" colspan="1">0.0025 km
+      <sup>2</sup>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Approximately 1/16th of a typical Floridian citrus grove. Also, this density is around the suspected minimum for citrus canker spread in residential trees in Miami [
+      <xref rid="pbio.3000863.ref058" ref-type="bibr">58</xref>].
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="3" colspan="1">Maximal overall rate of pathogen entry into the state.</td>
+     <td align="left" rowspan="1" colspan="1">0.05/year (around one entry every 200 years)</td>
+     <td align="left" rowspan="3" colspan="1">Details on the modelling of pathogen entry are given in 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>. These rates were selected in order to represent a variety of different situations. The inverse of each rate relates to the mean number of entries per year if all cells were full of susceptible hosts. Estimates of the modelled rate based on the mean citrus density of 0.1 are shown in parentheses. A variety of other rates were considered when evaluating the impact of model misspecification.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">0.50/year (around one entry every 20 years)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">5.00/year (around one entry every 2 years)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Initial infectivity following cell infection.</td>
+     <td align="left" rowspan="1" colspan="1">0.006</td>
+     <td align="left" rowspan="1" colspan="1">Fitted to data on the spread of disease in Devil’s Garden, assuming a logistic increase in infectivity. See 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Relative rate of pathogen entry.</td>
+     <td align="left" rowspan="1" colspan="1">[Spatial grid]</td>
+     <td align="left" rowspan="1" colspan="1">Two different distributions of pathogen entry were considered, as described in the text.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Rate of increase in infectivity per cell.</td>
+     <td align="left" rowspan="1" colspan="1">1.25 infections/infected/year</td>
+     <td align="left" rowspan="1" colspan="1">Fitted to data from Devil’s Garden, assuming a logistic increase in infectivity and a 6- to 12-month asymptomatic period. See 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Secondary spread parameter (can be interpreted as the maximal number of cells infected by a single infected cell).</td>
+     <td align="left" rowspan="1" colspan="1">1,000/year</td>
+     <td align="left" rowspan="1" colspan="1">Selected by fixing all other parameters and adjusting until the model simulated state-wide spread in 10 years (see 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>).
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Mean pathogen dispersal distance (assuming exponential kernel).</td>
+     <td align="left" rowspan="1" colspan="1">20 km (in 2 dimensions)</td>
+     <td align="left" rowspan="1" colspan="1">Estimate taken from recent study of pathogen spread [
+      <xref rid="pbio.3000863.ref020" ref-type="bibr">20</xref>].
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Maximum prevalence for simulation model.</td>
+     <td align="left" rowspan="1" colspan="1">1%</td>
+     <td align="left" rowspan="1" colspan="1">Selected as representative of a relatively low prevalence that is also able to capture the impact of spatial autocorrelation following introduction.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Number of epidemic realisations to run.</td>
+     <td align="left" rowspan="1" colspan="1">1,000</td>
+     <td align="left" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" colspan="3" rowspan="1">
+      <bold>Detection model</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Initial probability of detection.</td>
+     <td align="left" rowspan="1" colspan="1">0.006</td>
+     <td align="left" rowspan="1" colspan="1">Fitted to data from Devil’s Garden, assuming a logistic increase in detectability. See 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Rate of increase in probability of detection.</td>
+     <td align="left" rowspan="1" colspan="1">1.00 detectable/detectable /year</td>
+     <td align="left" rowspan="1" colspan="1">Fitted to data from Devil’s Garden, assuming a logistic increase in detectability. See 
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Number of sites visited each sampling round.</td>
+     <td align="left" rowspan="1" colspan="1">Varied between 1 and 150</td>
+     <td align="left" rowspan="1" colspan="1">Optimisation was only performed for between 1 and 50 sites. Site selection using risk metrics was performed for between 1 and 150 sites.</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Number of samples collected per site each sampling round.</td>
+     <td align="left" rowspan="1" colspan="1">50</td>
+     <td align="left" rowspan="1" colspan="1">Considered a reasonable intensity of surveillance within a 1-km
+      <sup>2</sup> area.
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Probability of detection if infected host sampled.</td>
+     <td align="left" rowspan="1" colspan="1">0.5</td>
+     <td align="left" rowspan="1" colspan="1">Assuming visual inspection. Estimate obtained from a comparison of PCR and visual inspection for detection of infection in Floridian citrus groves [
+      <xref rid="pbio.3000863.ref059" ref-type="bibr">59</xref>].
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="7" colspan="1">Interval between sampling rounds.</td>
+     <td align="left" rowspan="1" colspan="1">1/365 years</td>
+     <td align="left" rowspan="1" colspan="1">Daily</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">7/365 years</td>
+     <td align="left" rowspan="1" colspan="1">Weekly</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">1/12 years</td>
+     <td align="left" rowspan="1" colspan="1">Monthly</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">0.25 years</td>
+     <td align="left" rowspan="1" colspan="1">Quarterly</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">0.5 years</td>
+     <td align="left" rowspan="1" colspan="1">Biannually</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">0.75 years</td>
+     <td align="left" rowspan="1" colspan="1">Every 9 months</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">1 year</td>
+     <td align="left" rowspan="1" colspan="1">Annually</td>
+    </tr>
+    <tr>
+     <td align="left" colspan="3" rowspan="1">
+      <bold>Optimisation</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Initial temperature.</td>
+     <td align="left" rowspan="1" colspan="1">10</td>
+     <td align="left" rowspan="3" colspan="1">Identified by adjusting parameter estimates and inspecting the progression of the objective function (
+      <xref ref-type="supplementary-material" rid="pbio.3000863.s008">S7 Fig</xref>).
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Rate of cooling.</td>
+     <td align="left" rowspan="1" colspan="1">0.999</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Number of iterations of simulated annealing algorithm.</td>
+     <td align="left" rowspan="1" colspan="1">100,000</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

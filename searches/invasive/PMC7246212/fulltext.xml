@@ -1,0 +1,957 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7246212</article-id><article-id pub-id-type="doi">10.1002/ece3.6206</article-id><article-id pub-id-type="publisher-id">ECE36206</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Transcriptional analyses reveal the molecular mechanism governing shade tolerance in the invasive plant <italic>Solidago canadensis</italic>
+</article-title><alt-title alt-title-type="left-running-head">WU et al.</alt-title></title-group><contrib-group><contrib id="ece36206-cr-0001" contrib-type="author"><name><surname>Wu</surname><given-names>Miao</given-names></name><xref ref-type="aff" rid="ece36206-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36206-cr-0002" contrib-type="author"><name><surname>Li</surname><given-names>Zeyu</given-names></name><xref ref-type="aff" rid="ece36206-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36206-cr-0003" contrib-type="author" corresp="yes"><name><surname>Wang</surname><given-names>Jianbo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3040-5522</contrib-id><xref ref-type="aff" rid="ece36206-aff-0001">
+<sup>1</sup>
+</xref><address><email>jbwang@whu.edu.cn</email></address></contrib></contrib-group><aff id="ece36206-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">College of Life Sciences</named-content>
+<institution>Wuhan University</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Jianbo Wang, College of Life Sciences, Wuhan University, Wuhan 430072, China.<break/>
+Email: <email>jbwang@whu.edu.cn</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>3</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>5</month><year>2020</year></pub-date><volume>10</volume><issue>10</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.10</issue-id><fpage>4391</fpage><lpage>4406</lpage><history><date date-type="received"><day>03</day><month>12</month><year>2019</year></date><date date-type="rev-recd"><day>26</day><month>2</month><year>2020</year></date><date date-type="accepted"><day>28</day><month>2</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-4391.pdf"/><abstract id="ece36206-abs-0001"><title>Abstract</title><p>
+<italic>Solidago canadensis</italic> is an invasive plant that is capable of adapting to variable light conditions. To elucidate the shade tolerance mechanism in <italic>S.&#x000a0;canadensis</italic> at the molecular level, transcriptome analyses were performed for leaves growing under natural light and three shade level conditions. Many differentially expressed genes (DEGs) were found in the comparative analysis, including those involved in photosynthesis, antioxidant, and secondary metabolism of phenol&#x02010; and flavonoid&#x02010;related pathways. Most genes encoding proteins involved in photosynthesis, such as photosystem I reaction center subunit (Psa), photosystem II core complex protein (Psb), and light&#x02010;harvesting chlorophyll protein (Lhca and Lhcb), and reactive oxygen species (ROS) scavenging&#x02010;related enzymes, such as superoxide dismutase (SOD), peroxidase (POD), and catalase (CAT), were upregulated with the shade levels. Furthermore, most of the DEGs related to secondary metabolite synthesis were also upregulated in the shade conditions. Our study indicates that <italic>S</italic>. <italic>canadensis</italic> can respond to shade stress by modulating the expression of several photosynthesis&#x02010;related, free radical scavenging&#x02010;related, and secondary metabolism&#x02010;related genes; thus, this species has the ability to adapt to different light conditions.</p></abstract><abstract abstract-type="graphical" id="ece36206-abs-0002"><p>The invasive plants are widely distributed in different external environments and have a good adaptive ability. Through the analysis of gene expression in the leaves of <italic>Solidago canadensis</italic> under different shading conditions, the genes that played an important role in responding to shading stress were screened out. The differential expression of these genes may play an important role in the response of <italic>S.&#x000a0;canadensis</italic> plant to light avoidance environment. It is possible to cope with different light intensities, which are likely to play an important role in the process of <italic>S.&#x000a0;canadensis</italic> expanding invasion and forming invasive species. At the same time, it also provides a theoretical basis for the distribution of <italic>S.&#x000a0;canadensis</italic>.<boxed-text position="anchor" content-type="graphic" id="ece36206-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-4391-g012.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece36206-kwd-0001">gene expression</kwd><kwd id="ece36206-kwd-0002">invasion</kwd><kwd id="ece36206-kwd-0003">photosynthesis</kwd><kwd id="ece36206-kwd-0004">shade stress</kwd><kwd id="ece36206-kwd-0005"><italic>Solidago canadensis</italic></kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>31970241</award-id><award-id>31570539</award-id></award-group></funding-group><counts><fig-count count="11"/><table-count count="2"/><page-count count="16"/><word-count count="10607"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.8.2 mode:remove_FC converted:24.05.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece36206-cit-1001">
+<string-name>
+<surname>Wu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Transcriptional analyses reveal the molecular mechanism governing shade tolerance in the invasive plant <italic>Solidago canadensis</italic>
+</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2020</year>;<volume>10</volume>:<fpage>4391</fpage>&#x02013;<lpage>4406</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6206</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece36206-body-0001"><sec id="ece36206-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Biological invasion represents a threat to ecosystem management. Many studies have revealed that invasive plants have the ability to adapt to the scarcity in resources such as availability of nutrients, water, light, and various environmental stresses. (te Beest et al., <xref rid="ece36206-bib-0064" ref-type="ref">2012</xref>; Colautti &#x00026; Barrett, <xref rid="ece36206-bib-0009" ref-type="ref">2013</xref>; Rosche et al., <xref rid="ece36206-bib-0052" ref-type="ref">2017</xref>; Th&#x000e9;bault, M&#x000fc;ller&#x02010;Sch&#x000e4;rer, &#x00026; Buttler, <xref rid="ece36206-bib-0065" ref-type="ref">2011</xref>). Understanding how these plants can invade an ecosystem has therefore been a major challenge for ecologists (Simberloff et al., <xref rid="ece36206-bib-0058" ref-type="ref">2013</xref>). Recently, biological invasion has received increased attention in terms of the factor(s) promoting invasion success (Bock et al., <xref rid="ece36206-bib-0005" ref-type="ref">2015</xref>; Pandit, White, &#x00026; Pocock, <xref rid="ece36206-bib-0046" ref-type="ref">2014</xref>). Consequently, a growing emphasis has been placed on elucidating the mechanisms that lead to higher capabilities of invasiveness in invasive species (Pandit et al., <xref rid="ece36206-bib-0046" ref-type="ref">2014</xref>). Invasive plants frequently possess broader ecological amplitudes and greater plasticity (te Beest et al., <xref rid="ece36206-bib-0064" ref-type="ref">2012</xref>; Si et al., <xref rid="ece36206-bib-0056" ref-type="ref">2014</xref>), while increasing evidence suggests a higher phenotypic plasticity, which acts as an important determinant for species invasiveness (Amina et al., <xref rid="ece36206-bib-0003" ref-type="ref">2014</xref>; Molina&#x02010;Montenegro et al., <xref rid="ece36206-bib-0042" ref-type="ref">2013</xref>). On the one hand, phenotypic plasticity allows the plant to respond to altered environmental conditions by changing its phenotype, a phenomenon that has been recorded for many species that assume different response traits in variable environments (Ortega&#x02010;Mayagoitia, Hernandez&#x02010;Martinez, &#x00026; Ciros&#x02010;Perez, <xref rid="ece36206-bib-0045" ref-type="ref">2018</xref>). This characteristic plays a central role in biological invasions by permitting individuals to colonize different environments and establish viable populations (Du, Liu, Yan, Li, &#x00026; Li, <xref rid="ece36206-bib-0012" ref-type="ref">2017</xref>).</p><p>Light is one of the most prominent environmental factors for plant growth (Wang, Chen, Botella, &#x00026; Guo, <xref rid="ece36206-bib-0073" ref-type="ref">2019</xref>). Light not only affects the rate of photosynthesis, antioxidant enzyme activity, and the production of biomass, but also it also regulates all aspects of development in plants (Li, Xin, et al., <xref rid="ece36206-bib-0032" ref-type="ref">2017</xref>; Wu, Chen, Sun, Deng, &#x00026; Chen, <xref rid="ece36206-bib-0075" ref-type="ref">2016</xref>). Shade can cause certain metabolic changes as well as imbalances in photosynthesis and carbohydrate production, potentially limiting plant growth and stability (Huang, Zhang, &#x00026; Liu, <xref rid="ece36206-bib-0019" ref-type="ref">2018</xref>; Sajad et al., <xref rid="ece36206-bib-0053" ref-type="ref">2018</xref>). Plants are able to respond to changes in light decreased conditions by adjusting a range of physiological and morphological characteristics, such as the specific leaf area, leaf size, biomass allocation pattern, and chlorophyll content (Feng &#x00026; van Kleunen, <xref rid="ece36206-bib-0013" ref-type="ref">2014</xref>; Legner, Fleck, &#x00026; Leuschner, <xref rid="ece36206-bib-0026" ref-type="ref">2014</xref>; Liu et al., <xref rid="ece36206-bib-0036" ref-type="ref">2016</xref>). Plants can respond to light decreased environments by altering gene expression levels, for example, photosystem&#x02010;related genes are differentially expressed, and most transcription factor (TF) genes are induced under shade conditions in <italic>Camellia sinensis</italic> (Wu et al., <xref rid="ece36206-bib-0075" ref-type="ref">2016</xref>). Gibberellin biosynthesis genes are found to play a role in shade tolerance in <italic>Lolium perenne</italic> (Li, Katin&#x02010;Grazzini, et al., <xref rid="ece36206-bib-0031" ref-type="ref">2017</xref>). The expression of genes related to photosystem I and photosystem II could be affected by various light conditions (Rogowski et al., <xref rid="ece36206-bib-0051" ref-type="ref">2019</xref>). Shade avoidance and tolerance responses in plants could be reflected in the alteration of expressed genes, such as those involved in hormone signaling and pigment biosynthesis (Ranade, Delhomme, &#x00026; Garc&#x000ed;a&#x02010;Gil, <xref rid="ece36206-bib-0050" ref-type="ref">2019</xref>).</p><p>Invasive plants can spread across diverse habitats via individual plasticity (Williams, Mack, &#x00026; Black, <xref rid="ece36206-bib-0074" ref-type="ref">1995</xref>). When dispersed in a shaded environment with low light intensities, invasive plants frequently develop a greater leaf area and biomass to enhance their light capture and utilization efficiency to adapt to the reduced light conditions (Du et al., <xref rid="ece36206-bib-0012" ref-type="ref">2017</xref>). This phenomenon reveals that plants have developed some regulatory processes to adapt to shade conditions and may enable their invasion into wider areas.</p><p>
+<italic>Solidago canadensis</italic> L. (Asteraceae), native to North America, has successfully invaded many areas worldwide. The success of invasion can be related to the plant's high phenotypic plasticity (Du et al., <xref rid="ece36206-bib-0012" ref-type="ref">2017</xref>). <italic>S</italic>. <italic>canadensis</italic> has a relatively wide niche with different soil properties in Europe (Szymura &#x00026; Szymura, <xref rid="ece36206-bib-0063" ref-type="ref">2013</xref>) and can rapidly spread in non&#x02010;native regions with different climatic conditions (Li, Du, Guan, Yu, &#x00026; van Kleunen, <xref rid="ece36206-bib-0029" ref-type="ref">2016</xref>). Currently, <italic>S</italic>. <italic>canadensis</italic> has been naturalized in many areas and is considered one of the most destructive and widespread invasive species (Wang, Jiang, Zhou, &#x00026; Wu, <xref rid="ece36206-bib-0067" ref-type="ref">2018</xref>), distributed in multiple areas, including farmland, the sides of roads, and upland forests.</p><p>To date, the biological processes of <italic>S</italic>. <italic>canadensis</italic> in response to shading stress have been unclear. The present study provides a comprehensive description of the differential gene expression patterns in this plant under different degrees of shading. We examine the consequences of three different light intensity levels of shade treatment on the morphological, physiological, and transcriptional characteristics of <italic>S</italic>.&#x000a0;<italic>canadensis</italic>. Based on the comprehensive analysis, candidate shade stress&#x02010;responsive genes are identified in comparison with control natural light conditions. These findings will contribute to understanding how <italic>S</italic>.&#x000a0;<italic>canadensis</italic> adapts to the shade environment and may help to elucidate how it has become an invasive species.</p></sec><sec sec-type="materials-and-methods" id="ece36206-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece36206-sec-0003"><label>2.1</label><title>Plant materials and treatment</title><p>In this study, we transplanted 36 rhizomes, respectively, originated from 36 plants of the hexaploid <italic>S</italic>.&#x000a0;<italic>canadensis</italic> growing at the suburb of Wuhan city to the open air garden in Wuhan University (30&#x000b0;32&#x02032;N, 114&#x000b0;25&#x02032;E), Hubei Province, China. After three months (from February to April) of cultivation in pots under natural conditions (Figure&#x000a0;<xref rid="ece36206-fig-0001" ref-type="fig">1</xref>), we selected 12 of the 36 plants with similar growth status and randomly divided them into four groups. One of these groups was used as control, and the other three groups were covered with one layer, two layers, and three layers of shade net, respectively. In the control treatment (L), plants were cultivated under natural light. In the three different levels of shade treatment with one&#x02010;, two&#x02010; and three&#x02010;layer shade nets, the natural irradiance availability was reduced to 50% (L<sub>1</sub>), 25% (L<sub>2</sub>), and 10% (L<sub>3</sub>), respectively, via black shade nets that were clamped to a metal frame at a height of 150&#x000a0;cm (Semchenko, Lepik, Gotzenberger, &#x00026; Zobel, <xref rid="ece36206-bib-0054" ref-type="ref">2012</xref>). Light intensities were measured by a handheld luxmeter (SMART Digital Lux Meter AS 813). After cultivation for 21&#x000a0;days, we collected leaves from the four treatment groups, with each containing three replicates. The leaves in each plant were collected from the top third to fifth leaves, and these leaves were prepared for RNA extraction, quantitative real&#x02010;time PCR analysis, and chlorophyll content measurement.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>The appearance of <italic>S. canadensis</italic> cultivated under various levels of shade treatments. (a) The phenotype of each whole plant; (b) the phenotype of each leaves</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-4391-g001"/></fig></sec><sec id="ece36206-sec-0004"><label>2.2</label><title>Measurement of chlorophyll content</title><p>One hundred milligrams of each fresh leaf sample from the four treatment was ground with a sterile pestle and morter. The samples were transferred into 15&#x02010;ml tubes followed by the addition of 10&#x000a0;ml 96% ethanol. After mixing well, the tubes were placed at 4&#x000b0;C for two days. The samples were centrifuged at 17925 <italic>g</italic> at 4&#x000b0;C for 1&#x000a0;min, and then, the OD value of the supernatant was determined at wavelengths of 470, 665, and 649&#x000a0;nm with an MAPADA UV&#x02010;1200 spectrophotometer (Shanghai Meipuda Instrument Co. Ltd.). The contents of chlorophyll <italic>a</italic>, <italic>b</italic>, and total carotenoid for all samples were calculated according to previous studies as follows: <italic>C</italic>
+<sub>a</sub>&#x000a0;=&#x000a0;13.95&#x000a0;&#x000d7;&#x000a0;A665&#x02013;6.88&#x000a0;&#x000d7;&#x000a0;A645; <italic>C</italic>
+<sub>b</sub>&#x000a0;=&#x000a0;24.96&#x000a0;&#x000d7;&#x000a0;A649&#x02013;7.32&#x000a0;&#x000d7;&#x000a0;A665; <italic>C<sub>x</sub></italic>
+<sub>+c</sub>&#x000a0;=&#x000a0;(1,000A470&#x02013;2.05<italic>C</italic>
+<sub>a</sub>&#x02013;114.8<italic>C</italic>
+<sub>b</sub>)/245 (Lichtenthaler &#x00026; Wellburn, <xref rid="ece36206-bib-0033" ref-type="ref">1985</xref>).</p></sec><sec id="ece36206-sec-0005"><label>2.3</label><title>mRNA isolation, library construction, and RNA&#x02010;seq</title><p>The leaves of 12 samples from the four treatments were collected for mRNA isolation. After being fully ground, total RNA from frozen leaves was isolated using TRIzol reagent. RNA integrity and purity were checked using an Agilent 2100 Bioanalyzer (Agilent RNA 6000 Nano Kit) with a minimum integrity value of 7.5. The cDNA library of each sample was constructed as follows. First, mRNA was isolated from total RNA with magnetic beads containing Oligo (dT) primer. Subsequently, the enriched mRNAs were fragmented in fragmentation buffer, and then, first&#x02010;strand and second&#x02010;strand cDNA were synthesized and amplified using an ABI Step One Plus Real&#x02010;Time PCR System. Finally, these cDNA library preparations were sequenced using an Illumina HiSeq X Ten from both the 5&#x02032; and 3&#x02032; ends, and 150&#x02010;bp paired&#x02010;end reads were generated.</p></sec><sec id="ece36206-sec-0006"><label>2.4</label><title>De novo assembly and functional annotation</title><p>Raw reads containing low&#x02010;quality, adaptor&#x02010;polluted, and a high content of unknown bases were removed and satisfied with the number of Q20 above 90% before downstream analyses. After filtering out low&#x02010;quality and ambiguous nucleotides, de novo assemblies were prepared from the clean reads using Trinity (v2.0.6; Grabherr et al., <xref rid="ece36206-bib-0017" ref-type="ref">2011</xref>). A transcriptome assembly, generated from all mixed samples, was used as a reference for further gene expression analysis. For gene function annotations, all nonredundant assembled transcripts (&#x02265;200&#x000a0;bp) were used to search against public databases, including the nonredundant protein (Nr), nucleotide (Nt), EuKaryotic Orthologous Groups (KOG), Swiss&#x02010;Prot, and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases, with a significance threshold of <italic>E</italic>&#x02010;value&#x000a0;&#x02264;&#x000a0;10<sup>&#x02212;5</sup>. Based on the NR annotation results, Blast2GO software was used to classify unigenes against the Gene Ontology (GO) database according to cellular component, biological process, and molecular function (Gotz et al., <xref rid="ece36206-bib-0016" ref-type="ref">2008</xref>).</p></sec><sec id="ece36206-sec-0007"><label>2.5</label><title>Differentially expressed gene analysis</title><p>All clean reads from each sample were mapped to the assembled unigene dataset with Bowtie2 software (Langmead &#x00026; Salzberg, <xref rid="ece36206-bib-0024" ref-type="ref">2012</xref>), and the gene expression levels were calculated with RSEM software (Li &#x00026; Dewey, <xref rid="ece36206-bib-0027" ref-type="ref">2011</xref>). To provide a relatively accurate assessment of transcript abundance, the fragments per kilobase of exon model per million mapped reads (FPKM) value were used as a measure to normalize the unigene expression levels (Mortazavi, Williams, Mccue, Schaeffer, &#x00026; Wold, <xref rid="ece36206-bib-0043" ref-type="ref">2008</xref>). The differentially expressed genes (DEGs) between each group were identified with DEseq2 software with a |log<sub>2</sub> (fold change)|&#x000a0;&#x02265;&#x000a0;1 and adjusted <italic>p</italic>&#x02010;value&#x000a0;&#x0003c;&#x000a0;.05 as the threshold for significantly different expression (Love, Huber, &#x00026; Anders, <xref rid="ece36206-bib-0038" ref-type="ref">2014</xref>). GO enrichment analysis of all DEGs was performed using hyper, a function of R based on the hypergeometric distribution (Young, Wakefield, Smyth, &#x00026; Oshlack, <xref rid="ece36206-bib-0077" ref-type="ref">2010</xref>). Furthermore, REVIGO was used to visualize the enriched GO term in multiple ways to facilitate interpretation (Supek, Bosnjak, Skunca, &#x00026; Smuc, <xref rid="ece36206-bib-0062" ref-type="ref">2011</xref>). For KEGG pathway enrichment analysis, all DEGs were mapped to pathways in the KEGG database and identified significantly enriched pathways based on a corrected <italic>p</italic>&#x02010;value&#x000a0;&#x0003c;&#x000a0;.05.</p></sec><sec id="ece36206-sec-0008"><label>2.6</label><title>Gene expression network construction</title><p>Weighted gene correlation network analysis (WGCNA) is used to construct the expressed gene network and identify stress&#x02010;related candidate key genes. This method has been widely applied in model organisms and nonmodel organisms for gene expression studies (Fu et al., <xref rid="ece36206-bib-0014" ref-type="ref">2014</xref>; Lou et al., <xref rid="ece36206-bib-0037" ref-type="ref">2017</xref>). The gene network was constructed using the R package WGCNA (Langfelder &#x00026; Horvath, <xref rid="ece36206-bib-0023" ref-type="ref">2008</xref>), and all the DEGs between the shade treatment and control were applied to WGCNA. These collected genes were clustered to form different modules, which were assembled by unique color. A significant correlation for each module was satisfied with coefficients &#x0003e;0.80 and <italic>p</italic>&#x02010;values&#x000a0;&#x0003c;&#x000a0;.01. Modules that were significantly correlated with shade stress were extracted and exported into Cytoscape (ver. 2.8, <ext-link ext-link-type="uri" xlink:href="http://www.cytoscape.org/">http://www.cytoscape.org/</ext-link>) for network visualization (Smoot, Ono, Ruscheinski, Wang, &#x00026; Ideker, <xref rid="ece36206-bib-0059" ref-type="ref">2011</xref>). Hub genes were identified based on the connection degree of each node in the network.</p></sec><sec id="ece36206-sec-0009"><label>2.7</label><title>Statistical analysis</title><p>In order to investigate whether the chlorophyll and carotenoid content of plants were changed under different light conditions, the experiment of chlorophyll content measurement for each treatment was repeated three times in this study. The data of chlorophyll and carotenoid content were analyzed by one&#x02010;way analysis of variance, and the mean (&#x000b1;<italic>SD</italic>) was the average calculated from three biological replicates. Letters on the bars represent a significant difference at <italic>p</italic>&#x02010;value&#x000a0;&#x02264;&#x000a0;.05 (LSD test) among different treatments compared with the control group.</p></sec><sec id="ece36206-sec-0010"><label>2.8</label><title>Validation of gene expression by qRT&#x02010;PCR</title><p>The quantitative real&#x02010;time polymerase chain reaction (qRT&#x02010;PCR) technique was used to validate gene expression from RNA&#x02010;Seq. RNA was isolated with TRIzol reagent from each independent biological sample. In order to prevent the presence of DNA in extracted RNA samples, all the RNA samples were treated with DNase I to digest DNA. cDNAs were obtained by reverse transcription of each RNA sample. Specific primers for 12 randomly selected genes were designed using Primer 5 software (Lalitha, <xref rid="ece36206-bib-0022" ref-type="ref">2000</xref>). The SYBR Green Master Mix (Applied Biosystems) was used by quantitative PCR. The relative expression of selected genes was normalized by the 2<sup>&#x02212;&#x02206;&#x02206;</sup>
+<italic><sup>Ct</sup></italic> method based on the 18S ribosomal gene as a reference.</p></sec></sec><sec sec-type="results" id="ece36206-sec-0011"><label>3</label><title>RESULTS</title><sec id="ece36206-sec-0012"><label>3.1</label><title>Changes in morphological and chlorophyll content under shade stress</title><p>To investigate how shade affected <italic>S.&#x000a0;canadensis</italic> growth, changes in plant morphology was observed under three treatment groups in comparison with control plants. Three levels of shading treatment significantly increased the plant height, leaf angle (Figure&#x000a0;<xref rid="ece36206-fig-0001" ref-type="fig">1a</xref>), and leaf length (Figure&#x000a0;<xref rid="ece36206-fig-0001" ref-type="fig">1b</xref>) compared with the control. Interestingly, the two&#x02010;layer shading net (L<sub>2</sub>)&#x02010;treated plants had the highest growth height and largest leaves. The plant height and leaf area of the three&#x02010;layer shading net (L<sub>3</sub>) were smaller than those of the L<sub>2</sub> but higher than those of the one&#x02010;layer shading net (L<sub>1</sub>) treatment groups. In the three different shading treatment groups, the leaf angle and total content of chlorophyll increased with the reduction of light intensity and were significantly higher than the control group. In addition, there was a significant difference in total chlorophyll content between the L with L<sub>1</sub>, L<sub>2</sub>, and L<sub>3</sub> groups (Figure&#x000a0;<xref rid="ece36206-fig-0002" ref-type="fig">2c</xref>). The content of chlorophyll a and chlorophyll b also increased with the reduction of light intensity, and most groups were also significantly different from each other (Figure&#x000a0;<xref rid="ece36206-fig-0002" ref-type="fig">2a</xref>,<xref rid="ece36206-fig-0002" ref-type="fig">b</xref>). The carotenoid content in the three treatment groups increased compared with the L group, while there were no significant differences among these three groups (Figure&#x000a0;<xref rid="ece36206-fig-0002" ref-type="fig">2d</xref>). In contrast, the ratio of Chl <italic>a</italic>/Chl <italic>b</italic> and carotenoid/total Chl in each group decreased with reduced light intensity (Table&#x000a0;<xref rid="ece36206-sup-0003" ref-type="supplementary-material">S1</xref>). These results suggest that <italic>S.&#x000a0;canadensis</italic> can exhibit different phenotypes and pigment levels under shade stress compared with natural growth condition.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>The content of pigment in various levels of shade treated leaves. (a) Chl <italic>a</italic>; (b) Chl <italic>b</italic>; (c) total of Chl; and (d) carotenoid. The values represented mean&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>, and different letters mark significant differences among shade treatment groups (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05). The red color bar represents L group (control treatment), and the blue, green, and purple color bar represent L<sub>1</sub> (one&#x02010;layer shade net condition), L<sub>2</sub> (two&#x02010;layer shade net condition), and L<sub>3</sub> (three&#x02010;layer shade net condition) group, respectively</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-4391-g002"/></fig></sec><sec id="ece36206-sec-0013"><label>3.2</label><title>Overview of transcriptome profiles</title><p>To understand the molecular basis of the phenotypic differences in shade conditions, we generated transcriptome profiles based on RNA&#x02010;Seq analyses. The leaf samples of three different shade conditions and one natural light condition were used for RNA&#x02010;Seq analysis with three biological replicates. In total, 12 libraries were constructed and sequenced on an Illumina HiSeq X Ten platform, with each library satisfied with a Q20 percentage greater than 98% (ranging from 98.41% to 98.82%) and single read length of 150&#x000a0;bp (Table&#x000a0;<xref rid="ece36206-sup-0004" ref-type="supplementary-material">S2</xref>). The clean reads were assembled into 123,598 unigenes with an average length of 1,029&#x000a0;bp and N50 length of 1,443&#x000a0;bp. The sequencing data have been deposited in the Sequence Read Archive of the National Center for Biotechnology Information (accession number: PRJNA577291). The assembled unigene sequences were aligned by searching the Nr, Swiss&#x02010;Prot, COG, and GO public databases (Table&#x000a0;<xref rid="ece36206-tbl-0001" ref-type="table">1</xref>). Based on the annotated unigenes, 76,060, 74,710, 74,406, and 77,965 unigenes were identified to be expressed by FPKMs in the L, L<sub>1</sub>, L<sub>2</sub>, and L<sub>3</sub> group, respectively. By redundancy analysis of annotated genes from these four groups, a total of 83,575 unigenes were identified, with 67,237 unigenes detected in all four groups and 1,204 unigenes that were unique to the L group, 592 to the L<sub>1</sub> group, 651 to the L<sub>2</sub> group, and 2,488 to the L<sub>3</sub> group (Figure <xref rid="ece36206-sup-0001" ref-type="supplementary-material">S1</xref>). The expressed genes were divided into four ranges according to the FPKM, and approximately 21.3% of the genes were expressed in the range of 0&#x02013;1, 41.3% in the range of 1&#x02013;5, 30.7% in the range of 5&#x02013;30, and 6.7% were above 30.</p><table-wrap id="ece36206-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>Summary of annotations of the <italic>S.&#x000a0;canadensis</italic> transcriptome</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Annotation database</th><th align="left" valign="top" rowspan="1" colspan="1">Number of annotated unigenes</th><th align="left" valign="top" rowspan="1" colspan="1">Percentage of all&#x02010;unigenes (%)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Nr</td><td align="char" char="." rowspan="1" colspan="1">83,174</td><td align="char" char="." rowspan="1" colspan="1">67.29</td></tr><tr><td align="left" rowspan="1" colspan="1">Nt</td><td align="char" char="." rowspan="1" colspan="1">44,666</td><td align="char" char="." rowspan="1" colspan="1">36.14</td></tr><tr><td align="left" rowspan="1" colspan="1">Swiss&#x02010;Prot</td><td align="char" char="." rowspan="1" colspan="1">62,104</td><td align="char" char="." rowspan="1" colspan="1">50.25</td></tr><tr><td align="left" rowspan="1" colspan="1">KEGG</td><td align="char" char="." rowspan="1" colspan="1">59,538</td><td align="char" char="." rowspan="1" colspan="1">48.17</td></tr><tr><td align="left" rowspan="1" colspan="1">COG</td><td align="char" char="." rowspan="1" colspan="1">28,873</td><td align="char" char="." rowspan="1" colspan="1">23.36</td></tr><tr><td align="left" rowspan="1" colspan="1">GO</td><td align="char" char="." rowspan="1" colspan="1">53,774</td><td align="char" char="." rowspan="1" colspan="1">43.51</td></tr><tr><td align="left" rowspan="1" colspan="1">Total number of all&#x02010;unigenes</td><td align="char" char="." rowspan="1" colspan="1">123,598</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36206-sec-0014"><label>3.3</label><title>Comparison of DEGs under shade conditions</title><p>When we examined the number of DEGs for each of these three comparisons (Figure&#x000a0;<xref rid="ece36206-fig-0003" ref-type="fig">3c</xref>), we observed that the reduced light intensity condition had a greater impact on gene expression (i.e., more DEGs) in <italic>S</italic>.&#x000a0;<italic>canadensis</italic>. There were 376 DEGs in the comparison of L<sub>1</sub> versus L, with 124 being upregulated and 152 downregulated. Similarly, there were 1,649 DEGs (788 upregulated and 861 downregulated) in the L<sub>2</sub> condition comparison and 2,087 DEGs (1,054 upregulated and 1,031 downregulated) in the L<sub>3</sub> condition compared with their light&#x02010;grown counterparts (Figure&#x000a0;<xref rid="ece36206-fig-0003" ref-type="fig">3c</xref>). According to the overlap of DEGs among these three comparison groups, 71 DEGs appeared in all three groups; in addition, 139 unique DEGs were identified in the L<sub>1</sub> versus L group, 1,205 in L<sub>2</sub> versus L, and 1,549 in L<sub>3</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0003" ref-type="fig">3a</xref>). From each of comparison, nine DEGs were categorized into five TF gene families in L<sub>1</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0004" ref-type="fig">4a</xref>), and 69 DEGs were categorized into 14 TF gene families in L<sub>2</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0004" ref-type="fig">4b</xref>), and 73 DEGs were categorized into 26 TF gene families in L<sub>3</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0004" ref-type="fig">4c</xref>). The number of differentially expressed TF genes increased as the degree of shading stress increased. Nine transcription factor genes were differentially expressed in L<sub>1</sub> versus L, and all of them were included in the other two comparison groups, while seven TF genes were also expressed in the other two comparison groups. Moreover, 29 differentially expressed TF genes were coexpressed in L<sub>2</sub> versus L and L<sub>3</sub> versus L, with 39 and 43 specifically expressed in L<sub>2</sub> versus L and L<sub>3</sub> versus L, respectively (Figure&#x000a0;<xref rid="ece36206-fig-0003" ref-type="fig">3b</xref>). Most of these differentially expressed TF genes were upregulated; the <italic>AP2&#x02010;EREBP</italic> and <italic>Tify</italic> TF genes were most predominant in each comparison group followed by the <italic>MYB</italic>, <italic>WRKY,</italic> and <italic>bHLH</italic> TF genes (Figure&#x000a0;<xref rid="ece36206-fig-0004" ref-type="fig">4</xref>). These results showed that the expression level of shading stress response genes in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> was increased with reduced light intensity. In addition, the regulation of these DEGs may participate in an acclimation strategy to different light conditions in <italic>S</italic>.&#x000a0;<italic>canadensis</italic>.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>The number of DEGs in three comparison groups. (a) Venn diagram of all DEGs; (b) Venn diagram of differentially expressed TF genes; (c) the number of up&#x02010; and downregulated DEGs</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-10-4391-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>The number of up&#x02010; and downregulated TF genes in three comparison groups. (a) L<sub>1</sub> versus L group; (b) L<sub>2</sub> versus L group; and (c) L<sub>3</sub> versus L group</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-10-4391-g004"/></fig></sec><sec id="ece36206-sec-0015"><label>3.4</label><title>GO functional enrichment analysis</title><p>To further explore the function of DEGs, GO functional enrichment was conducted. A total of 3,466 DEGs from the three compared groups were evaluated with GO enrichment and enriched into 49 GO terms classified into three main GO categories (Figure <xref rid="ece36206-sup-0002" ref-type="supplementary-material">S2</xref>). Many genes were significantly enriched in GO terms related to photosynthesis, reactive oxygen species (ROS), and secondary metabolism synthesis (Table&#x000a0;<xref rid="ece36206-sup-0005" ref-type="supplementary-material">S3</xref>). For example, in the category of cellular component, GO terms, such as &#x0201c;photosystem,&#x0201d; &#x0201c;photosynthetic membrane,&#x0201d; &#x0201c;thylakoid part,&#x0201d; &#x0201c;photosystem I,&#x0201d; &#x0201c;photosystem II&#x0201d; and &#x0201c;chloroplast,&#x0201d; which related to the photosystem were significantly enriched. In the category of molecular function, GO terms, such as &#x0201c;germacrene&#x02010;A synthase activity,&#x0201d; &#x0201c;pigment binding,&#x0201d; &#x0201c;peroxidase activity&#x0201d; and &#x0201c;sesquiterpene synthase activity,&#x0201d; which related to ROS response and secondary metabolite synthesis were significantly enriched. In the category of biological processes, GO terms, such as &#x0201c;photosynthesis,&#x0201d; &#x0201c;photosynthesis, light harvesting,&#x0201d; &#x0201c;protein&#x02010;chromophore linkage photosynthesis,&#x0201d; &#x0201c;light reaction oxidation&#x02010;reduction process,&#x0201d; &#x0201c;light harvesting in photosystem I&#x0201d; and &#x0201c;hydrogen peroxide metabolic process,&#x0201d; which related to photosynthesis and ROS response were enriched. All the significantly enriched GO terms were analyzed by REVIGO to further identify representative nonredundant GO terms (Figure&#x000a0;<xref rid="ece36206-fig-0005" ref-type="fig">5</xref>). The expression of most of these significant enriched genes was induced under the shade conditions, for example, many photosynthesis&#x02010;related genes were upregulated in GO terms such as &#x0201c;photosystem I,&#x0201d; &#x0201c;photosynthetic membrane,&#x0201d; &#x0201c;chloroplast thylakoid photosystem II&#x0201d; and &#x0201c;photosynthesis, light harvesting&#x0201d; (Figure&#x000a0;<xref rid="ece36206-fig-0006" ref-type="fig">6</xref>). These results suggested that genes involved in these GO terms might play important roles in the response to shade stress. During this process, <italic>S</italic>.&#x000a0;<italic>canadensis</italic> might respond to shading stress by regulating the expression of these functional genes.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>The result of Gene Ontology (GO) analysis by REVIGO. The log10 values of the <italic>p</italic>&#x02010;value for each cluster were represented based on the color gradation. The bubble size indicates the frequency of the GO term in the underlying GO database (bubbles of more general terms are larger)</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-10-4391-g005"/></fig><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>GO circle plot displaying gene annotation enrichment analysis. Radar chart shows the distribution of individual terms in the annotation categories. The fold changes (FC) of gene expression values (log2 FC) were derived from three biological replications corresponding to each sample. Within each selected GO term, blue dot shows a gene downregulated at shading stress and red dot indicates a gene upregulated at shading stress. The outer to inner layers of gray circles indicate the relative fold change of gene expression (from higher to lower). The height of the inner rectangle represents the <italic>p</italic>&#x02010;value of the GO term. The rectangles were colored with the red gradient according to the z&#x02010;score. (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, FDR adjusted <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05)
+<mml:math id="nlm-math-1"><mml:mrow><mml:mi>Z</mml:mi><mml:mrow><mml:mspace width="0.333333em"/><mml:mo>-</mml:mo><mml:mspace width="0.333333em"/><mml:mtext>score</mml:mtext></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>upregulated</mml:mtext><mml:mo>-</mml:mo><mml:mtext>downregulated</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">/</mml:mo><mml:msqrt><mml:mrow><mml:mtext>upregulated</mml:mtext><mml:mo>+</mml:mo><mml:mtext>downregulated</mml:mtext></mml:mrow></mml:msqrt></mml:mrow></mml:math>
+</p></caption><graphic id="nlm-graphic-13" xlink:href="ECE3-10-4391-g006"/></fig></sec><sec id="ece36206-sec-0016"><label>3.5</label><title>Pathway enrichment analysis</title><p>According to the KEGG pathway analysis, 81, 117, and 125 pathways were enriched in L<sub>1</sub> versus L, L<sub>2</sub> versus L, and L<sub>3</sub> versus L, respectively. The top 20 enriched pathways in L<sub>1</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0007" ref-type="fig">7a</xref>), L<sub>2</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0007" ref-type="fig">7b</xref>), and L<sub>3</sub> versus L (Figure&#x000a0;<xref rid="ece36206-fig-0007" ref-type="fig">7c</xref>) were ranked by Q&#x02010;value. Most of genes in these pathways such as &#x0201c;photosynthesis&#x0201d; (Figure&#x000a0;<xref rid="ece36206-fig-0008" ref-type="fig">8a</xref>), &#x0201c;photosynthesis&#x02014;antenna proteins&#x0201d; (Figure&#x000a0;<xref rid="ece36206-fig-0008" ref-type="fig">8b</xref>), &#x0201c;phenylpropanoid biosynthesis,&#x0201d; &#x0201c;carbon metabolism,&#x0201d; &#x0201c;carbon fixation in photosynthetic organisms,&#x0201d; &#x0201c;starch and sucrose metabolism,&#x0201d; &#x0201c;stilbenoid, diarylheptanoid and gingerol biosynthesis,&#x0201d; &#x0201c;isoflavonoid biosynthesis,&#x0201d; &#x0201c;flavonoid biosynthesis&#x0201d; and &#x0201c;plant hormone signal transduction&#x0201d; were significantly enriched (Table&#x000a0;<xref rid="ece36206-sup-0006" ref-type="supplementary-material">S4</xref>). The KEGG enrichment analysis indicated that the number of significant enrichment pathways increased as the light intensity was reduced, and the DEGs that were significantly enriched in these pathways are likely to play essential roles in coping with shading stress in <italic>S.&#x000a0;canadensis</italic>.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Top 20 enriched KEGG pathways among the annotated DEGs across three comparisons. (a) L<sub>1</sub> versus L group; (b) L<sub>2</sub> versus L group; and (c) L<sub>3</sub> versus L group. The <italic>y</italic>&#x02010;axis on the left represents KEGG pathways, and the <italic>x</italic>&#x02010;axis indicates the enrichment factor. Low <italic>Q</italic>&#x02010;values are shown in red, and high <italic>Q</italic>&#x02010;values are shown in blue. The bubble size represents the number of enrichment genes in each pathway</p></caption><graphic id="nlm-graphic-15" xlink:href="ECE3-10-4391-g007"/></fig><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>DEGs enriched in photosynthesis&#x02010;related pathways. (a) DEGs enriched in &#x0201c;photosynthesis&#x0201d; pathway; (b) DEGs enriched in &#x0201c;photosynthesis&#x02013;antenna proteins&#x0201d; pathway. Red indicates upregulated genes, and green indicates downregulated genes. Semired and semigreen indicates genes including both upregulated and downregulated</p></caption><graphic id="nlm-graphic-17" xlink:href="ECE3-10-4391-g008"/></fig></sec><sec id="ece36206-sec-0017"><label>3.6</label><title>DEGs related to photosynthesis</title><p>Many DEGs related to the photosynthesis process were collected. For example, photosystem I reaction center subunit&#x02010;related genes (<italic>Psa</italic>), such as the <italic>PsaD</italic>, <italic>PsaE</italic>, and <italic>PsaH</italic> gene, and photosystem II core complex protein&#x02010;related genes (<italic>Psb</italic>), such as the <italic>PsbO</italic>, <italic>PsbQ,</italic> and <italic>PsbR</italic> gene, were differentially expressed. Other photosynthesis&#x02010;related DEGs were as follows: cytochrome b6 complex and photosynthetic electron transport genes (<italic>Pet</italic>), such as <italic>PetC</italic>, <italic>PetE,</italic> and <italic>PetF</italic> gene; F&#x02010;type ATPase synthesis&#x02010;related genes, such as the ATP&#x02010;gamma gene (Figure&#x000a0;<xref rid="ece36206-fig-0008" ref-type="fig">8a</xref>); light&#x02010;harvesting chlorophyll protein complex genes (<italic>Lhc</italic>), such as the <italic>Lhca1</italic>, <italic>Lhca2</italic>, and <italic>Lhcb2</italic> gene (Figure&#x000a0;<xref rid="ece36206-fig-0008" ref-type="fig">8b</xref>); and carbon fixation process&#x02010;related genes, such as the ribulose&#x02010;bisphosphate carboxylase gene (<italic>RBLC</italic>), phosphoribulokinase gene (<italic>PRK</italic>), and glyceraldehyde&#x02010;3&#x02010;phosphate dehydrogenase gene (<italic>NADP</italic>). Furthermore, some Chl&#x02010;related genes, such as the <italic>ChlP</italic>, <italic>ChlH,</italic> and <italic>HemH</italic> gene, were also differentially expressed in the shade condition groups when compared with the control (Figure&#x000a0;<xref rid="ece36206-fig-0009" ref-type="fig">9a</xref>). The number of these photosynthesis&#x02010;related genes increased with reduced light intensity. These results suggested that <italic>S</italic>.&#x000a0;<italic>canadensis</italic> may cope with shading stress by regulating the expression of photosynthesis&#x02010;related genes.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>Expression profile clustering in various treatments. (a) Photosynthetic pigment; (b) flavonoid biosynthesis; (c) glutathione metabolism; and (d) peroxisome pathway</p></caption><graphic id="nlm-graphic-19" xlink:href="ECE3-10-4391-g009"/></fig></sec><sec id="ece36206-sec-0018"><label>3.7</label><title>Antioxidant enzyme&#x02010;related DEGs after shading</title><p>In this study, some antioxidant enzyme&#x02010;related genes, such as <italic>SOD</italic>, <italic>CAT,</italic> and <italic>POD</italic>, were differentially expressed in the shade conditions compared with the control, and most of them were upregulated (Figure&#x000a0;<xref rid="ece36206-fig-0009" ref-type="fig">9b</xref>). In addition, other related DEGs which can encode antioxidant enzymes were also collected. For example, four glutathione peroxidase genes (<italic>GPx</italic>) encoding enzymes catalyzing the conversion of glutathione (GSH) to glutathione disulfide (GSSG) were upregulated. Among four ascorbate peroxidase genes (<italic>APX</italic>) encoding enzymes catalyzing the conversion of ascorbate to dehydroascorbate, three were upregulated and one downregulated. Of eight glutathione S&#x02010;transferase (<italic>GST</italic>) genes encoding enzymes catalyzing the conversion of glutathione (GSH) to R&#x02010;S&#x02010;glutathione, six were upregulated and two downregulated. Two ascorbate oxidase (<italic>AO</italic>) genes encoding enzymes catalyzing the conversion of dehydroascorbate to ascorbate, one was upregulated and another downregulated. These DEGs could encode related antioxidant enzymes in response to shading stress. Furthermore, the number of antioxidant enzyme&#x02010;related DEGs increased as the light intensity was reduced, and most were upregulated. These results indicated that the activity of antioxidant enzymes might be enhanced in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> in response to shade stress.</p></sec><sec id="ece36206-sec-0019"><label>3.8</label><title>DEGs enriched in secondary metabolism&#x02010;related pathways</title><p>According to the KEGG pathway enrichment analysis, many DEGs from the three compared groups were enriched in secondary metabolism&#x02010;related pathways, such as &#x0201c;phenylpropanoid biosynthesis&#x0201d; and &#x0201c;flavonoid biosynthesis.&#x0201d; The number of DEGs in these two pathways increased with the reduction of light intensity and was significantly enriched in L<sub>2</sub> versus L and L<sub>3</sub> versus L. In contrast, the proportion of downregulated genes among these three comparisons increased in the &#x0201c;phenylpropanoid biosynthesis&#x0201d; pathway, in which 34 DEGs were collected and most were upregulated in the three shade treatment groups compared with the L group, such as the <italic>PAL</italic>, <italic>C4H</italic>, <italic>4Cl,</italic> and <italic>C3&#x02032;H</italic> genes (Figure&#x000a0;<xref rid="ece36206-fig-0009" ref-type="fig">9c</xref>). In the &#x0201c;flavonoid biosynthesis&#x0201d; pathway, 23 DEGs were collected, and most of these DEGs were also upregulated in the three shade treatment groups compared with the L group, such as the <italic>CHS</italic>, <italic>DFR</italic>, <italic>F3&#x02032;H,</italic> and <italic>FLS</italic> genes (Figure&#x000a0;<xref rid="ece36206-fig-0009" ref-type="fig">9d</xref>). In addition, some of these secondary metabolite synthesis&#x02010;related DEGs in this pathway in the L<sub>3</sub> versus L group were downregulated compared with L<sub>2</sub> versus L. These DEGs will respond to changes via induction or suppression in response to different levels of shading. These results indicated that shading stress might affect the secondary metabolism level in <italic>S.&#x000a0;canadensis</italic>.</p></sec><sec id="ece36206-sec-0020"><label>3.9</label><title>Gene expression network analysis of shade stress&#x02010;related DEGs</title><p>In this study, 3,466 DEGs from three comparison groups were analyzed by WGCNA. These DEGs were parsed into 23 gene expression modules, with the number of genes in each module ranging from 43 to 871 (Figure&#x000a0;<xref rid="ece36206-fig-0010" ref-type="fig">10a</xref>). The module&#x02013;trait correlation analysis showed five significant coregulatory modules (correlation coefficient&#x000a0;&#x0003e;&#x000a0;0.8, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01), with three in the L group shown in turquoise, dark red, and red and two in the L<sub>3</sub> group shown in dark green and blue (Figure&#x000a0;<xref rid="ece36206-fig-0010" ref-type="fig">10b</xref>). Therefore, the genes in the dark green and blue module may be vital for the L<sub>3</sub> group. A total of 43 DEGs and all of them were upregulated in L<sub>3</sub> versus L, which clustered in the dark green module. These DEGs include plant hormone signal transduction process&#x02010;related genes, such as <italic>BSK</italic> (BR&#x02010;signaling kinase) gene and <italic>ARF</italic> (auxin response factor) gene, and antioxidant&#x02010;related genes such as <italic>AO</italic> which encode ascorbate oxidase. A total of 297 DEGs, 267 upregulated and 30 downregulated in L<sub>3</sub> versus L, were clustered in the blue module. Most of these DEGs were photosynthesis&#x02010;related genes, such as <italic>Lhc</italic>, chlorophyll biosynthesis, chloroplast thylakoid membrane, and carbon fixation. Meanwhile, antioxidant enzymes&#x02010;related genes, such as <italic>POD</italic>, <italic>SOD</italic>, <italic>CAT</italic>, <italic>APX,</italic> and <italic>GST,</italic> and secondary metabolism&#x02010;related genes, such as <italic>PAL</italic>, <italic>C4H</italic>, <italic>CAD</italic> and <italic>CHS</italic>, were also clustered into this module. In addition, some transcription factor genes, such as <italic>EREBP</italic>, <italic>ERF</italic>, <italic>WRKY</italic>, <italic>TIFY,</italic> and <italic>bHLH</italic>, may encode corresponding TFs and play a regulatory role in this module. Based on the network analysis for the blue module, the top 300 paired DEGs with a weight value above 0.71 were chosen for exhibition (Figure&#x000a0;<xref rid="ece36206-fig-0010" ref-type="fig">10c</xref>). Some hub genes with a connect degree &#x02265;7 significantly expressed genes were related to photosynthesis and present in the network, such as <italic>Lhcb1</italic>, <italic>Lhcb2</italic>, <italic>Lhca1</italic>, <italic>Lhcb5</italic>, and <italic>RBLC</italic> gene (Table&#x000a0;<xref rid="ece36206-tbl-0002" ref-type="table">2</xref>). These hub genes may play a key role in the response of <italic>S</italic>.&#x000a0;<italic>canadensis</italic> to shade stress.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0010" orientation="portrait" position="float"><label>Figure 10</label><caption><p>Gene expression network analysis. (a) Clustering dendrogram of genes, with dissimilarity based on topological overlap, together with assigned merged module colors and theory final module colors. (b) Module&#x02013;trait associations. Each row corresponds to a module eigengene, column to a trait. Each cell contains the corresponding correlation and <italic>p</italic>&#x02010;value. The table is color&#x02010;coded by correlation according to the color legend. (c) Interaction analysis of the selected DEGs. The bubble size represents connect degree of each gene</p></caption><graphic id="nlm-graphic-21" xlink:href="ECE3-10-4391-g010"/></fig><table-wrap id="ece36206-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>The annotation of the hub genes identified by WGCNA. The node represents collected gene, and the number represents the number of connect degree</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Node</th><th align="left" valign="top" rowspan="1" colspan="1">Number</th><th align="left" valign="top" rowspan="1" colspan="1">Gene annotation</th><th align="left" valign="top" rowspan="1" colspan="1">GO term</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">CL3411.Contig10_All</td><td align="char" char="." rowspan="1" colspan="1">57</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 1</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene32019_All</td><td align="char" char="." rowspan="1" colspan="1">56</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 2</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene25674_All</td><td align="char" char="." rowspan="1" colspan="1">45</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 5</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">CL3411.Contig6_All</td><td align="char" char="." rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 1</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene18896_All</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 1</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene31824_All</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex I chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 1</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene18568_All</td><td align="char" char="." rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">Ribulose&#x02010;bisphosphate carboxylase/oxygenase activase</td><td align="left" rowspan="1" colspan="1">ATP binding</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene31509_All</td><td align="char" char="." rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">Glyceraldehyde&#x02010;3&#x02010;phosphate dehydrogenase</td><td align="left" rowspan="1" colspan="1">Oxidation&#x02010;reduction process</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene32029_All</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex I chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 3</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">CL3411.Contig12_All</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 1</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">CL9918.Contig3_All</td><td align="char" char="." rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">Ribulose&#x02010;bisphosphate carboxylase</td><td align="left" rowspan="1" colspan="1">Ribulose&#x02010;bisphosphate carboxylase activity</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene19312_All</td><td align="char" char="." rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">Photosystem II oxygen&#x02010;evolving enhancer protein 3</td><td align="left" rowspan="1" colspan="1">Photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene31890_All</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">Photosystem I subunit PsaN</td><td align="left" rowspan="1" colspan="1">Photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">CL9918.Contig2_All</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">Ribulose&#x02010;bisphosphate carboxylase</td><td align="left" rowspan="1" colspan="1">Ribulose&#x02010;bisphosphate carboxylase activity</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene32022_All</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">Photosystem I subunit V</td><td align="left" rowspan="1" colspan="1">Photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene25108_All</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">Fructose&#x02010;bisphosphate aldolase</td><td align="left" rowspan="1" colspan="1">Fructose&#x02010;bisphosphate aldolase activity</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene19176_All</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 6</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem II</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene25595_All</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">Photosystem I subunit XI</td><td align="left" rowspan="1" colspan="1">Photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene25693_All</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">Light&#x02010;harvesting complex II chlorophyll <italic>a</italic>/<italic>b</italic> binding protein 4</td><td align="left" rowspan="1" colspan="1">Photosynthesis, light harvesting in photosystem I</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene15591_All</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">Fructose&#x02010;bisphosphate aldolase</td><td align="left" rowspan="1" colspan="1">Fructose&#x02010;bisphosphate aldolase activity</td></tr><tr><td align="left" rowspan="1" colspan="1">Unigene19321_All</td><td align="char" char="." rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">Photosystem I subunit PsaO</td><td align="left" rowspan="1" colspan="1">Photosystem I</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36206-sec-0021"><label>3.10</label><title>Gene expression validation by qRT&#x02010;PCR</title><p>The gene expression results obtained from the high&#x02010;throughput sequencing were validated by quantitative reverse transcription&#x02010;PCR (qRT&#x02010;PCR) analysis. A total of 12 randomly selected key candidate genes from each of four different treatment groups were used for validation. As anticipated, the qRT&#x02010;PCR results for the different groups (Figure&#x000a0;<xref rid="ece36206-fig-0011" ref-type="fig">11</xref>) were consistent with the sequencing data. The primer sequences used in this study are listed in Table&#x000a0;<xref rid="ece36206-sup-0007" ref-type="supplementary-material">S5</xref>.</p><fig fig-type="Figure" xml:lang="en" id="ece36206-fig-0011" orientation="portrait" position="float"><label>Figure 11</label><caption><p>The result of qRT&#x02010;PCR for randomly selected genes. The blue, cyan, rose, and yellow bar represent the expression of selected genes in L, L<sub>1</sub>, L<sub>2,</sub> and L<sub>3</sub> group respectively</p></caption><graphic id="nlm-graphic-23" xlink:href="ECE3-10-4391-g011"/></fig></sec></sec><sec sec-type="discussion" id="ece36206-sec-0022"><label>4</label><title>DISCUSSION</title><p>Previous studies have elaborated that invasive species consistently show adaptive potential and rapidly adapt to novel environments (Bertelsmeier &#x00026; Keller, <xref rid="ece36206-bib-0004" ref-type="ref">2018</xref>; Liu, Li, &#x00026; Xiong, <xref rid="ece36206-bib-0035" ref-type="ref">2015</xref>). Furthermore, these species often have the ability to express different phenotypes in response to changing or novel environmental conditions and display higher plasticity, even in low&#x02010;resource systems (Funk, <xref rid="ece36206-bib-0015" ref-type="ref">2008</xref>). <italic>S</italic>.&#x000a0;<italic>canadensis</italic>, an invasive plant, could adapt to low&#x02010;light conditions in a shade stress environment by adjusting the morphology, growth, photosynthetic physiology, and other characteristics, and it exhibits a certain plasticity in response to low light intensity (Du et al., <xref rid="ece36206-bib-0012" ref-type="ref">2017</xref>). However, the regulatory mechanisms of shade stress acclimation in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> have not been determined. In the present study, the gene expression and morphological traits of <italic>S</italic>.&#x000a0;<italic>canadensis</italic>, cultivated with different levels of shade conditions, were used to understand the regulatory mechanisms that contribute to shade stress.</p><sec id="ece36206-sec-0023"><label>4.1</label><title>Alteration of phenotype may facilitate the growth of <italic>S.&#x000a0;canadensis</italic> under shade condition</title><p>Leaf area and leaf angle insertion are considered to be responses to the shading environment and increase with shade application (Ajmi et al., <xref rid="ece36206-bib-0001" ref-type="ref">2018</xref>). Under limiting irradiance, leaves developed large areas to capture more light sources and help the plants maintain better performance (Liu et al., <xref rid="ece36206-bib-0036" ref-type="ref">2016</xref>; Yang, Sun, Zhang, Cochard, &#x00026; Cao, <xref rid="ece36206-bib-0076" ref-type="ref">2014</xref>). Furthermore, leaf insertion angles are important in determining the transmission of radiation for vegetation canopies, and the direction of leaves depends greatly on the light exposure (Raabe, Pisek, Sonnentag, &#x00026; Annuk, <xref rid="ece36206-bib-0049" ref-type="ref">2015</xref>). Under shade stress, to absorb more light, the plant leaf angle insertion can be extended to 100&#x000b0;, while under normalized light, to avoid excess sunlight, the leaf angle insertion always ranges from 30&#x000b0; to 60&#x000b0; (Larbi et al., <xref rid="ece36206-bib-0025" ref-type="ref">2015</xref>). In our study, all the plants under shading treatment had a larger leaf area and leaf angle insertion than those cultivated under natural light. Such a strategy will assist the capture of light energy by <italic>S</italic>.&#x000a0;<italic>canadensis</italic> and improved acclimation to the shading environment.</p></sec><sec id="ece36206-sec-0024"><label>4.2</label><title>Alteration of physiology may contribute to the shade tolerance of <italic>S.&#x000a0;canadensis</italic>
+</title><p>Chlorophyll is the most important photosynthetic pigment in photosynthetic processes, and the chlorophyll content is always significantly affected by shade stress (Alridiwirsah, Harahap, Akoeb, &#x00026; Hanum, <xref rid="ece36206-bib-0002" ref-type="ref">2018</xref>). Under shade stress, plants increase their light use efficiency by increasing leaf chlorophyll <italic>a</italic> and chlorophyll <italic>b</italic>, total chlorophyll content, and decreasing chlorophyll <italic>a</italic>/<italic>b</italic> ratios (Dai et al., <xref rid="ece36206-bib-0010" ref-type="ref">2009</xref>; Gregoriou, Pontikis, &#x00026; Vemmos, <xref rid="ece36206-bib-0018" ref-type="ref">2007</xref>), and if the available light source is reduced in a shade environment for photosynthesis, the chlorophyll content will be increased (Muhidin et al., <xref rid="ece36206-bib-0044" ref-type="ref">2018</xref>). Our results revealed a significantly increased chlorophyll content (chl <italic>a</italic>, chl <italic>b</italic>, and chl <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic>) in the different treatment groups. These results were consistent with the linear increase in shade stress, concurrent with a significant decrease in the chl <italic>a</italic>/<italic>b</italic> ratio. The carotenoid content increased in the three treatment groups with no significant differences among them. The ratio of carotenoid content with total chlorophyll was decreased with the reduction of light radiation. This phenomenon indicates that the photosynthesis system in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> has a wide range of strategies to adapt to shading stress and increase its light use efficiency by regulating the content of chlorophyll.</p></sec><sec id="ece36206-sec-0025"><label>4.3</label><title>Photosynthesis&#x02010;related genes in <italic>S. canadensis</italic> play a vital role in the shade environment</title><p>To maximize light use for photosynthesis, plants possess fully developed strategies based on short&#x02010; and long&#x02010;term responses to adapt to low light intensities (Mathur, Jain, &#x00026; Jajoo, <xref rid="ece36206-bib-0041" ref-type="ref">2018</xref>). Photosynthesis is the key function for plant growth and is highly sensitive to light conditions. In photosynthetic systems, the pigment protein complexes photosystem I and photosystem II are interconnected through the cytochrome (Cyt) <italic>b<sub>6</sub>f</italic> complex and electron transfer chain (Mamedov, Govindjee, Nadtochenko, &#x00026; Semenov, <xref rid="ece36206-bib-0040" ref-type="ref">2015</xref>). Photosystem II is a protein complex embedded in thylakoid membranes of higher plants and able to absorb light and split water. The core complex subunits, such as PsbB, PsbC, PsbR, PsbO, PsbP, and PsbQ proteins, are also called oxygen&#x02010;evolving enhancer (OEE) proteins, with main functions of enhancing the efficiency of the oxygen&#x02010;evolving complex (Bricker, Roose, Fagerlund, Frankel, &#x00026; Eaton&#x02010;Rye, <xref rid="ece36206-bib-0006" ref-type="ref">2012</xref>; Silveira &#x00026; Carvalho, <xref rid="ece36206-bib-0057" ref-type="ref">2016</xref>). Similar to photosystem II, the photosystem I core complex contains reaction center subunits (PsaA and PsaB), binding subunits (PsaG, PsaK, PsaH, PsaL, PsaO, and PsaP), ferredoxin docking subunits (PsaD and PsaE), plastocyanin docking subunits (PsaF and PsaN), and FeS apoprotein (PsaC; Kouril et al., <xref rid="ece36206-bib-0021" ref-type="ref">2014</xref>). Furthermore, ATP synthase subunits (&#x003b1;, &#x003b2;, &#x003b3;, and &#x003b4;), cytochrome <italic>b<sub>6</sub>f</italic> (PetB, PetD, PetA, and PetC), ferredoxin (Fdx) complex, and ribulose&#x02010;bisphosphate carboxylase large chain (RbcL) involved in the Calvin cycle can play important roles in the photosynthesis process (Silveira &#x00026; Carvalho, <xref rid="ece36206-bib-0057" ref-type="ref">2016</xref>). The results for the three comparison groups revealed significant differences in photosynthesis&#x02010;related GO terms and KEGG pathways. In the present study, most of the photosynthesis&#x02010;related DEGs were enriched in the &#x0201c;photosynthesis,&#x0201d; &#x0201c;photosynthesis&#x02010;antenna proteins,&#x0201d; and &#x0201c;carbon fixation in photosynthetic organisms&#x0201d; pathways. Moreover, the &#x0201c;photosynthesis&#x0201d; pathway contains photosystem II, photosystem I, cytochrome b6/f complex, electron transport, and ATP synthase&#x02010;related genes. Our result showed that most DEGs were upregulated and enriched in photosynthesis II, such as <italic>PsbO</italic>, <italic>PsbP</italic>, <italic>PsbQ</italic>, <italic>PsbR,</italic> and <italic>PsbW</italic>, and photosynthesis I such as <italic>PsaD</italic>, <italic>PsaE</italic>, <italic>PsaF</italic>, <italic>PsaH</italic>, and <italic>PsaK</italic>. These upregulated DEGs indicated that <italic>S</italic>.&#x000a0;<italic>canadensis</italic> could enhance the expression of photosynthesis II&#x02010; and photosynthesis I&#x02010;related genes to adapt to low&#x02010;light conditions. Cytochrome <italic>b<sub>6</sub>f</italic>, Fdx complex, ATP synthase, and RbcL&#x02010;related DEGs, such as <italic>PetC</italic>, <italic>PetF</italic>, <italic>PetH</italic>, ATP synthase &#x003b3;, &#x003b4;, and b, were also related upregulated DEGs that were enriched in the &#x0201c;photosynthesis&#x0201d; pathway. These results indicated that enriched DEGs might be vital for <italic>S</italic>. <italic>canadensis</italic> to resist shade stress conditions.</p><p>The pathway of &#x0201c;photosynthesis&#x02010;antenna proteins&#x0201d; includes light&#x02010;harvesting chlorophyll protein complex I (LHCI) and II (LCHII)&#x02010;related genes encoding subunits consisting of the photosystem I&#x02010;antenna and photosystem II&#x02010;antenna complex, respectively. Photosystem II&#x02010;antenna complexes include major antenna complexes (LHCII), such as Lhcb1, Lhcb2, and Lhcb3 proteins, which bind several pigment molecules, such as chlorophyll <italic>a</italic>/<italic>b</italic>, zeaxanthin (Zx), and lutein (Lut), playing a vital role in photosystem II (van Amerongen &#x00026; Croce, <xref rid="ece36206-bib-0066" ref-type="ref">2013</xref>). The photosystem I&#x02010;antenna (LHCI), such as Lhca1, Lhca2, and Lhca3, contains LHC trimers that are also essential for coping with different light conditions (Puthiyaveetil, Ibrahim, &#x00026; Allen, <xref rid="ece36206-bib-0047" ref-type="ref">2012</xref>). In the present study, the expression of LHCI&#x02010;related DEGs, such as <italic>Lhca1</italic>, <italic>Lhca2</italic>, <italic>Lhca3</italic>, and <italic>Lhca4</italic>, and LHCII&#x02010;related DEGs, such as <italic>Lhcb1</italic>, <italic>Lhcb2</italic>, <italic>Lhcb3</italic>, <italic>Lhcb4</italic> and <italic>Lhcb5</italic>, was upregulated under shade conditions. This result suggests that <italic>S</italic>.&#x000a0;<italic>canadensis</italic> can adapt to low&#x02010;light conditions by enhancing the expression of LHC&#x02010;related genes under shading stress.</p><p>Most of enzymes, such as phosphoribulokinase (PRK), phosphoglyceratekinase (PGK), RuBP carboxylase (rubisco), fructose&#x02010;bisphosphatase aldolase (ALDO), and glyceraldehyde phosphate dehydrogenase (GAPDH), plays an important role in the carbon fixation process (Huang et al., <xref rid="ece36206-bib-0020" ref-type="ref">2017</xref>; Silveira &#x00026; Carvalho, <xref rid="ece36206-bib-0057" ref-type="ref">2016</xref>). Many DEGs, such as <italic>rbcL</italic>, <italic>PGK</italic>, <italic>GAPDH</italic>, and <italic>ALDO</italic>, were upregulated, which might enhance carbon synthesis in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> under shade conditions.</p></sec><sec id="ece36206-sec-0026"><label>4.4</label><title>Expression of ROS response enzyme&#x02010;related genes maintains growth health under shade stress</title><p>Reactive oxygen species always act as important molecules and play pivotal roles in plant for abiotic stress (Chan, Yokawa, Kim, &#x00026; Song, <xref rid="ece36206-bib-0007" ref-type="ref">2016</xref>; Li et al., <xref rid="ece36206-bib-0030" ref-type="ref">2018</xref>; Ma et al., <xref rid="ece36206-bib-0039" ref-type="ref">2011</xref>; Qi et al., <xref rid="ece36206-bib-0048" ref-type="ref">2018</xref>). Furthermore, ROS were also characterized as important signaling molecules that mediate plant hormone signaling transduction process, such as mitogen&#x02010;activated protein kinase (Wang, Du, Li, Ren, &#x00026; Song, <xref rid="ece36206-bib-0069" ref-type="ref">2010</xref>; Wang, Du, Zhao, Miao, &#x00026; Song, <xref rid="ece36206-bib-0070" ref-type="ref">2013</xref>) and hormone signaling (Chen, Li, Li, Song, &#x00026; Miao, <xref rid="ece36206-bib-0008" ref-type="ref">2017</xref>; Dong, Wei, &#x00026; Chen, <xref rid="ece36206-bib-0011" ref-type="ref">2013</xref>; Song, Miao, &#x00026; Song, <xref rid="ece36206-bib-0060" ref-type="ref">2014</xref>). The activities of antioxidant enzymes, such as superoxide dismutase (SOD), catalase (CAT), and peroxidase (POD), were significantly changed under different light conditions in <italic>Camellia sinensis</italic> (Wu et al., <xref rid="ece36206-bib-0075" ref-type="ref">2016</xref>). When plants are exposed to high irradiance conditions, the levels of antioxidant enzymes such as POD, SOD, and CAT are significantly altered (Shao et al., <xref rid="ece36206-bib-0055" ref-type="ref">2014</xref>). In this study, with increasing shade stress, a number of antioxidant enzyme&#x02010;related DEGs also increased, such as <italic>POD</italic>, <italic>SOD</italic>, <italic>CAT</italic>, <italic>APX</italic>, and <italic>GPx</italic>. Therefore, under shade stress, antioxidant enzyme activity may be altered in <italic>S</italic>.&#x000a0;<italic>canadensis</italic> by regulating the expression of related genes to scavenge ROS, thereby maintaining normal plant growth.</p></sec><sec id="ece36206-sec-0027"><label>4.5</label><title>TF gene regulation may promote acclimation to shade stress in <italic>S. canadensis</italic>
+</title><p>To adapt to adverse environmental conditions, many plants have developed different mechanisms in response to abiotic stresses. Most transcription factors (TFs) can act as regulatory proteins that play an important role in these mechanisms (Wang, Yang, et al., <xref rid="ece36206-bib-0071" ref-type="ref">2018</xref>). For example, the TIFY family is a novel plant&#x02010;specific gene family that participates in the regulation of various plant&#x02010;specific biologic processes (Sun et al., <xref rid="ece36206-bib-0061" ref-type="ref">2017</xref>). The AP2/EREBP superfamily is one of the largest and most conserved gene families in plants, and expansion of the AP2/EREBP superfamily may have enhanced the wide adaptability of cotton (Liu &#x00026; Zhang, <xref rid="ece36206-bib-0034" ref-type="ref">2017</xref>). Furthermore, the WRKY and MYB TF families play a vital role in diverse regulatory and multiple stress response processes in plants (Li et al., <xref rid="ece36206-bib-0028" ref-type="ref">2019</xref>; Wang, Ren, et al., <xref rid="ece36206-bib-0068" ref-type="ref">2019</xref>; Wang, Yue, et al., <xref rid="ece36206-bib-0072" ref-type="ref">2019</xref>). In this study, <italic>AP2/EREBP</italic> and <italic>TIFY</italic> genes predominated in the three comparison groups of differentially expressed TF&#x02010;coding genes followed by others, such as <italic>MYB&#x02010;</italic>, <italic>NAC&#x02010;</italic>, <italic>WRKY&#x02010;,</italic> and <italic>bHLH</italic> TF&#x02010;coding genes, which were also differentially expressed and mostly upregulated in each group. Therefore, the <italic>AP2/EREBP</italic> and <italic>TIFY</italic> TF genes may play an important role in the process of shading stress in <italic>S</italic>.&#x000a0;<italic>canadensis</italic>, and they may promote an increase in tolerance to stressful environments.</p></sec></sec><sec sec-type="conclusions" id="ece36206-sec-0028"><label>5</label><title>CONCLUSIONS</title><p>Invasive species consistently display the trait of phenotypic plasticity to adapt to various environments. The results from this study confirm that shade levels strongly affect phenotypic changes and physiological responses in <italic>S</italic>.&#x000a0;<italic>canadensis</italic>. The expression levels of photosynthesis and antioxidant enzyme&#x02010;related genes were altered in response to shade stress. This phenomenon suggests that <italic>S</italic>.&#x000a0;<italic>canadensis</italic> has enhanced photosynthesis and ROS scavenging abilities to absorb large amounts of light and ensure normal growth. While the expression of secondary metabolism&#x02010;related genes was also affected under shade stress, this phenomenon was indicative of an adaptive strategy to retain fitness under harsh conditions. The expression network analyses revealed the important roles of candidate genes for shading tolerance in <italic>S.&#x000a0;canadensis</italic>. This shading tolerance might facilitate <italic>S</italic>.&#x000a0;<italic>canadensis</italic> to adapt to various environments and successfully develop into an invasive species.</p></sec><sec sec-type="COI-statement" id="ece36206-sec-0030"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflict of interest.</p></sec><sec id="ece36206-sec-0031"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Miao Wu: </bold>Conceptualization (lead); data curation (lead); formal analysis (lead); investigation (lead); methodology (lead); project administration (lead); resources (lead); software (lead); supervision (lead); validation (lead); visualization (lead); writing &#x02013; original draft (lead); writing &#x02013; review and editing (lead). <bold>Zeyu Li: </bold>Data curation (supporting); methodology (supporting); resources (supporting); software (supporting). <bold>Jianbo Wang: </bold>Conceptualization (lead); data curation (lead); formal analysis (lead); funding acquisition (lead); investigation (lead); methodology (lead); project administration (lead); resources (lead); software (equal); supervision (lead); validation (equal); visualization (lead), writing &#x02013; original draft (equal); writing &#x02013; review and editing (equal).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece36206-sup-0001"><caption><p>Fig S1</p></caption><media xlink:href="ECE3-10-4391-s001.jpg"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0002"><caption><p>Fig S2</p></caption><media xlink:href="ECE3-10-4391-s002.jpg"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0003"><caption><p>Table S1</p></caption><media xlink:href="ECE3-10-4391-s003.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0004"><caption><p>Table S2</p></caption><media xlink:href="ECE3-10-4391-s004.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0005"><caption><p>Table S3</p></caption><media xlink:href="ECE3-10-4391-s005.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0006"><caption><p>Table S4</p></caption><media xlink:href="ECE3-10-4391-s006.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0007"><caption><p>Table S5</p></caption><media xlink:href="ECE3-10-4391-s007.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece36206-sup-0008"><caption><p>Supplementary Material</p></caption><media xlink:href="ECE3-10-4391-s008.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece36206-sec-0029"><title>ACKNOWLEDGMENTS</title><p>This work was supported by the National Natural Science Foundation of China (31970421, 31570539).</p></ack><sec sec-type="data-availability" id="ece36206-sec-0033"><title>DATA AVAILABILITY STATEMENT</title><p>The mRNA&#x02010;seq data as fastq files from the experiment of <italic>S. canadensis</italic> were deposited in NCBI SRA database under the accession number PRJNA577291.</p></sec><ref-list content-type="cited-references" id="ece36206-bibl-0001"><title>REFERENCES</title><ref id="ece36206-bib-0001"><mixed-citation publication-type="journal" id="ece36206-cit-0001">
+<string-name>
+<surname>Ajmi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Vazquez</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Morales</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Chaari</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>El&#x02010;Jendoubi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Abadia</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Larbi</surname>, <given-names>A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Prolonged artificial shade affects morphological, anatomical, biochemical and ecophysiological behavior of young olive trees (cv. Arbosana)</article-title>. <source xml:lang="en">Scientia Horticulturae</source>, <volume>241</volume>, <fpage>275</fpage>&#x02013;<lpage>284</lpage>. <pub-id pub-id-type="doi">10.1016/j.scienta.2018.06.089</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0002"><mixed-citation publication-type="journal" id="ece36206-cit-0002">
+<string-name>
+<surname>Alridiwirsah</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Harahap</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Akoeb</surname>, <given-names>E. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hanum</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>). <article-title>Growth and production of new superior rice varieties in the shade intensity</article-title>. <source xml:lang="en">International Conference on Agriculture, Environment, and Food Security</source>, <volume>122</volume>, <fpage>012024</fpage>
+<pub-id pub-id-type="doi">10.1088/1755-1315/122/1/012024</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0003"><mixed-citation publication-type="journal" id="ece36206-cit-0003">
+<string-name>
+<surname>Amina</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name>
+<surname>Siljak&#x02010;Yakovlev</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name>
+<surname>Baumel</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Torre</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chaieb</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>The polyploid nature of <italic>Cenchrus ciliaris</italic> L. (<italic>Poaceae</italic>) has been overlooked: New insights for the conservation and invasion biology of this species &#x02013; A review</article-title>. <source xml:lang="en">Rangeland Journal</source>, <volume>36</volume>, <fpage>11</fpage>&#x02013;<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1071/rj13043</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0004"><mixed-citation publication-type="journal" id="ece36206-cit-0004">
+<string-name>
+<surname>Bertelsmeier</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Keller</surname>, <given-names>L.</given-names>
+</string-name> (<year>2018</year>). <article-title>Bridgehead effects and role of adaptive evolution in invasive populations</article-title>. <source xml:lang="en">Trends in Ecology Evolution</source>, <volume>33</volume>(<issue>7</issue>), <fpage>527</fpage>&#x02013;<lpage>534</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2018.04.014</pub-id>
+<pub-id pub-id-type="pmid">29764688</pub-id></mixed-citation></ref><ref id="ece36206-bib-0005"><mixed-citation publication-type="journal" id="ece36206-cit-0005">
+<string-name>
+<surname>Bock</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Caseys</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Cousens</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Hahn</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Heredia</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000fc;bner</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rieseberg</surname>, <given-names>L. H.</given-names>
+</string-name> (<year>2015</year>). <article-title>What we still don't know about invasion genetics</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>24</volume>(<issue>9</issue>), <fpage>2277</fpage>&#x02013;<lpage>2297</lpage>. <pub-id pub-id-type="doi">10.1111/mec.13032</pub-id>
+<pub-id pub-id-type="pmid">25474505</pub-id></mixed-citation></ref><ref id="ece36206-bib-0006"><mixed-citation publication-type="journal" id="ece36206-cit-0006">
+<string-name>
+<surname>Bricker</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name>
+<surname>Roose</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Fagerlund</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Frankel</surname>, <given-names>L. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Eaton&#x02010;Rye</surname>, <given-names>J. J.</given-names>
+</string-name> (<year>2012</year>). <article-title>The extrinsic proteins of Photosystem II</article-title>. <source xml:lang="en">Biochimica Et Biophysica Acta&#x02010;Bioenergetics</source>, <volume>1817</volume>(<issue>1</issue>), <fpage>121</fpage>&#x02013;<lpage>142</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbabio.2011.07.006</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0007"><mixed-citation publication-type="journal" id="ece36206-cit-0007">
+<string-name>
+<surname>Chan</surname>, <given-names>Z. L.</given-names>
+</string-name>, <string-name>
+<surname>Yokawa</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>W.&#x02010;Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name> (<year>2016</year>). <article-title>Editorial: ROS regulation during plant abiotic stress responses</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>7</volume>, <fpage>1536</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2016.01536</pub-id>
+<pub-id pub-id-type="pmid">27807438</pub-id></mixed-citation></ref><ref id="ece36206-bib-0008"><mixed-citation publication-type="journal" id="ece36206-cit-0008">
+<string-name>
+<surname>Chen</surname>, <given-names>M. Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>H. P.</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Miao</surname>, <given-names>Y. C.</given-names>
+</string-name> (<year>2017</year>). <article-title>The glutathione peroxidase gene family in <italic>gossypium hirsutum</italic>: Genome&#x02010;wide identification, classification, gene expression and functional analysis</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>7</volume>, <fpage>44743</fpage>
+<pub-id pub-id-type="doi">10.1038/srep44743</pub-id>
+<pub-id pub-id-type="pmid">28300195</pub-id></mixed-citation></ref><ref id="ece36206-bib-0009"><mixed-citation publication-type="journal" id="ece36206-cit-0009">
+<string-name>
+<surname>Colautti</surname>, <given-names>R. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Barrett</surname>, <given-names>S. C.</given-names>
+</string-name> (<year>2013</year>). <article-title>Rapid adaptation to climate facilitates range expansion of an invasive plant</article-title>. <source xml:lang="en">Science</source>, <volume>342</volume>(<issue>6156</issue>), <fpage>364</fpage>&#x02013;<lpage>366</lpage>. <pub-id pub-id-type="doi">10.1126/science.1242121</pub-id>
+<pub-id pub-id-type="pmid">24136968</pub-id></mixed-citation></ref><ref id="ece36206-bib-0010"><mixed-citation publication-type="journal" id="ece36206-cit-0010">
+<string-name>
+<surname>Dai</surname>, <given-names>Y. J.</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>, <given-names>Z. G.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>L. L.</given-names>
+</string-name>, <string-name>
+<surname>Hannaway</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lu</surname>, <given-names>H. F.</given-names>
+</string-name> (<year>2009</year>). <article-title>Effects of shade treatments on the photosynthetic capacity, chlorophyll fluorescence, and chlorophyll content of <italic>Tetrastigma hemsleyanum</italic> Diels et Gilg</article-title>. <source xml:lang="en">Environmental and Experimental Botany</source>, <volume>65</volume>(<issue>2&#x02013;3</issue>), <fpage>177</fpage>&#x02013;<lpage>182</lpage>. <pub-id pub-id-type="doi">10.1016/j.envexpbot.2008.12.008</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0011"><mixed-citation publication-type="journal" id="ece36206-cit-0011">
+<string-name>
+<surname>Dong</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>ATHK1 acts downstream of hydrogen peroxide to mediate ABA signaling through regulation of calcium channel activity in <italic>Arabidopsis</italic> guard cells</article-title>. <source xml:lang="en">Chinese Science Bulletin</source>, <volume>58</volume>(<issue>3</issue>), <fpage>336</fpage>&#x02013;<lpage>343</lpage>. <pub-id pub-id-type="doi">10.1007/s11434-012-5207-y</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0012"><mixed-citation publication-type="journal" id="ece36206-cit-0012">
+<string-name>
+<surname>Du</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Yan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name> (<year>2017</year>). <article-title>Individual plasticity of the shade response of the invasive <italic>Solidago canadensis</italic> in China</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>12</volume>(<issue>1</issue>), <elocation-id>e0170049</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0170049</pub-id>
+<pub-id pub-id-type="pmid">28081272</pub-id></mixed-citation></ref><ref id="ece36206-bib-0013"><mixed-citation publication-type="journal" id="ece36206-cit-0013">
+<string-name>
+<surname>Feng</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Responses to shading of naturalized and non&#x02010;naturalized exotic woody species</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>114</volume>(<issue>5</issue>), <fpage>981</fpage>&#x02013;<lpage>989</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcu163</pub-id>
+<pub-id pub-id-type="pmid">25122655</pub-id></mixed-citation></ref><ref id="ece36206-bib-0014"><mixed-citation publication-type="journal" id="ece36206-cit-0014">
+<string-name>
+<surname>Fu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Xing</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Zou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Bao</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2014</year>). <article-title>Sequencing&#x02010;based gene network analysis provides a core set of gene resource for understanding thermal adaptation in Zhikong scallop <italic>Chlamys farreri</italic>
+</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>14</volume>(<issue>1</issue>), <fpage>184</fpage>&#x02013;<lpage>198</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12169</pub-id>
+<pub-id pub-id-type="pmid">24128079</pub-id></mixed-citation></ref><ref id="ece36206-bib-0015"><mixed-citation publication-type="journal" id="ece36206-cit-0015">
+<string-name>
+<surname>Funk</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2008</year>). <article-title>Differences in plasticity between invasive and native plants from a low resource environment</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>96</volume>(<issue>6</issue>), <fpage>1162</fpage>&#x02013;<lpage>1173</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2008.01435.x</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0016"><mixed-citation publication-type="journal" id="ece36206-cit-0016">
+<string-name>
+<surname>Gotz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Garcia&#x02010;Gomez</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Terol</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>, <given-names>T. D.</given-names>
+</string-name>, <string-name>
+<surname>Nagaraj</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name>
+<surname>Nueda</surname>, <given-names>M. J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Conesa</surname>, <given-names>A.</given-names>
+</string-name> (<year>2008</year>). <article-title>High&#x02010;throughput functional annotation and data mining with the Blast2GO suite</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>36</volume>(<issue>10</issue>), <fpage>3420</fpage>&#x02013;<lpage>3435</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkn176</pub-id>
+<pub-id pub-id-type="pmid">18445632</pub-id></mixed-citation></ref><ref id="ece36206-bib-0017"><mixed-citation publication-type="journal" id="ece36206-cit-0017">
+<string-name>
+<surname>Grabherr</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name>
+<surname>Haas</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Yassour</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Levin</surname>, <given-names>J. Z.</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Amit</surname>, <given-names>I.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Regev</surname>, <given-names>A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Full&#x02010;length transcriptome assembly from RNA&#x02010;Seq data without a reference genome</article-title>. <source xml:lang="en">Nature Biotechnology</source>, <volume>29</volume>(<issue>7</issue>), <fpage>644</fpage>&#x02013;<lpage>652</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.1883</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0018"><mixed-citation publication-type="journal" id="ece36206-cit-0018">
+<string-name>
+<surname>Gregoriou</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Pontikis</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vemmos</surname>, <given-names>S.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effects of reduced irradiance on leaf morphology, photosynthetic capacity, and fruit yield in olive (<italic>Olea europaea</italic> L.)</article-title>. <source xml:lang="en">Photosynthetica</source>, <volume>45</volume>(<issue>2</issue>), <fpage>172</fpage>&#x02013;<lpage>181</lpage>. <pub-id pub-id-type="doi">10.1007/s11099-007-0029-x</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0019"><mixed-citation publication-type="journal" id="ece36206-cit-0019">
+<string-name>
+<surname>Huang</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>S. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Liu</surname>, <given-names>T.</given-names>
+</string-name> (<year>2018</year>). <article-title>Moderate photoinhibition of photosystem II significantly affects linear electron flow in the shade&#x02010;demanding plant <italic>Panax notoginseng</italic>
+</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>9</volume>, <fpage>637</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2018.00637</pub-id>
+<pub-id pub-id-type="pmid">29868090</pub-id></mixed-citation></ref><ref id="ece36206-bib-0020"><mixed-citation publication-type="journal" id="ece36206-cit-0020">
+<string-name>
+<surname>Huang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Cheng</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cen</surname>, <given-names>K.</given-names>
+</string-name> (<year>2017</year>). <article-title>Transcriptome and key genes expression related to carbon fixation pathways in <italic>Chlorella</italic> PY&#x02010;ZU1 cells and their growth under high concentrations of CO<sub>2</sub>
+</article-title>. <source xml:lang="en">Biotechnology for Biofuels</source>, <volume>10</volume>, <fpage>181</fpage>
+<pub-id pub-id-type="doi">10.1186/s13068-017-0868-z</pub-id>
+<pub-id pub-id-type="pmid">28702086</pub-id></mixed-citation></ref><ref id="ece36206-bib-0021"><mixed-citation publication-type="journal" id="ece36206-cit-0021">
+<string-name>
+<surname>Kou&#x00159;il</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Strouhal</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Nosek</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lenobel</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Chamr&#x000e1;d</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Boekema</surname>, <given-names>E. J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Il&#x000ed;k</surname>, <given-names>P.</given-names>
+</string-name> (<year>2014</year>). <article-title>Structural characterization of a plant photosystem I and NAD(P)H dehydrogenase supercomplex</article-title>. <source xml:lang="en">Plant Journal</source>, <volume>77</volume>(<issue>4</issue>), <fpage>568</fpage>&#x02013;<lpage>576</lpage>. <pub-id pub-id-type="doi">10.1111/tpj.12402</pub-id>
+<pub-id pub-id-type="pmid">24313886</pub-id></mixed-citation></ref><ref id="ece36206-bib-0022"><mixed-citation publication-type="journal" id="ece36206-cit-0022">
+<string-name>
+<surname>Lalitha</surname>, <given-names>S.</given-names>
+</string-name> (<year>2000</year>). <article-title>Primer premier 5</article-title>. <source xml:lang="en">Biotech Software &#x00026; Internet Report</source>, <volume>1</volume>, <fpage>270</fpage>&#x02013;<lpage>272</lpage>. <pub-id pub-id-type="doi">10.1089/152791600459894</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0023"><mixed-citation publication-type="journal" id="ece36206-cit-0023">
+<string-name>
+<surname>Langfelder</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Horvath</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>WGCNA: An R package for weighted correlation network analysis</article-title>. <source xml:lang="en">BMC Bioinformatics</source>, <volume>9</volume>, <fpage>559</fpage>
+<pub-id pub-id-type="doi">10.1186/1471-2105-9-559</pub-id>
+<pub-id pub-id-type="pmid">19114008</pub-id></mixed-citation></ref><ref id="ece36206-bib-0024"><mixed-citation publication-type="journal" id="ece36206-cit-0024">
+<string-name>
+<surname>Langmead</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Salzberg</surname>, <given-names>S. L.</given-names>
+</string-name> (<year>2012</year>). <article-title>Fast gapped&#x02010;read alignment with Bowtie 2</article-title>. <source xml:lang="en">Nature Methods</source>, <volume>9</volume>(<issue>4</issue>), <fpage>357</fpage>&#x02013;<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id>
+<pub-id pub-id-type="pmid">22388286</pub-id></mixed-citation></ref><ref id="ece36206-bib-0025"><mixed-citation publication-type="journal" id="ece36206-cit-0025">
+<string-name>
+<surname>Larbi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Vazquez</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>El&#x02010;Jendoubi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Msallem</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Abadia</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Abadia</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Morales</surname>, <given-names>F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Canopy light heterogeneity drives leaf anatomical, eco&#x02010;physiological, and photosynthetic changes in olive trees grown in a high&#x02010;density plantation</article-title>. <source xml:lang="en">Photosynthesis Research</source>, <volume>123</volume>(<issue>2</issue>), <fpage>141</fpage>&#x02013;<lpage>155</lpage>. <pub-id pub-id-type="doi">10.1007/s11120-014-0052-2</pub-id>
+<pub-id pub-id-type="pmid">25344757</pub-id></mixed-citation></ref><ref id="ece36206-bib-0026"><mixed-citation publication-type="journal" id="ece36206-cit-0026">
+<string-name>
+<surname>Legner</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Fleck</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Leuschner</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Within&#x02010;canopy variation in photosynthetic capacity, SLA and foliar N in temperate broad&#x02010;leaved trees with contrasting shade tolerance</article-title>. <source xml:lang="en">Trees&#x02010;Structure and Function</source>, <volume>28</volume>, <fpage>236</fpage>&#x02013;<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1007/s00468-013-0947-0</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0027"><mixed-citation publication-type="journal" id="ece36206-cit-0027">
+<string-name>
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dewey</surname>, <given-names>C. N.</given-names>
+</string-name> (<year>2011</year>). <article-title>RSEM: Accurate transcript quantification from RNA&#x02010;Seq data with or without a reference genome</article-title>. <source xml:lang="en">BMC Bioinformatics</source>, <volume>12</volume>, <fpage>323</fpage>
+<pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id>
+<pub-id pub-id-type="pmid">21816040</pub-id></mixed-citation></ref><ref id="ece36206-bib-0028"><mixed-citation publication-type="journal" id="ece36206-cit-0028">
+<string-name>
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Fan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Guo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Fan</surname>, <given-names>Y.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name> (<year>2019</year>). <article-title>The <italic>Arabidopsis</italic> MYB transcription factor, MYB111 modulates salt responses by regulating flavonoid biosynthesis</article-title>. <source xml:lang="en">Environmental and Experimental Botany</source>, <volume>166</volume>, <fpage>103807</fpage>
+<pub-id pub-id-type="doi">10.1016/j.envexpbot.2019.103807</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0029"><mixed-citation publication-type="journal" id="ece36206-cit-0029">
+<string-name>
+<surname>Li</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Du</surname>, <given-names>L. S.</given-names>
+</string-name>, <string-name>
+<surname>Guan</surname>, <given-names>W. B.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>F. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Latitudinal and longitudinal clines of phenotypic plasticity in the invasive herb <italic>Solidago canadensis</italic> in China</article-title>. <source xml:lang="en">Oecologia</source>, <volume>182</volume>(<issue>3</issue>), <fpage>755</fpage>&#x02013;<lpage>764</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-016-3699-x</pub-id>
+<pub-id pub-id-type="pmid">27522606</pub-id></mixed-citation></ref><ref id="ece36206-bib-0030"><mixed-citation publication-type="journal" id="ece36206-cit-0030">
+<string-name>
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Hou</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Xia</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>, <given-names>Z. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hu</surname>, <given-names>Z. B.</given-names>
+</string-name> (<year>2018</year>). <article-title>Glutathione S&#x02010;transferases modulate Cu tolerance in <italic>Oryza sativa</italic>
+</article-title>. <source xml:lang="en">Environmental and Experimental Botany</source>, <volume>155</volume>, <fpage>313</fpage>&#x02013;<lpage>320</lpage>. <pub-id pub-id-type="doi">10.1016/j.envexpbot.2018.07.007</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0031"><mixed-citation publication-type="journal" id="ece36206-cit-0031">
+<string-name>
+<surname>Li</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Katin&#x02010;Grazzini</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Gu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>El&#x02010;Tanbouly</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Yer</surname>, <given-names>H.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Li</surname>, <given-names>Y. I.</given-names>
+</string-name> (<year>2017</year>). <article-title>Transcriptome analysis reveals differential gene expression and a possible role of gibberellins in a shade&#x02010;tolerant mutant of perennial ryegrass</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>8</volume>, <fpage>868</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2017.00868</pub-id>
+<pub-id pub-id-type="pmid">28603533</pub-id></mixed-citation></ref><ref id="ece36206-bib-0032"><mixed-citation publication-type="journal" id="ece36206-cit-0032">
+<string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Xin</surname>, <given-names>G. F.</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Shi</surname>, <given-names>Q. H.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>F. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wang</surname>, <given-names>X. F.</given-names>
+</string-name> (<year>2017</year>). <article-title>Carbohydrate accumulation and sucrose metabolism responses in tomato seedling leaves when subjected to different light qualities</article-title>. <source xml:lang="en">Scientia Horticulturae</source>, <volume>225</volume>, <fpage>490</fpage>&#x02013;<lpage>497</lpage>. <pub-id pub-id-type="doi">10.1016/j.scienta.2017.07.053</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0033"><mixed-citation publication-type="journal" id="ece36206-cit-0033">
+<string-name>
+<surname>Lichtenthaler</surname>, <given-names>H. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wellburn</surname>, <given-names>A. R.</given-names>
+</string-name> (<year>1985</year>). <article-title>Determinations of total carotenoids and chlorophylls <italic>a</italic> and <italic>b</italic> of leaf extracts in different solvents</article-title>. <source xml:lang="en">Biochemical Society Transactions</source>, <volume>11</volume>, <fpage>591</fpage>&#x02013;<lpage>592</lpage>.</mixed-citation></ref><ref id="ece36206-bib-0034"><mixed-citation publication-type="journal" id="ece36206-cit-0034">
+<string-name>
+<surname>Liu</surname>, <given-names>C. X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhang</surname>, <given-names>T. Z.</given-names>
+</string-name> (<year>2017</year>). <article-title>Expansion and stress responses of the AP2/EREBP superfamily in cotton</article-title>. <source xml:lang="en">BMC Genomics</source>, <volume>18</volume>, <fpage>118</fpage>
+<pub-id pub-id-type="doi">10.1186/S12864-017-3517-9</pub-id>
+<pub-id pub-id-type="pmid">28143399</pub-id></mixed-citation></ref><ref id="ece36206-bib-0035"><mixed-citation publication-type="journal" id="ece36206-cit-0035">
+<string-name>
+<surname>Liu</surname>, <given-names>H. Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>C. Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Xiong</surname>, <given-names>F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Isolation and characterization of 19 polymorphic microsatellite loci from <italic>Neosalanx taihuensis</italic>, a rapidly invasive and adaptative species</article-title>. <source xml:lang="en">Biochemical Systematics and Ecology</source>, <volume>61</volume>, <fpage>121</fpage>&#x02013;<lpage>123</lpage>. <pub-id pub-id-type="doi">10.1016/j.bse.2015.06.010</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0036"><mixed-citation publication-type="journal" id="ece36206-cit-0036">
+<string-name>
+<surname>Liu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Dawson</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Prati</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Haeuser</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Feng</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Does greater specific leaf area plasticity help plants to maintain a high performance when shaded?</article-title>
+<source xml:lang="en">Annals of Botany</source>, <volume>118</volume>(<issue>7</issue>), <fpage>1329</fpage>&#x02013;<lpage>1336</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcw180</pub-id>
+<pub-id pub-id-type="pmid">27594648</pub-id></mixed-citation></ref><ref id="ece36206-bib-0037"><mixed-citation publication-type="journal" id="ece36206-cit-0037">
+<string-name>
+<surname>Lou</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Mei</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Feng</surname>, <given-names>F.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Zhong</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2017</year>). <article-title>Root transcriptomic analysis revealing the importance of energy metabolism to the development of deep roots in rice (<italic>Oryza sativa</italic> L.)</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>8</volume>, <fpage>1314</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2017.01314</pub-id>
+<pub-id pub-id-type="pmid">28798764</pub-id></mixed-citation></ref><ref id="ece36206-bib-0038"><mixed-citation publication-type="journal" id="ece36206-cit-0038">
+<string-name>
+<surname>Love</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anders</surname>, <given-names>S.</given-names>
+</string-name> (<year>2014</year>). <article-title>Moderated estimation of fold change and dispersion for RNA&#x02010;seq data with DESeq2</article-title>. <source xml:lang="en">Genome Biology</source>, <volume>15</volume>(<issue>12</issue>), <fpage>550</fpage>
+<pub-id pub-id-type="doi">10.1186/S13059-014-0550-8</pub-id>
+<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation></ref><ref id="ece36206-bib-0039"><mixed-citation publication-type="journal" id="ece36206-cit-0039">
+<string-name>
+<surname>Ma</surname>, <given-names>L. Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>L. R.</given-names>
+</string-name>, <string-name>
+<surname>Jiao</surname>, <given-names>Y. H.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>G. Z.</given-names>
+</string-name>, <string-name>
+<surname>Miao</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hao</surname>, <given-names>F. S.</given-names>
+</string-name> (<year>2011</year>). <article-title>NADPH oxidase AtrbohD and AtrbohF function in ROS&#x02010;dependent regulation of Na<sup>+</sup>/K<sup>+</sup> homeostasis in <italic>Arabidopsis</italic> under salt stress</article-title>. <source xml:lang="en">Journal of Experimental Botany</source>, <volume>63</volume>, <fpage>305</fpage>&#x02013;<lpage>317</lpage>.<pub-id pub-id-type="pmid">21984648</pub-id></mixed-citation></ref><ref id="ece36206-bib-0040"><mixed-citation publication-type="journal" id="ece36206-cit-0040">
+<string-name>
+<surname>Mamedov</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Govindjee</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Nadtochenko</surname>, <given-names>V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Semenov</surname>, <given-names>A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Primary electron transfer processes in photosynthetic reaction centers from oxygenic organisms</article-title>. <source xml:lang="en">Photosynthesis Research</source>, <volume>125</volume>(<issue>1&#x02013;2</issue>), <fpage>51</fpage>&#x02013;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1007/s11120-015-0088-y</pub-id>
+<pub-id pub-id-type="pmid">25648636</pub-id></mixed-citation></ref><ref id="ece36206-bib-0041"><mixed-citation publication-type="journal" id="ece36206-cit-0041">
+<string-name>
+<surname>Mathur</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Jain</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jajoo</surname>, <given-names>A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Photosynthetic efficiency in sun and shade plants</article-title>. <source xml:lang="en">Photosynthetica</source>, <volume>56</volume>(<issue>1</issue>), <fpage>354</fpage>&#x02013;<lpage>365</lpage>. <pub-id pub-id-type="doi">10.1007/s11099-018-0767-y</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0042"><mixed-citation publication-type="journal" id="ece36206-cit-0042">
+<string-name>
+<surname>Molina&#x02010;Montenegro</surname>, <given-names>A. M. A.</given-names>
+</string-name>, <string-name>
+<surname>Palma&#x02010;Rojas</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Alcayaga&#x02010;Olivares</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Oses</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Corcuera</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name>
+<surname>Cavieres</surname>, <given-names>L. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ernesto</surname>, <given-names>G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Ecophysiological plasticity and local differentiation help explain the invasion success of <italic>Taraxacum officinale</italic> (dandelion) in South America</article-title>. <source xml:lang="en">Ecography</source>, <volume>36</volume>, <fpage>718</fpage>&#x02013;<lpage>730</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0587.2012.07758.x</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0043"><mixed-citation publication-type="journal" id="ece36206-cit-0043">
+<string-name>
+<surname>Mortazavi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>Mccue</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Schaeffer</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wold</surname>, <given-names>B.</given-names>
+</string-name> (<year>2008</year>). <article-title>Mapping and quantifying mammalian transcriptomes by RNA&#x02010;Seq</article-title>. <source xml:lang="en">Nature Methods</source>, <volume>5</volume>(<issue>7</issue>), <fpage>621</fpage>&#x02013;<lpage>628</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.1226</pub-id>
+<pub-id pub-id-type="pmid">18516045</pub-id></mixed-citation></ref><ref id="ece36206-bib-0044"><mixed-citation publication-type="journal" id="ece36206-cit-0044">
+<string-name>
+<surname>Muhidin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Syam'un</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Kaimuddin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Musa</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Sadimantara</surname>, <given-names>G. R.</given-names>
+</string-name>, <string-name>
+<surname>Usman</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rakian</surname>, <given-names>T. C.</given-names>
+</string-name> (<year>2018</year>). <article-title>The effect of shade on chlorophyll and anthocyanin content of upland red rice</article-title>. <source xml:lang="en">International Conference on Agriculture, Environment, and Food Security</source>, <volume>122</volume>, <fpage>012030</fpage>
+<pub-id pub-id-type="doi">10.1088/1755-1315/122/1/012030</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0045"><mixed-citation publication-type="journal" id="ece36206-cit-0045">
+<string-name>
+<surname>Ortega&#x02010;Mayagoitia</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Hernandez&#x02010;Martinez</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ciros&#x02010;Perez</surname>, <given-names>J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Phenotypic plasticity of life&#x02010;history traits of a calanoid copepod in a tropical lake: Is the magnitude of thermal plasticity related to thermal variability?</article-title>
+<source xml:lang="en">PLoS ONE</source>, <volume>13</volume>(<issue>4</issue>), <elocation-id>e0196496</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0196496</pub-id>
+<pub-id pub-id-type="pmid">29708999</pub-id></mixed-citation></ref><ref id="ece36206-bib-0046"><mixed-citation publication-type="journal" id="ece36206-cit-0046">
+<string-name>
+<surname>Pandit</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>S. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pocock</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>The contrasting effects of genome size, chromosome number and ploidy level on plant invasiveness: A global analysis</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>203</volume>(<issue>2</issue>), <fpage>697</fpage>&#x02013;<lpage>703</lpage>. <pub-id pub-id-type="doi">10.1111/nph.12799</pub-id>
+<pub-id pub-id-type="pmid">24697788</pub-id></mixed-citation></ref><ref id="ece36206-bib-0047"><mixed-citation publication-type="journal" id="ece36206-cit-0047">
+<string-name>
+<surname>Puthiyaveetil</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ibrahim</surname>, <given-names>I. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Allen</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2012</year>). <article-title>Oxidation&#x02010;reduction signalling components in regulatory pathways of state transitions and photosystem stoichiometry adjustment in chloroplasts</article-title>. <source xml:lang="en">Plant Cell and Environment</source>, <volume>35</volume>(<issue>2</issue>), <fpage>347</fpage>&#x02013;<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-3040.2011.02349.x</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0048"><mixed-citation publication-type="journal" id="ece36206-cit-0048">
+<string-name>
+<surname>Qi</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Kangasjarvi</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>, <given-names>J.&#x02010;K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gong</surname>, <given-names>Z. Z.</given-names>
+</string-name> (<year>2018</year>). <article-title>Reactive oxygen species signaling and stomatal movement in plant responses to drought stress and pathogen attack</article-title>. <source xml:lang="en">Journal of Integrative Plant Biology</source>, <volume>60</volume>(<issue>9</issue>), <fpage>805</fpage>&#x02013;<lpage>826</lpage>. <pub-id pub-id-type="doi">10.1111/jipb.12654</pub-id>
+<pub-id pub-id-type="pmid">29660240</pub-id></mixed-citation></ref><ref id="ece36206-bib-0049"><mixed-citation publication-type="journal" id="ece36206-cit-0049">
+<string-name>
+<surname>Raabe</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Pisek</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Sonnentag</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Annuk</surname>, <given-names>K.</given-names>
+</string-name> (<year>2015</year>). <article-title>Variations of leaf inclination angle distribution with height over the growing season and light exposure for eight broadleaf tree species</article-title>. <source xml:lang="en">Agricultural and Forest Meteorology</source>, <volume>214</volume>, <fpage>2</fpage>&#x02013;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1016/j.agrformet.2015.07.008</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0050"><mixed-citation publication-type="journal" id="ece36206-cit-0050">
+<string-name>
+<surname>Ranade</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name>
+<surname>Delhomme</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garc&#x000ed;a&#x02010;Gil</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2019</year>). <article-title>Transcriptome analysis of shade avoidance and shade tolerance in conifers</article-title>. <source xml:lang="en">Planta</source>, <volume>250</volume>(<issue>1</issue>), <fpage>299</fpage>&#x02013;<lpage>318</lpage>. <pub-id pub-id-type="doi">10.1007/s00425-019-03160-z</pub-id>
+<pub-id pub-id-type="pmid">31028482</pub-id></mixed-citation></ref><ref id="ece36206-bib-0051"><mixed-citation publication-type="journal" id="ece36206-cit-0051">
+<string-name>
+<surname>Rogowski</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Wasilewska&#x02010;Debowska</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Krupnik</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Drozak</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zienkiewicz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Krysiak</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Romanowska</surname>, <given-names>E.</given-names>
+</string-name> (<year>2019</year>). <article-title>Photosynthesis and organization of maize mesophyll and bundle sheath thylakoids of plants grown in various light intensities</article-title>. <source xml:lang="en">Environmental and Experimental Botany</source>, <volume>162</volume>, <fpage>72</fpage>&#x02013;<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/j.envexpbot.2019.02.006</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0052"><mixed-citation publication-type="journal" id="ece36206-cit-0052">
+<string-name>
+<surname>Rosche</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name>
+<surname>Hensen</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Mr&#x000e1;z</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Durka</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Hartmann</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lachmuth</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Invasion success in polyploids: The role of inbreeding in the contrasting colonization abilities of diploid versus tetraploid populations of <italic>Centaurea stoebe</italic> s.l</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>105</volume>, <fpage>425</fpage>&#x02013;<lpage>435</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12670</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0053"><mixed-citation publication-type="journal" id="ece36206-cit-0053">
+<string-name>
+<surname>Sajad</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Iqbal</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Pang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Naeem Khan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>W.&#x02010;G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yang</surname>, <given-names>W.&#x02010;Y.</given-names>
+</string-name> (<year>2018</year>). <article-title>Weak stem under shade reveals the lignin reduction behavior</article-title>. <source xml:lang="en">Journal of Integrative Agriculture</source>, <volume>17</volume>, <fpage>60345</fpage>&#x02013;<lpage>60352</lpage>. <pub-id pub-id-type="doi">10.1016/S2095-3119(18)62111-2</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0054"><mixed-citation publication-type="journal" id="ece36206-cit-0054">
+<string-name>
+<surname>Semchenko</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lepik</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gotzenberger</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zobel</surname>, <given-names>K.</given-names>
+</string-name> (<year>2012</year>). <article-title>Positive effect of shade on plant growth: Amelioration of stress or active regulation of growth rate?</article-title>
+<source xml:lang="en">Journal of Ecology</source>, <volume>100</volume>(<issue>2</issue>), <fpage>459</fpage>&#x02013;<lpage>466</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2011.01936.x</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0055"><mixed-citation publication-type="journal" id="ece36206-cit-0055">
+<string-name>
+<surname>Shao</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Guo</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Huang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Effects of shade treatments on photosynthetic characteristics, chloroplast ultrastructure, and physiology of <italic>Anoectochilus roxburghii</italic>
+</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>9</volume>(<issue>2</issue>), <elocation-id>e85996</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0085996</pub-id>
+<pub-id pub-id-type="pmid">24516523</pub-id></mixed-citation></ref><ref id="ece36206-bib-0056"><mixed-citation publication-type="journal" id="ece36206-cit-0056">
+<string-name>
+<surname>Si</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Dai</surname>, <given-names>Z. C.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Qi</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name>
+<surname>Huang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Miao</surname>, <given-names>S. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Du</surname>, <given-names>D. L.</given-names>
+</string-name> (<year>2014</year>). <article-title>Local adaptation and phenotypic plasticity both occurred in <italic>Wedelia trilobata</italic> invasion across a tropical island</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>16</volume>(<issue>11</issue>), <fpage>2323</fpage>&#x02013;<lpage>2337</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-014-0667-4</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0057"><mixed-citation publication-type="journal" id="ece36206-cit-0057">
+<string-name>
+<surname>Silveira</surname>, <given-names>J. A. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Carvalho</surname>, <given-names>F. E. L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Proteomics, photosynthesis and salt resistance in crops: An integrative view</article-title>. <source xml:lang="en">Journal of Proteomics</source>, <volume>143</volume>, <fpage>24</fpage>&#x02013;<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1016/j.jprot.2016.03.013</pub-id>
+<pub-id pub-id-type="pmid">26957143</pub-id></mixed-citation></ref><ref id="ece36206-bib-0058"><mixed-citation publication-type="journal" id="ece36206-cit-0058">
+<string-name>
+<surname>Simberloff</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>, <given-names>J.&#x02010;L.</given-names>
+</string-name>, <string-name>
+<surname>Genovesi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Maris</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Wardle</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Aronson</surname>, <given-names>J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Impacts of biological invasions: What's what and the way forward</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>28</volume>(<issue>1</issue>), <fpage>58</fpage>&#x02013;<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2012.07.013</pub-id>
+<pub-id pub-id-type="pmid">22889499</pub-id></mixed-citation></ref><ref id="ece36206-bib-0059"><mixed-citation publication-type="journal" id="ece36206-cit-0059">
+<string-name>
+<surname>Smoot</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<surname>Ono</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Ruscheinski</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>P. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ideker</surname>, <given-names>T.</given-names>
+</string-name> (<year>2011</year>). <article-title>Cytoscape 2.8: New features for data integration and network visualization</article-title>. <source xml:lang="en">Bioinformatics</source>, <volume>27</volume>(<issue>3</issue>), <fpage>431</fpage>&#x02013;<lpage>432</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btq675</pub-id>
+<pub-id pub-id-type="pmid">21149340</pub-id></mixed-citation></ref><ref id="ece36206-bib-0060"><mixed-citation publication-type="journal" id="ece36206-cit-0060">
+<string-name>
+<surname>Song</surname>, <given-names>Y. W.</given-names>
+</string-name>, <string-name>
+<surname>Miao</surname>, <given-names>Y. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name> (<year>2014</year>). <article-title>Behind the scenes: The roles of reactive oxygen species in guard cells</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>201</volume>, <fpage>1121</fpage>&#x02013;<lpage>1140</lpage>. <pub-id pub-id-type="doi">10.1111/nph.12565</pub-id>
+<pub-id pub-id-type="pmid">24188383</pub-id></mixed-citation></ref><ref id="ece36206-bib-0061"><mixed-citation publication-type="journal" id="ece36206-cit-0061">
+<string-name>
+<surname>Sun</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>X. R.</given-names>
+</string-name>, <string-name>
+<surname>Qiao</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Cai</surname>, <given-names>Y. F.</given-names>
+</string-name> (<year>2017</year>). <article-title>Genome&#x02010;wide identification of the TIFY gene family in three cultivated <italic>Gossypium</italic> species and the expression of JAZ genes</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>7</volume>, <fpage>42418</fpage>
+<pub-id pub-id-type="doi">10.1038/srep42418</pub-id>
+<pub-id pub-id-type="pmid">28186193</pub-id></mixed-citation></ref><ref id="ece36206-bib-0062"><mixed-citation publication-type="journal" id="ece36206-cit-0062">
+<string-name>
+<surname>Supek</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Bosnjak</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Skunca</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smuc</surname>, <given-names>T.</given-names>
+</string-name> (<year>2011</year>). <article-title>REVIGO Summarizes and visualizes long lists of gene ontology terms</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>6</volume>(<issue>7</issue>), <elocation-id>e21800</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0021800</pub-id>
+<pub-id pub-id-type="pmid">21789182</pub-id></mixed-citation></ref><ref id="ece36206-bib-0063"><mixed-citation publication-type="journal" id="ece36206-cit-0063">
+<string-name>
+<surname>Szymura</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Szymura</surname>, <given-names>T. H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Soil preferences and morphological diversity of goldenrods (<italic>Solidago</italic> L.) from south&#x02010;western Poland</article-title>. <source xml:lang="en">Acta Societatis Botanicorum Poloniae</source>, <volume>82</volume>(<issue>2</issue>), <fpage>107</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.5586/asbp.2013.005</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0064"><mixed-citation publication-type="journal" id="ece36206-cit-0064">
+<string-name>
+<surname>te Beest</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Le Roux</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Brysting</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Suda</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kubesova</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pysek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>The more the better? The role of polyploidy in facilitating plant invasions</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>109</volume>(<issue>1</issue>), <fpage>19</fpage>&#x02013;<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcr277</pub-id>
+<pub-id pub-id-type="pmid">22040744</pub-id></mixed-citation></ref><ref id="ece36206-bib-0065"><mixed-citation publication-type="journal" id="ece36206-cit-0065">
+<string-name>
+<surname>Th&#x000e9;bault</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gillet</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Buttler</surname>, <given-names>A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Polyploidy and invasion success: Trait trade&#x02010;offs in native and introduced cytotypes of two Asteraceae species</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>212</volume>(<issue>2</issue>), <fpage>315</fpage>&#x02013;<lpage>325</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-010-9824-8</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0066"><mixed-citation publication-type="journal" id="ece36206-cit-0066">
+<string-name>
+<surname>van Amerongen</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Croce</surname>, <given-names>R.</given-names>
+</string-name> (<year>2013</year>). <article-title>Light harvesting in photosystem II</article-title>. <source xml:lang="en">Photosynthesis Research</source>, <volume>116</volume>(<issue>2&#x02013;3</issue>), <fpage>251</fpage>&#x02013;<lpage>263</lpage>. <pub-id pub-id-type="doi">10.1007/s11120-013-9824-3</pub-id>
+<pub-id pub-id-type="pmid">23595278</pub-id></mixed-citation></ref><ref id="ece36206-bib-0067"><mixed-citation publication-type="journal" id="ece36206-cit-0067">
+<string-name>
+<surname>Wang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Jiang</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wu</surname>, <given-names>B.</given-names>
+</string-name> (<year>2018</year>). <article-title>
+<italic>Solidago canadensis</italic> invasion affects soil N&#x02010;fixing bacterial communities in heterogeneous landscapes in urban ecosystems in East China</article-title>. <source xml:lang="en">Science of Total Environment</source>, <volume>631&#x02013;632</volume>, <fpage>702</fpage>&#x02013;<lpage>713</lpage>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.03.061</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0068"><mixed-citation publication-type="journal" id="ece36206-cit-0068">
+<string-name>
+<surname>Wang</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Ren</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Qi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Zhou</surname>, <given-names>Q.</given-names>
+</string-name> (<year>2019</year>). <article-title>A R2R3&#x02010;type MYB transcription factor gene from soybean, GmMYB12, is involved in flavonoids accumulation and abiotic stress tolerance in transgenic <italic>Arabidopsis</italic>
+</article-title>. <source xml:lang="en">Plant Biotechnology Reports</source>, <volume>13</volume>(<issue>3</issue>), <fpage>219</fpage>&#x02013;<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1007/s11816-019-00530-7</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0069"><mixed-citation publication-type="journal" id="ece36206-cit-0069">
+<string-name>
+<surname>Wang</surname>, <given-names>P. C.</given-names>
+</string-name>, <string-name>
+<surname>Du</surname>, <given-names>Y. Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Ren</surname>, <given-names>D. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name> (<year>2010</year>). <article-title>Hydrogen peroxide&#x02010;mediated activation of MAP Kinase 6 modulates nitric oxide biosynthesis and signal transduction in <italic>Arabidopsis</italic>
+</article-title>. <source xml:lang="en">The Plant Cell</source>, <volume>22</volume>(<issue>9</issue>), <fpage>2981</fpage>&#x02013;<lpage>2998</lpage>. <pub-id pub-id-type="doi">10.1105/tpc.109.072959</pub-id>
+<pub-id pub-id-type="pmid">20870959</pub-id></mixed-citation></ref><ref id="ece36206-bib-0070"><mixed-citation publication-type="journal" id="ece36206-cit-0070">
+<string-name>
+<surname>Wang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Du</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Miao</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Song</surname>, <given-names>C.&#x02010;P.</given-names>
+</string-name> (<year>2013</year>). <article-title>The MPK6&#x02010;ERF6&#x02010;ROS&#x02010;responsive cis&#x02010;acting element7/GCC box complex modulates oxidative gene transcription and the oxidative response in <italic>Arabidopsis</italic>
+</article-title>. <source xml:lang="en">Plant Physiology</source>, <volume>161</volume>(<issue>3</issue>), <fpage>1392</fpage>&#x02013;<lpage>1408</lpage>. <pub-id pub-id-type="doi">10.1104/pp.112.210724</pub-id>
+<pub-id pub-id-type="pmid">23300166</pub-id></mixed-citation></ref><ref id="ece36206-bib-0071"><mixed-citation publication-type="journal" id="ece36206-cit-0071">
+<string-name>
+<surname>Wang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Leng</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wang</surname>, <given-names>D.</given-names>
+</string-name> (<year>2018</year>). <article-title>Exploring transcription factors reveals crucial members and regulatory networks involved in different abiotic stresses in <italic>Brassica napus L</italic>
+</article-title>. <source xml:lang="en">BMC Plant Biology</source>, <volume>18</volume>, <fpage>202</fpage>
+<pub-id pub-id-type="doi">10.1186/s12870-018-1417-z</pub-id>
+<pub-id pub-id-type="pmid">30231862</pub-id></mixed-citation></ref><ref id="ece36206-bib-0072"><mixed-citation publication-type="journal" id="ece36206-cit-0072">
+<string-name>
+<surname>Wang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Yue</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ye</surname>, <given-names>N.</given-names>
+</string-name> (<year>2019</year>). <article-title>Genome&#x02010;wide identification of WRKY family genes and their response to abiotic stresses in tea plant (<italic>Camellia sinensis</italic>)</article-title>. <source xml:lang="en">Genes &#x00026; Genomics</source>, <volume>41</volume>(<issue>1</issue>), <fpage>17</fpage>&#x02013;<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1007/s13258-018-0734-9</pub-id>
+<pub-id pub-id-type="pmid">30238224</pub-id></mixed-citation></ref><ref id="ece36206-bib-0073"><mixed-citation publication-type="journal" id="ece36206-cit-0073">
+<string-name>
+<surname>Wang</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Botella</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guo</surname>, <given-names>S. Y.</given-names>
+</string-name> (<year>2019</year>). <article-title>Beyond light: Insights into the role of constitutively photomorphogenic1 in plant hormonal signaling</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>10</volume>, <fpage>557</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2019.00557</pub-id>
+<pub-id pub-id-type="pmid">31156657</pub-id></mixed-citation></ref><ref id="ece36206-bib-0074"><mixed-citation publication-type="journal" id="ece36206-cit-0074">
+<string-name>
+<surname>Williams</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Mack</surname>, <given-names>R. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Black</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>1995</year>). <article-title>Ecophysiology of introduced pennisetum&#x02010;setaceum on hawaii: The role of phenotypic plasticity</article-title>. <source xml:lang="en">Ecology</source>, <volume>76</volume>(<issue>5</issue>), <fpage>1569</fpage>&#x02013;<lpage>1580</lpage>. <pub-id pub-id-type="doi">10.2307/1938158</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0075"><mixed-citation publication-type="journal" id="ece36206-cit-0075">
+<string-name>
+<surname>Wu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Deng</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>
+<italic>De novo</italic> sequencing of the leaf transcriptome reveals complex light&#x02010;responsive regulatory networks in <italic>Camellia sinensis</italic> cv. Baijiguan</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>7</volume>, <fpage>332</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2016.00332</pub-id>
+<pub-id pub-id-type="pmid">27047513</pub-id></mixed-citation></ref><ref id="ece36206-bib-0076"><mixed-citation publication-type="journal" id="ece36206-cit-0076">
+<string-name>
+<surname>Yang</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Y. J.</given-names>
+</string-name>, <string-name>
+<surname>Cochard</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cao</surname>, <given-names>K. F.</given-names>
+</string-name> (<year>2014</year>). <article-title>Strong leaf morphological, anatomical, and physiological responses of a subtropical woody bamboo (<italic>Sinarundinaria nitida</italic>) to contrasting light environments</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>215</volume>(<issue>1</issue>), <fpage>97</fpage>&#x02013;<lpage>109</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-013-0281-z</pub-id>
+</mixed-citation></ref><ref id="ece36206-bib-0077"><mixed-citation publication-type="journal" id="ece36206-cit-0077">
+<string-name>
+<surname>Young</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name>
+<surname>Wakefield</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Smyth</surname>, <given-names>G. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Oshlack</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <article-title>Gene ontology analysis for RNA&#x02010;seq: Accounting for selection bias</article-title>. <source xml:lang="en">Genome Biology</source>, <volume>11</volume>(<issue>2</issue>), <fpage>R14</fpage>
+<pub-id pub-id-type="doi">10.1186/Gb-2010-11-2-R14</pub-id>
+<pub-id pub-id-type="pmid">20132535</pub-id></mixed-citation></ref></ref-list></back></article>

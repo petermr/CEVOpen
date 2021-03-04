@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">We assessed differences in bacterial community structure among Native, Gulf, and Introduced 
+ <italic>P. australis</italic> lineages using Adonis, which is a PERMANOVA
+ <sup>
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup> implemented in QIIME, with significance assessed at an alpha of 0.01. We assessed changes in community structure with distance by plotting the pairwise Bray–Curtis dissimilarity coefficient against pairwise distance between locations and calculated the linear regression between the two in R. We used PiCrust
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>
+ </sup>, which assigns function based on 16S rRNA marker sequences using an ancestral state reconstruction approach, to determine bacterial metabolisms. To assess differences in potential bacterial metabolisms among lineages, we implemented PiCrust on Galaxy
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>–
+  <xref ref-type="bibr" rid="CR66">66</xref>
+ </sup>, using closed-reference OTU picking in QIIME. The resulting biom file was uploaded to Galaxy (
+ <ext-link ext-link-type="uri" xlink:href="http://huttenhower.sph.harvard.edu/galaxy/" xmlns:xlink="http://www.w3.org/1999/xlink">http://huttenhower.sph.harvard.edu/galaxy/</ext-link>) and data were normalized to account for multiple copies of 16S rRNA in some bacteria. After normalization PiCrust predicted the metagenomic content of each sample. We then used HUManN
+ <sup>
+  <xref ref-type="bibr" rid="CR67">67</xref>
+ </sup> to generate pathway summaries and separated out those pathways associated with bacterial metabolisms for use in the structural equation model. We tested for significant differences in three specific pathway associated with plant–microbe interactions, toxin and metal detoxification, antimicrobial biosynthesis, and antimicrobial degradation using analysis of variance, followed by Tukey’s post-hoc test in R.
+</p>

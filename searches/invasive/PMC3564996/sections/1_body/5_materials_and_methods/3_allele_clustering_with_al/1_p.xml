@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Allele and single-nucleotide polymorphism (SNP) identification typically rely on mapping reads to a reference genome that represents a haploid set of genes (
+ <xref rid="bib10" ref-type="bibr">Bentley 2006</xref>; 
+ <xref rid="bib14" ref-type="bibr">Charlesworth 2010</xref>). YST lacks a reference genome, and allelic variation in our samples prevented simple 
+ <italic>de novo</italic> creation of an accurate haploid reference sequence library. To circumvent this problem, we developed a novel software pipeline to cluster putative alleles within and among individuals, available as ‘AllelePipe’ (v1.0.25; 
+ <xref ref-type="fig" rid="fig1">Figure 1</xref>) at 
+ <ext-link ext-link-type="uri" xlink:href="http://evopipes.net" xmlns:xlink="http://www.w3.org/1999/xlink">http://evopipes.net</ext-link>. Using the AllelePipe, we assessed similarity among all sequences from all 40 individuals with SSAHA2 (
+ <xref rid="bib50" ref-type="bibr">Ning 
+  <italic>et al.</italic> 2001
+ </xref>), with 95% minimum similarity and 300-bp minimum alignment length between sequences. We also included sequences from a published assembly of a Sanger EST library for a YST genotype from the invasion in central California (Genbank #EH750647-EH791053) (
+ <xref rid="bib5" ref-type="bibr">Barker 
+  <italic>et al.</italic> 2008
+ </xref>). AllelePipe was used to verify that similar sequences aligned throughout their region of overlap (expected for true alleles), and to cluster groups of similar sequences via single-linkage clustering. Single-linkage clustering generates maximal aggregation of sequences, and will bring together both closely related paralogs and their alleles (
+ <xref rid="bib20" ref-type="bibr">Dlugosch and Bonin 2012</xref>). Multiple alignments were created for sequences within each cluster and their consensus sequence generated using CAP3. Clusters were discarded from the analysis if they aggregated increasingly dissimilar sequences, preventing a single CAP3 consensus. From the resulting consensus sequences, a genomic ‘pseudo-reference’ FASTA file was generated for the entire dataset, suitable for anchoring contig alignments across individuals. We evaluated the quality of our overall clustering strategy by aligning our consensus sequences with known highly conserved eukaryotic single copy loci, including 357 ultra-conserved orthologs (UCOs, available at 
+ <ext-link ext-link-type="uri" xlink:href="http://compgenomics.ucdavis.edu/compositae_reference.php" xmlns:xlink="http://www.w3.org/1999/xlink">http://compgenomics.ucdavis.edu/compositae_reference.php</ext-link>; 
+ <xref rid="bib35" ref-type="bibr">Kozik 
+  <italic>et al.</italic> 2008
+ </xref>), using tblastx comparisons with maximum expectation (e-value) of 0.1 and minimum 30 protein residue alignments (Blast v2.2.24) (
+ <xref rid="bib1" ref-type="bibr">Altschul 
+  <italic>et al.</italic> 1997
+ </xref>). Only one-to-one matches between UCOs and clusters are expected for properly clustered loci.
+</p>

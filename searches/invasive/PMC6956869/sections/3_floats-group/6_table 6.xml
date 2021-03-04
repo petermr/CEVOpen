@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab6">
+ <label>Table 6</label>
+ <caption>
+  <p>Results of GLMs testing for effects of habitat condition, microhabitat and the interaction term habitat condition × microhabitat on foraging success of the Small Tree Finch (
+   <italic>C. parvulus</italic>), including and excluding plant food and the Warbler Finch (
+   <italic>C. olivacea</italic>), excluding plant food
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Effect</th>
+    <th align="left">
+     <italic>df</italic>
+    </th>
+    <th align="left">MS</th>
+    <th align="left">
+     <italic>F</italic>
+    </th>
+    <th align="left">
+     <italic>p</italic>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="5">Small Tree Finch</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5"> Including plant food</td>
+   </tr>
+   <tr>
+    <td align="left">  Constant</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">40.92</td>
+    <td char="." align="char">295.23</td>
+    <td char="." align="char">&lt;0.0001</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">0.69</td>
+    <td char="." align="char">5.01</td>
+    <td char="." align="char">0.0079</td>
+   </tr>
+   <tr>
+    <td align="left">  Microhabitat</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">0.65</td>
+    <td char="." align="char">4.68</td>
+    <td char="." align="char">0.0322</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition × microhabitat</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">0.73184</td>
+    <td char="." align="char">5.28</td>
+    <td char="." align="char">0.0061</td>
+   </tr>
+   <tr>
+    <td align="left">  Error</td>
+    <td char="." align="char">143</td>
+    <td char="." align="char">0.13862</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left" colspan="5"> Excluding plant food</td>
+   </tr>
+   <tr>
+    <td align="left">  Constant</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">14.41</td>
+    <td char="." align="char">125.39</td>
+    <td char="." align="char">&lt;0.0001</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">0.06</td>
+    <td char="." align="char">0.53</td>
+    <td char="." align="char">0.5909</td>
+   </tr>
+   <tr>
+    <td align="left">  Microhabitat</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">0.12</td>
+    <td char="." align="char">1.07</td>
+    <td char="." align="char">0.3053</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition × microhabitat</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">0.09</td>
+    <td char="." align="char">0.81</td>
+    <td char="." align="char">0.4498</td>
+   </tr>
+   <tr>
+    <td align="left">  Error</td>
+    <td char="." align="char">71</td>
+    <td char="." align="char">0.11</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left" colspan="5">Warbler Finch</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="5"> Excluding plant food</td>
+   </tr>
+   <tr>
+    <td align="left">  Constant</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">363.47</td>
+    <td char="." align="char">274.94</td>
+    <td char="." align="char">&lt;0.0001</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">2.20</td>
+    <td char="." align="char">1.66</td>
+    <td char="." align="char">0.1922</td>
+   </tr>
+   <tr>
+    <td align="left">  Microhabitat</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">16.65</td>
+    <td char="." align="char">12.59</td>
+    <td char="." align="char">0.0005</td>
+   </tr>
+   <tr>
+    <td align="left">  Habitat condition × microhabitat</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">2.30</td>
+    <td char="." align="char">1.74</td>
+    <td char="." align="char">0.1784</td>
+   </tr>
+   <tr>
+    <td align="left">  Error</td>
+    <td char="." align="char">185</td>
+    <td char="." align="char">1.32</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

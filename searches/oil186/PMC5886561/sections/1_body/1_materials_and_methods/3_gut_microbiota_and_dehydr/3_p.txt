@@ -1,0 +1,7 @@
+0: We confirmed that the antibiotic treatment altered the wild-type fruit fly gut microbiotas, and investigated the gut microbiota composition in more detail, through 16S rRNA ion torrent sequencing of the V1 region of the gut microbiotas of ten untreated flies and nine antibiotic treated flies from the same isofemale lines as the flies used in the experiments.
+1: Operational taxonomic units were binned by 97% similarity and classified using the GreenGenes 13_8 reference database.
+2: The gut microbiota composition of the wild-type and antibiotic-treated flies were compared using nonmetric multidimensional scaling on three metrics [ 42,  43]: weighted UniFrac distance; unweighted UniFrac distance; and the Jaccard index.
+3: Diversity distributions (based on the Shannon index [ 44] for alpha diversity and the Jaccard index [ 43] for beta diversity) were assessed and statistically compared using Kruskal-Wallis tests [ 45].
+4: All bioinformatics sequence processing up to OTU table generation was conducted using QIIME version 1.9.1 [ 46].
+5: Statistical analyses and graphical output were performed with Rstudio version 0.99.484.
+6: The primary R package used for analysis of the OTU table was Phyloseq 1.12.2 [ 47].

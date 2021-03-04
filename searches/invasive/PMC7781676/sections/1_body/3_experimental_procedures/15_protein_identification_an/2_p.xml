@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the TMT-labeling quantification, the ProteinGroup file from MaxQuant result was loaded to Perseus software (version 1.5.6.0) to facilitate statistical analysis. Only proteins that were identified and quantifiable in three biological replicates were used for relative quantification. The intensity of the TMT reporter ion for each protein was normalized against the total intensity of each sample and the corrected TMT reporter ion intensities in each sample were used to calculate fold changes between samples. A two-sample Student’s 
+ <italic>t</italic>-test was used for the statistical evaluation and the coefficient of variation (CV) was computed from the three biological replicates. The differentially expressed proteins were defined as fold-change ≥1.2 or ≤0.83, and 
+ <italic>p</italic> &lt; 0.05, CV &lt; 20%.
+</p>

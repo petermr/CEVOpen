@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Raw reads containing low‐quality, adaptor‐polluted, and a high content of unknown bases were removed and satisfied with the number of Q20 above 90% before downstream analyses. After filtering out low‐quality and ambiguous nucleotides, de novo assemblies were prepared from the clean reads using Trinity (v2.0.6; Grabherr et al., 
+ <xref rid="ece36206-bib-0017" ref-type="ref">2011</xref>). A transcriptome assembly, generated from all mixed samples, was used as a reference for further gene expression analysis. For gene function annotations, all nonredundant assembled transcripts (≥200 bp) were used to search against public databases, including the nonredundant protein (Nr), nucleotide (Nt), EuKaryotic Orthologous Groups (KOG), Swiss‐Prot, and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases, with a significance threshold of 
+ <italic>E</italic>‐value ≤ 10
+ <sup>−5</sup>. Based on the NR annotation results, Blast2GO software was used to classify unigenes against the Gene Ontology (GO) database according to cellular component, biological process, and molecular function (Gotz et al., 
+ <xref rid="ece36206-bib-0016" ref-type="ref">2008</xref>).
+</p>

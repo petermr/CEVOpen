@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t1-sensors-09-04869" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Summary of remote sensing applications for non-native plant studies.</p>
+ </caption>
+ <table frame="box" rules="all">
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="3" colspan="1">Moderate spatial/ spectral</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: 10-100 m.</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Long (16-26 days).</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: &lt; 20 bands.</p>
+      </list-item>
+      <list-item>
+       <p>ASTER, SPOT, TM/ETM+.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Large stands.</p>
+      </list-item>
+      <list-item>
+       <p>Different phenology to co-existing plants.</p>
+      </list-item>
+      <list-item>
+       <p>Selection of images acquired in the right season.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Coarse spatial and spectral resolutions unable to extract non-native species from a mixture of different plants.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="3" colspan="1">High spatial</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: &lt; 10 m.</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Short (1-4 days).</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: ∼5 bands.</p>
+      </list-item>
+      <list-item>
+       <p>Aerial photographs, QuickBird, IKONOS.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Unique spatial patterns.</p>
+      </list-item>
+      <list-item>
+       <p>Pronounced flowering season.</p>
+      </list-item>
+      <list-item>
+       <p>Selection of images acquired in the right season.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Inflexibility of airborne data collection.</p>
+      </list-item>
+      <list-item>
+       <p>Pixel spacing still not fine enough to observe plants at the species level.</p>
+      </list-item>
+      <list-item>
+       <p>Unable to detect plants with no distinct flowering pattern due to the coarse spectral resolution.</p>
+      </list-item>
+      <list-item>
+       <p>Impractical for large scale monitoring due to the time intensive approach (e.g., visual inspection), and small spatial extents.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">High temporal</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: ≥ 250 m.</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Very short (1-2 days).</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: &lt; 40 bands.</p>
+      </list-item>
+      <list-item>
+       <p>AVHRR, MODIS.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="2" colspan="1">High temporal</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Unique phenological characteristics.</p>
+      </list-item>
+      <list-item>
+       <p>Combination of models and time-series vegetation indices derived from the images.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Insufficient spectral bands to extract non-native species from large pixels covering other plants, surface soils and senescent vegetation.</p>
+      </list-item>
+      <list-item>
+       <p>Time-series vegetation pattern obscured by cloud and snow requiring a statistically sounded smoothing algorithm for noise removal.</p>
+      </list-item>
+      <list-item>
+       <p>Difficult to conduct field validation due to the large plot size.</p>
+      </list-item>
+      <list-item>
+       <p>Overwriting non-native species signals by climatic variations such as precipitation.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="3" colspan="1">Hyperspectral</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: Varied (0.5-30 m).</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Varied.</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: &gt; 100 bands.</p>
+      </list-item>
+      <list-item>
+       <p>AVIRIS, Hyperion.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Unique signatures in the hyperspectral space.</p>
+      </list-item>
+      <list-item>
+       <p>Spectral mixture analysis.</p>
+      </list-item>
+      <list-item>
+       <p>Biochemical analysis at the canopy level.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>No direct link between invasion mechanism and sophisticate hyperspectral analyses.</p>
+      </list-item>
+      <list-item>
+       <p>A small swath width of data collected from aircraft restricting the ability for large spatial scale monitoring.</p>
+      </list-item>
+      <list-item>
+       <p>Inflexibility of airborne data collection.</p>
+      </list-item>
+      <list-item>
+       <p>High similarity in the spectral space among species.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="3" colspan="1">Active remote sensing</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: 0.5-100 m.</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Varied.</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: 1 band.</p>
+      </list-item>
+      <list-item>
+       <p>3-D view.</p>
+      </list-item>
+      <list-item>
+       <p>LiDAR, RADARSAT.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Large and pure stand.</p>
+      </list-item>
+      <list-item>
+       <p>Monitoring the progress of species invasion from data acquired at two time points.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>No spectral information and data only useful with good field knowledge.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="3" colspan="1">Image fusion</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Sensor specifications and examples:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Spatial: ∼0.5 m.</p>
+      </list-item>
+      <list-item>
+       <p>Temporal: Varied.</p>
+      </list-item>
+      <list-item>
+       <p>Spectral: 200+ bands.</p>
+      </list-item>
+      <list-item>
+       <p>3-D view.</p>
+      </list-item>
+      <list-item>
+       <p>Pushing the limits of spatial, spectral and dimensional resolutions in modern remote sensing.</p>
+      </list-item>
+      <list-item>
+       <p>CAO.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Species traits and remote sensing strategies:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>Unique signatures in the hyperspectral space.</p>
+      </list-item>
+      <list-item>
+       <p>Detection of non-native species of different height-levels (overstory and understory) at the very fine spatial scale.</p>
+      </list-item>
+     </list>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">
+     <bold>
+      <italic>
+       <underline>Limitations:</underline>
+      </italic>
+     </bold>
+     <list list-type="bullet">
+      <list-item>
+       <p>High cost of data collection.</p>
+      </list-item>
+      <list-item>
+       <p>Requirement of high performance computing power.</p>
+      </list-item>
+      <list-item>
+       <p>Inflexibility of airborne data collection.</p>
+      </list-item>
+     </list>Small spatial extents restricting very large spatial-scale monitoring.
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="roman-lower">
+ <list-item>
+  <p>The distribution of epidemic impact can be very sensitive to small changes in cull radius, particularly if the radius is decreased from the optimal value (compare distributions C and B with distributions D and E).</p>
+ </list-item>
+ <list-item>
+  <p>If the objective is to minimise some other metric, e.g. the 95% percentile of the epidemic impact, κ
+   <sub>
+    <italic>E</italic>
+   </sub>, thereby taking more explicit account of uncertainty, the optimum radius changes. For example, the optimum radius becomes 194m when optimising over the 95
+   <sup>th</sup> percentile of κ
+   <sub>
+    <italic>E</italic>
+   </sub>, and for this radius there are 149 removals on the 50
+   <sup>th</sup> percentile and 271 removals on the 95
+   <sup>th</sup> percentile (
+   <italic>cf</italic>. 132 removals on the 50
+   <sup>th</sup> percentile and 309 on the 95
+   <sup>th</sup> percentile using the cull radius 159m obtained by optimising over the median value of κ
+   <sub>
+    <italic>E</italic>
+   </sub>).
+  </p>
+ </list-item>
+</list>

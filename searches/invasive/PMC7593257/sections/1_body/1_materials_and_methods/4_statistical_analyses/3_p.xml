@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Bromus tectorum</italic> phenological response to warming and watering treatments was analyzed using linear mixed-effects models with a restricted maximum likelihood approach (
+ <xref rid="B106" ref-type="bibr">Zuur et al., 2006</xref>; 
+ <xref rid="B14" ref-type="bibr">Bolker et al., 2009</xref>; 
+ <xref rid="B65" ref-type="bibr">Nakagawa and Schielzeth, 2013</xref>). Models were designed to test the treatment effects of warming, altered precipitation, and their interaction on the timing of 
+ <italic>B. tectorum</italic> phenology. Separate models were constructed for each experiment because sample size and both warming and altered precipitation treatments differed across experiments. All models included random intercepts for the 5 blocks in each experiment to account for spatial variation. Each model also included random intercepts for year, as well as random slopes for warming treatments in each year. This allowed accounting for year-to-year climate variability in 
+ <italic>B. tectorum</italic> phenology, as well as examination of the interaction between warming treatment effects and yearly weather. Two models were fitted for each phenology variable (germination, flowering, senescence, and vegetative growing season) at each experiment (CV4, CV2, and M2) for a total of 24 candidate models. The first of the two models had additive fixed effects of warming and altered precipitation and the second model had interacting warming and altered precipitation effects in addition to the additive warming and altered precipitation effects. For each phenology variable at each site, the final models were selected with a likelihood ratio test (
+ <xref rid="B9" ref-type="bibr">Bates, 2010</xref>). Twelve final models were selected, one for the timing of germination, flowering, senescence, and total number of vegetative days (time from germination to the initiation of flowering) in each of the 3 experiments. No models with interacting warming and altered precipitation were selected and so treatment effects were tested using Type-II ANOVA on each candidate model (
+ <xref rid="B50" ref-type="bibr">Kuznetsova et al., 2017</xref>; 
+ <xref rid="B56" ref-type="bibr">Luke, 2017</xref>). The contribution of the interaction between each year and warming treatment was quantified using conditional modes of the random effects along with their 95% confidence intervals (
+ <xref rid="B30" ref-type="bibr">Fox et al., 2015</xref>). Linear mixed-effects model analysis and ANOVA analysis on the models utilized the ‘lme4’ package (
+ <xref rid="B8" ref-type="bibr">Bates et al., 2015</xref>).
+</p>

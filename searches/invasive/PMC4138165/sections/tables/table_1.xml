@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone-0105025-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0105025.t001</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>Parameters of species distribution models (SDMs) for 
+   <italic>Eschscholzia californica</italic> in central Chile projected from the invaded range (central Chile) and the native range (California).
+  </title>
+ </caption>
+ <alternatives>
+  <graphic id="pone-0105025-t001-1" xlink:href="pone.0105025.t001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Range</td>
+     <td align="left" rowspan="1" colspan="1">N° occurrences</td>
+     <td align="left" rowspan="1" colspan="1">β</td>
+     <td align="left" rowspan="1" colspan="1">Parameters</td>
+     <td align="left" rowspan="1" colspan="1">Threshold</td>
+     <td align="left" rowspan="1" colspan="1">AUC
+      <sub>train.</sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">AUC
+      <sub>test</sub>
+     </td>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Invaded range</td>
+     <td align="left" rowspan="1" colspan="1">778</td>
+     <td align="left" rowspan="1" colspan="1">1</td>
+     <td align="left" rowspan="1" colspan="1">118</td>
+     <td align="left" rowspan="1" colspan="1">0.13</td>
+     <td align="left" rowspan="1" colspan="1">0.936</td>
+     <td align="left" rowspan="1" colspan="1">0.919</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Native range</td>
+     <td align="left" rowspan="1" colspan="1">311</td>
+     <td align="left" rowspan="1" colspan="1">1</td>
+     <td align="left" rowspan="1" colspan="1">24</td>
+     <td align="left" rowspan="1" colspan="1">0.13</td>
+     <td align="left" rowspan="1" colspan="1">0.918</td>
+     <td align="left" rowspan="1" colspan="1">0.881</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="nt101">
+   <label/>
+   <p>The threshold values correspond to P(occurrence) observed in the lowest percentile (10%) of the occurrence distribution for each range. The β parameter is a measure of SDM regularization. We used β = 1 because it generates the most conservative models by penalizing over-parameterization.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

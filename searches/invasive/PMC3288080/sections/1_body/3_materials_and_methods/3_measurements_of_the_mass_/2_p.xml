@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The reversibility of the trade-off between seed mass and seed number was tested by determining whether the average seed mass at the individual tree level varied more through time than between trees within and between sites 
+ <xref rid="pone.0032323-DeWitt1" ref-type="bibr">[14]</xref>, 
+ <xref rid="pone.0032323-Nussey1" ref-type="bibr">[61]</xref>. We used hierarchical mixed effect models 
+ <xref rid="pone.0032323-McMahon1" ref-type="bibr">[62]</xref> to compare the variance of seed mass i) per individual through time (2001–2003) at a site scale, ii) between individuals per site and iii) between the 22 sites across space. The 22 sites and the individual trees (
+ <italic>nested within</italic> the sites) were both used as random grouping factors for the response variables. The different years were nested within the individuals and the temporal variance represented the residuals. We then compared this random model with other models that incorporated combinations of climate, habitat, annual rainfall and time as fixed explanatory variables. The best model was used to estimate and compare the spatial and temporal variance of seed mass and to estimate seed mass under different spatial and temporal conditions. The package 
+ <italic>nlme</italic> from 
+ <italic>R-cran</italic> was used for the hierarchical mixed affect analysis (
+ <italic>R</italic> Development Core Team, 2006).
+</p>

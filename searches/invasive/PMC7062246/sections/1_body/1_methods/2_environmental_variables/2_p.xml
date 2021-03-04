@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A critical aspect of our modeling workflow was the species-specific selection of predictor variables, which used a combination of automatic and human input processes (‘Species’ Variable Selection’ and ‘Final Variable Selection’, 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>). First, we conducted a literature review for each species to help inform which environmental variables from the national library we compiled limit the distribution of each species. We also drew on our own natural history knowledge of each species, and on initial conversations with management practitioners in the regions where these species are impacting ecosystems. We retained predictors for modeling from the national library based on this species-specific information and by removing one of any pair of variables that had a maximum of the Pearson, Spearman, or Kendall correlation coefficient |r|&gt; 0.7 [
+ <xref rid="pone.0229253.ref043" ref-type="bibr">43</xref>] to reduce issues of collinearity. This analysis was accomplished using the 
+ <italic>CovariateCorrelationAndSelection</italic> module in SAHM (‘Final Variable Selection’, 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>).
+</p>

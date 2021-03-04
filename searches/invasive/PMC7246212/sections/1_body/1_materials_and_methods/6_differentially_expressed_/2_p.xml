@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All clean reads from each sample were mapped to the assembled unigene dataset with Bowtie2 software (Langmead &amp; Salzberg, 
+ <xref rid="ece36206-bib-0024" ref-type="ref">2012</xref>), and the gene expression levels were calculated with RSEM software (Li &amp; Dewey, 
+ <xref rid="ece36206-bib-0027" ref-type="ref">2011</xref>). To provide a relatively accurate assessment of transcript abundance, the fragments per kilobase of exon model per million mapped reads (FPKM) value were used as a measure to normalize the unigene expression levels (Mortazavi, Williams, Mccue, Schaeffer, &amp; Wold, 
+ <xref rid="ece36206-bib-0043" ref-type="ref">2008</xref>). The differentially expressed genes (DEGs) between each group were identified with DEseq2 software with a |log
+ <sub>2</sub> (fold change)| ≥ 1 and adjusted 
+ <italic>p</italic>‐value &lt; .05 as the threshold for significantly different expression (Love, Huber, &amp; Anders, 
+ <xref rid="ece36206-bib-0038" ref-type="ref">2014</xref>). GO enrichment analysis of all DEGs was performed using hyper, a function of R based on the hypergeometric distribution (Young, Wakefield, Smyth, &amp; Oshlack, 
+ <xref rid="ece36206-bib-0077" ref-type="ref">2010</xref>). Furthermore, REVIGO was used to visualize the enriched GO term in multiple ways to facilitate interpretation (Supek, Bosnjak, Skunca, &amp; Smuc, 
+ <xref rid="ece36206-bib-0062" ref-type="ref">2011</xref>). For KEGG pathway enrichment analysis, all DEGs were mapped to pathways in the KEGG database and identified significantly enriched pathways based on a corrected 
+ <italic>p</italic>‐value &lt; .05.
+</p>

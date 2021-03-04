@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone-0063508-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0063508.t001</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>CLIMEX parameter values used to model eco-climatic suitability of Phytophthora ramorum.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone-0063508-t001-1" xlink:href="pone.0063508.t001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+    <col align="center" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Parameter</td>
+     <td align="left" rowspan="1" colspan="1">Description</td>
+     <td colspan="2" align="left" rowspan="1">Value</td>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td colspan="4" align="left" rowspan="1">Temperature Index (TI)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">DV0</td>
+     <td align="left" rowspan="1" colspan="1">Lower temperature threshold for growth</td>
+     <td colspan="2" align="left" rowspan="1">0°C</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">DV1</td>
+     <td align="left" rowspan="1" colspan="1">Lower optimum for growth</td>
+     <td colspan="2" align="left" rowspan="1">18°C</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">DV2</td>
+     <td align="left" rowspan="1" colspan="1">Upper optimum for growth</td>
+     <td colspan="2" align="left" rowspan="1">22°C</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">DV3</td>
+     <td align="left" rowspan="1" colspan="1">Upper temperature threshold for growth</td>
+     <td colspan="2" align="left" rowspan="1">30°C</td>
+    </tr>
+    <tr>
+     <td colspan="4" align="left" rowspan="1">Moisture Index (MI)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SM0</td>
+     <td align="left" rowspan="1" colspan="1">Lower soil moisture threshold for growth</td>
+     <td colspan="2" align="left" rowspan="1">0.2
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SM1</td>
+     <td align="left" rowspan="1" colspan="1">Lower optimum for growth</td>
+     <td colspan="2" align="left" rowspan="1">0.7
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SM2</td>
+     <td align="left" rowspan="1" colspan="1">Upper optimum for growth</td>
+     <td colspan="2" align="left" rowspan="1">1.3
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SM3</td>
+     <td align="left" rowspan="1" colspan="1">Upper soil moisture threshold for growth</td>
+     <td colspan="2" align="left" rowspan="1">2.0
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td colspan="4" align="left" rowspan="1">Cold stress (CS)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">TTCS</td>
+     <td align="left" rowspan="1" colspan="1">Temperature threshold for cold stress</td>
+     <td colspan="2" align="left" rowspan="1">−8°C</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">THCS</td>
+     <td align="left" rowspan="1" colspan="1">Cold stress accumulation rate</td>
+     <td colspan="2" align="left" rowspan="1">−0.02 week
+      <sup>−1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td colspan="4" align="left" rowspan="1">Heat Stress (HS)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">TTHS</td>
+     <td align="left" rowspan="1" colspan="1">Temperature threshold for heat stress</td>
+     <td colspan="2" align="left" rowspan="1">31°C</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">THHS</td>
+     <td align="left" rowspan="1" colspan="1">Heat stress accumulation rate</td>
+     <td colspan="2" align="left" rowspan="1">0.03 week
+      <sup>−1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td colspan="4" align="left" rowspan="1">Dry Stress (DS)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SMDS</td>
+     <td align="left" rowspan="1" colspan="1">Soil moisture threshold for dry stress</td>
+     <td colspan="2" align="left" rowspan="1">0.2
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">HDS</td>
+     <td align="left" rowspan="1" colspan="1">Dry stress accumulation rate</td>
+     <td colspan="2" align="left" rowspan="1">−0.005 week
+      <sup>−1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td colspan="2" align="left" rowspan="1">Wet Stress (WS)</td>
+     <td colspan="2" align="left" rowspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">SMWS</td>
+     <td align="left" rowspan="1" colspan="1">Soil moisture threshold for wet stress</td>
+     <td colspan="2" align="left" rowspan="1">2.0
+      <xref ref-type="table-fn" rid="nt101">a</xref>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">HWS</td>
+     <td align="left" rowspan="1" colspan="1">Wet stress accumulation rate</td>
+     <td colspan="2" align="left" rowspan="1">0.002 week
+      <sup>−1</sup>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="nt101">
+   <label>a</label>
+   <p>Expressed as a proportion of soil moisture holding capacity, where 0 =  oven dry and 1 =  field capacity (saturation).</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

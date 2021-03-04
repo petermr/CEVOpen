@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="T1">
+ <label>Table 1</label>
+ <caption>
+  <p>Description, total sequences, genome-matched reads and distinct reads for each sRNA library</p>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="top">
+   <tr>
+    <th align="center">
+     <bold>Code</bold>
+    </th>
+    <th align="center">
+     <bold>Title</bold>
+    </th>
+    <th align="center">
+     <bold>Total sequences</bold>
+    </th>
+    <th align="center">
+     <bold>Genome-matched reads</bold>
+     <sup>
+      <bold>a</bold>
+     </sup>
+    </th>
+    <th align="center">
+     <bold>Distinct genome- matched reads</bold>
+     <sup>
+      <bold>a</bold>
+     </sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="center" valign="bottom">MgCM01
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Mycelium, re-inoculated into complete medium for 16 hours
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11,856,620
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7,064,064
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">179,544
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">MgCS03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Mycelium, re-inoculated into carbon starved medium for 16 hours
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12,601,478
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8,115,777
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">333,810
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">MgMM04
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Mycelium, re-inoculated into minimal medium for 16 hours
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12,344,597
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6,866,907
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">83,697
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">MgNS02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Mycelium, nitrogen-starved for 16 hours
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11,532,596
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7,310,147
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">211,570
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">MgPQ05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Mycelium, paraquat-treated for 24 hours
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10,175,989
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5,295,363
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">118,880
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">LMg0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Leaf, 0 hr control for Mg-treated libraries, Nipponbare
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10,424,323
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">797,150
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13,719
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">LMg72
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Leaf, 72 hpi, Magnaporthe infected, Nipponbare
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8,887,347
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">465,460
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">20,969
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center">LMg96</td>
+    <td align="center">Leaf, 96 hpi, Magnaporthe infected, Nipponbare</td>
+    <td align="center">9,629,869</td>
+    <td align="center">1,151,502</td>
+    <td align="center">19,706</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup> Does not include the data listed in the column "t/r/sn/snoRNA Matched Reads".
+  </p>
+ </table-wrap-foot>
+</table-wrap>

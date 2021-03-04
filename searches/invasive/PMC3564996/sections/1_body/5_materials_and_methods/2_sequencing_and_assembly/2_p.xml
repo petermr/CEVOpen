@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Cleaned reads were assembled into contigs 
+ <italic>de novo</italic> using the assembler MIRA v3.0 (
+ <xref rid="bib15" ref-type="bibr">Chevreux 
+  <italic>et al.</italic> 2004
+ </xref>). MIRA produced identical duplicate contigs in areas with high read depth, and these were merged using additional iterations of both MIRA and CAP3 (
+ <xref rid="bib34" ref-type="bibr">Huang and Madan 1999</xref>) at 97% minimum similarity, using the pipeline iAssembler v1.3 (
+ <xref rid="bib71" ref-type="bibr">Zheng 
+  <italic>et al.</italic> 2011
+ </xref>). Successful resolution of highly similar alleles and/or paralogs into unique contigs was verified by examining synonymous site divergence among gene family members using the program DupPipe (
+ <xref rid="bib5" ref-type="bibr">Barker 
+  <italic>et al.</italic> 2008
+ </xref>, 
+ <xref rid="bib6" ref-type="bibr">2010</xref>). Resolution of highly similar sequences within eukaryotic individuals should yield gene family phylogenetic trees with a characteristic L-shaped distribution of many recent nodes and diminishing numbers of older nodes (
+ <xref rid="bib42" ref-type="bibr">Lynch and Conery 2000</xref>).
+</p>

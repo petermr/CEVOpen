@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For each of the three sequence datasets, stringent sequence quality control and filtering were performed using the ShortRead package in the Bioconductor software [
+ <xref rid="pone.0176197.ref035" ref-type="bibr">35</xref>]. Briefly, read ends were first trimmed by quality scores. Only sequences longer than 300 bp (454 reads) or 200 bp (Illumina reads) with a mean Phred quality score higher than 30% and less than 1% Ns were retained. Exact sequence duplicates were discarded. In the Illumina dataset, only matching paired-end reads were kept after quality filtering and overlapping reads were merged using FLASH [
+ <xref rid="pone.0176197.ref036" ref-type="bibr">36</xref>]. Detection of SSR motifs was conducted on the merged reads only, ensuring that the size of the flanking regions was large enough to design good-quality primers.
+</p>

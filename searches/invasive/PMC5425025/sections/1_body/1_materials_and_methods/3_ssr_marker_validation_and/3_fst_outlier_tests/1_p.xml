@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All SSR loci were screened for evidence of selection based on an F
+ <sub>ST</sub> outlier test that identifies loci with an F
+ <sub>ST</sub> value unexpectedly high (diversifying selection) or unexpectedly low (balancing or purifying selection). We used data from 
+ <italic>A</italic>. 
+ <italic>artemisiifolia</italic> and the software Bayescan [
+ <xref rid="pone.0176197.ref042" ref-type="bibr">42</xref>]. This program implements a Bayesian method based on a multinomial Dirichlet distribution for allele frequencies. The Dirichlet distribution holds under a variety of demographic models when populations derive from a common gene pool. As a recent range expansion has been shown to increase the proportion of false selection event detection [
+ <xref rid="pone.0176197.ref043" ref-type="bibr">43</xref>], we used a conservative prior value of 100 for the ‘odds of neutrality’ (only 1 locus out of 100 was under selection). For each locus, probability for selection was examined based on relative posterior probabilities for models with and without selection. We implemented 20 pilot runs of 5,000 iterations, a burn-in period of 50,000 iterations and 100,000 subsequent iterations with a sample size of 5,000 and thinning interval of 20.
+</p>

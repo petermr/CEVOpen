@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All cDNA libraries were sequenced on the 454 Life Science Genome Sequencer (Roche Applied Science, Branford, CT), using either FLX or FLX-Titanium chemistry (
+ <xref ref-type="table" rid="t1">Table 1</xref>). Sequencing of each sample was performed by the 454 Life Science Sequencing Center at Roche Applied Science, the Center for Genomics and Bioinformatics at Indiana University, or the Genome Quebec Innovation Centre at McGill University. Primer/adapter and polyA/T sequences were trimmed from the reads using custom Perl trimming scripts and SeqClean (
+ <ext-link ext-link-type="uri" xlink:href="http://www.tigr.org/tdb/tgi/software/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.tigr.org/tdb/tgi/software/</ext-link>). Sequences composed of primer multimers were removed using TagDust (
+ <xref rid="bib37" ref-type="bibr">Lassmann 
+  <italic>et al.</italic> 2009
+ </xref>), with a false discovery rate of 0.01. These cleaning steps were combined into a flexible automatic sequence cleaning pipeline ‘SnoWhite’ (v1.1.4), which we have made publicly available at 
+ <ext-link ext-link-type="uri" xlink:href="http://evopipes.net" xmlns:xlink="http://www.w3.org/1999/xlink">http://evopipes.net</ext-link> (
+ <xref rid="bib6" ref-type="bibr">Barker 
+  <italic>et al.</italic> 2010
+ </xref>).
+</p>

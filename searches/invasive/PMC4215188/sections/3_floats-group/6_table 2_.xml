@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="PLU052TB2" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Comparison of various gene flow models (i) Cluster 1↔Cluster 2 (bidirectional), (ii) Cluster 1→Cluster 2 (unidirectional), (iii) Cluster 1←Cluster 2 (unidirectional) and (iv) no gene flow with respective Bezier lml and LBF scores showing the most acceptable model (in bold).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <colgroup span="1">
+   <col align="left" span="1"/>
+   <col align="left" span="1"/>
+   <col align="char" span="1"/>
+   <col align="char" span="1"/>
+   <col align="char" char="." span="1"/>
+   <col align="char" span="1"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Model</th>
+    <th align="left" rowspan="1" colspan="1">Gene flow scenarios</th>
+    <th align="left" rowspan="1" colspan="1">Number of chains</th>
+    <th align="left" rowspan="1" colspan="1">Bezier lml</th>
+    <th align="left" rowspan="1" colspan="1">LBF</th>
+    <th align="left" rowspan="1" colspan="1">Model ranking</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4" colspan="1">1</td>
+    <td rowspan="4" colspan="1">Cluster 1↔Cluster 2 (bidirectional)</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">−320 986.24</td>
+    <td rowspan="1" colspan="1">0</td>
+    <td rowspan="4" colspan="1">2</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">9</td>
+    <td rowspan="1" colspan="1">−14 425.77</td>
+    <td rowspan="1" colspan="1">0</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">16</td>
+    <td rowspan="1" colspan="1">−65 440.76</td>
+    <td rowspan="1" colspan="1">0</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">32</td>
+    <td rowspan="1" colspan="1">−39 961.45</td>
+    <td rowspan="1" colspan="1">0</td>
+   </tr>
+   <tr>
+    <td rowspan="4" colspan="1">2</td>
+    <td rowspan="4" colspan="1">
+     <bold>Cluster 1→Cluster 2 (unidirectional)</bold>
+    </td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">−257 897.6</td>
+    <td rowspan="1" colspan="1">63 088</td>
+    <td rowspan="4" colspan="1">1</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">9</td>
+    <td rowspan="1" colspan="1">−13 899.21</td>
+    <td rowspan="1" colspan="1">526</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">16</td>
+    <td rowspan="1" colspan="1">−58 376.55</td>
+    <td rowspan="1" colspan="1">7064.21</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">32</td>
+    <td rowspan="1" colspan="1">−32 404.83</td>
+    <td rowspan="1" colspan="1">7556</td>
+   </tr>
+   <tr>
+    <td rowspan="4" colspan="1">3</td>
+    <td rowspan="4" colspan="1">Cluster 1←Cluster 2 (unidirectional)</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">−375 216.92</td>
+    <td rowspan="1" colspan="1">−54 230</td>
+    <td rowspan="4" colspan="1">3</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">9</td>
+    <td rowspan="1" colspan="1">−16 762.03</td>
+    <td rowspan="1" colspan="1">−31 187</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">16</td>
+    <td rowspan="1" colspan="1">−84 643.62</td>
+    <td rowspan="1" colspan="1">−19 202</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">32</td>
+    <td rowspan="1" colspan="1">−45 745.13</td>
+    <td rowspan="1" colspan="1">−5783</td>
+   </tr>
+   <tr>
+    <td rowspan="4" colspan="1">4</td>
+    <td rowspan="4" colspan="1">No gene flow</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">−543 022.54</td>
+    <td rowspan="1" colspan="1">−222 036</td>
+    <td rowspan="4" colspan="1">4</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">9</td>
+    <td rowspan="1" colspan="1">−35 610.26</td>
+    <td rowspan="1" colspan="1">−21 184</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">16</td>
+    <td rowspan="1" colspan="1">−132 631.46</td>
+    <td rowspan="1" colspan="1">−67 190</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">32</td>
+    <td rowspan="1" colspan="1">−76 136.09</td>
+    <td rowspan="1" colspan="1">−36 174</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

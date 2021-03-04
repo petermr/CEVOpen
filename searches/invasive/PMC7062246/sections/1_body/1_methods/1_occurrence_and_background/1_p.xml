@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We downloaded occurrence data for each species from multiple databases. We created a species occurrence data script in the statistical software program R [
+ <xref rid="pone.0229253.ref030" ref-type="bibr">30</xref>] to create a consistent occurrence data acquisition workflow for the modeled species (‘Species Occurrence Data Script’, 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>, 
+ <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3581395" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.5281/zenodo.3581395</ext-link>. First, all known synonyms and U.S. Department of Agriculture (USDA) Plants Database [
+ <xref rid="pone.0229253.ref031" ref-type="bibr">31</xref>] acronyms were collected (excluding subspecies, variants, and hybrids) using the Integrated Taxonomic Information System (ITIS; 
+ <ext-link ext-link-type="uri" xlink:href="http://www.itis.gov" xmlns:xlink="http://www.w3.org/1999/xlink">www.itis.gov</ext-link>) as an authoritative taxonomy in the R library ‘taxize’ [
+ <xref rid="pone.0229253.ref032" ref-type="bibr">32</xref>]. Next, occurrence data repositories were queried from online sources: the Global Biodiversity Information Facility (GBIF [
+ <xref rid="pone.0229253.ref033" ref-type="bibr">33</xref>]), Biodiversity Information Serving Our Nation (BISON [
+ <xref rid="pone.0229253.ref034" ref-type="bibr">34</xref>]), and the Early Detection &amp; Distribution Mapping System (EDDMapS [
+ <xref rid="pone.0229253.ref035" ref-type="bibr">35</xref>]). Records from the Bureau of Land Management’s (BLM) and the National Park Service (NPS) National Invasive Species Information Management System databases and data from the BLM Assessment Inventory and Monitoring program were added to these results. We filtered the aggregated data by observation type (observation or specimen only), observation date (1980 to present), and coordinate uncertainty (≤ 30 m). We removed any records with coordinates corresponding to state or country centroids or other identifiable geographic and taxonomic errors. We also checked the entire dataset for duplicate records. We obtained data for fountain grass (accessed 24 July 2018) and goutweed (accessed 29 April 2019) [
+ <xref rid="pone.0229253.ref033" ref-type="bibr">33</xref>–
+ <xref rid="pone.0229253.ref035" ref-type="bibr">35</xref>]. Once downloaded and filtered, the data were mapped and visually checked for accuracy (‘Examine Occurrence Maps’, 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>). We had 3,422 unique fountain grass locations and 1,168 unique goutweed locations for model development that resulted from the data download script.
+</p>

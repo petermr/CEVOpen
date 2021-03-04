@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The probability of not detecting in iteration 
+ <italic>i</italic> is therefore given by 
+ <disp-formula id="pbio.3000863.e004">
+  <alternatives>
+   <graphic xlink:href="pbio.3000863.e004.jpg" id="pbio.3000863.e004g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M4">
+    <mi>φ</mi>
+    <mo>(</mo>
+    <mrow>
+     <mi mathvariant="normal">Ω</mi>
+     <mo>,</mo>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>n</mi>
+     <mo>,</mo>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">Δ</mi>
+      <mi>t</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <msubsup>
+      <mo stretchy="false">∫</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>t</mi>
+        </mrow>
+        <mrow>
+         <mn>0</mn>
+        </mrow>
+       </msub>
+       <mo>=</mo>
+       <mn>0</mn>
+      </mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>t</mi>
+        </mrow>
+        <mrow>
+         <mn>0</mn>
+        </mrow>
+       </msub>
+       <mo>=</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <mi>t</mi>
+      </mrow>
+     </msubsup>
+     <mrow>
+      <mrow>
+       <msub>
+        <mo stretchy="false">∏</mo>
+        <mrow>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mi>φ</mi>
+        <mo>(</mo>
+        <mrow>
+         <mi mathvariant="normal">Ω</mi>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mi>j</mi>
+         <mi mathvariant="normal">Δ</mi>
+         <mi>t</mi>
+         <mo>,</mo>
+         <mi>n</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </math>
+  </alternatives>
+ </disp-formula> in which the averaging done by the outer integral accounts for uncertainty in the start of sampling (
+ <italic>t</italic>
+ <sub>0</sub>) relative to the time of first introduction of the pathogen anywhere in the landscape (
+ <italic>t</italic> = 0), and the inner product runs over all values of 
+ <italic>j</italic> until the simulation-specific prevalence threshold has been exceeded.
+</p>

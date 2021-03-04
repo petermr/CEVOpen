@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Sorghum halepense</italic> RNAseq FASTQ files were preprocessed with (
+ <xref rid="B3" ref-type="bibr">Bolger et al., 2014</xref>) (0.22) and assembled into a transcriptome reference assembly using Trinity (
+ <xref rid="B16" ref-type="bibr">Haas et al., 2013</xref>) (r06-08-2012; –kmer_method jellyfish). Transcript mapping to the reference sorghum genome, and differential gene expression was performed with TopHat (
+ <xref rid="B51" ref-type="bibr">Trapnell et al., 2009</xref>) (v2.0.3), Bowtie2 (
+ <xref rid="B22" ref-type="bibr">Langmead and Salzberg, 2012</xref>) (2.0.0.6), Samtools (
+ <xref rid="B27" ref-type="bibr">Li et al., 2009</xref>) (0.1.18.0), and Cufflinks (
+ <xref rid="B52" ref-type="bibr">Trapnell et al., 2012</xref>) (2.0.0). From the FPKM values in 
+ <xref ref-type="supplementary-material" rid="TS4">Supplementary Table 4</xref>, three gene lists were created: (1) Significant differentially expressed genes between shoot and rhizome; (2) Genes ON in rhizome and OFF in Shoot; (3) Genes ON in shoot and OFF in rhizome. The rank order of differentially expressed genes was based on the cuffdiff test statistic (
+ <xref rid="B53" ref-type="bibr">Trapnell et al., 2010</xref>), which was very closely correlated with the fold change in gene expression (
+ <xref ref-type="supplementary-material" rid="TS3">Supplementary Table 5</xref>). To annotate these lists, the most recent 
+ <italic>S. bicolor</italic> reference genome annotation (v3.1) was downloaded from Phytozome v11.0 and annotation labels for GO, KEGG, and PFAM and were assigned to the 
+ <italic>S. halepense</italic> transcripts via homolog mapping with BLASTN. Genes were categorized as ON if there was any expression detected (FPKM &gt; 0), and OFF if the FPKM value was zero. Term enrichment was performed using the David (
+ <xref rid="B7" ref-type="bibr">da Huang et al., 2007</xref>) method re-implemented in a Perl script where the gene background was limited to a non-redundant list of 
+ <italic>S. bicolor</italic> transcripts that mapped to the Trinity transcript IDs from 
+ <xref ref-type="supplementary-material" rid="TS4">Supplementary Table 4</xref>.
+</p>

@@ -1,0 +1,14 @@
+0: Methods based on NGS mentioned above and DNA microarrays revolutionized microbial studies with vast quantities of data at a relatively low cost.
+1: However, the analysis of enormous amounts of data and interpretation of their biological meaning are still a great challenge.
+2: A large number of software tools (ST) and databases (DB) have been produced for bioinformatic analysis, including Greengenes (DB; DeSantis et al.,  2006), Ribosomal Database Project (RDP, DB; Cole et al.,  2008), SILVA (DB; Quast et al.,  2012), MEGA6 (ST; Tamura et al.,  2013), and QIIME (ST; Caporaso et al.,  2010) for 16S rRNA gene data analysis; and Kyoto Encyclopedia of Genes and Genomes (KEGG, DB; Ogata et al.,  1999), The Carbohydrate-Active EnZymes (CAZY, DB; Cantarel et al.,  2008), Clusters of Orthologous Groups of proteins (COGs, DB; Tatusov et al.,  2001), MetaCyc (DB; Caspi et al.,  2006), and RefSeq (DB; Pruitt et al.,  2005), Transporter Classification Database (TCDB, DB; Saier et al.,  2016), MetaPathways (ST; Konwar et al.,  2013), RAxML version 8 (ST; Stamatakis,  2014), and Circos (ST; Krzywinski et al.,  2009) for analyzing metagenomics, metatranscriptomics, and single genome data.
+3: A series of visualization tools have also been developed in recent years, including Tablet (Milne et al.,  2009), Integrative Genomics Viewer (IGV) (Robinson et al.,  2011), Sequence Annotation, Visualization, and ANalysis Tool (Savant) Genome Browser (Fiume et al.,  2010), MagicViewer (Hou et al.,  2010), and Cytoscape (Kohl et al.,  2011).
+4: In the microbiological studies on the DWH oil spill, these ST and databases were broadly used for analyzing DNA- and RNA-based data.
+5: Moreover, Mason et al.
+6: ( 2012) applied multiple ST and databases to interpret biological meaning from a mass of metagenome, metatranscriptome, and single-cell sequencing data.
+7: For instance, the GeoChip database (He et al.,  2010) was applied to blast proteins involved in hydrocarbon degradation based on raw metagenomic, metatranscriptomic and single-cell reads, while the database of COGs was used to estimate genome sequence completeness.
+8: Reads from single cells were assembled using Velvet (Zerbino and Birney,  2008).
+9: Unassembled metatranscriptomic reads were mapped to the single-cell draft genome using the CLC Genomics Workbench (CLC bio).
+10: Assembled single-cell data were annotated using CAMERA (v2.0.6.2) (Seshadri et al.,  2007).
+11: Clustered regularly interspaced short palindromic repeat regions were identified in the draft genome using CRISPRFinder (Grissa et al.,  2007).
+12: Although bioinformatic tools have been vastly applied and greatly stimulated the data analysis, there is urgent need for the establishment of more comprehensive databases or big data sets.
+13: Meanwhile, equipment simplification, standardization methods and more user-friendly bioinformatic tools need to be developed (Capobianchi et al.,  2013).

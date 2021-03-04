@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Multivariate linear regression analysis can be used to estimate the selection pressure on plastic morphological traits when few fitness components are measured 
+ <xref rid="pone.0032323-Richards2" ref-type="bibr">[66]</xref>, 
+ <xref rid="pone.0032323-Callahan1" ref-type="bibr">[67]</xref>, 
+ <xref rid="pone.0032323-Lande2" ref-type="bibr">[68]</xref>, 
+ <xref rid="pone.0032323-Nicotra2" ref-type="bibr">[69]</xref>. However, when all the fitness components through the life-cycle of a species are estimated, we can use the properties of the transition matrix 
+ <bold>
+  <italic>A</italic>
+ </bold> to mechanistically assess whether the strength of the plastic reallocation itself (i.e., slope 
+ <italic>α</italic> and intercept 
+ <italic>β</italic> of the trade-off) is under selection pressure at an individual tree level, with regard to the 
+ <italic>r
+  <sub>s</sub>-values
+ </italic>. For this type of analysis, we used a lower-level prospective sensitivity analysis of the 
+ <italic>r
+  <sub>s</sub>-values
+ </italic> (equ. 14.105 p.407 in 
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>). As we used the average estimate of the trade-off between seed mass and number, we approximated the sensitivity of the 
+ <italic>rs-value</italic> (log
+ <italic>λ
+  <sub>s</sub>
+ </italic>) to changes in the slope 
+ <italic>α</italic> and intercept 
+ <italic>β</italic> by equ. 14.107 p.407 in 
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>, such that:
+ <disp-formula>
+  <graphic xlink:href="pone.0032323.e014.jpg" mimetype="image" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>(6)</label>
+ </disp-formula>We then analyzed whether the level of selection pressure could also be predicted by the rainfall gradient, by fitting a non-linear model with the software SciDavis.
+</p>

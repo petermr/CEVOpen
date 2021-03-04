@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the absence of strong population structure (
+ <italic>F</italic>
+ <sub>ST</sub> = 0.056; 
+ <xref rid="PLU052C50" ref-type="bibr">Ray and Quader 2013</xref>), we sought to find out the number of divergent genetic clusters. We estimated the number of putative genetic clusters using a maximum likelihood-based method implemented in the program FLOCK (
+ <xref rid="PLU052C7" ref-type="bibr">Duchesne and Turgeon 2009</xref>). This was done by repeatedly re-allocating similar multilocus genotypes to 
+ <italic>K</italic> populations (
+ <italic>K</italic> is the number of potential genetic populations or genetic clusters) without using the geographical locations of individuals. Allocation decisions were based on the difference between the top two log-likelihoods (called log-likelihood difference or LLOD). A number of statistics detail the outcome of the ‘best’ run, i.e. the run with the highest global average LLOD score. Since each mean LLOD score is calculated with a high degree of precision, there is a high probability that the only two identical 
+ <italic>K</italic>-partitions will hit the same mean LLOD, and those runs are considered as ‘plateaus’ with length = 
+ <italic>n</italic>. Plateau length, 
+ <italic>n</italic> ≥ 6, is considered as good support for any partition. We ran the program five times for 
+ <italic>K</italic> = 2–20.
+</p>

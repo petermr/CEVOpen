@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Data analysis was performed using R statistical software 3.5 [
+ <xref rid="pone.0240996.ref061" ref-type="bibr">61</xref>] with the packages phyloseq [
+ <xref rid="pone.0240996.ref062" ref-type="bibr">62</xref>] and vegan [
+ <xref rid="pone.0240996.ref063" ref-type="bibr">63</xref>]. Read counts were normalized using DESeq2 v1.22.2 [
+ <xref rid="pone.0240996.ref064" ref-type="bibr">64</xref>] prior to data analysis. Singletons and sequences classified as chloroplast were excluded, as well as samples which had less than 5000 sequence counts. Shannon diversity was fit to a linear mixed-effects model specifying 
+ <italic>sample type</italic> (invaded or control), 
+ <italic>organism</italic> (plant, mammal, mussel), and their interactions as fixed factors. We included 
+ <italic>studyID</italic> or both 
+ <italic>studyID</italic> and 
+ <italic>environment</italic> (soil or water) as random factors, and both models reported similar results (
+ <xref ref-type="supplementary-material" rid="pone.0240996.s003">S2 Table</xref>). We focused on the one with only 
+ <italic>studyID</italic> as random effect due to the lower AIC value. Models were fit using the 
+ <italic>lmer</italic>() function under the 
+ <italic>lme4</italic> package [
+ <xref rid="pone.0240996.ref065" ref-type="bibr">65</xref>] and the package 
+ <italic>emmeans</italic> was used to infer pairwise contrasts (corrected using False Discovery Rate, FDR). Furthermore, we explored the effects of 
+ <italic>sample type</italic> and 
+ <italic>organism</italic> on the structure of the microbial communities using a multivariate approach. Distances between pairs of samples, in terms of community composition, were calculated using a Unifrac matrix, and then visualized using an RDA procedure. Differences between sample groups were inferred through PERMANOVA multivariate analysis (999 permutations). We ran two different PERMANOVA models: in one we stratified permutations at level of 
+ <italic>studyID</italic> and 
+ <italic>identity of invasive species</italic>, and in the other we stratified permutations at level of 
+ <italic>studyID</italic>, 
+ <italic>environment</italic> and 
+ <italic>identity of invasive species</italic>, obtaining similar results (
+ <xref ref-type="supplementary-material" rid="pone.0240996.s004">S3 Table</xref>). Pairwise contrasts from PERMANOVA were subjected to FDR correction. Finally, the relative abundance of each bacterial family was fit using the 
+ <italic>lmer</italic>() function to test the effects of 
+ <italic>sample type</italic> (invaded or control) on individual taxa. We ran two different linear mixed-effects models, one including 
+ <italic>studyID</italic>, 
+ <italic>organism</italic> (plant, mammal, mussel) and 
+ <italic>environment</italic> as random factors, and another with 
+ <italic>studyID</italic> and 
+ <italic>organism</italic> as random factors, obtaining similar results (
+ <xref ref-type="supplementary-material" rid="pone.0240996.s005">S4 Table</xref>).
+</p>

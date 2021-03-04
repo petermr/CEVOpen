@@ -1,0 +1,731 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7593186</article-id><article-id pub-id-type="doi">10.1002/ece3.6752</article-id><article-id pub-id-type="publisher-id">ECE36752</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Invasive grass (<italic>Microstegium vimineum</italic>) indirectly benefits spider community by subsidizing available prey</article-title><alt-title alt-title-type="left-running-head">LANDSMAN et al.</alt-title></title-group><contrib-group><contrib id="ece36752-cr-0001" contrib-type="author" corresp="yes"><name><surname>Landsman</surname><given-names>Andrew P.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4750-819X</contrib-id><xref ref-type="aff" rid="ece36752-aff-0001">
+<sup>1</sup>
+</xref><address><email>andrew_landsman@nps.gov</email></address></contrib><contrib id="ece36752-cr-0002" contrib-type="author"><name><surname>Burghardt</surname><given-names>Karin T.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9302-6802</contrib-id><xref ref-type="aff" rid="ece36752-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece36752-cr-0003" contrib-type="author"><name><surname>Bowman</surname><given-names>Jacob L.</given-names></name><xref ref-type="aff" rid="ece36752-aff-0003">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="ece36752-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">National Park Service</named-content>
+<institution>United States Department of the Interior</institution>
+<city>Hagerstown</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36752-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Entomology</named-content>
+<institution>University of Maryland</institution>
+<city>College Park</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36752-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Entomology and Wildlife Ecology</named-content>
+<institution>University of Delaware</institution>
+<city>Newark</city>
+<named-content content-type="country-part">Delaware</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Andrew P. Landsman, National Park Service, United States Department of the Interior, Hagerstown, MD 21740.<break/>
+Email: <email>andrew_landsman@nps.gov</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>9</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2020</year></pub-date><volume>10</volume><issue>20</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.20</issue-id><fpage>11133</fpage><lpage>11143</lpage><history><date date-type="received"><day>17</day><month>6</month><year>2020</year></date><date date-type="rev-recd"><day>06</day><month>8</month><year>2020</year></date><date date-type="accepted"><day>10</day><month>8</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd. This article has been contributed to by US Government employees and their work is in the public domain in the USA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-11133.pdf"/><abstract id="ece36752-abs-0001"><title>Abstract</title><p>
+<list list-type="order" id="ece36752-list-0001"><list-item><p>Invasive plant species cause a suite of direct, negative ecological impacts, but subsequent, indirect effects are more complex and difficult to detect. Where identified, indirect effects to other taxa can be wide&#x02010;ranging and include ecological benefits in certain habitats or locations.</p></list-item><list-item><p>Here, we simultaneously examine the direct and indirect effects of a common, invasive grass species (<italic>Microstegium vimineum</italic>) on the invertebrate communities of understory deciduous forests in the eastern United States. To do this, we use two complementary analytic approaches to compare invaded and reference plots: (a) community composition analysis of understory arthropod taxa and (b) analysis of isotopic carbon and nitrogen ratios of a representative predatory spider species.</p></list-item><list-item><p>Invaded plots contained a significantly greater abundance of nearly all taxa, including predators, herbivores, and detritivores. Spider communities contained over seven times more individuals and exhibited greater species diversity and richness in invaded plots.</p></list-item><list-item><p>Surprisingly, however, the abundant invertebrate community is not nutritionally supported by the invasive plant, despite 100% ground cover of <italic>M.&#x000a0;vimineum</italic>. Instead, spider isotopic carbon ratios showed that the invertebrate prey community found within invaded plots was deriving energy from the plant tissue of C<sub>3</sub> plants and not the prevalent, aboveground <italic>M.&#x000a0;vimineum</italic>.</p></list-item><list-item><p>
+<italic>Synthesis and applications</italic>. We demonstrate that invasive <italic>M.&#x000a0;vimineum</italic> can create non&#x02010;nutritional ecological benefits for some invertebrate taxa, with potential impacts to the nutritional dynamics of invertebrate&#x02013;vertebrate food webs. These positive impacts, however, may be restricted to habitats that experience high levels of ungulate herbivory or reduced vegetative structural complexity. Our results highlight the importance of fully understanding taxon&#x02010; and habitat&#x02010;specific effects of invading plant species when prioritizing invasive species removal or management efforts.</p></list-item></list>
+</p></abstract><abstract abstract-type="graphical" id="ece36752-abs-0002"><p>The indirect effects of invasive plant species are complex, difficult to detect, and in some cases may provide ecological benefits in certain habitats. We identified positive effects of an invasive grass species on the abundance, richness, and diversity of a forest spider community, mediated through available insect prey. Such ecological benefits are certainly habitat&#x02010; and species&#x02010;specific, which highlights the importance of understanding indirect effects when managing invasive species.<boxed-text position="anchor" content-type="graphic" id="ece36752-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-11133-g006.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece36752-kwd-0001">Araneae</kwd><kwd id="ece36752-kwd-0002">indirect effects</kwd><kwd id="ece36752-kwd-0003">invasive species</kwd><kwd id="ece36752-kwd-0004">Japanese stiltgrass</kwd><kwd id="ece36752-kwd-0005"><italic>Microstegium vimineum</italic></kwd><kwd id="ece36752-kwd-0006">multi&#x02010;trophic interactions</kwd><kwd id="ece36752-kwd-0007">predator&#x02013;prey interactions</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Maryland Native Plant Society</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="2"/><page-count count="11"/><word-count count="8338"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.3 mode:remove_FC converted:28.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece36752-cit-1001">
+<string-name>
+<surname>Landsman</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name>
+<surname>Burghardt</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name>
+<surname>Bowman</surname>
+<given-names>JL</given-names>
+</string-name>. <article-title>Invasive grass (<italic>Microstegium vimineum</italic>) indirectly benefits spider community by subsidizing available prey</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2020</year>;<volume>10</volume>:<fpage>11133</fpage>&#x02013;<lpage>11143</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6752</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece36752-body-0001"><sec id="ece36752-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Direct effects of one species on another can be relatively easy to quantify, particularly when considering simplified, two species interactions. However, such straightforward exchanges are rarely found in nature, with secondary and tertiary effects pervading into subsequent trophic levels and affecting multiple species (Preisser, Bolnick, &#x00026; Benard,&#x000a0;<xref rid="ece36752-bib-0051" ref-type="ref">2005</xref>; Werner &#x00026; Peacor,&#x000a0;<xref rid="ece36752-bib-0071" ref-type="ref">2003</xref>). Indirect interactions of one species on another through a third species can affect species' density and can impose behavioral changes to the indirectly affected species (Abrams,&#x000a0;<xref rid="ece36752-bib-0001" ref-type="ref">1995</xref>; Werner &#x00026; Peacor,&#x000a0;<xref rid="ece36752-bib-0071" ref-type="ref">2003</xref>). Given the prevalence and strength of indirect species interactions, these relationships can often exert more influence over ecological communities that can direct interactions between a predator and herbivore (Seibold, Cadotte, MacIvor, Thorn, &#x00026; M&#x000fc;ller,&#x000a0;<xref rid="ece36752-bib-0059" ref-type="ref">2018</xref>) and have been documented in various aquatic and terrestrial habitats (Fletcher et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0015" ref-type="ref">2019</xref>; Vil&#x000e1; et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0069" ref-type="ref">2011</xref>). Despite their ecological significance, indirect effects among species can be complex and difficult to detect, and as a result are often understudied and overlooked.</p><p>The ecological consequences of the invasion of certain non&#x02010;native plant species are well&#x02010;supported throughout the literature, with direct, negative effects documented on a wide range of native taxa. These impacts occur when invasive plants directly reduce available habitat and survival of native plant species (Vil&#x000e1; et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0069" ref-type="ref">2011</xref>) or directly affect availability of plant material used by birds and invertebrates for food, shelter, and oviposition (Ballard, Hough&#x02010;Goldstein, &#x00026; Tallamy,&#x000a0;<xref rid="ece36752-bib-0004" ref-type="ref">2013</xref>; Bultman &#x00026; DeWitt,&#x000a0;<xref rid="ece36752-bib-0007" ref-type="ref">2008</xref>; Burghardt &#x00026; Tallamy,&#x000a0;<xref rid="ece36752-bib-0008" ref-type="ref">2013</xref>; Heleno, Ceia, Ramos, &#x00026; Memmott,&#x000a0;<xref rid="ece36752-bib-0020" ref-type="ref">2009</xref>; Meyer, Schmidt, &#x00026; Robertson,&#x000a0;<xref rid="ece36752-bib-0039" ref-type="ref">2015</xref>; Mollot, Pantel, &#x00026; Romanuk,&#x000a0;<xref rid="ece36752-bib-0043" ref-type="ref">2017</xref>). Beyond directly impacting both the behavior and density of other taxa, invasive plant species can also cause negative indirect effects mediated through alteration of the behavior and density of other, often herbivorous, species (Vil&#x000e1; et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0069" ref-type="ref">2011</xref>; White, Wilson, &#x00026; Clarke,&#x000a0;<xref rid="ece36752-bib-0072" ref-type="ref">2006</xref>). Nevertheless, there exists an expanding literature detailing both direct and indirect impacts considered positive or beneficial for a species or ecological community resulting from non&#x02010;native plant invasion (McCary, Mores, Farfan, &#x00026; Wise,&#x000a0;<xref rid="ece36752-bib-0036" ref-type="ref">2016</xref>; Tymkiw, Bowman, &#x00026; Shriver,&#x000a0;<xref rid="ece36752-bib-0066" ref-type="ref">2013</xref>). Some invading plant species, often with large and showy inflorescences, can increase floral density and food availability for pollinators throughout the season and potentially at times of reduced floral availability (Davis, Kelly, Maggs, &#x00026; Stout,&#x000a0;<xref rid="ece36752-bib-0010" ref-type="ref">2018</xref>; Russo, Nichol, &#x00026; Shea,&#x000a0;<xref rid="ece36752-bib-0056" ref-type="ref">2016</xref>). The complex and novel architecture of many invasive plant species can also provide enhanced structure for primary consumers to effectively hide from predators (Dutra, Barnett, Reinhardt, Marquis, &#x00026; Orrock,&#x000a0;<xref rid="ece36752-bib-0014" ref-type="ref">2011</xref>; Malo et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0033" ref-type="ref">2012</xref>). Contrastingly, changes in plant structure can also directly benefit actively hunting predators (Loomis, Cameron, &#x00026; Uetz,&#x000a0;<xref rid="ece36752-bib-0031" ref-type="ref">2014</xref>) or those that use passive hunting techniques (Dudek, Michlewicz, Dudek, &#x00026; Tryjanowski,&#x000a0;<xref rid="ece36752-bib-0013" ref-type="ref">2016</xref>; Pearson,&#x000a0;<xref rid="ece36752-bib-0048" ref-type="ref">2009</xref>). Several examples exist whereby predator populations are augmented due to the change in plant structure caused by the invading plant species, ultimately causing indirect suppression of plant consumer populations. These aforementioned studies examined impacts of common invasive plant species of the United States (U.S.): <italic>Centaurea maculosa</italic> (spotted knapweed) in the West, <italic>Microstegium vimineum</italic> (Japanese stiltgrass) in the South, and <italic>Alliaria petiolata</italic> (garlic mustard) in the Northeast, respectively. However, these examples focused on pairs of morphologically similar predator species (DeVore &#x00026; Maerz,&#x000a0;<xref rid="ece36752-bib-0012" ref-type="ref">2014</xref>; Pearson,&#x000a0;<xref rid="ece36752-bib-0048" ref-type="ref">2009</xref>, <xref rid="ece36752-bib-0049" ref-type="ref">2010</xref>) or on specific predatory functional guilds (Smith&#x02010;Ramesh,&#x000a0;<xref rid="ece36752-bib-0060" ref-type="ref">2017</xref>) and not on predatory communities of the forest understory as a whole.</p><p>
+<italic>Microstegium vimineum</italic> is a grass species from eastern Asia that invades forest edges and disturbed habitats in the eastern half of the U.S. (Flory, Long, &#x00026; Clay,&#x000a0;<xref rid="ece36752-bib-0016" ref-type="ref">2011</xref>; Huebner,&#x000a0;<xref rid="ece36752-bib-0023" ref-type="ref">2010</xref>). The species forms dense mats across the forest floor by spreading from stolons, ultimately reducing native tree seedling density, growth, and diversity (Oswalt, Oswalt, &#x00026; Clatterbuck,&#x000a0;<xref rid="ece36752-bib-0047" ref-type="ref">2007</xref>; Brewer, <xref rid="ece36752-bib-0074" ref-type="ref">2011</xref>), as well as overall native plant species cover (Adams &#x00026; Engelhardt,&#x000a0;<xref rid="ece36752-bib-0002" ref-type="ref">2009</xref>). The forest floor in invaded habitats in Maryland, often in areas with high densities of vertebrate herbivores, is generally simplified in structure, due in part to the growth habit of <italic>M.&#x000a0;vimineum</italic> (Civitello, Flory, &#x00026; Clay,&#x000a0;<xref rid="ece36752-bib-0009" ref-type="ref">2008</xref>; Landsman pers. obs.). Given its growth habit and stand density, the presence of <italic>M.&#x000a0;vimineum</italic> also alters abiotic characteristics of the near&#x02010;ground forest environment. The forest floor experiences an increase in solar irradiation within <italic>M.&#x000a0;vimineum</italic> stands, which decreases relative humidity and increases microhabitat temperatures (Civitello et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0009" ref-type="ref">2008</xref>). Such climatic changes subsequently alter the ability of <italic>M.&#x000a0;vimineum</italic> patches to host invertebrate populations: <italic>M.&#x000a0;vimineum</italic> ground cover has been shown to reduce the overall diversity of soil microarthropods by greatly increasing the abundance of mites and subsequently reducing community evenness (McGrath &#x00026; Binkley,&#x000a0;<xref rid="ece36752-bib-0037" ref-type="ref">2009</xref>). The abundance of cicadellidae planthoppers, as well as acridid and gryllid Orthoptera, was also found to be higher in <italic>M.&#x000a0;vimineum</italic> patches (Marshall &#x00026; Buckley,&#x000a0;<xref rid="ece36752-bib-0034" ref-type="ref">2009</xref>). Conversely, <italic>M.&#x000a0;vimineum</italic> can also reduce the abundance of Blattodea and chrysomelid beetles, as well as the abundance and survival of hard tick species in the Ixodidae (Civitello et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0009" ref-type="ref">2008</xref>; Marshall &#x00026; Buckley,&#x000a0;<xref rid="ece36752-bib-0034" ref-type="ref">2009</xref>).</p><p>
+<italic>Microstegium vimineum</italic> directly affects forest floor invertebrates by physically altering their habitat; however, knowledge of subsequent indirect effects to the predators that utilize those affected invertebrates resulting from invasion&#x02010;driven forest floor changes is lacking. Physiognomic changes in structural complexity resulting from invasive plant species with similar, mat&#x02010;forming growth habits have been shown to alter community structure, composition, and species abundance of the spider community (Bultman &#x00026; DeWitt,&#x000a0;<xref rid="ece36752-bib-0007" ref-type="ref">2008</xref>; Wolkovich, Bolger, &#x00026; Holway,&#x000a0;<xref rid="ece36752-bib-0073" ref-type="ref">2009</xref>). Given the importance of forest spiders as an intermediate link between vertebrate and invertebrate food webs, the indirect impacts of invading <italic>M.&#x000a0;vimineum</italic> on forest&#x02010;dwelling spider communities have the potential to augment or depress prey densities, affect vertebrate predator populations, and alter the nutritional dynamics of invertebrate and vertebrate food webs (Gunnarsson,&#x000a0;<xref rid="ece36752-bib-0018" ref-type="ref">1996</xref>, <xref rid="ece36752-bib-0019" ref-type="ref">2007</xref>; Miyashita &#x00026; Takada,&#x000a0;<xref rid="ece36752-bib-0040" ref-type="ref">2007</xref>; Philpott, Greenberg, Bichier, &#x00026; Perfecto,&#x000a0;<xref rid="ece36752-bib-0050" ref-type="ref">2004</xref>; Spiller &#x00026; Schoener,&#x000a0;<xref rid="ece36752-bib-0061" ref-type="ref">1988</xref>; Walters, Mills, Fritz, &#x00026; Raikow,&#x000a0;<xref rid="ece36752-bib-0070" ref-type="ref">2010</xref>).</p><p>Here, our objective was to better understand the direct and indirect impacts that the invasive <italic>M.&#x000a0;vimineum</italic> has on the invertebrate prey and predator communities and to demonstrate whether such invasions have the potential to affect predator&#x02013;prey interactions in the forest understory. As <italic>M.&#x000a0;vimineum</italic> invades, it can alter near&#x02010;ground vertical plant structure and the availability of palatable food resources, both of which may directly and indirectly alter the composition of the invertebrate community. We hypothesized that the abundance of herbivorous insects would decrease in <italic>M.&#x000a0;vimineum</italic> patches due to suppression of native vegetation and food resources, and that, conversely, dipteran species in detrital food webs would prefer the sheltered microhabitat created by dense <italic>M.&#x000a0;vimineum</italic> stands. We similarly predicted changes to the spider community in invaded habitats: While spider richness and diversity would not change within <italic>M.&#x000a0;vimineum</italic>, we expected to see changes in community composition as alterations to near&#x02010;ground plant structure negatively impact web&#x02010;building taxa and benefit active hunting spiders. Finally, we hypothesized that web spider isotopic nitrogen signatures would reflect the greater proportion of available detritivorous insects in spider diet and that spider isotopic carbon would reflect the greater relative contribution of C<sub>4</sub>
+<italic>M.&#x000a0;vimineum</italic> biomass in invaded areas.</p></sec><sec sec-type="materials-and-methods" id="ece36752-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><p>Our study area included deciduous forests of U.S. National Park Service lands located in Washington, Frederick, and Montgomery Counties, Maryland: Antietam National Battlefield (Antietam), Monocacy National Battlefield (Monocacy), and portions of the Chesapeake and Ohio Canal National Historical Park (Great Falls). Forests were similar in that they contained multiple invasive plant species and scant understory vegetation, in part due to dense white&#x02010;tailed deer (<italic>Odocoileus virginianus</italic>) populations (46&#x02013;66 deer/km<sup>2</sup>) (U.S. National Park Service, unpubl. data). Dominant trees included native <italic>Acer</italic> spp., <italic>Carya</italic> spp., <italic>Fagus grandifolia</italic>, and <italic>Liriodendron tulipifera</italic> while the understory consisted of mostly <italic>Lindera benzoin</italic>, <italic>Asimina triloba</italic>, and exotic plants such as <italic>M.&#x000a0;vimineum</italic>, <italic>Alliaria petiolata</italic>, and <italic>Rosa multiflora</italic>.</p><p>To study invertebrate community response to <italic>M.&#x000a0;vimineum</italic>, we used a paired plot design across our study area. Within each of the three parks, we opportunistically located 16 patches of <italic>M.&#x000a0;vimineum</italic> at least 10&#x000a0;m by 10&#x000a0;m in size, and at least 10&#x000a0;m away from the forest edge. Sites were selected that contained greater than or equal to 80% visual ground cover of <italic>M.&#x000a0;vimineum</italic>. We established the center of a 6&#x000a0;m by 6&#x000a0;m square plot at the approximate center of the patch. Paired with each <italic>M.&#x000a0;vimineum</italic> plot, we also established a reference plot of the same size, without <italic>M.&#x000a0;vimineum</italic>. We used random integers to select an azimuth from which to establish reference plots, 20&#x000a0;m from the edge of the <italic>M.&#x000a0;vimineum</italic> patch, at least 10&#x000a0;m from the forest edge, and within the same vegetation community type. Within individual square plots for both invaded and reference habitats, we estimated ground cover of <italic>M.&#x000a0;vimineum</italic> in four 1&#x000a0;m<sup>2</sup> square subplots, 1&#x000a0;m away from the plot center in the four cardinal directions, and used the mean ground cover estimate for each plot. We also measured understory vegetative structure using a 2.0&#x000a0;m tall profile board placed in the center of the plot. We estimated the percentage of the board that was obscured by vegetation between 0.5 and 2.0&#x000a0;m in height and used the mean of the four values for each plot in analyses.</p><p>We conducted vacuum sampling within each individual square plot in mid&#x02010;July 2017. We vacuumed insects and arachnids between 0.5 and 2.0&#x000a0;m above the ground surface in order to avoid forest floor and fossorial taxa. We used a commercially available leaf blower and vacuum (Black+Decker LSWV36) with a 2&#x02010;gallon paint strainer bag affixed to the intake tube to vacuum vegetative surfaces, spider webs, and other spaces between vegetation in each plot. We vacuumed throughout the entirety of each 36&#x000a0;m<sup>2</sup> plot for a standardized 7&#x000a0;min. After sampling, we euthanized collected arthropods using ethyl acetate, removed vegetative debris, and placed invertebrates in 70% ethyl alcohol. We identified insects to order using Triplehorn and Johnson (<xref rid="ece36752-bib-0065" ref-type="ref">2005</xref>). However, certain orders were further subdivided if palatability to forest spiders greatly differed within groups: Weevils (Curculionidae) were classified separately from other Coleoptera, predatory assassin bugs (Reduviidae) and damsel bugs (Nabidae) were separated from herbivorous Hemiptera, ants (Formicidae) were considered distinct from the other Hymenoptera, and Lepidoptera were subdivided into caterpillars and adults. Spiders were identified to genus or species when possible using Ubick, Paquin, Cushing, and Roth (<xref rid="ece36752-bib-0067" ref-type="ref">2017</xref>). Any specimens not identified to this taxonomic resolution, including those too damaged for identification or recently hatched individuals, were excluded from community analysis and analyses of diversity and richness.</p><p>For a closer examination of changes in nutritional dynamics, we also specifically sampled a representative orb&#x02010;weaving spider common to eastern deciduous forests (Tetragnathidae: <italic>Leucauge venusta</italic> Walckenaer 1841) prior to vacuum sampling for the remaining invertebrate community. We sampled <italic>L.&#x000a0;venusta</italic> as this species was commonly found throughout the study area and has a wide geographic distribution across much of eastern North America. This species spins a relatively horizontal orb web with attachment points in low&#x02010;growing vegetation in wooded areas. <italic>L.&#x000a0;venusta</italic> and other relatively small orb&#x02010;weaving spiders prey mostly on flies (Diptera), leafhoppers (Hemiptera: Cicadellidae), and other small, alate true bugs, and beetles (Coleoptera). We collected mature female spiders by hand from plots in early July 2017. Samples were immediately frozen and individually dried for 24&#x000a0;hr at 60&#x000b0;C. We then weighed the dry spider samples to obtain body mass. Spiders were then individually ground, homogenized, and encapsulated. We analyzed individual spiders for &#x003b4;<sup>15</sup>N and &#x003b4;<sup>13</sup>C using a continuous flow isotope ratio mass spectrometer (DELTA V Plus; Thermo Fisher Scientific) and elemental analyzer (NC 2,500, Carlo Erba; 95% CI &#x000b1;0.5&#x02030;). Isotopic nitrogen ratios can provide information on a predator's diet, while isotopic carbon can reveal photosynthetic pathways in sampled organisms: <italic>M.&#x000a0;vimineum</italic>, a C<sub>4</sub> species, maintains &#x003b4;<sup>13</sup>C levels between &#x02212;13&#x02030; and &#x02212;15&#x02030;, while C<sub>3</sub> plants generally have &#x003b4;<sup>13</sup>C values near &#x02212;27&#x02030; (Bradford et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0006" ref-type="ref">2010</xref>; Hyodo,&#x000a0;<xref rid="ece36752-bib-0024" ref-type="ref">2015</xref>). Analyses were conducted at the Central Appalachians Stable Isotope Facility at the University of Maryland Center for Environmental Science's Appalachian Laboratory. Isotopic carbon results were expressed in parts per mille relative to Vienna PeeDee Belemnite, with isotopic nitrogen reported in parts per mille relative to atmospheric nitrogen.</p><p>Data manipulation and statistical analyses were performed using R 3.4.4 (R Core &#x00026; Team, <xref rid="ece36752-bib-0053" ref-type="ref">2018</xref>). We used linear regression to analyze relationships between spider &#x003b4;<sup>15</sup>N and &#x003b4;<sup>13</sup>C and park unit, the presence of <italic>M.&#x000a0;vimineum</italic>, and their interaction. For each response variable, we first included understory plant structure as an additional covariate in the model. Likelihood ratio tests showed that plant structure was never an important explanatory covariate. Thus, we excluded this metric from all analyses. Similarly, we also regressed the Shannon&#x02013;Weiner diversity, abundance, and richness of spider and insect communities in models with the same independent variables. For those linear models and variables that exhibited non&#x02010;normality, including models with spider body mass and isotopic carbon and nitrogen, we employed a square root transformation of the dependent variable. For count data, including invertebrate abundance and richness, we used generalized linear models with a negative binomial probability distribution using <italic>glm.nb</italic> in the <italic>MASS</italic> package (Venables &#x00026; Ripley,&#x000a0;<xref rid="ece36752-bib-0068" ref-type="ref">2002</xref>). We obtained <italic>p</italic>&#x02010;values from the likelihood ratio test statistic using <italic>anova.glm</italic>. For spider and insect community data, we calculated the Euclidean distance between taxa within community matrices after Hellinger transformation (Borcard, Gillet, &#x00026; Legendre,&#x000a0;<xref rid="ece36752-bib-0005" ref-type="ref">2011</xref>; Legendre &#x00026; Legendre,&#x000a0;<xref rid="ece36752-bib-0030" ref-type="ref">2012</xref>; Rao,&#x000a0;<xref rid="ece36752-bib-0055" ref-type="ref">1995</xref>). We used the Euclidean distance of Hellinger&#x02010;transformed data as these data are metric and considered robust in ordination analyses (Legendre &#x00026; Gallagher,&#x000a0;<xref rid="ece36752-bib-0029" ref-type="ref">2001</xref>). We then conducted permutational multivariate analysis of variance using <italic>adonis2</italic> in the <italic>vegan</italic> package to understand how communities differ in patches of <italic>M.&#x000a0;vimineum</italic> after testing for multivariate homogeneity of variance using <italic>betadisper</italic> and <italic>anova.betadisper</italic> (Anderson, Ellingsen, &#x00026; McArdle,&#x000a0;<xref rid="ece36752-bib-0003" ref-type="ref">2006</xref>; McArdle &#x00026; Anderson,&#x000a0;<xref rid="ece36752-bib-0035" ref-type="ref">2001</xref>; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0046" ref-type="ref">2017</xref>). To test for significance, we examined the marginal effects of variables after 20,000 permutations.</p></sec><sec sec-type="results" id="ece36752-sec-0003"><label>3</label><title>RESULTS</title><p>Ground cover of <italic>M.&#x000a0;vimineum</italic> was 100% in all invaded subplots. Reference plots did not contain <italic>M.&#x000a0;vimineum</italic> and were sparsely vegetated except for a single reference plot at Antietam, where dense vegetation consisted of non&#x02010;native shrubs (<italic>Berberis thunbergii</italic>) and early successional plant species (<italic>Asimina triloba</italic> and <italic>Verbesina alternifolia</italic>). Understory vertical vegetative structure was minimal in both invaded and reference plots, with mean plant cover of 2.25% between 0.5 and 2.0&#x000a0;m; however, the aforementioned reference plot at Antietam exhibited 35.63% vertical vegetative cover. <italic>M.&#x000a0;vimineum</italic> plots showed mean vertical vegetative cover of 0.27% while reference plots contained mean 4.23% cover. Across all plots, we collected a total of 15,453 invertebrates in 19 orders, including three arachnid groups: mites (Acari), spiders (Araneae), and harvestmen (Opiliones). The total number of invertebrates, including adult and juvenile spiders, was greater in plots within <italic>M.&#x000a0;vimineum</italic> patches (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;44.007; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001), with 12,879 individuals collected as compared to 2,574 collected in corresponding reference plots (Table&#x000a0;<xref rid="ece36752-tbl-0001" ref-type="table">1</xref>). Invaded and reference plots at Antietam contained mean&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> 360.5&#x000a0;&#x000b1;&#x000a0;173.0 invertebrates and plots at Monocacy contained 360.9&#x000a0;&#x000b1;&#x000a0;87.7 invertebrates, whereas Great Falls included 604.9&#x000a0;&#x000b1;&#x000a0;153.5 individuals. The abundance of prey palatable to forest spiders, including beetles, springtails, flies, and herbivorous true bugs, was similarly greater in invaded patches (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;35.883; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001; Figure&#x000a0;<xref rid="ece36752-fig-0001" ref-type="fig">1a</xref>). Most taxa, when assessed individually, also exhibited significant positive relationships with the presence of <italic>M.&#x000a0;vimineum</italic>. This was often paired with a significant interaction term between <italic>M.&#x000a0;vimineum</italic> and individual park (Table&#x000a0;<xref rid="ece36752-tbl-0002" ref-type="table">2</xref>). Flies were more abundant in <italic>M.&#x000a0;vimineum</italic>, with a total of 9,354 flies collected in invaded plots while 1,682 were found in reference plots (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;33.034; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001). Herbivorous true bugs displayed a similar relationship, with 804 and 287 individuals collected in invaded and reference plots, respectively (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;25.188; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001). Beetles, excluding the weevils, were not correlated with the presence of <italic>M.&#x000a0;vimineum</italic> (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;0.335; <italic>p</italic>&#x000a0;=&#x000a0;.5626). We also found significant differences in community composition between <italic>M.&#x000a0;vimineum</italic> plots and their paired reference plots (<italic>F</italic>
+<sub>1,26</sub>&#x000a0;=&#x000a0;5.970; <italic>p</italic>&#x000a0;=&#x000a0;.00005) and among parks (<italic>F</italic>
+<sub>2,26</sub>&#x000a0;=&#x000a0;3.069; <italic>p</italic>&#x000a0;=&#x000a0;.0004).</p><table-wrap id="ece36752-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Mean abundance of invertebrate groups within invaded and reference plots throughout study area</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Taxon</th><th align="left" valign="top" rowspan="1" colspan="1">Mean abundance&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> in invaded plots</th><th align="left" valign="top" rowspan="1" colspan="1">Mean abundance&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> in reference plots</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Araneae (total)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">84.63&#x000a0;&#x000b1;&#x000a0;18.50</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">11.63&#x000a0;&#x000b1;&#x000a0;1.21</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (adults/subadults)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">14.25&#x000a0;&#x000b1;&#x000a0;2.41</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">6.06&#x000a0;&#x000b1;&#x000a0;0.46</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (juveniles)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">70.38&#x000a0;&#x000b1;&#x000a0;17.95</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">5.56&#x000a0;&#x000b1;&#x000a0;1.05</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (orb web)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">10.44&#x000a0;&#x000b1;&#x000a0;2.03</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">5.13&#x000a0;&#x000b1;&#x000a0;0.49</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (space web)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">2.88&#x000a0;&#x000b1;&#x000a0;0.53</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.81&#x000a0;&#x000b1;&#x000a0;0.29</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (hunting)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">1.00&#x000a0;&#x000b1;&#x000a0;0.30</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.19&#x000a0;&#x000b1;&#x000a0;0.10</td></tr><tr><td align="left" rowspan="1" colspan="1">Acari</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.31&#x000a0;&#x000b1;&#x000a0;0.12</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.06&#x000a0;&#x000b1;&#x000a0;0.06</td></tr><tr><td align="left" rowspan="1" colspan="1">Coleoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">4.44&#x000a0;&#x000b1;&#x000a0;0.80</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">5.38&#x000a0;&#x000b1;&#x000a0;0.98</td></tr><tr><td align="left" rowspan="1" colspan="1">Collembola</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">7.13&#x000a0;&#x000b1;&#x000a0;2.58</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.25&#x000a0;&#x000b1;&#x000a0;0.11</td></tr><tr><td align="left" rowspan="1" colspan="1">Diptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">584.63&#x000a0;&#x000b1;&#x000a0;106.99</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">105.13&#x000a0;&#x000b1;&#x000a0;23.16</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemiptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">50.25&#x000a0;&#x000b1;&#x000a0;9.77</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">17.94&#x000a0;&#x000b1;&#x000a0;4.81</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemiptera (predatory)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">1.06&#x000a0;&#x000b1;&#x000a0;0.36</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.38&#x000a0;&#x000b1;&#x000a0;0.16</td></tr><tr><td align="left" rowspan="1" colspan="1">Hymenoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">10.31&#x000a0;&#x000b1;&#x000a0;1.54</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">6.88&#x000a0;&#x000b1;&#x000a0;1.44</td></tr><tr><td align="left" rowspan="1" colspan="1">Hymenoptera (ants)</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">34.63&#x000a0;&#x000b1;&#x000a0;14.29</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">2.81&#x000a0;&#x000b1;&#x000a0;0.53</td></tr><tr><td align="left" rowspan="1" colspan="1">Lepidoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">4.06&#x000a0;&#x000b1;&#x000a0;0.69</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">1.31&#x000a0;&#x000b1;&#x000a0;0.33</td></tr><tr><td align="left" rowspan="1" colspan="1">Opiliones</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">4.94&#x000a0;&#x000b1;&#x000a0;1.33</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">1.50&#x000a0;&#x000b1;&#x000a0;0.52</td></tr><tr><td align="left" rowspan="1" colspan="1">Orthoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">6.94&#x000a0;&#x000b1;&#x000a0;1.20</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.63&#x000a0;&#x000b1;&#x000a0;0.32</td></tr><tr><td align="left" rowspan="1" colspan="1">Psocoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">3.81&#x000a0;&#x000b1;&#x000a0;1.08</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">5.31&#x000a0;&#x000b1;&#x000a0;1.50</td></tr><tr><td align="left" rowspan="1" colspan="1">Thysanoptera</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">1.63&#x000a0;&#x000b1;&#x000a0;0.63</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">0.81&#x000a0;&#x000b1;&#x000a0;0.51</td></tr><tr><td align="left" rowspan="1" colspan="1">Total invertebrates</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">804.94&#x000a0;&#x000b1;&#x000a0;132.00</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">160.88&#x000a0;&#x000b1;&#x000a0;30.57</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="FIGURE" xml:lang="en" id="ece36752-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Boxplots showing effects of <italic>Microstegium vimineum</italic> (Japanese stiltgrass) on the abundance of (a) insect prey and (b) adult and subadult spiders, replicated in three parks</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-11133-g001"/></fig><table-wrap id="ece36752-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Significance of sampling location (Park), presence of <italic>Microstegium vimineum</italic>, and their interaction on total abundance of insect and arachnid taxa</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Taxon</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Park</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Presence of <italic>M.&#x000a0;vimineum</italic>
+</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Park*<italic>M.&#x000a0;vimineum</italic>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>G<sup>2</sup></italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>G<sup>2</sup></italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>G<sup>2</sup></italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Araneae (total)</td><td align="char" char="." rowspan="1" colspan="1">1.759</td><td align="char" char="." rowspan="1" colspan="1">0.4150</td><td align="char" char="." rowspan="1" colspan="1">66.504</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">6.748</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0343</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (adults/subadults)</td><td align="char" char="." rowspan="1" colspan="1">2.351</td><td align="char" char="." rowspan="1" colspan="1">0.3087</td><td align="char" char="." rowspan="1" colspan="1">20.553</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">0.250</td><td align="char" char="." rowspan="1" colspan="1">.8827</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (juveniles)</td><td align="char" char="." rowspan="1" colspan="1">2.610</td><td align="char" char="." rowspan="1" colspan="1">0.2712</td><td align="char" char="." rowspan="1" colspan="1">54.703</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">8.179</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0167</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (orb web)</td><td align="char" char="." rowspan="1" colspan="1">1.546</td><td align="char" char="." rowspan="1" colspan="1">0.4615</td><td align="char" char="." rowspan="1" colspan="1">11.013</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0009</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">1.386</td><td align="char" char="." rowspan="1" colspan="1">.5001</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (space web)</td><td align="char" char="." rowspan="1" colspan="1">4.022</td><td align="char" char="." rowspan="1" colspan="1">0.1338</td><td align="char" char="." rowspan="1" colspan="1">18.847</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">11.282</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0036</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Araneae (hunting)</td><td align="char" char="." rowspan="1" colspan="1">2.180</td><td align="char" char="." rowspan="1" colspan="1">0.3362</td><td align="char" char="." rowspan="1" colspan="1">9.765</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0018</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">7.014</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0300</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Acari</td><td align="char" char="." rowspan="1" colspan="1">2.560</td><td align="char" char="." rowspan="1" colspan="1">0.2781</td><td align="char" char="." rowspan="1" colspan="1">2.911</td><td align="char" char="." rowspan="1" colspan="1">.0880</td><td align="char" char="." rowspan="1" colspan="1">2.634</td><td align="char" char="." rowspan="1" colspan="1">.2679</td></tr><tr><td align="left" rowspan="1" colspan="1">Coleoptera</td><td align="char" char="." rowspan="1" colspan="1">1.904</td><td align="char" char="." rowspan="1" colspan="1">0.3861</td><td align="char" char="." rowspan="1" colspan="1">0.335</td><td align="char" char="." rowspan="1" colspan="1">.5626</td><td align="char" char="." rowspan="1" colspan="1">2.292</td><td align="char" char="." rowspan="1" colspan="1">.3179</td></tr><tr><td align="left" rowspan="1" colspan="1">Collembola</td><td align="char" char="." rowspan="1" colspan="1">7.171</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.0277</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">29.412</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">6.473</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0393</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Diptera</td><td align="char" char="." rowspan="1" colspan="1">2.672</td><td align="char" char="." rowspan="1" colspan="1">0.2629</td><td align="char" char="." rowspan="1" colspan="1">33.034</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">9.686</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0079</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemiptera</td><td align="char" char="." rowspan="1" colspan="1">16.309</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.0003</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">25.188</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">4.371</td><td align="char" char="." rowspan="1" colspan="1">.1124</td></tr><tr><td align="left" rowspan="1" colspan="1">Hemiptera (predatory)</td><td align="char" char="." rowspan="1" colspan="1">1.996</td><td align="char" char="." rowspan="1" colspan="1">0.3687</td><td align="char" char="." rowspan="1" colspan="1">5.482</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0192</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">4.380</td><td align="char" char="." rowspan="1" colspan="1">.1119</td></tr><tr><td align="left" rowspan="1" colspan="1">Hymenoptera</td><td align="char" char="." rowspan="1" colspan="1">1.877</td><td align="char" char="." rowspan="1" colspan="1">0.3913</td><td align="char" char="." rowspan="1" colspan="1">3.853</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0497</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">2.048</td><td align="char" char="." rowspan="1" colspan="1">.3592</td></tr><tr><td align="left" rowspan="1" colspan="1">Hymenoptera (ants)</td><td align="char" char="." rowspan="1" colspan="1">4.307</td><td align="char" char="." rowspan="1" colspan="1">0.1161</td><td align="char" char="." rowspan="1" colspan="1">27.543</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">10.390</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0055</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Lepidoptera</td><td align="char" char="." rowspan="1" colspan="1">14.166</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.0008</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">23.614</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">8.959</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0113</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Opiliones</td><td align="char" char="." rowspan="1" colspan="1">11.324</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.0035</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">10.904</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0010</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">0.073</td><td align="char" char="." rowspan="1" colspan="1">.9642</td></tr><tr><td align="left" rowspan="1" colspan="1">Orthoptera</td><td align="char" char="." rowspan="1" colspan="1">5.166</td><td align="char" char="." rowspan="1" colspan="1">0.0756</td><td align="char" char="." rowspan="1" colspan="1">51.015</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">9.975</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0068</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Psocoptera</td><td align="char" char="." rowspan="1" colspan="1">2.283</td><td align="char" char="." rowspan="1" colspan="1">0.3194</td><td align="char" char="." rowspan="1" colspan="1">0.293</td><td align="char" char="." rowspan="1" colspan="1">.5883</td><td align="char" char="." rowspan="1" colspan="1">5.096</td><td align="char" char="." rowspan="1" colspan="1">.0782</td></tr><tr><td align="left" rowspan="1" colspan="1">Thysanoptera</td><td align="char" char="." rowspan="1" colspan="1">5.616</td><td align="char" char="." rowspan="1" colspan="1">0.0603</td><td align="char" char="." rowspan="1" colspan="1">4.968</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0258</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">17.366</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0002</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Total invertebrates</td><td align="char" char="." rowspan="1" colspan="1">2.670</td><td align="char" char="." rowspan="1" colspan="1">0.2632</td><td align="char" char="." rowspan="1" colspan="1">44.007</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x0003c;.0001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">10.372</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>.0056</bold>
+</td></tr></tbody></table><table-wrap-foot id="ece36752-ntgp-0001"><title>Note</title><fn id="ece36752-note-0001"><p>Bold text indicates significance at <italic>&#x003b1;</italic>&#x000a0;=&#x000a0;0.05.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Spider species diversity increased within <italic>M.&#x000a0;vimineum</italic> plots (<italic>F</italic>
+<sub>1,26</sub>&#x000a0;=&#x000a0;13.736; <italic>p</italic>&#x000a0;=&#x000a0;.0010) and was positively correlated with prey abundance (<italic>F</italic>
+<sub>1,26</sub>&#x000a0;=&#x000a0;4.563; <italic>p</italic>&#x000a0;=&#x000a0;.0422). Similarly, species richness was greater both within <italic>M.&#x000a0;vimineum</italic> (<italic>F</italic>
+<sub>1,26</sub>&#x000a0;=&#x000a0;15.788; <italic>p</italic>&#x000a0;=&#x000a0;.0005) and with more prey (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;9.881; <italic>p</italic>&#x000a0;=&#x000a0;.0017). <italic>M.&#x000a0;vimineum</italic> patches contained more orb web&#x02010;building (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;11.013; <italic>p</italic>&#x000a0;=&#x000a0;.0009), space web&#x02010;building (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;18.847; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001), and hunting (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;9.765; <italic>p</italic>&#x000a0;=&#x000a0;.0018) spiders, as well as greater total spider abundance both with juveniles included (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;66.504; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001) and without juvenile spiders (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;20.553; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001; Figure&#x000a0;<xref rid="ece36752-fig-0001" ref-type="fig">1b</xref>). We collected 325 adult and subadult spiders compared to 1,215 spiderlings and unidentified juveniles. Spider abundance increased with elevated prey densities (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;30.707; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001). Total spider abundance, when including juveniles, exhibited even stronger positive correlations (<italic>G<sup>2</sup></italic>&#x000a0;=&#x000a0;134.470; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001; Figure&#x000a0;<xref rid="ece36752-fig-0002" ref-type="fig">2</xref>). Spider diversity, richness, and abundance did not differ among parks. The taxonomic structure of the spider community, including presence and relative abundance of individual taxa, differed between invaded and reference plots (<italic>F</italic>
+<sub>1,26</sub>&#x000a0;=&#x000a0;1.931; <italic>p</italic>&#x000a0;=&#x000a0;.0275) and between parks (<italic>F</italic>
+<sub>2,26</sub>&#x000a0;=&#x000a0;1.892; <italic>p</italic>&#x000a0;=&#x000a0;.0071).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36752-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Relationship between insect prey and total spider abundance within plots at the three sampled parks</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-11133-g002"/></fig><p>We collected 111 adult female <italic>L.&#x000a0;venusta</italic>, with 55 individuals from <italic>M.&#x000a0;vimineum</italic> plots and 56 from corresponding reference units. We sampled between 3 and 17 spiders per paired plot, with mean 3.44&#x000a0;&#x000b1;&#x000a0;0.66 spiders in invaded plots and 3.50&#x000a0;&#x000b1;&#x000a0;0.49 spiders from reference plots. Body mass of individual <italic>L.&#x000a0;venusta</italic> differed among parks (<italic>F</italic>
+<sub>2,105</sub>&#x000a0;=&#x000a0;4.801; <italic>p</italic>&#x000a0;=&#x000a0;.0101), with the lowest mass at Antietam; however, individual body mass within <italic>M.&#x000a0;vimineum</italic> plots was similar to that within reference plots (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;0.288; <italic>p</italic>&#x000a0;=&#x000a0;.5930). Overall mean body mass of sampled <italic>L.&#x000a0;venusta</italic> was 10.46&#x000a0;&#x000b1;&#x000a0;0.67&#x000a0;mg per spider, with mean mass of 10.70&#x000a0;&#x000b1;&#x000a0;0.73&#x000a0;mg in <italic>M.&#x000a0;vimineum</italic> and 10.22&#x000a0;&#x000b1;&#x000a0;0.61&#x000a0;mg in reference units. Spider mass was greater in plots with more beetles (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;5.811; <italic>p</italic>&#x000a0;=&#x000a0;.0177) but was not related to other taxa or the presence of <italic>M.&#x000a0;vimineum</italic>. Spider &#x003b4;<sup>13</sup>C ranged from &#x02212;27.78 to &#x02212;24.22, with total mean &#x02212;25.92&#x000a0;&#x000b1;&#x000a0;0.10. Isotopic carbon values decreased with greater prey densities (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;6.746; <italic>p</italic>&#x000a0;=&#x000a0;.0107) and flies (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;7.689; <italic>p</italic>&#x000a0;=&#x000a0;.0066) and differed among the sampled parks (<italic>F</italic>
+<sub>2,108</sub>&#x000a0;=&#x000a0;6.991; <italic>p</italic>&#x000a0;=&#x000a0;.0014). Isotopic nitrogen values varied among parks (<italic>F</italic>
+<sub>2,108</sub>&#x000a0;=&#x000a0;12.768; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001), with a mean value of 5.17&#x000a0;&#x000b1;&#x000a0;0.18. Spider &#x003b4;<sup>15</sup>N increased with greater prey abundance (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;16.674; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001; Figure&#x000a0;<xref rid="ece36752-fig-0003" ref-type="fig">3</xref>) and exhibited similar positive correlations individually with the abundance of both beetles (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;8.632; <italic>p</italic>&#x000a0;=&#x000a0;.0041) and flies (<italic>F</italic>
+<sub>1,105</sub>&#x000a0;=&#x000a0;17.264; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001). Isotopic nitrogen values for spiders in <italic>M.&#x000a0;vimineum</italic> were greater than those collected in reference plots (<italic>F<sub>1</sub></italic>
+<sub>,105</sub>&#x000a0;=&#x000a0;4.760; <italic>p</italic>&#x000a0;=&#x000a0;.0314; Figure&#x000a0;<xref rid="ece36752-fig-0004" ref-type="fig">4</xref>). Nitrogen values differed among parks (<italic>F</italic>
+<sub>2,105</sub>&#x000a0;=&#x000a0;16.624; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.0001), and the interaction term between parks and plant invasion was also significant (<italic>F</italic>
+<sub>2,105</sub>&#x000a0;=&#x000a0;6.483; <italic>p</italic>&#x000a0;=&#x000a0;.0022), indicating that <italic>M.&#x000a0;vimineum</italic> had a differing effect on isotope values across parks.</p><fig fig-type="FIGURE" xml:lang="en" id="ece36752-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>Changes in &#x003b4;<sup>15</sup>N of sampled <italic>Leucauge venusta</italic> spiders across a gradient of prey density. Points represent individual sampled spiders. Positive linear relationships indicate elevated &#x003b4;<sup>15</sup>N in plots with greater prey abundance</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-10-11133-g003"/></fig><fig fig-type="FIGURE" xml:lang="en" id="ece36752-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Differences in isotopic carbon and nitrogen ratios of sampled <italic>Leucauge venusta</italic> spiders between reference and invaded plots in the three sampled parks. Isotopic carbon results are expressed in parts per mille relative to Vienna PeeDee Belemnite, with isotopic nitrogen reported in parts per mille relative to atmospheric nitrogen. <italic>Microstegium vimineum</italic> typically contains &#x003b4;<sup>13</sup>C levels between &#x02212;13 and &#x02212;15&#x02030; while C<sub>3</sub> plants are generally between &#x02212;26 and &#x02212;27&#x02030;</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-10-11133-g004"/></fig></sec><sec sec-type="discussion" id="ece36752-sec-0004"><label>4</label><title>DISCUSSION</title><p>Likely through physical changes to near&#x02010;ground structural complexity, microclimate, and leaf litter, <italic>M.&#x000a0;vimineum</italic> directly and indirectly increased the abundance of nearly all understory invertebrate groups (Figure&#x000a0;<xref rid="ece36752-fig-0005" ref-type="fig">5</xref>). The invasion of <italic>M.&#x000a0;vimineum</italic> in these forested habitats directly resulted in greater local densities of insect taxa and indirectly benefited the spider community, leading to more abundant and more species&#x02010;rich spider communities. We did not detect the direct effects of understory vegetative structure on either spiders or the other components of the invertebrate community; however, our measure of structure included vegetation between 0.5 and 2.0&#x000a0;m from the ground. Particularly during the sampling period in our study area, <italic>M.&#x000a0;vimineum</italic> provides dense, near&#x02010;ground structure below 0.5&#x000a0;m. Through this near&#x02010;ground structure, we found that <italic>M.&#x000a0;vimineum</italic> directly benefited taxa that feed, reproduce, or develop within the detrital layer. For example, many of the dipteran species we collected belonged to taxa from detrital food webs, such as many within the Mycetophilidae. These results are similar to past research on the benefit of invasive plant species specifically to detrital communities (McCary et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0036" ref-type="ref">2016</xref>) and the importance of plant structure to spider communities (Landsman &#x00026; Bowman, <xref rid="ece36752-bib-0028" ref-type="ref">2017</xref>; Miyashita, Takada, &#x00026; Shimazaki,&#x000a0;<xref rid="ece36752-bib-0042" ref-type="ref">2004</xref>; Takada, Baba, Yanagi, Terada, &#x00026; Miyashita,&#x000a0;<xref rid="ece36752-bib-0062" ref-type="ref">2008</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36752-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>Conceptual diagram illustrating hypothesized direct and indirect effects of <italic>Microstegium vimineum</italic> on invertebrate groups. Presence of <italic>M.&#x000a0;vimineum</italic> increases the abundance of insects by providing shelter, subsequently increasing the abundance of spiders. Photographs used with permission from R. Orr, K. Burghardt, and R. Renzi</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-10-11133-g005"/></fig><p>We had also hypothesized that, due to incongruent evolutionary history, native herbivore abundance would be depressed within invaded patches. The Coleoptera were not correlated with presence of <italic>M.&#x000a0;vimineum</italic>, but herbivorous Hemiptera were more abundant within the invaded plots. Given the low levels of herbivory seen on <italic>M.&#x000a0;vimineum</italic> (Morrison, Lubchansky, Mauck, McCartney, &#x00026; Dunn,&#x000a0;<xref rid="ece36752-bib-0044" ref-type="ref">2007</xref>; Sanders, Belote, &#x00026; Weltzin,&#x000a0;<xref rid="ece36752-bib-0057" ref-type="ref">2004</xref>) and the general lack of understory forest vegetation in reference plots, it is likely the invaded habitats provided favorable near&#x02010;ground microhabitat conditions for invertebrates, including herbivores, without providing increased palatable plant biomass for native insects. The &#x003b4;<sup>13</sup>C values of sampled spiders in our study area similarly reflect dietary avoidance of <italic>M.&#x000a0;vimineum</italic> by herbivorous prey insects, which include the abundant planthoppers and leafhoppers found in the study area. In our study area, spiders collected in plots dominated by <italic>M.&#x000a0;vimineum</italic> exhibited &#x003b4;<sup>13</sup>C values near &#x02212;26&#x02030;, while the C<sub>4</sub>
+<italic>M.&#x000a0;vimineum</italic> carbon ratios are generally between &#x02212;13 and &#x02212;15&#x02030; (Bradford et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0006" ref-type="ref">2010</xref>). Considering a potential stepwise increase of 0.5&#x02030; per trophic level, it is unlikely that potential prey in this invaded habitat, including detritus&#x02010;based Diptera and phytophagous Hemiptera, are utilizing the invasive species. If so, spider &#x003b4;<sup>13</sup>C values should be much closer to that of C<sub>4</sub> plants. Given the relative abundance of flies deriving from detrital food webs in invaded plots, it is likely that the spider community in our study area is largely supported by the detritivores (Hyodo et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0025" ref-type="ref">2010</xref>; McNabb, Halaj, &#x00026; Wise,&#x000a0;<xref rid="ece36752-bib-0038" ref-type="ref">2001</xref>; Miyashita, Takada, &#x00026; Shimazaki,&#x000a0;<xref rid="ece36752-bib-0041" ref-type="ref">2003</xref>). These fly larvae are likely feeding on the litter and root systems of the surrounding C<sub>3</sub> trees due to the paucity of other understory plant species both within and adjacent to invaded plots. The few taxa found to utilize <italic>M.&#x000a0;vimineum</italic> in the southeastern U.S. (Bradford et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0006" ref-type="ref">2010</xref>) are not likely to be ingested by <italic>L.&#x000a0;venusta</italic> and are too large to be captured by most forest web&#x02010;building spiders in the mid&#x02010;Atlantic U.S. The primary producers supporting the food web in this invaded habitat are the less abundant C<sub>3</sub> species, indicating the importance of native vegetation in providing energy for resident herbivorous and predatory insect communities.</p><p>Our findings may be restricted to those areas with high ungulate densities and resulting depauperate understory vegetation: Deer densities in our sampling area were between 46 and 66&#x000a0;deer/km<sup>2</sup> while densities at much lower levels can cause significant impacts to understory forest vegetation and structure (Horsley, Stout, &#x00026; de Calesta, <xref rid="ece36752-bib-0022" ref-type="ref">2003</xref>; Tilghman,&#x000a0;<xref rid="ece36752-bib-0063" ref-type="ref">1989</xref>). Vertical vegetative structure was consistently minimal in both invaded and reference plots except at Antietam, where a single reference plot contained greater vertical plant structure. This plot pair exhibited the opposite trend as compared to other plot pairs. Reference plots here contained more wasps, flies, true bugs, and, subsequently, spiders. In areas that experience a loss of plant structure from dense ungulate populations, as we found in nearly all plot pairs, <italic>M.&#x000a0;vimineum</italic> may provide the only remaining shelter for insects and the only available plant structure for web&#x02010;building spiders. While we noted this in the present study with <italic>M.&#x000a0;vimineum</italic>, similar trends may also arise with other invasive or native plants in areas with limited understory vegetation, given the additional structural complexity brought about by the plant. Vegetation structure is a critical factor affecting the ability of a habitat to support understory spiders in forests with extensive ungulate herbivory (Landsman &#x00026; Bowman, <xref rid="ece36752-bib-0028" ref-type="ref">2017</xref>; Miyashita et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0042" ref-type="ref">2004</xref>; Takada et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0062" ref-type="ref">2008</xref>). In habitats where additional native or non&#x02010;native structure exists, the relationship between <italic>M.&#x000a0;vimineum</italic> and the invertebrate community could reverse, as was noticeable in the Antietam plot pair and evident in the significance of the interaction term between Park and plant invasion on many of the response variables. This relationship has also been noted with forest birds in similar habitats (Tymkiw et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0066" ref-type="ref">2013</xref>).</p><p>Indirectly, patches of <italic>M.&#x000a0;vimineum</italic> sustain a more diverse, species&#x02010;rich, and dense spider assemblage through the subsidization of additional prey in forested habitats with substantial large vertebrate browse. Alteration of the physical environment from plant species invasion, including an enhanced structural complexity of the litter and near&#x02010;forest floor habitat, often benefits detrital consumers which in turn support forest predators (McCary et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0036" ref-type="ref">2016</xref>). Forest understory spiders have been shown to benefit from augmented detrital communities (Miyashita et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0041" ref-type="ref">2003</xref>), though the long&#x02010;term physiological implications from such dietary shifts are unknown. Predatory spiders are known to shift diet composition in habitats that have experienced plant species invasion and resultant changes in insect prey availability (deHart &#x00026; Strand,&#x000a0;<xref rid="ece36752-bib-0011" ref-type="ref">2012</xref>; Gratton &#x00026; Denno,&#x000a0;<xref rid="ece36752-bib-0017" ref-type="ref">2006</xref>). Flies within the invaded habitats in our study area likely contributed a greater relative proportion of the diet of understory spiders as their density within <italic>M.&#x000a0;vimineum</italic> plots was nearly six times that within reference plots. Spiders also exhibited enriched &#x003b4;<sup>15</sup>N within invaded plots and with greater abundance of Diptera, additionally indicating that detritus&#x02010;based flies, which also exhibit enriched isotopic nitrogen, constitute an increased proportion of spider diet in invaded habitats (Hyodo,&#x000a0;<xref rid="ece36752-bib-0024" ref-type="ref">2015</xref>). As guanotelic organisms such as spiders use nitrogen efficiently, diet shifts that include a greater relative percentage of nitrogen&#x02010;poor prey may affect individual body condition and fecundity (Toft &#x00026; Wise,&#x000a0;<xref rid="ece36752-bib-0064" ref-type="ref">1999</xref>) and could cause subsequent impacts to the nutrient flow to higher predators. Spiders constitute a significant, proteinaceous component of the diet of araneophagic predators such as nesting birds. Invaded habitats may contain a greater abundance of spiders and thus more available food for forest birds; however, changes to the available spider species and nutritional quality of individual spiders may affect fecundity and development of young for birds (Ladin, D'Amico, Jaisi, &#x00026; Shriver,&#x000a0;<xref rid="ece36752-bib-0027" ref-type="ref">2015</xref>; Narango, Tallamy, &#x00026; Marra,&#x000a0;<xref rid="ece36752-bib-0045" ref-type="ref">2018</xref>; Ramsay &#x00026; Houston,&#x000a0;<xref rid="ece36752-bib-0054" ref-type="ref">2003</xref>). The patchy distribution and growth habit of <italic>M.&#x000a0;vimineum</italic> populations create disparate and highly localized areas of prey subsidization for spiders, ultimately resulting in diverse and abundant predator communities. Such localized predator densities could affect forest nutritional dynamics and create hotspots of elevated nutrient levels (Hodkinson, Coulson, Harrison, &#x00026; Webb,&#x000a0;<xref rid="ece36752-bib-0021" ref-type="ref">2001</xref>; Kitchell et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0026" ref-type="ref">1979</xref>; Schmitz, Hawlena, &#x00026; Trussell,&#x000a0;<xref rid="ece36752-bib-0058" ref-type="ref">2010</xref>). Changes to the arthropod food web, brought about through replacement of native plants by invasive species, are largely undocumented and potentially pervasive across forest habitats with introduced and invasive plants.</p><p>The results of this study clearly indicate the extent to which invading plant species can cause both direct and indirect effects on multiple taxa as well as different trophic and functional groups. In this particular example, the invading species benefited invertebrate communities, albeit with as yet unknown subsequent impacts on higher trophic levels. Such positive effects are certainly species&#x02010;specific and not congruent with all species invasions nor are effects consistent across affected taxa (Fletcher et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0015" ref-type="ref">2019</xref>). Whether these positive effects are transient or are dependent upon current white&#x02010;tailed deer densities or the history of deer browsing requires further study. As such, management actions to control this invasive species must be conducted with consideration of deer browse and other pressures that affect understory vegetation growth, including forest succession. <italic>M.&#x000a0;vimineum</italic> or other invasive species can establish on the forest floor in open canopy gaps as aging trees die, particularly in habitats such as those in our study area that contain sparse understory growth, ultimately providing additional habitat and structure for invertebrates. The importance of fully understanding the suite of effects from invasive plants, both direct and indirect and positive and negative, is apparent when considering the breadth and extent of potentially invasive plant species introductions. As the world's flora becomes increasingly homogenized from plant species introductions (Mack et&#x000a0;al.,&#x000a0;<xref rid="ece36752-bib-0032" ref-type="ref">2000</xref>; Qian &#x00026; Ricklefs,&#x000a0;<xref rid="ece36752-bib-0052" ref-type="ref">2006</xref>), land managers and conservation biologists must consider any subsequent, cascading impacts in order to prioritize invasive plant management efforts.</p></sec><sec sec-type="COI-statement" id="ece36752-sec-0006"><title>CONFLICT OF INTEREST</title><p>None declared.</p></sec><sec id="ece36752-sec-0007"><title>AUTHOR CONTRIBUTION</title><p>
+<bold>Andrew P. Landsman:</bold> Conceptualization (lead); Formal analysis (lead); Writing&#x02010;original draft (lead); Writing&#x02010;review &#x00026; editing (equal). <bold>Karin T. Burghardt:</bold> Formal analysis (supporting); Writing&#x02010;review &#x00026; editing (equal). <bold>Jacob L. Bowman:</bold> Formal analysis (supporting); Writing&#x02010;review &#x00026; editing (equal).</p></sec></body><back><ack id="ece36752-sec-0005"><title>ACKNOWLEDGMENTS</title><p>We would like to thank D. Nelson and R. Paulman with the Central Appalachians Stable Isotope Facility at UMCES for stable isotope analysis and M. Hall, K. Haines, and B. Sammarco for assistance in data collection and insect identification. We would also like to thank the Maryland Native Plant Society for partial financial assistance and two anonymous reviewers for their extremely helpful and constructive review of this manuscript. The views and opinions represented herein are to be considered a work of the authors and not that of the U.S. Department of the Interior. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</p></ack><sec sec-type="data-availability" id="ece36752-sec-0009"><title>DATA AVAILABILITY STATEMENT</title><p>Data available from Dryad Digital Repository at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.7sqv9s4qs" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.7sqv9s4qs</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece36752-bibl-0001"><title>REFERENCES</title><ref id="ece36752-bib-0001"><mixed-citation publication-type="journal" id="ece36752-cit-0001">
+<string-name>
+<surname>Abrams</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>1995</year>). <article-title>Implications of dynamically variable traits for identifying, classifying and measuring direct and indirect effects in ecological communities</article-title>. <source xml:lang="en">American Midland Naturalist</source>, <volume>146</volume>, <fpage>112</fpage>&#x02013;<lpage>134</lpage>. <pub-id pub-id-type="doi">10.1086/285789</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0002"><mixed-citation publication-type="journal" id="ece36752-cit-0002">
+<string-name>
+<surname>Adams</surname>, <given-names>S. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Engelhardt</surname>, <given-names>K. A. M.</given-names>
+</string-name> (<year>2009</year>). <article-title>Diversity declines in <italic>Microstegium vimineum</italic> (Japanese stiltgrass) patches</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>142</volume>, <fpage>1003</fpage>&#x02013;<lpage>1010</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2009.01.009</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0003"><mixed-citation publication-type="journal" id="ece36752-cit-0003">
+<string-name>
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Ellingsen</surname>, <given-names>K. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McArdle</surname>, <given-names>B. H.</given-names>
+</string-name> (<year>2006</year>). <article-title>Multivariate dispersion as a measure of beta diversity</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>9</volume>, <fpage>683</fpage>&#x02013;<lpage>693</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2006.00926.x</pub-id>
+<pub-id pub-id-type="pmid">16706913</pub-id></mixed-citation></ref><ref id="ece36752-bib-0004"><mixed-citation publication-type="journal" id="ece36752-cit-0004">
+<string-name>
+<surname>Ballard</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hough&#x02010;Goldstein</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tallamy</surname>, <given-names>D.</given-names>
+</string-name> (<year>2013</year>). <article-title>Arthropod communities on native and nonnative early successional plants</article-title>. <source xml:lang="en">Environmental Entomology</source>, <volume>42</volume>, <fpage>851</fpage>&#x02013;<lpage>859</lpage>. <pub-id pub-id-type="doi">10.1603/EN12315</pub-id>
+<pub-id pub-id-type="pmid">24331597</pub-id></mixed-citation></ref><ref id="ece36752-bib-0005"><mixed-citation publication-type="book" id="ece36752-cit-0005">
+<string-name>
+<surname>Borcard</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Gillet</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <source xml:lang="en">Numerical ecology with R</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer&#x02010;Verlag</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0006"><mixed-citation publication-type="journal" id="ece36752-cit-0006">
+<string-name>
+<surname>Bradford</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>DeVore</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Maerz</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>McHugh</surname>, <given-names>J. V.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>C. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strickland</surname>, <given-names>M. S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Native, insect herbivore communities derive a significant proportion of their carbon from a widespread invader of forest understories</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>12</volume>, <fpage>721</fpage>&#x02013;<lpage>724</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-009-9480-x</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0074"><mixed-citation publication-type="journal" id="ece36752-cit-0074">
+<string-name>
+<surname>Brewer</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2011</year>). <article-title>Per capita community&#x02010;level effects of an invasive grass, Microstegium vimineum, on vegetation in mesic forests in northern Mississippi (USA)</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>13</volume>, <fpage>701</fpage>&#x02013;<lpage>715</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-010-9861-1</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0007"><mixed-citation publication-type="journal" id="ece36752-cit-0007">
+<string-name>
+<surname>Bultman</surname>, <given-names>T. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>DeWitt</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Effect of an invasive ground cover plant on the abundance and diversity of a forest floor spider assemblage</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>10</volume>, <fpage>749</fpage>&#x02013;<lpage>756</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-007-9168-z</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0008"><mixed-citation publication-type="journal" id="ece36752-cit-0008">
+<string-name>
+<surname>Burghardt</surname>, <given-names>K. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tallamy</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2013</year>). <article-title>Plant origin asymmetrically impacts feeding guilds and life stages driving community structure of herbivorous arthropods</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>19</volume>, <fpage>1553</fpage>&#x02013;<lpage>1565</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12122</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0009"><mixed-citation publication-type="journal" id="ece36752-cit-0009">
+<string-name>
+<surname>Civitello</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Flory</surname>, <given-names>S. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> (<year>2008</year>). <article-title>Exotic grass invasion reduces survival of <italic>Amblyomma americanum</italic> and <italic>Dermacentor variabilis</italic> ticks (Acari: Ixodidae)</article-title>. <source xml:lang="en">Journal of Medical Entomology</source>, <volume>45</volume>, <fpage>867</fpage>&#x02013;<lpage>872</lpage>.<pub-id pub-id-type="pmid">18826028</pub-id></mixed-citation></ref><ref id="ece36752-bib-0010"><mixed-citation publication-type="journal" id="ece36752-cit-0010">
+<string-name>
+<surname>Davis</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name>
+<surname>Kelly</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Maggs</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stout</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2018</year>). <article-title>Contrasting impacts of highly invasive plant species on flower&#x02010;visiting insect communities</article-title>. <source xml:lang="en">Biodiversity Conservation</source>, <volume>27</volume>, <fpage>2069</fpage>&#x02013;<lpage>2085</lpage>. <pub-id pub-id-type="doi">10.1007/s10531-018-1525-y</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0011"><mixed-citation publication-type="journal" id="ece36752-cit-0011">
+<string-name>
+<surname>deHart</surname>, <given-names>P. A. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strand</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2012</year>). <article-title>Effects of garlic mustard invasion on arthropod diets as revealed through stable&#x02010;isotope analyses</article-title>. <source xml:lang="en">Southeastern Naturalist</source>, <volume>11</volume>, <fpage>575</fpage>&#x02013;<lpage>588</lpage>. <pub-id pub-id-type="doi">10.1656/058.011.0403</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0012"><mixed-citation publication-type="journal" id="ece36752-cit-0012">
+<string-name>
+<surname>DeVore</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maerz</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Grass invasion causes top&#x02010;down pressure on an amphibian via structurally mediated effects on an intraguild predator</article-title>. <source xml:lang="en">Ecology</source>, <volume>95</volume>, <fpage>1724</fpage>&#x02013;<lpage>1730</lpage>.<pub-id pub-id-type="pmid">25163106</pub-id></mixed-citation></ref><ref id="ece36752-bib-0013"><mixed-citation publication-type="journal" id="ece36752-cit-0013">
+<string-name>
+<surname>Dudek</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Michlewicz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Dudek</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tryjanowski</surname>, <given-names>P.</given-names>
+</string-name> (<year>2016</year>). <article-title>Invasive Canadian goldenrod (<italic>Solidago canadensis</italic> L.) as a preferred foraging habitat for spiders</article-title>. <source xml:lang="en">Arthropod&#x02010;Plant Interactions</source>, <volume>10</volume>, <fpage>377</fpage>&#x02013;<lpage>381</lpage>. <pub-id pub-id-type="doi">10.1007/s11829-016-9455-7</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0014"><mixed-citation publication-type="journal" id="ece36752-cit-0014">
+<string-name>
+<surname>Dutra</surname>, <given-names>H. P.</given-names>
+</string-name>, <string-name>
+<surname>Barnett</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Reinhardt</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Marquis</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Orrock</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2011</year>). <article-title>Invasive plant species alters consumer behavior by providing refuge from predation</article-title>. <source xml:lang="en">Oecologia</source>, <volume>166</volume>, <fpage>649</fpage>&#x02013;<lpage>657</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-010-1895-7</pub-id>
+<pub-id pub-id-type="pmid">21221650</pub-id></mixed-citation></ref><ref id="ece36752-bib-0015"><mixed-citation publication-type="journal" id="ece36752-cit-0015">
+<string-name>
+<surname>Fletcher</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Brooks</surname>, <given-names>R. K.</given-names>
+</string-name>, <string-name>
+<surname>Lakoba</surname>, <given-names>V. T.</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Heminger</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Dickinson</surname>, <given-names>C. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Barney</surname>, <given-names>J. N.</given-names>
+</string-name> (<year>2019</year>). <article-title>Invasive plants negatively impact native, but not exotic, animals</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>25</volume>, <fpage>3694</fpage>&#x02013;<lpage>3705</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.14752</pub-id>
+<pub-id pub-id-type="pmid">31389131</pub-id></mixed-citation></ref><ref id="ece36752-bib-0016"><mixed-citation publication-type="journal" id="ece36752-cit-0016">
+<string-name>
+<surname>Flory</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> (<year>2011</year>). <article-title>Invasive <italic>Microstegium</italic> populations consistently outperform native range populations across diverse environments</article-title>. <source xml:lang="en">Ecology</source>, <volume>92</volume>, <fpage>2248</fpage>&#x02013;<lpage>2257</lpage>.<pub-id pub-id-type="pmid">22352164</pub-id></mixed-citation></ref><ref id="ece36752-bib-0017"><mixed-citation publication-type="journal" id="ece36752-cit-0017">
+<string-name>
+<surname>Gratton</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Denno</surname>, <given-names>R. F.</given-names>
+</string-name> (<year>2006</year>). <article-title>Arthropod food web restoration following removal of an invasive wetland plant</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>16</volume>, <fpage>622</fpage>&#x02013;<lpage>631</lpage>. <pub-id pub-id-type="doi">10.1890/1051-0761(2006)016[0622:AFWRFR]2.0.CO;2</pub-id>
+<pub-id pub-id-type="pmid">16711049</pub-id></mixed-citation></ref><ref id="ece36752-bib-0018"><mixed-citation publication-type="journal" id="ece36752-cit-0018">
+<string-name>
+<surname>Gunnarsson</surname>, <given-names>B.</given-names>
+</string-name> (<year>1996</year>). <article-title>Bird predation and vegetation structure affecting spruce&#x02010;living arthropods in a temperate forest</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>65</volume>, <fpage>389</fpage>&#x02013;<lpage>397</lpage>. <pub-id pub-id-type="doi">10.2307/5885</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0019"><mixed-citation publication-type="journal" id="ece36752-cit-0019">
+<string-name>
+<surname>Gunnarsson</surname>, <given-names>B.</given-names>
+</string-name> (<year>2007</year>). <article-title>Bird predation on spiders: Ecological mechanisms and evolutionary consequences</article-title>. <source xml:lang="en">Journal of Arachnology</source>, <volume>35</volume>, <fpage>509</fpage>&#x02013;<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1636/RT07-64.1</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0020"><mixed-citation publication-type="journal" id="ece36752-cit-0020">
+<string-name>
+<surname>Heleno</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name>
+<surname>Ceia</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Ramos</surname>, <given-names>J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Memmott</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>). <article-title>Effects of alien plants on insect abundance and biomass: A food&#x02010;web approach</article-title>. <source xml:lang="en">Conservation Biology</source>, <volume>23</volume>, <fpage>410</fpage>&#x02013;<lpage>419</lpage>. <pub-id pub-id-type="doi">10.1111/j.1523-1739.2008.01129.x</pub-id>
+<pub-id pub-id-type="pmid">19128322</pub-id></mixed-citation></ref><ref id="ece36752-bib-0021"><mixed-citation publication-type="journal" id="ece36752-cit-0021">
+<string-name>
+<surname>Hodkinson</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name>
+<surname>Coulson</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Harrison</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Webb</surname>, <given-names>N. R.</given-names>
+</string-name> (<year>2001</year>). <article-title>What a wonderful web they weave: Spiders, nutrient capture and early ecosystem development in the high Arctic &#x02013; Some counter&#x02010;intuitive ideas on community assembly</article-title>. <source xml:lang="en">Oikos</source>, <volume>95</volume>, <fpage>349</fpage>&#x02013;<lpage>352</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0706.2001.950217.x</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0022"><mixed-citation publication-type="journal" id="ece36752-cit-0022">
+<string-name>
+<surname>Horsley</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name>
+<surname>Stout</surname>, <given-names>S. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>de Calesta</surname>, <given-names>D. S.</given-names>
+</string-name> (<year>2003</year>). <article-title>White&#x02010;tailed deer impact on the vegetation dynamics of a northern hardwood forest</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>13</volume>, <fpage>98</fpage>&#x02013;<lpage>118</lpage>. <pub-id pub-id-type="doi">10.1890/1051-0761(2003)013[0098:WTDIOT]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0023"><mixed-citation publication-type="journal" id="ece36752-cit-0023">
+<string-name>
+<surname>Huebner</surname>, <given-names>C. D.</given-names>
+</string-name> (<year>2010</year>). <article-title>Establishment of an invasive grass in closed&#x02010;canopy deciduous forests across local and regional environmental gradients</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>12</volume>, <fpage>2069</fpage>&#x02013;<lpage>2080</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-009-9609-y</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0024"><mixed-citation publication-type="journal" id="ece36752-cit-0024">
+<string-name>
+<surname>Hyodo</surname>, <given-names>F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Use of stable carbon and nitrogen isotopes in insect trophic ecology</article-title>. <source xml:lang="en">Entomological Science</source>, <volume>18</volume>, <fpage>295</fpage>&#x02013;<lpage>312</lpage>. <pub-id pub-id-type="doi">10.1111/ens.12128</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0025"><mixed-citation publication-type="journal" id="ece36752-cit-0025">
+<string-name>
+<surname>Hyodo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Matsumoto</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Takematsu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Kamoi</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Fukuda</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Nakagawa</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Itioka</surname>, <given-names>T.</given-names>
+</string-name> (<year>2010</year>). <article-title>The structure of a food web in a tropical rain forest in Malaysia based on carbon and nitrogen stable isotope ratios</article-title>. <source xml:lang="en">Journal of Tropical Ecology</source>, <volume>26</volume>, <fpage>205</fpage>&#x02013;<lpage>214</lpage>. <pub-id pub-id-type="doi">10.1017/S0266467409990502</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0026"><mixed-citation publication-type="journal" id="ece36752-cit-0026">
+<string-name>
+<surname>Kitchell</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>O'Neill</surname>, <given-names>R. V.</given-names>
+</string-name>, <string-name>
+<surname>Webb</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Gallepp</surname>, <given-names>G. W.</given-names>
+</string-name>, <string-name>
+<surname>Bartell</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Koonce</surname>, <given-names>J. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ausmus</surname>, <given-names>B. S.</given-names>
+</string-name> (<year>1979</year>). <article-title>Consumer regulation of nutrient cycling</article-title>. <source xml:lang="en">BioScience</source>, <volume>29</volume>, <fpage>28</fpage>&#x02013;<lpage>34</lpage>. <pub-id pub-id-type="doi">10.2307/1307570</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0027"><mixed-citation publication-type="journal" id="ece36752-cit-0027">
+<string-name>
+<surname>Ladin</surname>, <given-names>Z. S.</given-names>
+</string-name>, <string-name>
+<surname>D'Amico</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Jaisi</surname>, <given-names>D. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shriver</surname>, <given-names>W. G.</given-names>
+</string-name> (<year>2015</year>). <article-title>Is brood parasitism related to host nestling diet and nutrition?</article-title>
+<source xml:lang="en">The Auk</source>, <volume>132</volume>, <fpage>717</fpage>&#x02013;<lpage>734</lpage>. <pub-id pub-id-type="doi">10.1642/AUK-15-11.1</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0028"><mixed-citation publication-type="journal" id="ece36752-cit-0028">
+<string-name>
+<surname>Landsman</surname>, <given-names>A. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bowman</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2017</year>). <article-title>Discordant response of spider communities to forests disturbed by deer herbivory and changes in prey availability</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>8</volume>, <elocation-id>e01703</elocation-id>
+<pub-id pub-id-type="doi">10.1002/ecs2.1703</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0029"><mixed-citation publication-type="journal" id="ece36752-cit-0029">
+<string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gallagher</surname>, <given-names>E. D.</given-names>
+</string-name> (<year>2001</year>). <article-title>Ecologically meaningful transformations for ordination of species data</article-title>. <source xml:lang="en">Oecologia</source>, <volume>129</volume>, <fpage>271</fpage>&#x02013;<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1007/s004420100716</pub-id>
+<pub-id pub-id-type="pmid">28547606</pub-id></mixed-citation></ref><ref id="ece36752-bib-0030"><mixed-citation publication-type="book" id="ece36752-cit-0030">
+<string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Legendre</surname>, <given-names>L.</given-names>
+</string-name> (<year>2012</year>). <source xml:lang="en">Numerical ecology</source> (<edition>3</edition>rd ed.). <publisher-loc>Oxford, UK</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0031"><mixed-citation publication-type="journal" id="ece36752-cit-0031">
+<string-name>
+<surname>Loomis</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name>
+<surname>Cameron</surname>, <given-names>G. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Uetz</surname>, <given-names>G. W.</given-names>
+</string-name> (<year>2014</year>). <article-title>Impact of the invasive shrub <italic>Lonicera mackii</italic> on shrub&#x02010;dwelling Araneae in a deciduous forest in eastern North America</article-title>. <source xml:lang="en">American Midland Naturalist</source>, <volume>171</volume>, <fpage>204</fpage>&#x02013;<lpage>218</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0032"><mixed-citation publication-type="journal" id="ece36752-cit-0032">
+<string-name>
+<surname>Mack</surname>, <given-names>R. N.</given-names>
+</string-name>, <string-name>
+<surname>Simberloff</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Lonsdale</surname>, <given-names>W. M.</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Clout</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bazzaz</surname>, <given-names>F. A.</given-names>
+</string-name> (<year>2000</year>). <article-title>Biotic invasions: Causes, epidemiology, global consequences, and control</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>10</volume>, <fpage>689</fpage>&#x02013;<lpage>710</lpage>. <pub-id pub-id-type="doi">10.1890/1051-0761(2000)010[0689:BICEGC]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0033"><mixed-citation publication-type="journal" id="ece36752-cit-0033">
+<string-name>
+<surname>Malo</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name>
+<surname>Godsall</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Prebble</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Grange</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>McCandless</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Coulson</surname>, <given-names>T.</given-names>
+</string-name> (<year>2012</year>). <article-title>Positive effects of an invasive shrub on aggregation and abundance of a native small rodent</article-title>. <source xml:lang="en">Behavioral Ecology</source>, <volume>21</volume>, <fpage>759</fpage>&#x02013;<lpage>767</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0034"><mixed-citation publication-type="journal" id="ece36752-cit-0034">
+<string-name>
+<surname>Marshall</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Buckley</surname>, <given-names>D. S.</given-names>
+</string-name> (<year>2009</year>). <article-title>Influence of <italic>Microstegium vimineum</italic> presence on insect abundance in hardwood forests</article-title>. <source xml:lang="en">Southeastern Naturalist</source>, <volume>8</volume>, <fpage>515</fpage>&#x02013;<lpage>526</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0035"><mixed-citation publication-type="journal" id="ece36752-cit-0035">
+<string-name>
+<surname>McArdle</surname>, <given-names>B. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2001</year>). <article-title>Fitting multivariate models to community data: A comment on distance&#x02010;based redundancy analysis</article-title>. <source xml:lang="en">Ecology</source>, <volume>82</volume>, <fpage>290</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.1890/0012-9658(2001)082[0290:FMMTCD]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0036"><mixed-citation publication-type="journal" id="ece36752-cit-0036">
+<string-name>
+<surname>McCary</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Mores</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Farfan</surname>, <given-names>M. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wise</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>2016</year>). <article-title>Invasive plants have different effects on trophic structure of green and brown food webs in terrestrial ecosystems: A meta&#x02010;analysis</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>19</volume>, <fpage>328</fpage>&#x02013;<lpage>335</lpage>.<pub-id pub-id-type="pmid">26757702</pub-id></mixed-citation></ref><ref id="ece36752-bib-0037"><mixed-citation publication-type="journal" id="ece36752-cit-0037">
+<string-name>
+<surname>McGrath</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Binkley</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2009</year>). <article-title>
+<italic>Microstegium vimineum</italic> invasion changes soil chemistry and microarthropod communities in Cumberland Plateau forests</article-title>. <source xml:lang="en">Southeastern Naturalist</source>, <volume>8</volume>, <fpage>141</fpage>&#x02013;<lpage>156</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0038"><mixed-citation publication-type="journal" id="ece36752-cit-0038">
+<string-name>
+<surname>McNabb</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Halaj</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wise</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>2001</year>). <article-title>Inferring trophic positions of generalist predators and their linkage to the detrital food web in agroecosystems: A stable isotope analysis</article-title>. <source xml:lang="en">Pedobiologia</source>, <volume>45</volume>, <fpage>289</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.1078/0031-4056-00087</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0039"><mixed-citation publication-type="journal" id="ece36752-cit-0039">
+<string-name>
+<surname>Meyer</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>, <given-names>K. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Robertson</surname>, <given-names>B. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Evaluating exotic plants as evolutionary traps for nesting veeries</article-title>. <source xml:lang="en">Condor</source>, <volume>117</volume>, <fpage>320</fpage>&#x02013;<lpage>325</lpage>. <pub-id pub-id-type="doi">10.1650/CONDOR-14-101.1</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0040"><mixed-citation publication-type="journal" id="ece36752-cit-0040">
+<string-name>
+<surname>Miyashita</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Takada</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Habitat provisioning for aboveground predators decreases detritivores</article-title>. <source xml:lang="en">Ecology</source>, <volume>88</volume>, <fpage>2803</fpage>&#x02013;<lpage>2809</lpage>. <pub-id pub-id-type="doi">10.1890/06-1633.1</pub-id>
+<pub-id pub-id-type="pmid">18051649</pub-id></mixed-citation></ref><ref id="ece36752-bib-0041"><mixed-citation publication-type="journal" id="ece36752-cit-0041">
+<string-name>
+<surname>Miyashita</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Takada</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shimazaki</surname>, <given-names>A.</given-names>
+</string-name> (<year>2003</year>). <article-title>Experimental evidence that aboveground predators are sustained by underground detritivores</article-title>. <source xml:lang="en">Oikos</source>, <volume>103</volume>, <fpage>31</fpage>&#x02013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0706.2003.12586.x</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0042"><mixed-citation publication-type="journal" id="ece36752-cit-0042">
+<string-name>
+<surname>Miyashita</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Takada</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shimazaki</surname>, <given-names>A.</given-names>
+</string-name> (<year>2004</year>). <article-title>Indirect effects of herbivory by deer reduce abundance and species richness of web spiders</article-title>. <source xml:lang="en">Ecoscience</source>, <volume>88</volume>, <fpage>2803</fpage>&#x02013;<lpage>2809</lpage>. <pub-id pub-id-type="doi">10.1080/11956860.2004.11682811</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0043"><mixed-citation publication-type="journal" id="ece36752-cit-0043">
+<string-name>
+<surname>Mollot</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Pantel</surname>, <given-names>J. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Romanuk</surname>, <given-names>T. N.</given-names>
+</string-name> (<year>2017</year>). <article-title>The effects of invasive species on the decline in species richness: A global meta&#x02010;analysis</article-title>. <source xml:lang="en">Advances in Ecological Research</source>, <volume>56</volume>, <fpage>61</fpage>&#x02013;<lpage>83</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0044"><mixed-citation publication-type="journal" id="ece36752-cit-0044">
+<string-name>
+<surname>Morrison</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Lubchansky</surname>, <given-names>H. A.</given-names>
+</string-name>, <string-name>
+<surname>Mauck</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name>
+<surname>McCartney</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunn</surname>, <given-names>B.</given-names>
+</string-name> (<year>2007</year>). <article-title>Ecological comparison of two co&#x02010;invasive species in eastern deciduous forests: <italic>Alliaria petiolata</italic> and <italic>Microstegium vimineum</italic>
+</article-title>. <source xml:lang="en">Journal of the Torrey Botanical Society</source>, <volume>134</volume>, <fpage>1</fpage>&#x02013;<lpage>17</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0045"><mixed-citation publication-type="journal" id="ece36752-cit-0045">
+<string-name>
+<surname>Narango</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name>
+<surname>Tallamy</surname>, <given-names>D. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Marra</surname>, <given-names>P. P.</given-names>
+</string-name> (<year>2018</year>). <article-title>Nonnative plants reduce population growth of an insectivorous bird</article-title>. <source xml:lang="en">Proceedings of the Natural Academy of Sciences of the United States of America</source>, <volume>115</volume>, <fpage>11549</fpage>&#x02013;<lpage>11554</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1809259115</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0046"><mixed-citation publication-type="book" id="ece36752-cit-0046">
+<string-name>
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Blanchet</surname>, <given-names>F. G.</given-names>
+</string-name>, <string-name>
+<surname>Friendly</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kindt</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>McGlinn</surname>, <given-names>D.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wagner</surname>, <given-names>H.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">vegan: Community ecology package. R package version 2.4&#x02010;2</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0047"><mixed-citation publication-type="journal" id="ece36752-cit-0047">
+<string-name>
+<surname>Oswalt</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Oswalt</surname>, <given-names>S. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clatterbuck</surname>, <given-names>W. K.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effects of <italic>Microstegium vimineum</italic> (Trin.) A. Camus on native woody species density and diversity in a productive mixed&#x02010;hardwood forest in Tennessee</article-title>. <source xml:lang="en">Forest Ecology and Management</source>, <volume>242</volume>, <fpage>727</fpage>&#x02013;<lpage>732</lpage>. <pub-id pub-id-type="doi">10.1016/j.foreco.2007.02.008</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0048"><mixed-citation publication-type="journal" id="ece36752-cit-0048">
+<string-name>
+<surname>Pearson</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2009</year>). <article-title>Invasive plant architecture alters trophic interactions by changing predator abundance and behavior</article-title>. <source xml:lang="en">Oecologia</source>, <volume>159</volume>, <fpage>549</fpage>&#x02013;<lpage>558</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-008-1241-5</pub-id>
+<pub-id pub-id-type="pmid">19082630</pub-id></mixed-citation></ref><ref id="ece36752-bib-0049"><mixed-citation publication-type="journal" id="ece36752-cit-0049">
+<string-name>
+<surname>Pearson</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2010</year>). <article-title>Trait&#x02010; and density&#x02010;mediated indirect interactions initiated by an exotic invasive plant autogenic ecosystem engineer</article-title>. <source xml:lang="en">American Naturalist</source>, <volume>176</volume>, <fpage>394</fpage>&#x02013;<lpage>403</lpage>. <pub-id pub-id-type="doi">10.1086/656274</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0050"><mixed-citation publication-type="journal" id="ece36752-cit-0050">
+<string-name>
+<surname>Philpott</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Greenberg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bichier</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Perfecto</surname>, <given-names>I.</given-names>
+</string-name> (<year>2004</year>). <article-title>Impacts of major predators on tropical agroforest arthropods: Comparisons within and across taxa</article-title>. <source xml:lang="en">Oecologia</source>, <volume>140</volume>, <fpage>140</fpage>&#x02013;<lpage>149</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-004-1561-z</pub-id>
+<pub-id pub-id-type="pmid">15095089</pub-id></mixed-citation></ref><ref id="ece36752-bib-0051"><mixed-citation publication-type="journal" id="ece36752-cit-0051">
+<string-name>
+<surname>Preisser</surname>, <given-names>E. L.</given-names>
+</string-name>, <string-name>
+<surname>Bolnick</surname>, <given-names>D. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Benard</surname>, <given-names>M. F.</given-names>
+</string-name> (<year>2005</year>). <article-title>Scared to death? The effects of intimidation and consumption in predator&#x02010;prey interactions</article-title>. <source xml:lang="en">Ecology</source>, <volume>86</volume>, <fpage>501</fpage>&#x02013;<lpage>509</lpage>. <pub-id pub-id-type="doi">10.1890/04-0719</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0052"><mixed-citation publication-type="journal" id="ece36752-cit-0052">
+<string-name>
+<surname>Qian</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ricklefs</surname>, <given-names>R. E.</given-names>
+</string-name> (<year>2006</year>). <article-title>The role of exotic species in homogenizing the North American flora</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>9</volume>, <fpage>1293</fpage>&#x02013;<lpage>1298</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2006.00982.x</pub-id>
+<pub-id pub-id-type="pmid">17118003</pub-id></mixed-citation></ref><ref id="ece36752-bib-0053"><mixed-citation publication-type="book" id="ece36752-cit-0053">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0054"><mixed-citation publication-type="journal" id="ece36752-cit-0054">
+<string-name>
+<surname>Ramsay</surname>, <given-names>S. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Houston</surname>, <given-names>D. C.</given-names>
+</string-name> (<year>2003</year>). <article-title>Amino acid composition of some woodland arthropods and its implications for breeding tits and other passerines</article-title>. <source xml:lang="en">Ibis</source>, <volume>145</volume>, <fpage>227</fpage>&#x02013;<lpage>232</lpage>. <pub-id pub-id-type="doi">10.1046/j.1474-919X.2003.00133.x</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0055"><mixed-citation publication-type="journal" id="ece36752-cit-0055">
+<string-name>
+<surname>Rao</surname>, <given-names>C. R.</given-names>
+</string-name> (<year>1995</year>). <article-title>A review of canonical coordinates and an alternative to correspondence analysis using the Hellinger distance</article-title>. <source xml:lang="en">Q&#x000fc;estii&#x000f3;</source>, <volume>19</volume>, <fpage>23</fpage>&#x02013;<lpage>63</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0056"><mixed-citation publication-type="journal" id="ece36752-cit-0056">
+<string-name>
+<surname>Russo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Nichol</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shea</surname>, <given-names>K.</given-names>
+</string-name> (<year>2016</year>). <article-title>Pollinator floral provisioning by a plant invader: Quantifying beneficial effects of detrimental species</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>22</volume>, <fpage>189</fpage>&#x02013;<lpage>198</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12397</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0057"><mixed-citation publication-type="journal" id="ece36752-cit-0057">
+<string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Belote</surname>, <given-names>R. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Weltzin</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2004</year>). <article-title>Multitrophic effects of elevated atmospheric CO<sub>2</sub> on understory plant and arthropod communities</article-title>. <source xml:lang="en">Environmental Entomology</source>, <volume>33</volume>, <fpage>1609</fpage>&#x02013;<lpage>1616</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0058"><mixed-citation publication-type="journal" id="ece36752-cit-0058">
+<string-name>
+<surname>Schmitz</surname>, <given-names>O. J.</given-names>
+</string-name>, <string-name>
+<surname>Hawlena</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Trussell</surname>, <given-names>G. C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Predator control of ecosystem nutrient dynamics</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>13</volume>, <fpage>1199</fpage>&#x02013;<lpage>1209</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2010.01511.x</pub-id>
+<pub-id pub-id-type="pmid">20602626</pub-id></mixed-citation></ref><ref id="ece36752-bib-0059"><mixed-citation publication-type="journal" id="ece36752-cit-0059">
+<string-name>
+<surname>Seibold</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Cadotte</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>MacIvor</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Thorn</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller</surname>, <given-names>J.</given-names>
+</string-name> (<year>2018</year>). <article-title>The necessity of multitrophic approaches in community ecology</article-title>. <source xml:lang="en">Trends in Ecology and Evolution</source>, <volume>33</volume>, <fpage>754</fpage>&#x02013;<lpage>764</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2018.07.001</pub-id>
+<pub-id pub-id-type="pmid">30146326</pub-id></mixed-citation></ref><ref id="ece36752-bib-0060"><mixed-citation publication-type="journal" id="ece36752-cit-0060">
+<string-name>
+<surname>Smith&#x02010;Ramesh</surname>, <given-names>L. M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Invasive plant alters community and ecosystem dynamics by promoting native predators</article-title>. <source xml:lang="en">Ecology</source>, <volume>98</volume>, <fpage>751</fpage>&#x02013;<lpage>761</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.1688</pub-id>
+<pub-id pub-id-type="pmid">28035682</pub-id></mixed-citation></ref><ref id="ece36752-bib-0061"><mixed-citation publication-type="journal" id="ece36752-cit-0061">
+<string-name>
+<surname>Spiller</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schoener</surname>, <given-names>T. W.</given-names>
+</string-name> (<year>1988</year>). <article-title>An experimental study of the effect of lizards on web&#x02010;spider communities</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>58</volume>, <fpage>57</fpage>&#x02013;<lpage>77</lpage>. <pub-id pub-id-type="doi">10.2307/1942461</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0062"><mixed-citation publication-type="journal" id="ece36752-cit-0062">
+<string-name>
+<surname>Takada</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Baba</surname>, <given-names>Y. G.</given-names>
+</string-name>, <string-name>
+<surname>Yanagi</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Terada</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Miyashita</surname>, <given-names>T.</given-names>
+</string-name> (<year>2008</year>). <article-title>Contrasting responses of web&#x02010;building spiders to deer browsing among habitats and feeding guilds</article-title>. <source xml:lang="en">Environmental Entomology</source>, <volume>37</volume>, <fpage>938</fpage>&#x02013;<lpage>946</lpage>. <pub-id pub-id-type="doi">10.1093/ee/37.4.938</pub-id>
+<pub-id pub-id-type="pmid">18801259</pub-id></mixed-citation></ref><ref id="ece36752-bib-0063"><mixed-citation publication-type="journal" id="ece36752-cit-0063">
+<string-name>
+<surname>Tilghman</surname>, <given-names>N. G.</given-names>
+</string-name> (<year>1989</year>). <article-title>Impacts of white&#x02010;tailed deer on forest regeneration in northwestern Pennsylvania</article-title>. <source xml:lang="en">Journal of Wildlife Management</source>, <volume>53</volume>, <fpage>524</fpage>&#x02013;<lpage>532</lpage>. <pub-id pub-id-type="doi">10.2307/3809172</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0064"><mixed-citation publication-type="journal" id="ece36752-cit-0064">
+<string-name>
+<surname>Toft</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wise</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>1999</year>). <article-title>Growth, development, and survival of a generalist predator fed single&#x02010; and mixed&#x02010;species diets of different quality</article-title>. <source xml:lang="en">Oecologia</source>, <volume>119</volume>, <fpage>191</fpage>&#x02013;<lpage>197</lpage>. <pub-id pub-id-type="doi">10.1007/s004420050776</pub-id>
+<pub-id pub-id-type="pmid">28307968</pub-id></mixed-citation></ref><ref id="ece36752-bib-0065"><mixed-citation publication-type="book" id="ece36752-cit-0065">
+<string-name>
+<surname>Triplehorn</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Johnson</surname>, <given-names>N. F.</given-names>
+</string-name> (<year>2005</year>). <source xml:lang="en">Borror and DeLong's introduction to the study of insects</source> (<edition>7</edition>th ed.). <publisher-loc>Belmont, CA</publisher-loc>: <publisher-name>Thompson Brooks/Cole</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0066"><mixed-citation publication-type="journal" id="ece36752-cit-0066">
+<string-name>
+<surname>Tymkiw</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Bowman</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shriver</surname>, <given-names>W. G.</given-names>
+</string-name> (<year>2013</year>). <article-title>The effect of white&#x02010;tailed deer density on breeding songbirds in Delaware</article-title>. <source xml:lang="en">Wildlife Society Bulletin</source>, <volume>37</volume>, <fpage>714</fpage>&#x02013;<lpage>724</lpage>.</mixed-citation></ref><ref id="ece36752-bib-0067"><mixed-citation publication-type="book" id="ece36752-cit-0067">
+<string-name>
+<surname>Ubick</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Paquin</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Cushing</surname>, <given-names>P. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Roth</surname>, <given-names>V.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">Spiders of North America: An identification manual</source> (<edition>2</edition>nd ed.). <publisher-loc>Keene, NH</publisher-loc>: <publisher-name>American Arachnological Society</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0068"><mixed-citation publication-type="book" id="ece36752-cit-0068">
+<string-name>
+<surname>Venables</surname>, <given-names>W. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ripley</surname>, <given-names>B. D.</given-names>
+</string-name> (<year>2002</year>). <source xml:lang="en">Modern applied statistics with S</source> (<edition>4</edition>th ed.). <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer&#x02010;Verlag</publisher-name>.</mixed-citation></ref><ref id="ece36752-bib-0069"><mixed-citation publication-type="journal" id="ece36752-cit-0069">
+<string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Espinar</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Hejda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hulme</surname>, <given-names>P. E.</given-names>
+</string-name>, <string-name>
+<surname>Jaro&#x00161;&#x000ed;k</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>Ecological impacts of invasive alien plants: A meta&#x02010;analysis of their effects on species, communities and ecosystems</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>14</volume>, <fpage>702</fpage>&#x02013;<lpage>708</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2011.01628.x</pub-id>
+<pub-id pub-id-type="pmid">21592274</pub-id></mixed-citation></ref><ref id="ece36752-bib-0070"><mixed-citation publication-type="journal" id="ece36752-cit-0070">
+<string-name>
+<surname>Walters</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Mills</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Fritz</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Raikow</surname>, <given-names>D. F.</given-names>
+</string-name> (<year>2010</year>). <article-title>Spider&#x02010;mediated flux of PCBs from contaminated sediments to terrestrial ecosystems and potential risks to arachnivorous birds</article-title>. <source xml:lang="en">Environmental Science and Technology</source>, <volume>44</volume>, <fpage>2849</fpage>&#x02013;<lpage>2856</lpage>.<pub-id pub-id-type="pmid">20025228</pub-id></mixed-citation></ref><ref id="ece36752-bib-0071"><mixed-citation publication-type="journal" id="ece36752-cit-0071">
+<string-name>
+<surname>Werner</surname>, <given-names>E. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Peacor</surname>, <given-names>S. D.</given-names>
+</string-name> (<year>2003</year>). <article-title>A review of trait&#x02010;mediated indirect interactions in ecological communities</article-title>. <source xml:lang="en">Ecology</source>, <volume>84</volume>, <fpage>1083</fpage>&#x02013;<lpage>1100</lpage>. <pub-id pub-id-type="doi">10.1890/0012-9658(2003)084[1083:AROTII]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0072"><mixed-citation publication-type="journal" id="ece36752-cit-0072">
+<string-name>
+<surname>White</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Wilson</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clarke</surname>, <given-names>A. R.</given-names>
+</string-name> (<year>2006</year>). <article-title>Biotic indirect effects: A neglected concept in invasion biology</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>12</volume>, <fpage>443</fpage>&#x02013;<lpage>455</lpage>. <pub-id pub-id-type="doi">10.1111/j.1366-9516.2006.00265.x</pub-id>
+</mixed-citation></ref><ref id="ece36752-bib-0073"><mixed-citation publication-type="journal" id="ece36752-cit-0073">
+<string-name>
+<surname>Wolkovich</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Bolger</surname>, <given-names>D. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Holway</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2009</year>). <article-title>Complex responses to invasive grass litter by ground arthropods in a Mediterranean scrub ecosystem</article-title>. <source xml:lang="en">Oecologia</source>, <volume>161</volume>, <fpage>697</fpage>&#x02013;<lpage>708</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-009-1425-7</pub-id>
+<pub-id pub-id-type="pmid">19669165</pub-id></mixed-citation></ref></ref-list></back></article>

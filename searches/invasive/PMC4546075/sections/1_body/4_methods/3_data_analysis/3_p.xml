@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We examined geographic clustering of the genetic diversity using a combination of different approaches. STRUCTURE v 2.2 [
+ <xref ref-type="bibr" rid="CR26">26</xref>, 
+ <xref ref-type="bibr" rid="CR77">77</xref>] was run with a burn-in length of 20 000 iterations followed by 50 000 iterations for estimating the parameters, with non-amplifying markers treated as missing data. Each analysis was repeated ten times for each number of clusters (K = 1 to 20) until the likelihood values for the runs no longer improved. We evaluated both the admixture and the no admixture models, but as the two models gave similar results we only report the former. The number of clusters observed in the dataset was evaluated by calculating ΔK according to Evanno et al. [
+ <xref ref-type="bibr" rid="CR24">24</xref>]. CLUMPP v 1.1.1 [
+ <xref ref-type="bibr" rid="CR42">42</xref>] was used to compare the results of individual runs and to calculate similarity coefficients, H, and the average matrix of ancestry. In CLUMPP, the FullSearch, Greedy and LargeKGreedy algorithms were used for comparing runs with K &lt; 4, K 4 – 6 and K &gt; 6, respectively. Graphical presentation of the results was obtained using DISTRUCT v 1.1 [
+ <xref ref-type="bibr" rid="CR83">83</xref>].
+</p>

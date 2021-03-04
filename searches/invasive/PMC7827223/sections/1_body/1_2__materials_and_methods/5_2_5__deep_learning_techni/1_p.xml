@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Deep learning is a trending field of machine learning that focuses on fitting large models with millions of parameters for a variety of tasks, such as image classification and segmentation. These approaches have been rapidly gaining attention in computer vision tasks, due to their recently increased accuracy. Deep learning models commonly learn from examples in a supervised manner. First, an 
+ <italic>architecture</italic> or a graph of connected nodes is defined. These nodes are often grouped in 
+ <italic>layers</italic> that perform a specific operation, and the combination of a large number of layers is referred to as a 
+ <italic>deep neural network</italic> (
+ <bold>DNN</bold>).The typology of the nodes, the number of nodes per layer and the connections between them determine the behaviour of the network. In general, two main types of nodes are used: linear nodes, expressed as matrix multiplications and nodes that introduce non-linear functions (such as the sigmoid function). The weights in linear nodes are usually initialised with random values following a specific distribution. Afterwards, the network is given samples of the data, known as 
+ <italic>training samples</italic>, which contain instances of the problem (i.e., image intensities) with their corresponding solutions (i.e., labels). These samples are iteratively run through the network in order to evaluate its current accuracy and the weights are updated following an optimization process.
+</p>

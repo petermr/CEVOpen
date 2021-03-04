@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pcbi.1004211.t001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pcbi.1004211.t001</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>Definition of symbols and default values of parameters (based on values from [
+   <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+   <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>,
+   <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>,
+   <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>,
+   <xref rid="pcbi.1004211.ref029" ref-type="bibr">29</xref>,
+   <xref rid="pcbi.1004211.ref030" ref-type="bibr">30</xref>]).
+  </title>
+ </caption>
+ <alternatives>
+  <graphic id="pcbi.1004211.t001g" xlink:href="pcbi.1004211.t001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="left" rowspan="1" colspan="1"/>
+     <th align="left" rowspan="1" colspan="1">Description</th>
+     <th align="left" rowspan="1" colspan="1">Default Value</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>N</italic>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Total number of hosts</td>
+     <td align="left" rowspan="1" colspan="1">2000</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">γ</td>
+     <td align="left" rowspan="1" colspan="1">Rate of onset of infectiousness (average latent period 1/
+      <italic>γ</italic>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">0.1d
+      <sup>-1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">σ</td>
+     <td align="left" rowspan="1" colspan="1">Rate of emergence of symptoms (average incubation period 1/
+      <italic>γ</italic>+1/
+      <italic>σ</italic>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">0.01d
+      <sup>-1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">μ</td>
+     <td align="left" rowspan="1" colspan="1">Rate of disease-induced death (average infectious period 1/
+      <italic>σ</italic>+1/
+      <italic>μ</italic> if μ &gt; 0, otherwise infinite)
+     </td>
+     <td align="left" rowspan="1" colspan="1">0 d
+      <sup>-1</sup>(i.e. no death)
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">β</td>
+     <td align="left" rowspan="1" colspan="1">Rate of secondary infection</td>
+     <td align="left" rowspan="1" colspan="1">0.03d
+      <sup>-1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">ε</td>
+     <td align="left" rowspan="1" colspan="1">Rate of primary infection</td>
+     <td align="left" rowspan="1" colspan="1">0 d
+      <sup>-1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>K</italic>(
+      <italic>d</italic>;
+      <italic>α</italic>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">Dispersal kernel at distance 
+      <italic>d</italic>, scale parameter 
+      <italic>α</italic> (exponential or Cauchy; see (
+      <xref rid="pcbi.1004211.e001" ref-type="disp-formula">Equation 1</xref>))
+     </td>
+     <td align="left" rowspan="1" colspan="1">Exponential</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>α</italic>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Scale of dispersal kernel</td>
+     <td align="left" rowspan="1" colspan="1">20m</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>E</italic>
+      <sub>
+       <italic>0</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Number of hosts that become exposed at 
+      <italic>t</italic> = 0
+     </td>
+     <td align="left" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>ω</italic>(
+      <italic>t</italic>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">Weather suitability (either (S)uitable or (U)nsuitable)</td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>ω</italic>
+      <sub>
+       <italic>s</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Relative suitability of an suitable environment</td>
+     <td align="left" rowspan="1" colspan="1">1</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>ω</italic>
+      <sub>
+       <italic>u</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Relative suitability of an unsuitable environment (
+      <italic>ω</italic>
+      <sub>
+       <italic>u</italic>
+      </sub> ≤ 
+      <italic>ω</italic>
+      <sub>
+       <italic>s</italic>
+      </sub>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">1 (i.e. no difference)</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>T</italic>
+      <sub>
+       <italic>w</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Time step on which suitability changes</td>
+     <td align="left" rowspan="1" colspan="1">5d</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">η</td>
+     <td align="left" rowspan="1" colspan="1">Probability suitable weather becomes unsuitable, p(U | S)</td>
+     <td align="left" rowspan="1" colspan="1">0.5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">ρ</td>
+     <td align="left" rowspan="1" colspan="1">Probability unsuitable weather becomes suitable, p(S | U)</td>
+     <td align="left" rowspan="1" colspan="1">0.5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>T</italic>
+      <sub>
+       <italic>s</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Time between successive surveys</td>
+     <td align="left" rowspan="1" colspan="1">90d</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>p</italic>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Probability that symptoms are detected</td>
+     <td align="left" rowspan="1" colspan="1">0.8</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>f</italic>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Fraction of hosts that are not surveyed (i.e. fixed as undetectable at the start of each simulation)</td>
+     <td align="left" rowspan="1" colspan="1">0</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>T</italic>
+      <sub>
+       <italic>0</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Time of first survey</td>
+     <td align="left" rowspan="1" colspan="1">0d</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>L</italic>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Cull radius around each detected host</td>
+     <td align="left" rowspan="1" colspan="1">75m</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>T</italic>
+      <sub>
+       <italic>c</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Notice period (i.e. average time taken to initiate culling)</td>
+     <td align="left" rowspan="1" colspan="1">60d</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>σ</italic>
+      <sub>
+       <italic>c</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Standard deviation of the notice period</td>
+     <td align="left" rowspan="1" colspan="1">0d</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">κ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Epidemic impact (i.e. the total number of hosts lost to either disease or control)</td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <inline-formula id="pcbi.1004211.e002">
+       <alternatives>
+        <graphic id="pcbi.1004211.e002g" xlink:href="pcbi.1004211.e002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M2">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>κ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Normalised epidemic impact, i.e. 
+      <inline-formula id="pcbi.1004211.e003">
+       <alternatives>
+        <graphic id="pcbi.1004211.e003g" xlink:href="pcbi.1004211.e003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M3">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>κ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+          <mo>=</mo>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>κ</mi>
+             <mi>E</mi>
+            </msub>
+           </mrow>
+           <mrow>
+            <mi>max</mi>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <msub>
+               <mi>κ</mi>
+               <mi>E</mi>
+              </msub>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">τ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Epidemic time (i.e. the time taken to eradicate the pathogen)</td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <inline-formula id="pcbi.1004211.e004">
+       <alternatives>
+        <graphic id="pcbi.1004211.e004g" xlink:href="pcbi.1004211.e004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M4">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>τ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Normalised epidemic time, i.e. 
+      <inline-formula id="pcbi.1004211.e005">
+       <alternatives>
+        <graphic id="pcbi.1004211.e005g" xlink:href="pcbi.1004211.e005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M5">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>τ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+          <mo>=</mo>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>τ</mi>
+             <mi>E</mi>
+            </msub>
+           </mrow>
+           <mrow>
+            <mi>max</mi>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <msub>
+               <mi>τ</mi>
+               <mi>E</mi>
+              </msub>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Ψ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Normalised epidemic cost (
+      <inline-formula id="pcbi.1004211.e006">
+       <alternatives>
+        <graphic id="pcbi.1004211.e006g" xlink:href="pcbi.1004211.e006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M6">
+         <mrow>
+          <msub>
+           <mi>ψ</mi>
+           <mi>E</mi>
+          </msub>
+          <mtext>= </mtext>
+          <mo>​</mo>
+          <mo>​</mo>
+          <mtext>(1-η) </mtext>
+          <msub>
+           <mover accent="true">
+            <mi>κ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+          <mtext> + η </mtext>
+          <msub>
+           <mover accent="true">
+            <mi>τ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">η</td>
+     <td align="left" rowspan="1" colspan="1">Relative weighting of global impacts in Ψ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>A</italic>
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Area under the disease progress curve 
+      <inline-formula id="pcbi.1004211.e007">
+       <alternatives>
+        <graphic id="pcbi.1004211.e007g" xlink:href="pcbi.1004211.e007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M7">
+         <mrow>
+          <msub>
+           <mi>A</mi>
+           <mi>E</mi>
+          </msub>
+          <mo>=</mo>
+          <mstyle displaystyle="true">
+           <mrow>
+            <munderover>
+             <mo>∫</mo>
+             <mrow>
+              <mi>t</mi>
+              <mo>=</mo>
+              <mn>0</mn>
+             </mrow>
+             <mrow>
+              <msub>
+               <mi>τ</mi>
+               <mi>E</mi>
+              </msub>
+             </mrow>
+            </munderover>
+            <mrow>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mi>C</mi>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo stretchy="false">)</mo>
+               <mo>+</mo>
+               <mi>I</mi>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mrow>
+          </mstyle>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">λ</td>
+     <td align="left" rowspan="1" colspan="1">Connectivity between the local and global populations</td>
+     <td align="left" rowspan="1" colspan="1">10
+      <sup>-5</sup> d
+      <sup>-1</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <italic>p</italic>
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Probability of the pathogen escaping the region of active control (
+      <italic>p</italic>
+      <sub>
+       <italic>E</italic>
+      </sub>=1-exp(-λ
+      <italic>A</italic>
+      <sub>
+       <italic>E</italic>
+      </sub>))
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">
+      <inline-formula id="pcbi.1004211.e008">
+       <alternatives>
+        <graphic id="pcbi.1004211.e008g" xlink:href="pcbi.1004211.e008" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M8">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>p</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Normalised probability of escape, i.e. 
+      <inline-formula id="pcbi.1004211.e009">
+       <alternatives>
+        <graphic id="pcbi.1004211.e009g" xlink:href="pcbi.1004211.e009" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M9">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>p</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+          <mo>=</mo>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>p</mi>
+             <mi>E</mi>
+            </msub>
+           </mrow>
+           <mrow>
+            <mi>max</mi>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <msub>
+               <mi>p</mi>
+               <mi>E</mi>
+              </msub>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">ζ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">Normalised epidemic cost (
+      <inline-formula id="pcbi.1004211.e010">
+       <alternatives>
+        <graphic id="pcbi.1004211.e010g" xlink:href="pcbi.1004211.e010" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        <math id="M10">
+         <mrow>
+          <msub>
+           <mi>ζ</mi>
+           <mi>E</mi>
+          </msub>
+          <mtext>= </mtext>
+          <mo>​</mo>
+          <mtext>​(1-</mtext>
+          <mi>δ</mi>
+          <mtext>) </mtext>
+          <msub>
+           <mover accent="true">
+            <mi>κ</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+          <mtext> + </mtext>
+          <mi>δ</mi>
+          <mtext> </mtext>
+          <msub>
+           <mover accent="true">
+            <mi>p</mi>
+            <mo>^</mo>
+           </mover>
+           <mi>E</mi>
+          </msub>
+         </mrow>
+        </math>
+       </alternatives>
+      </inline-formula>)
+     </td>
+     <td align="left" rowspan="1" colspan="1">n/a</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">δ</td>
+     <td align="left" rowspan="1" colspan="1">Relative weighting of global impacts in ζ
+      <sub>
+       <italic>E</italic>
+      </sub>
+     </td>
+     <td align="left" rowspan="1" colspan="1">[0,1]</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

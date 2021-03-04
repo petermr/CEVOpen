@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A customized script is used to map SNPs to the 
+ <italic>Sorghum bicolor</italic> gene model version 1.4. Striking SNPs are identified as those mapped to coding regions, splicing sites, stop codons and transcription initiation sites. The functional impact of non-synonymous SNP is assessed based on the evolutionary conservation profile of amino acids. Orthologous groups of protein sequences from 30 plant species are constructed using OrthoMCL. Protein sequences from each orthologous group are aligned using Clustalw2 (
+ <xref rid="B23" ref-type="bibr">Larkin et al., 2007</xref>). Non-synonymous SNPs are mapped to the alignment of the corresponding orthologous group and a ‘functional impact score’ is calculated with a modified entropy function (
+ <xref rid="B38" ref-type="bibr">Reva et al., 2011</xref>):
+</p>

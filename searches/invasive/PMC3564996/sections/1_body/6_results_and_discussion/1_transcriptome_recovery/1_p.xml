@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We obtained between 11.4 and 430.7 Mbp of raw sequence per individual as a result of a range of sequencing efforts across our samples (
+ <xref ref-type="table" rid="t1">Table 1</xref>; NCBI Short Read Archive accession #SRA059334; assembly for AR-13-24 previously published in 
+ <xref rid="bib36" ref-type="bibr">Lai 
+  <italic>et al.</italic> 2012
+ </xref> and available at doi:10.5061/dryad.cm7td/4). Our assemblies generated up to 71,054 unigenes (contigs and singleton reads combined), including up to 48,230 contigs (
+ <xref ref-type="fig" rid="fig2">Figure 2</xref>). Gene number in the YST genome is not yet known, but our largest assemblies are at the top of the range of current annotation counts among complete angiosperm genomes (
+ <xref rid="bib7" ref-type="bibr">Barker 
+  <italic>et al.</italic> 2012
+ </xref>), and somewhat higher than the ~35,000 loci predicted in the genome of the related asterid tomato (
+ <xref rid="bib62" ref-type="bibr">The Tomato Genome Consortium 2012</xref>). Given that our accessions are outbred individuals and allelic variation is expected, these numbers are consistent with a relatively complete view of expressed genes in this species. Indeed we find patterns of saturating gains in unique sequences and coverage of known conserved loci: Both unigene and contig numbers were positively related to sequencing effort, and these relationships were fit closely by logarithmic curves (regressions: unigenes, R
+ <sup>2</sup> = 0.93, 
+ <italic>P</italic> &lt; 0.0001; contigs, R
+ <sup>2</sup> = 0.91, 
+ <italic>P</italic> &lt; 0.0001, 
+ <xref ref-type="fig" rid="fig2">Figure 2</xref>), indicating that recovery of additional unique sequences was associated with exponential increases in sequencing effort. Although the longer-read GSFLX-Titanium chemistry resulted in longer contigs (
+ <xref ref-type="table" rid="t1">Table 1</xref>), our contig numbers generated from those libraries followed the same logarithmic relationship with sequencing effort predicted by the shorter-read GS-FLX chemistry (nonsignificant interaction of chemistry type and sequencing effort in linear model: 
+ <italic>P</italic> = 0.43; 
+ <ext-link ext-link-type="uri" xlink:href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.112.003871/-/DC1/003871SI.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.112.003871/-/DC1/FigureS1.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S1</ext-link>). The proportion of UCOs recovered reached 87% (311 loci) among the largest libraries (
+ <xref ref-type="table" rid="t1">Table 1</xref>). In general, gains from additional sequencing were relatively modest above approximately 100 Mb of usable sequence, which is likely to be less than 5x coverage of the YST transcriptome, given our assembly size. This result suggests that representative information can be gained from low coverage datasets, even while additional sequencing depth continues to yield further gene discovery (
+ <xref rid="bib36" ref-type="bibr">Lai 
+  <italic>et al.</italic> 2012
+ </xref>).
+</p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As the practice of modeling habitat suitability evolves and expands, challenges arise with how much of the process can be automated versus which areas need human intervention. There is a desire to develop habitat suitability models for collections of species using similar methods to support a number of initiatives [
+ <xref rid="pone.0229253.ref058" ref-type="bibr">58</xref>,
+ <xref rid="pone.0229253.ref060" ref-type="bibr">60</xref>,
+ <xref rid="pone.0229253.ref066" ref-type="bibr">66</xref>]. In the development of our framework, we included places in the model process for human input. We found the estimation, prediction, pre- and post-processing of models can be automated reasonably well. We built in automation of the occurrence data processing, model input data preprocessing (via SAHM) and model product development while having human intervention at key steps such as environmental variable selection for each species and examination of model parameters to determine overfitting and ecoplausibility (
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>). By using SAHM as opposed to keeping the scripting in R, we are able to take advantage of the well-developed graphical user interface for the human inputs of variable selection and examining model outputs (
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>). In addition, SAHM has a more efficient and robust method for model tracking and documentation [
+ <xref rid="pone.0229253.ref042" ref-type="bibr">42</xref>]. We developed this approach with the understanding that human time and knowledge are valuable, whereas computing time and power are now readily available [
+ <xref rid="pone.0229253.ref042" ref-type="bibr">42</xref>]. Humans provide judgment, adaptability, motivation, and can draw on experiences while automation can improve consistency, speed, and advanced computation [
+ <xref rid="pone.0229253.ref067" ref-type="bibr">67</xref>]. This combination provides the speed and consistency of automation while incorporating the species-specific tailoring of human knowledge and critical junctures in the modeling process.
+</p>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Following the Lande's theorem 
+ <xref rid="pone.0032323-Lande1" ref-type="bibr">[31]</xref>, 
+ <xref rid="pone.0032323-Charlesworth1" ref-type="bibr">[32]</xref> and p.284 and 437 in 
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>, we can use the log of the stochastic population growth rate (log 
+ <bold>
+  <italic>λ
+   <sub>s</sub>
+  </italic>
+ </bold> called 
+ <italic>r
+  <sub>s</sub>
+ </italic> value in the text) of the transition matrix 
+ <bold>
+  <italic>A</italic>
+ </bold>, in order to measure the 
+ <italic>average fitness</italic> of an individual during its entire life-cycle under certain conditions 
+ <xref rid="pone.0032323-Fisher1" ref-type="bibr">[64]</xref>, 
+ <xref rid="pone.0032323-vanderWerf1" ref-type="bibr">[65]</xref>. The necessary conditions for using the 
+ <italic>r
+  <sub>s</sub>-value
+ </italic> as an average measure of fitness are: no large genetic variation between individuals and populations, no density dependence, no resource limitation, and that the population is surveyed at the stable stage distribution. Genetic variation in 
+ <italic>P. aculeata</italic> is low in Australia 
+ <xref rid="pone.0032323-Hawkins1" ref-type="bibr">[38]</xref>. Density-dependence and resource limitation were satisfied by site selection. The stable-stage distribution was tested and confirmed using a 
+ <italic>χ
+  <sup>2</sup>-test
+ </italic> (
+ <xref ref-type="supplementary-material" rid="pone.0032323.s002">Table S2</xref>). This test compared the observed population structure with the expected stable-stage distribution determined from the right eigenvector of the demographic matrix 
+ <bold>
+  <italic>A</italic>
+ </bold>
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>. The package 
+ <italic>Popbio</italic> from 
+ <italic>R-cran</italic> was used for all matrix population analyses (
+ <bold>
+  <italic>R</italic>
+ </bold> Development Core Team, 2006). For every site we estimated a transition matrix 
+ <bold>
+  <italic>A</italic>
+ </bold> containing the fitness components averaged between 2001 and 2007 and estimated log 
+ <bold>
+  <italic>λ
+   <sub>s</sub>
+  </italic>
+ </bold>, following eqn. 14.72 in 
+ <xref rid="pone.0032323-Caswell2" ref-type="bibr">[33]</xref>:
+ <disp-formula>
+  <graphic xlink:href="pone.0032323.e011.jpg" mimetype="image" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>(5)</label>
+ </disp-formula>where 
+ <italic>λ
+  <sub>1</sub>
+ </italic> represents the first eigenvalue of the matrix 
+ <italic>A</italic> (i.e., the deterministic population growth rate), 
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e012.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> and 
+ <inline-formula>
+  <inline-graphic xlink:href="pone.0032323.e013.jpg" mimetype="image" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> represent the sensitivity of the first eigenvalue to changes in the fitness components 
+ <italic>x
+  <sub>i</sub>
+ </italic>, and 
+ <italic>x
+  <sub>j</sub>
+ </italic>, and 
+ <italic>Cov</italic>(
+ <italic>x
+  <sub>i</sub>, x
+  <sub>j</sub>
+ </italic>) represents the variance-covariance matrix containing the variance and covariance between every pair of fitness components (
+ <italic>x
+  <sub>i</sub>, x
+  <sub>j</sub>
+ </italic>) from 2001 to 2007.
+</p>

@@ -1,0 +1,4 @@
+0: Due to the variable position and the inconsistently round shape of the central cylinder, as well as the edge of the root-slice, the center of the root-slice was manually marked in the original composed root-slice image.
+1: After treating images that way, they were converted into a binary image (black and white) and xy-coordinates of the now black particles were determined by using filters for particle size and particle circularity.
+2: The determination of the xy-coordinates of the centers of the root slices and each point of the edges were done in a similar manner.
+3: Each image was treated with the same adjustments.

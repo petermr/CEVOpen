@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We compiled a national library of potential environmental variables to consider for the distribution modeling. We only considered variables available throughout the contiguous U.S (‘National Predictor Library’ 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>). These variables were compiled based on consideration of what environmental factors may limit plant species’ distributions and we selected environmental variables that captured attributes such as water balance and temperature extremes known to physiologically limit plant distributions [
+ <xref rid="pone.0229253.ref040" ref-type="bibr">40</xref>]. We included the most up-to-date representation of climatic, topographic, soil, land use, and anthropogenic factors that have coverage across the contiguous U.S. at the highest spatial resolution available (Table A in 
+ <xref ref-type="supplementary-material" rid="pone.0229253.s001">S1 File</xref>). The curation of this library of variables was intentional and rigorous, and included custom derived metrics and widely-used canned datasets such as Bioclim [
+ <xref rid="pone.0229253.ref041" ref-type="bibr">41</xref>]. A total of 60 environmental variables were compiled and were considered for model development (Table A in 
+ <xref ref-type="supplementary-material" rid="pone.0229253.s001">S1 File</xref>). All environmental variables were processed to the Alber’s Equal Area coordinate reference system, continental U.S. extent, cell size (90 m) using the nearest neighbor method of resampling and alignment using the 
+ <italic>PARC</italic> (Project, Aggregate, Resample, Clip) module in the Software for Assisted Habitat Modeling (SAHM, [
+ <xref rid="pone.0229253.ref042" ref-type="bibr">42</xref>]) (‘Environmental Variable Preparation’, 
+ <xref ref-type="fig" rid="pone.0229253.g001">Fig 1</xref>).
+</p>

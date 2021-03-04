@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Bioclimatic variables were obtained from the Worldclim database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.worldclim.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.worldclim.org/</ext-link>, public repository online) with a spatial resolution of 30 arc-seconds 
+ <xref rid="pone.0105025-Hijmans1" ref-type="bibr">[38]</xref>. This data set included a total of 19 bioclimatic variables, which summarized information on temperature and precipitation. Since variable co-linearity may lead to over-fitting 
+ <xref rid="pone.0105025-Beaumont2" ref-type="bibr">[39]</xref>, we chose a sub-sample of the bioclimatic variables checked for cross-correlation using the Pearson correlation test; only one variable from highly correlated pairs of variables (r&gt;0.90) was included in the model. This procedure was conducted using ENMtools version 1.3 
+ <xref rid="pone.0105025-Warren1" ref-type="bibr">[37]</xref>.
+</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Reads were demultiplexed using a custom Python script (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/leffj/helper-code-for-uparse" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/leffj/helper-code-for-uparse</ext-link>), with quality filtering and phylotype clustering conducted using UPARSE [
+ <xref rid="pone.0163930.ref028" ref-type="bibr">28</xref>]. For quality filtering, we used a maxee value of 0.5 (that is, a maximum of 0.5 nucleotides incorrectly assigned in every sequence). Singleton sequences were removed prior to phylotype clustering. Quality filtered sequence reads were then mapped to phylotypes at the 97% similarity threshold. Phylotype taxonomy was assigned using the Ribosomal Database Project (RDP) classifier with a confidence threshold of 0.5 [
+ <xref rid="pone.0163930.ref029" ref-type="bibr">29</xref>] trained on the 16S rRNA Greengenes database [
+ <xref rid="pone.0163930.ref030" ref-type="bibr">30</xref>] or the ITS rRNA UNITE database [
+ <xref rid="pone.0163930.ref031" ref-type="bibr">31</xref>], for bacteria and fungi respectively. Sequences representing any phylotypes unclassified at the domain level or classified as mitochondria, chloroplasts, archaea or protists were removed. Subsequently, we removed potential contaminants (i.e. phylotypes with abundances greater than 1% in the blanks and no-template controls [
+ <xref rid="pone.0163930.ref032" ref-type="bibr">32</xref>]), and we normalized the sequence counts using a cumulative-sum scaling approach [
+ <xref rid="pone.0163930.ref033" ref-type="bibr">33</xref>]. We used FUNGuild to identify fungi functional guilds [
+ <xref rid="pone.0163930.ref034" ref-type="bibr">34</xref>]. Soil sample information, phylotype abundance tables, and bacterial and fungal representative sequences are publicly available in FigShare (
+ <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.6084/m9.figshare.3113125" xmlns:xlink="http://www.w3.org/1999/xlink">10.6084/m9.figshare.3113125</ext-link>).
+</p>

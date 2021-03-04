@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This allows us to quantify the probability of failing to detect infection in site 
+ <italic>L</italic> at time 
+ <italic>t</italic> as 
+ <disp-formula id="pbio.3000863.e002">
+  <alternatives>
+   <graphic xlink:href="pbio.3000863.e002.jpg" id="pbio.3000863.e002g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M2">
+    <mi>φ</mi>
+    <mo>(</mo>
+    <mrow>
+     <mi>L</mi>
+     <mo>,</mo>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo>,</mo>
+     <mi>n</mi>
+    </mrow>
+    <mo>)</mo>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>-</mo>
+       <mi>η</mi>
+       <mi>φ</mi>
+       <mo>(</mo>
+       <mrow>
+        <mi>L</mi>
+        <mo>,</mo>
+        <mi>i</mi>
+        <mo>,</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msup>
+    <mo>,</mo>
+   </math>
+  </alternatives>
+ </disp-formula> in which each of the 
+ <italic>n</italic> samples has a fixed probability of correctly identifying a detectable host (
+ <italic>η</italic>).
+</p>

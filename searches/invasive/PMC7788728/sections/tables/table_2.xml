@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Abundance of viruses and housekeeping genes, cytochrome c oxidase subunit I (
+   <italic>cox1</italic>), ribosomal protein L18 (
+   <italic>rpl18</italic>) and translation elongation factor 1 (
+   <italic>eif1-beta</italic>), expressed in percentage of viral reads per total number of reads in each library
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="3">Sample</th>
+    <th align="left" rowspan="3">SRA access #</th>
+    <th align="left" colspan="9">Virus abundance (%)
+     <sup>*</sup>
+    </th>
+    <th align="left" colspan="2">Housekeeping genes (%)</th>
+    <th align="left"/>
+   </tr>
+   <tr>
+    <th align="left" colspan="5">SINV-14</th>
+    <th align="left" rowspan="2">SINV-15</th>
+    <th align="left" rowspan="2">SINV-16</th>
+    <th align="left" rowspan="2">SINV-17</th>
+    <th align="left" rowspan="2">SINaDNV</th>
+    <th align="left" rowspan="2">
+     <italic>cox1</italic>
+    </th>
+    <th align="left" rowspan="2">
+     <italic>rpl18</italic>
+    </th>
+    <th align="left" rowspan="2">
+     <italic>eif1-beta</italic>
+    </th>
+   </tr>
+   <tr>
+    <th align="left">RNA1</th>
+    <th align="left">RNA2</th>
+    <th align="left">RNA3</th>
+    <th align="left">RNA4</th>
+    <th align="left">Total
+     <sup>&amp;</sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">A</td>
+    <td align="left">SRX3035962</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">
+     <underline>0.008</underline>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.516</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.128</underline>
+     </bold>
+    </td>
+    <td align="left">0.002</td>
+    <td align="left">0.3910</td>
+    <td align="left">0.0238</td>
+    <td align="left">0.0163</td>
+   </tr>
+   <tr>
+    <td align="left">B</td>
+    <td align="left">SRX3035961</td>
+    <td align="left">
+     <bold>0.047</bold>
+    </td>
+    <td align="left">0.019</td>
+    <td align="left">
+     <bold>0.042</bold>
+    </td>
+    <td align="left">
+     <bold>0.072</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.180</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <underline>0.013</underline>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.327</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>0.235</bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">0.7102</td>
+    <td align="left">0.0263</td>
+    <td align="left">0.0267</td>
+   </tr>
+   <tr>
+    <td align="left">C</td>
+    <td align="left">SRX3035960</td>
+    <td align="left">
+     <bold>0.046</bold>
+    </td>
+    <td align="left">0.005</td>
+    <td align="left">
+     <bold>0.051</bold>
+    </td>
+    <td align="left">
+     <bold>0.048</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.150</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <underline>0.019</underline>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.120</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.281</underline>
+     </bold>
+    </td>
+    <td align="left">0.002</td>
+    <td align="left">0.4324</td>
+    <td align="left">0.0246</td>
+    <td align="left">0.0305</td>
+   </tr>
+   <tr>
+    <td align="left">X</td>
+    <td align="left">SRX3035959</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">
+     <bold>
+      <underline>0.009</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.2860</td>
+    <td align="left">0.0161</td>
+    <td align="left">0.0080</td>
+   </tr>
+   <tr>
+    <td align="left">Y</td>
+    <td align="left">SRX3035964</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">
+     <bold>
+      <underline>0.023</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.3236</td>
+    <td align="left">0.0153</td>
+    <td align="left">0.0089</td>
+   </tr>
+   <tr>
+    <td align="left">Z</td>
+    <td align="left">SRX3035963</td>
+    <td align="left">
+     <bold>0.374</bold>
+    </td>
+    <td align="left">
+     <bold>0.032</bold>
+    </td>
+    <td align="left">
+     <bold>0.131</bold>
+    </td>
+    <td align="left">
+     <bold>0.089</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.626</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.039</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.2687</td>
+    <td align="left">0.0135</td>
+    <td align="left">0.0090</td>
+   </tr>
+   <tr>
+    <td align="left">Q2</td>
+    <td align="left">DRX037806</td>
+    <td align="left">
+     <bold>1.469</bold>
+    </td>
+    <td align="left">
+     <bold>0.055</bold>
+    </td>
+    <td align="left">
+     <bold>0.240</bold>
+    </td>
+    <td align="left">
+     <bold>0.944</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>2.708</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>0.211</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">1.0036</td>
+    <td align="left">0.0530</td>
+    <td align="left">0.0469</td>
+   </tr>
+   <tr>
+    <td align="left">W2</td>
+    <td align="left">DRX037809</td>
+    <td align="left">
+     <bold>1.679</bold>
+    </td>
+    <td align="left">0.006</td>
+    <td align="left">
+     <bold>0.088</bold>
+    </td>
+    <td align="left">
+     <bold>0.601</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>2.374</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>0.020</bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">2.1720</td>
+    <td align="left">0.0342</td>
+    <td align="left">0.0113</td>
+   </tr>
+   <tr>
+    <td align="left">W3</td>
+    <td align="left">DRX037810</td>
+    <td align="left">
+     <bold>1.658</bold>
+    </td>
+    <td align="left">0.006</td>
+    <td align="left">
+     <bold>0.089</bold>
+    </td>
+    <td align="left">
+     <bold>0.619</bold>
+    </td>
+    <td align="left">
+     <bold>
+      <underline>2.372</underline>
+     </bold>
+    </td>
+    <td align="left">
+     <bold>0.020</bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">1.6576</td>
+    <td align="left">0.0351</td>
+    <td align="left">0.0117</td>
+   </tr>
+   <tr>
+    <td align="left">Y05</td>
+    <td align="left">SRX5464977</td>
+    <td align="left">
+     <bold>6.803</bold>
+    </td>
+    <td align="left">
+     <bold>0.941</bold>
+    </td>
+    <td align="left">
+     <bold>0.650</bold>
+    </td>
+    <td align="left">0.001</td>
+    <td align="left">
+     <bold>
+      <underline>8.394</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.4903</td>
+    <td align="left">0.0119</td>
+    <td align="left">0.0048</td>
+   </tr>
+   <tr>
+    <td align="left">K05</td>
+    <td align="left">SRX5464984</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.4957</td>
+    <td align="left">0.0141</td>
+    <td align="left">0.0046</td>
+   </tr>
+   <tr>
+    <td align="left">CA01</td>
+    <td align="left">SRX5464990</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.4639</td>
+    <td align="left">0.0158</td>
+    <td align="left">0.0064</td>
+   </tr>
+   <tr>
+    <td align="left">2-Small</td>
+    <td align="left">SRX5822389</td>
+    <td align="left">
+     <bold>0.084</bold>
+    </td>
+    <td align="left">0.009</td>
+    <td align="left">0.017</td>
+    <td align="left">0.019</td>
+    <td align="left">
+     <bold>
+      <underline>0.130</underline>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">0.9619</td>
+    <td align="left">0.0712</td>
+    <td align="left">0.0340</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>*</sup>Viruses with abundance equal or higher than those shown by at least one of the housekeeping genes are highlighted in bold and those with complete or nearly-complete genomes are underlined
+  </p>
+  <p>
+   <sup>&amp;</sup>Total: means all segments together
+  </p>
+ </table-wrap-foot>
+</table-wrap>

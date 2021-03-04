@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All statistical analyses were run in the R environment (R Core Team, 
+ <xref rid="ece36811-bib-0029" ref-type="ref">2018</xref>). We separately analyzed the data collected from the Michigan sites and Ohio sites because the sampling design differed between regions. We employed a multi‐stage approach in both regions to address whether the rhizosphere community of native and non‐native 
+ <italic>Phragmites</italic> harbored compositionally dissimilar bacteria, fungi, and oomycete communities. Permutational multivariate analysis of variance (PERMANOVA using the 
+ <italic>adonis</italic> function in the vegan package; Oksanen et al., 
+ <xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) tested whether plant lineage or site predicted significant microbial community differences among our samples. Homogeneity of Dispersions (PERMDISP using the 
+ <italic>betadisper</italic> function in the vegan package; Oksanen et al., 
+ <xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) further assessed whether microbial community samples differed in their degree of dispersion from their centroid. Finally, we used distance‐based redundancy analysis (db‐RDA using the 
+ <italic>capscale</italic> function in the vegan package; Oksanen et al., 
+ <xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>) to constrain ordinations of Bray–Curtis distances by significant environmental drivers. Environmental drivers included in the model were determined by backward selection (using the 
+ <italic>ordistep</italic> function in the vegan package; Oksanen et al., 
+ <xref rid="ece36811-bib-0026" ref-type="ref">2019</xref>). To assess whether communities differed between rhizosphere and bulk soils at a given sampling location, we performed a partial db‐RDA of soil fraction effect on composition with sample as a conditioning variable. In addition, we explored microbial alpha diversity and relative sequence abundance at various taxonomic levels using only the rhizosphere data and differences with respect to site and plant lineage were assessed using two‐way ANOVA (Type III sum of squares using the 
+ <italic>ANOVA</italic> function in the car package; Fox &amp; Weisberg, 
+ <xref rid="ece36811-bib-0013" ref-type="ref">2019</xref>). To further understand if either lineage showed evidence of microbial cultivation at increasing proximity to the root surface, we used paired 
+ <italic>t</italic> tests to explore differences in diversity between paired rhizosphere, rhizoplane (in Ohio sites only), and bulk soil samples. To understand the potential environmental drivers of site differences, we assessed the impact of soil nutrients and saturation on microbial diversity, including potential interactions with lineage using Analysis of Co‐Variance (ANCOVA using the 
+ <italic>lm</italic> and 
+ <italic>ANOVA</italic> functions).
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the sequence obtained by sequencing, we completed data filtering by removing low-quality bases, Ns (the number of Reads with N ratio greater than 5%), and linker-contaminated sequences, and obtained credible target sequences for subsequent analysis. For the filtered sequence, we spliced the corresponding sequence fragments of paired-end sequencing using the sequence splicing method PEAR [
+ <xref rid="B40-microorganisms-09-00138" ref-type="bibr">40</xref>] firstly, and then we removed the quality filtering of the original label according to the QIIME v. 1.8.0 quality control process for the spliced sequence [
+ <xref rid="B41-microorganisms-09-00138" ref-type="bibr">41</xref>,
+ <xref rid="B42-microorganisms-09-00138" ref-type="bibr">42</xref>,
+ <xref rid="B43-microorganisms-09-00138" ref-type="bibr">43</xref>]. After chimera removal, sequences were assigned to operational taxonomic units (OTUs) with 97% pairwise identity as the threshold. The RDP Classifier (V2.2) was used to select the most abundant sequence from each OTU as a representative sequence, and then the uclust method was used to compare the representative sequence to the sliva rRNA database (release_132) and the UNITE database (V8.2) to classify the bacterial and fungal OTU into species [
+ <xref rid="B44-microorganisms-09-00138" ref-type="bibr">44</xref>]. The above high-throughput sequencing work was carried out by a professional biotechnology company, Annoroad Gene Technology Co., Ltd. Beijing, China. The barcode information corresponding to samples’ information was reported in 
+ <xref ref-type="app" rid="app1-microorganisms-09-00138">Supplementary Table S10</xref>. Raw sequences were deposited at the Sequence Read Archive (SRA) of the National Center for Biotechnology Information (NCBI) under project accession number PRJNA689656.
+</p>

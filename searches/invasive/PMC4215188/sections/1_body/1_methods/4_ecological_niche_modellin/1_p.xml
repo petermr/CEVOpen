@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Nineteen climatic variables with spatial resolutions of 1 km
+ <sup>2</sup> were downloaded from Worldclim dataset (
+ <uri xlink:type="simple" xlink:href="www.worldclim.org" xmlns:xlink="http://www.w3.org/1999/xlink">www.worldclim.org</uri>) (
+ <xref rid="PLU052C19" ref-type="bibr">Hijmans 
+  <italic>et al.</italic> 2005
+ </xref>). To avoid redundancy and over-prediction, correlations among the 19 bioclimatic variables for 1200 random points from the study area were calculated to exclude the highly correlated ones (
+ <italic>r</italic> &gt; 0.7). In addition, five more variables (altitude, land cover, soil type, soil moisture, and solar radiation) were added to the modelling study based on the published literature (
+ <xref rid="PLU052C58" ref-type="bibr">Taylor and Kumar 2012</xref>, 
+ <xref rid="PLU052C59" ref-type="bibr">2013</xref>) (details of the data sources and correlation table are provided in 
+ <ext-link ext-link-type="uri" xlink:href="http://aobpla.oxfordjournals.org/lookup/suppl/doi:10.1093/aobpla/plu052/-/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <bold>Supporting Information</bold>
+ </ext-link>). The layers, e.g. altitude, soil type, soil moisture, and solar radiation, were resized as per the study area and were resampled to 1 km
+ <sup>2</sup> to maintain uniformity among the raster layers.
+</p>

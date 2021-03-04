@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After evaluating the resulting variables for collinearity (
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table S1</xref>), we performed stepwise regressions to reduce the number of predictor variables within each variable set to be used in each separate variation partitioning analysis (
+ <xref rid="B35" ref-type="bibr">Grman et al., 2013</xref>). For plant community data, we used the function OrdiR2step to run significance tests on each separate variable set, retaining predictors with 
+ <italic>P</italic> &lt; 0.1, and used adjusted 
+ <italic>R</italic>
+ <sup>2</sup> as a selection criteria to avoid overfitting (
+ <xref rid="B6" ref-type="bibr">Blanchet et al., 2008</xref>). For univariate response variables, we used the MASS package (
+ <xref rid="B112" ref-type="bibr">Venables and Ripley, 2002</xref>) to reduce variables in each variable set, using AIC to compare among models. If the stepwise procedure resulted in no selected variables, we manually selected the variable with the smallest increase in AIC, or adjusted 
+ <italic>R</italic>
+ <sup>2</sup>, to ensure each variable set had at least one predictor variable to perform variation partitioning. To evaluate the significance of the variables included in the final models, we used permutation tests for marginal significance (RDA for plant community composition) and marginal sums of squares (multiple regression for univariate responses).
+</p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our results suggest that this methodology provides a framework to balance efficient automation with species-specific model tuning to produce invasive species habitat suitability models useful for different management contexts and at multiple geographic extents. These models provide an entry point for an iterative modeling workflow. The methodology is built on readily available occurrence information and environmental variables covering the contiguous U.S. to provide efficiencies in developing large numbers of species-specific models. Using these inputs with the methodology provides a consistent modeling approach for multiple species that can be reviewed and compared. Similar frameworks for invasive species have been suggested however they are often conceptual, have limited human input or suggest the development of multiple models across spatial scales [
+ <xref rid="pone.0229253.ref024" ref-type="bibr">24</xref>,
+ <xref rid="pone.0229253.ref058" ref-type="bibr">58</xref>–
+ <xref rid="pone.0229253.ref061" ref-type="bibr">61</xref>]. Sofaer et al. [
+ <xref rid="pone.0229253.ref012" ref-type="bibr">12</xref>] identified the development of credible and repeatable models as an important issue limiting the use of species distribution models, and this framework provides a credible process as illustrated in the evaluation table (
+ <xref rid="pone.0229253.t004" ref-type="table">Table 4</xref>) and outputs such as response curves for expert review that are easily repeatable (Table B and Figure A in 
+ <xref ref-type="supplementary-material" rid="pone.0229253.s001">S1 File</xref>). This framework also supports iterative modeling, as input from users on environmental variables or new data can be readily incorporated to produce new model versions [
+ <xref rid="pone.0229253.ref012" ref-type="bibr">12</xref>,
+ <xref rid="pone.0229253.ref059" ref-type="bibr">59</xref>]. In addition, data quality is the fundamental driver of model quality which is why we gathered presence information from multiple sources and subjected them to rigorous, but generally automated, filtering [
+ <xref rid="pone.0229253.ref062" ref-type="bibr">62</xref>,
+ <xref rid="pone.0229253.ref063" ref-type="bibr">63</xref>]. As model outputs are shared with local practitioners, additional presence locations may become available for use in subsequent iterations. We considered alternative assumptions about the available environment related to invader spread (weighting points farther from others more [KDE] or basing weights solely on density of sampling [target]), corresponding to different sets of background locations [
+ <xref rid="pone.0229253.ref036" ref-type="bibr">36</xref>,
+ <xref rid="pone.0229253.ref038" ref-type="bibr">38</xref>]. Further, we used human input to evaluate the natural history of the species and select species-specific covariates, but for efficiency and scalability, we limited the selection to a set of variables designed to encompass and represent factors that limit plant distributions in different regions of the country.
+</p>

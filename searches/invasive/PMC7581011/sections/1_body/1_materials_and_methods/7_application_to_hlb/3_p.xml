@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When parametrising the detection process, we considered a ‘baseline’ scenario in which detection was through visual inspection (as is standard for most plant pathogens [
+ <xref rid="pbio.3000863.ref042" ref-type="bibr">42</xref>]) of 50 trees in 20 sites annually (that is, 1,000 trees in total per year), as shown in 
+ <xref rid="pbio.3000863.t001" ref-type="table">Table 1</xref>. The optimisation algorithm itself was parametrised by applying this baseline detection model to a simulation model parametrised using the values in 
+ <xref rid="pbio.3000863.t001" ref-type="table">Table 1</xref> with a low pathogen entry rate, distributed according to the travel census model. We then varied the initial temperature and the cooling parameters of the algorithm and ran the optimisation for 100,000 iterations and inspected the trace of the detection probability. We found little impact of varying these parameters on the objective function of the optimised solution, although the trace plots differed (see 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s008">S7 Fig</xref>). The optimisation algorithm parameters used are shown in 
+ <xref rid="pbio.3000863.t001" ref-type="table">Table 1</xref>.
+</p>

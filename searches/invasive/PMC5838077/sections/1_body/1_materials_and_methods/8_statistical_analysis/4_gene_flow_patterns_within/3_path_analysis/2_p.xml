@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Path analyses were performed using 
+ <italic>lavaan</italic> package (Rosseel, 
+ <xref rid="ece33869-bib-0081" ref-type="ref">2012</xref>) in R. Model fit was evaluated by χ
+ <sup>2</sup> test, the root mean squared error of approximation (RMSEA), standardized root mean square residual (SRMR), and the comparative fit index (CFI). Nonstatistical significance (
+ <italic>p</italic> &gt; .05) of the χ
+ <sup>2</sup> test indicates that the model significantly simulated the data. Values of RMSEA smaller than 0.05 indicate a very good model fit (Finch &amp; Frenc, 
+ <xref rid="ece33869-bib-0026" ref-type="ref">2015</xref>). The 90% confidence interval (CI) of RMSEA assesses the precision of the RMSEA estimate, and the lower boundary (left side) of the CI shall be, or be very close to, zero and the upper boundary (right side) be &lt;0.08 for a close fit (Schermelleh‐Engel, Moosbrugger, &amp; Müller, 
+ <xref rid="ece33869-bib-0089" ref-type="ref">2003</xref>). SRMR ranges from zero to one, and values lower than 0.8 are considered well‐fitting models (Hu &amp; Bentler, 
+ <xref rid="ece33869-bib-0040" ref-type="ref">1999</xref>). A CFI value higher than 0.90 indicates a very good model fit (Finch &amp; Frenc, 
+ <xref rid="ece33869-bib-0026" ref-type="ref">2015</xref>). If none of the significance criteria was reached, we ran a saturated model first. A saturated model, that is, one in which all variables are correlated with each other, has the best possible fit as it perfectly reproduces variances, covariances, and means. The saturated model was used as a standard for comparison with other estimated models via AIC values. Modification indices (MI) were used in our study to detect potential paths that can be added to the model to improve the goodness of the model fit. We set the bootstrap value to 1,000 to calculate the CIs for parameter coefficients in each model. To compare the relative contribution of each distance and improve normality, the four distances (genetic, geographic, environmental, and human activities) were log‐transformed prior to analysis.
+</p>

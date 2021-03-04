@@ -1,0 +1,7 @@
+0: A common scaling procedure [ 37] normalized the OTU count in a given library with a factor corresponding to the ratio of the smallest library size in the dataset to the library size of the OTU in question.
+1: This replaces rarefying (i.e.
+2: random sub-sampling to the lowest number of reads) as it effectively results in the library scaling one would achieve by averaging an infinite number of repeated sub-samplings.
+3: We then excluded all OTUs present in only one sample from the dataset.
+4: Next, rarefaction curves were calculated on the observed number of reads to confirm a sufficient sequencing effort using an R script from the Phyloseq repository website [ 38].
+5: Finally, alpha diversity measures and ordination distances for non-metric multidimensional scaling (NMDS) plots were calculated in Phyloseq.
+6: Distances were calculated based on OTUs with more than 10 reads (> 99% of total number of reads).

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the absence of control, the E to I and C/D to I transitions occur at fixed rates γ and σ, and so waiting times in these compartments are exponentially distributed, with means 1/γ and 1/σ, respectively (see 
+ <xref rid="pcbi.1004211.t001" ref-type="table">Table 1</xref>). This assumption could of course readily be relaxed to allow for other distributions of waiting times [
+ <xref rid="pcbi.1004211.ref031" ref-type="bibr">31</xref>]. In the SECIR and SEDIR variants of the model, the rate of disease-induced death is μ, again with an exponentially distributed transition time (mean 1/μ). For any given host plant, the rate of the S to E (susceptible to exposed) transition depends on the status of other hosts and the suitability of the environment for infection. In particular, if host 
+ <italic>i</italic> is susceptible at time 
+ <italic>t</italic> then it becomes latently infected (i.e. transitions to the E compartment) at rate 
+ <disp-formula id="pcbi.1004211.e001">
+  <alternatives>
+   <graphic xlink:href="pcbi.1004211.e001.jpg" id="pcbi.1004211.e001g" position="anchor" mimetype="image" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1">
+    <mrow>
+     <msub>
+      <mo mathvariant="normal">ϕ</mo>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>ω</mi>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>ε</mi>
+       <mo>+</mo>
+       <mi>β</mi>
+       <mstyle displaystyle="true">
+        <munder>
+         <mo>∑</mo>
+         <mi>j</mi>
+        </munder>
+        <mrow>
+         <mi>K</mi>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>d</mi>
+          <mrow>
+           <mi>j</mi>
+           <mi>i</mi>
+          </mrow>
+         </msub>
+         <mo>;</mo>
+         <mi>α</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(1)</label>
+ </disp-formula> where the summation runs over all infectious hosts, 
+ <italic>j</italic>, and where host 
+ <italic>j</italic> is at distance 
+ <italic>d</italic>
+ <sub>
+  <italic>ji</italic>
+ </sub> from host 
+ <italic>i</italic>. The underlying maximal rates of primary and secondary infection are ε and β, respectively, and 
+ <italic>ω</italic>(
+ <italic>t</italic>)≤1 parameterises any time-variation in environmental suitability for infection (see below).
+</p>

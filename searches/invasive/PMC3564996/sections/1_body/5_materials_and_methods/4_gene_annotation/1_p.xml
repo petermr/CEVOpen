@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene Ontology (GO) classifications for our pseudo-reference sequences and individual transcriptome assemblies were obtained through BLASTx searches against the 
+ <italic>Arabidopsis thaliana</italic> protein database from The Arabidopsis Information Resource (release TAIR10_pep_20101214; 
+ <ext-link ext-link-type="uri" xlink:href="http://www.arabidopsis.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.arabidopsis.org/</ext-link>), using an e-value cut off 1*10
+ <sup>−10</sup>. To evaluate the impact of sequencing effort on the gene content of assemblies, we compared the representation of GO categories across libraries using a Chi-squared Contingency test in R (
+ <xref rid="bib55" ref-type="bibr">R Development Core Team 2010</xref>).
+</p>

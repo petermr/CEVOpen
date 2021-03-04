@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We utilized FastQC [
+ <xref rid="B66-plants-09-01665" ref-type="bibr">66</xref>] for quality control. To obtain clean reads, for each case below, the entire raw reads were discarded through in-house Perl scripts: (1) the reads containing adapters; (2) the reads with an N ratio higher than 10%; (3) &gt;20% of the entire paired-end reads composed by low-quality base (Phred quality score &lt;5). The clean reads were used for contigs assembling by SOAPdenovo v2.2.7 [
+ <xref rid="B67-plants-09-01665" ref-type="bibr">67</xref>]. Briefly, the clean reads were used to construct a de Bruijn graph with an optimal 
+ <italic>k</italic>-mer size of 41. The contigs were then obtained by breaking the connections at low-frequency 
+ <italic>k</italic>-mer, repeat boundaries, and unambiguous sequence fragments of the 
+ <italic>de Bruijn</italic> graph. The correlation between GC content and average per-base sequencing depth of the &gt;500 bp contigs was plotted using a customized R script.
+</p>

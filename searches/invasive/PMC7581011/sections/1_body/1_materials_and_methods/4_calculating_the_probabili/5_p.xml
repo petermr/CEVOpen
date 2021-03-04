@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In simulation 
+ <italic>i</italic>, the probability of detecting infection given a particular spatial arrangement (Ω), timing (Δ
+ <italic>t</italic>), and local intensity of sampling (
+ <italic>n</italic>) is the complement of this probability, 
+ <disp-formula id="pbio.3000863.e005">
+  <alternatives>
+   <graphic xlink:href="pbio.3000863.e005.jpg" id="pbio.3000863.e005g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M5">
+    <mi>p</mi>
+    <mo>(</mo>
+    <mrow>
+     <mi mathvariant="normal">Ω</mi>
+     <mo>,</mo>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>n</mi>
+     <mo>,</mo>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>-</mo>
+    <mi>φ</mi>
+    <mo>(</mo>
+    <mrow>
+     <mi mathvariant="normal">Ω</mi>
+     <mo>,</mo>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>n</mi>
+     <mo>,</mo>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+    <mo>)</mo>
+    <mo>.</mo>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

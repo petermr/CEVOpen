@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <title>Sequencing effort and assembly information for 
+   <italic>C. solstitialis</italic> normalized Roche 454 transcriptome libraries
+  </title>
+ </caption>
+ <table frame="above" rules="groups">
+  <col width="26.93%" span="1"/>
+  <col width="6.64%" span="1"/>
+  <col width="6.58%" span="1"/>
+  <col width="6.61%" span="1"/>
+  <col width="6.73%" span="1"/>
+  <col width="6.65%" span="1"/>
+  <col width="7.18%" span="1"/>
+  <col width="6.1%" span="1"/>
+  <col width="6.64%" span="1"/>
+  <col width="6.65%" span="1"/>
+  <col width="6.64%" span="1"/>
+  <col width="6.65%" span="1"/>
+  <thead>
+   <tr>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1"/>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1"/>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1"/>
+    <th colspan="3" valign="top" scope="colgroup" rowspan="1"/>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Raw</th>
+    <th colspan="3" valign="top" align="center" scope="colgroup" rowspan="1">Cleaned
+     <hr/>
+    </th>
+    <th colspan="5" valign="top" align="center" scope="colgroup" rowspan="1">Assembled
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Sample
+     <sup>Tissue</sup> [Latitude, Longitude]
+    </th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Platform</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Plates</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Mb</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Mb</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Read No.</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Median bp</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Mb</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Unigene No.</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Median bp</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">Contig No.</th>
+    <th valign="top" align="center" scope="col" rowspan="1" colspan="1">UCO No.</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" scope="col" rowspan="1" colspan="1">North America (introduced)</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-1-1
+     <sup>S</sup> [N 41° 59’, W 122° 36’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">17.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">13.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">69939</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">211</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9783</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">242</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8769</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">10</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-1-2
+     <sup>S</sup> [N 41° 59’, W 122° 36’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">25.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">19.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">101468</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">213</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">3.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">12810</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">242</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11237</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">18</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-2-2
+     <sup>S</sup> [N 40° 25’, W 122° 16’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">20.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">15.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">82739</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">216</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">10596</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">255</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9236</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">25</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-2-4
+     <sup>S</sup> [N 40° 25’, W 122° 16’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">19.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">14.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">78770</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">210</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9853</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">238</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8551</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">14</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-3-1
+     <sup>S</sup> [N 39° 12’, W 121° 06’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">58.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">45.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">229635</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">224</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">23671</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">268</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">19905</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">77</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-3-2
+     <sup>S</sup> [N 39° 12’, W 121° 06’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">58.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">39.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">212773</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">219</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">5.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">21578</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">254</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">18377</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-4-1
+     <sup>S</sup> [N 38° 31’, W 121° 45’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">80.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">66.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">321955</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">226</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">10.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32206</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">270</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">27121</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">109</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-4-3
+     <sup>S</sup> [N 38° 31’, W 121° 45’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">20.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">13.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">72154</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">214</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9524</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">238</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8655</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-4-4
+     <sup>S</sup> [N 38° 31’, W 121° 45’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.75</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">206.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">193.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">579859</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">366</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">24.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">42042</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">537</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32786</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">252</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-5-3
+     <sup>S</sup> [N 38° 16’, W 121° 49’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">80.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">65.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">325569</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">223</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32743</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">266</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">27222</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">111</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> CA-5-4
+     <sup>S</sup> [N 38° 16’, W 121° 49’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">21.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">14.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">79481</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">215</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9172</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">249</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8112</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">13</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="col" rowspan="1" colspan="1">South America (introduced)</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-1-24
+     <sup>L</sup> [S 36° 26’, W 64° 17’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">234.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">225.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">542881</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">462</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">33.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">46538</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">632</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">38346</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">299</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-1-25C
+     <sup>L</sup> [S 36° 26’, W 64° 17’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.56</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">153.7</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">132</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">369437</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">412</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">21.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">39579</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">532</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">29944</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">177</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-6-13
+     <sup>L</sup> [S 37° 39’, W 64° 08’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">256.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">247.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">596060</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">473</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">38572</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">630</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">31082</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">287</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-6-26
+     <sup>L</sup> [S 37° 39’, W 64° 08’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">181.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">169.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">485202</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">390</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">17.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">30641</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">537</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">23376</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">185</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-8-15
+     <sup>L</sup> [S 38° 11’, W 64° 04’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">166.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">154.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">443044</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">391</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">20.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">35628</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">549</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">26419</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">230</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-8-19
+     <sup>L</sup> [S 38° 11’, W 64° 04’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">259.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">249.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">600878</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">458</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">37199</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">673</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">30305</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">303</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-13-24
+     <sup>L</sup> [S 36° 18’, W 65° 40’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">274.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">264.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">622982</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">491</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">37408</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">679</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">29348</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">311</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> AR-13-28
+     <sup>L</sup> [S 36° 18’, W 65° 40’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.63</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">183.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">171.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">488746</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">405</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">21.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">38160</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">540</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28579</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">206</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="col" rowspan="1" colspan="1">Western Europe (putative ancient expansion)</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> SP-1-5
+     <sup>L</sup> [N 39° 50’, W 2° 30’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">152.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">135.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">393803</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">398</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">19.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">38699</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">519</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">27841</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">172</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> SP-1-10
+     <sup>L</sup> [N 39° 50’, W 2° 30’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">269.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">258.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">604697</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">483</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">29.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">43236</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">637</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32884</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">292</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> SP-2-2
+     <sup>L</sup> [N 41° 45’, W 4° 5′]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.63</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">181.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">162.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">522160</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">341</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">22.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">46071</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">474</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">34707</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">184</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> SP-2-6
+     <sup>L</sup> [N 41° 45’, W 4° 5′]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">332.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">315.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">815538</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">459</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">41.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">62444</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">583</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">48230</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">311</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="col" rowspan="1" colspan="1">Eastern Europe (native)</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-1-1
+     <sup>S</sup> [N 41° 56’, E 45° 27’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">19.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">12.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">71584</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">209</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8901</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">233</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7823</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-2-1
+     <sup>S</sup> [N 41° 56’, E 45° 35’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">18.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">12.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">73656</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">210</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8921</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">233</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7659</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-3-4
+     <sup>S</sup> [N 41° 44’, E 45° 12’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">42595</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">212</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">5257</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">240</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4704</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">3</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-4-3
+     <sup>S</sup> [N 41° 43’, E 45° 16’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">13.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">43567</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">215</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">5299</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">240</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4811</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-5-4
+     <sup>S</sup> [N 41° 38’, E 45° 38’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">12.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">48417</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">214</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">6073</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">243</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">5407</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> GA-5-24
+     <sup>L</sup> [N 41° 38’, E 45° 38’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.63</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">153.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">126.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">367110</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">390</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">17.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">33086</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">522</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">25382</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">165</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> HU-1-8
+     <sup>L</sup> [N 46° 58’, E 18° 41’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">185.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">172.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">465081</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">421</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">22.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">39661</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">559</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">28967</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">213</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> HU-2-10
+     <sup>L</sup> [N 47° 19’, E 21° 02’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">297.9</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">286.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">661490</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">489</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">40448</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">699</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32643</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">311</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> RO-1-6
+     <sup>L</sup> [N 47° 42’, E 26° 2’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.75</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">189.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">170.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">518480</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">376</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">22.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">43834</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">510</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32820</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">182</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> RO-5-10
+     <sup>L</sup> [N 46° 15’, E 27° 39’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">292.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">279.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">663787</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">479</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">33.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">52108</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">602</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">39456</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">293</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-1-3
+     <sup>S</sup> [N 39° 45’, E 29° 06’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">24.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">17.3</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">89230</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">229</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">3.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11053</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">268</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">9841</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">26</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-1-5
+     <sup>L</sup> [N 39° 45’, E 29° 06’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.63</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">159.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">145.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">494855</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">327</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">20.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">41229</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">462</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">30361</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">207</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-2-3
+     <sup>S</sup> [N 37° 02’, E 29° 47’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">17.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">10.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">63668</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">201</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">8085</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">223</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7106</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-2-4
+     <sup>S</sup> [N 37° 02’, E 29° 47’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">15.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">10.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">59734</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">204</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">7087</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">225</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">6191</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">6</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-3-2
+     <sup>S</sup> [N 37° 50’, E 27° 51’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">11.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">6.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">38205</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">198</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1.0</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4873</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">210</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">4373</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-5-4
+     <sup>S</sup> [N 37° 01’, E 30° 22’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti/FLX</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">2.25</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">430.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">389.4</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">1258319</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">352</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">35.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">71045</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">418</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">48608</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">278</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1"> TK-5-9
+     <sup>L</sup> [N 37° 01’, E 30° 22’]
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">Ti</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">0.5</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">252.1</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">241.7</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">554227</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">481</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">29.8</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">40147</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">671</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">32773</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">283</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1">Pseudo-reference</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">39.6</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">43717</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">811</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">260</td>
+   </tr>
+   <tr>
+    <td valign="top" scope="row" rowspan="1" colspan="1">Pseudo-reference filtered for polymorphic single loci</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">21.2</td>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">22687</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">840</td>
+    <td valign="top" rowspan="1" colspan="1"/>
+    <td valign="top" align="char" char="." rowspan="1" colspan="1">154</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>Tissues included are whole seedlings (S) or leaves (L). FLX, 454 Life Science Genome Sequencer FLX; Ti, FLX-Titanium.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We analyzed small RNA (sRNA) size profiles of libraries constructed from 
+ <italic>M. oryzae</italic> mycelial tissue, and from susceptible rice leaves infected with 
+ <italic>M. oryzae</italic> at two time-points. For the former, 
+ <italic>M. oryzae</italic> was subjected to the 
+ <italic>in vitro</italic> stresses of nitrogen starvation (NS), carbon starvation (CS), minimal media (MM), and oxidative-inducing conditions via paraquat (PQ). Mycelia were also grown on a rich, complete media (CM) for comparative purposes. Growth conditions for these 
+ <italic>in vitro</italic> stresses mimicked those of Mathioni et al. [
+ <xref ref-type="bibr" rid="B29">29</xref>], and hereafter will be referred to as the “mycelial” libraries. In order to compare the 
+ <italic>in vitro</italic> stress sRNA profiles to small RNAs generated during 
+ <italic>in planta</italic> growth, we also isolated fungal-induced rice lesions at 72 and 96 hpi. These will be hereafter referred to as the “
+ <italic>in planta</italic>” libraries. Small RNA libraries were generated and quality checked before performing deep sequencing using Illumina’s Genome Analyzer II (GA
+ <sub>II</sub>) system. This resulted in 58,511,280 and 28,941,539 sequences from the mycelial and 
+ <italic>in planta</italic> libraries, respectively (Table 
+ <xref ref-type="table" rid="T1">1</xref>). The sequences were aligned to the 
+ <italic>M. oryzae</italic> genome assembly version 6, downloaded from the Broad Institute (
+ <ext-link ext-link-type="uri" xlink:href="http://www.broadinstitute.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.broadinstitute.org/</ext-link>). Total genome-matched reads (mapping to one or more sites in the 
+ <italic>M. oryzae</italic> genome) and distinct genome-matched reads were calculated. There were 34,652,258 and 2,414,112 total genome-matched reads, and 927,501 and 54,394 distinct genome-matched reads for mycelial and 
+ <italic>in planta</italic> libraries, respectively, (Table 
+ <xref ref-type="table" rid="T1">1</xref>). For the 
+ <italic>in planta</italic> libraries, 
+ <italic>M. oryzae</italic> sequences were parsed out from rice sequences by alignment to the fungal genome. An informatics workflow describing this process is presented in Additional file 
+ <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S1, along with an example of the output from the pipeline as applied to a mycelial library.
+</p>

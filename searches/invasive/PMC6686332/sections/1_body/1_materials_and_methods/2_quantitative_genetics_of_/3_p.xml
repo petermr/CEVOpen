@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Microsatellite data were used to determine Nei's genetic distance between each population, as well as the overall degree of population differentiation using 
+ <italic>F</italic>
+ <sub>ST</sub>. Nei's genetic distance was calculated with the 
+ <sc>adegenet</sc> package and 
+ <italic>F</italic>
+ <sub>ST</sub> with the 
+ <sc>hierfstat</sc> (Goudet 
+ <xref rid="fec12685-bib-0014" ref-type="ref">2014</xref>) package in R. We used Mantel tests to determine whether the differences in either λ
+ <sub>S</sub> or mean sinigrin concentration among populations correlated with neutral genetic distance or geographic distance. We used partial Mantel tests to determine whether the relationship between sinigrin concentration and stochastic λ remained significant when controlling for either neutral genetic or geographic distance between the populations. Finally, we computed an overall 
+ <italic>F</italic>
+ <sub>ST</sub> value across the 10 populations and 8 loci, and calculated 95% confidence intervals by bootstrapping across loci using the 
+ <sc>boot</sc> (Canty &amp; Ripley, 
+ <xref rid="fec12685-bib-0650" ref-type="ref">2015</xref>) package in R.
+</p>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pcbi.1004211.g002" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pcbi.1004211.g002</object-id>
+ <label>Fig 2</label>
+ <caption>
+  <title>Optimal control when there is uncertainty.</title>
+  <p>(a) Epidemic impact κ
+   <sub>
+    <italic>E</italic>
+   </sub> (total number of hosts lost to disease or control) as a function of the cull radius, 
+   <italic>L</italic>. The optimum value of 
+   <italic>L</italic> depends on the percentile of the distribution of κ
+   <sub>
+    <italic>E</italic>
+   </sub> that is being optimised (e.g. the optimum 
+   <italic>L</italic> would be 159m if the objective were to minimise median κ
+   <sub>
+    <italic>E</italic>
+   </sub>, whereas it would be 194m if minimising κ
+   <sub>
+    <italic>E</italic>
+   </sub> on the 95
+   <sup>th</sup> percentile). The shape of the distribution of κ
+   <sub>
+    <italic>E</italic>
+   </sub> varies with 
+   <italic>L</italic> (insets A to F; distributions renormalized to the same height by scaling all distributions relative to the largest value in each). (b) Risk of failure. Given a notion of “acceptable risk” (i.e. a value of Ω, the threshold κ
+   <sub>
+    <italic>E</italic>
+   </sub> as a percentage of the total population), the probability of failing to achieve κ
+   <sub>
+    <italic>E</italic>
+   </sub> &lt; Ω is shown. Dotted line marks radii with &lt; 10% risk of failure for Ω = 20% (range 122m &lt; 
+   <italic>L</italic> &lt; 329m). (c) Effect of the initial level of infection, E
+   <sub>0</sub>, on the response of median κ
+   <sub>
+    <italic>E</italic>
+   </sub> to 
+   <italic>L</italic> (dots show minimum median κ
+   <sub>
+    <italic>E</italic>
+   </sub> for each E
+   <sub>0</sub>). (d) and (e) Effect of the scale of dispersal (
+   <italic>α</italic>) and rate of infection (
+   <italic>β</italic>) on the optimal 
+   <italic>L</italic> (shown in d) and median κ
+   <sub>
+    <italic>E</italic>
+   </sub> at optimal 
+   <italic>L</italic> to optimise median κ
+   <sub>
+    <italic>E</italic>
+   </sub> (shown in e). The white dots on (d) and (e) indicate the default values of 
+   <italic>α</italic> and 
+   <italic>β</italic>; the white squares show the values of 
+   <italic>α</italic> and 
+   <italic>β</italic> fitted by Cook 
+   <italic>et al</italic>. [
+   <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>] (and used in the studies of Parnell 
+   <italic>et al</italic>. [
+   <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+   <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>]) 
+   <italic>cf</italic>. 
+   <xref rid="pcbi.1004211.s003" ref-type="supplementary-material">S3 Text</xref>.
+  </p>
+ </caption>
+ <graphic xlink:href="pcbi.1004211.g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,401 @@
+{
+  "id": [
+    "33178154"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33178154"
+  ],
+  "pmcid": [
+    "PMC7596660"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7596660"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3389/fmicb.2020.571093"
+  ],
+  "title": [
+    "Identification of Growth Inhibitors of the Fish Pathogen <i>Saprolegnia parasitica</i> Using <i>in silico</i> Subtractive Proteomics, Computational Modeling, and Biochemical Validation."
+  ],
+  "authorString": [
+    "Kumar S, Mandal RS, Bulone V, Srivastava V."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kumar S"
+          ],
+          "firstName": [
+            "Sanjiv"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3514-8999",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Glycoscience, Department of Chemistry, School of Engineering Sciences in Chemistry, Biotechnology and Health, Royal Institute of Technology (KTH), AlbaNova University Centre, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mandal RS"
+          ],
+          "firstName": [
+            "Rahul Shubhra"
+          ],
+          "lastName": [
+            "Mandal"
+          ],
+          "initials": [
+            "RS"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Cancer Biology, Abramson Family Cancer Research Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bulone V"
+          ],
+          "firstName": [
+            "Vincent"
+          ],
+          "lastName": [
+            "Bulone"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Glycoscience, Department of Chemistry, School of Engineering Sciences in Chemistry, Biotechnology and Health, Royal Institute of Technology (KTH), AlbaNova University Centre, Stockholm, Sweden."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "School of Agriculture, Food and Wine, The University of Adelaide, Adelaide, SA, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Srivastava V"
+          ],
+          "firstName": [
+            "Vaibhav"
+          ],
+          "lastName": [
+            "Srivastava"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1877-4154",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Glycoscience, Department of Chemistry, School of Engineering Sciences in Chemistry, Biotechnology and Health, Royal Institute of Technology (KTH), AlbaNova University Centre, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3514-8999",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1877-4154",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2907387"
+      ],
+      "dateOfPublication": [
+        "2020 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "571093"
+  ],
+  "abstractText": [
+    "Many Stramenopile species belonging to oomycetes from the genus <i>Saprolegnia</i> infect fish, amphibians, and crustaceans in aquaculture farms and natural ecosystems. <i>Saprolegnia parasitica</i> is one of the most severe fish pathogens, responsible for high losses in the aquaculture industry worldwide. Most of the molecules reported to date for the control of <i>Saprolegnia</i> infections either are inefficient or have negative impacts on the health of the fish hosts or the environment resulting in substantial economic losses. Until now, the whole proteome of <i>S. parasitica</i> has not been explored for a systematic screening of novel inhibitors against the pathogen. The present study was designed to develop a consensus computational framework for the identification of potential target proteins and their inhibitors and subsequent experimental validation of selected compounds. Comparative analysis between the proteomes of <i>Saprolegnia</i>, humans and fish species identified proteins that are specific and essential for the survival of the pathogen. The DrugBank database was exploited to select food and drug administration (FDA)-approved inhibitors whose high binding affinity to their respective protein targets was confirmed by computational modeling. At least six of the identified compounds significantly inhibited the growth of <i>S. parasitica in vitro</i>. Triclosan was found to be most effective with a minimum inhibitory concentration (MIC<sub>100</sub>) of 4 μg/ml. Optical microscopy showed that the inhibitors affect the morphology of hyphal cells, with hyper-branching being commonly observed. The inhibitory effects of the compounds identified in this study on <i>Saprolegnia</i>'s mycelial growth indicate that they are potentially usable for disease control against this class of oomycete pathogens. Similar approaches can be easily adopted for the identification of potential inhibitors against other plant and animal pathogenic oomycete infections."
+  ],
+  "affiliation": [
+    "Division of Glycoscience, Department of Chemistry, School of Engineering Sciences in Chemistry, Biotechnology and Health, Royal Institute of Technology (KTH), AlbaNova University Centre, Stockholm, Sweden."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Disease control",
+        "Growth inhibitors",
+        "Oomycete",
+        "Saprolegnia Parasitica",
+        "Fish Pathogen",
+        "In Silico Proteomics"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2020.571093"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7596660"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7596660?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-11-12"
+  ],
+  "firstIndexDate": [
+    "2020-11-13"
+  ],
+  "fullTextReceivedDate": [
+    "2020-11-12"
+  ],
+  "dateOfRevision": [
+    "2020-11-13"
+  ],
+  "electronicPublicationDate": [
+    "2020-10-16"
+  ],
+  "firstPublicationDate": [
+    "2020-10-16"
+  ]
+}

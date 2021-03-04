@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The collected SM samples were used for the genomic analyses. DNA extractions were carried out using a standard protocol by an outsource laboratory (Agrotis S.r.L.-LGS, Cremona, Italy, 
+ <uri xlink:href="http://www.lgscr.it/ENG/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.lgscr.it/ENG/index.html</uri>) where the genotype analyses were also performed. For the genotyping, the GeneSeek
+ <sup>®</sup> Genomic Profiler-GGP-70k HD Porcine chip (Illumina, San Diego, CA, USA; 
+ <uri xlink:href="https://emea.illumina.com/products/by-type/microarray-kits/ggp-porcine.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://emea.illumina.com/products/by-type/microarray-kits/ggp-porcine.html</uri>) containing 68516 SNPs was used using the procedures indicated by the company. The SNPs were mapped using 
+ <italic>Sus scrofa</italic> Genome Assembly Build 11.1 (NCBI: 
+ <uri xlink:href="https://www.ncbi.nlm.nih.gov/assembly/GCF_000003025.6" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/assembly/GCF_000003025.6</uri>; ENSEMBL: 
+ <uri xlink:href="https://www.ensembl.org/Sus_scrofa/Info/Index" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ensembl.org/Sus_scrofa/Info/Index</uri>). The sex of the animals (females, castrated males) was obtained on the basis of the genotypes for the sex chromosomes. The genotypic data were filtered using gPLINK (version 2.050, based on PLINK version 1.07) [
+ <xref rid="B26-animals-11-00068" ref-type="bibr">26</xref>] and GenAbel (version 1.8-0, run on R version 3.4.4) [
+ <xref rid="B27-animals-11-00068" ref-type="bibr">27</xref>] discarding the markers or samples not passing these thresholds: all the markers with call rate &lt; 90%, with minor allele frequency &lt; 5%, which are not in Hardy-Weinberg equilibrium [
+ <xref rid="B28-animals-11-00068" ref-type="bibr">28</xref>] (
+ <italic>p</italic>-value &lt; 0.001); all the individuals with more than 10% missing genotypes and with Identity by State (IBS) &gt; 90%. After filtering, 54,569 SNPs and 169 individuals were retained. The large number of excluded animals (n = 60) was because their IBS was above the threshold set at 90%. The association analyses were carried out using 
+ <italic>polygenic_hglm</italic> and 
+ <italic>qtscore</italic> functions implemented on the GenAbel package according to the procedure described in Nicolazzi et al. [
+ <xref rid="B29-animals-11-00068" ref-type="bibr">29</xref>]. The statistical model included the day of slaughter and the sex as predictive variables, together with the effect of the SNP and the genomic kinship matrix. The genomic kinship matrix was obtained with GenAbel and was used to estimate the relatedness between the animals. Pedigree data were not available for these animals since commercial hybrids are obtained from heterospermic artificial insemination. Also, the information concerning litters and dams was not available. These data can be available in fully controlled experimental studies, but they are difficult to obtain in commercial farm conditions, where cross-fostering is a common practice. The 
+ <italic>p</italic>-values of the associations between ham traits and SNPs were corrected for the “deflation” factor, as reported by GenAbel. Markers were considered significant with corrected 
+ <italic>p</italic>-values below the chromosome-wide significant threshold (
+ <xref ref-type="app" rid="app1-animals-11-00068">Table S1</xref>), and the trend towards the significance threshold was set at 5.00 × 10
+ <sup>−5</sup> [
+ <xref rid="B30-animals-11-00068" ref-type="bibr">30</xref>]. The markers with corrected 
+ <italic>p</italic>-values below these thresholds were further considered for the estimation of the genotypic effects. Their genotypes were extracted from the PED file generated through the gPLINK tool using in-house implemented scripts in the R environment [
+ <xref rid="B31-animals-11-00068" ref-type="bibr">31</xref>]. Linear mixed models were performed to obtain the Estimated Least Squares Means (LSM) for the genotypes of the significant markers. The associated traits were used as dependent variables; the genotype of each marker taken individually was modeled as a predictive variable together with the fixed effects of sex and slaughter day. The linear regression model did not include the random effect of the genomic kinship matrix. For each marker found with the GWAS, the additive and dominance genetic effects were also estimated. The additive effect was estimated as half of the difference between the two homozygous groups: a = 1/2(BB − AA), with A and B that indicate the first and the second allele of the analyzed markers, respectively. The dominance effect was estimated as the difference between the heterozygous group and the average of the two homozygous groups in each locus: d = AB − 1/2(AA + BB). These analyses were performed using functions in the packages 
+ <italic>nlme</italic> [
+ <xref rid="B32-animals-11-00068" ref-type="bibr">32</xref>], 
+ <italic>lsmeans</italic> [
+ <xref rid="B33-animals-11-00068" ref-type="bibr">33</xref>], 
+ <italic>lme4</italic> [
+ <xref rid="B34-animals-11-00068" ref-type="bibr">34</xref>], and 
+ <italic>car</italic> [
+ <xref rid="B35-animals-11-00068" ref-type="bibr">35</xref>] in the R environment [
+ <xref rid="B31-animals-11-00068" ref-type="bibr">31</xref>]. The genes located in the region flanking the identified markers (±500 kilobases from the associated marker) were further considered for the identification of candidate genes for the traits. The list of the flanking genes was obtained using the BioMart tool [
+ <xref rid="B36-animals-11-00068" ref-type="bibr">36</xref>] and was submitted to David Bioinformatics Resources version 6.8 on-line tool (
+ <uri xlink:href="https://david.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov/</uri>). Candidate genes were identified on the basis of their location (the nearest gene to the significant marker) and biological role. In order to find possible splice sites or motifs with biological relevance, the sequences flanking the intronic variants found associated with ham traits were submitted to the Tomtom tool in MEME Suite version 5.3.0 [
+ <xref rid="B37-animals-11-00068" ref-type="bibr">37</xref>] (
+ <uri xlink:href="http://meme-suite.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://meme-suite.org/</uri>). The found motifs are ranked based on their Bonferroni significance (
+ <italic>q</italic>-value) for the found match between the query sequence (or its complementary) and the motif in JASPAR CORE 2014 database.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We use a spatially-explicit, stochastic, individual-based, compartmental model to represent the spread of a plant pathogen through a population of 
+ <italic>N</italic> hosts (
+ <xref rid="pcbi.1004211.g001" ref-type="fig">Fig 1a</xref>). Hosts are categorised by disease status: (S)usceptible hosts are uninfected; (E)xposed hosts are latently infected, and so are neither symptomatic nor infectious; (C)ryptic hosts are infectious but still asymptomatic; (D)etectable hosts are symptomatic but not infectious; (I)nfected hosts are both infectious and symptomatic; and (R)emoved hosts are epidemiologically inert, either because of disease-induced death or because the host has been removed by any control effort. The Webidemics interface allows the timing of the cryptic and detectable classes to be exchanged, with visible symptoms either preceding or following the onset of infectiousness, and therefore can represent any of the SECI, SEDI, SECIR and SEDIR epidemic models [
+ <xref rid="pcbi.1004211.ref019" ref-type="bibr">19</xref>]. Here, motivated by the biology of citrus canker [
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>,
+ <xref rid="pcbi.1004211.ref029" ref-type="bibr">29</xref>,
+ <xref rid="pcbi.1004211.ref030" ref-type="bibr">30</xref>], we concentrate exclusively on the SECI and SECIR variants of the model, in which detectable symptoms strictly follow infectiousness. This is the case in which control is most difficult, since it is hampered by invisible cryptic infection. We note that, although citrus canker does not itself directly kill host plants, accounting for control requires there to be a removed compartment in the model, as does allowing the user of our Webidemics interface to apply the model to host-pathosystems for which there is disease-induced host death.
+</p>

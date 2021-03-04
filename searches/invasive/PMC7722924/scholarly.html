@@ -1,0 +1,977 @@
+<html xmlns="http://www.w3.org/1999/xhtml"> <head> <style type="text/css">
+      	     		 
+      	    a                          {background : #ffffff; }
+      	    article                    {border-style : dotted; border-width : 2px; }
+		 	
+		 	div                        {background : #ffffcc;}
+		 	div.abstract-title         {font-weight : bold ; font-size : 16pt;}
+		 	div.ack                    {border-style : solid ; border-color : red; margin : 2em; }
+		 	div.article-meta           {border-style : solid; border-width : 1 pt; margin 1em;}
+		 	div.boxed-text             {margin : 5em; border-style : solid;}
+		 	div.contrib-group          {margin : 1em; }
+		 	div.fig                    {border-style : solid; border-width : 2px; margin : 2em; }
+		 	div.funding                {font-weight : bold ; font-size : 16pt;}
+		 	div.given-names            {font-style : italic;}
+		 	div.intro                  {border-style : inset; margin : 5px;}
+		 	div.introduction           {border-style : inset; margin : 5px;}
+		 	div.journal-meta           {border-style : solid; border-width : 1 pt; margin 1em;}
+		 	div.journal-title-group    {background : #ffeeee;}
+		 	div.article-title          {font-weight : bold ; font-size : 18pt;}
+		 	div.kwd                    {font-style : italic}
+		 	div.meta-name              {font-weight : bold ; font-size : 16pt;}
+		 	div.name                   {font-weight : bold;}
+		 	div.alt-title              {font-style : italic; font-size : 12px;}
+		 	
+		 	div.sec                    {border : 2px; margin 5px; padding 2px;}
+		 	div.title                  {font-family : courier; font-weight : bold;
+		 	                            font-size : 16pt; margin : 5px;}
+		 	
+		 	div.materials_methods      {border-style : double; margin : 5px; }
+		 	div.methods                {border-style : double; margin : 5px; }
+		 	
+		 	div.results                {border-style : solid; margin : 5px;}
+		 	div.background             {border-style : dotted; margin : 5px;}
+		 	
+		 	div.discussion             {border-style : groove; margin : 5px;}
+		 	div.conclusion             {border-style : ridge; margin : 5px;}
+		 	div.conclusions             {border-style : ridge; margin : 5px;}
+		 	div.supplementary-material {border-style : inset; margin : 5px;}
+		 	div.abbreviations          {border-style : double; border-color : red; margin : 5px;}
+		 	div.competinginterests     {border-style : double; border-color : blue; margin : 5px;}
+		 	div.acknowledgements       {border-style : double; border-color : green; margin : 5px;}
+		 	div.authors_contributions   {border-style : double; border-color : purple; margin : 5px;}
+		 	
+		 	div.publisher              {border-style : outset; margin : 5px;}
+		 	div.fn-type-conflict       {background : #f88; }
+		 	div.fn-type-con            {background : #ddf; }
+		 	div.fn-type-other          {background : #ddd; }
+		 	
+		 	div.unknown                {background : #ffd;
+									 	  border-style : solid;
+									 	  border-width : 1px;
+									 	  padding : 2 px;}
+		 	  
+      	    table                      {background : #ffffdd;}
+		 	tr                         {background : #ddddff; padding : 1px;}
+		 	
+		 	span                       {background : #ffcccc;}
+		 	
+		 	span.citation-author       {font-family : helvetica; background : #ffeeee;}
+		 	span.collab                {background : #ddffff; }
+		 	span.comment               {font-family : courier; font-size : 6px; background : #ffaaff;}
+		 	span.contrib               {background : #ffffff;}
+		 	span.corresp               {background : #ddffdd; }
+		 	span.doi                   {background : #ffffff;}
+		 	span.email                 {font-family : courier; }
+		 	span.etal                  {font-style : italic;}
+		 	span.fpage                 {font-family : courier;}
+		 	span.given-names           {background : #ffffff;}
+		 	span.iso-abbrev            {background : #ffffff;}
+		 	span.issn-epub             {background : #ffffff;}
+		 	span.issn-ppub             {background : #ffffff;}
+		 	span.journal-title         {background : #ffffff;}
+		 	span.lpage                 {font-family : courier;}
+		 	span.mixed-article-title   {font-style : italic ;}
+		 	span.nlm-ta                {background : #ffffff;}
+		 	span.pmc                   {background : #ffffff;}
+		 	span.pmcid                 {background : #ffffff;}
+		 	span.pmid                  {background : #ffffff;}
+		 	span.publisher             {background : #ffffff;}
+		 	span.publisher-id          {background : #ffffff;}
+		 	span.publisher-name        {background : #ffffff;}
+		 	span.source                {background : #ffffff;}
+		 	span.subject               {background : #ffffff;}
+		 	span.surname               {background : #ffffff;}
+		 	span.volume                {font-family : courier; font-weight : bold;}
+		 	span.year                  {font-family : courier ; font-style : italic;}
+			</style> </head> <body> <div class="front" title="front"> <div class="journal-meta" tagx="journal-meta" title="journal-meta"><span class="nlm-ta" title="nlm-ta">Sci Rep</span><span class="iso-abbrev" title="iso-abbrev">Sci Rep</span><div class="journal-title-group" tagx="journal-title-group" title="journal-title-group"><span class="journal-title" tagx="journal-title" title="journal-title">Scientific Reports</span></div><span class="issn-epub" tagx="issn" title="issn-epub">2045-2322</span><div class="publisher" tagx="publisher" title="publisher"><span class="publisher-name" tagx="publisher-name" title="publisher-name">Nature Publishing Group UK</span><span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">London</span></div> </div> <div class="article-meta" tagx="article-meta" title="article-meta"><span class="pmcid" title="pmcid"> pmcid: <a href="http://www.ncbi.nlm.nih.gov/pubmed/7722924">7722924</a></span><span class="publisher-id" title="publisher-id">78633</span><span class="doi" title="doi"> doi: <a href="https://dx.doi.org/10.1038/s41598-020-78633-3">10.1038/s41598-020-78633-3</a></span><div class="article-categories" title="article-categories">
+: <span class="subject" title="subject">Article</span></div> <div class="title-group" tagx="title-group" title="title-group"> <div class="article-title" title="article-title">
+Spatial heterogeneities of human-mediated dispersal vectors accelerate the range expansion of invaders with source–destination-mediated dispersal</div> </div> <div class="contrib-group" title="contrib-group"><span class="contrib" title="contrib"><span class="contrib-id" tagx="contrib-id" title="contrib-id">http://orcid.org/0000-0003-2669-5253</span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Takahashi</span><span class="given-names" tagx="given-names" title="given-names">Daisuke</span></span><a href="#Aff1" /></span><span class="contrib" title="contrib"><span class="contrib-id" tagx="contrib-id" title="contrib-id">http://orcid.org/0000-0001-7025-8945</span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Park</span><span class="given-names" tagx="given-names" title="given-names">Young-Seuk</span></span><span class="address" title="address"><span class="email" tagx="email" title="email">parkys@khu.ac.kr</span></span><a href="#Aff1" /></span><span class="citation_author_institution" id="Aff1">[], <div class="institution-wrap" title="institution-wrap"><span class="institution-id" title="institution-id">grid.289247.2</span><span class="institution-id" title="institution-id">0000 0001 2171 7818</span><span class="institution" title="institution">Department of Biology, </span><span class="institution" title="institution">Kyung Hee University, </span></div></span></div><span class="pub-date-epub" title="pub-date-epub">epub: <span>2020-12-12</span></span><span class="pub-date-pmc-release" title="pub-date-pmc-release">pmc-release: <span>2020-12-12</span></span><span class="pub-date-collection" title="pub-date-collection">collection: <span>2020</span></span><span class="volume" tagx="volume" title="volume">10</span><span class="elocation-id" tagx="elocation-id" title="elocation-id">21410</span><span class="history" title="history"><span class="received" title="received">received: 2020-3-7</span><span class="accepted" title="accepted">accepted: 2020-11-25</span></span><div class="permissions"><span class="copyright" title="copyright">(C) , </span><span class="license" title="license"><span class="license-p" title="license-p"><b>Open Access</b> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>.</span></span></div> <div class="abstract" title="abstract"> <div class="abstract-title" title="abstract-title">
+Abstract</div> <p id="Par1">Rapid range expansions of invasive species are a major threat to ecosystems. Understanding how invasive species increase their habitat ranges and how environmental factors, including intensity of human activities, influence dispersal processes is an important issue in invasion biology, especially for invasive species management. We have investigated how spatially heterogeneous factors influence range expansion of an invasive species by focusing on long-distance dispersal, which is frequently assisted by human activities. We have developed models varying two underlying processes of a dispersal event. These events are described by source and destination functions that determine spatial variations in dispersal frequency and the probability of being a dispersal destination. Using these models, we investigated how spatially heterogeneous long-distance dispersal influences range expansion. We found that: (1) spatial variations in the destination function slow down late population dynamics, (2) spatial variations in the source function increase the stochasticity of early population dynamics, and (3) the speed of early population dynamics changes when both the source and the destination functions are spatially heterogeneous and positively correlated. These results suggest an importance of spatial heterogeneity factors in controlling long-distance dispersal when predicting the future spread of invasive species.</p> </div> <div class="kwd-group"> <div class="title" tagx="title" title="title">
+Subject terms</div> <div class="kwd" title="kwd">
+Ecology</div> <div class="kwd" title="kwd">
+Invasive species</div> </div> <div class="funding-group" title="funding-group"> <div class="funding" title="funding">
+Funding</div> <div class="award-group" title="award-group"> <div class="funding-source" title="funding-source"> <div class="institution-wrap" title="institution-wrap"><span class="institution-id" title="institution-id">http://dx.doi.org/10.13039/501100003725</span><span class="institution" title="institution">National Research Foundation of Korea</span></div> </div><span class="award-id" tagx="award-id" title="award-id">NRF-2016R1A2B4011801</span><span class="principal-award-recipient" title="principal-award-recipient"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Park</span><span class="given-names" tagx="given-names" title="given-names">Young-Seuk</span></span></span></div> </div> <div class="custom-meta-group" title="custom-meta-group"> <meta name="issue-copyright-statement" value="© The Author(s) 2020" /> </div> </div> </div> <div class="body" title="body"> <div class="introduction" title="sec"> <div class="title" tagx="title" title="title">
+Introduction</div> <p id="Par2">Habitat invasion by alien species introduced by human activity is currently a major global issue in ecosystem management. While only a small fraction of alien species appear to be invasive<sup><a href="#CR1">1</a></sup>, they can exert catastrophic effects on ecosystems and human society<sup><a href="#CR1">1</a>–<a href="#CR4">4</a></sup>. Invasive species mostly share ability to establish colonies far away from a parent colony<sup><a href="#CR5">5</a></sup>. Therefore, their dispersals are a longstanding subject of empirical and theoretical studies<sup><a href="#CR6">6</a></sup>. </p> <p id="Par3">Dispersal is an important factor in determining a species’ spatial distribution. The dispersal is often characterized by a dispersal kernel, which is a probability distribution of dispersal success by distance. Dispersal with exponentially bounded tail of the dispersal kernel implies finite range expansion velocities<sup><a href="#CR7">7</a></sup>; this type of dispersal is called as short-distance dispersal. Otherwise, e.g., with a power-law dispersal kernel corresponding to Lévy flight (which is often applied to describe animal dispersal<sup><a href="#CR8">8</a></sup> and human traveling<sup><a href="#CR9">9</a>,<a href="#CR10">10</a></sup>), the range expansion velocity is longer finite in general<sup><a href="#CR7">7</a></sup>, and emergent spatial distribution of the species scatters over entire area<sup><a href="#CR11">11</a></sup>. This type of dispersal is called long-distance dispersal, and has been applied to model intermittent jumps from the existing range to remote areas.</p> <p id="Par4">Dispersal of organisms consists of several different processes, e.g., processes mediated by species’ inherent dispersal ability and human transfer, and those processes may have different shapes of their dispersal kernels. Among invasive species often human activities mediate their dispersal that allow rapid range expansions<sup><a href="#CR12">12</a></sup>. Moreover, meta-analyses suggest humans as the major vector spreading invasive species <sup><a href="#CR5">5</a>,<a href="#CR13">13</a></sup>. Distances of human traveling often show power-law distribution<sup><a href="#CR9">9</a>,<a href="#CR10">10</a></sup>; therefore, this human-mediated dispersal can give an ability of long-distance dispersal to invader species, which may otherwise spread slowly by their limited inherent dispersal abilities. Therefore, invasive species’ range expansion is better modeled as a stratified dispersal that considers more than one processes is involved in the spread of the invasive species<sup><a href="#CR12">12</a></sup>.</p> <p id="Par5">Alongside human-mediated long-distance dispersal, empirical studies have shown positive correlations between local human activities and the frequency of observation of invasive species<sup><a href="#CR14">14</a>–<a href="#CR16">16</a></sup>. Numerous studies have concluded that invasive species are more likely to be established in areas of high human activity. Gravity models (a common approach to describe spatial expansion of invader species) often determine dispersal destination by levels of human activity, e.g., the number of incoming boats at a given port<sup><a href="#CR17">17</a>–<a href="#CR21">21</a></sup>.</p> <p id="Par6">Simultaneously (particularly in cases of accidental transfers), we can expect human-mediated dispersal sources in areas of high human activity. Therefore, urban areas with higher frequencies of dispersal vectors may be associated with increased dispersal of invasive species, both incoming and outgoing. Such twofold effects of vector density have been integrated into models that explicitly consider the flow of dispersers<sup><a href="#CR17">17</a>,<a href="#CR19">19</a>–<a href="#CR21">21</a></sup>, while other models consider only one side of these effects. By comparing models with and without both effects in the same framework, we can identify qualitative differences between these two types of modeling strategies.</p> <p id="Par7">Management of invasive species requires a targeted approach for maximum effect. A number of studies using spatially explicit models have demonstrated that where the effort is initially targeted can have a profound effect on outcome<sup><a href="#CR5">5</a>,<a href="#CR22">22</a>–<a href="#CR25">25</a></sup>. Controls based on population biology have generally supported prioritization of the edges of a population as primary targets of initial control efforts<sup><a href="#CR5">5</a>,<a href="#CR23">23</a>,<a href="#CR24">24</a>,<a href="#CR26">26</a></sup>. On the other hand, studies focused on metapopulations often support prioritization of core populations that supply most of the new propagules<sup><a href="#CR23">23</a>,<a href="#CR26">26</a>,<a href="#CR27">27</a></sup>. Further, the optimal spatial arrangement of the control effort is considered to be highly context-dependent<sup><a href="#CR5">5</a></sup>. Therefore, we need to understand the mechanisms underlying these different expectations for improved control success.</p> <p id="Par8">In this study, we investigated spatially heterogeneous long-distance dispersal rates using a scatter colony model<sup><a href="#CR28">28</a>–<a href="#CR31">31</a></sup> to derive a factor for determining how heterogeneous environments influence the early population dynamics of invasive species. We considered a finite-sized continuous area that is parametrized by two spatial functions, (1) intensities to attract dispersers of the invasive species (destination function) and (2) intensities to produce dispersers of the invasive species (source function). Those two spatial functions describe how spatial heterogeneity influences long-distance dispersal of the invasive species. In this study, we defined and investigated three types of models (1) destination-mediated-dispersal models (spatially heterogeneous destination function and uniform source function), (2) source-mediated-dispersal models (spatially uniform destination function and heterogeneous source function), and (3) full models of which destination and source functions are spatially heterogeneous. By comparing analytical investigations with spatially explicit stochastic models, we demonstrated how to predict early population dynamics for initial control success with considering spatial heterogeneity of dispersal.</p> </div> <div class="results" title="sec"> <div class="title" tagx="title" title="title">
+Results</div> <div class="heterogeneousdestinationfunctiondeceleratespopulationgrowth" title="sec"> <div class="title" tagx="title" title="title">
+Heterogeneous destination function decelerates population growth</div> <p id="Par9">When the destination function was spatially heterogeneous but the source function was homogeneous (i.e., destination-mediated-dispersal model), colonies aggregated (Fig. <a href="#Fig1">1</a>a) and the population initially expanded rapidly but decelerated in the later part of the time course (Fig. <a href="#Fig1">1</a>b). The lengths of the establishment phase of the destination-mediated-dispersal models were invariant of the spatial factor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M1">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{{\text{h}}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mtext_UNKNOWN">
+h</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> (Fig. <a href="#Fig2">2</a>b, black triangles). On the other hand, larger spatial factors tended to delay population growth within the expansion phase (Fig. <a href="#Fig2">2</a>c, black triangles). Covering the last 5% of area (the naturalization phase) took a longer period of time when the spatial factor was large (Fig. <a href="#Fig2">2</a>d, triangles); sometimes the naturalization phase was longer than the expansion phase. Therefore, with spatially heterogeneous attractiveness alone, spatial arrangements of the dispersal vector <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M3">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> do not affect the establishment of a population, but a large spatial factor value tends to delay population growth in the following period. <div class="fig" title="fig"> <div class="figure" title="figure"><a href="http://doi.org/"><span class="label" tagx="label" title="label">Figure 1</span></a></div>   <p>Spatial settings influence realized spatial distributions of colonies and their population dynamics: (<b>a</b>, <b>b</b>) destination-mediated-dispersal model, (<b>c</b>, <b>d</b>) source-mediated-dispersal model, and (<b>e</b>, <b>f</b>) source–destination-mediated-dispersal model. (<b>a</b>, <b>c</b>, <b>e</b>) Colored regions show colonies that cover 10% of the entire area (ages of these populations are 28, 35, and 18, respectively). Colors of these regions indicate colonies with low (blue) to high (red) dispersal frequencies. White to gray shades indicate the magnitude of the background intensity distribution (darker for larger intensities). (<b>b</b>, <b>d</b>, <b>f</b>) Thin gray curves indicate 100 independent time courses for proportions of areas occupied by colonies. Thick curves show the average time in which a population reaches a certain proportion. All realizations, including realizations for panels (<b>a</b>, <b>c</b>, and <b>e</b>), use the same background intensity distribution (<span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M5">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{h}^{{\tfrac{1}{3}}} = 1.40$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> </div> <div class="mstyle_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1.40</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>).<p />   </div> <div class="fig" title="fig"> <div class="figure" title="figure"><a href="http://doi.org/"><span class="label" tagx="label" title="label">Figure 2</span></a></div>   <p>Effects of spatial heterogeneity of dispersal vectors on population dynamics as a function of model type. (<b>a</b>) Schematic describing three phases used; (i) establishment (0–5%, panel <b>b</b>), (ii) expansion (5–95%, panel <b>c</b>), and (iii) naturalization (95–100%, panel <b>d</b>). (<b>b</b>–<b>d</b>) Response periods of phases based on the spatial factor. Points and corresponding vertical lines represent medians and 25%–75% quantiles of 100 realizations, respectively. Black triangles, red squares, and blue circles correspond to destination-mediated-dispersal, source-mediated-dispersal, and source–destination-mediated-dispersal models, respectively. Black open circles and lines on the left point (spatial factor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M7">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{{\text{h}}} = 1$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mtext_UNKNOWN">
+h</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>) correspond to a null model without any spatial heterogeneities.<p />   </div> <p /> </div> <div class="heterogeneoussourcefunctionincreasestochasticityofearlydynamics" title="sec"> <div class="title" tagx="title" title="title">
+Heterogeneous source function increase stochasticity of early dynamics</div> <p id="Par10">When the source function was spatially heterogeneous but the destination function was homogeneous (source-mediated-dispersal models), colonies scattered on the space (Fig. <a href="#Fig1">1</a>c) and the length of the early growth period varied greatly relative to those other types of models (Figs. <a href="#Fig1">1</a>d and <a href="#Fig2">2</a>b, red squares). The lengths of the establishment periods of the source-mediated-dispersal models responded positively to the spatial factor (Fig. <a href="#Fig2">2</a>b, red squares). Periods of subsequent phases (expansion and naturalization) of the source-mediated-dispersal models did not respond to the spatial factor (Fig. <a href="#Fig2">2</a>c,d, red squares). Therefore, spatially heterogeneous source function can induce large fluctuations in the establishment of a population, but has little effect on the later phases of establishment and expansion.</p> </div> <div class="spatialheterogeneitiesaccelerateearlypopulationgrowthinmodelsthatassumebothsourceanddestinationfunctionsvaryspatially" title="sec"> <div class="title" tagx="title" title="title">
+Spatial heterogeneities accelerate early population growth in models that assume both source and destination functions vary spatially</div> <p id="Par11">In the full models, colonies aggregated in areas with high dispersal frequency because both attractiveness and dispersal frequency are proportional to the same function <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M9">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> (Fig. <a href="#Fig1">1</a>e). Unlike the two previous models, the lengths of the establishment phases decreased with an increase in the spatial factor (Figs. <a href="#Fig1">1</a>f and <a href="#Fig2">2</a>b, blue circles). In the full models, the periods of the establishment phases varied among realizations and were smaller than those of the source-mediated-dispersal models (Fig. <a href="#Fig2">2</a>b, blue circles). In the full model the establishment and expansion phases responded similarly to the destination-mediated-dispersal models. Larger values of the spatial factor resulted in longer expansion and naturalization phases (Fig. <a href="#Fig2">2</a>c,d, blue circles). Thus, a major characteristic of the full models is a rapid population growth in a heterogeneous landscape just after the invasion.<p /> <p id="Par12">The estimated asymptotic growth rates from the destination-mediated-dispersal and source-mediated-dispersal models did not respond to spatial distribution of the dispersal vectors (Fig. <a href="#Fig3">3</a>, gray triangles and red squares). These estimated values did not differ from the growth rate at <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M11">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{{\text{h}}} = 1$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mtext_UNKNOWN">
+h</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> (i.e., the asymptotic growth rate of the spatially homogeneous model). On the other hand, in the full models, large values of the spatial factors resulted in large values of estimated asymptotic growth rates (i.e., faster population growth after the initial introduction) (Fig. <a href="#Fig3">3</a>, blue circles). These estimated values correspond well with the theoretical expectations from Eq. (<a href="#Equ4">4</a>) (Fig. <a href="#Fig3">3</a>, solid lines). <div class="fig" title="fig"> <div class="figure" title="figure"><a href="http://doi.org/"><span class="label" tagx="label" title="label">Figure 3</span></a></div>   <p>Asymptotic growth rates of full models increase with increases in the spatial factor, while other rates are invariant of the factor. Gray triangles, red squares, and blue circles indicate asymptotic growth rates estimated from realizations with source-mediated-dispersal, destination-mediated-dispersal, and source–destination-mediated-dispersal models, respectively. The open circle at a unit spatial factor represents a model without any spatial heterogeneities. Solid lines indicate theoretical growth rates with (blue) and without (gray) influence of spatial factors.</p>   </div> <p /> </div> </div> <div class="discussion" title="sec"> <div class="title" tagx="title" title="title">
+Discussion</div> <p id="Par13">In this study, we considered two mechanisms of spatial heterogeneity involved in long-distance dispersal: spatially heterogeneous source functions and spatially heterogeneous destination functions. We analyzed these mechanisms to clarify how heterogeneous distributions of dispersal vectors influence regional population dynamics. Our results show that a combination of these mechanisms, not either of them in isolation, addresses spatial effects on the asymptotic growth rate in the initial success of establishing a population.</p> <div class="spatialheterogeneityanddestination-mediateddispersal" title="sec"> <div class="title" tagx="title" title="title">
+Spatial heterogeneity and destination-mediated dispersal</div> <p id="Par14">When spatial heterogeneity in vector density controls the destinations of long-distance dispersers (i.e., a destination function) in isolation, our modeling suggests that once the population covers a large proportion of available area, there is a delay in population expansion. In a spatially heterogeneous destination, the population aggregates in areas of higher value, resulting in missed dispersal opportunities by re-establishing in areas already occupied by existing sub-populations. This scenario is applicable to introductions of a species to remote areas arrive from outside the focal area (e.g. from forestry plantations to urban areas).</p> </div> <div class="spatialheterogeneityandsource-mediateddispersal" title="sec"> <div class="title" tagx="title" title="title">
+Spatial heterogeneity and source-mediated dispersal</div> <p id="Par15">When spatial heterogeneity of vector density controls the number of dispersers (i.e., a source function) only, the total number of dispersers produced from a population depends on the spatial arrangement of sub-populations. This was caused by a selection of population area in the analyses of the models. If sub-populations cover most of the area, the total number of dispersers will be very close to its expected value. Alternatively, if a population consists of a few small colonies, the total number of dispersers produced varies depending on the actual spatial distribution of the sub-populations. Therefore, spatial heterogeneity in the source function introduces uncertainty in the early phase of population dynamics, which diminishes as the population establishes and expands.</p> </div> <div class="spatialheterogeneityofbothsourceanddestinationfunctions" title="sec"> <div class="title" tagx="title" title="title">
+Spatial heterogeneity of both source and destination functions</div> <p id="Par16">The most notable outcome from our three model settings is that spatial heterogeneity influences initial population growth only when the source and the destination functions are both heterogeneous and are spatially correlated (Supplemental Information SI <a href="#MOESM1">3</a>). Source and destination correlation results in a higher initial rate of propagule production. On the other hand, after the population covers most of an area, its expansion slows because dispersers are rarely introduced to remaining open areas because of their very low values of the destination function. In this situation, instead of establishing in these open areas, most dispersers are transferred to already populated areas. Among three types of models investigated in this study, only the full models relate spatial heterogeneity with an asymptotic growth rate, which is a key determinant of both extinction probability and invasiveness. The spatial factor we derived here can be considered to be a measure of correlations between the source and the destination functions (without subtracting mean values). Therefore, the full model type is distinct from the others for its ability to determine the effects of long-distance dispersals in the population dynamics of an invading species, especially on the species’ responses to control strategies.</p> </div> <div class="sourceanddestinationmediateddispersalandcontrolofcorepopulations" title="sec"> <div class="title" tagx="title" title="title">
+Source and destination mediated dispersal and control of core populations</div> <p id="Par17">The spatial factor can be reduced by decreasing the dispersal frequency or attractiveness of an area with a high density of dispersal vectors. Therefore, if both source and destination functions influence dispersal success, our model suggests potential eradication success through simultaneous strategies that effectively weaken dispersals between core areas, where colonies tend to produce more propagules than other areas. Similar control strategies focusing on core populations have been suggested by metapopulation models<sup><a href="#CR23">23</a>,<a href="#CR26">26</a>,<a href="#CR27">27</a></sup>. These strategies have been applied in cases of invasive aquatic invertebrates and fish larvae transferred accidentally by ballast water<sup><a href="#CR32">32</a>,<a href="#CR33">33</a></sup>. On the accidental transfer of aquatic species by ballast water or attaching to boats, the number of boats in a port approximates both the inflow (destination function) and outflow (source function) of invader species’ propagules. In addition, using the common assumption of stationarity in the number of boats in each port<sup><a href="#CR17">17</a>,<a href="#CR19">19</a>,<a href="#CR21">21</a>,<a href="#CR34">34</a></sup>, the attractiveness and the dispersal frequency of each port also becomes stationary. This introduces time-invariant correlations between the attractiveness and the dispersal frequency of a sub-population. Our results suggest that this correlation between attractiveness and dispersal frequency introduced by a stationary density of boats points to the importance of core populations. Similar discussions may also be applicable to accidental transfers of terrestrial small organisms attaching to vehicles and machinery, which is an important pathway for spreading insect invaders<sup><a href="#CR35">35</a>–<a href="#CR37">37</a></sup>.</p> </div> <div class="edgeexpansionandpopulationgrowth" title="sec"> <div class="title" tagx="title" title="title">
+Edge expansion and population growth</div> <p id="Par18">We emphasize that our models do not contradict the common rule of thumb that recommends prioritizing control at the edges of a population<sup><a href="#CR5">5</a>,<a href="#CR23">23</a>,<a href="#CR24">24</a>,<a href="#CR26">26</a></sup>. The asymptotic growth rates in our models are essentially the same formulation as a spatially homogeneous model, with a larger influence of contributions from short-distance dispersal than those of long-distance dispersal. Thus, we expect a larger influence from the proportional change of the short-distance dispersal speed (i.e., expansion speed at edges) than from the frequency of long-distance dispersal<sup><a href="#CR31">31</a></sup>. Note that influences from short- and long-distance dispersals on the asymptotic growth rate in our models are multiplicative rather than additive. Therefore, the measures of the additive effects of parameters can indicate a stronger influence from long-distance than short-distance dispersal<sup><a href="#CR38">38</a>,<a href="#CR39">39</a></sup>, especially when short-distance dispersal is weak.</p> </div> </div> <div class="conclusion" title="sec"> <div class="title" tagx="title" title="title">
+Conclusion</div> <p id="Par19">Our modeling emphasizes the importance of the basic assumptions regarding how propagules of invader species interact with vectors mediating long-distance dispersal. Different types of interactions can lead to qualitatively different conclusions when considering population dynamics produced by spatially heterogeneous distributions of vectors. These models and results bridge the gap between discrepancies between strategies, helping to drive decisions to focus on edge <i>versus</i> core populations (a result of using two different stems of modeling frameworks). From the present result, we conclude that clamped spatial distribution of a human population can accelerate invasive species’ range expansion after establishment, if the human-population density influences both starting and ending locations of the invader species’ dispersal (e.g., accidental transfer by vehicles). This outcome will facilitate a better mechanistic understanding of how different types of vectors influence invasive species’ spread, and support the development of robust models to predict their future expansions.</p> </div> <div class="methodsandmodels" title="sec"> <div class="title" tagx="title" title="title">
+Methods and models</div> <div class="targetspeciesandbasicassumptions" title="sec"> <div class="title" tagx="title" title="title">
+Target species and basic assumptions</div> <p id="Par20">We developed and analyzed spatially explicit models that describe range expansion of an invader species’ population that consists of many sub-populations. Invasive species often expand their range by stratified dispersal using human-mediated long-distance dispersal in addition to local expansion of sub-populations<sup><a href="#CR20">20</a></sup>. Extending a model rigorously analyzed by Takahashi et al.<sup><a href="#CR31">31</a></sup>, which explicitly involves (1) short-distance dispersal that expands the area of current sub-populations, and (2) long-distance dispersal that establishes new sub-populations beyond existing sub-populations (Fig. <a href="#Fig4">4</a>), we consider spatially inhomogeneous factors that influence on the long-distance dispersal (e.g., vectors’ distribution). The parameters and functions used in these models are listed in Table <a href="#Tab1">1</a>. </p><div class="fig" title="fig"> <div class="figure" title="figure"><a href="http://doi.org/"><span class="label" tagx="label" title="label">Figure 4</span></a></div>   <p>A schematic of short- and long-distance dispersal modes. Human activities may influence the long-distance dispersal by: (1) changing the number of propagules starting the long-distance dispersal (<span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M13">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R \cdot \varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="mo_UNKNOWN">
+·</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>), and (2) introducing biases in their spatial locations (<span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M15">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>). By compositing these short- and long-distance dispersals, we predict population establishment at the next time step.<p />   </div> <div class="table-wrap_UNKNOWN" id="Tab1"><span class="label" tagx="label" title="label">Table 1</span> <p>Symbols and their default values.</p>  <table frame="hsides" rules="groups"> <thead> <tr> <th align="left">Symbol</th> <th align="left">Description</th> <th align="left">Unit</th> <th align="left">Default value</th> </tr> </thead> <tbody> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M17">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+x</div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M19">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Standardized spatial coordinate</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M21">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$L$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M23">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\rho_{t} (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Area covered by a population at year <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M25">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">1</td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M27">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$S$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div></div><span class="inline-graphic" title="inline-graphic" /></div></span><sub>,</sub><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M29">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left| S \right|$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mfenced_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Study area (<span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M31">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left| S \right|$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mfenced_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is the size of the study area)</td> <td align="left">–</td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M33">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$g$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+g</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Maximum length of the short-distance dispersal (a length unit <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M35">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$L$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is selected to keep this parameter to be 1)</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M37">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$L \cdot {\text{year}}^{ - 1}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mo_UNKNOWN">
+·</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mtext_UNKNOWN">
+year</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+-</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">1</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M39">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Average long-distance dispersal frequency per year per unit area</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M41">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$L^{ - 2} \cdot {\text{year}}^{ - 1}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+-</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+·</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mtext_UNKNOWN">
+year</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+-</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">0.01</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M43">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Spatial distribution of the human-mediated dispersal vectors (standardized to be 1 in total)</td> <td align="left">1</td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M45">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Frequency of starting the long-distance dispersal from a population at <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M47">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (source function)</td> <td align="left">1</td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M49">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Likelihood of a sub-population establishment at <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M51">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (destination function)</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M53">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$L^{ - 2}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+-</div> <div class="mn_UNKNOWN">
+2</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">–</td> </tr> <tr> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M55">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left">Overall magnitude of effects human activities on growth rate (spatial factor)</td> <td align="left">1</td> <td align="left">–</td> </tr> </tbody> </table> </div> <p /> <p id="Par21">We estimated the population size of the invader species as the area covered by any of these sub-populations in the study area. This simple measure of the population size was based on our assumption that the inside of a sub-population is homogeneous and these sub-populations vary only in their positions, sizes, and shapes. This assumption may oversimplify spatial architectures of the sub-populations, because even clonal colonies of perennial plants often have concentric structures that can influence reproductive output<sup><a href="#CR40">40</a></sup>; but this simplification is applicable when the reproductive rate of the species is high enough to reach a constant carrying capacity quickly.</p> </div> <div class="short-andlong-distancedispersals" title="sec"> <div class="title" tagx="title" title="title">
+Short- and long-distance dispersals</div> <p id="Par22">We considered stratified dispersals of the invader species. Note that we explicitly considered invader species’ dispersal but their vectors’ movement (e.g., human traffics) was included only implicitly. The short-distance dispersal expands the species’ range only by a constant velocity<sup><a href="#CR7">7</a></sup>. Therefore, we modeled the short-distance dispersal as radial expansion of these sub-populations with a constant speed <i>g</i>. Meanwhile, long-distance dispersal introduces new sub-populations into the population out of its parent sub-population. Empirical observations showed that long-distance dispersal mediated by human activities introduces a new sub-population to an area at a long distance from its source population, e.g., vehicles can move plant seeds for more than hundreds of kilometers<sup><a href="#CR41">41</a></sup>. Long-distance dispersal diminishes the influence of the source location on the destination of a dispersal event, so as a simplifying approximation we assumed that the destination of the long-distance dispersal is independent of the source location of a sub-population.</p> <p id="Par23">The assumption of source location independence of the dispersal destination allows us to describe a process of long-distance dispersal by two functions on <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M57">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$S$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div></div><span class="inline-graphic" title="inline-graphic" /></div>: (1) a function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M59">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> describing spatial variation in disperser production rates, and (2) a function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M61">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> describing the probability that a coordinate <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M63">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is selected as a destination of the disperser. Following the notation of Jongejans et al.<sup><a href="#CR18">18</a></sup>, we call <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M65">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M67">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> the source and destination functions, respectively. Note that we define the spatial average of the source function to be one (i.e., <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M69">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\int_{S} {\varphi (x,y)\,dxdy} } \mathord{\left/ {\vphantom {{\int_{S} {\varphi (x,y)\,dxdy} } {|S|}}} \right. \kern-\nulldelimiterspace} {|S|}} = 1$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+/</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>). We define <i>R</i> as the regional average of the disperser production rate per unit area (a spatially homogeneous component of the disperser production rate). Using this formulation, we calculate an expected disperser production rate of a given area by integrating <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M71">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> over the area. The spatial integration of the destination function over the study area is one because we assume the population of the invader species will reach full carrying capacity.<p /> <p id="Par24">We have defined a population of the invader species as a spatial union of all sub-populations in the study area because we assume sub-populations are homogeneous. Within the study area, <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M73">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\rho_{t} (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> is 1 if the coordinates <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M75">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> are within at least one of the sub-populations of the invader species at time <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M77">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (and otherwise 0). The integration of <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M79">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is the expected disperser production rate for a given <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M81">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\rho_{t} (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, and the integration <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M83">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R\int_{S} {\rho_{t} (x,y)\varphi (x,y)\,dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is the expected total production of dispersers from a population in the <i>t</i>-th time step. Thus, assuming that the total number of dispersers that start long-distance dispersal at time <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M85">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (denoted by <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M87">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n_{{{\text{d,}}t}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mtext_UNKNOWN">
+d,</div> <div class="mi_UNKNOWN">
+t</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>) follow a Poisson distribution, we can write a probability that the population produces <i>k</i> dispersers in the <i>t</i>-th time, Eq. (<a href="#Equ1">1</a>). <div class="disp-formula" title="disp-formula"><span class="label" tagx="label" title="label">1</span><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M89">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \Pr [n_{{{\text{d}},t}} = k] = \frac{{\lambda^{k} e^{ - \lambda } }}{k!}{, }\lambda = R\int_{S} {\rho_{t} (x,y)\varphi (x,y)\,dxdy} . $$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+Pr</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mtext_UNKNOWN">
+d</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> <div class="mi_UNKNOWN">
+k</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+-</div> <div class="mi_UNKNOWN">
+λ</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+!</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+λ</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+R</div> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> <div class="mo_UNKNOWN">
+.</div> </div></div><div class="graphic" position="anchor" /> </div> </div> <p /> <p id="Par25">The destination of the disperser is determined by the destination function <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M91">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>, which determines probabilities of ending a dispersal event at <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M93">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, which results in a new sub-population being established at that location. In total, the spatial distribution of new sub-populations introduced by long-distance dispersal follows a Poisson point process of which intensities are given as <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M95">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)R\int_{S} {\rho_{t} (x,y)\varphi (x,y)\,dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+R</div> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ρ</div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>.<p /> </div> <div class="threemodeltypes" title="sec"> <div class="title" tagx="title" title="title">
+Three model types</div> <p id="Par26">We compared three different types of models by varying interactions between the species’ long-distance dispersal and human activities. These included: (1) a source-mediated-dispersal model assuming that the source function <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M97">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> varies spatially by human activity while the destination function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M99">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is uniform, (2) a destination-mediated-dispersal model assuming that the destination function varies spatially while the source function is uniform, and (3) a full model assuming that both source and destination functions vary spatially.<p /> <p id="Par27">Let <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M101">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> be a function representing intensity of human activities at coordinates <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M103">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>. Without loss of generality, we can assume that the function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M105">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> satisfies <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M107">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\int_{S} {h(x,y)\,dxdy} = 1$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, the total intensity over the study area is scaled to one. In the source-mediated-dispersal model, the source function is proportional to the human-activity intensity, i.e., <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M109">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y) = |S| \cdot h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> <div class="mo_UNKNOWN">
+·</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, and the destination function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M111">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> is uniformly equal to <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M113">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${1 \mathord{\left/ {\vphantom {1 {|S|}}} \right. \kern-\nulldelimiterspace} {|S|}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+/</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>. On the contrary, the source function of the destination-mediated-dispersal model is uniform and the destination function is <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M115">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y) = h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>. The full model is a combination of the source- and destination-mediated-dispersal models in which both source and destination functions vary with area. In this study, we assume that a single factor determines both the source and destination functions, i.e., <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M117">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y) = \left| S \right| \cdot h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfenced_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mo_UNKNOWN">
+·</div> <div class="mi_UNKNOWN">
+h</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M119">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y) = h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (Table <a href="#Tab2">2</a>). <div class="table-wrap_UNKNOWN" id="Tab2"><span class="label" tagx="label" title="label">Table 2</span> <p>Definitions of model types.</p>  <table frame="hsides" rules="groups"> <thead> <tr> <th align="left">Model type</th> <th align="left">Source function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M121">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></th> <th align="left">Destination function <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M123">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></th> </tr> </thead> <tbody> <tr> <td align="left">Source-mediated dispersal model</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M125">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|S| \cdot h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> <div class="mo_UNKNOWN">
+·</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M127">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${1 \mathord{\left/ {\vphantom {1 {|S|}}} \right. \kern-\nulldelimiterspace} {|S|}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+/</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> (uniform)</td> </tr> <tr> <td align="left">Destination-mediated dispersal model</td> <td align="left">1 (uniform)</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M129">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> </tr> <tr> <td align="left">Full model</td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M131">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|S| \cdot h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+|</div> <div class="mo_UNKNOWN">
+·</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> <td align="left"><span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M133">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span></td> </tr> </tbody> </table> </div> <p /> </div> <div class="asymptoticgrowthrateofapopulation" title="sec"> <div class="title" tagx="title" title="title">
+Asymptotic growth rate of a population</div> <p id="Par28">Spatial dimension introduces complexity, though rigorous mathematical analysis is still viable for a small population with few small sub-populations. This situation may arise with an accidentally transferred population. Here, we consider infinitesimally small populations to be rare for invasive species and derive an asymptotic value of the growth rate to the size of the area inhabited by the population.</p> <p id="Par29">Each sub-population includes age, so we incorporated age-structured population dynamics<sup><a href="#CR29">29</a>,<a href="#CR31">31</a></sup> into the model, described by the differential equation, </p><div class="disp-formula" title="disp-formula"><span class="label" tagx="label" title="label">2</span><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M135">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \frac{\partial n(a,t)}{{\partial t}} + \frac{\partial n(a,t)}{{\partial a}} = 0, $$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+t</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+a</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> </div></div><div class="graphic" position="anchor" /> </div> </div> <p /> <p id="Par30">where <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M137">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n(a,t)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> represents the frequency of sub-populations with age <i>a</i> at time <i>t</i>. Note that Eq. (<a href="#Equ2">2</a>) assumes no extinction of sub-populations. The equation has two boundary conditions: (1) <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M139">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n(a,0)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> represents an age distribution of the initial population, and (2) <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M141">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n(0,t)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> represents the number of new sub-populations (i.e., age 0 sub-populations) introduced by the long-distance dispersal at time <i>t</i>.<p /> <p id="Par31">To determine the number of new sub-populations, we need to determine how many long-distance dispersers will emerge from a given population by including spatial heterogeneities. Recall that a sub-population expands outward by a constant speed <i>g</i>. Therefore, if we ignore overlaps among sub-populations each sub-population keeps a circular shape of radius proportional to age. In addition, if a sub-population is young, i.e., its size is small, we can regard the value of the source function <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M143">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> inside the sub-population as uniform. Let <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M145">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x_{i} ,y_{i} )$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+i</div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mi_UNKNOWN">
+i</div> </div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M147">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$a_{i}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mi_UNKNOWN">
+i</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> be the position of the center and age of the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M149">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$i$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div></div><span class="inline-graphic" title="inline-graphic" /></div></span>-th sub-population, respectively. With the above approximations, we can simply derive the expected number of long-distance dispersers that start dispersal from the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M151">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$i$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div></div><span class="inline-graphic" title="inline-graphic" /></div></span>-th sub-population as <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M153">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\pi R \cdot (ga_{i} )^{2} \varphi (x_{i} ,y_{i} )$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+π</div> <div class="mi_UNKNOWN">
+R</div> <div class="mo_UNKNOWN">
+·</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+g</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mi_UNKNOWN">
+i</div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+i</div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mi_UNKNOWN">
+i</div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>.<p /> <p id="Par32">On the other hand, existing sub-populations also originate from long-distance dispersal. Therefore, a position of the sub-population also follows the destination function <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M155">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>. Building on the expected number of new sub-populations we described at the last paragraph, we calculate an average over the study area to calculate a mean-field approximation of the number of long-distance dispersers from an age <i>a</i> sub-population as <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M157">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\pi R\int_{S} {\psi (x,y)(ga)^{2} \varphi (x,y)\,dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+π</div> <div class="mi_UNKNOWN">
+R</div> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+g</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>.<p /> <p id="Par33">We assume that a population consists of a few small sub-populations in this formulation and a disperser will always establish outside existing sub-populations. Therefore, the total number of a new sub-population (i.e., <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M159">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n(0,t)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div>) is a summation of new sub-populations produced by each of the existing sub-populations, <div class="disp-formula" title="disp-formula"><span class="label" tagx="label" title="label">3</span><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M161">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \begin{gathered} n(0,t) = \pi R\int_{0}^{t} {n(a,t)\left[ {\int_{S} {\psi (x,y)(ga)^{2} \varphi (x,y)\,dxdy} } \right]\,da} \\ = \pi R\left( {\int_{S} {\psi (x,y)\varphi (x,y)\,dxdy} } \right)\int_{0}^{t} {(ga)^{2} n(a,t)\,da} . \\ \end{gathered} $$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+π</div> <div class="mi_UNKNOWN">
+R</div> <div class="msubsup_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mfenced_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+g</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+a</div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN" /> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+π</div> <div class="mi_UNKNOWN">
+R</div> <div class="mfenced_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="msubsup_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mi_UNKNOWN">
+t</div> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+g</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+a</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN" /> </div> </div> </div> </div></div><div class="graphic" position="anchor" /> </div> </div> <p /> <p id="Par34">With Eq. (<a href="#Equ3">3</a>), the asymptotic growth rate of the Eq. (<a href="#Equ2">2</a>) can be calculated as follows<sup><a href="#CR29">29</a>,<a href="#CR31">31</a></sup>, </p><div class="disp-formula" title="disp-formula"><span class="label" tagx="label" title="label">4</span><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M163">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \left( {2\pi Rg^{2} \int_{S} {\psi (x,y)\varphi (x,y)\,dxdy} } \right)^{1/3} . $$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mfenced_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+π</div> <div class="mi_UNKNOWN">
+R</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+g</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+/</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div></div><div class="graphic" position="anchor" /> </div> </div> <p /> <p id="Par35">The asymptotic growth rate indicates that the integration <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M165">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\int_{S} {\psi (x,y)\varphi (x,y)\,dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> describes the influence of the source and the destination functions in the early phases of population growth. Therefore, hereafter we call <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M167">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\int_{S} {\psi (x,y)\varphi (x,y)\,dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+φ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> a spatial factor <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M169">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{{\text{h}}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mtext_UNKNOWN">
+h</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> of the long-distance dispersal. Note that the spatial factor reduces to 1 for both source- and destination-mediated dispersal models. For the full models of which source and destination functions are <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M171">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y) = \left| S \right|h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+φ</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfenced_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mi_UNKNOWN">
+h</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M173">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y) = h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ψ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, respectively, we can reduce the spatial factor <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M175">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F_{{\text{h}}}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mtext_UNKNOWN">
+h</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span> to <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M177">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\int_{S} {\left( {\sqrt {\left| S \right|} h(x,y)} \right)^{2} dxdy}$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mo_UNKNOWN">
+∫</div> <div class="mi_UNKNOWN">
+S</div> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mfenced_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mfenced_UNKNOWN"> <div class="mi_UNKNOWN">
+S</div> </div> </div> <div class="mi_UNKNOWN">
+h</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>, equivalent to Simpsons’ diversity index.<p /> </div> <div class="numericalanalysis" title="sec"> <div class="title" tagx="title" title="title">
+Numerical analysis</div> <p id="Par36">We evaluated the effects of the dispersal vector on distribution with an individual-based approach that describes colonies in a population as groups of individuals within a circular shape of various sizes (Fig. <a href="#Fig1">1</a>a,c,e for typical model outputs, see supplemental information SI <a href="#MOESM1">1</a> for detailed settings). To evaluate the effect of spatial heterogeneity on population dynamics, for each model type we generated 100 of <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M179">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> randomly (see shaded area of Fig. <a href="#Fig1">1</a>a,c,e, and SI 2 for the algorithm used) and ran 100 independent realizations for each <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M181">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div></span>. For each realization, we split the time course into three phases: establishment, expansion, and naturalization. The phases were based on the proportion of area inhabited by the population (Fig. <a href="#Fig2">2</a>a; less than 5%, 5% to 95%, and 95% to complete occupation of the total area, respectively), and measured the length of each phase. We linearly interpolated the time course based on area covered for each phase.<p /> <p id="Par37">Using the same set of realized time courses, we estimated the asymptotic growth rate as the peak of a distribution of the logarithmic value of the instantaneous growth rate, defined as a difference of logarithmic values of covered area that are adjacent in a time course. We excluded periods that a population covers less than 1% or more than 50% of the total area to avoid strong demographic stochasticity of initial dynamics and a deceleration phase of S-shaped growth, respectively. We gathered these logarithmic values of instantaneous growth rates from 100 realizations with the same <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M183">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</div> </div><div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+x</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+)</div> </div></div><span class="inline-graphic" title="inline-graphic" /></div> and dispersal type, then estimated the density distribution using Gaussian kernel estimation. Finally, we determined the maximum point of the estimated density distribution as the estimated asymptotic growth rate.<p /> </div> </div> <div class="supplementary-material" title="supplementary-material"> <div class="title" tagx="title" title="title">
+Supplementary Information</div> <div class="sec" title="sec"> <p> </p><div class="local-data" title="local-data"> <div class="media" title="media"><a href="41598_2020_78633_MOESM1_ESM.pdf">LINK</a> <p>Supplementary Information.</p>  </div> </div> <p /> </div> </div> </div> <div class="back" title="back"> <div class="fn-group" title="fn-group"> <div class="fn-type-" title=""> <p><b>Publisher's note</b></p> <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p> </div> </div> <div class="supplementaryinformation" title="sec"> <div class="title" tagx="title" title="title">
+Supplementary Information</div> <p>The online version contains supplementary material available at 10.1038/s41598-020-78633-3.</p> </div> <div class="ack" title="ack"> <div class="title" tagx="title" title="title">
+Acknowledgements</div> <p>This work was supported by the National Research Foundation of Korea (NRF) funded by the Korean government (grant numbers NRF-2016R1A2B4011801 and NRF-2019R1A2C1087099).</p> </div> <div class="title" tagx="title" title="title">
+Author contributions</div> <p>D.T. and Y.S.P. designed the study. D.T. wrote the original draft and prepared figures and tables. Y.S.P. reviewed and edited the manuscript. D.T. developed models and analyzed the data. All authors performed the interpretation of the results. All authors reviewed the manuscript for submission.</p> <div class="title" tagx="title" title="title">
+Competing interests</div> <p>The authors declare no competing interests.</p> <div class="references">
+References</div> <div tag="ref-list"> <ul> <div class="title" tagx="title" title="title">
+References</div> <li tag="ref"><a name="CR1" /><span class="label" tagx="label" title="label">1.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Williamson</span><span class="given-names" tagx="given-names" title="given-names">M</span></span></span><span class="source" tagx="source" title="source">Biological Invasions</span><span class="year" tagx="year" title="year">1996</span><span class="edition" tagx="edition" title="edition">1</span><span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">New York</span><span class="publisher-name" tagx="publisher-name" title="publisher-name">Chapman &amp;amp; Hall</span></span></li> <li tag="ref"><a name="CR2" /><span class="label" tagx="label" title="label">2.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Paini</span><span class="given-names" tagx="given-names" title="given-names">DR</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Global threat to agriculture from invasive species</span><span class="source" tagx="source" title="source">Proc. Natl. Acad. Sci.</span><span class="year" tagx="year" title="year">2016</span><span class="volume" tagx="volume" title="volume">113</span><span class="fpage" tagx="fpage" title="fpage">7575</span><span class="lpage" tagx="lpage" title="lpage">7579</span><span class="pub-id"><a href="https://dx.doi.org/10.1073/pnas.1602205113">10.1073/pnas.1602205113</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27325781">27325781</a></span></span></li> <li tag="ref"><a name="CR3" /><span class="label" tagx="label" title="label">3.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Pimentel</span><span class="given-names" tagx="given-names" title="given-names">D</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Zuniga</span><span class="given-names" tagx="given-names" title="given-names">R</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Morrison</span><span class="given-names" tagx="given-names" title="given-names">D</span></span></span><span class="mixed-article-title" title="mixed-article-title">Update on the environmental and economic costs associated with alien-invasive species in the United States</span><span class="source" tagx="source" title="source">Ecol. Econ.</span><span class="year" tagx="year" title="year">2005</span><span class="volume" tagx="volume" title="volume">52</span><span class="fpage" tagx="fpage" title="fpage">273</span><span class="lpage" tagx="lpage" title="lpage">288</span><span class="pub-id"><a href="https://dx.doi.org/10.1016/j.ecolecon.2004.10.002">10.1016/j.ecolecon.2004.10.002</a></span></span></li> <li tag="ref"><a name="CR4" /><span class="label" tagx="label" title="label">4.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Walsh</span><span class="given-names" tagx="given-names" title="given-names">JR</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Carpenter</span><span class="given-names" tagx="given-names" title="given-names">SR</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Zanden</span><span class="given-names" tagx="given-names" title="given-names">MJV</span></span></span><span class="mixed-article-title" title="mixed-article-title">Invasive species triggers a massive loss of ecosystem services through a trophic cascade</span><span class="source" tagx="source" title="source">Proc. Natl. Acad. Sci.</span><span class="year" tagx="year" title="year">2016</span><span class="volume" tagx="volume" title="volume">113</span><span class="fpage" tagx="fpage" title="fpage">4081</span><span class="lpage" tagx="lpage" title="lpage">4085</span><span class="pub-id"><a href="https://dx.doi.org/10.1073/pnas.1600366113">10.1073/pnas.1600366113</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/27001838">27001838</a></span></span></li> <li tag="ref"><a name="CR5" /><span class="label" tagx="label" title="label">5.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hui</span><span class="given-names" tagx="given-names" title="given-names">C</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Richardson</span><span class="given-names" tagx="given-names" title="given-names">DM</span></span></span><span class="source" tagx="source" title="source">Invasion dynamics</span><span class="year" tagx="year" title="year">2017</span><span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Oxford</span><span class="publisher-name" tagx="publisher-name" title="publisher-name">Oxford University Press</span></span></li> <li tag="ref"><a name="CR6" /><span class="label" tagx="label" title="label">6.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hastings</span><span class="given-names" tagx="given-names" title="given-names">A</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">The spatial spread of invasions: new developments in theory and evidence</span><span class="source" tagx="source" title="source">Ecol. Lett.</span><span class="year" tagx="year" title="year">2005</span><span class="volume" tagx="volume" title="volume">8</span><span class="fpage" tagx="fpage" title="fpage">91</span><span class="lpage" tagx="lpage" title="lpage">101</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/j.1461-0248.2004.00687.x">10.1111/j.1461-0248.2004.00687.x</a></span></span></li> <li tag="ref"><a name="CR7" /><span class="label" tagx="label" title="label">7.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Kot</span><span class="given-names" tagx="given-names" title="given-names">M</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Lewis</span><span class="given-names" tagx="given-names" title="given-names">MA</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">van den Driessche</span><span class="given-names" tagx="given-names" title="given-names">P</span></span></span><span class="mixed-article-title" title="mixed-article-title">Dispersal data and the spread of invading organisms</span><span class="source" tagx="source" title="source">Ecology</span><span class="year" tagx="year" title="year">1996</span><span class="volume" tagx="volume" title="volume">77</span><span class="fpage" tagx="fpage" title="fpage">2027</span><span class="lpage" tagx="lpage" title="lpage">2042</span><span class="pub-id"><a href="https://dx.doi.org/10.2307/2265698">10.2307/2265698</a></span></span></li> <li tag="ref"><a name="CR8" /><span class="label" tagx="label" title="label">8.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Buchanan</span><span class="given-names" tagx="given-names" title="given-names">M</span></span></span><span class="mixed-article-title" title="mixed-article-title">Ecological modelling: the mathematical mirror to animal nature</span><span class="source" tagx="source" title="source">Nature</span><span class="year" tagx="year" title="year">2008</span><span class="volume" tagx="volume" title="volume">453</span><span class="fpage" tagx="fpage" title="fpage">714</span><span class="lpage" tagx="lpage" title="lpage">716</span><span class="pub-id"><a href="https://dx.doi.org/10.1038/453714a">10.1038/453714a</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18528368">18528368</a></span></span></li> <li tag="ref"><a name="CR9" /><span class="label" tagx="label" title="label">9.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Brockmann</span><span class="given-names" tagx="given-names" title="given-names">D</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hufnagel</span><span class="given-names" tagx="given-names" title="given-names">L</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Geisel</span><span class="given-names" tagx="given-names" title="given-names">T</span></span></span><span class="mixed-article-title" title="mixed-article-title">The scaling laws of human travel</span><span class="source" tagx="source" title="source">Nature</span><span class="year" tagx="year" title="year">2006</span><span class="volume" tagx="volume" title="volume">439</span><span class="fpage" tagx="fpage" title="fpage">462</span><span class="lpage" tagx="lpage" title="lpage">465</span><span class="pub-id"><a href="https://dx.doi.org/10.1038/nature04292">10.1038/nature04292</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/16437114">16437114</a></span></span></li> <li tag="ref"><a name="CR10" /><span class="label" tagx="label" title="label">10.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">González</span><span class="given-names" tagx="given-names" title="given-names">MC</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hidalgo</span><span class="given-names" tagx="given-names" title="given-names">CA</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Barabási</span><span class="given-names" tagx="given-names" title="given-names">A-L</span></span></span><span class="mixed-article-title" title="mixed-article-title">Understanding individual human mobility patterns</span><span class="source" tagx="source" title="source">Nature</span><span class="year" tagx="year" title="year">2008</span><span class="volume" tagx="volume" title="volume">453</span><span class="fpage" tagx="fpage" title="fpage">779</span><span class="lpage" tagx="lpage" title="lpage">782</span><span class="pub-id"><a href="https://dx.doi.org/10.1038/nature06958">10.1038/nature06958</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18528393">18528393</a></span></span></li> <li tag="ref"><a name="CR11" /><span class="label" tagx="label" title="label">11.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Marco</span><span class="given-names" tagx="given-names" title="given-names">DE</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Montemurro</span><span class="given-names" tagx="given-names" title="given-names">MA</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Cannas</span><span class="given-names" tagx="given-names" title="given-names">SA</span></span></span><span class="mixed-article-title" title="mixed-article-title">Comparing short and long-distance dispersal: modelling and field case studies</span><span class="source" tagx="source" title="source">Ecography</span><span class="year" tagx="year" title="year">2013</span><span class="volume" tagx="volume" title="volume">34</span><span class="fpage" tagx="fpage" title="fpage">671</span><span class="lpage" tagx="lpage" title="lpage">682</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/j.1600-0587.2010.06477.x">10.1111/j.1600-0587.2010.06477.x</a></span></span></li> <li tag="ref"><a name="CR12" /><span class="label" tagx="label" title="label">12.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Suarez</span><span class="given-names" tagx="given-names" title="given-names">AV</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Holway</span><span class="given-names" tagx="given-names" title="given-names">DA</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Case</span><span class="given-names" tagx="given-names" title="given-names">TJ</span></span></span><span class="mixed-article-title" title="mixed-article-title">Patterns of spread in biological invasions dominated by long-distance jump dispersal: insights from Argentine ants</span><span class="source" tagx="source" title="source">Proc. Natl. Acad. Sci.</span><span class="year" tagx="year" title="year">2001</span><span class="volume" tagx="volume" title="volume">98</span><span class="fpage" tagx="fpage" title="fpage">1095</span><span class="lpage" tagx="lpage" title="lpage">1100</span><span class="pub-id"><a href="https://dx.doi.org/10.1073/pnas.98.3.1095">10.1073/pnas.98.3.1095</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/11158600">11158600</a></span></span></li> <li tag="ref"><a name="CR13" /><span class="label" tagx="label" title="label">13.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Spellerberg</span><span class="given-names" tagx="given-names" title="given-names">I</span></span></span><span class="mixed-article-title" title="mixed-article-title">Ecological effects of roads and traffic: a literature review</span><span class="source" tagx="source" title="source">Glob. Ecol. Biogeogr. Lett.</span><span class="year" tagx="year" title="year">1998</span><span class="volume" tagx="volume" title="volume">7</span><span class="fpage" tagx="fpage" title="fpage">317</span><span class="lpage" tagx="lpage" title="lpage">333</span><span class="pub-id"><a href="https://dx.doi.org/10.2307/2997681">10.2307/2997681</a></span></span></li> <li tag="ref"><a name="CR14" /><span class="label" tagx="label" title="label">14.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Arévalo</span><span class="given-names" tagx="given-names" title="given-names">JR</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Distribution of alien vs. native plant species in roadside communities along an altitudinal gradient in Tenerife and Gran Canaria (Canary Islands)</span><span class="source" tagx="source" title="source">Perspect. Plant Ecol. Evol. Syst.</span><span class="year" tagx="year" title="year">2005</span><span class="volume" tagx="volume" title="volume">7</span><span class="fpage" tagx="fpage" title="fpage">185</span><span class="lpage" tagx="lpage" title="lpage">202</span><span class="pub-id"><a href="https://dx.doi.org/10.1016/j.ppees.2005.09.003">10.1016/j.ppees.2005.09.003</a></span></span></li> <li tag="ref"><a name="CR15" /><span class="label" tagx="label" title="label">15.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Gelbard</span><span class="given-names" tagx="given-names" title="given-names">JL</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Harrison</span><span class="given-names" tagx="given-names" title="given-names">S</span></span></span><span class="mixed-article-title" title="mixed-article-title">Roadless habitats as refuges for native grasslands: interactions with soil, aspect, and grazing</span><span class="source" tagx="source" title="source">Ecol. Appl.</span><span class="year" tagx="year" title="year">2003</span><span class="volume" tagx="volume" title="volume">13</span><span class="fpage" tagx="fpage" title="fpage">404</span><span class="lpage" tagx="lpage" title="lpage">415</span><span class="pub-id"><a href="https://dx.doi.org/10.1890/1051-0761(2003)013[0404:RHARFN]2.0.CO;2">10.1890/1051-0761(2003)013[0404:RHARFN]2.0.CO;2</a></span></span></li> <li tag="ref"><a name="CR16" /><span class="label" tagx="label" title="label">16.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Spear</span><span class="given-names" tagx="given-names" title="given-names">D</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Foxcroft</span><span class="given-names" tagx="given-names" title="given-names">LC</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Bezuidenhout</span><span class="given-names" tagx="given-names" title="given-names">H</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">McGeoch</span><span class="given-names" tagx="given-names" title="given-names">MA</span></span></span><span class="mixed-article-title" title="mixed-article-title">Human population density explains alien species richness in protected areas</span><span class="source" tagx="source" title="source">Biol. Conserv.</span><span class="year" tagx="year" title="year">2013</span><span class="volume" tagx="volume" title="volume">159</span><span class="fpage" tagx="fpage" title="fpage">137</span><span class="lpage" tagx="lpage" title="lpage">147</span><span class="pub-id"><a href="https://dx.doi.org/10.1016/j.biocon.2012.11.022">10.1016/j.biocon.2012.11.022</a></span></span></li> <li tag="ref"><a name="CR17" /><span class="label" tagx="label" title="label">17.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Bossenbroek</span><span class="given-names" tagx="given-names" title="given-names">JM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Kraft</span><span class="given-names" tagx="given-names" title="given-names">CE</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Nekola</span><span class="given-names" tagx="given-names" title="given-names">JC</span></span></span><span class="mixed-article-title" title="mixed-article-title">Prediction of long-distance dispersal using gravity models: zebra mussel invasion of inland lakes</span><span class="source" tagx="source" title="source">Ecol. Appl.</span><span class="year" tagx="year" title="year">2001</span><span class="volume" tagx="volume" title="volume">11</span><span class="fpage" tagx="fpage" title="fpage">1778</span><span class="lpage" tagx="lpage" title="lpage">1788</span><span class="pub-id"><a href="https://dx.doi.org/10.1890/1051-0761(2001)011[1778:POLDDU]2.0.CO;2">10.1890/1051-0761(2001)011[1778:POLDDU]2.0.CO;2</a></span></span></li> <li tag="ref"><a name="CR18" /><span class="label" tagx="label" title="label">18.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Jongejans</span><span class="given-names" tagx="given-names" title="given-names">E</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">A unifying gravity framework for dispersal</span><span class="source" tagx="source" title="source">Theor. Ecol.</span><span class="year" tagx="year" title="year">2015</span><span class="volume" tagx="volume" title="volume">8</span><span class="fpage" tagx="fpage" title="fpage">207</span><span class="lpage" tagx="lpage" title="lpage">223</span><span class="pub-id"><a href="https://dx.doi.org/10.1007/s12080-014-0245-5">10.1007/s12080-014-0245-5</a></span></span></li> <li tag="ref"><a name="CR19" /><span class="label" tagx="label" title="label">19.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Leung</span><span class="given-names" tagx="given-names" title="given-names">B</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Bossenbroek</span><span class="given-names" tagx="given-names" title="given-names">JM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Lodge</span><span class="given-names" tagx="given-names" title="given-names">DM</span></span></span><span class="mixed-article-title" title="mixed-article-title">Boats, pathways, and aquatic biological invasions: estimating dispersal potential with gravity models</span><span class="source" tagx="source" title="source">Biol. Invasions</span><span class="year" tagx="year" title="year">2006</span><span class="volume" tagx="volume" title="volume">8</span><span class="fpage" tagx="fpage" title="fpage">241</span><span class="lpage" tagx="lpage" title="lpage">254</span><span class="pub-id"><a href="https://dx.doi.org/10.1007/s10530-004-5573-8">10.1007/s10530-004-5573-8</a></span></span></li> <li tag="ref"><a name="CR20" /><span class="label" tagx="label" title="label">20.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Muirhead</span><span class="given-names" tagx="given-names" title="given-names">JR</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Modelling local and long-distance dispersal of invasive emerald ash borer <i>Agrilus planipennis</i> (Coleoptera) in North America</span><span class="source" tagx="source" title="source">Divers. Distrib.</span><span class="year" tagx="year" title="year">2006</span><span class="volume" tagx="volume" title="volume">12</span><span class="fpage" tagx="fpage" title="fpage">71</span><span class="lpage" tagx="lpage" title="lpage">79</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/j.1366-9516.2006.00218.x">10.1111/j.1366-9516.2006.00218.x</a></span></span></li> <li tag="ref"><a name="CR21" /><span class="label" tagx="label" title="label">21.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Prasad</span><span class="given-names" tagx="given-names" title="given-names">AM</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Modeling the invasive emerald ash borer risk of spread using a spatially explicit cellular model</span><span class="source" tagx="source" title="source">Landsc. Ecol.</span><span class="year" tagx="year" title="year">2010</span><span class="volume" tagx="volume" title="volume">25</span><span class="fpage" tagx="fpage" title="fpage">353</span><span class="lpage" tagx="lpage" title="lpage">369</span><span class="pub-id"><a href="https://dx.doi.org/10.1007/s10980-009-9434-9">10.1007/s10980-009-9434-9</a></span></span></li> <li tag="ref"><a name="CR22" /><span class="label" tagx="label" title="label">22.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Higgins</span><span class="given-names" tagx="given-names" title="given-names">SI</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Richardson</span><span class="given-names" tagx="given-names" title="given-names">DM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Cowling</span><span class="given-names" tagx="given-names" title="given-names">RM</span></span></span><span class="mixed-article-title" title="mixed-article-title">Using a dynamic landscape model for planning the management of alien plant invasions</span><span class="source" tagx="source" title="source">Ecol. Appl.</span><span class="year" tagx="year" title="year">2000</span><span class="volume" tagx="volume" title="volume">10</span><span class="fpage" tagx="fpage" title="fpage">1833</span><span class="lpage" tagx="lpage" title="lpage">1848</span><span class="pub-id"><a href="https://dx.doi.org/10.1890/1051-0761(2000)010[1833:UADLMF]2.0.CO;2">10.1890/1051-0761(2000)010[1833:UADLMF]2.0.CO;2</a></span></span></li> <li tag="ref"><a name="CR23" /><span class="label" tagx="label" title="label">23.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hulme</span><span class="given-names" tagx="given-names" title="given-names">PE</span></span></span><span class="mixed-article-title" title="mixed-article-title">Biological invasions: winning the science battles but losing the conservation war?</span><span class="source" tagx="source" title="source">Oryx</span><span class="year" tagx="year" title="year">2003</span><span class="volume" tagx="volume" title="volume">37</span><span class="fpage" tagx="fpage" title="fpage">178</span><span class="lpage" tagx="lpage" title="lpage">193</span><span class="pub-id"><a href="https://dx.doi.org/10.1017/S003060530300036X">10.1017/S003060530300036X</a></span></span></li> <li tag="ref"><a name="CR24" /><span class="label" tagx="label" title="label">24.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Moody</span><span class="given-names" tagx="given-names" title="given-names">ME</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Mack</span><span class="given-names" tagx="given-names" title="given-names">RN</span></span></span><span class="mixed-article-title" title="mixed-article-title">Controlling the spread of plant invasions: the importance of nascent foci</span><span class="source" tagx="source" title="source">J. Appl. Ecol.</span><span class="year" tagx="year" title="year">1988</span><span class="volume" tagx="volume" title="volume">25</span><span class="fpage" tagx="fpage" title="fpage">1009</span><span class="lpage" tagx="lpage" title="lpage">1021</span><span class="pub-id"><a href="https://dx.doi.org/10.2307/2403762">10.2307/2403762</a></span></span></li> <li tag="ref"><a name="CR25" /><span class="label" tagx="label" title="label">25.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Wadsworth</span><span class="given-names" tagx="given-names" title="given-names">RA</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Collingham</span><span class="given-names" tagx="given-names" title="given-names">YC</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Willis</span><span class="given-names" tagx="given-names" title="given-names">SG</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Huntley</span><span class="given-names" tagx="given-names" title="given-names">B</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hulme</span><span class="given-names" tagx="given-names" title="given-names">PE</span></span></span><span class="mixed-article-title" title="mixed-article-title">Simulating the spread and management of alien riparian weeds: are they out of control?</span><span class="source" tagx="source" title="source">J. Appl. Ecol.</span><span class="year" tagx="year" title="year">2000</span><span class="volume" tagx="volume" title="volume">37</span><span class="fpage" tagx="fpage" title="fpage">28</span><span class="lpage" tagx="lpage" title="lpage">38</span><span class="pub-id"><a href="https://dx.doi.org/10.1046/j.1365-2664.2000.00551.x">10.1046/j.1365-2664.2000.00551.x</a></span></span></li> <li tag="ref"><a name="CR26" /><span class="label" tagx="label" title="label">26.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Taylor</span><span class="given-names" tagx="given-names" title="given-names">CM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Hastings</span><span class="given-names" tagx="given-names" title="given-names">A</span></span></span><span class="mixed-article-title" title="mixed-article-title">Finding optimal control strategies for invasive species: a density-structured model for <i>Spartina alterniflora</i></span><span class="source" tagx="source" title="source">J. Appl. Ecol.</span><span class="year" tagx="year" title="year">2004</span><span class="volume" tagx="volume" title="volume">41</span><span class="fpage" tagx="fpage" title="fpage">1049</span><span class="lpage" tagx="lpage" title="lpage">1057</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/j.0021-8901.2004.00979.x">10.1111/j.0021-8901.2004.00979.x</a></span></span></li> <li tag="ref"><a name="CR27" /><span class="label" tagx="label" title="label">27.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Maxwell</span><span class="given-names" tagx="given-names" title="given-names">BD</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Lehnhoff</span><span class="given-names" tagx="given-names" title="given-names">E</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Rew</span><span class="given-names" tagx="given-names" title="given-names">LJ</span></span></span><span class="mixed-article-title" title="mixed-article-title">The rationale for monitoring invasive plant populations as a crucial step for management</span><span class="source" tagx="source" title="source">Invasive Plant Sci. Manag.</span><span class="year" tagx="year" title="year">2009</span><span class="volume" tagx="volume" title="volume">2</span><span class="fpage" tagx="fpage" title="fpage">1</span><span class="lpage" tagx="lpage" title="lpage">9</span><span class="pub-id"><a href="https://dx.doi.org/10.1614/IPSM-07-054.1">10.1614/IPSM-07-054.1</a></span></span></li> <li tag="ref"><a name="CR28" /><span class="label" tagx="label" title="label">28.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Carrasco</span><span class="given-names" tagx="given-names" title="given-names">LR</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Baker</span><span class="given-names" tagx="given-names" title="given-names">R</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">MacLeod</span><span class="given-names" tagx="given-names" title="given-names">A</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Knight</span><span class="given-names" tagx="given-names" title="given-names">JD</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Mumford</span><span class="given-names" tagx="given-names" title="given-names">JD</span></span></span><span class="mixed-article-title" title="mixed-article-title">Optimal and robust control of invasive alien species spreading in homogeneous landscapes</span><span class="source" tagx="source" title="source">J. R. Soc. Interface</span><span class="year" tagx="year" title="year">2010</span><span class="volume" tagx="volume" title="volume">7</span><span class="fpage" tagx="fpage" title="fpage">529</span><span class="lpage" tagx="lpage" title="lpage">540</span><span class="pub-id"><a href="https://dx.doi.org/10.1098/rsif.2009.0266">10.1098/rsif.2009.0266</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19740923">19740923</a></span></span></li> <li tag="ref"><a name="CR29" /><span class="label" tagx="label" title="label">29.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Shigesada</span><span class="given-names" tagx="given-names" title="given-names">N</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Kawasaki</span><span class="given-names" tagx="given-names" title="given-names">K</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Takeda</span><span class="given-names" tagx="given-names" title="given-names">Y</span></span></span><span class="mixed-article-title" title="mixed-article-title">Modeling stratified diffusion in biological invasions</span><span class="source" tagx="source" title="source">Am. Nat.</span><span class="year" tagx="year" title="year">1995</span><span class="volume" tagx="volume" title="volume">146</span><span class="fpage" tagx="fpage" title="fpage">229</span><span class="pub-id"><a href="https://dx.doi.org/10.1086/285796">10.1086/285796</a></span></span></li> <li tag="ref"><a name="CR30" /><span class="label" tagx="label" title="label">30.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Shigesada</span><span class="given-names" tagx="given-names" title="given-names">N</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Kawasaki</span><span class="given-names" tagx="given-names" title="given-names">K</span></span></span><span class="source" tagx="source" title="source">Biological invasions: theory and practice</span><span class="year" tagx="year" title="year">1997</span><span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Oxford</span><span class="publisher-name" tagx="publisher-name" title="publisher-name">Oxford University Press</span></span></li> <li tag="ref"><a name="CR31" /><span class="label" tagx="label" title="label">31.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Takahashi</span><span class="given-names" tagx="given-names" title="given-names">D</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Sim</span><span class="given-names" tagx="given-names" title="given-names">S-W</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Park</span><span class="given-names" tagx="given-names" title="given-names">E-J</span></span></span><span class="mixed-article-title" title="mixed-article-title">Colonial population dynamics of <i>Spartina alterniflora</i></span><span class="source" tagx="source" title="source">Ecol. Model.</span><span class="year" tagx="year" title="year">2019</span><span class="volume" tagx="volume" title="volume">395</span><span class="fpage" tagx="fpage" title="fpage">45</span><span class="lpage" tagx="lpage" title="lpage">50</span><span class="pub-id"><a href="https://dx.doi.org/10.1016/j.ecolmodel.2019.01.013">10.1016/j.ecolmodel.2019.01.013</a></span></span></li> <li tag="ref"><a name="CR32" /><span class="label" tagx="label" title="label">32.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Drake</span><span class="given-names" tagx="given-names" title="given-names">JM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Lodge</span><span class="given-names" tagx="given-names" title="given-names">DM</span></span></span><span class="mixed-article-title" title="mixed-article-title">Global hot spots of biological invasions: evaluating options for ballast-water management</span><span class="source" tagx="source" title="source">Proc. R. Soc. B Biol. Sci.</span><span class="year" tagx="year" title="year">2004</span><span class="volume" tagx="volume" title="volume">271</span><span class="fpage" tagx="fpage" title="fpage">575</span><span class="lpage" tagx="lpage" title="lpage">580</span><span class="pub-id"><a href="https://dx.doi.org/10.1098/rspb.2003.2629">10.1098/rspb.2003.2629</a></span></span></li> <li tag="ref"><a name="CR33" /><span class="label" tagx="label" title="label">33.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Johansson</span><span class="given-names" tagx="given-names" title="given-names">ML</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Human-mediated and natural dispersal of an invasive fish in the eastern Great Lakes</span><span class="source" tagx="source" title="source">Heredity</span><span class="year" tagx="year" title="year">2018</span><span class="volume" tagx="volume" title="volume">120</span><span class="fpage" tagx="fpage" title="fpage">533</span><span class="lpage" tagx="lpage" title="lpage">546</span><span class="pub-id"><a href="https://dx.doi.org/10.1038/s41437-017-0038-x">10.1038/s41437-017-0038-x</a></span><span class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/29317757">29317757</a></span></span></li> <li tag="ref"><a name="CR34" /><span class="label" tagx="label" title="label">34.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Fotheringham</span><span class="given-names" tagx="given-names" title="given-names">AS</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">O’Kelly</span><span class="given-names" tagx="given-names" title="given-names">ME</span></span></span><span class="source" tagx="source" title="source">Spatial Interaction Models: Formulations and Applications</span><span class="year" tagx="year" title="year">1989</span><span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">London</span><span class="publisher-name" tagx="publisher-name" title="publisher-name">Kluwer Academic Publishers</span></span></li> <li tag="ref"><a name="CR35" /><span class="label" tagx="label" title="label">35.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Choi</span><span class="given-names" tagx="given-names" title="given-names">WI</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Dispersal patterns of pine wilt disease in the early stage of its invasion in South Korea</span><span class="source" tagx="source" title="source">Forests</span><span class="year" tagx="year" title="year">2017</span><span class="volume" tagx="volume" title="volume">8</span><span class="fpage" tagx="fpage" title="fpage">411</span><span class="pub-id"><a href="https://dx.doi.org/10.3390/f8110411">10.3390/f8110411</a></span></span></li> <li tag="ref"><a name="CR36" /><span class="label" tagx="label" title="label">36.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Brockerhoff</span><span class="given-names" tagx="given-names" title="given-names">EG</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Liebhold</span><span class="given-names" tagx="given-names" title="given-names">AM</span></span></span><span class="mixed-article-title" title="mixed-article-title">Ecology of forest insect invasions</span><span class="source" tagx="source" title="source">Biol. Invasions</span><span class="year" tagx="year" title="year">2017</span><span class="volume" tagx="volume" title="volume">19</span><span class="fpage" tagx="fpage" title="fpage">3141</span><span class="lpage" tagx="lpage" title="lpage">3159</span><span class="pub-id"><a href="https://dx.doi.org/10.1007/s10530-017-1514-1">10.1007/s10530-017-1514-1</a></span></span></li> <li tag="ref"><a name="CR37" /><span class="label" tagx="label" title="label">37.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Lee</span><span class="given-names" tagx="given-names" title="given-names">D-S</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Nam</span><span class="given-names" tagx="given-names" title="given-names">Y</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Choi</span><span class="given-names" tagx="given-names" title="given-names">W</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Park</span><span class="given-names" tagx="given-names" title="given-names">Y-S</span></span></span><span class="mixed-article-title" title="mixed-article-title">Environmental Factors Influencing on the Occurrence of Pine Wilt Disease in Korea</span><span class="source" tagx="source" title="source">Korean J. Ecol. Environ.</span><span class="year" tagx="year" title="year">2017</span><span class="volume" tagx="volume" title="volume">50</span><span class="fpage" tagx="fpage" title="fpage">374</span><span class="lpage" tagx="lpage" title="lpage">380</span><span class="pub-id"><a href="https://dx.doi.org/10.11614/KSL.2017.50.4.374">10.11614/KSL.2017.50.4.374</a></span></span></li> <li tag="ref"><a name="CR38" /><span class="label" tagx="label" title="label">38.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Donaldson</span><span class="given-names" tagx="given-names" title="given-names">JE</span></span><span class="etal" title="etal"><i>et al.</i></span></span><span class="mixed-article-title" title="mixed-article-title">Invasion trajectory of alien trees: the role of introduction pathway and planting history</span><span class="source" tagx="source" title="source">Glob. Change Biol.</span><span class="year" tagx="year" title="year">2014</span><span class="volume" tagx="volume" title="volume">20</span><span class="fpage" tagx="fpage" title="fpage">1527</span><span class="lpage" tagx="lpage" title="lpage">1537</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/gcb.12486">10.1111/gcb.12486</a></span></span></li> <li tag="ref"><a name="CR39" /><span class="label" tagx="label" title="label">39.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Yang</span><span class="given-names" tagx="given-names" title="given-names">W</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Wang</span><span class="given-names" tagx="given-names" title="given-names">Q</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Pan</span><span class="given-names" tagx="given-names" title="given-names">X</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Li</span><span class="given-names" tagx="given-names" title="given-names">B</span></span></span><span class="mixed-article-title" title="mixed-article-title">Estimation of the probability of long-distance dispersal: stratified diffusion of <i>Spartina alterniflora</i> in the Yangtze River Estuary</span><span class="source" tagx="source" title="source">Am. J. Plant Sci.</span><span class="year" tagx="year" title="year">2014</span><span class="volume" tagx="volume" title="volume">05</span><span class="fpage" tagx="fpage" title="fpage">3642</span><span class="pub-id"><a href="https://dx.doi.org/10.4236/ajps.2014.524380">10.4236/ajps.2014.524380</a></span></span></li> <li tag="ref"><a name="CR40" /><span class="label" tagx="label" title="label">40.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Sánchez</span><span class="given-names" tagx="given-names" title="given-names">JM</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">SanLeon</span><span class="given-names" tagx="given-names" title="given-names">DG</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Izco</span><span class="given-names" tagx="given-names" title="given-names">J</span></span></span><span class="mixed-article-title" title="mixed-article-title">Primary colonisation of mudflat estuaries by Spartina maritima (Curtis) Fernald in Northwest Spain: vegetation structure and sediment accretion</span><span class="source" tagx="source" title="source">Aquat. Bot.</span><span class="year" tagx="year" title="year">2001</span><span class="volume" tagx="volume" title="volume">69</span><span class="fpage" tagx="fpage" title="fpage">15</span><span class="lpage" tagx="lpage" title="lpage">25</span><span class="pub-id"><a href="https://dx.doi.org/10.1016/S0304-3770(00)00139-X">10.1016/S0304-3770(00)00139-X</a></span></span></li> <li tag="ref"><a name="CR41" /><span class="label" tagx="label" title="label">41.</span><span class="element-citation'"><span class="person-group'"><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Taylor</span><span class="given-names" tagx="given-names" title="given-names">K</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Brummer</span><span class="given-names" tagx="given-names" title="given-names">T</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Taper</span><span class="given-names" tagx="given-names" title="given-names">ML</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Wing</span><span class="given-names" tagx="given-names" title="given-names">A</span></span><span class="name" tagx="name" title="name"><span class="surname" tagx="surname" title="surname">Rew</span><span class="given-names" tagx="given-names" title="given-names">LJ</span></span></span><span class="mixed-article-title" title="mixed-article-title">Human-mediated long-distance dispersal: an empirical evaluation of seed dispersal by vehicles</span><span class="source" tagx="source" title="source">Divers. Distrib.</span><span class="year" tagx="year" title="year">2012</span><span class="volume" tagx="volume" title="volume">18</span><span class="fpage" tagx="fpage" title="fpage">942</span><span class="lpage" tagx="lpage" title="lpage">951</span><span class="pub-id"><a href="https://dx.doi.org/10.1111/j.1472-4642.2012.00926.x">10.1111/j.1472-4642.2012.00926.x</a></span></span></li> </ul> </div> </div>  </body></html>

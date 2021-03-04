@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In addition, we also inferred population structure and population assignment simultaneously with a Bayesian Markov Chain Monte Carlo (MCMC) clustering approach implemented in STRUCTURE v. 2.3.4 (Falush, Stephens, &amp; Pritchard, 
+ <xref rid="ece33869-bib-0025" ref-type="ref">2007</xref>; Pritchard, Stephens, &amp; Donnelly, 
+ <xref rid="ece33869-bib-0077" ref-type="ref">2000</xref>). Like for DAPC, we first run the analysis with all three populations with 
+ <italic>K</italic> set from one to eight, and subsequently without the NA native group with 
+ <italic>K</italic> from one to six. For each 
+ <italic>K</italic> value, we ran 10 replicates with 300,000 burn‐in iterations and 1,000,000 MCMC iterations. For both STRUCTURE analyses, we chose the admixture model and correlated allelic frequencies, and no prior information on individual's origin. We followed the method of Evanno, Regnaut, and Goudet (
+ <xref rid="ece33869-bib-0024" ref-type="ref">2005</xref>) and used the ad hoc statistic ∆
+ <italic>K</italic> as the criterion to identify the most likely number of clusters (
+ <italic>K</italic>), that is, when 
+ <italic>∆K</italic> is highest. This test was run with STRUCTURE HARVESTER (Earl &amp; Vonholdt, 
+ <xref rid="ece33869-bib-0020" ref-type="ref">2012</xref>). CLUMPAK (Kopelman, Mayzel, Jakobsson, Rosenberg, &amp; Mayrose, 
+ <xref rid="ece33869-bib-0051" ref-type="ref">2015</xref>) was then used to merge and visualize the results.
+</p>

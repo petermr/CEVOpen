@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To complete our IPM model, here we specify 
+ <math id="nlm-math-2">
+  <mrow>
+   <msub>
+    <mi>c</mi>
+    <mn>0</mn>
+   </msub>
+   <mfenced close=")" open="(" separators="">
+    <mrow>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>,</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">f</mi>
+     </msub>
+    </mrow>
+   </mfenced>
+   <mo>=</mo>
+   <mi>P</mi>
+   <mo stretchy="false">(</mo>
+   <msup>
+    <mi>z</mi>
+    <mo>′</mo>
+   </msup>
+   <mo stretchy="false">|</mo>
+   <msub>
+    <mi>d</mi>
+    <mi mathvariant="normal">f</mi>
+   </msub>
+   <mo stretchy="false">)</mo>
+  </mrow>
+ </math>, a probability distribution of 
+ <italic>z</italic>′‐sized offspring produced by a mother plant reaching full flowering on date 
+ <italic>d</italic>
+ <sub>f</sub>. By the law of total probability
+ <disp-formula id="ecy3219-disp-0002">
+  <label>(2)</label>
+  <math id="nlm-math-3">
+   <mrow>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo stretchy="false">|</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">f</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <munder>
+     <mo>∑</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">r</mi>
+     </msub>
+    </munder>
+    <mrow>
+     <mi>P</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">r</mi>
+      </msub>
+      <mo stretchy="false">|</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">f</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>P</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>z</mi>
+       <mo>′</mo>
+      </msup>
+      <mo stretchy="false">|</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">r</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">f</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+    <mo>=</mo>
+    <munder>
+     <mo>∑</mo>
+     <msub>
+      <mi>d</mi>
+      <mi mathvariant="normal">r</mi>
+     </msub>
+    </munder>
+    <mrow>
+     <mi>P</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">r</mi>
+      </msub>
+      <mo stretchy="false">|</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">f</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>P</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>z</mi>
+       <mo>′</mo>
+      </msup>
+      <mo stretchy="false">|</mo>
+      <msub>
+       <mi>d</mi>
+       <mi mathvariant="normal">r</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>d</italic>
+ <sub>r</sub> is the date of seed release (
+ <math id="nlm-math-4">
+  <mrow>
+   <msub>
+    <mi>d</mi>
+    <mi>r</mi>
+   </msub>
+   <mo>≥</mo>
+   <msub>
+    <mi>d</mi>
+    <mi>f</mi>
+   </msub>
+  </mrow>
+ </math>). The last equality in Eq. (
+ <xref rid="ecy3219-disp-0002" ref-type="disp-formula">2</xref>) holds, because we assume that the seedlings grow once the seeds are released irrespective of when the mother has flowered, i.e., 
+ <math id="nlm-math-5">
+  <mrow>
+   <mi>P</mi>
+   <mo stretchy="false">(</mo>
+   <msup>
+    <mi>z</mi>
+    <mo>′</mo>
+   </msup>
+   <mo stretchy="false">|</mo>
+   <msub>
+    <mi>d</mi>
+    <mi>r</mi>
+   </msub>
+   <mo>,</mo>
+   <msub>
+    <mi>d</mi>
+    <mi>f</mi>
+   </msub>
+   <mrow>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>P</mi>
+   </mrow>
+   <mrow>
+    <mo stretchy="false">(</mo>
+    <msup>
+     <mi>z</mi>
+     <mo>′</mo>
+    </msup>
+    <mo stretchy="false">|</mo>
+    <msub>
+     <mi>d</mi>
+     <mi>r</mi>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </mrow>
+  </mrow>
+ </math>. We compute Eq. (
+ <xref rid="ecy3219-disp-0002" ref-type="disp-formula">2</xref>) by the following. First, mother plants flower on a given day of the year 
+ <italic>d</italic>
+ <sub>f</sub>. After flowering, seeds are fertilized, mature, and are released a number of days later, on day of year 
+ <italic>d</italic>
+ <sub>r</sub>. We estimated the probability of seeds being released on a particular day of year provided that the mother plant flowered on a particular day 
+ <italic>P</italic>(
+ <italic>d</italic>
+ <sub>r</sub>|
+ <italic>d</italic>
+ <sub>f</sub>) based on data from McCarty (
+ <xref rid="ecy3219-bib-0018" ref-type="ref">1982</xref>), which details seed counts from flower heads collected over time after the first terminal flower head on an individual reached full bloom [McCarty 
+ <xref rid="ecy3219-bib-0018" ref-type="ref">1982</xref>]. Second, after being released, seeds germinate and grow to an end‐of‐season size 
+ <italic>z</italic>′. We estimated the probability of seeds reaching size 
+ <italic>z</italic>′ provided that they were released on a particular day 
+ <italic>P</italic>(
+ <italic>z</italic>′|
+ <italic>d</italic>
+ <sub>r</sub>) using a two‐step process. First we estimated the joint probability 
+ <italic>P</italic>(
+ <italic>z</italic>′, 
+ <italic>d</italic>
+ <sub>r</sub>) by two‐dimensional probability density kernel estimation (package KernSmooth in R v. 3.4.1; Ripley 
+ <xref rid="ecy3219-bib-0031" ref-type="ref">2002</xref>) fit to data describing end‐of‐season rosette sizes reached by individuals planted on different dates throughout our field experiment. We selected smoothing parameters for the estimation process that avoided overfitting while still reflecting differences in sizes reached by seeds arriving on different dates. Then, we calculated the conditional probability 
+ <italic>P</italic>(
+ <italic>z</italic>′|
+ <italic>d</italic>
+ <sub>r</sub>) using the Kolmogorov definition of conditional probability
+ <disp-formula id="ecy3219-disp-0003">
+  <label>(3)</label>
+  <math id="nlm-math-6">
+   <mrow>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>z</mi>
+      <mo>′</mo>
+     </msup>
+     <mo stretchy="false">|</mo>
+     <msub>
+      <mi>d</mi>
+      <mi>r</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>z</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>,</mo>
+      <msub>
+       <mi>d</mi>
+       <mi>r</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mi>P</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>d</mi>
+       <mi>r</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mfrac>
+    <mo>.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

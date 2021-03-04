@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Distribution models were created using a random forests (RF) approach
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup>, as implemented in the 
+ <italic>randomForest</italic> package in R (version 4.6–14; R version 3.6.1)
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>,
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup>. Pseudo absences were generated for each species according to the recommendations outlined in Barbet-Massin et al. (2012)
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>
+ </sup>. Prior to analysis, model selection was conducted for each species using the approach described by Murphy et al. (2010)
+ <sup>
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup> and as implemented by the modelSel() function of the 
+ <italic>rfUtilities</italic> package (version 2.1-5)
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>
+ </sup>. This approach allows for parsimonious model and variable selection without sacrificing model performance. We used a row standardization approach to model selection with a parsimony factor (allowable error for competing models) of 0.05. This process allowed us to eliminate 11 variables from our analyses, as they either had consistently low importance or demonstrated high multicollinearity with more important variables. Variables used for model training therefore included: elevation, soil particle size, soil drainage, soil taxonomic group, mean annual temperature, mean annual precipitation, mean temperature of the coldest quarter, mean temperature of the warmest quarter, mean precipitation of the driest quarter, mean precipitation of the wettest quarter, precipitation seasonality (coefficient of variation of precipitation), and temperature seasonality (standard deviation * 100).
+</p>

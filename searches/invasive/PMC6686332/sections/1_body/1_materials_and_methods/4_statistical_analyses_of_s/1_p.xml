@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We conducted three sets of analyses to evaluate the relationship between 
+ <italic>A. petiolata</italic>'s sinigrin production and demography. First, we used linear regressions to quantify the relationships between λ
+ <sub>S</sub>, seedling root sinigrin concentration and early survival (Fig. 
+ <xref rid="fec12685-fig-0002" ref-type="fig">2</xref>). Next, we used GLMMs with the 
+ <sc>lme4</sc> package in R (Bates 
+ <italic>et al</italic>. 
+ <xref rid="fec12685-bib-0002" ref-type="ref">2014</xref>) to assess the relationships between individual, quadrat‐level, vital rates and sinigrin. We fit two models for each vital rate: one included sinigrin concentration as a covariate, and the other was a null, intercept‐only model. All models included random intercepts for quadrat and year effects to control for correlations between observations made within the same quadrat or year. Models were fitted using binomial errors for vital rates that measured survival or other binary outcomes (germination 1, germination 2 and dormant seed survival, seedling survival, summer rosette survival and winter rosette survival). Models of fecundity used Poisson errors. After fitting the sinigrin and null models for each vital rate, we ranked the two models using AICc and Akaike weights (
+ <italic>w</italic>) to determine whether to retain the sinigrin covariate (Anderson 
+ <xref rid="fec12685-bib-0001" ref-type="ref">2008</xref>).
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">Grid sampling data was georeferenced with latitude and longitude using Google Earth. Using ArcGIS Pro, a polyline was drawn around the wood edge for each vineyard, and the distance of each grid sampling point was then calculated to the nearest wood edge (‘Near’ tool, ArcGIS Pro version 2.5.0). The distance from the wooded edge and the number of SLF (adults and egg masses) were then analyzed using a GLMM with row and vineyard as random nested effects using a Poisson distribution in R. The number and position of SLF in each vineyard were also analyzed in ArcGIS Pro using Anselin Local Moran’s I tool to determine spatial relatedness of points
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>,
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. A Moran’s I Index value of 1 signifies strong spatial autocorrelation (clustering), 0 indicates no spatial autocorrelation (random), and -1 indicates highly dispersed autocorrelation. Empirical Bayesian Kriging (EBK) was also used to observe spatial trends in abundance of egg masses and adult SLF within each vineyard block. EBK is a mapping method to predict unmeasured values using measured values within a spatial framework
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. For all EBK models, the power function was used to create the semiovariograms.
+</p>

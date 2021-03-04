@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here we use the citrus canker system as a case study to illustrate general principles underlying the effectiveness of control. Parameters can readily be adapted via our front-end interface to reflect other pathosystems (
+ <italic>cf</italic>. 
+ <xref rid="pcbi.1004211.s002" ref-type="supplementary-material">S2 Text</xref>, which describes the application of our model to HLB, and 
+ <xref rid="pcbi.1004211.s004" ref-type="supplementary-material">S1</xref>–
+ <xref rid="pcbi.1004211.s006" ref-type="supplementary-material">S3</xref> Figs., which show the results). As defaults we therefore use illustrative parameters informed by the biology [
+ <xref rid="pcbi.1004211.ref029" ref-type="bibr">29</xref>,
+ <xref rid="pcbi.1004211.ref030" ref-type="bibr">30</xref>] and adapted from previous models of citrus canker [
+ <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+ <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>,
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>,
+ <xref rid="pcbi.1004211.ref025" ref-type="bibr">25</xref>] (
+ <xref rid="pcbi.1004211.t001" ref-type="table">Table 1</xref>) to drive our mathematical model. The host population is surveyed every 90 days [
+ <xref rid="pcbi.1004211.ref030" ref-type="bibr">30</xref>], symptomatic hosts are detected with probability 0.8, and host removal occurs exactly 60 days after detection [
+ <xref rid="pcbi.1004211.ref029" ref-type="bibr">29</xref>]. The default cull radius is set to be 75m; this default radius was chosen to emphasise the range of outcomes that is possible for a single control strategy, even when all parameters remain fixed. Epidemics are seeded with two exposed hosts at 
+ <italic>t</italic> = 0 (a different pair of hosts for each realisation). The average latent period is 10d [
+ <xref rid="pcbi.1004211.ref029" ref-type="bibr">29</xref>] and symptoms take an average of 110d to emerge following infection [
+ <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>]. The dispersal kernel is exponential, with mean dispersal distance of 40m (i.e. 
+ <italic>α</italic> = 20m), and we take the rate of secondary infection to be β = 0.03d
+ <sup>-1</sup> (
+ <italic>cf</italic>. the values of 
+ <italic>α</italic> = 37m and β = 0.036d
+ <sup>-1</sup> as used in the analyses of Cook 
+ <italic>et al</italic>. and Parnell 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref011" ref-type="bibr">11</xref>,
+ <xref rid="pcbi.1004211.ref012" ref-type="bibr">12</xref>,
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>], after accounting for our normalisation of the dispersal kernel). We selected default dispersal scale and infection rate parameters that lead to slightly slower and more spatially-restricted spread in comparison with those in previous analyses. This allows us to present extensive sensitivity analyses to parameters that would be expected to make control more difficult (e.g. long cryptic periods, lengthy delays between detection and tree removal), without optimal controls degenerating to immediate removal of the entire population at the time of the first control for our rather small population of interest. However, we demonstrate the robustness of our results to this slight alteration of the parameters in 
+ <xref rid="pcbi.1004211.s003" ref-type="supplementary-material">S3 Text</xref> and 
+ <xref rid="pcbi.1004211.s007" ref-type="supplementary-material">S4</xref>–
+ <xref rid="pcbi.1004211.s009" ref-type="supplementary-material">S6</xref> Figs., in which we repeat a selection of the analyses using exactly the parameters of Cook 
+ <italic>et al</italic>. [
+ <xref rid="pcbi.1004211.ref024" ref-type="bibr">24</xref>] as a baseline.
+</p>

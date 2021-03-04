@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We consider a set Ω of 
+ <italic>N</italic> 1-km square grid cells, from within each of which 
+ <italic>n</italic> hosts are assessed (using a detection method with given performance characteristics) every Δ
+ <italic>t</italic> units of time. We aim to identify which Ω (that is, arrangement of surveillance sites) gives the highest probability of detection (
+ <italic>p</italic>(Ω, 
+ <italic>n</italic>, Δ
+ <italic>t</italic>)) before the state-wide prevalence threshold is reached. In the current study, we allowed each site to be selected only once. Because complete enumeration of all possible arrangements is not feasible for a problem of this scale, we used a stochastic optimisation algorithm, simulated annealing, with an exponential cooling schedule [
+ <xref rid="pbio.3000863.ref041" ref-type="bibr">41</xref>] to approximate the optimal arrangement of sites, using the output of the simulation model. More details of the algorithm are provided in 
+ <xref ref-type="supplementary-material" rid="pbio.3000863.s001">S1 Text</xref>.
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The multivariate discriminant analysis of principal components (DAPC, Jombart, Devillard, &amp; Balloux, 
+ <xref rid="ece33869-bib-0045" ref-type="ref">2010</xref>) seeks linear combinations between data (binary loci in our study), which maximize differences between groups while minimize variation within groups. It first performs a principal component analysis (PCA) of the genetic binary dataset and then runs the discriminant analysis (DA) with the PCA components as the input variables. In addition, the analysis can derive probabilities for each individual of membership in each of the different resulting clusters based on the retained discriminant functions. The DAPC was performed using the R package 
+ <italic>adegenet</italic> (Jombart, 
+ <xref rid="ece33869-bib-0044" ref-type="ref">2008</xref>) with the binary matrix. By inferring a maximum cluster number (
+ <italic>K</italic>), the package runs the 
+ <italic>K</italic>‐means clustering algorithm sequentially and identifies an optimal number of genetic clusters via the Bayesian information criterion (BIC) within the inferred 
+ <italic>K</italic> range. We ran DAPC twice, first with all three populations (EU native, NA invasive, and NA native), and then without NA native, to detect the structure of the native and introduced populations of the invasive European lineage. The maximum 
+ <italic>K</italic> was set to 40 for both runs.
+</p>

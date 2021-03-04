@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The effect of the experimental treatment on the morphological and metabolic phenotypes of the plants was assessed by running principal component analyses (PCAs). Analyses of variance (ANOVAs) was conducted to assess the effect of the experimental conditions on the morphological traits of the plants and metabolite concentrations, with morphotype, experimental conditions, and replicates as factors, and their two‐way interactions. The residuals normality and the homoscedasticity were verified by Shapiro–Wilk's and Bartlett's tests, and normality was achieved by transforming morphological traits and the metabolite concentrations (Cos or Log
+ <sub>10</sub>; Table 
+ <xref rid="ece33848-sup-0001" ref-type="supplementary-material">S1</xref>). The Tukey honestly significant difference test was used to compare means for morphological and metabolomic data, respectively. Statistical analyses were performed with the software R 3.2.2 (R Development Core Team 
+ <xref rid="ece33848-bib-0048" ref-type="ref">2008</xref>) using the package and plugin FactoMineR (Lê, Josse, &amp; Husson, 
+ <xref rid="ece33848-bib-0038" ref-type="ref">2008</xref>) and the interface Rcmdr (Fox, 
+ <xref rid="ece33848-bib-0014" ref-type="ref">2005</xref>). Finally, we tried to link metabolites whose concentration varied among the experimental treatments with metabolic pathways. To achieve this goal, we performed pathway enrichment analyses in Metaboanalyst 3.0 (Xia, Sinelnikov, Han, &amp; Wishart, 
+ <xref rid="ece33848-bib-0057" ref-type="ref">2015</xref>). Fisher's exact test algorithm was performed for these pathway analyses, with 
+ <italic>Arabidopsis thaliana</italic> as the reference model. In this procedure, the number of hits between the metabolites in our dataset and all metabolites of a given pathway were calculated. Data presented in the figures are untransformed.
+</p>

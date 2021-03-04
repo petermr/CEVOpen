@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">The impact of climate change on each species’ predicted distribution over time was assessed using a mixed-effects model with the predicted distribution area as the response and the climate scenario as a fixed-effect variable and data source-set as a random factor. The impact of data set source on predicted distribution was assessed similarly, with predicted distribution area as the response variable and data set source as a fixed-effect variable and climate model as a random factor. Mixed-effects models were computed using the 
+ <italic>lme4</italic> package in R (version 1.1–21)
+ <sup>
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup>. The impact of data set source on model performance was assessed for each species using linear models. To visualize the impact of climate change scenario and data set source on model estimates, density plots were created for each model. To assess uncertainty associated with data source (public, public and private, all available data), we computed standard deviation rasters for modeled current distributions as well as each climate change scenario and timepoint.
+</p>

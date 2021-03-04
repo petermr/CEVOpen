@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Deep neural networks for classification have two major components: a feature extraction stage and a prediction stage. At the first stage, convolutional operators are trained in order to extract salient and meaningful features (such as texture) while at the second stage these features are used to predict the final labels for the given input patch or image. In order to train general and robust feature extractors, a large pool of heterogeneous images with different properties (lightning, colour, view, etc.) is needed to capture all of the possible image variabilities. However, as proven by our previous work [
+ <xref rid="B20-sensors-21-00471" ref-type="bibr">20</xref>,
+ <xref rid="B43-sensors-21-00471" ref-type="bibr">43</xref>], transfer learning is a useful tool for image analysis applications, where the training dataset is too small to properly train these feature extractors from scratch.
+</p>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Kinetic models can simulate the data of contact time experiments. This study was simulated by both the linear first-order Lagergren (Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>)) and pseudo second-order (Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>)) models [
+ <xref ref-type="bibr" rid="CR6">6</xref>,
+ <xref ref-type="bibr" rid="CR32">32</xref>-
+ <xref ref-type="bibr" rid="CR34">34</xref>]:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \ln \left({q}_e-{q}_t\right)= \ln {q}_e-k\hbox{'}t $$\end{document}</tex-math>
+   <math id="M4">
+    <mo>ln</mo>
+    <mfenced close=")" open="(">
+     <mrow>
+      <msub>
+       <mi>q</mi>
+       <mi mathvariant="italic">e</mi>
+      </msub>
+      <mo>−</mo>
+      <msub>
+       <mi mathvariant="italic">q</mi>
+       <mi mathvariant="italic">t</mi>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <mo>ln</mo>
+    <msub>
+     <mi>q</mi>
+     <mi mathvariant="italic">e</mi>
+    </msub>
+    <mo>−</mo>
+    <mi>k</mi>
+    <mo>'</mo>
+    <mi>t</mi>
+   </math>
+   <graphic xlink:href="40201_2015_191_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \frac{t}{q_t}=\left(\frac{1}{q_e}\right)t+\frac{1}{{2{k}_P{q}_e}^2} $$\end{document}</tex-math>
+   <math id="M6">
+    <mfrac>
+     <mi>t</mi>
+     <msub>
+      <mi mathvariant="italic">q</mi>
+      <mi mathvariant="italic">t</mi>
+     </msub>
+    </mfrac>
+    <mo>=</mo>
+    <mfenced close=")" open="(">
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mi mathvariant="italic">e</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mfenced>
+    <mi>t</mi>
+    <mo>+</mo>
+    <mfrac>
+     <mn>1</mn>
+     <msup>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>k</mi>
+        <mi mathvariant="italic">P</mi>
+       </msub>
+       <msub>
+        <mi>q</mi>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mfrac>
+   </math>
+   <graphic xlink:href="40201_2015_191_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

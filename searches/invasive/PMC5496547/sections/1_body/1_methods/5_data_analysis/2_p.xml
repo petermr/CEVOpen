@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate patterns of similarity on invasive species richness among islands, we calculated Sørensen coefficients as 
+ <italic>S</italic>
+ <sub>ø </sub>
+ <italic>= </italic>(
+ <italic>2C/A + B</italic>)
+ <italic>*</italic>100, where 
+ <italic>A</italic> and 
+ <italic>B</italic> are the number of invasive species found on island A and B, respectively, and 
+ <italic>C</italic> is the number of invasive species common to both islands (McGarigal, 
+ <xref rid="ece32984-bib-0036" ref-type="ref">2000</xref>). The 
+ <italic>S</italic>
+ <sub>ø</sub> coefficient varies between 0 (completely different) and 100 (identical). Additionally, to test if there was a correlation between similarity coefficients and the geographical distance among islands, we used a Mantel test comparing the matrix of 
+ <italic>S</italic>
+ <sub>ø</sub> values for all island pairs and a matrix of corresponding geographical distances. The statistical significance of the resultant correlation was determined by a Monte Carlo simulation with 10,000 permutations (Legendre &amp; Vaudor, 
+ <xref rid="ece32984-bib-0025" ref-type="ref">1991</xref>). Generalized linear models (GLM) were used to assess the relationships between invasive species diversity and geographical, socioeconomic, and environmental factors among islands. In these analyses, the factors evaluated as explanatory variables were the following: island area, elevation, forest cover, population density, gross domestic product (GDP) per capita, and kilometers of paved roadways (Table 
+ <xref rid="ece32984-tbl-0001" ref-type="table-wrap">1</xref>), while the number of invasive species per island and the ratio of invasive to native species were used as dependent variables. When the number of invasive species per island was evaluated as the dependent variable, we used GLM with a negative binomial model, but when the ratio of invasive to native species was the depended variable, we used GLM with a beta regression model. The beta regression method is an extension of the GLM and it is especially meant for modeling rates and proportions, as these data are non‐normally distributed, while the negative binomial method is more appropriate for count data with a variance that is greater than the mean (McCullagh &amp; Nelder, 
+ <xref rid="ece32984-bib-0035" ref-type="ref">1989</xref>). We started by creating a “full model” including all variables together, and then new models were created by simplifications of the full model to evaluate explanatory variables. As a result, a total of 64 models including all possible explanatory variable combinations were created for each dependent variable. All models evaluated are included in Appendices 
+ <xref rid="ece32984-sup-0001" ref-type="supplementary-material">S3</xref> and 
+ <xref rid="ece32984-sup-0001" ref-type="supplementary-material">S4</xref>. Model selection was performed using the corrected Akaike's information criterion (AICc), a modification of the AIC that include a bias correction term for small sample size (Burnham &amp; Anderson, 
+ <xref rid="ece32984-bib-0009" ref-type="ref">2002</xref>). In general, the model with the smallest AICc is considered the best model and AICc differences between 0 and 2 suggest weak differences among the models while differences larger than 4 are considered to be large (Arnold, 
+ <xref rid="ece32984-bib-0006" ref-type="ref">2010</xref>). All analyses were carried out in the R statistical program (R Development Core Team, 
+ <xref rid="ece32984-bib-0505" ref-type="ref">2009</xref>), using the 
+ <italic>glm.nb</italic> function in MASS package and 
+ <italic>betareg</italic> function in the betareg package in conjunction with the 
+ <italic>dredge</italic> function in the MuMin package for comparing all models.
+</p>

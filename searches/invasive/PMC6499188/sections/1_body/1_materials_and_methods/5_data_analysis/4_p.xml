@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We then performed separate variation partitioning (
+ <xref rid="B60" ref-type="bibr">Legendre and Legendre, 2012</xref>) analyses for each response variable using RDA with the function varpart. Factors across hierarchical scales are often intercorrelated, which can make it challenging to disentangle the independent effects of possible causal variables (
+ <xref rid="B66" ref-type="bibr">Matthews et al., 2009</xref>). Variation partitioning among sets of explanatory variables is a method that evaluates the relative importance and confounding of factors across multiple hierarchical levels (
+ <xref rid="B19" ref-type="bibr">Cushman and McGarigal, 2002</xref>). The variation partitioning procedure uses partial ordinations to determine (1) the amount of variation independently attributable to each set of predictors after accounting for the effects of the other sets of predictors and (2) the amount of variation shared among sets of predictors (
+ <xref rid="B66" ref-type="bibr">Matthews et al., 2009</xref>). We used adjusted 
+ <italic>R</italic>
+ <sup>2</sup> as an unbiased estimate of variation explained which allows for the comparison of sets with different numbers of predictor variables (
+ <xref rid="B85" ref-type="bibr">Peres-Neto et al., 2006</xref>). Testable fractions (the unique variable sets) were evaluated for significance using ANOVA in the package vegan. We repeated analyses without reducing variables using variable selection and saw the same patterns of variation explained across explanatory sets.
+</p>

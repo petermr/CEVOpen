@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pbio.3000863.g004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pbio.3000863.g004</object-id>
+ <label>Fig 4</label>
+ <caption>
+  <title>Impact of varying test sensitivity on detection probability and sampling site clustering.</title>
+  <p>These plots show the effect of different site-selection strategies on the detection probability or number of clusters. We consider 5 selection strategies: an optimised arrangement and weighted sampling according to 4 different ‘risk metrics’—the product of travel census probabilities and citrus density (‘Entry and spread’), citrus density, probability of entry according to the travel census model (‘Pathogen entry’), and random (that is, unweighted) selection. All selection strategies were repeated 100 times. Plots A and B show the detection probability for these different selection strategies, and plots C and D show the number of clusters (with a cluster being all points within 20 km of each other), all with fitted locally weighted regression curves. Plots A and C show the mean probability of detection or number of clusters, with the vertical dashed line representing the ‘baseline’ scenario of a diagnostic sensitivity of 0.5. Plots B and D show the variation in individual-level selection runs under this baseline scenario. The data used to create these plots can be found at 
+   <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17866/rd.salford.12759929.v1" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.17866/rd.salford.12759929.v1</ext-link> (file ‘optimisationOutputs_testSens.csv’).
+  </p>
+ </caption>
+ <graphic xlink:href="pbio.3000863.g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

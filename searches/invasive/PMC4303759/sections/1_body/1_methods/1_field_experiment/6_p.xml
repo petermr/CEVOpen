@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To determine the direct effect of AC on archaeal and bacterial communities, three soil cores (0–15 cm) were extracted from random locations from the 0 and 1000 plots and from undisturbed native-plant-dominated (native) plots that were adjacent to the study plots. Soil samples were placed on ice in the field and taken to a −20 °C freezer within 24 h. DNA from these soil samples was extracted using an Ultraclean-htp 96-well soil DNA kit (MoBio, Carlsbad, CA) from homogenized 0.5 g samples. DNA was further purified using the MinElute reaction cleanup kit (QIAGEN). DNA concentration and purity were determined using a Nanodrop ND-2000 spectrophotometer (NanoDrop, DE). Purified DNA extracts were stored at −80 °C. Amplification was performed with primers targeting the variable region V4–V5 of the 16S rRNA gene (515F and 907R) with 10 bp unique barcode on the forward primer (
+ <xref rid="PLU072C22" ref-type="bibr">He 
+  <italic>et al</italic>. 2010
+ </xref>). Amplicons were purified using AMPure XP beads (Agencourt, Beckman Coulter Indianapolis, IN), quantified using Quant-iT™. PicoGreen Kit (Invitrogen) and then pooled in equimolar amounts. Unidirectional pyrosequencing was performed on a GS-Flex Titanium 454 platform according to the manufacturer's directions (454 Life Sciences, Roche Applied Sciences, Branford, CT) at the USU Center for Integrated Biosystems (
+ <xref rid="PLU072C20" ref-type="bibr">Fierer 
+  <italic>et al</italic>. 2012
+ </xref>). The open source software package Quantitative Insights into Microbial Ecology (QIIME; 
+ <xref rid="PLU072C11" ref-type="bibr">Caporaso 
+  <italic>et al.</italic> 2010
+ </xref>) was used to manage the analysis flow. Sequences were denoised, sorted by barcode and operational taxonomic units (OTUs) identified (97 % identity). Representative OTUs were assigned to a taxonomic identity using a reference database. The Python Nearest Alignment Space Termination tool (PyNAST) was used for multiple sequence alignment. Classification was performed to the lowest taxonomic level possible (
+ <xref rid="PLU072C20" ref-type="bibr">Fierer 
+  <italic>et al</italic>. 2012
+ </xref>). Some OTUs were only identifiable to kingdom while others were identifiable to genus.
+</p>

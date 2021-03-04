@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Effect tests of each linear model as reduced via backward stepwise selection for optimized AICc. Only effects that remained in at least one of the three reduced models are presented in this table. Total biomass and root:shoot response variables were log-transformed to meet model assumptions. Square brackets around variable names indicate variable locking prior to stepwise selection. Alpha level of significance indicated by *** = 0.0005, ** = 0.005, * = 0.05.</p>
+ </caption>
+ <table frame="vsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th colspan="4" rowspan="1">Total biomass</th>
+    <th colspan="4" rowspan="1">Root:shoot</th>
+    <th colspan="4" rowspan="1">Chlorophyll</th>
+   </tr>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1">Degrees of freedom</th>
+    <th rowspan="1" colspan="1">Sum of squares</th>
+    <th rowspan="1" colspan="1">
+     <italic>F</italic>
+    </th>
+    <th rowspan="1" colspan="1">
+     <italic>P</italic>
+    </th>
+    <th rowspan="1" colspan="1">Degrees of freedom</th>
+    <th rowspan="1" colspan="1">Sum of squares</th>
+    <th rowspan="1" colspan="1">
+     <italic>F</italic>
+    </th>
+    <th rowspan="1" colspan="1">
+     <italic>P</italic>
+    </th>
+    <th rowspan="1" colspan="1">Degrees of freedom</th>
+    <th rowspan="1" colspan="1">Sum of squares</th>
+    <th rowspan="1" colspan="1">
+     <italic>F</italic>
+    </th>
+    <th rowspan="1" colspan="1">
+     <italic>P</italic>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">[Block]</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">0.201</td>
+    <td rowspan="1" colspan="1">8.655</td>
+    <td rowspan="1" colspan="1">0.0037**</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">0.046</td>
+    <td rowspan="1" colspan="1">1.287</td>
+    <td rowspan="1" colspan="1">0.258</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">2108.2</td>
+    <td rowspan="1" colspan="1">0.278</td>
+    <td rowspan="1" colspan="1">0.5993</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">[Initial height]</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1.325</td>
+    <td rowspan="1" colspan="1">57.11</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.02</td>
+    <td rowspan="1" colspan="1">0.554</td>
+    <td rowspan="1" colspan="1">0.458</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">21 735</td>
+    <td rowspan="1" colspan="1">2.856</td>
+    <td rowspan="1" colspan="1">0.0927</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">[Irrigation]</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.662</td>
+    <td rowspan="1" colspan="1">28.54</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.41</td>
+    <td rowspan="1" colspan="1">11.57</td>
+    <td rowspan="1" colspan="1">0.0008**</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">204 010</td>
+    <td rowspan="1" colspan="1">26.81</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">[Fertilization]</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1.647</td>
+    <td rowspan="1" colspan="1">70.99</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.091</td>
+    <td rowspan="1" colspan="1">2.574</td>
+    <td rowspan="1" colspan="1">0.1103</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">407 796</td>
+    <td rowspan="1" colspan="1">53.59</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Ecotype</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1987.7</td>
+    <td rowspan="1" colspan="1">0.261</td>
+    <td rowspan="1" colspan="1">0.6099</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">MAT</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.302</td>
+    <td rowspan="1" colspan="1">8.618</td>
+    <td rowspan="1" colspan="1">0.0037**</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">MAP</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.062</td>
+    <td rowspan="1" colspan="1">1.759</td>
+    <td rowspan="1" colspan="1">0.1863</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">SOC</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">57 303</td>
+    <td rowspan="1" colspan="1">7.5306</td>
+    <td rowspan="1" colspan="1">0.0067*</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Irrigation * Fertilization</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1.181</td>
+    <td rowspan="1" colspan="1">50.92</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">121 443</td>
+    <td rowspan="1" colspan="1">15.96</td>
+    <td rowspan="1" colspan="1">&lt;0.0001***</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Irrigation * MAP</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">0.215</td>
+    <td rowspan="1" colspan="1">6.065</td>
+    <td rowspan="1" colspan="1">0.0147*</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Irrigation * SOC</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">33 967</td>
+    <td rowspan="1" colspan="1">4.464</td>
+    <td rowspan="1" colspan="1">0.0359*</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Ecotype * SOC</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">–</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">32 704</td>
+    <td rowspan="1" colspan="1">4.298</td>
+    <td rowspan="1" colspan="1">0.0395*</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

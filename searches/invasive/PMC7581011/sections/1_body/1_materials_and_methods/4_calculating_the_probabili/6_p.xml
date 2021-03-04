@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our final estimate of the effectiveness of any sampling pattern can therefore be obtained by averaging over the 
+ <italic>M</italic> simulation runs we consider, 
+ <disp-formula id="pbio.3000863.e006">
+  <alternatives>
+   <graphic xlink:href="pbio.3000863.e006.jpg" id="pbio.3000863.e006g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M6">
+    <mi>p</mi>
+    <mo>(</mo>
+    <mrow>
+     <mi mathvariant="normal">Ω</mi>
+     <mo>,</mo>
+     <mi>n</mi>
+     <mo>,</mo>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <msubsup>
+      <mo stretchy="false">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mi>M</mi>
+      </mrow>
+     </msubsup>
+     <mrow>
+      <mi>p</mi>
+      <mo>(</mo>
+      <mrow>
+       <mi mathvariant="normal">Ω</mi>
+       <mo>,</mo>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mi>n</mi>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mo>.</mo>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

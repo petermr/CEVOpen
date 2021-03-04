@@ -1,0 +1,896 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7548199</article-id><article-id pub-id-type="doi">10.1002/ece3.6737</article-id><article-id pub-id-type="publisher-id">ECE36737</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Escape from natural enemies depends on the enemies, the invader, and competition</article-title><alt-title alt-title-type="left-running-head">LUCERO et al.</alt-title></title-group><contrib-group><contrib id="ece36737-cr-0001" contrib-type="author" corresp="yes"><name><surname>Lucero</surname><given-names>Jacob E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9535-5802</contrib-id><xref ref-type="aff" rid="ece36737-aff-0001">
+<sup>1</sup>
+</xref><address><email>jelucero@yorku.ca</email></address></contrib><contrib id="ece36737-cr-0002" contrib-type="author"><name><surname>Arab</surname><given-names>Nafiseh Mahdavi</given-names></name><xref ref-type="aff" rid="ece36737-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece36737-cr-0003" contrib-type="author"><name><surname>Meyer</surname><given-names>Sebastian T.</given-names></name><xref ref-type="aff" rid="ece36737-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece36737-cr-0004" contrib-type="author"><name><surname>Pal</surname><given-names>Robert W.</given-names></name><xref ref-type="aff" rid="ece36737-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece36737-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece36737-cr-0005" contrib-type="author"><name><surname>Fletcher</surname><given-names>Rebecca A.</given-names></name><xref ref-type="aff" rid="ece36737-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ece36737-cr-0006" contrib-type="author"><name><surname>Nagy</surname><given-names>David U.</given-names></name><xref ref-type="aff" rid="ece36737-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece36737-cr-0007" contrib-type="author"><name><surname>Callaway</surname><given-names>Ragan M.</given-names></name><xref ref-type="aff" rid="ece36737-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ece36737-cr-0008" contrib-type="author"><name><surname>Weisser</surname><given-names>Wolfgang W.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2757-8959</contrib-id><xref ref-type="aff" rid="ece36737-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece36737-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>York University</institution>
+<city>Toronto</city>
+<named-content content-type="country-part">ON</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="ece36737-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Terrestrial Ecology Research Group</named-content>
+<named-content content-type="organisation-division">Department of Ecology and Ecosystem Management</named-content>
+<named-content content-type="organisation-division">School of Life Sciences Weihenstephan</named-content>
+<institution>Technical University of Munich</institution>
+<city>Freising</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece36737-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Biological Sciences</named-content>
+<institution>Montana Technological University</institution>
+<city>Butte</city>
+<named-content content-type="country-part">MT</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36737-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Institute of Biology</named-content>
+<named-content content-type="organisation-division">Faculty of Sciences</named-content>
+<institution>University of Pecs</institution>
+<city>Pecs</city>
+<country country="HU">Hungary</country>
+</aff><aff id="ece36737-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">School of Plant and Environmental Sciences</named-content>
+<institution>Virginia Tech</institution>
+<city>Blacksburg</city>
+<named-content content-type="country-part">VA</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece36737-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Divison of Biological Sciences and the Institute on Ecosystems</named-content>
+<institution>University of Montana</institution>
+<city>Missoula</city>
+<named-content content-type="country-part">MT</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Jacob E. Lucero, Department of Biology, York University, 3200 Keele St., Toronto, ON M3J1P3, Canada.<break/>
+Email: <email>jelucero@yorku.ca</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>9</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2020</year></pub-date><volume>10</volume><issue>19</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.19</issue-id><fpage>10818</fpage><lpage>10828</lpage><history><date date-type="received"><day>03</day><month>4</month><year>2020</year></date><date date-type="rev-recd"><day>05</day><month>6</month><year>2020</year></date><date date-type="accepted"><day>29</day><month>6</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-10818.pdf"/><abstract id="ece36737-abs-0001"><title>Abstract</title><p>
+<list list-type="order" id="ece36737-list-0001"><list-item><p>The enemy release hypothesis (ERH) attributes the success of some exotic plant species to reduced top&#x02010;down effects of natural enemies in the non&#x02010;native range relative to the native range. Many studies have tested this idea, but very few have considered the simultaneous effects of multiple kinds of enemies on more than one invasive species in both the native and non&#x02010;native ranges. Here, we examined the effects of two important groups of natural enemies&#x02013;insect herbivores and soil biota&#x02013;on the performance of <italic>Tanacetum vulgare</italic> (native to Europe but invasive in the USA) and <italic>Solidago canadensis</italic> (native to the USA but invasive in Europe) in their native and non&#x02010;native ranges, and in the presence and absence of competition.</p></list-item><list-item><p>In the field, we replicated full&#x02010;factorial experiments that crossed insecticide, <italic>T.&#x000a0;vulgare&#x02013;S.&#x000a0;canadensis</italic> competition, and biogeographic range (Europe vs. USA) treatments. In greenhouses, we replicated full&#x02010;factorial experiments that crossed soil sterilization, plant&#x02013;soil feedback, and biogeographic range treatments. We evaluated the effects of experimental treatments on <italic>T. vulgare</italic> and <italic>S. canadensis</italic> biomass.</p></list-item><list-item><p>The effects of natural enemies were idiosyncratic. In the non&#x02010;native range and relative to populations in the native range, <italic>T. vulgare</italic> escaped the negative effects of insect herbivores but not soil biota, depending upon the presence of <italic>S. canadensis</italic>; and <italic>S. canadensis</italic> escaped the negative effects of soil biota but not insect herbivores, regardless of competition. Thus, biogeographic escape from natural enemies depended upon the enemies, the invader, and competition.</p></list-item></list>
+</p><p>
+<italic>Synthesis:</italic> By explicitly testing the ERH in terms of more than one kind of enemy, more than one invader, and more than one continent, this study enhances our nuanced perspective of how natural enemies can influence the performance of invasive species in their native and non&#x02010;native ranges.</p></abstract><abstract abstract-type="graphical" id="ece36737-abs-0002"><p>We examined a leading hypothesis of plant invasion, the enemy release hypothesis, in terms of multiple invasive species, multiple natural enemies, and multiple continents. We found that escape from natural enemies depends on the enemies, the invader, and competition.<boxed-text position="anchor" content-type="graphic" id="ece36737-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-10818-g003.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece36737-kwd-0001">biogeography</kwd><kwd id="ece36737-kwd-0002">enemy release hypothesis</kwd><kwd id="ece36737-kwd-0003">insect herbivory</kwd><kwd id="ece36737-kwd-0004">invasive species</kwd><kwd id="ece36737-kwd-0005">plant&#x02013;herbivore interactions</kwd><kwd id="ece36737-kwd-0006">plant&#x02013;soil feedbacks</kwd><kwd id="ece36737-kwd-0007"><italic>Solidago canadensis</italic></kwd><kwd id="ece36737-kwd-0008"><italic>Tanacetum vulgare</italic></kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Technische Universit&#x000e4;t M&#x000fc;nchen </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100005713</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source>York Science Fellowship</funding-source></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Office of Experimental Program to Stimulate Competitive Research </institution><institution-id institution-id-type="open-funder-registry">10.13039/100005714</institution-id></institution-wrap></funding-source><award-id>OIA&#x02010;1757351</award-id></award-group><award-group id="funding-0004"><funding-source><institution-wrap><institution>Fulbright Association </institution><institution-id institution-id-type="open-funder-registry">10.13039/100010629</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="2"/><table-count count="2"/><page-count count="11"/><word-count count="9382"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.2 mode:remove_FC converted:11.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece36737-cit-1001">
+<string-name>
+<surname>Lucero</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Arab</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>
+<given-names>ST</given-names>
+</string-name>, et al. <article-title>Escape from natural enemies depends on the enemies, the invader, and competition</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2020</year>;<volume>10</volume>:<fpage>10818</fpage>&#x02013;<lpage>10828</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6737</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece36737-body-0001"><sec id="ece36737-sec-0001"><label>1</label><title>INTRODUCTION</title><p>The enemy release hypothesis (ERH) is a leading explanation for successful biological invasions by exotic plant species. The ERH asserts that biogeographic translocation allows some exotic plant species to leave behind their natural enemies, resulting in relative freedom from top&#x02010;down controls in non&#x02010;native communities relative to native communities (Keane &#x00026; Crawley,&#x000a0;<xref rid="ece36737-bib-0031" ref-type="ref">2002</xref>). This idea can be tested experimentally by excluding natural enemies in the native and non&#x02010;native ranges of invaders (Maron &#x00026; Vil&#x000e0;, <xref rid="ece36737-bib-0048" ref-type="ref">2001</xref>). The ERH predicts that enemy exclusion should increase the performance of invaders to a greater extent in their native range (where enemies should have relatively strong top&#x02010;down effects) than in their non&#x02010;native range (where enemies should have relatively weak top&#x02010;down effects) (Keane &#x00026; Crawley,&#x000a0;<xref rid="ece36737-bib-0031" ref-type="ref">2002</xref>; Maron &#x00026; Vil&#x000e0;, <xref rid="ece36737-bib-0048" ref-type="ref">2001</xref>). The ERH has attracted considerable empirical attention (see reviews by Jeschke et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0027" ref-type="ref">2012</xref>; Liu &#x00026; Stiling, <xref rid="ece36737-bib-0041" ref-type="ref">2006</xref>), but relatively few studies have employed the experimental, biogeographically explicit approach outlined above. Also, most studies have examined the ERH in the context of specialist herbivores, but enemy release from several kinds of enemies has been demonstrated, including antagonistic soil biota (Maron, Klironomos, Waller, &#x00026; Callaway,&#x000a0;<xref rid="ece36737-bib-0046" ref-type="ref">2014</xref>; Reinhart, Packer, van der Putten, &#x00026; Clay,&#x000a0;<xref rid="ece36737-bib-0062" ref-type="ref">2003</xref>), aboveground fungal pathogens (DeWalt, Denslow, &#x00026; Ickes,&#x000a0;<xref rid="ece36737-bib-0018" ref-type="ref">2004</xref>), interspecific competitors (Callaway et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0012" ref-type="ref">2011</xref>), generalist herbivores (Vermeij, Smith, Dailer, &#x00026; Smith,&#x000a0;<xref rid="ece36737-bib-0078" ref-type="ref">2009</xref>), and even postdispersal seed predators (Lucero et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0044" ref-type="ref">2019</xref>).</p><p>Of the biogeographically explicit tests of the ERH, very few have excluded multiple kinds of natural enemies simultaneously or in factorial experiments (but see DeWalt et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0018" ref-type="ref">2004</xref>; Williams, Auge, &#x00026; Maron,&#x000a0;<xref rid="ece36737-bib-0082" ref-type="ref">2010</xref>). This is an important knowledge gap because plants function in complex biotic environments where they may be attacked by different kinds of natural enemies at once, including competitors, herbivores, and pathogens (Cipollini,&#x000a0;<xref rid="ece36737-bib-0015" ref-type="ref">2004</xref>; DeLong, Fry, Veen, &#x00026; Kardol,&#x000a0;<xref rid="ece36737-bib-0017" ref-type="ref">2019</xref>; Fernandez&#x02010;Conradi et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0023" ref-type="ref">2018</xref>). Importantly, the effects of these enemies are not necessarily additive (reviewed by Stephens, Srivastava, &#x00026; Myers,&#x000a0;<xref rid="ece36737-bib-0073" ref-type="ref">2013</xref>). For instance, DeWalt et&#x000a0;al.&#x000a0;(<xref rid="ece36737-bib-0018" ref-type="ref">2004</xref>) excluded fungal pathogens and insect herbivores from populations of the invasive shrub <italic>Clidemia hirta</italic> in its native and non&#x02010;native ranges. In understory sites in the native range, survival of <italic>C. hirta</italic> increased by 19% when treated with fungicide, 12% when treated with insecticide, and 41% when treated with both. Pesticide applications did not affect <italic>C. hirta</italic> survival in the non&#x02010;native range. Taken together, these findings suggest that antagonistic fungi and insect herbivores acted singly and jointly (in a nonlinear fashion) to limit <italic>C. hirta</italic> survival in the native range but not in the non&#x02010;native range, as predicted by the ERH. This example illustrates how testing the ERH on single enemy guilds in isolation limits our understanding of the effects of natural enemies on invasion trajectories, which in turn hinders our ability to explain, predict, and manage the spread of invasive species. These issues have crucial implications for the function of contemporary ecosystems (Bellard, Leroy, Thuller, Rysman, &#x00026; Courchamp,&#x000a0;<xref rid="ece36737-bib-0006" ref-type="ref">2016</xref>; Vil&#x000e0; et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0079" ref-type="ref">2011</xref>) and economies (Pimentel, Zuniga, &#x00026; Morrison,&#x000a0;<xref rid="ece36737-bib-0056" ref-type="ref">2005</xref>; Seebens et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0069" ref-type="ref">2019</xref>). Thus, biogeographic tests of the ERH that exclude multiple guilds of natural enemies simultaneously are sorely needed, as emphasized in the review of Roy, Lawson Handley, Schonrogge, Poland, and Purse (<xref rid="ece36737-bib-0065" ref-type="ref">2011</xref>).</p><p>Here, we examined the effects of two important kinds of enemies&#x02013;insect herbivores and antagonistic soil biota&#x02013;on the performance of two invasive plant species&#x02013;common tansy (<italic>Tanacetum vulgare</italic>; &#x0201c;tansy&#x0201d; hereafter) and Canada goldenrod (<italic>Solidago canadensis</italic>; &#x0201c;goldenrod&#x0201d; hereafter)&#x02013;in their native and non&#x02010;native ranges. Specifically, we tested the key prediction derived from the ERH that excluding these enemies would improve the performance of tansy and goldenrod more in their respective native ranges than in their non&#x02010;native ranges. To do this, we replicated enemy exclusion experiments in Europe (where tansy is native but goldenrod is exotic and invasive) and in the USA (where goldenrod is native but tansy is exotic and invasive), using field&#x02010;based and greenhouse approaches. In Europe and the USA, tansy and goldenrod commonly co&#x02010;occur and may compete directly for limiting resources (Schittko, Runge, Strepp, Wolff, &#x00026; Wurst,&#x000a0;<xref rid="ece36737-bib-0067" ref-type="ref">2016</xref>; Werner, Brandbury, &#x00026; Gross,&#x000a0;<xref rid="ece36737-bib-0081" ref-type="ref">1980</xref>) or indirectly via associational effects (Hahn &#x00026; Orrock,&#x000a0;<xref rid="ece36737-bib-0025" ref-type="ref">2016</xref>; Kim &#x00026; Underwood,&#x000a0;<xref rid="ece36737-bib-0032" ref-type="ref">2015</xref>) and apparent competition (Orrock, Witter, &#x00026; Reichman,&#x000a0;<xref rid="ece36737-bib-0054" ref-type="ref">2008</xref>). Accordingly, our field experiments crossed insect exclusion treatments with interspecific competition treatments to account for the possibility that herbivory and competition interacted to influence plant performance.</p></sec><sec sec-type="materials-and-methods" id="ece36737-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece36737-sec-0003"><label>2.1</label><title>Study species</title><p>Tansy is native to Europe but was introduced to North America in the 17th century for medicinal and ornamental purposes and is now broadly distributed across this non&#x02010;native range (Mitich,&#x000a0;<xref rid="ece36737-bib-0052" ref-type="ref">1995</xref>). In the non&#x02010;native range, some state governments have listed tansy as a noxious weed due to negative impacts on local biodiversity and pasture quality (LeCain &#x00026; Sheley,&#x000a0;<xref rid="ece36737-bib-0038" ref-type="ref">2014</xref>). In its native range, tansy is attacked by over 169 species of herbivorous insects, including 29 specialist species, which can substantially decrease performance (Kleine &#x00026; M&#x000fc;ller,&#x000a0;<xref rid="ece36737-bib-0033" ref-type="ref">2014</xref>). Little is known about the effects of insect herbivory in the non&#x02010;native range. In addition, to our knowledge, no study has contrasted the effects of soil biota on tansy performance in native versus non&#x02010;native ranges.</p><p>Goldenrod is native to North America but was introduced to Europe in the 17th century, also for medicinal and ornamental purposes. Since its introduction to Europe, goldenrod has become one of the most abundant and problematic invasive plant species on the continent (Rebele,&#x000a0;<xref rid="ece36737-bib-0060" ref-type="ref">2000</xref>). In non&#x02010;native ranges, goldenrod invasion reduces the biodiversity of native plant and animal communities (Ledger et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0039" ref-type="ref">2015</xref>; Lenda et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0040" ref-type="ref">2019</xref>; Skorka, Lenda, &#x00026; Tryjanowski,&#x000a0;<xref rid="ece36737-bib-0072" ref-type="ref">2010</xref>), alters soil biogeochemical processes (Lu, Qiu, Chen, &#x00026; Li,&#x000a0;<xref rid="ece36737-bib-0043" ref-type="ref">2005</xref>), and disrupts interactions with pollinators (Fenesi et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0022" ref-type="ref">2015</xref>). Despite these negative effects, goldenrod in Europe has reportedly facilitated the growth of tansy (Schittko &#x00026; Wurst,&#x000a0;<xref rid="ece36737-bib-0068" ref-type="ref">2014</xref>), perhaps by suppressing antagonistic soil biota (Zhang, Jin, Tang, &#x00026; Chen,&#x000a0;<xref rid="ece36737-bib-0084" ref-type="ref">2009</xref>). In its native range, goldenrod is a strong competitor but does not reduce community&#x02010;level biodiversity as it does in the non&#x02010;native range (Ledger et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0039" ref-type="ref">2015</xref>; but see Carson &#x00026; Root,&#x000a0;<xref rid="ece36737-bib-0013" ref-type="ref">1999</xref>, <xref rid="ece36737-bib-0014" ref-type="ref">2000</xref>). In the native range, goldenrod is attacked by a rich community of insect herbivores, which can decrease growth, fecundity and competitive ability (Cain, Carson, &#x00026; Root,&#x000a0;<xref rid="ece36737-bib-0009" ref-type="ref">1991</xref>; Carson &#x00026; Root,&#x000a0;<xref rid="ece36737-bib-0013" ref-type="ref">1999</xref>, <xref rid="ece36737-bib-0014" ref-type="ref">2000</xref>; Long, Mohler, &#x00026; Carson,&#x000a0;<xref rid="ece36737-bib-0042" ref-type="ref">2003</xref>). In contrast, goldenrod is attacked by a relatively depauperate generalist insect community in the non&#x02010;native range (Jobin, Schaffner, &#x00026; Nentwig,&#x000a0;<xref rid="ece36737-bib-0028" ref-type="ref">1996</xref>), and the effects of insect herbivory on goldenrod performance in the non&#x02010;native range are unclear. In addition, as with tansy, the extent to which soil biota affects goldenrod performance in native versus non&#x02010;native ranges has received little attention.</p></sec><sec id="ece36737-sec-0004"><label>2.2</label><title>Study area</title><p>We examined the effects of excluding natural enemies (i.e., insect herbivores and soil biota) on the performance of tansy and goldenrod using field and greenhouse experiments replicated in Europe (the native range of tansy and the non&#x02010;native range of goldenrod) and North America (the native range of goldenrod and the non&#x02010;native range of tansy). Experiments in Europe were conducted in Germany and/or Hungary, and experiments in North America were conducted in Montana, USA. Plants used in our experiments were derived from seeds collected in 2009 by hand from wild populations in Germany, Hungary, and Montana (see Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref> for locations). Tansy and goldenrod plants co&#x02010;occurred at all seed collection sites.</p></sec><sec id="ece36737-sec-0005"><label>2.3</label><title>Field experiments</title><p>We replicated full&#x02010;factorial field experiments in Germany, Hungary, and Montana to contrast the individual and joint effects of interspecific competition and insect herbivory on the performance of tansy and goldenrod in their native and non&#x02010;native ranges. Two sites were used in Europe to increase the scope of inference in the native range. In each country, we established one experimental garden (see Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S2</xref> for locations and climatic information), which were fenced to exclude mammalian herbivores. Wild populations of tansy and goldenrod were in the vicinity (&#x0003c;1&#x000a0;km) of each experimental garden. Experimental gardens in Germany and Hungary were comprised of 15 experimental blocks, each consisting of six, 50&#x000a0;&#x000d7;&#x000a0;50&#x02010;cm plots with a 50&#x02010;cm walking path around each block. We randomly assigned one of the following planting treatments to each plot: (a) a monoculture of common tansy (6 plants), (b) a monoculture of goldenrod (6 plants), or (c) a biculture of common tansy and goldenrod (3&#x000a0;+&#x000a0;3 plants), with each planting treatment replicated twice per block. Thus, total plant density was held constant in each plot (6 plants), and interspecific competition occurred only in the biculture plots. The experimental garden in Montana was comprised of six experimental blocks, each consisting of 15 plots that received the same randomized planting treatments listed above, with each treatment replicated five times per block. In sum, gardens in all countries consisted of 90 plots that were distributed randomly over blocks with respect to planting treatment, and the same treatments with the same number of replicates were realized in all gardens.</p><p>Tansy and goldenrod were transplanted into experimental gardens from plants started as seeds in the greenhouse. In April 2010, tansy and goldenrod seeds (see Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref> for seed sources) were sown into 200&#x000a0;ml pots in a 1:1 mixture of sand and potting soil and kept in a naturally lit greenhouse (see Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S3</xref> for greenhouse locations). After germination, seedlings were thinned down to one individual per pot and watered once daily. In June 2010, plants were transplanted to experimental plots in two rows of three (i.e., six plants per plot, as described above), spaced 10&#x000a0;cm apart. In biculture plots, plant identity alternated every other plant.</p><p>In each experimental garden, we randomly selected half of the plots assigned to each planting treatment to be treated with insecticide. Specifically, we treated 3 out of 6 plots per block in Germany and Hungary, and 6 or 9 (<italic>n</italic>&#x000a0;=&#x000a0;3 of each) out of 15 plots per block in Montana. Thus, 45 out of 90 plots in each garden were treated with insecticide. We used a mixture of the systemic insecticide Biscaya<sup>&#x000ae;</sup> (active ingredient <italic>thiacloprid</italic>, (Z)&#x02010;3&#x02010;(6&#x02010;chloro&#x02010;3&#x02010;pyridylmethyl)&#x02010;1, 3&#x02010;thiazolidin&#x02010;2&#x02010;ylidenecyanamide) and the knock&#x02010;down insecticide Decis<sup>&#x000ae;</sup> (active ingredient <italic>deltamethrin</italic>, (S)&#x02010;cyano&#x02010;3&#x02010;pehoxybenzyl(1R)&#x02010;cis&#x02010;3&#x02010;(2,2&#x02010;dibromovinyl)&#x02010;2,2&#x02010;dimethyl&#x02010;cyclo&#x02010;propanecarboxylate). Neither insecticide is selective with respect to taxa. Insecticides were diluted with water as per label instructions and were applied using a nonmotorized backpack sprayer. We applied insecticides in June and August, 2010, and in May, June, July, and August 2011. On application days, plots not selected for insecticide treatment were sprayed with an equal volume of water. We protected nontarget plants from insecticide drift by spraying only on windless days, taking great care to spray only target plants.</p><p>In September 2011, herbivore damage on experimental plants was assessed, the aboveground biomass of each plant was measured, and the effects of insect herbivory and plant&#x02013;plant competition were calculated. We reported herbivore damage as the number of leaves on the tallest shoot of each plant with visible signs of insect damage (chewed holes or leaf mines). This measure did not account for the size of plants and was not used to detect patterns of enemy release because herbivore damage per se may not translate to effects on plant performance (biomass in this case). Rather, we evaluated herbivore damage to verify that insecticide applications worked as expected. Immediately after herbivore damage was assessed, we harvested the aboveground biomass of all plants and weighed each plant individually after drying plants at 70&#x000b0;C for 48&#x000a0;hr to constant mass. We calculated the effects of insect herbivores on plant biomass by contrasting the mean biomass of plants treated versus not treated with insecticides. We calculated the effects of interspecific competition by contrasting the mean biomass of plants grown in monocultures versus bicultures. Biomass is likely a good proxy for fitness in our system because both tansy and goldenrod rely extensively on vegetative reproduction to spread and impact local communities (Dong, Lu, Zhang, Chen, &#x00026; Li,&#x000a0;<xref rid="ece36737-bib-0019" ref-type="ref">2006</xref>; Mitich,&#x000a0;<xref rid="ece36737-bib-0052" ref-type="ref">1995</xref>), and biomass for both species closely predicts investment in sexual reproduction (Hartnett,&#x000a0;<xref rid="ece36737-bib-0026" ref-type="ref">1990</xref>). We harvested aboveground biomass to leave rhizospheres intact to facilitate soil harvesting for greenhouse experiments.</p></sec><sec id="ece36737-sec-0006"><label>2.4</label><title>Greenhouse experiments</title><p>We replicated full&#x02010;factorial greenhouse experiments in Hungary and Montana to examine the effects of local soil biota on the performance of tansy and goldenrod in their native and non&#x02010;native ranges (see Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S3</xref> for greenhouse locations and growing conditions). At the conclusion of the field experiments described above, we collected 1&#x000a0;L of soil from each plot that had been occupied by monocultures of either tansy or goldenrod in Hungary and the USA (<italic>n</italic>&#x000a0;=&#x000a0;30 soil samples per species per country). Soil samples from each plot were kept separate and were not pooled. One half liter (0.5&#x000a0;L) of each soil sample was sterilized by autoclaving for two, 60&#x02010;min intervals with a 24&#x02010;hr rest between intervals. The other 0.5&#x000a0;L of each soil sample was left unsterilized so that the soil biota remained intact (i.e., &#x0201c;live&#x0201d;). We then filled 250&#x000a0;ml pots with either sterilized or live soil. We planted one seed per species (seeds were derived from the same sources as reported above; see Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>) into a total of 240 pots (<italic>n</italic>&#x000a0;=&#x000a0;60 per species per soil source) in each greenhouse. After 30&#x000a0;days, seedlings were repotted into 500&#x000a0;ml pots. After 90&#x000a0;days in 500&#x000a0;ml pots, plants were harvested (15 July 2011), soil was gently washed away from roots, and total (i.e., above&#x02010; and belowground) biomass was recorded for each plant, using the same drying and weighing protocol described above. The effects of soil biota were inferred by contrasting the total biomass of plants in sterilized versus live soils. Importantly, our sterilization treatments excluded soil mutualists and antagonists simultaneously. Thus, any effects of soil sterilization on plant performance reflected the net positive and negative effects of beneficial and antagonistic soil biota combined.</p></sec><sec id="ece36737-sec-0007"><label>2.5</label><title>Statistical analyses</title><p>We used linear mixed&#x02010;effects models to evaluate the effectiveness of insecticide applications on experimental plants in the field. Our models used herbivore damage (averaged across individuals per plot) as the response variable; biogeographic range (i.e., whether interactions took place in the target species&#x02019; native or non&#x02010;native range), country in Europe (Germany or Hungary), insecticide treatment, and competition treatment as interacting fixed factors; and experimental block as a random factor. We analyzed tansy and goldenrod with independent models. If insecticide treatments worked as expected, herbivore damage should be greatest on untreated plants, resulting in a significant main effect of insecticide for both species.</p><p>We used linear mixed&#x02010;effects models to evaluate the independent and joint effects of biogeographic range, insect herbivory, and competition on plant performance (i.e., aboveground biomass). Our models used aboveground biomass of individual plants as the response variable; biogeographic range, country in Europe, insecticide treatment, and competition treatment as fixed factors; and experimental plot nested in block as a random factor. Tansy and goldenrod were analyzed with independent models, and for the analysis of each species, we only used the plots of each block that contained the target species. If the effects of insect herbivores follow predictions derived from the ERH, herbivore exclusion (i.e., insecticide application) should increase the performance of focal invaders to a greater extent in the native range than in the non&#x02010;native range. Specifically, herbivore exclusion in Europe should improve the performance of tansy to a greater degree than herbivore exclusion in the USA, and herbivore exclusion in the USA should improve the performance of goldenrod to a greater degree than herbivore exclusion Europe, resulting in significant insecticide&#x000a0;&#x000d7;&#x000a0;biogeographic range interactions.</p><p>We used linear models to evaluate the independent and joint effects of biogeographic range, soil biota, and soil&#x02010;mediated plant&#x02013;plant interactions on performance (i.e., total biomass) in greenhouse experiments. Our models used total biomass as the response variable; and biogeographic range, sterilization treatment (sterilized vs. live soils), and soil source (soils cultured by conspecifics vs. heterospecifics) as interacting fixed factors. We analyzed tansy and goldenrod independently. If the effects of soil biota follow predictions derived from the ERH, sterilizing soils (i.e., excluding antagonistic soil biota) should increase the performance of invaders in their native range to a greater extent than in their non&#x02010;native range. Specifically, soil sterilization in Hungary should increase the performance of tansy to a greater degree than soil sterilization in the USA; and soil sterilization in the USA should increase the performance of goldenrod to a greater degree than soil sterilization in Hungary, resulting in significant sterilization&#x000a0;&#x000d7;&#x000a0;biogeographic range interactions.</p><p>All analyses were performed in R version 3.6.0 (R Development Core Team, <xref rid="ece36737-bib-0059" ref-type="ref">2018</xref>). We used the base &#x0201c;lm&#x0201d; function for linear models and the &#x0201c;lme&#x0201d; function of the &#x0201c;nlme&#x0201d; package version 3.1&#x02010;139 (Pinheiro, Bates, DebRoy, &#x00026; Sarkar,&#x000a0;<xref rid="ece36737-bib-0057" ref-type="ref">2016</xref>) for linear mixed&#x02010;effects models. Full models were reduced in a stepwise, backwards variable selection removing the least significant term until minimum adequate models were reached. Data were cube&#x02010;root or log&#x02010;transformed to improve normality (see Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>, Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S4</xref>). We calculated contrasts for specific combinations of treatments using the &#x0201c;contrast&#x0201d; function from the &#x0201c;contrast&#x0201d; package version 0.21 (Kuhn, Weston, Wing, Forester, &#x00026; Thaler, <xref rid="ece36737-bib-0035" ref-type="ref">2016</xref>). For models on transformed data, back&#x02010;transformed contrast predictions and standard errors (<italic>SE</italic>s) were calculated. Due to back transformation, <italic>SE</italic>s of contrasts were asymmetrical and are thus reported as values&#x000a0;&#x000b1;&#x000a0;one <italic>SE</italic>. Stated <italic>t&#x02010;</italic> and <italic>p&#x02010;</italic>values are taken directly from the calculated contrasts from back&#x02010;transformed values.</p><table-wrap id="ece36737-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Results of field experiments replicated in Germany, Hungary, and the USA that assessed the individual and joint effects of biogeographic range (native vs. non&#x02010;native), insect exclusion (insecticide application), interspecific competition, and country within Europe (Hungary vs. Germany) on the performance of tansy and goldenrod, according to linear mixed&#x02010;effects models with aboveground biomass as the response variable; biogeographic range, insecticide treatment, competition treatment, and country as interacting fixed factors; and experimental plot nested in block (not shown) as a random factor</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Explanatory variable</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Species</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Tansy</th><th align="left" valign="bottom" rowspan="1" colspan="1">Goldenrod</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Range</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,33</sub>&#x000a0;=&#x000a0;101; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;&#x000a0;<bold>.001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,34</sub>&#x000a0;=&#x000a0;114; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;&#x000a0;<bold>.001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Insecticide</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,139</sub>&#x000a0;=&#x000a0;5.24; <italic>p</italic>&#x000a0;=&#x000a0;.024</bold>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,140</sub>&#x000a0;=&#x000a0;0.64; <italic>p</italic>&#x000a0;=&#x000a0;.425)<sup>8</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Competition</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,139</sub>&#x000a0;=&#x000a0;5.83; <italic>p</italic>&#x000a0;=&#x000a0;.017</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>1,140</sub>&#x000a0;=&#x000a0;2.92; <italic>p</italic>&#x000a0;=&#x000a0;.090</td></tr><tr><td align="left" rowspan="1" colspan="1">Country (within Europe)</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,33</sub>&#x000a0;=&#x000a0;52.5; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;&#x000a0;<bold>.001</bold>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,33</sub>&#x000a0;=&#x000a0;0.01; <italic>p&#x000a0;=&#x000a0;</italic>.927)<sup>7</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;insecticide</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,139</sub>&#x000a0;=&#x000a0;10.2; <italic>p</italic>&#x000a0;=&#x000a0;.002</bold>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,137</sub>&#x000a0;=&#x000a0;0.16; <italic>p</italic>&#x000a0;=&#x000a0;.687)<sup>4</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;competition</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,139</sub>&#x000a0;=&#x000a0;4.15; <italic>p</italic>&#x000a0;=&#x000a0;.044</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,140</sub>&#x000a0;=&#x000a0;8.00; <italic>p</italic>&#x000a0;=&#x000a0;.005</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Insecticide&#x000a0;&#x000d7;&#x000a0;competition</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,139</sub>&#x000a0;=&#x000a0;5.19; <italic>p</italic>&#x000a0;=&#x000a0;.024</bold>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,138</sub>&#x000a0;=&#x000a0;0.78; <italic>p</italic>&#x000a0;=&#x000a0;.378)<sup>5</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Country&#x000a0;&#x000d7;&#x000a0;insecticide</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,137</sub>&#x000a0;=&#x000a0;0.06; <italic>p</italic>&#x000a0;=&#x000a0;.813)<sup>3</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,136</sub>&#x000a0;=&#x000a0;0.05; <italic>p</italic>&#x000a0;=&#x000a0;.826)<sup>3</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Country&#x000a0;&#x000d7;&#x000a0;competition</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,138</sub>&#x000a0;=&#x000a0;0.90; <italic>p</italic>&#x000a0;=&#x000a0;.344)<sup>4</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,139</sub>&#x000a0;=&#x000a0;1.15; <italic>p</italic>&#x000a0;=&#x000a0;.286)<sup>6</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;insecticide &#x000d7;competition</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,136</sub>&#x000a0;=&#x000a0;0.60; <italic>p</italic>&#x000a0;=&#x000a0;.442)<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,135</sub>&#x000a0;=&#x000a0;0.52; <italic>p</italic>&#x000a0;=&#x000a0;.471)<sup>2</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Country&#x000a0;&#x000d7;&#x000a0;insecticide &#x000d7;competition</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,135</sub>&#x000a0;=&#x000a0;0.09; <italic>p</italic>&#x000a0;=&#x000a0;.766)<sup>1</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,134</sub>&#x000a0;=&#x000a0;0.06; <italic>p</italic>&#x000a0;=&#x000a0;.815)<sup>1</sup>
+</td></tr></tbody></table><table-wrap-foot id="ece36737-ntgp-0001"><title>Note</title><fn id="ece36737-note-0001"><p>Significant (i.e., <italic>p</italic>&#x000a0;&#x02264;&#x000a0;.05) effects appear in bold. Numerical superscripts indicate the order in which nonsignificant terms (given in parentheses) were removed from the final model. Tansy and goldenrod were evaluated with independent models.</p></fn><fn id="ece36737-note-0002"><p>Data were cube&#x02010;root transformed to improve normality.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec></sec><sec sec-type="results" id="ece36737-sec-0008"><label>3</label><title>RESULTS</title><sec id="ece36737-sec-0009"><label>3.1</label><title>Field experiments</title><sec id="ece36737-sec-0010"><label>3.1.1</label><title>Tansy</title><p>Insecticide treatments reduced herbivore damage on tansy across all ranges and treatments, but more so in the native range. Herbivore damage was much greater in Hungary than any other country (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>), but insect herbivores in all countries generally damaged more leaves on untreated plants than treated plants, regardless of interspecific competition (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>). Thus, insecticide treatments worked as expected. These findings corresponded to significant main effects of biogeographic range, insecticide treatment, and country within Europe; and significant biogeographic range&#x000a0;&#x000d7;&#x000a0;insecticide treatment and country within Europe&#x000a0;&#x000d7;&#x000a0;insecticide treatment interactions (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S4</xref>). Importantly, however, herbivore damage did not necessarily translate to effects on biomass (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p><p>The effects of insect exclusion on the aboveground biomass of tansy depended upon biogeographic context and the presence of goldenrod (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). Consistent with predictions derived from the ERH, insect exclusion in the absence of goldenrod increased the biomass of tansy in the native range (Hungary and Germany) by at least 10.4&#x000a0;g (&#x000b1;<italic>SE</italic>: 7.0, 14.2; <italic>t</italic>
+<sub>781</sub>&#x000a0;=&#x000a0;3.5, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) but had no effect in the non&#x02010;native range (USA; <italic>t</italic>
+<sub>781</sub>=&#x02212;0.23, <italic>p</italic>&#x000a0;=&#x000a0;.822). However, we observed a different pattern in the presence of goldenrod. When goldenrod was present, insect exclusion had no effect on the biomass of tansy in any country. Thus, insect herbivores reduced tansy performance in the native range only when goldenrod was absent, but had no effects in the non&#x02010;native range. In addition, regardless of experimental treatments, tansy grew at least 63.9&#x000a0;g (&#x000b1;<italic>SE</italic>: 51.6, 77.3; <italic>t</italic>
+<sub>783</sub>&#x000a0;=&#x000a0;6.39; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) larger in the USA than in either European country, and tansy in Hungary grew 32.8&#x000a0;g (&#x000b1;<italic>SE</italic>: 26.9, 39.2; <italic>t</italic>
+<sub>783</sub>&#x000a0;=&#x000a0;7.29, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) larger than tansy in Germany. These trends corresponded to significant main effects of biogeographic range, insecticide treatment, and country within Europe; and significant biogeographic range&#x000a0;&#x000d7;&#x000a0;insecticide treatment and insecticide treatment&#x000a0;&#x000d7;&#x000a0;competition interactions (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36737-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Means&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> for aboveground biomass of tansy and goldenrod (per plant) in field experiments replicated in the USA, Hungary (HUN), and Germany (GER) that crossed herbivore exclusion (i.e., insecticide application) and interspecific competition treatments. Note the different scales of <italic>y</italic>&#x02010;axes for each plant species</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-10818-g001"/></fig><p>The effects of goldenrod on tansy biomass depended upon insecticide treatment and biogeographic range (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). When insecticides were applied, tansy achieved the same biomass in the presence and absence of goldenrod, in all countries. However, without insecticides, tansy in all countries grew larger in the presence of goldenrod than in its absence (Germany: 4.67&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>: 7.34, 2.27; Hungary: 9.78&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>: 15.1, 4.82; USA: 44.9&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> 58.6, 32.0; all <italic>t</italic>
+<sub>783</sub>&#x000a0;&#x02265;&#x000a0;2.05, <italic>p</italic>&#x000a0;&#x02264;&#x000a0;.04). Thus, regardless of biogeographic context, goldenrod had neutral effects on the biomass of tansy when insects were excluded, but goldenrod facilitated the biomass of tansy when insects were present. These trends corresponded to a significant main effect of competition and a significant insecticide treatment&#x000a0;&#x000d7;&#x000a0;competition interaction (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p></sec><sec id="ece36737-sec-0011"><label>3.1.2</label><title>Goldenrod</title><p>Insecticide treatments on goldenrod generally reduced herbivore damage, and more so in the native range. As with tansy, herbivore damage was much greater in Hungary than any other country (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>), but insect herbivores in all countries generally damaged more leaves on untreated plants than treated plants, regardless of interspecific competition (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>). These trends corresponded to significant main effects of biogeographic range, insecticide, and country within Europe; and significant biogeographic range&#x000a0;&#x000d7;&#x000a0;insecticide treatment and country within Europe&#x000a0;&#x000d7;&#x000a0;insecticide treatment interactions (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S4</xref>). Importantly, however, herbivore damage did not translate to effects on biomass (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p><p>Insect exclusion had no effect on the aboveground biomass of goldenrod, regardless of biogeographic range or the presence of tansy (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). Contrary to predictions derived from the ERH, insect exclusion did not increase the biomass of goldenrod in either the native (USA) or non&#x02010;native (Hungary and Germany) range, regardless of the presence of tansy (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>). Importantly, however, goldenrod grew on average 19.6&#x000a0;g (&#x000b1;<italic>SE</italic>: 17.1, 22.3; <italic>t</italic>
+<sub>759</sub>&#x000a0;=&#x000a0;11.0; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) larger in Hungary and Germany than in the USA, with similar biomass in Hungary and Germany (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>). These trends corresponded to a significant main effect of biogeographic range, but no significant interactions involving biogeographic range or insecticide application (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p><p>The effects of tansy on goldenrod biomass depended upon biogeographic range (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). In the USA, goldenrod grew 4.4&#x000a0;g (&#x000b1;<italic>SE</italic>: 2.9, 6.1; <italic>t</italic>
+<sub>759</sub>&#x000a0;=&#x000a0;3.3, <italic>p</italic>&#x000a0;=&#x000a0;.001) larger in the absence of tansy than in its presence, suggesting competition, but in the non&#x02010;native ranges of Hungary and Germany, goldenrod achieved the same biomass whether or not common tansy was present (<italic>t</italic>
+<sub>759</sub>=&#x02212;0.23, <italic>p</italic>&#x000a0;=&#x000a0;.817). This pattern was unaffected by insect exclusion. Thus, common tansy imposed competitive effects on goldenrod in the native range but not in Hungary or Germany, regardless of insect exclusion. These findings corresponded to a significant biogeographic range&#x000a0;&#x000d7;&#x000a0;competition interaction (Table&#x000a0;<xref rid="ece36737-tbl-0001" ref-type="table">1</xref>).</p></sec></sec><sec id="ece36737-sec-0012"><label>3.2</label><title>Greenhouse experiments</title><sec id="ece36737-sec-0013"><label>3.2.1</label><title>Tansy</title><p>For tansy biomass, the effects of suppressing soil biota (soil sterilization) did not depend upon biogeographic range or soil source&#x02013;whether soils were cultured by conspecifics or heterospecifics (Figure&#x000a0;<xref rid="ece36737-fig-0002" ref-type="fig">2</xref>). Contrary to predictions derived from the ERH, suppressing soil biota increased tansy biomass in both the native and non&#x02010;native range, regardless of soil source (Hungary: 0.26&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>: 0.29, 0.23; USA: 0.22&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>: 0.25, 0.19; all <italic>t</italic>
+<sub>215</sub>&#x000a0;&#x02265;&#x000a0;6.92, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). In addition, across all treatments, tansy grew 0.15&#x000a0;g (&#x000b1;SE: 0.11, 0.18; <italic>t</italic>
+<sub>215</sub>&#x000a0;&#x02265;&#x000a0;4.25, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) larger in the native range (Hungary) than the non&#x02010;native range (USA). These findings corresponded to significant main effects of biogeographic range, soil source, and sterilization treatment, but no significant sterilization treatment&#x000a0;&#x000d7;&#x000a0;biogeographic range interaction (Table&#x000a0;<xref rid="ece36737-tbl-0002" ref-type="table">2</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36737-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Mean&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> for total biomass of tansy and goldenrod (per plant) grown in sterilized and unsterilized soils cultured by either conspecifics or heterospecifics in greenhouse experiments replicated in Hungary (HUN) and the USA. Note the different scales of <italic>y</italic>&#x02010;axes for each plant species</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-10818-g002"/></fig><table-wrap id="ece36737-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Results of greenhouse experiments replicated in Hungary and the USA that evaluated the effects of soil biota conditioned by conspecifics or heterospecifics on the performance of tansy and goldenrod, according to a linear model with total biomass as the response variable, biogeographic range (native vs. non&#x02010;native), soil source (conspecific vs. heterospecific), and soil sterilization treatment (sterilized vs. nonsterilized) as interacting fixed factors, with pot replicate nested within block (i.e., soil source) (not shown) as a random factor</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Explanatory variable</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Species</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Tansy</th><th align="left" valign="bottom" rowspan="1" colspan="1">Goldenrod</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Range</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,215</sub>&#x000a0;=&#x000a0;18.3; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;<bold>&#x000a0;.001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,188</sub>&#x000a0;=&#x000a0;152; <italic>p</italic>&#x000a0;</bold>&#x0003c;&#x0003c;<bold>&#x000a0;.001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Soil source</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,215</sub>&#x000a0;=&#x000a0;3.89; <italic>p</italic>&#x000a0;=&#x000a0;.050</bold>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,187</sub>&#x000a0;=&#x000a0;0.45; <italic>p</italic>&#x000a0;=&#x000a0;.501)<sup>4</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sterilization</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,215</sub>&#x000a0;=&#x000a0;47.9; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;<bold>&#x000a0;.001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,188</sub>&#x000a0;=&#x000a0;9.80; <italic>p</italic>&#x000a0;=&#x000a0;.002</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;soil source</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,213</sub>&#x000a0;&#x0003c;&#x000a0;0.01; <italic>p</italic>&#x000a0;=&#x000a0;.953)<sup>3</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,186</sub>&#x000a0;=&#x000a0;3.67; <italic>p</italic>&#x000a0;=&#x000a0;.057)<sup>3</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;sterilization</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,212</sub>&#x000a0;&#x0003c;&#x000a0;0.01; <italic>p&#x000a0;=&#x000a0;</italic>.989)<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>F</italic><sub>1,188</sub>&#x000a0;=&#x000a0;51.7; <italic>p&#x000a0;</italic></bold>&#x0003c;&#x0003c;&#x000a0;<bold>.001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Soil source&#x000a0;&#x000d7;&#x000a0;sterilization</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,214</sub>&#x000a0;=&#x000a0;0.04; <italic>p</italic>&#x000a0;=&#x000a0;.842)<sup>4</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,185</sub>&#x000a0;=&#x000a0;1.23; <italic>p</italic>&#x000a0;=&#x000a0;.269)<sup>2</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Range&#x000a0;&#x000d7;&#x000a0;soil source&#x000a0;&#x000d7;&#x000a0;sterilization</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,211</sub>&#x000a0;=&#x000a0;3.54; <italic>p</italic>&#x000a0;=&#x000a0;.061)<sup>1</sup>
+</td><td align="left" rowspan="1" colspan="1">(<italic>F</italic>
+<sub>1,184</sub>&#x000a0;=&#x000a0;0.03; <italic>p</italic>&#x000a0;=&#x000a0;.858)<sup>1</sup>
+</td></tr></tbody></table><table-wrap-foot id="ece36737-ntgp-0002"><title>Note</title><fn id="ece36737-note-0003"><p>Significant (i.e., <italic>p</italic>&#x000a0;&#x02264;&#x000a0;.05) effects appear in bold. Numerical superscripts indicate the order in which nonsignificant terms (given in parentheses) were removed from the final model. Tansy and goldenrod were evaluated with independent models.</p></fn><fn id="ece36737-note-0004"><p>Data were cube&#x02010;root transformed to improve normality.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36737-sec-0014"><label>3.2.2</label><title>Goldenrod</title><p>For goldenrod biomass, the effects of soil sterilization depended upon biogeographic range (Figure&#x000a0;<xref rid="ece36737-fig-0002" ref-type="fig">2</xref>). Consistent with predictions derived from the ERH, suppressing soil biota increased goldenrod biomass in the native range only, regardless of soil source (Hungary: &#x02212;0.02&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic> &#x02212;0.01, &#x02212;0.03; <italic>t</italic>
+<sub>188</sub>=&#x02212;1.91, <italic>p</italic>&#x000a0;=&#x000a0;.058; USA: 0.23&#x000a0;&#x000b1;&#x000a0;<italic>SE</italic>: 0.25, 0.21; all <italic>t</italic>
+<sub>188</sub>&#x000a0;=&#x000a0;7.61, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). Thus, antagonistic biota in both conspecific and tansy soils reduced goldenrod biomass in the native range, but had no significant effects in the non&#x02010;native range. In addition, across all treatments, goldenrod grew 0.18g (&#x000b1;<italic>SE</italic>: 0.16, 0.20; <italic>t</italic>
+<sub>188</sub>&#x000a0;=&#x000a0;12.95, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) larger in the native range (USA) than the non&#x02010;native range (Hungary). These findings corresponded to significant main effects of biogeographic range and sterilization treatment, and a significant biogeographic range&#x000a0;&#x000d7;&#x000a0;sterilization treatment interaction (Table&#x000a0;<xref rid="ece36737-tbl-0002" ref-type="table">2</xref>).</p></sec></sec></sec><sec sec-type="discussion" id="ece36737-sec-0015"><label>4</label><title>DISCUSSION</title><p>A handful of studies have experimentally shown that natural enemies inhibit invasive plant species more in their native ranges than in their non&#x02010;native ranges (e.g., DeWalt et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0018" ref-type="ref">2004</xref>; Lucero et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0044" ref-type="ref">2019</xref>; Williams et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0082" ref-type="ref">2010</xref>), but we examined the effects of multiple enemy guilds on more than one invasive species in both ranges. We found that enemy release from insect herbivores, but not antagonistic soil biota, and antagonistic soil biota, but not insect herbivores, may enhance the performance of tansy and goldenrod, respectively, in their non&#x02010;native ranges relative to their native ranges. These findings suggest that biogeographic escape from effects natural enemies can depend upon the enemies, the invader, and competition.</p><p>Our study emphasizes the importance of testing the ERH by contrasting the effects of natural enemies in the native versus non&#x02010;native ranges of invasive species (Keane &#x00026; Crawley,&#x000a0;<xref rid="ece36737-bib-0031" ref-type="ref">2002</xref>; Maron &#x00026; Vil&#x000e0;, <xref rid="ece36737-bib-0048" ref-type="ref">2001</xref>). To date, most empirical examinations of the ERH have conducted biogeographic comparisons of <italic>enemy loads</italic> and inferred enemy release when fewer enemy species attacked focal invaders in the non&#x02010;native range compared to the native range (see reviews by Meijer, Schilthuizen, Beukeboom, &#x00026; Smit,&#x000a0;<xref rid="ece36737-bib-0050" ref-type="ref">2016</xref>; Roy et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0065" ref-type="ref">2011</xref>). This approach may demonstrate escape from certain natural enemies (e.g., Mitchell &#x00026; Power,&#x000a0;<xref rid="ece36737-bib-0051" ref-type="ref">2003</xref>), but it does not show release because reduced enemy loads may not translate to increased abundance or performance for the invader (Beckstead &#x00026; Parker,&#x000a0;<xref rid="ece36737-bib-0005" ref-type="ref">2003</xref>). To this point, previous work has shown that goldenrod is attacked by more species of insect herbivores in the native range than the non&#x02010;native range (Jobin et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0028" ref-type="ref">1996</xref>; Long et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0042" ref-type="ref">2003</xref>), but our experiments found no evidence that this pattern translated to plant performance in the field&#x02013;insects damaged goldenrod in both native and non&#x02010;native ranges (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>) but failed to reduce biomass in either range (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>; see also van Kleunen &#x00026; Schmid,&#x000a0;<xref rid="ece36737-bib-0076" ref-type="ref">2003</xref>). Furthermore, herbivore damage on tansy was by far greatest in Hungary (Appendix <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ece36737-sup-0001" ref-type="supplementary-material">S1</xref>), but plants in Hungary outgrew plants in Germany (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>).</p><p>Our field experiments suggested that associational effects between common tansy and goldenrod can influence patterns of enemy release. Associational effects arise when herbivore effects on a focal plant change due to the presence or identity of neighboring plants (reviewed by Barbosa et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0003" ref-type="ref">2009</xref>; Callaway,&#x000a0;<xref rid="ece36737-bib-0010" ref-type="ref">2007</xref>; Underwood, Inouye, &#x00026; Hamback,&#x000a0;<xref rid="ece36737-bib-0075" ref-type="ref">2014</xref>). In this context, insect herbivory reduced tansy biomass in the native range of Europe only when goldenrod was absent, whereas insect herbivory had no effect on tansy in the USA, regardless of the presence of goldenrod (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). Said differently, in Europe only, the presence of goldenrod at least partially ameliorated the negative effects of insect herbivory on tansy biomass. Biogeographic differences in associational effects relevant to plant invasion have been hypothesized (Orrock, Holt, &#x00026; Baskett,&#x000a0;<xref rid="ece36737-bib-0053" ref-type="ref">2010</xref>), but to our knowledge, this is the first empirical evidence that the outcome of associational effects can depend upon whether interactions occurred in the native or non&#x02010;native range of a focal species. Importantly, our interpretation of associational effects should be viewed with some caution because at the plot level, we controlled for total plant density but not species&#x02010;specific frequency, which can influence the detection of associational effects (Underwood et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0075" ref-type="ref">2014</xref>). Regardless, our findings underscore a growing body of research suggesting that invasive species can impose associational effects on native neighbors for better (Atwater, Bauer, &#x00026; Callaway,&#x000a0;<xref rid="ece36737-bib-0002" ref-type="ref">2011</xref>; van Ruijven, De Deyn, &#x00026; Berendse,&#x000a0;<xref rid="ece36737-bib-0077" ref-type="ref">2003</xref>) or for worse (Beckstead, Meyer, &#x00026; Ausperger,&#x000a0;<xref rid="ece36737-bib-0004" ref-type="ref">2008</xref>; Enge, Nylund, &#x00026; Pavia,&#x000a0;<xref rid="ece36737-bib-0020" ref-type="ref">2013</xref>; Orrock et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0054" ref-type="ref">2008</xref>).</p><p>Our study agrees with other reports that goldenrod can facilitate tansy. Goldenrod in Europe is generally associated with negative effects on biodiversity at the community level, but Schittko and Wurst (<xref rid="ece36737-bib-0068" ref-type="ref">2014</xref>) showed that for tansy in Europe, spatial association with goldenrod can increase growth. Our field experiments expanded these findings to the USA, but there only when insects were present (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>). Zhang et&#x000a0;al.&#x000a0;(<xref rid="ece36737-bib-0084" ref-type="ref">2009</xref>) suggested that goldenrod could facilitate tansy by suppressing antagonistic soil biota, but we found no evidence for this because goldenrod soils in both Hungary and the USA suppressed tansy performance (Figure&#x000a0;<xref rid="ece36737-fig-0002" ref-type="fig">2</xref>). However, plant&#x02013;soil feedbacks themselves are highly conditional (DeLong et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0017" ref-type="ref">2019</xref>), with feedbacks for the congener <italic>S. gigantea</italic> varying twofold to 10&#x02010;fold among sites and among source populations (Maron, Luo, Callaway, &#x00026; Pal,&#x000a0;<xref rid="ece36737-bib-0047" ref-type="ref">2015</xref>). With respect to our field experiments, we speculate that in the USA, goldenrod facilitated tansy primarily by providing associational resistance against insect herbivory. Importantly, plant&#x02013;plant facilitation can occur via a number of nonmutually exclusive mechanisms, which include associational effects (reviewed by Callaway,&#x000a0;<xref rid="ece36737-bib-0010" ref-type="ref">2007</xref>; Filazzola &#x00026; Lortie,&#x000a0;<xref rid="ece36737-bib-0024" ref-type="ref">2014</xref>).</p><p>Our greenhouse experiments suggested that goldenrod in the non&#x02010;native range may escape the effects of antagonistic soil biota relative to populations in the native range. This is consistent with a broad literature showing that exotic invasive plant species tend to suffer much less inhibition from soil biota than do co&#x02010;occurring natives in plant&#x02013;soil feedback experiments (Agrawal et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0001" ref-type="ref">2005</xref>; Kardol, Cornips, Van Kempen, Bakx&#x02010;Schotman, &#x00026; van der Putten,&#x000a0;<xref rid="ece36737-bib-0030" ref-type="ref">2007</xref>; Klironomos,&#x000a0;<xref rid="ece36737-bib-0034" ref-type="ref">2002</xref>; Kulmatiski, Beard, Stevens, &#x00026; Cobbold,&#x000a0;<xref rid="ece36737-bib-0036" ref-type="ref">2008</xref>; MacDougall, Rillig, &#x00026; Klironomos,&#x000a0;<xref rid="ece36737-bib-0045" ref-type="ref">2011</xref>; Pendergast, Burke, &#x00026; Carson,&#x000a0;<xref rid="ece36737-bib-0055" ref-type="ref">2013</xref>). In addition, biogeographic comparisons of plant&#x02013;soil feedbacks have shown that some invasive species experience stronger negative soil feedbacks in their native ranges than their non&#x02010;native ranges (Callaway, Thelen, Rodriguez, &#x00026; Holben,&#x000a0;<xref rid="ece36737-bib-0011" ref-type="ref">2004</xref>; Maron et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0046" ref-type="ref">2014</xref>; Reinhart &#x00026; Callaway,&#x000a0;<xref rid="ece36737-bib-0061" ref-type="ref">2006</xref>; Reinhart et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0062" ref-type="ref">2003</xref>; Yang et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0083" ref-type="ref">2013</xref>; Zuppinger&#x02010;Dingle et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0085" ref-type="ref">2011</xref>), which is consistent with the ERH. However, we suggest caution in interpreting our results because the effects of soil sterilization in greenhouse conditions do not always translate to the field (Schittko et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0067" ref-type="ref">2016</xref>). Regardless, our study suggests that escaping inhibition from soil biota (Figure&#x000a0;<xref rid="ece36737-fig-0002" ref-type="fig">2</xref>) may help invasive populations of goldenrod to achieve greater biomass than native populations (Figure&#x000a0;<xref rid="ece36737-fig-0001" ref-type="fig">1</xref>).</p><p>In field experiments, tansy and goldenrod both grew much larger in the non&#x02010;native range than in the native range, but this does not constitute strong support for the evolution of increased competitive ability (EICA) hypothesis (Blossey &#x00026; N&#x000f6;tzold, <xref rid="ece36737-bib-0007" ref-type="ref">1995</xref>). Escape from natural enemies may permit translocated species to divert resources formerly required for defense toward growth and/or reproduction (Blossey &#x00026; N&#x000f6;tzold, <xref rid="ece36737-bib-0007" ref-type="ref">1995</xref>). Over evolutionary time, this could result in a concomitant decrease in defensive characteristics and an increase in vigor (i.e., size or fecundity) for populations in the non&#x02010;native range relative to the native range (Blumental &#x00026; Hufbauer, <xref rid="ece36737-bib-0008" ref-type="ref">2007</xref>; Maron, Vil&#x000e0;, &#x00026; Arnason,&#x000a0;<xref rid="ece36737-bib-0049" ref-type="ref">2004</xref>; Uesugi &#x00026; Kessler,&#x000a0;<xref rid="ece36737-bib-0074" ref-type="ref">2013</xref>). Empirical support for the EICA hypothesis is mixed, but there are many examples of invasive species performing better in the non&#x02010;native range relative to the native range (see reviews by Felker&#x02010;Quinn, Schweitzer, &#x00026; Bailey, <xref rid="ece36737-bib-0021" ref-type="ref">2013</xref>; Jeschke et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0027" ref-type="ref">2012</xref>; Lamarque, Delzon, &#x00026; Lortie, <xref rid="ece36737-bib-0037" ref-type="ref">2011</xref>; Rotter &#x00026; Holeski,&#x000a0;<xref rid="ece36737-bib-0064" ref-type="ref">2018</xref>). In this context, tansy and goldenrod in the field both grew larger in non&#x02010;native ranges than native ranges, regardless of insect exclusion. This accords with reports that invasive populations can outperform those from the native range independently of the effects of natural enemies (Siemann, DeWalt, Zou, &#x00026; Rogers, <xref rid="ece36737-bib-0071" ref-type="ref">2017</xref>). Such increased size in the non&#x02010;native range may help explain why tansy in field experiments only imposed significant competitive effects on goldenrod in the USA. For tansy, our greenhouse (i.e., common garden) experiments hinted that there may be a genetic (i.e., evolutionary) basis to biogeographic differences in plant size, but we did not control for founder effects because study plants came from single populations in each country. Thus, we cannot make strong inferences about the EICA hypothesis, despite our use of common gardens. Interestingly, we found that goldenrod in the greenhouse grew larger in the native range than the non&#x02010;native range, which is the opposite pattern predicted by the EICA hypothesis. This coincides with the report of Van Kleunen and Schmid (<xref rid="ece36737-bib-0076" ref-type="ref">2003</xref>), which found no evidence for EICA in <italic>S. canadensis</italic>. However, Uesugi and Kessler (<xref rid="ece36737-bib-0074" ref-type="ref">2013</xref>) found strong support for EICA in <italic>S. altissima</italic>, a closely related and functionally similar (Kabuce &#x00026; Priede,&#x000a0;<xref rid="ece36737-bib-0029" ref-type="ref">2010</xref>) congener.</p><p>As in many, if not all, biogeographic comparisons of populations of a species from native and non&#x02010;native ranges, it is very difficult to be certain if apples are being compared to apples. This is certainly true for goldenrod. <italic>Solidago canadensis</italic> is taxonomically complex. In North America, several taxonomic subunits have been recognized within the <italic>S. canadensis</italic> species complex, including <italic>S. altissima</italic>, which is considered to be a distinct species by some (Kabuce &#x00026; Priede,&#x000a0;<xref rid="ece36737-bib-0029" ref-type="ref">2010</xref>; Weber, <xref rid="ece36737-bib-0080" ref-type="ref">2001</xref>). Others have argued that the primary representative of the <italic>Solidago</italic> complex in Europe is closer to <italic>S. altissima</italic> than <italic>S. canadensis</italic> (Pried&#x0012b;tis,&#x000a0;<xref rid="ece36737-bib-0058" ref-type="ref">2002</xref>; but see Semple &#x00026; Cook,&#x000a0;<xref rid="ece36737-bib-0070" ref-type="ref">2006</xref>). Our study cannot speak to this debate because we collected seeds from single populations in each country, which precluded tests of population variation within any range (see Rosche et al., <xref rid="ece36737-bib-0063" ref-type="ref">2019</xref>).</p><p>It is well understood that natural enemies can have idiosyncratic effects on the performance of invasive plant species (Agrawal et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0001" ref-type="ref">2005</xref>; Jeschke et&#x000a0;al.,&#x000a0;<xref rid="ece36737-bib-0027" ref-type="ref">2012</xref>), but our study is unique in experimentally examining the effects of more than one kind of natural enemy on more than one invasive species in more than one range, simultaneously We found that the effects of natural enemies depended upon the identity of the focal invader, biogeographic context, and the focal invader's biotic environment&#x02013;including the presence of heterospecific neighbors. These findings enhance our nuanced perspective of how natural enemies can influence the success of invasive plant species.</p></sec><sec sec-type="COI-statement" id="ece36737-sec-0017"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflicts of interest.</p></sec><sec id="ece36737-sec-0018"><title>AUTHOR CONTRIBUTION</title><p>
+<bold>Jacob E. Lucero:</bold> Visualization (supporting); Writing&#x02010;original draft (lead); Writing&#x02010;review &#x00026; editing (equal). <bold>Nafiseh Mahdavi Arab:</bold> Conceptualization (equal); Investigation (lead); Methodology (supporting). <bold>Sebastian T. Meyer:</bold> Conceptualization (equal); Formal analysis (lead); Visualization (lead); Writing&#x02010;review &#x00026; editing (equal). <bold>Robert W. Pal:</bold> Conceptualization (equal); Funding acquisition (supporting); Methodology (supporting); Project administration (supporting); Supervision (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Rebecca A. Fletcher:</bold> Investigation (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>David U. Nagy:</bold> Conceptualization (equal); Investigation (equal); Project administration (equal); Supervision (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Ragan M. Callaway:</bold> Conceptualization (equal); Funding acquisition (equal); Methodology (equal); Writing&#x02010;review &#x00026; editing (lead). <bold>Wolfgang W. Weisser:</bold> Conceptualization (lead); Funding acquisition (lead); Methodology (equal); Project administration (lead); Supervision (equal); Writing&#x02010;review &#x00026; editing (equal).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece36737-sup-0001"><caption><p>Appendix S1</p></caption><media xlink:href="ECE3-10-10818-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece36737-sec-0016"><title>ACKNOWLEDGMENTS</title><p>JEL was supported by a York Science Fellowship and owes RMC tribute and spoils for squatting in his office space. This material is based upon work supported in part by the National Science Foundation EPSCoR Cooperative Agreement OIA&#x02010;1757351 (RMC) and the Fulbright Commission (RWP). NMA was supported by a TUM Diversity Scholarship.</p></ack><sec sec-type="data-availability" id="ece36737-sec-0020"><title>DATA AVAILABILITY STATEMENT</title><p>Data for this article are publicly archived in the Dryad repository, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.hhmgqnkdt" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.hhmgqnkdt</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece36737-bibl-0001"><title>REFERENCES</title><ref id="ece36737-bib-0001"><mixed-citation publication-type="journal" id="ece36737-cit-0001">
+<string-name>
+<surname>Agrawal</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name>
+<surname>Kotanen</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Mitchell</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name>
+<surname>Power</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name>
+<surname>Godsoe</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Klironomos</surname>, <given-names>J.</given-names>
+</string-name> (<year>2005</year>). <article-title>Enemy release? An experiment with congeneric plant pairs and diverse above&#x02010; and belowground enemies</article-title>. <source xml:lang="en">Ecology</source>, <volume>86</volume>, <fpage>2979</fpage>&#x02013;<lpage>2989</lpage>. <pub-id pub-id-type="doi">10.1890/05-0219</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0002"><mixed-citation publication-type="journal" id="ece36737-cit-0002">
+<string-name>
+<surname>Atwater</surname>, <given-names>D. Z.</given-names>
+</string-name>, <string-name>
+<surname>Bauer</surname>, <given-names>C. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Indirect positive effects ameliorate strong negative effects of <italic>Euphorbia esula</italic> on a native plant</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>212</volume>, <fpage>1655</fpage>&#x02013;<lpage>1662</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-011-9938-7</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0003"><mixed-citation publication-type="journal" id="ece36737-cit-0003">
+<string-name>
+<surname>Barbosa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Hines</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kaplan</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Martinson</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Szczepaniec</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Szendrei</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2009</year>). <article-title>Associational resistance and susceptibility: Having right or wrong neighbors</article-title>. <source xml:lang="en">Annual Review of Ecology, Evolution, and Systematics</source>, <volume>40</volume>, <fpage>1</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0004"><mixed-citation publication-type="miscellaneous" id="ece36737-cit-0004">
+<string-name>
+<surname>Beckstead</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>, <given-names>S. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ausperger</surname>, <given-names>C. K.</given-names>
+</string-name> (<year>2008</year>). <article-title>The indirect effects of cheatgrass invasion: grasshopper herbivory on native grasses determined by neighboring cheatgrass</article-title>. USDA Forest Service Proceedings, RMRS&#x02010;P&#x02010;52.</mixed-citation></ref><ref id="ece36737-bib-0005"><mixed-citation publication-type="journal" id="ece36737-cit-0005">
+<string-name>
+<surname>Beckstead</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parker</surname>, <given-names>I. M.</given-names>
+</string-name> (<year>2003</year>). <article-title>Invasiveness of <italic>Ammophila arenaria</italic>: Release from soil&#x02010;borne pathogens?</article-title>
+<source xml:lang="en">Ecology</source>, <volume>84</volume>, <fpage>2824</fpage>&#x02013;<lpage>2831</lpage>. <pub-id pub-id-type="doi">10.1890/02-0517</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0006"><mixed-citation publication-type="journal" id="ece36737-cit-0006">
+<string-name>
+<surname>Bellard</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Leroy</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Thuller</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Rysman</surname>, <given-names>J. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Courchamp</surname>, <given-names>F.</given-names>
+</string-name> (<year>2016</year>). <article-title>Major drivers of invasion risks throughout the world</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>7</volume>, <elocation-id>e01241</elocation-id>
+<pub-id pub-id-type="doi">10.1002/ecs2.1241</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0007"><mixed-citation publication-type="journal" id="ece36737-cit-0007">
+<string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>N&#x000f6;tzold</surname>, <given-names>R.</given-names>
+</string-name> (<year>1995</year>). <article-title>Evolution of increased competitive ability in invasive nonindigenous plants: A hypothesis</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>83</volume>, <fpage>887</fpage>&#x02013;<lpage>889</lpage>. <pub-id pub-id-type="doi">10.2307/2261425</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0008"><mixed-citation publication-type="journal" id="ece36737-cit-0008">
+<string-name>
+<surname>Blumental</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hufbauer</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2007</year>). <article-title>Increased plant size in exotic populations: A common&#x02010;garden test with 14 invasive species</article-title>. <source xml:lang="en">Ecology</source>, <volume>88</volume>, <fpage>2758</fpage>&#x02013;<lpage>2765</lpage>. <pub-id pub-id-type="doi">10.1890/06-2115.1</pub-id>
+<pub-id pub-id-type="pmid">18051644</pub-id></mixed-citation></ref><ref id="ece36737-bib-0009"><mixed-citation publication-type="journal" id="ece36737-cit-0009">
+<string-name>
+<surname>Cain</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name>
+<surname>Carson</surname>, <given-names>W. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Root</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>1991</year>). <article-title>Long&#x02010;term suppression of insect herbivores increases the production and growth of <italic>Solidago altissima</italic> rhizomes</article-title>. <source xml:lang="en">Oecologia</source>, <volume>88</volume>, <fpage>251</fpage>&#x02013;<lpage>257</lpage>. <pub-id pub-id-type="doi">10.1007/BF00320819</pub-id>
+<pub-id pub-id-type="pmid">28312140</pub-id></mixed-citation></ref><ref id="ece36737-bib-0010"><mixed-citation publication-type="book" id="ece36737-cit-0010">
+<string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2007</year>). <source xml:lang="en">Positive interactions and interdependence in plant communities</source>. <publisher-loc>Dordrecht, The Netherlands</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece36737-bib-0011"><mixed-citation publication-type="journal" id="ece36737-cit-0011">
+<string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<surname>Thelen</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Holben</surname>, <given-names>W. E.</given-names>
+</string-name> (<year>2004</year>). <article-title>Soil biota and exotic plant invasion</article-title>. <source xml:lang="en">Nature</source>, <volume>427</volume>, <fpage>731</fpage>&#x02013;<lpage>733</lpage>. <pub-id pub-id-type="doi">10.1038/nature02322</pub-id>
+<pub-id pub-id-type="pmid">14973484</pub-id></mixed-citation></ref><ref id="ece36737-bib-0012"><mixed-citation publication-type="journal" id="ece36737-cit-0012">
+<string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<surname>Waller</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name>
+<surname>Diaconu</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Pal</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Mueller&#x02010;Schaerer</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2011</year>). <article-title>Escape from competition: Neighbors reduce <italic>Centaurea stoebe</italic> performance at home but not away</article-title>. <source xml:lang="en">Ecology</source>, <volume>92</volume>, <fpage>2208</fpage>&#x02013;<lpage>2213</lpage>.<pub-id pub-id-type="pmid">22352160</pub-id></mixed-citation></ref><ref id="ece36737-bib-0013"><mixed-citation publication-type="journal" id="ece36737-cit-0013">
+<string-name>
+<surname>Carson</surname>, <given-names>W. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Root</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>1999</year>). <article-title>Top&#x02010;down effects of insect herbivores during early succession: Influence on biomass and plant dominance</article-title>. <source xml:lang="en">Oecologia</source>, <volume>121</volume>, <fpage>260</fpage>&#x02013;<lpage>272</lpage>. <pub-id pub-id-type="doi">10.1007/s004420050928</pub-id>
+<pub-id pub-id-type="pmid">28308566</pub-id></mixed-citation></ref><ref id="ece36737-bib-0014"><mixed-citation publication-type="journal" id="ece36737-cit-0014">
+<string-name>
+<surname>Carson</surname>, <given-names>W. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Root</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2000</year>). <article-title>Herbivory and plant species coexistence: Community regulation by an outbreaking phytophagous insect</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>70</volume>, <fpage>73</fpage>&#x02013;<lpage>99</lpage>. <pub-id pub-id-type="doi">10.1890/0012-9615(2000)070[0073:HAPSCC]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0015"><mixed-citation publication-type="journal" id="ece36737-cit-0015">
+<string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name> (<year>2004</year>). <article-title>Stretching the limits of plasticity: Can a plant defend against both competitors and herbivores?</article-title>
+<source xml:lang="en">Ecology</source>, <volume>85</volume>, <fpage>28</fpage>&#x02013;<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1890/02-0615</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0017"><mixed-citation publication-type="journal" id="ece36737-cit-0017">
+<string-name>
+<surname>DeLong</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Fry</surname>, <given-names>E. L.</given-names>
+</string-name>, <string-name>
+<surname>Veen</surname>, <given-names>G. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kardol</surname>, <given-names>P.</given-names>
+</string-name> (<year>2019</year>). <article-title>Why are plant&#x02010;soil feedbacks so unpredictable, and what to do about it?</article-title>
+<source xml:lang="en">Functional Ecology</source>, <volume>33</volume>, <fpage>118</fpage>&#x02013;<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2435.13232</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0018"><mixed-citation publication-type="journal" id="ece36737-cit-0018">
+<string-name>
+<surname>DeWalt</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Denslow</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ickes</surname>, <given-names>K.</given-names>
+</string-name> (<year>2004</year>). <article-title>Natural&#x02010;enemy release facilitates habitat expansion of the invasive tropical shrub <italic>Clidemia hirta</italic>
+</article-title>. <source xml:lang="en">Ecology</source>, <volume>85</volume>, <fpage>471</fpage>&#x02013;<lpage>483</lpage>. <pub-id pub-id-type="doi">10.1890/02-0728</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0019"><mixed-citation publication-type="journal" id="ece36737-cit-0019">
+<string-name>
+<surname>Dong</surname>, <given-names>M. E. I.</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>, <given-names>B. R.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>H. B.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>J. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>B. O.</given-names>
+</string-name> (<year>2006</year>). <article-title>Role of sexual reproduction in the spread of an invasive clonal plant <italic>Solidago canadensis</italic> revealed using intersimple sequence repeat markers</article-title>. <source xml:lang="en">Plant Species Biology</source>, <volume>21</volume>, <fpage>13</fpage>&#x02013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1111/j.1442-1984.2006.00146.x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0020"><mixed-citation publication-type="journal" id="ece36737-cit-0020">
+<string-name>
+<surname>Enge</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Nylund</surname>, <given-names>G. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pavia</surname>, <given-names>H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Native generalist herbivores promote invasion of a chemically defended seaweed via refuge&#x02010;mediated apparent competition</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>16</volume>, <fpage>487</fpage>&#x02013;<lpage>492</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12072</pub-id>
+<pub-id pub-id-type="pmid">23331740</pub-id></mixed-citation></ref><ref id="ece36737-bib-0021"><mixed-citation publication-type="journal" id="ece36737-cit-0021">
+<string-name>
+<surname>Felker&#x02010;Quinn</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Schweitzer</surname>, <given-names>J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bailey</surname>, <given-names>J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Meta&#x02010;analysis reveals evolution in invasive plant species but little support for Evolution of Increased Competitive Ability (EICA)</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>3</volume>, <fpage>739</fpage>&#x02013;<lpage>751</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.488</pub-id>
+<pub-id pub-id-type="pmid">23531703</pub-id></mixed-citation></ref><ref id="ece36737-bib-0022"><mixed-citation publication-type="journal" id="ece36737-cit-0022">
+<string-name>
+<surname>Fenesi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Vagsi</surname>, <given-names>C. I.</given-names>
+</string-name>, <string-name>
+<surname>Beldean</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Foldesi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kolcsar</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name>
+<surname>Shapiro</surname>, <given-names>J. T.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Kovacs&#x02010;Hostyanszki</surname>, <given-names>A.</given-names>
+</string-name> (<year>2015</year>). <article-title>
+<italic>Solidago canadensis</italic> impacts on native plant and pollinator communities in different&#x02010;aged old fields</article-title>. <source xml:lang="en">Basic and Applied Ecology</source>, <volume>16</volume>, <fpage>335</fpage>&#x02013;<lpage>346</lpage>. <pub-id pub-id-type="doi">10.1016/j.baae.2015.03.003</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0023"><mixed-citation publication-type="journal" id="ece36737-cit-0023">
+<string-name>
+<surname>Fernandez&#x02010;Conradi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Borowiec</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Capdevielle</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Castagneyrol</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Maltoni</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Robin</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Jactel</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>). <article-title>Plant neighbor identity and invasive pathogen infection affect accosiational resistance to an invasive gall wasp</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>20</volume>, <fpage>1459</fpage>&#x02013;<lpage>1473</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0024"><mixed-citation publication-type="journal" id="ece36737-cit-0024">
+<string-name>
+<surname>Filazzola</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lortie</surname>, <given-names>C. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>A systematic review and conceptual framework for the mechanistic pathways of nurse plants</article-title>. <source xml:lang="en">Global Ecology and Biogeography</source>, <volume>23</volume>, <fpage>1335</fpage>&#x02013;<lpage>1345</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12202</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0025"><mixed-citation publication-type="journal" id="ece36737-cit-0025">
+<string-name>
+<surname>Hahn</surname>, <given-names>P. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Orrock</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Neighbor palatability generates associational effects by altering herbivore foraging behavior</article-title>. <source xml:lang="en">Ecology</source>, <volume>97</volume>, <fpage>2103</fpage>&#x02013;<lpage>2111</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.1430</pub-id>
+<pub-id pub-id-type="pmid">27859184</pub-id></mixed-citation></ref><ref id="ece36737-bib-0026"><mixed-citation publication-type="journal" id="ece36737-cit-0026">
+<string-name>
+<surname>Hartnett</surname>, <given-names>D. C.</given-names>
+</string-name> (<year>1990</year>). <article-title>Size&#x02010;dependent allocation to sexual and vegetative reproduction in four clonal composites</article-title>. <source xml:lang="en">Oecologia</source>, <volume>84</volume>, <fpage>254</fpage>&#x02013;<lpage>259</lpage>. <pub-id pub-id-type="doi">10.1007/BF00318281</pub-id>
+<pub-id pub-id-type="pmid">28312762</pub-id></mixed-citation></ref><ref id="ece36737-bib-0027"><mixed-citation publication-type="journal" id="ece36737-cit-0027">
+<string-name>
+<surname>Jeschke</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Gomez&#x02010;Aparicio</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Haider</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Heger</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Lortie</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Pysek</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strayer</surname>, <given-names>D. L.</given-names>
+</string-name> (<year>2012</year>). <article-title>Support for major hypotheses in invasion biology is uneven and declining</article-title>. <source xml:lang="en">NeoBiota</source>, <volume>14</volume>, <fpage>1</fpage>&#x02013;<lpage>20</lpage>. <pub-id pub-id-type="doi">10.3897/neobiota.14.3435</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0028"><mixed-citation publication-type="journal" id="ece36737-cit-0028">
+<string-name>
+<surname>Jobin</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Schaffner</surname>, <given-names>U.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nentwig</surname>, <given-names>W.</given-names>
+</string-name> (<year>1996</year>). <article-title>The structure of the phytophagous insect fauna on the introduced weed <italic>Solidago altissima</italic> in Switzerland</article-title>. <source xml:lang="en">Entomologia Experimentalis et Applicata</source>, <volume>79</volume>, <fpage>33</fpage>&#x02013;<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1111/j.1570-7458.1996.tb00806.x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0029"><mixed-citation publication-type="book" id="ece36737-cit-0029">
+<string-name>
+<surname>Kabuce</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Priede</surname>, <given-names>N.</given-names>
+</string-name> (<year>2010</year>). <source xml:lang="en">NOBANIS&#x02013;Invasive Alien Species Fact Sheet&#x02010;<italic toggle="yes">Solidago canadensis</italic></source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.nobanis.org">www.nobanis.org</ext-link>
+</mixed-citation></ref><ref id="ece36737-bib-0030"><mixed-citation publication-type="journal" id="ece36737-cit-0030">
+<string-name>
+<surname>Kardol</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Cornips</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Van Kempen</surname>, <given-names>M. M. L.</given-names>
+</string-name>, <string-name>
+<surname>Bakx&#x02010;Schotman</surname>, <given-names>J. M. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van der Putten</surname>, <given-names>W. H.</given-names>
+</string-name> (<year>2007</year>). <article-title>Microbe&#x02010;mediated plant&#x02010;soil feedback causes historical contingency effects in plant community assembly</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>77</volume>, <fpage>147</fpage>&#x02013;<lpage>162</lpage>. <pub-id pub-id-type="doi">10.1890/06-0502</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0031"><mixed-citation publication-type="journal" id="ece36737-cit-0031">
+<string-name>
+<surname>Keane</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Crawley</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Exotic plant invasions and the enemy release hypothesis</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>17</volume>, <fpage>164</fpage>&#x02013;<lpage>170</lpage>. <pub-id pub-id-type="doi">10.1016/S0169-5347(02)02499-0</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0032"><mixed-citation publication-type="journal" id="ece36737-cit-0032">
+<string-name>
+<surname>Kim</surname>, <given-names>T. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Underwood</surname>, <given-names>N.</given-names>
+</string-name> (<year>2015</year>). <article-title>Plant neighborhood effects on herbivory: Damage is both density and frequency dependent</article-title>. <source xml:lang="en">Ecology</source>, <volume>96</volume>, <fpage>1431</fpage>&#x02013;<lpage>1437</lpage>. <pub-id pub-id-type="doi">10.1890/14-1097.1</pub-id>
+<pub-id pub-id-type="pmid">26236855</pub-id></mixed-citation></ref><ref id="ece36737-bib-0033"><mixed-citation publication-type="journal" id="ece36737-cit-0033">
+<string-name>
+<surname>Kleine</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Drought stress and leaf herbivory affect root terpenoid concentrations and growth of <italic>Tanacetum vulgare</italic>
+</article-title>. <source xml:lang="en">Journal of Chemical Ecology</source>, <volume>40</volume>, <fpage>1115</fpage>&#x02013;<lpage>1125</lpage>. <pub-id pub-id-type="doi">10.1007/s10886-014-0505-2</pub-id>
+<pub-id pub-id-type="pmid">25315354</pub-id></mixed-citation></ref><ref id="ece36737-bib-0034"><mixed-citation publication-type="journal" id="ece36737-cit-0034">
+<string-name>
+<surname>Klironomos</surname>, <given-names>J. N.</given-names>
+</string-name> (<year>2002</year>). <article-title>Feedback with soil biota contributes to plant rarity and invasiveness in communities</article-title>. <source xml:lang="en">Nature</source>, <volume>417</volume>, <fpage>67</fpage>&#x02013;<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1038/417067a</pub-id>
+<pub-id pub-id-type="pmid">11986666</pub-id></mixed-citation></ref><ref id="ece36737-bib-0035"><mixed-citation publication-type="book" id="ece36737-cit-0035">
+<string-name>
+<surname>Kuhn</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Weston</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Wing</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Forester</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thaler</surname>, <given-names>T.</given-names>
+</string-name> (<year>2016</year>) <source xml:lang="en">contrast: A collection of contrast methods. R package version</source>.</mixed-citation></ref><ref id="ece36737-bib-0036"><mixed-citation publication-type="journal" id="ece36737-cit-0036">
+<string-name>
+<surname>Kulmatiski</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Beard</surname>, <given-names>K. H.</given-names>
+</string-name>, <string-name>
+<surname>Stevens</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cobbold</surname>, <given-names>S. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Plant&#x02010;soil feedbacks: A meta&#x02010;analytical review</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>11</volume>, <fpage>980</fpage>&#x02013;<lpage>992</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2008.01209.x</pub-id>
+<pub-id pub-id-type="pmid">18522641</pub-id></mixed-citation></ref><ref id="ece36737-bib-0037"><mixed-citation publication-type="journal" id="ece36737-cit-0037">
+<string-name>
+<surname>Lamarque</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name>
+<surname>Delzon</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lortie</surname>, <given-names>C. J.</given-names>
+</string-name> (<year>2011</year>). <article-title>Tree invasions: A comparative test of the dominant hypotheses and functional traits</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>13</volume>, <fpage>1969</fpage>&#x02013;<lpage>1989</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-011-0015-x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0038"><mixed-citation publication-type="miscellaneous" id="ece36737-cit-0038">
+<string-name>
+<surname>LeCain</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sheley</surname>, <given-names>R.</given-names>
+</string-name> (<year>2014</year>). <article-title>Common tansy (<italic>Tanacetum vulgare</italic>)</article-title>. MontGuide: MT199911AG.</mixed-citation></ref><ref id="ece36737-bib-0039"><mixed-citation publication-type="journal" id="ece36737-cit-0039">
+<string-name>
+<surname>Ledger</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name>
+<surname>Pal</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<surname>Murphy</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>, <given-names>D. U.</given-names>
+</string-name>, <string-name>
+<surname>Filep</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Impact of an invader on species diversity is stronger in the non&#x02010;native range than in the native range</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>216</volume>, <fpage>1285</fpage>&#x02013;<lpage>1295</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-015-0508-2</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0040"><mixed-citation publication-type="journal" id="ece36737-cit-0040">
+<string-name>
+<surname>Lenda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Skorka</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Knops</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Zmihorski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gaj</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Moron</surname>, <given-names>D.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Tryjanowski</surname>, <given-names>P.</given-names>
+</string-name> (<year>2019</year>). <article-title>Multispecies invasion reduces the negative impact of single alien plant species</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>25</volume>, <fpage>951</fpage>&#x02013;<lpage>962</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0041"><mixed-citation publication-type="journal" id="ece36737-cit-0041">
+<string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stiling</surname>, <given-names>P.</given-names>
+</string-name> (<year>2006</year>). <article-title>Testing the enemy release hypothesis: A review and meta&#x02010;analysis</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>8</volume>, <fpage>1535</fpage>&#x02013;<lpage>1545</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-005-5845-y</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0042"><mixed-citation publication-type="journal" id="ece36737-cit-0042">
+<string-name>
+<surname>Long</surname>, <given-names>Z. T.</given-names>
+</string-name>, <string-name>
+<surname>Mohler</surname>, <given-names>C. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Carson</surname>, <given-names>W. P.</given-names>
+</string-name> (<year>2003</year>). <article-title>Extending the resource concentration hypothesis to plant communities: Effects of litter and herbivores</article-title>. <source xml:lang="en">Ecology</source>, <volume>84</volume>, <fpage>652</fpage>&#x02013;<lpage>665</lpage>. <pub-id pub-id-type="doi">10.1890/0012-9658(2003)084[0652:ETRCHT]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0043"><mixed-citation publication-type="journal" id="ece36737-cit-0043">
+<string-name>
+<surname>Lu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Qiu</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name> (<year>2005</year>). <article-title>Impact of invasive species on soil properties: Canadian goldenrod (<italic>Solidago canadensis</italic>) as a case study</article-title>. <source xml:lang="en">Chinese Biodiversity</source>, <volume>13</volume>, <fpage>347</fpage>&#x02013;<lpage>356</lpage>. <pub-id pub-id-type="doi">10.1360/biodiv.050071</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0044"><mixed-citation publication-type="journal" id="ece36737-cit-0044">
+<string-name>
+<surname>Lucero</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Schaffner</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Asadi</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Bagheri</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Rajabov</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Enemy release from the effects of generalist granivores can facilitate <italic>Bromus tectorum</italic> invasion in the Great Basin Desert</article-title>. <source xml:lang="en">Ecology and Evolution</source>, <volume>9</volume>, <fpage>8490</fpage>&#x02013;<lpage>8499</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.5314</pub-id>
+<pub-id pub-id-type="pmid">31410256</pub-id></mixed-citation></ref><ref id="ece36737-bib-0045"><mixed-citation publication-type="journal" id="ece36737-cit-0045">
+<string-name>
+<surname>MacDougall</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name>
+<surname>Rillig</surname>, <given-names>M. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Klironomos</surname>, <given-names>J. N.</given-names>
+</string-name> (<year>2011</year>). <article-title>Weak conspecific feedbacks and exotic dominance in a species&#x02010;rich savannah</article-title>. <source xml:lang="en">Proceedings of the Royal Society B: Biological Sciences</source>, <volume>278</volume>, <fpage>2939</fpage>&#x02013;<lpage>2945</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2010.2730</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0046"><mixed-citation publication-type="journal" id="ece36737-cit-0046">
+<string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Klironomos</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Waller</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Invasive plant species escape from suppressive soil biota at regional scales</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>102</volume>, <fpage>19</fpage>&#x02013;<lpage>27</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0047"><mixed-citation publication-type="journal" id="ece36737-cit-0047">
+<string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pal</surname>, <given-names>R. W.</given-names>
+</string-name> (<year>2015</year>). <article-title>Do exotic plants lose resistance to pathogenic soil biota from their native range? A test with <italic>Solidago gigantea</italic>
+</article-title>. <source xml:lang="en">Oecologia</source>, <volume>179</volume>, <fpage>447</fpage>&#x02013;<lpage>454</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-015-3350-2</pub-id>
+<pub-id pub-id-type="pmid">26003309</pub-id></mixed-citation></ref><ref id="ece36737-bib-0048"><mixed-citation publication-type="journal" id="ece36737-cit-0048">
+<string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name> (<year>2001</year>). <article-title>When do herbivores affect plant invasion? Evidence for the natural enemies and biotic resistance hypotheses</article-title>. <source xml:lang="en">Oikos</source>, <volume>95</volume>, <fpage>361</fpage>&#x02013;<lpage>373</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0706.2001.950301.x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0049"><mixed-citation publication-type="journal" id="ece36737-cit-0049">
+<string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Arnason</surname>, <given-names>J.</given-names>
+</string-name> (<year>2004</year>). <article-title>Loss of enemy resistance among introduced populations of St. John's wort (<italic>Hypericum perforatum</italic>)</article-title>. <source xml:lang="en">Ecology</source>, <volume>85</volume>, <fpage>3243</fpage>&#x02013;<lpage>3253</lpage>. <pub-id pub-id-type="doi">10.1890/04-0297</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0050"><mixed-citation publication-type="journal" id="ece36737-cit-0050">
+<string-name>
+<surname>Meijer</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Schilthuizen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Beukeboom</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smit</surname>, <given-names>C.</given-names>
+</string-name> (<year>2016</year>). <article-title>A review and meta&#x02010;analysis of the enemy release hypothesis in plant&#x02010;herbivorous insect systems</article-title>. <source xml:lang="en">PeerJ</source>, <volume>4</volume>, <elocation-id>e2778</elocation-id>
+<pub-id pub-id-type="doi">10.7717/peerj.2778</pub-id>
+<pub-id pub-id-type="pmid">28028463</pub-id></mixed-citation></ref><ref id="ece36737-bib-0051"><mixed-citation publication-type="journal" id="ece36737-cit-0051">
+<string-name>
+<surname>Mitchell</surname>, <given-names>C. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Power</surname>, <given-names>A. G.</given-names>
+</string-name> (<year>2003</year>). <article-title>Release of invasive plants from fungal and viral pathogens</article-title>. <source xml:lang="en">Nature</source>, <volume>421</volume>, <fpage>625</fpage>&#x02013;<lpage>627</lpage>. <pub-id pub-id-type="doi">10.1038/nature01317</pub-id>
+<pub-id pub-id-type="pmid">12571594</pub-id></mixed-citation></ref><ref id="ece36737-bib-0052"><mixed-citation publication-type="journal" id="ece36737-cit-0052">
+<string-name>
+<surname>Mitich</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>1995</year>). <article-title>Tansy Ragwort</article-title>. <source xml:lang="en">Weed Technology</source>, <volume>6</volume>, <fpage>242</fpage>&#x02013;<lpage>244</lpage>. <pub-id pub-id-type="doi">10.1017/S0890037X00034643</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0053"><mixed-citation publication-type="journal" id="ece36737-cit-0053">
+<string-name>
+<surname>Orrock</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Holt</surname>, <given-names>R. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Baskett</surname>, <given-names>M. L.</given-names>
+</string-name> (<year>2010</year>). <article-title>Refuge&#x02010;mediated apparent competition in plant&#x02010;consumer interactions</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>13</volume>, <fpage>11</fpage>&#x02013;<lpage>20</lpage>.<pub-id pub-id-type="pmid">19930397</pub-id></mixed-citation></ref><ref id="ece36737-bib-0054"><mixed-citation publication-type="journal" id="ece36737-cit-0054">
+<string-name>
+<surname>Orrock</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Witter</surname>, <given-names>M. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reichman</surname>, <given-names>O. J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Apparent competition with an exotic plant reduces native plant establishment</article-title>. <source xml:lang="en">Ecology</source>, <volume>89</volume>, <fpage>1168</fpage>&#x02013;<lpage>1174</lpage>. <pub-id pub-id-type="doi">10.1890/07-0223.1</pub-id>
+<pub-id pub-id-type="pmid">18481540</pub-id></mixed-citation></ref><ref id="ece36737-bib-0055"><mixed-citation publication-type="journal" id="ece36737-cit-0055">
+<string-name>
+<surname>Pendergast</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name>
+<surname>Burke</surname>, <given-names>D. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Carson</surname>, <given-names>W. P.</given-names>
+</string-name> (<year>2013</year>). <article-title>Belowground biotic complexity drives aboveground dynamics: A test of the soil community feedback model</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>197</volume>, <fpage>1300</fpage>&#x02013;<lpage>1310</lpage>. <pub-id pub-id-type="doi">10.1111/nph.12105</pub-id>
+<pub-id pub-id-type="pmid">23311946</pub-id></mixed-citation></ref><ref id="ece36737-bib-0056"><mixed-citation publication-type="journal" id="ece36737-cit-0056">
+<string-name>
+<surname>Pimentel</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Zuniga</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Morrison</surname>, <given-names>D.</given-names>
+</string-name> (<year>2005</year>). <article-title>Update on the environmental and economic osts associated with alien&#x02010;invasive species in the United States</article-title>. <source xml:lang="en">Ecological Economics</source>, <volume>52</volume>, <fpage>279</fpage>&#x02013;<lpage>288</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0057"><mixed-citation publication-type="book" id="ece36737-cit-0057">
+<string-name>
+<surname>Pinheiro</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>DebRoy</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Sarkar</surname>, <given-names>D.</given-names>
+</string-name> &#x00026; <collab collab-type="authors">R Core Team</collab>
+(<year>2016</year>). <source xml:lang="en">nlme: Linear and Nonlinear Mixed Effects Models</source>.</mixed-citation></ref><ref id="ece36737-bib-0058"><mixed-citation publication-type="book" id="ece36737-cit-0058">
+<string-name>
+<surname>Pried&#x0012b;tis</surname>, <given-names>N.</given-names>
+</string-name> (<year>2002</year>). <source xml:lang="en">Latvijas daba</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.latvijasdaba.lv/">http://www.latvijasdaba.lv/</ext-link>
+</mixed-citation></ref><ref id="ece36737-bib-0059"><mixed-citation publication-type="book" id="ece36737-cit-0059">
+<collab collab-type="authors">R Development Core Team</collab>
+(<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece36737-bib-0060"><mixed-citation publication-type="journal" id="ece36737-cit-0060">
+<string-name>
+<surname>Rebele</surname>, <given-names>F.</given-names>
+</string-name> (<year>2000</year>). <article-title>Competition and coexistence of rhizomatous perennial plants along a nutrient gradient</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>147</volume>, <fpage>77</fpage>&#x02013;<lpage>94</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0061"><mixed-citation publication-type="journal" id="ece36737-cit-0061">
+<string-name>
+<surname>Reinhart</surname>, <given-names>K. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2006</year>). <article-title>Soil biota and invasive plants</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>170</volume>, <fpage>445</fpage>&#x02013;<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-8137.2006.01715.x</pub-id>
+<pub-id pub-id-type="pmid">16626467</pub-id></mixed-citation></ref><ref id="ece36737-bib-0062"><mixed-citation publication-type="journal" id="ece36737-cit-0062">
+<string-name>
+<surname>Reinhart</surname>, <given-names>K. O.</given-names>
+</string-name>, <string-name>
+<surname>Packer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>van der Putten</surname>, <given-names>W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> (<year>2003</year>). <article-title>Plant&#x02010;soil biota interactions and spatial distribution of black cherry in its native and invasive ranges</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>6</volume>, <fpage>1046</fpage>&#x02013;<lpage>1050</lpage>. <pub-id pub-id-type="doi">10.1046/j.1461-0248.2003.00539.x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0063"><mixed-citation publication-type="journal" id="ece36737-cit-0063">
+<string-name>
+<surname>Rosche</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Hensen</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Schaar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zehra</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Jasieniuk</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Shah</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2019</year>) <article-title>Climate outweighs native vs. non&#x02010;native range&#x02010;effects for genetics and common garden performance of a cosmopolitan weed</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>89</volume>(<issue>4</issue>), <fpage>1386</fpage>.</mixed-citation></ref><ref id="ece36737-bib-0064"><mixed-citation publication-type="journal" id="ece36737-cit-0064">
+<string-name>
+<surname>Rotter</surname>, <given-names>M. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Holeski</surname>, <given-names>L. M.</given-names>
+</string-name> (<year>2018</year>). <article-title>A meta&#x02010;analysis of the ecolution of increased competitive ability hypothesis: Genetic&#x02010;based trait variation and herbivory resistance tradeoffs</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>20</volume>, <fpage>2647</fpage>&#x02013;<lpage>2660</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0065"><mixed-citation publication-type="journal" id="ece36737-cit-0065">
+<string-name>
+<surname>Roy</surname>, <given-names>H. E.</given-names>
+</string-name>, <string-name>
+<surname>Lawson Handley</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name>
+<surname>Schonrogge</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Poland</surname>, <given-names>R. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Purse</surname>, <given-names>B. V.</given-names>
+</string-name> (<year>2011</year>). <article-title>Can the enemy release hypothesis explain the success of invasive alien predators and parasitoids?</article-title>
+<source xml:lang="en">BioControl</source>, <volume>56</volume>, <fpage>451</fpage>&#x02013;<lpage>468</lpage>. <pub-id pub-id-type="doi">10.1007/s10526-011-9349-7</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0067"><mixed-citation publication-type="journal" id="ece36737-cit-0067">
+<string-name>
+<surname>Schittko</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Runge</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Strepp</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Wolff</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wurst</surname>, <given-names>S.</given-names>
+</string-name> (<year>2016</year>). <article-title>No evidence that plant&#x02010;soil feedback effects of native and invasive plant species under glasshouse conditions are reflected in the field</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>104</volume>, <fpage>1243</fpage>&#x02013;<lpage>1249</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12603</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0068"><mixed-citation publication-type="journal" id="ece36737-cit-0068">
+<string-name>
+<surname>Schittko</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wurst</surname>, <given-names>S.</given-names>
+</string-name> (<year>2014</year>). <article-title>Above&#x02010; and below&#x02010;ground effects of plant&#x02010;soil feedback from exotic <italic>Solidago canadensis</italic> on native <italic>Tanacetum vulgare</italic>
+</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>16</volume>, <fpage>1465</fpage>&#x02013;<lpage>1479</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-013-0584-y</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0069"><mixed-citation publication-type="journal" id="ece36737-cit-0069">
+<string-name>
+<surname>Seebens</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Briski</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Ghabooli</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Shiganova</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>MacIsaac</surname>, <given-names>H. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Blasius</surname>, <given-names>B.</given-names>
+</string-name> (<year>2019</year>). <article-title>Non&#x02010;native species spread in a complex network: The interaction of global transport and local population dynamics determines invasion success</article-title>. <source xml:lang="en">Proceedings of the Royal Society B: Biological Sciences</source>, <volume>286</volume>, <fpage>20190036</fpage>
+<pub-id pub-id-type="doi">10.1098/rspb.2019.0036</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0070"><mixed-citation publication-type="book" id="ece36737-cit-0070">
+<string-name>
+<surname>Semple</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cook</surname>, <given-names>R. E.</given-names>
+</string-name> (<year>2006</year>). <chapter-title>Solidago</chapter-title> In <source xml:lang="en">Flora of North America</source> (vol. <volume>20</volume>, pp. <fpage>107</fpage>&#x02013;<lpage>166</lpage>). <publisher-loc>New York&#x02010;Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref><ref id="ece36737-bib-0071"><mixed-citation publication-type="journal" id="ece36737-cit-0071">
+<string-name>
+<surname>Siemann</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>DeWalt</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Zou</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rogers</surname>, <given-names>W. E.</given-names>
+</string-name> (<year>2017</year>). <article-title>An experimental test of the EICA hypothesis in multiple ranges: Invasive populations outperform those from the native range independent of insect herbivore suppression</article-title>. <source xml:lang="en">AoB Plants</source>, <volume>9</volume>, <fpage>plw087</fpage>
+<pub-id pub-id-type="doi">10.1093/aobpla/plw087</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0072"><mixed-citation publication-type="journal" id="ece36737-cit-0072">
+<string-name>
+<surname>Skorka</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Lenda</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tryjanowski</surname>, <given-names>P.</given-names>
+</string-name> (<year>2010</year>). <article-title>Invasive alien goldenrods negatively affect grassland bird communities in eastern Europe</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>143</volume>, <fpage>856</fpage>&#x02013;<lpage>886</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2009.12.030</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0073"><mixed-citation publication-type="journal" id="ece36737-cit-0073">
+<string-name>
+<surname>Stephens</surname>, <given-names>A. E. A.</given-names>
+</string-name>, <string-name>
+<surname>Srivastava</surname>, <given-names>D. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Myers</surname>, <given-names>J. H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Strength in numbers? Effects of multiple natural enemy species on plant performance</article-title>. <source xml:lang="en">Proceedings of the Royal Society B: Biological Sciences</source>, <volume>280</volume>, <fpage>2012</fpage>&#x02013;<lpage>2756</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2012.2756</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0074"><mixed-citation publication-type="journal" id="ece36737-cit-0074">
+<string-name>
+<surname>Uesugi</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kessler</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Herbivore exclusion drives the evolution of plant competitiveness via increased allelopathy</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>198</volume>, <fpage>916</fpage>&#x02013;<lpage>924</lpage>. <pub-id pub-id-type="doi">10.1111/nph.12172</pub-id>
+<pub-id pub-id-type="pmid">23437810</pub-id></mixed-citation></ref><ref id="ece36737-bib-0075"><mixed-citation publication-type="journal" id="ece36737-cit-0075">
+<string-name>
+<surname>Underwood</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Inouye</surname>, <given-names>B. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hamback</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>A conceptual framework for associational effects: When do neighbors matter and how would we know?</article-title>
+<source xml:lang="en">The Quarterly Review of Biology</source>, <volume>89</volume>, <fpage>1</fpage>&#x02013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1086/674991</pub-id>
+<pub-id pub-id-type="pmid">24672901</pub-id></mixed-citation></ref><ref id="ece36737-bib-0076"><mixed-citation publication-type="journal" id="ece36737-cit-0076">
+<string-name>
+<surname>Van Kleunen</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schmid</surname>, <given-names>B.</given-names>
+</string-name> (<year>2003</year>). <article-title>No evidence for an evolutionary increased competitive ability in an invasive plant</article-title>. <source xml:lang="en">Ecology</source>, <volume>84</volume>, <fpage>2816</fpage>&#x02013;<lpage>2823</lpage>. <pub-id pub-id-type="doi">10.1890/02-0494</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0077"><mixed-citation publication-type="journal" id="ece36737-cit-0077">
+<string-name>
+<surname>Van Ruijven</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>De Deyn</surname>, <given-names>G. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Berendse</surname>, <given-names>F.</given-names>
+</string-name> (<year>2003</year>). <article-title>Diversity reduces invasibility in experimental plant communities: The role of plant species</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>6</volume>, <fpage>910</fpage>&#x02013;<lpage>918</lpage>. <pub-id pub-id-type="doi">10.1046/j.1461-0248.2003.00516.x</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0078"><mixed-citation publication-type="journal" id="ece36737-cit-0078">
+<string-name>
+<surname>Vermeij</surname>, <given-names>M. J. A.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name>
+<surname>Dailer</surname>, <given-names>M. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smith</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2009</year>). <article-title>Release from native herbivores facilitates the persistence of invasive marine algae: A biogeographical comparison of the relative contribution of nutrients and herbivory to invasion success</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>11</volume>, <fpage>1463</fpage>&#x02013;<lpage>1473</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-008-9354-7</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0079"><mixed-citation publication-type="journal" id="ece36737-cit-0079">
+<string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Espinar</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Hejda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hulme</surname>, <given-names>P. E.</given-names>
+</string-name>, <string-name>
+<surname>Jarosik</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Pysek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>Ecological impacts of invasive alien plants: A meta&#x02010;analysis of their effects on species, communities and ecosystems</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>14</volume>, <fpage>702</fpage>&#x02013;<lpage>708</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2011.01628.x</pub-id>
+<pub-id pub-id-type="pmid">21592274</pub-id></mixed-citation></ref><ref id="ece36737-bib-0080"><mixed-citation publication-type="journal" id="ece36737-cit-0080">
+<string-name>
+<surname>Weber</surname>, <given-names>E.</given-names>
+</string-name> (<year>2001</year>). <article-title>Current and potential ranges of three exotic goldenrods (<italic>Solidago</italic>) in Europe</article-title>. <source xml:lang="en">Conservation Biology</source>, <volume>15</volume>, <fpage>122</fpage>&#x02013;<lpage>128</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0081"><mixed-citation publication-type="journal" id="ece36737-cit-0081">
+<string-name>
+<surname>Werner</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name>
+<surname>Brandbury</surname>, <given-names>I. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gross</surname>, <given-names>R. S.</given-names>
+</string-name> (<year>1980</year>). <article-title>The biology of Canadian weeds: <italic>Solidago canadensis</italic> L</article-title>. <source xml:lang="en">Canadian Journal of Plant Science</source>, <volume>60</volume>, <fpage>1393</fpage>&#x02013;<lpage>1409</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0082"><mixed-citation publication-type="journal" id="ece36737-cit-0082">
+<string-name>
+<surname>Williams</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Auge</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maron</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2010</year>). <article-title>Testing hypotheses for exotic plant success: Parallel experiments in the native and introduced ranges</article-title>. <source xml:lang="en">Ecology</source>, <volume>91</volume>, <fpage>1355</fpage>&#x02013;<lpage>1366</lpage>. <pub-id pub-id-type="doi">10.1890/08-2142.1</pub-id>
+<pub-id pub-id-type="pmid">20503868</pub-id></mixed-citation></ref><ref id="ece36737-bib-0083"><mixed-citation publication-type="journal" id="ece36737-cit-0083">
+<string-name>
+<surname>Yang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Carrillo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Shang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Hovick</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Nijjer</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Siemann</surname>, <given-names>E.</given-names>
+</string-name> (<year>2013</year>). <article-title>Plant&#x02013;soil biota interactions of an invasive species in its native and introduced ranges: Implications for invasion success</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>, <volume>65</volume>, <fpage>78</fpage>&#x02013;<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2013.05.004</pub-id>
+</mixed-citation></ref><ref id="ece36737-bib-0084"><mixed-citation publication-type="journal" id="ece36737-cit-0084">
+<string-name>
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name> (<year>2009</year>). <article-title>The invasive plant <italic>Solidago canadensis</italic> L. suppresses local soil pathogens through allelopathy</article-title>. <source xml:lang="en">Applied Soil Ecology</source>, <volume>41</volume>, <fpage>215</fpage>&#x02013;<lpage>222</lpage>.</mixed-citation></ref><ref id="ece36737-bib-0085"><mixed-citation publication-type="journal" id="ece36737-cit-0085">
+<string-name>
+<surname>Zuppinger&#x02010;Dingle</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Brandl</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Van der Heijden</surname>, <given-names>M. G. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Joshi</surname>, <given-names>J.</given-names>
+</string-name> (<year>2011</year>). <article-title>In their native range, invasive plants are held in check by negative soil&#x02010;feedbacks</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>2</volume>, <fpage>1</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1890/ES11-00061.1</pub-id>
+</mixed-citation></ref></ref-list></back></article>

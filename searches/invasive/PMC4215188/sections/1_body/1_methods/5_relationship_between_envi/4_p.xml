@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Partial Mantel tests require prior delimitation of populations. However, the application of spatial autocorrelation to understand the influence of geography or environmental factors on genetic divergence allows no 
+ <italic>a priori</italic> assumption of population, but instead relies on individual-based information either spatial or genetic. The underlying rationale is to test whether or not gene flow is inhibited by ED, i.e. whether environmental selection is acting against migrant individuals and hence, only locally adapted pools of individuals are able to survive. We performed an autocorrelation analysis implemented in GENALEX ver. 6.2 (
+ <xref rid="PLU052C39" ref-type="bibr">Peakall and Smouse 2006</xref>). The generated autocorrelation coefficient (
+ <italic>r</italic>) provides a measure of genetic similarity (autocorrelation) between pairs of individuals whose ED falls within the specified distance class. We performed the calculation with Clusters 1 and 2, and repeated this several times with different bin widths for ED (at intervals of 0.1, 0.2, 0.3, 0.4, 0.5, etc.) to obtain consistent results.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Dose–response modelling and graphs were prepared using R Studio program, Drc package [
+ <xref rid="B27-insects-11-00738" ref-type="bibr">27</xref>]. The LC
+ <sub>50</sub> value indicates the concentration of toxins that kill 50% of individuals in the sample. Dose–response data were described using a log-logistic model according to the Formula (1):
+ <disp-formula>Y = d/(1 + exp^(b(log(x) − log(e))))
+  <label>(1)</label>
+ </disp-formula> where d refers to the upper and the lower horizontal asymptotes, e is the inflexion point corresponding to the LC50 value and b is the slope around e [
+ <xref rid="B27-insects-11-00738" ref-type="bibr">27</xref>].
+</p>

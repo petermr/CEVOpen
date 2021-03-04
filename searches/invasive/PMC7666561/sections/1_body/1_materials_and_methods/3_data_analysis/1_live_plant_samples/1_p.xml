@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We assessed flammability (of live samples) in terms of four response variables (burn intensity, completeness of burn, time-to-ignition, and spontaneous ignition) respectively, in relation to the predictor variables (i) fire weather (continuous), (ii) live fuel moisture (continuous), (iii) fuel load (dry plant mass; continuous), (iv) vegetation groups (IAPs, fynbos, thicket; categorical) and (v) species (30 species; categorical) using generalized linear mixed-effects models (
+ <xref rid="ref-4" ref-type="bibr">Bates, 2010</xref>; 
+ <xref rid="ref-56" ref-type="bibr">O’Hara, 2009</xref>) using the 
+ <italic>lme4</italic> package (
+ <xref rid="ref-4" ref-type="bibr">Bates, 2010</xref>) in the open-source R software version 3.6.1 (
+ <xref rid="ref-89" ref-type="bibr">R Development Core Team, 2019</xref>). Detailed species-level comparisons were not the primary focus of the study and species was therefore included as a random factor, whereas the other predictor variables were included as fixed factors. To test for potential collinearity between fire weather and live fuel moisture, we ran the Spearman-rank correlation test for each respective species. It showed that these variables were not significantly correlated (see Results) and could both be retained in subsequent analyses. Burn intensity was log-transformed (to correct right-skewed distribution), completeness of burn arcsine-transformed (as it was expressed as proportions), time-to-ignition square root-transformed (to correct left-skewed distribution), and spontaneous ignition assessed using logistic regression (binomial family, logit link function) (formulae provided in 
+ <xref ref-type="supplementary-material" rid="supp-3">Table S2</xref>). Subsequently, Type II Wald chi-square test (
+ <xref rid="ref-38" ref-type="bibr">Hastie &amp; Pregibon, 1992</xref>) was computed to determine the significance of fixed factors on the specific models. We incorporated the scale function to the generalized linear mixed-effects models and logistic regression model (using transformed data) to standardize variables of different scales and obtain the relative influence of fixed factors (
+ <xref rid="ref-5" ref-type="bibr">Becker, Chambers &amp; Wilks, 2018</xref>).
+</p>

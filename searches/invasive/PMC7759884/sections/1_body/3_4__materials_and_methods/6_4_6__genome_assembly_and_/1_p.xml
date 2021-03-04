@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The decontaminated clean reads were subjected to assemble contigs as above. The GC depth distribution of the &gt;500 bp contigs was plotted again to confirm the contaminants were eliminated. Subsequently, the scaffolds were built by mapping decontaminated clean reads back to the &gt;100 bp contigs using SOAPdenovo v2.2.7. The scaffolds from in vivo plant longer than the longest scaffold from in vitro plantlets were subject to DIAMOND BLASTX [
+ <xref rid="B68-plants-09-01665" ref-type="bibr">68</xref>] against NCBI NR (nonredundant) proteins database with E-value = 1e − 3. The top-hit species distribution of those scaffolds was plotted. The completeness of scaffold assembly from in vitro plantlets was assessed based on 255 core eukaryotic genes by BUSCO (Benchmarking Universal Single-Copy Orthologs) v4 [
+ <xref rid="B69-plants-09-01665" ref-type="bibr">69</xref>].
+</p>

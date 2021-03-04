@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We aligned the raw reads to the monoecious 
+ <italic>A. hypochondiracus</italic> L. reference genome v 2.1 (
+ <xref rid="CIT0021" ref-type="bibr">Lightfoot et al. 2017</xref>) using BWA-MEM version 0.7.17 (
+ <xref rid="CIT0022" ref-type="bibr">Li 2013</xref>) and removed duplicates with picard (
+ <ext-link ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard/" xmlns:xlink="http://www.w3.org/1999/xlink">http://broadinstitute.github.io/picard/</ext-link>). Then, we called SNP using GATK version 4.0.11 (
+ <xref rid="CIT0028" ref-type="bibr">McKenna et al. 2010</xref>) with the filter expression QD &lt; 2.0 || FS &gt; 60.0 || MQ &lt; 40.0 || MQRankSum &lt; -12.5 || ReadPosRankSum &lt; -8.0 and further filtered to keep only biallelic SNPs with a maximum of 30% missing values at a site using VCFtools 0.1.16 (
+ <xref rid="CIT0013" ref-type="bibr">Danecek et al. 2011</xref>). We created a variant table using VariantsToTable function of GATK to test for allele frequency differences between female and male pools using the QTLseqR package (
+ <xref rid="CIT0026" ref-type="bibr">Mansfeld and Grumet 2018</xref>).
+</p>

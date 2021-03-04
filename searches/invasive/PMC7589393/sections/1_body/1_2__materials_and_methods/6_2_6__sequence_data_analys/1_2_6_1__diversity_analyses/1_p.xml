@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To join the pair-end sequences we used the Quantitative Insights into Microbial Ecology (QIIME) version 1.91 [
+ <xref rid="B37-microorganisms-08-01619" ref-type="bibr">37</xref>]. Demultiplexing and removing of primers were performed using the sequencing toolkit 
+ <italic>cutadapt</italic> [
+ <xref rid="B38-microorganisms-08-01619" ref-type="bibr">38</xref>]. Demultiplexed sequences were then imported into QIIME2 version 2018.2, and were quality filtered using the 
+ <italic>deblur</italic> algorithm [
+ <xref rid="B39-microorganisms-08-01619" ref-type="bibr">39</xref>] following the default parameters [
+ <xref rid="B40-microorganisms-08-01619" ref-type="bibr">40</xref>] except that the amplicons were trimmed to 381 bp length. A tree for phylogenetic diversity analyses was performed using the plugin 
+ <italic>mafft</italic>. Taxonomic identity to the Amplicon Sequence Variants (further on ASVs) was assigned using the classifier SILVA (version 132-2018) trained for the 515F/926R region with default similarity threshold of 0.7. The resultant feature table, taxonomy table and phylogenetic tree were then imported to R environment (R 3.6, R-Core-Team, 2017).
+</p>

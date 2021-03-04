@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">We developed a straightforward spatiotemporal lattice model to explore the evolution of plant dispersal strategies in landscapes differing in their degree of fragmentation (patch size and inter-patch distance) and landscape dynamics (patch turnover). We excluded any variation in life history traits and competitive interactions between plants; all plants were completely similar entities that only differed in the shape of their dispersal kernels. To explore different dispersal strategies, we used the power-law relationship used in animal search studies, and converted it into a bi-dimensional and normalized dispersal kernel. More specifically, we simulated seed dispersal kernels using a truncated two-dimensional (isotropic) Pareto distribution with discrete values of shape parameter 
+ <italic>μ</italic> ranging from 1.1 to 5 (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>b, Table 
+ <xref rid="Tab1" ref-type="table">1</xref>; see Appendix 
+ <xref rid="MOESM1" ref-type="media">S1</xref> in Supporting Information for derivation of 2D form): 
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ p(l)=\frac{1}{2\pi}\left[\frac{2-\mu }{{l_{max}}^{2-\mu }-{l_{min}}^{2-\mu }}\right]{l}^{-\mu } $$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mi>p</mi>
+    <mfenced close=")" open="(">
+     <mi>l</mi>
+    </mfenced>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+    </mfrac>
+    <mfenced close="]" open="[">
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mo>−</mo>
+       <mi>μ</mi>
+      </mrow>
+      <mrow>
+       <msup>
+        <msub>
+         <mi>l</mi>
+         <mi mathvariant="italic">max</mi>
+        </msub>
+        <mrow>
+         <mn>2</mn>
+         <mo>−</mo>
+         <mi>μ</mi>
+        </mrow>
+       </msup>
+       <mo>−</mo>
+       <msup>
+        <msub>
+         <mi>l</mi>
+         <mi mathvariant="italic">min</mi>
+        </msub>
+        <mrow>
+         <mn>2</mn>
+         <mo>−</mo>
+         <mi>μ</mi>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mfenced>
+    <msup>
+     <mi>l</mi>
+     <mrow>
+      <mo>−</mo>
+      <mi>μ</mi>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="40462_2020_239_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

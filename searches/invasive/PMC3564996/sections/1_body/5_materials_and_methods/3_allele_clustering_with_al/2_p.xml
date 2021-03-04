@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Finally, we filtered for (putatively) valid loci by removing those clusters with evidence of more than two alleles (multi-SNP haplotypes across the entire gene region) from any individual in the dataset. Excess alleles suggest that the cluster is not a single locus and instead a group of paralogous loci. This approach leverages the information gained from multiple individuals to infer paralogy, where it is not possible to do so from genomic DNA sequencing depth or alignment to a complete reference genome. Again using the AllelePipe, we identified SNPs for each sequence against the pseudo-reference by using ssahaSNP (
+ <xref rid="bib50" ref-type="bibr">Ning 
+  <italic>et al.</italic> 2001
+ </xref>) with minimum 90% similarity for alignment to the pseudo-reference. Singleton SNPs (those seen only once across the dataset) were removed as potential errors, and the number of unique haplotypes for each individual in the cluster were evaluated for evidence of paralogous clustering. Those clusters with no more than two haplotypes per individual were retained, and their SNP variation (from ssahaSNP) retained for further analyses.
+</p>

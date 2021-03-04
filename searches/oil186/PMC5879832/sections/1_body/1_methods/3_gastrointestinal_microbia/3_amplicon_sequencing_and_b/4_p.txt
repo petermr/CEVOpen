@@ -1,0 +1,10 @@
+0: Differences in within-sample (fish specimen) diversity (alpha diversity) were tested using both analysis of variance (ANOVA) and the Wilcoxon rank-sum test.
+1: Further, differences in bacterial community composition (beta diversity) between the exposure groups were assessed using Permutational Multivariate Analysis of Variance (PERMANOVA) using the adonis function in the R package Vegan [ 39].
+2: The test was run with 20,000 permutations, applying both OTU-based (Bray-Curtis/Jaccard) and phylogeny-based (weighted and unweighted UniFrac) measures.
+3: PERMANOVA was also applied to test for differences in PAH metabolites between the exposure groups.
+4: PERMANOVA assumes the multivariate dispersion in the compared groups to be homogeneous; this was verified using the betadisper function in Vegan.
+5: Similarity percentage (SIMPER) procedure implemented in Vegan was used to quantify the contribution of individual OTUs to the overall Bray-Curtis dissimilarity between the groups.
+6: MetaStats [ 40] was used to test for OTUs and orders with statistically significant differential abundances between the exposure groups.
+7: Only OTUs containing more than 0.1% of the total number of reads in the normalized and filtered dataset were used in this analysis.
+8: Finally, a correspondence analysis (CA) ( cca in Vegan) was performed to explore the gut microbial community structure.
+9: Environmental parameters (order abundances) that significantly ( p < 0.01) correlated with the ordination were fitted onto the CA plot using the  envfit command in Vegan.

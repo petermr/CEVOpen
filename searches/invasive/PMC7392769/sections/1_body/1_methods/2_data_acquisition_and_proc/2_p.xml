@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Location data were processed to remove incomplete records, unverified records (EDDMapS), and duplicate points. To mitigate the impact of spatial bias as a result of non-systematic sampling in the EDDMapS data, we subsampled the location data using a 900 m
+ <sup>2</sup> grid; subsampling was completed using the gridSample() function in the 
+ <italic>dismo</italic> R package
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>, allowing for one sample per grid cell. Ameliorating the effects of spatial bias in sample locations is desirable because it can result in a bias in predictor space, which can affect model accuracy and transferability
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>,
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup>. Additional data cleaning was performed by asking local professionals and experts to verify spatially isolated plant location reports. Final occurrence counts for each species and data set are listed in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>; spatial data are presented in Supplemental Figs. 
+ <xref rid="MOESM1" ref-type="media">1</xref>–
+ <xref rid="MOESM1" ref-type="media">4</xref>. 
+</p>

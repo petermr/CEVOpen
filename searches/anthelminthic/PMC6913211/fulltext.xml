@@ -1,0 +1,738 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Plant Pathol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Plant Pathol</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1364-3703</journal-id><journal-id journal-id-type="publisher-id">MPP</journal-id><journal-title-group><journal-title>Molecular Plant Pathology</journal-title></journal-title-group><issn pub-type="ppub">1464-6722</issn><issn pub-type="epub">1364-3703</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6913211</article-id><article-id pub-id-type="doi">10.1111/mpp.12878</article-id><article-id pub-id-type="publisher-id">MPP12878</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Activity profiling of barley vacuolar processing enzymes provides new insights into the plant and cyst nematode interaction</article-title><alt-title alt-title-type="right-running-head">Legumains in cyst nematode&#x02010;infected barley</alt-title><alt-title alt-title-type="left-running-head">M. Labudda et al.</alt-title></title-group><contrib-group><contrib id="mpp12878-cr-0001" contrib-type="author" corresp="yes"><name><surname>Labudda</surname><given-names>Mateusz</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8014-1644</contrib-id><xref ref-type="aff" rid="mpp12878-aff-0001">
+<sup>1</sup>
+</xref><address><email>mateusz_labudda@sggw.pl</email></address></contrib><contrib id="mpp12878-cr-0002" contrib-type="author"><name><surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname><given-names>El&#x0017c;bieta</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mpp12878-cr-0003" contrib-type="author"><name><surname>Prabucka</surname><given-names>Beata</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mpp12878-cr-0004" contrib-type="author"><name><surname>Muszy&#x00144;ska</surname><given-names>Ewa</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mpp12878-cr-0005" contrib-type="author"><name><surname>Marecka</surname><given-names>Dorota</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mpp12878-cr-0006" contrib-type="author"><name><surname>Kozak</surname><given-names>Marcin</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mpp12878-cr-0007" contrib-type="author"><name><surname>Dababat</surname><given-names>Abdelfattah A.</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mpp12878-cr-0008" contrib-type="author"><name><surname>Sobczak</surname><given-names>Miros&#x00142;aw</given-names></name><xref ref-type="aff" rid="mpp12878-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="mpp12878-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Biochemistry and Microbiology, Institute of Biology</named-content>
+<institution>Warsaw University of Life Sciences&#x02010;SGGW</institution>
+<city>Warsaw</city>
+<country country="PL">Poland</country>
+</aff><aff id="mpp12878-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Botany, Institute of Biology</named-content>
+<institution>Warsaw University of Life Sciences&#x02010;SGGW</institution>
+<city>Warsaw</city>
+<country country="PL">Poland</country>
+</aff><aff id="mpp12878-aff-0003">
+<label><sup>3</sup></label>
+<institution>International Maize and Wheat Improvement Center (CIMMYT)</institution>
+<named-content content-type="street">Soil Borne Pathogens Program</named-content>
+<named-content content-type="street">P.K. 39 Emek</named-content>
+<postal-code>06511</postal-code>
+<city>Ankara</city>
+<country country="TR">Turkey</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><italic>Correspondence</italic>: Email: <email>mateusz_labudda@sggw.pl</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2020</year></pub-date><volume>21</volume><issue>1</issue><issue-id pub-id-type="doi">10.1111/mpp.v21.1</issue-id><fpage>38</fpage><lpage>52</lpage><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 BSPP and John Wiley & Sons Ltd <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. <italic>Molecular Plant Pathology</italic> published by British Society for Plant Pathology and John Wiley &#x00026; Sons Ltd</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:MPP-21-38.pdf"/><abstract id="mpp12878-abs-0001"><title>Summary</title><p>Vacuolar processing enzymes (VPEs) play an important role during regular growth and development and defence responses. Despite substantial attempts to understand the molecular basis of plant&#x02013;cyst nematode interaction, the mechanism of VPEs functioning during this interaction remains unknown. The second&#x02010;stage <italic>Heterodera filipjevi</italic> juvenile penetrates host roots and induces the formation of a permanent feeding site called&#x000a0;a syncytium. To investigate whether infection with <italic>H. filipjevi</italic> alters plant host VPEs, the studies were performed in <italic>Hordeum vulgare</italic> roots and leaves on the day of inoculation and at 7, 14 and 21&#x000a0;days post&#x02010;inoculation (dpi). Implementing molecular, biochemical and microscopic methods we identified reasons for modulation of barley VPE activity during interaction with <italic>H. filipjevi</italic>. <italic>Heterodera filipjevi</italic> parasitism caused a general decrease of VPE activity in infected roots, but live imaging of VPEs showed that their activity is up&#x02010;regulated in syncytia at 7 and 14&#x000a0;dpi and down&#x02010;regulated at 21&#x000a0;dpi. These findings were accompanied by tissue&#x02010;specific VPE gene expression patterns. Expression of&#x000a0;the barley cystatin <italic>HvCPI&#x02010;4</italic> gene was stimulated in leaves but diminished in roots upon infestation. External application of cyclotides that can be produced naturally by VPEs elicits in pre&#x02010;parasitic juveniles vesiculation of their body, enhanced formation of granules, induction of exploratory behaviour (stylet thrusts and head movements), production of reactive oxygen species (ROS) and final death by methuosis. Taken together, down&#x02010;regulation of VPE activity through nematode effectors promotes the nematode invasion rates and leads to avoidance of the induction of the plant proteolytic response and death of the invading juveniles.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mpp12878-kwd-0001">cyclotide</kwd><kwd id="mpp12878-kwd-0002">cystatin</kwd><kwd id="mpp12878-kwd-0003"><italic>Heterodera filipjevi</italic></kwd><kwd id="mpp12878-kwd-0004"><italic>Hordeum vulgare</italic></kwd><kwd id="mpp12878-kwd-0005">kalata B1</kwd><kwd id="mpp12878-kwd-0006">legumain</kwd><kwd id="mpp12878-kwd-0007">methuosis</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Warsaw University of Life Sciences&#x02010;SGGW</funding-source><award-id>Statutory research fund </award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Science Centre of Poland </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100004281</institution-id></institution-wrap></funding-source><award-id>DEC&#x02010;2017/01/X/NZ9/01183</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>University of Oxford </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000769</institution-id></institution-wrap></funding-source><award-id>JOPD1</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="2"/><page-count count="15"/><word-count count="19842"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.2 mode:remove_FC converted:16.12.2019</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="mpp12878-body-0001"><sec id="mpp12878-sec-0001"><title>Introduction</title><p>Barley (<italic>Hordeum vulgare</italic>), one of the oldest domesticated cereals (over 10 millennia old), is known to be a crop species&#x000a0;well&#x02010;adapted to changing and stressful environments and thus may be successfully cultivated even under adverse conditions (Dawson <italic>et al.</italic>, <xref rid="mpp12878-bib-0012" ref-type="ref">2015</xref>; Kharub <italic>et al.</italic>, <xref rid="mpp12878-bib-0023" ref-type="ref">2017</xref>). It is the fourth most important cereal in the world after maize, rice and wheat. Its grains are a valuable forage for livestock and food for humans, and their biochemical properties are used in malting and brewing (Dababat and Fourie, <xref rid="mpp12878-bib-0010" ref-type="ref">2018</xref>; Kharub <italic>et al.</italic>, <xref rid="mpp12878-bib-0023" ref-type="ref">2017</xref>). Barley is also one of the best&#x02010;studied cereals in terms of biochemistry, physiology, genetics, omics and molecular breeding, therefore it is considered to be an excellent model for cereals (Saisho and Takeda, <xref rid="mpp12878-bib-0047" ref-type="ref">2011</xref>; Sreenivasulu <italic>et al.</italic>, <xref rid="mpp12878-bib-0051" ref-type="ref">2008</xref>). Despite barley&#x02019;s tolerance to stressful environmental conditions, pathogens can diminish yield and quality of grains, and thus barley genetic potential cannot be fully expressed (Dawson <italic>et al.</italic>, <xref rid="mpp12878-bib-0012" ref-type="ref">2015</xref>). Among the pathogens that have a jeopardizing effect on crop plants, cyst nematodes are among the most significant (Labudda, <xref rid="mpp12878-bib-0024" ref-type="ref">2018</xref>).</p><p>Cereal cyst nematodes (CCN) are a group of closely related species that parasitize grasses. Currently, 11 CCN species have been identified. Of these <italic>Heterodera avenae</italic>, <italic>Heterodera latipons</italic> and <italic>Heterodera filipjevi</italic> are considered the most economically important for global cereal production (Toumi <italic>et al.</italic>, <xref rid="mpp12878-bib-0056" ref-type="ref">2018</xref>). The rye cyst nematode (<italic>H. filipjevi</italic>), like other CCNs, is an obligate biotrophic sedentary endoparasite, mainly infesting barley and wheat (Dababat and Fourie, <xref rid="mpp12878-bib-0010" ref-type="ref">2018</xref>). As a result of <italic>H. filipjevi</italic> feeding on roots of infected plants the grain yield losses may reach up to 50% (Pariyar <italic>et al.</italic>, <xref rid="mpp12878-bib-0038" ref-type="ref">2016</xref>). The infective second&#x02010;stage juvenile (J2) of CCN damages the host root cell wall using its stylet and hydrolytic enzymes synthesized in oesophageal glands and secreted through&#x000a0;the stylet orifice. Subsequently&#x000a0;the J2 migrates intracellularly within the root cortex and induces development of&#x000a0;a multicellular syncytium in the vascular cylinder, which is the only the source of nutrients for the developing nematode during its sedentary life phase (Bohlmann and Sobczak, <xref rid="mpp12878-bib-0005" ref-type="ref">2014</xref>; Toumi <italic>et al.</italic>, <xref rid="mpp12878-bib-0056" ref-type="ref">2018</xref>). Nematode feeding inside the roots causes dramatic reorganization of the metabolism in all plant organs. Induced changes encompass activation of local (in roots) and systemic (in shoots) defence responses, among which proteolysis is an extremely important housekeeping process that must be mentioned (Labudda <italic>et al.</italic>, <xref rid="mpp12878-bib-0025" ref-type="ref">2016a</xref>,<xref rid="mpp12878-bib-0026" ref-type="ref">b</xref>, <xref rid="mpp12878-bib-0027" ref-type="ref">2018</xref>).</p><p>Proteolysis is an essential process in plants that employs different types of proteolytic enzymes, mainly serine (<ext-link ext-link-type="uri" xlink:href="http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21.html">http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21.html</ext-link>), aspartic (<ext-link ext-link-type="uri" xlink:href="http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/23.html">http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/23.html</ext-link>), metallo&#x02010; (<ext-link ext-link-type="uri" xlink:href="http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/24.html">http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/24.html</ext-link>) and cysteine (<ext-link ext-link-type="uri" xlink:href="http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22.html">http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22.html</ext-link>) peptidases. Cysteine peptidases have been recognized as one of the crucial players in plant&#x02013;nematode molecular interactions since both plants and nematodes use&#x000a0;them to digest foreign proteins during&#x000a0;the infection progress (Shindo and van der Hoorn, <xref rid="mpp12878-bib-0049" ref-type="ref">2008</xref>). Cysteine peptidases are divided in the MEROPS peptidase database (<ext-link ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/merops/">https://www.ebi.ac.uk/merops/</ext-link>) into over a dozen clans. Plant vacuolar processing enzymes (VPEs), also&#x000a0;called asparaginyl endopeptidases or legumains, are classified as members of clan CD and family C13 (<ext-link ext-link-type="uri" xlink:href="http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/34.html">http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/34.html</ext-link>) (Dall and Brandstetter, <xref rid="mpp12878-bib-0011" ref-type="ref">2016</xref>). VPEs have many features in common with animal caspases. They are cysteine peptidases with a catalytic dyad occurring in the order histidine&#x02013;cysteine. They are produced as inactive zymogens, break down peptide bonds at the C&#x02010;terminal sides after aspartic acid and asparagine residues, and are inactivated by similar inhibitors (Hatsugai <italic>et al.</italic>, <xref rid="mpp12878-bib-0016" ref-type="ref">2015</xref>; Rantong and Gunawardena, <xref rid="mpp12878-bib-0044" ref-type="ref">2017</xref>). However, VPEs are mainly accumulated in vacuoles, whereas animal caspases are present in the cytosol. As plants do not have macrophages, the dying plant cell hydrolyses its proteins by itself and VPEs play a key role in the regulation of the plant vacuole&#x02010;dependent proteolytic system during growth and development and defence responses against pathogens (Hara&#x02010;Nishimura <italic>et al.</italic>, <xref rid="mpp12878-bib-0014" ref-type="ref">2005</xref>). Furthermore, VPEs participate in maturation and activation of vacuolar proteins and, as self&#x02010;activating peptidases, they do not require any other factor to acquire catalytic properties. Thus, VPEs are considered as initiators of the vacuolar protein processing machinery (Hatsugai <italic>et al.</italic>, <xref rid="mpp12878-bib-0016" ref-type="ref">2015</xref>). Moreover, recently it has been shown that the organization of the vacuolar system in&#x000a0;the syncytium induced by the beet cyst nematode <italic>H. schachtii</italic> in <italic>Arabidopsis thaliana</italic> roots changes dynamically during syncytium development, which indicates the importance of this cell compartment during plant&#x02013;nematode interactions (Baranowski <italic>et al.</italic>, <xref rid="mpp12878-bib-0002" ref-type="ref">2018</xref>).</p><p>The activity of proteolytic enzymes must be strictly controlled by their endogenous inhibitors. Phytocystatins are known to be one of the protein inhibitors of cysteine peptidases from the papain subfamily C1A. However, some phytocystatins have a carboxy&#x02010;terminal extension; thus they have also the ability to bind to legumains (family C13) and to inhibit their enzymatic activity. Interestingly, only one cystatin, HvCPI&#x02010;4, encoded by the <italic>Icy&#x02010;4</italic> gene, has been identified in barley so far (Velasco&#x02010;Arroyo <italic>et al.</italic>, <xref rid="mpp12878-bib-0057" ref-type="ref">2018</xref>).</p><p>Our understanding of plant legumain biochemistry has expanded dramatically in recent years. Particular attention has been devoted to the elucidation of the role of VPEs in seed developmental processes (Juli&#x000e1;n <italic>et al.</italic>, <xref rid="mpp12878-bib-0022" ref-type="ref">2013</xref>; Nakaune <italic>et al.</italic>, <xref rid="mpp12878-bib-0036" ref-type="ref">2005</xref>; Radchuk <italic>et al.</italic>, <xref rid="mpp12878-bib-0040" ref-type="ref">2011</xref>, <xref rid="mpp12878-bib-0041" ref-type="ref">2018</xref>), but also there are several reports suggesting their involvement in plant responses to pathogens such as tobacco mosaic virus (Hatsugai <italic>et al.</italic>, <xref rid="mpp12878-bib-0015" ref-type="ref">2004</xref>), <italic>Erwinia amylovora</italic> (Iakimova <italic>et al.</italic>, <xref rid="mpp12878-bib-0020" ref-type="ref">2013</xref>), <italic>Hyaloperonospora arabidopsidis</italic> (Misas&#x02010;Villamil <italic>et al.</italic>, <xref rid="mpp12878-bib-0034" ref-type="ref">2013</xref>), <italic>Botrytis cinerea</italic> (Rojo <italic>et al.</italic>, <xref rid="mpp12878-bib-0046" ref-type="ref">2004</xref>), <italic>Moniliophthora perniciosa</italic> (Santana <italic>et al.</italic>, <xref rid="mpp12878-bib-0048" ref-type="ref">2016</xref>) and <italic>Cladosporium fulvum</italic> (Sueldo <italic>et al.</italic>, <xref rid="mpp12878-bib-0052" ref-type="ref">2014</xref>), and the&#x000a0;cyst nematode <italic>Heterodera schachtii</italic> (H&#x000fc;tten <italic>et al.</italic>, <xref rid="mpp12878-bib-0019" ref-type="ref">2015</xref>).</p><p>Furthermore, VPEs can also show ligase activity and they participate in the synthesis of cyclotides, cyclic disulphide&#x02010;rich peptides containing a head&#x02010;to&#x02010;tail cyclic backbone and a cystine knot (Dall and Brandstetter, <xref rid="mpp12878-bib-0011" ref-type="ref">2016</xref>; Huang <italic>et al.</italic>, <xref rid="mpp12878-bib-0017" ref-type="ref">2009</xref>). These unique peptides exert strong toxic effects on larval and adult individuals of sheep gastrointestinal nematodes <italic>Haemonchus contortus</italic> and <italic>Trichostrongylus colubriformis</italic> (Colgrave <italic>et al.</italic>, <xref rid="mpp12878-bib-0006" ref-type="ref">2008</xref>, <xref rid="mpp12878-bib-0008" ref-type="ref">2010</xref>), canine and human hookworms <italic>Ancylostoma caninum</italic> and <italic>Necator americanus</italic> (Colgrave <italic>et al.</italic>, <xref rid="mpp12878-bib-0007" ref-type="ref">2009</xref>), and human digenean schistosomes <italic>Schistosoma mansoni</italic> and <italic>Schistosoma japonicum</italic> (Malag&#x000f3;n <italic>et al.</italic>, <xref rid="mpp12878-bib-0030" ref-type="ref">2013</xref>). One of the known mechanisms of cyclotide toxicity is the formation of multimeric pores in membranes (Huang <italic>et al.</italic>, <xref rid="mpp12878-bib-0017" ref-type="ref">2009</xref>). The interaction of cyclotide kalata B1, the prototypic cyclotide from the African plant <italic>Oldenlandia affinis</italic>, with epithelial cells in the midgut of lepidopteran larvae of <italic>Helicoverpa armigera</italic> is a classic example of the negative impact of cyclotides on plant pests. Kalata B1 leads to inhibition of growth of <italic>H. armigera</italic> larvae, damage to the microvilli, blebbing, swelling and finally rupture of the gut epithelium cells (Barbeta <italic>et al.</italic>, <xref rid="mpp12878-bib-0003" ref-type="ref">2008</xref>). This issue is particularly interesting since, to our knowledge, there is no available literature concerning the possible effects of cyclotides on plant&#x02010;parasitic nematodes.</p><p>Parasitism of cyst nematodes on host roots causes profound local metabolic changes in infested roots as well as systemic responses in leaves. To learn more about the molecular basis of plant&#x02013;nematode interactions, we concentrated on the gene expression and enzyme activity of barley VPEs. The physiological role of VPEs in cereal plant responses to cyst nematode infestation is unknown and it has never been examined before. We aimed to explain the mechanism of VPE action on the molecular battlefield between the host plant and the invading nematode. Based on recently published data suggesting decreased protease activity in <italic>H. schachtii</italic>&#x02010;infected <italic>A. thaliana</italic> (Labudda <italic>et al.</italic>, <xref rid="mpp12878-bib-0026" ref-type="ref">2016b</xref>), we hypothesized that VPEs could be important players in the barley response to <italic>H. filipjevi</italic> parasitism. Consequently, the main objective of the present study was to examine whether, to what extent and for what purpose the activity of barley VPEs is modulated during <italic>H. filipjevi</italic> infection. To solve these issues, molecular, biochemical and enzymological as well as confocal laser scanning and light microscopy methods were implemented.</p></sec><sec sec-type="results" id="mpp12878-sec-0002"><title>Results</title><sec id="mpp12878-sec-0003"><title>Chlorophyll content alteration</title><p>The concentrations and composition of photosynthetic pigments were measured over the entire examination period to test the physiological status of the infected plants. The analyses revealed the following photosynthetic pigment contents in <italic>H. vulgare</italic> specimens at 0&#x000a0;days post&#x02010;inoculation (dpi): 1.082&#x000a0;mg/g&#x000a0;FW for chlorophyll <italic>a</italic> (chl <italic>a</italic>)<italic>,</italic> 0.255&#x000a0;mg/g&#x000a0;FW for chlorophyll <italic>b</italic> (chl <italic>b</italic>) and 0.262&#x000a0;mg/g&#x000a0;FW for carotenoids (Table <xref rid="mpp12878-tbl-0001" ref-type="table">1</xref>). During the course of experiment, a slight decrease in pigment concentration was found in infected plants as compared to uninfected control; nevertheless the differences were statistically insignificant at 7 and 14&#x000a0;dpi. The nematode infection contributed to significant decrease of both chlorophyll concentrations only at 21&#x000a0;dpi, but the carotenoid content still did not differ between control and infected plants. Chlorophyll <italic>a</italic>:chlorophyll&#x000a0;<italic>b</italic> ratio and chlorophyll <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic> were almost 1.3&#x02010; and 1.7&#x02010;fold lower, respectively, in infected than in uninfected plants at this time point. Furthermore, the reduction of chlorophyll <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic>:carotenoids ratio occurred in infected specimens compared to uninfected ones (Table <xref rid="mpp12878-tbl-0001" ref-type="table">1</xref>).</p><table-wrap id="mpp12878-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Photosynthetic pigment content and its ratio in leaves of <italic>Hordeum vulgare</italic> on infection with <italic>Heterodera filipjevi</italic> at 7, 14 and 21&#x000a0;days post&#x02010;inoculation (dpi).</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Parameter</th><th align="left" valign="top" rowspan="1" colspan="1">Treatment<xref ref-type="fn" rid="mpp12878-note-0001">*</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">7&#x000a0;dpi</th><th align="left" valign="top" rowspan="1" colspan="1">14&#x000a0;dpi</th><th align="left" valign="top" rowspan="1" colspan="1">21&#x000a0;dpi</th></tr></thead><tbody><tr><td align="left" rowspan="2" colspan="1">Chlorophyll <italic>a</italic> (mg/g&#x000a0;FW)</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">0.919&#x000a0;&#x000b1;&#x000a0;0.041&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.638&#x000a0;&#x000b1;&#x000a0;0.048&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.809&#x000a0;&#x000b1;&#x000a0;0.175&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">0.732&#x000a0;&#x000b1;&#x000a0;0.132&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.574&#x000a0;&#x000b1;&#x000a0;0.191&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.506&#x000a0;&#x000b1;&#x000a0;0.009&#x000a0;b</td></tr><tr><td align="left" rowspan="2" colspan="1">Chlorophyll <italic>b</italic> (mg/g&#x000a0;FW)</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">0.209&#x000a0;&#x000b1;&#x000a0;0.009&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.138&#x000a0;&#x000b1;&#x000a0;0.011&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.169&#x000a0;&#x000b1;&#x000a0;0.034&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">0.167&#x000a0;&#x000b1;&#x000a0;0.030&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.125&#x000a0;&#x000b1;&#x000a0;0.034&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.081&#x000a0;&#x000b1;&#x000a0;0.011&#x000a0;b</td></tr><tr><td align="left" rowspan="2" colspan="1">Chlorophyll <italic>a</italic>:chhlorophyll&#x000a0;<italic>b</italic>
+</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">4.397&#x000a0;&#x000b1;&#x000a0;0.034&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">4.614&#x000a0;&#x000b1;&#x000a0;0.050&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">6.351&#x000a0;&#x000b1;&#x000a0;0.068&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">4.394&#x000a0;&#x000b1;&#x000a0;0.030&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">4.534&#x000a0;&#x000b1;&#x000a0;0.534&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">4.761&#x000a0;&#x000b1;&#x000a0;0.965&#x000a0;b</td></tr><tr><td align="left" rowspan="2" colspan="1">Chlorophyll <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic> (mg/g&#x000a0;FW)</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">1.128&#x000a0;&#x000b1;&#x000a0;0.051&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.776&#x000a0;&#x000b1;&#x000a0;0.059&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.978&#x000a0;&#x000b1;&#x000a0;0.209&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">0.899&#x000a0;&#x000b1;&#x000a0;0.162&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.698&#x000a0;&#x000b1;&#x000a0;0.224&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">0.587&#x000a0;&#x000b1;&#x000a0;0.002&#x000a0;b</td></tr><tr><td align="left" rowspan="2" colspan="1">Carotenoids (mg/g&#x000a0;FW)</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">0.239&#x000a0;&#x000b1;&#x000a0;0.002&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.205&#x000a0;&#x000b1;&#x000a0;0.016&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.228&#x000a0;&#x000b1;&#x000a0;0.053&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">0.214&#x000a0;&#x000b1;&#x000a0;0.025&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.174&#x000a0;&#x000b1;&#x000a0;0.065&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">0.173&#x000a0;&#x000b1;&#x000a0;0.006&#x000a0;a</td></tr><tr><td align="left" rowspan="2" colspan="1">Chlorophyll <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic>:carotenoids</td><td align="left" rowspan="1" colspan="1">C</td><td align="char" char="." rowspan="1" colspan="1">4.714&#x000a0;&#x000b1;&#x000a0;0.206&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">4.082&#x000a0;&#x000b1;&#x000a0;0.071&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">4.303&#x000a0;&#x000b1;&#x000a0;0.088&#x000a0;a</td></tr><tr><td align="left" rowspan="1" colspan="1">I</td><td align="char" char="." rowspan="1" colspan="1">4.189&#x000a0;&#x000b1;&#x000a0;0.293&#x000a0;a</td><td align="char" char="." rowspan="1" colspan="1">3.794&#x000a0;&#x000b1;&#x000a0;0.335&#x000a0;a</td><td align="char" char="." style="background-color:#BFBFBF" rowspan="1" colspan="1">3.394&#x000a0;&#x000b1;&#x000a0;0.133&#x000a0;b</td></tr></tbody></table><table-wrap-foot id="mpp12878-ntgp-0001"><fn id="mpp12878-note-0001"><label>*</label><p>C, leaves of control plants; I, leaves of nematode&#x02010;infected plants.</p></fn><fn id="mpp12878-note-0002"><p>Values are means of three replicates&#x000a0;&#x000b1;&#x000a0;SD. Different letters and grey background indicate statistically significant differences between treatment within each parameter and the period of experiment at &#x003b1;&#x000a0;=&#x000a0;0.05.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="mpp12878-sec-0004"><title>
+<italic>Heterodera filipjevi</italic> infection diminishes total legumain activity in infected roots</title><p>To investigate VPE activity during <italic>H. vulgare</italic>&#x02013;<italic>H. filipjevi</italic> interaction, the total legumain activity (TLA) was measured. On the day of inoculation, the TLA was lower in leaves (15.7&#x000a0;pmol 7&#x02010;amino&#x02010;4&#x02010;methylcoumarin (AMC)/min/g&#x000a0;FW) than in roots (24&#x000a0;pmol AMC/min/g&#x000a0;FW) (Fig. <xref rid="mpp12878-fig-0001" ref-type="fig">1</xref>). At 7 dpi, the TLA was insignificantly lower in the roots of infected barley than in control roots (Fig. <xref rid="mpp12878-fig-0001" ref-type="fig">1</xref>b), but it was significantly reduced by about 1.5&#x02010;fold in the infected roots at 14 and 21&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0001" ref-type="fig">1</xref>b). In contrast, the TLA in the leaves of infected barley did not show significant differences throughout the experiment. Consequently, the investigation of VPE gene&#x000a0;transcript levels was performed to establish whether altered TLA in infected plants coexists with changes in gene expression.</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Total legumain activity (pmol AMC/min/g&#x000a0;FW) in <italic>Hordeum vulgare</italic> leaves (a) and roots (b) on infestation with <italic>Heterodera filipjevi</italic> at 0, 7, 14 and 21&#x000a0;days post&#x02010;inoculation (dpi). Each result is presented as the mean&#x000a0;&#x000b1;&#x000a0;SD (<italic>n</italic>&#x000a0;=&#x000a0;3); significant difference at&#x000a0;* <italic>P&#x000a0;&#x0003c;&#x000a0;</italic>0.05&#x000a0;or ** <italic>P</italic> &#x0003c; 0.01 (Tukey&#x02019;s test). AMC, 7&#x02010;amino&#x02010;4&#x02010;methylcoumarin; FW, fresh weight.</p></caption><graphic id="nlm-graphic-1" xlink:href="MPP-21-38-g001"/></fig></sec><sec id="mpp12878-sec-0005"><title>Changes in gene expression of VPEs&#x000a0;are organ&#x02010;specific</title><p>qRT&#x02010;PCR analyses distinguished different gene expression patterns&#x000a0;of VPEs in leaves (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>a,c,e,g,i,k,m) and roots (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>b,d,f,h,j,l,n) of infected barley. The statistically significant down&#x02010;regulation of the expression in infected roots concerned <italic>HvLeg&#x02010;1</italic> at 14&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>b), <italic>HvLeg&#x02010;2</italic> at 7&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>d), <italic>HvLeg&#x02010;3</italic> at 21&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>f), <italic>HvLeg&#x02010;4</italic> at 7, 14 and 21&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>h), <italic>HvLeg&#x02010;5</italic> at 14&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>j), and <italic>HvLeg&#x02010;8</italic> at 7 and 21&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>n). The dynamics of these changes varied depending on the time after inoculation. Only <italic>HvLeg&#x02010;4</italic> mRNA level was lower in infected roots in comparison with uninfected ones throughout the entire experiment (from 7 to 21&#x000a0;dpi) (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>h). In leaves of infected plants, transcript levels of <italic>HvLeg&#x02010;1</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>a), <italic>HvLeg&#x02010;5</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>i) and <italic>HvLeg&#x02010;7</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>k) at 14&#x000a0;dpi as well as <italic>HvLeg&#x02010;8</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>m) at 7&#x000a0;dpi were up&#x02010;regulated compared to uninfected plants. However, mRNA levels of <italic>HvLeg&#x02010;2</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>c) and <italic>HvLeg&#x02010;3</italic> (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>e) declined in leaves of infected barley at 21&#x000a0;dpi.</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>The analysis of changes in <italic>Hordeum vulgare</italic> vacuolar processing enzymes (<italic>HvLeg</italic>) (a&#x02013;n) and cystatin HvCPI&#x02010;4 (<italic>Icy&#x02010;4</italic>) (o&#x02013;p) gene expression levels during <italic>Heterodera filipjevi</italic> infection. Statistical analysis was carried out using REST2009 software (calculation of absolute normalized gene expression level and statistical significance of their differences). The expression level for each gene was normalized to the endogenous control. Bars represent mean&#x000a0;&#x000b1;&#x000a0;SE (<italic>n</italic>&#x000a0;=&#x000a0;3); asterisks indicate statistically significant differences in comparison to the control uninfected plants at <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05 (*), <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.01 (**) or <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001 (***).</p></caption><graphic id="nlm-graphic-3" xlink:href="MPP-21-38-g002"/></fig></sec><sec id="mpp12878-sec-0006"><title>Barley cystatin <italic>Icy&#x02010;4</italic> gene expression changes on infection</title><p>The gene expression patterns of <italic>Icy&#x02010;4</italic> encoding HvCPI&#x02010;4 cystatin, the only barley cystatin with a long C&#x02010;terminal extension that can inhibit activity of VPEs, was determined to seek a possible regulatory mechanism of VPE activity in infected plants. A significant enhancement of <italic>Icy&#x02010;4</italic> gene expression was detected in leaves of infected plants at 7, 14 and 21&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>o). In infected roots a&#x000a0;slight, but still statistically significant, reduction of <italic>Icy&#x02010;4</italic> mRNA content occurred only at 14&#x000a0;dpi (Fig. <xref rid="mpp12878-fig-0002" ref-type="fig">2</xref>p).</p></sec><sec id="mpp12878-sec-0007"><title>Live imaging of VPEs</title><p>Observations of VPE activity using a confocal laser scanning microscope revealed an intensive JOPD1 (a specific fluorescent probe for VPEs) fluorescent signal in the cells of the root apical meristem in both control and infested plants (Fig. <xref rid="mpp12878-fig-0003" ref-type="fig">3</xref>). The infection did not change the fluorescent signal intensity in the root apical meristem region, therefore only the results after infection are presented and they were identical in control plants. As the left panel of Fig. <xref rid="mpp12878-fig-0004" ref-type="fig">4</xref> shows, in the roots containing syncytia at 7 and 14&#x000a0;dpi, a strong JOPD1 signal was recorded as numerous fluorescently labelled spherical structures exhibiting VPE activity. They were especially abundant next to the nematode&#x02019;s head and in the apical regions of the expanding syncytium. At 21&#x000a0;dpi, VPE activity was almost unnoticeable within the whole syncytium, but it was visible in the root cells surrounding&#x000a0;the syncytium (Fig. <xref rid="mpp12878-fig-0004" ref-type="fig">4</xref>). For comparison, the results of observations of uninfected roots are showed in the right&#x02010;hand panels of Fig. <xref rid="mpp12878-fig-0004" ref-type="fig">4</xref>.</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Vacuolar processing enzyme (VPE) localization in barley root tips observed under confocal laser scanning microscope at 7, 14 and 21&#x000a0;days post&#x02010;inoculation (dpi) with <italic>Heterodera filipjevi</italic>. Fluorescent staining with JOPD1 probe. VPE activity was localized in cells of the root elongation zone. Bar&#x000a0;=&#x000a0;100&#x000a0;&#x000b5;m for left panel and 10&#x000a0;&#x000b5;m for right panel.</p></caption><graphic id="nlm-graphic-5" xlink:href="MPP-21-38-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Left panel: vauolar processing enzyme (VPE) localization in barley roots observed under confocal laser scanning microscope at 7, 14 and 21&#x000a0;days post&#x02010;inoculation (dpi) with <italic>Heterodera filipjevi</italic>. Fluorescent staining with JOPD1 probe. Yellow signals were localized in vacuoles close to the nematode head in the infection zone (red rectangles). In the final period of observation, fluorescent signals were not detected at the infection site. Bar&#x000a0;=&#x000a0;50&#x000a0;&#x000b5;m. Ne, nematode; Cy, cyst. Right panel: VPE localization in control uninfected barley roots. Bar&#x000a0;=&#x000a0;100&#x000a0;&#x000b5;m. BF, bright field; Fluo, fluorescence.</p></caption><graphic id="nlm-graphic-7" xlink:href="MPP-21-38-g004"/></fig></sec><sec id="mpp12878-sec-0008"><title>Cyclotide kalata B1 elicits methuosis in pre&#x02010;parasitic juveniles</title><p>Keeping in mind that legumains may produce cyclotides, we examined the effect of exogenous application of kalata B1 on the pre&#x02010;parasitic second&#x02010;stage juveniles of <italic>H. filipjevi</italic>. The exposition of larvae on different concentrations of kalata B1 resulted in a decrease in their mean survival time (Table <xref rid="mpp12878-tbl-0002" ref-type="table">2</xref>). Statistical evaluation of obtained data and implementation of the mix effects Cox model showed that the control (without kalata B1) differed from all used concentrations. However, particular concentrations did not significantly differ from each other.</p><table-wrap id="mpp12878-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Mean survival time of pre&#x02010;parasitic second stage juveniles of <italic>Heterodera filipjevi</italic> in different concentrations of the&#x000a0;cyclotide kalata B1.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Kalata B1 concentration (&#x000b5;g ml<sup>&#x02212;1</sup>)</th><th align="left" valign="top" rowspan="1" colspan="1">Mean survival time</th><th align="left" valign="top" rowspan="1" colspan="1">No. of nematodes in five drops</th><th align="left" valign="top" rowspan="1" colspan="1">No. (proportion, %) of juveniles that survived till end of experiment</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">1083</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">30 (75)</td></tr><tr><td align="left" rowspan="1" colspan="1">50</td><td align="char" char="." rowspan="1" colspan="1">566</td><td align="char" char="." rowspan="1" colspan="1">68</td><td align="left" rowspan="1" colspan="1">23 (34)</td></tr><tr><td align="left" rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">552</td><td align="char" char="." rowspan="1" colspan="1">59</td><td align="left" rowspan="1" colspan="1">18 (31)</td></tr><tr><td align="left" rowspan="1" colspan="1">250</td><td align="char" char="." rowspan="1" colspan="1">469</td><td align="char" char="." rowspan="1" colspan="1">53</td><td align="left" rowspan="1" colspan="1">14 (26)</td></tr><tr><td align="left" rowspan="1" colspan="1">500</td><td align="char" char="." rowspan="1" colspan="1">620</td><td align="char" char="." rowspan="1" colspan="1">63</td><td align="left" rowspan="1" colspan="1">24 (38)</td></tr><tr><td align="left" rowspan="1" colspan="1">750</td><td align="char" char="." rowspan="1" colspan="1">490</td><td align="char" char="." rowspan="1" colspan="1">76</td><td align="left" rowspan="1" colspan="1">22 (29)</td></tr><tr><td align="left" rowspan="1" colspan="1">1000</td><td align="char" char="." rowspan="1" colspan="1">442</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="left" rowspan="1" colspan="1">12 (23)</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>To elucidate why the pre&#x02010;parasitic juveniles die during incubation in kalata B1 solutions, we carried out a series of microscopic observations. In order to stimulate their parasitic behaviour, namely to induce stylet thrusting and head movements and thus allow uptake of tested molecules from the incubation medium to their intestine, we prepared an extract of fresh barley roots. Interestingly, the application of both the barley root extract (Video <xref rid="mpp12878-sup-0003" ref-type="supplementary-material">S1</xref>) and kalata B1 (Video <xref rid="mpp12878-sup-0004" ref-type="supplementary-material">S2</xref>) to a water drop in which juveniles were suspended resulted in head and stylet movements but the head and stylet movements on the kalata B1&#x02010;exposed nematodes were much slower and rarer than on the root extract&#x02010;exposed nematodes. The behaviour of the&#x000a0;root extract&#x02010;exposed nematodes was analogous to that observed during the initial stages of root invasion when the juvenile migrates inside the root. This phenomenon did not occur when the juveniles were suspended in sterile water without any additives (Video <xref rid="mpp12878-sup-0005" ref-type="supplementary-material">S3</xref>).</p><p>Treatment of juveniles with kalata B1 solutions led to the formation and aggregation of numerous small granules in their intestines and the formation of large voids between them (Fig. <xref rid="mpp12878-fig-0005" ref-type="fig">5</xref>). Finally, granules moved along with the liquid filling the intestine from the back of the body to the procorpus region and the continuity of the cuticle was broken between the stylet and metacorporal pump, leading to the release of granules into the external environment (Video <xref rid="mpp12878-sup-0006" ref-type="supplementary-material">S4</xref>). Such destruction was not observed in juveniles incubated in water or root extracts.</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Influence of the&#x000a0;cyclotide kalata B1 on vesiculation and methuosis in <italic>Heterodera filipjevi</italic> pre&#x02010;parasitic juveniles. Observations were performed under a light microscope. Giant voids and small granules (arrowheads) were observed in nematode bodies after incubation with different kalata B1 concentrations at 24&#x000a0;h. Incubation in (a) sterile water, (b) barley&#x000a0;root extract, (c) 250&#x000a0;&#x000b5;g/mL kalata B1, (d) 750&#x000a0;&#x000b5;g/mL kalata B1 and (e) 1&#x000a0;mg/mL kalata B1. Bar&#x000a0;=&#x000a0;50&#x000a0;&#x000b5;m.</p></caption><graphic id="nlm-graphic-9" xlink:href="MPP-21-38-g005"/></fig><p>In the next step, we added neutral red dye to incubation solution containing barley root extract or kalata B1 to investigate in more detail&#x000a0;the properties of the&#x000a0;granules induced by kalata B1. The neutral red dye is eurhodin dye, which shows different colouration depending on pH. In our study, neutral red penetrated the inside of the nematode body and the granules specifically stained red, indicating that their interior has an acidic pH (equal to pH 6.8 or below). Red&#x02010;stained granules were also&#x000a0;occasionally&#x000a0;present in the body of juveniles treated with root extract (Fig. <xref rid="mpp12878-fig-0006" ref-type="fig">6</xref>a). This indicates that the low number of granules is not a pathological event. In addition, the number of granules increased dramatically after treatment with kalata B1, especially in the posterior part of the body, which can be considered as a pathological condition (Fig. <xref rid="mpp12878-fig-0006" ref-type="fig">6</xref>b&#x02013;d).</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Left panel: neutral red (4&#x000a0;&#x000b5;M) staining of second&#x02010;stage pre&#x02010;parasitic juveniles of <italic>Heterodera filipjevi</italic> after 24&#x000a0;h incubation in (a) barley root&#x000a0;extract and various&#x000a0;concentrations of kalata B1: (b) 250&#x000a0;&#x000b5;g/mL and (c, d) 1&#x000a0;mg/mL. Observations were performed under an epifluorescence microscope. Arrowheads indicate granules stained by neutral red (d). Right panel: juvenile morphology observed under differential interference contrast (DIC) microscopy. Bar&#x000a0;=&#x000a0;50&#x000a0;&#x000b5;m. Fluo, fluorescence.</p></caption><graphic id="nlm-graphic-11" xlink:href="MPP-21-38-g006"/></fig><p>In order to gain more background data concerning the mechanisms involved in the death of pre&#x02010;parasitic juveniles after cyclotide kalata B1 administration, we checked whether the production of reactive oxygen species (ROS), which play an important role in the progression of many disorders and diseases, is involved. We used three different fluorogenic probes to visualize the level of oxidative stress. First, we used Singlet Oxygen Sensor Green (SOSG) reagent to detect singlet oxygen molecules in nematodes treated with kalata B1. Regularly shaped, fluorescent, spherical structures were localized anteriorly to the above&#x02010;mentioned granules (Fig. <xref rid="mpp12878-fig-0007" ref-type="fig">7</xref>a). Secondly, we used two other dyes to show the presence of ROS. The signals from CellROX Green reagent indicated an increase production of ROS in the mitochondria and nuclei (Fig. <xref rid="mpp12878-fig-0007" ref-type="fig">7</xref>b), whereas CellROX Orange revealed enhanced ROS accumulation in the cytoplasm (Fig. <xref rid="mpp12878-fig-0007" ref-type="fig">7</xref>c). Similarly to SOSG, the emitted fluorescence was largely associated with granules induced by kalata B1. Examples of negative controls for when the nematodes were incubated on water and then labelled with the ROS probe and when the ROS probe was omitted in the same experimental set&#x02010;up are presented in Fig. <xref rid="mpp12878-sup-0001" ref-type="supplementary-material">S1</xref>.</p><fig fig-type="Figure" xml:lang="en" id="mpp12878-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>
+<italic>In vivo</italic> fluorescence labelling of reactive oxygen species (ROS) in <italic>Heterodera filipjevi</italic> larvae after 24&#x000a0;h incubation in 250&#x000a0;&#x000b5;g/mL kalata B1 observed under a confocal laser scanning microscope. Singlet Oxygen Sensor Green (a) detected&#x000a0;singlet oxygen molecules in small granules; CellROX Green Reagent (b) specifically detected increased production of ROS in the mitochondria and nuclei; and CellROX Orange Reagent (c) revealed increased production of ROS in the cytoplasm. Bar&#x000a0;=&#x000a0;20&#x000a0;&#x000b5;m. BF, bright field; Fluo, fluorescence.</p></caption><graphic id="nlm-graphic-13" xlink:href="MPP-21-38-g007"/></fig></sec></sec><sec sec-type="discussion" id="mpp12878-sec-0009"><title>Discussion</title><p>Cyst nematodes invade host roots and initiate formation of syncytia, which become the only source of nutrients for nematodes throughout their entire lifecycle. Here, in the <italic>H. vulgare</italic>&#x02013;<italic>H. filipjevi</italic> pathosystem, we provide experimental evidence to elucidate the molecular mechanisms of plant and cyst nematode interaction.</p><p>Biotrophic parasites rely on the metabolism of invaded plants. For this reason, tissue damage in hosts must be limited until reproduction of nematodes has finished. The content and composition of photosynthetic pigments are effective markers of the physiological status of infected plants (Labudda <italic>et al.</italic>, <xref rid="mpp12878-bib-0027" ref-type="ref">2018</xref>). Our results indicate that <italic>H. filipjevi</italic> causes only moderate alterations in content and composition of photosynthetic pigments in infected barley. This is because the nematode must ensure a continuous influx of photosynthetic nutrients to&#x000a0;the syncytium, and thus keep the infected plant alive, relatively unchanged&#x000a0;despite the stress caused by infection. Although the general physiological condition of the infected plant is not bad, for example the carotenoid content in leaves did not alter significantly, suggesting that non&#x02010;enzymatic antioxidant mechanisms and protection of the photosynthetic machinery work efficiently, our results clearly demonstrate the significant changes in the processes associated with the activity of proteolytic enzymes.</p><p>Eight genes&#x000a0;encoding VPEs occur in the&#x000a0;barley genome and they have different expression patterns in vegetative and generative organs (Juli&#x000e1;n <italic>et al.</italic>, <xref rid="mpp12878-bib-0022" ref-type="ref">2013</xref>; Radchuk <italic>et al.</italic>, <xref rid="mpp12878-bib-0040" ref-type="ref">2011</xref>, <xref rid="mpp12878-bib-0041" ref-type="ref">2018</xref>). We analysed changes in the expression of seven genes during the course of infection. Expression of <italic>HvLeg&#x02010;6</italic> was not detected, but in general this gene is known to be expressed only in&#x000a0;the immature zygotic embryo and nucellus (Bi <italic>et al.</italic>, <xref rid="mpp12878-bib-0004" ref-type="ref">2005</xref>; Linnestad <italic>et al.</italic>, <xref rid="mpp12878-bib-0029" ref-type="ref">1998</xref>). Together with the diverse expression of genes&#x000a0;for VPEs, it was observed that TLA decreased during barley infection with <italic>H. filipjevi.</italic> Several molecular mechanisms may participate in this phenomenon. One of these mechanisms is the possibility that <italic>H. filipjevi</italic> inhibits VPE activity by effectors&#x000a0;in a targeted way. Cyst nematodes produce many effectors, and it seems that two of them may be of particular importance in this process. H&#x000fc;tten (<xref rid="mpp12878-bib-0018" ref-type="ref">2018</xref>) identified the cystatin&#x02010;like (cysteine proteases inhibitor) effector in <italic>H. schachtii</italic>. It cannot be ruled out that the decreased TLA in roots of infected barley is to some extent caused by the action of cysteine protease inhibitors secreted by parasitizing juveniles. Our conviction that diminished TLA results from effectors secreted by <italic>H. filipjevi,</italic> rather than as result of plant regulatory mechanisms, is due to the fact that expression of the barley <italic>Icy&#x02010;4</italic> gene, coding for cystatin HvCPI&#x02010;4, was unchanged or down&#x02010;regulated in nematode&#x02010;infected roots. Another example of an effector that affects regulation of plant gene expression is the recently identified effector 30D08 from <italic>H. schachtii</italic>. This protein is secreted from the dorsal gland of juveniles and targeted to the plant nucleus, where it interacts with an auxiliary spliceosomal protein and thus affects splicing of pre&#x02010;mRNA and expression of a gene essential for syncytium formation (Verma <italic>et al.</italic>, <xref rid="mpp12878-bib-0058" ref-type="ref">2018</xref>). The <italic>&#x003b2;</italic>
+<italic>VPE</italic> gene (AT1G62710.1) is among the genes in which expression is significantly changed by&#x000a0;the <italic>H. schachtii</italic> 30D08 effector in syncytia induced in <italic>A. thaliana</italic> roots (Verma <italic>et al.</italic>, <xref rid="mpp12878-bib-0058" ref-type="ref">2018</xref>).</p><p>Analysing the&#x000a0;barley&#x02013;<italic>H. filipjevi</italic> interaction, we have to focus on at least two basic issues. First, VPEs induce vacuolar rupture, which can lead to the activation of the proteolytic cascade and plant programmed cell death (PCD) during the&#x000a0;response to pathogen infection (Hatsugai <italic>et al.</italic>, <xref rid="mpp12878-bib-0016" ref-type="ref">2015</xref>). The plant tries to avoid the establishment of interaction with the biotrophic pathogen and the potential spread of the disease. It attempts to induce PCD in cells affected by the parasite, but as the cyst nematodes secrete the effectors inhibiting the gene expression and enzymatic activity of VPEs, PCD is limited or impeded and the infection process can process. This indicates that an obligate biotrophic pathogen, such as <italic>H. filipjevi</italic>, takes advantage of the inhibition of VPE activity in the infected host roots to survive and avoid their proteolytic defence responses. This assumption is also supported by data provided by H&#x000fc;tten <italic>et al. </italic>(<xref rid="mpp12878-bib-0019" ref-type="ref">2015</xref>), who showed&#x000a0;a significant decrease in VPE activity in syncytia induced by <italic>H. schachtii</italic> in <italic>A. thaliana</italic> roots. However, the fact that we observed fluorescently labelled spherical structures with VPE activity close to the nematode&#x02019;s head and in the apical region of the growing syncytia at 7 and 14&#x000a0;dpi cannot be ignored. Similar structures were observed by Baranowski <italic>et al. </italic>(<xref rid="mpp12878-bib-0002" ref-type="ref">2018</xref>) in syncytia induced by <italic>H. schachtii</italic> in <italic>A. thaliana</italic> roots. Some of these were considered to be lytic vacuoles and our results confirm these observations because the activity of legumains&#x000a0;is inseparably associated with lytic vacuoles.</p><p>VPEs catalyse not only the peptide&#x02010;bond cleavage reaction but also production of defence proteins against pests and pathogens, including cyclotides (backbone&#x02010;cyclized proteins) (Hatsugai <italic>et al.</italic>, <xref rid="mpp12878-bib-0016" ref-type="ref">2015</xref>). It turns out that the inhibited VPE activity promotes nematode infection through limited plant PCD (Siddique <italic>et al.</italic>, <xref rid="mpp12878-bib-0050" ref-type="ref">2014</xref>) and decreased production of cyclotides that induce death of pre&#x02010;parasitic juveniles as shown here. Methuosis is a nonapoptotic cell death pathway whose name originates from the Greek <italic>methuo</italic>, meaning &#x02018;to drink to intoxication&#x02019;. The most visible feature in cells undergoing methuosis is the accumulation of fluid&#x02010;filled cytoplasmic vacuoles derived from macropinosomes (Maltese and Overmeyer, <xref rid="mpp12878-bib-0031" ref-type="ref">2014</xref>). Similar formation of vacuoles in nematode bodies was recently described for <italic>Meloidogyne incognita</italic> exposed to oxalic acid (Jang <italic>et al.</italic>, <xref rid="mpp12878-bib-0021" ref-type="ref">2016</xref>) and in <italic>Bursaphelenchus xylophilus</italic> incubated in 5&#x02010;iodoindole (Rajasekharan <italic>et al.</italic>, <xref rid="mpp12878-bib-0042" ref-type="ref">2017</xref>). In both cases, morphological variations in the internal organs of treated nematodes and formation of vacuoles/granules and large voids within nematode bodies occurred, which are similar to the morphological alterations in <italic>H. filipjevi</italic> pre&#x02010;parasitic juveniles treated with kalata B1. We therefore propose that the increased mortality of the juveniles results from the progressive formation of numerous vacuoles/granules, which matches well with the methuosis phenotype.</p><p>It is well known that ROS are involved in many nematode physiological processes (Miranda&#x02010;Vizuete and Veal, <xref rid="mpp12878-bib-0033" ref-type="ref">2016</xref>). At lower concentrations, they are involved in cell signalling, whereas at higher concentrations they can be toxic by induction of oxidative stress, leading to oxidative damage of the cell&#x02010;building molecules (Miranda&#x02010;Vizuete and Veal, <xref rid="mpp12878-bib-0033" ref-type="ref">2016</xref>). Our experiments show that, apart from the induction of formation of numerous granules, an additional mechanism of kalata B1 toxicity is stimulation of ROS production. It can therefore be assumed that the increased production of ROS strengthens the toxic effect of cyclotides against nematodes, so oxidative damage in nematode bodies may occur, which results in shorter lifespan or death (Gems and Doonan, <xref rid="mpp12878-bib-0013" ref-type="ref">2008</xref>).</p><p>Taken together, our results support the hypothesis that VPEs are important molecular players in plant&#x02013;cyst nematode interactions and have a significant impact on the current knowledge regarding the molecular mechanisms of this biotrophic interaction. For the first time, the mechanism that lies at the basis of inhibited VPE activity in pathogen&#x02010;infected plants is explained. It has been proven that the cyst nematodes inhibit the activity of VPEs in the infected roots&#x000a0;in a deliberate way, to prevent the negative effects that would influence their fitness and the development of feeding sites. We have shown that one potential VPE activity product, cyclotides, known polypeptides with strong antiparasitic properties, can lead to the death of juveniles by methuosis. Thus, we strongly suggest that the significantly reduced host VPE activity, probably through nematode effectors, promotes the infection and leads to avoidance of the activation of the proteolysis&#x02010;dependent plant defence response (including PCD) and also protects the invading juveniles from death by methuosis.</p></sec><sec id="mpp12878-sec-0010"><title>Experimental Procedures</title><sec id="mpp12878-sec-0011"><title>Plant material and growth conditions</title><p>The fodder spring barley <italic>Hordeum vulgare</italic> &#x02018;Airway&#x02019;, characterized by high protein content in grains, was used. Seeds were rinsed in tap water for 2&#x000a0;h and then surface decontaminated in 5% (w/v) sodium hypochlorite solution enriched with 0.2% (v/v) Tween 20 for 10&#x000a0;min with gentle stirring. They were washed under tap water for 1&#x000a0;h and then incubated for 1&#x000a0;h on a magnetic stirrer in 0.2% (v/v) Plant Preservative Mixture (PPM) (Plant Cell Technologies, Inc., Washington DC, USA) to eliminate microbial contamination. The decontaminated seeds were placed (embryos upwards) side by side into Petri dishes (9&#x000a0;cm diameter) on a 0.2% (v/v) PPM&#x02010;soaked filter paper and covered with an identical one. After overnight incubation at 4&#x000a0;&#x000b0;C in the dark, the seeds were left in the dark at room temperature for another 2&#x000a0;days. Geminating seeds were transferred singly into a 50&#x000a0;mL Falcon&#x02010;type tube that was filled with sterilized (180&#x000a0;&#x000b0;C, 18&#x000a0;h) white quartz sand (0.5&#x000a0;mm granulation) (Pariyar <italic>et al.</italic>, <xref rid="mpp12878-bib-0037" ref-type="ref">2010</xref>) and 15&#x000a0;mL of 0.2&#x000a0;&#x000d7;&#x000a0;Knop medium (pH 6.4) was added to each tube. Plants were cultivated in a growth chamber MLR&#x02010;350 (Sanyo, Tokyo, Japan) at 23&#x000a0;&#x000b1;&#x000a0;2&#x000a0;&#x000b0;C with a 16&#x000a0;h/8&#x000a0;h light/dark cycle under a photosynthetic photon flux density of 100&#x000a0;&#x000b1;&#x000a0;25&#x000a0;&#x003bc;mol/m<sup>2</sup>/s and at 70&#x02013;80% humidity. Every 4&#x000a0;days plants were watered with 8&#x000a0;mL sterile milli&#x02010;Q water.</p></sec><sec id="mpp12878-sec-0012"><title>Nematode collection and inoculation</title><p>Cysts of <italic>H. filipjevi</italic> were sampled from naturally nematode&#x02010;infested experimental wheat fields of the International Maize and Wheat Improvement Center (CIMMYT) in Yozgat (39&#x000b0;08'N, 34&#x000b0;10'E; altitude 985&#x000a0;m&#x000a0;a.s.l.) in the Central Anatolian Plateau of Turkey. Rhizospheres and roots of wheat plants were collected at the end of the growing season in 2013 and cysts were extracted by the modified flotation decanting method (Ashrafi <italic>et al.</italic>, <xref rid="mpp12878-bib-0001" ref-type="ref">2017</xref>). Hatching of J2s was stimulated by soaking cysts in sterile 3&#x000a0;mM ZnCl<sub>2</sub> at 17&#x000a0;&#x000b0;C. Freshly hatched juveniles were washed three times in sterile milli&#x02010;Q water. Tubes with 7&#x02010;day&#x02010;old barley plants were randomly divided into two groups, uninfected controls and infected ones. Plants from the latter were inoculated with approximately 200 freshly hatched J2s of <italic>H. filipjevi</italic> suspended in sterile milli&#x02010;Q water per tube. Infected plants were collected at 7, 14 and 21&#x000a0;dpi together with control uninfected plants (including 0&#x000a0;dpi). Six plants were used for each experimental bulked sample. Experiments were carried out in three independent biological replicates.</p></sec><sec id="mpp12878-sec-0013"><title>Total RNA extraction and first&#x02010;strand cDNA synthesis by reverse transcription reactions</title><p>Total RNA was extracted from liquid nitrogen&#x02010;frozen powders of leaves and roots of uninfected and infected plants using the universal RNA purification kit (EURx, Gda&#x00144;sk, Poland) according to the&#x000a0;manufacturer&#x02019;s instructions. During extraction, samples were treated with RNase&#x02010;free DNase I (EURx) directly on columns to digest contaminating genomic DNA. The RNA amount was measured spectrophotometrically (NanoDrop ND&#x02010;1000; Thermo Scientific, Waltham, MA, USA), and its purity and integrity were verified on 1.2% (w/v) agarose gel containing SimplySafe (EURx). Horizontal electrophoresis was run in 1&#x000a0;&#x000d7;&#x000a0;TBE buffer (89&#x000a0;mM Tris, 89&#x000a0;mM boric acid, 2&#x000a0;mM EDTA, pH 8.3). Purified total RNA samples (2&#x000a0;&#x003bc;g) were reverse&#x02010;transcribed using&#x000a0;a high&#x02010;capacity cDNA reverse transcription kit with MultiScribe Reverse Transcriptase and random primers (Applied Biosystems/Thermo Scientific).</p></sec><sec id="mpp12878-sec-0014"><title>Gene expression profiling by quantitative reverse transcription&#x02010;PCR</title><p>Sequences of primers (Table <xref rid="mpp12878-sup-0021" ref-type="supplementary-material">S1</xref>) fors <italic>HvLeg&#x02010;1</italic> to <italic>HvLeg&#x02010;7</italic> ,&#x000a0;<italic>TEF1 &#x003b1;&#x02010;subunit</italic> and <italic>actin</italic> were adopted from Radchuk <italic>et al. </italic>(<xref rid="mpp12878-bib-0040" ref-type="ref">2011</xref>), <italic>Icy4</italic> from Martinez <italic>et al. </italic>(<xref rid="mpp12878-bib-0032" ref-type="ref">2009</xref>) and others were designed using OligoAnalyzer Tool (Integrated DNA Technologies, Skokie, Illinois, USA). <italic>Hordeum vulgare translation elongation factor 1 &#x003b1;&#x02010;subunit</italic> gene (<italic>TEF1 &#x003b1;&#x02010;subunit</italic>, accession no. Z50789.1), which presented stable expression over the whole period of infection experiment, was used as the endogenous reference gene. Quantitative reverse transcriptase&#x02010;PCR (qRT&#x02010;PCR) was conducted in Hard&#x02010;Shell 96&#x02010;well plates sealed with Microseal &#x02018;B&#x02019; PCR films (Bio&#x02010;Rad, CA, USA) on a CFX96 Touch Real&#x02010;Time PCR Detection System (Bio&#x02010;Rad). Reaction mixtures contained 7.5&#x000a0;&#x003bc;L of PowerUP SYBR Green PCR Master Mix (Applied Biosystems/Thermo Scientific), 1.9&#x000a0;&#x003bc;L of sterile water, 200&#x000a0;nM primers and 5&#x000a0;&#x003bc;L of 1:25 diluted first&#x02010;strand cDNA template. qRT&#x02010;PCR conditions were as follows: AmpliTaq Gold polymerase (Applied Biosystems/Thermo Scientific) activation at 95&#x000a0;&#x000b0;C for 10&#x000a0;min, then 40 cycles consisting of denaturation at 95&#x000a0;&#x000b0;C for 15&#x000a0;s and annealing/extension at 60&#x000a0;&#x000b0;C for 60&#x000a0;s with fluorescence reading. Expression of each gene was tested in three biological replicates and three technical repetitions. The specificity of amplifications was tested by melting curve analysis. The reaction efficiency was calculated using LinRegPCR software (Ramakers <italic>et al.</italic>, <xref rid="mpp12878-bib-0043" ref-type="ref">2003</xref>) whereas the absolute normalized gene expression levels and statistical significance of their differences were estimated by REST2009 software (Pfaffl <italic>et al.</italic>, <xref rid="mpp12878-bib-0039" ref-type="ref">2002</xref>).</p></sec><sec id="mpp12878-sec-0015"><title>Total legumain activity assay</title><p>Total legumain activity (TLA) was measured using the modified method described by Teper&#x02010;Bamnolker <italic>et al. </italic>(<xref rid="mpp12878-bib-0053" ref-type="ref">2017</xref>). Barley leaves and roots from infected and uninfected plants were frozen in liquid nitrogen and, without thawing, homogenized in liquid nitrogen with a mortar and pestle. The powder samples obtained (each about 100&#x000a0;mg) were extracted with 500&#x000a0;&#x000b5;L of ice&#x02010;cold extraction buffer (50&#x000a0;mM sodium acetate pH 5.5, 50&#x000a0;mM NaCl, 1&#x000a0;mM EDTA, 100&#x000a0;mM DTT, 1&#x000a0;mM PMSF). Tubes with samples were agitated (800&#x000a0;rpm, 4&#x000a0;&#x000b0;C, 15&#x000a0;min), centrifuged (16 100&#x000a0;<bold><italic>g</italic></bold>, 4&#x000a0;&#x000b0;C, 30&#x000a0;min) and finally supernatants were collected.</p><p>Aliquots (20&#x000a0;&#x003bc;L) of the freshly prepared supernatants were mixed with 80&#x000a0;&#x003bc;L of 100&#x000a0;&#x000b5;M fluorogenic artificial substrate for legumains (Z&#x02010;Ala&#x02010;Ala&#x02010;Asn&#x02010;7&#x02010;amino&#x02010;4&#x02010;methylcoumarin; AMC) (Bachem, Bubendorf, Switzerland) dissolved in the activity assay buffer (50&#x000a0;mM sodium acetate pH 5.5, 50&#x000a0;mM NaCl and 4% (v/v) DMSO). Assays were conducted in black MaxiSorp 96&#x02010;well plates (Thermo Scientific) on a Varioskan LUX Multimode Microplate Reader (Thermo Scientific). Progress of the substrate turnover was followed at 37&#x000a0;&#x000b0;C at 380&#x000a0;nm excitation and 460&#x000a0;nm emission wavelengths for 60&#x000a0;min with fluorescence reads every 5&#x000a0;min. Linear progression of the enzymatic reaction was checked and blank samples considering fluorescence of the substrate and plant extracts were prepared as well. The total legumain activity was expressed as pmol of released 7&#x02010;amino&#x02010;4&#x02010;methylcoumarin (AMC) after 1&#x000a0;min per gram of fresh weight (FW). The AMC concentration was determined from a standard curve. The reaction conditions and the specificity of the method used were checked by the activity measurement of recombinant human legumain/asparaginyl endopeptidase (catalogue no. 2199&#x02010;CY&#x02010;010, R&#x00026;D Systems, Minneapolis, MN, USA).</p></sec><sec id="mpp12878-sec-0016"><title>Pigments content assay</title><p>The concentrations of photosynthetic pigments were determined according to the method of Lichtenthaler (<xref rid="mpp12878-bib-0028" ref-type="ref">1987</xref>). Leaf samples (50&#x000a0;mg) were homogenized in 5.0&#x000a0;mL of ice&#x02010;cold 80% (v/v) acetone and centrifuged for 15&#x000a0;min at 4&#x000a0;&#x000b0;C (2500&#x000a0;<bold><italic>g</italic></bold>). The absorbance of acetonic extracts was measured at 470, 646 and 663&#x000a0;nm. The chlorophyll <italic>a</italic> (chl <italic>a</italic>), chlorophyll <italic>b</italic> (chl <italic>b</italic>) and carotenoid concentrations were calculated according to Wellburn (<xref rid="mpp12878-bib-0059" ref-type="ref">1994</xref>). Total chlorophylls (chl <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic>), the ratio of chlorophyll <italic>a</italic> to <italic>b</italic> (chl <italic>a</italic>:<italic>b</italic>) and the ratio of total chlorophylls to carotenoids (chl <italic>a</italic>&#x000a0;+&#x000a0;<italic>b</italic>:carotenoids) were also calculated.</p></sec><sec id="mpp12878-sec-0017"><title>
+<italic>In vivo</italic> labelling&#x000a0;of VPEs</title><p>Control and nematode&#x02010;infected roots of barley plants were incubated in 70&#x000a0;mM sodium acetate buffer (pH 5.5) containing 100&#x000a0;mM DTT and 1.6&#x000a0;&#x000b5;M JOPD1 (a specific fluorescent probe for VPEs) for 2&#x000a0;h at room temperature in the dark with gently agitation. Unlabelled roots were used as a control. After incubation, roots were washed three times with 50&#x000a0;mM sodium acetate buffer (pH 5.5) and examined under a Leica TCS SP5II confocal laser scanning microscope (Leica Microsystems, Wetzlar, Germany) with excitation and emission wavelengths set at 514&#x000a0;nm and 560&#x02013;580&#x000a0;nm, respectively.</p></sec><sec id="mpp12878-sec-0018"><title>Morphology of <italic>H. filipjevi</italic> juveniles</title><p>To assess morphology and the survival of nematodes after treatment with kalata B1, the nematodes were suspended in water drops supplemented with kalata B1 (50, 100, 250, 500, 750 and 1000&#x000a0;&#x000b5;g/mL) and pure water as a control. Five water drops (50&#x000a0;&#x000b5;L) containing juveniles were used for observations under bright field and differential interference contrast (DIC) microscopy. Observations were performed at the beginning of experiment and after 0.5, 1.0, 1.5, 2.5, 4.0 and 24&#x000a0;h. Examinations of neutral red staining (4&#x000a0;&#x000b5;M) were performed under an Olympus AX70 Provis epifluorescence microscope equipped with a UM61002 fluorescence filter set and an Olympus UC90 digital camera (Olympus, Tokyo, Japan). Studies of juvenile morphology and changes in their behaviour in response to root homogenates (200&#x000a0;mg roots homogenized in 1&#x000a0;mL water and centrifuging for 10&#x000a0;min at 16 000&#x000a0;<bold><italic>g</italic></bold>) were also performed on the same microscope.</p></sec><sec id="mpp12878-sec-0019"><title>ROS detection</title><p>Second&#x02010;stage juveniles of <italic>H. filipjevi</italic> were incubated for 24&#x000a0;h in milli&#x02010;Q water or in 250&#x000a0;&#x000b5;g/mL solution of kalata B1 (XXC; ZZHp; ZZi; BBMm, &#x0003e;95% purity) commercially synthetized by bioWORLD (Dublin, OH, USA). ROS accumulation was observed under a Leica TCS SP5II confocal laser scanning microscope using CellROX Orange, Green Oxidative Stress Reagents or Singlet Oxygen Sensor Green (SOSG) (Life Technologies, Eugene, OR,&#x000a0;USA) fluorescent probes according to the&#x000a0;manufacturer&#x02019;s instructions and Muszy&#x00144;ska <italic>et al. </italic>(<xref rid="mpp12878-bib-0035" ref-type="ref">2019</xref>). The excitation/emission spectra were 514/573&#x02013;664, 488/500&#x02013;574 and 504/525&#x02013;598&#x000a0;nm, respectively.</p><p>Digital pictures were merged (if needed) using Photoshop CS6 (Adobe Systems Inc., San Jose, CA, USA) software (panorama tool), and adjusted using the same software by non&#x02010;destructive tools (contrast, levels and/or curves). All adjustments were made on the whole area of the picture.</p></sec><sec id="mpp12878-sec-0020"><title>Statistical analysis</title><p>The results of enzyme activity and pigment content were subjected to one&#x02010;way ANOVA analysis. The significant differences between means were determined using Tukey&#x02019;s test at <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05. Statistica v.&#x000a0;13.3 was used to carry out the calculations. To analyse whether kalata B1 affects nematode survival, a Cox model with mixed effects (Ripatti and Palmgren, <xref rid="mpp12878-bib-0045" ref-type="ref">2000</xref>; Therneau <italic>et al.</italic>, <xref rid="mpp12878-bib-0055" ref-type="ref">2003</xref>) and the coxme package (Therneau, <xref rid="mpp12878-bib-0054" ref-type="ref">2018</xref>) or R (R Core Team, <xref rid="mpp12878-bib-0009" ref-type="ref">2019</xref>) were applied. The comparisons between particular concentrations were conducted through testing the corresponding linear hypotheses. Random effects were needed to take into account the nesting of nematodes within drops. After exploratory analysis, kalata B1 concentrations were treated as a qualitative factor. The significance level of 0.05 was used for the analyses.</p></sec></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="mpp12878-sup-0001"><caption><p>
+<bold>Fig. S1</bold>
+<italic>In vivo</italic> fluorescence labelling of reactive oxygen species (ROS) in <italic>Heterodera filipjevi </italic>larvae after 24 h incubation in 250 &#x000b5;g ml<sup>&#x02212;1</sup> kalata B1 observed under confocal laser scanning microscope. Figure presents example and representative results of control reactions for Figure 7. Left panel: the absence of fluorescence probe (Singlet Oxygen Sensor Green) was replaced by sterile water. Right panel: nematodes were incubated on water and then labelled with the ROS probe. Bar 50 = &#x000b5;m.<italic> BF</italic> bright field, <italic>Fluo </italic>fluorescence.</p></caption><media xlink:href="MPP-21-38-s001.jpg"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12878-sup-0003"><caption><p>
+<bold>Video S1</bold> Effect of barley root&#x000a0;extract on <italic>Heterodera filipjevi</italic> behaviour after 5 min exposure at room temperature.</p></caption><media xlink:href="MPP-21-38-s002.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12878-sup-0004"><caption><p>
+<bold>Video S2</bold> Effect of cyclotide kalata B1 (250 &#x000b5;g ml<sup>&#x02212;1</sup>) on <italic>Heterodera filipjevi</italic> behaviour after 5 min exposure at room temperature.</p></caption><media xlink:href="MPP-21-38-s003.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12878-sup-0005"><caption><p>
+<bold>Video S3</bold> Effect of sterile water on <italic>Heterodera filipjevi</italic> behaviour after 5 min incubation at room temperature.</p></caption><media xlink:href="MPP-21-38-s004.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12878-sup-0006"><caption><p>
+<bold>Video S4</bold> Death of <italic>Heterodera filipjevi</italic> by breaking the cuticle after 24 h incubation in 250 &#x000b5;g ml<sup>&#x02212;1</sup> cyclotide kalata B1 at room temperature.</p></caption><media xlink:href="MPP-21-38-s005.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12878-sup-0021"><caption><p>
+<bold>Table S1</bold> Genes and primer sequences used in quantitative reverse transcription&#x02010;PCR analyses.</p></caption><media xlink:href="MPP-21-38-s006.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="mpp12878-sec-0021"><title>Acknowledgements</title><p>We thank Katarzyna Nowaczyk and Joanna Ptak from the Danko Hodowla Ro&#x0015b;lin, Chory&#x00144;, Poland, for kindly providing barley seeds and Professor Renier van der Hoorn from the Department of Plant Sciences, University of Oxford for kindly providing the JOPD1 probe. The authors would like to express sincere appreciation to Dr Barbara &#x00141;otocka for her professional consultations. We are also very thankful to Samuel R&#x000f3;&#x0017c;a&#x00144;ski who helped us technically in the preparation of the final versions of video files. This work was supported by the National Science Centre of Poland (grant number DEC&#x02010;2017/01/X/NZ9/01183&#x000a0; and the statutory research fund from Warsaw University of Life Sciences&#x02010;SGGW, Warsaw, Poland.</p></ack><ref-list content-type="cited-references" id="mpp12878-bibl-0001"><title>References</title><ref id="mpp12878-bib-0001"><mixed-citation publication-type="journal" id="mpp12878-cit-0001">
+<string-name>
+<surname>Ashrafi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Helaly</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Schroers</surname>, <given-names>H.&#x02010;J.</given-names>
+</string-name>, <string-name>
+<surname>Stadler</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Richert&#x02010;Poeggeler</surname>, <given-names>K.R.</given-names>
+</string-name>, <string-name>
+<surname>Dababat</surname>, <given-names>A.A.</given-names>
+</string-name> and <string-name>
+<surname>Maier</surname>, <given-names>W.</given-names>
+</string-name> (<year>2017</year>) <article-title>
+<italic>Ijuhya vitellina</italic> sp. nov., a novel source for chaetoglobosin A, is a destructive parasite of the cereal cyst nematode <italic>Heterodera filipjevi</italic>
+</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>12</volume>, <elocation-id>e0180032</elocation-id>.<pub-id pub-id-type="pmid">28700638</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0002"><mixed-citation publication-type="journal" id="mpp12878-cit-0002">
+<string-name>
+<surname>Baranowski</surname>, <given-names>&#x00141;.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Sa&#x00144;ko&#x02010;Sawczenko</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Matuszkiewicz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Znojek</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Filipecki</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Grundler</surname>, <given-names>F.M.W.</given-names>
+</string-name> and <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>) <article-title>
+<italic>Arabidopsis</italic> tonoplast intrinsic protein and vacuolar H<sup>+</sup>&#x02010;adenosinetriphosphatase reflect vacuole dynamics during development of syncytia induced by the beet cyst nematode <italic>Heterodera schachtii</italic>
+</article-title>. <source xml:lang="en">Protoplasma</source>, <pub-id pub-id-type="doi">10.1007/s00709-018-1303-4</pub-id>.</mixed-citation></ref><ref id="mpp12878-bib-0003"><mixed-citation publication-type="journal" id="mpp12878-cit-0003">
+<string-name>
+<surname>Barbeta</surname>, <given-names>B.L.</given-names>
+</string-name>, <string-name>
+<surname>Marshall</surname>, <given-names>A.T.</given-names>
+</string-name>, <string-name>
+<surname>Gillon</surname>, <given-names>A.D.</given-names>
+</string-name>, <string-name>
+<surname>Craik</surname>, <given-names>D.J.</given-names>
+</string-name> and <string-name>
+<surname>Anderson</surname>, <given-names>M.A.</given-names>
+</string-name> (<year>2008</year>) <article-title>Plant cyclotides disrupt epithelial cells in the midgut of lepidopteran larvae</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>. <volume>105</volume>, <fpage>1221</fpage>&#x02013;<lpage>1225</lpage>.<pub-id pub-id-type="pmid">18202177</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0004"><mixed-citation publication-type="journal" id="mpp12878-cit-0004">
+<string-name>
+<surname>Bi</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Khush</surname>, <given-names>G.S.</given-names>
+</string-name> and <string-name>
+<surname>Bennett</surname>, <given-names>J.</given-names>
+</string-name> (<year>2005</year>) <article-title>The rice nucellin gene ortholog <italic>OsAsp1</italic> encodes an active aspartic protease without a plant&#x02010;specific insert and is strongly expressed in early embryo</article-title>. <source xml:lang="en">Plant Cell Physiol</source>. <volume>46</volume>, <fpage>87</fpage>&#x02013;<lpage>98</lpage>.<pub-id pub-id-type="pmid">15659452</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0005"><mixed-citation publication-type="journal" id="mpp12878-cit-0005">
+<string-name>
+<surname>Bohlmann</surname>, <given-names>H.</given-names>
+</string-name> and <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>) <article-title>The plant cell wall in the feeding sites of cyst nematodes</article-title>. <source xml:lang="en">Front. Plant Sci</source>. <volume>5</volume>, <fpage>89</fpage>.<pub-id pub-id-type="pmid">24678316</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0006"><mixed-citation publication-type="journal" id="mpp12878-cit-0006">
+<string-name>
+<surname>Colgrave</surname>, <given-names>M.L.</given-names>
+</string-name>, <string-name>
+<surname>Kotze</surname>, <given-names>A.C.</given-names>
+</string-name>, <string-name>
+<surname>Huang</surname>, <given-names>Y.&#x02010;H.</given-names>
+</string-name>, <string-name>
+<surname>O&#x02019;Grady</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>, <given-names>S.M.</given-names>
+</string-name> and <string-name>
+<surname>Craik</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>2008</year>) <article-title>Cyclotides: natural, circular plant peptides that possess significant activity against gastrointestinal nematode parasites of sheep</article-title>. <source xml:lang="en">Biochemistry</source>, <volume>47</volume>, <fpage>5581</fpage>&#x02013;<lpage>5589</lpage>.<pub-id pub-id-type="pmid">18426225</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0007"><mixed-citation publication-type="journal" id="mpp12878-cit-0007">
+<string-name>
+<surname>Colgrave</surname>, <given-names>M.L.</given-names>
+</string-name>, <string-name>
+<surname>Kotze</surname>, <given-names>A.C.</given-names>
+</string-name>, <string-name>
+<surname>Kopp</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>McCarthy</surname>, <given-names>J.S.</given-names>
+</string-name>, <string-name>
+<surname>Coleman</surname>, <given-names>G.T.</given-names>
+</string-name> and <string-name>
+<surname>Craik</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>2009</year>) <article-title>Anthelmintic activity of cyclotides: <italic>in vitro</italic> studies with canine and human hookworms</article-title>. <source xml:lang="en">Acta Trop</source>. <volume>109</volume>, <fpage>163</fpage>&#x02013;<lpage>166</lpage>.<pub-id pub-id-type="pmid">19059189</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0008"><mixed-citation publication-type="journal" id="mpp12878-cit-0008">
+<string-name>
+<surname>Colgrave</surname>, <given-names>M.L.</given-names>
+</string-name>, <string-name>
+<surname>Huang</surname>, <given-names>Y.&#x02010;H.</given-names>
+</string-name>, <string-name>
+<surname>Craik</surname>, <given-names>D.J.</given-names>
+</string-name> and <string-name>
+<surname>Kotze</surname>, <given-names>A.C.</given-names>
+</string-name> (<year>2010</year>) <article-title>Cyclotide interactions with the nematode external surface</article-title>. <source xml:lang="en">Antimicrob. Agents Chemother</source>. <volume>54</volume>, <fpage>2160</fpage>&#x02013;<lpage>2166</lpage>.<pub-id pub-id-type="pmid">20211894</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0010"><mixed-citation publication-type="book" id="mpp12878-cit-0010">
+<string-name>
+<surname>Dababat</surname>, <given-names>A.A.</given-names>
+</string-name> and <string-name>
+<surname>Fourie</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>) <chapter-title>Nematode parasites of cereals</chapter-title> In: <source xml:lang="en">Plant Parasitic Nematodes in Subtropical and Tropical Agriculture</source> (<person-group person-group-type="editor"><name name-style="western"><surname>Sikora</surname><given-names>R.A.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Coyne</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Hallmann</surname><given-names>J.</given-names></name></person-group> and <person-group person-group-type="editor"><name name-style="western"><surname>Timper</surname><given-names>P.</given-names></name></person-group>, eds), pp. <fpage>163</fpage>&#x02013;<lpage>221</lpage>. <publisher-loc>Wallingford, UK</publisher-loc>: <publisher-name>CAB International</publisher-name>.</mixed-citation></ref><ref id="mpp12878-bib-0011"><mixed-citation publication-type="journal" id="mpp12878-cit-0011">
+<string-name>
+<surname>Dall</surname>, <given-names>E.</given-names>
+</string-name> and <string-name>
+<surname>Brandstetter</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>) <article-title>Structure and function of legumain in health and disease</article-title>. <source xml:lang="en">Biochimie</source>, <volume>122</volume>, <fpage>126</fpage>&#x02013;<lpage>150</lpage>.<pub-id pub-id-type="pmid">26403494</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0012"><mixed-citation publication-type="journal" id="mpp12878-cit-0012">
+<string-name>
+<surname>Dawson</surname>, <given-names>I.K.</given-names>
+</string-name>, <string-name>
+<surname>Russell</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Powell</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Steffenson</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>, <given-names>W.T.B.</given-names>
+</string-name> and <string-name>
+<surname>Waugh</surname>, <given-names>R.</given-names>
+</string-name> (<year>2015</year>) <article-title>Barley: a translational model for adaptation to climate change</article-title>. <source xml:lang="en">New Phytol</source>. <volume>206</volume>, <fpage>913</fpage>&#x02013;<lpage>931</lpage>.<pub-id pub-id-type="pmid">25605349</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0013"><mixed-citation publication-type="book" id="mpp12878-cit-0013">
+<string-name>
+<surname>Gems</surname>, <given-names>D.</given-names>
+</string-name> and <string-name>
+<surname>Doonan</surname>, <given-names>R.</given-names>
+</string-name> (<year>2008</year>) <chapter-title>Oxidative stress and aging in the nematode <italic>Caenorhabditis elegans</italic></chapter-title> In: <source xml:lang="en">Oxidative Stress in Aging: From Model Systems to Human Diseases</source>. (<person-group person-group-type="editor"><name name-style="western"><surname>Miwa</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Beckman</surname><given-names>K.B.</given-names></name></person-group> and <person-group person-group-type="editor"><name name-style="western"><surname>Muller</surname><given-names>F.L.</given-names></name></person-group>, eds), Aging Medicine. pp. <fpage>81</fpage>&#x02013;<lpage>110</lpage>. <publisher-loc>Totowa, NJ</publisher-loc>: <publisher-name>Humana Press</publisher-name>.</mixed-citation></ref><ref id="mpp12878-bib-0014"><mixed-citation publication-type="journal" id="mpp12878-cit-0014">
+<string-name>
+<surname>Hara&#x02010;Nishimura</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Hatsugai</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Nakaune</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kuroyanagi</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Nishimura</surname>, <given-names>M.</given-names>
+</string-name> (<year>2005</year>) <article-title>Vacuolar processing enzyme: an executor of plant cell death</article-title>. <source xml:lang="en">Curr. Opin. Plant Biol</source>. <volume>8</volume>, <fpage>404</fpage>&#x02013;<lpage>408</lpage>.<pub-id pub-id-type="pmid">15939660</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0015"><mixed-citation publication-type="journal" id="mpp12878-cit-0015">
+<string-name>
+<surname>Hatsugai</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Kuroyanagi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Yamada</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Meshi</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Tsuda</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kondo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Nishimura</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Hara&#x02010;Nishimura</surname>, <given-names>I.</given-names>
+</string-name> (<year>2004</year>) <article-title>A plant vacuolar protease, VPE, mediates virus&#x02010;induced hypersensitive cell death</article-title>. <source xml:lang="en">Science</source>, <volume>305</volume>, <fpage>855</fpage>&#x02013;<lpage>858</lpage>.<pub-id pub-id-type="pmid">15297671</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0016"><mixed-citation publication-type="journal" id="mpp12878-cit-0016">
+<string-name>
+<surname>Hatsugai</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Yamada</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Goto&#x02010;Yamada</surname>, <given-names>S.</given-names>
+</string-name> and <string-name>
+<surname>Hara&#x02010;Nishimura</surname>, <given-names>I.</given-names>
+</string-name> (<year>2015</year>) <article-title>Vacuolar processing enzyme in plant programmed cell death</article-title>. <source xml:lang="en">Front. Plant Sci</source>. <volume>6</volume>, <fpage>234</fpage>.<pub-id pub-id-type="pmid">25914711</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0017"><mixed-citation publication-type="journal" id="mpp12878-cit-0017">
+<string-name>
+<surname>Huang</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name>
+<surname>Colgrave</surname>, <given-names>M.L.</given-names>
+</string-name>, <string-name>
+<surname>Daly</surname>, <given-names>N.L.</given-names>
+</string-name>, <string-name>
+<surname>Keleshian</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Martinac</surname>, <given-names>B.</given-names>
+</string-name> and <string-name>
+<surname>Craik</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>2009</year>) <article-title>The biological activity of the prototypic cyclotide Kalata B1 is modulated by the formation of multimeric pores</article-title>. <source xml:lang="en">J. Biol. Chem</source>. <volume>284</volume>, <fpage>20699</fpage>&#x02013;<lpage>20707</lpage>.<pub-id pub-id-type="pmid">19491108</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0018"><mixed-citation publication-type="book" id="mpp12878-cit-0018">
+<string-name>
+<surname>H&#x000fc;tten</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>) <source xml:lang="en">Identification and Characterization of a Cystatin&#x02010;like Effector Protein from Beet Cyst Nematode <italic toggle="yes">Heterodera schachtii </italic>and its Role in Plant&#x02013;Nematode Interaction</source>. PhD thesis. <publisher-loc>Bonn</publisher-loc>: <publisher-name>Friedrich&#x02010;Wilhelms&#x02010;Universit&#x000e4;t Bonn</publisher-name>.</mixed-citation></ref><ref id="mpp12878-bib-0019"><mixed-citation publication-type="journal" id="mpp12878-cit-0019">
+<string-name>
+<surname>H&#x000fc;tten</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Geukes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Misas&#x02010;Villamil</surname>, <given-names>J.C.</given-names>
+</string-name>, <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name>, <string-name>
+<surname>Grundler</surname>, <given-names>F.M.W.</given-names>
+</string-name> and <string-name>
+<surname>Siddique</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>) <article-title>Activity profiling reveals changes in the diversity and activity of proteins in <italic>Arabidopsis</italic> roots in response to nematode infection</article-title>. <source xml:lang="en">Plant Physiol. Biochem</source>. <volume>97</volume>, <fpage>36</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">26408809</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0020"><mixed-citation publication-type="journal" id="mpp12878-cit-0020">
+<string-name>
+<surname>Iakimova</surname>, <given-names>E.T.</given-names>
+</string-name>, <string-name>
+<surname>Sobiczewski</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Michalczuk</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>W&#x00119;grzynowicz&#x02010;Lesiak</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Mikici&#x00144;ski</surname>, <given-names>A.</given-names>
+</string-name> and <string-name>
+<surname>Woltering</surname>, <given-names>E.J.</given-names>
+</string-name> (<year>2013</year>) <article-title>Morphological and biochemical characterization of <italic>Erwinia amylovora</italic>&#x02010;induced hypersensitive cell death in apple leaves</article-title>. <source xml:lang="en">Plant Physiol. Biochem</source>. <volume>63</volume>, <fpage>292</fpage>&#x02013;<lpage>305</lpage>.<pub-id pub-id-type="pmid">23321023</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0021"><mixed-citation publication-type="journal" id="mpp12878-cit-0021">
+<string-name>
+<surname>Jang</surname>, <given-names>J.Y.</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name>
+<surname>Shin</surname>, <given-names>T.S.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>T.H.</given-names>
+</string-name>, <string-name>
+<surname>Shin</surname>, <given-names>K.&#x02010;S.</given-names>
+</string-name>, <string-name>
+<surname>Park</surname>, <given-names>H.W.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>, <given-names>G.J.</given-names>
+</string-name>, <string-name>
+<surname>Jang</surname>, <given-names>K.S.</given-names>
+</string-name>, <string-name>
+<surname>Cha</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>I.S.</given-names>
+</string-name>, <string-name>
+<surname>Myung</surname>, <given-names>E.J.</given-names>
+</string-name> and <string-name>
+<surname>Kim</surname>, <given-names>J.&#x02010;C.</given-names>
+</string-name> (<year>2016</year>) <article-title>Biological control of <italic>Meloidogyne incognita</italic> by <italic>Aspergillus niger</italic> F22 producing oxalic acid</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>11</volume>, <elocation-id>e0156230</elocation-id>.<pub-id pub-id-type="pmid">27258452</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0022"><mixed-citation publication-type="journal" id="mpp12878-cit-0022">
+<string-name>
+<surname>Juli&#x000e1;n</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Gandullo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Santos&#x02010;Silva</surname>, <given-names>L.K.</given-names>
+</string-name>, <string-name>
+<surname>Diaz</surname>, <given-names>I.</given-names>
+</string-name> and <string-name>
+<surname>Martinez</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>) <article-title>Phylogenetically distant barley legumains have a role in both seed and vegetative tissues</article-title>. <source xml:lang="en">J. Exp. Bot</source>. <volume>64</volume>, <fpage>2929</fpage>&#x02013;<lpage>2941</lpage>.<pub-id pub-id-type="pmid">23669572</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0023"><mixed-citation publication-type="book" id="mpp12878-cit-0023">
+<string-name>
+<surname>Kharub</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lal</surname>, <given-names>C.</given-names>
+</string-name> and <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name> (<year>2017</year>) <chapter-title>Abiotic stress tolerance in barley</chapter-title> In: <source xml:lang="en">Abiotic Stress Management for Resilient Agriculture</source> (<person-group person-group-type="editor"><name name-style="western"><surname>Minhas</surname><given-names>P.S.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Rane</surname><given-names>J.</given-names></name></person-group> and <person-group person-group-type="editor"><name name-style="western"><surname>Pasala</surname><given-names>R.K.</given-names></name></person-group>, eds), pp. <fpage>363</fpage>&#x02013;<lpage>374</lpage>. <publisher-loc>Singapore</publisher-loc>: <publisher-name>Springer Singapore</publisher-name>.</mixed-citation></ref><ref id="mpp12878-bib-0024"><mixed-citation publication-type="journal" id="mpp12878-cit-0024">
+<string-name>
+<surname>Labudda</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>) <article-title>Ascorbate&#x02010;glutathione pathway as an important player in redox regulation in nematode&#x02010;infested plants: what we have learned so far</article-title>. <source xml:lang="en">Physiol. Mol. Plant Pathol</source>. <volume>103</volume>, <fpage>47</fpage>&#x02013;<lpage>53</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0025"><mixed-citation publication-type="journal" id="mpp12878-cit-0025">
+<string-name>
+<surname>Labudda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Cie&#x0015b;la</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Dzik</surname>, <given-names>J.M.</given-names>
+</string-name> (<year>2016a</year>) <article-title>Arginase activity in <italic>Arabidopsis thaliana</italic> infected with <italic>Heterodera schachtii</italic>
+</article-title>. <source xml:lang="en">Plant Pathol</source>. <volume>65</volume>, <fpage>1529</fpage>&#x02013;<lpage>1538</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0026"><mixed-citation publication-type="journal" id="mpp12878-cit-0026">
+<string-name>
+<surname>Labudda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Szewi&#x00144;ska</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Dzik</surname>, <given-names>J.M.</given-names>
+</string-name> (<year>2016b</year>) <article-title>Protease activity and phytocystatin expression in <italic>Arabidopsis thaliana</italic> upon <italic>Heterodera schachtii</italic> infection</article-title>. <source xml:lang="en">Plant Physiol. Biochem</source>. <volume>109</volume>, <fpage>416</fpage>&#x02013;<lpage>429</lpage>.<pub-id pub-id-type="pmid">27816823</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0027"><mixed-citation publication-type="journal" id="mpp12878-cit-0027">
+<string-name>
+<surname>Labudda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Czarnocka</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Dzik</surname>, <given-names>J.M.</given-names>
+</string-name> (<year>2018</year>) <article-title>Systemic changes in photosynthesis and reactive oxygen species homeostasis in shoots of <italic>Arabidopsis thaliana</italic> infected with the beet cyst nematode <italic>Heterodera schachtii</italic>
+</article-title>. <source xml:lang="en">Mol. Plant Pathol</source>. <volume>19</volume>, <fpage>1690</fpage>&#x02013;<lpage>1704</lpage>.<pub-id pub-id-type="pmid">29240311</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0028"><mixed-citation publication-type="journal" id="mpp12878-cit-0028">
+<string-name>
+<surname>Lichtenthaler</surname>, <given-names>H.K.</given-names>
+</string-name> (<year>1987</year>) <article-title>Chlorophylls and carotenoids: pigments of photosynthetic biomembranes</article-title>. <source xml:lang="en">Methods Enzymol</source>. <volume>148</volume>, <fpage>350</fpage>&#x02013;<lpage>382</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0029"><mixed-citation publication-type="journal" id="mpp12878-cit-0029">
+<string-name>
+<surname>Linnestad</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Doan</surname>, <given-names>D.N.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>R.C.</given-names>
+</string-name>, <string-name>
+<surname>Lemmon</surname>, <given-names>B.E.</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>, <given-names>D.J.</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>, <given-names>R.</given-names>
+</string-name> and <string-name>
+<surname>Olsen</surname>, <given-names>O.A.</given-names>
+</string-name> (<year>1998</year>) <article-title>Nucellain, a barley homolog of the dicot vacuolar&#x02010;processing protease, is localized in nucellar cell walls</article-title>. <source xml:lang="en">Plant Physiol</source>. <volume>118</volume>, <fpage>1169</fpage>&#x02013;<lpage>1180</lpage>.<pub-id pub-id-type="pmid">9847091</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0030"><mixed-citation publication-type="journal" id="mpp12878-cit-0030">
+<string-name>
+<surname>Malag&#x000f3;n</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Botterill</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gray</surname>, <given-names>D.J.</given-names>
+</string-name>, <string-name>
+<surname>Lovas</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Duke</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gray</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Kopp</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name>
+<surname>Knott</surname>, <given-names>L.M.</given-names>
+</string-name>, <string-name>
+<surname>McManus</surname>, <given-names>D.P.</given-names>
+</string-name>, <string-name>
+<surname>Daly</surname>, <given-names>N.L.</given-names>
+</string-name> and <string-name>
+<surname>Mulvenna</surname>, <given-names>J.</given-names>
+</string-name> (<year>2013</year>) <article-title>Anthelminthic activity of the cyclotides (kalata B1 and B2) against schistosome parasites</article-title>. <source xml:lang="en">Pept. Sci</source>. <volume>100</volume>, <fpage>461</fpage>&#x02013;<lpage>470</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0031"><mixed-citation publication-type="journal" id="mpp12878-cit-0031">
+<string-name>
+<surname>Maltese</surname>, <given-names>W.A.</given-names>
+</string-name> and <string-name>
+<surname>Overmeyer</surname>, <given-names>J.H.</given-names>
+</string-name> (<year>2014</year>) <article-title>Methuosis: nonapoptotic cell death associated with vacuolization of macropinosome and endosome compartments</article-title>. <source xml:lang="en">Am. J. Pathol</source>. <volume>184</volume>, <fpage>1630</fpage>&#x02013;<lpage>1642</lpage>.<pub-id pub-id-type="pmid">24726643</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0032"><mixed-citation publication-type="journal" id="mpp12878-cit-0032">
+<string-name>
+<surname>Martinez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Cambra</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Carrillo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Diaz&#x02010;Mendoza</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Diaz</surname>, <given-names>I.</given-names>
+</string-name> (<year>2009</year>) <article-title>Characterization of the entire cystatin gene family in barley and their target cathepsin L&#x02010;like cysteine&#x02010;proteases, partners in the hordein mobilization during seed germination</article-title>. <source xml:lang="en">Plant Physiol</source>. <volume>151</volume>, <fpage>1531</fpage>&#x02013;<lpage>1545</lpage>.<pub-id pub-id-type="pmid">19759340</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0033"><mixed-citation publication-type="journal" id="mpp12878-cit-0033">
+<string-name>
+<surname>Miranda&#x02010;Vizuete</surname>, <given-names>A.</given-names>
+</string-name> and <string-name>
+<surname>Veal</surname>, <given-names>E.A.</given-names>
+</string-name> (<year>2016</year>) <article-title>
+<italic>Caenorhabditis elegans</italic> as a model for understanding ROS function in physiology and disease</article-title>. <source xml:lang="en">Redox Biol</source>. <volume>11</volume>, <fpage>708</fpage>&#x02013;<lpage>714</lpage>.<pub-id pub-id-type="pmid">28193593</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0034"><mixed-citation publication-type="journal" id="mpp12878-cit-0034">
+<string-name>
+<surname>Misas&#x02010;Villamil</surname>, <given-names>J.C.</given-names>
+</string-name>, <string-name>
+<surname>Toenges</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Kolodziejek</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Sadaghiani</surname>, <given-names>A.M.</given-names>
+</string-name>, <string-name>
+<surname>Kaschani</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Colby</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bogyo</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name> (<year>2013</year>) <article-title>Activity profiling of vacuolar processing enzymes reveals a role for VPE during oomycete infection</article-title>. <source xml:lang="en">Plant J</source>. <volume>73</volume>, <fpage>689</fpage>&#x02013;<lpage>700</lpage>.<pub-id pub-id-type="pmid">23134548</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0035"><mixed-citation publication-type="journal" id="mpp12878-cit-0035">
+<string-name>
+<surname>Muszy&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Labudda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kami&#x00144;ska</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>G&#x000f3;recka</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Bederska&#x02010;B&#x00142;aszczyk</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>) <article-title>Evaluation of heavy metal&#x02010;induced responses in <italic>Silene vulgaris</italic> ecotypes</article-title>. <source xml:lang="en">Protoplasma</source>, <volume>256</volume>, <fpage>1279</fpage>&#x02013;<lpage>1297</lpage>.<pub-id pub-id-type="pmid">31044286</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0036"><mixed-citation publication-type="journal" id="mpp12878-cit-0036">
+<string-name>
+<surname>Nakaune</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Yamada</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Kondo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kato</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Tabata</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Nishimura</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Hara&#x02010;Nishimura</surname>, <given-names>I.</given-names>
+</string-name> (<year>2005</year>) <article-title>A vacuolar processing enzyme, <italic>&#x003b4;VPE</italic>, is involved in seed coat formation at the early stage of seed development</article-title>. <source xml:lang="en">Plant Cell</source>, <volume>17</volume>, <fpage>876</fpage>&#x02013;<lpage>887</lpage>.<pub-id pub-id-type="pmid">15705955</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0037"><mixed-citation publication-type="journal" id="mpp12878-cit-0037">
+<string-name>
+<surname>Pariyar</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name>
+<surname>Dababat</surname>, <given-names>A.A.</given-names>
+</string-name>, <string-name>
+<surname>Nicol</surname>, <given-names>J.M.</given-names>
+</string-name> and <string-name>
+<surname>Sikora</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2010</year>) <article-title>Effect of different potting systems; inoculation time; nematode density and sources of cereal cyst nematode (<italic>Heterodera filipjevi</italic>) on Juvenile penetration into wheat root system</article-title>. <source xml:lang="en">Commun. Agric. Appl. Biol. Sci</source>. <volume>75</volume>, <fpage>479</fpage>&#x02013;<lpage>485</lpage>.<pub-id pub-id-type="pmid">21539268</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0038"><mixed-citation publication-type="journal" id="mpp12878-cit-0038">
+<string-name>
+<surname>Pariyar</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name>
+<surname>Dababat</surname>, <given-names>A.A.</given-names>
+</string-name>, <string-name>
+<surname>Sannemann</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Erginbas&#x02010;Orakci</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Elashry</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Siddique</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Morgounov</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Leon</surname>, <given-names>J.</given-names>
+</string-name> and <string-name>
+<surname>Grundler</surname>, <given-names>F.M.W.</given-names>
+</string-name> (<year>2016</year>) <article-title>Genome&#x02010;wide association study in wheat identifies resistance to the cereal cyst nematode <italic>Heterodera filipjevi</italic>
+</article-title>. <source xml:lang="en">Phytopathology</source>, <volume>106</volume>, <fpage>1128</fpage>&#x02013;<lpage>1138</lpage>.<pub-id pub-id-type="pmid">27552283</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0039"><mixed-citation publication-type="journal" id="mpp12878-cit-0039">
+<string-name>
+<surname>Pfaffl</surname>, <given-names>M.W.</given-names>
+</string-name>, <string-name>
+<surname>Horgan</surname>, <given-names>G.W.</given-names>
+</string-name> and <string-name>
+<surname>Dempfle</surname>, <given-names>L.</given-names>
+</string-name> (<year>2002</year>) <article-title>Relative expression software tool (REST) for group&#x02010;wise comparison and statistical analysis of relative expression results in real&#x02010;time PCR</article-title>. <source xml:lang="en">Nucleic Acids Res</source>. <volume>30</volume>, <fpage>e36</fpage>.<pub-id pub-id-type="pmid">11972351</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0009"><mixed-citation publication-type="book" id="mpp12878-cit-0009">
+<collab collab-type="authors">R Core Team</collab>
+. (<year>2019</year>) <source xml:lang="en">R: A Language and Environment for Statistical Computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="mpp12878-bib-0040"><mixed-citation publication-type="journal" id="mpp12878-cit-0040">
+<string-name>
+<surname>Radchuk</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Weier</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Radchuk</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Weschke</surname>, <given-names>W.</given-names>
+</string-name> and <string-name>
+<surname>Weber</surname>, <given-names>H.</given-names>
+</string-name> (<year>2011</year>) <article-title>Development of maternal seed tissue in barley is mediated by regulated cell expansion and cell disintegration and coordinated with endosperm growth</article-title>. <source xml:lang="en">J. Exp. Bot</source>. <volume>62</volume>, <fpage>1217</fpage>&#x02013;<lpage>1227</lpage>.<pub-id pub-id-type="pmid">21059741</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0041"><mixed-citation publication-type="journal" id="mpp12878-cit-0041">
+<string-name>
+<surname>Radchuk</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Tran</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Radchuk</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Diaz&#x02010;Mendoza</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Weier</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Fuchs</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Riewe</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Hensel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Kumlehn</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Munz</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Heinzel</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Rolletschek</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Martinez</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Borisjuk</surname>, <given-names>L.</given-names>
+</string-name> (<year>2018</year>) <article-title>Vacuolar processing enzyme 4 contributes to maternal control of grain size in barley by executing programmed cell death in the pericarp</article-title>. <source xml:lang="en">New Phytol</source>. <volume>218</volume>, <fpage>1127</fpage>&#x02013;<lpage>1142</lpage>.<pub-id pub-id-type="pmid">28836669</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0042"><mixed-citation publication-type="journal" id="mpp12878-cit-0042">
+<string-name>
+<surname>Rajasekharan</surname>, <given-names>S.K.</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>, <given-names>J.&#x02010;H.</given-names>
+</string-name>, <string-name>
+<surname>Ravichandran</surname>, <given-names>V.</given-names>
+</string-name> and <string-name>
+<surname>Lee</surname>, <given-names>J.</given-names>
+</string-name> (<year>2017</year>) <article-title>Assessments of iodoindoles and abamectin as inducers of methuosis in pinewood nematode, <italic>Bursaphelenchus xylophilus</italic>
+</article-title>. <source xml:lang="en">Sci. Rep</source>. <volume>7</volume>, <fpage>6803</fpage>.<pub-id pub-id-type="pmid">28754990</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0043"><mixed-citation publication-type="journal" id="mpp12878-cit-0043">
+<string-name>
+<surname>Ramakers</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Ruijter</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Deprez</surname>, <given-names>R.H.L.</given-names>
+</string-name> and <string-name>
+<surname>Moorman</surname>, <given-names>A.F.M.</given-names>
+</string-name> (<year>2003</year>) <article-title>Assumption&#x02010;free analysis of quantitative real&#x02010;time polymerase chain reaction (PCR) data</article-title>. <source xml:lang="en">Neurosci. Lett</source>. <volume>339</volume>, <fpage>62</fpage>&#x02013;<lpage>66</lpage>.<pub-id pub-id-type="pmid">12618301</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0044"><mixed-citation publication-type="journal" id="mpp12878-cit-0044">
+<string-name>
+<surname>Rantong</surname>, <given-names>G.</given-names>
+</string-name> and <string-name>
+<surname>Gunawardena</surname>, <given-names>A.H.L.A.N.</given-names>
+</string-name> (<year>2017</year>) <article-title>Vacuolar processing enzymes, AmVPE1 and AmVPE2, as potential executors of ethylene regulated programmed cell death in the lace plant (<italic>Aponogeton madagascariensis</italic>)</article-title>. <source xml:lang="en">Botany</source>, <volume>96</volume>, <fpage>235</fpage>&#x02013;<lpage>247</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0045"><mixed-citation publication-type="journal" id="mpp12878-cit-0045">
+<string-name>
+<surname>Ripatti</surname>, <given-names>S.</given-names>
+</string-name> and <string-name>
+<surname>Palmgren</surname>, <given-names>J.</given-names>
+</string-name> (<year>2000</year>) <article-title>Estimation of multivariate frailty models using penalized partial likelihood</article-title>. <source xml:lang="en">Biometrics</source>, <volume>56</volume>, <fpage>1016</fpage>&#x02013;<lpage>1022</lpage>.<pub-id pub-id-type="pmid">11129456</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0046"><mixed-citation publication-type="journal" id="mpp12878-cit-0046">
+<string-name>
+<surname>Rojo</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Mart&#x000ed;n</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Carter</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Zouhar</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Plotnikova</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Paneque</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez&#x02010;Serrano</surname>, <given-names>J.J.</given-names>
+</string-name>, <string-name>
+<surname>Baker</surname>, <given-names>B.</given-names>
+</string-name> and <string-name>
+<surname>Ausubel</surname>, <given-names>F.M.</given-names>
+</string-name> (<year>2004</year>) <article-title>VPE<italic>&#x003b3;</italic> exhibits a caspase&#x02010;like activity that contributes to defense against pathogens</article-title>. <source xml:lang="en">Curr. Biol</source>. <volume>14</volume>, <fpage>1897</fpage>&#x02013;<lpage>1906</lpage>.<pub-id pub-id-type="pmid">15530390</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0047"><mixed-citation publication-type="journal" id="mpp12878-cit-0047">
+<string-name>
+<surname>Saisho</surname>, <given-names>D.</given-names>
+</string-name> and <string-name>
+<surname>Takeda</surname>, <given-names>K.</given-names>
+</string-name> (<year>2011</year>) <article-title>Barley: emergence as a new research material of crop science</article-title>. <source xml:lang="en">Plant Cell Physiol</source>. <volume>52</volume>, <fpage>724</fpage>&#x02013;<lpage>727</lpage>.<pub-id pub-id-type="pmid">21565909</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0048"><mixed-citation publication-type="journal" id="mpp12878-cit-0048">
+<string-name>
+<surname>Santana</surname>, <given-names>J.O.</given-names>
+</string-name>, <string-name>
+<surname>Freire</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>de Sousa</surname>, <given-names>A.O.</given-names>
+</string-name>, <string-name>
+<surname>Fontes Soares</surname>, <given-names>V.L.</given-names>
+</string-name>, <string-name>
+<surname>Gramacho</surname>, <given-names>K.P.</given-names>
+</string-name> and <string-name>
+<surname>Pirovani</surname>, <given-names>C.P.</given-names>
+</string-name> (<year>2016</year>) <article-title>Characterization of the legumains encoded by the genome of <italic>Theobroma cacao</italic> L</article-title>. <source xml:lang="en">Plant Physiol. Biochem</source>. <volume>98</volume>, <fpage>162</fpage>&#x02013;<lpage>170</lpage>.<pub-id pub-id-type="pmid">26691061</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0049"><mixed-citation publication-type="journal" id="mpp12878-cit-0049">
+<string-name>
+<surname>Shindo</surname>, <given-names>T.</given-names>
+</string-name> and <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name> (<year>2008</year>) <article-title>Papain&#x02010;like cysteine proteases: key players at molecular battlefields employed by both plants and their invaders</article-title>. <source xml:lang="en">Mol. Plant Pathol</source>. <volume>9</volume>, <fpage>119</fpage>&#x02013;<lpage>125</lpage>.<pub-id pub-id-type="pmid">18705889</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0050"><mixed-citation publication-type="journal" id="mpp12878-cit-0050">
+<string-name>
+<surname>Siddique</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Matera</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Radakovic</surname>, <given-names>Z.S.</given-names>
+</string-name>, <string-name>
+<surname>Hasan</surname>, <given-names>M.S.</given-names>
+</string-name>, <string-name>
+<surname>Gutbrod</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>R&#x000f3;&#x0017c;a&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Sobczak</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Torres</surname>, <given-names>M.A.</given-names>
+</string-name> and <string-name>
+<surname>Grundler</surname>, <given-names>F.M.W.</given-names>
+</string-name> (<year>2014</year>) <article-title>Parasitic worms stimulate host NADPH oxidases to produce reactive oxygen species that limit plant cell death and promote infection</article-title>. <source xml:lang="en">Sci. Signal</source>. <volume>7</volume>, <fpage>ra33</fpage>.<pub-id pub-id-type="pmid">24714570</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0051"><mixed-citation publication-type="journal" id="mpp12878-cit-0051">
+<string-name>
+<surname>Sreenivasulu</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Graner</surname>, <given-names>A.</given-names>
+</string-name> and <string-name>
+<surname>Wobus</surname>, <given-names>U.</given-names>
+</string-name> (<year>2008</year>) <article-title>Barley genomics: an overview</article-title>. <source xml:lang="en">Int. J. Plant Genomics</source>, <volume>2008</volume>, <fpage>486258</fpage>.<pub-id pub-id-type="pmid">18382615</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0052"><mixed-citation publication-type="journal" id="mpp12878-cit-0052">
+<string-name>
+<surname>Sueldo</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Ahmed</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Misas&#x02010;Villamil</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Colby</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Tameling</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Joosten</surname>, <given-names>M.H.A.J.</given-names>
+</string-name> and <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name> (<year>2014</year>) <article-title>Dynamic hydrolase activities precede hypersensitive tissue collapse in tomato seedlings</article-title>. <source xml:lang="en">New Phytol</source>. <volume>203</volume>, <fpage>913</fpage>&#x02013;<lpage>925</lpage>.<pub-id pub-id-type="pmid">24890496</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0053"><mixed-citation publication-type="journal" id="mpp12878-cit-0053">
+<string-name>
+<surname>Teper&#x02010;Bamnolker</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Buskila</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Belausov</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Wolf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Doron&#x02010;Faigenboim</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Ben&#x02010;Dor</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>van der Hoorn</surname>, <given-names>R.A.L.</given-names>
+</string-name>, <string-name>
+<surname>Lers</surname>, <given-names>A.</given-names>
+</string-name> and <string-name>
+<surname>Eshel</surname>, <given-names>D.</given-names>
+</string-name> (<year>2017</year>) <article-title>Vacuolar processing enzyme activates programmed cell death in the apical meristem inducing loss of apical dominance</article-title>. <source xml:lang="en">Plant Cell Environ</source>. <volume>40</volume>, <fpage>2381</fpage>&#x02013;<lpage>2392</lpage>.<pub-id pub-id-type="pmid">28755442</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0054"><mixed-citation publication-type="miscellaneous" id="mpp12878-cit-0054">
+<string-name>
+<surname>Therneau</surname>, <given-names>T.M.</given-names>
+</string-name> (<year>2018</year>) <article-title>Coxme: mixed effects cox models</article-title>. R package version 2.2-7. Available at: <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=coxme">https://CRAN.R-project.org/package=coxme</ext-link>. Accessed 26 September 2019.</mixed-citation></ref><ref id="mpp12878-bib-0055"><mixed-citation publication-type="journal" id="mpp12878-cit-0055">
+<string-name>
+<surname>Therneau</surname>, <given-names>T.M.</given-names>
+</string-name>, <string-name>
+<surname>Grambsch</surname>, <given-names>P.M.</given-names>
+</string-name> and <string-name>
+<surname>Pankratz</surname>, <given-names>V.S.</given-names>
+</string-name> (<year>2003</year>) <article-title>Penalized survival models and frailty</article-title>. <source xml:lang="en">J. Comput. Graph. Stat</source>. <volume>12</volume>, <fpage>156</fpage>&#x02013;<lpage>175</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0056"><mixed-citation publication-type="journal" id="mpp12878-cit-0056">
+<string-name>
+<surname>Toumi</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Waeyenberge</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Viaene</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Dababat</surname>, <given-names>A.A.</given-names>
+</string-name>, <string-name>
+<surname>Nicol</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Ogbonnaya</surname>, <given-names>F.</given-names>
+</string-name> and <string-name>
+<surname>Moens</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>) <article-title>Cereal cyst nematodes: importance, distribution, identification, quantification, and control</article-title>. <source xml:lang="en">Eur. J. Plant Pathol</source>. <volume>150</volume>, <fpage>1</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="mpp12878-bib-0057"><mixed-citation publication-type="journal" id="mpp12878-cit-0057">
+<string-name>
+<surname>Velasco&#x02010;Arroyo</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Diaz&#x02010;Mendoza</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gomez&#x02010;Sanchez</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Moreno&#x02010;Garcia</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Santamaria</surname>, <given-names>M.E.</given-names>
+</string-name>, <string-name>
+<surname>Torija&#x02010;Bonilla</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hensel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Kumlehn</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Martinez</surname>, <given-names>M.</given-names>
+</string-name> and <string-name>
+<surname>Diaz</surname>, <given-names>I.</given-names>
+</string-name> (<year>2018</year>) <article-title>Silencing barley cystatins HvCPI&#x02010;2 and HvCPI&#x02010;4 specifically modifies leaf responses to drought stress</article-title>. <source xml:lang="en">Plant Cell Environ</source>. <volume>41</volume>, <fpage>1776</fpage>&#x02013;<lpage>1790</lpage>.<pub-id pub-id-type="pmid">29486055</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0058"><mixed-citation publication-type="journal" id="mpp12878-cit-0058">
+<string-name>
+<surname>Verma</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Morriss</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Odu</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Kenning</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Rizzo</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Spollen</surname>, <given-names>W.G.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>McRae</surname>, <given-names>A.G.</given-names>
+</string-name>, <string-name>
+<surname>Givan</surname>, <given-names>S.A.</given-names>
+</string-name>, <string-name>
+<surname>Hewezi</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hussey</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>, <given-names>E.L.</given-names>
+</string-name>, <string-name>
+<surname>Baum</surname>, <given-names>T.J.</given-names>
+</string-name> and <string-name>
+<surname>Mitchum</surname>, <given-names>M.G.</given-names>
+</string-name> (<year>2018</year>) <article-title>The novel cyst nematode effector protein 30D08 targets host nuclear functions to alter gene expression in feeding sites</article-title>. <source xml:lang="en">New Phytol</source>. <volume>219</volume>, <fpage>697</fpage>&#x02013;<lpage>713</lpage>.<pub-id pub-id-type="pmid">29726613</pub-id></mixed-citation></ref><ref id="mpp12878-bib-0059"><mixed-citation publication-type="journal" id="mpp12878-cit-0059">
+<string-name>
+<surname>Wellburn</surname>, <given-names>A.R.</given-names>
+</string-name> (<year>1994</year>) <article-title>The spectral determination of chlorophylls <italic>a</italic> and <italic>b</italic>, as well as total carotenoids, using various solvents with spectrophotometers of different resolution</article-title>. <source xml:lang="en">J. Plant Physiol</source>. <volume>144</volume>, <fpage>307</fpage>&#x02013;<lpage>313</lpage>.</mixed-citation></ref></ref-list></back></article>

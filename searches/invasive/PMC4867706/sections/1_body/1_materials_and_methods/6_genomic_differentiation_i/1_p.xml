@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Using the same 
+ <italic>G. quinquepunctata</italic> specimens from Eelde as above, after finishing the host choice tests, we chose one adult individual from each host plant and obtained full genome sequences from these using paired-end forward-reverse sequencing on an Illumina HiSeq 2000. We pooled the data from both 
+ <italic>G. quinquepunctata</italic> sequencing runs and used this for a single 
+ <italic>de novo</italic> assembly. We assembled the data using Abyss (
+ <xref rid="ref-68" ref-type="bibr">Simpson et al., 2009</xref>) with a 
+ <italic>k</italic>-mer length of 23 and a 
+ <italic>k</italic>-mer coverage of 3, values which we optimized using KmerGenie (
+ <xref rid="ref-12" ref-type="bibr">Chikhi &amp; Medvedev, 2013</xref>). We saved all produced contigs longer than 200 bp. We then mapped the data from both samples separately against these contigs using BWA (
+ <xref rid="ref-43" ref-type="bibr">Li et al., 2009</xref>) at default settings and used Samtools (
+ <xref rid="ref-42" ref-type="bibr">Li &amp; Durbin, 2009</xref>) to call the SNPs in the BWA alignments. We looked up the SNP positions in the alignments for both samples and filtered based on the following criteria: the positions were both homozygous for different alleles between the samples, had a coverage of at least 10×in each sample, had flanking regions that were at least 100 bp long with a minimum combined coverage of at least 15x with a maximum of 2 heterozygous positions. We identified the contigs containing valid SNP positions by BLASTing them against the GenBank nucleotide database and removing all non-arthropod contigs. Based on the remaining SNPs, we made a random selection of 128 SNPs (
+ <xref ref-type="supplementary-material" rid="supp-7">Table S5</xref>), all from different contigs, for which we designed primers using the Kraken software (LGCgenomics). Subsequently, in June 2014, again within the same 6-km radius around Eelde, we collected a new set of individuals from both hosts at five localities (Norg-1, Norg-2, Kleibos, Appelbergen, and Noordlaarderbos); 206 from 
+ <italic>S. aucuparia</italic>, and 173 from 
+ <italic>P. serotina</italic>. We performed DNA extractions on head + thorax using the NucleoMag 96 Tissue kit (Macherey-Nagel Gmbh &amp; Co., Düren, Germany) on the KingFisher Flex magnetic particle processor (Thermo Scientific). DNA was diluted to 1 ng/µl and analysed in uniplex on the LGC Genomics SNP-genotyping line according to manufacturer’s instructions. SNPs were detected using the KASP technique (
+ <xref rid="ref-65" ref-type="bibr">Semagn et al., 2014</xref>). Genotypes were called using the Kraken software. We discarded five loci that did not yield scorable SNP-patterns and four loci that deviated from Hardy-Weinberg equilibrium, leaving 119 loci. Missing data were scattered over loci and samples and amounted to 2.9% of the total data set. We assessed population differentiation by Analysis of Molecular Variance (AMOVA), as well as by a Structure analysis (
+ <xref rid="ref-57" ref-type="bibr">Pritchard, Stephens &amp; Donnelly, 2000</xref>; 
+ <xref rid="ref-17" ref-type="bibr">Excoffier &amp; Lischer, 2010</xref>). For Structure, standard settings were used and 10 replicates were performed for 
+ <italic>K</italic> = 2 to 
+ <italic>K</italic> = 10. The results were uploaded to Structure Harvester and a delta K plot was used to determine the number of groups (
+ <xref rid="ref-16" ref-type="bibr">Earl &amp; VonHoldt, 2012</xref>). We used a hierarchical AMOVA with host plants nested within localities, and we repeated the same AMOVA on a locus-by-locus basis.
+</p>

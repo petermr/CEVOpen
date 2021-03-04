@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We applied statistical tests to the indices incorporating all species, but not to those using only native species. (In the relevant figures, we have provided the trends for indices using native species alongside those for all species to illustrate the similar patterns shown by each.) To examine the hypothesis that each index changed predictably over time (i.e., there was a statistically significant positive or negative trend over time), we conducted time series analyses using the augmented Dickey-Fuller test [
+ <xref rid="pone.0241061.ref046" ref-type="bibr">46</xref>]. Our method removes the autocorrelation inherent in re-sampled time series data and does not pre-suppose any particular shape of the hypothesized trend lines. To model changes in species metrics, we compared a pure random walk (or random “noise”) model with those that added an intercept (or drift) term, a lagged index term, and a linear time trend term. Any drift, lag, or linear term would indicate predictable dependence of the current year’s value on that of the prior year, rather than simply random noise. The best model fit was considered the most parsimonious model that exhibited both highly significant test statistics (
+ <italic>P</italic> &lt; 0.01) and a robust adjusted R
+ <sup>2</sup> value. Analysis was conducted using the R open-source software program [
+ <xref rid="pone.0241061.ref047" ref-type="bibr">47</xref>].
+</p>
