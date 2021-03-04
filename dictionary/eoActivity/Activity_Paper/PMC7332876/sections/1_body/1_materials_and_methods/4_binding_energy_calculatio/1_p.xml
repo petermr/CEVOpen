@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The binding free energy between the protein and drug molecules were calculated using molecular mechanics/Poisson-Boltzmann surface area (MM-PBSA) method in Gromacs (g_mmpbsa) software. The following equation was used to calculate the binding free energy. 
+ <disp-formula id="M0001">
+  <alternatives>
+   <graphic xlink:href="TBSD_A_1778537_M0001.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d1e908">
+    <msub>
+     <mrow>
+      <mo>Δ</mo>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="italic">Bind</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mo>Δ</mo>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>M</mi>
+      <mi>M</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mo>Δ</mo>
+      <mo>Δ</mo>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="italic">sol</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mi>T</mi>
+    <mo>Δ</mo>
+    <mi>S</mi>
+   </math>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="M0002">
+  <alternatives>
+   <graphic xlink:href="TBSD_A_1778537_M0002.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d1e956">
+    <mo>=</mo>
+    <mo stretchy="true">(</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>E</mi>
+      </mrow>
+      <mrow>
+       <mi mathvariant="italic">vdw</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>E</mi>
+      </mrow>
+      <mrow>
+       <mi mathvariant="italic">elec</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo stretchy="true">)</mo>
+    <mo>+</mo>
+    <mo>(</mo>
+    <msub>
+     <mrow>
+      <mo>Δ</mo>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>G</mi>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mo>Δ</mo>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>S</mi>
+      <mi>A</mi>
+     </mrow>
+    </msub>
+    <mo>)</mo>
+    <mo>−</mo>
+    <mi>T</mi>
+    <mo>Δ</mo>
+    <mi>S</mi>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

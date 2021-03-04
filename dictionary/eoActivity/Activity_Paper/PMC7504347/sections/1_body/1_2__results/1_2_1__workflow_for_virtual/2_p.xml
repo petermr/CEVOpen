@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the first stage, we prepared the ligands for molecular docking with target proteases. We compiled a library of 14,011 phytochemicals produced by medicinal plants used in traditional Indian medicine, and the main source of this compilation was IMPPAT [
+ <xref rid="B28-molecules-25-03822" ref-type="bibr">28</xref>], the largest resource on phytochemicals of Indian herbs to date (see 
+ <xref ref-type="sec" rid="sec3-molecules-25-03822">Section 3</xref>). Next, the standard drug-likeness measure, Lipinski’s rule of five (RO5) [
+ <xref rid="B29-molecules-25-03822" ref-type="bibr">29</xref>], was used to filter a subset of 10,510 drug-like phytochemicals. Next, the filtered phytochemicals were prepared for docking by retrieving their 3D structures from Pubchem [
+ <xref rid="B30-molecules-25-03822" ref-type="bibr">30</xref>] followed by energy-minimization using OpenBabel [
+ <xref rid="B31-molecules-25-03822" ref-type="bibr">31</xref>] (
+ <xref ref-type="sec" rid="sec3-molecules-25-03822">Section 3</xref>).
+</p>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The presence of KA in the methanolic extracts of 
+ <italic>Ocimum basilicum</italic> was estimated from 14 fractions of column chromatography. The extraction process was optimized using a Box–Behnken response surface design (BBD) with three factors at three levels. The three factors were methanol concentration (X
+ <sub>1</sub>, %), extraction temperature (X
+ <sub>2</sub>, °C), and extraction time (X
+ <sub>3</sub>, min). The factor levels are shown in 
+ <xref rid="foods-09-01379-t002" ref-type="table">Table 2</xref>. The extraction yield of KA was the response variable. Design-Expert version 12 software was implemented using the following second-order polynomial model to describe the effect of the factors and levels:
+ <disp-formula id="FD1-foods-09-01379">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>+</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi mathvariant="bold">i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>3</mn>
+     </munderover>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mi mathvariant="bold">i</mi>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mi mathvariant="bold">i</mi>
+     </msub>
+     <mo>+</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi mathvariant="bold">i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>3</mn>
+     </munderover>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mrow>
+       <mi mathvariant="bold">ii</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mi mathvariant="normal">X</mi>
+      <mn>2</mn>
+     </msup>
+     <msub>
+      <mrow/>
+      <mi mathvariant="bold">i</mi>
+     </msub>
+     <mo>+</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi mathvariant="bold">i</mi>
+       <mo>≠</mo>
+       <mi mathvariant="bold">j</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>3</mn>
+     </munderover>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mrow>
+       <mi mathvariant="bold">ii</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mi mathvariant="bold">i</mi>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mi mathvariant="normal">j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Y</italic> is the predicted response b
+ <sub>0</sub> is the intercept; b
+ <sub>1</sub>, b
+ <sub>2</sub>, and b
+ <sub>3</sub> are the linear coefficients of methanol concentration (X
+ <sub>1</sub>), extraction temperature (X
+ <sub>2</sub>), and extraction time (X
+ <sub>3</sub>), respectively; b
+ <sub>11</sub>, b
+ <sub>22</sub>, and b
+ <sub>33</sub> are the squared coefficient of methanol concentration, extraction temperature, and extraction time, respectively; and b
+ <sub>12</sub>, b
+ <sub>13</sub>, and b
+ <sub>23</sub> are the interaction coefficients of methanol concentration, temperature of sonication, and extraction time, respectively. The factor settings were represented as X
+ <sub>i</sub>–X
+ <sub>j</sub>.
+</p>

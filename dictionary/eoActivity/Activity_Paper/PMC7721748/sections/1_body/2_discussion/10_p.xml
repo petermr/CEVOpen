@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">The problem in this study is categorized as multi-label classification problem, where the essential oils can have multiple activities (i.e. outputs) at the same time. Thus, in regards with the proposed dataset, the CNN could produce eight output labels for each essential oil (i.e. the eight biological activities), where an essential oil may have all of these activities or some of them. The output labels have been encoded in the form of a one-hot encoded vector with multiple ones in it, as a special form of the one-hot encoding method. For instance, the Essential oil “
+ <italic>Pluchea dioscoridis</italic>” is known with its activities as antimicrobial, antioxidant, and anticancer, so its label will be [0,0,0,1,1,1,0,0] for the target vector [
+ <italic>Antiviral, Antiwormal, Anti-inflammatory, Anticancer, Antioxidant, Antimicrobial, Antifungal, and Cytotoxic Activity</italic>]
+ <italic>.</italic> Table 
+ <xref rid="Tab5" ref-type="table">5</xref> shows a sample of the CNN training results on the dataset where it documents the score probabilities that outcome from the sigmoid activation function. These score values refer to predicted biological activities labels for a number of Essential oils.
+</p>

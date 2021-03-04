@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular Mechanics Poisson–Boltzmann Surface Area (MM-PBSA) is a widely used method to compute the binding energy of small molecules with biological macromolecules such as proteins [
+ <xref rid="B58-molecules-25-03822" ref-type="bibr">58</xref>]. Notably, the protein-ligand binding energy obtained using MM-PBSA method has been found to be more accurate than that obtained from protein-ligand docking [
+ <xref rid="B58-molecules-25-03822" ref-type="bibr">58</xref>]. Therefore, we have computed the binding energy for the top three inhibitors of TMPRSS2 and cathepsin L using MM-PBSA method. From the 180 ns MD simulation of the six protein-ligand complexes (TMPRSS2-T1, TMPRSS2-T2, TMPRSS2-T3, cathepsin L-C1, cathepsin L-C2 and cathepsin L-C3), 80 snapshots were obtained between 100 ns to 180 ns of the simulation at an interval of 1 ns along the trajectory, and thereafter, the 80 snapshots were used to compute the binding energy using g_mmpbsa (
+ <xref ref-type="sec" rid="sec3-molecules-25-03822">Section 3</xref>) [
+ <xref rid="B59-molecules-25-03822" ref-type="bibr">59</xref>,
+ <xref rid="B60-molecules-25-03822" ref-type="bibr">60</xref>]. The final binding energy is the sum of contributions from van der Waals, electrostatic, polar solvation, and solvent accessible surface area (SASA) energy components. The contribution of each of the above components to the binding energy of the top inhibitors is shown in 
+ <xref rid="molecules-25-03822-t003" ref-type="table">Table 3</xref>.
+</p>

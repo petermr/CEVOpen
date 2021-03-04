@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="S2.Ex1">
+ <math id="M1">
+  <mrow>
+   <mo lspace="0pt" rspace="3.5pt">%</mo>
+   <mpadded width="+3.3pt">
+    <mi>DPPH</mi>
+   </mpadded>
+   <mi>quenched</mi>
+   <mo>=</mo>
+   <mrow>
+    <mo stretchy="false">[</mo>
+    <mn>1</mn>
+    <mo>-</mo>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi mathvariant="normal">A</mi>
+      <mi>sample</mi>
+     </msub>
+     <mo>-</mo>
+     <msub>
+      <mi mathvariant="normal">A</mi>
+      <mi>blank</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>/</mo>
+   </mrow>
+  </mrow>
+  <mrow>
+   <mrow>
+    <mo>(</mo>
+    <msub>
+     <mi mathvariant="normal">A</mi>
+     <mi>control</mi>
+    </msub>
+    <mo>-</mo>
+    <msub>
+     <mi mathvariant="normal">A</mi>
+     <mi>blank</mi>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </mrow>
+   <mo stretchy="false">]</mo>
+   <mo rspace="5.8pt">×</mo>
+   <mn>100</mn>
+  </mrow>
+ </math>
+</disp-formula>

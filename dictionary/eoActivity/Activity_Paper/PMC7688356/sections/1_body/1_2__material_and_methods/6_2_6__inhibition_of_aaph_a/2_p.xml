@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The percentage of linoleic acid oxidation inhibition was calculated as follows: 
+ <disp-formula id="eq2">
+  <label>(2)</label>
+  <math id="M2">
+   <mtable>
+    <mtr>
+     <mtd>
+      <mi>%</mi>
+      <mtext>Inhibition</mtext>
+      <mo>=</mo>
+      <mfenced open="[" close="]">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mfenced open="(" close=")">
+           <mrow>
+            <mn>1</mn>
+            <mo>–</mo>
+            <mtext>rate</mtext>
+            <mtext/>
+            <mtext>of</mtext>
+            <mtext/>
+            <mtext>absorbance</mtext>
+            <mtext/>
+            <mtext>with</mtext>
+            <mtext/>
+            <mtext>test</mtext>
+            <mtext/>
+            <mtext>compound</mtext>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
+          <mtext>rate</mtext>
+          <mtext/>
+          <mtext>of</mtext>
+          <mtext/>
+          <mtext>absorbance</mtext>
+          <mtext/>
+          <mtext>with</mtext>
+          <mtext/>
+          <mtext>solvent</mtext>
+          <mtext/>
+          <mtext>control</mtext>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfenced>
+      <mo>×</mo>
+      <mn>100</mn>
+      <mi>%</mi>
+      <mo>.</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+</p>

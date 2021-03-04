@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0006" orientation="portrait" position="float">
+ <label>Table 6.</label>
+ <caption>
+  <p>Docking results of compounds, 
+   <bold>18b</bold>, 
+   <bold>19a</bold>, and 
+   <bold>20a</bold> into CDK-6 (pdb: 2EUF) and CDK-9 (pdb: 3TNH) in comparison to the native ligands, palbociclib (LQQ) and CAN508 (F18).
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th rowspan="2" align="left">Ligand</th>
+    <th colspan="3" align="center">CDK-6
+     <hr/>
+    </th>
+    <th colspan="3" align="center">CDK-9
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th align="center">
+     <italic toggle="yes">ΔG
+      <sub>b</sub>
+     </italic>
+     <sup>a</sup>
+    </th>
+    <th align="center">
+     <italic toggle="yes">K
+      <sub>i</sub>
+     </italic>
+     <sup>b</sup>
+    </th>
+    <th align="center">
+     <italic toggle="yes">Fs</italic>
+     <sup>c</sup>
+    </th>
+    <th align="center">
+     <italic toggle="yes">ΔG
+      <sub>b</sub>
+     </italic>
+     <sup>a</sup>
+    </th>
+    <th align="center">
+     <italic toggle="yes">K
+      <sub>i</sub>
+     </italic>
+     <sup>b</sup>
+    </th>
+    <th align="center">
+     <italic toggle="yes">Fs</italic>
+     <sup>c</sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left">
+     <bold>18b</bold>
+    </td>
+    <td align="left">−9.84</td>
+    <td align="left">61.08 nM</td>
+    <td align="left">3.17</td>
+    <td align="left">−9.81</td>
+    <td align="left">64.89 nM</td>
+    <td align="char" char=".">2.98</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>19a</bold>
+    </td>
+    <td align="left">−10.52</td>
+    <td align="left">19.41 nM</td>
+    <td align="left">2.54</td>
+    <td align="left">−10.40</td>
+    <td align="left">23.93 nM</td>
+    <td align="char" char=".">2.06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>20a</bold>
+    </td>
+    <td align="left">−10.30</td>
+    <td align="left">28.30 nM</td>
+    <td align="left">3.58</td>
+    <td align="left">−9.99</td>
+    <td align="left">47.27 nM</td>
+    <td align="char" char=".">2.14</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>LQQ
+      <italic toggle="yes">
+       <sup>d</sup>
+      </italic>
+     </bold>
+    </td>
+    <td align="left">−11.54</td>
+    <td align="left">3.48 nM</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="center">–</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>F18
+      <italic toggle="yes">
+       <sup>e</sup>
+      </italic>
+     </bold>
+    </td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">−6.29</td>
+    <td align="left">24.67 μM</td>
+    <td align="center">–</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF14">
+   <p>
+    <sup>a</sup>Binding free energy (kcal/mol).
+   </p>
+  </fn>
+  <fn id="TF15">
+   <p>
+    <sup>b</sup>Inhibition constant.
+   </p>
+  </fn>
+  <fn id="TF16">
+   <p>
+    <sup>c</sup>Fold selectivity towards CDK-6/9, calculated by dividing the K
+    <sub>i</sub> value against CDK-2 by the K
+    <sub>i</sub> value against CDK-6/9.
+   </p>
+  </fn>
+  <fn id="TF17">
+   <p>
+    <sup>d</sup>LQQ, palbociclib/.
+   </p>
+  </fn>
+  <fn id="TF18">
+   <p>
+    <sup>e</sup>F18, CAN508.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

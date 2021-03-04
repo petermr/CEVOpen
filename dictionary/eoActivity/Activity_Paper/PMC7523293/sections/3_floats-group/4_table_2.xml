@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Kinases and their respective MS validation</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Kinase</th>
+    <th>Peptide</th>
+    <th>Probability (%)</th>
+    <th>Unique Peptides</th>
+    <th>Unique Spectra</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>NDK</td>
+    <td>(R)KGLTIAALQLR(T)</td>
+    <td>100</td>
+    <td>11</td>
+    <td>18</td>
+   </tr>
+   <tr>
+    <td>HSK</td>
+    <td>(K)GFAVTELTVGEAVR(W)</td>
+    <td>100</td>
+    <td>65</td>
+    <td>100</td>
+   </tr>
+   <tr>
+    <td>AK</td>
+    <td>(K)MLAEDGIDLQTcGLVAVGHR</td>
+    <td>99.7</td>
+    <td>34</td>
+    <td>47</td>
+   </tr>
+   <tr>
+    <td>GK</td>
+    <td>(R)DQLGIISGAAQSEALAR(Q)</td>
+    <td>99.7</td>
+    <td>55</td>
+    <td>68</td>
+   </tr>
+   <tr>
+    <td>ThiL</td>
+    <td>(R)TVVSTDMLVQDSHFR(L)</td>
+    <td>100</td>
+    <td>3</td>
+    <td>3</td>
+   </tr>
+   <tr>
+    <td>RBKS</td>
+    <td>ND</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>AsK</td>
+    <td>(R)cVEYARRHnIP(V)</td>
+    <td>99.7</td>
+    <td>3</td>
+    <td>3</td>
+   </tr>
+   <tr>
+    <td>SK</td>
+    <td>ND</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>ND</italic> not detected
+  </p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab1" orientation="portrait" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>The binding energies of the optimal docking models.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Compounds</th>
+    <th align="center" rowspan="1" colspan="1">Target proteins</th>
+    <th align="center" rowspan="1" colspan="1">Binding energy</th>
+    <th align="center" rowspan="1" colspan="1">Cluster RMSD</th>
+    <th align="center" rowspan="1" colspan="1">Reference RMSD</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Astragaloside II</td>
+    <td align="center" rowspan="1" colspan="1">ALB</td>
+    <td align="center" rowspan="1" colspan="1">−12.27</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">12.30</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">APOA1</td>
+    <td align="center" rowspan="1" colspan="1">−6.80</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">111.46</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">CYP1A1</td>
+    <td align="center" rowspan="1" colspan="1">−9.50</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">45.40</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">CYP1A2</td>
+    <td align="center" rowspan="1" colspan="1">−9.28</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">35.30</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">IL-6</td>
+    <td align="center" rowspan="1" colspan="1">−7.45</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">92.33</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">NFKB1</td>
+    <td align="center" rowspan="1" colspan="1">−7.15</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">14.42</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Neocryptotanshinone II</td>
+    <td align="center" rowspan="1" colspan="1">TNF</td>
+    <td align="center" rowspan="1" colspan="1">−9.53</td>
+    <td align="center" rowspan="1" colspan="1">0.00</td>
+    <td align="center" rowspan="1" colspan="1">23.12</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

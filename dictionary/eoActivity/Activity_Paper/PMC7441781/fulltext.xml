@@ -1,0 +1,539 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><?covid-19-tdm?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Biomol Struct Dyn</journal-id><journal-id journal-id-type="iso-abbrev">J. Biomol. Struct. Dyn</journal-id><journal-title-group><journal-title>Journal of Biomolecular Structure &#x00026; Dynamics</journal-title></journal-title-group><issn pub-type="ppub">0739-1102</issn><issn pub-type="epub">1538-0254</issn><publisher><publisher-name>Taylor &#x00026; Francis</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7441781</article-id><article-id pub-id-type="doi">10.1080/07391102.2020.1798285</article-id><article-id pub-id-type="publisher-id">1798285</article-id><article-version vocab="JAV" vocab-identifier="http://www.niso.org/publications/rp/RP-8-2008.pdf" vocab-term="Version of Record" article-version-type="VoR">Version of
+Record</article-version><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Identification of some novel oxazine substituted 9-anilinoacridines as
+SARS-CoV-2 inhibitors for COVID-19 by molecular docking, free energy calculation and
+molecular dynamics studies</article-title><alt-title alt-title-type="left-running-head">K. Rajagopal et al.</alt-title><alt-title alt-title-type="right-running-head">Journal of Biomolecular Structure and
+Dynamics</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3382-4316</contrib-id><name><surname>Rajagopal</surname><given-names>Kalirajan</given-names></name><xref ref-type="corresp" rid="AN0001"/><xref ref-type="aff" rid="AF0001"/></contrib><contrib contrib-type="author"><name><surname>Varakumar</surname><given-names>Potlapati</given-names></name><xref ref-type="aff" rid="AF0001"/></contrib><contrib contrib-type="author"><name><surname>Aparna</surname><given-names>Baliwada</given-names></name><xref ref-type="aff" rid="AF0001"/></contrib><contrib contrib-type="author"><name><surname>Byran</surname><given-names>Gowramma</given-names></name><xref ref-type="aff" rid="AF0001"/></contrib><contrib contrib-type="author"><name><surname>Jupudi</surname><given-names>Srikanth</given-names></name><xref ref-type="aff" rid="AF0001"/></contrib><aff id="AF0001"><institution>Department of Pharmaceutical Chemistry, JSS College of
+Pharmacy [A Constituent College of JSS Academy of Higher Education &#x00026;
+Research-(Deemed to be University)]</institution>, <city>Ooty</city>,
+<state>Tamilnadu</state>, <country>India</country></aff></contrib-group><author-notes><corresp id="AN0001"><bold>CONTACT</bold> Kalirajan Rajagopal <email>rkalirajan@ymail.com</email>; <email>rkalirajan@jssuni.edu.in</email><institution>Department of Pharmaceutical Chemistry,
+JSS College of Pharmacy [A Constituent college of JSS Academy of Higher Education &#x00026;
+Research-(Deemed to be University)]</institution>, <city>Ooty</city>,
+<state>Tamilnadu</state><postal-code>643001</postal-code>, <country>India</country>.</corresp><fn id="AUFN2"><p>Supplemental data for this article can be accessed online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285">https://doi.org/10.1080/07391102.2020.1798285</ext-link>.</p></fn></author-notes><pub-date date-type="pub" publication-format="electronic"><day>28</day><month>7</month><year>2020</year></pub-date><pub-date date-type="collection" publication-format="electronic"><year>2020</year></pub-date><fpage seq="1">1</fpage><lpage>12</lpage><permissions><copyright-statement>&#x000a9; 2020 Informa UK Limited, trading as Taylor &#x00026; Francis
+Group</copyright-statement><copyright-year>2020</copyright-year><copyright-holder>Informa UK Limited, trading as Taylor &#x00026; Francis
+Group</copyright-holder><license><license-p>This article is made available via the PMC Open Access Subset for unrestricted
+re-use and analyses in any form or by any means with acknowledgement of the original
+source. These permissions are granted for the duration of the COVID-19 pandemic or until
+permissions are revoked in writing. Upon expiration of these permissions, PMC is granted
+a perpetual license to make this article available via PMC and Europe PMC, consistent
+with existing copyright protections.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="TBSD_0_1798285.pdf"/><abstract><title>Abstract</title><p>Coronavirus disease (COVID-19), a life-threatening disease, is caused by SARS-CoV-2. The
+targeted therapeutics of small molecules helps the scientific community to fight against
+SARS-CoV-2. In this article, some oxazine substituted 9-anilinoacridines
+(<bold>A1&#x02013;A48</bold>) was designed by docking, MM-GBSA and molecular dynamics (MD)
+simulation studies for their COVID-19 inhibitory activity. The docking of ligands
+<bold>A1&#x02013;A48</bold> against SARS-CoV-2 (PDB ID: 5R82) are performed by using Glide
+module, <italic>in silico</italic> ADMET screening by QikProp module, binding
+energy using Prime MM-GB/SA module, MD simulation by Desmond module and atomic charges
+were derived by Jaguar module of Schrodinger suit 2019-4. Compound <bold>A38</bold> has
+the highest G-score (&#x02212;7.83) when compared to all the standard compounds which are proposed
+for COVID-19 treatment such as ritonavir (&#x02212;7.48), lopinavir (&#x02212;6.94), nelfinavir (&#x02212;5.93),
+hydroxychloroquine (&#x02212;5.47) and mataquine (&#x02212;5.37). Compounds <bold>A13</bold>,
+<bold>A23</bold>, <bold>A18</bold>, <bold>A7</bold>, <bold>A48</bold>, <bold>A46</bold>,
+<bold>A32</bold>, <bold>A20</bold>, <bold>A1</bold> and <bold>A47</bold> are
+significantly active against SARS-CoV-2 main protease when compared with
+hydroxychloroquine and mataquine. The residues GLN19, THR24, THR25, THR26, LEU27, HIE41,
+SER46, MET49, ASN119, ASN142, HIE164, MET165, ASP187, ARG188 and GLN189 of SARS-CoV-2 main
+protease play a crucial role in binding with ligands. The <italic>in
+silico</italic> ADMET properties of the molecules are within the recommended values. The
+binding free energy was calculated using PRIME MM-GB/SA studies. From the ligands
+<bold>A38</bold>, <bold>A13</bold>, <bold>A23</bold>, <bold>A18</bold>, <bold>A7</bold>,
+<bold>A48</bold> and <bold>A46</bold> with significant Glide scores may produce
+significant COVID-19 activity for further development. Compound <bold>A38</bold> was
+subjected to MD simulation at 100&#x02009;ns to study the dynamic behaviour of protein&#x02013;ligand
+complex.</p><p>Communicated by Ramaswamy H. Sarma</p></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>SARS-CoV-2</kwd><kwd>COVID-19</kwd><kwd>acridine</kwd><kwd>oxazine</kwd><kwd>docking studies</kwd><kwd><italic>in silico</italic> ADMET screening</kwd><kwd>MM-GBSA</kwd><kwd>molecular dynamics simulation</kwd></kwd-group><counts><fig-count count="10"/><table-count count="1"/><page-count count="12"/><word-count count="5921"/></counts></article-meta></front><body><sec id="S0001" disp-level="1"><label>1.</label><title>Introduction</title><p>Recently, coronavirus disease 2019 (COVID-19), a life-threatening disease, spreads
+throughout the world. The coronaviruses (CoVs) belong to severe acute respiratory syndrome
+(SARS) and the Middle East respiratory syndrome (MERS) viruses (De Wit et&#x000a0;al., <xref rid="CIT0005" ref-type="bibr">2016</xref>; Song et&#x000a0;al., <xref rid="CIT0044" ref-type="bibr">2019</xref>), which contain single positive-stranded RNA. It was affected
+first in China and quickly spread in most of the countries (Holshue et&#x000a0;al., <xref rid="CIT0013" ref-type="bibr">2020</xref>; Wang et&#x000a0;al., <xref rid="CIT0047" ref-type="bibr">2020</xref>; Zhou, Hou, et&#x000a0;al., <xref rid="CIT0049" ref-type="bibr">2020</xref>). According to the WHO data, as on third week of May 2020, more than 5
+million people in the world are affected by COVID-19; out of these, more than 3.3 lakh
+people are died. Many of the cases affected by COVID 19 are found to be asymptomatic (Gu
+et&#x000a0;al., <xref rid="CIT0011" ref-type="bibr">2020</xref>; Holshue et&#x000a0;al., <xref rid="CIT0013" ref-type="bibr">2020</xref>; Lu et&#x000a0;al., <xref rid="CIT0034" ref-type="bibr">2020</xref>; To et&#x000a0;al., <xref rid="CIT0045" ref-type="bibr">2020</xref>), it is worthy of
+consideration, the detail current evidence and understanding of the transmission of
+SARS-CoV, MERS-CoV and SARS-CoV-2 and discuss pathogen inactivation methods on CoVs is very
+important (Chang et&#x000a0;al., <xref rid="CIT0004" ref-type="bibr">2020</xref>; Huang et&#x000a0;al.,
+<xref rid="CIT0014" ref-type="bibr">2020</xref>; Huang &#x00026; Herrmann, <xref rid="CIT0015" ref-type="bibr">2020</xref>; Zhang et&#x000a0;al., <xref rid="CIT0048" ref-type="bibr">2020</xref>; Zhou, Yang, et&#x000a0;al., <xref rid="CIT0050" ref-type="bibr">2020</xref>).</p><p>The CoV transfers from human to human and spreads more vigorously. In this pathetic
+situation, it is important to discover some novel drugs to treat COVID-19. As
+COVID-19-positive cases are increased day by day more aggressively, the finding of novel
+drugs for COVID-19 treatments is one of the most encouraging tasks for target-based
+treatment.</p><p>As a part of our ongoing research on searching the potent biological molecules against
+various diseases by <italic>in silico</italic> and wet laboratory methods
+(Kalirajan et&#x000a0;al., <xref rid="CIT0027" ref-type="bibr">2011</xref>; Kalirajan, Kulshrestha,
+et&#x000a0;al., <xref rid="CIT0021" ref-type="bibr">2012</xref>; Kalirajan, Mohammed Rafick, et&#x000a0;al.,
+<xref rid="CIT0022" ref-type="bibr">2012</xref>; Kalirajan et&#x000a0;al., <xref rid="CIT0025" ref-type="bibr">2013</xref>; Kalirajan, Gowramma, et&#x000a0;al., <xref rid="CIT0019" ref-type="bibr">2017</xref>; Kalirajan, Sankar, et&#x000a0;al., <xref rid="CIT0028" ref-type="bibr">2017</xref>; Kalirajan, Kulshrestha, et&#x000a0;al., <xref rid="CIT0020" ref-type="bibr">2018</xref>; Kalirajan, Mohammed Rafick, et&#x000a0;al., <xref rid="CIT0023" ref-type="bibr">2018</xref>; Kalirajan, Gaurav, et&#x000a0;al., <xref rid="CIT0018" ref-type="bibr">2019</xref>;
+Kalirajan, Pandiselvi, et&#x000a0;al., <xref rid="CIT0026" ref-type="bibr">2019</xref>), we have
+designed and evaluated various heterocyclic compounds for their biological activities. Using
+different modules (Glide, QikProp, Prime and Desmond) of Schr&#x000f6;dinger suite LLC, various
+computational methods such as molecular docking, ADMET screening, binding free energy
+calculations and molecular dynamics (MD) simulations were performed to find the interactions
+responsible for COVID-19 inhibition. These studies will provide the requirement of key
+structural features in the design of potential drug candidates.</p><p>It is evident that from the literature studies, 9-anilinoacridines have various
+pharmacological activities such as anticancer (Kapuriya et&#x000a0;al., <xref rid="CIT0031" ref-type="bibr">2008</xref>; ; Wakelin et&#x000a0;al., <xref rid="CIT0046" ref-type="bibr">2003</xref>), antimicrobial (Nadaraj et&#x000a0;al., <xref rid="CIT0037" ref-type="bibr">2009</xref>), antioxidant (Dickens et&#x000a0;al., <xref rid="CIT0006" ref-type="bibr">2002</xref>), antimalarial (Anderson et&#x000a0;al., <xref rid="CIT0001" ref-type="bibr">2006</xref>), analgesic (Sondhi et&#x000a0;al., <xref rid="CIT0043" ref-type="bibr">2002</xref>),
+antileishmanial (Giorgio et&#x000a0;al., <xref rid="CIT0008" ref-type="bibr">2007</xref>),
+antinociceptive (Llama et&#x000a0;al., <xref rid="CIT0033" ref-type="bibr">1989</xref>), acetyl
+cholinesterase inhibitors (Recanatini et&#x000a0;al., <xref rid="CIT0041" ref-type="bibr">2000</xref>), antiherpes (Goodell et&#x000a0;al., <xref rid="CIT0009" ref-type="bibr">2006</xref>) and so forth. Amsacrine that is 9-anilinoacridine derivative was a primary
+DNA-intercalating agent which is more significant and the chromophore intercalates with DNA
+base pairs (Rastogi et&#x000a0;al., <xref rid="CIT0040" ref-type="bibr">2002</xref>). Similarly,
+oxazine derivatives were also reported for various biological activities (Kalirajan et&#x000a0;al.,
+<xref rid="CIT0029" ref-type="bibr">2009</xref>; Kalirajan, Muralidharan, et&#x000a0;al., <xref rid="CIT0024" ref-type="bibr">2012</xref>) such as antimicrobial, anti-cancer, and
+larvicidal. As a part of our ongoing research work, upon looking for various biological
+activities, we have designed 9-anilinoacridine analogues bearing the oxazine build-up by
+docking studies with Schrodinger suit-2019-4. The recently designed 9-anilinoacridines
+showed significant hindrance with COVID-19.</p></sec><sec id="S0002" disp-level="1"><label>2.</label><title>Materials and methods</title><sec id="S0002-S2001" disp-level="2"><label>2.1.</label><title>Molecular docking studies</title><p>The 3D crystal structure of COVID-19 protein called SARS-CoV-2 main protease receptor
+co-crystallized with 6-(ethylamino) pyridine-3-carbonitrile (PDB ID: 5R82, Resolution:
+1.31&#x02009;&#x000c5;) was retrieved from the protein data bank. The protein was prepared using protein
+preparation wizard of epic module (Sastry et&#x000a0;al., <xref rid="CIT0042" ref-type="bibr">2013</xref>) of Schr&#x000f6;dinger suite 2019. The protein structure is a monomer, which was
+prepared by removing similar binding sites, unnecessary water molecules and also refining
+bond orders. Missing chain atoms are added by using the prime module of Schr&#x000f6;dinger suite
+2019. Protein minimization was performed using optimized potentials for liquid
+simulations-3 (OPLS-3) molecular force field with root mean square difference (RMSD) of
+crystallographic heavy atoms kept at 0.3&#x02009;&#x000c5;. A grid box was generated to define the
+centroid of the active site.</p><p>The designed ligands (<bold>A1&#x02013;A48</bold>) were prepared by using LigPrep module of
+Schrodinger suite 2019-4. 2D structures were converted to 3D structures, as well as energy
+minimization and optimized for their geometry, desalted and corrected for their chirality.
+The ionization and tautomeric states were generated between pH 6.8 and 7.2 by using Epik
+module. The ligands <bold>A1&#x02013;A48</bold> were minimized using OPLS-3 force field in
+Schrodinger suit 2019-4 until a RMSD of 2.0&#x02009;&#x000c5; was achieved. A single low energy ring
+confirmation per ligand was generated, and the optimized ligands were used for docking
+analysis.</p><p>The compounds are prepared by LigPrep module of Schr&#x000f6;dinger suite and docked in to a
+catalytic pocket of COVID-19 by using Glide module of Schr&#x000f6;dinger suite 2019 in XP (extra
+precision) mode (Jacobson et&#x000a0;al., <xref rid="CIT0016" ref-type="bibr">2004</xref>). The
+binding modes with best glide G scores were selected. These scores perceive positive
+lipophilic, hydrogen-bonding and metal&#x02013;ligand associations and punish steric conflicts.
+The XP visualizer of Glide module was used to analyze the results of docking studies
+(Friesner et&#x000a0;al., <xref rid="CIT0007" ref-type="bibr">2006</xref>). The Glide score of the
+molecules was compared with the Glide score of the standard compounds ritonavir,
+lopinavir, nelfinavir, hydroxychloroquine and mataquine (Barros et&#x000a0;al., <xref rid="CIT0002" ref-type="bibr">2020</xref>; Cao et&#x000a0;al., <xref rid="CIT0003" ref-type="bibr">2020</xref>) which is recommended for COVID-19. The Gide scoring capacity
+is mainly dependent on docking parameters like lipophilic perseverance in which the
+ligands are covered in the lipophilic pocket. The electrostatic forces and hydrogen
+bonding with ligands are other parameters to increase the binding affinity. Some negative
+parameters like XP penalties, rotational penalties etc. will diminish the Glide score.</p><p>The <italic>in silico</italic> ADMET properties of the proposed ligands
+<bold>A1&#x02013;A48</bold> were determined by QikProp module of Schrodinger suit. The prepared
+ligands were subjected to the QikProp module to determine the ADMET properties such as
+molecular weight, dipole moment, number of H-bond donors and acceptors, log P values,
+violence in rule of five, and oral absorption.</p><p>The atomic charges were derived using B3LYP hybrid functional combined with 6-31G basis
+set in Jaguar module of Schrodinger (Govindarajan et&#x000a0;al., <xref rid="CIT0010" ref-type="bibr">2012</xref>).</p></sec><sec id="S0002-S2002" disp-level="2"><label>2.2.</label><title>Binding free energy calculation by using prime/MM-GBSA approach</title><p>The binding free energy of ligand-receptor complex and post docking energy minimization
+studies were performed using prime molecular mechanics-generalized born surface area
+(MM-GB/SA) of Schr&#x000f6;dinger 2019. The energy for minimized XP docked pose of ligand receptor
+complex was calculated using the OPLS3 force field and generalized-born/surface area
+(GB/SA) continuum VSGB 2.0 solvent model (Li et&#x000a0;al., <xref rid="CIT0032" ref-type="bibr">2011</xref>).</p></sec><sec id="S0002-S2003" disp-level="2"><label>2.3.</label><title>MD simulation</title><p>The stability of the docked <bold>A38/5R82</bold> complex was investigated by performing
+a 100&#x02009;ns MD (Guo et&#x000a0;al., <xref rid="CIT0012" ref-type="bibr">2010</xref>) simulation
+study. The complex in the explicit solvent system with OPLS3 force field was studied using
+Desmond module of Schr&#x000f6;dinger 2019-4. The molecular system was solvated with
+crystallographic water (TIP3P) molecules (Jorgensen et&#x000a0;al., <xref rid="CIT0017" ref-type="bibr">1983</xref>) under orthorhombic periodic boundary conditions for 10&#x02009;&#x000c5;
+buffer region. The overlapping water molecules are deleted, and the system was neutralized
+by adding Na<sup>+</sup> as counter ions. The total system consists of 39,270 atoms and
+11,507 water molecules. An ensemble (NPT) of Nose-Hoover thermostat (Martyna et&#x000a0;al., <xref rid="CIT0035" ref-type="bibr">1992</xref>, <xref rid="CIT0036" ref-type="bibr">1994</xref>) and barostat was applied to maintain the constant temperature (300&#x02009;K) and
+pressure (1&#x02009;bar) of the systems, respectively. A hybrid energy minimization algorithm with
+1000 steps of steepest descent followed by conjugate gradient algorithms was utilized.
+Another algorithm, limited memory Broyden-Fletcher-Goldfarb-Shanno (LBFGS) algorithm with
+convergence threshold gradient of 1&#x02009;kcal/mol/&#x000c5; was also employed for energy minimization.
+A Smooth Particle Mesh Ewald method for calculating long range electrostatic interactions
+with a cut-off radius of 9&#x02009;&#x000c5; for short range van der Waals and Coulomb interactions was
+used. Multiple time step RESPA integration (reference system propagator algorithms) was
+used in the dynamics study for bonded, near and far-bonded interactions with 2, 2 and 6
+fs, respectively. The data were collected for every 100&#x02009;ps, and the obtained trajectory
+was analyzed with Maestro graphical interphase.</p></sec></sec><sec id="S0003" disp-level="1"><label>3.</label><title>Results and discussion</title><p>The results are summarized in <xref rid="t0001" ref-type="table">Tables 1&#x02013;3</xref> and
+<xref ref-type="fig" rid="F0001 F0002 F0003 F0004 F0005 F0006">Figures 1&#x02013;6</xref>. The
+results revealed that the COVID-19 inhibitory property of the compounds <bold>A1&#x02013;A48</bold>
+greatly depended on the chemical nature of the substituents. The chemical structures of
+oxazine substituted 9-anilinoacridines are given in <xref ref-type="fig" rid="F0001">Figure
+1</xref>.</p><fig id="F0001" orientation="portrait" position="float"><label>Figure 1.</label><caption><p>Structures of compounds <bold>A1</bold>&#x02013;<bold>A48</bold>.</p></caption><graphic content-type="black-white" xlink:href="TBSD_A_1798285_F0001_B"/></fig><fig id="F0002" orientation="portrait" position="float"><label>Figure 2.</label><caption><p>(a) Ligand Interaction of compound <bold>A38</bold> with COVID-19 (5R82). (b). Ligand
+Interaction of compound <bold>A13</bold> with COVID-19 (5R82). (c) Ligand Interaction of
+compound <bold>A23</bold> with COVID-19 (5R82). (d) Ligand Interaction of compound
+<bold>A18</bold> with COVID-19 (5R82). (e) Ligand Interaction of compound
+<bold>A7</bold> with COVID-19 (5R82). (f) Ligand Interaction of compound
+<bold>A48</bold> with COVID-19 (5R82). (g) Ligand Interaction of compound
+<bold>A46</bold> with COVID-19 (5R82). (h) Ligand Interaction of compound
+<bold>A32</bold> with COVID-19 (5R82).</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0002_C"/></fig><fig id="F0003" orientation="portrait" position="float"><label>Figure 3.</label><caption><p>Hydrogen bonding interaction of compound <bold>A13</bold> with COVID-19 (5R82).</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0003_C"/></fig><fig id="F0004" orientation="portrait" position="float"><label>Figure 4.</label><caption><p>Hydrophilic/lipophilic map of compound <bold>A23</bold> with COVID-19 (5R82).</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0004_C"/></fig><fig id="F0005" orientation="portrait" position="float"><label>Figure 5.</label><caption><p>RMSD (&#x000c5;) of simulated protein 5R82.<italic>pdb</italic> in complex with
+inhibitor <bold>A38</bold> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0005_C"/></fig><fig id="F0006" orientation="portrait" position="float"><label>Figure 6.</label><caption><p>RMSF of simulated protein 5R82.<italic>pdb</italic> in complex with
+inhibitor <bold>A38</bold> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0006_C"/></fig><table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1.</label><caption><p>Docking studies for oxazine substituted 9-anilinoacridines <bold>A1&#x02013;A48</bold> with
+COVID-19 (5R82).</p></caption><!--OASIS TABLE HERE--><table frame="hsides" rules="groups"><colgroup><col width="1*"/><col width="1*"/><col width="1*"/><col width="1*"/><col width="1*"/><col width="1*"/><col width="1*"/><col width="1*"/></colgroup><thead><tr><th align="left">Cpd</th><th align="center">Glide score</th><th align="center">Lipophilic EvdW</th><th align="center">H Bond</th><th align="center">XP Electro</th><th align="center">Low MW</th><th align="center">XP Penalties</th><th align="center">Rot Penal</th></tr></thead><tbody valign="top"><tr><td align="left">A38</td><td align="char" char=".">&#x02212;7.829</td><td align="char" char=".">&#x02212;5.174</td><td align="center">&#x02212;1.081</td><td align="char" char=".">&#x02212;1.98</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.146</td></tr><tr><td align="left">A13</td><td align="char" char=".">&#x02212;6.78</td><td align="char" char=".">&#x02212;5.77</td><td align="center">&#x02212;1.48</td><td align="char" char=".">&#x02212;0.57</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A23</td><td align="char" char=".">&#x02212;6.65</td><td align="char" char=".">&#x02212;6.14</td><td align="center">&#x02212;0.61</td><td align="char" char=".">&#x02212;0.29</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.14</td></tr><tr><td align="left">A18</td><td align="char" char=".">&#x02212;6.37</td><td align="char" char=".">&#x02212;5.75</td><td align="center">&#x02212;1</td><td align="char" char=".">&#x02212;0.36</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.15</td></tr><tr><td align="left">A7</td><td align="char" char=".">&#x02212;6.12</td><td align="char" char=".">&#x02212;5.83</td><td align="center">&#x02212;1.04</td><td align="char" char=".">&#x02212;0.41</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A48</td><td align="char" char=".">&#x02212;5.991</td><td align="char" char=".">&#x02212;5.129</td><td align="center">&#x02212;0.882</td><td align="char" char=".">&#x02212;0.195</td><td align="center">&#x02212;0.138</td><td align="center">0</td><td align="char" char=".">0.202</td></tr><tr><td align="left">A46</td><td align="char" char=".">&#x02212;5.978</td><td align="char" char=".">&#x02212;5.145</td><td align="center">&#x02212;1.007</td><td align="char" char=".">&#x02212;0.248</td><td align="center">&#x02212;0.232</td><td align="center">0</td><td align="char" char=".">0.172</td></tr><tr><td align="left">A32</td><td align="char" char=".">&#x02212;5.805</td><td align="char" char=".">&#x02212;5.499</td><td align="center">&#x02212;1.218</td><td align="char" char=".">&#x02212;0.289</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.164</td></tr><tr><td align="left">A20</td><td align="char" char=".">&#x02212;5.80</td><td align="char" char=".">&#x02212;5.27</td><td align="center">&#x02212;1.28</td><td align="char" char=".">&#x02212;0.35</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.12</td></tr><tr><td align="left">A1</td><td align="char" char=".">&#x02212;5.79</td><td align="char" char=".">&#x02212;5.77</td><td align="center">&#x02212;0.1</td><td align="char" char=".">&#x02212;0.11</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.13</td></tr><tr><td align="left">A47</td><td align="char" char=".">&#x02212;5.784</td><td align="char" char=".">&#x02212;5.096</td><td align="center">&#x02212;0.454</td><td align="char" char=".">&#x02212;0.239</td><td align="center">&#x02212;0.185</td><td align="center">0</td><td align="char" char=".">0.161</td></tr><tr><td align="left">A36</td><td align="char" char=".">&#x02212;5.478</td><td align="char" char=".">&#x02212;5.628</td><td align="center">&#x02212;0.649</td><td align="char" char=".">&#x02212;0.398</td><td align="center">&#x02212;0.005</td><td align="center">1</td><td align="char" char=".">0.171</td></tr><tr><td align="left">A5</td><td align="char" char=".">&#x02212;5.34</td><td align="char" char=".">&#x02212;4.85</td><td align="center">&#x02212;0.89</td><td align="char" char=".">&#x02212;0.31</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.17</td></tr><tr><td align="left">A12</td><td align="char" char=".">&#x02212;5.33</td><td align="char" char=".">&#x02212;5.02</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.5</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.15</td></tr><tr><td align="left">A19</td><td align="char" char=".">&#x02212;5.22</td><td align="char" char=".">&#x02212;5.24</td><td align="center">&#x02212;0.53</td><td align="char" char=".">&#x02212;0.04</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.15</td></tr><tr><td align="left">A25</td><td align="char" char=".">&#x02212;5.15</td><td align="char" char=".">&#x02212;5.33</td><td align="center">&#x02212;0.64</td><td align="char" char=".">&#x02212;0.29</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.14</td></tr><tr><td align="left">A11</td><td align="char" char=".">&#x02212;5.05</td><td align="char" char=".">&#x02212;5.36</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.32</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A45</td><td align="char" char=".">&#x02212;4.99</td><td align="char" char=".">&#x02212;5.261</td><td align="center">&#x02212;0.53</td><td align="char" char=".">&#x02212;0.176</td><td align="center">&#x02212;0.022</td><td align="center">0</td><td align="char" char=".">0.174</td></tr><tr><td align="left">A8</td><td align="char" char=".">&#x02212;4.82</td><td align="char" char=".">&#x02212;5.42</td><td align="center">&#x02212;0.35</td><td align="char" char=".">&#x02212;0.05</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A35</td><td align="char" char=".">&#x02212;4.80</td><td align="char" char=".">&#x02212;5.316</td><td align="center">&#x02212;0.171</td><td align="char" char=".">&#x02212;0.132</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.147</td></tr><tr><td align="left">A9</td><td align="char" char=".">&#x02212;4.72</td><td align="char" char=".">&#x02212;5.46</td><td align="center">&#x02212;0.21</td><td align="char" char=".">&#x02212;0.05</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A22</td><td align="char" char=".">&#x02212;4.56</td><td align="char" char=".">&#x02212;5.38</td><td align="center">&#x02212;0.04</td><td align="char" char=".">&#x02212;0.06</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.12</td></tr><tr><td align="left">A40</td><td align="char" char=".">&#x02212;4.50</td><td align="char" char=".">&#x02212;5.217</td><td align="center">&#x02212;0.036</td><td align="char" char=".">&#x02212;0.093</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.134</td></tr><tr><td align="left">A30</td><td align="char" char=".">&#x02212;4.48</td><td align="char" char=".">&#x02212;5.42</td><td align="center">&#x02212;0.082</td><td align="char" char=".">&#x02212;0.065</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.153</td></tr><tr><td align="left">A31</td><td align="char" char=".">&#x02212;4.44</td><td align="char" char=".">&#x02212;5.683</td><td align="center">&#x02212;0.83</td><td align="char" char=".">&#x02212;0.292</td><td align="center">0</td><td align="center">1</td><td align="char" char=".">0.153</td></tr><tr><td align="left">A2</td><td align="char" char=".">&#x02212;4.40</td><td align="char" char=".">&#x02212;5.38</td><td align="center">&#x02212;0.08</td><td align="char" char=".">&#x02212;0.04</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.13</td></tr><tr><td align="left">A16</td><td align="char" char=".">&#x02212;4.38</td><td align="char" char=".">&#x02212;5.24</td><td align="center">&#x02212;0.08</td><td align="char" char=".">0.01</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.18</td></tr><tr><td align="left">A17</td><td align="char" char=".">&#x02212;4.34</td><td align="char" char=".">&#x02212;5.14</td><td align="center">&#x02212;0.19</td><td align="char" char=".">&#x02212;0.06</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.13</td></tr><tr><td align="left">A34</td><td align="char" char=".">&#x02212;4.321</td><td align="char" char=".">&#x02212;5.231</td><td align="center">0</td><td align="char" char=".">&#x02212;0.039</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.147</td></tr><tr><td align="left">A4</td><td align="char" char=".">&#x02212;4.23</td><td align="char" char=".">&#x02212;5.22</td><td align="center">&#x02212;0.12</td><td align="char" char=".">&#x02212;0.05</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.17</td></tr><tr><td align="left">A21</td><td align="char" char=".">&#x02212;4.22</td><td align="char" char=".">&#x02212;5.06</td><td align="center">0</td><td align="char" char=".">&#x02212;0.08</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.12</td></tr><tr><td align="left">A15</td><td align="char" char=".">&#x02212;4.22</td><td align="char" char=".">&#x02212;5.32</td><td align="center">0</td><td align="char" char=".">0.01</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.18</td></tr><tr><td align="left">A29</td><td align="char" char=".">&#x02212;4.202</td><td align="char" char=".">&#x02212;5.202</td><td align="center">0</td><td align="char" char=".">&#x02212;0.063</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.153</td></tr><tr><td align="left">A6</td><td align="char" char=".">&#x02212;4.16</td><td align="char" char=".">&#x02212;5.33</td><td align="center">&#x02212;0.04</td><td align="char" char=".">&#x02212;0.01</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.17</td></tr><tr><td align="left">A24</td><td align="char" char=".">&#x02212;4.04</td><td align="char" char=".">&#x02212;5.31</td><td align="center">&#x02212;0.55</td><td align="char" char=".">&#x02212;0.31</td><td align="center">0</td><td align="center">1</td><td align="char" char=".">0.13</td></tr><tr><td align="left">A37</td><td align="char" char=".">&#x02212;3.96</td><td align="char" char=".">&#x02212;5.211</td><td align="center">&#x02212;0.223</td><td align="char" char=".">&#x02212;0.285</td><td align="center">&#x02212;0.058</td><td align="center">1</td><td align="char" char=".">0.182</td></tr><tr><td align="left">A10</td><td align="char" char=".">&#x02212;3.89</td><td align="char" char=".">&#x02212;4.92</td><td align="center">0</td><td align="char" char=".">0</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A3</td><td align="char" char=".">&#x02212;3.86</td><td align="char" char=".">&#x02212;4.56</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.31</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.13</td></tr><tr><td align="left">A14</td><td align="char" char=".">&#x02212;3.82</td><td align="char" char=".">&#x02212;3.94</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.45</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.16</td></tr><tr><td align="left">A39</td><td align="char" char=".">&#x02212;3.80</td><td align="char" char=".">&#x02212;5.169</td><td align="center">&#x02212;0.024</td><td align="char" char=".">&#x02212;0.065</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.179</td></tr><tr><td align="left">A26</td><td align="char" char=".">&#x02212;3.07</td><td align="char" char=".">&#x02212;2.29</td><td align="center">&#x02212;1.35</td><td align="char" char=".">&#x02212;0.16</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.12</td></tr><tr><td align="left">A44</td><td align="char" char=".">&#x02212;3.04</td><td align="char" char=".">&#x02212;5.171</td><td align="center">&#x02212;0.072</td><td align="char" char=".">&#x02212;0.017</td><td align="center">&#x02212;0.022</td><td align="center">0</td><td align="char" char=".">0.174</td></tr><tr><td align="left">A33</td><td align="char" char=".">&#x02212;2.98</td><td align="char" char=".">&#x02212;4.977</td><td align="center">0</td><td align="char" char=".">&#x02212;0.068</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.164</td></tr><tr><td align="left">A27</td><td align="char" char=".">&#x02212;2.92</td><td align="char" char=".">&#x02212;4.943</td><td align="center">0</td><td align="char" char=".">0.044</td><td align="center">&#x02212;0.025</td><td align="center">0</td><td align="char" char=".">0.175</td></tr><tr><td align="left">A43</td><td align="char" char=".">&#x02212;2.86</td><td align="char" char=".">&#x02212;5.088</td><td align="center">&#x02212;1.048</td><td align="char" char=".">0.039</td><td align="center">&#x02212;0.022</td><td align="center">1</td><td align="char" char=".">0.174</td></tr><tr><td align="left">A28</td><td align="char" char=".">&#x02212;2.67</td><td align="char" char=".">&#x02212;4.414</td><td align="center">0</td><td align="char" char=".">&#x02212;0.133</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.155</td></tr><tr><td align="left">A41</td><td align="char" char=".">&#x02212;2.58</td><td align="char" char=".">&#x02212;3.308</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.278</td><td align="center">0</td><td align="center">1</td><td align="char" char=".">0.139</td></tr><tr><td align="left">A42</td><td align="char" char=".">&#x02212;2.23</td><td align="char" char=".">&#x02212;3.137</td><td align="center">0</td><td align="char" char=".">&#x02212;0.14</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.139</td></tr><tr><td align="left">Hydroxychloroquine (Std)</td><td align="char" char=".">&#x02212;5.47</td><td align="char" char=".">&#x02212;3.15</td><td align="center">&#x02212;1.75</td><td align="char" char=".">&#x02212;0.69</td><td align="center">&#x02212;0.38</td><td align="center">0.5</td><td align="char" char=".">0</td></tr><tr><td align="left">Ritonavir (Std)</td><td align="char" char=".">&#x02212;7.48</td><td align="char" char=".">&#x02212;6.57</td><td align="center">&#x02212;1.7</td><td align="char" char=".">&#x02212;0.46</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.22</td></tr><tr><td align="left">Lopinavir (Std)</td><td align="char" char=".">&#x02212;6.94</td><td align="char" char=".">&#x02212;6.01</td><td align="center">&#x02212;1.12</td><td align="char" char=".">&#x02212;0.26</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.24</td></tr><tr><td align="left">Nelfinavir (Std)</td><td align="char" char=".">&#x02212;5.93</td><td align="char" char=".">&#x02212;4.86</td><td align="center">&#x02212;1.18</td><td align="char" char=".">&#x02212;0.49</td><td align="center">0</td><td align="center">0</td><td align="char" char=".">0.24</td></tr><tr><td align="left">Metaquine (Std)</td><td align="char" char=".">&#x02212;5.37</td><td align="char" char=".">&#x02212;5.3</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.38</td><td align="center">&#x02212;0.06</td><td align="center">0</td><td align="char" char=".">0.18</td></tr><tr><td align="left">6-(ethylamino)pyridine-3-carbonitrile
+(Bound inhibitor)</td><td align="char" char=".">&#x02212;4.40</td><td align="char" char=".">&#x02212;2.9</td><td align="center">&#x02212;0.7</td><td align="char" char=".">&#x02212;0.19</td><td align="center">&#x02212;0.5</td><td align="center">0</td><td align="char" char=".">0.29</td></tr></tbody></table></table-wrap><sec id="S0003-S2001" disp-level="2"><label>3.1.</label><title>Molecular docking studies</title><p>The docking studies of the ligands to protein active sites were performed by an advanced
+molecular docking program Glide module of Schrodinger suite 2019 Maestro-12.2 version for
+determining the binding affinities of the compounds. The designed analogues were docked
+towards the COVID-19 (PDB ID: 5R82) in order to ascertain their inhibitory activity. The
+analogues show a best fit RMSD value of 0.2. As shown in <xref rid="t0001" ref-type="table">Table 1</xref>, it is clearly demonstrated that Compound <bold>A38</bold>
+has the highest G-score (&#x02212;7.83) when compared to all the standard compounds which are
+proposed for COVID-19 treatment such as ritonavir (&#x02212;7.48), lopinavir (&#x02212;6.94), nelfinavir
+(&#x02212;5.93), hydroxychloroquine (&#x02212;5.47) and mataquine (&#x02212;5.37). Compounds <bold>A38</bold>,
+<bold>A13</bold>, <bold>A23</bold>, <bold>A18</bold>, <bold>A7</bold>, <bold>A48</bold>,
+<bold>A46</bold>, <bold>A32</bold>, <bold>A20</bold>, <bold>A1</bold>, <bold>A47</bold>
+and <bold>A36</bold> are significantly active against COVID-19 with Glide score more than
+&#x02212;5.5 when compared to currently used drug hydroxychloroquine (&#x02212;5.47) and mataquine
+(&#x02212;5.37). The above compounds have good affinity to the receptor due to more lipophilic
+character and hydrogen bonding.</p><p>The docking results of the compounds exhibited similar mode of interactions with COVID-19
+and the binding pocket of the residues between GLN19 and GLN189. The results are
+summarized in <xref rid="t0001" ref-type="table">Table 1</xref>. Almost all Compounds
+<bold>A1&#x02013;A48</bold> with COVID-19 (PDB ID: 5R82) are docked in the same binding pocket.
+From <xref ref-type="fig" rid="F0002">Figure 2a</xref>, the amino acid residues GLN19,
+THR24, THR25, THR26, SER46, HIE41, ASN142, HIE164 and GLN189 are making polar region and
+the amino acids LEU27, MET49 and MET165 are making hydrophobic interaction with the
+ligand. The hydroxyl group of the phenyl ring is interacted by hydrogen bonding with ASN
+119. The Glide scores are mainly increased due to the lipophilic evidence of the aromatic
+moieties. The 2D-ligand interaction diagram of compounds <bold>A38</bold>,
+<bold>A13</bold>, <bold>A23</bold>, <bold>A18</bold>, <bold>A7</bold>, <bold>A48</bold>,
+<bold>A46</bold> and <bold>A32</bold> with COVID-19 (PDB ID: 5R82) are given in <xref ref-type="fig" rid="F0002">Figure 2(a&#x02013;h)</xref>.</p><p>From the obtained binding modes, it was illustrated that the ligands formed hydrophobic,
+hydrogen bonding and other interactions with different residues GLN19 to GLN189
+surrounding the active pocket. Ligand A13 exhibited hydrogen bonding interaction with
+ASN142 (H-bond length: 3.06&#x02009;&#x000c5;) and ASN119 (H-bond length: 1.79&#x02009;&#x000c5;) residues and these are
+shown in <xref ref-type="fig" rid="F0003">Figure 3</xref>. The presence of aromatic
+features and different heterocyclic rings majorly contributed towards lipophilic factors
+(<xref ref-type="fig" rid="F0004">Figure 4</xref>).</p><p>The ADMET properties for compounds <bold>A1&#x02013;A48</bold> can be investigated by the <italic>in silico</italic> method by using QikProp module of Schr&#x000f6;dinger suite
+2019-4. The molecular weight of the compounds is between 380 and 544&#x02009;g mol<sup>&#x02212;1</sup>.
+The dipole moment of the compounds is between 1 and 5.7. The estimated number of hydrogen
+bond donors of the compounds is in the range of 3&#x02013;4. The estimated number of hydrogen bond
+acceptors of the compounds is in the range of 4.5&#x02013;6.75. The number of likely metabolites
+of the compounds is in the range of 2&#x02013;6. The number of violations of Lipinski&#x02019;s rule of
+five is 0&#x02013;2. The percentage of human oral absorption for the compounds is between 70% and
+100%; Therefore, almost all the ADMET properties of the compounds are within the
+recommended values. The results of the ADMET properties for compounds <bold>A1&#x02013;A48</bold>
+are shown in Table S1 (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285">supplementary
+material</ext-link>).</p><p>The atomic charges were derived using B3LYP hybrid functional combined with 6-31G basis
+set in Jaguar module of Schrodinger. The HOMO, LUMO and molecular surface property (ESP
+mean) values are illustrated in Table S3 (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285">supplementary
+material</ext-link>).</p></sec><sec id="S0003-S2002" disp-level="2"><label>3.2.</label><title>Binding free energy calculation by using prime/MM-GBSA approach</title><p>Molecular docking was additionally assessed with MM-GBSA free restricting vitality, which
+is identified with the post scoring approach for COVID-19 (PDB ID: 5R82) target and the
+values are shown in <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285">Supplementary Table
+S2</ext-link> (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285">supplementary
+material</ext-link>). Prime MMGBSA DG bind, the binding free energy, is calculated with
+the equation: <disp-formula id="M0001"><alternatives><graphic xlink:href="TBSD_A_1798285_M0001.jpg" position="float" orientation="portrait"/><mml:math id="d1e1571"><mml:mrow><mml:mo>&#x00394;</mml:mo><mml:mi mathvariant="normal">G</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>bind</mml:mtext></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mi mathvariant="normal">E</mml:mi><mml:mo>_</mml:mo><mml:mtext>complex</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>minimized</mml:mtext></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">E</mml:mi><mml:mo>_</mml:mo><mml:mtext>ligand</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>minimized</mml:mtext></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="normal">&#x000a0;</mml:mi><mml:mi mathvariant="normal">E</mml:mi><mml:mo>_</mml:mo><mml:mtext>receptor</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>minimized</mml:mtext></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula>
+</p><p>From the results of MM-GB/SA studies, the &#x00394;<italic>G</italic> bind values
+were observed in the range of &#x02212;26.01 (cpdA35) to &#x02212;63.24&#x02009;kcal/mol (cpdA14) for
+significantly active compounds and also dGvdw values, dG lipophilic values and the
+energies are positively contributing towards total binding energy. The stability of
+docking complex will be predicted by MMGBSA scoring function. The Glide score and MM-GBSA
+free energy are obtained by the docking of ligands into the coupling pocket, which are
+more stable.</p></sec><sec id="S0003-S2003" disp-level="2"><label>3.3.</label><title>MD simulation</title><p>A 100-ns molecular dynamic simulation was performed to understand the molecular insights
+involved in binding of <bold>A38</bold> in the active pocket of 5R82. From the obtained
+trajectory analysis, the RMSD of protein C&#x003b1;, backbone and heavy atoms was observed in the
+range of 1.25&#x02013;2.1&#x02009;&#x000c5; and 1.45&#x02013;2.45&#x02009;&#x000c5;, respectively (<xref ref-type="fig" rid="F0005">Figure
+5</xref>). The C&#x003b1; atoms fluctuated in the range of 1.25&#x02013;2.1&#x02009;&#x000c5; and finally stabilized
+after 80&#x02009;ns of simulation with a RMSD value of 1.5&#x02009;&#x000c5;. Higher fluctuations (up to 2.1&#x02009;&#x000c5;) in
+RMSD were observed at 39&#x02013;42&#x02009;ns and 79&#x02009;ns. Over the course of simulation, stable
+hydrophobic interactions were observed with His41 and Met165. The flexibility of residues
+on ligand binding is analyzed using metrics of root mean square fluctuations (RMSFs)
+(<xref ref-type="fig" rid="F0006">Figure 6</xref>). High flexibility was observed with
+RMSF of Ser1 (C&#x003b1;: 4.67&#x02009;&#x000c5;; backbone: 4.77&#x02009;&#x000c5;) and Val303 (C&#x003b1;: 5.95&#x02009;&#x000c5;; backbone: 6.02&#x02009;&#x000c5;),
+whereas low RMSF was reported for residues Leu205 (C&#x003b1;: 0.37&#x02009;&#x000c5;; backbone: 0.38&#x02009;&#x000c5;) and
+Thr175 (C&#x003b1;: 0.43&#x02009;&#x000c5;; backbone: 0.46&#x02009;&#x000c5;). The stability of ligand with respect to protein was
+indicated using ligand RMSD where a moderate fluctuation of 1.72&#x02009;&#x000c5; was observed (<xref ref-type="fig" rid="F0006">Figure 6</xref>).</p><p>A total of 27 ligand contacts (<xref ref-type="fig" rid="F0007">Figure 7</xref>) were
+formed with amino acids of protein, from Gln19 to Met49, Asn119, Phe140 to Pro168 and
+Phe181 to Gln192. From <xref ref-type="fig" rid="F0008">Figure 8</xref>, it was stated
+that the ligand is stabilized by forming majority of hydrophobic interactions (5%&#x02013;90% of
+simulation time) with residues His41, Met49, Cys145, Met165, Leu167, Pro168 and Phe181. It
+also formed hydrogen bonds with Gly19, Asn28, His41, Asn119, Asn142, Gly143, Ser144 and
+Gln189 over the course of 10%&#x02013;65% of simulation trajectory. The timeline representation of
+protein-ligand contacts is outlined in <xref ref-type="fig" rid="F0008">Figure
+8</xref>.</p><fig id="F0007" orientation="portrait" position="float"><label>Figure 7.</label><caption><p>Interaction fraction of 5R82.<italic>pdb</italic> complexed with
+<bold>A38</bold> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0007_C"/></fig><fig id="F0008" orientation="portrait" position="float"><label>Figure 8.</label><caption><p>Time line representation showing different contacts formed by <bold>A38</bold> in
+complex with 5R82.<italic>pdb</italic> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0008_C"/></fig><p>The 2D-trajectory interaction diagram (<xref ref-type="fig" rid="F0009">Figure 9</xref>)
+depicts that the hydrogen bond formed by the docking pose with Asn119 is preserved in the
+MD trajectory pose. The methoxy group in compound A38 donated one hydrogen bond to Asn119
+with 24%, the nitrogen of acridine ring accepted one hydrogen bond with Arg188 and Ser144
+through water molecule with 21% and 51% of total simulation time, respectively. The
+nitrogen of the oxazine ring accepted one hydrogen bond from Gly143 and the amino group
+accepted hydrogen bonds from Gly143 and Ser144 with 58% and 51%, respectively, of total
+simulation time. The pi-pi stacking of acridine with His41 was 67%. The RMSF (<xref ref-type="fig" rid="F0010">Figure 10</xref>) of ligand with respect to initial frame was
+observed in the range of 0.5&#x02013;1.48&#x02009;&#x000c5;. Other ligand properties (<xref ref-type="fig" rid="F0010">Figure 10</xref>) such as radius of gyration, molecular surface area,
+solvent accessible surface area and polar surface area of ligands were observed in the
+range of 5.85&#x02013;6.07&#x02009;&#x000c5;, 444.94&#x02013;453.42 &#x000c5;<sup>2</sup>, 228.75&#x02013;453.338.82 &#x000c5;<sup>2</sup> and
+149.94&#x02013;164.73 &#x000c5;<sup>2</sup>, respectively.</p><fig id="F0009" orientation="portrait" position="float"><label>Figure 9.</label><caption><p>2D interaction diagram of <bold>A38</bold> in complex with 5R82.<italic>pdb</italic> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0009_C"/></fig><fig id="F0010" orientation="portrait" position="float"><label>Figure 10.</label><caption><p>Ligand properties of <bold>A38</bold> in complex with 5R82.<italic>pdb</italic> during 100&#x02009;ns MD simulation.</p></caption><graphic content-type="color" xlink:href="TBSD_A_1798285_F0010_C"/></fig></sec></sec><sec id="S0004" disp-level="1"><label>4.</label><title>Conclusion</title><p>In conclusion, from the oxazine-substituted 9-anilinoacridines <bold>A1&#x02013;A48</bold>, many
+compounds have significant binding affinity with SARS CoV-2 main protease. Molecular docking
+and binding free energy calculation studies were performed to find the possible binding
+modes of ligands and the influence of favorable and non-favourable interactions within the
+active pocket of COVID-19 protein. MD simulation for the highly active inhibitor
+<bold>A38</bold> in complex with protein 5R82 revealed that the stabilization of ligand
+was achieved due to the formation of uninterrupted hydrophobic interactions. The results
+demonstrated for further modifications in pharmacophoric features may help in improvement of
+inhibitory activity. The <italic>in silico</italic> structuring strategy
+embraced in the present investigation helped for recognizing some lead molecules and
+furthermore may somewhat clarify their useful impact for further determinations like <italic>in&#x000a0;vitro</italic> and <italic>in&#x000a0;vivo</italic> assessments. The
+results from the <italic>in silico</italic> study exhibited that compounds
+<bold>A38</bold>, <bold>A13</bold>, <bold>A23</bold>, <bold>A18</bold> and <bold>A7</bold>
+may be significantly active against COVID-19 with remedial possibilities and are probably
+going to be helpful after further refinement.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="SM7947"><caption><title>Supplementary_materials...docx</title></caption><media xlink:href="TBSD_A_1798285_SM7947.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><title>Acknowledgements</title><p>The authors express their sincere gratitude to JSS Academy of Higher Education &#x00026;
+Research, Mysuru. The authors also thank the principal Dr. S. P. Dhanabal, JSS College of
+Pharmacy, Ooty, for the technical support.</p></ack><sec id="S0005" disp-level="1" sec-type="COI-statement"><title>Disclosure statement</title><p>No potential conflict of interest was reported by the authors.</p></sec><ref-list><title>References</title><ref id="CIT0001"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Anderson</surname><given-names>M.
+O.</given-names></name>, <name name-style="western"><surname>Sherrill</surname><given-names>J.</given-names></name>,
+<name name-style="western"><surname>Madrid</surname><given-names>P.
+B.</given-names></name>, <name name-style="western"><surname>Liou</surname><given-names>A. P.</given-names></name>,
+<name name-style="western"><surname>Weisman</surname><given-names>J.
+L.</given-names></name>, <name name-style="western"><surname>DeRisi</surname><given-names>J. L.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Guy</surname><given-names>R.
+K.</given-names></name></person-group> (<year>2006</year>).
+<article-title>Parallel synthesis of 9-aminoacridines and their evaluation against
+chloroquine-resistant Plasmodium falciparum</article-title>. <source><italic toggle="yes">Bioorganic &#x00026; Medicinal Chemistry</italic></source>, (<issue>2</issue>),
+<fpage>334</fpage>&#x02013;<lpage>343</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmc.2005.08.017</pub-id><pub-id pub-id-type="pmid">16216519</pub-id></mixed-citation></ref><ref id="CIT0002"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Barros</surname><given-names>R.
+O.</given-names></name>, <name name-style="western"><surname>Junior</surname><given-names>F. L. C. C.</given-names></name>,
+<name name-style="western"><surname>Pereira</surname><given-names>W.
+S.</given-names></name>, <name name-style="western"><surname>Oliveira</surname><given-names>N. M. N.</given-names></name>,
+&#x00026; <name name-style="western"><surname>Ramos</surname><given-names>R.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Interaction of drugs candidates with various SARS-CoV-2 receptors: An in
+silico study to combat COVID-19</article-title>. <source><italic toggle="yes">ChemRxiv</italic></source>. Preprint. <pub-id pub-id-type="doi">10.26434/chemrxiv.12100968.v4</pub-id></mixed-citation></ref><ref id="CIT0003"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cao</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Wen</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Fan</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Ruan</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Song</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Cai</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Wei</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Xia</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Xiang</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Bai</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Xie</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>C.</given-names></name>, &#x02026; <name name-style="western"><surname>Wang</surname><given-names>C.</given-names></name></person-group>
+(<year>2020</year>). <article-title>A trial of lopinavir-ritonavir in adults
+hospitalized with severe Covid-19</article-title>. <source><italic toggle="yes">The New
+England Journal of Medicine</italic></source>, (<issue>19</issue>), <fpage>1787</fpage>&#x02013;<lpage>1799</lpage>.
+<pub-id pub-id-type="doi">10.1056/NEJMoa2001282</pub-id><pub-id pub-id-type="pmid">32187464</pub-id></mixed-citation></ref><ref id="CIT0004"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chang</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Yan</surname><given-names>Y.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Wang</surname><given-names>L.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Coronavirus disease 2019: Coronaviruses and blood safety</article-title>.
+<source><italic toggle="yes">Transfusion Medicine Reviews</italic></source>,
+(<issue>2</issue>),
+<fpage>75</fpage>&#x02013;<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1016/j.tmrv.2020.02.003</pub-id><pub-id pub-id-type="pmid">32107119</pub-id></mixed-citation></ref><ref id="CIT0005"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>De Wit</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Van Doremalen</surname><given-names>N.</given-names></name>,
+<name name-style="western"><surname>Falzarano</surname><given-names>D.</given-names></name>, &#x00026; <name name-style="western"><surname>Munster</surname><given-names>V.
+J.</given-names></name></person-group> (<year>2016</year>). <article-title>SARS
+and MERS: Recent insights into emerging coronaviruses</article-title>. <source><italic toggle="yes">Nature Reviews. Microbiology</italic></source>, (<issue>8</issue>),
+<fpage>523</fpage>&#x02013;<lpage>534</lpage>. <pub-id pub-id-type="doi">10.1038/nrmicro.2016.81</pub-id><pub-id pub-id-type="pmid">27344959</pub-id></mixed-citation></ref><ref id="CIT0006"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dickens</surname><given-names>B.
+F.</given-names></name>, <name name-style="western"><surname>Weglicki</surname><given-names>W. B.</given-names></name>,
+<name name-style="western"><surname>Boehme</surname><given-names>P.
+A.</given-names></name>, &#x00026; <name name-style="western"><surname>Mak</surname><given-names>I.
+T.</given-names></name></person-group> (<year>2002</year>).
+<article-title>Antioxidant and lysosomotropic properties of acridine-propranolol:
+Protection against oxidative endothelial cell injury</article-title>. <source><italic toggle="yes">Journal of Molecular and Cellular Cardiology</italic></source>,
+(<issue>2</issue>),
+<fpage>129</fpage>&#x02013;<lpage>137</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa2001282</pub-id>
+<pub-id pub-id-type="doi">10.1006/jmcc.2001.1495</pub-id><pub-id pub-id-type="pmid">11851353</pub-id></mixed-citation></ref><ref id="CIT0007"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Friesner</surname><given-names>R.
+A.</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>R. B.</given-names></name>,
+<name name-style="western"><surname>Repasky</surname><given-names>M.
+P.</given-names></name>, <name name-style="western"><surname>Frye</surname><given-names>L. L.</given-names></name>,
+<name name-style="western"><surname>Greenwood</surname><given-names>J.
+R.</given-names></name>, <name name-style="western"><surname>Halgren</surname><given-names>T. A.</given-names></name>,
+<name name-style="western"><surname>Sanschagrin</surname><given-names>P.
+C.</given-names></name>, &#x00026; <name name-style="western"><surname>Mainz</surname><given-names>D.
+T.</given-names></name></person-group> (<year>2006</year>). <article-title>Extra
+precision glide: Docking and scoring incorporating a model of hydrophobic enclosure for
+protein-ligand complexes</article-title>. <source><italic toggle="yes">Journal of
+Medicinal Chemistry</italic></source>, (<issue>21</issue>), <fpage>6177</fpage>&#x02013;<lpage>6196</lpage>.
+<pub-id pub-id-type="doi">10.1021/jm051256o</pub-id><pub-id pub-id-type="pmid">17034125</pub-id></mixed-citation></ref><ref id="CIT0008"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Giorgio</surname><given-names>C.
+D.</given-names></name>, <name name-style="western"><surname>Shimi</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Boyer</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Delmas</surname><given-names>F.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Galy</surname><given-names>J.
+P.</given-names></name></person-group> (<year>2007</year>).
+<article-title>Synthesis and antileishmanial activity of 6-mono-substituted and
+3,6-di-substituted acridines obtained by acylation of proflavine</article-title>.
+<source><italic toggle="yes">European Journal of Medicinal
+Chemistry</italic></source>, (<issue>10</issue>), <fpage>1277</fpage>&#x02013;<lpage>1284</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ejmech.2007.02.010</pub-id><pub-id pub-id-type="pmid">17418916</pub-id></mixed-citation></ref><ref id="CIT0009"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Goodell</surname><given-names>J.
+R.</given-names></name>, <name name-style="western"><surname>Madhok</surname><given-names>A. A.</given-names></name>,
+<name name-style="western"><surname>Hiasa</surname><given-names>H.</given-names></name>, &#x00026; <name name-style="western"><surname>Ferguson</surname><given-names>D.
+M.</given-names></name></person-group> (<year>2006</year>).
+<article-title>Synthesis and evaluation of acridine- and acridone-based anti-herpes
+agents with topoisomerase activity</article-title>. <source><italic toggle="yes">Bioorganic &#x00026; Medicinal Chemistry</italic></source>, (<issue>16</issue>), <fpage>5467</fpage>&#x02013;<lpage>5480</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.bmc.2006.04.044</pub-id><pub-id pub-id-type="pmid">16713270</pub-id></mixed-citation></ref><ref id="CIT0010"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Govindarajan</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Periandy</surname><given-names>S.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Carthigayen</surname><given-names>K.</given-names></name></person-group> (<year>2012</year>).
+<article-title>FT-IR and FT-Raman spectra, thermo dynamical behavior, HOMO and LUMO, UV,
+NLO properties, computed frequency estimation analysis and electronic structure
+calculations on &#x003b1;-bromotoluene</article-title>. <source><italic toggle="yes">Spectrochimica Acta. Part A, Molecular and Biomolecular
+Spectroscopy</italic></source>, ,
+<fpage>411</fpage>&#x02013;<lpage>422</lpage>. <pub-id pub-id-type="doi">10.1016/j.saa.2012.06.028</pub-id></mixed-citation></ref><ref id="CIT0011"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gu</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Han</surname><given-names>B.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Wang</surname><given-names>J.</given-names></name></person-group> (<year>2020</year>).
+<article-title>COVID-19: Gastrointestinal manifestations and potential fecal -oral
+transmission</article-title>. <source><italic toggle="yes">Gastroenterology</italic></source>, ,
+<fpage>1518</fpage>&#x02013;<lpage>1519</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2020.02.054</pub-id><pub-id pub-id-type="pmid">32142785</pub-id></mixed-citation></ref><ref id="CIT0012"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Guo</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Mohanty</surname><given-names>U.</given-names></name>,
+<name name-style="western"><surname>Noehre</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Sawyer</surname><given-names>T. K.</given-names></name>,
+<name name-style="western"><surname>Sherman</surname><given-names>W.</given-names></name>, &#x00026; <name name-style="western"><surname>Krilov</surname><given-names>G.</given-names></name></person-group> (<year>2010</year>).
+<article-title>Probing the alpha-helical structural stability of stapled p53 peptides:
+Molecular dynamics simulations and analysis</article-title>. <source><italic toggle="yes">Chemical Biology &#x00026; Drug Design</italic></source>, (<issue>4</issue>),
+<fpage>348</fpage>&#x02013;<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1111/j.1747-0285.2010.00951.x</pub-id><pub-id pub-id-type="pmid">20331649</pub-id></mixed-citation></ref><ref id="CIT0013"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Holshue</surname><given-names>M.
+L.</given-names></name>, <name name-style="western"><surname>DeBolt</surname><given-names>C.</given-names></name>,
+<name name-style="western"><surname>Lindquist</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Lofy</surname><given-names>K. H.</given-names></name>,
+<name name-style="western"><surname>Wiesman</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Bruce</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Spitters</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Ericson</surname><given-names>K.</given-names></name>,
+<name name-style="western"><surname>Wilkerson</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Tural</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Diaz</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Cohn</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Fox</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Patel</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Gerber</surname><given-names>S.
+I.</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Tong</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Lindstrom</surname><given-names>S.</given-names></name>, &#x02026; <name name-style="western"><surname>Pillai</surname><given-names>S.
+K.</given-names></name></person-group> (<year>2020</year>). <article-title>First
+case of 2019 novel coronavirus in the United States</article-title>. <source><italic toggle="yes">New England Journal of Medicine</italic></source>, (<issue>10</issue>),
+<fpage>929</fpage>&#x02013;<lpage>936</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa2001191</pub-id><pub-id pub-id-type="pmid">32004427</pub-id></mixed-citation></ref><ref id="CIT0014"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>J.</given-names></name>, &#x00026; <name name-style="western"><surname>Hu</surname><given-names>Y.</given-names></name></person-group>
+(<year>2020</year>). <article-title>Clinical features of patients infected with 2019
+novel coronavirus in Wuhan, China</article-title>. <source><italic toggle="yes">Lancet</italic></source>, ,
+<fpage>497</fpage>&#x02013;<lpage>506</lpage>. <pub-id pub-id-type="doi">10.1016/s0140-6736(20)30183-5</pub-id></mixed-citation></ref><ref id="CIT0015"><mixed-citation publication-type="other"><person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>Q.</given-names></name>, &#x00026; <name name-style="western"><surname>Herrmann</surname><given-names>A.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Fast assessment of human receptor-binding capability of 2019 novel
+coronavirus (2019-nCoV)</article-title>. BioRxiv 930537. <pub-id pub-id-type="doi">10.1101/2020.02.01.930537</pub-id></mixed-citation></ref><ref id="CIT0016"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jacobson</surname><given-names>M.
+P.</given-names></name>, <name name-style="western"><surname>Pincus</surname><given-names>D. L.</given-names></name>,
+<name name-style="western"><surname>Rapp</surname><given-names>C.
+S.</given-names></name>, <name name-style="western"><surname>Day</surname><given-names>T. J. F.</given-names></name>,
+<name name-style="western"><surname>Honig</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Shaw</surname><given-names>D. E.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Friesner</surname><given-names>R.
+A.</given-names></name></person-group> (<year>2004</year>). <article-title>A
+hierarchical approach to all-atom protein loop prediction</article-title>.
+<source><italic toggle="yes">Proteins</italic></source>, (<issue>2</issue>), <fpage>351</fpage>&#x02013;<lpage>367</lpage>.
+<pub-id pub-id-type="doi">10.1002/prot.10613</pub-id></mixed-citation></ref><ref id="CIT0017"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jorgensen</surname><given-names>W.
+L.</given-names></name>, <name name-style="western"><surname>Chandrasekhar</surname><given-names>J.</given-names></name>,
+<name name-style="western"><surname>Madura</surname><given-names>J.
+D.</given-names></name>, <name name-style="western"><surname>Impey</surname><given-names>R. W.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Klein</surname><given-names>M.
+L.</given-names></name></person-group> (<year>1983</year>).
+<article-title>Comparison of simple potential functions for simulating liquid
+water</article-title>. <source><italic toggle="yes">The Journal of Chemical
+Physics</italic></source>, (<issue>2</issue>), <fpage>926</fpage>&#x02013;<lpage>935</lpage>. <pub-id pub-id-type="doi">10.1063/1.445869</pub-id></mixed-citation></ref><ref id="CIT0018"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Gaurav</surname><given-names>K.</given-names></name>,
+<name name-style="western"><surname>Pandiselvi</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2019</year>).
+<article-title>Novel thiazine substituted 9-anilinoacridines: Synthesis, antitumour
+activity and structure activity relationships</article-title>. <source><italic toggle="yes">Anti-Cancer Agents in Medicinal Chemistry</italic></source>,
+(<issue>11</issue>),
+<fpage>1350</fpage>&#x02013;<lpage>1358</lpage>. <pub-id pub-id-type="doi">10.2174/1871520619666190408134224</pub-id><pub-id pub-id-type="pmid">30961512</pub-id></mixed-citation></ref><ref id="CIT0019"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2017</year>).
+<article-title>Molecular docking studies and <italic>in silico</italic>
+ADMET screening of some novel heterocyclic substituted 9-anilinoacridines as
+topoisomerase II inhibitors</article-title>. <source><italic toggle="yes">JSM
+Chemistry</italic></source>, (<issue>1</issue>),
+<fpage>1039</fpage>&#x02013;<lpage>1044</lpage>.</mixed-citation></ref><ref id="CIT0020"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Kulshrestha</surname><given-names>V.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2018</year>).
+<article-title>Synthesis, characterization and evaluation for antitumour activity of
+some novel oxazine substituted 9-anilinoacridines and their 3D-QSAR
+studies</article-title>. <source><italic toggle="yes">Indian Journal of Pharmaceutical
+Sciences</italic></source>, (<issue>5</issue>), <fpage>921</fpage>&#x02013;<lpage>929</lpage>. <pub-id pub-id-type="doi">10.4172/pharmaceutical-sciences.1000439</pub-id></mixed-citation></ref><ref id="CIT0021"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Kulshrestha</surname><given-names>V.</given-names></name>,
+<name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name></person-group> (<year>2012</year>).
+<article-title>Docking studies, synthesis, characterization of some novel oxazine
+substituted 9-anilinoacridine derivatives and evaluation for their antioxidant and
+anticancer activities as topoisomerase II inhibitors</article-title>. <source><italic toggle="yes">European Journal of Medicinal Chemistry</italic></source>,
+,
+<fpage>217</fpage>&#x02013;<lpage>224</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejmech.2012.08.025</pub-id></mixed-citation></ref><ref id="CIT0022"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Mohammed Rafick</surname><given-names>M. H.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2012</year>).
+<article-title>Docking studies, synthesis, characterization and evaluation of their
+antioxidant and cytotoxic activities of some novel isoxazole substituted
+9-anilinoacridine derivatives</article-title>. <source><italic toggle="yes">The
+Scientific World Journal</italic></source>, , <fpage>1</fpage>&#x02013;<lpage>6</lpage>. 2012. <pub-id pub-id-type="doi">10.1100/2012/165258,</pub-id></mixed-citation></ref><ref id="CIT0023"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Mohammed Rafick</surname><given-names>M. H.</given-names></name>,
+<name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name></person-group> (<year>2018</year>).
+<article-title>Green synthesis of some novel chalcone and isoxazole substituted
+9-anilinoacridine derivatives and evaluation of their antimicrobial and larvicidal
+activities</article-title>. <source><italic toggle="yes">Indian Journal of
+Chemistry</italic></source>, ,
+<fpage>583</fpage>&#x02013;<lpage>590</lpage>.</mixed-citation></ref><ref id="CIT0024"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Muralidharan</surname><given-names>V.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>,
+<name name-style="western"><surname>Gomathy</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Elango</surname><given-names>K.</given-names></name></person-group> (<year>2012</year>).
+<article-title>Synthesis of some novel pyrazole substituted 9-anilinoacridine
+derivatives and evaluation for their antioxidant and cytotoxic
+activities</article-title>. <source><italic toggle="yes">Journal of Heterocyclic
+Chemistry</italic></source>, (<issue>4</issue>), <fpage>748</fpage>&#x02013;<lpage>754</lpage>. <pub-id pub-id-type="doi">10.1002/jhet.848</pub-id></mixed-citation></ref><ref id="CIT0025"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Muralidharan</surname><given-names>V.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2013</year>).
+<article-title>Microwave assisted synthesis, characterization and evaluation for their
+antimicrobial activities of some novel pyrazole substituted 9-anilino acridine
+derivatives</article-title>. <source><italic toggle="yes">International Journal of
+Health &#x00026; Allied Sciences</italic></source>, (<issue>2</issue>), <fpage>81</fpage>&#x02013;<lpage>87</lpage>. <pub-id pub-id-type="doi">10.4103/2278-344X.115682</pub-id></mixed-citation></ref><ref id="CIT0026"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Pandiselvi</surname><given-names>A.</given-names></name>,
+<name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>, &#x00026; <name name-style="western"><surname>Balachandran</surname><given-names>P.</given-names></name></person-group> (<year>2019</year>).
+<article-title><italic>In-silico</italic> design, ADMET screening,
+MM-GBSA binding free energy of some novel isoxazole substituted 9-anilinoacridines as
+HER2 inhibitors targeting breast cancer</article-title>. <source><italic toggle="yes">Current Drug Research Reviews</italic></source>, (<issue>2</issue>), <fpage>118</fpage>&#x02013;<lpage>128</lpage>.
+<pub-id pub-id-type="doi">10.2174/2589977511666190912154817</pub-id><pub-id pub-id-type="pmid">31513003</pub-id></mixed-citation></ref><ref id="CIT0027"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Rathore</surname><given-names>L.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>,
+<name name-style="western"><surname>Gomathy</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name></person-group> (<year>2011</year>).
+<article-title>Microwave assisted synthesis of some novel pyrazole substituted
+benzimidazoles and evaluation of their biological activities</article-title>.
+<source><italic toggle="yes">Indian Journal of Chemistry</italic></source>,
+,
+<fpage>1794</fpage>&#x02013;<lpage>1801</lpage>. <pub-id pub-id-type="doi">10.1002/chin.201216123</pub-id></mixed-citation></ref><ref id="CIT0028"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Sankar</surname><given-names>S.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, and., &#x00026; <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name></person-group> (<year>2017</year>).
+<article-title>Molecular docking studies and <italic>in-silico</italic>
+ADMET screening of some novel oxazine substituted 9-anilinoacridines as topoisomerase II
+inhibitors</article-title>. <source><italic toggle="yes">Indian Journal of
+Pharmaceutical Education and Research</italic></source>, (<issue>1</issue>), <fpage>110</fpage>&#x02013;<lpage>115</lpage>.
+<pub-id pub-id-type="doi">10.5530/ijper.51.1.15</pub-id></mixed-citation></ref><ref id="CIT0029"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kalirajan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Sivakumar</surname><given-names>S. U.</given-names></name>,
+<name name-style="western"><surname>Jubie</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Gowramma</surname><given-names>B.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Suresh</surname><given-names>B.</given-names></name></person-group> (<year>2009</year>).
+<article-title>Synthesis and biological evaluation of some heterocyclic derivatives of
+chalcones</article-title>. <source><italic toggle="yes">International Journal of
+Chemical Science</italic></source>, (<issue>1</issue>),
+<fpage>27</fpage>&#x02013;<lpage>34</lpage>.</mixed-citation></ref><ref id="CIT0031"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kapuriya</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Kapuriya</surname><given-names>K.</given-names></name>,
+<name name-style="western"><surname>Zhang</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Chou</surname><given-names>T.-C.</given-names></name>,
+<name name-style="western"><surname>Kakadiya</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>Y.-T.</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>T.-H.</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y.-T.</given-names></name>,
+<name name-style="western"><surname>Lee</surname><given-names>T.-C.</given-names></name>, <name name-style="western"><surname>Shah</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Naliapara</surname><given-names>Y.</given-names></name>, &#x00026; <name name-style="western"><surname>Su</surname><given-names>T.-L.</given-names></name></person-group> (<year>2008</year>).
+<article-title>Synthesis and biological activity of stable and potent antitumor agents,
+aniline nitrogen mustards linked to 9-anilinoacridines via a urea
+linkage</article-title>. <source><italic toggle="yes">Bioorganic &#x00026; Medicinal
+Chemistry</italic></source>, (<issue>10</issue>), <fpage>5413</fpage>&#x02013;<lpage>5423</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.bmc.2008.04.024</pub-id><pub-id pub-id-type="pmid">18450456</pub-id></mixed-citation></ref><ref id="CIT0032"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Abel</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Cao</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>S.</given-names></name>, &#x00026; <name name-style="western"><surname>Friesner</surname><given-names>R.
+A.</given-names></name></person-group> (<year>2011</year>). <article-title>The
+VSGB 2.0 model: A next generation energy model for high resolution protein structure
+modeling</article-title>. <source><italic toggle="yes">Proteins</italic></source>,
+(<issue>10</issue>),
+<fpage>2794</fpage>&#x02013;<lpage>2812</lpage>. <pub-id pub-id-type="doi">10.1002/prot.23106</pub-id><pub-id pub-id-type="pmid">21905107</pub-id></mixed-citation></ref><ref id="CIT0033"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Llama</surname><given-names>E.
+F.</given-names></name>, <name name-style="western"><surname>Campo</surname><given-names>C. D.</given-names></name>,
+<name name-style="western"><surname>Capo</surname><given-names>M.</given-names></name>, &#x00026; <name name-style="western"><surname>Anadon</surname><given-names>M.</given-names></name></person-group> (<year>1989</year>).
+<article-title>Synthesis and antinociceptive activity of 9-phenyl-oxy or 9-acyl-oxy
+derivatives of xanthene, thioxanthene and acridine</article-title>. <source><italic toggle="yes">European Journal of Medicinal Chemistry</italic></source>,
+(<issue>4</issue>),
+<fpage>391</fpage>&#x02013;<lpage>396</lpage>. <pub-id pub-id-type="doi">10.1016/0223-5234(89)90083-4</pub-id></mixed-citation></ref><ref id="CIT0034"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lu</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>X.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Li</surname><given-names>J.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Genomic characterisation and epidemiology of 2019 novel coronavirus:
+Implications for virus origins and receptor binding</article-title>. <source><italic toggle="yes">Lancet</italic></source>, (<issue>10224</issue>), <fpage>565</fpage>&#x02013;<lpage>574</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0140-6736(20)3025</pub-id></mixed-citation></ref><ref id="CIT0035"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martyna</surname><given-names>G.
+J.</given-names></name>, <name name-style="western"><surname>Klein</surname><given-names>M. L.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Tuckerman</surname><given-names>M.</given-names></name></person-group> (<year>1992</year>).
+<article-title>Nose- Hoover chains-the canonical ensemble via continuous
+dynamics</article-title>. <source><italic toggle="yes">The Journal of Chemical
+Physics</italic></source>, (<issue>4</issue>), <fpage>2635</fpage>&#x02013;<lpage>2643</lpage>.
+<pub-id pub-id-type="doi">10.1063/1.463940</pub-id></mixed-citation></ref><ref id="CIT0036"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martyna</surname><given-names>G.
+J.</given-names></name>, <name name-style="western"><surname>Tobias</surname><given-names>D. J.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Klein</surname><given-names>M.
+L.</given-names></name></person-group> (<year>1994</year>).
+<article-title>Constant-pressure molecular dynamics algorithms</article-title>.
+<source><italic toggle="yes">The Journal of Chemical Physics</italic></source>,
+(<issue>5</issue>),
+<fpage>4177</fpage>&#x02013;<lpage>4189</lpage>. <pub-id pub-id-type="doi">10.1063/1.467468</pub-id></mixed-citation></ref><ref id="CIT0037"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nadaraj</surname><given-names>V.</given-names></name>, <name name-style="western"><surname>Selvi</surname><given-names>S. T.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Mohan</surname><given-names>S.</given-names></name></person-group> (<year>2009</year>).
+<article-title>Microwave-induced synthesis and anti-microbial activities of
+7,10,11,12-tetrahydrobenzo[c]acridin-8(9H)-one derivatives</article-title>.
+<source><italic toggle="yes">European Journal of Medicinal
+Chemistry</italic></source>, (<issue>3</issue>), <fpage>976</fpage>&#x02013;<lpage>980</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejmech.2008.07.004</pub-id><pub-id pub-id-type="pmid">18718695</pub-id></mixed-citation></ref><ref id="CIT0040"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rastogi</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Chang</surname><given-names>J.-Y.</given-names></name>,
+<name name-style="western"><surname>Pan</surname><given-names>W.-Y.</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>C.-H.</given-names></name>,
+<name name-style="western"><surname>Chou</surname><given-names>T.-C.</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>L.-T.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Su</surname><given-names>T.-L.</given-names></name></person-group> (<year>2002</year>).
+<article-title>Antitumor AHMA linked to DNA minor groove binding agents: Synthesis and
+biological evaluation</article-title>. <source><italic toggle="yes">Journal of Medicinal
+Chemistry</italic></source>, (<issue>20</issue>), <fpage>4485</fpage>&#x02013;<lpage>4493</lpage>.
+<pub-id pub-id-type="doi">10.1021/jm0200714</pub-id><pub-id pub-id-type="pmid">12238927</pub-id></mixed-citation></ref><ref id="CIT0041"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Recanatini</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Cavalli</surname><given-names>A.</given-names></name>,
+<name name-style="western"><surname>Belluti</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Piazzi</surname><given-names>L.</given-names></name>,
+<name name-style="western"><surname>Rampa</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Bisi</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Gobbi</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Valenti</surname><given-names>P.</given-names></name>,
+<name name-style="western"><surname>Andrisano</surname><given-names>V.</given-names></name>, <name name-style="western"><surname>Bartolini</surname><given-names>M.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Cavrini</surname><given-names>V.</given-names></name></person-group> (<year>2000</year>).
+<article-title>SAR of 9-amino-1,2,3,4-tetrahydroacridine-based acetylcholinesterase
+inhibitors: synthesis, enzyme inhibitory activity, QSAR, and structure-based CoMFA of
+tacrine analogues</article-title> . <source><italic toggle="yes">Journal of Medicinal
+Chemistry</italic></source>, (<issue>10</issue>), <fpage>2007</fpage>&#x02013;<lpage>2018</lpage>.
+<pub-id pub-id-type="doi">10.1021/jm990971t</pub-id><pub-id pub-id-type="pmid">10821713</pub-id></mixed-citation></ref><ref id="CIT0042"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sastry</surname><given-names>G.
+M.</given-names></name>, <name name-style="western"><surname>Adzhigirey</surname><given-names>M.</given-names></name>,
+<name name-style="western"><surname>Day</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Annabhimoju</surname><given-names>R.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Sherman</surname><given-names>W.</given-names></name></person-group> (<year>2013</year>).
+<article-title>Protein and ligand preparation: Parameters, protocols, and influence on
+virtual screening enrichments</article-title>. <source><italic toggle="yes">Journal of
+Computer-Aided Molecular Design</italic></source>, (<issue>3</issue>), <fpage>221</fpage>&#x02013;<lpage>234</lpage>.
+<pub-id pub-id-type="doi">10.1007/s10822-013-9644-8</pub-id><pub-id pub-id-type="pmid">23579614</pub-id></mixed-citation></ref><ref id="CIT0043"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sondhi</surname><given-names>S.
+M.</given-names></name>, <name name-style="western"><surname>Johar</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Nirupama</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Sukla</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Raghubir</surname><given-names>R.</given-names></name>, &#x00026; <name name-style="western"><surname>Dastidar</surname><given-names>S.
+G.</given-names></name></person-group> (<year>2002</year>).
+<article-title>Synthesis of sulpha drug acridine derivatives and their evaluation for
+anti-anflammatory, analgesic and anticancer activity</article-title>. <source><italic toggle="yes">Indian Journal of Chemistry</italic></source>, ,
+<fpage>2659</fpage>&#x02013;<lpage>2666</lpage>.</mixed-citation></ref><ref id="CIT0044"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Song</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Bao</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Qu</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Han</surname><given-names>Y.</given-names></name>, &#x00026; <name name-style="western"><surname>Qin</surname><given-names>C.</given-names></name></person-group>
+(<year>2019</year>). <article-title>From SARS to MERS, thrusting coronaviruses into the
+spotlight</article-title>. <source><italic toggle="yes">Viruses</italic></source>,
+(<issue>1</issue>),
+<fpage>59</fpage>
+<pub-id pub-id-type="doi">10.3390/v11010059</pub-id></mixed-citation></ref><ref id="CIT0045"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>To</surname><given-names>K.
+K.</given-names></name>, <name name-style="western"><surname>Tsang</surname><given-names>O. T.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Chik-Yan Yip</surname><given-names>C.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Consistent detection of 2019 novel coronavirus in saliva</article-title>.
+<source><italic toggle="yes">Clinical Infectious Diseases</italic></source>. <pub-id pub-id-type="doi">10.1093/cid/ciaa149</pub-id></mixed-citation></ref><ref id="CIT0046"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wakelin</surname><given-names>L. P.
+G.</given-names></name>, <name name-style="western"><surname>Bu</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Eleftheriou</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Parmar</surname><given-names>A.</given-names></name>,
+<name name-style="western"><surname>Hayek</surname><given-names>C.</given-names></name>, &#x00026; <name name-style="western"><surname>Stewart</surname><given-names>B.
+W.</given-names></name></person-group> (<year>2003</year>).
+<article-title>Bisintercalating threading diacridines: Relationships between DNA
+binding, cytotoxicity, and cell cycle arrest</article-title>. <source><italic toggle="yes">Journal of Medicinal Chemistry</italic></source>, (<issue>26</issue>),
+<fpage>5790</fpage>&#x02013;<lpage>5802</lpage>. <pub-id pub-id-type="doi">10.1021/jm030253d</pub-id><pub-id pub-id-type="pmid">14667232</pub-id></mixed-citation></ref><ref id="CIT0047"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wang</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Hu</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Hu</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Xiang</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Xiong</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>, &#x00026; <name name-style="western"><surname>Peng</surname><given-names>Z.</given-names></name></person-group>
+(<year>2020</year>). <article-title>Clinical characteristics of 138 hospitalized
+patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China</article-title>.
+<source><italic toggle="yes">JAMA</italic></source>, (<issue>11</issue>), <fpage>1061</fpage>
+<pub-id pub-id-type="doi">10.1001/jama.2020.1585</pub-id></mixed-citation></ref><ref id="CIT0048"><mixed-citation publication-type="other"><person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Kang</surname><given-names>Z. J.</given-names></name>, &#x00026;
+<name name-style="western"><surname>Gong</surname><given-names>H.
+Y.</given-names></name></person-group> (<year>2020</year>).
+<article-title>The digestive system is a potential route of 2019-nCov infection: A
+bioinformatics analysis based on single-cell transcriptomes</article-title>. BioRxiv
+927806. <pub-id pub-id-type="doi">10.1101/2020.01.30.927806</pub-id></mixed-citation></ref><ref id="CIT0049"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhou</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Hou</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>W.</given-names></name>, &#x00026; <name name-style="western"><surname>Cheng</surname><given-names>F.</given-names></name></person-group> (<year>2020</year>).
+<article-title>Network-based drug repurposing for novel coronavirus
+2019-nCoV/SARS-CoV-2</article-title>. <source><italic toggle="yes">Cell
+Discovery</italic></source>, ,
+<fpage>14</fpage>&#x02013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1038/s41421-020-0153-3</pub-id><pub-id pub-id-type="pmid">32194980</pub-id></mixed-citation></ref><ref id="CIT0050"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhou</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>X.-L.</given-names></name>,
+<name name-style="western"><surname>Wang</surname><given-names>X.-G.</given-names></name>, <name name-style="western"><surname>Hu</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Si</surname><given-names>H.-R.</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>C.-L.</given-names></name>,
+<name name-style="western"><surname>Chen</surname><given-names>H.-D.</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Luo</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Guo</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>R.-D.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>M.-Q.</given-names></name>,
+<name name-style="western"><surname>Chen</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>X.-R.</given-names></name>,
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>, &#x02026; <name name-style="western"><surname>Shi</surname><given-names>Z.-L.</given-names></name></person-group> (<year>2020</year>).
+<article-title>A pneumonia outbreak associated with a new coronavirus of probable bat
+origin</article-title>. <source><italic toggle="yes">Nature</italic></source>,
+(<issue>7798</issue>),
+<fpage>270</fpage>&#x02013;<lpage>273</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-020-2012-7,</pub-id><pub-id pub-id-type="pmid">32015507</pub-id></mixed-citation></ref></ref-list></back></article>

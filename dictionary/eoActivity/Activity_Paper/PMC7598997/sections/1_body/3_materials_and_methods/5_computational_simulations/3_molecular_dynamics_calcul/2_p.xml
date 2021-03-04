@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MD calculations were carried out with the Desmond
+ <xref rid="CIT0034" ref-type="bibr">
+  <sup>34</sup>
+ </xref>
+ <sup>,</sup>
+ <xref rid="CIT0035" ref-type="bibr">
+  <sup>35</sup>
+ </xref> program of the Schrodinger suit. OPLS3e forcefield
+ <xref rid="CIT0036" ref-type="bibr">
+  <sup>36</sup>
+ </xref> in combination with SPC explicit water model was applied in physiological salt concentration. Orthorhombic box with 10 Å buffer size was set up, and single strand 250 ns long NPT MD running was performed at 310 K after the relaxation of the system. The Nose–Hoover
+ <xref rid="CIT0037" ref-type="bibr">
+  <sup>37</sup>
+ </xref> thermostat and Martyna–Tobias–Klein barostat were applied with default relaxation times. The MMGBSA interaction energies were determined by taking 250 snapshots periodically from the MD trajectories and the thermal_mmgbsa.py script of the Desmond program was applied to calculate the binding free energy of a ligand.
+</p>

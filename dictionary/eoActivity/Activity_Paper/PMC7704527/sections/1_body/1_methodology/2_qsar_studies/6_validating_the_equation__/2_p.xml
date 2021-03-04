@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Where: 
+ <italic>SEE</italic> is the Standard Estimated Error. If SEE is small, it suggests an enhanced equation. SEE is expressed below;
+ <disp-formula id="Equc">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{SEE}=\sqrt{\frac{{\left({Y}_{exp}-{Y}_{pred}\right)}^2}{N-P-1}} $$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mi>SEE</mi>
+    <mo>=</mo>
+    <msqrt>
+     <mfrac>
+      <msup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>Y</mi>
+          <mi mathvariant="italic">exp</mi>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>Y</mi>
+          <mtext mathvariant="italic">pred</mtext>
+         </msub>
+        </mrow>
+       </mfenced>
+       <mn>2</mn>
+      </msup>
+      <mrow>
+       <mi>N</mi>
+       <mo>−</mo>
+       <mi>P</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </mfrac>
+    </msqrt>
+   </math>
+   <graphic xlink:href="10863_2020_9858_Article_Equc.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

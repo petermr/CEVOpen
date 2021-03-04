@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Previously, some of us have built the Indian Medicinal Plants, Phytochemistry And Therapeutics (IMPPAT) database [
+ <xref rid="B28-molecules-25-03822" ref-type="bibr">28</xref>] which is the largest resource on phytochemicals of Indian herbs to date. For this study, we compiled a ligand library of 14,011 phytochemicals by augmenting the information in IMPPAT [
+ <xref rid="B28-molecules-25-03822" ref-type="bibr">28</xref>] with additional information compiled from other literature sources [
+ <xref rid="B61-molecules-25-03822" ref-type="bibr">61</xref>,
+ <xref rid="B62-molecules-25-03822" ref-type="bibr">62</xref>,
+ <xref rid="B63-molecules-25-03822" ref-type="bibr">63</xref>,
+ <xref rid="B64-molecules-25-03822" ref-type="bibr">64</xref>,
+ <xref rid="B65-molecules-25-03822" ref-type="bibr">65</xref>,
+ <xref rid="B66-molecules-25-03822" ref-type="bibr">66</xref>,
+ <xref rid="B67-molecules-25-03822" ref-type="bibr">67</xref>,
+ <xref rid="B68-molecules-25-03822" ref-type="bibr">68</xref>,
+ <xref rid="B69-molecules-25-03822" ref-type="bibr">69</xref>,
+ <xref rid="B70-molecules-25-03822" ref-type="bibr">70</xref>]. Thereafter, the widely used drug-likeness measure, Lipinski’s rule of five (RO5) [
+ <xref rid="B29-molecules-25-03822" ref-type="bibr">29</xref>], was employed to filter the potential drug-like molecules within the ligand library of 14,011 phytochemicals. Specifically, 10,510 phytochemicals passed the R05 drug-likeness filter. We then retrieved the three-dimensional (3D) structures of these phytochemicals from Pubchem [
+ <xref rid="B30-molecules-25-03822" ref-type="bibr">30</xref>]. Next the 3D structures of the drug-like phytochemicals were energy-minimized using 
+ <italic>obminimize</italic> within the OpenBabel toolbox [
+ <xref rid="B31-molecules-25-03822" ref-type="bibr">31</xref>]. Finally, the energy-minimized 3D structures of ligands in .sdf format were converted to .pdb format using OpenBabel.
+</p>

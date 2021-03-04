@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="eqn4">
+ <math id="m4">
+  <mtext>% Inhibition</mtext>
+  <mo>=</mo>
+  <mrow>
+   <mo>[</mo>
+   <mrow>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msub>
+       <mi>A</mi>
+       <mrow>
+        <mtext>control</mtext>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <msub>
+       <mi>A</mi>
+       <mrow>
+        <mtext>extract</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>/</mo>
+    <msub>
+     <mi>A</mi>
+     <mrow>
+      <mtext>control</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+   <mo>]</mo>
+  </mrow>
+  <mo>×</mo>
+  <mn>100</mn>
+ </math>
+</disp-formula>

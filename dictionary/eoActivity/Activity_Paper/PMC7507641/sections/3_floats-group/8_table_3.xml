@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Effects of growth years and species on endophytic bacterial community richness index and diversity index</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Source</th>
+    <th/>
+    <th>Type III Sum of Squares</th>
+    <th>Degrees of freedom</th>
+    <th>Mean Square</th>
+    <th>F</th>
+    <th>
+     <bold>
+      <italic>p</italic>
+     </bold> value
+    </th>
+    <th>Partial Eta Squared</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4">year</td>
+    <td>Shannon</td>
+    <td>3.157</td>
+    <td>2</td>
+    <td>1.578</td>
+    <td>1.540</td>
+    <td>0.241</td>
+    <td>0.146</td>
+   </tr>
+   <tr>
+    <td>Simpson</td>
+    <td>0.009</td>
+    <td>2</td>
+    <td>0.004</td>
+    <td>1.401</td>
+    <td>0.272</td>
+    <td>0.135</td>
+   </tr>
+   <tr>
+    <td>Chao1</td>
+    <td>21,992.749</td>
+    <td>2</td>
+    <td>10,996.375</td>
+    <td>0.659</td>
+    <td>0.530</td>
+    <td>0.068</td>
+   </tr>
+   <tr>
+    <td>ACE</td>
+    <td>21,955.833</td>
+    <td>2</td>
+    <td>10,977.917</td>
+    <td>0.728</td>
+    <td>0.496</td>
+    <td>0.075</td>
+   </tr>
+   <tr>
+    <td rowspan="4">species</td>
+    <td>Shannon</td>
+    <td>4.650</td>
+    <td>2</td>
+    <td>2.325</td>
+    <td>2.269</td>
+    <td>0.132</td>
+    <td>0.201</td>
+   </tr>
+   <tr>
+    <td>Simpson</td>
+    <td>0.006</td>
+    <td>2</td>
+    <td>0.003</td>
+    <td>0.934</td>
+    <td>0.411</td>
+    <td>0.094</td>
+   </tr>
+   <tr>
+    <td>Chao1</td>
+    <td>41,731.275</td>
+    <td>2</td>
+    <td>20,865.638</td>
+    <td>1.250</td>
+    <td>0.310</td>
+    <td>0.122</td>
+   </tr>
+   <tr>
+    <td>ACE</td>
+    <td>32,540.035</td>
+    <td>2</td>
+    <td>16,270.017</td>
+    <td>1.079</td>
+    <td>0.361</td>
+    <td>0.107</td>
+   </tr>
+   <tr>
+    <td rowspan="4">year*species</td>
+    <td>Shannon</td>
+    <td>7.272</td>
+    <td>4</td>
+    <td>1.818</td>
+    <td>1.774</td>
+    <td>0.178</td>
+    <td>0.283</td>
+   </tr>
+   <tr>
+    <td>Simpson</td>
+    <td>0.016</td>
+    <td>4</td>
+    <td>0.004</td>
+    <td>1.246</td>
+    <td>0.327</td>
+    <td>0.217</td>
+   </tr>
+   <tr>
+    <td>Chao1</td>
+    <td>129,404.800</td>
+    <td>4</td>
+    <td>32,351.200</td>
+    <td>1.938</td>
+    <td>0.148</td>
+    <td>0.301</td>
+   </tr>
+   <tr>
+    <td>ACE</td>
+    <td>121,953.430</td>
+    <td>4</td>
+    <td>30,488.357</td>
+    <td>2.023</td>
+    <td>0.134</td>
+    <td>0.310</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Description: Description: 
+   <italic>P</italic> &lt; 0.05 indicates statistical significance
+  </p>
+ </table-wrap-foot>
+</table-wrap>

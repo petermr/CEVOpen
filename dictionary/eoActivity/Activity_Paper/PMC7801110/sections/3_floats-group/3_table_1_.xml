@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Assignment of the peaks observed by ESI-MS for the digestion of NPFF and NPAF solutions by IDE.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Peptide</th>
+    <th align="center">RT [min]</th>
+    <th align="center">Calculated (
+     <italic toggle="yes">m/z</italic>)
+    </th>
+    <th align="center">Experimental (
+     <italic toggle="yes">m/z</italic>)
+    </th>
+    <th align="center">Sequence</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td rowspan="2">NPFF</td>
+    <td align="char" char=".">
+     <bold>25.6</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>779.4</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>779.3</bold>
+    </td>
+    <td align="left">
+     <bold>HPhe-Leu-Phe-Gln-Pro-GlnOH</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="char" char=".">26</td>
+    <td align="char" char=".">1082.6</td>
+    <td align="char" char=".">1082.5</td>
+    <td align="left">HPhe-Leu-Phe-Gln-Pro-Gln-Arg-PheOH</td>
+   </tr>
+   <tr>
+    <td rowspan="6">NPAF</td>
+    <td align="char" char=".">
+     <bold>25.9</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1137.5</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1137.3</bold>
+    </td>
+    <td align="left">
+     <bold>HAla-Gly-Glu-Gly-Leu-Ser-Ser-Pro-Phe-Trp-SerOH</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="char" char=".">
+     <bold>26.7</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1617.8</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1617.8</bold>
+    </td>
+    <td align="left">
+     <bold>HAla-Gly-Glu-Gly-Leu-Ser-Ser-Pro-Phe-Trp-Ser-Leu-Ala-Ala-Pro-GlnOH</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="char" char=".">26.8</td>
+    <td align="char" char=".">1663.8</td>
+    <td align="char" char=".">1663.7</td>
+    <td align="left">HGly-Leu-Ser-Ser-Pro-Phe-Trp-Ser-Leu-Ala-Ala-Pro-Gln-Arg-PheOH</td>
+   </tr>
+   <tr>
+    <td align="char" char=".">27.0</td>
+    <td align="char" char=".">1920.9</td>
+    <td align="char" char=".">1921.0</td>
+    <td align="left">HAla-Gly-Glu-Gly-Leu-Ser-Ser-Pro-Phe-Trp-Ser-Leu-Ala-Ala-Pro-Gln-Arg-PheOH</td>
+   </tr>
+   <tr>
+    <td align="char" char=".">27.3</td>
+    <td align="char" char=".">1489.7</td>
+    <td align="char" char=".">1489.8</td>
+    <td align="left">HGlu-Gly-Leu-Ser-Ser-Pro-Phe-Trp-Ser-Leu-Ala-Ala-Pro-GlnOH</td>
+   </tr>
+   <tr>
+    <td align="char" char=".">
+     <bold>27.6</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1250.6</bold>
+    </td>
+    <td align="char" char=".">
+     <bold>1250.5</bold>
+    </td>
+    <td align="left">
+     <bold>HAla-Gly-Glu-Gly-Leu-Ser-Ser-Pro-Phe-Trp-Ser-LeuOH</bold>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF1">
+   <p>The most intense peaks, used for assessing the kinetics of peptide degradation, are in bold.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

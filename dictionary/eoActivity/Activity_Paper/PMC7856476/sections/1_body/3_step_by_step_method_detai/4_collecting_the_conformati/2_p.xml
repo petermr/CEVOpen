@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0330">After the molecular dynamics simulation, we collected the representative conformations from the equilibrated simulation trajectories. Consideration of structural flexibility has an effect on the accuracy of binding free energy calculation. Predicting free energy changes using structural ensembles has better performance than that using static structures (
+ <xref rid="bib1" ref-type="bibr">Benedix et al., 2009</xref>).
+ <list list-type="simple" id="olist0050">
+  <list-item id="o0120">
+   <label>11.</label>
+   <p id="p0335">50 snapshots are extracted from the last 1 ns simulation trajectory by the cpptraj module in Amber program.</p>
+  </list-item>
+ </list>
+</p>

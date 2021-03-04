@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Aiming to define the molecular target for the best two lead compounds, the crystal structures of both DprE1 and InhA enzymes of TB were downloaded from the Protein data bank ID: 4NCR and 2B35, respectively
+ <xref rid="CIT0042" ref-type="bibr">
+  <sup>42</sup>
+ </xref>
+ <sup>,</sup>
+ <xref rid="CIT0043" ref-type="bibr">
+  <sup>43</sup>
+ </xref>. Vina Autodock software was implemented in the current work to conduct the docking studies. The program demands both the ligand and the receptor in the pdbqt format, for that, M.G.L tools were used to prepare the two enzymes and the ligands into the right format
+ <xref rid="CIT0044" ref-type="bibr">
+  <sup>44</sup>
+ </xref>. Also, the active sites were determined by generating a grid box sized 24 × 24 × 24 Å surrounding the binding domain of each co-crystallised ligand with its corresponding enzyme (centre_x = 17.3, centre_y = −20 and centre_z = 3.4 for 4ncr and centre_x = 17, centre_y = 12.5 and centre_z = 10.5 for 2b35). Docking validity and reliability were ensured by re-docking each co-crystallised ligands with their corresponding enzyme, then calculating the RMSD between the co-crystallised pose and the docked pose. Discovery studio 4.5 visualiser was employed in the analysis of docking results as well as in the evaluation of best candidates based on binding affinity score and interaction with receptor
+ <xref rid="CIT0045" ref-type="bibr">
+  <sup>45</sup>
+ </xref>.
+</p>

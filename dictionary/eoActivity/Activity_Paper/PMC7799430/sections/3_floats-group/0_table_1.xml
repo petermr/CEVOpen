@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Dock score of interaction between phytochemicals from 
+   <italic>Phyllanthus amarus</italic> and 
+   <italic>Andrographis paniculata</italic> with SARS-CoV-2 proteins; S protein [PDB ID:6VSB,6VXX (closed), 6YVB (open)], 3 chymotrypsin like protease (3CLpro) (PDB ID:6LU7), papain like protease (PLpro) (PDB ID:4OVZ) and RNA-dependent RNA polymerase (RdRp) (PDB ID:6NUS)
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="2">Group</th>
+    <th align="left" rowspan="2">Sl. No.</th>
+    <th align="left" rowspan="2">Compound</th>
+    <th align="left">S protein</th>
+    <th align="left">S protein (Closed)</th>
+    <th align="left">S protein (Open)</th>
+    <th align="left">3CLpro</th>
+    <th align="left">PLpro</th>
+    <th align="left">RdRp</th>
+   </tr>
+   <tr>
+    <th align="left">Binding affinity (kcal/mol)</th>
+    <th align="left">Binding affinity (kcal/mol)</th>
+    <th align="left">Binding affinity (kcal/mol)</th>
+    <th align="left">Binding affinity (kcal/mol)</th>
+    <th align="left">Binding affinity (kcal/mol)</th>
+    <th align="left">Binding affinity (kcal/mol)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Positive control</td>
+    <td align="left">1</td>
+    <td align="left">Remdesivir</td>
+    <td char="." align="char">− 8.00</td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">− 8.50</td>
+    <td char="." align="char">− 7.90</td>
+    <td char="." align="char">− 9.50</td>
+    <td char="." align="char">− 7.60</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9">Phytochemicals from 
+     <italic>P.amarus</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="4"> Alkaloids</td>
+    <td align="left">1</td>
+    <td align="left">Epibubbialine</td>
+    <td char="." align="char">− 6.80</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 6.70</td>
+    <td char="." align="char">− 5.90</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 6.30</td>
+   </tr>
+   <tr>
+    <td align="left">2</td>
+    <td align="left">Isobubbialine</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 8.20</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 6.00</td>
+    <td char="." align="char">− 7.70</td>
+    <td char="." align="char">− 6.40</td>
+   </tr>
+   <tr>
+    <td align="left">3</td>
+    <td align="left">nor-securinine</td>
+    <td char="." align="char">− 6.80</td>
+    <td char="." align="char">− 7.20</td>
+    <td char="." align="char">− 7.20</td>
+    <td char="." align="char">− 5.70</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 6.80</td>
+   </tr>
+   <tr>
+    <td align="left">4</td>
+    <td align="left">Securinine</td>
+    <td char="." align="char">− 7.10</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 7.10</td>
+    <td char="." align="char">− 5.90</td>
+    <td char="." align="char">− 7.70</td>
+    <td char="." align="char">− 7.30</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="5"> Flavonoids</td>
+    <td align="left">5</td>
+    <td align="left">Astragalin*</td>
+    <td char="." align="char">
+     <bold>− 9.80</bold>
+    </td>
+    <td char="." align="char">− 8.30</td>
+    <td char="." align="char">− 8.30</td>
+    <td char="." align="char">− 
+     <bold>8.40</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.70</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 7.60</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">6</td>
+    <td align="left">Kaempferol*</td>
+    <td char="." align="char">
+     <bold>− 8.30</bold>
+    </td>
+    <td char="." align="char">− 8.30</td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">− 7.70</td>
+    <td char="." align="char">
+     <bold>− 9.60</bold>
+    </td>
+    <td char="." align="char">− 7.00</td>
+   </tr>
+   <tr>
+    <td align="left">7</td>
+    <td align="left">Quercetin*</td>
+    <td char="." align="char">
+     <bold>− 8.10</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.80</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.80</bold>
+    </td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 8.60</td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">8</td>
+    <td align="left">Quercetin-3-
+     <italic>O</italic>-glucoside*
+    </td>
+    <td char="." align="char">
+     <bold>− 9.80</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.20</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 10.30</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 7.70</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">9</td>
+    <td align="left">Quercitrin*</td>
+    <td char="." align="char">
+     <bold>− 9.20</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.60</bold>
+    </td>
+    <td char="." align="char">− 8.80</td>
+    <td char="." align="char">
+     <bold>− 8.10</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="6"> Phenylpropanoid</td>
+    <td align="left">10</td>
+    <td align="left">Cinnamic acid</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 5.70</td>
+    <td char="." align="char">− 6.00</td>
+    <td char="." align="char">− 4.70</td>
+    <td char="." align="char">− 6.30</td>
+    <td char="." align="char">− 5.60</td>
+   </tr>
+   <tr>
+    <td align="left">11</td>
+    <td align="left">Hinokinin*</td>
+    <td char="." align="char">
+     <bold>− 8.40</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.50</bold>
+    </td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">
+     <bold>− 9.80</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.20</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">12</td>
+    <td align="left">Niranthin</td>
+    <td char="." align="char">− 6.30</td>
+    <td char="." align="char">− 5.90</td>
+    <td char="." align="char">− 6.10</td>
+    <td char="." align="char">− 6.30</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 6.10</td>
+   </tr>
+   <tr>
+    <td align="left">13</td>
+    <td align="left">Nirtetralin</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">− 6.60</td>
+    <td char="." align="char">− 6.70</td>
+    <td char="." align="char">− 7.00</td>
+   </tr>
+   <tr>
+    <td align="left">14</td>
+    <td align="left">Phenylalanine</td>
+    <td char="." align="char">− 5.50</td>
+    <td char="." align="char">− 5.70</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 4.80</td>
+    <td char="." align="char">− 6.00</td>
+    <td char="." align="char">− 5.60</td>
+   </tr>
+   <tr>
+    <td align="left">15</td>
+    <td align="left">Phyllanthin</td>
+    <td char="." align="char">− 6.10</td>
+    <td char="." align="char">− 5.60</td>
+    <td char="." align="char">− 5.90</td>
+    <td char="." align="char">− 5.70</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 6.40</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="4"> Tannins</td>
+    <td align="left">16</td>
+    <td align="left">Corilagin*</td>
+    <td char="." align="char">
+     <bold>− 8.80</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.50</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.70</bold>
+    </td>
+    <td char="." align="char">− 8.50</td>
+    <td char="." align="char">
+     <bold>− 9.30</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">17</td>
+    <td align="left">Furosin*</td>
+    <td char="." align="char">
+     <bold>− 10.20</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.40</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 8.70</bold>
+    </td>
+    <td char="." align="char">− 9.20</td>
+    <td char="." align="char">
+     <bold>− 9.10</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">18</td>
+    <td align="left">Geraniin*</td>
+    <td char="." align="char">
+     <bold>− 10.60</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 10.10</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 10.10</bold>
+    </td>
+    <td char="." align="char">
+     <bold>− 9.30</bold>
+    </td>
+    <td char="." align="char">− 9.20</td>
+    <td char="." align="char">
+     <bold>− 9.10</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">19</td>
+    <td align="left">Melatonin</td>
+    <td char="." align="char">− 6.60</td>
+    <td char="." align="char">− 6.60</td>
+    <td char="." align="char">− 7.20</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">− 5.50</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2"> Triterpenes</td>
+    <td align="left">20</td>
+    <td align="left">farnesyl farnesol</td>
+    <td char="." align="char">− 5.20</td>
+    <td char="." align="char">− 5.40</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 4.50</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 4.70</td>
+   </tr>
+   <tr>
+    <td align="left">21</td>
+    <td align="left">Phenazine</td>
+    <td char="." align="char">− 6.70</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">− 7.10</td>
+    <td char="." align="char">− 5.80</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 7.00</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9">Phytochemicals from 
+     <italic>A. paniculata</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="3"> Bioactive compounds</td>
+    <td align="left">1</td>
+    <td align="left">Andrograpanin</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 7.10</td>
+    <td char="." align="char">− 6.60</td>
+    <td char="." align="char">− 6.10</td>
+    <td char="." align="char">− 6.80</td>
+    <td char="." align="char">− 7.20</td>
+   </tr>
+   <tr>
+    <td align="left">2</td>
+    <td align="left">Andrographolide</td>
+    <td char="." align="char">− 7.90</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 6.50</td>
+    <td char="." align="char">− 8.00</td>
+    <td char="." align="char">− 7.30</td>
+   </tr>
+   <tr>
+    <td align="left">3</td>
+    <td align="left">Isoandrographolide*</td>
+    <td char="." align="char">− 
+     <bold>9.10</bold>
+    </td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 8.10</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">− 9.30</td>
+    <td char="." align="char">
+     <bold>− 8.30</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="7"> Diterpenes</td>
+    <td align="left">4</td>
+    <td align="left">14-acetylandrographolide</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 8.00</td>
+    <td char="." align="char">− 6.70</td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">− 7.00</td>
+   </tr>
+   <tr>
+    <td align="left">5</td>
+    <td align="left">14-deoxy-11,12-didehydroandrographolide</td>
+    <td char="." align="char">− 7.70</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 7.70</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 7.10</td>
+   </tr>
+   <tr>
+    <td align="left">6</td>
+    <td align="left">14-deoxy-14,15-didehydroandrographolide</td>
+    <td char="." align="char">
+     <bold>− 8.00</bold>
+    </td>
+    <td char="." align="char">− 8.20</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 6.80</td>
+    <td char="." align="char">− 7.80</td>
+    <td char="." align="char">
+     <bold>− 7.90</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">7</td>
+    <td align="left">14-Deoxyandrographolide</td>
+    <td char="." align="char">
+     <bold>− 8.00</bold>
+    </td>
+    <td char="." align="char">− 8.20</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 8.30</td>
+    <td char="." align="char">
+     <bold>− 7.80</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">8</td>
+    <td align="left">19-
+     <italic>O</italic>-acetyl-14-deoxy-11,12-didehydroandrographolide
+    </td>
+    <td char="." align="char">
+     <bold>− 8.40</bold>
+    </td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 6.80</td>
+    <td char="." align="char">− 8.80</td>
+    <td char="." align="char">7.10</td>
+   </tr>
+   <tr>
+    <td align="left">9</td>
+    <td align="left">Deoxyandrographolide</td>
+    <td char="." align="char">− 7.80</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 8.10</td>
+    <td char="." align="char">− 7.30</td>
+    <td char="." align="char">− 7.00</td>
+    <td char="." align="char">7.50</td>
+   </tr>
+   <tr>
+    <td align="left">10</td>
+    <td align="left">Neoandrographolide</td>
+    <td char="." align="char">
+     <bold>− 8.20</bold>
+    </td>
+    <td char="." align="char">− 8.10</td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">
+     <bold>− 7.80</bold>
+    </td>
+    <td char="." align="char">− 7.80</td>
+    <td char="." align="char">
+     <bold>− 8.50</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="4"> Flavonoids</td>
+    <td align="left">11</td>
+    <td align="left">5-hydroxy-7,8,2′,3′-tetramethoxyflavone,</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 8.00</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 6.90</td>
+    <td char="." align="char">− 8.40</td>
+    <td char="." align="char">− 7.00</td>
+   </tr>
+   <tr>
+    <td align="left">12</td>
+    <td align="left">5-hydroxy-7,8,2′,5′-tetramethoxy flavone</td>
+    <td char="." align="char">
+     <bold>− 8.20</bold>
+    </td>
+    <td char="." align="char">− 7.90</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 7.60</td>
+    <td char="." align="char">− 8.60</td>
+    <td char="." align="char">
+     <bold>− 7.80</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">13</td>
+    <td align="left">5-hydroxy-7,8-dimethoxyflavanone</td>
+    <td char="." align="char">− 7.80</td>
+    <td char="." align="char">− 7.40</td>
+    <td char="." align="char">− 7.80</td>
+    <td char="." align="char">− 7.20</td>
+    <td char="." align="char">− 8.90</td>
+    <td char="." align="char">− 7.30</td>
+   </tr>
+   <tr>
+    <td align="left">14</td>
+    <td align="left">5-Hydroxy-7,8-dimethoxyflavone</td>
+    <td char="." align="char">− 7.90</td>
+    <td char="." align="char">− 7.20</td>
+    <td char="." align="char">− 8.00</td>
+    <td char="." align="char">− 7.50</td>
+    <td char="." align="char">− 9.00</td>
+    <td char="." align="char">− 7.50</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>The docking score of respective phytochemicals higher than the positive control (remdesivir) has been denoted in bold</p>
+  <p>
+   <bold>*</bold>The phytochemicals showing better binding affinity with all the viral proteins
+  </p>
+ </table-wrap-foot>
+</table-wrap>

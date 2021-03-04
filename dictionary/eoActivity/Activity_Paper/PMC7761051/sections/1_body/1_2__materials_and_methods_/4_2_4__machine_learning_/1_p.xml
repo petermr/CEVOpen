@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As a molecular representation, the Morgan fingerprint with radius of 2 from RDKit was calculated for each compound. As a control, the standard MACCS structural key (fragment) fingerprint [
+ <xref rid="B34-biomolecules-10-01605" ref-type="bibr">34</xref>] was used as an alternative molecular representation. With respect to machine learning methods, the random forest (RF) [
+ <xref rid="B35-biomolecules-10-01605" ref-type="bibr">35</xref>] and support vector machine (SVM) [
+ <xref rid="B36-biomolecules-10-01605" ref-type="bibr">36</xref>] algorithms were applied. In addition, a k-NN classifier (KNN) was generated. Therefore, training compounds were ranked based upon decreasing fingerprint distances and the majority class label among the k top-ranked compounds was assigned to the test compound. The scikit-learn [
+ <xref rid="B37-biomolecules-10-01605" ref-type="bibr">37</xref>] implementation was used with default parameter settings (version 0.23.2), except for the number of NNs for which optimal 
+ <italic>k</italic> values were selected from k ∈ [1,3,5].
+</p>

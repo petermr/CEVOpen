@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E4">
+ <math id="M4">
+  <mtable columnalign="left">
+   <mtr>
+    <mtd>
+     <msub>
+      <mrow>
+       <mtext>H</mtext>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mtext>O</mtext>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mtext> scavenging assay </mtext>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>%</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mn>1</mn>
+         <mtext> </mtext>
+         <mo>-</mo>
+         <mtext> Sample absorbance</mtext>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mtext>Control absorbance</mtext>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

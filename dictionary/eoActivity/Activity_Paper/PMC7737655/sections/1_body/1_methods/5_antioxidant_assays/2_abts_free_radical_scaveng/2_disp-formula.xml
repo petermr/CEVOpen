@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E3">
+ <math id="M3">
+  <mtable columnalign="left">
+   <mtr>
+    <mtd>
+     <mtext>ABTS scavenging assay </mtext>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>%</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mtext>Control absorbance </mtext>
+       <mo>-</mo>
+       <mtext> Sample absorbance</mtext>
+      </mrow>
+      <mrow>
+       <mtext>Control absorbance</mtext>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

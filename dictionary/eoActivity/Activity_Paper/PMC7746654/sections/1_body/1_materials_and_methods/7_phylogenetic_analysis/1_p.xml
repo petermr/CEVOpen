@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A total of eight cp genomes, namely seven from Boraginaceae, one from Oleaceae, were used for phylogenetic analysis, along with 
+ <italic>Forsythia suspensa</italic> (NC_036367) as outgroup. Of these, 4 chloroplast genome sequences were downloaded from the NCBI GenBank (
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 6</xref>). We used two matrices, one composed of 72 conserved protein-coding genes (CDS) and one of the whole chloroplast genomes. Using MAFFT ver. 7.388 (
+ <xref rid="B55" ref-type="bibr">Katoh and Standley, 2013</xref>) two data set were aligned, respectively. Each aligned gene was extracted using Geneious program
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup>, and then the genes were arranged alphabetically. The concatenated gene dataset was created using Geneious program in CDS data set. The alignments data sets were filtered to remove ambiguously aligned regions using Gblocks ver. 5 (
+ <xref rid="B16" ref-type="bibr">Castresana, 2000</xref>). The best-fitting model of nucleotide substitutions was determined using Akaike information criterion in jModelTest V2.1.10 (
+ <xref rid="B29" ref-type="bibr">Darriba et al., 2012</xref>; 
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 7</xref>) and the GTR+I+G model was chosen for Maximum likelihood (ML) analysis and GTR+G model was selected for Bayesian Inference (BI) analysis. ML analysis was performed using RaxML v 8.0.5 (
+ <xref rid="B105" ref-type="bibr">Stamatakis, 2014</xref>) with 1,000 bootstrap replicates. BI analysis was carried out using MrBayes 3.2.2 (
+ <xref rid="B94" ref-type="bibr">Ronquist et al., 2012</xref>), with two independent runs of four simultaneous chains that were run for 5,000,000 generations using Markov chain Monte Carlo algorithm. Trees were sampled every 5,000 generations, with the first 25% discarded as burn-in. Trees were determined from 50% majority-rule consensus to estimate posterior probabilities. The reconstructed trees were visualized using Figtree V.1.4.2 (
+ <xref rid="B92" ref-type="bibr">Rambaut, 2014</xref>).
+</p>

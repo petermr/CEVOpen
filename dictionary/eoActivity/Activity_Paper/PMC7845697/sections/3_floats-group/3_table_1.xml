@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" position="float">
+ <label>TABLE 1</label>
+ <caption>
+  <p>AUROC values of the five different cases of the trained models in predicting the medicinal uses of drugs for 15 diseases.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2" colspan="1">Disease term</th>
+    <th align="center" rowspan="1" colspan="1">Partially connected</th>
+    <th colspan="4" align="center" rowspan="1">Fully connected</th>
+   </tr>
+   <tr>
+    <th align="center" rowspan="1" colspan="1">All features</th>
+    <th align="center" rowspan="1" colspan="1">All features</th>
+    <th align="center" rowspan="1" colspan="1">Latent knowledge features only</th>
+    <th align="center" rowspan="1" colspan="1">Molecular interaction features only</th>
+    <th align="center" rowspan="1" colspan="1">Chemical property features only</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">Carcinoma</td>
+    <td rowspan="1" colspan="1">0.774</td>
+    <td rowspan="1" colspan="1">0.684</td>
+    <td rowspan="1" colspan="1">0.767</td>
+    <td rowspan="1" colspan="1">0.702</td>
+    <td rowspan="1" colspan="1">0.711</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Hypertension</td>
+    <td rowspan="1" colspan="1">0.970</td>
+    <td rowspan="1" colspan="1">0.962</td>
+    <td rowspan="1" colspan="1">0.955</td>
+    <td rowspan="1" colspan="1">0.882</td>
+    <td rowspan="1" colspan="1">0.777</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Pain</td>
+    <td rowspan="1" colspan="1">0.943</td>
+    <td rowspan="1" colspan="1">0.776</td>
+    <td rowspan="1" colspan="1">0.840</td>
+    <td rowspan="1" colspan="1">0.815</td>
+    <td rowspan="1" colspan="1">0.611</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Diabetes mellitus, type 2</td>
+    <td rowspan="1" colspan="1">0.850</td>
+    <td rowspan="1" colspan="1">0.765</td>
+    <td rowspan="1" colspan="1">0.824</td>
+    <td rowspan="1" colspan="1">0.564</td>
+    <td rowspan="1" colspan="1">0.616</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Arthritis, rheumatoid</td>
+    <td rowspan="1" colspan="1">0.774</td>
+    <td rowspan="1" colspan="1">0.692</td>
+    <td rowspan="1" colspan="1">0.692</td>
+    <td rowspan="1" colspan="1">0.683</td>
+    <td rowspan="1" colspan="1">0.667</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Urinary tract infections</td>
+    <td rowspan="1" colspan="1">0.985</td>
+    <td rowspan="1" colspan="1">0.983</td>
+    <td rowspan="1" colspan="1">0.948</td>
+    <td rowspan="1" colspan="1">0.986</td>
+    <td rowspan="1" colspan="1">0.944</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Alzheimer’s disease</td>
+    <td rowspan="1" colspan="1">0.864</td>
+    <td rowspan="1" colspan="1">0.757</td>
+    <td rowspan="1" colspan="1">0.859</td>
+    <td rowspan="1" colspan="1">0.588</td>
+    <td rowspan="1" colspan="1">0.810</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Bacterial infections</td>
+    <td rowspan="1" colspan="1">0.948</td>
+    <td rowspan="1" colspan="1">0.926</td>
+    <td rowspan="1" colspan="1">0.880</td>
+    <td rowspan="1" colspan="1">0.717</td>
+    <td rowspan="1" colspan="1">0.865</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Parkinson’s disease</td>
+    <td rowspan="1" colspan="1">0.995</td>
+    <td rowspan="1" colspan="1">0.947</td>
+    <td rowspan="1" colspan="1">0.977</td>
+    <td rowspan="1" colspan="1">0.913</td>
+    <td rowspan="1" colspan="1">0.953</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Heart failure</td>
+    <td rowspan="1" colspan="1">0.880</td>
+    <td rowspan="1" colspan="1">0.873</td>
+    <td rowspan="1" colspan="1">0.865</td>
+    <td rowspan="1" colspan="1">0.727</td>
+    <td rowspan="1" colspan="1">0.833</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Sleep initiation and maintenance disorders</td>
+    <td rowspan="1" colspan="1">0.875</td>
+    <td rowspan="1" colspan="1">0.846</td>
+    <td rowspan="1" colspan="1">0.865</td>
+    <td rowspan="1" colspan="1">0.669</td>
+    <td rowspan="1" colspan="1">0.870</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Skin diseases</td>
+    <td rowspan="1" colspan="1">0.774</td>
+    <td rowspan="1" colspan="1">0.789</td>
+    <td rowspan="1" colspan="1">0.759</td>
+    <td rowspan="1" colspan="1">0.587</td>
+    <td rowspan="1" colspan="1">0.653</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Nausea</td>
+    <td rowspan="1" colspan="1">0.934</td>
+    <td rowspan="1" colspan="1">0.971</td>
+    <td rowspan="1" colspan="1">0.865</td>
+    <td rowspan="1" colspan="1">0.957</td>
+    <td rowspan="1" colspan="1">0.798</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Myocardial infarction</td>
+    <td rowspan="1" colspan="1">0.964</td>
+    <td rowspan="1" colspan="1">0.798</td>
+    <td rowspan="1" colspan="1">0.800</td>
+    <td rowspan="1" colspan="1">0.975</td>
+    <td rowspan="1" colspan="1">0.766</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Stroke</td>
+    <td rowspan="1" colspan="1">0.972</td>
+    <td rowspan="1" colspan="1">0.974</td>
+    <td rowspan="1" colspan="1">0.971</td>
+    <td rowspan="1" colspan="1">0.946</td>
+    <td rowspan="1" colspan="1">0.949</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Average</td>
+    <td align="center" rowspan="1" colspan="1">0.900 ± 0.040</td>
+    <td align="center" rowspan="1" colspan="1">0.850 ± 0.054</td>
+    <td align="center" rowspan="1" colspan="1">0.858 ± 0.042</td>
+    <td align="center" rowspan="1" colspan="1">0.781 ± 0.077</td>
+    <td align="center" rowspan="1" colspan="1">0.788 ± 0.059</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>
