@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Three-dimensional structural models of the test compounds were built using Chem Bio-3D v13 (CambridgeSoft, Cambridge, MA) and saved in MOL2 format. The compounds were then prepared in a protonated form, where appropriate for physiological pH, and minimised using Hyperchem Pro v6.0 (geometry optimisation – MM
+ <sup>+</sup>) to give the lowest energy conformation. The X-ray crystal structure of human AChE in complex with donepezil was retrieved from the Protein Data Bank (PDB ID: 4EY7)
+ <xref rid="CIT0002" ref-type="bibr">
+  <sup>2</sup>
+ </xref>. Ligand and water molecules were removed using Discovery Studio v3.1. Hydrogen atoms were added and double coordinates were corrected using Hyperchem Pro v6.0 (Hypercube Inc., Gainesville, FL). Hydrogen atoms were again added, non-polar hydrogen atoms were merged, and missing atoms were repaired using AutoDock Tools v4
+ <xref rid="CIT0017" ref-type="bibr">
+  <sup>17</sup>
+ </xref>. Gasteiger charges were added and AutoDock v4.0 type atoms were assigned to the protein. Then, test compounds were randomly docked into the protein structure with AutoDock v4.0 using a hybrid Lamarckian Genetic Algorithm
+ <xref rid="CIT0018" ref-type="bibr">
+  <sup>18</sup>
+ </xref>, with an initial population size of 150 and a maximum number of 2,500,000 energy evaluations. The grid box was set to cover the entire protein with a spacing of 0.375 Å. The root mean square deviation (RMSD) tolerance was set to 2.0 Å for the clustering of docked results and the docked pose of each ligand was selected on the basis of free energy of binding and cluster analysis. Ligand–protein interactions were analysed using Discovery Studio v3.1 and PoseView
+ <xref rid="CIT0019" ref-type="bibr">
+  <sup>19</sup>
+ </xref>.
+</p>

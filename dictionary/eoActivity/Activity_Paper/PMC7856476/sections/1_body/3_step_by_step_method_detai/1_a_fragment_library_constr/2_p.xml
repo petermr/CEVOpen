@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0140">Due to the fixed format of a PDB file, it is easy to do these by the scripts in batch mode. We can delete all the hydrogen atoms in a PDB file except the linking point of a hydrogen atom (serial number: 
+ <italic>id</italic>) by a line of bash command:
+ <list list-type="simple" id="ulist0025">
+  <list-item id="u0090">
+   <p id="p0145">awk '{if ($NF == "H" &amp;&amp; $2 != id) {} else {print}}' fragment_H.pdb &gt; fragment_noH.pdb</p>
+  </list-item>
+ </list>
+</p>

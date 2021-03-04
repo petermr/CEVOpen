@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To correlate the relationship between response variables (
+ <italic>D</italic> value) with the four independent variables of the UACE process, the 
+ <italic>D</italic> values were fitted to the following second-order quadratic polynomial equation: 
+ <disp-formula id="pone.0244749.e007">
+  <alternatives>
+   <graphic xlink:href="pone.0244749.e007.jpg" id="pone.0244749.e007g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M7">
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>β</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>+</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mn>4</mn>
+      </munderover>
+      <mrow>
+       <msub>
+        <mi>β</mi>
+        <mi>i</mi>
+       </msub>
+       <msub>
+        <mi>X</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <mo>+</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mn>4</mn>
+      </munderover>
+      <mrow>
+       <msub>
+        <mi>β</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <msubsup>
+        <mi>X</mi>
+        <mi>i</mi>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+     </mstyle>
+     <mo>+</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mn>3</mn>
+      </munderover>
+     </mstyle>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>&lt;</mo>
+        <mi>j</mi>
+       </mrow>
+       <mn>4</mn>
+      </munderover>
+      <mrow>
+       <msub>
+        <mi>β</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>X</mi>
+        <mi>i</mi>
+       </msub>
+       <msub>
+        <mi>X</mi>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(7)</label>
+ </disp-formula> where 
+ <italic>Y</italic> is the predicted 
+ <italic>D</italic> value, 
+ <italic>β</italic>
+ <sub>
+  <italic>0</italic>
+ </sub> is an intercept of the equation, 
+ <italic>β</italic>
+ <sub>
+  <italic>i</italic>,
+ </sub> is linear coefficient, 
+ <italic>β</italic>
+ <sub>
+  <italic>ii</italic>
+ </sub>, is quadratic coefficient, 
+ <italic>β</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> is cross product term coefficient, and 
+ <italic>X</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> and 
+ <italic>X</italic>
+ <sub>
+  <italic>j</italic>
+ </sub> are the coded independent variables. The significance of the polynomial equation was determined by an 
+ <italic>F</italic> test. The 
+ <italic>P</italic>-value was used as a tool to check the statistical significance of each coefficient in the polynomial equation [
+ <xref rid="pone.0244749.ref030" ref-type="bibr">30</xref>]. The fit of the model was expressed by the coefficient of determination (
+ <italic>R</italic>
+ <sup>2</sup>). CV (%) was used as a measure of the accuracy and reliability of the experiments.
+</p>

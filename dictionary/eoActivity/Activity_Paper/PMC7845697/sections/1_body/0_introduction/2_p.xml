@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Most previous studies on the identification of the medicinal uses of natural compounds used 
+ <italic>in vitro</italic> assessments (
+ <xref rid="B29" ref-type="bibr">Foster et al., 2001</xref>; 
+ <xref rid="B41" ref-type="bibr">Iacopini et al., 2008</xref>; 
+ <xref rid="B57" ref-type="bibr">Li et al., 2008</xref>). In these studies, 
+ <italic>in vitro</italic> screening tests were performed for the assessment of the biological activities of natural compounds. However, large-scale experiments are needed as the number of considered natural compounds and candidate effects increases, which exponentially increases time and cost. Therefore, 
+ <italic>in silico</italic> approaches, which mostly focus on specific information such as molecular properties, chemical similarities, or clinical knowledge, have been proposed to predict medicinal candidates from natural compounds. Molecular-based approaches focus on finding similar responses or mechanisms between natural compounds and drugs from various networks, e.g., functional protein interactions or compound-target interactions (
+ <xref rid="B99" ref-type="bibr">Tao et al., 2013</xref>; 
+ <xref rid="B46" ref-type="bibr">Kibble et al., 2015</xref>; 
+ <xref rid="B86" ref-type="bibr">Rampogu and Rampogu Lemuel, 2016</xref>). Chemical-based approaches investigate bioactive natural compound candidates by examining physicochemical properties and physiological effects (
+ <xref rid="B116" ref-type="bibr">Zhou et al., 2010</xref>; 
+ <xref rid="B13" ref-type="bibr">Chen et al., 2017</xref>; 
+ <xref rid="B75" ref-type="bibr">Muhamad et al., 2017</xref>). However, the molecular targets, mechanisms, and chemical structure information of natural compounds are largely hidden, compared with those of approved drugs (
+ <xref rid="B96" ref-type="bibr">Sutter and Wang, 1993</xref>; 
+ <xref rid="B56" ref-type="bibr">Lee, 1999</xref>; 
+ <xref rid="B113" ref-type="bibr">Yoo et al., 2018c</xref>). Therefore, both molecular and chemical-based approaches have low coverage and usability. Knowledge-based approaches apply statistical analysis to scientific databases, such as PubMed, or clinical trial information to identify medicinal natural compound candidates for a certain disease (
+ <xref rid="B10" ref-type="bibr">Butler, 2005</xref>; 
+ <xref rid="B44" ref-type="bibr">Jensen et al., 2014</xref>; 
+ <xref rid="B94" ref-type="bibr">Shergis et al., 2015</xref>). These approaches provide better coverage compared with molecular and chemical-based approaches, but their performance is low because they cannot directly consider complex molecular mechanisms and chemical structures. Moreover, the effects of reporting bias, sampling variance, and response variance should be considered to perform statistical analysis based on reporting data (
+ <xref rid="B23" ref-type="bibr">DuMouchel, 1999</xref>; 
+ <xref rid="B4" ref-type="bibr">Bate and Evans, 2009</xref>; 
+ <xref rid="B100" ref-type="bibr">Tatonetti et al., 2012</xref>). Alternatively, machine learning-based approaches were proposed to utilize large volume of information. These approaches predicted the potential effects of natural compounds by investigating the drugs having similar properties to those of natural compounds (
+ <xref rid="B88" ref-type="bibr">Rupp et al., 2010</xref>; 
+ <xref rid="B87" ref-type="bibr">Romano and Tatonetti, 2019</xref>; 
+ <xref rid="B14" ref-type="bibr">Chen and Kirchmair, 2020</xref>; 
+ <xref rid="B115" ref-type="bibr">Zhang et al., 2020</xref>). To construct prediction models, they applied classification algorithm, such as logistic regression, random forest, neural network, and support vector machine (SVM). However, limited natural compound information is still a bottleneck when trying to utilize various types of features in the learning process. In conclusion, we need to solve the problem with the bottleneck effect caused by the limited natural compound information and inappropriate methods available currently.
+</p>

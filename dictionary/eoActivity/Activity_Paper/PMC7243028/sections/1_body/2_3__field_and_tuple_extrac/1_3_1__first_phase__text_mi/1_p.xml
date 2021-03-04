@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Text mining methods were used to generate the primary fields in UNaProd database. Initially, the text of 
+ <italic>Makhzan al-Advieh</italic> was preprocessed. There are a number of Arabic characters, including 
+ <italic>Tanwin</italic> (اً) and 
+ <italic>Hamzah</italic> (ئ) that are used in different formats in Persian texts; thus, these Arabic diacritics were removed and replaced by simple 
+ <italic>Alef</italic> (ا) or 
+ <italic>ye</italic> (ی) of the Persian alphabet to facilitate searching. Also, there are two unicodes for the letters 
+ <italic>kaf</italic> (ک) and 
+ <italic>ye</italic> (ی), which can be used interchangeably and thus needed to be normalized. To perform the abovementioned tasks, Hazm package in Python was used [
+ <xref rid="B40" ref-type="bibr">40</xref>]. Additionally, some prefixes and suffixes including “می” (ing) in verbs, can be written without a separator (“میگوید”), or be separated from the verb either by a space (“می گوید”) or zero-width space (“میگوید”). Since zero-width space is not routinely used by all of the books and is not possible to type in browsers, all such cases were unified and changed to a space.
+</p>

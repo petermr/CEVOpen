@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">The RBFNNs are designed in a structure of neurons and layers like MLP. The most frequently used radial basis function is the Gaussian function [
+ <xref ref-type="bibr" rid="CR15">15</xref>] and the center of circular classifiers, in multi-dimensional space is calculated by Eq. 
+ <xref rid="Equ4" ref-type="">4</xref>.
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R_{j} \left( x \right) = \exp \left( {\frac{{\left\| {x - a_{j} } \right\|^{2} }}{{2\sigma^{2} }}} \right).$$\end{document}</tex-math>
+   <math id="M10" display="block">
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mi>j</mi>
+     </msub>
+     <mfenced close=")" open="(">
+      <mi>x</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mo>exp</mo>
+     <mfenced close=")" open="(">
+      <mfrac>
+       <msup>
+        <mfenced close="∥" open="∥">
+         <mrow>
+          <mi>x</mi>
+          <mo>-</mo>
+          <msub>
+           <mi>a</mi>
+           <mi>j</mi>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mn>2</mn>
+       </msup>
+       <mrow>
+        <mn>2</mn>
+        <msup>
+         <mi>σ</mi>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mfrac>
+     </mfenced>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The individual time–course data for each sample (
+ <xref ref-type="fig" rid="F0001">Figure 1</xref>), and the nonlinear regression analyses in terms of different computing approaches give the fitted theoretical curves for the Michaelis–Menten reaction model. Progress curves were first analysed by numerical integration approach, which has been the most widely used method for time–course data analysis among enzymologists (
+ <xref rid="t0001" ref-type="table">Table 1</xref>, DynaFit numerical integration). Therefore, the best fit to the time–product concentration data obtained by performing DynaFit numerical integration programme yielded the reference values 
+ <italic>K</italic>
+ <sub>m</sub>, 
+ <italic>V
+  <sub>max</sub>
+ </italic> and [
+ <italic>S</italic>]
+ <sub>0</sub> (see 
+ <xref rid="t0001" ref-type="table">Table 1</xref>). However, the latter numerical approach can have drawbacks that are widely ignored and show several weak points
+ <xref rid="CIT0012" ref-type="bibr">
+  <sup>12</sup>
+ </xref>, although the most common computing method to progress–curve analysis these days is to use numerical integration solvers linked to nonlinear regression algorithms. Hence, we also estimated the kinetic parameters in terms of an algebraic approach that gives the direct solution of 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref> to the integrated Michaelis–Menten rate equation (
+ <xref rid="t0001" ref-type="table">Table 1</xref>, DynaFit Lambert W)
+ <xref rid="CIT0009" ref-type="bibr">
+  <sup>9</sup>
+ </xref>. Unfortunately, the requirement for the Lambert 
+ <italic>W</italic>(
+ <italic>x</italic>) built-in function in software (e.g. Maplesoft Maple, Mathworks Matlab, BioKin DynaFit) in this alternative explicit expression to the integrated model rate equation for computing product accumulation with 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref> is another drawback as the most available curve-fitting software packages (e.g. Microsoft Excel, GraphPad Prism, Systat SigmaPlot) are not set up to handle equations that involve W(x), and hence they are of none use for direct time–course data analysis in terms of 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref>. To avoid this problem, we finally used the solution for [
+ <italic>P</italic>]
+ <italic>
+  <sub>t</sub>
+ </italic> based on an exact approximation 
+ <xref ref-type="disp-formula" rid="M0002">Equation (2)</xref>, which is elementary and consequently easily implemented in any standard software
+ <xref rid="CIT0011" ref-type="bibr">
+  <sup>11</sup>
+ </xref> and calculated kinetic parameters from progress curves (
+ <xref rid="t0001" ref-type="table">Table 1</xref>, GraphPad Lambert W). 
+ <xref ref-type="fig" rid="F0001">Figure 1</xref> shows a fit of the reaction progress curves data in GraphPad Prism by using 
+ <xref ref-type="disp-formula" rid="M0002">Equation (2)</xref>; i.e. the approximation to the Lambert W function in 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref>. 
+ <xref rid="t0001" ref-type="table">Table 1</xref> summarises all values of the fitted estimates of the kinetics parameters where the best parameter values yielded almost identical good fits to the experimental data for all of the computing methods. The given values are also in agreement with the results obtained by the traditional double-reciprocal Lineweaver-Burk plots methodology
+ <xref rid="CIT0002" ref-type="bibr">
+  <sup>2</sup>
+ </xref>.
+</p>

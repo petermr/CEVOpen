@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this scheme, interactions are decomposed by specific residue pairs by including only those interactions in which one atom from each of the analyzed residues is participating, following the work of Gohlke et al. (Gohlke et al., 
+ <xref rid="CIT0011" ref-type="bibr">2003</xref>) A single trajectory based on 50 snapshots was taken from the last 5 ns portion (100 ps interval) of the MD production trajectories. The entropic change of the complexes was assumed constant to reduce computational cost. The solvation free energy (
+ <inline-formula id="ilm0006">
+  <alternatives>
+   <inline-graphic xlink:href="TBSD_A_1860828_ILM0006.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e575">
+    <mrow>
+     <mo>Δ</mo>
+     <msub>
+      <mrow>
+       <mi>G</mi>
+      </mrow>
+      <mrow>
+       <mi mathvariant="italic">solv</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula>) was separated into polar and non-polar contributions. The polar contribution to 
+ <inline-formula id="ilm0007">
+  <alternatives>
+   <inline-graphic xlink:href="TBSD_A_1860828_ILM0007.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e588">
+    <mrow>
+     <mo>Δ</mo>
+     <msub>
+      <mrow>
+       <mi>G</mi>
+      </mrow>
+      <mrow>
+       <mi mathvariant="italic">solv</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> was calculated using the generalized Born (GB) model implemented in MMPBSA.py module: igb = 2/mbondi2 radii sets and igb = 8/mbondi3 radii sets as selected models for ligand/protein and monomer/monomer interactions, respectively. Further, this decomposition scheme allowed us to assign the percentage of the ligand-dimer interaction to each monomer, and thus ensure that there is a balanced distribution. CPPTRAJ (Roe &amp; Cheatham, 
+ <xref rid="CIT0026" ref-type="bibr">2013</xref>) and ParmEd programs, included in AmberTools, were used for trajectory handling.
+</p>

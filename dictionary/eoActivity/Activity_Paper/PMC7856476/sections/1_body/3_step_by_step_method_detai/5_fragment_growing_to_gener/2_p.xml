@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0345">In this stage, AILDE generates hit analogs by linking the fragment molecules with the hit ligand in the initial protein complex (
+ <xref rid="fig5" ref-type="fig">Figure 5</xref>).
+ <list list-type="simple" id="olist0055">
+  <list-item id="o0125">
+   <label>12.</label>
+   <p id="p0350">All fragment molecules in our fragment library are linked with the hit ligand by AutoGrow software.</p>
+  </list-item>
+  <list-item id="o0130">
+   <label>13.</label>
+   <p id="p0355">The generated compounds with the protein are saved as protein-analogs complexes. The complex structures are relaxed by energy minimization via one of the following two strategies:
+    <list list-type="simple" id="olist0060">
+     <list-item id="o0135">
+      <label>a.</label>
+      <p id="p0360">When the parameter “md_request” is set to “NO,” structural relaxation without molecular dynamics simulation will be performed. First, all the backbone atoms of protein and the ligand are restrained with an elastic constant of 50 kcal∙mol
+       <sup>−1</sup>∙Å
+       <sup>−2</sup>. Then the whole system is minimized. Each of the two minimization steps includes 5,000 cycles of steepest descent and 5,000 cycles of conjugated gradient optimization with a convergence criterion of 0.2 kcal∙mol
+       <sup>−1</sup>.
+      </p>
+     </list-item>
+     <list-item id="o0140">
+      <label>b.</label>
+      <p id="p0365">When the parameter “md_request” is set to “YES,” structural relaxation with molecular dynamics simulation will be performed. The above two cycles of energy minimizations is performed. Then a short period of MD simulation is performed to relax the side-chain atoms.</p>
+     </list-item>
+    </list>
+   </p>
+  </list-item>
+  <list-item id="o0145">
+   <label>14.</label>
+   <p id="p0370">All the structure snapshots of protein-hit complex are relaxed by the same strategy as mentioned above (
+    <xref rid="sec6.5" ref-type="sec">Troubleshooting 3</xref>).
+   </p>
+  </list-item>
+ </list>
+ <disp-quote>
+  <p>
+   <bold>
+    <italic>Note:</italic>
+   </bold> In our previous study (
+   <xref rid="bib11" ref-type="bibr">Wu et al., 2020</xref>), structural relaxation with molecular dynamics simulation may provide more accurate binding free energy results, but at the cost of more computing resources.
+  </p>
+ </disp-quote>
+</p>

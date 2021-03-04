@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>V</italic>
+ <sub>max</sub> and 
+ <italic>K</italic>
+ <sub>m</sub> in 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref> represent the limiting velocity and Michaelis constant, respectively. Finally, the approximation to the Lambert W function in 
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref> for the product accumulation was also implemented into the GraphPad Prism (GraphPad Software, San Diego, California, USA) software package as a user-defined built-in explicit model equation for calculating model curves
+ <xref rid="CIT0011" ref-type="bibr">
+  <sup>11</sup>
+ </xref>: 
+ <disp-formula id="M0002">
+  <label>(2)</label>
+  <alternatives>
+   <graphic xlink:href="IENZ_A_1695792_M0002.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e356">
+    <mrow>
+     <msub>
+      <mrow>
+       <mo>[</mo>
+       <mi>P</mi>
+       <mo>]</mo>
+      </mrow>
+      <mi>t</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mo>[</mo>
+       <mi>S</mi>
+       <mo>]</mo>
+      </mrow>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mrow>
+       <mi>K</mi>
+      </mrow>
+      <mi mathvariant="normal">m</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1.45869</mn>
+       <mo>⋅</mo>
+       <mo> </mo>
+       <mtext>ln</mtext>
+       <mo> </mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn>1.2</mn>
+         <mo>⋅</mo>
+         <mfrac>
+          <mi>x</mi>
+          <mrow>
+           <mo> </mo>
+           <mtext>ln</mtext>
+           <mo> </mo>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mn>2.4</mn>
+             <mo>⋅</mo>
+             <mfrac>
+              <mi>x</mi>
+              <mrow>
+               <mo> </mo>
+               <mtext>ln</mtext>
+               <mo> </mo>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mn>1</mn>
+                 <mo>+</mo>
+                 <mn>2.4</mn>
+                 <mo>⋅</mo>
+                 <mi>x</mi>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>−</mo>
+       <mn>0.45869</mn>
+       <mo>⋅</mo>
+       <mo> </mo>
+       <mtext>ln</mtext>
+       <mo> </mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn>2</mn>
+         <mo>⋅</mo>
+         <mfrac>
+          <mi>x</mi>
+          <mrow>
+           <mo> </mo>
+           <mtext>ln</mtext>
+           <mo> </mo>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mn>1</mn>
+             <mo>+</mo>
+             <mn>2</mn>
+             <mo>⋅</mo>
+             <mi>x</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> where 
+ <disp-formula id="M0003">
+  <label>(3)</label>
+  <alternatives>
+   <graphic xlink:href="IENZ_A_1695792_M0003.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e453">
+    <mrow>
+     <mi>x</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mrow>
+         <mo>[</mo>
+         <mi>S</mi>
+         <mo>]</mo>
+        </mrow>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>K</mi>
+        </mrow>
+        <mi mathvariant="normal">m</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>⋅</mo>
+     <mo> </mo>
+     <mtext>exp</mtext>
+     <mo> </mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mrow>
+           <mo>[</mo>
+           <mi>S</mi>
+           <mo>]</mo>
+          </mrow>
+          <mn>0</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mrow>
+           <mi>V</mi>
+          </mrow>
+          <mrow>
+           <mi>max</mi>
+          </mrow>
+         </msub>
+         <mo>⋅</mo>
+         <mi>t</mi>
+        </mrow>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>K</mi>
+          </mrow>
+          <mi mathvariant="normal">m</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

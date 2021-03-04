@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0005" orientation="portrait" position="float">
+ <label>Table 5.</label>
+ <caption>
+  <p>Docking energy scores (kcal/mol) derived from the MOE for compounds 
+   <bold>Vd</bold>–
+   <bold>f</bold>, 
+   <bold>VIa</bold>–
+   <bold>c</bold>, and the reference ligand 
+   <bold>Sorafenib</bold>.
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Comp. no.</th>
+    <th align="center">Score</th>
+    <th align="center">rmsd_refine</th>
+    <th align="center">E_conf</th>
+    <th align="center">E_place</th>
+    <th align="center">E_score1</th>
+    <th align="center">E_score2</th>
+    <th align="center">E_refine</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left">
+     <bold>Vd</bold>
+    </td>
+    <td align="char" char=".">–7.3974</td>
+    <td align="char" char=".">2.6436</td>
+    <td align="char" char=".">89.8860</td>
+    <td align="char" char=".">–55.3257</td>
+    <td align="char" char=".">–13.3058</td>
+    <td align="char" char=".">–7.3974</td>
+    <td align="char" char=".">–30.4426</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Ve</bold>
+    </td>
+    <td align="char" char=".">–7.9154</td>
+    <td align="char" char=".">1.4800</td>
+    <td align="char" char=".">118.5701</td>
+    <td align="char" char=".">–66.3756</td>
+    <td align="char" char=".">–12.5551</td>
+    <td align="char" char=".">–7.9154</td>
+    <td align="char" char=".">–33.5940</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Vf</bold>
+    </td>
+    <td align="char" char=".">–6.9883</td>
+    <td align="char" char=".">1.5306</td>
+    <td align="char" char=".">101.3355</td>
+    <td align="char" char=".">–81.8762</td>
+    <td align="char" char=".">–11.3026</td>
+    <td align="char" char=".">–6.9883</td>
+    <td align="char" char=".">–27.0719</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>VIa</bold>
+    </td>
+    <td align="char" char=".">–7.4371</td>
+    <td align="char" char=".">1.3288</td>
+    <td align="char" char=".">121.3822</td>
+    <td align="char" char=".">–71.7816</td>
+    <td align="char" char=".">–13.2958</td>
+    <td align="char" char=".">–7.4371</td>
+    <td align="char" char=".">–20.1583</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>VIb</bold>
+    </td>
+    <td align="char" char=".">–6.7455</td>
+    <td align="char" char=".">0.9160</td>
+    <td align="char" char=".">103.8081</td>
+    <td align="char" char=".">–80.8748</td>
+    <td align="char" char=".">–12.5471</td>
+    <td align="char" char=".">–6.7455</td>
+    <td align="char" char=".">–16.9364</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>VIc</bold>
+    </td>
+    <td align="char" char=".">–6.9328</td>
+    <td align="char" char=".">1.2209</td>
+    <td align="char" char=".">99.4951</td>
+    <td align="char" char=".">–46.3408</td>
+    <td align="char" char=".">–11.6422</td>
+    <td align="char" char=".">–6.9328</td>
+    <td align="char" char=".">–22.0011</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Sorafenib</bold>
+    </td>
+    <td align="char" char=".">–11.1354</td>
+    <td align="char" char=".">1.0623</td>
+    <td align="char" char=".">–57.2969</td>
+    <td align="char" char=".">–94.4447</td>
+    <td align="char" char=".">–12.8634</td>
+    <td align="char" char=".">–11.1354</td>
+    <td align="char" char=".">–69.0130</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF2">
+   <p>Score: lower scores are more favourable; rmsd_refine: the root mean square deviation of the pose from the docking pose compared to the co-crystal ligand position; E_conf: free binding energy of the conformer; E_place: free binding energy from the placement stage; E_score 1: free binding energy from the first rescoring stage; E_score 2: free binding energy from the second rescoring stage; E_refine: free binding energy from the refinement stage.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

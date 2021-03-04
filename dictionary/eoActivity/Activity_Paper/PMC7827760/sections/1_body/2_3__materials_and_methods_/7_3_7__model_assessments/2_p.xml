@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Equation (3). Matthews correlation coefficient (MCC) 
+ <disp-formula id="FD3-molecules-26-00317">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>M</mi>
+     <mi>C</mi>
+     <mi>C</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>P</mi>
+       <mi>N</mi>
+       <mo stretchy="false">)</mo>
+       <mo>−</mo>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>P</mi>
+        <mi>f</mi>
+       </msub>
+       <msub>
+        <mi>N</mi>
+        <mi>f</mi>
+       </msub>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <msqrt>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mi>N</mi>
+         <mo>+</mo>
+         <msub>
+          <mi>N</mi>
+          <mi>f</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <mi>N</mi>
+         <mo>+</mo>
+         <msub>
+          <mi>P</mi>
+          <mi>f</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <mi>P</mi>
+         <mo>+</mo>
+         <msub>
+          <mi>N</mi>
+          <mi>f</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo stretchy="false">(</mo>
+         <mi>P</mi>
+         <mo>+</mo>
+         <msub>
+          <mi>P</mi>
+          <mi>f</mi>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>P</italic>, 
+ <italic>N</italic>, 
+ <italic>P
+  <sub>f</sub>
+ </italic>, and 
+ <italic>N
+  <sub>f</sub>
+ </italic> are the number of true positive, true negative, false positive, and false-negative predictions, respectively. A perfect prediction yields 
+ <italic>MCC</italic> = 1.0, while a random performance yields 
+ <italic>MCC</italic> = 0.0 and 
+ <italic>MCC</italic> = −1.0 indicates a completely erroneous prediction.
+</p>

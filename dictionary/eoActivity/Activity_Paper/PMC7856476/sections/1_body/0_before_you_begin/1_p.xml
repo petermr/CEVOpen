@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0025">Auto 
+ <italic>in silico</italic> ligand directing evolution (AILDE) is an effective approach to rapidly explore the structure-activity relationship for H2L optimization (
+ <xref rid="bib11" ref-type="bibr">Wu et al., 2020</xref>). AILDE is utilized to optimize a hit compound by minor chemical modifications on its scaffold. Minimal increases or losses for the binding efficiency of ligand could be obtained by these modifications. Hence, this method can help us for the exploration of the chemical space around a hit compound and promote the optimization of the hit compound into more drug-like lead compounds. 
+ <xref rid="fig1" ref-type="fig">Figure 1</xref> shows the workflow of AILDE. AILDE is based on molecular dynamics (MD) simulation complemented with one-step free energy perturbation (FEP) (
+ <xref rid="bib2" ref-type="bibr">Hao et al., 2015</xref>; 
+ <xref rid="bib10" ref-type="bibr">Wu et al., 2018</xref>). MD simulation is firstly performed on the protein-hit complex. The equilibrated conformational ensemble is then collected. The hit ligand in each conformation is modified to new ligand with substitution using the fragment library. The binding free energy changes between protein-hit and hit analogs are calculated. New leads are finally determined based on the rank of the binding affinity changes.
+</p>

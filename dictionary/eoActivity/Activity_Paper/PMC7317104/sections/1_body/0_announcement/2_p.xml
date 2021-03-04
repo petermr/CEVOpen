@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For DNA extraction, 
+ <italic>Streptomyces</italic> sp. I05A-00742 was grown for 1 week on mannitol soya flour (MS) agar (
+ <xref rid="B6" ref-type="bibr">6</xref>) at 28°C and then transferred to ISP medium 2 (0.4% yeast extract, 10% malt extract, and 0.4% glucose [pH 7.2]) at 28°C for 48 h. The genomic DNA was isolated using the Wizard genomic DNA purification kit (Promega, USA) and assessed using a NanoDrop 2000 spectrophotometer and agarose electrophoresis. The genomic DNA library was generated using the NEXTflex rapid kit (Bioscientific). The draft genome sequence of 
+ <italic>Streptomyces</italic> sp. I05A-00742 was obtained on a second-generation sequencing platform, Illumina HiSeq X Ten platform (2 × 150-bp paired-end reads), resulting in 1,436,443,672 bp of raw data (9,512,872 paired-end reads with a 415-bp average insert size and a sequencing depth of 200×). After sequencing, adapters were trimmed, and low-quality reads were filtered out using SeqPrep (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/jstjohn/SeqPrep" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/jstjohn/SeqPrep</ext-link>) and Trimmomatic v0.36 (
+ <xref rid="B7" ref-type="bibr">7</xref>) with default settings. A total of 1,340,847,504 bp of clean data (9,050,014 reads) was obtained. The draft genome sequence was directly assembled into 180 contigs (7,128,881 bp; 
+ <italic>N</italic>
+ <sub>50</sub>, 90,220 bp) and then composed into 105 scaffolds (7,129,054 bp; 
+ <italic>N</italic>
+ <sub>50</sub>, 166,849 bp; G+C content, 72.43%) by SOAPdenovo v2.04 (parameter setting, kmer 21 to 41) (
+ <xref rid="B8" ref-type="bibr">8</xref>) and GapCloser v1.12 (
+ <xref rid="B8" ref-type="bibr">8</xref>). There are 590 tandem repeat sequences (88,920 bp), which make up 1.44% of the genome, found by Tandem Repeats Finder v4.07b (
+ <xref rid="B9" ref-type="bibr">9</xref>) (parameter settings were match = 2, mismatch = 7, delta = 7, PM = 80, PI = 10, minscore = 80, and maxperiod = 500).
+</p>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>The results of parameters tuning in MLP structure</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="2">Activation function</th>
+    <th align="left" rowspan="2">Training function</th>
+    <th align="left" rowspan="2">Structure</th>
+    <th align="left" colspan="4">Test set</th>
+    <th align="left" colspan="4">Training Data</th>
+   </tr>
+   <tr>
+    <th align="left">R
+     <sup>2</sup>
+    </th>
+    <th align="left">MSE</th>
+    <th align="left">RMSE</th>
+    <th align="left">MAE</th>
+    <th align="left">R
+     <sup>2</sup>
+    </th>
+    <th align="left">MSE</th>
+    <th align="left">RMSE</th>
+    <th align="left">MAE</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Logsig-Purelin</td>
+    <td align="left">LM</td>
+    <td align="left">13–26-1</td>
+    <td char="." align="char">0.87</td>
+    <td char="." align="char">0.15</td>
+    <td char="." align="char">0.39</td>
+    <td char="." align="char">0.29</td>
+    <td char="." align="char">0.99</td>
+    <td char="." align="char">0.00</td>
+    <td char="." align="char">0.03</td>
+    <td char="." align="char">0.02</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

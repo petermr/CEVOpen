@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular docking was additionally assessed with MM-GBSA free restricting vitality, which is identified with the post scoring approach for COVID-19 (PDB ID: 5R82) target and the values are shown in 
+ <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285" xmlns:xlink="http://www.w3.org/1999/xlink">Supplementary Table S2</ext-link> (
+ <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/07391102.2020.1798285" xmlns:xlink="http://www.w3.org/1999/xlink">supplementary material</ext-link>). Prime MMGBSA DG bind, the binding free energy, is calculated with the equation: 
+ <disp-formula id="M0001">
+  <alternatives>
+   <graphic xlink:href="TBSD_A_1798285_M0001.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d1e1571">
+    <mrow>
+     <mo>Δ</mo>
+     <mi mathvariant="normal">G</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mtext>bind</mtext>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi mathvariant="normal"> </mi>
+     <mo>=</mo>
+     <mi mathvariant="normal"> </mi>
+     <mi mathvariant="normal">E</mi>
+     <mo>_</mo>
+     <mtext>complex</mtext>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mtext>minimized</mtext>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi mathvariant="normal"> </mi>
+     <mo>−</mo>
+     <mi mathvariant="normal"> </mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi mathvariant="normal">E</mi>
+       <mo>_</mo>
+       <mtext>ligand</mtext>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mtext>minimized</mtext>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mi mathvariant="normal"> </mi>
+       <mo>+</mo>
+       <mi mathvariant="normal"> </mi>
+       <mi mathvariant="normal">E</mi>
+       <mo>_</mo>
+       <mtext>receptor</mtext>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mtext>minimized</mtext>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

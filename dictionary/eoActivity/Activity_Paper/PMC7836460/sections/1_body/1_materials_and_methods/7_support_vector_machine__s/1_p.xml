@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">SVM is a classifier which is developing the margins around the boundaries of classification. SVM model Eq. (
+ <xref rid="Equ6" ref-type="">6</xref>) uses input variables in the structure of a kernel function (Eq. 
+ <xref rid="Equ7" ref-type="">7</xref>).
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y\left( x \right) = \mathop \sum \limits_{i = 1}^{n} \alpha_{i} K\left( {x_{i} ,x_{j} } \right) + b.$$\end{document}</tex-math>
+   <math id="M14" display="block">
+    <mrow>
+     <mi>y</mi>
+     <mfenced close=")" open="(">
+      <mi>x</mi>
+     </mfenced>
+     <mo>=</mo>
+     <munderover>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+     </munderover>
+     <msub>
+      <mi>α</mi>
+      <mi>i</mi>
+     </msub>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>x</mi>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+     </mfenced>
+     <mo>+</mo>
+     <mi>b</mi>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

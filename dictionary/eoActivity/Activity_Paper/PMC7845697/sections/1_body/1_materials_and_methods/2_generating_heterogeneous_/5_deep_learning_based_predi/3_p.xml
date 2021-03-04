@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The proposed model was constructed using the following techniques. We applied the ReLU (Rectified Linear Unit) activation function in which 
+ <italic>f</italic>(
+ <italic>x</italic>) = max (0, 
+ <italic>x</italic>) to all hidden units to increase the nonlinearity (
+ <xref rid="B77" ref-type="bibr">Nair and Hinton, 2010</xref>). The weights were initialized using random numbers with zero-centered Gaussian with standard deviation of 
+ <inline-formula id="inf3">
+  <math id="m5">
+   <mrow>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mo>/</mo>
+      <msub>
+       <mi>n</mi>
+       <mi>l</mi>
+      </msub>
+     </mrow>
+    </msqrt>
+   </mrow>
+  </math>
+ </inline-formula> (where 
+ <italic>n</italic>
+ <sub>
+  <italic>l</italic>
+ </sub> is the number of input units) that takes into account the ReLU nonlinearity (
+ <xref rid="B38" ref-type="bibr">He et al., 2015</xref>). The batch normalization was used to normalize the input layer by re-centering and re-scaling (
+ <xref rid="B42" ref-type="bibr">Ioffe and Szegedy, 2015</xref>). The class-weighted binary cross-entropy loss function for gradient descent was used to handle imbalanced dataset and defined as follow equation.
+ <disp-formula id="e3">
+  <math id="m6">
+   <mrow>
+    <msub>
+     <mi>L</mi>
+     <mi>w</mi>
+    </msub>
+    <mo>=</mo>
+    <mo>−</mo>
+    <munder>
+     <mstyle displaystyle="true">
+      <mo>∑</mo>
+     </mstyle>
+     <mi>i</mi>
+    </munder>
+    <msub>
+     <mi>w</mi>
+     <mn>0</mn>
+    </msub>
+    <msub>
+     <mi>y</mi>
+     <mi>i</mi>
+    </msub>
+    <mi>l</mi>
+    <mi>o</mi>
+    <mi>g</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <msub>
+         <mi>y</mi>
+         <mi>i</mi>
+        </msub>
+       </mrow>
+       <mo stretchy="true">^</mo>
+      </mover>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>+</mo>
+    <msub>
+     <mi>w</mi>
+     <mn>1</mn>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msub>
+       <mi>y</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mi>l</mi>
+    <mi>o</mi>
+    <mi>g</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mrow>
+       <mover accent="true">
+        <mrow>
+         <msub>
+          <mi>y</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+        <mo stretchy="true">^</mo>
+       </mover>
+      </mrow>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>i</italic> is the number of samples, 
+ <inline-formula id="inf4">
+  <math id="m7">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <msub>
+       <mi>y</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+     <mo stretchy="true">^</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is the predicted model output, and 
+ <inline-formula id="inf5">
+  <math id="m8">
+   <mrow>
+    <msub>
+     <mi>y</mi>
+     <mi>i</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the corresponding target value. 
+ <italic>w</italic>
+ <sub>0</sub> and 
+ <italic>w</italic>
+ <sub>1</sub> are the weights for class 1 and 0, which are set to be inversely proportional to the class frequencies. To optimize the loss function, the Adam optimizer was applied with the learning rate = 0.0001, the learning rate decay = 0, 
+ <italic>β</italic>
+ <sub>1</sub> = 0.9 and 
+ <italic>β</italic>
+ <sub>2</sub> = 0.999 (
+ <xref rid="B49" ref-type="bibr">Kingma and Ba, 2014</xref>). To avoid overfitting, early stopping was applied to an iterative procedure of gradient descent (
+ <xref rid="B85" ref-type="bibr">Prechelt, 1998</xref>; 
+ <xref rid="B110" ref-type="bibr">Yao et al., 2007</xref>). We ran the models for 3,000 epochs and the batch size of 64 with early stopping (patience = 30).
+</p>

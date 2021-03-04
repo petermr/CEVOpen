@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The raw 16S rRNA and ITS gene sequencing reads were demultiplexed, quality-filtered by Trimmomatic, and merged by FLASH (version 1.2.11) (
+ <xref rid="B38" ref-type="bibr">Magoè and Salzberg, 2011</xref>) with a minimum overlap of 10 bp and mismatch error rates of 2%. Operational taxonomic units (OTUs) with a 97% similarity cutoff were clustered using UPARSE (version 7.1)
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup> (
+ <xref rid="B13" ref-type="bibr">Edgar, 2013</xref>), and the chimeric sequences were identified and removed. The taxonomy of each OTU representative sequence was analyzed using the RDP Classifier (
+ <xref rid="B68" ref-type="bibr">Wang Q. et al., 2007</xref>)
+ <sup>
+  <xref ref-type="fn" rid="footnote2">2</xref>
+ </sup> against the 16S rRNA database (Greengenes Database)
+ <sup>
+  <xref ref-type="fn" rid="footnote3">3</xref>
+ </sup> (
+ <xref rid="B12" ref-type="bibr">DeSantis et al., 2006</xref>) or the SILVA database
+ <sup>
+  <xref ref-type="fn" rid="footnote4">4</xref>
+ </sup> (
+ <xref rid="B46" ref-type="bibr">Pruesse et al., 2007</xref>) and its ITS units were compared against the UNITE Database (
+ <xref rid="B27" ref-type="bibr">Kõljalg et al., 2005</xref>). All the comparisons used a confidence threshold of 0.7. Chao1, Simpson, and all the other alpha diversity indexes were calculated by QIIME (version 1.9.1) (
+ <xref rid="B4" ref-type="bibr">Caporaso et al., 2010</xref>). The OTU rarefaction curve and rank abundance curves were also plotted by QIIME. The abundance statistics for each taxonomic unit were visualized using Krona (version 2.6) (
+ <xref rid="B43" ref-type="bibr">Ondov et al., 2011</xref>) and the biomarker features in each group were screened by Metastats (version 20090414) (
+ <xref rid="B69" ref-type="bibr">White et al., 2009</xref>) and LEfSe software (version 1.0) (
+ <xref rid="B54" ref-type="bibr">Segata et al., 2011</xref>).
+</p>

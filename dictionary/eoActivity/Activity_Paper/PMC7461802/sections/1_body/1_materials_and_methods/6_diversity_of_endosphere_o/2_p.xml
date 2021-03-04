@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Illumina reads of raw fastq files were demultiplexed and quality-filtered using Trimmomatic v0.36 (
+ <xref rid="B8" ref-type="bibr">Bolger et al., 2014</xref>). Overlapping paired-end reads were merged using FLASH (
+ <xref rid="B40" ref-type="bibr">Magoc and Salzberg, 2011</xref>) according to specific criteria as reported by 
+ <xref rid="B71" ref-type="bibr">Zhang et al. (2018)</xref>. Chimeric sequences were identified and removed using UCHIME (
+ <xref rid="B22" ref-type="bibr">Edgar et al., 2011</xref>). Sequences with 97% sequence similarity were clustered into Operational Taxonomic Units (OTUs) using UPARSE (version 7.1; 
+ <xref rid="B21" ref-type="bibr">Edgar, 2013</xref>)
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup>. The taxonomy assignment of each OTU sequence was analyzed using the RDP Classifier algorithm
+ <sup>
+  <xref ref-type="fn" rid="footnote2">2</xref>
+ </sup> against the Silva 16S rRNA database and Unite ITS fungi with a confidence threshold of 70% (
+ <xref rid="B30" ref-type="bibr">Hao et al., 2017</xref>). The reference database used was Silva (Release 126)
+ <sup>
+  <xref ref-type="fn" rid="footnote3">3</xref>
+ </sup>. Rarefaction curves and alpha diversity containing the Chao1 index, ACE index, Shannon estimator and Simpson estimator were determined as described previously (
+ <xref rid="B9" ref-type="bibr">Chen et al., 2017</xref>).
+</p>

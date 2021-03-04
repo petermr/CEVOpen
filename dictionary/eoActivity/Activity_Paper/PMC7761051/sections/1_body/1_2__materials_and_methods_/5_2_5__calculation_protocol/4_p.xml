@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Precision reports the proportion of TP among all positive predictions, while recall reports the proportion of recovered TP relative to all positive instances in the dataset:
+ <disp-formula id="FD4-biomolecules-10-01605">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>Precision</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>TP</mi>
+      </mrow>
+      <mrow>
+       <mi>TP</mi>
+       <mo>+</mo>
+       <mi>FP</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD5-biomolecules-10-01605">
+  <label>(5)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>Recall</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>TP</mi>
+      </mrow>
+      <mrow>
+       <mi>TP</mi>
+       <mo>+</mo>
+       <mi>FN</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

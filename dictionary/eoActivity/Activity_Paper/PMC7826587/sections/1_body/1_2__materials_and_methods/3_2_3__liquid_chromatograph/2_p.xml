@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>ProfileAnalysis software (version 2.1, Bruker Daltonik GmbH, Bremen, Germany) was used to preprocess the raw UHPLC-QTOF-MS data. ProfileAnalysis parameters were set as follows: advanced bucket generation with retention time range of 1.0–24.0 min, mass range of 100–800 
+ <italic>m</italic>/
+ <italic>z</italic>, normalization to sum of peaks, background subtraction, and time alignment; then, analyses were processed with the Find Molecular Futures (FMF) function to create compounds with a signal-to-noise threshold of 3 for peak detection. The generated bucket table consisting of 
+ <italic>m</italic>/
+ <italic>z</italic>–retention time pairs and respective compound intensity was exported and uploaded to Metabolists 5.0 (
+ <uri xlink:href="http://www.MetaboAnalyst.ca/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.MetaboAnalyst.ca/</uri>) for multivariate statistical analysis. The initial and final retention times were set for data collection. Data were imported into Metabolists 5.0 (
+ <uri xlink:href="http://www.MetaboAnalyst.ca/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.MetaboAnalyst.ca/</uri>) online software to estimate missing values and to filter and normalize data (normalization by the median). No transformation was generalized, and the data matrix was mean-centered and divided by the square root of the standard deviation of each variable (Pareto scaling). The obtained data matrix was introduced into SIMCA-P+ 16.01 (Sartorius AG, Göttingen, Germany) software for in-review multivariate statistical analysis of principal component analysis (PCA). The PCA score plot was used to present a natural correlation between the observations. To identify differential compounds, the PLS-DA (Partial Least Squares Discriminant Analysis) model was used to explore differences in depth between the profile metabolome of 
+ <italic>Salvia yangii</italic> and 
+ <italic>S. abrotanoides</italic> The PLS-DA model with VIP values (VIP ≥ 1.0) and |p(corr)| ≥ 0.5 was used to select differential compounds (PLS-DA data not shown).
+</p>

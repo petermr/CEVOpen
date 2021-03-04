@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Progress curve experimental data were analysed by nonlinear regression fitting programme Dynafit using either numerical integration of differential equations that describe simple Michaelis–Menten reaction model E + S ⇆ ES → E + P or newly described algebraic solution for the Michaelis–Menten equation, which includes the Lambert 
+ <italic>W</italic>(
+ <italic>x</italic>) function
+ <xref rid="CIT0009" ref-type="bibr">
+  <sup>9</sup>
+ </xref>
+ <sup>,</sup>
+ <xref rid="CIT0010" ref-type="bibr">
+  <sup>10</sup>
+ </xref>: 
+ <disp-formula id="M0001">
+  <label>(1)</label>
+  <alternatives>
+   <graphic xlink:href="IENZ_A_1695792_M0001.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e259">
+    <mrow>
+     <msub>
+      <mrow>
+       <mo>[</mo>
+       <mi>P</mi>
+       <mo>]</mo>
+      </mrow>
+      <mi>t</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mo>[</mo>
+       <mi>S</mi>
+       <mo>]</mo>
+      </mrow>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mrow>
+       <mi>K</mi>
+      </mrow>
+      <mi mathvariant="normal">m</mi>
+     </msub>
+     <mo>⋅</mo>
+     <msub>
+      <mrow>
+       <mi>W</mi>
+      </mrow>
+      <mn>0</mn>
+     </msub>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mrow>
+           <mo>[</mo>
+           <mi>S</mi>
+           <mo>]</mo>
+          </mrow>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>K</mi>
+          </mrow>
+          <mi mathvariant="normal">m</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo>⋅</mo>
+       <mo> </mo>
+       <mtext>exp</mtext>
+       <mo> </mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mrow>
+             <mo>[</mo>
+             <mi>S</mi>
+             <mo>]</mo>
+            </mrow>
+            <mn>0</mn>
+           </msub>
+           <mo>−</mo>
+           <msub>
+            <mrow>
+             <mi>V</mi>
+            </mrow>
+            <mrow>
+             <mi>max</mi>
+            </mrow>
+           </msub>
+           <mo>⋅</mo>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>K</mi>
+            </mrow>
+            <mi mathvariant="normal">m</mi>
+           </msub>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>}</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For both target proteins, the molecular docking of prepared ligands was performed using AutoDock Vina with the exhaustiveness set as 8. The top conformation of the docked ligand with lowest binding energy, i.e., the best docked pose, was obtained from the output of AutoDock Vina using the associated script 
+ <italic>vina_split</italic>. Subsequently, a combined structure file in .pdb format of the docked protein-ligand complex (with ligand in the best docked pose) was prepared using a custom script and pdb-tools [
+ <xref rid="B79-molecules-25-03822" ref-type="bibr">79</xref>].
+</p>
