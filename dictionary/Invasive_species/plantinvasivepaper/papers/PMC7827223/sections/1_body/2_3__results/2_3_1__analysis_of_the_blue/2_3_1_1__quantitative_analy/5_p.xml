@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A similar distribution can be seen in 
+ <xref ref-type="fig" rid="sensors-21-00471-f005">Figure 5</xref>, where the number of blueberry bushes were plotted against the height. Classes were chosen for each 0.5 m starting with 0 m up to lower than 3.5 m and more than 3.5 m. This distribution was chosen due to the characteristics of shallow blueberry bushes that reach 60 cm and tall species that reach 3 m. Regarding the maximum height, no height was computed for 2.3% (B1) up to 15.5% (B6) while the numbers were higher when the median height was considered (11.0% for B1 up to 35.2% for B6). In general, the median height values were higher for the classes 0 m and 0.5 m in comparison to the maximum height, while the values are lower from 0.5 m.The lowest height values started from 0.01 m (B6), 0.03 m (B1), 0.07 m (B3/4), and 0.1 m (B2) for both max. and median height. In general, the maximum and the median height distribution of the orthomosaics was similar. Almost all of the blueberry bushes in orthomosaic B6 were within the class &lt; 0.5 (83.3%). In B1 the number of blueberry bushes in this same class was 79% and 15.2% was between 0.5 and &lt;1 m, which was similar to B6. Orthomosaic B2 to B4 showed a Poisson distribution, whereby B2 had the highest number in 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>&lt;</mo>
+     <mn>1.5</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> m with 21.2 m, while 41.6 of the blueberry bushes in B4 had the highest value in &lt;0.5 m. Furthermore, in B2 and B3, more than 50% of the blueberry bushes reached heights between 1 m and 3.5 m (57% and 57.7%).It has to be considered that the area was calculated on the shapefiles in ArcGIS, while our developed python code was used in order to calculate the height of the blueberry bushes. Because the input for the code was the annotations of the blueberry bushes that were stored as a PNG file, those bushes that were close together were grouped. Therefore, the height values were not always calculated for an individual bush, which resulted in a different number of blueberry bushes per site: 309 (B1), 519 (B2), 461 (B3), 394 (B4), and 219 (B6).
+</p>

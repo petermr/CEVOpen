@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The hypothesis was that a machine learning algorithm (MLA) could be applied, because MLAs commonly outperform classical statistical techniques (e.g., linear regression, generalized linear model, logistic regression) by stressing prediction accuracy [
+ <xref rid="B49-plants-08-00593" ref-type="bibr">49</xref>]. However, one of the main drawbacks of MLAs is that the results are not as easy to interpret as those of classical techniques [
+ <xref rid="B49-plants-08-00593" ref-type="bibr">49</xref>]. Therefore, we searched for an MLA that would provide more or less interpretable results, because our aim was not just to explore and model the relationship between common milkweed spreading and its geographical driving factors, but also to predict further sites in the region with high invasion potential. Thus, we chose the C5.0 classification model [
+ <xref rid="B50-plants-08-00593" ref-type="bibr">50</xref>]. Briefly, the C5.0 classification model is an MLA resulting in either decision trees or sets of if–then rules (so-called “rulesets”) using information gain (entropy) as a splitting criterion. In addition, C5.0 is quite a robust technique, considering multicollinearity. Compared to more advanced and sophisticated MLAs (e.g., neural networks, support vector machines, and random forests), the decision trees or sets of if–then rules under C5.0 generally perform nearly as well, but are much easier to understand and deploy. For more details, see [
+ <xref rid="B50-plants-08-00593" ref-type="bibr">50</xref>,
+ <xref rid="B51-plants-08-00593" ref-type="bibr">51</xref>].
+</p>

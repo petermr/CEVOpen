@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DDRP was designed to be complementary to CLIMEX in several ways to facilitate climatic suitability model parameterization, but the two programs also differ in several respects (
+ <xref rid="pone.0244005.t002" ref-type="table">Table 2</xref>). Both platforms use a process-based modeling approach in which parameters that describe the response of a species to temperature stress are included in calculations of climatic suitability. Certain model outputs, particularly maps of temperature stress accumulation, are therefore directly comparable. DDRP uses the stress accumulation method of CLIMEX in which cold and heat stress units begin to accumulate when temperatures exceed the cold and heat stress temperature thresholds, respectively. In both platforms, cold stress units are calculated as the difference between 
+ <italic>T</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> and the cold stress temperature threshold, and heat stress units are calculated as the difference between 
+ <italic>T</italic>
+ <sub>
+  <italic>max</italic>
+ </sub> and the heat stress temperature threshold. However, DDRP uses daily temperature data and stress accumulates linearly over time, whereas CLIMEX uses average weekly temperature data and stress accumulates at a weekly rate that becomes exponential over time (each week’s stress in multiplied by the number of weeks since the stress first exceeded zero) [
+ <xref rid="pone.0244005.ref040" ref-type="bibr">40</xref>]. These differences appear to be minor in using CLIMEX outputs and parameters to support calibration of DDRP parameters, as demonstrated in our case studies (see ‘Case Studies’). Similar to CLIMEX, DDRP uses a single cold and heat stress temperature threshold for all life stages, and stress units accumulate across the entire time period of interest (i.e. across all life stages and generations). We apply the cold and heat stress threshold of the life stage that would be most likely to experience the coldest or hottest temperatures of the year, respectively. DDRP assumes that stress could indirectly kill individuals by restricting their activity, or directly cause mortality through extreme cold or heat events such as a hard freeze.
+</p>

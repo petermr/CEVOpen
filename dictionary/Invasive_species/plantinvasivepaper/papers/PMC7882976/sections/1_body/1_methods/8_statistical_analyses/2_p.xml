@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All statistical analyses were performed in R version 3.5.3 (R‐Core‐Team, 
+ <xref rid="ece37171-bib-0049" ref-type="ref">2019</xref>). In the rat microbiome dataset, we quantified microbiome structure with (a) two measures of alpha diversity (ASV richness and Faith's phylogenetic diversity [Faith's PD]), (b) three measures of beta diversity (Jaccard, unweighted UniFrac, and Bray–Curtis), and (c) two measures of bacterial relative abundance using sequence counts (two taxonomic levels: bacterial ASV and bacterial phylum). Prior to conducting Bray–Curtis analyses, we performed proportion normalization on the raw sequence counts (i.e., total sum scaling) to correct for biases associated with unequal sequencing depth on this abundance‐weighted measures (McMurdie &amp; Holmes, 
+ <xref rid="ece37171-bib-0036" ref-type="ref">2014</xref>; Weiss et al., 
+ <xref rid="ece37171-bib-0064" ref-type="ref">2017</xref>). Variation in sequencing depth was approximately 16x. Therefore, we included sequence count as an additional explanatory variable in our alpha and beta diversity analyses (Weiss et al., 
+ <xref rid="ece37171-bib-0064" ref-type="ref">2017</xref>) to account for variation in sequencing depth among samples and to avoid statistical issues associated with sequence count rarefaction (McMurdie &amp; Holmes, 
+ <xref rid="ece37171-bib-0036" ref-type="ref">2014</xref>). If sequencing depth was significant, we performed analyses on a rarefied dataset to verify that sequencing depth was not driving the significance of the biological effect. We found that sequencing depth did not affect our statistical results or biological inference, and therefore we only report the statistics for the raw sequence data (non‐rarefied) in the results. Our sequencing depth provided adequate sampling of the community (Figure 
+ <xref rid="ece37171-sup-0001" ref-type="supplementary-material">S1</xref>).
+</p>

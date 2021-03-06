@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DDRP requires the R statistical software platform and can be run from the command line or within RStudio [
+ <xref rid="pone.0244005.ref047" ref-type="bibr">47</xref>]. It takes advantage of functions from several R packages for data manipulation, analysis, and post-model processing. The raster package [
+ <xref rid="pone.0244005.ref048" ref-type="bibr">48</xref>] is used to crop daily temperature rasters to the focal area, store and manipulate daily loop raster results, and process and further analyze results for each cohort. Many non-spatial data manipulations are conducted with functions in the dplyr, tidyr, and stringr packages [
+ <xref rid="pone.0244005.ref049" ref-type="bibr">49</xref>–
+ <xref rid="pone.0244005.ref051" ref-type="bibr">51</xref>]. The ggplot2 package [
+ <xref rid="pone.0244005.ref052" ref-type="bibr">52</xref>] is used to generate and save summary maps of raster outputs, and options from the command line argument are parsed using the optparse package [
+ <xref rid="pone.0244005.ref053" ref-type="bibr">53</xref>].
+</p>

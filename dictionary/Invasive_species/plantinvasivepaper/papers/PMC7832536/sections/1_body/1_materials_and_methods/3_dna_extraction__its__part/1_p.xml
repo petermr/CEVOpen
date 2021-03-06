@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Extraction of fungal DNA, polymerase chain reaction (PCR), and sequencing of the ITS, partial 28S nuclear ribosomal DNA (nrDNA), partial 18S nrDNA and partial β-tubulin gene for the case isolate HKU44
+ <sup>T</sup> and the ex-type/reference strains of other 
+ <italic>Pleurostoma</italic> species were carried out following our previous publication [
+ <xref rid="CIT0042" ref-type="bibr">42</xref>] with the primer pairs ITS1/ITS4 [
+ <xref rid="CIT0043" ref-type="bibr">43</xref>] for the ITS, NL1/NL4 [
+ <xref rid="CIT0044" ref-type="bibr">44</xref>] for partial 28S nrDNA, NS1/NS4 [
+ <xref rid="CIT0043" ref-type="bibr">43</xref>] for partial 18S nrDNA as well as TUB2-F/TUB2-R [
+ <xref rid="CIT0045" ref-type="bibr">45</xref>] for partial β-tubulin gene. The DNA sequences obtained, together with those of other closely related species/strains accessioned in the DDBJ/ENA/GenBank databases, were then compared by pairwise alignment using BioEdit 7.2.0 [
+ <xref rid="CIT0046" ref-type="bibr">46</xref>]. These sequences were also analysed by multiple sequence alignment using MUSCLE 3.8 [
+ <xref rid="CIT0047" ref-type="bibr">47</xref>]. After end-trimming, divergent or poorly aligned regions of the DNA sequences were removed using Gblocks 0.91b [
+ <xref rid="CIT0048" ref-type="bibr">48</xref>, 
+ <xref rid="CIT0049" ref-type="bibr">49</xref>] with relaxed parameters. Test for substitution model and phylogenetic tree reconstruction for each DNA marker were performed by the maximum likelihood method using MEGA 6.0.6 [
+ <xref rid="CIT0050" ref-type="bibr">50</xref>]. Phylogenetic analyses included 531, 560, 822 and 397 nucleotide positions of the ITS, partial 28S nrDNA, partial 18S nrDNA and partial β-tubulin gene sequences, respectively. Phylogenetic trees were also reconstructed using the concatenated sequences of the four DNA markers (total 2340 nucleotide positions) of HKU44
+ <sup>T</sup> and other 
+ <italic>Pleurostoma</italic> strains by the maximum likelihood method as described above and by the Bayesian evolutionary analysis using BEAST 1.10.4 [
+ <xref rid="CIT0051" ref-type="bibr">51</xref>]. For Bayesian inference, ten million generations were run with trees sampled every 1000th generation to yield 10,000 trees. The trees, after a 10% burn-in, were summarized as a single tree using TreeAnnotator 1.8.0 by choosing the tree with the maximum sum of posterior probabilities (maximum clade credibility) and viewed using FigTree 1.4.0.
+</p>

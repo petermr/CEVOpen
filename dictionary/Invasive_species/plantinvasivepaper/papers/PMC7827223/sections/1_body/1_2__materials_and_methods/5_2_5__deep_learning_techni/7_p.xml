@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Two main approaches were used in order to obtain a higher detection rate for the blueberry class:
+ <list list-type="bullet">
+  <list-item>
+   <p>Data augmentation is a commonly used strategy in deep learning and it can increase the size of the training datasets without the need to collect new data. In this case, data augmentation was used to generate new synthetic patches of the blueberry class, which was the less frequent class (see 
+    <xref ref-type="sec" rid="sec3dot2-sensors-21-00471">Section 3.2</xref> for details). Six image transformations to augment the data were used: up/down and left/right flips; small central rotations with a random angle, in order to simulate different perspectives of the bushes; Gaussian blurring of the images, which simulates blurring due to the movement of the UAV; linear and small contrast changes, which can represent different light and shadow conditions and localised elastic deformations. In order to implement this transformations we used the “imgaug” library [
+    <xref rid="B44-sensors-21-00471" ref-type="bibr">44</xref>].
+   </p>
+  </list-item>
+  <list-item>
+   <p>Loss functions are used to compute the accuracy of the network and update their parameters. By giving different weights to different classes, their importance can be changed during training. In this study, two loss functions were used; the first function checks if a patch contains a blueberry or not, while the second one checks the fraction of blueberry pixels inside the patch. The optimal training settings followed the ones that were used in our previous study [
+    <xref rid="B43-sensors-21-00471" ref-type="bibr">43</xref>].
+   </p>
+  </list-item>
+ </list>
+</p>

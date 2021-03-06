@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">Let 
+ <inline-formula id="IEq26">
+  <alternatives>
+   <tex-math id="M101">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</tex-math>
+   <math id="M102">
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq26.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> be a function representing intensity of human activities at coordinates 
+ <inline-formula id="IEq27">
+  <alternatives>
+   <tex-math id="M103">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(x,y)$$\end{document}</tex-math>
+   <math id="M104">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq27.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Without loss of generality, we can assume that the function 
+ <inline-formula id="IEq28">
+  <alternatives>
+   <tex-math id="M105">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</tex-math>
+   <math id="M106">
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq28.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> satisfies 
+ <inline-formula id="IEq29">
+  <alternatives>
+   <tex-math id="M107">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\int_{S} {h(x,y)\,dxdy} = 1$$\end{document}</tex-math>
+   <math id="M108">
+    <mrow>
+     <msub>
+      <mo>∫</mo>
+      <mi>S</mi>
+     </msub>
+     <mrow>
+      <mi>h</mi>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+      <mspace width="0.166667em"/>
+      <mi>d</mi>
+      <mi>x</mi>
+      <mi>d</mi>
+      <mi>y</mi>
+     </mrow>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq29.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, the total intensity over the study area is scaled to one. In the source-mediated-dispersal model, the source function is proportional to the human-activity intensity, i.e., 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M109">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y) = |S| \cdot h(x,y)$$\end{document}</tex-math>
+   <math id="M110">
+    <mrow>
+     <mi>φ</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mo stretchy="false">|</mo>
+     <mi>S</mi>
+     <mo stretchy="false">|</mo>
+     <mo>·</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, and the destination function 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M111">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</tex-math>
+   <math id="M112">
+    <mrow>
+     <mi>ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is uniformly equal to 
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M113">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${1 \mathord{\left/ {\vphantom {1 {|S|}}} \right. \kern-\nulldelimiterspace} {|S|}}$$\end{document}</tex-math>
+   <math id="M114">
+    <mrow>
+     <mn>1</mn>
+     <mrow>
+      <mo stretchy="true">/</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>S</mi>
+      <mo stretchy="false">|</mo>
+     </mrow>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. On the contrary, the source function of the destination-mediated-dispersal model is uniform and the destination function is 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M115">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y) = h(x,y)$$\end{document}</tex-math>
+   <math id="M116">
+    <mrow>
+     <mi>ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The full model is a combination of the source- and destination-mediated-dispersal models in which both source and destination functions vary with area. In this study, we assume that a single factor determines both the source and destination functions, i.e., 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M117">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y) = \left| S \right| \cdot h(x,y)$$\end{document}</tex-math>
+   <math id="M118">
+    <mrow>
+     <mi>φ</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfenced close="|" open="|">
+      <mi>S</mi>
+     </mfenced>
+     <mo>·</mo>
+     <mi>h</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq35">
+  <alternatives>
+   <tex-math id="M119">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y) = h(x,y)$$\end{document}</tex-math>
+   <math id="M120">
+    <mrow>
+     <mi>ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78633_Article_IEq35.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (Table 
+ <xref rid="Tab2" ref-type="table">2</xref>).
+</p>

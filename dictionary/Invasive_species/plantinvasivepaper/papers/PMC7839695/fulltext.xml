@@ -1,0 +1,944 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="letter"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Lett</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Lett</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1461-0248</journal-id><journal-id journal-id-type="publisher-id">ELE</journal-id><journal-title-group><journal-title>Ecology Letters</journal-title></journal-title-group><issn pub-type="ppub">1461-023X</issn><issn pub-type="epub">1461-0248</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7839695</article-id><article-id pub-id-type="doi">10.1111/ele.13649</article-id><article-id pub-id-type="publisher-id">ELE13649</article-id><article-categories><subj-group subj-group-type="overline"><subject>Letter</subject></subj-group><subj-group subj-group-type="heading"><subject>Letters</subject></subj-group></article-categories><title-group><article-title>Residence time determines invasiveness and performance of garlic mustard (<italic>Alliaria petiolata</italic>) in North America</article-title><alt-title alt-title-type="right-running-head">Residence time determines invasiveness</alt-title><alt-title alt-title-type="left-running-head">B. Blossey</alt-title></title-group><contrib-group><contrib id="ele13649-cr-0001" contrib-type="author" corresp="yes"><name><surname>Blossey</surname><given-names>Bernd</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7043-4435</contrib-id><xref ref-type="aff" rid="ele13649-aff-0001">
+<sup>1</sup>
+</xref><address><email>bb22@cornell.edu</email></address></contrib><contrib id="ele13649-cr-0002" contrib-type="author"><name><surname>Nuzzo</surname><given-names>Victoria</given-names></name><xref ref-type="aff" rid="ele13649-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ele13649-cr-0003" contrib-type="author"><name><surname>D&#x000e1;valos</surname><given-names>Andrea</given-names></name><xref ref-type="aff" rid="ele13649-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ele13649-cr-0004" contrib-type="author"><name><surname>Mayer</surname><given-names>Mark</given-names></name><xref ref-type="aff" rid="ele13649-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ele13649-cr-0005" contrib-type="author"><name><surname>Dunbar</surname><given-names>Richard</given-names></name><xref ref-type="aff" rid="ele13649-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ele13649-cr-0006" contrib-type="author"><name><surname>Landis</surname><given-names>Douglas A.</given-names></name><xref ref-type="aff" rid="ele13649-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ele13649-cr-0007" contrib-type="author"><name><surname>Evans</surname><given-names>Jeffrey A.</given-names></name><xref ref-type="aff" rid="ele13649-aff-0006">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="ele13649-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="ele13649-cr-0008" contrib-type="author"><name><surname>Minter</surname><given-names>Bill</given-names></name><xref ref-type="aff" rid="ele13649-aff-0008">
+<sup>8</sup>
+</xref></contrib></contrib-group><contrib-group><contrib id="ele13649-cr-0009" contrib-type="editor"><name><surname>Seabloom</surname><given-names>Eric</given-names></name></contrib></contrib-group><aff id="ele13649-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Natural Resources</named-content>
+<institution>Fernow Hall</institution>
+<institution>Cornell University</institution>
+<city>Ithaca</city>
+<named-content content-type="country-part">NY</named-content>
+<postal-code>14853</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0002">
+<label><sup>2</sup></label>
+<institution>Natural Area Consultants</institution>
+<named-content content-type="street">1 West Hill School Road</named-content>
+<city>Richford</city>
+<named-content content-type="country-part">NY</named-content>
+<postal-code>13835</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Biological Sciences Department</named-content>
+<institution>SUNY Cortland</institution>
+<city>Cortland</city>
+<named-content content-type="country-part">NY</named-content>
+<postal-code>13045</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0004">
+<label><sup>4</sup></label>
+<institution>New Jersey Department of Agriculture</institution>
+<institution>Division of Plant Industry</institution>
+<named-content content-type="street">PO Box 330</named-content>
+<city>Trenton</city>
+<named-content content-type="country-part">NJ</named-content>
+<postal-code>08625</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0005">
+<label><sup>5</sup></label>
+<institution>Division of Nature Preserves</institution>
+<institution>Indiana Department of Natural Resources</institution>
+<named-content content-type="street">1040 E 700 N Columbia City</named-content>
+<named-content content-type="country-part">IN</named-content>
+<postal-code>46725&#x02010;8948</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Department of Entomology</named-content>
+<institution>Michigan State University</institution>
+<city>East Lansing</city>
+<named-content content-type="country-part">MI</named-content>
+<postal-code>48824</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0007">
+<label><sup>7</sup></label>
+<institution>Farmscape Analytics</institution>
+<named-content content-type="street">16 Merrimack St</named-content>
+<city>Concord</city>
+<named-content content-type="country-part">NH</named-content>
+<postal-code>03301</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ele13649-aff-0008">
+<label><sup>8</sup></label>
+<named-content content-type="organisation-division">Institute for Ecological Regeneration</named-content>
+<institution>Goshen College</institution>
+<named-content content-type="street">1700 South Main Street</named-content>
+<city>Goshen</city>
+<named-content content-type="country-part">IN</named-content>
+<postal-code>46526</postal-code>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Correspondence: E&#x02010;mail: <email>bb22@cornell.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>12</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2021</year></pub-date><volume>24</volume><issue>2</issue><issue-id pub-id-type="doi">10.1111/ele.v24.2</issue-id><fpage>327</fpage><lpage>336</lpage><history><date date-type="received"><day>30</day><month>6</month><year>2020</year></date><date date-type="rev-recd"><day>31</day><month>7</month><year>2020</year></date><date date-type="accepted"><day>29</day><month>10</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">Copyright &#x000a9; 2021 John Wiley & Sons Ltd/CNRS<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. Ecology Letters published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ELE-24-327.pdf"/><abstract id="ele13649-abs-0001"><title>Abstract</title><p>While biological invasions have the potential for large negative impacts on local communities and ecological interactions, increasing evidence suggests that species once considered major problems can decline over time. Declines often appear driven by natural enemies, diseases or evolutionary adaptations that selectively reduce populations of naturalised species and their impacts. Using permanent long&#x02010;term monitoring locations, we document declines of <italic>Alliaria petiolata</italic> (garlic mustard) in eastern North America with distinct local and regional dynamics as a function of patch residence time. Projected site&#x02010;specific population growth rates initially indicated expanding populations, but projected population growth rates significantly decreased over time and at the majority of sites fell below 1, indicating declining populations. Negative soil feedback provides a potential mechanism for the reported disappearance of ecological dominance of <italic>A. petiolata</italic> in eastern North America.</p></abstract><abstract abstract-type="graphical" id="ele13649-abs-0002"><p>Using permanent long&#x02010;term monitoring locations, we document declines of <italic>Alliaria petiolata</italic> (garlic mustard) in eastern North America as a function of patch residence time. Projected site&#x02010;specific population growth rates initially indicated expanding populations, but projected population growth rates decreased below 1, indicating declining populations.<boxed-text position="anchor" content-type="graphic" id="ele13649-blkfxd-0001" orientation="portrait"><graphic xlink:href="ELE-24-327-g006.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ele13649-kwd-0001"><italic>Alliaria petiolata</italic></kwd><kwd id="ele13649-kwd-0002">Brassicaceae</kwd><kwd id="ele13649-kwd-0003">long&#x02010;term monitoring</kwd><kwd id="ele13649-kwd-0004">negative soil feedback</kwd><kwd id="ele13649-kwd-0005">plant invasions</kwd><kwd id="ele13649-kwd-0006">population growth rate</kwd><kwd id="ele13649-kwd-0007">residence time</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>U.S. Environmental Protection Agency </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000139</institution-id></institution-wrap></funding-source><award-id>Graduate Fellowship FP&#x02010;91650101</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Strategic Environmental Research and Development Program </institution><institution-id institution-id-type="open-funder-registry">10.13039/100013316</institution-id></institution-wrap></funding-source><award-id>CS 1146</award-id></award-group><award-group id="funding-0003"><funding-source>US National Science Foundation</funding-source><award-id>DEB 1637653</award-id></award-group><award-group id="funding-0004"><funding-source><institution-wrap><institution>Research and Development </institution><institution-id institution-id-type="open-funder-registry">10.13039/100006190</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>Department of Defense </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000005</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>National Science Foundation </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000001</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0007"><funding-source><institution-wrap><institution>Michigan State University </institution><institution-id institution-id-type="open-funder-registry">10.13039/100007709</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0008"><funding-source><institution-wrap><institution>STAR </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001348</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="1"/><page-count count="10"/><word-count count="9218"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.6 mode:remove_FC converted:27.01.2021</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ele13649-body-0001"><sec id="ele13649-sec-0001"><title>INTRODUCTION</title><p>Biological invasions can reshape local economies and ecological interactions, mutualistic relationships and ecosystem processes such as decomposition, carbon sequestration and energy flow (Keller <italic>et al</italic>., <xref rid="ele13649-bib-0062" ref-type="ref">2007</xref>; Bradley <italic>et al</italic>., <xref rid="ele13649-bib-0015" ref-type="ref">2010</xref>; Clavel <italic>et al</italic>., <xref rid="ele13649-bib-0025" ref-type="ref">2011</xref>; Hof <italic>et al</italic>., <xref rid="ele13649-bib-0057" ref-type="ref">2011</xref>; Powell <italic>et al</italic>., <xref rid="ele13649-bib-0083" ref-type="ref">2011</xref>; Wardle <italic>et al</italic>., <xref rid="ele13649-bib-0100" ref-type="ref">2011</xref>; Hooper <italic>et al</italic>., <xref rid="ele13649-bib-0058" ref-type="ref">2012</xref>; Boyd <italic>et al</italic>., <xref rid="ele13649-bib-0014" ref-type="ref">2013</xref>; Simberloff <italic>et al</italic>., <xref rid="ele13649-bib-0091" ref-type="ref">2013</xref>; Caplan <italic>et al</italic>., <xref rid="ele13649-bib-0020" ref-type="ref">2015</xref>). However, the vast majority of naturalised species are benign with little recognisable impacts. Predicting and distinguishing potential invasive threats for species that have not yet arrived, or just have become established, has occupied scientists and policy makers for decades (Williamson and Fitter, <xref rid="ele13649-bib-0102" ref-type="ref">1996</xref>; Lonsdale, <xref rid="ele13649-bib-0074" ref-type="ref">1999</xref>; Smith <italic>et al</italic>., <xref rid="ele13649-bib-0092" ref-type="ref">1999</xref>; Sakai <italic>et al</italic>., <xref rid="ele13649-bib-0088" ref-type="ref">2001</xref>; Keller <italic>et al</italic>., <xref rid="ele13649-bib-0062" ref-type="ref">2007</xref>; Hayes and Barry, <xref rid="ele13649-bib-0055" ref-type="ref">2008</xref>; Elliott&#x02010;Graves, <xref rid="ele13649-bib-0039" ref-type="ref">2016</xref>; Hulme and Bernard&#x02010;Verdier, <xref rid="ele13649-bib-0059" ref-type="ref">2018</xref>; Div&#x000ed;&#x00161;ek <italic>et al</italic>., <xref rid="ele13649-bib-0037" ref-type="ref">2019</xref>; Fourniera <italic>et al</italic>., <xref rid="ele13649-bib-0046" ref-type="ref">2019</xref>; Muthukrishnan <italic>et al</italic>., <xref rid="ele13649-bib-0077" ref-type="ref">2019</xref>). Understanding each species&#x02019; demography is at the core of separating major invasive plants that show rapid local population increase, establishment of local dominance or range expansions (Gurevitch <italic>et al</italic>., <xref rid="ele13649-bib-0051" ref-type="ref">2011</xref>) from those that become established but remain minor members of local plant communities.</p><p>A phenomenon that has received increased attention is whether introduced species go through boom and bust cycles, ultimately becoming non&#x02010;threatening members of local communities. Specifically, whether species that pass from naturalisation, to establishment, to ecological dominance with major impacts, can subsequently decline in dominance. Simberloff and Gibbons (<xref rid="ele13649-bib-0090" ref-type="ref">2004</xref>) mentioned 17 examples of species exhibiting such patterns, most without documented mechanisms for declines, but cautioned that future potential population declines of invaders should not be a reason to postpone control and management since irreversible impacts may occur. Since this publication, declines have been reported for introduced marine (Benkwitt <italic>et al</italic>., <xref rid="ele13649-bib-0006" ref-type="ref">2017</xref>) and freshwater fishes (Gibson&#x02010;Reinemer <italic>et al</italic>., <xref rid="ele13649-bib-0050" ref-type="ref">2017</xref>), a marine crab (Forsstrom <italic>et al</italic>., <xref rid="ele13649-bib-0045" ref-type="ref">2018</xref>), noctuid moths (Elkinton <italic>et al</italic>., <xref rid="ele13649-bib-0038" ref-type="ref">2006</xref>), yellow crazy ants in Australia (Cooling and Hoffmann, <xref rid="ele13649-bib-0027" ref-type="ref">2015</xref>), Argentine ants in New Zealand (Cooling <italic>et al</italic>., <xref rid="ele13649-bib-0026" ref-type="ref">2012</xref>), other ant species (Lester and Gruber, <xref rid="ele13649-bib-0073" ref-type="ref">2016</xref>; Tartally <italic>et al</italic>., <xref rid="ele13649-bib-0096" ref-type="ref">2016</xref>), the invasive grasses <italic>Microstegium vimineum</italic> in North America (Flory <italic>et al</italic>., <xref rid="ele13649-bib-0044" ref-type="ref">2011</xref>; Stricker <italic>et al</italic>., <xref rid="ele13649-bib-0094" ref-type="ref">2016</xref>), and <italic>Spartina alterniflora</italic> in China (Tang <italic>et al</italic>., <xref rid="ele13649-bib-0095" ref-type="ref">2012</xref>), grey squirrels in Ireland (Sheehy and Lawton, <xref rid="ele13649-bib-0089" ref-type="ref">2014</xref>), a land snail (Orstan and Cameron, <xref rid="ele13649-bib-0082" ref-type="ref">2015</xref>) and birds (Aagaard and Lockwood, <xref rid="ele13649-bib-0001" ref-type="ref">2016</xref>; Aagaard <italic>et al</italic>., <xref rid="ele13649-bib-0002" ref-type="ref">2016</xref>). A review of plant invasions in North America (Warren <italic>et al</italic>., <xref rid="ele13649-bib-0101" ref-type="ref">2019</xref>) and New Zealand (Diez <italic>et al</italic>., <xref rid="ele13649-bib-0036" ref-type="ref">2010</xref>) suggests that most species follow a pattern of establishment, increase and spread followed by declines after 100&#x02010;300&#x000a0;years of local residence. Mechanisms driving these declines are often unclear, but most appear associated with accumulation of natural enemies (herbivores, parasites, diseases) as a function of residence time and this is well documented for introduced plants (Andow and Imura, <xref rid="ele13649-bib-0003" ref-type="ref">1994</xref>; Mitchell and Powers, <xref rid="ele13649-bib-0076" ref-type="ref">2003</xref>; Carpenter and Cappuccino, <xref rid="ele13649-bib-0022" ref-type="ref">2005</xref>; Diez <italic>et al</italic>., <xref rid="ele13649-bib-0036" ref-type="ref">2010</xref>).</p><p>Here we report on work considering local and regional population dynamics of <italic>Alliaria petiolata</italic> (garlic mustard), a European biennial herb in temperate North America. Range expansion and local abundance increases of <italic>A. petiolata</italic> in the 20th century co&#x02010;occurred with native forest understory plant declines. In response, land managers deployed a range of control treatments, but only achieved temporary suppression, prompting research into biological control (Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0012" ref-type="ref">2001</xref>; Davis <italic>et al</italic>., <xref rid="ele13649-bib-0034" ref-type="ref">2006</xref>; Gerber <italic>et al</italic>., <xref rid="ele13649-bib-0049" ref-type="ref">2007</xref>). We established a regional long&#x02010;term monitoring program at 16 sites to establish baseline population dynamics (measuring recruitment as number of rosettes in the first year, survival of rosette cohort to adult plants and fecundity as number of siliques/stem) to enable future assessments in response to a possible introductions of specialised herbivores (Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0012" ref-type="ref">2001</xref>). Particularly rosette survival and seed output are crucial parameters in the demography of <italic>A. petiolata</italic> (Davis <italic>et al</italic>., <xref rid="ele13649-bib-0034" ref-type="ref">2006</xref>), thus our data cover the most important factors in the life cycle of this biennial plant. Based on experience conveyed to us by land managers we predicted sustained local annual <italic>A. petiolata</italic> populations and vigour (number of stems, height, cover and reproduction) with some annual fluctuations in recruitment driven by local differences in climate but no sustained declines. Several years into this monitoring program, we observed local <italic>A. petiolata</italic> declines that lacked an obvious cause (such as presence of above ground natural enemies). We used an exploratory assessment of potential underlying mechanisms at a location where the chronosequence of <italic>A. petiolata</italic> arrival, spread and decline was well established to test for potential negative soil feedback (van der Putten <italic>et al</italic>., <xref rid="ele13649-bib-0098" ref-type="ref">2013</xref>). We show that (1) widespread <italic>A. petiolata</italic> declines are a function of local residence time; (2) regional differences in patterns of decline may reflect invasion histories and (3) projected population growth rates decline to &#x0003c;&#x000a0;1 (indicating shrinking populations) after 10&#x02013;20&#x000a0;years. Our exploratory assessment leads to a new hypothesis that changes in population growth rates are a response to negative soil feedback, but this hypothesis needs confirmation at additional sites and across the range of <italic>A. petiolata</italic> in North America.</p></sec><sec sec-type="methods" id="ele13649-sec-0002"><title>METHODS</title><sec id="ele13649-sec-0003"><title>Experimental organism</title><p>
+<italic>Alliaria petiolata</italic> (Brassicaceae) is an obligate biennial first recorded in North America in 1868 on Long Island, New York (Nuzzo, <xref rid="ele13649-bib-0079" ref-type="ref">1993</xref>). Seeds germinate in spring, and rosettes form in early summer. Rosettes overwinter, grow rapidly the following spring and bolt. Seeds ripen and drop in early summer forming a seedbank that remains viable &#x0003e;&#x000a0;10&#x000a0;years (Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0011" ref-type="ref">2017</xref>). Phenology of <italic>A. petiolata</italic> varies with local climates, and after 150&#x000a0;years of residence time in North America, rapid evolutionary changes and phenotypic plasticity resulted in locally adapted populations with striking differences in germination requirements and secondary chemistry (Lankau <italic>et al</italic>., <xref rid="ele13649-bib-0072" ref-type="ref">2009</xref>; Lankau, <xref rid="ele13649-bib-0070" ref-type="ref">2012b</xref>; Evans <italic>et al</italic>., <xref rid="ele13649-bib-0041" ref-type="ref">2016</xref>; Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0011" ref-type="ref">2017</xref>). The current <italic>A. petiolata</italic> distribution ranges from southern Canada to Georgia, and from New York and Quebec west to Oregon, British Columbia and Alaska (USDA NRCS, <xref rid="ele13649-bib-0097" ref-type="ref">2017</xref>).</p></sec><sec id="ele13649-sec-0004"><title>Long&#x02010;term population trends</title><p>We established a long&#x02010;term monitoring program to document local baseline population dynamics that would allow us to separate annual population fluctuations from potential future impacts of specialised biocontrol herbivores (Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0012" ref-type="ref">2001</xref>). Our criteria for selecting study sites included forest size &#x0003e;&#x000a0;2&#x000a0;ha, presence of <italic>A. petiolata</italic> &#x0003e;&#x000a0;3&#x000a0;years and protection from management (fire, herbicide, weeding or cutting) for at least 10&#x000a0;years. We selected 16 forested sites across northeastern North America (Fig.&#x000a0;<xref rid="ele13649-fig-0001" ref-type="fig">1</xref>, Table&#x000a0;<xref rid="ele13649-tbl-0001" ref-type="table">1</xref>) ranging in latitude from 39.4 to 42.7 degrees and in longitude from &#x02212;74.1 to &#x02212;89.2 degrees. These locations represent a transect through <italic>A. petiolata</italic> invasion history in North America (Nuzzo, <xref rid="ele13649-bib-0079" ref-type="ref">1993</xref>; Lankau <italic>et al</italic>., <xref rid="ele13649-bib-0072" ref-type="ref">2009</xref>). Depending on location, we established sites between 2000 and 2006, and monitored them regularly for 5 to 15&#x000a0;years following a standardised monitoring protocol (Blossey and Nuzzo, <xref rid="ele13649-bib-0013" ref-type="ref">2003</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ele13649-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Location of permanent <italic>A. petiolata</italic> monitoring sites across eastern North America. Numbers refer to locations referenced in Table&#x000a0;<xref rid="ele13649-tbl-0001" ref-type="table">1</xref>.</p></caption><graphic id="nlm-graphic-3" xlink:href="ELE-24-327-g001"/></fig><table-wrap id="ele13649-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>
+<italic>Alliaria petiolata</italic> population growth rate per site over the study period (&#x003bb;<sub>year.site</sub>&#x000a0;=&#x000a0;n<sup>th</sup> root of cumulative growth rate over the study period, estimated from multi&#x02010;year matrices <bold>B</bold> from each site, <italic>n</italic>&#x000a0;=&#x000a0;number of years monitored per site</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Site</th><th align="left" valign="top" rowspan="1" colspan="1">State</th><th align="left" valign="top" rowspan="1" colspan="1">No. years monitored</th><th align="left" valign="top" rowspan="1" colspan="1">Population growth rate over the study period</th><th align="left" valign="top" rowspan="1" colspan="1">95% CI</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">West Point</td><td align="left" rowspan="1" colspan="1">NY</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">1.125</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.973&#x02013;1.365</td></tr><tr><td align="left" rowspan="1" colspan="1">Thompson</td><td align="left" rowspan="1" colspan="1">NJ</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Jones</td><td align="left" rowspan="1" colspan="1">NJ</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.966&#x02013;0.985</td></tr><tr><td align="left" rowspan="1" colspan="1">Point</td><td align="left" rowspan="1" colspan="1">NJ</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">1.133</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.969&#x02013;1.402</td></tr><tr><td align="left" rowspan="1" colspan="1">Union</td><td align="left" rowspan="1" colspan="1">NJ</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Waterman</td><td align="left" rowspan="1" colspan="1">NY</td><td align="char" char="." rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Leopold</td><td align="left" rowspan="1" colspan="1">NY</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Ives Rd.</td><td align="left" rowspan="1" colspan="1">MI</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Box Woodlot</td><td align="left" rowspan="1" colspan="1">MI</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.967&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Pokagon</td><td align="left" rowspan="1" colspan="1">IN</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">0.978</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.968&#x02013;1.019</td></tr><tr><td align="left" rowspan="1" colspan="1">Merry Lea</td><td align="left" rowspan="1" colspan="1">IN</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">0.977</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.966&#x02013;0.986</td></tr><tr><td align="left" rowspan="1" colspan="1">Fernwood</td><td align="left" rowspan="1" colspan="1">MI</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">1.893</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.478&#x02013;2.298</td></tr><tr><td align="left" rowspan="1" colspan="1">Nippersink</td><td align="left" rowspan="1" colspan="1">IL</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">1.262</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.979&#x02013;1.524</td></tr><tr><td align="left" rowspan="1" colspan="1">Fermilab<xref ref-type="fn" rid="ele13649-note-0002">
+<sup>1</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">IL</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Marengo Ridge</td><td align="left" rowspan="1" colspan="1">IL</td><td align="char" char="." rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">1.511</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.188&#x02013;1.784</td></tr><tr><td align="left" rowspan="1" colspan="1">Hall Woods<xref ref-type="fn" rid="ele13649-note-0002">
+<sup>1</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">IL</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot id="ele13649-ntgp-0001"><fn id="ele13649-note-0001"><p>Data are means and 95% CI based on 1000 bootstrap samples. Sites are ordered East to West. Population growth rates are estimated only for time span for which demographic data are complete (missing years of data at some sites truncate the data available to estimate the growth rate) and do not necessarily reflect population size at the end of the study. Values above and below one indicate the population is projected to grow or decline respectively. Sites are ordered East to West. State two letter designations are: NY&#x000a0;=&#x000a0;New York; NJ&#x000a0;=&#x000a0;New Jersey; MI&#x000a0;=&#x000a0;Michigan; IN&#x000a0;=&#x000a0;Indiana; and IL&#x000a0;=&#x000a0;Illinois.</p></fn><fn id="ele13649-note-0002"><label><sup>1</sup></label><p>Fermilab and Hall Woods were not included in the matrix population analysis.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>At each site we established 20&#x02013;26 0.5&#x000a0;m<sup>2</sup> (1&#x000a0;m&#x000a0;&#x000d7;&#x000a0;0.5&#x000a0;m) permanent quadrats (marking corners with PVC stakes) along two to four randomly established transects. We placed the first quadrat at random in an existing <italic>A. petiolata</italic> patch and spaced additional quadrats at 10&#x000a0;m intervals. We shifted quadrat locations as necessary to ensure that <italic>A. petiolata</italic> rosettes or adults were present in every quadrat, except for two sites in Michigan where some quadrats did not contain <italic>A. petiolata</italic> at the start of the monitoring period.</p><p>At each site, we recorded data twice/year. In June or July, we recorded stem densities, stem height (cm), number of fully formed siliques on each stem, estimated percent cover of all <italic>A. petiolata</italic>, and estimated cover of adults and rosettes (independently, within cover classes). In September or October, we estimated rosette cover (%) and counted or estimated rosette density.</p></sec><sec id="ele13649-sec-0005"><title>Data analyses</title><p>We standardised the time axis as date when monitoring was initiated at each site. Initial analyses indicated a nonlinear relationship between <italic>A. petiolata</italic> performance measures and time. Therefore, we employed generalised additive mixed models (GAMMs) to evaluate change in <italic>A. petiolata</italic> performance over time. Generalised additive models are a nonparametric approach that can account for nonlinear relationships through splines (Hastie and Tibshirani, <xref rid="ele13649-bib-0054" ref-type="ref">1990</xref>).</p><p>We evaluated long&#x02010;term changes in adult density, June cover of adults and seedlings, mean adult stem height per quadrat, and mean number of siliques/stem/quadrat (hereafter referred to as silique number) via separate models (with Gaussian errors) applied to log&#x02010;transformed (adult density, cover and silique number) or raw (stem height) data. Models included random intercept effects for calendar year and nested effects for site and quadrat within site, as well as a random slope for monitoring year. We ran a separate GAMM model with binomial errors to evaluate changes in proportion of quadrats with <italic>A. petiolata</italic> presence in June.</p><p>In all models, we evaluated a smoothed function of time, fixed effects of latitude and longitude and included initial <italic>A. petiolata</italic> adult density as covariate. We did not test for interactions between explanatory variables. For height and silique number we also evaluated possible density dependent effects by including adult density per quadrat. For silique number we included stem height as a covariate. We estimated smoothers with cubic regression splines (Wood, <xref rid="ele13649-bib-0106" ref-type="ref">2006</xref>). We fitted two sets of models for each performance variable. In the first set, models had a separate time smoother for each geographical region. In the second set, models had a single smoother across all sites. Residual inspection did not indicate violation of normal distribution, constant variance assumptions or auto&#x02010;correlation in the data. We selected the best model based on Akaike Information Criterion (AICc) (Burnham and Anderson, <xref rid="ele13649-bib-0018" ref-type="ref">2002</xref>). We selected models using the full set of candidate models and a reduced candidate set where we identified and removed uninformative parameters following (Burnham and Anderson, <xref rid="ele13649-bib-0018" ref-type="ref">2002</xref>; Arnold, <xref rid="ele13649-bib-0004" ref-type="ref">2010</xref>). We fitted all models in R (R Core Team, <xref rid="ele13649-bib-0084" ref-type="ref">2014</xref>) using gamm4 function (Wood and Scheipl, <xref rid="ele13649-bib-0107" ref-type="ref">2017</xref>).</p></sec><sec id="ele13649-sec-0006"><title>Matrix population model construction</title><p>We developed a linear, deterministic stage&#x02010;structured matrix population model: <bold>n</bold>
+<sub>t +1</sub> = <bold>An</bold>
+<sub>t</sub>, where <bold>n</bold>
+<sub>t</sub> is a vector that quantifies number of individuals in each stage class at time t, and <bold>A</bold> is a transition matrix (Caswell, <xref rid="ele13649-bib-0024" ref-type="ref">2001</xref>). We constructed annual transition matrices <bold>A</bold> based on three life stages (Fig&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S1</xref>: seed (s), rosette (r) and adults (p) (Davis <italic>et al</italic>., <xref rid="ele13649-bib-0034" ref-type="ref">2006</xref>; Kalisz <italic>et al</italic>., <xref rid="ele13649-bib-0061" ref-type="ref">2014</xref>). We estimated parameter values for matrix <mml:math id="nlm-math-1"><mml:mi mathvariant="bold-italic">A</mml:mi></mml:math> from permanent marked quadrats at each site. We estimated seedling survival (s<sub>g</sub>) and rosette survival (s<sub>r</sub>) by counting or estimating number of emergent seedlings per quadrat in June and number of surviving rosettes in September. We then counted number of surviving adults the following summer. We counted number of siliques produced per stem in each quadrat and estimated seed production based on average number of seeds per silique (12 seeds/silique, Nuzzo unpublished data). The monitoring protocol did not include measures of seed survival (s<sub>s</sub>) or seed germination (g<sub>1</sub> and g<sub>2</sub>), therefore we obtained estimates from an experimental seed basket study (Kalisz <italic>et al</italic>., <xref rid="ele13649-bib-0061" ref-type="ref">2014</xref>) and applied those estimates to all sites and years. We averaged data across all quadrats per site to populate one matrix per year and site; therefore, sites were treated as replicates. We eliminated two sites (Fermi and Hall Woods) because of incomplete time series.</p><p>We calculated the dominant eigenvalue of each matrix to determine projected growth rates (&#x003bb;). At &#x003bb;&#x000a0;&#x0003e;&#x000a0;1 populations are expected to grow; at &#x003bb;&#x000a0;&#x0003c;&#x000a0;1 declines are projected; and at &#x003bb;&#x000a0;=&#x000a0;1 populations are expected to remain stable (Caswell, <xref rid="ele13649-bib-0023" ref-type="ref">2000</xref>). We evaluated change in &#x003bb; over the monitoring period with a Linear Mixed Model (LMM) with site as a random factor and a first order autocorrelation structure. Models evaluated second order polynomial effects of year, initial <italic>A. petiolata</italic> density, continental region (Northeast or Midwest) and their second order interactions. We constructed simplified models by removing one term at a time in a hierarchical fashion and retained lower&#x02010;level terms if an interaction or polynomial term was included in the model. We evaluated competing models with AICc (Burnham and Anderson, <xref rid="ele13649-bib-0018" ref-type="ref">2002</xref>) and followed the same procedure as described above to remove models that appeared legitimate but were not because they contained uninformative parameters (Arnold, <xref rid="ele13649-bib-0004" ref-type="ref">2010</xref>).</p><p>We constructed multiyear projection matrices, <bold>B</bold>, for each study site to capture cumulative demographic trends over the study period. The matrix was estimated as the product of annual transition matrices, such that <bold>B</bold>
+<sub>site</sub>&#x000a0;=&#x000a0;<bold>A</bold>
+<sub>site.n</sub>
+<bold>A</bold>
+<sub>site.n&#x02010;1</sub>&#x02026; <bold>A</bold>
+<sub>site.n=1</sub>; where <italic>n</italic>&#x000a0;=&#x000a0;years monitored (Caswell, <xref rid="ele13649-bib-0024" ref-type="ref">2001</xref>; Kalisz <italic>et al</italic>., <xref rid="ele13649-bib-0061" ref-type="ref">2014</xref>). We estimated the cumulative growth rate over the whole period (&#x003bb;<sub>c</sub>) as the dominant eigenvalue of matrix <bold>B</bold> and time&#x02010;averaged growth rates per site (&#x003bb;<sub>year.site</sub>) over the study period as n<sup>th</sup> root of &#x003bb;<sub>c</sub>. We constructed 95% CI based on 1000 bootstrap samples to evaluate whether &#x003bb;<sub>year.site</sub> was significantly different from one.</p></sec></sec><sec sec-type="results" id="ele13649-sec-0007"><title>RESULTS</title><p>When we established sites, <italic>A. petiolata</italic> was present in all quadrats (except in three quadrats at Box Woodlot and two at Ives Rd.). By the end of the study, <italic>A. petiolata</italic> frequency (proportion of quadrats containing <italic>A. petiolata</italic>) in June declined at 11 of 16 sites by 9% to 53%. Declines were greater at eastern sites (Fig.&#x000a0;<xref rid="ele13649-fig-0002" ref-type="fig">2</xref>) and longitude had a significant explanatory effect (estimate&#x000a0;&#x000b1;&#x000a0;1SE: &#x02212;0.93&#x000a0;&#x000b1;&#x000a0;0.43, <italic>P</italic>&#x000a0;=&#x000a0;0.03). Although two of the top three models indicated regional differences between the Northeast or Midwest, the best model (adj. <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.07, AICc weight&#x000a0;=&#x000a0;0.28) included a single smoother for both regions and longitude (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S2</xref>). Models that incorporated latitude (models 4, 5, 7 and 8) had AICc values greater than the corresponding models (models 1, 2, 3 and 6) that lacked a latitude effect (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S2</xref>). Removing this uninformative parameter rendered an AICc weight&#x000a0;=&#x000a0;0.40 for the best model.</p><fig fig-type="Figure" xml:lang="en" id="ele13649-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Proportion of quadrats with <italic>A. petiolata</italic> presence in June. Lines show predictions from a Generalised Additive Mixed Model with binomial errors for 0th, 25th, 50th, 75th and 100th quantiles of longitude. Model included random intercept effects for calendar year and nested effects for site and quadrat within site, as well as a random slope for monitoring year. Declines in the Northeast are more substantial than in areas in the Midwest.</p></caption><graphic id="nlm-graphic-5" xlink:href="ELE-24-327-g002"/></fig><p>Across all sites, adult density showed large annual fluctuations but declined 48&#x02013;100% from an initial mean of 13.7&#x000a0;&#x000b1;&#x000a0;1.9 stems/0.5m<sup>2</sup> (mean&#x000a0;&#x000b1;&#x000a0;1SE; <italic>N</italic>&#x000a0;=&#x000a0;16 sites; range 3.62&#x02013;31.05 per site) to 1.33&#x000a0;&#x000b1;&#x000a0;0.4 stems/0.5m<sup>2</sup> at the end of the study, and this pattern was most obvious for sites with the longest observation periods (Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S2</xref>). The best performing models included initial <italic>A. petiolata</italic> adult density as a covariate and indicated a significant decline in adult density over time (Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S3</xref>) with important differences between the Northeast and Midwest (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3a</xref> and <xref rid="ele13649-fig-0003" ref-type="fig">b</xref>). Sites in the Northeast showed two phases of decline, whereas at Midwest sites adult density oscillated downwards (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3a and b</xref>). Sites in the Midwest were typically monitored fewer years than sites in the Northeast, increasing model uncertainty in the last years of the study. The best model of adult density (adj. <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.16; AICc weight&#x000a0;=&#x000a0;0.46) included initial density as a covariate (Estimate&#x000a0;&#x000b1;&#x000a0;1SE: 0.17&#x000a0;&#x000b1;&#x000a0;0.02, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001), separate smoothers per region (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001), but no effect of longitude or latitude (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S3</xref>). Models including latitude and longitude (models 2, 3, 4, 6, 7, 8) had larger AICc values than the corresponding models without these parameters (models 5, 9 and 10; Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S3</xref>). Removal of these parameters resulted in a AICc weight of 1 for the best model (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S3</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ele13649-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Generalised Additive Mixed Model smooth curves (solid lines) with 95% credible intervals (dashed lines) for <italic>A. petiolata</italic> adult density (number/0.5&#x000a0;m<sup>2</sup>, log transformed, a and b), seedling and adult cover in June (%, log transformed, c and d), stem height (cm, e and f) and mean number of siliques per stem per quadrat (number/0.5&#x000a0;m<sup>2</sup>, log transformed, g and h) in Northeast regions (top panels, <italic>N</italic>&#x000a0;=&#x000a0;7 sites) and Midwest regions (bottom panels <italic>N</italic>&#x000a0;=&#x000a0;9 sites; see Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S1</xref> for site designation). Locations with zero stem density were excluded from analyses of stem height and number of siliques. Models included random intercept effects for calendar year and nested effects for site and quadrat within site, as well as a random slope for monitoring year. Note different y&#x02010;axis scales for different performance measures. df&#x000a0;=&#x000a0;degrees of freedom; ***<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001.</p></caption><graphic id="nlm-graphic-7" xlink:href="ELE-24-327-g003"/></fig><p>Over time, <italic>A. petiolata</italic> cover (%; adults and seedlings combined) in June declined 17&#x02013;98% from 29.5%&#x000a0;&#x000b1;&#x000a0;3.64 (range 7&#x02013;63% per site) at the beginning of the study to 0.5&#x02013;41.3% (mean&#x000a0;&#x000b1;&#x000a0;1SE) (Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S4</xref>). At one site (Nippersink) cover remained stable through the study period. The best model (adj. <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.20; AICc weight&#x000a0;=&#x000a0;0.40) included initial <italic>A. petiolata</italic> density (0.21&#x000a0;&#x000b1;&#x000a0;0.03, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001; Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S5</xref>), separate smoothers for Northeast and Midwest regions (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and no latitude or longitude effects (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S4</xref>,). In the Northeast, cover declined with some oscillations, but in the Midwest this pattern was less pronounced (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3c and d</xref>). Models including latitude and/or longitude had larger AICc values than corresponding models without these parameters. Removing these uninformative parameters rendered a weight of 1 for the best model (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S4</xref>).</p><p>Average stem height per quadrat at the beginning of the study ranged from 39 to 92&#x000a0;cm and declined at most sites (Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S6</xref>). The two top models included longitude effects and indicated a decline in height over time (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S5</xref>). Although the rate of decline differed by region in the best model (<italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.1; AICc weight&#x000a0;=&#x000a0;0.24), it was similar for both regions in the second top model (<italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.08; AICc weight&#x000a0;=&#x000a0;0.19) (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S5</xref>). The best performing model indicated a decline in stem height in the Midwest, whereas in the Northeast stem height decreased in the first years of the study and then remained stable (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3</xref>e and f). Stem height significantly decreased with longitude (&#x02212;6.57&#x000a0;&#x000b1;&#x000a0;2.96, <italic>P</italic>&#x000a0;=&#x000a0;0.03; with taller stems at western sites, Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S7</xref>) but was not significantly correlated with initial <italic>A. petiolata</italic> adult density or latitude (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S5</xref>). Removing models with latitude and/or initial density (uninformative parameters) from the set resulted in AICc weight&#x000a0;=&#x000a0;0.46 and 0.35 for the two top models respectively.</p><p>Silique production/stem remained relatively stable at most sites throughout the study period (5.7&#x02013;22.8 siliques/stem at study initiation) (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3</xref>, Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S8</xref>). All best models included a smoother per region, an interaction between stem height and adult density and longitude and latitude effects. The best model (adj. <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.8, AICc weight&#x000a0;=&#x000a0;0.53; Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S6</xref>), indicated mean silique number per stem per quadrat decreased in the Midwest but did not change in the Northeast. Silique production was positively correlated with stem height (estimate&#x000a0;&#x000b1;&#x000a0;1SE: 0.03&#x000a0;&#x000b1;&#x000a0;0.0007, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and adult density (0.06&#x000a0;&#x000b1;&#x000a0;0.02, <italic>P</italic>&#x000a0;=&#x000a0;0.002), with taller stems in quadrats with low stem densities producing more siliques than stems of the same height in quadrats with high stem densities (Fig.&#x000a0;<xref rid="ele13649-fig-0004" ref-type="fig">4</xref>). Silique production was negatively correlated with latitude (&#x02212;0.17&#x000a0;&#x000b1;&#x000a0;0.04, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and longitude (&#x02212;0.13&#x000a0;&#x000b1;&#x000a0;0.5, <italic>P</italic>&#x000a0;=&#x000a0;0.007), with stems at northern and eastern sites producing more siliques than stems at southern and western sites (Fig.&#x000a0;<xref rid="ele13649-fig-0003" ref-type="fig">3</xref>, Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S9</xref>). Initial <italic>A. petiolata</italic> density was not included as covariate in the best model and its addition resulted in lower AICc values than the corresponding model without initial density (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S6</xref>). Removing this model from the candidate set resulted in an AICc weight of 0.80 for the best model.</p><fig fig-type="Figure" xml:lang="en" id="ele13649-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Number of <italic>A. petiolata</italic> siliques per stem as a function of stem height (cm) and adult density (number/0.5&#x000a0;m<sup>2</sup>, log transformed). Lines depict model predictions averaged across all study sites and years for mean latitude (41.57) and longitude (&#x02212;81.58) and for 0th, 25th, 50th, 75th and 100th quantiles of log&#x02010;transformed adult density (number/0.5&#x000a0;m<sup>2</sup>). Model included random intercept effects for calendar year and nested effects for site and quadrat within site, as well as a random slope for monitoring year. Darker colours indicate higher adult density (log&#x02010;transformed).</p></caption><graphic id="nlm-graphic-9" xlink:href="ELE-24-327-g004"/></fig><sec id="ele13649-sec-0008"><title>Demographic analysis</title><p>At the beginning of our study, projected site&#x02010;specific population growth rates (1.33 &#x02010; 1.85; mean&#x000a0;&#x000b1;&#x000a0;1SE: 1.56&#x000a0;&#x000b1;&#x000a0;0.04) indicated expanding populations. However, population growth rates significantly decreased over time (Table&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S7</xref>; Fig&#x000a0;<xref rid="ele13649-fig-0005" ref-type="fig">5</xref>) at all sites (Fig.&#x000a0;<xref rid="ele13649-sup-0001" ref-type="supplementary-material">S10</xref>). Analysed over the whole study period, the time&#x02010;averaged growth rate per site (&#x003bb;<sub>year.site</sub>) was significantly less than one at eight sites, did not differ from one at four sites and was significantly higher than one at two sites (Table&#x000a0;<xref rid="ele13649-tbl-0001" ref-type="table">1</xref>). Estimates assume that seed survival and germination are similar across sites and did not vary over time.</p><fig fig-type="Figure" xml:lang="en" id="ele13649-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Population growth rate of <italic>A. petiolata</italic> over time. Points represent mean growth rate across sites, lines and shaded areas represent marginal means and 95% CI based on linear mixed model predictions (<italic>N</italic>&#x000a0;=&#x000a0;1000 bootstrap samples). Population growth rates are estimated only for time spans for which demographic data are complete (missing years of data at some sites truncate the data available to estimate growth rates) and do not necessarily reflect population size at the end of the study. Values above and below one indicate the population is projected to grow or decline respectively. Model included random intercept effects for site.</p></caption><graphic id="nlm-graphic-11" xlink:href="ELE-24-327-g005"/></fig></sec></sec><sec sec-type="discussion" id="ele13649-sec-0009"><title>DISCUSSION</title><p>The results of our regional investigation require us to reject our first assumption&#x02014;<italic>A. petiolata</italic> is unable to maintain stable or increasing populations over time. While our monitoring protocol was not intended to capture very early stages of arrival at a site, our data suggest an initial local abundance increase, followed by sustained vigour declines. Earlier demographic models developed to aid in selection of potential biocontrol agents for <italic>A. petiolata</italic> identified transitions from rosettes to flowering plants as most important in <italic>A. petiolata</italic> demography (Davis <italic>et al</italic>., <xref rid="ele13649-bib-0034" ref-type="ref">2006</xref>; Evans <italic>et al</italic>., <xref rid="ele13649-bib-0040" ref-type="ref">2012</xref>). This is exactly what we document and, despite abundant germination and a fairly long&#x02010;lived (10&#x02013;13&#x000a0;years) seedbank (Blossey <italic>et al</italic>., <xref rid="ele13649-bib-0011" ref-type="ref">2017</xref>), over time projected population growth rates decline to &#x0003c;1. This phenomenon is not restricted to our long&#x02010;term monitoring sites and has been noted observationally or through demography investigations by others (Kalisz <italic>et al</italic>., <xref rid="ele13649-bib-0061" ref-type="ref">2014</xref>; D&#x000e1;valos <italic>et al</italic>., <xref rid="ele13649-bib-0032" ref-type="ref">2015b</xref>; Faison <italic>et al</italic>., <xref rid="ele13649-bib-0043" ref-type="ref">2019</xref>), but we are the first to document and quantify these declines through a chronosequence at many different locations.</p><p>We find support for our second prediction that local declines are a function of regional residence time. The species first established in the East and then spread into the Midwest (Nuzzo, <xref rid="ele13649-bib-0079" ref-type="ref">1993</xref>) and our data indicate that <italic>A. petiolata</italic> declines occurred faster and were more pronounced at eastern study locations (Fig.&#x000a0;<xref rid="ele13649-fig-0001" ref-type="fig">1</xref>). Although detailed mechanisms responsible for these findings remain elusive at present, unique regional climates, soil and vegetation characteristics may be important in determining local site trajectories. However, longer overall residence time in the East may also facilitate and enhance local build&#x02010;up of biotic resistance, or other eco&#x02010;evolutionary feedbacks. While we did encounter above ground natural enemies (herbivores or diseases), they never appeared abundant enough to strongly affect <italic>A. petiolata</italic> populations. Instead, the patterns we describe are consistent with expectations of plant&#x02010;soil feedback (PSF), where plant species&#x02010;specific rapid soil conditioning leads to performance reductions (negative soil feedback) (Klironomos, <xref rid="ele13649-bib-0063" ref-type="ref">2002</xref>; Bever <italic>et al</italic>., <xref rid="ele13649-bib-0008" ref-type="ref">2010</xref>; van der Putten <italic>et al</italic>., <xref rid="ele13649-bib-0098" ref-type="ref">2013</xref>). The role of PSF in structuring plant communities (Bennett <italic>et al</italic>., <xref rid="ele13649-bib-0007" ref-type="ref">2017</xref>) and the importance in range expansion or biological invasions is now well established (Koorem <italic>et al</italic>., <xref rid="ele13649-bib-0065" ref-type="ref">2020</xref>; Wolfe and Klironomos, <xref rid="ele13649-bib-0104" ref-type="ref">2005</xref>; Reinhart and Callaway, <xref rid="ele13649-bib-0085" ref-type="ref">2006</xref>) but how these impacts change over time is far less clear.</p><p>Ecological dominance waning over 100&#x02013;300&#x000a0;years associated with negative soil feedback are described for introduced plants in New Zealand (Diez <italic>et al</italic>., <xref rid="ele13649-bib-0036" ref-type="ref">2010</xref>) and they may play a role in the reduction in abundance of invasive plant species described for eastern North America (Warren <italic>et al</italic>., <xref rid="ele13649-bib-0101" ref-type="ref">2019</xref>). We have some evidence suggesting the importance of negative soil feedback in affecting survival and vigour of <italic>A. petiolata</italic> from a site in central New York. At this location, which is not part of our long&#x02010;term monitoring, we were able to observe a detailed chronosequence of <italic>A. petiolata</italic> arrival, spread and decline over a 10&#x02010;year period (for details see Plant&#x02010;Soil Feedback section in Supplementary Material). Our preliminary experiments from this single location leads to a new hypothesis: the decline of <italic>A. petiolata</italic> as a function of local residence time, is caused by negative soil feedback. PSF may also help explain the regional differences between eastern and western sites. For example, legacy effects of differences in precipitation (Crawford &#x00026; Hawkes, <xref rid="ele13649-bib-0028" ref-type="ref">2020</xref>) or previous land use histories that create persistent different microbial communities can affect plant demography and persist from decades to centuries (Wubs <italic>et al</italic>., <xref rid="ele13649-bib-0108" ref-type="ref">2019</xref>).</p><p>We need additional mechanistic work to assess whether similar processes occur in other regions throughout the range of <italic>A. petiolata</italic> in North America. We were unable to link a chronosequence to population trends at our long&#x02010;term sites because we established quadrats after the initial colonisation phase had occurred. In addition, the small&#x02010;scale patch dynamics described as advance and retreat (Nuzzo, <xref rid="ele13649-bib-0080" ref-type="ref">1999</xref>) and the potential for long&#x02010;lasting legacy effects (Bezemer <italic>et al</italic>., <xref rid="ele13649-bib-0009" ref-type="ref">2019</xref>) may lead to erroneous conclusions. But because abundance and vigour declines are a function of local residence times and small&#x02010;scale patch dynamics (at the order of a few m), a perplexing local and regional invasion dynamic emerges. At invaded sites <italic>A. petiolata</italic> abundance typically initially increases with some annual fluctuations and patchy spread through a site. The areas first occupied then go through a prolonged phase of decline until &#x003bb; is reduced to &#x0003c;1, whereas at the same time <italic>A. petiolata</italic> populations at the invasion fronts are rapidly expanding. The continued availability of previously unoccupied areas allows <italic>A. petiolata</italic> to spread regionally and across the continent. This is likely to continue, although only areas already invaded by introduced earthworms appear to allow <italic>A. petiolata</italic> invasions, (Nuzzo <italic>et al</italic>., <xref rid="ele13649-bib-0081" ref-type="ref">2009</xref>), thus limiting available habitat the species may be able to colonise in North America. The potentially available habitat for expansion of <italic>A. petiolata</italic> continually shrinks as once occupied patches become inhospitable, at least for establishment and maintenance of large populations. Although we also do not know how long this biotic resistance may last (but see Bezemer <italic>et al</italic>., <xref rid="ele13649-bib-0009" ref-type="ref">2019</xref>). Furthermore, rapid evolutionary changes in the invader and the invaded lead to a reduction in <italic>A. petiolata</italic> impact as a function of residence time (Lankau <italic>et al</italic>., <xref rid="ele13649-bib-0072" ref-type="ref">2009</xref>; Lankau, <xref rid="ele13649-bib-0069" ref-type="ref">2012a</xref>; Lankau <italic>et al</italic>., <xref rid="ele13649-bib-0071" ref-type="ref">2014</xref>).</p><p>Our data were collected in areas with the oldest invasion history of <italic>A. petiolata</italic> in North America (Nuzzo, <xref rid="ele13649-bib-0079" ref-type="ref">1993</xref>; Lankau <italic>et al</italic>., <xref rid="ele13649-bib-0072" ref-type="ref">2009</xref>) with unique regional climate, soil and vegetation characteristics. The species has since spread more widely triggering continued widespread manual and chemical removal experiments. We have no information on the long&#x02010;term population dynamics in areas outside of our investigation, but we only detected long&#x02010;term declines because we required cessation of <italic>A. petiolata</italic> management for the duration of our study. Removal of <italic>A. petiolata</italic> may in fact set back negative soil feedback or other processes that collectively lead to population declines. It appears important that local management efforts are cognizant of the possibility that their activities may be detrimental to <italic>A. petiolata</italic> declines and local plant community recovery. We recommend for local managers to set aside certain locations for observational investigations to assess whether the phenomena we describe occur outside of our region.</p><p>Arrival and spread of <italic>A. petiolata</italic> into local ecosystems that continue to lose their diversity worries land managers, as they assume a cause&#x02010;and&#x02010;effect relationship. The species certainly has a potent arsenal of secondary chemistry (Callaway <italic>et al</italic>., <xref rid="ele13649-bib-0019" ref-type="ref">2008</xref>; Lankau, <xref rid="ele13649-bib-0067" ref-type="ref">2011a</xref>) that may affect many biota; however, effects reported by some (Roberts and Anderson, <xref rid="ele13649-bib-0086" ref-type="ref">2001</xref>; Stinson <italic>et al</italic>., <xref rid="ele13649-bib-0093" ref-type="ref">2006</xref>; Wolfe <italic>et al</italic>., <xref rid="ele13649-bib-0105" ref-type="ref">2008</xref>; Barto <italic>et al</italic>., <xref rid="ele13649-bib-0005" ref-type="ref">2011</xref>; Hale <italic>et al</italic>., <xref rid="ele13649-bib-0053" ref-type="ref">2011</xref>; Bialic&#x02010;Murphy et al. <xref rid="ele13649-bib-0010" ref-type="ref">2019</xref>) do not materialise in other studies (D&#x000e1;valos and Blossey, <xref rid="ele13649-bib-0029" ref-type="ref">2004</xref>; Burke, <xref rid="ele13649-bib-0016" ref-type="ref">2008</xref>; Burke and Chan, <xref rid="ele13649-bib-0017" ref-type="ref">2010</xref>; Lankau, <xref rid="ele13649-bib-0066" ref-type="ref">2010</xref>; Wixted and McGraw, <xref rid="ele13649-bib-0103" ref-type="ref">2010</xref>; Ivanov and Keiper, <xref rid="ele13649-bib-0060" ref-type="ref">2011</xref>; Koch <italic>et al</italic>., <xref rid="ele13649-bib-0064" ref-type="ref">2011</xref>; Hahn and Dornbush, <xref rid="ele13649-bib-0052" ref-type="ref">2012</xref>; Lankau, <xref rid="ele13649-bib-0070" ref-type="ref">2012b</xref>). Decadal dynamics we describe further complicate <italic>A. petiolata</italic> impact assessments, which need to be separated from impacts of other stressors, such as white&#x02010;tailed deer (<italic>Odocoileus virginianus</italic>) and invasive earthworms (Didham <italic>et al</italic>., <xref rid="ele13649-bib-0035" ref-type="ref">2007</xref>; D&#x000e1;valos <italic>et al</italic>., <xref rid="ele13649-bib-0030" ref-type="ref">2014</xref>, <xref rid="ele13649-bib-0031" ref-type="ref">2015a</xref>, <xref rid="ele13649-bib-0032" ref-type="ref">b</xref>; Frelich <italic>et al</italic>., <xref rid="ele13649-bib-0047" ref-type="ref">2019</xref>). Few such studies exist (Waller and Maas, <xref rid="ele13649-bib-0099" ref-type="ref">2013</xref>; D&#x000e1;valos <italic>et al</italic>., <xref rid="ele13649-bib-0030" ref-type="ref">2014</xref>, <xref rid="ele13649-bib-0031" ref-type="ref">2015a</xref>, <xref rid="ele13649-bib-0032" ref-type="ref">b</xref>, <xref rid="ele13649-bib-0033" ref-type="ref">c</xref>; Nuzzo <italic>et al</italic>., <xref rid="ele13649-bib-0078" ref-type="ref">2017</xref>; D&#x000e1;valos et al. <xref rid="ele13649-bib-0030" ref-type="ref">2014</xref>, <xref rid="ele13649-bib-0031" ref-type="ref">2015a</xref>, <xref rid="ele13649-bib-0032" ref-type="ref">b</xref>) but future study designs, as well as interpretation of exiting data need to be cognizant of presence and importance of other stressors and the possibility of <italic>A. petiolata</italic> invasion and decline that occur over a decadal timeframe. This limits the ability of short&#x02010;term experiments to capture long&#x02010;term impacts in the field and calls for more longitudinal research.</p><p>Our work contributes to the increasing body of evidence for declines in invasiveness and therefore potential ecological impacts of introduced species across many different taxa. Rapid evolutionary changes allowed <italic>A. petiolata</italic> to thrive in North America (Lankau, <xref rid="ele13649-bib-0068" ref-type="ref">2011b</xref>) but rapid eco&#x02010;evolutionary feedback in native species has reduced ecological and evolutionary novelty and initial negative impacts (Hierro and Callaway, <xref rid="ele13649-bib-0056" ref-type="ref">2003</xref>; Callaway <italic>et al</italic>., <xref rid="ele13649-bib-0019" ref-type="ref">2008</xref>; Mangla <italic>et al</italic>., <xref rid="ele13649-bib-0075" ref-type="ref">2008</xref>; Wolfe <italic>et al</italic>., <xref rid="ele13649-bib-0105" ref-type="ref">2008</xref>) and we show widespread declining <italic>A. petiolata</italic> population growth rates. These phenomena have important implications for how we approach research in and management of biological invasions. If impacts are caused by <italic>A. petiolata</italic>, how quickly do impacts materialise, do they persist, or do they fade (Lankau, <xref rid="ele13649-bib-0070" ref-type="ref">2012b</xref>) once the initial high abundances are reduced? Do affected species or communities recover over time, and how quickly? Does active management of garlic mustard extend local dominance potentially increasing impacts?</p><p>Build&#x02010;up of native natural enemies (including diseases and parasites) that affect species demography appear common in documented declines (Carlsson <italic>et al</italic>., <xref rid="ele13649-bib-0021" ref-type="ref">2009</xref>; Diez <italic>et al</italic>., <xref rid="ele13649-bib-0036" ref-type="ref">2010</xref>; Ross <italic>et al</italic>., <xref rid="ele13649-bib-0087" ref-type="ref">2010</xref>; Faillace <italic>et al</italic>., <xref rid="ele13649-bib-0042" ref-type="ref">2017</xref>; Gerard <italic>et al</italic>., <xref rid="ele13649-bib-0048" ref-type="ref">2018</xref>). This biotic resistance may be a widespread but unrecognised phenomenon for many species that naturalise but never become invasive, and therefore escape scientific or management focus. We believe it is critically important for scientists to embrace use of better and long&#x02010;term assessment protocols to ascertain demography of naturalising or introduced species. We recognise logistical and financial difficulties of such approaches, but also opportunities for advanced collaborative manager&#x02010;research scientist partnerships. Using a standardised monitoring approach offers one possible example but there are many others that need to be developed to capture the potential for waxing and waning in invasive species, similar to patterns we describe for <italic>A. petiolata</italic>.</p><p>Where large plant populations exist and eradication is no longer an option, we recommend establishing long&#x02010;term &#x02018;research refuges&#x02019; to allow evaluation of eco&#x02010;evolutionary processes and potential buildup of local biotic resistance or biological control by native organisms to occur over time in absence of management. This switch in scientific focus from potential traits of invaders, to assessing biotic resistance traits of invaded communities may lead to improved understanding of invasion dynamics.</p></sec><sec id="ele13649-sec-0011"><title>AUTHOR CONTRIBUTIONS</title><p>BB and VN conceived the idea and developed the long&#x02010;term monitoring protocol. All authors contributed to data collection. VN collated and proofed all data, AD analysed the data, BB led the writing and all authors contributed to the final version.</p></sec><sec id="ele13649-sec-0012"><sec disp-level="2" id="ele13649-sec-0013"><title>Peer Review</title><p>The peer review history for this article is available at <ext-link ext-link-type="uri" xlink:href="https://publons.com/publon/10.1111/ele.13649">https://publons.com/publon/10.1111/ele.13649</ext-link>.</p></sec></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ele13649-sup-0001"><caption><p>Supplementary Material</p></caption><media xlink:href="ELE-24-327-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ele13649-sec-0010"><title>ACKNOWLEDGEMENTS</title><p>We appreciate field assistance over the years by many undergraduates and staff and landowners. Early funding (to BB) for this work was provided by the Strategic Environmental Research and Development Program US Department of Defense (CS 1146). DAL acknowledges support from the National Science Foundation Long&#x02010;term Ecological Research, Program (DEB 1637653) at the Kellogg Biological Station, and by Michigan State University AgBioResearch. JAE acknowledges support from the Michigan State University Plant Sciences Fellowship and an EPA Science to Achieve Results (STAR) Graduate Fellowship FP&#x02010;91650101.</p></ack><sec sec-type="data-availability" id="ele13649-sec-0014"><title>DATA AVAILABILITY STATEMENT</title><p>The data are available in Dryad (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.mpg4f4qxh" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.mpg4f4qxh</ext-link>).</p></sec><ref-list content-type="cited-references" id="ele13649-bibl-0001"><title>References</title><ref id="ele13649-bib-0001"><mixed-citation publication-type="journal" id="ele13649-cit-0001">
+<string-name>
+<surname>Aagaard</surname>, <given-names>K.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Lockwood</surname>, <given-names>J.L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Severe and rapid population declines in exotic birds</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>18</volume>, <fpage>1667</fpage>&#x02013;<lpage>1678</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0002"><mixed-citation publication-type="journal" id="ele13649-cit-0002">
+<string-name>
+<surname>Aagaard</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Lockwood</surname>, <given-names>J.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Green</surname>, <given-names>E.J.</given-names>
+</string-name> (<year>2016</year>). <article-title>A Bayesian approach for characterizing uncertainty in declaring a population collapse</article-title>. <source xml:lang="en">Ecol. Model.</source>, <volume>328</volume>, <fpage>78</fpage>&#x02013;<lpage>84</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0003"><mixed-citation publication-type="journal" id="ele13649-cit-0003">
+<string-name>
+<surname>Andow</surname>, <given-names>D.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Imura</surname>, <given-names>O.</given-names>
+</string-name> (<year>1994</year>). <article-title>Specialization of phytophagous arthropod communities on introduced plants</article-title>. <source xml:lang="en">Ecology</source>, <volume>75</volume>, <fpage>296</fpage>&#x02013;<lpage>300</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0004"><mixed-citation publication-type="journal" id="ele13649-cit-0004">
+<string-name>
+<surname>Arnold</surname>, <given-names>T.W.</given-names>
+</string-name> (<year>2010</year>). <article-title>Uninformative parameters and model selection using Akaike's information criterion</article-title>. <source xml:lang="en">J Wildlife Manage</source>, <volume>74</volume>, <fpage>1175</fpage>&#x02013;<lpage>1178</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0005"><mixed-citation publication-type="journal" id="ele13649-cit-0005">
+<string-name>
+<surname>Barto</surname>, <given-names>E.K.</given-names>
+</string-name>, <string-name>
+<surname>Antunes</surname>, <given-names>P.M.</given-names>
+</string-name>, <string-name>
+<surname>Stinson</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>, <given-names>A.M.</given-names>
+</string-name>, <string-name>
+<surname>Klironomos</surname>, <given-names>J.N.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name> (<year>2011</year>). <article-title>Differences in arbuscular mycorrhizal fungal communities associated with sugar maple seedlings in and outside of invaded garlic mustard forest patches</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>13</volume>, <fpage>2755</fpage>&#x02013;<lpage>2762</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0006"><mixed-citation publication-type="journal" id="ele13649-cit-0006">
+<string-name>
+<surname>Benkwitt</surname>, <given-names>C.E.</given-names>
+</string-name>, <string-name>
+<surname>Albins</surname>, <given-names>M.A.</given-names>
+</string-name>, <string-name>
+<surname>Buch</surname>, <given-names>K.L.</given-names>
+</string-name>, <string-name>
+<surname>Ingeman</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name>
+<surname>Kindinger</surname>, <given-names>T.L.</given-names>
+</string-name>, <string-name>
+<surname>Pusack</surname>, <given-names>T.J.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2017</year>). <article-title>Is the lionfish invasion waning? Evidence from The Bahamas</article-title>. <source xml:lang="en">Coral Reefs</source>, <volume>36</volume>, <fpage>1255</fpage>&#x02013;<lpage>1261</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0007"><mixed-citation publication-type="journal" id="ele13649-cit-0007">
+<string-name>
+<surname>Bennett</surname>, <given-names>J.A.</given-names>
+</string-name>, <string-name>
+<surname>Maherali</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Reinhart</surname>, <given-names>K.O.</given-names>
+</string-name>, <string-name>
+<surname>Lekberg</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Hart</surname>, <given-names>M.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Klironomos</surname>, <given-names>J.</given-names>
+</string-name> (<year>2017</year>). <article-title>Plant&#x02010;soil feedbacks and mycorrhizal type influence temperate forest population dynamics</article-title>. <source xml:lang="en">Science</source>, <volume>355</volume>, <fpage>181</fpage>&#x02013;<lpage>184</lpage>.<pub-id pub-id-type="pmid">28082590</pub-id></mixed-citation></ref><ref id="ele13649-bib-0008"><mixed-citation publication-type="journal" id="ele13649-cit-0008">
+<string-name>
+<surname>Bever</surname>, <given-names>J.D.</given-names>
+</string-name>, <string-name>
+<surname>Dickie</surname>, <given-names>I.A.</given-names>
+</string-name>, <string-name>
+<surname>Facelli</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Facelli</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Klironomos</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Moora</surname>, <given-names>M.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2010</year>). <article-title>Rooting theories of plant community ecology in microbial interactions</article-title>. <source xml:lang="en">Trends Ecol. Evol.</source>, <volume>25</volume>, <fpage>468</fpage>&#x02013;<lpage>478</lpage>.<pub-id pub-id-type="pmid">20557974</pub-id></mixed-citation></ref><ref id="ele13649-bib-0009"><mixed-citation publication-type="journal" id="ele13649-cit-0009">
+<string-name>
+<surname>Bezemer</surname>, <given-names>T.M.</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bakx&#x02010;Schotman</surname>, <given-names>J.M.T.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Bijleveld</surname>, <given-names>E.&#x02010;J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Plant competition alters the temporal dynamics of plant&#x02010;soil feedbacks</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>106</volume>, <fpage>2287</fpage>&#x02013;<lpage>2300</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0010"><mixed-citation publication-type="journal" id="ele13649-cit-0010">
+<string-name>
+<surname>Bialic&#x02010;Murphy</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Brouwer</surname>, <given-names>N.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Kalisz</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Direct effects of a non&#x02010;native invader erode native plant fitness in the forest understory</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>108</volume>(<issue>1</issue>), <fpage>189</fpage>&#x02013;<lpage>198</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.13233</pub-id>.</mixed-citation></ref><ref id="ele13649-bib-0011"><mixed-citation publication-type="journal" id="ele13649-cit-0011">
+<string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name> (<year>2017</year>). <article-title>Climate and rapid local adaptation as drivers of seed bank dynamics of <italic>Alliaria petiolata</italic> (garlic mustard) in North America</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>105</volume>, <fpage>1485</fpage>&#x02013;<lpage>1495</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0012"><mixed-citation publication-type="journal" id="ele13649-cit-0012">
+<string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Hinz</surname>, <given-names>H.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Gerber</surname>, <given-names>E.</given-names>
+</string-name> (<year>2001</year>). <article-title>Developing biological control of <italic>Alliaria petiolata</italic> (M. Bieb.) Cavara and Grande (garlic mustard)</article-title>. <source xml:lang="en">Nat. Areas J.</source>, <volume>21</volume>, <fpage>357</fpage>&#x02013;<lpage>367</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0013"><mixed-citation publication-type="miscellaneous" id="ele13649-cit-0013">
+<string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Nuzzo</surname>, <given-names>V.A.</given-names>
+</string-name> (<year>2003</year>). <article-title>Garlic mustard monitoring protocol. Ecology and Management of Invasive Plant Species Program</article-title>. Cornell University, www.invasiveplants.net.</mixed-citation></ref><ref id="ele13649-bib-0014"><mixed-citation publication-type="journal" id="ele13649-cit-0014">
+<string-name>
+<surname>Boyd</surname>, <given-names>I.L.</given-names>
+</string-name>, <string-name>
+<surname>Freer&#x02010;Smith</surname>, <given-names>P.H.</given-names>
+</string-name>, <string-name>
+<surname>Gilligan</surname>, <given-names>C.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Godfray</surname>, <given-names>H.C.J.</given-names>
+</string-name> (<year>2013</year>). <article-title>The consequence of tree pests and diseases for ecosystem services</article-title>. <source xml:lang="en">Science</source>, <volume>342</volume>, <fpage>823&#x02010;+</fpage>.</mixed-citation></ref><ref id="ele13649-bib-0015"><mixed-citation publication-type="journal" id="ele13649-cit-0015">
+<string-name>
+<surname>Bradley</surname>, <given-names>B.A.</given-names>
+</string-name>, <string-name>
+<surname>Blumenthal</surname>, <given-names>D.M.</given-names>
+</string-name>, <string-name>
+<surname>Wilcove</surname>, <given-names>D.S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Ziska</surname>, <given-names>L.H.</given-names>
+</string-name> (<year>2010</year>). <article-title>Predicting plant invasions in an era of global change</article-title>. <source xml:lang="en">Trend Ecol. Evol.</source>, <volume>25</volume>, <fpage>310</fpage>&#x02013;<lpage>318</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0016"><mixed-citation publication-type="journal" id="ele13649-cit-0016">
+<string-name>
+<surname>Burke</surname>, <given-names>D.J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Effects of <italic>Alliaria petiolata</italic> (garlic mustard; Brassicaceae) on mycorrhizal colonization and community structure in three herbaceous plants in a mixed deciduous forest</article-title>. <source xml:lang="en">Am. J. Bot.</source>, <volume>95</volume>, <fpage>1416</fpage>&#x02013;<lpage>1425</lpage>.<pub-id pub-id-type="pmid">21628149</pub-id></mixed-citation></ref><ref id="ele13649-bib-0017"><mixed-citation publication-type="journal" id="ele13649-cit-0017">
+<string-name>
+<surname>Burke</surname>, <given-names>D.J.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Chan</surname>, <given-names>C.R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Effects of the invasive plant garlic mustard (<italic>Alliaria petiolata</italic>) on bacterial communities in a northern hardwood forest soil</article-title>. <source xml:lang="en">Can. J. Microbiol.</source>, <volume>56</volume>, <fpage>81</fpage>&#x02013;<lpage>86</lpage>.<pub-id pub-id-type="pmid">20130698</pub-id></mixed-citation></ref><ref id="ele13649-bib-0018"><mixed-citation publication-type="book" id="ele13649-cit-0018">
+<string-name>
+<surname>Burnham</surname>, <given-names>K.P.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>D.R.</given-names>
+</string-name> (<year>2002</year>). <source xml:lang="en">Model Selection and Multimodel Inference: A Practical Information&#x02010;Theoretic Approach</source>. <publisher-name>Springer&#x02010;Verlag</publisher-name>, <publisher-loc>New York, NY</publisher-loc>.</mixed-citation></ref><ref id="ele13649-bib-0019"><mixed-citation publication-type="journal" id="ele13649-cit-0019">
+<string-name>
+<surname>Callaway</surname>, <given-names>R.M.</given-names>
+</string-name>, <string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Barto</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Thelen</surname>, <given-names>G.C.</given-names>
+</string-name>, <string-name>
+<surname>Hallett</surname>, <given-names>S.G.</given-names>
+</string-name>, <string-name>
+<surname>Prati</surname>, <given-names>D.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2008</year>). <article-title>Novel weapons: invasive plant suppresses fungal mutualists in America but not in its native Europe</article-title>. <source xml:lang="en">Ecology</source>, <volume>89</volume>, <fpage>1043</fpage>&#x02013;<lpage>1055</lpage>.<pub-id pub-id-type="pmid">18481529</pub-id></mixed-citation></ref><ref id="ele13649-bib-0020"><mixed-citation publication-type="journal" id="ele13649-cit-0020">
+<string-name>
+<surname>Caplan</surname>, <given-names>J.S.</given-names>
+</string-name>, <string-name>
+<surname>Hager</surname>, <given-names>R.N.</given-names>
+</string-name>, <string-name>
+<surname>Megonigal</surname>, <given-names>J.P.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Mozdzer</surname>, <given-names>T.J.</given-names>
+</string-name> (<year>2015</year>). <article-title>Global change accelerates carbon assimilation by a wetland ecosystem engineer</article-title>. <source xml:lang="en">Environmental Research Letters</source>, <volume>10</volume>(<issue>11</issue>), <fpage>115006</fpage>
+</mixed-citation></ref><ref id="ele13649-bib-0021"><mixed-citation publication-type="journal" id="ele13649-cit-0021">
+<string-name>
+<surname>Carlsson</surname>, <given-names>N.O.L.</given-names>
+</string-name>, <string-name>
+<surname>Sarnelle</surname>, <given-names>O.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Strayer</surname>, <given-names>D.L.</given-names>
+</string-name> (<year>2009</year>). <article-title>Native predators and exotic prey &#x02010; an acquired taste?</article-title>
+<source xml:lang="en">Front. Ecol. Environ.</source>, <volume>7</volume>, <fpage>525</fpage>&#x02013;<lpage>532</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0022"><mixed-citation publication-type="journal" id="ele13649-cit-0022">
+<string-name>
+<surname>Carpenter</surname>, <given-names>D.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Cappuccino</surname>, <given-names>N.</given-names>
+</string-name> (<year>2005</year>). <article-title>Herbivory, time since introduction and the invasiveness of exotic plants</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>93</volume>, <fpage>315</fpage>&#x02013;<lpage>321</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0023"><mixed-citation publication-type="journal" id="ele13649-cit-0023">
+<string-name>
+<surname>Caswell</surname>, <given-names>H.</given-names>
+</string-name> (<year>2000</year>). <article-title>Prospective and retrospective perturbation analyses: their roles in conservation biology</article-title>. <source xml:lang="en">Ecology</source>, <volume>81</volume>, <fpage>619</fpage>&#x02013;<lpage>627</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0024"><mixed-citation publication-type="book" id="ele13649-cit-0024">
+<string-name>
+<surname>Caswell</surname>, <given-names>H.</given-names>
+</string-name> (<year>2001</year>). <source xml:lang="en">Matrix Population Models: Construction, Analysis, and Interpretation</source>, <edition>2</edition>nd edn. <publisher-name>Sinauer Associates</publisher-name>, <publisher-loc>Sunderland, MA</publisher-loc>.</mixed-citation></ref><ref id="ele13649-bib-0025"><mixed-citation publication-type="journal" id="ele13649-cit-0025">
+<string-name>
+<surname>Clavel</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Julliard</surname>, <given-names>R.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Devictor</surname>, <given-names>V.</given-names>
+</string-name> (<year>2011</year>). <article-title>Worldwide decline of specialist species: toward a global functional homogenization?</article-title>
+<source xml:lang="en">Front. Ecol. Environ.</source>, <volume>9</volume>, <fpage>222</fpage>&#x02013;<lpage>228</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0026"><mixed-citation publication-type="journal" id="ele13649-cit-0026">
+<string-name>
+<surname>Cooling</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hartley</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Sim</surname>, <given-names>D.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Lester</surname>, <given-names>P.J.</given-names>
+</string-name> (<year>2012</year>). <article-title>The widespread collapse of an invasive species: Argentine ants (<italic>Linepithema humile</italic>) in New Zealand</article-title>. <source xml:lang="en">Biol. Lett.</source>, <volume>8</volume>, <fpage>430</fpage>&#x02013;<lpage>433</lpage>.<pub-id pub-id-type="pmid">22130172</pub-id></mixed-citation></ref><ref id="ele13649-bib-0027"><mixed-citation publication-type="journal" id="ele13649-cit-0027">
+<string-name>
+<surname>Cooling</surname>, <given-names>M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Hoffmann</surname>, <given-names>B.D.</given-names>
+</string-name> (<year>2015</year>). <article-title>Here today, gone tomorrow: declines and local extinctions of invasive ant populations in the absence of intervention</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>17</volume>, <fpage>3351</fpage>&#x02013;<lpage>3357</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0028"><mixed-citation publication-type="journal" id="ele13649-cit-0028">
+<string-name>
+<surname>Crawford</surname>, <given-names>K.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Hawkes</surname>, <given-names>C.V.</given-names>
+</string-name> (<year>2020</year>). <article-title>Soil precipitation legacies influence intraspecific plant&#x02010;soil feedback</article-title>. <source xml:lang="en">Ecology</source>, <volume>101</volume>, <elocation-id>e03142</elocation-id>.<pub-id pub-id-type="pmid">32813278</pub-id></mixed-citation></ref><ref id="ele13649-bib-0029"><mixed-citation publication-type="journal" id="ele13649-cit-0029">
+<string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2004</year>). <article-title>Influence of the invasive herb garlic mustard (<italic>Alliaria petiolata</italic>) on ground beetle (Coleoptera : Carabidae) assemblages</article-title>. <source xml:lang="en">Environ. Entomol.</source>, <volume>33</volume>, <fpage>564</fpage>&#x02013;<lpage>576</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0030"><mixed-citation publication-type="journal" id="ele13649-cit-0030">
+<string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2014</year>). <article-title>Demographic responses of rare forest plants to multiple stressors: the role of deer, invasive species and nutrients</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>102</volume>, <fpage>1222</fpage>&#x02013;<lpage>1233</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0031"><mixed-citation publication-type="journal" id="ele13649-cit-0031">
+<string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2015a</year>). <article-title>Interactive effects of deer, earthworms and non&#x02010;native plants on rare forest plant recruitment</article-title>. <source xml:lang="en">Biodivers. Conserv.</source>, <volume>187</volume>, <fpage>173</fpage>&#x02013;<lpage>181</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0032"><mixed-citation publication-type="journal" id="ele13649-cit-0032">
+<string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2015b</year>). <article-title>Single and interactive effects of deer and earthworms on non&#x02010;native plants</article-title>. <source xml:lang="en">Forest Ecol. Manag.</source>, <volume>351</volume>, <fpage>28</fpage>&#x02013;<lpage>35</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0033"><mixed-citation publication-type="journal" id="ele13649-cit-0033">
+<string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Simpson</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2015c</year>). <article-title>Non&#x02010;consumptive effects of native deer on introduced earthworm abundance</article-title>. <source xml:lang="en">Ecosystems</source>, <volume>18</volume>, <fpage>1029</fpage>&#x02013;<lpage>1042</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0034"><mixed-citation publication-type="journal" id="ele13649-cit-0034">
+<string-name>
+<surname>Davis</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Landis</surname>, <given-names>D.A.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gerber</surname>, <given-names>E.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Hinz</surname>, <given-names>H.L.</given-names>
+</string-name> (<year>2006</year>). <article-title>Demographic models inform selection of biocontrol agents for garlic mustard (<italic>Alliaria petiolata</italic>)</article-title>. <source xml:lang="en">Ecol. Appl.</source>, <volume>16</volume>, <fpage>2399</fpage>&#x02013;<lpage>2410</lpage>.<pub-id pub-id-type="pmid">17205913</pub-id></mixed-citation></ref><ref id="ele13649-bib-0035"><mixed-citation publication-type="journal" id="ele13649-cit-0035">
+<string-name>
+<surname>Didham</surname>, <given-names>R.K.</given-names>
+</string-name>, <string-name>
+<surname>Tylianakis</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Gemmell</surname>, <given-names>N.J.</given-names>
+</string-name>, <string-name>
+<surname>Rand</surname>, <given-names>T.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Ewers</surname>, <given-names>R.M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Interactive effects of habitat modification and species invasion on native species decline</article-title>. <source xml:lang="en">Trends Ecol. Evol.</source>, <volume>22</volume>, <fpage>489</fpage>&#x02013;<lpage>496</lpage>.<pub-id pub-id-type="pmid">17673330</pub-id></mixed-citation></ref><ref id="ele13649-bib-0036"><mixed-citation publication-type="journal" id="ele13649-cit-0036">
+<string-name>
+<surname>Diez</surname>, <given-names>J.M.</given-names>
+</string-name>, <string-name>
+<surname>Dickie</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Hulme</surname>, <given-names>P.E.</given-names>
+</string-name>, <string-name>
+<surname>Sullivan</surname>, <given-names>J.J.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Duncan</surname>, <given-names>R.P.</given-names>
+</string-name> (<year>2010</year>). <article-title>Negative soil feedbacks accumulate over time for non&#x02010;native plant species</article-title>. <source xml:lang="en">Ecol. Let.</source>, <volume>13</volume>, <fpage>803</fpage>&#x02013;<lpage>809</lpage>.<pub-id pub-id-type="pmid">20482584</pub-id></mixed-citation></ref><ref id="ele13649-bib-0037"><mixed-citation publication-type="journal" id="ele13649-cit-0037">
+<string-name>
+<surname>Div&#x000ed;&#x00161;ek</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chytr&#x000fd;</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Beckage</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gotelli</surname>, <given-names>N.J.</given-names>
+</string-name>, <string-name>
+<surname>Lososov&#x000e1;</surname>, <given-names>Z.K.</given-names>
+</string-name>, <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2019</year>). <article-title>Similarity of introduced plant species to native ones facilitates naturalization, but differences enhance invasion success</article-title>. <source xml:lang="en">Nature Comm.</source>, <volume>9</volume>, <fpage>4631</fpage>. 10.1038/s41467&#x02010;018&#x02010;06995&#x02010;4.</mixed-citation></ref><ref id="ele13649-bib-0038"><mixed-citation publication-type="journal" id="ele13649-cit-0038">
+<string-name>
+<surname>Elkinton</surname>, <given-names>J.S.</given-names>
+</string-name>, <string-name>
+<surname>Parry</surname>, <given-names>D.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Boettner</surname>, <given-names>G.H.</given-names>
+</string-name> (<year>2006</year>). <article-title>Implicating an introduced generalist parasitoid in the invasive browntail moth's enigmatic demise</article-title>. <source xml:lang="en">Ecology</source>, <volume>87</volume>, <fpage>2664</fpage>&#x02013;<lpage>2672</lpage>.<pub-id pub-id-type="pmid">17089674</pub-id></mixed-citation></ref><ref id="ele13649-bib-0039"><mixed-citation publication-type="journal" id="ele13649-cit-0039">
+<string-name>
+<surname>Elliott&#x02010;Graves</surname>, <given-names>A.</given-names>
+</string-name> (<year>2016</year>). <article-title>The problem of prediction in invasion biology</article-title>. <source xml:lang="en">Biol. Philos.</source>, <volume>31</volume>, <fpage>373</fpage>&#x02013;<lpage>393</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0040"><mixed-citation publication-type="journal" id="ele13649-cit-0040">
+<string-name>
+<surname>Evans</surname>, <given-names>J.A.</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Raghu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ragavendran</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Landis</surname>, <given-names>D.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Schemske</surname>, <given-names>D.W.</given-names>
+</string-name> (<year>2012</year>). <article-title>The importance of space, time, and stochasticity to the demography and management of <italic>Alliaria petiolata</italic>
+</article-title>. <source xml:lang="en">Ecol. Appl.</source>, <volume>22</volume>, <fpage>1497</fpage>&#x02013;<lpage>1511</lpage>.<pub-id pub-id-type="pmid">22908709</pub-id></mixed-citation></ref><ref id="ele13649-bib-0041"><mixed-citation publication-type="journal" id="ele13649-cit-0041">
+<string-name>
+<surname>Evans</surname>, <given-names>J.A.</given-names>
+</string-name>, <string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>, <given-names>A.S.</given-names>
+</string-name>, <string-name>
+<surname>Raghu</surname>, <given-names>S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Landis</surname>, <given-names>D.A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Soil&#x02010;mediated eco&#x02010;evolutionary feedbacks in the invasive plant <italic>Alliaria petiolata</italic>
+</article-title>. <source xml:lang="en">Funct. Ecol.</source>, <volume>30</volume>, <fpage>1053</fpage>&#x02013;<lpage>1061</lpage>.<pub-id pub-id-type="pmid">31423041</pub-id></mixed-citation></ref><ref id="ele13649-bib-0042"><mixed-citation publication-type="journal" id="ele13649-cit-0042">
+<string-name>
+<surname>Faillace</surname>, <given-names>C.A.</given-names>
+</string-name>, <string-name>
+<surname>Lorusso</surname>, <given-names>N.S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Duffy</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Overlooking the smallest matter: viruses impact biological invasions</article-title>. <source xml:lang="en">Ecol. Let.</source>, <volume>20</volume>, <fpage>524</fpage>&#x02013;<lpage>538</lpage>.<pub-id pub-id-type="pmid">28176452</pub-id></mixed-citation></ref><ref id="ele13649-bib-0043"><mixed-citation publication-type="journal" id="ele13649-cit-0043">
+<string-name>
+<surname>Faison</surname>, <given-names>E.K.</given-names>
+</string-name>, <string-name>
+<surname>Foster</surname>, <given-names>D.R.</given-names>
+</string-name>, <string-name>
+<surname>Holle</surname>, <given-names>B.V.</given-names>
+</string-name>, <string-name>
+<surname>Rapp</surname>, <given-names>J.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Moore</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Nonnative vegetation dynamics in the understory of a fragmented temperate forest</article-title>. <source xml:lang="en">J. Torrey Bot. Soc.</source>, <volume>146</volume>, <fpage>252</fpage>&#x02013;<lpage>261</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0044"><mixed-citation publication-type="journal" id="ele13649-cit-0044">
+<string-name>
+<surname>Flory</surname>, <given-names>S.L.</given-names>
+</string-name>, <string-name>
+<surname>Kleczewski</surname>, <given-names>N.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> (<year>2011</year>). <article-title>Ecological consequences of pathogen accumulation on an invasive grass</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>2</volume>, <fpage>120</fpage>.</mixed-citation></ref><ref id="ele13649-bib-0045"><mixed-citation publication-type="journal" id="ele13649-cit-0045">
+<string-name>
+<surname>Forsstrom</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Vesakoski</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Riipinen</surname>, <given-names>K.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Fowler</surname>, <given-names>A.E.</given-names>
+</string-name> (<year>2018</year>). <article-title>Post&#x02010;invasion demography and persistence of a novel functional species in an estuarine system</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>20</volume>, <fpage>3331</fpage>&#x02013;<lpage>3345</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0046"><mixed-citation publication-type="journal" id="ele13649-cit-0046">
+<string-name>
+<surname>Fourniera</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Penoneb</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Penninoc</surname>, <given-names>M.G.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Courchampa</surname>, <given-names>F.</given-names>
+</string-name> (<year>2019</year>). <article-title>Predicting future invaders and future invasions</article-title>. <source xml:lang="en">P. Nat. Acad. Sci. USA</source>, <volume>116</volume>, <fpage>7905</fpage>&#x02013;<lpage>7910</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0047"><mixed-citation publication-type="journal" id="ele13649-cit-0047">
+<string-name>
+<surname>Frelich</surname>, <given-names>L.E.</given-names>
+</string-name>, <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Cameron</surname>, <given-names>E.K.</given-names>
+</string-name>, <string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Eisenhauer</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Fahey</surname>, <given-names>T.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2019</year>). <article-title>Side&#x02010;swiped: ecological cascades emanating from earthworm invasions</article-title>. <source xml:lang="en">Front. Ecol. Environ.</source>, <volume>17</volume>, <fpage>502</fpage>&#x02013;<lpage>510</lpage>.<pub-id pub-id-type="pmid">31908623</pub-id></mixed-citation></ref><ref id="ele13649-bib-0048"><mixed-citation publication-type="journal" id="ele13649-cit-0048">
+<string-name>
+<surname>Gerard</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Herve</surname>, <given-names>M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Hechinger</surname>, <given-names>R.F.</given-names>
+</string-name> (<year>2018</year>). <article-title>Long&#x02010;term population fluctuations of the exotic New Zealand mudsnail <italic>Potamopyrgus antipodarum</italic> and its introduced aporocotylid trematode in northwestern France</article-title>. <source xml:lang="en">Hydrobiologia</source>, <volume>817</volume>, <fpage>253</fpage>&#x02013;<lpage>266</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0049"><mixed-citation publication-type="journal" id="ele13649-cit-0049">
+<string-name>
+<surname>Gerber</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Hinz</surname>, <given-names>H.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2007</year>). <article-title>Interaction of specialist root and shoot herbivores of <italic>Alliaria petiolata</italic> and their impact on plant performance and reproduction</article-title>. <source xml:lang="en">Ecol. Entomol.</source>, <volume>32</volume>, <fpage>357</fpage>&#x02013;<lpage>365</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0050"><mixed-citation publication-type="journal" id="ele13649-cit-0050">
+<string-name>
+<surname>Gibson&#x02010;Reinemer</surname>, <given-names>D.K.</given-names>
+</string-name>, <string-name>
+<surname>Chick</surname>, <given-names>J.H.</given-names>
+</string-name>, <string-name>
+<surname>VanMiddlesworth</surname>, <given-names>T.D.</given-names>
+</string-name>, <string-name>
+<surname>VanMiddlesworth</surname>, <given-names>M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Casper</surname>, <given-names>A.F.</given-names>
+</string-name> (<year>2017</year>). <article-title>Widespread and enduring demographic collapse of invasive common carp (<italic>Cyprinus carpio</italic>) in the Upper Mississippi River System</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>19</volume>, <fpage>1905</fpage>&#x02013;<lpage>1916</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0051"><mixed-citation publication-type="journal" id="ele13649-cit-0051">
+<string-name>
+<surname>Gurevitch</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Fox</surname>, <given-names>G.A.</given-names>
+</string-name>, <string-name>
+<surname>Wardle</surname>, <given-names>G.M.</given-names>
+</string-name>, <string-name>
+<surname>Inderjit Taub</surname>, <given-names>D.</given-names>
+</string-name>(<year>2011</year>). <article-title>Emergent insights from the synthesis of conceptual frameworks for biological invasions</article-title>. <source xml:lang="en">Ecol. Let.</source>, <volume>14</volume>, <fpage>407</fpage>&#x02013;<lpage>418</lpage>.<pub-id pub-id-type="pmid">21513009</pub-id></mixed-citation></ref><ref id="ele13649-bib-0052"><mixed-citation publication-type="journal" id="ele13649-cit-0052">
+<string-name>
+<surname>Hahn</surname>, <given-names>P.G.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Dornbush</surname>, <given-names>M.E.</given-names>
+</string-name> (<year>2012</year>). <article-title>Exotic consumers interact with exotic plants to mediate native plant survival in a Midwestern forest herb layer</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>14</volume>, <fpage>449</fpage>&#x02013;<lpage>460</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0053"><mixed-citation publication-type="journal" id="ele13649-cit-0053">
+<string-name>
+<surname>Hale</surname>, <given-names>A.N.</given-names>
+</string-name>, <string-name>
+<surname>Tonsor</surname>, <given-names>S.J.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Kalisz</surname>, <given-names>S.</given-names>
+</string-name> (<year>2011</year>). <article-title>Testing the mutualism disruption hypothesis: physiological mechanisms for invasion of intact perennial plant communities</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>2</volume>, <fpage>art110</fpage>.</mixed-citation></ref><ref id="ele13649-bib-0054"><mixed-citation publication-type="book" id="ele13649-cit-0054">
+<string-name>
+<surname>Hastie</surname>, <given-names>T.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Tibshirani</surname>, <given-names>R.</given-names>
+</string-name> (<year>1990</year>). <source xml:lang="en">Generalized additive models</source>. <publisher-name>Chapman and Hall</publisher-name>, <publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="ele13649-bib-0055"><mixed-citation publication-type="journal" id="ele13649-cit-0055">
+<string-name>
+<surname>Hayes</surname>, <given-names>K.R.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Barry</surname>, <given-names>S.C.</given-names>
+</string-name> (<year>2008</year>). <article-title>Are there any consistent predictors of invasion success?</article-title>
+<source xml:lang="en">Biol. Inv.</source>, <volume>10</volume>, <fpage>483</fpage>&#x02013;<lpage>506</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0056"><mixed-citation publication-type="journal" id="ele13649-cit-0056">
+<string-name>
+<surname>Hierro</surname>, <given-names>J.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R.M.</given-names>
+</string-name> (<year>2003</year>). <article-title>Allelopathy and exotic plant invasion</article-title>. <source xml:lang="en">Plant Soil</source>, <volume>256</volume>, <fpage>25</fpage>&#x02013;<lpage>39</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0057"><mixed-citation publication-type="journal" id="ele13649-cit-0057">
+<string-name>
+<surname>Hof</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Araujo</surname>, <given-names>M.B.</given-names>
+</string-name>, <string-name>
+<surname>Jetz</surname>, <given-names>W.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Rahbek</surname>, <given-names>C.</given-names>
+</string-name> (<year>2011</year>). <article-title>Additive threats from pathogens, climate and land&#x02010;use change for global amphibian diversity</article-title>. <source xml:lang="en">Nature</source>, <volume>480</volume>, <fpage>516</fpage>&#x02013;<lpage>U137</lpage>.<pub-id pub-id-type="pmid">22089134</pub-id></mixed-citation></ref><ref id="ele13649-bib-0058"><mixed-citation publication-type="journal" id="ele13649-cit-0058">
+<string-name>
+<surname>Hooper</surname>, <given-names>D.U.</given-names>
+</string-name>, <string-name>
+<surname>Adair</surname>, <given-names>E.C.</given-names>
+</string-name>, <string-name>
+<surname>Cardinale</surname>, <given-names>B.J.</given-names>
+</string-name>, <string-name>
+<surname>Byrnes</surname>, <given-names>J.E.K.</given-names>
+</string-name>, <string-name>
+<surname>Hungate</surname>, <given-names>B.A.</given-names>
+</string-name>, <string-name>
+<surname>Matulich</surname>, <given-names>K.L.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2012</year>). <article-title>A global synthesis reveals biodiversity loss as a major driver of ecosystem change</article-title>. <source xml:lang="en">Nature</source>, <volume>486</volume>, <fpage>105</fpage>&#x02013;<lpage>109</lpage>.<pub-id pub-id-type="pmid">22678289</pub-id></mixed-citation></ref><ref id="ele13649-bib-0059"><mixed-citation publication-type="journal" id="ele13649-cit-0059">
+<string-name>
+<surname>Hulme</surname>, <given-names>P.E.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Bernard&#x02010;Verdier</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>). <article-title>Comparing traits of native and alien plants: Can we do better?</article-title>
+<source xml:lang="en">Funct. Ecol.</source>, <volume>32</volume>, <fpage>117</fpage>&#x02013;<lpage>125</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0060"><mixed-citation publication-type="journal" id="ele13649-cit-0060">
+<string-name>
+<surname>Ivanov</surname>, <given-names>K.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Keiper</surname>, <given-names>J.</given-names>
+</string-name> (<year>2011</year>). <article-title>Potential impacts of the invasive herb garlic mustard (<italic>Alliaria petiolata</italic>) on local ant (Hymenoptera: Formicidae) communities in northern temperate forests</article-title>. <source xml:lang="en">Jeffersoniana</source>, <volume>26</volume>, <fpage>1</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0061"><mixed-citation publication-type="journal" id="ele13649-cit-0061">
+<string-name>
+<surname>Kalisz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Spigler</surname>, <given-names>R.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Horvitz</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>In a long&#x02010;term experimental demography study, excluding ungulates reversed invader's explosive population growth rate and restored natives</article-title>. <source xml:lang="en">P. Nat. Acad. Sci. USA</source>, <volume>111</volume>, <fpage>4501</fpage>&#x02013;<lpage>4506</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0062"><mixed-citation publication-type="journal" id="ele13649-cit-0062">
+<string-name>
+<surname>Keller</surname>, <given-names>R.P.</given-names>
+</string-name>, <string-name>
+<surname>Lodge</surname>, <given-names>D.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Finnoff</surname>, <given-names>D.C.</given-names>
+</string-name> (<year>2007</year>). <article-title>Risk assessment for invasive species produces net bioeconomic benefits</article-title>. <source xml:lang="en">P. Nat. Acad. Sci. USA</source>, <volume>104</volume>, <fpage>203</fpage>&#x02013;<lpage>207</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0063"><mixed-citation publication-type="journal" id="ele13649-cit-0063">
+<string-name>
+<surname>Klironomos</surname>, <given-names>J.N.</given-names>
+</string-name> (<year>2002</year>). <article-title>Feedback with soil biota contributes to plant rarity and invasiveness in communities</article-title>. <source xml:lang="en">Nature</source>, <volume>417</volume>, <fpage>67</fpage>&#x02013;<lpage>70</lpage>.<pub-id pub-id-type="pmid">11986666</pub-id></mixed-citation></ref><ref id="ele13649-bib-0064"><mixed-citation publication-type="journal" id="ele13649-cit-0064">
+<string-name>
+<surname>Koch</surname>, <given-names>A.M.</given-names>
+</string-name>, <string-name>
+<surname>Antunes</surname>, <given-names>P.M.</given-names>
+</string-name>, <string-name>
+<surname>Barto</surname>, <given-names>E.K.</given-names>
+</string-name>, <string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Mummey</surname>, <given-names>D.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Klironomos</surname>, <given-names>J.N.</given-names>
+</string-name> (<year>2011</year>). <article-title>The effects of arbuscular mycorrhizal (AM) fungal and garlic mustard introductions on native AM fungal diversity</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>13</volume>, <fpage>1627</fpage>&#x02013;<lpage>1639</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0065"><mixed-citation publication-type="journal" id="ele13649-cit-0065">
+<string-name>
+<surname>Koorem</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Snoek</surname>, <given-names>B.L.</given-names>
+</string-name>, <string-name>
+<surname>Bloem</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Geisen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kostenko</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Manrubia</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ramirez</surname>, <given-names>K.S.</given-names>
+</string-name>, <string-name>
+<surname>Weser</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Wilschut</surname>, <given-names>R.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>van der Putten</surname>, <given-names>W.H.</given-names>
+</string-name> (<year>2020</year>) <article-title>Community&#x02010;level interactions between plants and soil biota during range expansion</article-title>. <source xml:lang="en">J. Ecol.</source>
+<pub-id pub-id-type="doi">10.1111/1365-2745.13409</pub-id>.</mixed-citation></ref><ref id="ele13649-bib-0066"><mixed-citation publication-type="journal" id="ele13649-cit-0066">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Soil microbial communities alter allelopathic competition between <italic>Alliaria petiolata</italic> and a native species</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>12</volume>, <fpage>2059</fpage>&#x02013;<lpage>2068</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0067"><mixed-citation publication-type="journal" id="ele13649-cit-0067">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2011a</year>). <article-title>Intraspecific variation in allelochemistry determines an invasive species' impact on soil microbial communities</article-title>. <source xml:lang="en">Oecologia</source>, <volume>165</volume>, <fpage>453</fpage>&#x02013;<lpage>463</lpage>.<pub-id pub-id-type="pmid">20680644</pub-id></mixed-citation></ref><ref id="ele13649-bib-0068"><mixed-citation publication-type="journal" id="ele13649-cit-0068">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2011b</year>). <article-title>Resistance and recovery of soil microbial communities in the face of <italic>Alliaria petiolata</italic> invasions</article-title>. <source xml:lang="en">New Phytol</source>, <volume>189</volume>, <fpage>536</fpage>&#x02013;<lpage>548</lpage>.<pub-id pub-id-type="pmid">20958303</pub-id></mixed-citation></ref><ref id="ele13649-bib-0069"><mixed-citation publication-type="journal" id="ele13649-cit-0069">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2012a</year>). <article-title>Coevolution between invasive and native plants driven by chemical competition and soil biota</article-title>. <source xml:lang="en">P. Nat. Acad. Sci. USA</source>, <volume>109</volume>, <fpage>11240</fpage>&#x02013;<lpage>11245</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0070"><mixed-citation publication-type="journal" id="ele13649-cit-0070">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2012b</year>). <article-title>Interpopulation variation in allelopathic traits informs restoration of invaded landscapes</article-title>. <source xml:lang="en">Evol Appl</source>, <volume>5</volume>, <fpage>270</fpage>&#x02013;<lpage>282</lpage>.<pub-id pub-id-type="pmid">25568047</pub-id></mixed-citation></ref><ref id="ele13649-bib-0071"><mixed-citation publication-type="journal" id="ele13649-cit-0071">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name>
+<surname>Bauer</surname>, <given-names>J.T.</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>, <given-names>M.R.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>R.C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Long&#x02010;term legacies and partial recovery of mycorrhizal communities after invasive plant removal</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>16</volume>, <fpage>1979</fpage>&#x02013;<lpage>1990</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0072"><mixed-citation publication-type="journal" id="ele13649-cit-0072">
+<string-name>
+<surname>Lankau</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Spyreas</surname>, <given-names>G.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Davis</surname>, <given-names>A.S.</given-names>
+</string-name> (<year>2009</year>). <article-title>Evolutionary limits ameliorate the negative impact of an invasive plant</article-title>. <source xml:lang="en">P. Nat. Acad. Sci. USA</source>, <volume>106</volume>, <fpage>15362</fpage>&#x02013;<lpage>15367</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0073"><mixed-citation publication-type="journal" id="ele13649-cit-0073">
+<string-name>
+<surname>Lester</surname>, <given-names>P.J.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Gruber</surname>, <given-names>M.A.M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Booms, busts and population collapses in invasive ants</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>18</volume>, <fpage>3091</fpage>&#x02013;<lpage>3101</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0074"><mixed-citation publication-type="journal" id="ele13649-cit-0074">
+<string-name>
+<surname>Lonsdale</surname>, <given-names>W.M.</given-names>
+</string-name> (<year>1999</year>). <article-title>Global patterns of plant invasions and the concept of invasibility</article-title>. <source xml:lang="en">Ecology</source>, <volume>80</volume>, <fpage>1522</fpage>&#x02013;<lpage>1536</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0075"><mixed-citation publication-type="journal" id="ele13649-cit-0075">
+<string-name>
+<surname>Mangla</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Inderjit Callaway</surname>, <given-names>R.M.</given-names>,</string-name>(<year>2008</year>). <article-title>Exotic invasive plant accumulates native soil pathogens which inhibit native plants</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>96</volume>, <fpage>58</fpage>&#x02013;<lpage>67</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0076"><mixed-citation publication-type="journal" id="ele13649-cit-0076">
+<string-name>
+<surname>Mitchell</surname>, <given-names>C.E.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Powers</surname>, <given-names>A.G.</given-names>
+</string-name> (<year>2003</year>). <article-title>Release of invasive plants from fungal and viral pathogens</article-title>. <source xml:lang="en">Nature</source>, <volume>421</volume>, <fpage>625</fpage>&#x02013;<lpage>627</lpage>.<pub-id pub-id-type="pmid">12571594</pub-id></mixed-citation></ref><ref id="ele13649-bib-0077"><mixed-citation publication-type="journal" id="ele13649-cit-0077">
+<string-name>
+<surname>Muthukrishnan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Jordan</surname>, <given-names>N.R.</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>, <given-names>A.S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Forester</surname>, <given-names>J.D.</given-names>
+</string-name> (<year>2019</year>). <article-title>Use of simulation&#x02010;based statistical models to complement bioclimatic models in predicting continental scale invasion risks</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>21</volume>, <fpage>847</fpage>&#x02013;<lpage>859</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0078"><mixed-citation publication-type="journal" id="ele13649-cit-0078">
+<string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>D&#x000e1;valos</surname>, <given-names>A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2017</year>). <article-title>Assessing plant community composition fails to capture impacts of white&#x02010;tailed deer on native and invasive plant species</article-title>. <source xml:lang="en">AoB PLANTS</source>, <volume>9</volume>, <fpage>plx026</fpage>
+<pub-id pub-id-type="doi">10.1093/aobpla/plx026</pub-id>.<pub-id pub-id-type="pmid">28775829</pub-id></mixed-citation></ref><ref id="ele13649-bib-0079"><mixed-citation publication-type="miscellaneous" id="ele13649-cit-0079">
+<string-name>
+<surname>Nuzzo</surname>, <given-names>V.A.</given-names>
+</string-name> (<year>1993</year>). <article-title>Distribution and spread of the invasive biennial <italic>Alliaria petiolata</italic> (Bieb. [Cavara and Grande]) in North America</article-title>. In: Biological Pollution: Control and impact of invasive exotic species (ed. McKnight, BL). Indiana Academy of Science Indianapolis, pp. <fpage>115</fpage>&#x02013;<lpage>124</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0080"><mixed-citation publication-type="journal" id="ele13649-cit-0080">
+<string-name>
+<surname>Nuzzo</surname>, <given-names>V.A.</given-names>
+</string-name> (<year>1999</year>). <article-title>Invasion pattern of the herb garlic mustard (<italic>Alliaria petiolata</italic>) in high quality forests</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>1</volume>, <fpage>169</fpage>&#x02013;<lpage>179</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0081"><mixed-citation publication-type="journal" id="ele13649-cit-0081">
+<string-name>
+<surname>Nuzzo</surname>, <given-names>V.A.</given-names>
+</string-name>, <string-name>
+<surname>Maerz</surname>, <given-names>J.C.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Blossey</surname>, <given-names>B.</given-names>
+</string-name> (<year>2009</year>). <article-title>Earthworm invasion as the driving force behind plant invasion and community change in northeastern North American forests</article-title>. <source xml:lang="en">Conserv. Biol.</source>, <volume>23</volume>, <fpage>966</fpage>&#x02013;<lpage>974</lpage>.<pub-id pub-id-type="pmid">19236448</pub-id></mixed-citation></ref><ref id="ele13649-bib-0082"><mixed-citation publication-type="journal" id="ele13649-cit-0082">
+<string-name>
+<surname>Orstan</surname>, <given-names>A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Cameron</surname>, <given-names>R.A.D.</given-names>
+</string-name> (<year>2015</year>). <article-title>
+<italic>Cepaea nemoralis</italic> in Burlington, New Jersey, usa: Its possible origin and state 157 years after its introduction</article-title>. <source xml:lang="en">J. Conchol.</source>, <volume>42</volume>, <fpage>193</fpage>&#x02013;<lpage>198</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0083"><mixed-citation publication-type="journal" id="ele13649-cit-0083">
+<string-name>
+<surname>Powell</surname>, <given-names>K.I.</given-names>
+</string-name>, <string-name>
+<surname>Chase</surname>, <given-names>J.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Knight</surname>, <given-names>T.M.</given-names>
+</string-name> (<year>2011</year>). <article-title>A synthesis of plant invasion effects on biodiversity across spatial scales</article-title>. <source xml:lang="en">Am. J. Bot.</source>, <volume>98</volume>, <fpage>539</fpage>&#x02013;<lpage>548</lpage>.<pub-id pub-id-type="pmid">21613145</pub-id></mixed-citation></ref><ref id="ele13649-bib-0084"><mixed-citation publication-type="miscellaneous" id="ele13649-cit-0084">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2014</year>). <article-title>R: A language and environment for statistical computing</article-title>. R Foundation for Statistical Computing Vienna, Austria. http://www.R&#x02010;project.org/.</mixed-citation></ref><ref id="ele13649-bib-0085"><mixed-citation publication-type="journal" id="ele13649-cit-0085">
+<string-name>
+<surname>Reinhart</surname>, <given-names>K.O.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Callaway</surname>, <given-names>R.M.</given-names>
+</string-name> (<year>2006</year>). <article-title>Soil biota and invasive plants</article-title>. <source xml:lang="en">New Phytol.</source>, <volume>170</volume>, <fpage>445</fpage>&#x02013;<lpage>457</lpage>.<pub-id pub-id-type="pmid">16626467</pub-id></mixed-citation></ref><ref id="ele13649-bib-0086"><mixed-citation publication-type="journal" id="ele13649-cit-0086">
+<string-name>
+<surname>Roberts</surname>, <given-names>K.J.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>R.C.</given-names>
+</string-name> (<year>2001</year>). <article-title>Effect of garlic mustard <italic>Alliaria petiolata</italic> (Beib. Cavara &#x00026; Grande) extracts on plants and arbuscular mycorrhizal (AM) fungi</article-title>. <source xml:lang="en">Am. Midl. Nat.</source>, <volume>146</volume>, <fpage>146</fpage>&#x02013;<lpage>152</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0087"><mixed-citation publication-type="journal" id="ele13649-cit-0087">
+<string-name>
+<surname>Ross</surname>, <given-names>J.L.</given-names>
+</string-name>, <string-name>
+<surname>Ivanova</surname>, <given-names>E.S.</given-names>
+</string-name>, <string-name>
+<surname>Severns</surname>, <given-names>P.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Wilson</surname>, <given-names>M.J.</given-names>
+</string-name> (<year>2010</year>). <article-title>The role of parasite release in invasion of the USA by European slugs</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>12</volume>, <fpage>603</fpage>&#x02013;<lpage>610</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0088"><mixed-citation publication-type="journal" id="ele13649-cit-0088">
+<string-name>
+<surname>Sakai</surname>, <given-names>A.K.</given-names>
+</string-name>, <string-name>
+<surname>Allendorf</surname>, <given-names>F.W.</given-names>
+</string-name>, <string-name>
+<surname>Holt</surname>, <given-names>J.S.</given-names>
+</string-name>, <string-name>
+<surname>Lodge</surname>, <given-names>D.M.</given-names>
+</string-name>, <string-name>
+<surname>Molofsky</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>With</surname>, <given-names>K.A.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2001</year>). <article-title>The population biology of invasive species</article-title>. <source xml:lang="en">Ann. Rev. Ecol. Syst.</source>, <volume>32</volume>, <fpage>305</fpage>&#x02013;<lpage>332</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0089"><mixed-citation publication-type="journal" id="ele13649-cit-0089">
+<string-name>
+<surname>Sheehy</surname>, <given-names>E.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Lawton</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Population crash in an invasive species following the recovery of a native predator: the case of the American grey squirrel and the European pine marten in Ireland</article-title>. <source xml:lang="en">Biodivers. Conserv.</source>, <volume>23</volume>, <fpage>753</fpage>&#x02013;<lpage>774</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0090"><mixed-citation publication-type="journal" id="ele13649-cit-0090">
+<string-name>
+<surname>Simberloff</surname>, <given-names>D.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Gibbons</surname>, <given-names>L.</given-names>
+</string-name> (<year>2004</year>). <article-title>Now you see them, now you don't &#x02010; population crashes of established introduced species</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>6</volume>, <fpage>161</fpage>&#x02013;<lpage>172</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0091"><mixed-citation publication-type="journal" id="ele13649-cit-0091">
+<string-name>
+<surname>Simberloff</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>, <given-names>J.L.</given-names>
+</string-name>, <string-name>
+<surname>Genovesi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Maris</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Wardle</surname>, <given-names>D.A.</given-names>
+</string-name>, <string-name>
+<surname>Aronson</surname>, <given-names>J.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2013</year>). <article-title>Impacts of biological invasions: what's what and the way forward</article-title>. <source xml:lang="en">Trend Ecol. Evol.</source>, <volume>28</volume>, <fpage>58</fpage>&#x02013;<lpage>66</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0092"><mixed-citation publication-type="journal" id="ele13649-cit-0092">
+<string-name>
+<surname>Smith</surname>, <given-names>C.S.</given-names>
+</string-name>, <string-name>
+<surname>Lonsdale</surname>, <given-names>W.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Fortune</surname>, <given-names>J.</given-names>
+</string-name> (<year>1999</year>). <article-title>When to ignore advice: invasion predictions and decision theory</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>1</volume>, <fpage>89</fpage>&#x02013;<lpage>96</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0093"><mixed-citation publication-type="journal" id="ele13649-cit-0093">
+<string-name>
+<surname>Stinson</surname>, <given-names>K.A.</given-names>
+</string-name>, <string-name>
+<surname>Campbell</surname>, <given-names>S.A.</given-names>
+</string-name>, <string-name>
+<surname>Powell</surname>, <given-names>J.R.</given-names>
+</string-name>, <string-name>
+<surname>Wolfe</surname>, <given-names>B.E.</given-names>
+</string-name>, <string-name>
+<surname>Callaway</surname>, <given-names>R.M.</given-names>
+</string-name>, <string-name>
+<surname>Thelen</surname>, <given-names>G.C.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2006</year>). <article-title>Invasive plant suppresses the growth of native tree seedlings by disrupting belowground mutualisms</article-title>. <source xml:lang="en">PLoS Biol.</source>, <volume>4</volume>, <fpage>727</fpage>&#x02013;<lpage>731</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0094"><mixed-citation publication-type="journal" id="ele13649-cit-0094">
+<string-name>
+<surname>Stricker</surname>, <given-names>K.B.</given-names>
+</string-name>, <string-name>
+<surname>Harmon</surname>, <given-names>P.F.</given-names>
+</string-name>, <string-name>
+<surname>Goss</surname>, <given-names>E.M.</given-names>
+</string-name>, <string-name>
+<surname>Clay</surname>, <given-names>K.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Flory</surname>, <given-names>S.L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Emergence and accumulation of novel pathogens suppress an invasive species</article-title>. <source xml:lang="en">Ecol. Let.</source>, <volume>19</volume>, <fpage>469</fpage>&#x02013;<lpage>477</lpage>.<pub-id pub-id-type="pmid">26931647</pub-id></mixed-citation></ref><ref id="ele13649-bib-0095"><mixed-citation publication-type="journal" id="ele13649-cit-0095">
+<string-name>
+<surname>Tang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>C.H.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>B.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name> (<year>2012</year>). <article-title>A plant invader declines through its modification to habitats: A case study of a 16&#x02010;year chronosequence of <italic>Spartina alterniflora</italic> invasion in a salt marsh</article-title>. <source xml:lang="en">Ecol. Eng.</source>, <volume>49</volume>, <fpage>181</fpage>&#x02013;<lpage>185</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0096"><mixed-citation publication-type="journal" id="ele13649-cit-0096">
+<string-name>
+<surname>Tartally</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Antonova</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Espadaler</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Csosz</surname>, <given-names>S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Czechowski</surname>, <given-names>W.</given-names>
+</string-name> (<year>2016</year>). <article-title>Collapse of the invasive garden ant, <italic>Lasius neglectus</italic>, populations in four European countries</article-title>. <source xml:lang="en">Biol. Inv.</source>, <volume>18</volume>, <fpage>3127</fpage>&#x02013;<lpage>3131</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0097"><mixed-citation publication-type="miscellaneous" id="ele13649-cit-0097">
+<collab collab-type="authors">USDA NRCS</collab>
+(<year>2017</year>). <article-title>The PLANTS Database (http://plants.usda.gov)</article-title>. National Plant Data Team, Greensboro, North Carolina, USA.</mixed-citation></ref><ref id="ele13649-bib-0098"><mixed-citation publication-type="journal" id="ele13649-cit-0098">
+<string-name>
+<surname>van der Putten</surname>, <given-names>W.H.</given-names>
+</string-name>, <string-name>
+<surname>Bardgett</surname>, <given-names>R.D.</given-names>
+</string-name>, <string-name>
+<surname>Bever</surname>, <given-names>J.D.</given-names>
+</string-name>, <string-name>
+<surname>Bezemer</surname>, <given-names>T.M.</given-names>
+</string-name>, <string-name>
+<surname>Casper</surname>, <given-names>B.B.</given-names>
+</string-name>, <string-name>
+<surname>Fukami</surname>, <given-names>T.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2013</year>). <article-title>Plant&#x02010;soil feedbacks: the past, the present and future challenges</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>101</volume>, <fpage>265</fpage>&#x02013;<lpage>276</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0099"><mixed-citation publication-type="journal" id="ele13649-cit-0099">
+<string-name>
+<surname>Waller</surname>, <given-names>D.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Maas</surname>, <given-names>L.I.</given-names>
+</string-name> (<year>2013</year>). <article-title>Do white&#x02010;tailed deer and the exotic plant garlic mustard interact to affect the growth and persistence of native forest plants?</article-title>
+<source xml:lang="en">Forest Ecol. Manag.</source>, <volume>304</volume>, <fpage>296</fpage>&#x02013;<lpage>302</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0100"><mixed-citation publication-type="journal" id="ele13649-cit-0100">
+<string-name>
+<surname>Wardle</surname>, <given-names>D.A.</given-names>
+</string-name>, <string-name>
+<surname>Bardgett</surname>, <given-names>R.D.</given-names>
+</string-name>, <string-name>
+<surname>Callaway</surname>, <given-names>R.M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Van der Putten</surname>, <given-names>W.H.</given-names>
+</string-name> (<year>2011</year>). <article-title>Terrestrial ecosystem responses to species gains and losses</article-title>. <source xml:lang="en">Science</source>, <volume>332</volume>, <fpage>1273</fpage>&#x02013;<lpage>1277</lpage>.<pub-id pub-id-type="pmid">21659595</pub-id></mixed-citation></ref><ref id="ele13649-bib-0101"><mixed-citation publication-type="journal" id="ele13649-cit-0101">
+<string-name>
+<surname>Warren</surname>, <given-names>R.J.</given-names>
+</string-name>, <string-name>
+<surname>Candeias</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Labatore</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Olejniczak</surname>, <given-names>M.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Yang</surname>, <given-names>L.</given-names>
+</string-name> (<year>2019</year>). <article-title>Multiple mechanisms in woodland plant species invasion</article-title>. <source xml:lang="en">J. Plant Ecol.</source>, <volume>12</volume>, <fpage>201</fpage>&#x02013;<lpage>209</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0102"><mixed-citation publication-type="journal" id="ele13649-cit-0102">
+<string-name>
+<surname>Williamson</surname>, <given-names>M.H.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Fitter</surname>, <given-names>A.</given-names>
+</string-name> (<year>1996</year>). <article-title>The characters of successful invaders</article-title>. <source xml:lang="en">Biol. Conserv.</source>, <volume>78</volume>, <fpage>163</fpage>&#x02013;<lpage>170</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0103"><mixed-citation publication-type="journal" id="ele13649-cit-0103">
+<string-name>
+<surname>Wixted</surname>, <given-names>K.L.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>McGraw</surname>, <given-names>J.B.</given-names>
+</string-name> (<year>2010</year>). <article-title>Competitive and allelopathic effects of garlic mustard (<italic>Alliaria petiolata</italic>) on American ginseng (<italic>Panax quinquefolius</italic>)</article-title>. <source xml:lang="en">Plant Ecol.</source>, <volume>208</volume>, <fpage>347</fpage>&#x02013;<lpage>357</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0104"><mixed-citation publication-type="journal" id="ele13649-cit-0104">
+<string-name>
+<surname>Wolfe</surname>, <given-names>B.E.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Klironomos</surname>, <given-names>J.N.</given-names>
+</string-name> (<year>2005</year>). <article-title>Breaking new ground: Soil communities and exotic plant invasion</article-title>. <source xml:lang="en">Bioscience</source>, <volume>55</volume>, <fpage>477</fpage>&#x02013;<lpage>487</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0105"><mixed-citation publication-type="journal" id="ele13649-cit-0105">
+<string-name>
+<surname>Wolfe</surname>, <given-names>B.E.</given-names>
+</string-name>, <string-name>
+<surname>Rodgers</surname>, <given-names>V.L.</given-names>
+</string-name>, <string-name>
+<surname>Stinson</surname>, <given-names>K.A.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Pringle</surname>, <given-names>A.</given-names>
+</string-name> (<year>2008</year>). <article-title>The invasive plant <italic>Alliaria petiolata</italic> (garlic mustard) inhibits ectomycorrhizal fungi in its introduced range</article-title>. <source xml:lang="en">J. Ecol.</source>, <volume>96</volume>, <fpage>777</fpage>&#x02013;<lpage>783</lpage>.</mixed-citation></ref><ref id="ele13649-bib-0106"><mixed-citation publication-type="book" id="ele13649-cit-0106">
+<string-name>
+<surname>Wood</surname>, <given-names>S.</given-names>
+</string-name> (<year>2006</year>). <source xml:lang="en">Generalized additive mixed models: an introduction with R</source>. <publisher-name>Chapman &#x00026; Hall/CRC</publisher-name>, <publisher-loc>Boca Raton</publisher-loc>.</mixed-citation></ref><ref id="ele13649-bib-0107"><mixed-citation publication-type="miscellaneous" id="ele13649-cit-0107">
+<string-name>
+<surname>Wood</surname>, <given-names>S.</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Scheipl</surname>, <given-names>F.</given-names>
+</string-name> (<year>2017</year>). <article-title>gamm4: Generalized Additive Mixed Models using 'mgcv' and 'lme4'</article-title>. R package version 0.2&#x02010;5. https://CRAN.R&#x02010;project.org/package=gamm4.</mixed-citation></ref><ref id="ele13649-bib-0108"><mixed-citation publication-type="journal" id="ele13649-cit-0108">
+<string-name>
+<surname>Wubs</surname>, <given-names>E.R.J.</given-names>
+</string-name>, <string-name>
+<surname>van der Putten</surname>, <given-names>W.H.</given-names>
+</string-name>, <string-name>
+<surname>Mortimer</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name>
+<surname>Korthals</surname>, <given-names>G.W.</given-names>
+</string-name>, <string-name>
+<surname>Duyts</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Wagenaar</surname>, <given-names>R.</given-names>
+</string-name>
+<italic>et al</italic> (<year>2019</year>). <article-title>Single introductions of soil biota and plants generate long&#x02010;term legacies in soil and plant community assembly</article-title>. <source xml:lang="en">Ecol. Let.</source>, <volume>22</volume>, <fpage>1145</fpage>&#x02013;<lpage>1151</lpage>.<pub-id pub-id-type="pmid">31020756</pub-id></mixed-citation></ref></ref-list></back></article>

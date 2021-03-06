@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We constructed multiyear projection matrices, 
+ <bold>B</bold>, for each study site to capture cumulative demographic trends over the study period. The matrix was estimated as the product of annual transition matrices, such that 
+ <bold>B</bold>
+ <sub>site</sub> = 
+ <bold>A</bold>
+ <sub>site.n</sub>
+ <bold>A</bold>
+ <sub>site.n‐1</sub>… 
+ <bold>A</bold>
+ <sub>site.n=1</sub>; where 
+ <italic>n</italic> = years monitored (Caswell, 
+ <xref rid="ele13649-bib-0024" ref-type="ref">2001</xref>; Kalisz 
+ <italic>et al</italic>., 
+ <xref rid="ele13649-bib-0061" ref-type="ref">2014</xref>). We estimated the cumulative growth rate over the whole period (λ
+ <sub>c</sub>) as the dominant eigenvalue of matrix 
+ <bold>B</bold> and time‐averaged growth rates per site (λ
+ <sub>year.site</sub>) over the study period as n
+ <sup>th</sup> root of λ
+ <sub>c</sub>. We constructed 95% CI based on 1000 bootstrap samples to evaluate whether λ
+ <sub>year.site</sub> was significantly different from one.
+</p>

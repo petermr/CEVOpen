@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">To build the SDM for the whole Italian peninsula plus Sardinia and Sicily, we utilized the CORINE cartography provided by ISPRA (CLC level III, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.sinanet.isprambiente.it/it/sia-ispra/download-mais" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.sinanet.isprambiente.it/it/sia-ispra/download-mais</ext-link>) to define the habitat distribution in the area. The CORINE cartography is provided as maps at the 1:100,000 scale. Habitats were originally codified in 43 land use classes at level III. We clumped these classes into 15 classes of interest for the sacred ibis (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). The DTM provided by Italian Istituto Geografico Militare was utilized to calculate the altitude. We utilized the dataset of 19 bioclimatic variables provided by the Worldclim organization
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> (ver. 2.0) to compare the presence of the sacred ibis and the climatic conditions
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. The 19 bioclimatic variables can be highly correlated, as well as the altitude, and this can cause inflation errors. To reduce the number of variables and select only uncorrelated ones, we utilized a variance inflation factor (VIF) approach
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. We utilized the package 
+ <italic>usdm</italic> in R
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> to select variables from the input variables that may have a collinearity problem. According to
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup>, collinearity was avoided by removing the variables with VIF values &gt; 10.
+</p>

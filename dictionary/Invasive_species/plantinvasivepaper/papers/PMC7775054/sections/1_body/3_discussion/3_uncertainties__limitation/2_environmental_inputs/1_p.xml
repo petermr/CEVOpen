@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DDRP is intentionally parameterized in a simple, conservative manner, which will hopefully achieve the goal of a parsimonious balance of both model simplicity and accuracy [
+ <xref rid="pone.0244005.ref014" ref-type="bibr">14</xref>, 
+ <xref rid="pone.0244005.ref090" ref-type="bibr">90</xref>]. Nonetheless, DDRP is driven entirely by temperature, and therefore ignores other factors that may affect the development and distribution of insects such as photoperiod, moisture, dispersal, resources, disturbance, and biotic interactions [
+ <xref rid="pone.0244005.ref007" ref-type="bibr">7</xref>, 
+ <xref rid="pone.0244005.ref091" ref-type="bibr">91</xref>]. The potential consequences of this limitation will depend on the biology of the organism under study. For example, dry stress is a major factor restricting the current distribution of 
+ <italic>N</italic>. 
+ <italic>elegantalis</italic> in its native range [
+ <xref rid="pone.0244005.ref092" ref-type="bibr">92</xref>–
+ <xref rid="pone.0244005.ref094" ref-type="bibr">94</xref>], and it limits the distribution of 
+ <italic>E</italic>. 
+ <italic>postvittana</italic> both in its native range [
+ <xref rid="pone.0244005.ref030" ref-type="bibr">30</xref>, 
+ <xref rid="pone.0244005.ref095" ref-type="bibr">95</xref>] and in Southern California and Arizona [
+ <xref rid="pone.0244005.ref096" ref-type="bibr">96</xref>]. Our CLIMEX model for 
+ <italic>N</italic>. 
+ <italic>elegantalis</italic> predicted higher dry stress in arid parts of the Southwest than the rest of CONUS (
+ <xref ref-type="supplementary-material" rid="pone.0244005.s008">S4 Fig</xref>), which suggests that an absence of moisture factors in DDRP may result in over-predictions of climatic suitability in this region. However, this conservative-leaning error may in fact better reflect human manipulation of the landscape (e.g. greenhouse and irrigation usage) that may allow the species to exist in such regions. Future versions of DDRP that can process gridded moisture data and incorporate moisture stress factors into climatic suitability models may help overcome our current limitations in matching CLIMEX models, and may improve predictions for moisture-sensitive species such as 
+ <italic>N</italic>. 
+ <italic>elegantalis</italic>. Additionally, we are developing a version of DDRP that incorporates photoperiodically induced life history events such as winter diapause and summer aestivation, which builds on earlier phenology modeling work that estimated voltinism of photoperiod-sensitive insects [
+ <xref rid="pone.0244005.ref097" ref-type="bibr">97</xref>].
+</p>

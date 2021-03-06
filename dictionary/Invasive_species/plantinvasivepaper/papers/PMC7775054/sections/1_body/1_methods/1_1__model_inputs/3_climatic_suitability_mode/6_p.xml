@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Comparing DDRP climatic suitability model outputs to those of CLIMEX for model fitting purposes is naturally more appropriate when temperature data are derived from the same time period. We have therefore been using a PRISM 
+ <italic>T</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> and 
+ <italic>T</italic>
+ <sub>
+  <italic>max</italic>
+ </sub> 30-year average data set centered on 1975 (1961‒1990) to match the time-schedule of the CliMond CM10 (also 1961−1990) world climate data set currently supplied with CLIMEX [
+ <xref rid="pone.0244005.ref042" ref-type="bibr">42</xref>]. We temporally downscaled monthly PRISM estimates for 1961‒1990 because DDRP requires daily data and PRISM daily temperature data for years prior to 1980 are not available. For each month of a given year, a bilinear interpolation method was used to assign each day an average temperature value that was iteratively smoothed and then adjusted so that the monthly averages were correct.
+</p>

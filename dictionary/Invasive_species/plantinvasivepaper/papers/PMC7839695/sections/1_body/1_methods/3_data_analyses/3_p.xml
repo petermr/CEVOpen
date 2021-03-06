@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In all models, we evaluated a smoothed function of time, fixed effects of latitude and longitude and included initial 
+ <italic>A. petiolata</italic> adult density as covariate. We did not test for interactions between explanatory variables. For height and silique number we also evaluated possible density dependent effects by including adult density per quadrat. For silique number we included stem height as a covariate. We estimated smoothers with cubic regression splines (Wood, 
+ <xref rid="ele13649-bib-0106" ref-type="ref">2006</xref>). We fitted two sets of models for each performance variable. In the first set, models had a separate time smoother for each geographical region. In the second set, models had a single smoother across all sites. Residual inspection did not indicate violation of normal distribution, constant variance assumptions or auto‐correlation in the data. We selected the best model based on Akaike Information Criterion (AICc) (Burnham and Anderson, 
+ <xref rid="ele13649-bib-0018" ref-type="ref">2002</xref>). We selected models using the full set of candidate models and a reduced candidate set where we identified and removed uninformative parameters following (Burnham and Anderson, 
+ <xref rid="ele13649-bib-0018" ref-type="ref">2002</xref>; Arnold, 
+ <xref rid="ele13649-bib-0004" ref-type="ref">2010</xref>). We fitted all models in R (R Core Team, 
+ <xref rid="ele13649-bib-0084" ref-type="ref">2014</xref>) using gamm4 function (Wood and Scheipl, 
+ <xref rid="ele13649-bib-0107" ref-type="ref">2017</xref>).
+</p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We determined if microbiome structure could predict whether a rat consumed a bird. We subset our rat GI microbiome dataset to only include rats that we had unambiguously determined to have consumed bird (
+ <italic>n</italic> = 20) or to have not consumed bird (
+ <italic>n</italic> = 11) from diet analysis. To determine if ASV richness or Faith's PD was predictive of bird consumption, we used a generalized linear model with a binomial distribution with bird in diet (yes or no) as the response variable and the alpha diversity metric (ASV richness or Faith's PD), sample type and their interaction as response variables. For beta diversity, we were unable to find a statistical test that can use a distance matrix as an explanatory variable. Therefore, we determined if bacterial community composition (beta diversity response variable: Jaccard, unweighted UniFrac or Bray–Curtis distance) differed between rats that consumed birds and those that did not and if sample type mattered (bird in diet, sample type, and their interaction as explanatory variables). Finally, we conducted indicator species analysis to see if particular bacterial ASVs or particular bacterial genera (table merged at the genus level) could differentiate rat samples based on bird consumption. We filtered the ASV table to only contain bacterial taxa found in at least 15% of samples to reduce the number of comparisons and likelihood for false positives (ASVs 
+ <italic>n</italic> = 124). We used the 
+ <italic>multipatt</italic> function in the ‘indicspecies’ package (De Caceres &amp; Legendre, 
+ <xref rid="ece37171-bib-0015" ref-type="ref">2009</xref>) on a presence‐absence matrix. We corrected for multiple comparisons using false discovery rate corrections. We considered an ASV as an indicator species if it had a 
+ <italic>p</italic> &lt; .05 and an indicator stat value of more than 0.7 (as in Becker et al., 
+ <xref rid="ece37171-bib-0003" ref-type="ref">2015</xref>; Castro‐Luna et al., 
+ <xref rid="ece37171-bib-0011" ref-type="ref">2007</xref>). An indicator value of 1 indicates that the ASV was observed in all the samples from one group and completely absent from the other group, while an indicator value of 0 indicates that the ASV was widely distributed across both groups.
+</p>

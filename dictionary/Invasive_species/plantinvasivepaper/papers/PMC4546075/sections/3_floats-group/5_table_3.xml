@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Results from AMOVA of all sampled 
+   <italic>Impatiens glandulifera</italic> populations
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th colspan="3">Continents</th>
+    <th colspan="3">Municipalities</th>
+   </tr>
+   <tr>
+    <th/>
+    <th>% variance explained</th>
+    <th>F-statistic</th>
+    <th>
+     <italic>p</italic>
+    </th>
+    <th>% variance explained</th>
+    <th>F-statistic</th>
+    <th>
+     <italic>p</italic>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Between continents / among municipalities (F
+     <sub>CT</sub>)
+    </td>
+    <td>35.22</td>
+    <td>0.352</td>
+    <td>&lt;0.01</td>
+    <td>29.25</td>
+    <td>0.292</td>
+    <td>&lt;0.001</td>
+   </tr>
+   <tr>
+    <td>Among populations
+     <sup>a</sup> (F
+     <sub>SC</sub>)
+    </td>
+    <td>16.81</td>
+    <td>0.260</td>
+    <td>&lt;0.001</td>
+    <td>10.58</td>
+    <td>0.150</td>
+    <td>&lt;0.001</td>
+   </tr>
+   <tr>
+    <td>Within populations (among and within individuals) (F
+     <sub>IS</sub>)
+    </td>
+    <td>47.96</td>
+    <td>−0.038</td>
+    <td>&gt;0.05</td>
+    <td>60.17</td>
+    <td>0.187</td>
+    <td>&gt;0.05</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Percentage of variance of genetic diversity explained between continents or among municipalities, among populations and within populations, F-statistics and p values for the different hierarchical levels. The dataset was analysed both with continent as the highest hierarchical level (second through fourth columns) and with municipality as the highest hierarchical level (fifth through seventh columns)</p>
+  <p>
+   <sup>a</sup>Percentage variation among populations within continents (first column) and municipalities (third column)
+  </p>
+ </table-wrap-foot>
+</table-wrap>

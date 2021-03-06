@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We identified which bacterial biomarkers were only detected in rat samples that showed evidence of bird consumption. We did so to eliminate any potential biomarkers that may be part of the resident GI microbiome (i.e., present in rats that did not consume birds), and therefore uninformative. We subset our rat fecal and stomach microbiome data to (a) only contain ASVs that matched bacterial biomarkers, and (b) only contain rats that we had unambiguously determined to have consumed bird (
+ <italic>n</italic> = 20) or to have not consumed bird (
+ <italic>n</italic> = 11) from diet analysis (see 
+ <italic>diet analysis of rat feces and rat stomachs</italic> above). We exported a site (rat) by species (ASV) matrix from R of this subset data, and manually identified which biomarkers were only present in rat samples that showed evidence of bird consumption. We only considered biomarkers as informative when they were present in rats that consumed bird and absent from rats that did not consume bird.
+</p>

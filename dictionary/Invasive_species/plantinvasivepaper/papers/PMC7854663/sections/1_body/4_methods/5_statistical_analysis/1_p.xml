@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">Due to the binary nature of our species by traits matrix, the relatively small number of species and expected hierarchy in the data, TWINSPAN hierarchical cluster analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup> was chosen to determine the relationship between crayfish traits and their invasive success. TWINSPAN analysis has often been applied on plants to identify functional groups based on their traits
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>,
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup>. For example, TWINSPAN was applied to classify plant communities into multiple stages of succession using functional traits
+ <sup>
+  <xref ref-type="bibr" rid="CR78">78</xref>
+ </sup>. The TWINSPAN method constructs hierarchically ordered two-way tables in multiple steps
+ <sup>
+  <xref ref-type="bibr" rid="CR79">79</xref>,
+  <xref ref-type="bibr" rid="CR80">80</xref>
+ </sup>. First, the dataset is split into two subsets roughly in the middle of the primary axis of a correspondence analysis (CA). This is repeated on each subset for further divisions to obtain a divisive hierarchy of the data and convert it into an ordering. Usually this is done on a sites by species matrix with ordering of the data by site, however, we used a species by traits matrix and first ordered the data based on species identity. Secondly, the other side of the data matrix is analysed in a similar manner but includes the constructing of attributes based on the splits in the first divisive hierarchy. In our analysis this step consisted of constructing these attributes for the traits in our matrix and using these to divide the dataset into groups based on functional traits. Finally, a two-way ordered table is created from the previous two steps, showing hierarchical clusters and indicators for each division. In our case the resulting divisions in clusters of crayfish species were indicated by specific functional traits. We performed TWINSPAN analysis in WinTwins (Version 2.3 for Windows
+ <sup>
+  <xref ref-type="bibr" rid="CR79">79</xref>
+ </sup>) using a minimum group size of four for division and weighting all traits according to their uncertainty (Table 
+ <xref rid="Tab3" ref-type="table">3</xref>). A dendrogram was constructed to visualize the resulting clusters and divisions (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>). The dissimilarity between clusters was quantified in eigenvalues from low (0) to high (1) at each split.
+</p>

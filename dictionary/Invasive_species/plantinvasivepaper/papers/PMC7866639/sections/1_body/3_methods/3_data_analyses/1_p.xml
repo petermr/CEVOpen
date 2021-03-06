@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par49">Data analysis was done using scripts described previously and available at github.com/ mcurto/SSR‐GBS‐pipeline [
+ <xref ref-type="bibr" rid="CR51">51</xref>]. Sequences were processed by merging the paired reads, quality control used PEAR [
+ <xref ref-type="bibr" rid="CR107">107</xref>], identification of the primer and sorting the sequences by loci. Allele calls according to length and SNPs, as well as determination of heterozygote genotypes from the consensus sequences and stutter control followed the approach of Curto et al. 
+ <xref ref-type="bibr" rid="CR50">50</xref>. Manual control of the raw data, which is possible with these scripts, was deemed unnecessary. The pipeline results were transformed into a co-dominant matrix in GenAlex [
+ <xref ref-type="bibr" rid="CR108">108</xref>] format, from which it can be transformed to other population genetic software. Expected heterozygosity (H
+ <sub>e</sub>), observed heterozygosity (H
+ <sub>o</sub>), and number of alleles (Na), Mean Shannon Values over loci (sHua) using Log Base = 2, number of migrants, AMOVA and G-statistics were calculated with GenAlex. We also calculated Joest’s estimate of differentiation with GenAlex, as for highly polymorphic loci the Fst value depends on the allele number per locus. Pairwise Fst [
+ <xref ref-type="bibr" rid="CR109">109</xref>] was tested with 9999 permutations. Allelic richness was tested with the program Hp-rare [
+ <xref ref-type="bibr" rid="CR110">110</xref>]. Demographic changes such as population expansion or bottlenecks were evaluated using the program Bottleneck [
+ <xref ref-type="bibr" rid="CR111">111</xref>]. Genetic structure was tested using Structure [
+ <xref ref-type="bibr" rid="CR112">112</xref>] and principal coordinate analysis based on pairwise genetic distances (PCoA) between individuals as implemented in GenAlex. Structure ran for 50.000 generations of burnin followed by 100,000 generations for K values ranging from 1 to 9 with 10 replicates each. The optimal K value was accessed using the DeltaK method as implemented in Structure Harvester [
+ <xref ref-type="bibr" rid="CR113">113</xref>]. For a second PCoA, clusters were assigned according to the Structure results for the most frequent lineages and with a likelihood &gt; 50%.
+</p>
