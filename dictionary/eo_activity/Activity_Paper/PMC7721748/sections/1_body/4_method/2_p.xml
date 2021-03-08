@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">where 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${O}_{k}^{l}$$\end{document}</tex-math>
+   <math id="M16">
+    <msubsup>
+     <mi>O</mi>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mi>l</mi>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the output vector of the 
+ <italic>l</italic>th layer with 
+ <italic>k</italic>th kernel, 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${a}_{k}^{l}$$\end{document}</tex-math>
+   <math id="M18">
+    <msubsup>
+     <mi>a</mi>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mi>l</mi>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the input vector, 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${w}_{k}^{l}$$\end{document}</tex-math>
+   <math id="M20">
+    <msubsup>
+     <mi>w</mi>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mi>l</mi>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the weight of the convolution/pooling filter, and 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${b}_{k}^{l}$$\end{document}</tex-math>
+   <math id="M22">
+    <msubsup>
+     <mi>b</mi>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mi>l</mi>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the bias coefficient.
+</p>

@@ -1,0 +1,1110 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Turk J Chem</journal-id><journal-id journal-id-type="iso-abbrev">Turk J Chem</journal-id><journal-title-group><journal-title>Turkish Journal of Chemistry</journal-title></journal-title-group><issn pub-type="ppub">1300-0527</issn><issn pub-type="epub">1303-6130</issn><publisher><publisher-name>The Scientific and Technological Research Council of Turkey</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7763119</article-id><article-id pub-id-type="doi">10.3906/kim-2006-13</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Innovational combination of hetero-bifunctional N-PEG quinoline scaffolds derivatives with improved anticancer activity against breast and colon cancer cell lines and P-glycoprotein, cytochrome p450 enzyme activity prediction</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6269-4752</contrib-id><name><surname>GAIDHANE</surname><given-names>Mahesh</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8034-1697</contrib-id><name><surname>GHATOLE</surname><given-names>Ajay</given-names></name><xref ref-type="corresp" rid="COR1">*</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4829-3557</contrib-id><name><surname>LANJEWAR</surname><given-names>Kushal</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6966-7418</contrib-id><name><surname>HATZADE</surname><given-names>Kishor</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><aff id="aff1">
+<label>1</label>
+<institution>Department of Chemistry, Shri Lemdeo Patil Mahavidyalaya, RTMNU, Mandal, MS</institution>
+<country>India</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department of Chemistry, Dhote Bandhu Science College, RTMNU, Gondia, MS</institution>
+<country>India</country>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Department of Chemistry, Mohsinbhai Zaweri Mahavidyalaya, Desaiganj, Wadsa, MS</institution>
+<country>India</country>
+</aff></contrib-group><author-notes><corresp id="COR1">* To whom correspondence should be addressed. E-mail:
+<email>ajay.ghatole5@gmail.com</email></corresp><fn id="FN1" fn-type="COI-statement"><p>
+<bold>CONFLICT OF INTEREST:</bold>
+</p><p>none declared</p></fn></author-notes><pub-date pub-type="collection"><year>2020</year></pub-date><pub-date pub-type="epub"><day>16</day><month>12</month><year>2020</year></pub-date><volume>44</volume><issue>6</issue><fpage>1495</fpage><lpage>1514</lpage><history><date date-type="received"><day>05</day><month>6</month><year>2020</year></date><date date-type="accepted"><day>20</day><month>10</month><year>2020</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2020 The Author(s)</copyright-statement><copyright-year>2020</copyright-year><license license-type="open-access"><license-p>This article is distributed under the terms of the Creative Commons Attribution License (
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>
+), which permits unrestricted use and redistribution provided that the original author and source are credited.
+</license-p></license></permissions><abstract><p>Polyethylene glycol (PEG) is a polymer that is widely used as a carrier for drug delivery systems (DDS). A library of N-PEGylated quinoline derivatives of PEG molecular weight 200 was prepared rapidly after the activation of PEGs using maleic anhydride. Quinoline with a polymer backbone is essential as new material. PEG is a water-soluble nonionic polymer approved by food and drug organizations for medicine applications. Because of its nontoxic grapheme, it is widely utilized in numerous biochemical, cosmetic, pharmaceutical, and industrialized applications. The modern SwissADME is a web tool that stretches free admittance to a pool of hasty, yet solid, clarifying models for physicochemical properties, pharmacokinetics, and therapeutic science. The present facile synthetic strategy can be a practical approach for incorporating polymeric carriers conjugated with drug moieties, either in the backbone of the polymer or as a terminal and pendant group on the polymer chains.</p></abstract><kwd-group><kwd>PEGylated quinoline</kwd><kwd>breast</kwd><kwd>colon cancer</kwd><kwd>P-glycoprotein</kwd><kwd>cytochrome P450 enzyme</kwd></kwd-group></article-meta></front><body><sec id="sec-1"><title>1. Introduction</title><p>A library of N-polyethylene glycol(PEG)ylated quinoline derivatives of PEG molecular weight 200 was prepared rapidly after the activation of PEGs using maleic anhydrides. Quinoline with a polymer backbone is essential as new material. In 1995, Zalipskyet al.[1] and Herman et al. [2] reported the functionalization of polyethylene glycol for the preparation of biologically-relevant conjugates along with some reactive end groups. Polyethylene glycol conjugation chemistry represents an emerging trend for the generation of potential therapeutic agents. Woodle et al. [3] and Allen et al. [4] have demonstrated that PEG-modified biological molecules can benefit from extended plasma lifetimes, induced by reducing the uptake by the reticuloendothelial system and more generally, from a decrease of the undesired consequences of electrostatic and van der Waals interactions. A future direction towards nonviral gene therapy is the use of PEG-grafted synthetic vectors as long-circulating carriers for receptor-mediated gene delivery [5]. PEG has been used as a solvent medium for regioselective Heck reaction with elementary recyclability of solvents [6]. The incomparable ability of PEG to be soluble in both aqueous solution and organic solvents makes it eligible for end grouping derivatization and chemical conjugation to biological molecules under insignificant physiological conditions. The PEG-modified drug has been used widely as an antitumor drug carrier because of its excellent water solubility and biocompatibility [7]. Norfloxacin, one of the fluoroquinolone antibiotics, was conjugated to mannosylated dextrin to increase the intake of the drug by cells, enabling faster access to microorganisms, [8,9]. The backbone of polyurethanes and other ordinary low-density polyethylenes with antimicrobial Norfloxacin drugs were investigated by Yang et al. [10] against several gram-positive, and gram-negative bacteria, and displayed excellent antimicrobial activities. Recent advances in tumor therapy has demonstrated that successful anticancer strategies could be developed by employing proper carrier systems able to deliver probes, drugs, or genes to tumors targets [11]. Quinoline derivatives have been widely used for their biological [12&#x02013;14], antibacterial, and antimalarial actions and in addition, for their cardiovascular, antineoplastic, and receptor agonist actions [15]. PEG, a water-soluble, nonionic polymer, which has a nontoxic character, is widely used as a carrier for drug delivery systems, and in many biochemical, cosmetic, pharmaceutical, and business applications [16]. The novel facile synthesis of a family of N-PEGylated quinoline by coupling PEG
+<sub>200(n)</sub>
+with 2-formyl, 3-chloro, 6-amino quinoline via maleic anhydride as an activator was presented herein. Antimicrobial activities of the quinoline-PEG polymer and quinoline were tested against gram-positive and gram-negative bacteria. The results indicated that the new polymers had potential as potent antimicrobial agents. Since these polymers were comparatively stable at high temperatures, they can be used for medical and biomaterial applications with prior thermal sterilization. SwissADME permits the review of absorption, distribution, metabolism, and excretion (ADME) restrictions of medication aspirants and small molecules and provides statistics that authorize the early hazard calculation in drug enhancement progression. Exceptionally, SwissADME affords a point to estimate Lipinski&#x02019;s rule of five [17] for medication semblance of oral bioavailability. The present facile synthetic strategy can be a practical approach for incorporating the polymeric carriers conjugated with drug moieties, either in the backbone of the polymer or as a terminal and pendant group on the polymer chains.
+</p><p>PEG is the covalent link of nonpoisonous, hydrophilic polyethylene glycol (PEG) to dynamic pharmaceutical constituents [18]. The technology established from revolutionary work was conducted in the 1950s and 1960s on the coupling of polymers to protein. The amendment of a biopharmaceutical with polyethylene glycol increases its hydrodynamic area and reduces its immunogenicity and antigenicity. Other achievements included braked renal evacuation, enhanced stability in the direction of proteolysis, and increased solubility of the biopharmaceutical in aqueous solution [19]. The synthesis of macromolecules with different functional groups in 2 ends is a promising field of research. A lot of useful materials can be designed from the macromolecules. However, due to the difficulty of separation of the reacted mixture, significant achievements have not yet been made. Pozzo et al. reported that some monofunctional derivatives of PEG could be prepared and separated using excess PEG, but the molecular weight of the monosubstituted PEGs was no more than 1000. It was evident that the higher the molecular weight of the starting PEG, the more difficult it was for the isolation of monosubstituted PEG from the reacted mixture. This is because there was no sharp difference between monosubstituted, disubstituted, and raw PEGs in the chemical and physical properties [20&#x02013;22].Heterocyclic mixes have increased gigantic significance as a result of their low reverberation vitality and solid hydrogen&#x02010;bonding capacities [23]. A recent investigation reported the fruitful synthesis of new heterocyclic-like ester and amide under water as a solvent and the surface of silica-coated CoFe2O4&#x000a0;magnetic nanoparticles for the synthesis of 3-pyrrolin-2-ones [24], as well as for the preparation of 2-amino-4,6-diarylnicotinonitrile under microwave irradiation [25].</p></sec><sec id="sec-2"><title>2. Result and discussion</title><p>An extension of PEG-supported chemistry was linked in the arena of functionalized polymers as reagent supports. Prepared was novel PEG N-terminal quinoline substituted derivatives and it was shown that, when related to a heterogeneous commercially-existing counterpart, they held promising reaction kinetics equal to the Staudinger and Mitsunobu etherification reactions. They were evaluated for their in vitro anticancer, antibacterial, and antifungal activities. The present study expanded on those preliminary investigations to explore the synergistic effects of such pharmacophores.</p><p>The PEGylation chemistry successfully demonstrated at the amino group was situated at C-7 of the quinoline hybrids. To couple a PEG to a quinoline molecule, it is first necessary to activate the polymer by converting the hydroxyl terminus to some functional group proficient reacting with the functional group situated on quinoline molecule. Herein, it was opted to activate the PEG by turning it to its acid derivative and coupling it with an amino group of quinoline molecules. This PEGylation methodology involved the conjugation of quinoline onto hetero-bifunctional PEG derivatives that had -OH on one terminus and -COOH on the other for covalent attachment of the amino group. The free carboxyl group of compounds was used for conjugation through an amine connection. It was determined that this conjugation proceeded through the formation of amide linkage between the PEG chain and quinoline under mild reaction conditions.</p><p>In its most common form, PEG is a linear or branched polyether terminated with hydroxyl groups and has the general structure as shown below:</p><p>HO-(CH
+<sub>2</sub>
+CH
+<sub>2</sub>
+O)
+<sub>n</sub>
+-CH
+<sub>2</sub>
+CH
+<sub>2</sub>
+-OH.
+</p><p>PEG is synthesized by anionic ring-opening polymerization of ethylene oxide initiated by the nucleophilic attack of a hydroxide ring.</p><p>PEG
+<sub>200(n)</sub>
+(5&#x000a0;mL, 0.028 moles, 200 g/mole) was dissolved in 20&#x000a0;mL of dry CH
+<sub>2</sub>
+Cl
+<sub>2</sub>
+. Added to this solution was tetrahydrofuran (THF) containing maleic anhydride (0.056 mol, 0.54&#x000a0;mg) and pyridine (0.056 mol, 0.46 mL). After stirring overnight at room temperature, the reaction was completed, as indicated by thin-layer chromatography (TLC) (methanol:ethyl acetate, 7:3) (no anhydride left and the detection of a single polar PEG compound). The monoacid derivative of the poly (ethylene glycol)200(n) was used without purification. The most useful for polypeptide modification is monoacid PEG, which has the general structure:
+</p><p>HO-(CH
+<sub>2</sub>
+CH
+<sub>2</sub>
+O) n-CH
+<sub>2</sub>
+CH
+<sub>2</sub>
+-O-COOH.
+</p><p>Now, for this monoacid derivative of PEG coupled to a 6-amino-2-chloroquinoline-3-carbonitrile (3a), it was necessary to activate the PEG by maleic anhydride. In the present study, the solution synthesis of a novel family of PEGylating reagent was presented, which contained a free -COOH terminus. Conditions were developed for the coupling of this novel PEGylating reagents to the -NH
+<sub>2</sub>
+function of model quinoline to illustrate their general utility. Together, this study demonstrated that these PEGylating reagents were well-suited for conjugation peptide and protein containers, either free -COOH or -NH
+<sub>2</sub>
+functions. These reagents might have wide utility in therapeutic expansion, as branched PEGylation has been observed to deliver more effective protection of proteins from proteolysis by protecting the protein surface approaching the macromolecules.
+</p><p>The synthesis of quinoline compounds 3a&#x02013;3i (Scheme) was accomplished, starting with 6-amino-2-chloroquinoline-3-carbaldehyde (2). The treatment of compound 2 with ceric ammonium nitrate (CAN) in 30% aq. ammonia at 0&#x02013;2 &#x000b0;C with constant stirring for 2&#x02013;3 h gave 6-amino-2-chloroquinoline-3-carbonitrile (3a). However, the reaction of compound 2 with fused sodium sulfide in dry dimethylformamide (DMF), followed by hydroxyl amination, afforded 6-amino-2-mercaptoquinoline-3-carbaldehydeoxime (3b). Next, 3-(6-amino-2-chloroquinoline-3-yl)-1-p-tolylprop-2-en-1-one (3c) was prepared by the reaction of compound 2 with 4-methyl acetophenone in 40% ethanolic NaOH. Moreover, 4-(2-(6-amino-2-chloroquinoline-3-yl) vinyl phenol (3d) was synthesized by treating a mixture of compound 2 and p-cresol in AcOH/Ac2O under reflux for 6&#x02013;7h. Additionally, compound 2 was treated with thiourea and urea in AcOH under reflux for 15&#x02013;16h and produced 7-aminopyrimido(4,5-b)quinoline-2(1H)thione(3e) and 7-aminopyrimido(4,5-b)quinoline-2(1H)one (3f), respectively. Furthermore, 3-(P-tolylimino) methyl-2-chloroquinoline-6 amine (3g) was prepared by condensation of compound 2 with p-toludiene in acidic methanol. A noteworthy ring annulation was observed when compound 2 was condensed with hydrazine hydrate in ethanol under reflux for 5&#x02013;6h, which afforded 1-H-pyrazolo (3 and 4b), and quinolin-6-amine (3h). The synthesis of (Z)-ethyl 3-(6 amino-2-chloroquinoline-3-yl)-2-cyanoacrylate (3i) was accomplished by condensation of compound 2 with ethyl cyanoacetate (Table 1).</p><fig id="Fsch1" fig-type="figure" orientation="portrait" position="float"><label>Scheme</label><caption><p>Hetero-bifunctional N-PEG quinoline scaffold derivatives.</p></caption><graphic xlink:href="turkjchem-44-1495-sch001"/></fig><table-wrap id="T1" orientation="portrait" position="float"><label>Table 1</label><caption><p>Physical characterization data of substituted quinoline derivatives 1, 2, and 3a&#x02013;3i.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Entry</th><th align="left" rowspan="1" colspan="1">Product</th><th align="left" rowspan="1" colspan="1">Temperature</th><th align="left" rowspan="1" colspan="1">Yield (%)</th><th align="left" rowspan="1" colspan="1">m.p. (&#x000b0;C)</th><th align="left" rowspan="1" colspan="1">Molecularformula</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_21"/>
+</td><td align="left" rowspan="1" colspan="1">90 &#x000b0;C Heating</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">260</td><td align="left" rowspan="1" colspan="1">C10H5ClN2O3</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_21"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">82</td><td align="left" rowspan="1" colspan="1">208</td><td align="left" rowspan="1" colspan="1">C10H7ClN2O</td></tr><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_23"/>
+</td><td align="left" rowspan="1" colspan="1">Stirring/RT</td><td align="left" rowspan="1" colspan="1">83</td><td align="left" rowspan="1" colspan="1">162</td><td align="left" rowspan="1" colspan="1">C10H6ClN3</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_24"/>
+</td><td align="left" rowspan="1" colspan="1">Stirring/RT</td><td align="left" rowspan="1" colspan="1">78</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">C10H9N3OS</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_25"/>
+</td><td align="left" rowspan="1" colspan="1">Stirring/RT</td><td align="left" rowspan="1" colspan="1">84</td><td align="left" rowspan="1" colspan="1">240</td><td align="left" rowspan="1" colspan="1">C19H15ClN2O</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_26"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">83</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">C17H13ClN2O</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_27"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">82</td><td align="left" rowspan="1" colspan="1">272</td><td align="left" rowspan="1" colspan="1">C11H8N4S</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_28"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">78</td><td align="left" rowspan="1" colspan="1">247</td><td align="left" rowspan="1" colspan="1">C11H8N4O</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_29"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">176</td><td align="left" rowspan="1" colspan="1">C17H14ClN3</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_210"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">76</td><td align="left" rowspan="1" colspan="1">288</td><td align="left" rowspan="1" colspan="1">C10H8N4</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t1_211"/>
+</td><td align="left" rowspan="1" colspan="1">Refluxed</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">122</td><td align="left" rowspan="1" colspan="1">C15H12ClN3O2</td></tr></tbody></table></table-wrap><p>The monoacid derivative of hydroxycarboxy PEG (HO-PEG200COOH) (28.0mmol) was activated with a 1:2molar equivalent of 6-amino-2-chloroquinolin-3-carbonitrile (2a) (46.0mmol) and N, N dicyclocarbidiimide (46.0mmol) dissolved in dichloromethane. The solution was stirred for 24 h at room temperature. A syrupy resin was obtained and dried under a vacuum. The syrupy resin was dissolved in 15&#x000a0;mL of acetone. A white precipitate of dicyclohexylurea (DCU) appeared and was discarded, and the filtrate was collected. The final filtrate was evaporated to afford the product. TLC (methanol:ethyl acetate, 7:3) was performed to check the existence ofDCU, which exposed a negative outcome that was confirmed by the infrared spectroscopy (IR) spectra. A negative dye test indicated complete amino group capping.</p><p>The resin was dehydrated in a vacuum for IR, 1HNMR, 13CNMR, and mass spectral analysis. At this point, the adhesive did not stick to the glass wall anymore. The IR spectrum of the resin showed the characteristic absorption band of the PEG ether backbone (1120 cm&#x02013;1) and absorption bands (1760 and 1685 cm&#x02013;1)for the ester and amide bond, respectively (C=O) (Table 2).</p><table-wrap id="T2" orientation="portrait" position="float"><label>Table 2</label><caption><p>tructures of the PEGylated quinolines (4a&#x02013;4i).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">S. No.</th><th align="left" rowspan="1" colspan="1">Structures of the PEGylated quinolines</th><th align="left" rowspan="1" colspan="1">Density (d) in cm3</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">4a</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_21"/>
+</td><td align="left" rowspan="1" colspan="1">1.012</td></tr><tr><td align="left" rowspan="1" colspan="1">4b</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_22"/>
+</td><td align="left" rowspan="1" colspan="1">1.126</td></tr><tr><td align="left" rowspan="1" colspan="1">4c</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_23"/>
+</td><td align="left" rowspan="1" colspan="1">1.058</td></tr><tr><td align="left" rowspan="1" colspan="1">4d</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_24"/>
+</td><td align="left" rowspan="1" colspan="1">1.158</td></tr><tr><td align="left" rowspan="1" colspan="1">4e</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_25"/>
+</td><td align="left" rowspan="1" colspan="1">1.038</td></tr><tr><td align="left" rowspan="1" colspan="1">4f</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_26"/>
+</td><td align="left" rowspan="1" colspan="1">1.038</td></tr><tr><td align="left" rowspan="1" colspan="1">4g</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_27"/>
+</td><td align="left" rowspan="1" colspan="1">1.152</td></tr><tr><td align="left" rowspan="1" colspan="1">4h</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_28"/>
+</td><td align="left" rowspan="1" colspan="1">1.008</td></tr><tr><td align="left" rowspan="1" colspan="1">4i</td><td align="left" rowspan="1" colspan="1">
+<graphic xlink:href="turkjchem-44-1495-fig_t2_29"/>
+</td><td align="left" rowspan="1" colspan="1">1.102</td></tr></tbody></table></table-wrap></sec><sec id="sec-3"><title>3. Experimental</title><p>All of the recorded melting points were taken in open capillary tubes and were uncorrected. The IR spectra were recorded with a FTIR PerkinElmer Rx-I instrument (PerkinElmer, Inc., Waltham, MA, USA) using Nujol.1HNMR spectra were recorded on 400 MHz Bruker AC-300 F instrument (Bruker BioSpin Corp., Billerica, MA, USA) using tetramethylsilane as the internal standard and deuterated chloroform as the solvent, and the mass spectra were recorded on a VG.70 S instrument at SAIF Chandigarh. The TLC technique was used to check the purity of the compound using silica gel G.</p><sec id="sec-3-1"><title>3.1. Biological assay</title><sec id="sec-3-1-1"><title>3.1.1. In vitro anticancer assays</title><p>A library of 24 compounds was tested using the Alamar blue (AB) assay (in the case of leukemia cells) for their antiproliferative activity in vitro against 2 cancer cell lines: SW620, MD468, and MD468-2 were all colon cancer cell lines obtained from the American Tissue Culture Collection (ATCC, Manassas, VA, USA). MD468 is a mismatched repair-deficient cell line, and MD468-2 has a p53 mutation. The results of the cytotoxic activity in vitro were expressed as an ID50 (nM/mL), i.e. the concentration of the compound that inhibited the proliferation of 50% of the tumor cells when compared to the untreated control cells. Camptothecin (10 nM), Paclitaxel (10 nM), Doxorubicin (250 nM), and Oxaliplatin (2000 nM) were applied as referential cytotoxic agents (positive test controls). A value of less than 10 nM/mL was considered as an antiproliferative activity criterion for synthetic compounds. The results of the cytotoxicity studies are summarized in Table 3.</p><table-wrap id="T3" orientation="portrait" position="float"><label>Table 3</label><caption><p>Comparative IC50 nM of compounds 3a&#x02013;3i and 4a&#x02013;4i.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2" colspan="1">&#x000a0;SrNo.</th><th align="left" rowspan="1" colspan="5">MDA MD 468 (breast cancer cell line)</th><th align="left" rowspan="1" colspan="5">SW480&#x000a0;(colon cancer cell)</th></tr><tr><th align="left" rowspan="1" colspan="2">Before PEGylating(3a&#x02013;3i)</th><th align="left" rowspan="1" colspan="2">AfterPEGylating(4a&#x02013;4i)</th><th align="left" rowspan="1" colspan="1">Improvement in efficacy (fold)</th><th align="left" rowspan="1" colspan="2">Before PEGylating(3a&#x02013;3i)</th><th align="left" rowspan="1" colspan="2">AfterPEGylating(4a&#x02013;4i)</th><th align="left" rowspan="1" colspan="1">Improvement in efficacy (fold)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">17514</td><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">37.3</td><td align="left" rowspan="1" colspan="1">4a</td><td align="left" rowspan="1" colspan="1">469</td><td align="left" rowspan="1" colspan="1">23839</td><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">34.9</td><td align="left" rowspan="1" colspan="1">4a</td><td align="left" rowspan="1" colspan="1">682</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">77690</td><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">22.6</td><td align="left" rowspan="1" colspan="1">4b</td><td align="left" rowspan="1" colspan="1">3430</td><td align="left" rowspan="1" colspan="1">98317</td><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">39.3</td><td align="left" rowspan="1" colspan="1">4b</td><td align="left" rowspan="1" colspan="1">2499</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">12478</td><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">20.8</td><td align="left" rowspan="1" colspan="1">4c</td><td align="left" rowspan="1" colspan="1">600</td><td align="left" rowspan="1" colspan="1">9077</td><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">33.0</td><td align="left" rowspan="1" colspan="1">4c</td><td align="left" rowspan="1" colspan="1">275</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">82492</td><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">28.2</td><td align="left" rowspan="1" colspan="1">4d</td><td align="left" rowspan="1" colspan="1">2921</td><td align="left" rowspan="1" colspan="1">72731</td><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">24.1</td><td align="left" rowspan="1" colspan="1">4d</td><td align="left" rowspan="1" colspan="1">3014</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">97473</td><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">39.5</td><td align="left" rowspan="1" colspan="1">4e</td><td align="left" rowspan="1" colspan="1">2469</td><td align="left" rowspan="1" colspan="1">83269</td><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">29.5</td><td align="left" rowspan="1" colspan="1">4e</td><td align="left" rowspan="1" colspan="1">2823</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">102107</td><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">20.9</td><td align="left" rowspan="1" colspan="1">4f</td><td align="left" rowspan="1" colspan="1">4876</td><td align="left" rowspan="1" colspan="1">108894</td><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">33.0</td><td align="left" rowspan="1" colspan="1">4f</td><td align="left" rowspan="1" colspan="1">3297</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">102593</td><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">49.8</td><td align="left" rowspan="1" colspan="1">4g</td><td align="left" rowspan="1" colspan="1">2061</td><td align="left" rowspan="1" colspan="1">135575</td><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">19.1</td><td align="left" rowspan="1" colspan="1">4g</td><td align="left" rowspan="1" colspan="1">7114</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">100639</td><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">8.5</td><td align="left" rowspan="1" colspan="1">4h</td><td align="left" rowspan="1" colspan="1">11896</td><td align="left" rowspan="1" colspan="1">86233</td><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">9.3</td><td align="left" rowspan="1" colspan="1">4h</td><td align="left" rowspan="1" colspan="1">9256</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">20253</td><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">7.8</td><td align="left" rowspan="1" colspan="1">4i</td><td align="left" rowspan="1" colspan="1">2607</td><td align="left" rowspan="1" colspan="1">56723</td><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">27.4</td><td align="left" rowspan="1" colspan="1">4i</td><td align="left" rowspan="1" colspan="1">2068</td></tr></tbody></table><table-wrap-foot><fn id="fn_t3"><p>IC50 values of the anticancer agents (controls).</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec-3-1-2"><title>3.1.2.Antiproliferative activity</title><p>All 24 compounds were tested via AB assay (in the case of leukemia cells) for their antiproliferative activity in vitro against 2 cancer cell lines: SW620, MD468, and MD468-2 were all colon cancer cell lines obtained from the ATCC. MD468 is a mismatched repair-deficient cell line, and MD468-2 has a p53 mutation. The results of the cytotoxic activity in vitro were expressed as an ID50 (nM/mL), as stated above. Camptothecin (10nM), Paclitaxel (10 nM), Doxorubicin (250 nM), and Oxaliplatin (2000 nM) were applied as referential cytotoxic agents (positive test controls). A value of less than 10 nM/mL was considered as an antiproliferative activity criterion for synthetic compounds. The results of the cytotoxicity studies are summarized in Table 3.</p><p>In general, compounds 3a&#x02013;4i did not display any anticancer activity, whereas compounds 4a&#x02013;4i exhibited potent antiproliferative activity against theSW620, MD468, and MD468-2 colon cancer cell lines. This implied that after PEGylation, the anticancer activity enormously increased in multiples of 469- to 11896-fold. PEGylated 1-H-pyrazol (3 and 4b) and quinolin-6-amine (4h) exhibited the highest activity against the SW620, MD468, and MD468-2 colon cancer cell lines and had IC50 values of 8.5 nM/mL and 9.3 nM/mL, respectively, for the corresponding cell lines. Compound 4i had an IC50 value of 7.8 nM/mL and also possessed the highest anticancer activity against the SW620 colon cancer cell line. Compounds 4g and 4b showed lower activity among compounds 4a&#x02013;4i against MD468, MD468-2, and SW620, respectively, with IC50 values of 49.8 nM/mL and 39.3 nM/mL. However, compounds 4a&#x02013;4f displayed moderate activity when the IC50 values of all of the compounds were compared with those of standard drugs like Camptothecin (IC50:10 nM) and Paclitaxel (IC50: 10 nM). Doxorubicin (IC50: 250 nM) and Oxaliplatin (IC50: 2000 nM) were also suited as reference cytotoxic agents. A comparative investigation of the IC50 concentrations of compounds 4a&#x02013;4i with those of Doxorubicin (IC50: 250nM) and Oxaliplatin (IC50: 2000nM) was conducted. The anticancer activity displayed at an IC50 concentration ranging from 7.8 nM/mL to 49.8 nM/mL indicated that all of the synthesized compounds exhibited incredibly higher potency than those of Doxorubicin (IC50: 250 nM) and Oxaliplatin (IC50: 2000 nM). The results summarized in Table 3 suggested that the potency of each compound as an anticancer agent was irrespective of its substituents and showed high selectivity and more specificity towards the binding targeted sites. Compound 4h proved to be a highly-potent candidate against the SW620, MD468, and MD468-2 colon cancer cell lines than the existing armory of anticancer drugs attributable to the ring annulations with fused pyrazole nucleus.</p></sec><sec id="sec-3-1-3"><title>3.1.3. Assay principle</title><p>In this assay, the viability of chemically-treated cells were measured by a dye, Resazurin or Alamar blue (AB). AB, a nonfluorescent pointer dye, changed to bright red-fluorescent resorufin through the reduction reactions of metabolically active cells. The quantity of fluorescence produced was directly proportional to the number of living cells.</p><p>Cells: For the initial screen of A549, the lung cancer cells were used. Positive hits were then used to screen 7 other cell lines used in the NIH assays.</p><p>Protocol: Standard AB assay protocol for cell viability assay was used. Confluently-grown cells were trypsinzed, and around 10,000 cells were seeded in each well of a 96-well plate. The next day, the medium was replaced with medium containing the appropriate concentration of the drug. The maximum concentration of each drug was 400&#x000b5;g/mL, and a one-quarter dilution was used for each drug. The cells were treated for 48 h and 2&#x000b5;L of AB was added to each well and incubated for 2 h. Fluorescence intensity was read with a plate reader. From the graph, the IC50 value was calculated. SW620, MD468, and MD468-2 were all colon cancer cell lines obtained from the ATCC. MD468 is a mismatched repair-deficient cell line, and MD468-2 has a p53 mutation. The effects of all of the new compounds on colon cancer cell lines SW620, MD468, and MD468-2, were observed and the results are depicted in Figures 1and 2. The growth inhibition percentages were compared with those of standard drugs Camptothecin, Paclitaxel, Doxorubicin, and Oxaliplatin (Table 3, Figures 1 and 2). For the rows, alcohol was added to generate killed cells.</p><fig id="F1" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Effect of compounds 4a&#x02013;4i in colon cancer line (SW620).</p></caption><graphic xlink:href="turkjchem-44-1495-fig001"/></fig><fig id="F2" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Effect of control standard anticancer drugs in SW620 cells.</p></caption><graphic xlink:href="turkjchem-44-1495-fig002"/></fig></sec><sec id="sec-3-1-4"><title>3.1.4. In vitro antibacterial and antifungal activity</title><p>All of the newly synthesized compounds were screenedin vitrofor their antimicrobial activity and antifungal activity against a variety of bacterial and fungal strains, such as
+<italic>Staphylococcus Aureus</italic>
+(gram +ve),
+<italic>Escherichia Coli</italic>
+(gram &#x02013;ve),
+<italic>Pseudomonas Aeruginosa</italic>
+(Gram &#x02013;ve), and
+<italic>Candida Albicans</italic>
+using the disc diffusion method. The nutrient agar broth was prepared by aseptic inoculation with 0.5&#x000a0;mL of 24-h-old subcultures of
+<italic>S. Aureus</italic>
+,
+<italic>E. Coli</italic>
+, and
+<italic>C. Albicans</italic>
+in separate flasks at 40&#x02013;50 &#x000b0;C and mixing well by gentle shaking.
+</p><p>About 25 mL of the contents of the flask were poured and evenly spread in a Petri dish (13&#x000a0;cm in diameter) and allowed to set for 2h. Each test compound (20&#x000a0;mg) was dissolved in 2&#x000a0;mL of dimethyl sulfoxide (DMSO), which was used as a sample solution. A concentrated (100 &#x000b5;g/mL) solution was prepared using the dilution method. The sample size for all of the compounds was fixed as 10 &#x000b5;L.</p><p>The plates were incubated at 37 &#x000b0;C for 24 h, the control was similarly maintained with 1&#x000a0;mL of DMSO, and the zones of inhibition of the bacterial growth were measured in mm using a zone reader.</p></sec><sec id="sec-3-1-5"><title>3.1.5. In vitro antibacterial and antifungal activity</title><p>The newly synthesized compounds (3a&#x02013;3i and 4a&#x02013;4i) were tested for theirin vitro antimicrobial activity against clinical isolates of gram-positive bacteria S.Aureus, gram-negative bacteria E.coli and P. Aeruginosa, and the fungus C. Albicans. For all of the compounds, along with the standards for the bacteria, doxycycline, ampicillin, and fungi, fluconazole was used at a concentration of 100 &#x000b5;g/mL in DMSO as the solvent control and nutrient agar was used as the culture method [26&#x02013;29]. After 24h of incubation at 37 &#x000b0;C, the zones of inhibition were measured in mm.</p><p>All of the synthesized compounds exhibited good to moderate activity against all of the microbes. No zone of inhibition was observed against the strains of
+<italic>P. Aeruginosa</italic>
+with compounds 3c, 3h, and 4c, while all of the compounds displayed significant activity against the strains of C. Albicans, E. Coli, and S. Aureus.
+</p><p>The toxicity increased with the increase in the concentration of the test solution containing new compounds, suggesting a maximum tolerated dose. Some compounds did not meet the conventional bacteriostatic standards at lower concentration levels. The variance in the efficiency of compounds in contradiction ofdiverse organisms depends on either the impenetrability of the cell microorganisms or dispersion in the ribosomes of microbial cells. The results obtained after screening the synthesized compounds against various microorganisms are shown in Table 4.</p><table-wrap id="T4" orientation="portrait" position="float"><label>Table 4</label><caption><p>Antibacterial and antifungal activity of the synthesized compounds.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Comp.</th><th align="left" rowspan="1" colspan="1">E. Coli</th><th align="left" rowspan="1" colspan="1">P. Aeruginosa</th><th align="left" rowspan="1" colspan="1">S. Aureus</th><th align="left" rowspan="1" colspan="1">C. Albicans</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">7</td></tr><tr><td align="left" rowspan="1" colspan="1">4a</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">11</td></tr><tr><td align="left" rowspan="1" colspan="1">4b</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">4c</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">11</td></tr><tr><td align="left" rowspan="1" colspan="1">4d</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">4e</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">12</td></tr><tr><td align="left" rowspan="1" colspan="1">4f</td><td align="left" rowspan="1" colspan="1">09</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">4g</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">4h</td><td align="left" rowspan="1" colspan="1">09</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1">4i</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">SA</td><td align="left" rowspan="1" colspan="1">35</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">-</td></tr><tr><td align="left" rowspan="1" colspan="1">SD</td><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">-</td></tr><tr><td align="left" rowspan="1" colspan="1">SF</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">33</td></tr></tbody></table><table-wrap-foot><fn id="fn_t4"><p>*100 &#x000b5;g/mL: drug concentration; SA: standard Ampicillin; SD: standard doxycycline; SF: standard fluconazole.</p></fn></table-wrap-foot></table-wrap></sec></sec></sec><sec id="sec-4"><title>4. SwissADME pharmacokinetics, physicochemical, and medicinal properties study [30]</title><p>The functioning highlights of these molecules were entered into the SwissADME site (http://swissadme.ch) using the ChemAxon&#x02019;s Marvin JS structure drawing instrument (Budapest, Hungary). Assistant highlights of the pharmacophore sway included bioavailability, transport properties, sympathy to proteins,reactivity, poisonous quality, and metabolic steadiness. Unique to SwissADME is the bioavailability radar [31], which gives a graphical assessment of the prescription resemblance parameters of an orally-accessible bioactive drug. The drug impression chart is exhibited as a hexagon (Figure 3) with every one of the vertices dialogs to a restriction that symbolizes a bioavailable drug.</p><fig id="F3" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Bioavailability radar of the synthesized molecules 3a&#x02013;3i evaluating using SwissADME web tool.</p></caption><graphic xlink:href="turkjchem-44-1495-fig003"/></fig><p>The pink location inside the hexagon speaks to the perfect range for each property (lipophilicity: XLOGP3 somewhere in the array of &#x02212;0.7 and +5.0, size: extremity: topological polar surface area (TPSA) somewhere in the field of 20 and 130 &#x000c5;2, MW somewhere in the scope of 150 g/mol and 500g/mol, solubility: log S not higher than 6, adaptability: close to 9 rotatable bonds, and saturation: some portion of carbons in the sp3 hybridization at any rate 0.25). The recommended run for the compound as bioavailable medication is portrayed in Table 5.</p><table-wrap id="T5" orientation="portrait" position="float"><label>Table 5</label><caption><p>Physicochemical properties of synthesized molecules 3a&#x02013;3i.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Sr. No.</th><th align="left" rowspan="1" colspan="1">MW</th><th align="left" rowspan="1" colspan="1">HA</th><th align="left" rowspan="1" colspan="1">AHA</th><th align="left" rowspan="1" colspan="1">FCsp3</th><th align="left" rowspan="1" colspan="1">RTB</th><th align="left" rowspan="1" colspan="1">HBA</th><th align="left" rowspan="1" colspan="1">HBD</th><th align="left" rowspan="1" colspan="1">MR</th><th align="left" rowspan="1" colspan="1">TPSA</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">203.63</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">55.87</td><td align="left" rowspan="1" colspan="1">62.7</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">219.26</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">62.92</td><td align="left" rowspan="1" colspan="1">106.49</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">322.79</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">0.05</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">95.93</td><td align="left" rowspan="1" colspan="1">55.98</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">296.75</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">88.55</td><td align="left" rowspan="1" colspan="1">59.14</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">228.27</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">66.63</td><td align="left" rowspan="1" colspan="1">99.68</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">212.21</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">62.07</td><td align="left" rowspan="1" colspan="1">84.66</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">295.77</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">0.06</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">89.82</td><td align="left" rowspan="1" colspan="1">51.27</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">184.2</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">55.8</td><td align="left" rowspan="1" colspan="1">67.59</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">301.73</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0.13</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">81.51</td><td align="left" rowspan="1" colspan="1">89</td></tr></tbody></table><table-wrap-foot><fn id="fn_t5"><p>MW: molecular weight, HA: heavy atoms, AHA: aromatic heavy atom, FCsp3: fraction Csp3, RTB: rotatable bonds, HBA: H-bond acceptors, HBD: H-bond donors, MR: molar refractivity, TPSA: topological polar surface area.</p></fn></table-wrap-foot></table-wrap><sec id="sec-4-1"><title>4.1. Drug-likeness</title><p>The drug resemblance properties of the fused compound are indicated by the red mutilated hexagon inside of the pink shade (Figure 3). SwissADME, likewise, has computational channels that incorporate Ghose [32], Egan [33], Veber [34], and Muegee [35], created by top pharmaceutical organizations and cheminfomaticians to assess the drug resemblance of molecules. The values maintain in Table 6 indicated the violation of the prescribed range for the molecule to act as a drug.</p><table-wrap id="T6" orientation="portrait" position="float"><label>Table 6</label><caption><p>Drug-likeness evaluation of the synthesized compounds using SwissADME.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Sr. No.</th><th align="left" rowspan="1" colspan="1">Lipinski #violations</th><th align="left" rowspan="1" colspan="1">Ghose #violations</th><th align="left" rowspan="1" colspan="1">Veber #violations</th><th align="left" rowspan="1" colspan="1">Egan #violations</th><th align="left" rowspan="1" colspan="1">Muegge #violations</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr></tbody></table></table-wrap></sec><sec id="sec-4-2"><title>4.2. PAINS, break, and leadlikeness screening</title><p>Pan-assay interference compound (PAINS) screening, which regularly gives bogus positive chemical properties, brings about high-throughput screens. PAINS will in general respond vaguely with various biological targets as opposed to explicitly influencing one foreseen objective. The SwissADME evaluation did not post any PAINS alert (Table 7). In additional to the verdict model, Brenk [36] measured combinations that were smaller and less hydrophobic, and not those described by Lipinski&#x02019;s standard of 5 to augment open doors for lead streamlining. Leadlikeness tests have been projected to provide primes with extraordinary kinship in high-throughput screens that consider the recognition and control of new exchanges ahead of the pack headway stage (Table 7). All of the synthesized compounds (3a&#x02013;3i) drifted the break alert and leadlikeness criteria.</p><table-wrap id="T7" orientation="portrait" position="float"><label>Table 7</label><caption><p>Medicinal chemistry evaluation of the synthesized compounds.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Sr. No.</th><th align="left" rowspan="1" colspan="1">PAINS #alerts</th><th align="left" rowspan="1" colspan="1">Brenk #alerts</th><th align="left" rowspan="1" colspan="1">Leadlikeness #violations</th><th align="left" rowspan="1" colspan="1">Synthetic accessibility</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1.71</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2.1</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2.88</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2.39</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1.63</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1.55</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2.65</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1.64</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2.76</td></tr></tbody></table></table-wrap></sec><sec id="sec-4-3"><title>4.3. P-glycoprotein and CYP enzyme activity prediction</title><p>SwissADME, furthermore, permits the valuation for a compound to be a substrate of p-glycoprotein (P-gp) or inhibitor of the cytochrome p450 isoenzymes (CYP isoenzymes). P-gp is largely spread and linked in the intestinal epithelium where it drives xenobiotics [37]. The generations return Yes or No if the particle under assessment has a higher probability to be a substrate or nonsubstrate of P-gp or inhibitor or noninhibitor of a given CYP. The screening results were classified in Table 8.</p><table-wrap id="T8" orientation="portrait" position="float"><label>Table 8</label><caption><p>Pharmacokinetic evaluation of the synthesized compounds.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Sr. No.</th><th align="left" rowspan="1" colspan="1">GIabs.</th><th align="left" rowspan="1" colspan="1">BBB per.</th><th align="left" rowspan="1" colspan="1">P-gp sub.</th><th align="left" rowspan="1" colspan="1">CYP1A2 inhibitor</th><th align="left" rowspan="1" colspan="1">CYP2C19 inhibitor</th><th align="left" rowspan="1" colspan="1">CYP2C9 inhibitor</th><th align="left" rowspan="1" colspan="1">CYP2D6 inhibitor</th><th align="left" rowspan="1" colspan="1">CYP3A4 inhibitor</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr></tbody></table><table-wrap-foot><fn id="fn_t8"><p>GIabs: gastrointestinal absorption,BBBper: blood-brain barrier permeant, P-gp sub: P-glycoprotein substrate, CYP: cytochromes.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec-4-4"><title>4.4. Human intestinal absorption and blood-brain barrier prediction</title><p>Suitable for P-gp and CYP protein vitality is human intestinal absorption (HIA) and blood-brain barrier (BBB) infiltration. SwissADME BOILEDegg (Figure 4) grants the appraisal of HIA as a component of the circumstance of the molecules in the WLOGP-versus-TPSA referential.</p><fig id="F4" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p>BOILED-Egg allows for evaluation of passive gastrointestinal absorption (HIA), brain penetration (BBB), and P-glycoprotein in the presence of the molecule (P-gp).</p></caption><graphic xlink:href="turkjchem-44-1495-fig004"/></fig><p>The white segment of the BOILEDegg is for a high chance of reflexive adjustment by the gastrointestinal tract, and the yellow region (yolk) is for a high prospect of cerebrum entrance, and it can be seen that some of the blended particles (3b,3e,3f, and 3i) are under the white segment. With this, the focuses are concealed in blue at whatever point was foreseen as adequately effluxed by P-gp (PGP+), shown by 3h and in red, anticipated as a nonsubstrate of P-gp (PGP&#x02212;) by 3a, 3b, 3c, 3d, and 3g. HIA and the BBB are responsible for the water solvency and lipophilicity of the medication. There are 2 topological ways to deal with the predicted water solvency contained in the SwissADME. The first was an implementation of the estimated solubility (ESOL) [38] model, and the resulting one was improved by Ali et al. [39]. Silicos-IT made SwissADME third pointer for molar solvency. Every single foreseen quality is the decimal logarithm of the molar solvency in water (log S) portrayed in Table 9. Agreement Log p is the normal estimation of all Log P assessed with different lipophilicity criteria (Table 10).</p><table-wrap id="T9" orientation="portrait" position="float"><label>Table 9</label><caption><p>Water solubility evaluation of the synthesized compounds.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2" colspan="1">Sr.No.</th><th align="left" rowspan="1" colspan="4">ESOL</th><th align="left" rowspan="1" colspan="4">Ali</th><th align="left" rowspan="1" colspan="4">Silicos</th></tr><tr><th align="left" rowspan="1" colspan="1">Log S</th><th align="left" rowspan="1" colspan="1">Solu.(mg/mL)</th><th align="left" rowspan="1" colspan="1">Solu.(mol/L)</th><th align="left" rowspan="1" colspan="1">Class</th><th align="left" rowspan="1" colspan="1">Log S</th><th align="left" rowspan="1" colspan="1">Solu.(mg/mL)</th><th align="left" rowspan="1" colspan="1">Solu.(mol/L)</th><th align="left" rowspan="1" colspan="1">Class</th><th align="left" rowspan="1" colspan="1">Log S</th><th align="left" rowspan="1" colspan="1">Solu.(mg/mL)</th><th align="left" rowspan="1" colspan="1">Solu.(mol/L)</th><th align="left" rowspan="1" colspan="1">Class</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">&#x02013;3.01</td><td align="left" rowspan="1" colspan="1">1.99E-01</td><td align="left" rowspan="1" colspan="1">9.76E-04</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;3.14</td><td align="left" rowspan="1" colspan="1">1.47E-01</td><td align="left" rowspan="1" colspan="1">7.24E-04</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;4.05</td><td align="left" rowspan="1" colspan="1">1.82E-02</td><td align="left" rowspan="1" colspan="1">8.93E-05</td><td align="left" rowspan="1" colspan="1">MS</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">&#x02013;2.37</td><td align="left" rowspan="1" colspan="1">9.35E-01</td><td align="left" rowspan="1" colspan="1">4.26E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;3.01</td><td align="left" rowspan="1" colspan="1">2.13E-01</td><td align="left" rowspan="1" colspan="1">9.73E-04</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;2.98</td><td align="left" rowspan="1" colspan="1">2.31E-01</td><td align="left" rowspan="1" colspan="1">1.05E-03</td><td align="left" rowspan="1" colspan="1">S</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">&#x02013;5.06</td><td align="left" rowspan="1" colspan="1">2.84E-03</td><td align="left" rowspan="1" colspan="1">8.79E-06</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;5.5</td><td align="left" rowspan="1" colspan="1">1.02E-03</td><td align="left" rowspan="1" colspan="1">3.16E-06</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;6.88</td><td align="left" rowspan="1" colspan="1">4.27E-05</td><td align="left" rowspan="1" colspan="1">1.32E-07</td><td align="left" rowspan="1" colspan="1">PS</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">&#x02013;4.87</td><td align="left" rowspan="1" colspan="1">3.99E-03</td><td align="left" rowspan="1" colspan="1">1.35E-05</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;5.34</td><td align="left" rowspan="1" colspan="1">1.36E-03</td><td align="left" rowspan="1" colspan="1">4.59E-06</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;5.98</td><td align="left" rowspan="1" colspan="1">3.11E-04</td><td align="left" rowspan="1" colspan="1">1.05E-06</td><td align="left" rowspan="1" colspan="1">MS</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">&#x02013;2.68</td><td align="left" rowspan="1" colspan="1">4.79E-01</td><td align="left" rowspan="1" colspan="1">2.10E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;2.92</td><td align="left" rowspan="1" colspan="1">2.74E-01</td><td align="left" rowspan="1" colspan="1">1.20E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;4.39</td><td align="left" rowspan="1" colspan="1">9.28E-03</td><td align="left" rowspan="1" colspan="1">4.06E-05</td><td align="left" rowspan="1" colspan="1">MS</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">&#x02013;2.2</td><td align="left" rowspan="1" colspan="1">1.34E+00</td><td align="left" rowspan="1" colspan="1">6.31E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;1.98</td><td align="left" rowspan="1" colspan="1">2.21E+00</td><td align="left" rowspan="1" colspan="1">1.04E-02</td><td align="left" rowspan="1" colspan="1">VS</td><td align="left" rowspan="1" colspan="1">&#x02013;4.19</td><td align="left" rowspan="1" colspan="1">1.38E-02</td><td align="left" rowspan="1" colspan="1">6.50E-05</td><td align="left" rowspan="1" colspan="1">MS</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">&#x02013;4.71</td><td align="left" rowspan="1" colspan="1">5.80E-03</td><td align="left" rowspan="1" colspan="1">1.96E-05</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;4.91</td><td align="left" rowspan="1" colspan="1">3.61E-03</td><td align="left" rowspan="1" colspan="1">1.22E-05</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;6.95</td><td align="left" rowspan="1" colspan="1">3.35E-05</td><td align="left" rowspan="1" colspan="1">1.13E-07</td><td align="left" rowspan="1" colspan="1">PS</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">&#x02013;2.6</td><td align="left" rowspan="1" colspan="1">4.68E-01</td><td align="left" rowspan="1" colspan="1">2.54E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;2.5</td><td align="left" rowspan="1" colspan="1">5.88E-01</td><td align="left" rowspan="1" colspan="1">3.19E-03</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;3.85</td><td align="left" rowspan="1" colspan="1">2.57E-02</td><td align="left" rowspan="1" colspan="1">1.40E-04</td><td align="left" rowspan="1" colspan="1">S</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">&#x02013;3.71</td><td align="left" rowspan="1" colspan="1">5.83E-02</td><td align="left" rowspan="1" colspan="1">1.93E-04</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">&#x02013;4.57</td><td align="left" rowspan="1" colspan="1">8.03E-03</td><td align="left" rowspan="1" colspan="1">2.66E-05</td><td align="left" rowspan="1" colspan="1">MS</td><td align="left" rowspan="1" colspan="1">&#x02013;4.6</td><td align="left" rowspan="1" colspan="1">7.51E-03</td><td align="left" rowspan="1" colspan="1">2.49E-05</td><td align="left" rowspan="1" colspan="1">MS</td></tr></tbody></table><table-wrap-foot><fn id="fn_t9"><p>Solu.: solubility; PS: poorly soluble; MS: moderately soluble; S: soluble; VS: very soluble.</p></fn></table-wrap-foot></table-wrap><table-wrap id="T10" orientation="portrait" position="float"><label>Table 10</label><caption><p>Lipophilicity evaluation of the synthesized compounds.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Sr. No.</th><th align="left" rowspan="1" colspan="1">iLOGP</th><th align="left" rowspan="1" colspan="1">XLOGP3</th><th align="left" rowspan="1" colspan="1">WLOGP</th><th align="left" rowspan="1" colspan="1">MLOGP</th><th align="left" rowspan="1" colspan="1">Silicos-IT Log P</th><th align="left" rowspan="1" colspan="1">Consensus Log P</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">3a</td><td align="left" rowspan="1" colspan="1">1.5</td><td align="left" rowspan="1" colspan="1">2.19</td><td align="left" rowspan="1" colspan="1">2.35</td><td align="left" rowspan="1" colspan="1">1.09</td><td align="left" rowspan="1" colspan="1">2.3</td><td align="left" rowspan="1" colspan="1">1.89</td></tr><tr><td align="left" rowspan="1" colspan="1">3b</td><td align="left" rowspan="1" colspan="1">1.4</td><td align="left" rowspan="1" colspan="1">1.18</td><td align="left" rowspan="1" colspan="1">2.3</td><td align="left" rowspan="1" colspan="1">0.41</td><td align="left" rowspan="1" colspan="1">3.13</td><td align="left" rowspan="1" colspan="1">1.68</td></tr><tr><td align="left" rowspan="1" colspan="1">3c</td><td align="left" rowspan="1" colspan="1">2.81</td><td align="left" rowspan="1" colspan="1">4.6</td><td align="left" rowspan="1" colspan="1">4.57</td><td align="left" rowspan="1" colspan="1">3.05</td><td align="left" rowspan="1" colspan="1">4.87</td><td align="left" rowspan="1" colspan="1">3.98</td></tr><tr><td align="left" rowspan="1" colspan="1">3d</td><td align="left" rowspan="1" colspan="1">2.48</td><td align="left" rowspan="1" colspan="1">4.38</td><td align="left" rowspan="1" colspan="1">4.14</td><td align="left" rowspan="1" colspan="1">2.93</td><td align="left" rowspan="1" colspan="1">3.95</td><td align="left" rowspan="1" colspan="1">3.58</td></tr><tr><td align="left" rowspan="1" colspan="1">3e</td><td align="left" rowspan="1" colspan="1">1.41</td><td align="left" rowspan="1" colspan="1">1.23</td><td align="left" rowspan="1" colspan="1">2.43</td><td align="left" rowspan="1" colspan="1">1.12</td><td align="left" rowspan="1" colspan="1">3.25</td><td align="left" rowspan="1" colspan="1">1.89</td></tr><tr><td align="left" rowspan="1" colspan="1">3f</td><td align="left" rowspan="1" colspan="1">1.03</td><td align="left" rowspan="1" colspan="1">0.63</td><td align="left" rowspan="1" colspan="1">1.06</td><td align="left" rowspan="1" colspan="1">1.11</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">1.13</td></tr><tr><td align="left" rowspan="1" colspan="1">3g</td><td align="left" rowspan="1" colspan="1">2.66</td><td align="left" rowspan="1" colspan="1">4.13</td><td align="left" rowspan="1" colspan="1">4.54</td><td align="left" rowspan="1" colspan="1">2.93</td><td align="left" rowspan="1" colspan="1">4.75</td><td align="left" rowspan="1" colspan="1">3.8</td></tr><tr><td align="left" rowspan="1" colspan="1">3h</td><td align="left" rowspan="1" colspan="1">0.98</td><td align="left" rowspan="1" colspan="1">1.47</td><td align="left" rowspan="1" colspan="1">1.7</td><td align="left" rowspan="1" colspan="1">1.35</td><td align="left" rowspan="1" colspan="1">1.78</td><td align="left" rowspan="1" colspan="1">1.46</td></tr><tr><td align="left" rowspan="1" colspan="1">3i</td><td align="left" rowspan="1" colspan="1">2.44</td><td align="left" rowspan="1" colspan="1">3.04</td><td align="left" rowspan="1" colspan="1">2.84</td><td align="left" rowspan="1" colspan="1">1.39</td><td align="left" rowspan="1" colspan="1">2.89</td><td align="left" rowspan="1" colspan="1">2.52</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec-5"><title>5. Structure-activity relationship</title><p>Depending upon the structural features, the newly synthesized molecules (4a&#x02013;4i) could be divided into 3 discrete segments, as the diversely substituted central core quinoline ring A PEGylation center, ring B, and substitution at C-2/C-3 (Figure 5).</p><fig id="F5" fig-type="figure" orientation="portrait" position="float"><label>Figure 5</label><caption><p>N-PEG quinoline scaffold derivatives.</p></caption><graphic xlink:href="turkjchem-44-1495-fig005"/></fig><p>The exceptionally high anticancer activity of PEGylated quinoline derivatives is suggestive of the fact that the enhanced efficacy of molecules maybe because of the high mobility of the end terminal of the tethered PEG molecules, and due to the presence of inter-repulsive forces exerted between the hydrated PEG chains. There is a strong possibility of single PEG molecule conjugation with the approaching protein.</p><p>The data evident in Table 3 led to another noteworthy deduction, that the molecules with unsaturated centers at C-3 position exhibited good to moderate anticancer activity against the cancer cell lines. In contrast, the quinoline scaffold that amalgamated with the fused pyrazole and pyrimidine ring structures showed excellent anticancer activity against the SW620, MD468, and MD468-2 colon cancer cell lines. However, the imine derivatives of the PEGylated quinoline did not display significant activity. These annotations proposed that C-2 and C-3 played a vital role in the structure-activity relationship of compounds 4a&#x02013;4i.Compounds 4a and 4i were found to be most potent amongst the synthesized compounds against the microbial strains of E. Coli. The rest of these compounds showed moderate to potent activities against S. Aureus. All of the compounds screened against S. Aureus showed moderate to potent activities, confirming the fact that the substituted quinoline, with an adjacent ring C like the cyano group and pyrazole, played a vital role in enhancing the efficacy of the compounds, thus modulating the antibacterial activity.</p><p>All of the compounds screened as antifungals showed moderate to potent activities. The synthesized PEGylated quinoline was found to possess moderate antifungal activity against
+<italic>C. Albicans</italic>
+.
+</p></sec><sec id="sec-6"><title>6. Synthesis of 2- chloro-6-nitro-3-formilquinoline (1):[40]</title><p>To the solution of p-nitro acetanilide (5 mmol) in dry DMF (15 mmol) at 0&#x02013;5 &#x000b0;C, POCl3 (35 mmol) was added dropwise and stirred, and then the mixture was stirred at 80&#x02013;90 &#x000b0;C for 16&#x02013;19 h. The mixture was poured on to crushed ice, stirred for 5 min, and the resulting solid was filtered, washed well with water, and dried. The compound recrystallized from ethyl acetate and methanol m.p. 260&#x02013;262 &#x000b0;C. Yield 86%. Color: brownish yellow.</p><p>IR (KBr, cm&#x02013;1); 1685, 1675, 1640.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 7.90&#x02013;7.91 (1H, q), 7.50&#x02013;7.53 (1H, d, J= 14.24), 7.70&#x02013;7.72 (1H, d, J = 8.96), 8.15 (1H, s), 9.74 (1H, s, CHO). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;122.82, 123.25, 124.23, 125.13, 126.91, 142.33, 144.56, 146.33, 153.95, 190.26. MS (
+<italic>m/z)</italic>
+: 236. Elemental analysis: (C10H5ClN2O3): calculated C: 50.76, H: 2.13, Cl: 14.98, N: 11.84, O: 20.29; found: C: 50.64, H: 2.8, Cl: 14.85, N: 11.73, O: 20.18.
+</p><sec id="sec-6-1"><title>6.1. Reduction of -NO2 quinoline</title><p>
+<bold>Synthesis of 6-amino-2-chloroquinoline-3-carbaldehyde (2):</bold>
+</p><p>Dissolve sodium sulfide (2&#x000a0;g) in water (5&#x02013;6 mL) was added to NaHCO3 (0.7&#x000a0;g) in small portions and stirred. When the added NaHCO3had dissolved, methanol (5&#x02013;6 mL) was added and the reaction mixture was cooled to below 20 &#x000b0;C. Filtering off of the precipitated sodium carbonate was performed with pump. The precipitate was then washed with a small amount of methanol. The filtrate was then used for further reactions.</p><p>Next, 2-chloro-6-nitro-3-formilquinoline (0.75&#x000a0;g) was dissolved in hot methanol (6&#x000a0;mL), added to the above solution containing sodium hydrogen sulfide, and shaken. The reaction mixture refluxed for 2 h. The reaction mixture was then allowed to cool and was then placed into ice water (20&#x02013;40 mL) to filter the reduced compound, and it was then recrystallized from methanol. m.p.208&#x02013;210 &#x000b0;C. Yield: 82%. Color: dark brown.</p><p>IR (KBr, cm&#x02013;1); 3458, 1675, 1620.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 4.92 (2H, s, -NH
+<sub>2</sub>
+), 7.52&#x02013;7.53 (1H, d, J= 7.28), 7.64&#x02013;7.66 (1H, d, J = 7.56), 7.80&#x02013;7.84 (1H, q), 8.10 (1H, s), 9.51 (1H, s, CHO). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;122.82, 123.25, 124.23, 125.13, 126.91, 142.33, 144.56, 146.33, 153.95, 190.26. MS (
+<italic>m/z)</italic>
+:206. Elemental analysis: (C10H7ClN2O): calculated C: 58.13, H: 3.41, Cl: 17.16, N: 13.56, O: 7.74; found: C: 58.5, H: 3.30, Cl: 17.11, N: 13.43, O: 7.65.
+</p></sec><sec id="sec-6-2"><title>6.2. Synthesis of 6-amino-2-chloroquinoline-3-carbonitrile (3a)</title><p>A suspension of 6-amino-2-chloroquinoline-3-carbaldehyde (1 mol) in 30% aq. ammonia was stirred for 15&#x02013;25 min at room temperature, to this CAN was added at 0&#x02013;2 &#x000b0;C, andthe reaction mixture was stirred for 2&#x02013;3 h at 0&#x02013;2 &#x000b0;C (after completion of the reaction monitored by TLC, the disappearance of the reddish-brown color of the reaction mixture in 30&#x02013;40 min was observed), extracted with chloroform-ethyl acetate (7:3), dried over Na2SO4,and evaporated under reduced pressure to obtain the solid product of 6-amino-2-chloroquinoline-3-carbonitrile (3a). The solid product was crystallized with ethanol. m.p. 162 &#x000b0;C. Yield: 83%.Color: brown.</p><p>IR (KBr, cm&#x02013;1); 4365, 2115, 1650. 1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 4. 68 (2H, s, NH
+<sub>2</sub>
+), 7.23&#x02013;7.26 (1H, d, J= 12.4), 7.64 (1H, s), 7.80&#x02013;7.84 (1H, q), 8.10&#x02013;8.13 (1H, d, J = 9.56). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;43.57, 105.36, 116.82, 123.25, 129.23, 131.13, 133.51, 138.56, 143.33, 153.95.MS (
+<italic>m/z)</italic>
+:203. Elemental analysis: (C10H6ClN3): calculated C: 58.98, H: 2.97, Cl: 17.41, N: 20.64; found: C: 58.85, H: 2.9, Cl: 17.32, N: 20.58.
+</p></sec><sec id="sec-6-3"><title>6.3. Synthesis of 6-amino-3-hydroxyiminomethylquinoline-2(1H)-thione (3b)</title><p>To the solution of 6-amino-2-chloro quinoline-3-carbaldehyde (1.5mmol) in dry DMF, fused sodium sulfide was added and stirred for 3&#x02013;4 h at room temperature. Hydroxylamine hydrochloride and sodium acetate were further added with continued stirring for 4&#x02013;5 h. On completion, the reaction mixture was poured into ice-cold water and the crude product of 6-amino-3-hydroxyiminomethylquinoline-2(1
+<italic>H</italic>
+)-thione (3b) was achieved, and purified by recrystallization from aq. ethanol. m.p. 168 &#x000b0;C.Yield: 78%. Color: yellow.
+</p><p>IR(KBr, cm&#x02013;1); 3465, 3455, 2725, 1675, 1215.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;3.76 (1H, SH), 4.87 (2H, s, NH
+<sub>2</sub>
+), aromatic reg.: 6.40&#x02013;6.80 (4H, m), 7.28 (1H, s, CH=N), 10.58 (1H, s, OH).13CNMR(DMSO-
+<italic>d</italic>
+6); &#x003b4;113.36, 116.86, 123.35, 125.66, 134.29, 136.95, 145.63, 155.95, 185.45.MS (
+<italic>m/z)</italic>
+:219. Elemental analysis: (C10H9ClN3OS): calculated C: 54.78, H: 4.14, N: 19.16, O: 7.30, S: 14.62; found: C: 54.60, H: 4.8, N: 19.12, O: 7.24, S: 14.53.
+</p></sec><sec id="sec-6-4"><title>6.4. Synthesis of 3-(6-amino-2-chloroquinoline-3-yl)-1-p-tolylprop-2-en-1-one (3c)</title><p>A mixture of 6-amino-2-chloroquinoline-3-carbaldehyde (0.01 mol, 1.91&#x000a0;g) and4-methyl acetophenone in 40% ethanolic NaOH was stirred vigorously for 2 h and kept overnight at room temperature. The reaction mixture was poured onto crushed ice and acidified with 1:1 HCl. The solid 3-(6-amino-2-chloroquinoline-3-yl)-1-
+<italic>p</italic>
+-tolylprop-2-en-1-one (3c) was isolated. It was recrystallized using acetic acid and ethanol. m.p. 240 &#x000b0;C.Yield: 84%. Color: yellowish-white.
+</p><p>IR(KBr, cm&#x02013;1); 3435, 3015, 2980, 1685.1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 2.51 (3H, s, CH3), 5.25 (2H, s, NH
+<sub>2</sub>
+), 7.24&#x02013;7.26 (1H, d, J= 9.12), 7.53&#x02013;7.58 (3H, m), 7.84&#x02013;7.86 (1H, d, J= 9.16), 8.04 (1H, s), (4H, m, Ben.), 13CNMR(DMSO-
+<italic>d</italic>
+6); &#x003b4;24.53, 119.15, 123.35, 125.39, 129.15&#x02013;129.33, 134.16, 136.94, 139.15, 141.13, 144.62, 148.15, 151.59, and 192.16 ppm, MS (
+<italic>m/z)</italic>
+:322. Elemental analysis: (C19H15ClN2O): calculated C: 70.70, H: 4.68, Cl: 10.98, N: 8.68, O: 4.96: found: C: 70.62, H: 4.57, Cl: 10.88, N: 8.58, O: 4.91.
+</p></sec><sec id="sec-6-5"><title>6.5. Synthesis of 4(2-(6-amino-2-chloroquinoline-3-yl)vinylphenol (3d)</title><p>A mixture of 6-amino-2-chloroquinoline-3-carbaldehyde (0.01 mol), p-cresol (0.01 mol), freshly distilled acetic anhydride (10&#x000a0;mL), acetic acid (10&#x000a0;mL), and sodium acetate (2&#x000a0;g) was heated and refluxed in an oil bath at 145 &#x000b0;C for 6&#x02013;7 h. After cooling, the reaction mixture was poured onto crushed ice and left overnight. The precipitated product was filtered, dried, and crystallized from ethyl acetate-methanol. m.p. 168 &#x000b0;C. Yield: 83%. Color: brown.</p><p>IR(KBr, cm&#x02013;1);3480, 3425, 3015. 1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 3.25 (2H, s, NH
+<sub>2</sub>
+), 6.53&#x02013;6.54 (1H, d, J= 3.64), 6.68&#x02013;6.69 (1H, d, J= 2.00), 7.77&#x02013;7.83 (2H, m, Ben.), 7.95&#x02013;7.97 (1H, 1H, d, J= 8.96), 8.12&#x02013;8.20 (2H, m, Ben.), 8.40&#x02013;8.43 (1H, d, J= 8.96), 8.68 (1H, s), 10.29 (1H, s, OH). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;118.23, 123.05, 127.51, 129.03, 131.13, 133.51, 135.29, 141.31, 143.33, 148.38, 159.35. MS (
+<italic>m/z)</italic>
+:296. Elemental analysis: (C17H13ClN2O): calculated C: 68.81, H: 4.42, Cl: 11.95, N: 9.44, O: 5.39: found: C: 68.74, H: 4.36, Cl: 11.86, N: 9.37, O: 5.31.
+</p></sec><sec id="sec-6-6"><title>6.6. Synthesis of 7-aminopyrimido(4,5-b)quinoline-2(1H)thione (3e)</title><p>6-amino-2-chloroquinoline-3-carbaldehyde (0.002 mol) and (0.002 mol) were dissolved in 15&#x000a0;mL of glacial acetic acid and refluxed for 15 h. On completion, the reaction mixture was poured onto crushed ice and neutralized with diluted NaOH. The solid product, 7-aminopyrimido-(4,5-b)-quinoline-2(1 H)thione (3e), was separated out. m.p. 272 &#x000b0;C.Yield: 82%. Color: yellowish-brown.</p><p>IR (KBr, cm&#x02013;1); 3396, 3440, 1655, 1235. 1HNMR(DMSO-
+<italic>d</italic>
+6); &#x003b4; 5.49 (2H, s, NH
+<sub>2</sub>
+), 7.83&#x02013;8.50 (aromatic reg. 5H, m), 11.50 (1H, s, NH).13CNMR (DMSO-
+<italic>d</italic>
+6;115.12, 120.36, 122.15, 129.13, 132.23, 135.55, 142.13, 159.56, 161.59, 182.25. MS (
+<italic>m/z)</italic>
+:228. Elemental analysis: (C11H8N4S): calculated C: 57.88, H: 3.53, N: 24.54, S: 14.05: found: C: 57.79, H: 3.46, N: 24.48, S: 13.95.
+</p></sec><sec id="sec-6-7"><title>6.7. Synthesis of 7-aminopyrimido(4,5-b)quinoline-2(1H)one (3f)</title><p>6-amino-2-chloroquinoline-3-carbaldehyde (0.002 mol) and urea were dissolved in 15&#x000a0;mL of glacial acetic acid and refluxed for 15 h. On completion (inferred through TLC), the mixture was poured onto crushed ice and neutralized with diluted NaOH. The solid product, 7-aminopyrimido (4, 5-b) quinoline-2(1 H)one (3f), was separated. m.p. 247 &#x000b0;C. Yield: 78%. Color: brownish-yellow.</p><p>IR (KBr, cm&#x02013;1); 3485, 3440, 1735, 1640. 1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 6.62 (2H, s, NH
+<sub>2</sub>
+), 7.46&#x02013;8.83 (aromatic reg. 5H, m), 11.32(1H, s, NH).13CNMR (DMSO-
+<italic>d</italic>
+6); 115.02, 118.62, 121.81, 128.11, 133.53, 135.65, 149.64, 156.95, 161.55, 181.52. MS (
+<italic>m/z)</italic>
+:212. Elemental analysis: (C11H8N4O): calculated C: 62.26, H: 3.80, N: 26.40, O: 7.54: found: C: 62.18, H: 3.71, N: 26.32, O: 7.48.
+</p></sec><sec id="sec-6-8"><title>6.8. Synthesis of 3-(P-tolylimino)methyl-2-chloroquinoline-6-amine (3g)</title><p>To the solution of 6-amino-2-chloroquinoline- 3-carbaldehyde (1mol) and p-toluene in 15&#x000a0;mL methanol was added 1&#x000a0;mL of acetic acid. The reaction mixture was refluxed for 5&#x02013;6 h. Completion of the reaction was inferred through TLC, after which, it was cooled, the precipitate formed, and the product of 3-(
+<italic>P</italic>
+-tolylimino)methyl-2-chloroquinoline-6 amine (3g) separated. It was filtered off, dried, and crystallized with ethanol. m.p. 176 &#x000b0;C. Yield: 86%. Color: darkbrown.
+</p><p>IR (KBr, cm&#x02013;1); 3460, 1650, 1635. 1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 2.50 (3H, s, CH3), 5.24 (2H, s, NH
+<sub>2</sub>
+), 6.06&#x02013;9.27 (aromatic reg. 9H, m), 13CNMR (DMSO-
+<italic>d</italic>
+6); 24.35, 118.12, 120.05, 122.35, 125.15, 129.03, 131.13, 134.23, 136.95, 142.13, 144.62, 146.15, 148.56, 195.16. MS (
+<italic>m/z)</italic>
+:296. Elemental analysis: (C17H14ClN3): calculated C: 69.03, H: 4.77, Cl: 11.99, N: 14.21: found: C: 68.97, H: 4.69, Cl: 11.91, N: 14.18.
+</p></sec><sec id="sec-6-9"><title>6.9. Synthesis of 1H-pyrazolo(3,4-b)quinoli-6-amine (3h)</title><p>6-amino-2-chloroquinoline-3-carbaldehyde (0.02 mol) was refluxed with 5&#x000a0;mL (excess) of NH
+<sub>2</sub>
+-NH
+<sub>2</sub>
+in ethanol for 5&#x02013;6h. Their action mixture was then cooled and poured into ice-cold water. The solid that formed was filtered, washed with water, and dried. It was crystallized with ethyl acetate. m.p. 288 &#x000b0;C.Yield: 76%. Color: yellowish-brown.
+</p><p>IR (KBr, cm&#x02013;1); 3475, 3318&#x02013;3325, 1650. 1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 3.87 (2H, s, NH
+<sub>2</sub>
+), 6.32 (1H, s), 6.87 (1H, s), 6.60&#x02013;6.62 (2H, m), 7.93 (1H, s), 10.43 (1H, s, NH). 13CNMR (DMSO-
+<italic>d</italic>
+6); 120.13&#x02013;120.32, 122.25, 130.31&#x02013;131.23, 132.95, 135.13, 139.23&#x02013;139.59, 141.11, 142.55, 154.13, 182.25.MS (
+<italic>m/z)</italic>
+:184. Elemental analysis: (C10H8N3): calculated C: 65.21, H: 4.38, N: 30.40: found: C: 65.13, H: 4.28, N: 30.31.
+</p></sec><sec id="sec-6-10"><title>6.10. Synthesis of (Z)-ethyl-3-(6-amino-2-chloroquinoline-3-yl)-2-cyanoacrylate (3i)</title><p>To the solution of 6-amino-2-chloroquinoline-3-carbaldehyde (0.005 mol) and ethyl cyanoacetate in 30&#x000a0;mL ethanol, triethylamine was added. The reaction mixture was refluxed for 3 h. On completion of the reaction, the solution was poured into ice-cold water, and a solid product of (Z)-ethyl-3-(6-amino-2-chloroquinoline-3-yl)-2-cyanoacrylate (3i) was separated. It was washed with cold water and dried, and then recrystallized with methanol. m.p.122 &#x000b0;C. Yield: 86%. Color: white.</p><p>IR(KBr, cm&#x02013;1); 3505, 3022, 2985, 2115, 1720.1HNMR(DMSO-
+<italic>d</italic>
+6); &#x003b4; 1.21&#x02013;1.38 (3H, m, CH3), 3.09&#x02013;3.14 (2H, m, CH
+<sub>2</sub>
+), 4.20 (2H, s, NH
+<sub>2</sub>
+), 6.34 (1H, s, CH=C), 6.59&#x02013;8.40 (aromatic reg. 4H, m), 13CNMR (DMSO-
+<italic>d</italic>
+6);18.51, 96.24, 114.24, 120.51, 128.11, 130.23, 132.85, 141.53, 143.35, 149.64, 156.91, 168.52. MS (
+<italic>m/z)</italic>
+:302. Elemental analysis: (C15H12ClN3O2): calculated C: 59.71, H: 4.01, Cl: 11.75, N: 13.93, O: 10.61: found: C: 59.63, H: 3.93, Cl: 11.68, N: 13.85, O: 10.54.
+</p></sec></sec><sec id="sec-7"><title>7. Synthesis of hydroxy carboxy polyethylene glycol (HO-PEG200COOH)</title><p>Polyethylene glycol (5&#x000a0;mL, 0.028 mol, 200 g/mol) was dissolved in 20&#x000a0;mL of dry CH
+<sub>2</sub>
+Cl
+<sub>2</sub>
+. To this solution was added THF containing maleic anhydride (0.056 mol, 0.54&#x000a0;mg) and pyridine (0.056 mol, 0.46 mL). After stirring overnight at room temperature, the reaction was completed, as indicated by TLC (methanol:ethyl acetate, 7:3) (no anhydride was left and there was the detection of a single polar PEG compound). The monoacid derivative of (polyethylene glycol)200 was used without purification.
+</p><sec id="sec-7-1"><title>7.1. Synthesis of resin via N-terminal of PEGylated-6-amino-2-chloroquinoline-3-carbonitrile (4a) like syrupy material</title><p>The monoacid derivative of hydroxy carboxy polyethylene glycol (HO-PEG200COOH) (0.028 mol) was activated with a 1:2 molar equivalent of 6-amino-2-chloroquinoline-3-carbonitrile (3a) (0.046 mol) and N, N-dicyclocarbidiimide (0.046 mol) was dissolved in dichloromethane. The solution was stirred over night at room temperature. This reaction mixture appeared like a resin when dried under a vacuum. This syrupy resin was dissolved in 15&#x000a0;mL of acetone. Later the white precipitate of DCU that appeared was discarded and the filtrate was collected. The final filtrate was evaporated to afford compound 4a. TLC in (methanol:ethyl acetate 7:3) was performed to check for the presence of DCU. It showed a negative result. The IR spectra confirmed this negative result. A negative dye test indicated complete amino group capping.</p><p>The resin was dried in a vacuum for IR, H1NMR, C13NMR, and mass spectral analysis. At this stage, the resin did not stick to the glass wall anymore. The IR spectrum of the resin showed the characteristic absorption band of the PEG ether backbone (1120 cm&#x02013;1) and absorption bands at 1760 and 1685 cm&#x02013;1 for the ester and amid bond, respectively (C=O).</p><p>Color: yellow syrupy material, IR (KBr, cm&#x02013;1); 3475, 2115, 1685.1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 3.04&#x02013;3.67 (m, PEG)&#x003b4; 4.72 (1H, s, -NH), 6.56 (1H, s),6.85&#x02013;6.87 (1H, q), 7.25 (1H, s),7.50&#x02013;7.52 (1H, d, J= 8.36), 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;47.57, 55.11, 55.53, 63.52, 68.53, 107.80, 116.12, 123.59, 126.33, 131.16, 132.26, 138.65, 143.36, and 149.53: MS (
+<italic>m/z)</italic>
+:485.
+</p></sec><sec id="sec-7-2"><title>7.2. Synthesis of PEGylated-6-amino-3-hydroxyiminomethylquinoline-2(1H)-thione (4b).</title><p>Color: dark yellow syrupy material, IR (KBr, cm&#x02013;1); 3440, 2735, 1655, 1230.1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 3.49&#x02013;3.76 (m, PEG), &#x003b4; 4.01 (1H, s -SH), 5.27 (1H, s, -NH), 6.25(1H, s), 6.63 (1H, s),7.25&#x02013;7.28 (1H, q), 8.56 (1H, s),8.042&#x02013;8.047 (1H, d, J= 2.08):13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;41.37, 46.23&#x02013;46.57, 54.23&#x02013;55.33, 61.21, 64.55, 112.12, 116.36, 123.11, 125.13, 134.45, 136.21, 136.25, 145.13, 152.24, and 185.51: MS (
+<italic>m/z)</italic>
+:497.
+</p></sec><sec id="sec-7-3"><title>7.3. Synthesis of PEGylated-3-(6-amino-2-chloroquinoline-3-yl)-1-p-tolylprop-2-en-1-one (4c)</title><p>Color: yellowish-white syrupy material, IR (KBr, cm&#x02013;1); 3025. 2965. 1655.1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 2.22 (3H, s, -CH3), 3.52&#x02013;4.33 (m, PEG), &#x003b4; 5.29 (1H, s, -NH), 6.59&#x02013;6.61 (1H, d, J= 9.72), 6.82 (2H, s), 7.28&#x02013;7.31 (4H, m, Ben.), 7.67&#x02013;7.71 (2H, m), 8.01&#x02013;8.03 (1H, d, J= 10.36). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;28.34, 45.65, 46.93&#x02013;50.54, 53.39, 62.55, 119.13, 124.35, 126.43, 129.15&#x02013;129.63, 143.11, 136.90, 138.55, 140.13, 144.32, 148.15, 153.21, and 190.41: MS (
+<italic>m/z)</italic>
+:602.
+</p></sec><sec id="sec-7-4"><title>7.4. Synthesis of PEGylated-4(2-(6-amino-2-chloroquinoline-3-yl)vinyl phenol (4d)</title><p>Color: yellowish-brown syrupy material, IR (KBr, cm&#x02013;1); 3465, 3020, 1635.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 3.31&#x02013;4.42 (m, PEG), &#x003b4; 5.27 (1H, s, -NH), 6.26 (1H, s), 6.70 (1H, s), 7.28&#x02013;7.31 (2H, m), 7.66&#x02013;7.78(4H, m, Ben.), 8.57&#x02013;8.59 (1H, d, J= 10.48),8.11&#x02013;8.13 (1H, d, J= 9.12), 10.67 (1H, s, -OH).13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;25.51, 29.93, 33.77, 41.03&#x02013;45.90, 46.37, 118.73, 121.15, 127.51, 129.03, 131.13, 134.57, 137.22, 140.13, 142.39, 153.81, and 159.45: MS (
+<italic>m/z)</italic>
+:576.
+</p></sec><sec id="sec-7-5"><title>7.5. Synthesis of PEGylated-7-aminopyrimido(4,5-b)quinoline-2(1 H)thione (4e)</title><p>Color: brownish-yellow syrupy material, IR (KBr, cm&#x02013;1); 3425, 1665, 1245.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 3.04&#x02013;3.67 (m, PEG), 4.72 (1H, s, -NH), 6.26 (1H, s), 6.73&#x02013;6.78 (2H, m), 7.26 (1H, s), 7.57 (1H, s), 10.67 (1H, s, -OH). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;29.65, 32.61&#x02013;36.45, 42.93, 46.55, 115.62, 120.61, 122.52, 129.33, 132.93, 136.55, 142.43, 159.65, 164.49, and 185.15: MS (
+<italic>m/z)</italic>
+:544.
+</p></sec><sec id="sec-7-6"><title>7.6. Synthesis of PEGylated-7-aminopyrimido(4,5-b)quinoline-2(1 H)one (4f)</title><p>Color: brownish-yellow syrupy material, IR (KBr, cm&#x02013;1); 3420, 1720, 1650. 1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 3.04&#x02013;3.65 (m, PEG), 5.25 (1H, s, -NH), 6.51 (1H, s), 6.78&#x02013;6.78 (2H, q),7.12 (1H, s), 7.40 (1H, s), 10.26 (1H, s, -OH). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;28.68, 32.63&#x02013;36.48, 44.35, 46.85, 114.32, 120.61, 122.50, 128.13, 132.53, 146.93, 195.65, 161.51, and 181.52: MS (
+<italic>m/z)</italic>
+:528.
+</p></sec><sec id="sec-7-7"><title>7.7. Synthesis of PEGylated-3-((P-tolylimino)methyl-2-chloroquinoline-6-amine (4g)</title><p>Color: brownish-yellow syrupy material, IR (KBr, cm&#x02013;1); 1655, 1640.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 2.09 (3H, s, -CH3), 3.51&#x02013;4.27 (m, PEG), 4.81 (1H, s, -NH), 6.98&#x02013;7.49 (9H, m, aromatic reg.). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;24.35, 35.34, 39.27, 44.03&#x02013;49.90, 55.43, 116.26, 120.65, 122.35, 126.15, 129.63, 131.19, 136.23, 144.69, 146.42, 148.61, and 159.11: MS (
+<italic>m/z)</italic>
+:606.
+</p></sec><sec id="sec-7-8"><title>7.8. Synthesis of PEGylated-1H-pyrazolo(3,4-b)quinoli-6-amine (4h)</title><p>Color: brownish-yellow syrupy material, IR (KBr, cm&#x02013;1); 3445, 3325, 1665.1HNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4; 3.42&#x02013;4.31 (m, PEG), 5.28 (1H, s, -NH),6.27 (1H, s) 6.59&#x02013;8.02 (4H, m, aromatic reg.), 10.31 (1H, s, -NH). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;29.91, 36.65, 39.91&#x02013;43.45, 49.39, 52.54, 120.31&#x02013;120.39, 122.52, 130.35&#x02013;131.33, 132.91, 135.53, 139.32&#x02013;139.55, 141.18, 142.55, 156.53, and 182.25: MS (
+<italic>m/z)</italic>
+:463.
+</p></sec><sec id="sec-7-9"><title>7.9. Synthesis of PEGylated-(Z)-ethyl 3-(6-amino-2-chloroquinoline-3-yl)-2-cyanoacrylate (4i)</title><p>Color: yellow syrupy material, IR (KBr, cm&#x02013;1); 3025, 2975, 2130, 1690.1HNMR (DMSO-
+<italic>d</italic>
+6);&#x003b4; 1.68 (3H, -CH3), 3.07 (2H, -CH
+<sub>2</sub>
+), 3.52&#x02013;4.33 (m, PEG), &#x003b4; 5.29 (1H, s, -NH), 6.82 (1H, s, CH=C),7.28&#x02013;8.03 (4H, m, aromatic reg.). 13CNMR (DMSO-
+<italic>d</italic>
+6); &#x003b4;18.15, 34.36, 36.54&#x02013;40.35, 43.85, 46.50, 55.98, 90.85, 114.42, 120.21, 128.12, 139.23, 136.89, 141.53, 143.38, 151.64, 154.45, and 168.52: MS (
+<italic>m/z)</italic>
+:581.
+</p></sec></sec></body><back><ack id="sec-ack"><title>Acknowledgments</title><p>The authors are thankful to the Department of Pharmacy, Nagpur for the IR spectral analysis, and SAIF, Chandigarh, for the 1H NMR spectral analysis. We are grateful to SAIF, Pune University, for the mass spectral analysis of all of the newly synthesized compounds. We extend special thanks to Dr. Sandhya Saoji for the microbial analysis.</p></ack><ref-list><ref id="ref1"><element-citation publication-type="journal">
+<string-name>
+<surname>Herman</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Hoofman</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Schacht</surname>
+<given-names>E.</given-names>
+</string-name>
+<year>1995</year>
+<article-title>Polyethylene glycol with reactive endgroups: I. Modification of Protein</article-title>
+<source>Journal of Bioactctive and Computible Polymers</source>
+<volume>10</volume>
+<fpage>145</fpage>
+<lpage>187</lpage>
+</element-citation></ref><ref id="ref2"><element-citation publication-type="journal">
+<string-name>
+<surname>Zalipsky</surname>
+<given-names>S.</given-names>
+</string-name>
+<year>1995</year>
+<article-title>Chemistry of polyethylene glycol conjugates with biologically active molecules</article-title>
+<source>Bioconjugate Chemistry</source>
+<volume>16</volume>
+<fpage>157</fpage>
+<lpage>182</lpage>
+</element-citation></ref><ref id="ref3"><element-citation publication-type="journal">
+<string-name>
+<surname>Allen</surname>
+<given-names>TM</given-names>
+</string-name>
+<year>1994</year>
+<article-title>The use of glycolipids and hydrophilic polymers in avoiding rapid uptake of liposomes by the mononuclear phagocyte system</article-title>
+<source>Advance Drug Delivery Review</source>
+<volume>13</volume>
+<fpage>285</fpage>
+<lpage>309</lpage>
+</element-citation></ref><ref id="ref4"><element-citation publication-type="journal">
+<string-name>
+<surname>Woodle</surname>
+<given-names>MC</given-names>
+</string-name>
+<string-name>
+<surname>Lasic</surname>
+<given-names>DD</given-names>
+</string-name>
+<year>1992</year>
+<article-title>Sterically stabilized liposomes</article-title>
+<source>Biochimica et Biophysica (BBA) Acta- Reviews on Biomembranes</source>
+<volume>1113</volume>
+<fpage>171</fpage>
+<lpage>199</lpage>
+</element-citation></ref><ref id="ref5"><element-citation publication-type="journal">
+<string-name>
+<surname>Blume</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Cevc</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Crommelin</surname>
+<given-names>MD</given-names>
+</string-name>
+<string-name>
+<surname>Bakker-Woudenberg</surname>
+<given-names>IA</given-names>
+</string-name>
+<string-name>
+<surname>Kluft</surname>
+<given-names>C</given-names>
+</string-name>
+<article-title>Specific targeting with poly (ethylene gycol)-modified liposomes: coupling of homing devices to the end of the polymeric chains combines effective target binding with long circulation times</article-title>
+<source>Biochimica et Biophysica (BBA) Acta-Reviews on Biomembranes1993;</source>
+<volume>1149</volume>
+<fpage>180</fpage>
+<lpage>184</lpage>
+</element-citation></ref><ref id="ref6"><element-citation publication-type="journal">
+<string-name>
+<surname>Chandrasekhar</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Narsihmulu</surname>
+<given-names>C</given-names>
+</string-name>
+<string-name>
+<surname>Sultana</surname>
+<given-names>SS</given-names>
+</string-name>
+<string-name>
+<surname>Reddy</surname>
+<given-names>NR</given-names>
+</string-name>
+<year>2002</year>
+<article-title>Poly(ethylene glycol) (PEG) as a reusable solvent medium for organic synthesis. Application in the Heck reaction</article-title>
+<source>Organic Letters</source>
+<volume>4</volume>
+<fpage>4399</fpage>
+<lpage>4401</lpage>
+<pub-id pub-id-type="pmid">12465897</pub-id></element-citation></ref><ref id="ref7"><element-citation publication-type="journal">
+<string-name>
+<surname>Jia</surname>
+<given-names>Z</given-names>
+</string-name>
+<string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>
+<string-name>
+<surname>Huang</surname>
+<given-names>J</given-names>
+</string-name>
+<year>2003</year>
+<article-title>Synthesis of poly(Ethylene glycol) with sulfadiazine and chlorambucil end groups and investigation of its antitumor activity</article-title>
+<source>Bioorganic &#x00026; Medicinal Chemistry Letters</source>
+<volume>13</volume>
+<fpage>2531</fpage>
+<lpage>2534</lpage>
+<pub-id pub-id-type="pmid">12852959</pub-id></element-citation></ref><ref id="ref8"><element-citation publication-type="journal">
+<string-name>
+<surname>Coessens</surname>
+<given-names>V</given-names>
+</string-name>
+<string-name>
+<surname>Schacht</surname>
+<given-names>EH</given-names>
+</string-name>
+<string-name>
+<surname>Domurado</surname>
+<given-names>D</given-names>
+</string-name>
+<year>1997</year>
+<article-title>Synthesis and in vitro stability of macromolecular prodrugs of norfloxacin</article-title>
+<source>Journal of Controlled Release</source>
+<volume>47</volume>
+<fpage>283</fpage>
+<lpage>291</lpage>
+</element-citation></ref><ref id="ref9"><element-citation publication-type="journal">
+<string-name>
+<surname>Roseeuw</surname>
+<given-names>E</given-names>
+</string-name>
+<string-name>
+<surname>Coessens</surname>
+<given-names>V</given-names>
+</string-name>
+<string-name>
+<surname>Schacht</surname>
+<given-names>E</given-names>
+</string-name>
+<string-name>
+<surname>Vrooman</surname>
+<given-names>B</given-names>
+</string-name>
+<string-name>
+<surname>Domurado</surname>
+<given-names>D</given-names>
+</string-name>
+<year>1999</year>
+<article-title>Polymeric prodrugs of antibiotics with improved efficiency</article-title>
+<source>Journal of Materials&#x000a0;Science: Materials in&#x000a0;Medicine</source>
+<volume>10</volume>
+<fpage>743</fpage>
+<lpage>746</lpage>
+<pub-id pub-id-type="pmid">15347944</pub-id></element-citation></ref><ref id="ref10"><element-citation publication-type="journal">
+<string-name>
+<surname>Yang</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Santerre</surname>
+<given-names>P</given-names>
+</string-name>
+<year>2001</year>
+<article-title>Utilization of quinolone drugs as monomers:&#x02009; characterization of the synthesis reaction products for poly(norfloxacin diisocyanatododecane polycaprolactone)</article-title>
+<source>Biomacromolecules</source>
+<volume>2</volume>
+<fpage>134</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">11749164</pub-id></element-citation></ref><ref id="ref11"><element-citation publication-type="journal">
+<string-name>
+<surname>Caliceti</surname>
+<given-names>P</given-names>
+</string-name>
+<string-name>
+<surname>Salmaso</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Semenzato</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Carofiglio</surname>
+<given-names>T</given-names>
+</string-name>
+<string-name>
+<surname>Fornasier</surname>
+<given-names>R</given-names>
+</string-name>
+<year>2003</year>
+<article-title>Synthesis and physicochemical characterization of folate-cyclodextrin bioconjugate for active drug delivery</article-title>
+<source>Bioconjugate Chemistry</source>
+<volume>14</volume>
+<fpage>899</fpage>
+<lpage>908</lpage>
+<pub-id pub-id-type="pmid">13129392</pub-id></element-citation></ref><ref id="ref12"><element-citation publication-type="journal">
+<string-name>
+<surname>Dube</surname>
+<given-names>D</given-names>
+</string-name>
+<string-name>
+<surname>Blouin</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Brideau</surname>
+<given-names>C</given-names>
+</string-name>
+<string-name>
+<surname>Chan</surname>
+<given-names>CC</given-names>
+</string-name>
+<string-name>
+<surname>Desmarais</surname>
+<given-names>S</given-names>
+</string-name>
+<year>1998</year>
+<article-title>Quinolines as potent 5-lipoxygenase inhibitors: synthesis and biological</article-title>
+<source>Bioorganic and Medicinal Chemistry Letters</source>
+<volume>746</volume>
+<fpage>530</fpage>
+<lpage>530</lpage>
+</element-citation></ref><ref id="ref13"><element-citation publication-type="journal">
+<string-name>
+<surname>Gupta</surname>
+<given-names>R</given-names>
+</string-name>
+<string-name>
+<surname>Gupta</surname>
+<given-names>AK</given-names>
+</string-name>
+<string-name>
+<surname>Paul</surname>
+<given-names>S</given-names>
+</string-name>
+<year>2000</year>
+<article-title>Microwave-assisted synthesis and biological activities of some 7/9-substituted-4-(3-alkyl/aryl-5,6-dihydro-s-</article-title>
+<source>traizolo[3</source>
+<volume>1</volume>
+<fpage>4</fpage>
+<lpage>4</lpage>
+</element-citation></ref><ref id="ref14"><element-citation publication-type="journal">
+<string-name>
+<surname>Gupta</surname>
+<given-names>R</given-names>
+</string-name>
+<string-name>
+<surname>Gupta</surname>
+<given-names>AK</given-names>
+</string-name>
+<string-name>
+<surname>Paul</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Kachroo</surname>
+<given-names>PL</given-names>
+</string-name>
+<year>1998</year>
+<article-title>-ones</article-title>
+<source>Synthesis of 3</source>
+<volume>2</volume>
+<fpage>1211</fpage>
+<lpage>1213</lpage>
+</element-citation></ref><ref id="ref15"><element-citation publication-type="other">
+<year>2006</year>
+<article-title>PEGylation technology and biopharmaceuticals</article-title>
+<source>Biopharmaceuticals</source>
+<fpage>39</fpage>
+<lpage>40</lpage>
+</element-citation></ref><ref id="ref16"><element-citation publication-type="journal">
+<string-name>
+<surname>Veronese</surname>
+<given-names>F</given-names>
+</string-name>
+<string-name>
+<surname>Mero</surname>
+<given-names>A</given-names>
+</string-name>
+<year>2008</year>
+<article-title>The impact of PEGylation on biological therapies</article-title>
+<source>BioDrugs</source>
+<volume>22</volume>
+<fpage>315</fpage>
+<lpage>329</lpage>
+<pub-id pub-id-type="pmid">18778113</pub-id></element-citation></ref><ref id="ref17"><element-citation publication-type="journal">
+<string-name>
+<surname>Lipinski</surname>
+<given-names>CA</given-names>
+</string-name>
+<string-name>
+<surname>Lombardo</surname>
+<given-names>F</given-names>
+</string-name>
+<string-name>
+<surname>Dominy</surname>
+<given-names>BW</given-names>
+</string-name>
+<string-name>
+<surname>Feeney</surname>
+<given-names>PJ</given-names>
+</string-name>
+<year>2001</year>
+<article-title>Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings</article-title>
+<source>Advance Drug Delivery Review</source>
+<volume>46</volume>
+<fpage>3</fpage>
+<lpage>26</lpage>
+</element-citation></ref><ref id="ref18"><element-citation publication-type="journal">
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<year>2020</year>
+<article-title>Synthesis of chromone functionalized chitosan polymer: application/screening of its physical parameters</article-title>
+<source>Polymer Science Series B</source>
+<volume>62</volume>
+<fpage>1</fpage>
+<lpage>12</lpage>
+</element-citation></ref><ref id="ref19"><element-citation publication-type="journal">
+<string-name>
+<surname>Roberts</surname>
+<given-names>MJ</given-names>
+</string-name>
+<string-name>
+<surname>Bentley</surname>
+<given-names>MD</given-names>
+</string-name>
+<string-name>
+<surname>Harris</surname>
+<given-names>JM</given-names>
+</string-name>
+<year>2002</year>
+<article-title>Chemistry for peptide and protein PEGylation</article-title>
+<source>Advance Drug Delivery Review</source>
+<volume>54</volume>
+<fpage>459</fpage>
+<lpage>476</lpage>
+</element-citation></ref><ref id="ref20"><element-citation publication-type="journal">
+<string-name>
+<surname>Harris</surname>
+<given-names>JM</given-names>
+</string-name>
+<string-name>
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Chai</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Andrews</surname>
+<given-names>MD</given-names>
+</string-name>
+<string-name>
+<surname>Vederas</surname>
+<given-names>JC</given-names>
+</string-name>
+<year>1998</year>
+<article-title>Modification of the Swern oxidation:&#x02009; use of a soluble polymer-bound, recyclable, and odorless sulfoxide</article-title>
+<source>The Journal of Organic Chemistry</source>
+<volume>63</volume>
+<fpage>2407</fpage>
+<lpage>2409</lpage>
+</element-citation></ref><ref id="ref21"><element-citation publication-type="journal">
+<string-name>
+<surname>Wipf</surname>
+<given-names>P</given-names>
+</string-name>
+<string-name>
+<surname>Venkatraman</surname>
+<given-names>S.</given-names>
+</string-name>
+<year>1996</year>
+<article-title>An improved protocol for azole synthesis with PEG-supported Burgess reagent</article-title>
+<source>Tetrahedron Letters</source>
+<volume>37</volume>
+<fpage>4659</fpage>
+<lpage>4662</lpage>
+</element-citation></ref><ref id="ref22"><element-citation publication-type="journal">
+<string-name>
+<surname>Wentworth</surname>
+<given-names>JP</given-names>
+</string-name>
+<string-name>
+<surname>Vandersteen</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Janda</surname>
+<given-names>KD</given-names>
+</string-name>
+<year>1997</year>
+<article-title>Poly(ethylene glycol) (PEG) as a reagent support: the preparation and utility of a PEG&#x02013;triarylphosphine conjugate in liquid-phase organic synthesis (LPOS)</article-title>
+<source>Chemical Communications</source>
+<volume>8</volume>
+<fpage>759</fpage>
+<lpage>760</lpage>
+</element-citation></ref><ref id="ref23"><element-citation publication-type="journal">
+<string-name>
+<surname>Aghahosseini</surname>
+<given-names>H</given-names>
+</string-name>
+<string-name>
+<surname>Ramazani</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Taran</surname>
+<given-names>J</given-names>
+</string-name>
+<string-name>
+<surname>Slepokura</surname>
+<given-names>K</given-names>
+</string-name>
+<string-name>
+<surname>Lis</surname>
+<given-names>T.</given-names>
+</string-name>
+<year>2019</year>
+<article-title>Heteroaromatic aldehydes with unprecedented catalytic performance in selective radical reactions: synthesis of &#x003b1;&#x02010;aminophosphonate scaffolds</article-title>
+<source>Asian Journal of Organic Chemistry</source>
+<volume>8</volume>
+<fpage>1519</fpage>
+<lpage>1527</lpage>
+</element-citation></ref><ref id="ref24"><element-citation publication-type="journal">
+<string-name>
+<surname>Hosseinzadeh</surname>
+<given-names>Z</given-names>
+</string-name>
+<string-name>
+<surname>Razzaghi-Asl</surname>
+<given-names>N</given-names>
+</string-name>
+<string-name>
+<surname>Ramazani</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Aghahosseini</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Ramazani</surname>
+<given-names>A</given-names>
+</string-name>
+<year>2020</year>
+<article-title>Synthesis, cytotoxic assessment, and molecular docking studies of 2,6-diaryl-substituted pyridine and 3,4- dihydropyrimidine-</article-title>
+<source>Turkish Journal of Cemistry</source>
+<volume>2</volume>
+<fpage>194</fpage>
+<lpage>213</lpage>
+</element-citation></ref><ref id="ref25"><element-citation publication-type="journal">
+<string-name>
+<surname>Hosseinzaedeh</surname>
+<given-names>Z</given-names>
+</string-name>
+<string-name>
+<surname>Ramazani</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Razzaghi-Asl</surname>
+<given-names>NKS</given-names>
+</string-name>
+<string-name>
+<surname>Lis</surname>
+<given-names>T.</given-names>
+</string-name>
+<year>2019</year>
+<article-title>Boric acid as an efficient and green catalyst for the synthesis of 2-amino-4,6-diarylnicotinonitrile under microwave irradiation in solvent-free conditions</article-title>
+<source>Turkish Journal of Chemistry</source>
+<volume>43</volume>
+<fpage>464</fpage>
+<lpage>474</lpage>
+</element-citation></ref><ref id="ref26"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Antimicrobial activities; ionic liquid and microwave assisted synthesis of ring-substituted 3-(3-bromo-4-oxo-4h-chromen-2-yl)-4h-chromen-4-one</article-title>
+<source>World Journal of Pharmaceutical Research</source>
+<volume>3</volume>
+<fpage>4336</fpage>
+<lpage>4350</lpage>
+</element-citation></ref><ref id="ref27"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<string-name>
+<surname>Hatzade</surname>
+<given-names>KM</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Evaluation of substituted methyl cyclohexanone hybrids for anti-tubercular, anti-bacterial and anti-fungal activity: Facile syntheses under catalysis by ionic liquids</article-title>
+<source>Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy</source>
+<volume>151</volume>
+<fpage>515</fpage>
+<lpage>524</lpage>
+</element-citation></ref><ref id="ref28"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<string-name>
+<surname>Hatzade</surname>
+<given-names>KM</given-names>
+</string-name>
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<year>2015</year>
+<article-title>A comparative synthesis of ring-substituted 3-(3-bromo-4-oxo-4h-chromen-2-yl)-4h-chromen-4-one</article-title>
+<source>International Journal of Researches in Biosciences, Agriculture &#x00026; Technology</source>
+<volume>1</volume>
+<fpage>89</fpage>
+<lpage>99</lpage>
+</element-citation></ref><ref id="ref29"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Synthesis and anti-microbial activity of some substituted bis[2-((e)-2-(4- benzylideneamino)thiazol-4-yl)-4-methylphenol] metal complexes</article-title>
+<source>International Journal of Pharmacy and Pharmaceutical Sciences</source>
+<volume>6</volume>
+<fpage>142</fpage>
+<lpage>146</lpage>
+</element-citation></ref><ref id="ref30"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<string-name>
+<surname>Hatzade</surname>
+<given-names>KM</given-names>
+</string-name>
+<year>2020</year>
+<article-title>Pharmacokinetics, drug-likeness, medicinal properties, molecular docking analysis of substituted &#x003b2;-lactams synthesized via</article-title>
+<source>Chemistry: Bulgarian Journal of Science Education</source>
+<volume>29</volume>
+<fpage>206</fpage>
+<lpage>244</lpage>
+</element-citation></ref><ref id="ref31"><element-citation publication-type="journal">
+<string-name>
+<surname>Daina</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Michielin</surname>
+<given-names>O</given-names>
+</string-name>
+<string-name>
+<surname>Zoete</surname>
+<given-names>V.</given-names>
+</string-name>
+<year>2017</year>
+<article-title>SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules</article-title>
+<source>Scientific Reports</source>
+<volume>7</volume>
+<fpage>42717</fpage>
+<lpage>42717</lpage>
+<pub-id pub-id-type="pmid">28256516</pub-id></element-citation></ref><ref id="ref32"><element-citation publication-type="journal">
+<string-name>
+<surname>Ghose</surname>
+<given-names>AK</given-names>
+</string-name>
+<string-name>
+<surname>Viswanadhan</surname>
+<given-names>VN</given-names>
+</string-name>
+<string-name>
+<surname>Wendoloski</surname>
+<given-names>JJ</given-names>
+</string-name>
+<year>1999</year>
+<article-title>A knowledge-based approach in designing combinatorial or medicinal chemistry libraries for drug discovery. 1. A qualitative and quantitative characterization of known drug databases</article-title>
+<source>Journal of Combinatorial Chemistry</source>
+<volume>1</volume>
+<fpage>55</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">10746014</pub-id></element-citation></ref><ref id="ref33"><element-citation publication-type="journal">
+<string-name>
+<surname>Egan</surname>
+<given-names>WJ</given-names>
+</string-name>
+<string-name>
+<surname>Merz</surname>
+<given-names>KM</given-names>
+</string-name>
+<string-name>
+<surname>Baldwin JJ</surname>
+<given-names/>
+</string-name>
+<year>2000</year>
+<article-title>Prediction of drug absorption using multivariate statistics</article-title>
+<source>Journal of Medicinal Chemistry</source>
+<volume>43</volume>
+<fpage>3867</fpage>
+<lpage>3877</lpage>
+<pub-id pub-id-type="pmid">11052792</pub-id></element-citation></ref><ref id="ref34"><element-citation publication-type="journal">
+<string-name>
+<surname>Veber</surname>
+<given-names>DF</given-names>
+</string-name>
+<string-name>
+<surname>Johnson</surname>
+<given-names>SR</given-names>
+</string-name>
+<string-name>
+<surname>Cheng</surname>
+<given-names>HY</given-names>
+</string-name>
+<string-name>
+<surname>Smith</surname>
+<given-names>BR</given-names>
+</string-name>
+<string-name>
+<surname>Ward</surname>
+<given-names>KW</given-names>
+</string-name>
+<year>2002</year>
+<article-title>Molecular properties that influence the oral bioavailability of drug candidates</article-title>
+<source>Journal of Medicinal Chemistry</source>
+<volume>45</volume>
+<fpage>2615</fpage>
+<lpage>2623</lpage>
+<pub-id pub-id-type="pmid">12036371</pub-id></element-citation></ref><ref id="ref35"><element-citation publication-type="journal">
+<string-name>
+<surname>Muegge</surname>
+<given-names>I</given-names>
+</string-name>
+<string-name>
+<surname>Heald</surname>
+<given-names>SL</given-names>
+</string-name>
+<string-name>
+<surname>Brittelli</surname>
+<given-names>D.</given-names>
+</string-name>
+<year>2001</year>
+<article-title>Simple selection criteria for drug-like chemical matter</article-title>
+<source>Journal of Medicinal Chemistry</source>
+<volume>44</volume>
+<fpage>1841</fpage>
+<lpage>1846</lpage>
+<pub-id pub-id-type="pmid">11384230</pub-id></element-citation></ref><ref id="ref36"><element-citation publication-type="journal">
+<string-name>
+<surname>Brenk</surname>
+<given-names>R</given-names>
+</string-name>
+<string-name>
+<surname>Schipani</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>James</surname>
+<given-names>D</given-names>
+</string-name>
+<string-name>
+<surname>Krasowski</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Gilbert</surname>
+<given-names>IH</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Lessons learnt from assembling screening libraries for drug discovery for neglected diseases</article-title>
+<source>ChemMedChem</source>
+<volume>3</volume>
+<fpage>435</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">18064617</pub-id></element-citation></ref><ref id="ref37"><element-citation publication-type="journal">
+<string-name>
+<surname>Ogu</surname>
+<given-names>GC</given-names>
+</string-name>
+<string-name>
+<surname>Maxa</surname>
+<given-names>JL</given-names>
+</string-name>
+<year>2000</year>
+<article-title>Drug interaction due to cytochrome P450</article-title>
+<volume>13</volume>
+<fpage>421</fpage>
+<lpage>423</lpage>
+</element-citation></ref><ref id="ref38"><element-citation publication-type="journal">
+<string-name>
+<surname>Delaney</surname>
+<given-names>JS</given-names>
+</string-name>
+<year>2004</year>
+<article-title>Esol: Estimating aqueous solubility directly from molecular structure</article-title>
+<source>Journal of Chemical Information and Computer Sciences</source>
+<volume>44</volume>
+<fpage>1000</fpage>
+<lpage>1005</lpage>
+<pub-id pub-id-type="pmid">15154768</pub-id></element-citation></ref><ref id="ref39"><element-citation publication-type="journal">
+<string-name>
+<surname>Fagerberg</surname>
+<given-names>JH</given-names>
+</string-name>
+<string-name>
+<surname>Karlsson</surname>
+<given-names>E</given-names>
+</string-name>
+<string-name>
+<surname>Ulander</surname>
+<given-names>J</given-names>
+</string-name>
+<string-name>
+<surname>Hanisch</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Bergstrom</surname>
+<given-names>CAS</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Computational prediction of drug solubility in fasted simulated and aspirated human intestinal fluid</article-title>
+<source>Pharmaceutical Research</source>
+<volume>32</volume>
+<fpage>578</fpage>
+<lpage>589</lpage>
+<pub-id pub-id-type="pmid">25186438</pub-id></element-citation></ref><ref id="ref40"><element-citation publication-type="journal">
+<string-name>
+<surname>Gaidhane</surname>
+<given-names>MK</given-names>
+</string-name>
+<string-name>
+<surname>Ghatole</surname>
+<given-names>AM</given-names>
+</string-name>
+<string-name>
+<surname>Lanjewar</surname>
+<given-names>KR</given-names>
+</string-name>
+<year>2013</year>
+<article-title>Novel synthesis and antimicrobial activity of novel schiff base derived quinoline and their &#x003b2;-lactam derivatives</article-title>
+<source>International Journal of Pharmacy Pharmaceutical Sciences</source>
+<volume>5</volume>
+<fpage>421</fpage>
+<lpage>426</lpage>
+</element-citation></ref></ref-list></back></article>

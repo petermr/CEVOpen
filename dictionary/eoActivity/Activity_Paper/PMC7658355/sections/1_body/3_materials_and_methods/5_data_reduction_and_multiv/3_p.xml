@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="Par32">For the extracted data, delete the ion peaks whose missing values (ion intensity  = 0) is more than 50% in the group, and replace the 0 value with the half of the minimum value, and screen the qualitative compounds according to the score of the qualitative results of the compounds. The screening standard is 30 points (Full score 60 points), and if the score is lower than 30 points, the qualitative results are deemed to be inaccurate and deleted. Finally, the positive and negative data were combined to get a combined data matrix table which contained all the information extracted from the original data, and was imported into R ropls package. Principle component analysis (PCA) and (orthogonal) partial least-squares-discriminant analysis (O)PLS-DA were carried out to visualize the metabolic alterations between sweating and non-sweating groups, after mean centering (Ctr) and Pareto variance
- <sup>
-  <xref ref-type="bibr" rid="CR51">51</xref>
- </sup> scaling, respectively. The Hotelling’s T2 region, shown as an ellipse in score plots of the models, defines the 95% confidence interval of the modeled variation. Variable importance in the projection (VIP) ranks the overall contribution of each variable to the OPLS-DA model, and those variables with VIP ≥ 1.0 are considered relevant for group discrimination
- <sup>
-  <xref ref-type="bibr" rid="CR52">52</xref>
- </sup>.
-</p>

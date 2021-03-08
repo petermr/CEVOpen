@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab4" orientation="portrait" position="float">
+ <label>Table 4</label>
+ <caption>
+  <p>Survival assay using in vivo model—
+   <italic>C. elegans</italic> model to evaluate the WE extract on lifetime.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Survival condition</th>
+    <th align="center" rowspan="1" colspan="1">Mean of survival time (hours)</th>
+    <th align="center" rowspan="1" colspan="1">Variation of survival mean (%)</th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>p</italic> value-Log-rank (Mantel-Cox) tests
+    </th>
+    <th align="center" rowspan="1" colspan="1">Number of dead animals/censored</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Control</td>
+    <td align="center" rowspan="1" colspan="1">4.8</td>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">80/0</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">WE 1 mg/mL</td>
+    <td align="center" rowspan="1" colspan="1">7.9</td>
+    <td align="center" rowspan="1" colspan="1">39.2</td>
+    <td align="center" rowspan="1" colspan="1">&lt;0.0001</td>
+    <td align="center" rowspan="1" colspan="1">80/0</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">WE 10 mg/mL</td>
+    <td align="center" rowspan="1" colspan="1">8.2</td>
+    <td align="center" rowspan="1" colspan="1">41.3</td>
+    <td align="center" rowspan="1" colspan="1">&lt;0.0001</td>
+    <td align="center" rowspan="1" colspan="1">80/0</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

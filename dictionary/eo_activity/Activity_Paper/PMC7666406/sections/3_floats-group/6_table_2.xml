@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Results of AMOVA for 
+   <italic>H. cordata</italic> Thunb. individuals based on 137 ISSR markers
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Group</th>
+    <th>Partitioning</th>
+    <th>d.f</th>
+    <th>Sum of squares</th>
+    <th>Variance components</th>
+    <th>% of variation</th>
+    <th>
+     <italic>F</italic> statistics
+    </th>
+    <th>
+     <italic>p</italic> value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4">Four geographical regions (North-Eastern, North-Western, South-Western and South-Eastern)</td>
+    <td>Among groups (four regions)</td>
+    <td>3</td>
+    <td>4515.270</td>
+    <td>11.308</td>
+    <td>60</td>
+    <td>PhiRT = 0.603</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Among population within groups</td>
+    <td>14</td>
+    <td>356.864</td>
+    <td>0.615</td>
+    <td>3</td>
+    <td>PhiPR = 0.083</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>527</td>
+    <td>3601.671</td>
+    <td>6.834</td>
+    <td>36</td>
+    <td>PhiPT = 0.636</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>544</td>
+    <td>8473.806</td>
+    <td>18.757</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">South-Eastern population</td>
+    <td>Among population</td>
+    <td>5</td>
+    <td>108.266</td>
+    <td>0.526</td>
+    <td>9</td>
+    <td>PhiPT = 0.088</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>179</td>
+    <td>971.247</td>
+    <td>5.426</td>
+    <td>91</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>184</td>
+    <td>1079.514</td>
+    <td>5.952</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">North-Western population</td>
+    <td>Among population</td>
+    <td>1</td>
+    <td>38.119</td>
+    <td>0.990</td>
+    <td>10</td>
+    <td>PhiPT = 0.100</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>57</td>
+    <td>508.694</td>
+    <td>8.924</td>
+    <td>90</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>58</td>
+    <td>546.814</td>
+    <td>9.914</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">North-Eastern population</td>
+    <td>Among population</td>
+    <td>4</td>
+    <td>123.133</td>
+    <td>0.749</td>
+    <td>9</td>
+    <td>PhiPT = 0.092</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>151</td>
+    <td>1120.662</td>
+    <td>7.422</td>
+    <td>91</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>155</td>
+    <td>1243.795</td>
+    <td>8.171</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">South-Western population</td>
+    <td>Among population</td>
+    <td>4</td>
+    <td>87.346</td>
+    <td>0.506</td>
+    <td>7</td>
+    <td>PhiPT = 0.066</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>140</td>
+    <td>1001.068</td>
+    <td>7.150</td>
+    <td>93</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>144</td>
+    <td>1088.414</td>
+    <td>7.657</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">Northern population</td>
+    <td>Among population</td>
+    <td>6</td>
+    <td>1192.942</td>
+    <td>6.220</td>
+    <td>44</td>
+    <td>PhiPT = 0.443</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>208</td>
+    <td>1629.356</td>
+    <td>7.833</td>
+    <td>56</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>214</td>
+    <td>2822.298</td>
+    <td>14.054</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">Southern population</td>
+    <td>Among population</td>
+    <td>10</td>
+    <td>1713.579</td>
+    <td>5.507</td>
+    <td>47</td>
+    <td>PhiPT = 0.471</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>319</td>
+    <td>1972.315</td>
+    <td>6.183</td>
+    <td>53</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>329</td>
+    <td>3685.894</td>
+    <td>11.690</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">18 populations from each locality</td>
+    <td>Among population</td>
+    <td>17</td>
+    <td>4872.134</td>
+    <td>9.241</td>
+    <td>57</td>
+    <td>PhiPT = 0.575</td>
+    <td>
+     <italic>p</italic> &lt; 0.001
+    </td>
+   </tr>
+   <tr>
+    <td>Within population</td>
+    <td>527</td>
+    <td>3601.671</td>
+    <td>6.834</td>
+    <td>43</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>Total</td>
+    <td>544</td>
+    <td>8473.806</td>
+    <td>16.075</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

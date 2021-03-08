@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>3D model for compound 
+ <bold>1</bold> was built and geometry optimized using Spartan’10 with a PM3 semiempirical method. Conformational analysis was performed via Monte Carlo search protocol under the same force field. The conformers were checked for redundancy. All conformers within 10 kcal/mol were minimized using DFT at the B3LYP/DGDZVP level of theory employing Gaussian 09 (Gaussian, Inc., Wallingford, CT). The conformers were optimized, and the IR, vibrational analyses and thermochemical properties were obtained. The TD-SCF with default solvent model was used to perform the ECD calculations of the major conformers in MeOH solution, using a B3LYP-6-31 + G(d) force field. The calculated rotatory strength (
+ <italic>R</italic>) in dipole velocity form (Rvel), and the excitation energy (nm) were simulated into an ECD curve using SpecDis software (Berlin, Germany), which uses the Harada–Nakanishi approximation (
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref>) (Bruhn et al. 
+ <xref rid="CIT0005" ref-type="bibr">2013</xref>). The spectra were generated with a 
+ <italic>σ</italic>/
+ <italic>γ</italic> value of 0.28 eV and a UV correction of –5.0 nm. All calculations were performed on the HP Cluster Platform 3000SL ‘Miztli’, a parallel supercomputer with a Linux operating system, containing 25,312 cores and a total of 15,000 GB of RAM. The Harada–Nakanishi equation: 
+ <disp-formula id="M0001">
+  <label>(1)</label>
+  <alternatives>
+   <graphic xlink:href="IPHB_A_1784235_M0001.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d1e689">
+    <mo>Δ</mo>
+    <mi>ε</mi>
+    <mo stretchy="true">(</mo>
+    <mrow>
+     <mi>v</mi>
+    </mrow>
+    <mo stretchy="true">)</mo>
+    <mo>=</mo>
+    <mi mathvariant="normal"> </mi>
+    <mrow>
+     <msubsup>
+      <mo stretchy="false">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+     </msubsup>
+     <mrow>
+      <mo>Δ</mo>
+      <msub>
+       <mrow>
+        <mi>ε</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi>v</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+      <mo>=</mo>
+      <mrow>
+       <msubsup>
+        <mo stretchy="false">∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mrow>
+         <mi>n</mi>
+        </mrow>
+       </msubsup>
+       <mrow>
+        <mo>=</mo>
+        <mi mathvariant="normal"> </mi>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>R</mi>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msup>
+           <mrow>
+            <mn>2.296</mn>
+            <mo>×</mo>
+            <mn>10</mn>
+           </mrow>
+           <mrow>
+            <mo>−</mo>
+            <mn>39</mn>
+           </mrow>
+          </msup>
+          <mi mathvariant="normal"> </mi>
+          <msqrt>
+           <mi>π</mi>
+          </msqrt>
+         </mrow>
+        </mfrac>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>v</mi>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>σ</mi>
+         </mrow>
+        </mfrac>
+        <mi mathvariant="normal"> </mi>
+        <mi>e</mi>
+       </mrow>
+      </mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <mo>−</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>v</mi>
+            <mo> − </mo>
+            <msub>
+             <mrow>
+              <mi>v</mi>
+             </mrow>
+             <mrow>
+              <mi>i</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mrow>
+            <mi>σ</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+    </mrow>
+    <mi mathvariant="normal"> </mi>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

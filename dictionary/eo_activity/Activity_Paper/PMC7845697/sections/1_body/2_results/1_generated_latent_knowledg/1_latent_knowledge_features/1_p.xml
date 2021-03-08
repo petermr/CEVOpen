@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We evaluated the latent knowledge features by calculating the similarity for groups of drugs based on the Anatomical Therapeutic Chemical (ATC) code. The ATC classification system categorizes drugs into different groups according to their chemical, pharmacological, and therapeutic properties (
+ <xref rid="B65" ref-type="bibr">Methodology, 1982</xref>; 
+ <xref rid="B80" ref-type="bibr">Organization, 2019</xref>). In the ATC classification system, drugs are classified into groups at five different levels: the first level has 14 anatomical main groups; the second level indicates the main therapeutic group; the third level indicates a therapeutic or pharmacological subgroup; the fourth level indicates a therapeutic, pharmacological, or chemical subgroup; and the fifth level is the chemical substance. In this experiment, we grouped the drugs based on the five levels of the ATC code, respectively. For each group, cosine similarity values for the latent knowledge features of all possible drug pairs were calculated. From the result, we found that the mean value of the cosine similarity of the same ATC code group (
+ <italic>S</italic>
+ <sub>1st</sub> = 0.417, 
+ <italic>S</italic>
+ <sub>2nd</sub> = 0.478, 
+ <italic>S</italic>
+ <sub>3rd</sub> = 0.551, 
+ <italic>S</italic>
+ <sub>4th</sub> = 0.603, 
+ <italic>S</italic>
+ <sub>5th</sub> = 0.608) was higher than that of the randomly selected group (
+ <italic>S</italic>
+ <sub>random</sub> = 0.341–0.369). Moreover, it was confirmed that the similarity of the latent knowledge features increased as the level of ATC codes went from top to bottom. We have provided the results of cosine similarity for all groups in 
+ <xref ref-type="sec" rid="s9">Supplementary Data S3</xref>. Moreover, our approach has a higher similarity values comparing with the word2vec method (
+ <italic>S</italic>
+ <sub>1st</sub> = 0.322, 
+ <italic>S</italic>
+ <sub>2nd</sub> = 0.349, 
+ <italic>S</italic>
+ <sub>3rd</sub> = 0.423, 
+ <italic>S</italic>
+ <sub>4th</sub> = 0.498, 
+ <italic>S</italic>
+ <sub>5th</sub> = 0.502). These results indicated that the latent knowledge features effectively represented the anatomical, therapeutic, and pharmacological properties, as the deeper the ATC level, the more similar the properties of the drugs.
+</p>

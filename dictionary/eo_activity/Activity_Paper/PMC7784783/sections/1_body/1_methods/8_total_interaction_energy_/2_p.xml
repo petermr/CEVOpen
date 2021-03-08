@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to quantify the dimer stabilization exerted by the ligand, two stabilization components were considered: ligand-dimer and monomer-monomer interactions. The sum of these two components was called Total Interaction Energy (TIE). 
+ <disp-formula id="M0002">
+  <alternatives>
+   <graphic xlink:href="TBSD_A_1860828_M0002.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e461">
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi mathvariant="italic">Lig</mi>
+       <mo>/</mo>
+       <mi mathvariant="italic">Dimer</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <munder>
+        <mo>∑</mo>
+        <mi>i</mi>
+       </munder>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi mathvariant="italic">Lig</mi>
+       <mo>/</mo>
+       <mi>R</mi>
+       <mi>e</mi>
+       <msub>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+        <mi>i</mi>
+       </msub>
+       <mo stretchy="false">)</mo>
+       <mo>+</mo>
+       <munder>
+        <mo>∑</mo>
+        <mi>j</mi>
+       </munder>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi mathvariant="italic">Lig</mi>
+       <mo>/</mo>
+       <mi>R</mi>
+       <mi>e</mi>
+       <msub>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+        <mi>j</mi>
+       </msub>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mi>T</mi>
+       <mi>I</mi>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi mathvariant="italic">Lig</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi mathvariant="italic">Lig</mi>
+       <mo>/</mo>
+       <mi mathvariant="italic">Dimer</mi>
+       <mo stretchy="false">)</mo>
+       <mo>+</mo>
+       <munder>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>j</mi>
+        </mrow>
+       </munder>
+       <mi>E</mi>
+       <mo stretchy="false">(</mo>
+       <mi>R</mi>
+       <mi>e</mi>
+       <msub>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+        <mi>i</mi>
+       </msub>
+       <mo>/</mo>
+       <mi>R</mi>
+       <mi>e</mi>
+       <msub>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+        <mi>j</mi>
+       </msub>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

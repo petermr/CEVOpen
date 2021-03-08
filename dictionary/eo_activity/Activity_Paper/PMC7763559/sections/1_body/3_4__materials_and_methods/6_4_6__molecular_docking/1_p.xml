@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Docking was carried out using AutoDock Vina (version 1.1.2) to predict the binding affinity of the identified compounds to the active site of the enzyme. From Protein Data Bank (PDB), the AG crystal structure was combined (PDB code: 3A4A) [
+ <xref rid="B17-molecules-25-05885" ref-type="bibr">17</xref>,
+ <xref rid="B53-molecules-25-05885" ref-type="bibr">53</xref>,
+ <xref rid="B54-molecules-25-05885" ref-type="bibr">54</xref>,
+ <xref rid="B55-molecules-25-05885" ref-type="bibr">55</xref>,
+ <xref rid="B56-molecules-25-05885" ref-type="bibr">56</xref>,
+ <xref rid="B57-molecules-25-05885" ref-type="bibr">57</xref>]. The 3D structures of the identified compound were collected from the Super Natural II database as *.mol files and quercetin was collected from Pub Chem in *.sdf format. All the structures of the identified compounds were changed to *.pdb format by Open Babel (version 2.3.1) [
+ <xref rid="B17-molecules-25-05885" ref-type="bibr">17</xref>]. Then AutoDock Tools (version 1.5.6) was used to convert the compounds in *.pdb format to *. Pdbqt, prior to docking. Gasteiger charges and hydrogen atoms were added [
+ <xref rid="B53-molecules-25-05885" ref-type="bibr">53</xref>]. The rotatable bonds were set using AutoDock Tools. The co-crystallized ligand, alpha-D-glucose (ADG), was re-docked into the enzyme (PDB ID: 3A4A). The top-levelled docking conformations were compared with the actual crystallographic conformation based on the values of root mean square deviation (RMSD). The same parameters as in the control docking were applied for the docking of quercetin, as well as compounds 
+ <bold>1</bold>, 
+ <bold>2</bold> and 
+ <bold>3</bold> against the enzyme [
+ <xref rid="B36-molecules-25-05885" ref-type="bibr">36</xref>,
+ <xref rid="B58-molecules-25-05885" ref-type="bibr">58</xref>]. The grid box parameters were centered at the coordinate of 21.272, −0.751 and 18.634. The sizes of the grid box for X, Y, and Z were 20 Å, 26 Å and 22 Å, respectively, while the exhaustiveness was set as 16. The docking was performed in triplicate. The enzyme crystal structure was protonated at a pH of 6.5 with the PDB2PQR Server, version 2.0.0, to simulate the real state of the bioassay [
+ <xref rid="B17-molecules-25-05885" ref-type="bibr">17</xref>,
+ <xref rid="B59-molecules-25-05885" ref-type="bibr">59</xref>]. The 3D superimposed diagram of the standard and the detected compounds were rendered using PyMOL TM 1.7.4.5 (Schrödinger, LLC, New York, NY, USA) [
+ <xref rid="B17-molecules-25-05885" ref-type="bibr">17</xref>]. All docking outcomes were analyzed by Biovia Discovery Studio Visualizer (San Diego, CA, USA) [
+ <xref rid="B17-molecules-25-05885" ref-type="bibr">17</xref>,
+ <xref rid="B36-molecules-25-05885" ref-type="bibr">36</xref>,
+ <xref rid="B58-molecules-25-05885" ref-type="bibr">58</xref>].
+</p>

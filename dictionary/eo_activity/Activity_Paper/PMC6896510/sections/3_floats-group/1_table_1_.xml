@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Parameters aquired by progress–curve fitting. Comparison of fitted values obtained using the numerical integration approach (
+   <italic>DynaFit</italic>, see Ref. [
+   <xref rid="CIT0009" ref-type="bibr">9</xref>]), the exact algebraic model 
+   <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref> with the Lambert W(x) function (
+   <italic>DynaFit</italic>, see Ref. [
+   <xref rid="CIT0009" ref-type="bibr">9</xref>]), and the approximation of W(x) of the modified model 
+   <xref ref-type="disp-formula" rid="M0002">Equation (2)</xref> (
+   <italic>GraphPad, Lambert W</italic>, see Ref. [
+   <xref rid="CIT0011" ref-type="bibr">11</xref>]). The measurements for each sample were carried in duplicate or triplicate. Data are means ± SD.
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left"> </th>
+    <th align="center">DynaFit numerical integration</th>
+    <th align="center">DynaFit Lambert W</th>
+    <th align="center">GraphPad Lambert W</th>
+    <th align="center"> </th>
+    <th align="center">DynaFit numerical integration</th>
+    <th align="center">DynaFit Lambert W</th>
+    <th align="center">GraphPad Lambert W</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 1
+     <hr/>
+    </td>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 2
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">101.0 ± 0.1</italic>
+    </td>
+    <td align="char" char="±">101.0 ± 0.1</td>
+    <td align="char" char="±">100.9 ± 0.1</td>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">100.6 ± 0.1</italic>
+    </td>
+    <td align="char" char="±">100.6 ± 0.1</td>
+    <td align="char" char="±">100.6 ± 0.1</td>
+   </tr>
+   <tr>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">11.3 ± 0.5</italic>
+    </td>
+    <td align="char" char="±">11.3 ± 0.5</td>
+    <td align="char" char="±">11.0 ± 0.5</td>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">11.8 ± 0.6</italic>
+    </td>
+    <td align="char" char="±">11.8 ± 0.6</td>
+    <td align="char" char="±">11.5 ± 0.5</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="left">
+     <italic toggle="yes">250.2 ± 2.1</italic>
+     <hr/>
+    </td>
+    <td align="left">222.3 ± 8.6
+     <hr/>
+    </td>
+    <td align="char" char="±">248.8 ± 1.8
+     <hr/>
+    </td>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="left">
+     <italic toggle="yes">241.3 ± 2.3</italic>
+     <hr/>
+    </td>
+    <td align="left">204.5 ± 8.6
+     <hr/>
+    </td>
+    <td align="char" char="±">239.9 ± 2.1
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 3
+     <hr/>
+    </td>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 4
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">98.3 ± 0.2</italic>
+    </td>
+    <td align="char" char="±">98.3 ± 0.2</td>
+    <td align="char" char="±">98.3 ± 0.1</td>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">99.9 ± 0.1</italic>
+    </td>
+    <td align="char" char="±">99.9 ± 0.1</td>
+    <td align="char" char="±">99.9 ± 0.1</td>
+   </tr>
+   <tr>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">8.6 ± 0.5</italic>
+    </td>
+    <td align="char" char="±">8.6 ± 0.5</td>
+    <td align="char" char="±">8.4 ± 0.4</td>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">9.5 ± 0.3</italic>
+    </td>
+    <td align="char" char="±">9.5 ± 0.3</td>
+    <td align="char" char="±">9.2 ± 0.1</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="left">
+     <italic toggle="yes">129.2 ± 1.1</italic>
+     <hr/>
+    </td>
+    <td align="left">150.5 ± 7.4
+     <hr/>
+    </td>
+    <td align="char" char="±">128.6 ± 1.0
+     <hr/>
+    </td>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="left">
+     <italic toggle="yes">204.3 ± 1.1</italic>
+     <hr/>
+    </td>
+    <td align="left">214.7 ± 6.1
+     <hr/>
+    </td>
+    <td align="char" char="±">202.9 ± 0.3
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 5
+     <hr/>
+    </td>
+    <td align="left"> </td>
+    <td colspan="3" align="center">Sample 6
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">99.2 ± 0.2</italic>
+    </td>
+    <td align="char" char="±">97.6 ± 0.1</td>
+    <td align="char" char="±">99.2 ± 0.2</td>
+    <td align="left">[S]
+     <sub>0</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">101.9 ± 0.3</italic>
+    </td>
+    <td align="char" char="±">101.1 ± 0.2</td>
+    <td align="char" char="±">101.9 ± 0.2</td>
+   </tr>
+   <tr>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">13.8 ± 1.2</italic>
+    </td>
+    <td align="char" char="±">11.4 ± 0.6</td>
+    <td align="char" char="±">13.5 ± 1.1</td>
+    <td align="left">K
+     <sub>m</sub> (μM)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">10.7 ± 0.9</italic>
+    </td>
+    <td align="char" char="±">9.6 ± 0.6</td>
+    <td align="char" char="±">10.4 ± 0.8</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">304.2 ± 5.7</italic>
+    </td>
+    <td align="char" char="±">252 ± 10</td>
+    <td align="char" char="±">302.6 ± 5.2</td>
+    <td align="left">
+     <italic toggle="yes">V</italic>
+     <sub>max</sub> (μM/min)
+    </td>
+    <td align="char" char="±">
+     <italic toggle="yes">176.5 ± 2.4</italic>
+    </td>
+    <td align="char" char="±">179.5 ± 9.7</td>
+    <td align="char" char="±">175.5 ± 2.1</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

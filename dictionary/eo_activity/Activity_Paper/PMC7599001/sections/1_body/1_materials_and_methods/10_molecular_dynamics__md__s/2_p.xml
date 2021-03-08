@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MD simulations were carried out using the Desmond simulation package of Schrödinger LLC (Schrödinger Release 2019–1: Desmond Molecular Dynamics System; D. E. Shaw Research: New York, NY, 2019; Maestro-Desmond Interoperability Tools, Schrödinger, New York, NY, 2019). The X-ray structure of the 
+ <italic>H
+  <sup>5</sup>
+ </italic> covalently bound to 
+ <bold>SVG</bold> was used in this study, entry code 6GA0
+ <xref rid="CIT0039" ref-type="bibr">
+  <sup>39</sup>
+ </xref>, water molecules were removed, and all hydrogen atoms and charges were added. The NPT ensemble with the temperature of 300 K and a pressure 1 bar was applied in all runs. The simulation length was 100 ns with relaxation time 1 ps. The OPLS_2005 force field parameters were used in all simulations
+ <xref rid="CIT0040" ref-type="bibr">
+  <sup>40</sup>
+ </xref>. The long-range electrostatic interactions were calculated using the particle mesh Ewald method
+ <xref rid="CIT0041" ref-type="bibr">
+  <sup>41</sup>
+ </xref>. The cut-off radius in Coulomb interactions was 9.0 Å. The water molecules were explicitly described using the simple point charge model
+ <xref rid="CIT0042" ref-type="bibr">
+  <sup>42</sup>
+ </xref>. The Martyna–Tuckerman–Klein chain coupling scheme
+ <xref rid="CIT0043" ref-type="bibr">
+  <sup>43</sup>
+ </xref> with a coupling constant of 2.0 ps was used for the pressure control and the Nosé–Hoover chain coupling scheme
+ <xref rid="CIT0044" ref-type="bibr">
+  <sup>44</sup>
+ </xref> for the temperature control. Non-bonded forces were calculated using an r-RESPA integrator where the short-range forces were updated every step and the long-range forces were updated every three steps. The trajectory sampling was done at an interval of 1.0 ps. The behaviour and interactions between the ligands and protein were analysed using the Simulation Interaction Diagram tool implemented in the Desmond MD package. The stability of MD simulations was monitored by looking at the RMSD of the ligand and protein atom positions in time.
+</p>

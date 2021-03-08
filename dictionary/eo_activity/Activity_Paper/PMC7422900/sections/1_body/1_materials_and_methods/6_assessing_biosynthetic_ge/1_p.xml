@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To ascertain the biosynthetic gene cluster (BGC) potential of bacterial endophytes the genomes were analysed with the specialised metabolite predicting software antiSMASH v4.0 (Blin 
+ <italic>et al</italic>. 
+ <xref rid="bib9" ref-type="bibr">2017</xref>). Following BGC prediction, the sequences were extracted for de-replication to understand the overall biosynthetic diversity of the endophyte genome collection. BGC sequences were grouped according to genus and de-replicated using a pairwise k-mer-based comparison with Mash v2.2 (Ondov 
+ <italic>et al</italic>. 
+ <xref rid="bib50" ref-type="bibr">2016</xref>) and applying a maximum distance threshold of 0.24. De-replication was performed with the assumption that BGCs would not be shared between the different genera. The resulting distance network was visualised using Cytoscape v3.4.0 (Shannon 
+ <xref rid="bib65" ref-type="bibr">2003</xref>). Manual curation of the network was required to identify instances of BGCs split across multiple contigs and erroneously predicted hybrid BGCs due to close genomic locus proximity.
+</p>

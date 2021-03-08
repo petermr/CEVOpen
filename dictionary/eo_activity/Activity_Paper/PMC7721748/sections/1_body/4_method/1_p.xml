@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">The model of the CNN, which is utilized in this experiment, comprises of a three-layers fully connected network with two convolution layers and two pooling layers followed by one hidden layer as shown in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>. The input information for the proposed CNN is a 2D matrix of [120 × 573] that represents “the number of essential oils and the numbers of their chemical compounds, respectively”. The following sequential layers start with a convolution layer which applies a convolutional process to the input matrix. The output of each node in the convolution layer is the result of a convolution operation by each filter. The next layer is the pooling layer which is used to compress information and generalize features to reduce the overfitting of the training data. In this experiment, the local max-pooling, which produces the maximum value from small divided regions in the input matrix, is used. The convolution and pooling outputs are calculated by the following equation;
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${O}_{k}^{l}=\sum {a}_{k}^{l}*{w}_{k}^{l}+{b}_{k}^{l}$$\end{document}</tex-math>
+   <math id="M14" display="block">
+    <mrow>
+     <msubsup>
+      <mi>O</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>l</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mo>∑</mo>
+     <msubsup>
+      <mi>a</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>l</mi>
+     </msubsup>
+     <mrow/>
+     <mo>∗</mo>
+     <msubsup>
+      <mi>w</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>l</mi>
+     </msubsup>
+     <mo>+</mo>
+     <msubsup>
+      <mi>b</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>l</mi>
+     </msubsup>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78449_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

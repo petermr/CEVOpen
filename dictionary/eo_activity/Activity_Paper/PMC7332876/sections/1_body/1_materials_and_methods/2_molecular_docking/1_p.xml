@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Crystal Structures of SARS-CoV-2 main protease (PDB ID: 5R82.pdb), spike protein (PDB ID: 6VYB.pdb) and human entry receptor ACE2 (PDB ID:1R42.pdb) were retrieved from RCSB PDB database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.rcsb.org/pdb</ext-link>). In order to minimize the energy, PDB structures of the target proteins were refined through ModRefiner algorithm (Xu &amp; Zhang, 
+ <xref rid="CIT0085" ref-type="bibr">2011</xref>). Ligands were optimized by adding hydrogen atoms and energy minimization was performed with MMFF94 Force Field in Autodock v4.2 (Norgan et al., 
+ <xref rid="CIT0060" ref-type="bibr">2011</xref>). Grid box was defined on binding pocket of target protein and the grid points were extended in all directions to encompass the binding region. Molecular docking was performed through Autodock v4.2 by tethering ligand to target protein and the binding affinity was determined through kcal mol
+ <sup>−1</sup>. The pose with highest binding energy was extracted and analysed in Biovia Discovery Studio 4.5 software (Systemes, 
+ <xref rid="CIT0072" ref-type="bibr">2015</xref>).
+</p>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab5">
+ <label>Table 5</label>
+ <caption>
+  <p>Poisson regression model of the average number of species and diseases cited by the different social groups</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Dependent</th>
+    <th>Factor</th>
+    <th>B (estimated coefficient)</th>
+    <th>Standard Error</th>
+    <th>
+     <italic>p</italic>-value.
+    </th>
+    <th>Exp(B) (exponentiated values)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="10">Number of species</td>
+    <td>(Constant)</td>
+    <td>1.191</td>
+    <td>0.0769</td>
+    <td>.000</td>
+    <td>3.289</td>
+   </tr>
+   <tr>
+    <td>Female</td>
+    <td>-0.29</td>
+    <td>0.0764</td>
+    <td>.000</td>
+    <td>0.749</td>
+   </tr>
+   <tr>
+    <td>Male</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>Kisantu (urban)</td>
+    <td>0.426</td>
+    <td>0.0977</td>
+    <td>.000</td>
+    <td>1.53</td>
+   </tr>
+   <tr>
+    <td>Mbanza-Ngungu urban</td>
+    <td>0.565</td>
+    <td>0,0999</td>
+    <td>.000</td>
+    <td>1.76</td>
+   </tr>
+   <tr>
+    <td>Mbanza-Ngungu rural</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>Herbalists</td>
+    <td>-0.812</td>
+    <td>0.2165</td>
+    <td>.000</td>
+    <td>0.444</td>
+   </tr>
+   <tr>
+    <td>Curing healer</td>
+    <td>0.383</td>
+    <td>0.1056</td>
+    <td>.000</td>
+    <td>1.467</td>
+   </tr>
+   <tr>
+    <td>Traditional health practitioners</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>(Scale)</td>
+    <td>1
+     <sup>b</sup>
+    </td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="10">Number of diseases</td>
+    <td>(Constant)</td>
+    <td>0.132</td>
+    <td>0.1288</td>
+    <td>0.304</td>
+    <td>1.142</td>
+   </tr>
+   <tr>
+    <td>Female</td>
+    <td>-0.279</td>
+    <td>0.1181</td>
+    <td>0.018</td>
+    <td>0.756</td>
+   </tr>
+   <tr>
+    <td>Male</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>Kisantu (urban)</td>
+    <td>0,52</td>
+    <td>0.1616</td>
+    <td>0.001</td>
+    <td>1.682</td>
+   </tr>
+   <tr>
+    <td>Mbanza-Ngungu urban</td>
+    <td>0.874</td>
+    <td>0.1576</td>
+    <td>0</td>
+    <td>2.397</td>
+   </tr>
+   <tr>
+    <td>Mbanza-Ngungu rural</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>Herbalists</td>
+    <td>-0.467</td>
+    <td>0.3005</td>
+    <td>0.12</td>
+    <td>0.627</td>
+   </tr>
+   <tr>
+    <td>Curing healer</td>
+    <td>0.574</td>
+    <td>0.1595</td>
+    <td>0</td>
+    <td>1.774</td>
+   </tr>
+   <tr>
+    <td>Traditional health practitioners</td>
+    <td>0
+     <sup>a</sup>
+    </td>
+    <td>.</td>
+    <td>.</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>(Scale)</td>
+    <td>1
+     <sup>b</sup>
+    </td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>set to 0; 
+   <sup>b</sup>Fixed display value
+  </p>
+ </table-wrap-foot>
+</table-wrap>
