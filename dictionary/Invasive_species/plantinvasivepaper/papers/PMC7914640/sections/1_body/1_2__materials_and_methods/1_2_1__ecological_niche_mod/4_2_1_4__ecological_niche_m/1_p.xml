@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We constructed ENM using the maximum entropy algorithm implemented in MaxEnt version 3.4.1 via the 
+ <italic>kuenm</italic> R package [
+ <xref rid="B38-insects-12-00143" ref-type="bibr">38</xref>]. We created candidate models by combining four sets of environmental variables, 17 values of regularization multipliers (0.1–1 with intervals of 0.1, 2–6 with intervals of 1, and 8 and 10), and all 29 possible combinations of 5 feature classes (linear = l, quadratic = q, product = p, threshold = t, and hinge = h) [
+ <xref rid="B38-insects-12-00143" ref-type="bibr">38</xref>]. The best candidate model was selected based on three criteria: 1) significance, 2) performance, and 3) the Akaike information criteria (AIC): AICc, delta AICc, and AICc weights. Statistical significance was determined by a bootstrap resampling of 50% of testing data, and probabilities were assessed by direct count of the proportion of bootstrap replicates for which the AUC ratio was ≤1.0. Performance was measured using omission rates, which indicate how well the models constructed with training data can anticipate test occurrences based on a maximum allowable omission error rate of 5%, assuming that up to 5% of occurrence data may include errors that misrepresented environmental values. We followed the criteria from a previous study [
+ <xref rid="B38-insects-12-00143" ref-type="bibr">38</xref>] for selecting the final model, evaluating the model, and assessing extrapolation risk. We created the final models of 
+ <italic>Ae. albopictus</italic> using 10 replicates by bootstrap, with logistic outputs, and transferred these models from the accessible area “
+ <bold>
+  <italic>M</italic>
+ </bold>” to the projection area “
+ <bold>
+  <italic>G</italic>
+ </bold>”.
+</p>

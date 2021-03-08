@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Optimum performance of the GBM‐BRT was found when using ~6,050 trees than 3,100 trees; while the GBM performed better with 500 trees than 100 trees. The RF model performed better for 5,000 trees than with 1,000 trees. The tested algorithms weighted the explanatory variables differently, depending on each model's sensitivity to small variations in the data and to the variable types (Figure 
+ <xref rid="ece34919-fig-0002" ref-type="fig">2</xref>a–g). In all models, Relief, Landform, Rugged, and Slope were removed again from the model except from the DNN. In the DNN, the least important variables were NIR, PAN, Red, NDVI, and Slope. Interestingly, DistRoad, Rugged, Relief, and Slope proved to be among the least‐contributing variables in the GLM model and were removed from the final iteration (Figure 
+ <xref rid="ece34919-fig-0002" ref-type="fig">2</xref>a) though DistRoad was one of the important contributors in other models. In the MLAs, 13 out of the 17 variables were kept. The most important explanatory variables, having &gt;5% relative influence, were selected by more than one MLAs. These are NDVI, Elevation, DistVillage, DistRiver, Rain, NIR, Red, LSTd, and LSTn in decreasing order. The first four variables had the highest influence in four of the seven models to explain 
+ <italic>Prosopis</italic> distribution (Figure 
+ <xref rid="ece34919-fig-0002" ref-type="fig">2</xref>).
+</p>

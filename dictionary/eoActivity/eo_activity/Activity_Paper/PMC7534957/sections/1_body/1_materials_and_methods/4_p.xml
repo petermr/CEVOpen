@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Docking simulations</italic> - The docking simulations were as previously reported,
+ <xref rid="B15" ref-type="bibr">
+  <sup>15</sup>
+ </xref> in which the grid box was centered at the ligand X77 in 3CLpro (PDB ID: 6W63) and at the presumed active site
+ <xref rid="B16" ref-type="bibr">
+  <sup>16</sup>
+ </xref> in the RdRp (PDB ID: 6M71). For 3CLpro, the grid box was centered at x = -20.810, y = 19.141, and z = -29.186, with x = 27 Å, y = 25 Å, and z = 25 Å size. On the other hand, the RdRp grid box was centered at the x = 117.382, y = 111.853, and z = 121.073, with x = 22 Å, y = 30 Å, and and z = 46 Å size. The interactions and the binding affinity of the protein-ligand complex were predicted via a docking process using Autodock Vina, which use a Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm, through an Iterated Local Search method, to generate different ligand conformers.
+ <xref rid="B17" ref-type="bibr">
+  <sup>17</sup>
+ </xref> Regarding scoring function, Autodock Vina uses a hybrid score function that combine empirical and knowledge-based functions.
+ <xref rid="B17" ref-type="bibr">
+  <sup>17</sup>
+ </xref> Finally, the results were viewed with the Discovery Studio software.
+ <xref rid="B18" ref-type="bibr">
+  <sup>18</sup>
+ </xref> Due to the lack of models with ligands for RdRp in the RCSB PDB, only the 3CLpro was tested for redocking.
+</p>

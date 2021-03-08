@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>SVM is another supervised ML algorithm that constructs a hyperplane H in chemical feature space to best separate training instances with different class labels maximizing the margin between them. If linear separation is not possible in a given feature space, projection into higher-dimensional feature space is carried out where linear separation might be feasible. The projection is generated without explicit mathematical mapping through using kernel functions. The relationship between training errors and margin size is controlled by the regularization hyper-parameter C, which was optimized using values of 0.1, 1, 10, 50, 100, 200, 400, 500, 750, and 1000. SVM classifiers were generated with scikit-learn using the linear or Tanimoto kernel [
- <xref rid="B38-biomolecules-10-01605" ref-type="bibr">38</xref>]. During hyper-parameter optimization, the best performing kernel was selected. 
-</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Qualitative analysis of the compounds was analyzed using the MS-DIAL ver. 3.82 (peak discrimination, filtering, and alignment). MS raw data (*.raw format) were imported to Abf Converter.4.0.0 (*.abf format) and MS FileReader 2.2.62. The peak detection parameters used are minimum peak height 10,000 (Orbitrap), smoothing method (linear weighted moving average), smoothing level (2), and minimum peak width (3). Identification used an in-house database with a score cut off (75%), adduct type [M + H]
+ <sup>+</sup> and [M − H]
+ <sup>−</sup>, and alignment using reference blanks. Then, for the compounds identified, we calculated the mass error value (10 ppm) as the filtering criteria to scan experiments. Fragmentation patterns (MS and MS/MS) were analyzed using Compound Discoverer™ Software (Thermo Scientific™, Waltham, MA, USA), and there are freely available software fragmentation algorithms such as MS-FINDER, CFM-ID (
+ <uri xlink:href="https://cfmid.wishartlab.com/" xmlns:xlink="http://www.w3.org/1999/xlink">https://cfmid.wishartlab.com/</uri>), MetFrag, and CSI:FingerID (
+ <uri xlink:href="https://www.csi-fingerid.uni-jena.de/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.csi-fingerid.uni-jena.de/</uri>).
+</p>

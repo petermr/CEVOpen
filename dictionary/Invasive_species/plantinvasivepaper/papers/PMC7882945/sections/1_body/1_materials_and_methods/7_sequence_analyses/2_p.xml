@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Geneious Prime (ver 2020.1.1; Biomatters, Ltd.) analytical software was used to obtain final merged paired‐end reads to assess the total number of comparable amplicons (Amp), merged sequences, and unique sequences or amplicon sequence variants (ASV). Analytical steps included quality trimming (&gt;20 Phred) and amplicons with greater than 250 nucleotides were retained and merged using Geneious Prime. The resulting amplicons that were able to be paired were used for sequencing depth analysis to obtain the number of unique sequences or amplicon sequence variants (ASV; Figure 
+ <xref rid="ece37113-fig-0003" ref-type="fig">3</xref>). The number of ASVs was assessed using R (R Core Team, 
+ <xref rid="ece37113-bib-0037" ref-type="ref">2019</xref>—v. 3.6.1) and a custom R script (Appendix 
+ <xref rid="ece37113-sup-0001" ref-type="supplementary-material">S1</xref>). ASVs with greater than 10 reads per unique sequence were used.
+</p>

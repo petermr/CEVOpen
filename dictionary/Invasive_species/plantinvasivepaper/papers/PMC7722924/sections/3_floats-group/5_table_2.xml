@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Definitions of model types.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Model type</th>
+    <th align="left">Source function 
+     <inline-formula id="IEq78">
+      <alternatives>
+       <tex-math id="M121">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (x,y)$$\end{document}</tex-math>
+       <math id="M122">
+        <mrow>
+         <mi>φ</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq78.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+    <th align="left">Destination function 
+     <inline-formula id="IEq79">
+      <alternatives>
+       <tex-math id="M123">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi (x,y)$$\end{document}</tex-math>
+       <math id="M124">
+        <mrow>
+         <mi>ψ</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq79.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Source-mediated dispersal model</td>
+    <td align="left">
+     <inline-formula id="IEq80">
+      <alternatives>
+       <tex-math id="M125">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|S| \cdot h(x,y)$$\end{document}</tex-math>
+       <math id="M126">
+        <mrow>
+         <mo stretchy="false">|</mo>
+         <mi>S</mi>
+         <mo stretchy="false">|</mo>
+         <mo>·</mo>
+         <mi>h</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq80.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+    <td align="left">
+     <inline-formula id="IEq81">
+      <alternatives>
+       <tex-math id="M127">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${1 \mathord{\left/ {\vphantom {1 {|S|}}} \right. \kern-\nulldelimiterspace} {|S|}}$$\end{document}</tex-math>
+       <math id="M128">
+        <mrow>
+         <mn>1</mn>
+         <mrow>
+          <mo stretchy="true">/</mo>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">|</mo>
+          <mi>S</mi>
+          <mo stretchy="false">|</mo>
+         </mrow>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq81.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> (uniform)
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Destination-mediated dispersal model</td>
+    <td align="left">1 (uniform)</td>
+    <td align="left">
+     <inline-formula id="IEq82">
+      <alternatives>
+       <tex-math id="M129">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</tex-math>
+       <math id="M130">
+        <mrow>
+         <mi>h</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq82.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Full model</td>
+    <td align="left">
+     <inline-formula id="IEq83">
+      <alternatives>
+       <tex-math id="M131">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|S| \cdot h(x,y)$$\end{document}</tex-math>
+       <math id="M132">
+        <mrow>
+         <mo stretchy="false">|</mo>
+         <mi>S</mi>
+         <mo stretchy="false">|</mo>
+         <mo>·</mo>
+         <mi>h</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq83.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+    <td align="left">
+     <inline-formula id="IEq84">
+      <alternatives>
+       <tex-math id="M133">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h(x,y)$$\end{document}</tex-math>
+       <math id="M134">
+        <mrow>
+         <mi>h</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+       <inline-graphic xlink:href="41598_2020_78633_Article_IEq84.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

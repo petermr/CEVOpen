@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By using the optimal settings that are presented in this section, the model improved from a low TPR value of 63.8% for the blueberry class when no data balancing was applied to a value of 93.39%. In both cases, the overall accuracy for all classes remained similar (98.83% and 98.10%, respectively). Furthermore, it could be observed that unfreezing the weights had a positive effect on the TPR. The best TPR value for the 
+ <italic>frozen</italic> weights was 37.12% without data augmentation while maintaining an overall high accuracy value of 98.01%. However, when using high data augmentation with 
+ <italic>frozen</italic> weights, the best TPR value of 87.99% was obtained at the expense of a lower overall accuracy value of 75.20%. These results suggest that ImageNet weights can be used for this problem, but they need to be updated (and 
+ <italic>unfrozen</italic>) when using data augmentation to focus on blueberry bushes due to the differences in images.
+</p>

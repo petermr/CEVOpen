@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">To understand how the plant taxa composition within the honey sample was structured in space and time, the effect of time (measured as the calendar month number in 2017), latitude and longitude of sampling location were included in a single, two-tailed generalized linear model using the ‘manyglm’ function in the package ‘mvabund’
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup>. Honey samples with missing metadata were excluded, giving a sample size of 428. An abundance table of taxa (number of sequence reads) found in each sample was set as the multivariate response variable and a common set of predictor variables (month, latitude and longitude) were fit using a negative binomial distribution. The number of sequence reads per sample was included as an “offset” in the model in order to control for differences in the number of sequence reads between samples. Monte Carlo resampling was used to test for significant community-level responses to our predictors. The strong mean-variance relationship in the data (Supplementary Fig. 
+ <xref rid="MOESM2" ref-type="media">6</xref>) and the distribution of the count data (Supplementary Figs. 
+ <xref rid="MOESM2" ref-type="media">7</xref>, 
+ <xref rid="MOESM2" ref-type="media">8</xref>) support the use of a negative binomial distribution in the model. The appropriateness of the models was checked by visual inspection of the residuals against predicted values from the models (Supplementary Figs. 
+ <xref rid="MOESM2" ref-type="media">9</xref>–
+ <xref rid="MOESM2" ref-type="media">11</xref>).
+</p>

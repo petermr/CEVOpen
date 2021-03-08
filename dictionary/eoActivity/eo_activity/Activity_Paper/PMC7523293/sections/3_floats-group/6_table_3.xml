@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Forward and reverse primers used to amplify specific kinase genes. Note also preferred vector for each construct</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Kinase</th>
+    <th>Gene and Rv identifier</th>
+    <th>Forward and Reverse primers (5′ → 3′)</th>
+    <th>Restri-ction Enzyme Recogni-tion site (underli-ned)</th>
+    <th>Selected pET vector</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4">NDK</td>
+    <td rowspan="4">
+     <italic>ndkA</italic> Rv2445c
+    </td>
+    <td>
+     <italic>ndkA</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-16b</td>
+   </tr>
+   <tr>
+    <td>GG
+     <underline>CATATG</underline>ACCGAACGGACTCTGGTACTG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>ndkA</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>GT
+     <underline>GGATCC</underline>TTAGGCGCCGGGAAACCAG
+    </td>
+    <td>
+     <italic>Bam</italic>HI
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="4">HSK</td>
+    <td rowspan="4">
+     <italic>thrB</italic> Rv1296
+    </td>
+    <td>
+     <italic>thrB</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-20a</td>
+   </tr>
+   <tr>
+    <td>GG
+     <underline>CATATG</underline>GTGACTCAAGCATTG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>thrB</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>GT
+     <underline>CTCGAG</underline>ACCGGGAACTCTTACTG
+    </td>
+    <td>
+     <italic>Xho</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="4">AK</td>
+    <td rowspan="4">
+     <p>
+      <italic>ackA</italic>
+     </p>
+     <p>Rv0409</p>
+    </td>
+    <td>
+     <italic>ackA</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-16b</td>
+   </tr>
+   <tr>
+    <td>GG
+     <underline>CATATG</underline>GAGTAGCACCGTGCTGGTGATCAA
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>ackA</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>GT
+     <underline>GGATCC</underline>TTACGCTCGGCGTCCGCCCAG
+    </td>
+    <td>
+     <italic>Bam</italic>HI
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="4">GK</td>
+    <td rowspan="4">
+     <p>
+      <italic>glpK</italic>
+     </p>
+     <p>Rv3696c</p>
+    </td>
+    <td>
+     <italic>glpK</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-16b</td>
+   </tr>
+   <tr>
+    <td>(GG
+     <underline>CATATG</underline>TCCGACGCCATCCTAG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>glpK</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>CAT
+     <underline>GTCGAC</underline>TTAGGACACGTCAACCCAATCC
+    </td>
+    <td>
+     <italic>Sal</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="4">ThiL</td>
+    <td rowspan="4">
+     <p>
+      <italic>thil</italic>
+     </p>
+     <p>Rv2977c</p>
+    </td>
+    <td>
+     <italic>thil</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-28a</td>
+   </tr>
+   <tr>
+    <td>GGTA
+     <underline>CATATG</underline>ACCACTAAAGATCACTC
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>thil</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>GAT
+     <underline>CTCGAG</underline>TTACCCTAGCGAACCTTG
+    </td>
+    <td>
+     <italic>Xho</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="4">RBKS</td>
+    <td rowspan="4">
+     <p>
+      <italic>rbks</italic>
+     </p>
+     <p>Rv2436</p>
+    </td>
+    <td>
+     <italic>rbks</italic>-Fwd
+    </td>
+    <td/>
+    <td>pET-28a</td>
+   </tr>
+   <tr>
+    <td>GTA
+     <underline>CATATG</underline>GCAAACGCCAGTGAG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td colspan="3">
+     <italic>rbks</italic>-Rev
+    </td>
+   </tr>
+   <tr>
+    <td>GAT
+     <underline>CTCGAG</underline>TTATGAACCGTTGTG
+    </td>
+    <td>
+     <italic>Xho</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="8">AsK
+     <sup>a</sup>
+    </td>
+    <td rowspan="8">
+     <p>
+      <italic>ask</italic>
+     </p>
+     <p>Rv3709c</p>
+    </td>
+    <td>
+     <italic>ask</italic> alpha-Fwd
+    </td>
+    <td/>
+    <td>pCDF-</td>
+   </tr>
+   <tr>
+    <td>GATTA
+     <underline>CATATG</underline>GCGCTCGTCGTGCAG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td>Duet-1</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ask</italic> alpha-Rev
+    </td>
+    <td/>
+    <td>(alpha)</td>
+   </tr>
+   <tr>
+    <td>GAT
+     <underline>GTCGAC</underline>TTACCGTCCCGTCCCCG-3’
+    </td>
+    <td>
+     <italic>Sal</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td>
+     <italic>ask</italic> beta-Fwd
+    </td>
+    <td/>
+    <td>pET-26a</td>
+   </tr>
+   <tr>
+    <td>GAT
+     <underline>CATATG</underline>GAAGACCCCATCCTGACCG
+    </td>
+    <td>
+     <italic>Nde</italic>I
+    </td>
+    <td>(beta)</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ask</italic> beta-Rev
+    </td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>GCCCCTGCCCTGCC
+     <underline>CAGCTG</underline>TATG
+    </td>
+    <td>
+     <italic>Sal</italic>I
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td>SK</td>
+    <td>
+     <p>
+      <italic>aroK</italic>
+     </p>
+     <p>Rv2539c</p>
+    </td>
+    <td>Primers were not designed as the 
+     <italic>aroK</italic> plasmid was received from the laboratory of Chris Abell, University of Cambridge
+    </td>
+    <td/>
+    <td>pET-15b</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup> AsK consists of 2 hetero-monomers (alpha and beta), to be co-expressed
+  </p>
+ </table-wrap-foot>
+</table-wrap>

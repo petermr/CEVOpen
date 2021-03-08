@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">The Land Cover 2017 map was used to characterise habitat in a 2 km radius of the hives
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> while the 2017 CEH Land Cover Plus: Crops map was used to assess the presence and absence of crop species, 
+ <italic>Brassica napus</italic> (oilseed rape) and 
+ <italic>Vicia faba</italic> (field beans), within a 2 km radius of each hive. A chi-squared contingency test was used to analyse the differences between the presence of the crop species in the honey and the presence and absence of the crop within the landscape. Non-metric multidimensional scaling (NMDS) ordination was used to visualise differences in the composition of the honey relating to the dominant habitat type in a 2 km radius, based on the proportion of reads returned for each taxon. Ordinations were carried out using the metaMDS function in the vegan package
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup> in R using Bray-Curtis dissimilarity indices. The differences in plant community composition and surrounding dominant habitat type were tested using the 
+ <italic>adonis</italic> function from vegan, with 999 permutations. Analyses and maps were generated in 
+ <italic>R</italic> (v. 3.5.2).
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par39">The sequence data from the honey samples were compared against the reference database using blastn, using the script vsearch-pipe.py. The top BLAST hits were then summarised using the script vsearch_blast_summary.py. Sequences with bit scores below the 1st percentile were excluded. If the top bit scores of a sequence matched to a single species, then the sequence was identified to that species. If the top bit scores matched to different species within the same genus, then the result was attributed to the genus level. If the top bit score belonged to multiple genera within the same family then a family level designation was made. Sequences that returned families from different clades were excluded. These automated identifications were then checked manually for botanical veracity. To check identified plant species against their availability across the UK, species records from the BSBI (Botanical Society of Britain and Ireland) were used for native species, while commercial availability for horticultural species was verified with the RHS Plant Finder
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup>. Within each sample, the number of sequences returned from 
+ <italic>rbcL</italic> and ITS2 for each plant taxon was summed to combine the results of each marker.
+</p>

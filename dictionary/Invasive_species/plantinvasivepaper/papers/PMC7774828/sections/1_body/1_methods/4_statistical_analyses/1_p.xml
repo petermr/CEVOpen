@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We used a linear mixed-effects model to investigate the predictors of 
+ <italic>Leptospira</italic> prevalence in our sample. These predictors included small mammal species diversity (Shannon diversity index), habitat type (forest as reference level, compared to fragment, rice field, swidden, and village), abundance (capture rate per 1000 trapping attempts), diet and locomotor guild, and the proportion of individuals captured that were introduced species. We tested if these variables were significant predictors of 
+ <italic>Leptospira</italic> prevalence per species of small mammals collected in a plot. We used the “nlme” package [
+ <xref rid="pntd.0008946.ref051" ref-type="bibr">51</xref>] in the R statistical environment [
+ <xref rid="pntd.0008946.ref052" ref-type="bibr">52</xref>]. We included the study species as random effects to control for species-level variance. We also included the plot identity as a random effect because four plots were resampled during two seasons in an effort to capture seasonality, while for four plots, we were only able to sample once during the transition to the dry season. This analysis was restricted to those species for which there were multiple individuals captured across plots.
+</p>

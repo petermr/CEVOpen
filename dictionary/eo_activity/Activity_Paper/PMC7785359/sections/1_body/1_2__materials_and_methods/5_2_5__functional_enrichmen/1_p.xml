@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The gene ontology (GO) functional network analysis was conducted using the ClueGO + CluePedia plugins [
- <xref rid="B21" ref-type="bibr">21</xref>] of Cytoscape with the parameter setting as biological process, adjusted 
- <italic>P</italic> value ≤0.01, and default GO level (global option GO levels 3–8) [
- <xref rid="B22" ref-type="bibr">22</xref>]. The GO functional network was visualized using Cytoscape. The Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways were enriched using clusterProfiler in the R package, and the significant pathways were selected with 
- <italic>P</italic> &lt; 0.01.
-</p>

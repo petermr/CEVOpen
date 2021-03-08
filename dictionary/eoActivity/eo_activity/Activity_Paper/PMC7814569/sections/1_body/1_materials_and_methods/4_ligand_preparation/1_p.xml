@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The three-dimensional structures of selected natural compounds and existing antiviral drugs, i.e. Catechin (PubChem CID: 9064), Quercetin (PubChem CID: 5280343), Hederagenin (PubChem CID: 73299), Oleanolic acid (PubChem CID: 10494), Remdesivir (PubChem CID: 121304016), Favipiravir (PubChem CID: 492405), Hydroxychloroquine (PubChem CID: 3652) were retrieved from PubChem database in sdf format. PubChem is a chemical substance and biological activities repository consisting of three databases, including substance, compound and bioassay databases [4]. The sdf format of these ligands were converted to pdb format using Open Babel software (Liu et al., 
+ <xref rid="CIT0015" ref-type="bibr">2020</xref>). The ligands were prepared for docking in AutoDock MGL Tools 1.5.6 in pdbqt format by removing water molecules, adding polar hydrogen atoms and computing Gasteiger charges.
+</p>

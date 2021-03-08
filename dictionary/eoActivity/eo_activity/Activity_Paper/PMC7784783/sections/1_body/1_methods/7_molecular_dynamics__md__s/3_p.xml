@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All MD simulations were run using the NAMD 2.13 software (Phillips et al., 
+ <xref rid="CIT0024" ref-type="bibr">2005</xref>). The van der Waals interaction cutoff distances were set at 12 and long-range electrostatic forces were computed using the particle mesh Ewald summation method with a grid size set to 1.0. The 1-4 contributions were multiplied by a factor of 0.83 to match the AMBER force field requirements. The complexes were submitted to a series of minimization stages (including hydrogens, waters, residue side chains and the complete system) of 1,00,000 maximum steps each, and heating from 0 to 310 K. For equilibration/production simulations, constant temperature (310 K) was maintained using Langevin dynamics with a damping coefficient of 5 ps
+ <sup>– 1</sup>, while pressure was kept constant at 1 atm through the Nosé-Hoover Langevin piston method with a decay period of 200 fs and a damping time constant of 100 fs. A time step of 1 fs was used along molecular mechanics. Bonds involving H atoms of waters were constrained using the SHAKE algorithm. Cationic Dummy Atom method (Pang, 
+ <xref rid="CIT0023" ref-type="bibr">2001</xref>) was used when the Zn
+ <sup>2+</sup>cation is included in the system.
+</p>

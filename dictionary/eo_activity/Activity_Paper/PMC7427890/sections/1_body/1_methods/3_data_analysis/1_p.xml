@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="Par16">We built multivariate generalized linear models (GLMmv) to verify which variables could affect the group of cited species and generalized linear models (GLM) to verify which variables could affect the total number of citations. For both analyses, we discarded information about plant species that were cited as cultivated only and used data from the species cited as being collected from mined areas. The explanatory variables for both set of models were residence time, gender, type of abandoned area (i.e., abandoned or partially restored), and the locality where the interviewee lives. However, locality and area type were never put together in the models, as both variables are related to geographic location, thus highly correlated. For both models, the Poisson distribution family was used. Model selection was based on the Akaike Information Criterion (AIC) and validated using graphical residual analysis. For data visualization, a principal coordinate analysis (PCoA) was performed. Analyses were performed in the R environment with packages mvabund [
- <xref ref-type="bibr" rid="CR54">54</xref>] for GLMmv, MASS [
- <xref ref-type="bibr" rid="CR55">55</xref>] for GLM, and visreg [
- <xref ref-type="bibr" rid="CR56">56</xref>] and vegan [
- <xref ref-type="bibr" rid="CR57">57</xref>] for visualization of effects. The variables tested are listed in Table 
- <xref rid="Tab2" ref-type="table">2</xref>. For multivariate analysis, singletons (plants cited only once) and doubletons (plants cited twice) were removed.
-</p>

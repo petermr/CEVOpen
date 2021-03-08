@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p> Leaves of 
+ <italic>C. crispus</italic>, 
+ <italic>C. acanthoides</italic>, and 
+ <italic>C. tenuiflorus</italic> were collected and dried in silica gel powder for NGS analysis. In addition, to test the efficiency of molecular markers (
+ <xref rid="table-1" ref-type="table">Table 1</xref>), leaves of 22 individuals of the three species were sampled from herbaria at the Korea National Arboretum (KNA), National Institute of Biological Resources (NIBR), New York Botanical Garden (NYBG), Carnegie Museum Herbarium (CM), and the United States National Herbarium (US). A modified cetyl trimethylammonium bromide (CTAB) protocol was used to extract total DNA from collected samples (
+ <xref rid="ref-18" ref-type="bibr">Doyle &amp; Doyle, 1987</xref>). High-quality DNA was used to conduct NGS using the Miseq platform and a Miseq Reagent Kit v3 (Illumina, Seoul, South Korea). Raw NGS data (2 × 300 bp paired-end reads) were cleaned by cutting adapter sequences, removing duplicate and chimeric reads, and trimming ends with &gt; 0.05 probability of error per base. Cleaning was conducted using Geneious Prime (
+ <xref rid="ref-33" ref-type="bibr">Kearse et al., 2012</xref>). Raw data were submitted to NCBI (accession number 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA645567" xmlns:xlink="http://www.w3.org/1999/xlink">PRJNA645567</ext-link>). Using Geneious Prime, filtered NGS data for each species were mapped to the reference chloroplast genome sequences of 
+ <italic>Arctium lappa</italic> (NCBI accession number 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MH375874" xmlns:xlink="http://www.w3.org/1999/xlink">MH375874</ext-link>), 
+ <italic>Saussurea polylepis</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MF695711" xmlns:xlink="http://www.w3.org/1999/xlink">MF695711</ext-link>), 
+ <italic>Carthamus tinctorius</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/KP404628" xmlns:xlink="http://www.w3.org/1999/xlink">KP404628</ext-link>), 
+ <italic>Centaurea diffusa</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/KJ690264" xmlns:xlink="http://www.w3.org/1999/xlink">KJ690264</ext-link>), 
+ <italic>Silybum marianum</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/KT267161" xmlns:xlink="http://www.w3.org/1999/xlink">KT267161</ext-link>), 
+ <italic>Cirsium arvense</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/KY562583" xmlns:xlink="http://www.w3.org/1999/xlink">KY562583</ext-link>), 
+ <italic>Cynara humilis</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/KP299292" xmlns:xlink="http://www.w3.org/1999/xlink">KP299292</ext-link>), and 
+ <italic>Atractylodes chinensis</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MG874805" xmlns:xlink="http://www.w3.org/1999/xlink">MG874805</ext-link>) to isolate cpDNA reads of which the similarity to reference was over 95%. Isolated cpDNA reads were then assembled using the de novo function in Geneious to create various contigs of chloroplast genome sequences. The newly created contigs were de novo re-assembled to construct complete cpDNA sequences for each focal species. We confirmed the results from Geneious Prime by reconstructing the complete cpDNA of 
+ <italic>Carduus</italic> using NOVOplasty and following Dierckxsens et al. (2017). Using Geneious Prime, gene content and order of sequenced cpDNA were annotated based on existing complete cpDNA sequences of other Asteraceae taxa. Annotations that had over 95% similarity in comparison with references were retained, and the start and stop codons in the protein coding regions were verified (
+ <xref ref-type="supplementary-material" rid="supp-2">Data S1</xref>). tRNA sequences were assessed using tRNA Scan-SE (
+ <xref rid="ref-5" ref-type="bibr">Chan &amp; Lowe, 2019</xref>). Complete cpDNA sequences of the three species were submitted to GenBank; accession numbers were 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MK652229" xmlns:xlink="http://www.w3.org/1999/xlink">MK652229</ext-link> for 
+ <italic>C. crispus</italic>, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MK652228" xmlns:xlink="http://www.w3.org/1999/xlink">MK652228</ext-link> for 
+ <italic>C. acanthoides</italic>, and 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/MK652230" xmlns:xlink="http://www.w3.org/1999/xlink">MK652230</ext-link> for 
+ <italic>C. tenuiflorus.</italic> The cpDNA map was visualised using OGDraw (
+ <xref rid="ref-24" ref-type="bibr">Greiner, Lehwark &amp; Bock, 2019</xref>). Complete chloroplast genomes of 
+ <italic>Carduus</italic> species were aligned with other Asteraceae and related species (
+ <italic>Nicotiana tabacum</italic> (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/NC_001879" xmlns:xlink="http://www.w3.org/1999/xlink">NC_001879</ext-link>) was used as an outgroup; 
+ <xref ref-type="supplementary-material" rid="supp-4">Table S1</xref>), and gene loss and rearrangement were identified using MAUVE (
+ <xref rid="ref-11" ref-type="bibr">Darling, Mau &amp; Perna, 2010</xref>). In addition, Geneious Prime was used to calculate the pairwise identities of cpDNA sequences in the focal species. Small single repeats (SSRs) were analysed using Phobos embedded in Geneious Prime (
+ <xref rid="ref-8" ref-type="bibr">Christoph, 2006–2010</xref>). Minimum repeat numbers were 10, 5, 4, and 3 for mono-, di-, tri-, and tetra-nucleotides, respectively. REPuter (
+ <xref rid="ref-39" ref-type="bibr">Kurtz et al., 2001</xref>) was used to analyse the large repeat sequences (minimum length = 20 bp) in each species. To explore nucleotide diversity, 131 coding and non-coding regions were extracted from the complete cpDNA (
+ <xref ref-type="supplementary-material" rid="supp-4">Table S2</xref>). Following alignment using MUSCLE embedded in Geneious Prime (
+ <xref rid="ref-20" ref-type="bibr">Edgar, 2004</xref>), aligned sequences were imported into DnaSP 6 (
+ <xref rid="ref-56" ref-type="bibr">Rozas et al., 2017</xref>) for calculation of Pi values.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="biomolecules-10-01605-f002">Figure 2</xref> shows the distribution of closest Tanimoto similarity values for MT- and ST-CPD from biochemical assays in original and reduced datasets. The distribution for the original dataset in 
+ <xref ref-type="fig" rid="biomolecules-10-01605-f002">Figure 2</xref>a reveals a general tendency for MT-CPDs to be more similar to another MT-CPD than to ST-CPDs. For ST-CPDs, a similar but weaker tendency was detected because the densely populated part of the distribution mapped closely to the diagonal in the plot. Random compound removal did not notably change the NN similarity value distributions, as shown in 
+ <xref ref-type="fig" rid="biomolecules-10-01605-f002">Figure 2</xref>b. Accordingly, there was no significant effect of random compound removal on the distribution of NN relationships. By contrast, as shown in 
+ <xref ref-type="fig" rid="biomolecules-10-01605-f002">Figure 2</xref>c, equally sized removal of NN instances substantially altered the distribution for MT-CPDs (but not ST-CPDs) such that the densely populated part of the distribution mapped to the diagonal. In addition, many MT-CPDs became most similar to an ST-CPD after removal of their original NNs, which were predominantly MT-CPDs. Equivalent observations were made for MT- and ST-CPDs from mixed assays, as shown in 
+ <xref ref-type="fig" rid="biomolecules-10-01605-f003">Figure 3</xref>a for the original dataset and in 
+ <xref ref-type="fig" rid="biomolecules-10-01605-f003">Figure 3</xref>b,c for the reduced datasets following random compound or NN removal, respectively.
+</p>

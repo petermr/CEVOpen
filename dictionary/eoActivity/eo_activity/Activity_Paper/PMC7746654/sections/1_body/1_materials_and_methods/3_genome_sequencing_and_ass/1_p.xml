@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Total DNA of the four tested species was extracted using the modified CTAB method (
+ <xref rid="B3" ref-type="bibr">Allen et al., 2006</xref>). Four libraries were prepared from total genomic DNA using the TruSeq DNA Nano kit following the manufacturer’s protocols and generated using the NextSeq500 platform (Illumina, San Diego, CA, United States), generating 1.6–2 Gb of paired-end (2 × 150 bp) reads. The generated reads were trimmed and their quality was checked using CLC quality trim implemented in the CLC Assembly Cell software (ver 4.2.1; CLC Inc., Aarhus, Denmark). Trimmed paired-end reads (Phred score ≥ 20) were assembled using the CLC genome assembler (ver. 4.2.1; CLC Inc.) with default parameters. SOAP 
+ <italic>de novo</italic> gap closer was used to fill gaps based on alignment of paired-end reads (
+ <xref rid="B76" ref-type="bibr">Luo et al., 2012</xref>). Contigs were aligned against NCBI nrDB to detect cp contigs and were retrieved from total contigs using Nucmer (
+ <xref rid="B31" ref-type="bibr">Delcher et al., 2003</xref>). Aligned contigs were ordered using the cp genome sequences of 
+ <italic>Abeliophyllum distichum</italic> (MK616470.1), 
+ <italic>Schrebera orientalis</italic> (NC_042266.1), and 
+ <italic>Forestiera ligustrina</italic> (MH817903.1) as references. The complete cp genomes were validated by PCR-based sequencing using sequence-specific primers (
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 2</xref>). PCR products of the four junctions (LSC/IRa, IRa/SSC, SSC/IRb, and IRb/LSC) were compared to complete cp genome sequences (
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 3</xref>). Finally, total trimmed paired-end reads were mapped onto complete genome sequences using BWA ver. 0.7.25 (
+ <xref rid="B70" ref-type="bibr">Li and Durbin, 2010</xref>; 
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Figure 1</xref>).
+</p>

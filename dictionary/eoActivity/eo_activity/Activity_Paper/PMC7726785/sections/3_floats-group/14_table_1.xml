@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <title>Stress Response-Related Proteins
+   <xref rid="t1fn1" ref-type="table-fn">a</xref>
+  </title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="char" char="."/>
+   <col align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center">sl no.</th>
+    <th style="border:none;" align="center">accession no.</th>
+    <th style="border:none;" align="center">protein name</th>
+    <th style="border:none;" align="center">MASCOT ID</th>
+    <th style="border:none;" align="center">ANOVA 
+     <italic>p</italic>-value
+    </th>
+    <th style="border:none;" align="center">fold T1/C</th>
+    <th style="border:none;" align="center">EXP T1/C</th>
+    <th style="border:none;" align="center" char=".">fold T2/C</th>
+    <th style="border:none;" align="center">EXP T2/C</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="border:none;" align="left">1</td>
+    <td style="border:none;" align="left">P63284</td>
+    <td style="border:none;" align="left">chaperone protein ClpB</td>
+    <td style="border:none;" align="left">CLPB_ECOLI</td>
+    <td style="border:none;" align="left">2.27 × 10
+     <sup>–4</sup>
+    </td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left"> </td>
+    <td style="border:none;" align="char" char=".">–2.56</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">2</td>
+    <td style="border:none;" align="left">P63284</td>
+    <td style="border:none;" align="left">chaperone protein ClpB</td>
+    <td style="border:none;" align="left">CLPB_ECOLI</td>
+    <td style="border:none;" align="left">0.001</td>
+    <td style="border:none;" align="left">1.5</td>
+    <td style="border:none;" align="left">UP</td>
+    <td style="border:none;" align="char" char=".">–2.19</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">3</td>
+    <td style="border:none;" align="left">P0ACF0</td>
+    <td style="border:none;" align="left">DNA-binding protein HU-α</td>
+    <td style="border:none;" align="left">DBHA_ECOLI</td>
+    <td style="border:none;" align="left">6.41 × 10
+     <sup>–6</sup>
+    </td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left"> </td>
+    <td style="border:none;" align="char" char=".">7.73</td>
+    <td style="border:none;" align="left">UP</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">4</td>
+    <td style="border:none;" align="left">P0ACF8</td>
+    <td style="border:none;" align="left">DNA-binding protein H-NS</td>
+    <td style="border:none;" align="left">HNS_ECOLI</td>
+    <td style="border:none;" align="left">0.01</td>
+    <td style="border:none;" align="left">1.5</td>
+    <td style="border:none;" align="left">UP</td>
+    <td style="border:none;" align="char" char=".">–2.022</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">5</td>
+    <td style="border:none;" align="left">P05055</td>
+    <td style="border:none;" align="left">polyribonucleotide nucleotidyltransferase</td>
+    <td style="border:none;" align="left">PNP_ECOLI</td>
+    <td style="border:none;" align="left">3.56 × 10
+     <sup>–4</sup>
+    </td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left"> </td>
+    <td style="border:none;" align="char" char=".">–3.10</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">6</td>
+    <td style="border:none;" align="left">P0ACA3</td>
+    <td style="border:none;" align="left">stringent starvation protein A</td>
+    <td style="border:none;" align="left">SSPA_ECOLI</td>
+    <td style="border:none;" align="left">0.006</td>
+    <td style="border:none;" align="left">1.5</td>
+    <td style="border:none;" align="left">UP</td>
+    <td style="border:none;" align="char" char=".">–2.19</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">7</td>
+    <td style="border:none;" align="left">P35340</td>
+    <td style="border:none;" align="left">alkyl hydroperoxide reductase subunit F</td>
+    <td style="border:none;" align="left">AHPF_ECOLI</td>
+    <td style="border:none;" align="left">0.017</td>
+    <td style="border:none;" align="left">1.5</td>
+    <td style="border:none;" align="left">UP</td>
+    <td style="border:none;" align="char" char=".">–1.56</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">8</td>
+    <td style="border:none;" align="left">P35340</td>
+    <td style="border:none;" align="left">alkyl hydroperoxide reductase subunit F</td>
+    <td style="border:none;" align="left">AHPF_ECOLI</td>
+    <td style="border:none;" align="left">0.023</td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left">DOWN</td>
+    <td style="border:none;" align="char" char=".">–2.665</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">9</td>
+    <td style="border:none;" align="left">P0AGD3</td>
+    <td style="border:none;" align="left">superoxide dismutase [Fe]</td>
+    <td style="border:none;" align="left">SODF_ECOLI</td>
+    <td style="border:none;" align="left">0.033</td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left"> </td>
+    <td style="border:none;" align="char" char=".">–1.52</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">10</td>
+    <td style="border:none;" align="left">P13029</td>
+    <td style="border:none;" align="left">catalase-peroxidase</td>
+    <td style="border:none;" align="left">KATG_ECOLI</td>
+    <td style="border:none;" align="left">0.006</td>
+    <td style="border:none;" align="left">N.S.</td>
+    <td style="border:none;" align="left"> </td>
+    <td style="border:none;" align="char" char=".">–2.32</td>
+    <td style="border:none;" align="left">DOWN</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="t1fn1">
+   <label>a</label>
+   <p>T1= 
+    <italic>E. coli</italic> treated with ME, T2 = 
+    <italic>E. coli</italic> treated with SE, and C = control.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

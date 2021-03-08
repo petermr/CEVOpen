@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The machine learning algorithm MaxEnt version 3.4.1 [
+ <xref rid="pone.0243047.ref031" ref-type="bibr">31</xref>] was used to predict the areas suitable for 
+ <italic>B</italic>. 
+ <italic>zonata</italic> invasion based on the selected bioclimatic variables and spatially filtered occurrence records. We chose MaxEnt because it has been widely applied to model potential species distributions with small number of presence-only occurrence data [
+ <xref rid="pone.0243047.ref030" ref-type="bibr">30</xref>,
+ <xref rid="pone.0243047.ref069" ref-type="bibr">69</xref>]. It also resulted in better predictions when its performance was compared with other presence-only methods [
+ <xref rid="pone.0243047.ref070" ref-type="bibr">70</xref>,
+ <xref rid="pone.0243047.ref071" ref-type="bibr">71</xref>]. Evidence from previous studies indicate that using MaxEnt default settings especially with small sample sizes compromises the quality of the predictive model, often resulting in overfitting [
+ <xref rid="pone.0243047.ref072" ref-type="bibr">72</xref>–
+ <xref rid="pone.0243047.ref074" ref-type="bibr">74</xref>]. In order to reduce overfitting in our models, parameter settings were tuned or smoothed as opposed to implementing the default settings in MaxEnt as suggested by earlier studies [
+ <xref rid="pone.0243047.ref072" ref-type="bibr">72</xref>,
+ <xref rid="pone.0243047.ref073" ref-type="bibr">73</xref>]. The performance of MaxEnt largely depends on the choice of feature types and regularization, it was important to modify these parameters for optimal models. Feature types which are allowed shapes of the response curves for the different model covariates allow complex relationships. In our study we tested different combinations of feature classes and regularization to determine the most suitable for modeling 
+ <italic>B</italic>. 
+ <italic>zonata</italic> and opted to use the linear, quadratic and hinge feature types. These parameter settings allowed for more complex relationships to be modeled as opposed to using “auto features” (a default setting) which are based on the number of occurrence records. Thereafter, a regularization coefficient of 2 was employed as a penalty to the model to prevent overfitting by limiting the strength of the feature classes selected [
+ <xref rid="pone.0243047.ref075" ref-type="bibr">75</xref>]. This is consistent with previous studies which demonstrated that increasing the regularization by two to four times higher than the default settings would result in models with significantly low overfitting [
+ <xref rid="pone.0243047.ref073" ref-type="bibr">73</xref>].
+</p>

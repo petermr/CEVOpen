@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Observational field data, modelling the interaction of invasive 
+   <italic>Alliaria petiolata</italic>, invasive earthworm presence and soil nitrogen on the percent cover of native 
+   <italic>Podophyllum peltatum*</italic>.
+  </p>
+ </caption>
+ <table frame="vsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1">DF</th>
+    <th rowspan="1" colspan="1">Deviance</th>
+    <th rowspan="1" colspan="1">AIC</th>
+    <th rowspan="1" colspan="1">
+     <italic>F</italic>-value
+    </th>
+    <th rowspan="1" colspan="1">
+     <italic>P</italic>-value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>Alliaria petiolata</italic> presence/absence
+    </td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1726</td>
+    <td rowspan="1" colspan="1">962.25</td>
+    <td rowspan="1" colspan="1">2.46</td>
+    <td rowspan="1" colspan="1">0.12</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">earthworm presence/absence</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1713</td>
+    <td rowspan="1" colspan="1">960.88</td>
+    <td rowspan="1" colspan="1">1.14</td>
+    <td rowspan="1" colspan="1">0.29</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Total Soil Nitrogen (%)</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1745</td>
+    <td rowspan="1" colspan="1">964.41</td>
+    <td rowspan="1" colspan="1">4.56</td>
+    <td rowspan="1" colspan="1">0.03</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>Alliaria petiolata</italic> × earthworm
+    </td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1715</td>
+    <td rowspan="1" colspan="1">961.17</td>
+    <td rowspan="1" colspan="1">1.41</td>
+    <td rowspan="1" colspan="1">0.24</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>Alliaria petiolata</italic> × Nitrogen
+    </td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1742</td>
+    <td rowspan="1" colspan="1">964.10</td>
+    <td rowspan="1" colspan="1">4.27</td>
+    <td rowspan="1" colspan="1">0.04*</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">earthworm × Nitrogen</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1712</td>
+    <td rowspan="1" colspan="1">960.76</td>
+    <td rowspan="1" colspan="1">1.02</td>
+    <td rowspan="1" colspan="1">0.31</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>Alliaria petiolata</italic> × earthworm × Nitrogen
+    </td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">1724</td>
+    <td rowspan="1" colspan="1">962.03</td>
+    <td rowspan="1" colspan="1">2.25</td>
+    <td rowspan="1" colspan="1">0.14</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="fn-0100">
+   <p>*An alternative model excluding zero values for percent cover of 
+    <italic>Podophyllum peltatum</italic> found only a marginally significant interaction here (
+    <italic>F</italic>
+    <sub>1,373</sub> = 2.98, 
+    <italic>P</italic> = 0.087).
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

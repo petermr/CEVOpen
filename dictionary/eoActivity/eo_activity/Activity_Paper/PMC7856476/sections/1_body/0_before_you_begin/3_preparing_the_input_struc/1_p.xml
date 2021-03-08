@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0035">
+ <disp-quote>
+  <p>
+   <inline-graphic xlink:href="fx2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <bold>Timing: ∼15 min</bold>
+  </p>
+ </disp-quote>
+ <list list-type="simple" id="olist0010">
+  <list-item id="o0010">
+   <label>1.</label>
+   <p id="p0040">Download the structure file of our interest protein complex with a hit ligand from RCSB Protein Data Bank (PDB) (
+    <ext-link ext-link-type="uri" xlink:href="https://www.rcsb.org/" id="intref0015" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.rcsb.org/</ext-link>). For example, search the PDB ID of 
+    <ext-link ext-link-type="uri" xlink:href="pdb:2P3B" id="intref0020" xmlns:xlink="http://www.w3.org/1999/xlink">2P3B</ext-link> in PDB database, and obtain the result of the crystal structure of the subtype B wild type HIV protease complexes with TL-3 inhibitor. And save the PDB format structure file.
+   </p>
+  </list-item>
+  <list-item id="o0015">
+   <label>2.</label>
+   <p id="p0045">Open the structure file by Chimera software, keep the hit ligand and its direct interacting protein chain and delete all the irrelative molecules, and save as a processed PDB format structure file. 
+    <xref rid="fig2" ref-type="fig">Figure 2</xref>A shows the example of deleting the irrelative atoms by Chimera software. A detail document about the usage of Chimera is available on the website (
+    <ext-link ext-link-type="uri" xlink:href="https://www.cgl.ucsf.edu/chimera/docindex.html" id="intref0025" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.cgl.ucsf.edu/chimera/docindex.html</ext-link>).
+   </p>
+  </list-item>
+  <list-item id="o0020">
+   <label>3.</label>
+   <p id="p0050">Text edit the processed structure file. Rename MSE residues as MET, and rename HIS as HID, HIE, or HIP based on the protonated states (
+    <xref rid="fig2" ref-type="fig">Figure 2</xref>B). And add a “TER” record to indicate that the chains are not physically connected to each other. If there are alternative conformations of the residues, keep only the highest occupancy. These operations can be conducted by Chimera software (
+    <xref rid="fig2" ref-type="fig">Figure 2</xref>C).
+   </p>
+  </list-item>
+ </list>
+ <disp-quote>
+  <p>
+   <bold>
+    <italic>Note:</italic>
+   </bold> Alternatively, we can obtain the complex structure of a protein with a hit ligand by molecular docking method (
+   <xref rid="bib6" ref-type="bibr">Meng et al., 2011</xref>).
+  </p>
+ </disp-quote>
+ <disp-quote>
+  <p>
+   <inline-graphic xlink:href="fx3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <bold>CRITICAL:</bold> It requires the complex structure file to strictly abide by a standard PDB format, and a description about PDB format file is accessed at 
+   <ext-link ext-link-type="uri" xlink:href="http://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html" id="intref0030" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html</ext-link>.
+  </p>
+ </disp-quote>
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Users must specify the number of degree-days that are required for the overwintering stage to complete development and emerge for the growing season. These data are typically gathered using field monitoring studies, whereby the temporal distribution of emergence times and number of individuals that emerge on a given date is documented [e.g. 32]. Assigning a single value to the overwintering stage duration parameter would assume that an entire population develops simultaneously, which may not be biologically realistic because several intrinsic (with a genetic basis) and extrinsic (e.g. microclimate, nutrition) factors can produce variation in development rates within a species [
+ <xref rid="pone.0244005.ref019" ref-type="bibr">19</xref>, 
+ <xref rid="pone.0244005.ref034" ref-type="bibr">34</xref>]. Indeed, phenology models that incorporate developmental variability in a population may have increased predictive power [
+ <xref rid="pone.0244005.ref017" ref-type="bibr">17</xref>, 
+ <xref rid="pone.0244005.ref019" ref-type="bibr">19</xref>, 
+ <xref rid="pone.0244005.ref035" ref-type="bibr">35</xref>]. DDRP therefore allows the duration of the overwintering stage to vary across a user-defined number of cohorts (groups of individuals in a population). Much of the intrinsic variability in insect development during a generation often occurs in the overwintering stage [
+ <xref rid="pone.0244005.ref036" ref-type="bibr">36</xref>], although developmental variation may occur in any life stage [
+ <xref rid="pone.0244005.ref017" ref-type="bibr">17</xref>, 
+ <xref rid="pone.0244005.ref037" ref-type="bibr">37</xref>, 
+ <xref rid="pone.0244005.ref038" ref-type="bibr">38</xref>]. DDRP uses five parameters to generate a frequency distribution of emergence times: the mean, variance, low bound, and high bound of emergence times, and the shape of the distribution (Gaussian or lognormal; 
+ <xref rid="pone.0244005.t001" ref-type="table">Table 1</xref>). The platform uses these data to estimate the relative size of the population represented by each cohort, which initializes the population distribution that is maintained during subsequent stages and generations. Individuals within each cohort develop in synchrony.
+</p>

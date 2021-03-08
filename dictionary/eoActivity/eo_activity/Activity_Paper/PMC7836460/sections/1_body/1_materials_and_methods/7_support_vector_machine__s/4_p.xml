@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">The weights of the network are optimized by minimizing the errors of the SVM network (Eq. 
+ <xref rid="Equ8" ref-type="">8</xref>) in prediction of output. In Eq. (
+ <xref rid="Equ8" ref-type="">8</xref>), the parameters are Σξ
+ <sub>i</sub> is the training errors, 1/2||w||
+ <sup>2</sup> is the margin, and C is the tuning parameter.
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\frac{1}{2}\left\| {w^{2} } \right\| + C\mathop \sum \limits_{i = 1}^{n} \xi_{i} .$$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <mrow>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mfenced close="∥" open="∥">
+      <msup>
+       <mi>w</mi>
+       <mn>2</mn>
+      </msup>
+     </mfenced>
+     <mo>+</mo>
+     <mi>C</mi>
+     <munderover>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+     </munderover>
+     <msub>
+      <mi>ξ</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

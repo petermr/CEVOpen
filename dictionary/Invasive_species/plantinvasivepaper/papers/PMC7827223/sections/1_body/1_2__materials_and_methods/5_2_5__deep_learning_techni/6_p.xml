@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to perform the evaluation of the proposed model, two of the three orthomosaics were used for training and validation and the third one was used for testing. This cross-validation strategy is usually referred to as a leave-one-out strategy. All of the orthomosaics were used once for testing, training, and validation by rotating them for each experiment. Patches from the testing orthomosaic were not included for training or validation to avoid data leakage during training.</p>

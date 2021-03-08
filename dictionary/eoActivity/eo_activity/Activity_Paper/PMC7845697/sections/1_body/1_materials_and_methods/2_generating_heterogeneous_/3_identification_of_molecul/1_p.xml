@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We generated molecular interaction features by investigating mechanisms from the binding targets of compounds to the therapeutic targets or biomarkers of diseases. To this end, we constructed a PPI network and applied the random walk with restart (RWR) algorithm to quantify the molecular interaction effects of the compounds (
+ <xref ref-type="fig" rid="fig1">Figure 1B</xref>). The RWR simulates the random walker starting from seed nodes and iteratively diffuses the node values to the neighbors according to edge weights until stability is achieved (
+ <xref rid="B51" ref-type="bibr">Köhler et al., 2008</xref>; 
+ <xref rid="B60" ref-type="bibr">Li and Patra, 2010</xref>). The RWR is defined as the following equation.
+ <disp-formula id="e1">
+  <math id="m1">
+   <mrow>
+    <msub>
+     <mi>p</mi>
+     <mrow>
+      <mi>t</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi>r</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <msup>
+     <mi>W</mi>
+     <mi>T</mi>
+    </msup>
+    <msub>
+     <mi>p</mi>
+     <mi>t</mi>
+    </msub>
+    <mo>+</mo>
+    <mi>r</mi>
+    <msub>
+     <mi>p</mi>
+     <mn>0</mn>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>where W is the column-wise normalized adjacency matrix of the network, and r is the restarting probability of the random walker at each time step (it was set to 0.7 in this study). The adscript of pt represents the probability vector of each node at time step t, and p0 represents the initial probability vector. To apply the RWR algorithm, we first set the initial values of the seed nodes based on the binding target information of the compounds. This study used two types of binding target information: direct and indirect binding. Direct binding indicates the target proteins of the compounds, whereas indirect binding includes the molecular effects of the compounds, including changes in protein expression and compound-induced phosphorylation, or the effects of compounds that are transformed into active metabolites. By considering both types of binding information, we can consider the various properties of the compounds on the network. The initial values (p0) of direct and indirect binding were assigned as 1 and 0.3, respectively. Next, the transition probability from a node to the neighbors was calculated. We assumed that the transition probability represents the propagated effects on the PPI network. Based on 
+ <xref ref-type="disp-formula" rid="e1">Eq. 1</xref>, the transition probability vector of each node at time step t + 1 was calculated. The RWR algorithm simulated the random walker until pt became stable, which was evaluated by 
+ <inline-formula id="inf1">
+  <math id="m2">
+   <mrow>
+    <msub>
+     <mi>p</mi>
+     <mrow>
+      <mi>t</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <msub>
+     <mi>p</mi>
+     <mi>t</mi>
+    </msub>
+    <mo>&lt;</mo>
+    <msup>
+     <mrow>
+      <mn>10</mn>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>8</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>. In this study, we considered 4,487 disease-related proteins from a total of 18,008 proteins. Next, principal component analysis (PCA) was performed on the probability vector of proteins to reduce the dimensionality (i.e., from 4,487 to 285), as the number of proteins was still large compared with the number of instances of the training set (
+ <xref rid="B45" ref-type="bibr">Jolliffe, 2003</xref>). In this study, we set the threshold of the cumulative explained variance ratio as 0.8. Finally, we generated molecular interaction features based on the PCA result.
+</p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We analyzed rat stomach versus rat fecal samples to determine how the two sample types varied in microbiome structure. To determine if alpha diversity differed between sample types, we conducted ANOVAs with ASV richness or Faith's PD as the response variable and rat sample type as the explanatory variable. We used the 
+ <italic>ANOVA</italic> function in the ‘car’ package with type II sums of squares to determine significance. To determine if bacterial community composition (beta diversity) differed between sample type, we conducted PERMANOVAs with Jaccard, unweighted UniFrac or Bray–Curtis distance as the response variable and rat sample type as the explanatory variable. We verified that beta dispersion was similar between sample types and not influencing the PERMANOVA results by conducting a PERMDISP. To determine if bacterial relative abundance differed between sample types, we used the package ‘DAtest’ to first rank various statistical methods used to test for differential abundance (Russel et al., 
+ <xref rid="ece37171-bib-0053" ref-type="ref">2018</xref>). We filtered low abundance ASVs (present in &lt;7 samples) using the function 
+ <italic>preDA</italic>. Then, we input the raw sequence counts of the filtered ASV table (or phylum level table with no filtering) and used the function 
+ <italic>testDA</italic> to allow each statistical method to perform its default transformation on the data. We used the top two differential abundance tests that had the lowest False Positive Rate (Russel et al., 
+ <xref rid="ece37171-bib-0053" ref-type="ref">2018</xref>) in our statistical analyses with bacterial abundance at two taxonomic levels (bacterial ASV or bacterial phylum) as the response variable and rat sample type as the explanatory variable. We report only ASVs or phyla that were significant (after being corrected for multiple comparisons) in both of the top ranked differential abundance tests (in our analyses = quasi‐poisson generalized linear model [function 
+ <italic>DA.qpo</italic>] and Welch 
+ <italic>t</italic>‐test [function 
+ <italic>DA.ttt</italic>]).
+</p>

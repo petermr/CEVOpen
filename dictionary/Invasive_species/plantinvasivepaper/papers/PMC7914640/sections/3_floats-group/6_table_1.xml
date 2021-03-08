@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="insects-12-00143-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">insects-12-00143-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>Model performance under optimal parameters using sets of environmental predictors (SEP), statistically significant models (SSM), best candidate models (BCM), regularization multiplier (RM), features classes (FC), mean Area Under the Curve ratio (AUC.r), partial Receiver Operating Characteristic (p.ROC), omission rate 5% (O.rate 5%), Akaike information criterion corrected (AICc), delta Akaike information criterion corrected (∆AICc), Akaike information criterion corrected weight (AICc.W), number of parameters (#; summarizes the combination of environmental variables, multiple regularizations, and features other than 0 that provide information for the construction of the model based on lambdas), and candidate sets of environmental variables tested during calibration of the 
+   <italic>Aedes albopictus</italic> model in México. * q = quadratic; t = threshold; h = hinge; p = product.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SEP</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SSM</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">BCM</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">RM</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">FC *</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">AUC.r</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">p.ROC</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">O.rate 5%</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">AICc</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">∆AICc</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">AICc.W</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">#</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="12" align="center" valign="middle" rowspan="1">
+     <italic>Aedes albopictus</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Set3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1479</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.0</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">qth</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.29</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.04</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5941.66</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.79</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">35</td>
+   </tr>
+   <tr>
+    <td colspan="12" align="center" valign="middle" rowspan="1">Natural 
+     <italic>Wolbachia</italic> infections in 
+     <italic>Ae. albopictus</italic> populations
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Set2</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1446</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">17</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.2</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">p</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.84</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">275.14</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.74</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.01</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td>
+   </tr>
+   <tr>
+    <td colspan="12" align="center" valign="middle" rowspan="1">Candidate sets of environmental variables of 
+     <italic>Ae. albopictus</italic> and natural 
+     <italic>Wolbachia</italic> infections models
+    </td>
+   </tr>
+   <tr>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">
+     <bold>Set1</bold>
+    </td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">
+     <bold>Set2</bold>
+    </td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">
+     <bold>Set3</bold>
+    </td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">
+     <bold>Set4</bold>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Bio 1, Bio 2, Bio 3, Bio 4, Bio 5, Bio 6, Bio 7, Bio 10, Bio 11, Bio 12, Bio 13, Bio 14, Bio 15, Bio 16, Bio 17, and elevation</td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Bio 1, Bio 2, Bio 3, Bio 4, Bio 5, Bio 6, Bio 7, Bio 10, Bio 11, Bio 12, Bio 13, Bio 14, Bio 15, Bio 16, and Bio 17</td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Bio 4, Bio 7, Bio 11, Bio 12, Bio 13, Bio 14, Bio 17, and elevation</td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Bio 1, Bio 4, Bio 5, Bio 6, Bio 7, Bio 12, Bio 13, Bio 14, Bio 15, and elevation</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>Bio 1: Annual Mean Temperature; Bio 2: Mean Diurnal Range; Bio 3: Isothermality; Bio 4: Temperature Seasonality; Bio 5: Maximum Temperature of Warmest Month; Bio 6: Minimum Temperature of Coldest Month; Bio 7: Temperature Annual Range; Bio10: Mean Temperature of Warmest Quarter; Bio11: Mean Temperature of Coldest Quarter; Bio12: Annual Precipitation; Bio13: Precipitation of Wettest Month; Bio14: Precipitation of Driest Month; Bio15: Precipitation Seasonality; Bio16: Precipitation of Wettest Quarter; and Bio17: Precipitation of Driest Quarter.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

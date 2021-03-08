@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1">
+ <label>Figure 1</label>
+ <caption>
+  <p>Workflow of the AILDE method</p>
+  <p>Once an initial protein-hit complex structure is provided, AILDE will conduct the hit-to-lead optimization according to the following steps: (1) molecular dynamics simulation: this allow to simulate the structural flexibility of the protein-hit complex; (2) collecting the conformational ensemble: adequately collect the representative conformations of a protein-hit complex; (3) generating the hit analogues: a fragment growing based method is utilized to convert a hit to analogue compounds. The conformations of protein-analogues complex are obtained from the representative conformations of the protein-hit complex; (4) binding free energy change: comparing the binding free energy of protein-hit and protein-analogues complexes. Identifying the potential lead compounds according to the rank of the binding free energy changes.</p>
+ </caption>
+ <graphic xlink:href="gr1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

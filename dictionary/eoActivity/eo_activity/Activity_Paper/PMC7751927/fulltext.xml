@@ -1,0 +1,903 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Turk J Chem</journal-id><journal-id journal-id-type="iso-abbrev">Turk J Chem</journal-id><journal-title-group><journal-title>Turkish Journal of Chemistry</journal-title></journal-title-group><issn pub-type="ppub">1300-0527</issn><issn pub-type="epub">1303-6130</issn><publisher><publisher-name>The Scientific and Technological Research Council of Turkey</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7751927</article-id><article-id pub-id-type="doi">10.3906/kim-2004-78</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Bis benzothiophene Schiff bases: synthesis and in silico-guided biological activity studies</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5834-3223</contrib-id><name><surname>&#x000dc;NVER</surname><given-names>Yasemin</given-names></name><xref ref-type="corresp" rid="COR1">*</xref><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1939-2246</contrib-id><name><surname>&#x000dc;NL&#x000dc;ER</surname><given-names>Dilek</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3368-0447</contrib-id><name><surname>D&#x00130;REKEL</surname><given-names>&#x0015e;ahin</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0426-0905</contrib-id><name><surname>DURDA&#x0011e;I</surname><given-names>Serdar</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><aff id="aff1">
+<label>1</label>
+<institution>Department of Chemistry, Faculty of Science, Karadeniz Technical University, Trabzon</institution>
+<country>Turkey</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department of Medical Microbiology, Faculty of Medicine, Giresun University, Giresun</institution>
+<country>Turkey</country>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Computational Biology and Molecular Simulations Laboratory, Department of Biophysics, School of Medicine,Bah&#x000e7;e&#x0015f;ehir University, &#x00130;stanbul</institution>
+<country>Turkey</country>
+</aff></contrib-group><author-notes><corresp id="COR1">* To whom correspondence should be addressed. E-mail:
+<email>unver.yasemincan@hotmail.com</email></corresp><fn id="FN1" fn-type="COI-statement"><p>
+<bold>CONFLICT OF INTEREST: </bold>
+</p><p>none declared</p></fn></author-notes><pub-date pub-type="collection"><year>2020</year></pub-date><pub-date pub-type="epub"><day>18</day><month>8</month><year>2020</year></pub-date><volume>44</volume><issue>4</issue><fpage>1164</fpage><lpage>1176</lpage><history><date date-type="received"><day>29</day><month>4</month><year>2020</year></date><date date-type="accepted"><day>26</day><month>6</month><year>2020</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2020 The Author(s)</copyright-statement><copyright-year>2020</copyright-year><license license-type="open-access"><license-p>This article is distributed under the terms of the Creative Commons Attribution License (
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>
+), which permits unrestricted use and redistribution provided that the original author and source are credited.</license-p></license></permissions><abstract><p>Since benzo [
+<italic>b</italic>
+] thiophene scaffold is one of the privileged structures in drug discovery as this core exhibitsactivities for different biological problems, in this study bis (benzo[
+<italic>b</italic>
+]thiophene-2-yl) alkyl methanimine derivatives (1-9) were synthesized by reacting benzo[
+<italic>b</italic>
+]thiophene-2-carbaldehyde with diamines. All newly compounds were characterized by IR, <sup>1</sup>H NMR and <sup>13</sup>C NMR spectroscopic methods. Synthesized compounds were investigated using binary QSARbased models on therapeutic activity prediction of synthesized compounds and they showed high predicted activities in following diseases: bacterial, angina, allergy, depression and obesity. Thus, they were then tested for their antimicrobial and antileishmanial activities as a result of this theoretical study. Compound 1(N, N&#x02019;- (propane-1,3-diyl) bis (1-(benzo [
+<italic>b</italic>
+] thiophene-2-yl)) methanimine) was found the most active compound in both diseases. Thus, its molecular docking studies were also carried out.</p></abstract><kwd-group><kwd>Benzo [b] thiophene</kwd><kwd>Schiff base</kwd><kwd>binary QSAR models</kwd><kwd>molecular docking</kwd><kwd>antimicrobial and antileishmanial activities</kwd></kwd-group></article-meta></front><body><sec id="sec-1"><title>1. Introduction</title><p>Benzo [b] thiophene derivatives display remarkable biological activities such as antiinflammatory, analgesic, antifungal, antidepressant, antiangiogenic, estrogen receptor modulating, antimitotic, anticancer, kinase inhibitors, antituberculosis, anticonvulsant, antimalarial, anthelmintic, antihyperglycemic and pesticide. Benzothiophene derivatives have been used as potential diagnostic agents and amyloid binding in neurodegenerative diseases, treatment of fatty acid amide hydrolase inhibitors (FAAH), BMP-2 upregulators, Alzheimer&#x02019;s disease (AD), human nicotinamide phosphoribosyltransferase inhibitors, BRAF kinase inhibitors, Rho kinase inhibitors, selective linear tachykinin NK2 receptor antagonists, protein tyrosine phosphatase 1B inhibitors, histamine H3 antagonists, antiallergic agents and many other activities [1&#x02013;7]. By replacing the substituents attached to the benzothiophene ring, some of the FDA-approved anticancer drugs such as arzoxifene and raloxifene were also developed [8,9]. Schiff bases, including azomethine functional group (N=CH), possess biological properties such as analgesic, antifungal, antibacterial, antidepressant, anticancer, anticonvulsant and antiinflammatory [10&#x02013;15]. Schiff bases are also known to be highly effective in synergistic effects on insecticides and plant growth regulators [16&#x02013;18].</p><p>Antibiotics are widely used in the treatment of bacterial infections for many years in the early 20th century. Penicillin was the first antibiotic used to treat bacterial infections. Antibiotics, which are effective by killing or stopping the growth of bacteria, cause the emergence of drug-resistant pathogens and the development of resistance if used unconsciously and excessively. In addition, the long-term use of antibiotics damages our microbiota and losing the beneficial microorganisms has negative consequence. Approximately 16 million people die annually due to bacterial infections, while developing new approaches to combating drug-resistant pathogens and infectious diseases. New substances have been synthesized due to technological developments and have been used in various bacterial infections for therapeutic purposes [19,20].</p><p>Leishmaniasis is a disease caused by a protozoon called Leishmania which is transmitted by the bite of infected female sand flies. Poor nutrition lack of sanitation weakened immune system and poverty facilitate spread of the disease in underdeveloped and developing countries. The disease occurs in 3 different forms: cutaneous (most common), visceral (also known as kala-azar and the most serious form of the disease), and mucocutaneous. An estimated 700,000 to 1 million new cases are reported annually, and 26,000 to 65,000 disease-related deaths are reported by the World Health Organization.While cutaneous form is endemic in Southeastern Anatolia, visceral form is mostly seen in Mediterranean, Central Anatolian and Aegean Regions andimportant constitutes an important health problem for Turkey [21,22].</p><p>Recent advances made in molecular biology and computational chemistry open new avenues in designing novel therapeutic compounds. Molecular biology has provided the crystal structures and cryo-electron microscopy structures of crucial targets for different diseases, which can be used as accurate templates in modeling studies. Computational chemistry offers a range of simulation, multiscale modeling and virtual screening tools for definition and analysis of protein-ligand, protein-protein interactions. Development of new techniques on statistical methods and free energy simulations help to predict novel optimal ligands. Thus, in this study, we performed in silico-guided biological activity studies for a set of newly synthesized compounds. We aimed to synthesize a new series of Schiff bases including benzo [
+<italic>b</italic>
+] thiophene for more efficacious biologic activities. In order to predict the biological activities of synthesized compounds before the experimental studies, therapeutic activities of these novel compounds were predicted. The therapeutic activity value (TAV) of each compound was calculated by binary QSAR models of 25 common disease QSAR models. In silico results represented that synthesized compounds may show potential activity against in following diseases: bacterial, angina, allergy, depression and obesity. Therefore, these compounds were then tested for their antimicrobial and antileishmanial activities. Moreover, molecular docking study for one of the most active compounds as antibacterial agent was performed and its molecular interactions were studied.</p></sec><sec id="sec-2"><title>2. Experimental</title><sec id="sec-2-1"><title>2.1. General method for the synthesis of compounds (1-9)</title><p>Benzo [
+<italic>b</italic>
+] thiophene-2-carbaldehyde (2 mmol) and diamines (1 mmol) were mixed and heated in oil bath without solvent for 2&#x02013;3 h at 150&#x02013;160 &#x000b0;C. The reaction content was controlled with TLC examination and cooled to room temperature. The precipitate formed was purified by recrystallization from ethanol-diethylether.</p><sec id="sec-2-1-1"><title>2.1.1. Synthesis of N, N&#x02019;-(propane-1,3-diyl) bis(1-(benzo[
+<italic>b</italic>
+] thiophene-2-yl) methanimine) (1):</title><p>Yield: 87.00%, m.p. 183&#x02013;184 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3056 (=CH), 2936 (CH), 1633 (C=N), 1600 (C=N), 1527 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.64 (s, 2H, N=CH), 7.92&#x02013;7.97 (m, 4H, Arom.H), 7.82 ( bs, 2H,thiop.H), 7.42 (bs, 4H, Arom.H), 3.68 (s, 4H, N-CH<sub>2</sub>) , 1.98 (s, 2H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 156.23, 143.05, 139.99, 139.55, 128.78, 126.64, 125.28, 123.22, 58.28, 32.05.</p></sec><sec id="sec-2-1-2"><title>2.1.2. Synthesis of 1-(benzo[
+<italic>b</italic>
+]thiophene -2-yl)-N-(4-((benzo[
+<italic>b</italic>
+]thiophene-2-ylmethylene) amino) butyl) methanimine(2):</title><p>Yield: 88.20%, m.p. 166&#x02013;167 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3056 (=CH), 2939 (CH), 1628 (C=N), 1526 (C=N), 1464 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.61 (s, 2H, N=CH), 7.87&#x02013;7.97 (m, 4H, Arom.H), 7.79 (2H, bs, thiop.H), 7.37&#x02013;7.44 (m, 4H, Arom.H), 3.64 (s, 4H, N-CH<sub>2</sub>), 1.68 (s, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.87, 143.11, 139.96, 139.65, 128.66, 126.62, 125.22, 123.23, 60.33, 28.64.</p></sec><sec id="sec-2-1-3"><title>2.1.3. Synthesis ofN,N&#x02019;-(pentane-1,5-diyl)bis(1-(benzo[
+<italic>b</italic>
+] thiophene-2-yl)methanimine) (3):</title><p>Yield: 82.65%, m.p. 110&#x02013;111 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3053 (=CH), 2935 (CH), 1632 (C=N), 1560 (C=N), 1525 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.58 (s, 2H, N=CH), 7.84&#x02013;7.93 (m, 4H, Arom.H), 7.75 (2H, bs, thiop.H), 7.37&#x02013;7.42 (m, 4H, Arom.H), 3.59 (s, 4H, N-CH<sub>2</sub>), 1.65&#x02013;1.70 (m, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.35&#x02013;1.39 (m, 2H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4; :155.73, 143.15, 139.64, 128.56, 126.58, 125.19, 123.20, 60.44, 31.44, 24.87.</p></sec><sec id="sec-2-1-4"><title>2.1.4. Synthesis of 1-(benzo[
+<italic>b</italic>
+]thiophene-2-yl)-N-(6-((benzo[
+<italic>b</italic>
+]thiophene-2- ylmethylene) amino) hexyl) methanimine (4):</title><p>Yield: 80.28%, m.p. 143&#x02013;144 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3057 (=CH), 2934 (CH), 1628 (C=N), 1560 (C=N), 1526 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.58 (s, 2H, N=CH), 7.88&#x02013;7.95 (m, 4H, Arom.H), 7.76 (2H, bs, thiop.H), 7.41 (bs, 4H, Arom.H), 3.58 (s, 4H, N-CH<sub>2</sub>), 1.63 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.37 (bs, 4H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.73, 143.15, 139.64, 128.56, 126.58, 125.19, 123.20, 60.44, 31.44, 24.87.</p></sec><sec id="sec-2-1-5"><title>2.1.5. Synthesis of N,N&#x02019;-(heptane-1,7-diyl)bis(1-(benzo[
+<italic>b</italic>
+] thiophene-2-yl)methanimine) (5):</title><p>Yield: 80.85%, m.p. 117&#x02013;118 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3056 (=CH), 2934 (CH), 1673 (C=N), 1629 (C=N), 1517 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.57 (s, 2H, N=CH), 7.87&#x02013;7.94 (m, 4H, Arom.H), 7.76 (2H, bs, thiop.H), 7.37&#x02013;7.43 (m, 4H, Arom.H), 3.56 (s, 4H, N-CH<sub>2</sub>), 1.62 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.37 (bs, 6H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.63, 143.16, 139.95, 139.64, 128.54, 126.59, 125.19, 123.22, 60.53, 30.70, 28.93, 27.14.</p></sec><sec id="sec-2-1-6"><title>2.1.6. Synthesis of 1-(benzo[
+<italic>b</italic>
+]thiophene-2-yl)-N-(8-((benzo[
+<italic>b</italic>
+]thiophene -2- ylmethylene) amino) octyl) methanimine (6):</title><p>Yield: 84.85%, m.p. 122&#x02013;123 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3056 (=CH), 2924 (CH), 1628 (C=N), 1525 (C=N), 1465 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.59 (s, 2H, N=CH), 7.91 (bs, 4H, Arom.H), 7.78 (2H, bs, thiop.H), 7.41 (bs, 4H, Arom.H), 3.39 (s, 4H, N-CH2) , 1.62 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.32 (bs, 8H, N-CH<sub>2</sub>-CH<sub>2-</sub>C
+<underline>H</underline>
+<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.65, 143.17, 140.91, 128.56, 126.01, 125.20, 123.23, 60.58, 30.78, 29.36, 27.18.</p></sec><sec id="sec-2-1-7"><title>2.1.7. Synthesis of N,N&#x02019;-(nonane-1,9-diyl)bis(1-(benzo[
+<italic>b</italic>
+] thiophene-2-yl)methanimine) (7):</title><p>Yield: 81.20%, m.p. 115&#x02013;116 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3057 (=CH), 2923 (CH), 1672 (C=N), 1629 (C=N), 1525(C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.57 (s, 2H, N=CH), 7.89&#x02013;7.96 (m, 4H, Arom.H), 7.78 (2H, bs, thiop.H), 7.41 (bs, 4H, Arom.H), 3.56 (s, 4H, N-CH<sub>2</sub>), 1.60 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.30 (bs, 10H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2&#x02212;</sub>C
+<underline>H</underline>
+<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.64, 143.17, 139.95, 139.66, 128.56, 126.60, 125.21, 123.23, 60.57, 30.77, 29.41, 29.18, 27.18.</p></sec><sec id="sec-2-1-8"><title>2.1.8. Synthesis of 1-(benzo[
+<italic>b</italic>
+]thiophene-2-yl)-N-(10-((benzo[
+<italic>b</italic>
+]thiophene-2- ylmethylene) amino) decyl) methanimine (8):</title><p>Yield: 83.25%, m.p. 141&#x02013;142 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3050 (=CH), 2924 (CH), 1625 (C=N), 1591 (C=N), 1525(C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.58 (s, 2H, N=CH), 7.88&#x02013;7.94 (m, 4H, Arom.H), 7.77 (2H, bs, thiop.H), 7.40 (bs, 4H, Arom.H), 3.56 (s, 4H, N-CH<sub>2</sub>), 1.58 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.28 (bs, 12H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2&#x02212;</sub>C
+<underline>H</underline>
+<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.64, 143.18, 139.70, 139.66, 128.55, 126.59, 125.21, 123.23, 60.57, 30.77, 29.83, 29.41, 27.33.</p></sec><sec id="sec-2-1-9"><title>2.1.9. Synthesis of 1-(benzo[
+<italic>b</italic>
+]thiophene-2-yl)-N-(12-((benzo[
+<italic>b</italic>
+]thiophene-2- ylmethylene) amino) dodecyl) methanimine (9):</title><p>Yield: 80.25%, m.p. 122&#x02013;123 &#x000b0;C. IR (KBr, cm<sup>&#x02212;1</sup>): 3054 (=CH), 2918 (CH), 1632 (C=N), 1560 (C=N), 1526 (C=C); <sup>1</sup>H NMR (400 MHz, DMSO-d<sub>6</sub>) &#x003b4;: 8.58 (s, 2H, N=CH), 7.90&#x02013;7.95 (m, 4H, Arom.H), 7.79 (2H, bs, thiop.H), 7.41 (bs, 4H, Arom.H), 3.38 (s, 4H, N-CH<sub>2</sub>), 1.59 (bs, 4H, N-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.24 (bs, 10H, N-CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2&#x02212;</sub>C
+<underline>H</underline>
+<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>), 1.06 (bs, 4H, N-CH<sub>2</sub>-CH<sub>2</sub>-CH<sub>2&#x02212;</sub>CH<sub>2</sub>-CH<sub>2</sub>-C
+<underline>H</underline>
+<sub>2</sub>); <sup>13</sup>C NMR (100 Hz, DMSO-d<sub>6</sub>) &#x003b4;: 155.65, 139.70, 128.57, 126.60, 125.21, 123.23, 60.57, 30.74, 29.40, 29.18.</p></sec></sec><sec id="sec-2-2"><title>2.2. MetaCore/MetaDrug applications</title><p>Studied compounds were examined for their therapeutic activity against 25 common diseases using Meta-Core/MetaDrug platform of Clarivate Analytics (Philadelphia, PA, USA). Training set of compounds were collected from FDA approved compounds, candidate drugs in clinical phases and hit compounds from in vivo activities. Results showed that synthesized compounds can be used as antibacterial agents. Following training and test set compound numbers were used in bacterial QSAR model constructions: Training set N = 530, test set N = 97, sensitivity = 0.87, specificity = 0.90, accuracy = 0.89, Matthews correlation coefficient (MCC) = 0.77.</p></sec></sec><sec id="sec-3"><title>3. Ligand preparation</title><p>The synthesized molecules are prepared for further calculations via LigPrep module [23] of Schrodinger&#x02019;s molecular modeling suite with OPLS2005 force field [24]. Epik [25] was used to determine the protonation states of these compounds at neutral pH.</p></sec><sec id="sec-4"><title>4. Protein preparation</title><p>The X-ray diffraction (XRD) structure of the target was used from the Protein Data Bank (PDB) with PDB IDs of 5TW8. Protein preparation module was utilized [26], [27]. Missing side chains are filled via prime module and PROPKA [28]. was subjected to determine the protonation of side chains at physiological pH. Finally, a restrained minimization in OPLS2005 force field was applied to these optimized structures.</p></sec><sec id="sec-5"><title>5. Molecular docking</title><p>The molecules which possessed desirable pharmacokinetic and toxicity properties were subjected to a grid-based Glide/XP docking protocol from Schrodinger&#x02019;s Maestro molecular modeling package [29]. Binding pocket was determined from cocrystallized ligand and default protocol was employed. Shortly, we used flexible docking approach. Hydroxyl and thiol groups of binding pocket residues were allowed for rotation throughout the docking. Extra precision (XP) protocol of Glide was used. Ten poses were requested at the docking and postdocking minimization was performed.</p></sec><sec id="sec-6"><title>6. Results and discussion</title><sec id="sec-6-1"><title>6.1. Synthesis</title><p>Synthesis of bis (benzo[b]thiophene-2-yl) alkyl methanimine derivatives (1-9) was performed according to the reaction outlined in Scheme.</p><fig id="Fsch1" fig-type="figure" orientation="portrait" position="float"><label>Scheme</label><caption><p>Synthesis of Schiff base derivatives with benzo [b] thiophene (1-9).</p></caption><graphic xlink:href="turkjchem-44-1164-sch001"/></fig><p>The peaks of NH<sub>2</sub> and C=O belonging to the starting amines and aldehyde respectively disappeared in the IR spectra of the compounds (1-9). Proton signal of imine group (N=CH) obtained by Schiff base reaction was observed as singlet at 8.57&#x02013;8.64 ppm in the <sup>1</sup>H-NMR spectra of the compounds (1-9). Aromatic protons belonging to benzo[
+<italic>b</italic>
+]thiophen ring resonated at 7.37&#x02013;7.97 ppm and CH<sub>2</sub> alkyl protons were seen at 1.28&#x02013;3.68 ppm in the <sup>1</sup>H-NMR spectra of the compounds as expected from alkyl groups. When carbon spectrawere examined, N=CH imine carbon was observed at 155.64&#x02013;156.23 ppm in the <sup>13</sup>C-NMR spectra of compounds 1-9. Aromatic carbon peaks of benzo [
+<italic>b</italic>
+] thiophene were seen at 123.20&#x02013;143.19 ppm and alkyl carbon peaks resonated at 24.87&#x02013;60.58 ppm in the <sup>13</sup>C-NMR spectra of the compounds. As a result, spectral data supports structures of the compounds (1-9).</p></sec><sec id="sec-6-2"><title>6.2. In silico predictions of therapeutic activities of synthesized compounds</title><p>Binary quantitative structure-activity relationships (QSAR) common disease models from Clarivate Analytics MetaCore/MetaDrug platform were used for the therapeutic activity predictions of synthesized compounds. For this aim, 25 different common diseases binary QSAR models were used. All the nine compounds were screened on MetaCore/MetaDrug platform and therapeutic activity values were predicted. Therapeutic activity values in MetaCore/MetaDrug are normalized between 0 and 1 (while 0 represents inactive compound, 1 represents active compounds). Although predicted therapeutic activity value higher than 0.5 indicates compound that may show activity, in the current study we used a higher cutoff value (0.75) for being in the safe zone. Table S1 at the supplementary information show corresponding predicted therapeutic activity values of each studied compound that has activity value equal or more than 0.75. When we check diseases in Table S1 it can be seen that synthesized compounds can be considered mainly for bacterial, angina, allergy, depression and obesity models. Since the investigated compounds are analogs of each other they showed similar TAV values in certain disease models such as antibacterial profile. Thus, from these diseases we considered to perform antibacterial in vitro assays using these compounds. Furthermore, since known antifungal and antileishmanial effect of benz [
+<italic>b</italic>
+] thiophene derivatives, we also performed antifungal and antileishmanial in vitro assays for these compounds.</p></sec><sec id="sec-6-3"><title>6.3. In vitro antileishmanial activity studies</title><p>Antileishmanial activity results of nine compounds as a result of evaluation Figures 1&#x02013;2 and minimum inhibitory concentration (MIC) values are given in Table 1. The tests in the positive and negative control wells were found to work as expected.</p><fig id="F1" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Antileishmanial activity results of the compounds against standard
+<italic>Leishmania infantum</italic>
+promastigotes. Control drug: Amphotericin B. Dilution concentrations 10,000 &#x003bc;g/mL to 312 &#x003bc;g/mL. N.C.: Negative control; P.C.: Positive control.</p></caption><graphic xlink:href="turkjchem-44-1164-fig001"/></fig><fig id="F2" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Antileishmanial activity results of compounds against standard
+<italic>Leishmania tropica</italic>
+promastigotes. Control drug: Amphotericin B. Dilution concentrations 10,000 &#x003bc;g/mL to 312 &#x003bc;g/mL. N.C.: Negative control; P.C.: Positive
+control.</p></caption><graphic xlink:href="turkjchem-44-1164-fig002"/></fig><table-wrap id="T1" orientation="portrait" position="float"><label>Table 1</label><caption><p>Minimum inhibitory concentration (MIC) values of the compounds against
+<italic>Leishmania infantum</italic>
+and
+<italic>Leishmania tropica</italic>
+promastigotes.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1">Compounds</th><th align="left" rowspan="1" colspan="1"><italic>L.infantum</italic>
+MIC values (&#x003bc;g/mL)</th><th align="left" rowspan="1" colspan="1"><italic>L.tropica</italic>
+MIC values (&#x003bc;g/mL)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1250</td><td align="left" rowspan="1" colspan="1">1250</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">5000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">10,000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10,000</td></tr><tr><td align="left" rowspan="1" colspan="1">Amphotericin B</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">&#x0003c;312</td></tr></tbody></table></table-wrap><p>Compound 1 was found to be the most effective compound (MIC: 1250 &#x003bc;g / mL) among the compounds whose antileishmanial activities were evaluated against
+<italic>Leishmania infantum</italic>
+promastigotes. In addition, compounds 3, 7 and 9 were found to have antileishmanial activity at different concentrations (MIC: 5000&#x02013;10,000 &#x003bc;g/mL).</p><p>It was found that other compounds did not have antileishmanial activities against
+<italic>Leishmania infantum</italic>
+promastigotes at the studied concentrations. Compound 1 was also found to be the most effective compound against the Leishmania tropica promastigotes from compounds whose antileishmanial activities were evaluated (MIC: 1250 &#x003bc;g/mL). It was determined that other compounds did not have antileishmanial activities against
+<italic>Leishmania tropica</italic>
+promastigotes at studied concentrations.</p><p>The study of Maina et al. revealed the antileishmanial activity of
+<italic>Clerodendrum myricoides</italic>
+and
+<italic>Salvadora persica</italic>
+. They reported,
+<italic>Clerodendrum myricoides</italic>
+water extract demonstrated the best potential antileishmanial activity against
+<italic>Leishmania major</italic>
+promastigotes (MIC = 625 &#x003bc;g/mL). Also, the dichloromethane and petroleum ether extract were reported moderate to weak activity against
+<italic>Leishmania major</italic>
+promastigotes (MIC = 1250 &#x003bc;g/mL; 2500 &#x003bc;g/mL) and amastigotes respectively [30].</p><p>In the study of Ogeto et al.,
+<italic>Aloe secundiflora</italic>
+water extract was found active against L. major at the lowest concentration of 2000 &#x003bc;g/mL. Methanollic plant extract reported less antileishmanial activity as compared to Pentostam and amphotericn B with MIC of 1000 &#x003bc;g/mL, 250 &#x003bc;g/mL and 125 &#x003bc;g/mL, respectively. They marked higher antileishmanial activities though not of comparative concentrations than most of the reference drugs. The results also showed that plant extracts had lower toxicity against Vero cells as compared to the standard drug amphotericin B [31].</p><p>Amphotericin B, which is used as a standard drug, was found to be effective at all concentrations (MIC: &#x0003c;312 &#x003bc;g / mL) for both leishmania species.</p></sec><sec id="sec-6-4"><title>6.4. In vitro antibacterial and antifungal activity studies</title><p>Different concentrations of some compounds against standard bacterial isolates and yeast isolates were found to have antimicrobial activity, while some compounds were found to be ineffective at the concentrations studied. The test images of compound 1 which have the most effective antibacterial and antifungal effect are given in the Figure 3. The MIC values of the compounds are given in Table 2. It was determined that the compounds showed antibacterial and antifungal activity against 6 of the studied standard bacteria and yeast isolates.</p><fig id="F3" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Antibacterial and antifungal activity results of compound 1. Dilution concentrations: 10,000 &#x003bc;g/mL&#x02013;312 &#x003bc;g/mL. N.C.: Negative control; P.C.: Positive control.</p></caption><graphic xlink:href="turkjchem-44-1164-fig003"/></fig><table-wrap id="T2" orientation="portrait" position="float"><label>Table 2</label><caption><p>Minimum inhibitory concentration (MIC) values of all compounds against bacteria and fungi.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2500</td><td align="left" rowspan="1" colspan="1">2500</td><td align="left" rowspan="1" colspan="1">5000</td><td align="left" rowspan="1" colspan="1">1250</td><td align="left" rowspan="1" colspan="1">2500</td><td align="left" rowspan="1" colspan="1">1250</td><td align="left" rowspan="1" colspan="1">5000</td><td align="left" rowspan="1" colspan="1">2500</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">10000</td><td align="left" rowspan="1" colspan="1">&#x0003e;10000</td></tr></tbody></table></table-wrap><p>The compound 1 showed the strongest antibacterial effect against
+<italic>Shigella flexneri</italic>
+and
+<italic>Yersinia enterocolitica</italic>
+(MIC:1250 &#x003bc;g/mL) (Figure 3). Compound 1 was found to be effective against all bacteria and yeast (Table 2). Antibacterial and antifungal activity were determined in 6 compounds (1, 2, 4, 6, 8 and 9).</p><p>When the results of synthesized compounds were evaluated, it was found that compound 1 was the most effective compound for all bacteria and yeast isolates studied. Compound 1 was found to have different levels of antimicrobial activity against
+<italic>Shigella flexneri</italic>
+,
+<italic>Yersinia enterocolitica</italic>
+,
+<italic>Staphylococcus aureus</italic>
+(MRSA),
+<italic>Escherichia coli</italic>
+,
+<italic>Salmonella enteritidis</italic>
+,
+<italic>Candida tropicalis</italic>
+,
+<italic>Pseudomonas aeruginosa</italic>
+, and
+<italic>Klebsiella pneumoni</italic>
+(respectively MIC values: 1250 &#x003bc;g/mL, 1250 &#x003bc;g/mL, 2500 &#x003bc;g/mL, 2500 &#x003bc;g/mL, 2500 &#x003bc;g/mL, 2500 &#x003bc;g/mL,5000 &#x003bc;g/mL, and 5000 &#x003bc;g/mL).</p><p>It is found that
+<italic>Klebsiella pneumoniae</italic>
+is the least affected one by the compounds. All concentrations of the compounds 3, 5 and 7 were found to have no effect on any bacterial and yeast isolates (MIC: &#x0003e;10,000 &#x003bc;g/mL).</p><p>Thus, because of its promising results at both disease models, compound 1 can be considered as lead compound. However, further animal in vivo studies must be carried out.</p><p>Since the most active compound was found as compound 1 as antibacterial agent, we used crystal structure of wild-type
+<italic>S. aureus</italic>
+penicillin binding protein 4 (PBP4), PDB ID: 5TW8, and performed dockin simulations. Figure 4 shows 2D and 3D ligand interactions diagram of compound 1 at the binding pocket of the target structure. It can be seen that main nonbonded interactions are constructed with Tyr291 and Tyr268 (&#x003c0;-&#x003c0; stacking interactions) and with Glu297 (ionic interactions). These strong interactions (docking score, -8.33 kcal/mol) show that compound 1 can be considered as promising anti-bacterial agent. Both in silico predictions (ligand-based and target-driven based) as well as performed in vitro assays validate each other for the antibacterial effect of the novel compound (compound 1). Our hybrid molecular modeling approache (combined ligand-based and structure-based) predicted the biological activity of a set of new compounds and these predictions were investigated by in vitro studies.</p><fig id="F4" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p>2D and 3D ligand interactions diagrams of compound 1 at the binding pocket of 5TW8 PDB coded structure.</p></caption><graphic xlink:href="turkjchem-44-1164-fig004"/></fig></sec></sec><sec id="sec-7"><title>7. Conclusion</title><p>Nine bis (benzo[b]thiophen-2-yl) alkyl methanimine derivatives were synthesized. All newly compounds were characterized by IR, <sup>1</sup>H NMR and <sup>13</sup>C NMR spectroscopic methods.Synthesized compounds were investigated using 25 different binary QSAR disease models. Results showed that synthesized compounds may be considered mainly for bacterial, angina, allergy, depression and obesity models. Our in silico-guided design study lead to a hit compound (Compound 1) for its antibacterial effects. In vitro antileishmanial, antifungal and antibacterial activity studies were performed on all synthesized compounds. According to the test results; Compound 1 showed antileishmanial activity (MIC = 1250 &#x003bc;g/mL) and it was concluded that further studies could be continued for this compound 1. The purpose of the control drug study was made to test whether the experimental study was working properly. The substances studied showed antileishmanial activity even if they had a higher value than the MIC of the standard drug Amphotericin B. In this antileishmanial activity study, while aiming to determine the concentration of the compound that is effective against leishmania, the reliability, toxic effect and side effects of the substances should also be evaluated for new drug candidates. Due to the toxic effects of currently used drugs and the increasing resistance to these drugs, the discovery and development of new therapeutic agents is important.Compound 1 also showed better antibacterial and antifungal activity.</p></sec><sec id="sec-sup"><supplementary-material content-type="local-data"><caption><p>Supplementary Materials</p></caption><media xlink:href="turkjchem-44-1164-sup001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="sec-ack"><title>Acknowledgments</title><p>This work was supported by the Scientific Research Project of Karadeniz Technical University (KTU-BAP) [Grant number 8086].</p><p>Chemistry and determination of in vitro antileishmanial, antifungal and antibacterial activities were submitted at supplementary information.</p></ack><ref-list><ref id="ref1"><label>1.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Rangappa</surname>
+<given-names>SK</given-names>
+</string-name>
+<string-name>
+<surname>Karam</surname>
+<given-names>C</given-names>
+</string-name>
+<string-name>
+<surname>Srinivasa</surname>
+<given-names>B</given-names>
+</string-name>
+<string-name>
+<surname>Sasidhar</surname>
+<given-names>BS</given-names>
+</string-name>
+<string-name>
+<surname>Siddappa</surname>
+<given-names>AP</given-names>
+</string-name>
+<year>2017</year>
+<article-title>An overview of benzo[b]thiophene-based medicinal chemistry</article-title>
+<source>
+European Journal of Medicinal Chemistry
+</source>
+<volume>138</volume>
+<fpage>1002</fpage>
+<lpage>1033</lpage>
+<pub-id pub-id-type="pmid">28759875</pub-id></element-citation></ref><ref id="ref2"><label>2.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Jagtap</surname>
+<given-names>VA</given-names>
+</string-name>
+<string-name>
+<surname>Agasimundin</surname>
+<given-names>YS</given-names>
+</string-name>
+<string-name>
+<surname>n</surname>
+<given-names/>
+</string-name>
+<string-name>
+<surname>-</surname>
+<given-names/>
+</string-name>
+<string-name>
+<surname>-</surname>
+<given-names/>
+</string-name>
+<year>2015</year>
+<article-title>Synthesis and preliminary evaluation of some 2-amino-</article-title>
+<source>
+[substituted]-4
+</source>
+<volume>9</volume>
+<fpage>7</fpage>
+<lpage>7</lpage>
+</element-citation></ref><ref id="ref3"><label>3.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Berrade</surname>
+<given-names>L</given-names>
+</string-name>
+<string-name>
+<surname>Aisa</surname>
+<given-names>B</given-names>
+</string-name>
+<string-name>
+<surname>Ramirez</surname>
+<given-names>MJ</given-names>
+</string-name>
+<string-name>
+<surname>Galiano</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Guccione</surname>
+<given-names>S</given-names>
+</string-name>
+<year>2011</year>
+<article-title>Novel benzo[b]thiophene derivatives as new potential antidepressants with rapid onset of action</article-title>
+<source>
+European Journal of Medicinal Chemistry
+</source>
+<volume>54</volume>
+<fpage>3086</fpage>
+<lpage>3090</lpage>
+</element-citation></ref><ref id="ref4"><label>4.</label><element-citation publication-type="other">
+<string-name>
+<surname>Lianqi</surname>
+<given-names>JL</given-names>
+</string-name>
+<string-name>
+<surname>Kai</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Na</surname>
+<given-names>LV</given-names>
+</string-name>
+<year>2010</year>
+<article-title>Benzothiophene Alkanol Piperazine Derivatives and Their Use as Antidepressant</article-title>
+<source>
+WO Patent
+</source>
+</element-citation></ref><ref id="ref5"><label>5.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Bryant</surname>
+<given-names>HU</given-names>
+</string-name>
+<string-name>
+<surname>Dere</surname>
+<given-names>WH</given-names>
+</string-name>
+<year>1998</year>
+<article-title>Selective estrogen receptor modulators: an alternative to hormone replacement therapy</article-title>
+<source>
+Society for Experimental Biology and Medicine
+</source>
+<volume>217</volume>
+<fpage>45</fpage>
+<lpage>52</lpage>
+</element-citation></ref><ref id="ref6"><label>6.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Rao</surname>
+<given-names>GK</given-names>
+</string-name>
+<string-name>
+<surname>Subramaniam</surname>
+<given-names>R.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Synthesis, antitubercular and antibacterial activities of some quinazolinone analogs substituted with benzothiophene</article-title>
+<source>
+Journal of Chemical Sciences
+</source>
+<volume>6</volume>
+<fpage>92</fpage>
+<lpage>96</lpage>
+</element-citation></ref><ref id="ref7"><label>7.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Yang</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Cui</surname>
+<given-names>M.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Radiolabeled bioactive benzoheterocycles for imaging bamyloid plaques in Alzheimer's diseas</article-title>
+<source>
+European Journal of Medicinal Chemistry
+</source>
+<volume>87</volume>
+<fpage>703</fpage>
+<lpage>721</lpage>
+<pub-id pub-id-type="pmid">25305715</pub-id></element-citation></ref><ref id="ref8"><label>8.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Pettit</surname>
+<given-names>GR</given-names>
+</string-name>
+<string-name>
+<surname>Minardi</surname>
+<given-names>MD</given-names>
+</string-name>
+<string-name>
+<surname>Boyd</surname>
+<given-names>MR</given-names>
+</string-name>
+<string-name>
+<surname>Pettit</surname>
+<given-names>RK</given-names>
+</string-name>
+<year>2000</year>
+<article-title>Synthesis of combretastatin A-3 diphosphate prodrug</article-title>
+<source>
+Anticancer Drugs Design
+</source>
+<volume>15</volume>
+<fpage>397</fpage>
+<lpage>403</lpage>
+</element-citation></ref><ref id="ref9"><label>9.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Pettit</surname>
+<given-names>GR</given-names>
+</string-name>
+<string-name>
+<surname>Lippert</surname>
+<given-names>JW</given-names>
+</string-name>
+<year>2000</year>
+<article-title>Syntheses of the combretastatin A-1 and combretastatin B-1 prodrug</article-title>
+<source>
+Antineoplastic agents 429
+</source>
+<volume>15</volume>
+<fpage>203</fpage>
+<lpage>216</lpage>
+</element-citation></ref><ref id="ref10"><label>10.</label><element-citation publication-type="journal">
+<string-name>
+<surname>&#x000dc;nver</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Deniz</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>&#x000c7;elik</surname>
+<given-names>F</given-names>
+</string-name>
+<string-name>
+<surname>Akar</surname>
+<given-names>Z</given-names>
+</string-name>
+<string-name>
+<surname>K&#x000fc;&#x000e7;&#x000fc;k</surname>
+<given-names>M</given-names>
+</string-name>
+<year>2016</year>
+<article-title>-triazole compounds containing Schiff and Mannich bases (morpholine) with antioxidant and antimicrobial activities</article-title>
+<source>
+Synthesis of new 1
+</source>
+<volume>31</volume>
+<fpage>89</fpage>
+<lpage>95</lpage>
+</element-citation></ref><ref id="ref11"><label>11.</label><element-citation publication-type="journal">
+<string-name>
+<surname>&#x000dc;nver</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Sancak</surname>
+<given-names>K</given-names>
+</string-name>
+<string-name>
+<surname>&#x000c7;elik</surname>
+<given-names>F</given-names>
+</string-name>
+<string-name>
+<surname>Birinci</surname>
+<given-names>E</given-names>
+</string-name>
+<string-name>
+<surname>-</surname>
+<given-names/>
+</string-name>
+<year>2014</year>
+<article-title>-ones: highly bioactive thiosemicarbazides, structures of Schiff bases and triazole-thiols</article-title>
+<source>
+European Journal of Medicinal Chemistry
+</source>
+<volume>1</volume>
+<fpage>4</fpage>
+<lpage>4</lpage>
+</element-citation></ref><ref id="ref12"><label>12.</label><element-citation publication-type="journal">
+<string-name>
+<surname>&#x000dc;nver</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Bekta&#x0015f;</surname>
+<given-names>E</given-names>
+</string-name>
+<year>2018</year>
+<article-title>Synthesis and biological activity of new Schiff bases of benzylideneamine bearing thiophene</article-title>
+<source>
+Letters in Drug Design &#x00026; Discovery
+</source>
+<volume>1</volume>
+<fpage>4</fpage>
+<lpage>4</lpage>
+</element-citation></ref><ref id="ref13"><label>13.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Da Silva</surname>
+<given-names>CM</given-names>
+</string-name>
+<string-name>
+<surname>Da Silva</surname>
+<given-names>DL</given-names>
+</string-name>
+<string-name>
+<surname>Modolo</surname>
+<given-names>LV</given-names>
+</string-name>
+<string-name>
+<surname>Alves</surname>
+<given-names>RB</given-names>
+</string-name>
+<string-name>
+<surname>De Resende</surname>
+<given-names/>
+</string-name>
+<year>2011</year>
+<article-title>Schiff base: a short review of their antimicrobial activities</article-title>
+<source>
+Journal of Advanced Research
+</source>
+<volume>2</volume>
+<fpage>1</fpage>
+<lpage>8</lpage>
+</element-citation></ref><ref id="ref14"><label>14.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Khurshid</surname>
+<given-names>IM</given-names>
+</string-name>
+<string-name>
+<surname>Mustakim</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Vasudevan</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Madhubhai</surname>
+<given-names>MP</given-names>
+</string-name>
+<string-name>
+<surname>Syed</surname>
+<given-names>MA</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Synthesis, anti-inflammatuar, analgesic and antioxidant activities of some tetrasubstituted thiophenes</article-title>
+<source>
+Journal of Enzyme Inhibition and Medicinal Chemistry
+</source>
+<volume>23</volume>
+<fpage>829</fpage>
+<lpage>838</lpage>
+<pub-id pub-id-type="pmid">18618323</pub-id></element-citation></ref><ref id="ref15"><label>15.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Ravi</surname>
+<given-names>K</given-names>
+</string-name>
+<string-name>
+<surname>Airody</surname>
+<given-names>V</given-names>
+</string-name>
+<string-name>
+<surname>James PS</surname>
+<given-names/>
+</string-name>
+<year>2009</year>
+<article-title>A new class of antionulsants possessing 6Hz activity: 3,4-dialkyloxy thiophene bishydrazones</article-title>
+<source>
+European Journal of Medicinal Chemistry
+</source>
+<volume>44</volume>
+<fpage>4376</fpage>
+<lpage>4384</lpage>
+<pub-id pub-id-type="pmid">19556038</pub-id></element-citation></ref><ref id="ref16"><label>16.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Daver</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Boghaei</surname>
+<given-names>MS</given-names>
+</string-name>
+<year>2002</year>
+<article-title>Non-symmetrical tetradentate vanadyl Schiff base complexes derived from 1,2-phKM, nylene diamine and 1,3-naphtalene diamine as catalysts for the oxidation of cyclohexene</article-title>
+<source>
+Tetrahedron
+</source>
+<volume>58</volume>
+<fpage>5357</fpage>
+<lpage>5366</lpage>
+</element-citation></ref><ref id="ref17"><label>17.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Vyas</surname>
+<given-names>KM</given-names>
+</string-name>
+<string-name>
+<surname>Jadeja</surname>
+<given-names>N</given-names>
+</string-name>
+<string-name>
+<surname>Gupta</surname>
+<given-names>VK</given-names>
+</string-name>
+<string-name>
+<surname>Surati</surname>
+<given-names>KR</given-names>
+</string-name>
+<year>2011</year>
+<article-title>Synthesis, characterization and crystal structure of some bidentate heterocyclic Schiff base ligands of 4-toluoyl-pyrazolones and its mononuclear Cu(II) complex</article-title>
+<source>
+Journal of Molecular Structure
+</source>
+<volume>990</volume>
+<fpage>110</fpage>
+<lpage>120</lpage>
+</element-citation></ref><ref id="ref18"><label>18.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Jiang</surname>
+<given-names>JJ</given-names>
+</string-name>
+<string-name>
+<surname>Chang</surname>
+<given-names>TC</given-names>
+</string-name>
+<string-name>
+<surname>Hsu</surname>
+<given-names>WL</given-names>
+</string-name>
+<string-name>
+<surname>Hwang</surname>
+<given-names>JM</given-names>
+</string-name>
+<string-name>
+<surname>Hsu LY</surname>
+<given-names/>
+</string-name>
+<year>2003</year>
+<article-title>Synthesis and biological activity of sulfur containing arylaldehyde Schiff bases</article-title>
+<source>
+Chemical Pharmaceutical Bulletin
+</source>
+<volume>51</volume>
+<fpage>1307</fpage>
+<lpage>1310</lpage>
+<pub-id pub-id-type="pmid">14600379</pub-id></element-citation></ref><ref id="ref19"><label>19.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Jiang</surname>
+<given-names>Q</given-names>
+</string-name>
+<string-name>
+<surname>Chen</surname>
+<given-names>J</given-names>
+</string-name>
+<string-name>
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>
+<string-name>
+<surname>Yin</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Yao</surname>
+<given-names>K.</given-names>
+</string-name>
+<year>2019</year>
+<article-title>Quorum sensing: a prospective therapeutic target for bacterial diseases</article-title>
+<source>
+BioMed Research International
+</source>
+<volume>10</volume>
+<fpage>1</fpage>
+<lpage>15</lpage>
+</element-citation></ref><ref id="ref20"><label>20.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Yadav</surname>
+<given-names>PS</given-names>
+</string-name>
+<string-name>
+<surname>Senthilkumar</surname>
+<given-names>GP</given-names>
+</string-name>
+<year>2011</year>
+<article-title>Synthesis and evaluation of some benzothiazole derivatives as antidiabetic agents</article-title>
+<source>
+International Journal of PharmTech Research
+</source>
+<volume>3</volume>
+<fpage>1</fpage>
+<lpage>7</lpage>
+</element-citation></ref><ref id="ref21"><label>21.</label><element-citation publication-type="journal">
+<string-name>
+<surname>&#x0015e;ener</surname>
+<given-names>S</given-names>
+</string-name>
+<string-name>
+<surname>Karaman</surname>
+<given-names>&#x000dc;</given-names>
+</string-name>
+<string-name>
+<surname>Hakverdi</surname>
+<given-names>G</given-names>
+</string-name>
+<string-name>
+<surname>Sara&#x000e7;</surname>
+<given-names>G</given-names>
+</string-name>
+<year>2017</year>
+<article-title>Evaluation of patients with cutaneous leishmaniasis who admitted to dermatology clinic in Kahramanmara&#x0015f; S&#x000fc;t&#x000e7;&#x000fc; &#x00130;mam University Medical Faculty</article-title>
+<source>
+Konuralp T&#x00131;p Dergisi
+</source>
+<volume>9</volume>
+<fpage>274</fpage>
+<lpage>277</lpage>
+</element-citation></ref><ref id="ref22"><label>22.</label><element-citation publication-type="journal">
+<string-name>
+<surname>&#x000d6;zbilgin</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Harman</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Karaku&#x0015f;</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Bart</surname>
+<given-names>M</given-names>
+</string-name>
+<year>2017</year>
+<article-title>Leishmaniasis in Turkey: visceral and cutaneous leishmaniasis caused by
+<italic>Leishmania donovani</italic>
+in Turkey</article-title>
+<source>
+Acta Tropica
+</source>
+<volume>173</volume>
+<fpage>90</fpage>
+<lpage>96</lpage>
+<pub-id pub-id-type="pmid">28587839</pub-id></element-citation></ref><ref id="ref23"><label>23.</label><element-citation publication-type="other">
+<string-name>
+<surname>Schr&#x000f6;dinger Release LigPrep LLC</surname>
+<given-names/>
+</string-name>
+<year>2015</year>
+</element-citation></ref><ref id="ref24"><label>24.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Banks</surname>
+<given-names>JL</given-names>
+</string-name>
+<string-name>
+<surname>Beard</surname>
+<given-names>HS</given-names>
+</string-name>
+<string-name>
+<surname>Cao</surname>
+<given-names>Y</given-names>
+</string-name>
+<string-name>
+<surname>Cho</surname>
+<given-names>AE</given-names>
+</string-name>
+<year>2005</year>
+<article-title>Integrated modeling program, applied chemical theory (IMPACT)</article-title>
+<source>
+Journal of Computational Chemistry
+</source>
+<volume>26</volume>
+<fpage>1752</fpage>
+<lpage>1780</lpage>
+<pub-id pub-id-type="pmid">16211539</pub-id></element-citation></ref><ref id="ref25"><label>25.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Shelley</surname>
+<given-names>JC</given-names>
+</string-name>
+<string-name>
+<surname>Cholleti</surname>
+<given-names>A</given-names>
+</string-name>
+<string-name>
+<surname>Frye</surname>
+<given-names>LL</given-names>
+</string-name>
+<string-name>
+<surname>Greenwood</surname>
+<given-names>JR</given-names>
+</string-name>
+<string-name>
+<surname>Timlin</surname>
+<given-names>MR</given-names>
+</string-name>
+<year>2007</year>
+<article-title>Epik: a software program for pKa prediction and protonation state generation for drug-like molecules</article-title>
+<source>
+Journal of Computer-Aided Molecular Design
+</source>
+<volume>21</volume>
+<fpage>681</fpage>
+<lpage>691</lpage>
+<pub-id pub-id-type="pmid">17899391</pub-id></element-citation></ref><ref id="ref26"><label>26.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Sastry</surname>
+<given-names>GM</given-names>
+</string-name>
+<string-name>
+<surname>Adzhigirey</surname>
+<given-names>M</given-names>
+</string-name>
+<string-name>
+<surname>Day</surname>
+<given-names>T</given-names>
+</string-name>
+<string-name>
+<surname>Annabhimoju</surname>
+<given-names>R</given-names>
+</string-name>
+<string-name>
+<surname>Sherman</surname>
+<given-names>W. Protein</given-names>
+</string-name>
+<year>2013</year>
+<article-title>and ligand preparation: parameters, protocols, and influence on virtual screening enrichments</article-title>
+<source>
+Journal of Computer-Aided Molecular Design
+</source>
+<volume>27</volume>
+<fpage>221</fpage>
+<lpage>234</lpage>
+<pub-id pub-id-type="pmid">23579614</pub-id></element-citation></ref><ref id="ref27"><label>27.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Bas</surname>
+<given-names>DC</given-names>
+</string-name>
+<string-name>
+<surname>Rogers</surname>
+<given-names>DM</given-names>
+</string-name>
+<string-name>
+<surname>Jensen</surname>
+<given-names>JH</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Very fast prediction and rationalization of pKa values for protein-ligand complexes</article-title>
+<source>
+Proteins: Structure, Function, and Bioinformatics
+</source>
+<volume>73</volume>
+<fpage>765</fpage>
+<lpage>783</lpage>
+</element-citation></ref><ref id="ref28"><label>28.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Li</surname>
+<given-names>H</given-names>
+</string-name>
+<string-name>
+<surname>Robertson</surname>
+<given-names>AD</given-names>
+</string-name>
+<string-name>
+<surname>Jensen</surname>
+<given-names>JH</given-names>
+</string-name>
+<year>2005</year>
+<article-title>Very fast empirical prediction and rationalization of protein pKa values</article-title>
+<source>
+Proteins: Structure, Function, and Bioinformatics
+</source>
+<volume>61</volume>
+<fpage>704</fpage>
+<lpage>721</lpage>
+</element-citation></ref><ref id="ref29"><label>29.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Friesner</surname>
+<given-names>RA</given-names>
+</string-name>
+<string-name>
+<surname>Murphy</surname>
+<given-names>RB</given-names>
+</string-name>
+<string-name>
+<surname>Repasky</surname>
+<given-names>MP</given-names>
+</string-name>
+<string-name>
+<surname>Frye</surname>
+<given-names>LL</given-names>
+</string-name>
+<string-name>
+<surname>Greenwood</surname>
+<given-names>JR</given-names>
+</string-name>
+<year>2006</year>
+<article-title>Extra precision glide: docking and scoring incorporating a model of hydrophobic enclosure for protein-ligand complexes</article-title>
+<source>
+Journal of Medicinal Chemistry
+</source>
+<volume>49</volume>
+<fpage>6177</fpage>
+<lpage>6196</lpage>
+<pub-id pub-id-type="pmid">17034125</pub-id></element-citation></ref><ref id="ref30"><label>30.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Maina</surname>
+<given-names>ENM</given-names>
+</string-name>
+<string-name>
+<surname>Njau</surname>
+<given-names>VN</given-names>
+</string-name>
+<string-name>
+<surname>Gavamukulya</surname>
+<given-names>Y</given-names>
+</string-name>
+<year>2020</year>
+<article-title>Phytochemical analysis and antileishmanial activity of Clerodendrum myricoides and Salvadora persica plant extracts against Leishmania major</article-title>
+<source>
+Journal of Complementary and Alternative Medical Research
+</source>
+<volume>9</volume>
+<fpage>29</fpage>
+<lpage>44</lpage>
+</element-citation></ref><ref id="ref31"><label>31.</label><element-citation publication-type="journal">
+<string-name>
+<surname>Ogeto</surname>
+<given-names>TK</given-names>
+</string-name>
+<string-name>
+<surname>Odhiambo</surname>
+<given-names>RA</given-names>
+</string-name>
+<string-name>
+<surname>Shivairo</surname>
+<given-names>RS</given-names>
+</string-name>
+<string-name>
+<surname>Muleke</surname>
+<given-names>CI</given-names>
+</string-name>
+<string-name>
+<surname>Osero</surname>
+<given-names>BO</given-names>
+</string-name>
+<year>2013</year>
+<article-title>Antileishmanial activity of
+<italic>Aloe secundiflora</italic>
+plant extracts against
+<italic>Leishmania major</italic>
+</article-title>
+<source>
+Advances in Life Science and Technology
+</source>
+<volume>13</volume>
+<fpage>9</fpage>
+<lpage>19</lpage>
+</element-citation></ref></ref-list></back></article>

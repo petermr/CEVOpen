@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">To upscale the 
+ <italic>Prosopis</italic> transpiration and ET from the individual study sites to the regional scale, a regression equation was developed using the fractional vegetation cover information mapped by Shiferaw et al
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. This mapping quantified the 
+ <italic>Prosopis</italic> distribution and cover in the Afar Region at a 15 × 15 m spatial resolution based on explanatory variables including Landsat panchromatic images, other biophysical parameters and field observations. The fractional cover map was generated using a robust modelling approach, Random Forest Algorithm, with a large amount of field observations (&gt; 3000 plots) and seventeen explanatory variables
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>. Then, we estimated the amount of water used by 
+ <italic>Prosopis</italic> stands at each of the four sites in mm/day per pixel with 100% cover. This was extrapolated to all fractional cover levels per pixel indicated in the fractional cover map for 
+ <italic>Prosopis</italic> in the study area. Moreover, canopy cover from the experimental plots of 
+ <italic>Prosopis</italic> trees was estimated. Then, the relationship between sap flow and fractional cover as well as between ET and fractional cover (F
+ <sub>ci</sub>) over the invaded area was developed as shown in Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>):
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\text{f }}\left( {\text{x}} \right) = \sum ({\text{Fci}}({\text{Wi}})S)$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <mrow>
+     <mrow>
+      <mtext>f</mtext>
+      <mspace width="0.333333em"/>
+     </mrow>
+     <mfenced close=")" open="(">
+      <mtext>x</mtext>
+     </mfenced>
+     <mo>=</mo>
+     <mo>∑</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mtext>Fci</mtext>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mtext>Wi</mtext>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mi>S</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_81776_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>f(x)</italic> is either total water use (sap flow) or total ET in mm/day over the whole study area; 
+ <italic>Fc</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is fractional cover at pixel level 
+ <sub>i</sub>, 
+ <italic>W</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is water use either from sap flow or stand ET at 100% canopy cover, and 
+ <italic>S</italic> is a pixel size of 225 m
+ <sup>2</sup>.
+</p>

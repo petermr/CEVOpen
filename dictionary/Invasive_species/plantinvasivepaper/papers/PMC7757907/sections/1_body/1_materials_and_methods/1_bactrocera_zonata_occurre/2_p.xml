@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In preparation for the MaxEnt modeling, duplicate occurrence records were removed, and in instances where georeferenced occurrence points were not provided, but place names given we geo-coded the points based on the place names using Google Earth Pro software version 7.3.2. Although these coordinate points were not the exact locations of the 
+ <italic>B</italic>. 
+ <italic>zonata’s</italic> records, they provided representative conditions of the sampling sites. The occurrence records were plotted on a map and visually inspected for obvious errors. To minimize spatial autocorrelation, the location records were spatially filtered specifying a minimum distance of 10 km. A similar method was employed in a study to determine the global potential distribution of 
+ <italic>Bactrocera carambolae</italic> in Brazil [
+ <xref rid="pone.0243047.ref033" ref-type="bibr">33</xref>]. In other previous studies, models fitted with filtered occurrence records resulted in lower overfitting and had better performance [
+ <xref rid="pone.0243047.ref052" ref-type="bibr">52</xref>,
+ <xref rid="pone.0243047.ref053" ref-type="bibr">53</xref>]. In our study spatial filtering yielded georeferenced occurrence records (n = 74) used in developing the MaxEnt models as some (n = 34) were discarded for being autocorrelated with close by records.
+</p>

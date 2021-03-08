@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="par0030">We applied a term frequency-inverse document frequency (tf-idf) weighting scheme to the co-occurrence table.
- <xref rid="bib0070" ref-type="bibr">
-  <sup>14</sup>
- </xref> We first created a co-frequency table of SRKs and compounded prescriptions. We also prepared a co-frequency table of compounded prescriptions and herbs. The co-frequency table of SRKs and herbs was the dot product of the two co-frequency tables mentioned above. The co-frequencies between herbs and compounded prescriptions were divided by log (1 + the number of herbs in each prescription). Based on the co-frequency table, a tf-idf value for each herb was calculated by assigning the Document descriptor to herbs and the Term descriptor to the SRK categories. The tf-idf value of the category for each herb was L2-normalized
-</p>

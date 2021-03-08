@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E1">
+ <math id="M1">
+  <mtable columnalign="left">
+   <mtr>
+    <mtd>
+     <mi>%</mi>
+     <mtext> inhibition</mtext>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mtext>Control absorption </mtext>
+       <mo>-</mo>
+       <mtext> Sample absorption</mtext>
+      </mrow>
+      <mrow>
+       <mtext>Control absorption</mtext>
+      </mrow>
+     </mfrac>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

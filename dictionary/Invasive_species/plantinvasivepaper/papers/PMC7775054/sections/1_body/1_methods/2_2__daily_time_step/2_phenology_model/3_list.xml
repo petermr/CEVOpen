@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order">
+ <list-item>
+  <p>
+   <italic>Accumulated degree-days</italic>. While daily degree-days are calculated for each life stage, the cumulative degree-days are summed only for the first cohort of the larval stage, as these degree-day maps are representative for all cohorts and life stages. Accumulated degree-days calculated for larva will be the same for other life stages if common developmental thresholds are used.
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>Life stages</italic>. The life stage present (overwintering stage, eggs, larvae, pupae, and adults) for each cohort.
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>Number of generations</italic>. The current generation count for each cohort. If the model is run for an entire year, then the output for the last day of the year would represent the potential voltinism of the species. The generation count increases when adults progress to the egg stage (i.e. oviposition occurs).
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>Phenological event maps (optional)</italic>. The timing of phenological events is estimated by computing daily degree-day totals from the gridded temperature data, and storing the day of year when an event threshold is reached. Event results are generated only on the last day of the daily time step (typically, the last day of the year) because the entire time period must be analyzed for all potential event days to be considered.
+  </p>
+ </list-item>
+</list>

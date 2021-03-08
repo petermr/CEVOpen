@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DDRP capitalizes on the multi-processing capabilities of modern servers and computers to run multiple operations in parallel, which is made possible with the R packages parallel and doParallel [
+ <xref rid="pone.0244005.ref054" ref-type="bibr">54</xref>]. This significantly reduces computation times, particularly in cases where modeling is conducted with multiple cohorts and across large areas. For example, parallel processing is used to crop rasters for multiple dates, run multiple cohorts in the daily time step, and to analyze time step outputs for multiple days or files simultaneously. For very large areas (currently defined as the Eastern United States and CONUS), temperature rasters are split into four tiles and both the tiles and cohorts are run in parallel in the daily time step.
+</p>

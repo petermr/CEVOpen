@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">The models’ performance was tested using the test data set by the main statistical indicators which were formulated in Eqs. 
+ <xref rid="Equ9" ref-type="">9</xref> to 
+ <xref rid="Equ12" ref-type="">12</xref>. In these equations, 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y_{i}$$\end{document}</tex-math>
+   <math id="M20">
+    <msub>
+     <mi>y</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="13007_2021_710_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\hat{y}_{i}$$\end{document}</tex-math>
+   <math id="M22">
+    <msub>
+     <mover accent="true">
+      <mi>y</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="13007_2021_710_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the targets and network outputs, respectively, 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\overline{y}_{i}$$\end{document}</tex-math>
+   <math id="M24">
+    <msub>
+     <mover>
+      <mi>y</mi>
+      <mo>¯</mo>
+     </mover>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="13007_2021_710_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the mean of target values, and N is the number of samples.
+ <disp-formula id="Equ9">
+  <label>9</label>
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$MSE = \frac{{\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{i} - \hat{y}_{i} } \right)^{2} }}{n},$$\end{document}</tex-math>
+   <math id="M26" display="block">
+    <mrow>
+     <mi>M</mi>
+     <mi>S</mi>
+     <mi>E</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <msup>
+        <mfenced close=")" open="(">
+         <mrow>
+          <msub>
+           <mi>y</mi>
+           <mi>i</mi>
+          </msub>
+          <mo>-</mo>
+          <msub>
+           <mover accent="true">
+            <mi>y</mi>
+            <mo stretchy="false">^</mo>
+           </mover>
+           <mi>i</mi>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ9.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ10">
+  <label>10</label>
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$RMSE = \sqrt {\frac{{\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{i} - \hat{y}_{i} } \right)^{2} }}{n}} ,$$\end{document}</tex-math>
+   <math id="M28" display="block">
+    <mrow>
+     <mi>R</mi>
+     <mi>M</mi>
+     <mi>S</mi>
+     <mi>E</mi>
+     <mo>=</mo>
+     <msqrt>
+      <mfrac>
+       <mrow>
+        <msubsup>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mi>n</mi>
+        </msubsup>
+        <msup>
+         <mfenced close=")" open="(">
+          <mrow>
+           <msub>
+            <mi>y</mi>
+            <mi>i</mi>
+           </msub>
+           <mo>-</mo>
+           <msub>
+            <mover accent="true">
+             <mi>y</mi>
+             <mo stretchy="false">^</mo>
+            </mover>
+            <mi>i</mi>
+           </msub>
+          </mrow>
+         </mfenced>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+       <mi>n</mi>
+      </mfrac>
+     </msqrt>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ10.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ11">
+  <label>11</label>
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$MAE = \frac{{\mathop \sum \nolimits_{i = 1}^{n} \left| {y_{i} - \hat{y}_{i} } \right|}}{n},$$\end{document}</tex-math>
+   <math id="M30" display="block">
+    <mrow>
+     <mi>M</mi>
+     <mi>A</mi>
+     <mi>E</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mfenced close="|" open="|">
+        <mrow>
+         <msub>
+          <mi>y</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>-</mo>
+         <msub>
+          <mover accent="true">
+           <mi>y</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ11.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R^{2} = \frac{{\mathop \sum \nolimits_{i = 1}^{n} \left( {\hat{y}_{i} - \overline{y}_{i} } \right)^{2} }}{{\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{i} - \overline{y}_{i} } \right)^{2} }}.$$\end{document}</tex-math>
+   <math id="M32" display="block">
+    <mrow>
+     <msup>
+      <mi>R</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <msup>
+        <mfenced close=")" open="(">
+         <mrow>
+          <msub>
+           <mover accent="true">
+            <mi>y</mi>
+            <mo stretchy="false">^</mo>
+           </mover>
+           <mi>i</mi>
+          </msub>
+          <mo>-</mo>
+          <msub>
+           <mover>
+            <mi>y</mi>
+            <mo>¯</mo>
+           </mover>
+           <mi>i</mi>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <msup>
+        <mfenced close=")" open="(">
+         <mrow>
+          <msub>
+           <mi>y</mi>
+           <mi>i</mi>
+          </msub>
+          <mo>-</mo>
+          <msub>
+           <mover>
+            <mi>y</mi>
+            <mo>¯</mo>
+           </mover>
+           <mi>i</mi>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13007_2021_710_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0305">The overall preference scores for each option were determined with the weighted average of the scores for all criteria. Considering that the preference score for option 
+ <italic>i</italic> on criterion 
+ <italic>j</italic> is represented by 
+ <italic>s</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> and the weight for each criterion by 
+ <inline-formula>
+  <math id="M2" altimg="si2.svg">
+   <mrow>
+    <mi>ω</mi>
+   </mrow>
+  </math>
+ </inline-formula>
+ <sub>
+  <italic>j</italic>
+ </sub>, for 
+ <italic>n</italic> criteria the overall score for each option is given by:
+ <disp-formula id="ufd2">
+  <math id="M3" altimg="si3.svg">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mi>i</mi>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mspace width="0.25em"/>
+    <msub>
+     <mi>ω</mi>
+     <mn>1</mn>
+    </msub>
+    <msub>
+     <mi>s</mi>
+     <mrow>
+      <mi>i</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">+</mo>
+    <mspace width="0.25em"/>
+    <msub>
+     <mi>ω</mi>
+     <mn>2</mn>
+    </msub>
+    <msub>
+     <mi>s</mi>
+     <mrow>
+      <mi>i</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">+</mo>
+    <mo>⋯</mo>
+    <mo linebreak="goodbreak">+</mo>
+    <mspace width="0.25em"/>
+    <msub>
+     <mi>ω</mi>
+     <mi>n</mi>
+    </msub>
+    <msub>
+     <mi>s</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">=</mo>
+    <mspace width="0.25em"/>
+    <munderover>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>n</mi>
+    </munderover>
+    <msub>
+     <mi>ω</mi>
+     <mi>j</mi>
+    </msub>
+    <msub>
+     <mi>s</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since background prey mortality should not alter the general shape of the functional response curve [
+ <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>], the 
+ <italic>q</italic> parameter was fixed to either 0 or 1 based on the results of the “frair_test” function, which only considers data from predator-present treatments [
+ <xref rid="pone.0246178.ref046" ref-type="bibr">46</xref>, 
+ <xref rid="pone.0246178.ref047" ref-type="bibr">47</xref>]. The attack coefficient (
+ <italic>b</italic>) was given a starting value of one, the handling time (
+ <italic>h</italic>) had a starting value equivalent to the inverse of the maximum feeding rate, and the mortality rate (
+ <italic>m</italic>), if applicable, was given a starting value of 0.01 [
+ <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>]. The attack coefficient and handling time parameters were estimated based on our empirical data using an iterative maximum likelihood method: “mle2” function, “bbmle” package, R version 3.4.2 [
+ <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>–
+ <xref rid="pone.0246178.ref050" ref-type="bibr">50</xref>].
+</p>
