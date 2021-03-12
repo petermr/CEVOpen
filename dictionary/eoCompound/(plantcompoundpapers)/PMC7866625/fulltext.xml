@@ -1,0 +1,759 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Food Sci Nutr</journal-id><journal-id journal-id-type="iso-abbrev">Food Sci Nutr</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2048-7177</journal-id><journal-id journal-id-type="publisher-id">FSN3</journal-id><journal-title-group><journal-title>Food Science &#x00026; Nutrition</journal-title></journal-title-group><issn pub-type="epub">2048-7177</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7866625</article-id><article-id pub-id-type="doi">10.1002/fsn3.2047</article-id><article-id pub-id-type="publisher-id">FSN32047</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Antidepressant, anxiolytic, antipyretic, and thrombolytic profiling of methanol extract of the aerial part of <italic>Piper nigrum</italic>: In vivo, in vitro, and in silico approaches</article-title><alt-title alt-title-type="left-running-head">EMON et al.</alt-title></title-group><contrib-group><contrib id="fsn32047-cr-0001" contrib-type="author"><name><surname>Emon</surname><given-names>Nazim Uddin</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn32047-cr-0002" contrib-type="author"><name><surname>Alam</surname><given-names>Safaet</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="fsn32047-cr-0003" contrib-type="author" corresp="yes"><name><surname>Rudra</surname><given-names>Sajib</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0003">
+<sup>3</sup>
+</xref><address><email>rudrasajibcu89@gmail.com</email></address></contrib><contrib id="fsn32047-cr-0004" contrib-type="author"><name><surname>Riya</surname><given-names>Susmita Roy</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="fsn32047-cr-0005" contrib-type="author"><name><surname>Paul</surname><given-names>Avi</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="fsn32047-cr-0006" contrib-type="author"><name><surname>Hossen</surname><given-names>S M Moazzem</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="fsn32047-cr-0007" contrib-type="author"><name><surname>Kulsum</surname><given-names>Ummay</given-names></name><xref ref-type="aff" rid="fsn32047-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="fsn32047-cr-0008" contrib-type="author" corresp="yes"><name><surname>Ganguly</surname><given-names>Amlan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2507-022X</contrib-id><xref ref-type="aff" rid="fsn32047-aff-0007">
+<sup>7</sup>
+</xref><address><email>gangulyamlan@du.ac.bd</email><email>rudrasajibcu89@gmail.com</email></address></contrib></contrib-group><aff id="fsn32047-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>International Islamic University Chittagong</institution>
+<city>Chittagong</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>State University of Bangladesh</institution>
+<city>Dhaka</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Botany</named-content>
+<institution>University Chittagong</institution>
+<city>Chittagong</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>University of Dhaka</institution>
+<city>Dhaka</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>Southern University Bangladesh</institution>
+<city>Chittagong</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>University Chittagong</institution>
+<city>Chittagong</city>
+<country country="BD">Bangladesh</country>
+</aff><aff id="fsn32047-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Department of Clinical Pharmacy and Pharmacology</named-content>
+<institution>University of Dhaka</institution>
+<city>Dhaka</city>
+<country country="BD">Bangladesh</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Amlan Ganguly, Department of Clinical Pharmacy and Pharmacology, Faculty of Pharmacy, University of Dhaka, Dhaka &#x02010; 1000, Bangladesh.<break/>
+Email: <email>gangulyamlan@du.ac.bd</email><break/>
+Sajib Rudra, Ethnobotany and Pharmacognosy Lab, Department of Botany, University of Chittagong, Chattogram 4331, Bangladesh.<break/>
+Email: <email>rudrasajibcu89@gmail.com</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>1</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2021</year></pub-date><volume>9</volume><issue>2</issue><issue-id pub-id-type="doi">10.1002/fsn3.v9.2</issue-id><fpage>833</fpage><lpage>846</lpage><history><date date-type="received"><day>27</day><month>9</month><year>2020</year></date><date date-type="rev-recd"><day>12</day><month>11</month><year>2020</year></date><date date-type="accepted"><day>21</day><month>11</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2021 Published by Wiley Periodicals, Inc.<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic>Food Science &#x00026; Nutrition</italic> published by Wiley Periodicals LLC.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:FSN3-9-833.pdf"/><abstract id="fsn32047-abs-0001"><title>Abstract</title><p>
+<italic>Piper nigrum</italic> L. also called black pepper is popular for its numerous uses. The present research is designed to investigate the pharmacological potential of methanol extract of <italic>Piper nigrum</italic> (MEPN). The antidepressant investigation was performed by using both in vivo forced swimming test (FST) and tail suspension test (TST) methods while the anxiolytic research by hole&#x02010;board test (HBT) method. Again, the antipyretic analysis was conducted through yeast&#x02010;induced pyrexia method, whereas clot lysis activity was employed by the thrombolytic method. Furthermore, <italic>in silico</italic> studies followed by molecular docking analysis of several secondary metabolites, pass prediction, and ADME/T were evaluated with AutoDock Vina, Discovery Studio 2020, UCSF Chimera software PASS online, and ADME/T online tools. The plant extract demonstrated dose&#x02010;dependent potentiality in antidepressant, anxiolytic, antipyretic, and thrombolytic activities. Induction of MEPN produced a significant (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.5, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) increase of mobility in FST and TST, and increased the head dipping and decreased the latency of time (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) in HBT. MEPN 400 (mg/kg; b.w.; p.o.) lowered the rectal temperature of yeast&#x02010;induced pyrexia substantially (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). Besides, MEPN produced promising (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) clot lysis activity. In the computational approach, among all the proteins, a docking score was found ranging from &#x02212;1.0 to &#x02212;7.90&#x000a0;kcal/mol. Besides, all the compounds were found safe in ADME/T study. The results of our scientific research validate the suitability of this plant as an alternative source of novel therapeutics.</p></abstract><abstract abstract-type="graphical" id="fsn32047-abs-0002"><p>The methanolic extract of the plant Piper nigrum has promising biological activities that are supported by computational approaches. So, this plant can be considered as an alternative source of therapeutics.<boxed-text position="anchor" content-type="graphic" id="fsn32047-blkfxd-0001" orientation="portrait"><graphic xlink:href="FSN3-9-833-g006.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="fsn32047-kwd-0001">ADME/T</kwd><kwd id="fsn32047-kwd-0002">antidepressant</kwd><kwd id="fsn32047-kwd-0003">antipyretic</kwd><kwd id="fsn32047-kwd-0004">anxiolytic</kwd><kwd id="fsn32047-kwd-0005">molecular docking</kwd><kwd id="fsn32047-kwd-0006"><italic>Piper nigrum</italic></kwd><kwd id="fsn32047-kwd-0007">thrombolytic</kwd></kwd-group><counts><fig-count count="6"/><table-count count="4"/><page-count count="14"/><word-count count="9247"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.7 mode:remove_FC converted:06.02.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="fsn32047-cit-1001">
+<string-name>
+<surname>Emon</surname>
+<given-names>NU</given-names>
+</string-name>, <string-name>
+<surname>Alam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Rudra</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Antidepressant, anxiolytic, antipyretic, and thrombolytic profiling of methanol extract of the aerial part of <italic>Piper nigrum</italic>: In vivo, in vitro, and in silico approaches</article-title>. <source xml:lang="en">Food Sci Nutr</source>. <year>2021</year>;<volume>9</volume>:<fpage>833</fpage>&#x02013;<lpage>846</lpage>. <pub-id pub-id-type="doi">10.1002/fsn3.2047</pub-id>
+</mixed-citation>
+</p><fn-group id="fsn32047-ntgp-0001"><fn id="fsn32047-note-0001"><p>Nazim Uddin Emon and Safaet Alam have equal contributions.</p></fn></fn-group></notes></front><body id="fsn32047-body-0001"><sec id="fsn32047-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Anxiety and depression are the most common causes of heterogeneous psychiatric illnesses in the world (Fajemiroye et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0015" ref-type="ref">2016</xref>). Human neurological disorders have the potential to produce fear and dramatically impair normal activity and standard of living (Adnan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0002" ref-type="ref">2020</xref>). Depression can seriously disrupt the person and contribute to physical infirmity involving increased morbidity and mortality. However, anxiety is another prevalent psychiatric condition worldwide (M&#x000f6;ller et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0033" ref-type="ref">2016</xref>). Additionally, depressive disorders enlisted by the World Health Organization contribute substantially to worldwide nonfatal diseases (Depression,&#x000a0;<xref rid="fsn32047-bib-0010" ref-type="ref">2017</xref>). Anxiety, a natural emotional state, can be considered as a psychological disorder if occurs frequently. The manifestation of anxiety associated with depression contributes to multifaceted symptoms including declines in real prognosis, and deterioration in responsiveness to medication or therapy along with the increased risk of suicide (Kara et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0023" ref-type="ref">2000</xref>).</p><p>Stress can characterize the pathogenesis of anxiety. Oxidative stress which has been identified as a causative factor contributing to the pathogenesis of a variety of chronic diseases including hepatic injury, diabetes, obesity, inflammation, neurological disorders, and cancer is also the product of the stressful condition (Hassan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0019" ref-type="ref">2014</xref>). Fever (pyrexia) is an example of body's complicated immune physiological response to infectious or inflammatory stimuli that induces a series of biochemical generating different endogenous pyrogens (Muhammad et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0036" ref-type="ref">2019</xref>). Graft rejection, infection, malignant tumors, or other illnesses, and fever or hyperpyrexia may result in as a consequence of damaged tissue (Hossain et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0021" ref-type="ref">2014</xref>). The high production of pro&#x02010;inflammatory mediators such as interleukin&#x02010;1&#x003b2;, interleukin&#x02010;&#x003b1;, interleukin&#x02010;&#x003b2;, and TNF&#x02010;&#x003b1; increase the synthesis of PGE2 (prostaglandin E2) near the preoptic hypothalamus zone and can force body temperature to rise (Rashed&#x02010;Al&#x02010;Qayum et al., <xref rid="fsn32047-bib-0044" ref-type="ref">2013</xref>). While significant side effects such as gastric mucosal disruptions have spread to ulcerative states in extreme cases, there are many commercially available drug moieties to mitigate the effects of fever incidence (Debnath et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0009" ref-type="ref">2013</xref>).</p><p>The interest of recent research is moved toward natural phytomedicines to discover novel herbal anti&#x02010;inflammatory compounds without adverse effects in order to combat these unwanted circumstances demonstrated by conventional drugs (Hossain et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0021" ref-type="ref">2014</xref>). Again, blood clots (thrombosis) can contribute to coronary blood anomalies including acute myocardial infarction and brain hemorrhage which can lead to death (Emon et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0013" ref-type="ref">2020</xref>). The first&#x02010;line medication for thrombus therapy is intravenous heparin because of its safety, potency, and viability (Prasad et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0042" ref-type="ref">2006a</xref>). While streptokinase and urokinase are commonly prescribed due to their lower cost profile than other thrombolytic medications, they are also harmful as they can induce serious bleeding, re&#x02010;occlusion, and re&#x02010;infarction (Haines &#x00026; Bussey,&#x000a0;<xref rid="fsn32047-bib-0018" ref-type="ref">1995</xref>). Computer simulated screening can well characterize the pharmacological functioning of phytochemicals (Parasuraman,&#x000a0;<xref rid="fsn32047-bib-0038" ref-type="ref">2011</xref>). To ascertain the design and preparation of new drug molecules using computer&#x02010;aided drug discovery techniques, the application of molecular docking is also important. The native ligand can recognize the binding site of the three&#x02010;dimensional protein structure and correlate with physiochemical interactions through successful molecular docking (Guedes et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0017" ref-type="ref">2014</xref>).</p><p>In the treatment of chronic diseases, including moderate fever and life&#x02010;threatening diseases, medicinal plants are commonly used around the world (Adnan et al., <xref rid="fsn32047-bib-0003" ref-type="ref">2019</xref>). They are also an noteworthy source of medicine in the urban areas of Bangladesh and demonstrate a pivotal role in the treatment of various disease states (Mollik et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0034" ref-type="ref">2010</xref>). The traditional folkloric practice of medicinal plants relies primarily on scientifically sound experimental evidence. The Piperaceae family offers many secondary metabolites with high potential for medicinal use that are biologically active. Many species of <italic>Piper</italic> have a broad source&#x000a0;of natural compounds including alkaloids and amides (Scott et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0050" ref-type="ref">2005</xref>). Docking methodology is a standard computational tool in drug design to optimize major compounds and find novel active molecules via virtual screening along with experimental binding modes and affinities of small molecules (Parenti &#x00026; Rastelli,&#x000a0;<xref rid="fsn32047-bib-0039" ref-type="ref">2012</xref>). Search algorithms are used to investigate the free energy landscape and to find out the best ligand poses in molecular docking (Huang &#x00026; Caflisch,&#x000a0;<xref rid="fsn32047-bib-0022" ref-type="ref">2011</xref>). Usually, structure&#x02010;based strategy employing ligand&#x000a0;&#x02212;&#x000a0;receptor molecular docking is adopted to predict interaction affinities and binding modes of the biological molecules with a particular target receptor (Guedes et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0017" ref-type="ref">2014</xref>).</p><p>
+<italic>Piper nigrum</italic> (Family: Piperaceae) is also referred to be black pepper and is harvested for its fruits. The dried fruits of this plant have been consumed as a spice throughout the world. The plant is a permanent climber that holds to the supporting tree. The sedate small white flowers have appeared in thick pendulous spike. The pepper seeds have a diameter of approximately 0.5~1.0&#x000a0;cm. At maturity, they become yellowish&#x02010;red and carry only one seed in each. The length of the spike varies greatly with the cultivar. Young fruits are whitish&#x02010;green, green, or light purple, while mature fruits seem to be deep purple or deep yellow, and become red when peak (Saha et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0047" ref-type="ref">2013</xref>). <italic>P. nigrum</italic>, having biological properties is well&#x02010;known as CNS stimulant, antifeedant, painkillers, and antipyretics (Miyakado et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0031" ref-type="ref">1980</xref>). <italic>P. nigrum</italic> is found to comprehend bioactive compounds such as &#x0201c;betaine, achyranthine, 10&#x02010;tricosanone, 10&#x02010;octacosanone, 4&#x02010;tritriacontanone, piperolactam D, pellitorine, piperidine, piperine, sylvamide, cepharadione A, and paprazine&#x0201d; (Ee et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0011" ref-type="ref">2009</xref>). Though <italic>P. nigrum</italic> has many significant drug characteristics, no study regarding the quest of antidepressant, anti&#x02010;anxiolytic, antipyretic, and thrombolytic activity of the aerial part of this plant has been carried out till today to the best of our knowledge. For that reason, the neuropharmacological, antipyretic, and thrombolytic effectiveness of the methanol extract of the aerial part of <italic>Piper</italic>&#x000a0;<italic>nigrum</italic> has been aimed to conduct through biological (in vivo and in vitro) and computational (in silico) methodologies.</p></sec><sec sec-type="materials-and-methods" id="fsn32047-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="fsn32047-sec-0003"><label>2.1</label><title>Collection and identification of the plants</title><p>In September 2019, <italic>Piper nigrum</italic> were collected from Rangamati, Chittagong, Bangladesh. After that taxonomy of the plant was identified by the taxonomist namely Sajib Rudra, Department of Botany, University of Chittagong, Chittagong&#x02010;4331, Bangladesh. After that, the plant was stored for further analysis (Accession No: CTGUH SR&#x02010;1780). The aerial part of the plant was segregated after washing, and plant materials were dried for twenty days in a shaded place at low temperatures and ground using appropriate blender equipment. The material was then placed in an impermeable package and held in a cool, dry, and warm position until further inspection.</p></sec><sec id="fsn32047-sec-0004"><label>2.2</label><title>Extraction process</title><p>The powdered content (approximately 800&#x000a0;g) was stored in a glass bottle and soaked in 2.4&#x000a0;L of methanol. This was then set and sustained for 15&#x000a0;days for the most intensive absorption with regular shaking and mixing. The solutions were filtered by the Whatman filter paper (Bibby RE200; Sterilin Ltd) after 15&#x000a0;days and condensed by subjecting to a water bath. Afterward, from the powdered materials, 7.2&#x000a0;g of crude extracts was developed followed by storage of concentrate for both the reservation and for the investigation at 4&#x000b0;C.</p></sec><sec id="fsn32047-sec-0005"><label>2.3</label><title>Animals and ethical consideration</title><p>To conduct the biological activity assessment, Swiss albino mice of 25&#x02013;30&#x000a0;g weight were obtained from Jahangirnagar University. Prior to the testing, all animals were kept in the new environment for one week to get used to. The animals were housed in a well&#x02010;ventilated animal house during the experimental process at 25&#x000b0;C temperature, comparative humidity (55%&#x02013;65%), and normal 12&#x02010;hr day/light pattern. The experimental animal models were provided with normal laboratory food and ad libitum drinking water.</p></sec><sec id="fsn32047-sec-0006"><label>2.4</label><title>Drug and chemicals</title><p>Commercially offered lyophilized streptokinase (SK) vials (Incepta Pharmaceuticals Ltd), paracetamol (Beximco Pharmaceuticals Ltd), methanol and Tween&#x02010;80 (Sigma&#x02010;Aldrin), and saline water (ACME Laboratories Ltd) had been purchased from the respective suppliers.</p></sec><sec id="fsn32047-sec-0007"><label>2.5</label><title>Acute toxicity test</title><p>The research was carried out under normal laboratory conditions, directed by Organization for Environmental Control Development (Viran et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0055" ref-type="ref">2003</xref>). Every group of 10 mice were administered oral doses of MEPN 1,000, 2,000, and 3,000&#x000a0;mg/kg, whereas the control group received only vehicle (water). For 48&#x000a0;hr, the groups were tracked. In addition, the animals were weighed and physical, cognitive, and/or any deleterious impact on animal models were documented every day.</p></sec><sec id="fsn32047-sec-0008"><label>2.6</label><title>Forced swimming test (FST) on mice</title><p>The forced swimming test was performed to evaluate the antidepressant effect of MEPN in mice according to the method formerly mentioned (Cryan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0008" ref-type="ref">2005</xref>). Introductory research was performed the day before the final study, to adapt the animal models to the experimental system. The investigational swimming equipment was made up of a transparent glass tank (25&#x000a0;&#x000b1;&#x000a0;15&#x000a0;&#x000b1;&#x000a0;25&#x000a0;cm) filled with water up to 15&#x000a0;cm (25&#x000a0;&#x000b1;&#x000a0;1&#x000b0;C) to facilitate swimming. The mice were divided into five groups, with six mice in each group. Group I was given the vehicle, whereas Group II was treated with standard medication (diazepam: 5&#x000a0;mg/kg, b.w.; i.p.) and Groups III&#x02013;V received the test sample (MEPN 100, 200, and 400&#x000a0;mg/kg, b.w.; p.o.). After thirty minutes, each mouse was put in the tank for 6&#x000a0;min, where the initial adjustment period was considered to be the first couple of minutes and the immobility period was reported for succeeding 4&#x000a0;min.</p></sec><sec id="fsn32047-sec-0009"><label>2.7</label><title>Tail suspension test (TST) on mice</title><p>A simple and efficient way to measure the antidepressants&#x02019; action is the tail suspension test (Wang et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0056" ref-type="ref">2019</xref>). Mice are classified into five classes, each of which consists of six mice. Group I was given the vehicle, whereas Group II was treated with standard medication (diazepam: 5&#x000a0;mg/kg, b.w.; i.p.) and Groups III&#x02013;V received the test sample (MEPN 100, 200, and 400&#x000a0;mg/kg, b.w.; p.o.). After the implementation of the test samples, the mice were subjected to a depressed state (immobility), which was kept at the end of the tail with adhesive tape (nearly 1&#x000a0;cm from the tip of the tail). Only the last four minutes of the immobility period were reported for each mouse in all groups, for six minutes of examination in total.</p></sec><sec id="fsn32047-sec-0010"><label>2.8</label><title>Hole&#x02010;board test (HBT) on mice</title><p>The hole&#x02010;board test was performed following the previously described method by Moniruzzaman et al. (<xref rid="fsn32047-bib-0035" ref-type="ref">2015</xref>). For the analysis, a hole&#x02010;board apparatus was constructed which is consisted of a wooden box distributed uniformly (40&#x000a0;&#x000d7;&#x000a0;40&#x000a0;cm) with 16 holes (each 3&#x000a0;cm in diameter). The unit was raised to a height of 25&#x000a0;cm. The mice were divided into five groups, with six mice in each group. Group I was given the vehicle, whereas Group II was treated with standard medication (diazepam: 5&#x000a0;mg/kg, b.w.; i.p.) and Groups III&#x02013;V received the test sample (MEPN 100, 200, and 400&#x000a0;mg/kg, b.w.; p.o.). After 30&#x000a0;min of administration, the mice were placed into the device. Head dips were documented for more for five minutes. As a standard anxiolytic agent, diazepam (5&#x000a0;mg/kg, i.p.) was introduced.</p></sec><sec id="fsn32047-sec-0011"><label>2.9</label><title>Yeast&#x02010;induced pyrexia on mice</title><p>Brewer's yeast&#x02010;induced pyrexia approach was applied to mice models with the subcutaneous injection of yeast suspension ensuring a dosage of 10&#x000a0;ml/kg body weight to determine the antipyretic function of the methanol extract of <italic>P. nigrum</italic> (Loux et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0029" ref-type="ref">1972</xref>). In this study, animal models were limited from food intake overnight prior to the experimentation, despite allowing access to unlimited water. Preliminary rectal temperatures were documented using an Ellab thermometer (Hossain et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0021" ref-type="ref">2014</xref>). Mice were only chosen for the antipyretic property evaluation if the rectal temperature increased by 0.3 to 0.5&#x000b0;C after 18&#x000a0;hr of subcutaneous injection of yeast solution. <italic>P. nigrum</italic> extracts were administered orally at three distinct doses (100, 200, and 400&#x000a0;mg/kg body weight) along with paracetamol (100&#x000a0;mg/kg body weight orally) as the standard drug, whereas only distilled water (10&#x000a0;ml/kg) was obtained by the control group. To conduct the antipyretic activity assessment, mice were selected only when there is an increase in rectal temperature of 0.3&#x02013;0.5&#x000b0;C after 18&#x000a0;hr of subcutaneous administration of yeast solution (20%). Extracts of <italic>P. nigrum</italic> were introduced orally at three different doses (100, 200, and 400&#x000a0;mg/kg body weight) along with paracetamol (100&#x000a0;mg/kg body weight orally) as reference drug where control group received distilled water (10&#x000a0;ml/kg) only. Finally, rectal temperature tracking lasted for 3&#x000a0;hr with an interval of 1&#x000a0;hr (Abena et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0001" ref-type="ref">2003</xref>).</p></sec><sec id="fsn32047-sec-0012"><label>2.10</label><title>In vitro thrombolytic study</title><sec id="fsn32047-sec-0013"><label>2.10.1</label><title>Streptokinase (SK) solution preparation</title><p>To the commercially available SK&#x02010;1500000 I.U. (Polamin&#x02010;Werk GmbH), 5&#x000a0;ml of pure distilled water was added and mixed properly. 100&#x000a0;&#x003bc;l (30,000 I.U) from the suspension was taken as a stock solution for the in vitro thrombolysis investigation (Emon et al., 2007).</p></sec><sec id="fsn32047-sec-0014"><label>2.10.2</label><title>Specimen for thrombolytic test</title><p>With minor adjustment, the experiment was conducted using the previously developed protocol (Emon et al., 2006b). Blood (5&#x000a0;ml) from physically strong human volunteers (<italic>n</italic>&#x000a0;=&#x000a0;10) with no records of NSAID and anticoagulant consumption for previous 10&#x000a0;days was considered for this study. 500&#x000a0;&#x003bc;l of blood was taken to the early Eppendorf measurement and stored for 45&#x000a0;min at 37&#x000b0;C in the incubator. The serum was finally isolated from Eppendorf following the formation of coagulation. In order to determine the exact weight of coagulation, each tube containing only coagulation has been further weighed. After that, 100&#x000a0;&#x003bc;l of plant extract was introduced to the tubes. In the incubator, the test tube carrying plant extract was suspended and the temperature was set for 90&#x000a0;min at 37&#x000b0;C.</p><p>After the clot lysis, the blood serum was removed and the tube was again weighed to monitor the variation of weight followed by the development of the clot lysis. The clot lysis percentage was computed by applying the following formula:<disp-formula id="fsn32047-disp-0001"><mml:math id="nlm-math-1"><mml:mrow><mml:mo>%</mml:mo><mml:mspace width="0.277778em"/><mml:mtext>clot</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>lysis</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Weight</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>of</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>the</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>lysis</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>clot</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Weight</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>of</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>clot</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>before</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>lysis</mml:mtext></mml:mrow></mml:mfrac><mml:mo>&#x000d7;</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:math></disp-formula>
+</p></sec></sec><sec id="fsn32047-sec-0015"><label>2.11</label><title>In silico study</title><sec id="fsn32047-sec-0016"><label>2.11.1</label><title>Molecular docking: protein preparation</title><p>Human serotonin transporter (PDB ID: 5I6X; Coleman et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0007" ref-type="ref">2016</xref>), potassium channel enzyme (PDB ID: 4UUJ; Lenaeus et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0026" ref-type="ref">2014</xref>), microsomal prostaglandin E synthase 1 (PDB ID: 4YK5; Luz et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0030" ref-type="ref">2015</xref>), and tissue plasminogen activator (PDB ID: 1A5H; Renatus et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0045" ref-type="ref">1997</xref>) have been derived from RCSB Protein Data Bank (<ext-link ext-link-type="uri" xlink:href="https://www.rcsb.org/structure">https://www.rcsb.org/structure</ext-link>) in PDB format for the antidepressant, anxiolytic, antipyretic, and thrombolytic studies, respectively. With Discovery Studio 2020, all the water and heteroatom have been eliminated from proteins. The nonpolar hydrogens and the Gasteiger charge were kept default to prepare&#x000a0;proteins. Furthermore, all proteins were brought to minimum energy level throughout UCSF Chimera and processed for further analysis, using normal residues in AMBER ff14sB and other residues in Gasteiger mode (Shapovalov &#x00026; Dunbrack,&#x000a0;<xref rid="fsn32047-bib-0051" ref-type="ref">2011</xref>).</p></sec><sec id="fsn32047-sec-0017"><label>2.11.2</label><title>Molecular docking: ligand preparation</title><p>The structure of seven compounds of <italic>Piper nigrum</italic> namely paprazine (PubChem CID: 5372945), pellitorine (PubChem CID: 5318516), piperine (PubChem CID: 638024), sylvamide (PubChem CID: 21580215), cepharadione A (PubChem CID: 94577), piperolactam D (PubChem CID: 14039008), and 10&#x02010;tricosanone (PubChem CID: 5195001) were retrieved from PubChem database (<ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/">https://pubchem.ncbi.nlm.nih.gov/</ext-link>; Figure&#x000a0;<xref rid="fsn32047-fig-0001" ref-type="fig">1</xref>). Besides, diazepam (PubChem CID: 3016), ibuprofen (PubChem CID: 3672), and streptokinase (PubChem CID: 9815560) have been studied to compare and contrast the docking of the compounds of <italic>Piper nigrum</italic>. The ligands have been downloaded in 2DSDF format and minimized by PyRx tool aim to find the best possible hit for these targets. The virtual screening software PyRx from MGLTools (<ext-link ext-link-type="uri" xlink:href="https://ccsb.scripps.edu/mgltools/">https://ccsb.scripps.edu/mgltools/</ext-link>) has been kept in default format (Herowati &#x00026; Widodo,&#x000a0;<xref rid="fsn32047-bib-0020" ref-type="ref">2014</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="fsn32047-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Chemical structures of cepharadione A, paprazine, pellitorine, piperine, piperolactam D, sylvamide, and 10&#x02010;tricosanone used in the computational study</p></caption><graphic id="nlm-graphic-3" xlink:href="FSN3-9-833-g001"/></fig></sec><sec id="fsn32047-sec-0018"><label>2.11.3</label><title>Molecular docking: docking analysis</title><p>For the docking of the chosen protein&#x02013;ligand complexes, the PyRx AutoDock Vina has been used (Herowati &#x00026; Widodo,&#x000a0;<xref rid="fsn32047-bib-0020" ref-type="ref">2014</xref>). A semiflexible docking system has been used for the docking analysis. PDB files of phytochemicals and proteins were minimized and subsequently transformed into PDBQT format using PyRx AutoDock Vina software. This analysis maintained the protein's rigidity and ligand's versatility. 10 degrees of freedom has been allowed to the ligand molecules. AutoDock specifies measures to transform the molecules into the pdbqt format molecules, box type, grid box formation, etc., automatically. The grid box was created with an active site in the center of the box. In addition, BIOVIA Discovery Studio Visualizer 2020 (Biovia,&#x000a0;<xref rid="fsn32047-bib-0005" ref-type="ref">2017</xref>) was accelerated to determine the best docking positions.</p></sec><sec id="fsn32047-sec-0019"><label>2.11.4</label><title>Pharmacokinetics and toxicity measurement</title><p>The SwissADME online method has been used to assess the pharmacokinetic properties (ADME) of the compounds. Lipiniski's five rule (molecular weight not more than 500 dalton; H&#x02010;bond donors &#x02264;5; H&#x02010;bond acceptors &#x02264;10; molar refractivity ranging from 40 to 130; and lipophilicity &#x0003c;5) has been considered for the evaluation of positive drug&#x02010;like properties of any compound (Lipinski et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0028" ref-type="ref">1997</xref>). In addition, the online tool admetSAR (<ext-link ext-link-type="uri" xlink:href="http://lmmd.ecust.edu.cn/admetsar2">http://lmmd.ecust.edu.cn/admetsar2</ext-link>) was used to calculate the toxicological properties of all the compounds.</p></sec><sec id="fsn32047-sec-0020"><label>2.11.5</label><title>Pass prediction</title><p>For the quest of the potential biological effectivities of the selected compounds, the pass prediction was reviewed with the use of the PASS online tools (<ext-link ext-link-type="uri" xlink:href="http://www.pharmaexpert.ru/passonline/predict.php">http://www.pharmaexpert.ru/passonline/predict.php</ext-link>). The Pa and Pi&#x000a0;values ranged from 0.000 to 1.000 (Mojumdar et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0032" ref-type="ref">2016</xref>). The compounds have been considered biologically seem to potentials whenever its Pa values are higher than the Pi values. In comparison, Pa&#x000a0;&#x0003c;&#x000a0;0.7 suggests high drug activities, 0.5&#x000a0;&#x0003c;&#x000a0;Pa&#x000a0;&#x0003c;&#x000a0;0.7 shows moderate therapeutic potentials and Pa&#x000a0;&#x0003c;&#x000a0;0.5 shows poor pharmaceutical activity (Goel et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0016" ref-type="ref">2011</xref>; Khurana et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0025" ref-type="ref">2011</xref>).</p></sec></sec><sec id="fsn32047-sec-0021"><label>2.12</label><title>Statistical analysis</title><p>The data were analyzed as mean&#x000a0;&#x000b1;&#x000a0;standard error mean (<italic>SEM</italic>). A one&#x02010;way ANOVA followed by Dunnett's <italic>t</italic> test was used to conduct statistical judgments. These values were compared with the control group and declared&#x000a0;statistically significant when <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, and <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05. The statistical analysis was conducted using the software namely GraphPad Prism (version 5.2).</p></sec></sec><sec sec-type="results" id="fsn32047-sec-0022"><label>3</label><title>RESULTS</title><sec id="fsn32047-sec-0023"><label>3.1</label><title>Effect of MEPN on oral acute toxicity</title><p>In the acute oral toxicity study, no significant morphological modifications (eyes, nose, ears, and fur) have been observed to the rodent. The MEPN was stable at a single dose up to 3,000&#x000a0;mg/kg body weight dose. That is why MEPN (200 and 400&#x000a0;mg/kg, b.w.; p.o.) was chosen as the doses for the biological investigations.</p></sec><sec id="fsn32047-sec-0024"><label>3.2</label><title>Effects of MEPN on FST</title><p>The&#x000a0;decreased immobility time (s) in the FST has been shown in Figure&#x000a0;<xref rid="fsn32047-fig-0002" ref-type="fig">2</xref>. With the increase in the dose, the immobility decreased in the dose&#x02010;dependent manner. The highest immobility estimates for MEPN 400&#x000a0;mg/kg; b.w.) and were 60.30&#x000a0;&#x000b1;&#x000a0;0.78 (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001; s). In addition, standard drug (diazepam 5&#x000a0;mg/kg b.w.; i.p.) yielded the&#x000a0;FST value of 40.36&#x000a0;&#x000b1;&#x000a0;2.37 (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001; s).</p><fig fig-type="FIGURE" xml:lang="en" id="fsn32047-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Effect of MEPN on the forced swimming test and tail suspension test. Data were presented as mean&#x000a0;&#x000b1;&#x000a0;<italic>SEM</italic> (<italic>n</italic>&#x000a0;=&#x000a0;6), and &#x02217;<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, **<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, and ***<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001 considered as significant. MEPN, methanol extract of the aerial part of <italic>Piper nigrum</italic>; STK, streptokinase; DPM, diazepam</p></caption><graphic id="nlm-graphic-5" xlink:href="FSN3-9-833-g002"/></fig></sec><sec id="fsn32047-sec-0025"><label>3.3</label><title>Effects of MEPN on TST</title><p>In order to estimate the antidepressant activity, TST has been employed and the MEPN decreased the immobility time in the TST study in a dose&#x02010;dependent manner (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). The TST immobility times were 100.21&#x000a0;&#x000b1;&#x000a0;1.28 (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05), 82.56&#x000a0;&#x000b1;&#x000a0;0.90, and 67.30&#x000a0;&#x000b1;&#x000a0;3.31 (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0,001; s) at the doses of 100, 200, and 400&#x000a0;mg/kg, b.w.; p.o.), respectively (Figure&#x000a0;<xref rid="fsn32047-fig-0002" ref-type="fig">2</xref>).</p></sec><sec id="fsn32047-sec-0026"><label>3.4</label><title>Effects of MEPN on HBT</title><p>The number of head dips did not increase substantially with the administration of MEPN 100&#x000a0;mg/kg/p.o. The initial head&#x02010;dip latency (s) and head poking was reduced substantially (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.5, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01) by the increased dose. Sustainable (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01) explorative activity has been demonstrated by the reference drug (diazepam: 5&#x000a0;mg/kg, i.p.; Figure&#x000a0;<xref rid="fsn32047-fig-0003" ref-type="fig">3</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="fsn32047-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>Effect of MEPN on the hole&#x02010;board test. Data were presented as mean&#x000a0;&#x000b1;&#x000a0;<italic>SEM</italic> (<italic>n</italic>&#x000a0;=&#x000a0;6), and &#x02217;<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, *<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, and *<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001 considered as significant. MEPN&#x000a0;=&#x000a0;methanol extract of the aerial part of <italic>Piper nigrum</italic>, DPM&#x000a0;=&#x000a0;Diazepam</p></caption><graphic id="nlm-graphic-7" xlink:href="FSN3-9-833-g003"/></fig></sec><sec id="fsn32047-sec-0027"><label>3.5</label><title>Effect of MEPN on yeast&#x02010;induced pyretic test</title><p>The rectal temperature was highly increased after 18&#x000a0;hr of Brewer's yeast suspension administration in the subcutaneous route. Paracetamol (100&#x000a0;mg/kg, i.p.)&#x02010; and MEPN (100, 200, and 400&#x000a0;mg/kg)&#x02010;treated mice have shown a significant (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, 0.001) dose&#x02010;dependent pyrexia inhibition compared with the control group. The maximum inhibition of pyrexia was produced by MEPN 400&#x000a0;mg/kg, which inhibition rate is close to the prescribed drug paracetamol&#x02010;100&#x000a0;mg/kg (Table&#x000a0;<xref rid="fsn32047-tbl-0001" ref-type="table">1</xref>).</p><table-wrap id="fsn32047-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Brewer's yeast&#x02010;induced hyperpyrexia inhibition report of MEPN and control samples in mice model</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Treatment</th><th align="left" rowspan="2" valign="bottom" colspan="1">Dose (mg/kg b.w.; p.o.)</th><th align="left" rowspan="2" valign="bottom" colspan="1">Normal rectal temperature (&#x000b0;F)</th><th align="left" rowspan="2" valign="bottom" colspan="1">Rectal temperature (&#x000b0;F) after yeast administration</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Rectal temperature (&#x000b0;F) after drug administration</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">60&#x000a0;min</th><th align="left" valign="bottom" rowspan="1" colspan="1">120&#x000a0;min</th><th align="left" valign="bottom" rowspan="1" colspan="1">180&#x000a0;min</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">TWN&#x02212;80</td><td align="left" rowspan="1" colspan="1">10&#x000a0;ml/kg</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">98.13&#x000a0;&#x000b1;&#x000a0;0.32</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">103.32&#x000a0;&#x000b1;&#x000a0;0.86</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.90&#x000a0;&#x000b1;&#x000a0;0.34<sup>#</sup>
+</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.33&#x000a0;&#x000b1;&#x000a0;0.23<sup>#</sup>
+</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.88&#x000a0;&#x000b1;&#x000a0;0.36<sup>#</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">PCL</td><td align="left" rowspan="1" colspan="1">100</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">98.50&#x000a0;&#x000b1;&#x000a0;0.32</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">103.47&#x000a0;&#x000b1;&#x000a0;0.33</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">99.14&#x000a0;&#x000b1;&#x000a0;0.77***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">98.88&#x000a0;&#x000b1;&#x000a0;0.74***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">97.82&#x000a0;&#x000b1;&#x000a0;0.47***</td></tr><tr><td align="left" rowspan="1" colspan="1">MEPN</td><td align="left" rowspan="1" colspan="1">100</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">98.12&#x000a0;&#x000b1;&#x000a0;0.88</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">103.77&#x000a0;&#x000b1;&#x000a0;0.45</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.20&#x000a0;&#x000b1;&#x000a0;0.66</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102. 33&#x000a0;&#x000b1;&#x000a0;0.47</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102. 44&#x000a0;&#x000b1;&#x000a0;23</td></tr><tr><td align="left" rowspan="1" colspan="1">MEPN</td><td align="left" rowspan="1" colspan="1">200</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">98.20&#x000a0;&#x000b1;&#x000a0;0.45</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">104.04&#x000a0;&#x000b1;&#x000a0;1.19</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">101.87&#x000a0;&#x000b1;&#x000a0;0.47***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.48&#x000a0;&#x000b1;&#x000a0;0.38***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">102.88&#x000a0;&#x000b1;&#x000a0;1.15**</td></tr><tr><td align="left" rowspan="1" colspan="1">MEPN</td><td align="left" rowspan="1" colspan="1">400</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">97.24&#x000a0;&#x000b1;&#x000a0;0.54</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">104.44&#x000a0;&#x000b1;&#x000a0;0.72</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">100.88&#x000a0;&#x000b1;&#x000a0;0.84***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">101.34&#x000a0;&#x000b1;&#x000a0;0.88***</td><td align="char" char="&#x000b1;" rowspan="1" colspan="1">101.90&#x000a0;&#x000b1;&#x000a0;0.74***</td></tr></tbody></table><table-wrap-foot id="fsn32047-ntgp-0002"><title>Note</title><fn id="fsn32047-note-0002"><p>Effects of the MEPN on the hyperpyrexia inhibition test in mice (<italic>n</italic>&#x000a0;=&#x000a0;6). Values are presented as mean&#x000a0;&#x000b1;&#x000a0;<italic>SEM</italic>; one&#x02010;way analysis of variance (ANOVA) followed by Dunnett's test.</p></fn><fn id="fsn32047-note-0003"><p>MEPN, methanol extract of the aerial part of <italic>Piper nigrum</italic>; PCL, paracetamol; TWN, 1% Tween&#x02010;80.</p></fn><fn id="fsn32047-note-0004"><label>*</label><p>
+<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, *<italic>*p</italic>&#x000a0;&#x0003c;&#x000a0;.01, and ***<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001 are considered as significant compared with the control, where # is designated as control.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="fsn32047-sec-0028"><label>3.6</label><title>Effect of MEPN on thrombolytic test</title><p>A rise of 58.87&#x000a0;&#x000b1;&#x000a0;3.52% (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) of the coagulation with an hour and a half brooding at 37&#x000b0;C has been indicated the anticoagulant efficacy of 100&#x000a0;&#x003bc;l streptokinase (30,000 I.U.; a positive control anticoagulant). Furthermore, saline water displayed a therapeutically insignificant 3.23&#x000a0;&#x000b1;&#x000a0;1.32% clot lysis. Figure&#x000a0;<xref rid="fsn32047-fig-0004" ref-type="fig">4</xref> displays the anticlotting overview of the MEPN.</p><fig fig-type="FIGURE" xml:lang="en" id="fsn32047-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Effect of MEPN on the thrombolytic study (<italic>n</italic>&#x000a0;=&#x000a0;10). Data were presented as mean&#x000a0;&#x000b1;&#x000a0;<italic>SEM</italic> (<italic>n</italic>&#x000a0;=&#x000a0;10), and &#x02217;<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05, *<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.01, and *<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001 considered as significant. MEPN, methanol extract of the aerial part of the <italic>Piper nigrum</italic>; STK, streptokinase; SNW, saline water</p></caption><graphic id="nlm-graphic-9" xlink:href="FSN3-9-833-g004"/></fig></sec><sec id="fsn32047-sec-0029"><label>3.7</label><title>Molecular docking analysis for antidepressant and anxiolytic study</title><p>The docking analysis results for antidepressant and anxiolytic activity are presented in Table&#x000a0;<xref rid="fsn32047-tbl-0002" ref-type="table">2</xref> and Figure&#x000a0;<xref rid="fsn32047-fig-0005" ref-type="fig">5</xref>. In this investigation, two receptors namely human serotonin transporter (PDB ID: 5I6X) and potassium channel (PDB ID: 4UUJ) have been used to screen antidepressant and anxiolytic docking analysis, respectively. In the case of the human serotonin transporter (PDB ID: 5I6X), the ranking of the docking score is as follows: cepharadione A&#x000a0;&#x0003e;&#x000a0;piperolactam D&#x000a0;&#x0003e;&#x000a0;diazepam&#x000a0;&#x0003e;&#x000a0;paprazine&#x000a0;&#x0003e;&#x000a0;piperine&#x000a0;&#x0003e;&#x000a0;10&#x02010;tricosanone&#x000a0;&#x0003e;&#x000a0;sylvamide&#x000a0;&#x0003e;&#x000a0;pellitorine. On the contrary, the docking of the selected compounds against the potassium channel (PDB ID: 4UUJ) is as follows: piperolactam D&#x000a0;&#x0003e;&#x000a0;diazepam &#x0003e;cepharadione A&#x000a0;&#x0003e;&#x000a0;piperine&#x000a0;&#x0003e;&#x000a0;paprazine&#x000a0;&#x0003e;&#x000a0;10&#x02010;tricosanone&#x000a0;&#x0003e;&#x000a0;sylvamide&#x000a0;&#x0003e;&#x000a0;pellitorine. Amino acid residues namely arg241, gln254, his235, and glu101 established the interaction between cepharadione A and 5I6X. Furthermore, piperolactam D binds to the enzymatic pocket of 4UUJ receptor by means of gly42, gln39, gly42, pro41, and val93 residues with a docking score of &#x02212;7.9&#x000a0;kcal/mol.</p><table-wrap id="fsn32047-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Docking scores of the selected compounds with the human serotonin transporter (PDB ID: 5I6X), potassium channel (PDB ID: 4UUJ), mPGE&#x02010;1 (4YK5), and tissue plasminogen activator (PDB ID: 1A5H)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="5" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Docking score</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="3" valign="bottom" colspan="1">Compounds</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Receptors</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">Antidepressant</th><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">Anxiolytic</th><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">Antipyretic</th><th align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1" colspan="1">Thrombolytic</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">5I6X</th><th align="left" valign="bottom" rowspan="1" colspan="1">4UUJ</th><th align="left" valign="bottom" rowspan="1" colspan="1">4YK5</th><th align="left" valign="bottom" rowspan="1" colspan="1">1A5H</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Cepharadione A</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x02212;7.1</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.4</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x02212;6.9</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Paprazine</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;5.6</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.0</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.3</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Pellitorine</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.0</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.0</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.9</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;2.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Piperine</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.6</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.4</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.2</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Piperolactam D</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.6</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&#x02212;7.9</bold>
+</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.5</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;<bold>7.2</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sylvamide</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.6</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;2.0</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.2</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;2.9</td></tr><tr><td align="left" rowspan="1" colspan="1">10&#x02010;Tricosanone</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.2</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;2.8</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;4.5</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Standard (Diazepam/paracetamol/streptokinase)</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.4</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;7.2</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;5.4</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.4</td></tr></tbody></table><table-wrap-foot id="fsn32047-ntgp-0502"><title>Note</title><fn id="fsn32047-note-0502"><p>The most significant values of docking scores have been marked in bold letter.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="FIGURE" xml:lang="en" id="fsn32047-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>3D and 2D presentations of the best ligand&#x02013;receptor interactions (a, b, c, and d represent 5I6X&#x02010;cepharadione A, 4UUJ&#x02010;piperolactam D, 4YK5&#x02010;cepharadione A, and 1A5H&#x02010;piperolactam D interactions, respectively)</p></caption><graphic id="nlm-graphic-11" xlink:href="FSN3-9-833-g005"/></fig></sec><sec id="fsn32047-sec-0030"><label>3.8</label><title>Molecular docking analysis for the pyretic study</title><p>The docking analysis of antipyretic activity has been illustrated in Table&#x000a0;<xref rid="fsn32047-tbl-0002" ref-type="table">2</xref> and Figure&#x000a0;<xref rid="fsn32047-fig-0005" ref-type="fig">5</xref>. In this investigation, prostaglandin E synthase&#x02010;1 (4YK5) was used to quest of binding interaction with the selected compounds of <italic>P. nigrum</italic>. Cepharadione A explores best binding affinity with the prostaglandin E synthase&#x02010;1 (4YK5) proteins which interact with the 4YK5 receptor through the van der Waals (thr21, val24) and pi&#x02013;sigma (leu83) bonds. The ranking of the docking score is as follows: cepharadione A&#x000a0;&#x0003e;&#x000a0;paprazine &#x0003e;piperine&#x000a0;&#x0003e;&#x000a0;sylvamide &#x0003e;paracetamol&#x000a0;&#x0003e;&#x000a0;pellitorine &#x0003e;piperolactam D&#x000a0;&#x0003e;&#x000a0;10&#x02010;tricosanone.</p></sec><sec id="fsn32047-sec-0031"><label>3.9</label><title>Molecular docking analysis for thrombolytic study</title><p>The docking analysis results for the thrombolytic activity have been presented in Table&#x000a0;<xref rid="fsn32047-tbl-0002" ref-type="table">2</xref> and Figure&#x000a0;<xref rid="fsn32047-fig-0005" ref-type="fig">5</xref>. In case of tissue plasminogen activator (PDB ID: 1A5H), the highest score has been obtained &#x02212;7.21&#x000a0;kcal/mol for piperolactam D. The ranking of the docking score is as follows: piperolactam D&#x000a0;&#x0003e;&#x000a0;streptokinase&#x000a0;&#x0003e;&#x000a0;cepharadione A&#x000a0;&#x0003e;&#x000a0;piperine&#x000a0;&#x0003e;&#x000a0;paprazine&#x000a0;&#x0003e;&#x000a0;10&#x02010;tricosanone&#x000a0;&#x0003e;&#x000a0;sylvamide&#x000a0;&#x0003e;&#x000a0;pellitorine. Piperolactam D interacts with the protein (1A5H) through the series of amino acid residues (leu41, cys42, gly193, tyr99) of conventional hydrogen and pi&#x02013;alkyl bonds.</p></sec><sec id="fsn32047-sec-0032"><label>3.10</label><title>Pharmacokinetics and toxicity measurement</title><p>The study shows that all the compounds agree with Lipinski's rules and claim that these compounds are orally bioavailable. In order to predict the toxicological properties of the seven compounds, the online admetSAR (<ext-link ext-link-type="uri" xlink:href="http://lmmd.ecust.edu.cn/admetsar2/">http://lmmd.ecust.edu.cn/admetsar2/</ext-link>) server is also used. The analysis showed that the selected compounds are non&#x02010;Ames toxic and noncarcinogenic (Table&#x000a0;<xref rid="fsn32047-tbl-0003" ref-type="table">3</xref>).</p><table-wrap id="fsn32047-tbl-0003" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 3</label><caption><p>Absorption, digestion, metabolism, excretion, and toxicological properties of the compounds for good oral bioavailability</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Molecules</th><th align="left" valign="top" rowspan="1" colspan="1">PID</th><th align="left" valign="top" rowspan="1" colspan="1">MW (g/mol)</th><th align="left" valign="top" rowspan="1" colspan="1">HBD</th><th align="left" valign="top" rowspan="1" colspan="1">HBA</th><th align="left" valign="top" rowspan="1" colspan="1">LogP (o/w)</th><th align="left" valign="top" rowspan="1" colspan="1">GA</th><th align="left" valign="top" rowspan="1" colspan="1">AMT</th><th align="left" valign="top" rowspan="1" colspan="1">CAR</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Cepharadione A</td><td align="char" char="." rowspan="1" colspan="1">94577</td><td align="char" char="." rowspan="1" colspan="1">305.3</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">2.26</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Paprazine</td><td align="char" char="." rowspan="1" colspan="1">5372945</td><td align="char" char="." rowspan="1" colspan="1">283.32</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">2.05</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Pellitorine</td><td align="char" char="." rowspan="1" colspan="1">5318516</td><td align="char" char="." rowspan="1" colspan="1">223.35</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">3.61</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Piperine</td><td align="char" char="." rowspan="1" colspan="1">638024</td><td align="char" char="." rowspan="1" colspan="1">285.34</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">3.42</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Piperolactam D</td><td align="char" char="." rowspan="1" colspan="1">14039008</td><td align="char" char="." rowspan="1" colspan="1">295.29</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">2.33</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Sylvamide</td><td align="char" char="." rowspan="1" colspan="1">21580215</td><td align="char" char="." rowspan="1" colspan="1">257.37</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">3.14</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">10 Tricosanone</td><td align="char" char="." rowspan="1" colspan="1">5195001</td><td align="char" char="." rowspan="1" colspan="1">338.61</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">5.78</td><td align="left" rowspan="1" colspan="1">Low</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr></tbody></table><table-wrap-foot id="fsn32047-ntgp-0003"><title>Note</title><fn id="fsn32047-note-0005"><p>PID&#x000a0;=&#x000a0;PubChem ID, MW&#x000a0;=&#x000a0;molecular weight (acceptance range: &#x0003c;500), HBD&#x000a0;=&#x000a0;hydrogen&#x02010;bond donor (acceptance range: &#x02264;5), HBA&#x000a0;=&#x000a0;hydrogen&#x02010;bond acceptor: (acceptance range: &#x02264;10), LogP&#x000a0;=&#x000a0;high lipophilicity (acceptance range: &#x0003c;5), AMT, AMES toxicity; CAR&#x000a0;=&#x000a0;carcinogens; GA, gastro&#x02010;intestinal absorption.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="fsn32047-sec-0033"><label>3.11</label><title>PASS prediction study</title><p>Seven major selected compounds of <italic>Piper nigrum</italic> were studied by the PASS online tool for antidiarrheal and antibacterial activities, and Pa values higher than Pi showed strong molecular potency (Table&#x000a0;<xref rid="fsn32047-tbl-0004" ref-type="table">4</xref>).</p><table-wrap id="fsn32047-tbl-0004" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 4</label><caption><p>PASS prediction of standard drug and selected bioactive compounds of the aerial part of <italic>Piper nigrum</italic>
+</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="3" valign="bottom" colspan="1">Biological Activity</th><th align="left" colspan="14" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Molecules</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Cepharadione A</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Paprazine</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Pellitorine</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Piperine</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Piperolactam D</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Sylvamide</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">10&#x02010;Tricosanone</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pa</th><th align="left" valign="bottom" rowspan="1" colspan="1">Pi</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Antidepressant</td><td align="char" char="." rowspan="1" colspan="1">0.652</td><td align="char" char="." rowspan="1" colspan="1">0.171</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">0.230</td><td align="char" char="." rowspan="1" colspan="1">0.040</td><td align="char" char="." rowspan="1" colspan="1">0.533</td><td align="char" char="." rowspan="1" colspan="1">0.016</td><td align="char" char="." rowspan="1" colspan="1">0.832</td><td align="char" char="." rowspan="1" colspan="1">0.088</td><td align="char" char="." rowspan="1" colspan="1">0.250</td><td align="char" char="." rowspan="1" colspan="1">0.016</td><td align="char" char="." rowspan="1" colspan="1">0.925</td><td align="char" char="." rowspan="1" colspan="1">0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">Anxiolytic</td><td align="char" char="." rowspan="1" colspan="1">0.424</td><td align="char" char="." rowspan="1" colspan="1">0.030</td><td align="char" char="." rowspan="1" colspan="1">0.552</td><td align="char" char="." rowspan="1" colspan="1">0.041</td><td align="char" char="." rowspan="1" colspan="1">0.573</td><td align="char" char="." rowspan="1" colspan="1">0.042</td><td align="char" char="." rowspan="1" colspan="1">0.372</td><td align="char" char="." rowspan="1" colspan="1">0.146</td><td align="char" char="." rowspan="1" colspan="1">0.393</td><td align="char" char="." rowspan="1" colspan="1">0.083</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">0.592</td><td align="char" char="." rowspan="1" colspan="1">0.010</td></tr><tr><td align="left" rowspan="1" colspan="1">Antipyretic</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">0.025</td><td align="char" char="." rowspan="1" colspan="1">0.264</td><td align="char" char="." rowspan="1" colspan="1">0.027</td><td align="char" char="." rowspan="1" colspan="1">0.481</td><td align="char" char="." rowspan="1" colspan="1">0.042</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">0.496</td><td align="char" char="." rowspan="1" colspan="1">0.039</td><td align="char" char="." rowspan="1" colspan="1">0.656</td><td align="char" char="." rowspan="1" colspan="1">0.019</td></tr><tr><td align="left" rowspan="1" colspan="1">Thrombolytic</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">&#x02014;</td><td align="char" char="." rowspan="1" colspan="1">0.601</td><td align="char" char="." rowspan="1" colspan="1">0.072</td><td align="char" char="." rowspan="1" colspan="1">0.622</td><td align="char" char="." rowspan="1" colspan="1">0.007</td><td align="char" char="." rowspan="1" colspan="1">0.172</td><td align="char" char="." rowspan="1" colspan="1">0.115</td><td align="char" char="." rowspan="1" colspan="1">0.713</td><td align="char" char="." rowspan="1" colspan="1">0.116</td><td align="char" char="." rowspan="1" colspan="1">0.050</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">0.713</td><td align="char" char="." rowspan="1" colspan="1">0.018</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec></sec><sec sec-type="discussion" id="fsn32047-sec-0034"><label>4</label><title>DISCUSSION</title><p>Although multiple treatment approaches have been available to treat anxiety, depression, and coronary artery disease, it still remains a mystery to fully alleviate disease symptoms without side effects. Therefore, the clinical application of these drugs is constrained by side effects and poor pharmacokinetics. As a result, the safeties, effectiveness, onset of action, duration of action, and side effects of current drugs have become a critical issue and requirement of new drugs are becoming a major concern. Due to the diversity of neural targets, herbal medicine has become promising for the treatment of these diseases (Fajemiroye et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0015" ref-type="ref">2016</xref>). Current research reveals that MEPN possesses noteworthy impact on force swimming, tail suspension, hole&#x02010;board head dipping, and anticoagulant property screening.</p><p>The forced swimming test (FST) and tail suspension test (TST) are popularly acknowledged techniques for antidepressant action estimation. For these studies, the characteristic behavior assessment, known as immobility, is considered to be like human depression. The capability to decrease immobility periods in mice is close to the drug's antidepressant potential (Porsolt et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0041" ref-type="ref">1977</xref>). The adoption of swimming as an objective helped in identifying multiple potential compounds as antidepressants. Swimming event can be amended by BDNF (brain&#x02010;derived neurotrophic factor) and NT&#x02010;3 (neurotrophin&#x02010;3) antagonists, estradiol, kappa opioid receptor, glutamate metabotropic receptors, nitric oxide synthesis, melanocortin&#x02010;4, GABA (gamma&#x02010;aminobutyric acid) receptor, and delta&#x02010;opioid receptor agonists. The impact of SSRI (selective serotonin receptor inhibitors) relies on the intact synthesis of 5&#x02010;HT as 5&#x02010;HT (5&#x02010;hydroxytryptamine) complies with the efficacy of antidepressant effect on the swimming inspection (Cryan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0008" ref-type="ref">2005</xref>). It is also assumed that the existence of phytochemicals in the MEPN improves mobility in the FST and TST by upraising the transmission of 5HT. The psychological impacts of the GABA transmitter and nitric oxide synthase during the FST were blocked by the scarcity of 5&#x02010;HT synthesis which ascertains that augmented transmission of 5&#x02010;HT is associated with their antidepressant activity.</p><p>The number and time period of exploratory head dips were measured in HBT with the dose&#x02010;dependent administration of MEPN (100, 200, and 400&#x000a0;mg/kg b.w.; p.o.). This method is advantageous due to the analytical versatility of HBT, and different behavioral reactions can be easily detected and evaluated when subjected to unfamiliar circumstances. The animals' head&#x02010;dipping tendency is directly linked to their psychological condition (Ali et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0004" ref-type="ref">2015</xref>). This result is consistent with the fact that after the administration of nonsedative doses of diazepam, the intensity of head dipping and early latency of the first head dip were observed in the hole&#x02010;board. However, with enhanced head dipping and early head dipping, anxiolytic status has been defined. This suggests that the animal's distress can be demonstrated by a decline in head&#x02010;dipping activity in the hole&#x02010;board experiment (Takeda et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0052" ref-type="ref">1998</xref>). By suppressing an enzyme that breaks down monoamines (norepinephrine, serotonin, and dopamine) and preventing reuptake in the synaptic cleft, some first&#x02010;line anxiolytic and antidepressant drugs improve monoamine function. First&#x02010;line medications are often self&#x02010;prescribed as anxiolytic and/or antidepressant drugs by the patient himself with or without a prescription. Benzodiazepines that amplify GABAergic inhibitory transmission are the most commonly utilized anxiolytic agents (Tatarczy&#x00144;ska et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0053" ref-type="ref">2001</xref>). Few anxiolytic drugs have activities that may interact with antidepressant actions in pathophysiology. Serotonin agonists such as buspirone and gepirone are expected to work on 5&#x02010;hydroxytryptamine&#x02010;1A (5&#x02010;HT1A) presynaptic and postsynaptic receptors and are used as both antidepressants and as anxiolytic moieties (Schechter et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0049" ref-type="ref">2005</xref>).</p><p>The study revealed a significant insight on the antipyretic study of MEPN utilizing biological and computational studies of the selected compounds of <italic>P. nigrum</italic>. The possible mechanism of action of antipyretic agents might be attributed by inhibition of prostaglandin synthesis, that is, cessation of synthesis of prostaglandin by blocking cyclooxygenase by paracetamol (Rudra et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0046" ref-type="ref">2020</xref>). Inhibition of several pyrexia&#x02010;inducing mediators is accountable for the antipyretic effect (Muhammad et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0037" ref-type="ref">2012</xref>). Therefore, it can be predicted that, MEPN might possess the antipyretic activity due to the presence of bioactive phytochemicals by inhibiting the prostaglandin synthesis like other analgesic drugs, as both of those reduced the rectal temperature of yeast injected mice. In case of nonsteroidal anti&#x02010;inflammatory drugs (NSAIDS), it is also established that they can show antipyretic activity through the inhibition of prostaglandin synthesis within the hypothalamus (Vane &#x00026; Botting,&#x000a0;<xref rid="fsn32047-bib-0054" ref-type="ref">1998</xref>).</p><p>Findings of thrombolytic research indicate that during the thrombolytic property evaluation, the coagulation procedure is divided into three stages: prothrombin activator formation, thrombin training, and fibrin production. Antithrombotic or thrombolytic agents can interrupt the formation of a thrombus. The core part of the thrombolytic mechanism is to eliminate plasmin fibrin, which can be triggered by inactive plasminogen activators. Streptokinase (SK) and urokinase (UK) work through the indirect clot lysis route. The thrombolytic enzymes effectively eliminate the fibrin in the indirect mechanism which was also proved by in vitro thrombolysis studies (Yuan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0057" ref-type="ref">2012</xref>). This research has evidently shown that MEPN is capable of inhibiting coagulation which can be an integral component of thrombolytic treatment management that does not impair the usual clotting process in the body low&#x02010;dose pattern. Urokinase (UK) and streptokinase (SK) lysis the clot indirectly. The thrombolytic enzymes dissolve directly to the fibrin in the indirect mechanism (Yuan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0057" ref-type="ref">2012</xref>). This research has already explored&#x000a0;that&#x000a0;MEPN can suppress coagulation and does not impact the normal body coagulation process at a low dose. Therefore, low dose of MEPN has been recommended for blood clot mitigation.</p><p>Molecular docking studies have been widely employed to predict ligand&#x02013;target interactions and to intensify the understanding of natural products' bio&#x02010;activities. It also offers additional insights regarding possible binding mechanisms within the&#x000a0;protein binding pockets (Khan et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0024" ref-type="ref">2019</xref>). To understand the implications of this fact, the biological studies have been explained and validated through the molecular docking study. Seven typical compounds of <italic>P.nigrum</italic> have been chosen to comply the docking study to get a deeper examination following biological characteristics (anxiolytic, antidepressant, antipyretic, and thrombolytic). These compounds were then docked against three targets, namely the potassium channel (PDB ID: 4UUJ), human serotonin transporter (PDB ID: 5I6X), m&#x02010;PGES 1 (PDB ID: 4YK5), and tissue plasminogen activator (PDB ID: 1A5H) for anxiolytic, antidepressant, antipyretic, and thrombolytic studies correspondingly. Human serotonin&#x000a0;transporters (PDB ID: 5I6X) react to the ligands via&#x000a0;a series of bonds&#x000a0;which result in docking values of &#x02212;3.08 to &#x02212;7.14&#x000a0;kcal/mol. These results indicate that these phytoconstituents are substantially responsible for antidepressant activity through the interaction with these target proteins. Molecular docking of the selected phytoconstituents with the potassium channel (PDB ID: 4UUJ) also employed to evaluate the anxiolytic docking study, and the docking score has been documented ranging from &#x02212;1.0 to &#x02212;7.9&#x000a0;kcal/mol. Subsequently, the docking score for the antipyretic study has been found ranging from &#x02212;4.5 to &#x02212;6.9&#x000a0;kcal/mol. Among all the compounds, cepharadion A, piperolactam D, paprazine, and piperine have shown the significant&#x000a0;docking score&#x000a0;against plasminogen tissue&#x000a0;activator (PDB ID: 1A5H) in the thrombolytics docking study and the highest score against&#x000a0;tissue plasminogen&#x000a0;activator enzymes has been seen in Cepharadione A. This research suggests that the bioactive compounds (cepharadione A, paprazine, piperine, 10&#x02010;tricosanone, and piperolactam D) may be&#x000a0;responsible for the thrombolytic activity of the MEPN.</p><p>Regarding the findings of&#x000a0;molecular docking&#x000a0;analyses against the&#x000a0;human serotonin transportation, potassium channel, m&#x02010;PGES 1, and tissue plasminogen activator, the pharmacokinetics and toxicological&#x000a0;parameters of the compounds have been checked. All the compounds obeyed Lipiniski's drug&#x02010;likeliness rules. Therefore, these interpretations of identified&#x000a0;substances are incredibly supportive to establishing a new pharmaceutical agent (Lipinski,&#x000a0;<xref rid="fsn32047-bib-0027" ref-type="ref">2004</xref>; Rudra et&#x000a0;al.,&#x000a0;<xref rid="fsn32047-bib-0046" ref-type="ref">2020</xref>; Zhang &#x00026; Wilkinson,&#x000a0;<xref rid="fsn32047-bib-0058" ref-type="ref">2007</xref>).</p><p>The findings suggest that the compounds&#x000a0;meet&#x000a0;Lipinski's rules, which indicate that they might act as effective drug candidates, and that they are risk free&#x000a0;for the&#x000a0;oral use (Table&#x000a0;<xref rid="fsn32047-tbl-0003" ref-type="table">3</xref>). Furthermore, we used the admetSAR online tool to evaluate the toxicological parameters of the assigned plant compounds as drug safety is an essential factor for&#x000a0;making it a good medicinal product (Cheng et al., <xref rid="fsn32047-bib-0006" ref-type="ref">2012</xref>).</p><p>PASS prediction is a computational tool that simulates the constituents depending&#x000a0;on&#x000a0;varying degrees of bioactivity and clarifies&#x000a0;multiple effectivities&#x000a0;of the&#x000a0;components (Poroikov &#x00026; Filimonov,&#x000a0;<xref rid="fsn32047-bib-0040" ref-type="ref">2005</xref>). This research explained compounds with a greater value of Pa (trustworthy activity) than Pi (trustworthy inactivity) have been&#x000a0;considered acceptable for a certain biological activity. The comprehensive analysis therefore revealed noteworthy findings regarding the selected compounds. The results might become attributable due&#x000a0;to the combined orientation of many phytochemicals, including established and&#x000a0;nonreported phytochemicals.</p></sec><sec sec-type="conclusions" id="fsn32047-sec-0035"><label>5</label><title>CONCLUSION</title><p>The interpretation of the biological results of this scientific research reflects that the aerial part of <italic>Piper nigrum</italic> can be a prominent source of antidepressant, anxiolytic, antipyretic, and clot&#x02010;lytic agents. Besides, the molecular docking analysis of the bioactive phytoconstituents displayed promising binding affinity to the specific proteins and the ADME/T study showed their drug&#x02010;like characters. The experimental findings have been consistent with PASS predictions for bioactive constituents too. Thus, the computational study has validated the experimental results of biological activities and provided a promising insight for considering <italic>P. nigrum</italic> as a notable drug candidate. Additional studies are also recommended as it is suggested that structural alteration of these compounds may show improved docking score and better therapeutic importance.</p></sec><sec sec-type="COI-statement" id="fsn32047-sec-0037"><title>CONFLICT OF INTEREST</title><p>The authors declare that they have no competing interest.</p></sec><sec id="fsn32047-sec-0038"><title>AUTHOR CONTRIBUTION</title><p>U.E. and S.R. conceptualized the study. U.E., S.A., A.P., and S.R.R. performed data curation. N.U.E., S.R., and S.A. performed formal analysis. N.U.E., S.R., U.K., S.R.R., and A.P. investigated the study. S.R., N.U.E., and S.M. M.H. designed methodology. S.M.M.H. and N.U.E. administered the project. S.M., M.H. and A.G. provided resources. N.U.E. implemented software programs. S.A. and S.M., M.H. validated the data. N.U.E., S.R., U.K., and S.A. performed visualization. S.R, N.U.E., and S.A. wrote the original draft. S.A., N.U.E., and A.G. reviewed and edited the manuscript. A.G. and S.R. supervised the study.</p></sec><sec id="fsn32047-sec-0039"><title>ETHICAL APPROVAL</title><p>In compliance with the ethical guidelines laid out in the 2013, named Helsinki Declaration 2013, all biological activity screenings have been completed. Tests were conducted and processed according to the guidelines of animal euthanasia in 2013 version and were euthanized according to the Swiss Academy of Medical Sciences and the Swiss Academy of Science.</p></sec></body><back><ack id="fsn32047-sec-0036"><title>ACKNOWLEDGMENTS</title><p>The authors are grateful to Mr. A.T.M Mostafa Kamal, Assistant Professor and Chairman, Department of Pharmacy, International Islamic University Chittagong, Mrs Fatema Akter and Mrs Sultana Razia Shorna for their continuous inspiration and supports toward the successful completion of the research work and preparation of the manuscript for publication. The authors also grateful to the research team named &#x0201c;The Article (road to drug discovery)&#x0201d; and Ethnobotany and Pharmacognosy Lab, Department of Botany, University of Chittagong for the laboratory supports.</p></ack><sec sec-type="data-availability" id="fsn32047-sec-0041"><title>DATA AVAILABILITY STATEMENT</title><p>Google Scholar (<ext-link ext-link-type="uri" xlink:href="https://scholar.google.com/" specific-use="software is-supplemented-by">https://scholar.google.com/</ext-link>) and PubMed (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/about/intro/" specific-use="software is-supplemented-by">https://www.ncbi.nlm.nih.gov/pmc/about/intro/</ext-link>) have been used to search available articles in order to write the introduction and discussion part of the manuscript. In addition, PubChem (<ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/" specific-use="software is-supplemented-by">https://pubchem.ncbi.nlm.nih.gov/</ext-link>) and rcsbPDB (<ext-link ext-link-type="uri" xlink:href="https://www.rcsb.org/search" specific-use="software is-supplemented-by">https://www.rcsb.org/search</ext-link>) websites have also been used to collect the structures of the ligands and proteins. Besides, admeSAR (<ext-link ext-link-type="uri" xlink:href="http://lmmd.ecust.edu.cn/admetsar2/" specific-use="software is-supplemented-by">http://lmmd.ecust.edu.cn/admetsar2/</ext-link>) was used to gather the information of ADME/T properties so that it can be included in in silico investigations.</p></sec><ref-list content-type="cited-references" id="fsn32047-bibl-0001"><title>REFERENCES</title><ref id="fsn32047-bib-0001"><mixed-citation publication-type="journal" id="fsn32047-cit-0001">
+<string-name>
+<surname>Abena</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Diatewa</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gakosso</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Gbeassor</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hondi&#x02010;Assah</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ouamba</surname>, <given-names>J.</given-names>
+</string-name> (<year>2003</year>). <article-title>Analgesic, antipyretic and anti&#x02010;inflammatory effects of essential oil of Lippia multiflora</article-title>. <source xml:lang="en">Fitoterapia</source>, <volume>74</volume>(<issue>3</issue>), <fpage>231</fpage>&#x02013;<lpage>236</lpage>. <pub-id pub-id-type="doi">10.1016/S0367-326X(03)00029-7</pub-id>
+<pub-id pub-id-type="pmid">12727486</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0002"><mixed-citation publication-type="journal" id="fsn32047-cit-0002">
+<string-name>
+<surname>Adnan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Chy</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Uddin</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Kama</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Azad</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kalam</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chowdhury</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Comparative study of Piper sylvaticum Roxb. leaves and stems for anxiolytic and antioxidant properties through in vivo, in vitro, and in silico approaches</article-title>. <source xml:lang="en">Biomedicines</source>, <volume>8</volume>(<issue>4</issue>), <fpage>68</fpage>.</mixed-citation></ref><ref id="fsn32047-bib-0003"><mixed-citation publication-type="journal" id="fsn32047-cit-0003">
+<string-name>
+<surname>Adnan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Chy</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Mostafa Kamal</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Azad</surname>, <given-names>M. O. K.</given-names>
+</string-name>, <string-name>
+<surname>Paul</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Uddin</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name>
+<surname>Cho</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>2019</year>). <article-title>Investigation of the biological activities and characterization of bioactive constituents of <italic>Ophiorrhiza rugosa</italic> var. prostrata (D. Don) &#x00026; Mondal leaves through in vivo, in vitro, and in silico approaches</article-title>. <source xml:lang="en">Molecules</source>, <volume>24</volume>(<issue>7</issue>), <fpage>1367</fpage>.</mixed-citation></ref><ref id="fsn32047-bib-0004"><mixed-citation publication-type="journal" id="fsn32047-cit-0004">
+<string-name>
+<surname>Ali</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Dash</surname>, <given-names>P. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nasrin</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Study of sedative activity of different extracts of <italic>Kaempferia galanga</italic> in Swiss albino mice</article-title>. <source xml:lang="en">BMC Complementary and Alternative Medicine</source>, <volume>15</volume>(<issue>1</issue>), <fpage>158</fpage>
+<pub-id pub-id-type="doi">10.1186/s12906-015-0670-z</pub-id>
+<pub-id pub-id-type="pmid">26014301</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0005"><mixed-citation publication-type="book" id="fsn32047-cit-0005">
+<string-name>
+<surname>Biovia</surname>, <given-names>D. S.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">Discovery studio visualizer</source> (p. <fpage>936</fpage>). <publisher-name>San Diego</publisher-name>.</mixed-citation></ref><ref id="fsn32047-bib-0006"><mixed-citation publication-type="book" id="fsn32047-cit-0006">
+<string-name>
+<surname>Cheng</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2012</year>). <source xml:lang="en">admetSAR: A comprehensive source and free tool for assessment of chemical ADMET properties</source>. <publisher-name>ACS Publications</publisher-name>.</mixed-citation></ref><ref id="fsn32047-bib-0007"><mixed-citation publication-type="journal" id="fsn32047-cit-0007">
+<string-name>
+<surname>Coleman</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Green</surname>, <given-names>E. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gouaux</surname>, <given-names>E.</given-names>
+</string-name> (<year>2016</year>). <article-title>X&#x02010;ray structures and mechanism of the human serotonin transporter</article-title>. <source xml:lang="en">Nature</source>, <volume>532</volume>(<issue>7599</issue>), <fpage>334</fpage>&#x02013;<lpage>339</lpage>. <pub-id pub-id-type="doi">10.1038/nature17629</pub-id>
+<pub-id pub-id-type="pmid">27049939</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0008"><mixed-citation publication-type="journal" id="fsn32047-cit-0008">
+<string-name>
+<surname>Cryan</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>Valentino</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lucki</surname>, <given-names>I.</given-names>
+</string-name> (<year>2005</year>). <article-title>Assessing substrates underlying the behavioral effects of antidepressants using the modified rat forced swimming test</article-title>. <source xml:lang="en">Neuroscience &#x00026; Biobehavioral Reviews</source>, <volume>29</volume>(<issue>4&#x02013;5</issue>), <fpage>547</fpage>&#x02013;<lpage>569</lpage>. <pub-id pub-id-type="doi">10.1016/j.neubiorev.2005.03.008</pub-id>
+<pub-id pub-id-type="pmid">15893822</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0009"><mixed-citation publication-type="journal" id="fsn32047-cit-0009">
+<string-name>
+<surname>Debnath</surname>, <given-names>P. C.</given-names>
+</string-name>, <string-name>
+<surname>Das</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Hassan</surname>, <given-names>M. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Uddin</surname>, <given-names>S. M. G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Membrane stabilization&#x02014;A possible mechanism of action for the anti&#x02010;inflammatory activity of a Bangladeshi medicinal plant: <italic>Erioglossum rubiginosum</italic> (Bara Harina)</article-title>. <source xml:lang="en">Pharmacognosy Journal</source>, <volume>5</volume>(<issue>3</issue>), <fpage>104</fpage>&#x02013;<lpage>107</lpage>. <pub-id pub-id-type="doi">10.1016/j.phcgj.2013.04.001</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0010"><mixed-citation publication-type="book" id="fsn32047-cit-0010">
+<string-name>
+<surname>Depression</surname>, <given-names>W.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">Other common mental disorders: Global health estimates</source> (pp. <fpage>1</fpage>&#x02013;<lpage>24</lpage>). <publisher-name>World Health Organization</publisher-name>.</mixed-citation></ref><ref id="fsn32047-bib-0011"><mixed-citation publication-type="journal" id="fsn32047-cit-0011">
+<string-name>
+<surname>Ee</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Rahmani</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Shaari</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bong</surname>, <given-names>C.</given-names>
+</string-name> (<year>2009</year>). <article-title>Alkaloids from <italic>Piper sarmentosum</italic> and <italic>Piper nigrum</italic>
+</article-title>. <source xml:lang="en">Natural Product Research</source>, <volume>23</volume>(<issue>15</issue>), <fpage>1416</fpage>&#x02013;<lpage>1423</lpage>.<pub-id pub-id-type="pmid">19809914</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0012"><mixed-citation publication-type="book" id="fsn32047-cit-0012">
+<string-name>
+<surname>Emon</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Jahan</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Rudra</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Aktar</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Islam</surname>, <given-names>N.</given-names>
+</string-name> (in press). <source xml:lang="en">In vitro comparative cardioprotective activity of methanol extract of <italic toggle="yes">Caesalpinia digyna</italic> (Rottl.) stems and <italic toggle="yes">Senna sophera</italic> (L.) Roxb. Stems</source>.</mixed-citation></ref><ref id="fsn32047-bib-0013"><mixed-citation publication-type="journal" id="fsn32047-cit-0013">
+<string-name>
+<surname>Emon</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Jahan</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sayeed</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Investigation of antinociceptive, anti&#x02010;inflammatory and thrombolytic activity of <italic>Caesalpinia digyna</italic> (Rottl.) leaves by experimental and computational approaches</article-title>. <source xml:lang="en">Advances in Traditional Medicine</source>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0014"><mixed-citation publication-type="book" id="fsn32047-cit-0014">
+<string-name>
+<surname>Emon</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Kaiser</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kabir</surname>, <given-names>M. F. I.</given-names>
+</string-name>, <string-name>
+<surname>Jamir</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Uddin</surname>, <given-names>M. A. J.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>M. N.</given-names>
+</string-name> (in press). <source xml:lang="en">Anxiolytic and thrombolytic investigation of methanol extract of <italic toggle="yes">Piper nigrum</italic> L. fruits and <italic toggle="yes">Sesamum indicum</italic> L. seeds</source>.</mixed-citation></ref><ref id="fsn32047-bib-0015"><mixed-citation publication-type="journal" id="fsn32047-cit-0015">
+<string-name>
+<surname>Fajemiroye</surname>, <given-names>J. O.</given-names>
+</string-name>, <string-name>
+<surname>da Silva</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>de Oliveira</surname>, <given-names>D. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Costa</surname>, <given-names>E. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Treatment of anxiety and depression: Medicinal plants in retrospect</article-title>. <source xml:lang="en">Fundamental &#x00026; Clinical Pharmacology</source>, <volume>30</volume>(<issue>3</issue>), <fpage>198</fpage>&#x02013;<lpage>215</lpage>. <pub-id pub-id-type="doi">10.1111/fcp.12186</pub-id>
+<pub-id pub-id-type="pmid">26851117</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0016"><mixed-citation publication-type="journal" id="fsn32047-cit-0016">
+<string-name>
+<surname>Goel</surname>, <given-names>R. K.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Lagunin</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Poroikov</surname>, <given-names>V. J. M. C. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>PASS&#x02010;assisted exploration of new therapeutic potential of natural products</article-title>. <source xml:lang="en">Medicinal Chemistry Research</source>, <volume>20</volume>(<issue>9</issue>), <fpage>1509</fpage>&#x02013;<lpage>1514</lpage>. <pub-id pub-id-type="doi">10.1007/s00044-010-9398-y</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0017"><mixed-citation publication-type="journal" id="fsn32047-cit-0017">
+<string-name>
+<surname>Guedes</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name>
+<surname>de Magalh&#x000e3;es</surname>, <given-names>C. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dardenne</surname>, <given-names>L. E.</given-names>
+</string-name> (<year>2014</year>). <article-title>Receptor&#x02013;ligand molecular docking</article-title>. <source xml:lang="en">Biophysical Reviews</source>, <volume>6</volume>(<issue>1</issue>), <fpage>75</fpage>&#x02013;<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1007/s12551-013-0130-2</pub-id>
+<pub-id pub-id-type="pmid">28509958</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0018"><mixed-citation publication-type="journal" id="fsn32047-cit-0018">
+<string-name>
+<surname>Haines</surname>, <given-names>S. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bussey</surname>, <given-names>H. I.</given-names>
+</string-name> (<year>1995</year>). <article-title>Thrombosis and the pharmacology of antithrombotic agents</article-title>. <source xml:lang="en">Annals of Pharmacotherapy</source>, <volume>29</volume>(<issue>9</issue>), <fpage>892</fpage>&#x02013;<lpage>905</lpage>. <pub-id pub-id-type="doi">10.1177/106002809502900912</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0019"><mixed-citation publication-type="journal" id="fsn32047-cit-0019">
+<string-name>
+<surname>Hassan</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Silva</surname>, <given-names>E. B. C.</given-names>
+</string-name>, <string-name>
+<surname>Mohammadzai</surname>, <given-names>I. U.</given-names>
+</string-name>, <string-name>
+<surname>Batista Teixeira da Rocha</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Landeira&#x02010;Fernandez</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Association of oxidative stress to the genesis of anxiety: Implications for possible therapeutic interventions</article-title>. <source xml:lang="en">Current Neuropharmacology</source>, <volume>12</volume>(<issue>2</issue>), <fpage>120</fpage>&#x02013;<lpage>139</lpage>.<pub-id pub-id-type="pmid">24669207</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0020"><mixed-citation publication-type="journal" id="fsn32047-cit-0020">
+<string-name>
+<surname>Herowati</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Widodo</surname>, <given-names>G. P.</given-names>
+</string-name> (<year>2014</year>). <article-title>Molecular docking studies of chemical constituents of <italic>Tinospora cordifolia</italic> on glycogen phosphorylase</article-title>. <source xml:lang="en">Procedia Chemistry</source>, <volume>13</volume>, <fpage>63</fpage>&#x02013;<lpage>68</lpage>. <pub-id pub-id-type="doi">10.1016/j.proche.2014.12.007</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0021"><mixed-citation publication-type="journal" id="fsn32047-cit-0021">
+<string-name>
+<surname>Hossain</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name>
+<surname>Ahamed</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name>
+<surname>Dewan</surname>, <given-names>S. M. R.</given-names>
+</string-name>, <string-name>
+<surname>Hassan</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name>
+<surname>Istiaq</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>M. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Moghal</surname>, <given-names>M. M. R.</given-names>
+</string-name> (<year>2014</year>). <article-title>In vivo antipyretic, antiemetic, in vitro membrane stabilization, antimicrobial, and cytotoxic activities of different extracts from <italic>Spilanthes paniculata</italic> leaves</article-title>. <source xml:lang="en">Biological Research</source>, <volume>47</volume>(<issue>1</issue>), <fpage>45</fpage>
+<pub-id pub-id-type="doi">10.1186/0717-6287-47-45</pub-id>
+<pub-id pub-id-type="pmid">25299748</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0022"><mixed-citation publication-type="journal" id="fsn32047-cit-0022">
+<string-name>
+<surname>Huang</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Caflisch</surname>, <given-names>A.</given-names>
+</string-name> (<year>2011</year>). <article-title>The free energy landscape of small molecule unbinding</article-title>. <source xml:lang="en">PLoS Computational Biology</source>, <volume>7</volume>(<issue>2</issue>), <elocation-id>e1002002</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.1002002</pub-id>
+<pub-id pub-id-type="pmid">21390201</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0023"><mixed-citation publication-type="journal" id="fsn32047-cit-0023">
+<string-name>
+<surname>Kara</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Yazici</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name>
+<surname>G&#x000fc;le&#x000e7;</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>&#x000dc;nsal</surname>, <given-names>I.</given-names>
+</string-name> (<year>2000</year>). <article-title>Mixed anxiety&#x02013;depressive disorder and major depressive disorder: Comparison of the severity of illness and biological variables</article-title>. <source xml:lang="en">Psychiatry Research</source>, <volume>94</volume>(<issue>1</issue>), <fpage>59</fpage>&#x02013;<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1016/S0165-1781(00)00131-1</pub-id>
+<pub-id pub-id-type="pmid">10788678</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0024"><mixed-citation publication-type="journal" id="fsn32047-cit-0024">
+<string-name>
+<surname>Khan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Nazir</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Raiz</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Saleem</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Zengin</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Fazal</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Saleem</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Mukhtar</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Tousif</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name>
+<surname>Tareen</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name>
+<surname>Abdallah</surname>, <given-names>H. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mahomoodally</surname>, <given-names>F. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Phytochemical profiling, in vitro biological properties and in silico studies on <italic>Caragana ambigua</italic> stocks (Fabaceae): A comprehensive approach</article-title>. <source xml:lang="en">Industrial Crops and Products</source>, <volume>131</volume>, <fpage>117</fpage>&#x02013;<lpage>124</lpage>. <pub-id pub-id-type="doi">10.1016/j.indcrop.2019.01.044</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0025"><mixed-citation publication-type="journal" id="fsn32047-cit-0025">
+<string-name>
+<surname>Khurana</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Ishar</surname>, <given-names>M. P. S.</given-names>
+</string-name>, <string-name>
+<surname>Gajbhiye</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goel</surname>, <given-names>R. K. J. E.</given-names>
+</string-name> (<year>2011</year>). <article-title>PASS assisted prediction and pharmacological evaluation of novel nicotinic analogs for nootropic activity in mice</article-title>. <source xml:lang="en">European Journal of Pharmacology</source>, <volume>662</volume>(<issue>1&#x02013;3</issue>), <fpage>22</fpage>&#x02013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejphar.2011.04.048</pub-id>
+<pub-id pub-id-type="pmid">21554868</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0026"><mixed-citation publication-type="journal" id="fsn32047-cit-0026">
+<string-name>
+<surname>Lenaeus</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Burdette</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Wagner</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Focia</surname>, <given-names>P. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gross</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Structures of KcsA in complex with symmetrical quaternary ammonium compounds reveal a hydrophobic binding site</article-title>. <source xml:lang="en">Biochemistry</source>, <volume>53</volume>(<issue>32</issue>), <fpage>5365</fpage>&#x02013;<lpage>5373</lpage>. <pub-id pub-id-type="doi">10.1021/bi500525s</pub-id>
+<pub-id pub-id-type="pmid">25093676</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0027"><mixed-citation publication-type="journal" id="fsn32047-cit-0027">
+<string-name>
+<surname>Lipinski</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2004</year>). <article-title>Lead&#x02010;and drug&#x02010;like compounds: The rule&#x02010;of&#x02010;five revolution</article-title>. <source xml:lang="en">Drug Discovery Today: Technologies</source>, <volume>1</volume>(<issue>4</issue>), <fpage>337</fpage>&#x02013;<lpage>341</lpage>. <pub-id pub-id-type="doi">10.1016/j.ddtec.2004.11.007</pub-id>
+<pub-id pub-id-type="pmid">24981612</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0028"><mixed-citation publication-type="journal" id="fsn32047-cit-0028">
+<string-name>
+<surname>Lipinski</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Lombardo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Dominy</surname>, <given-names>B. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Feeney</surname>, <given-names>P. J. J. A.</given-names>
+</string-name> (<year>1997</year>). <article-title>Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings</article-title>. <source xml:lang="en">Advanced Drug Delivery Reviews</source>, <volume>23</volume>, <fpage>3</fpage>&#x02013;<lpage>25</lpage>. <pub-id pub-id-type="doi">10.1016/S0169-409X(96)00423-1</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0029"><mixed-citation publication-type="journal" id="fsn32047-cit-0029">
+<string-name>
+<surname>Loux</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>DePalma</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yankell</surname>, <given-names>S.</given-names>
+</string-name> (<year>1972</year>). <article-title>Antipyretic testing of aspirin in rats</article-title>. <source xml:lang="en">Toxicology and Applied Pharmacology</source>, <volume>22</volume>(<issue>4</issue>), <fpage>672</fpage>&#x02013;<lpage>675</lpage>.<pub-id pub-id-type="pmid">5045770</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0030"><mixed-citation publication-type="journal" id="fsn32047-cit-0030">
+<string-name>
+<surname>Luz</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name>
+<surname>Antonysamy</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kuklish</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Condon</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Allison</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>X.&#x02010;P.</given-names>
+</string-name>, <string-name>
+<surname>Chandrasekhar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Backer</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Russell</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name>
+<surname>Harvey</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Sloan</surname>, <given-names>A. V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fisher</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2015</year>). <article-title>Crystal structures of mPGES&#x02010;1 inhibitor complexes form a basis for the rational design of potent analgesic and anti&#x02010;inflammatory therapeutics</article-title>. <source xml:lang="en">Journal of Medicinal Chemistry</source>, <volume>58</volume>(<issue>11</issue>), <fpage>4727</fpage>&#x02013;<lpage>4737</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.5b00330</pub-id>
+<pub-id pub-id-type="pmid">25961169</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0031"><mixed-citation publication-type="journal" id="fsn32047-cit-0031">
+<string-name>
+<surname>Miyakado</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Nakayama</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yoshioka</surname>, <given-names>H.</given-names>
+</string-name> (<year>1980</year>). <article-title>Insecticidal joint action of pipercide and co&#x02010;occurring compounds isolated from <italic>Piper nigrum</italic> L</article-title>. <source xml:lang="en">Agricultural and Biological Chemistry</source>, <volume>44</volume>(<issue>7</issue>), <fpage>1701</fpage>&#x02013;<lpage>1703</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0032"><mixed-citation publication-type="journal" id="fsn32047-cit-0032">
+<string-name>
+<surname>Mojumdar</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kabir</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hasan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ahmed</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Rahman</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Akter</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rahman</surname>, <given-names>M. M. J. W. J. P. R.</given-names>
+</string-name> (<year>2016</year>). <article-title>Molecular docking and pass prediction for analgesic activity of some isolated compounds from <italic>Acalypha indica</italic> L. and ADME/T property analysis of the compounds</article-title>. <source xml:lang="en">World Journal of Pharmaceutical Research</source>, <volume>5</volume>(<issue>7</issue>), <fpage>1761</fpage>&#x02013;<lpage>1770</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0033"><mixed-citation publication-type="journal" id="fsn32047-cit-0033">
+<string-name>
+<surname>M&#x000f6;ller</surname>, <given-names>H.&#x02010;J.</given-names>
+</string-name>, <string-name>
+<surname>Bandelow</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Volz</surname>, <given-names>H.&#x02010;P.</given-names>
+</string-name>, <string-name>
+<surname>Barnikol</surname>, <given-names>U. B.</given-names>
+</string-name>, <string-name>
+<surname>Seifritz</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kasper</surname>, <given-names>S.</given-names>
+</string-name> (<year>2016</year>). <article-title>The relevance of &#x02018;mixed anxiety and depression&#x02019; as a diagnostic category in clinical practice</article-title>. <source xml:lang="en">European Archives of Psychiatry and Clinical Neuroscience</source>, <volume>266</volume>(<issue>8</issue>), <fpage>725</fpage>&#x02013;<lpage>736</lpage>. <pub-id pub-id-type="doi">10.1007/s00406-016-0684-7</pub-id>
+<pub-id pub-id-type="pmid">27002521</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0034"><mixed-citation publication-type="journal" id="fsn32047-cit-0034">
+<string-name>
+<surname>Mollik</surname>, <given-names>M. A. H.</given-names>
+</string-name>, <string-name>
+<surname>Hossan</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Paul</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Taufiq&#x02010;Ur&#x02010;Rahman</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Jahan</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rahmatullah</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>A comparative analysis of medicinal plants used by folk medicinal healers in three districts of Bangladesh and inquiry as to mode of selection of medicinal plants</article-title>. <source xml:lang="en">Ethnobotany Research and Applications</source>, <volume>8</volume>, <fpage>195</fpage>&#x02013;<lpage>218</lpage>. <pub-id pub-id-type="doi">10.17348/era.8.0.195-218</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0035"><mixed-citation publication-type="journal" id="fsn32047-cit-0035">
+<string-name>
+<surname>Moniruzzaman</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Rahman</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ferdous</surname>, <given-names>A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Evaluation of sedative and hypnotic activity of ethanolic extract of Scoparia dulcis Linn</article-title>. <source xml:lang="en">Evidence&#x02010;Based Complementary and Alternative Medicine</source>.</mixed-citation></ref><ref id="fsn32047-bib-0036"><mixed-citation publication-type="journal" id="fsn32047-cit-0036">
+<string-name>
+<surname>Muhammad</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Iqbal</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>A. Z.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Alamzeb</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ahmad</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Lal Badshah</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ullah</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Muhammad</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Jan</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name>
+<surname>Nadeem</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kabir</surname>, <given-names>N.</given-names>
+</string-name> (<year>2019</year>). <article-title>Viscosine as a potent and safe antipyretic agent evaluated by yeast&#x02010;induced pyrexia model and molecular docking studies</article-title>. <source xml:lang="en">ACS Omega</source>, <volume>4</volume>(<issue>10</issue>), <fpage>14188</fpage>&#x02013;<lpage>14192</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.9b01041</pub-id>
+<pub-id pub-id-type="pmid">31508540</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0037"><mixed-citation publication-type="journal" id="fsn32047-cit-0037">
+<string-name>
+<surname>Muhammad</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Saeed</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Khan</surname>, <given-names>H.</given-names>
+</string-name> (<year>2012</year>). <article-title>Antipyretic, analgesic and anti&#x02010;inflammatory activity of <italic>Viola betonicifolia</italic> whole plant</article-title>. <source xml:lang="en">BMC Complementary and Alternative Medicine</source>, <volume>12</volume>(<issue>1</issue>), <fpage>59</fpage>
+<pub-id pub-id-type="doi">10.1186/1472-6882-12-59</pub-id>
+<pub-id pub-id-type="pmid">22551220</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0038"><mixed-citation publication-type="journal" id="fsn32047-cit-0038">
+<string-name>
+<surname>Parasuraman</surname>, <given-names>S.</given-names>
+</string-name> (<year>2011</year>). <article-title>Prediction of activity spectra for substances</article-title>. <source xml:lang="en">Journal of Pharmacology &#x00026; Pharmacotherapeutics</source>, <volume>2</volume>(<issue>1</issue>), <fpage>52</fpage>
+<pub-id pub-id-type="doi">10.4103/0976-500X.77119</pub-id>
+<pub-id pub-id-type="pmid">21701651</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0039"><mixed-citation publication-type="journal" id="fsn32047-cit-0039">
+<string-name>
+<surname>Parenti</surname>, <given-names>M. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rastelli</surname>, <given-names>G.</given-names>
+</string-name> (<year>2012</year>). <article-title>Advances and applications of binding affinity prediction methods in drug discovery</article-title>. <source xml:lang="en">Biotechnology Advances</source>, <volume>30</volume>(<issue>1</issue>), <fpage>244</fpage>&#x02013;<lpage>250</lpage>. <pub-id pub-id-type="doi">10.1016/j.biotechadv.2011.08.003</pub-id>
+<pub-id pub-id-type="pmid">21856406</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0040"><mixed-citation publication-type="journal" id="fsn32047-cit-0040">
+<string-name>
+<surname>Poroikov</surname>, <given-names>V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Filimonov</surname>, <given-names>D.</given-names>
+</string-name> (<year>2005</year>). <article-title>PASS: Prediction of biological activity spectra for substances</article-title>. <source xml:lang="en">Predictive Toxicology</source>, <volume>520</volume>, <fpage>520</fpage>.</mixed-citation></ref><ref id="fsn32047-bib-0041"><mixed-citation publication-type="journal" id="fsn32047-cit-0041">
+<string-name>
+<surname>Porsolt</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bertin</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jalfre</surname>, <given-names>M.</given-names>
+</string-name> (<year>1977</year>). <article-title>Behavioral despair in mice: A primary screening test for antidepressants</article-title>. <source xml:lang="en">Archives Internationales De Pharmacodynamie Et De Therapie</source>, <volume>229</volume>(<issue>2</issue>), <fpage>327</fpage>&#x02013;<lpage>336</lpage>.<pub-id pub-id-type="pmid">596982</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0042"><mixed-citation publication-type="journal" id="fsn32047-cit-0042">
+<string-name>
+<surname>Prasad</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kashyap</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Deopujari</surname>, <given-names>J. Y.</given-names>
+</string-name>, <string-name>
+<surname>Purohit</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name>
+<surname>Taori</surname>, <given-names>G. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Daginawala</surname>, <given-names>H. F.</given-names>
+</string-name> (<year>2006a</year>). <article-title>Development of an in vitro model to study clot lysis activity of thrombolytic drugs</article-title>. <source xml:lang="en">Thrombosis Journal</source>, <volume>4</volume>(<issue>1</issue>), <fpage>14</fpage>.<pub-id pub-id-type="pmid">16968529</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0043"><mixed-citation publication-type="journal" id="fsn32047-cit-0043">
+<string-name>
+<surname>Prasad</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kashyap</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Deopujari</surname>, <given-names>J. Y.</given-names>
+</string-name>, <string-name>
+<surname>Purohit</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name>
+<surname>Taori</surname>, <given-names>G. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Daginawala</surname>, <given-names>H. F.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effect of <italic>Fagonia arabica</italic> (Dhamasa) on in vitro thrombolysis</article-title>. <source xml:lang="en">BMC Complementary and Alternative Medicine</source>, <volume>7</volume>(<issue>1</issue>), <fpage>36</fpage>
+<pub-id pub-id-type="doi">10.1186/1472-6882-7-36</pub-id>
+<pub-id pub-id-type="pmid">17986325</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0044"><mixed-citation publication-type="journal" id="fsn32047-cit-0044">
+<string-name>
+<surname>Rashed&#x02010;Al&#x02010;Qayum</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name>
+<surname>Moghal</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Amin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hossain</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hossain</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Analgesic and antipyretic activities of two medicinal plants&#x02010;<italic>Salvinia minima</italic> and <italic>Dactyloctenium australe</italic> in experimental animal models</article-title>. <source xml:lang="en">Der Pharmacia Sinica</source>, <volume>4</volume>(<issue>3</issue>), <fpage>183</fpage>&#x02013;<lpage>187</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0045"><mixed-citation publication-type="journal" id="fsn32047-cit-0045">
+<string-name>
+<surname>Renatus</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bode</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>St&#x000fc;rzebecher</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Prasa</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Fischer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kohnert</surname>, <given-names>U.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stubbs</surname>, <given-names>M. T.</given-names>
+</string-name> (<year>1997</year>). <article-title>Structural mapping of the active site specificity determinants of human tissue&#x02010;type plasminogen activator. Implications for the design of low molecular weight substrates and inhibitors</article-title>. <source xml:lang="en">Journal of Biological Chemistry</source>, <volume>272</volume>(<issue>35</issue>), <fpage>21713</fpage>&#x02013;<lpage>21719</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.272.35.21713</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0046"><mixed-citation publication-type="journal" id="fsn32047-cit-0046">
+<string-name>
+<surname>Rudra</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tahamina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Emon</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Adnan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Shakil</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Chowdhury</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Soliman Elshikh</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Evaluation of various solvent extracts of <italic>Tetrastigma leucostaphylum</italic> (Dennst.) Alston leaves, a Bangladeshi traditional medicine used for the treatment of Diarrhea</article-title>. <source xml:lang="en">Molecules</source>, <volume>25</volume>(<issue>21</issue>), <fpage>4994</fpage>.</mixed-citation></ref><ref id="fsn32047-bib-0047"><mixed-citation publication-type="journal" id="fsn32047-cit-0047">
+<string-name>
+<surname>Saha</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Seal</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Noor</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Isolation and characterization of piperine from the fruits of black pepper (<italic>Piper nigrum</italic>)</article-title>. <source xml:lang="en">Journal of the Bangladesh Agricultural University</source>, <volume>11</volume>(<issue>452&#x02013;2016&#x02010;35546</issue>), <fpage>11</fpage>&#x02013;<lpage>16</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0048"><mixed-citation publication-type="journal" id="fsn32047-cit-0048">
+<string-name>
+<surname>Sajib Rudra</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sawon</surname>, <given-names>S. U.</given-names>
+</string-name>, <string-name>
+<surname>Emon</surname>, <given-names>N. U.</given-names>
+</string-name>, <string-name>
+<surname>Alam</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tareq</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Islam</surname>, <given-names>M. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shakil</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Biological investigations of the methanol extract of <italic>Tetrastigma leucostaphylum</italic> (Dennst.) Alston ex Mabb. (Vitaceae): In vivo and in vitro approach</article-title>. <source xml:lang="en">Journal of Advanced Biotechnology and Experimental Therapeutics</source>, <volume>3</volume>, <fpage>216</fpage>&#x02010;<lpage>224</lpage>.</mixed-citation></ref><ref id="fsn32047-bib-0049"><mixed-citation publication-type="journal" id="fsn32047-cit-0049">
+<string-name>
+<surname>Schechter</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name>
+<surname>Ring</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name>
+<surname>Beyer</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>, <given-names>Z. A.</given-names>
+</string-name>, <string-name>
+<surname>Khawaja</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Malberg</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rosenzweig&#x02010;Lipson</surname>, <given-names>S.</given-names>
+</string-name> (<year>2005</year>). <article-title>Innovative approaches for the development of antidepressant drugs: Current and future strategies</article-title>. <source xml:lang="en">NeuroRx: the Journal of the American Society for Experimental NeuroTherapeutics</source>, <volume>2</volume>(<issue>4</issue>), <fpage>590</fpage>&#x02013;<lpage>611</lpage>. <pub-id pub-id-type="doi">10.1602/neurorx.2.4.590</pub-id>
+<pub-id pub-id-type="pmid">16489368</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0050"><mixed-citation publication-type="journal" id="fsn32047-cit-0050">
+<string-name>
+<surname>Scott</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name>
+<surname>Puniani</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Livesey</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>Poveda</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez&#x02010;Vindas</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Arnason</surname>, <given-names>J. T.</given-names>
+</string-name> (<year>2005</year>). <article-title>Analysis of Piperaceae germplasm by HPLC and LCMS: A method for isolating and identifying unsaturated amides from Piper spp extracts</article-title>. <source xml:lang="en">Journal of Agricultural and Food Chemistry</source>, <volume>53</volume>(<issue>6</issue>), <fpage>1907</fpage>&#x02013;<lpage>1913</lpage>.<pub-id pub-id-type="pmid">15769112</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0051"><mixed-citation publication-type="journal" id="fsn32047-cit-0051">
+<string-name>
+<surname>Shapovalov</surname>, <given-names>M. V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunbrack</surname>, <given-names>R. L.</given-names>
+<suffix>Jr.</suffix>
+</string-name> (<year>2011</year>). <article-title>A smoothed backbone&#x02010;dependent rotamer library for proteins derived from adaptive kernel density estimates and regressions</article-title>. <source xml:lang="en">Structure</source>, <volume>19</volume>(<issue>6</issue>), <fpage>844</fpage>&#x02013;<lpage>858</lpage>. <pub-id pub-id-type="doi">10.1016/j.str.2011.03.019</pub-id>
+<pub-id pub-id-type="pmid">21645855</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0052"><mixed-citation publication-type="journal" id="fsn32047-cit-0052">
+<string-name>
+<surname>Takeda</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Tsuji</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Matsumiya</surname>, <given-names>T.</given-names>
+</string-name> (<year>1998</year>). <article-title>Changes in head&#x02010;dipping behavior in the hole&#x02010;board test reflect the anxiogenic and/or anxiolytic state in mice</article-title>. <source xml:lang="en">European Journal of Pharmacology</source>, <volume>350</volume>(<issue>1</issue>), <fpage>21</fpage>&#x02013;<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1016/S0014-2999(98)00223-4</pub-id>
+<pub-id pub-id-type="pmid">9683010</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0053"><mixed-citation publication-type="journal" id="fsn32047-cit-0053">
+<string-name>
+<surname>Tatarczy&#x00144;ska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>K&#x00142;odzi&#x00144;ska</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Chojnacka&#x02010;W&#x000f3;jcik</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Pa&#x00142;ucha</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gasparini</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Kuhn</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pilc</surname>, <given-names>A.</given-names>
+</string-name> (<year>2001</year>). <article-title>Potential anxiolytic&#x02010;and antidepressant&#x02010;like effects of MPEP, a potent, selective and systemically active mGlu5 receptor antagonist</article-title>. <source xml:lang="en">British Journal of Pharmacology</source>, <volume>132</volume>(<issue>7</issue>), <fpage>1423</fpage>&#x02013;<lpage>1430</lpage>. <pub-id pub-id-type="doi">10.1038/sj.bjp.0703923</pub-id>
+<pub-id pub-id-type="pmid">11264235</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0054"><mixed-citation publication-type="journal" id="fsn32047-cit-0054">
+<string-name>
+<surname>Vane</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Botting</surname>, <given-names>R.</given-names>
+</string-name> (<year>1998</year>). <article-title>Anti&#x02010;inflammatory drugs and their mechanism of action</article-title>. <source xml:lang="en">Inflammation Research</source>, <volume>47</volume>(<issue>2</issue>), <fpage>78</fpage>&#x02013;<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1007/s000110050284</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0055"><mixed-citation publication-type="journal" id="fsn32047-cit-0055">
+<string-name>
+<surname>Viran</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Erko&#x000e7;</surname>, <given-names>F. &#x000dc;.</given-names>
+</string-name>, <string-name>
+<surname>Polat</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ko&#x000e7;ak</surname>, <given-names>O.</given-names>
+</string-name> (<year>2003</year>). <article-title>Investigation of acute toxicity of deltamethrin on guppies (<italic>Poecilia reticulata</italic>)</article-title>. <source xml:lang="en">Ecotoxicology and Environmental Safety</source>, <volume>55</volume>(<issue>1</issue>), <fpage>82</fpage>&#x02013;<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1016/S0147-6513(02)00096-9</pub-id>
+<pub-id pub-id-type="pmid">12706396</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0056"><mixed-citation publication-type="journal" id="fsn32047-cit-0056">
+<string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Lei</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Quan</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2019</year>). <article-title>Synthesis and evaluation of antidepressant activities of 5&#x02010;Aryl&#x02010;4, 5&#x02010;dihydrotetrazolo [1, 5&#x02010;a] thieno [2, 3&#x02010;e] pyridine derivatives</article-title>. <source xml:lang="en">Molecules</source>, <volume>24</volume>(<issue>10</issue>), <fpage>1857</fpage>
+<pub-id pub-id-type="doi">10.3390/molecules24101857</pub-id>
+</mixed-citation></ref><ref id="fsn32047-bib-0057"><mixed-citation publication-type="journal" id="fsn32047-cit-0057">
+<string-name>
+<surname>Yuan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Zhuang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Thrombolytic effects of <italic>Douchi Fibrinolytic</italic> enzyme from Bacillus subtilis LD&#x02010;8547 in vitro and in vivo</article-title>. <source xml:lang="en">BMC Biotechnology</source>, <volume>12</volume>(<issue>1</issue>), <fpage>36</fpage>
+<pub-id pub-id-type="doi">10.1186/1472-6750-12-36</pub-id>
+<pub-id pub-id-type="pmid">22748219</pub-id></mixed-citation></ref><ref id="fsn32047-bib-0058"><mixed-citation publication-type="journal" id="fsn32047-cit-0058">
+<string-name>
+<surname>Zhang</surname>, <given-names>M.&#x02010;Q.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wilkinson</surname>, <given-names>B.</given-names>
+</string-name> (<year>2007</year>). <article-title>Drug discovery beyond the &#x02018;rule&#x02010;of&#x02010;five&#x02019;</article-title>. <source xml:lang="en">Current Opinion in Biotechnology</source>, <volume>18</volume>(<issue>6</issue>), <fpage>478</fpage>&#x02013;<lpage>488</lpage>. <pub-id pub-id-type="doi">10.1016/j.copbio.2007.10.005</pub-id>
+<pub-id pub-id-type="pmid">18035532</pub-id></mixed-citation></ref></ref-list></back></article>
