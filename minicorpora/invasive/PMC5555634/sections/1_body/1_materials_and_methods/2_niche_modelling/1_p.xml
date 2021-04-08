@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Nineteen bioclimatic variables in 30 arc s (~1 km
+ <sup>2</sup>) from the worldclim database [
+ <xref rid="pone.0182793.ref016" ref-type="bibr">16</xref>] were clipped using biotic regions where occurrences were found. Biotic regions serve as a reliable estimator for the area that is accessible to the species and it is the most operational way to designate correct M which delimitates dispersal potential of a species [
+ <xref rid="pone.0182793.ref017" ref-type="bibr">17</xref>],[
+ <xref rid="pone.0182793.ref018" ref-type="bibr">18</xref>]. For that purpose, the map of terrestrial ecoregions of the world was used [
+ <xref rid="pone.0182793.ref019" ref-type="bibr">19</xref>]. Temperate biomes were clipped at the Ural Mountains which represents a biogeographical barrier for many plant species. To account for the co-linearity and to select the most important bioclimatic variables, the number of the original WorldClim variables was reduced. For that purpose an R package MaxentVariableSelection [
+ <xref rid="pone.0182793.ref020" ref-type="bibr">20</xref>] was used which utilizes similar procedure as Warren et al. [
+ <xref rid="pone.0182793.ref021" ref-type="bibr">21</xref>] with the aim to choose appropriate beta-multiplier and exclude correlated variables. To achieve that a set of models is created with different settings (varying in the value of beta-multiplier and the number of variables) and their performance is assessed by calculating Akaike Information Criterion (AIC), AIC corrected for small sample sizes (AICc), and Bayesian information criterion (BIC). Following criteria were applied: correlation threshold was set to 0.7, contribution threshold to 5 and beta-multiplier was tested in the range from 1 to 15 using 0.5 steps. Settings with the highest AICc score were chosen for modelling.
+</p>

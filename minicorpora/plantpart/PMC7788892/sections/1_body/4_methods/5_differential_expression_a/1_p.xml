@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par71">The read count was normalized and DESeq R package (1.10.1) [
+ <xref ref-type="bibr" rid="CR80">80</xref>] was used to determine the differential expression genes (DEGs) between the treatments (I-IV) using a model based on the negative binomial distribution. The resulting 
+ <italic>P</italic> values were adjusted using the Benjamini and Hochberg’s approach for controlling the false discovery rate [
+ <xref ref-type="bibr" rid="CR81">81</xref>] and FDR correction set at 
+ <italic>p</italic> &lt; 0.05. GO enrichment analysis was performed using the topGO method based on the wallenius noncentral hypergeometric distribution with 
+ <italic>p</italic> &lt; 0.05 [
+ <xref ref-type="bibr" rid="CR82">82</xref>]. KEGG pathway enrichment analysis of the DEGs was done using KOBAS2.0 [
+ <xref ref-type="bibr" rid="CR83">83</xref>]. The FDR correction was employed (
+ <italic>P</italic> &lt; 0.05) to reduce false positive prediction of enriched GO terms and KEGG pathways.
+</p>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">We denote by 
+ <inline-formula id="IEq52">
+  <alternatives>
+   <tex-math id="M119">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$V_{i} = C_{i} + \mathop \sum \nolimits_{k = 1}^{4} E_{k,i}$$\end{document}</tex-math>
+   <math id="M120">
+    <mrow>
+     <msub>
+      <mi>V</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>C</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>+</mo>
+     <msubsup>
+      <mo>∑</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>4</mn>
+     </msubsup>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq52.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> the total number of infected samples observed at 
+ <inline-formula id="IEq53">
+  <alternatives>
+   <tex-math id="M121">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left( {t_{i} ,{\varvec{x}}_{i} } \right)$$\end{document}</tex-math>
+   <math id="M122">
+    <mfenced close=")" open="(">
+     <mrow>
+      <msub>
+       <mi>t</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold-italic">x</mi>
+       </mrow>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+    </mfenced>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq53.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The conditional distribution of the vector 
+ <inline-formula id="IEq54">
+  <alternatives>
+   <tex-math id="M123">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left( {C_{i} ,E_{1,i} ,E_{2,i} ,E_{3,i} ,E_{4,i} } \right)$$\end{document}</tex-math>
+   <math id="M124">
+    <mfenced close=")" open="(">
+     <mrow>
+      <msub>
+       <mi>C</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <mn>2</mn>
+        <mo>,</mo>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <mn>3</mn>
+        <mo>,</mo>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <mn>4</mn>
+        <mo>,</mo>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq54.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, given 
+ <inline-formula id="IEq55">
+  <alternatives>
+   <tex-math id="M125">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$V_{i}$$\end{document}</tex-math>
+   <math id="M126">
+    <msub>
+     <mi>V</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq55.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> can be described by a multinomial distribution 
+ <inline-formula id="IEq56">
+  <alternatives>
+   <tex-math id="M127">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathcal{M}}\left( {V_{i} ,{\varvec{p}}_{i} } \right)$$\end{document}</tex-math>
+   <math id="M128">
+    <mrow>
+     <mi mathvariant="script">M</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msub>
+        <mi>V</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi mathvariant="bold-italic">p</mi>
+        </mrow>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq56.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> with 
+ <inline-formula id="IEq57">
+  <alternatives>
+   <tex-math id="M129">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{p}}_{i} = \left( {p_{i}^{c} ,p_{i}^{{e_{1} }} ,p_{i}^{{e_{2} }} ,p_{i}^{{e_{3} }} ,p_{i}^{{e_{4} }} } \right)$$\end{document}</tex-math>
+   <math id="M130">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi mathvariant="bold-italic">p</mi>
+      </mrow>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msubsup>
+        <mi>p</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <mi>c</mi>
+       </msubsup>
+       <mo>,</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <msub>
+         <mi>e</mi>
+         <mn>1</mn>
+        </msub>
+       </msubsup>
+       <mo>,</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <msub>
+         <mi>e</mi>
+         <mn>2</mn>
+        </msub>
+       </msubsup>
+       <mo>,</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <msub>
+         <mi>e</mi>
+         <mn>3</mn>
+        </msub>
+       </msubsup>
+       <mo>,</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <msub>
+         <mi>e</mi>
+         <mn>4</mn>
+        </msub>
+       </msubsup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq57.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> the vector of the respective proportions of each strain in the population at 
+ <inline-formula id="IEq58">
+  <alternatives>
+   <tex-math id="M131">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left( {t_{i} ,{\varvec{x}}_{i} } \right)$$\end{document}</tex-math>
+   <math id="M132">
+    <mfenced close=")" open="(">
+     <mrow>
+      <msub>
+       <mi>t</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold-italic">x</mi>
+       </mrow>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+    </mfenced>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq58.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. We chose to work conditionally to 
+ <inline-formula id="IEq59">
+  <alternatives>
+   <tex-math id="M133">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$V_{i}$$\end{document}</tex-math>
+   <math id="M134">
+    <msub>
+     <mi>V</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq59.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> because the sample sizes are not related to the density of WMV.
+</p>

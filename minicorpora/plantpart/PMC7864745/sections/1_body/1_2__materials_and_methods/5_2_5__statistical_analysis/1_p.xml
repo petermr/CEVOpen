@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All statistical analyses were performed in R software (V2.15.3). To estimate coverage and sampling diversity, rarefaction curves were constructed. “
+ <italic>Phyloseq</italic>” package calculated population diversity (Simpson index), evenness (Shannon index), and richness (Chao1). To test effect of treatments on bacterial community structures, PERMANOVA analysis using “
+ <italic>adonis</italic>” function in “
+ <italic>vegan</italic>” package was performed. To ensure that PERMANOVA results were not affected by in-group dispersions, an analysis of multivariate homogeneity of group dispersion was conducted for different treatments using “
+ <italic>betadisper</italic>” function in “
+ <italic>vegan</italic>” package (Anderson, 2006). Differences in bacterial community dispersion between treatments were assessed using PERMDISP, since a significant PERMANOVA result may indicate either a difference in centroids or an unequal dispersion between treatments. Multivariate analysis using nonmetric multidimensional scaling (nMDS) and principal component analysis (PCA) were used to explore hierarchical structure of bacterial community composition under effects of different treatments. These were calculated from Bray–Curtis matrices using the “
+ <italic>metaMDS</italic>” function from “
+ <italic>vegan</italic>” package.
+</p>

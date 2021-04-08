@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>During model optimization, the number of trees (for the GBM‐BRT, GBM, and RF), the learning rate (sets the weight applied to individual trees), and the bag fraction (which sets the proportion of observations) had the greatest influence on model performance (Elith &amp; Leathwick, 
+ <xref rid="ece34919-bib-0025" ref-type="ref">2009</xref>). For example, the lower of two learning rates tested in the GBM‐BRT required more trees, which improved the result without causing overfitting (Mining, 
+ <xref rid="ece34919-bib-0063" ref-type="ref">2009</xref>; Hijmans &amp; Elith, 
+ <xref rid="ece34919-bib-0044" ref-type="ref">2013</xref>, 
+ <xref rid="ece34919-bib-0045" ref-type="ref">2015</xref>). Consequently, the lower learning rate of 0.005 with 6,050 trees performed better than that of 0.01 with 3,100 trees. However, a learning rate of 0.0025 with 10,000 trees did not perform better than that of 0.005 in the GBM‐BRT even though the increase in the number of trees reduced deviance, eventually stabilizing the model. This indicates that lowering the learning rate without comparing model performance would have resulted in two disadvantages: a poorer model fit and longer computational time without improving the model's accuracy.
+</p>

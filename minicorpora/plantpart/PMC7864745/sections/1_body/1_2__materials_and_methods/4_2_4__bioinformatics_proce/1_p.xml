@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After primer removal and clipping of sequences, read sequences were loaded into R (version 3.6) and run through DADA2 pipeline (version 1.12) [
+ <xref rid="B48" ref-type="bibr">48</xref>]. The sequences were filtered and trimmed using “
+ <italic>filterAndTrim</italic>” function. The trimming specifications were as follows. First, truncation length (truncLen) was set to 250 bases for both forward and reverse reads. Secondly, cutoff for maximum expected error calculated from the quality score (maxEE) was set to 3 for both forward and reverse reads for quality plots. The remaining parameters were held as default. The error rate was estimated by function “
+ <italic>learnError</italic>.” Thirdly, a dereplication process was conducted with function “
+ <italic>derepFastq</italic>.” All identical sequencing reads were combined into one unique sequence with a corresponding abundance equal to number of reads with that unique sequence.
+</p>

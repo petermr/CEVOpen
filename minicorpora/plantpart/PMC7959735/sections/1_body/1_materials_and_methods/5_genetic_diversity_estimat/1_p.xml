@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Linkage disequilibrium (LD) analysis was performed in VCFtools v. 0.1.15 considering the filtered genotyping data including 139,986 SNPs, 162,098 SNPs and 185,194 SNPs with MAF of at least 5% in the sample sets EUCLEG, NJAU-Cultivated, and NJAU-Wild, respectively. LD was estimated for each chromosome by computing the 
+ <italic>r</italic>
+ <sup>2</sup> for all pairwise comparisons of two SNPs located at a maximum of 1000 kbp inter-SNP distance. The LD decay distance per chromosome was estimated as the point at which 
+ <italic>r</italic>
+ <sup>2</sup> dropped to half of its maximum value. The genome-wide LD decay was estimated by pooling the LD output across all chromosomes.
+</p>

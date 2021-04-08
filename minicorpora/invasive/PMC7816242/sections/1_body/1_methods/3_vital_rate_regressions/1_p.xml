@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We fit generalized linear mixed effects models (package lme4 in R v. 3.4.1; Bates et al. 
+ <xref rid="ecy3219-bib-0001" ref-type="ref">2015</xref>, R Core Team 
+ <xref rid="ecy3219-bib-0030" ref-type="ref">2017</xref>) to examine whether musk thistle vital rates including survival, growth, flowering, and fecundity were related to prior plant size in November of the previous year and/or temperature treatment. We used Poisson‐distributed errors for analysis of count data and binomially distributed errors for probabilities. All models included random effects for plot nested in block nested in cohort to reflect the split‐plot design used in this experiment. We found substantial overdispersion in our Poisson regression predicting the expected numbers of seeds, so we modified the model to include an observation‐level random effect (Elston et al. 
+ <xref rid="ecy3219-bib-0007" ref-type="ref">2001</xref>, Harrison 
+ <xref rid="ecy3219-bib-0011" ref-type="ref">2014</xref>). For each vital rate, we first considered models that included fixed effects for individuals’ prior‐year size, temperature treatment, and the interaction between prior size and temperature treatment. We then performed backwards model selection based on AIC. Seed release treatment was not included in any regressions because this treatment strongly influenced plants’ prior size. Seed release treatments in our model determined plants’ prior sizes, not the relationship between size and vital rates.
+</p>

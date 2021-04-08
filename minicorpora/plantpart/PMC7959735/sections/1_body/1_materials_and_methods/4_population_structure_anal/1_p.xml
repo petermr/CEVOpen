@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The results of population structure of the NJAU collection are available in 
+ <xref rid="B60" ref-type="bibr">Wang et al. (2016)</xref>. Here, we performed a population structure analysis of EUCLEG and NJAU combined (805 accessions in total). Two approaches were applied. In the first approach, a model-based structure analysis was performed in fastSTRUCTURE 1.0 (
+ <xref rid="B45" ref-type="bibr">Raj et al., 2014</xref>) including 179,812 SNPs with minor allele frequency (MAF) of at least 5% across the sample set. The K value was varied from 2 to 10, while for other parameters default settings were used. The optimum value of K was determined using the best marginal likelihood value of fastSTRUCTURE-output from K = 2 to K = 10. The results of fastSTRUCTURE were graphically visualized using the R-package pophelper v. 2.1.0 (
+ <xref rid="B17" ref-type="bibr">Francis, 2017</xref>). In the second approach, a principal component analysis (PCA) was performed in TASSEL 5 (
+ <xref rid="B6" ref-type="bibr">Bradbury et al., 2007</xref>). The missing values of SNPs were imputed using the unweighted average method and PCA was performed on the genetic correlation matrix of accessions considering the first five principal components.
+</p>

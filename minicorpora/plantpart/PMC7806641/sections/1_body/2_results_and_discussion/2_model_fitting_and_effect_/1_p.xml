@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">Based on the results of a single-factor experiment, three factors were selected as independent variables: the liquid–solid ratio (A), extraction time (B), and microwave power (C). The essential oil yield (Y) was the response value. The factors and levels are shown in Table 
+ <xref rid="Tab3" ref-type="table">3</xref>. The Box–Behnken design and results are shown in Table 
+ <xref rid="Tab4" ref-type="table">4</xref>. The binary polynomial regression model equation fitted by the software is:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{aligned} {\text{Y }} &amp; = 1.23 + 0.023{\text{A }} + 0.012{\text{B }} + 0.045{\text{C }} + 0.017{\text{AB }} \hfill \\ &amp; \quad - \, (2.500{\text{E}} - 003){\text{AC }} + (2.500{\text{E}} - 003){\text{BC }} - 0.068{\text{A}}^{{2}} - 0.023{\text{B}}^{{2}} - 0.063{\text{C}}^{{2}} \hfill \\ \end{aligned}$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd columnalign="right">
+        <mrow>
+         <mtext>Y</mtext>
+         <mspace width="0.333333em"/>
+        </mrow>
+       </mtd>
+       <mtd columnalign="left">
+        <mrow>
+         <mo>=</mo>
+         <mn>1.23</mn>
+         <mo>+</mo>
+         <mn>0.023</mn>
+         <mrow>
+          <mtext>A</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>+</mo>
+         <mn>0.012</mn>
+         <mrow>
+          <mtext>B</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>+</mo>
+         <mn>0.045</mn>
+         <mrow>
+          <mtext>C</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>+</mo>
+         <mn>0.017</mn>
+         <mrow>
+          <mtext>AB</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd columnalign="right">
+        <mrow/>
+       </mtd>
+       <mtd columnalign="left">
+        <mrow>
+         <mspace width="1em"/>
+         <mo>-</mo>
+         <mspace width="0.166667em"/>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>2.500</mn>
+          <mtext>E</mtext>
+          <mo>-</mo>
+          <mn>003</mn>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mtext>AC</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>+</mo>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mn>2.500</mn>
+          <mtext>E</mtext>
+          <mo>-</mo>
+          <mn>003</mn>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mtext>BC</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>-</mo>
+         <mn>0.068</mn>
+         <msup>
+          <mrow>
+           <mtext>A</mtext>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo>-</mo>
+         <mn>0.023</mn>
+         <msup>
+          <mrow>
+           <mtext>B</mtext>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo>-</mo>
+         <mn>0.063</mn>
+         <msup>
+          <mrow>
+           <mtext>C</mtext>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd columnalign="right">
+        <mrow/>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_80891_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

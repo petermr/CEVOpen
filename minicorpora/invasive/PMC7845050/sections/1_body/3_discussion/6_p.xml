@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">We have not included such dispersal costs and trade-offs in seed size, seed number, and dispersal capacity in our simple model in order to facilitate the exploration of optimal dispersal strategies in relation to spatiotemporal habitat distribution. Other trade-offs and costs are expected to alter subsequent population dynamics (e.g. we see that low seed production will not lead to ESS in certain scenarios (Fig. 
+ <xref rid="MOESM1" ref-type="media">S3</xref>)) and future directions would be to include such trade-offs in the model and determine their relative importance relative to spatiotemporal habitat distribution. For similar reasons, we deliberately chose a 2D Pareto kernel, where changes of one parameter, the scaling exponent, lead to radical changes in the diffusive properties of the kernel. Therefore, despite being a very simplified model compared to e.g. dispersal kernels that are described with a shape and scale parameter, we know from search theory, that power-law based kernels can optimally adjust between near and far dispersal scales in different contexts by generating anomalous or enhanced diffusive properties [
+ <xref ref-type="bibr" rid="CR35">35</xref>], allowing us to explore the possibility to study the adjustment of radically different types of spreading in a wide range of contexts. As a limitation, simplifying the dispersal kernel into one parameter reduces our degrees of freedom to explore the impact of scale and shape parameters separately. In the case of the 2D Pareto kernel bounded by a minimum (
+ <italic>l</italic>
+ <sub>
+  <italic>min</italic>
+ </sub>) and a maximum (
+ <italic>l</italic>
+ <sub>
+  <italic>max</italic>
+ </sub>) spreading distance, the variance and other moments of the distribution can be computed. Importantly these moments depend not only on the scaling exponent but also on the spreading range, 
+ <italic>l</italic>
+ <sub>
+  <italic>max</italic>
+ </sub> acting here as a second parameter worth studying as it influences the variance and other moments. An interesting future avenue in this framework is to analyse how the dispersal range (and not only the scaling exponent) modulates the spreading strategy, and compare the 2D Pareto kernel with other flexible kernels (described by a scale and a shape parameter) to study in more detail which parts of the kernel are modulated by which mechanism. Lowering 
+ <italic>l</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> to below the radius of a patch would allow for within patch dispersal. This could make biological sense and would change the results of especially the patch size is equal to one plant size scenarios.
+</p>

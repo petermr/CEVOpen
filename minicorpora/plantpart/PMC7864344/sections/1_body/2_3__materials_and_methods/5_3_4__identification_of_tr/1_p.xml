@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the identification of transcription factors (TFs) that cooperatively bind to promoter regions of genes, we applied the PC-TraFF approach [
+ <xref rid="B42-ijms-22-01033" ref-type="bibr">42</xref>]. The PC-TraFF is an information theory based methodology that applies the pointwise mutual information (PMI) metric in order to quantify the cooperation level of TFs, according to the co-occurrence of their binding sites in the promoters of the MEGs [
+ <xref rid="B42-ijms-22-01033" ref-type="bibr">42</xref>]. Its underlying algorithm consists of six phases and it requires the following input parameters:
+ <list list-type="bullet">
+  <list-item>
+   <p>Promoter sequences: Similar to our study [
+    <xref rid="B28-ijms-22-01033" ref-type="bibr">28</xref>], we extracted, for each MEG, its corresponding promoter sequence ranging from 
+    <inline-formula>
+     <math id="mm3">
+      <mrow>
+       <mrow>
+        <mo>−</mo>
+        <mn>500</mn>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> bp to 
+    <inline-formula>
+     <math id="mm4">
+      <mrow>
+       <mrow>
+        <mo>+</mo>
+        <mn>100</mn>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> bp regions relative to a transcription start site while using the reference genome version 4.1 and gene annotation given in [
+    <xref rid="B94-ijms-22-01033" ref-type="bibr">94</xref>].
+   </p>
+  </list-item>
+  <list-item>
+   <p>Transcription Factor Binding Site (TFBS) detection: For the detection of putative TFBSs in the promoter sequences, we employed the MATCH™ program [
+    <xref rid="B99-ijms-22-01033" ref-type="bibr">99</xref>] with a non-redundant plant position weight matrix (PWM) library from the JASPAR database [
+    <xref rid="B100-ijms-22-01033" ref-type="bibr">100</xref>].
+   </p>
+  </list-item>
+  <list-item>
+   <p>Pre-defined distances: For the identification of the regular cooperative binding pattern of TFs, the underlying PC-TraFF algorithm requires the pre-defined minimum and maximum distance thresholds between TFBSs. In our analysis, we used the recommended values of a distance ≤20 for the maximum and ≥5 for the minimum distance.</p>
+  </list-item>
+ </list>
+</p>

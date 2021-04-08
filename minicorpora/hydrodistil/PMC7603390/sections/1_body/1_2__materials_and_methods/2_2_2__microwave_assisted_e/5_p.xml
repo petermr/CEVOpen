@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A multiple linear regression analysis was performed to obtain the regression coefficients following a second-order polynomial model:
+ <disp-formula id="FD1-foods-09-01493">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>β</mi>
+      <mi>o</mi>
+     </msub>
+     <mo>+</mo>
+     <mo>∑</mo>
+     <msub>
+      <mi>β</mi>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mi>X</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>+</mo>
+     <mo>∑</mo>
+     <msub>
+      <mi>β</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mi>X</mi>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <mo>∑</mo>
+     <msub>
+      <mi>β</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mi>X</mi>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mi>X</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Y</italic> is the predicted response; 
+ <italic>X
+  <sub>i</sub>
+ </italic> and 
+ <italic>X
+  <sub>j</sub>
+ </italic> are the actual values of the independent variables; 
+ <italic>β
+  <sub>o</sub>
+ </italic> is a constant and 
+ <italic>β
+  <sub>i</sub>
+ </italic>, 
+ <italic>β
+  <sub>ii</sub>
+ </italic> and 
+ <italic>β
+  <sub>ij</sub>
+ </italic> are the regression coefficients for the linear, quadratic and interactive effects of variables 
+ <italic>i</italic> and 
+ <italic>j</italic>, respectively.
+</p>

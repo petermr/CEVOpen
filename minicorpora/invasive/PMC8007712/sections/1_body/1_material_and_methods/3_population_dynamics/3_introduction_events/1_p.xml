@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">The ESs are introduced during years noted 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M59">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n_{k} \ge 1981$$\end{document}</tex-math>
+   <math id="M60">
+    <mrow>
+     <msub>
+      <mi>n</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>≥</mo>
+     <mn>1981</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, at the beginning of the intra-annual stage (other dates of introduction within the intra-annual stage would lead—at most—to a one-year lag in the dynamics). Their densities are 
+ <inline-formula id="IEq26">
+  <alternatives>
+   <tex-math id="M61">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$0$$\end{document}</tex-math>
+   <math id="M62">
+    <mrow>
+     <mn>0</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq26.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> before introduction: 
+ <inline-formula id="IEq27">
+  <alternatives>
+   <tex-math id="M63">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$e_{k}^{n} = 0$$\end{document}</tex-math>
+   <math id="M64">
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>n</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq27.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> for 
+ <inline-formula id="IEq28">
+  <alternatives>
+   <tex-math id="M65">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n &lt; n_{k}$$\end{document}</tex-math>
+   <math id="M66">
+    <mrow>
+     <mi>n</mi>
+     <mo>&lt;</mo>
+     <msub>
+      <mi>n</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq28.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Once introduced, the initial density of any ES is assumed to be 1/10th of the carrying capacity at the introduction point (other values have been tested without much effect, see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S1</xref>), with a decreasing density as the distance from this point increases:
+ <disp-formula id="Equa">
+  <alternatives>
+   <tex-math id="M67">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$e_{k}^{{n_{k} }} \left( {0,x} \right) = \frac{{z\left( {\varvec{x}} \right)}}{10}\exp \left( { - \frac{\|{{\varvec{x}} - {\varvec{X}}_{{\varvec{k}}}\|^{2} }}{{2\sigma^{2} }}} \right),$$\end{document}</tex-math>
+   <math id="M68" display="block">
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <msub>
+       <mi>n</mi>
+       <mi>k</mi>
+      </msub>
+     </msubsup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>x</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>z</mi>
+       <mfenced close=")" open="(">
+        <mrow>
+         <mi mathvariant="bold-italic">x</mi>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mn>10</mn>
+     </mfrac>
+     <mo>exp</mo>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mrow>
+          <mo stretchy="false">‖</mo>
+         </mrow>
+         <mrow>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mo>-</mo>
+          <msub>
+           <mrow>
+            <mi mathvariant="bold-italic">X</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="bold-italic">k</mi>
+           </mrow>
+          </msub>
+          <msup>
+           <mrow>
+            <mo stretchy="false">‖</mo>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+         <msup>
+          <mi>σ</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_86314_Article_Equa.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq29">
+  <alternatives>
+   <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{X}}_{{\varvec{k}}}$$\end{document}</tex-math>
+   <math id="M70">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">X</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold-italic">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq29.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the location of introduction of the strain 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k.$$\end{document}</tex-math>
+   <math id="M72">
+    <mrow>
+     <mi>k</mi>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> In our computations, we took 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M73">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sigma = 5$$\end{document}</tex-math>
+   <math id="M74">
+    <mrow>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mn>5</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> km for the standard deviation.
+</p>

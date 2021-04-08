@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>16S molecular marker data were analyzed sequentially using Geneious Prime, version 2020.1.1 (Biomatters, Ltd.) as follows: (a) Paired reads were set; (b) sequences were trimmed with BBDuk version 37.25, keeping a minimum sequence quality of 20 Phred (i.e., 99% base call accuracy), and a minimum length of 200 bp; (c) paired‐end reads were merged with BBMerge version 37.25; (d) duplicate sequences were removed with Dedupe version 37.25; and (e) exact sequence variants were classified using the 16S Biodiversity tool implemented in Geneious Prime, version 2020.1.1 (Biomatters, Ltd.). This tool runs the Ribosomal Database Project (RDP) Classifier, version 2.12, which assigns a taxonomy to the genus level (Wang et al., 
+ <xref rid="ece37139-bib-0044" ref-type="ref">2007</xref>) and includes a bootstrap confidence estimate for each sequence by comparing them to a bacterial and archaeal 16S rRNA database (Wang et al., 
+ <xref rid="ece37139-bib-0044" ref-type="ref">2007</xref>). Search results were queried against the list of bacterial species regulated by Canada. Graphs of bacterial diversity were produced using the Krona metagenomic visualization tool (Ondov et al., 
+ <xref rid="ece37139-bib-0028" ref-type="ref">2011</xref>).
+</p>

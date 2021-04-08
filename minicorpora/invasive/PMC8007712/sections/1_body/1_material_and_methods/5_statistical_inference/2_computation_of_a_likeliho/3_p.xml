@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">Assuming that the observations during each year and at each date/location are independent from each other conditionally on the virus strain proportions, we get the following formula for the likelihood:
+ <disp-formula id="Equf">
+  <alternatives>
+   <tex-math id="M173">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathcal{L}}\left( {{\varvec{\Theta}}} \right) = \mathop \prod \limits_{n = 2004}^{2008} \mathop \prod \limits_{{i = 1, \ldots , I_{n} }} P\left( {C_{i} ,E_{1,i} ,E_{2,i} ,E_{3,i} ,E_{4,i} {|}{{\varvec{\Theta}}},{\text{V}}_{{\text{i}}} } \right).$$\end{document}</tex-math>
+   <math id="M174" display="block">
+    <mrow>
+     <mi mathvariant="script">L</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold">Θ</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <munderover>
+      <mo movablelimits="false">∏</mo>
+      <mrow>
+       <mi>n</mi>
+       <mo>=</mo>
+       <mn>2004</mn>
+      </mrow>
+      <mn>2008</mn>
+     </munderover>
+     <munder>
+      <mo movablelimits="false">∏</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+       <mo>,</mo>
+       <mo>…</mo>
+       <mo>,</mo>
+       <msub>
+        <mi>I</mi>
+        <mi>n</mi>
+       </msub>
+      </mrow>
+     </munder>
+     <mi>P</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msub>
+        <mi>C</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mn>2</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mn>3</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mn>4</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">|</mo>
+       <mrow>
+        <mi mathvariant="bold">Θ</mi>
+       </mrow>
+       <mo>,</mo>
+       <msub>
+        <mtext>V</mtext>
+        <mtext>i</mtext>
+       </msub>
+      </mrow>
+     </mfenced>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_86314_Article_Equf.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The composition of the fungal communities of the soil samples was analysed based on the sequencing data obtained from the Illumina MiSeq platform. Reads were sorted into the experimental samples according to their index combination, quality trimmed by BBDUK, and then merged via VSEARCH [
+ <xref rid="B35-microorganisms-09-00437" ref-type="bibr">35</xref>,
+ <xref rid="B36-microorganisms-09-00437" ref-type="bibr">36</xref>]. Unique sequences were then clustered at 97% similarity by using the usearch_global method implemented in VSEARCH and a representative consensus sequence per de novo OTU was determined [
+ <xref rid="B36-microorganisms-09-00437" ref-type="bibr">36</xref>]. The clustering algorithm also performed chimera filtering to discard likely chimeric OTUs with the UCHIME algorithm in de novo mode [
+ <xref rid="B37-microorganisms-09-00437" ref-type="bibr">37</xref>] implemented in VSEARCH. Sequences that passed quality filtering were then mapped to a set of representative consensus sequences to generate an OTU abundance Table. Representative OTU sequences were assigned to a taxonomic classification via BLAST against the Silva database (version 12.8). Sequences not belonging to fungi were discarded from the 18S fungal dataset. Low-abundance OTUs (those with an abundance of &lt; 0.005% in the total dataset) were discarded [
+ <xref rid="B38-microorganisms-09-00437" ref-type="bibr">38</xref>] prior to analysis. Samples were transformed using Hellinger transformation for all downstream analyses.
+</p>

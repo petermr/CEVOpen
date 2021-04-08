@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>RSEM was applied to analyze the levels of gene expression in each sample [
+ <xref rid="pone.0242776.ref046" ref-type="bibr">46</xref>]. Clean read data were mapped onto the assembled transcriptome, and the read counts per gene were obtained from the transcriptome database. For the analysis of differential gene expression, we used the DESeq package of R (1.10.1). 
+ <italic>P</italic>-value results were assessed using the Benjamin and Hochberg method (1995) to control for the false discovery rate (FDR), and genes with a 
+ <italic>P</italic>-value &lt; 0.05 were defined as being differentially expressed (DEGs) [
+ <xref rid="pone.0242776.ref045" ref-type="bibr">45</xref>, 
+ <xref rid="pone.0242776.ref047" ref-type="bibr">47</xref>].
+</p>

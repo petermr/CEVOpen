@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The free energy was calculated according to the following equations:
+ <disp-formula id="FD1-molecules-25-03852">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">G</mi>
+       <mi>bind</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <mi mathvariant="normal">H</mi>
+      <mo> </mo>
+     </mrow>
+     <mo>−</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="normal">T</mi>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <mi mathvariant="normal">S</mi>
+      <mo> </mo>
+     </mrow>
+     <mo>≈</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">E</mi>
+       <mi>MM</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>+</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">G</mi>
+       <mi>solv</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>−</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="normal">T</mi>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <mi mathvariant="normal">S</mi>
+      <mo> </mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where ΔG
+ <sub>bind</sub> is the free energy of the complex, which is the result of the sum of the molecular mechanics energy (ΔE
+ <sub>MM</sub>), the desolvation free energy (ΔG
+ <sub>solv</sub>), and the entropy (−TΔS). 
+ <disp-formula id="FD2-molecules-25-03852">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">E</mi>
+       <mi>MM</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">E</mi>
+       <mi>internal</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>+</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">E</mi>
+       <mi>electrostatic</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+     <mo>+</mo>
+     <mrow>
+      <mo> </mo>
+      <mi mathvariant="sans-serif">Δ</mi>
+      <msub>
+       <mi mathvariant="normal">E</mi>
+       <mi>vdW</mi>
+      </msub>
+      <mo> </mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

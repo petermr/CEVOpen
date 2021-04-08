@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The whole genome was scanned in XP-CLR choosing a sliding window of 1 Mbp at steps of 5 kbp. XP-CLR options were as follows: XPCLR -xpclr genofile1.txt genofile2.txt mapfile outputfile -w1 snpWin 0.01 gridSize 5000 chrN -p0 corrLevel 0.95; where genofile1.txt and genofile2.txt correspond to the object (EUCLEG) and reference (NJAU-Wild) collections, respectively. Because two SNP loci with high pairwise 
+ <italic>r</italic>
+ <sup>2</sup> values can provide redundant information, corrLevel was set to 0.95 to weight the XP-CLR value of a window containing highly correlated SNPs. Windows with weighted XP-CLR scores in the top 1% of the empirical distribution of the genome-wide XP-CLR values were used to delineate regions of interest. To define the regions of interest (hereafter called selective sweep regions), we combined neighboring windows when the gap was less than 1 Mbp.
+</p>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>List of DEGs related to photosynthesis in 
+   <italic>Asarum</italic> leaves grown under different light intensities. L1, L2, L3 and L4 represent full sunlight, 50% sunlight, 28% sunlight and 12% sunlight, respectively
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Treatment</th>
+    <th>Gene ID</th>
+    <th>Log2 fold change</th>
+    <th>Pvalue adjusted</th>
+    <th>Description</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="5">Carotenoid biosynthesis</td>
+   </tr>
+   <tr>
+    <td> L1 to L2</td>
+    <td>
+     <italic>Cluster-9588.0</italic>
+    </td>
+    <td>4.514</td>
+    <td>0.034696</td>
+    <td>Beta-carotene 3-hydroxylase</td>
+   </tr>
+   <tr>
+    <td> L1 to L4</td>
+    <td>
+     <italic>Cluster-9588.0</italic>
+    </td>
+    <td>4.299</td>
+    <td>0.016687</td>
+    <td>Beta-carotene 3-hydroxylase</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L2 to L4</td>
+    <td>
+     <italic>Cluster-24,085.17524</italic>
+    </td>
+    <td>−1.9954</td>
+    <td>0.001628</td>
+    <td>9-Cis-epoxycarotenoid dioxygenase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.21006</italic>
+    </td>
+    <td>−4.7706</td>
+    <td>3.46E-11</td>
+    <td>Abscisic acid 8′-hydroxylase</td>
+   </tr>
+   <tr>
+    <td colspan="5">Photosynthesis - antenna proteins</td>
+   </tr>
+   <tr>
+    <td> L1 to L2</td>
+    <td>
+     <italic>Cluster-24,085.41612</italic>
+    </td>
+    <td>−1.291</td>
+    <td>0.000785</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td> L1 to L3</td>
+    <td>
+     <italic>Cluster-24,085.76692</italic>
+    </td>
+    <td>−4.6487</td>
+    <td>0.023195</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td rowspan="5"> L1 to L4</td>
+    <td>
+     <italic>Cluster-24,085.41606</italic>
+    </td>
+    <td>−1.7841</td>
+    <td>0.023063</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.76692</italic>
+    </td>
+    <td>−5.3381</td>
+    <td>0.022416</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-15,166.0</italic>
+    </td>
+    <td>−1.5438</td>
+    <td>0.023391</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.41612</italic>
+    </td>
+    <td>−1.9349</td>
+    <td>0.0097455</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.40718</italic>
+    </td>
+    <td>−1.8981</td>
+    <td>0.0008757</td>
+    <td>Chlorophyll a-b binding protein</td>
+   </tr>
+   <tr>
+    <td colspan="5">Porphyrin and chlorophyll metabolism</td>
+   </tr>
+   <tr>
+    <td> L1 to L2</td>
+    <td>
+     <italic>Cluster-24,085.63483</italic>
+    </td>
+    <td>3.2081</td>
+    <td>0.003801</td>
+    <td>UDP-glycosyltransferase 76F1-like</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

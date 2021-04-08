@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">To approximate the density of WMV host plants over the study area, we used 2006 land use data (i.e. BD Ocsol 2006 PACA and LR) produced by the CRIGE PACA (
+ <ext-link ext-link-type="uri" xlink:href="http://www.crige-paca.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.crige-paca.org/</ext-link>) and the Association SIG-LR (
+ <ext-link ext-link-type="uri" xlink:href="http://www.siglr.org/lassociation/la-structure.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.siglr.org/lassociation/la-structure.html</ext-link>). Based on satellite images, land use is determined at a spatial resolution of 1/50,000 using an improved three-level hierarchical typology derived from the European Corine Land Cover nomenclature. Here we used the third hierarchical level of the BD Ocsol typology (i.e. 42 land use classes) to classify the entire study area in three habitats: (1) WMV-susceptible crops, (2) habitats unfavorable to WMV host plants (e.g. forests, industrial and commercial units…) and, (3) non-terrestrial habitat (i.e. water). The proportion of WMV-susceptible crops was then computed within all cells of a raster covering the entire study area, with a spatial resolution of 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$1.4 \times 1.4$$\end{document}</tex-math>
+   <math id="M4">
+    <mrow>
+     <mn>1.4</mn>
+     <mo>×</mo>
+     <mn>1.4</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> km
+ <sup>2</sup>. These proportions were used to approximate host plant density 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\varvec{x}} \right)$$\end{document}</tex-math>
+   <math id="M6">
+    <mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which was normalized, so that 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\varvec{x}} \right) = 0$$\end{document}</tex-math>
+   <math id="M8">
+    <mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> corresponds to an absence of host plants and 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\varvec{x}} \right) = 1$$\end{document}</tex-math>
+   <math id="M10">
+    <mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to the maximum density of host plants (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>).
+</p>

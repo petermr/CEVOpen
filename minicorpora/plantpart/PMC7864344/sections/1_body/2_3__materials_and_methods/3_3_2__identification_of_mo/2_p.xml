@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In MFSelector, the parameters 
+ <italic>permut</italic>, 
+ <italic>svdetimes</italic>, and 
+ <italic>svdenoise</italic> have to be specified in order to define the level of stringency for monotonicity. Following our previous study [
+ <xref rid="B36-ijms-22-01033" ref-type="bibr">36</xref>], we chose 
+ <italic>permut</italic> = 100, 
+ <italic>svdetimes</italic> = 100, and 
+ <italic>svdenoise</italic> = 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mn>0.1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Finally, we considered, in our further analysis, only the genes as significant MEGs that have a FDR 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mo>≤</mo>
+     <mn>0.1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and sample variance for discriminating error value ≤1.
+</p>

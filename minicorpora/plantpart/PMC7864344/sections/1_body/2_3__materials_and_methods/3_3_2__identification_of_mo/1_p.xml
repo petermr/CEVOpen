@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By applying the MFSelector (monotonic feature selector) approach [
+ <xref rid="B93-ijms-22-01033" ref-type="bibr">93</xref>] to the time series data set obtained from RNA-seq consisting of four time points, we identified Monotonically Expressed Genes (MEGs), whose expression patterns are closely linked to the development of the seeds over time in both cultivars. The underlying algorithm of MFSelector compares the expression values of each gene observed for all of the samples between time points in order to assess whether these values follow a strong monotonic pattern. In addition, a permutation test is performed to determine the significance level of these patterns. Consequently, it provides two sets of MEGs with corresponding 
+ <italic>p</italic>-values: while the first set contains the genes with significantly monotonically increasing patterns, the second set only includes genes with significantly monotonically decreasing expression values.
+</p>

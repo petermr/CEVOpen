@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Consequently, the algorithm of the PC-TraFF approach assigns each TF-pair (
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <msub>
+     <mi>T</mi>
+     <mi>a</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <msub>
+     <mi>T</mi>
+     <mi>b</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>) a PMI 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mo>(</mo>
+     <msub>
+      <mi>T</mi>
+      <mi>a</mi>
+     </msub>
+     <mo>;</mo>
+     <mo> </mo>
+     <msub>
+      <mi>T</mi>
+      <mi>b</mi>
+     </msub>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>-score and it transforms the PMI 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mo>(</mo>
+     <msub>
+      <mi>T</mi>
+      <mi>a</mi>
+     </msub>
+     <mo>;</mo>
+     <mo> </mo>
+     <msub>
+      <mi>T</mi>
+      <mi>b</mi>
+     </msub>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>-score into the 
+ <italic>z-score</italic> as a final step. A cooperation between any 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <msub>
+     <mi>T</mi>
+     <mi>a</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <msub>
+     <mi>T</mi>
+     <mi>b</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is considered to be significant if they have a 
+ <italic>z-score</italic>
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mo>≥</mo>
+     <mn>3</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

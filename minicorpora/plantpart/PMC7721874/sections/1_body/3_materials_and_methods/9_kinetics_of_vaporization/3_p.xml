@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par47">From Eqs. (
+ <xref rid="Equ2" ref-type="">2</xref>) and (
+ <xref rid="Equ3" ref-type="">3</xref>), and taking the natural logarithm, the following expression is obtained, shown in Eq. (
+ <xref rid="Equ4" ref-type="">4</xref>):
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ln \left( {\frac{d\alpha }{{dt}}} \right)\, = \,\ln A\left( {1 - \alpha } \right)^{n} \, - \,\frac{{E_{a} }}{RT}$$\end{document}</tex-math>
+   <math id="M8" display="block">
+    <mrow>
+     <mo>ln</mo>
+     <mfenced close=")" open="(">
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="italic">dt</mi>
+       </mrow>
+      </mfrac>
+     </mfenced>
+     <mspace width="0.166667em"/>
+     <mo>=</mo>
+     <mspace width="0.166667em"/>
+     <mo>ln</mo>
+     <mi>A</mi>
+     <msup>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>α</mi>
+       </mrow>
+      </mfenced>
+      <mi>n</mi>
+     </msup>
+     <mspace width="0.166667em"/>
+     <mo>-</mo>
+     <mspace width="0.166667em"/>
+     <mfrac>
+      <msub>
+       <mi>E</mi>
+       <mi>a</mi>
+      </msub>
+      <mrow>
+       <mi mathvariant="italic">RT</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78263_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

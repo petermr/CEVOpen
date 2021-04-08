@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">The PacBio Sequel long reads and Illumina short reads were combined to perform a de novo assembly of the 
+ <italic>A. trifoliata</italic> genome. Canu (v1.4) was first used to assemble the genome with the corrected-error-rate parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. Then, the corrected reads were independently assembled with WTDBG (v1.2.3)
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. The well-assembled Canu and WTDBG results were merged by Quickmerge
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup>. The merged genome was corrected with the Illumina data using Pilon
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup>.
+</p>

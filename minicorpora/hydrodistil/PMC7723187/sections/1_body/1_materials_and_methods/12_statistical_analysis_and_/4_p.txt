@@ -1,0 +1,6 @@
+0: One of the problems that may occur when training a neural network is network learning.
+1: In this case, the error is acceptable when training the network, but when evaluating, the network error is much more than the error of the training data.
+2: There are two ways to avoid overlearning: 1to stop training; 2to choose the lowest number of neurons in the hidden layer.
+3: The second method was used in this study.
+4: In order to train the network, the data were first randomly divided into three parts, with 60% of the data used for training, 20% of the data used for evaluation, and 20% of the data used for network testing.
+5: During network training, the training process was interrupted when the error between training and evaluation data increased.

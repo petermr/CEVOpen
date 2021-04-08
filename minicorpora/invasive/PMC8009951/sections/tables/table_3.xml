@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>ANOVA analysis and estimation of regression coefficients among the natural, anthropogenic, and overall dispersal abilities and socio-climatic factors for all alien plant species and each of the six risk ranks thereof.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Rank</th>
+    <th align="left">ANOVA</th>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left">Coefficient</th>
+    <th align="left"/>
+    <th align="left"/>
+    <th align="left"/>
+   </tr>
+   <tr>
+    <th align="left"/>
+    <th align="left">Dispersal ability</th>
+    <th align="left">R
+     <sup>2</sup>
+    </th>
+    <th align="left">Model</th>
+    <th align="left">d.f</th>
+    <th align="left">MS</th>
+    <th align="left">F</th>
+    <th align="left">P</th>
+    <th align="left">Independent</th>
+    <th align="left">B</th>
+    <th align="left">t</th>
+    <th align="left">P</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Total</td>
+    <td align="left">Natural</td>
+    <td align="left">0.44</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">1.2</td>
+    <td align="left">24.7</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">7.9</td>
+    <td align="left">30.4</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.05</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.02</td>
+    <td align="left">− 5.0</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.15</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">2.4</td>
+    <td align="left">5.7</td>
+    <td align="left">0.023</td>
+    <td align="left">Intercept</td>
+    <td align="left">32.3</td>
+    <td align="left">186.8</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.4</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">GDP</td>
+    <td align="left">− 0.11</td>
+    <td align="left">− 2.4</td>
+    <td align="left">0.023</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.30</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">6.3</td>
+    <td align="left">14.0</td>
+    <td align="left">0.001</td>
+    <td align="left">Intercept</td>
+    <td align="left">41.7</td>
+    <td align="left">51.4</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.5</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">GDP</td>
+    <td align="left">− 0.04</td>
+    <td align="left">− 3.7</td>
+    <td align="left">0.001</td>
+   </tr>
+   <tr>
+    <td align="left">I</td>
+    <td align="left">Natural</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.26</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">9.5</td>
+    <td align="left">11.2</td>
+    <td align="left">0.002</td>
+    <td align="left">Intercept</td>
+    <td align="left">23.6</td>
+    <td align="left">70.9</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.9</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAP</td>
+    <td align="left">0.01</td>
+    <td align="left">3.3</td>
+    <td align="left">0.002</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.31</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">12.5</td>
+    <td align="left">14.2</td>
+    <td align="left">0.001</td>
+    <td align="left">Intercept</td>
+    <td align="left">31.2</td>
+    <td align="left">92.6</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.9</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">GDP</td>
+    <td align="left">0.001</td>
+    <td align="left">3.8</td>
+    <td align="left">0.001</td>
+   </tr>
+   <tr>
+    <td align="left">II</td>
+    <td align="left">Natural</td>
+    <td align="left">0.235</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">1.6</td>
+    <td align="left">9.8</td>
+    <td align="left">0.004</td>
+    <td align="left">Intercept</td>
+    <td align="left">7.1</td>
+    <td align="left">48.5</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.2</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAP</td>
+    <td align="left">0.00</td>
+    <td align="left">3.1</td>
+    <td align="left">0.004</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+    <td align="left">–</td>
+   </tr>
+   <tr>
+    <td align="left">III</td>
+    <td align="left">Natural</td>
+    <td align="left">0.54</td>
+    <td align="left">Regression</td>
+    <td align="left">2</td>
+    <td align="left">18.8</td>
+    <td align="left">18.6</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">5.4</td>
+    <td align="left">10.6</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">31</td>
+    <td align="left">1.0</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MFD</td>
+    <td align="left">0.03</td>
+    <td align="left">5.8</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAT</td>
+    <td align="left">0.07</td>
+    <td align="left">2.3</td>
+    <td align="left">0.025</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.24</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">78.7</td>
+    <td align="left">10.3</td>
+    <td align="left">0.003</td>
+    <td align="left">Intercept</td>
+    <td align="left">40.4</td>
+    <td align="left">12.1</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">7.6</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAP</td>
+    <td align="left">− 0.15</td>
+    <td align="left">− 3.2</td>
+    <td align="left">0.003</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.46</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">181.2</td>
+    <td align="left">27.8</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">53.6</td>
+    <td align="left">17.4</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">6.5</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.23</td>
+    <td align="left">− 5.3</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left">IV</td>
+    <td align="left">Natural</td>
+    <td align="left">0.4</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">2.5</td>
+    <td align="left">21.3</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">8.7</td>
+    <td align="left">20.9</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.03</td>
+    <td align="left">− 4.6</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.28</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">14.5</td>
+    <td align="left">12.7</td>
+    <td align="left">0.001</td>
+    <td align="left">Intercept</td>
+    <td align="left">33.5</td>
+    <td align="left">117.7</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">1.1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.27</td>
+    <td align="left">− 3.6</td>
+    <td align="left">0.001</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.48</td>
+    <td align="left">Regression</td>
+    <td align="left">2</td>
+    <td align="left">15.2</td>
+    <td align="left">14.1</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">44.3</td>
+    <td align="left">35.2</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">31</td>
+    <td align="left">1.1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">GDP</td>
+    <td align="left">− 0.25</td>
+    <td align="left">− 3.2</td>
+    <td align="left">0.003</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.06</td>
+    <td align="left">− 3.0</td>
+    <td align="left">0.004</td>
+   </tr>
+   <tr>
+    <td align="left">V</td>
+    <td align="left">Natural</td>
+    <td align="left">0.44</td>
+    <td align="left">Regression</td>
+    <td align="left">2</td>
+    <td align="left">0.95</td>
+    <td align="left">12.2</td>
+    <td align="left">0.000</td>
+    <td align="left">Intercept</td>
+    <td align="left">3.7</td>
+    <td align="left">5.6</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">31</td>
+    <td align="left">0.08</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MFD</td>
+    <td align="left">0.01</td>
+    <td align="left">4.9</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">0.03</td>
+    <td align="left">3.7</td>
+    <td align="left">0.001</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.179</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">7.6</td>
+    <td align="left">7.0</td>
+    <td align="left">0.013</td>
+    <td align="left">Intercept</td>
+    <td align="left">34.6</td>
+    <td align="left">123.9</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">1.1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MFD</td>
+    <td align="left">− 0.20</td>
+    <td align="left">− 2.6</td>
+    <td align="left">0.013</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.38</td>
+    <td align="left">Regression</td>
+    <td align="left">2</td>
+    <td align="left">8.6</td>
+    <td align="left">9.3</td>
+    <td align="left">0.001</td>
+    <td align="left">Intercept</td>
+    <td align="left">40.1</td>
+    <td align="left">108.3</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">31</td>
+    <td align="left">0.9</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MFD</td>
+    <td align="left">0.02</td>
+    <td align="left">3.0</td>
+    <td align="left">0.005</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">GDP</td>
+    <td align="left">− 0.16</td>
+    <td align="left">− 2.3</td>
+    <td align="left">0.029</td>
+   </tr>
+   <tr>
+    <td align="left">VI</td>
+    <td align="left">Natural</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+    <td align="left">−</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Anthropogenic</td>
+    <td align="left">0.28</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">3.1</td>
+    <td align="left">12.4</td>
+    <td align="left">0.001</td>
+    <td align="left">Intercept</td>
+    <td align="left">38.2</td>
+    <td align="left">63.7</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.2</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.03</td>
+    <td align="left">− 3.5</td>
+    <td align="left">0.001</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Overall</td>
+    <td align="left">0.2</td>
+    <td align="left">Regression</td>
+    <td align="left">1</td>
+    <td align="left">3.6</td>
+    <td align="left">8.1</td>
+    <td align="left">0.008</td>
+    <td align="left">Intercept</td>
+    <td align="left">44.1</td>
+    <td align="left">54.4</td>
+    <td align="left">0.000</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">Error</td>
+    <td align="left">32</td>
+    <td align="left">0.4</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left">MAH</td>
+    <td align="left">− 0.03</td>
+    <td align="left">− 2.8</td>
+    <td align="left">0.008</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on AUC and TSS values, all evaluated species were considered for the analysis. AUC and TSS measures are generally used for evaluating SDMs in conservation planning [
+ <xref rid="B81-entropy-21-00571" ref-type="bibr">81</xref>,
+ <xref rid="B83-entropy-21-00571" ref-type="bibr">83</xref>]. The AUC ranges from 0 to 1 whereas TSS ranges from −1 to +1. In both cases, the upper levels imply perfect discrimination [
+ <xref rid="B51-entropy-21-00571" ref-type="bibr">51</xref>,
+ <xref rid="B83-entropy-21-00571" ref-type="bibr">83</xref>,
+ <xref rid="B89-entropy-21-00571" ref-type="bibr">89</xref>,
+ <xref rid="B90-entropy-21-00571" ref-type="bibr">90</xref>]. Generally, AUC values of &lt;0.7 indicates poor performance; 0.7–0.9 moderate performance; and &gt;0.9 high performance [
+ <xref rid="B89-entropy-21-00571" ref-type="bibr">89</xref>,
+ <xref rid="B91-entropy-21-00571" ref-type="bibr">91</xref>,
+ <xref rid="B92-entropy-21-00571" ref-type="bibr">92</xref>]. The TSS values &lt;0.4 are considered as poor, 0.4–0.8 moderate and &gt;0.8 very good model performance [
+ <xref rid="B93-entropy-21-00571" ref-type="bibr">93</xref>]. Threshold-dependent measures (i.e., TSS) are considered as more appropriate for defining suitable areas for invasive plants as it is based on the discrimination of presences and absences [
+ <xref rid="B83-entropy-21-00571" ref-type="bibr">83</xref>]. We did not calculate Cohen’s kappa due to its high dependency on prevalence (please read a study by [
+ <xref rid="B83-entropy-21-00571" ref-type="bibr">83</xref>] for details). We used spatial filtering to remove the sampling bias of occurrences. The effect of sampling bias can be addressed by constraining the background data to have the same bias as the sample data [
+ <xref rid="B90-entropy-21-00571" ref-type="bibr">90</xref>]. However, the bias file we prepared using the districts where the occurrences are distributed resulted in ecologically unrealistic model predictions for some species, far away from the training region. Therefore, the knowledge of species biology and distribution is crucial while selecting the most realistic model projection [
+ <xref rid="B57-entropy-21-00571" ref-type="bibr">57</xref>]. Moreover, a study by [
+ <xref rid="B94-entropy-21-00571" ref-type="bibr">94</xref>] recommend spatial filtering rather than background manipulation to correct sampling bias. The analysis of variable importance suggested that predicted habitat suitability was controlled by few temperature and precipitation variables in many IAPS species. Overall, precipitation variables showed a dominant control over the niche distribution of many IAPS as indicated by the contribution table (precipitation of driest month) and jackknife test (precipitation seasonality). Three variables contributed almost 90% of the model building in 10 out of the 14 IAPS evaluated. Changes in the suitability of IAPS could be mainly influenced by climatic factors that the MaxEnt model used and their compounding effects [
+ <xref rid="B49-entropy-21-00571" ref-type="bibr">49</xref>]. Therefore, we believe that the dependency of these IAPS on a few environmental variables (narrow range) may have brought about severe consequences on the potential distribution of these species under projected climate change.
+</p>

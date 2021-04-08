@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For 
+ <italic>R. graveolens</italic>, the most appropriate regression models that describe the relationships between DT and the concentrations of compounds were second-order polynomial (Equation (1)), Michaelis–Menten (Equation (2)), and Exponential decay (Equation (3)). For 
+ <italic>H. officinalis</italic>, the regression models were Exponential decay and Power (convex) (Equation (4)). 
+ <disp-formula id="FD1-molecules-24-04047">
+  <label>(1)</label>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>β</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>β</mi>
+      <mn>1</mn>
+     </msub>
+     <mi>X</mi>
+     <mo>+</mo>
+     <msub>
+      <mi>β</mi>
+      <mn>2</mn>
+     </msub>
+     <msup>
+      <mi>X</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD2-molecules-24-04047">
+  <label>(2)</label>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>1</mn>
+       </msub>
+       <mi>X</mi>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>+</mo>
+       <mi>X</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-molecules-24-04047">
+  <label>(3)</label>
+  <math id="mm123">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>2</mn>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>exp</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>3</mn>
+     </msub>
+     <mi>X</mi>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-molecules-24-04047">
+  <label>(4)</label>
+  <math id="mm223">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>1</mn>
+     </msub>
+     <msup>
+      <mi>X</mi>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Y</italic> is the dependent (response) variable, 
+ <italic>X</italic> is the independent (DT) variable, and the error term 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mi>ε</mi>
+   </mrow>
+  </math>
+ </inline-formula> is assumed to have normal distribution with constant variance.
+</p>

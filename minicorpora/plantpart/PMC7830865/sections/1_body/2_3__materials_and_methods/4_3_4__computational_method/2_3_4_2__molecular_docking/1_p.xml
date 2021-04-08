@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular docking was carried out on 39 
+ <italic>P. nigrum</italic> essential oil major components with 7 
+ <italic>Fusarium</italic> protein targets from the Protein Data Bank (PDB, 
+ <uri xlink:href="http://www.rcsb.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.rcsb.org/</uri>): 
+ <italic>F. oxysporum</italic> cutinase (PDB 5AJH), 
+ <italic>F. solani</italic> cutinase (PDB 1AGY, 1XZL, and 1XZM), 
+ <italic>F. oxysporum</italic> endoglucanase (PDB 4OVW), 
+ <italic>F. oxysporum</italic> feruloyl esterase (PDB 6FAT), and 
+ <italic>F. oxysporum</italic> xylanase (PDB 5JRM). In addition, homology models of 
+ <italic>F. solani</italic> ornithine decarboxylase, 
+ <italic>F. vanettenii</italic> thiamine thiazole synthase, 
+ <italic>F. oxysporum</italic> glucosamine-fructose-6-phosphate aminotransferase, 
+ <italic>F. odoratissimum</italic> β-glucosidase, and 
+ <italic>F. oxysporum</italic> guanine nucleotide-binding protein subunit β, were also screened. Structures of the ligands were generated using Spartan ’18 for Windows version 1.4.4 (Wavefunction, Inc., Irvine, CA, USA). Conformational analyses and geometry optimizations were carried out using the MMFF force field [
+ <xref rid="B115-ijms-22-00890" ref-type="bibr">115</xref>]. The ligands were screened using Molegro Virtual Docker version 6.0.1 (Molegro ApS, Aarhus, Denmark) [
+ <xref rid="B116-ijms-22-00890" ref-type="bibr">116</xref>]. Solvent molecules and co-crystallized ligands were removed from the protein structure prior to docking. A binding site sphere large enough to accommodate the binding cavity was positioned on the binding site of each protein. Protonation states of the homology model residues at neutral pH were assigned. The protein structure was used as a rigid model (i.e., no relaxation of the protein structure was performed). The assignment of charges was based on standard defaults of the Molegro Virtual Docker program. The ligands were used as flexible models in both the docking and succeeding optimization schemes. Various orientations of the ligands with the protein were searched and ranked based on their re-rank docking scores. For each docking run the number of iterations for the docking procedure was set to a maximum of 1500, with a maximum population size of 50, and a total of 100 runs per ligand. A threshold of 1.00 Å RMSD was set for multiple poses. The poses generated for each ligand were then sorted by the calculated re-rank docking scores.
+</p>

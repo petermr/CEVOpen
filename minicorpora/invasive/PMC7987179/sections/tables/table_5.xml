@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0248635.t005" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0248635.t005</object-id>
+ <label>Table 5</label>
+ <caption>
+  <title>Summary of model selection results for fruit set in 
+   <italic>C</italic>. 
+   <italic>scandens</italic>.
+  </title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0248635.t005g" xlink:href="pone.0248635.t005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="center" rowspan="1" colspan="1">Model</th>
+     <th align="center" rowspan="1" colspan="1">Intercept</th>
+     <th align="center" rowspan="1" colspan="1">Slope</th>
+     <th align="center" rowspan="1" colspan="1">df</th>
+     <th align="center" rowspan="1" colspan="1">
+      <italic>R</italic>
+      <sup>
+       <italic>2</italic>
+      </sup>
+      <sub>GLMM(m)</sub>
+     </th>
+     <th align="center" rowspan="1" colspan="1">
+      <italic>R</italic>
+      <sup>
+       <italic>2</italic>
+      </sup>
+      <sub>GLMM(c)</sub>
+     </th>
+     <th align="center" rowspan="1" colspan="1">AICc</th>
+     <th align="center" rowspan="1" colspan="1">ΔAICc</th>
+     <th align="center" rowspan="1" colspan="1">Akaike weight</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">Null</td>
+     <td align="center" rowspan="1" colspan="1">-0.951</td>
+     <td align="center" rowspan="1" colspan="1">N/A</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1">0</td>
+     <td align="center" rowspan="1" colspan="1">0.432</td>
+     <td align="center" rowspan="1" colspan="1">98.7</td>
+     <td align="center" rowspan="1" colspan="1">0</td>
+     <td align="center" rowspan="1" colspan="1">0.389</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">conspecific mating potential</td>
+     <td align="center" rowspan="1" colspan="1">-1.384</td>
+     <td align="center" rowspan="1" colspan="1">0.2106</td>
+     <td align="center" rowspan="1" colspan="1">3</td>
+     <td align="center" rowspan="1" colspan="1">0.020</td>
+     <td align="center" rowspan="1" colspan="1">0.436</td>
+     <td align="center" rowspan="1" colspan="1">100.3</td>
+     <td align="center" rowspan="1" colspan="1">1.63</td>
+     <td align="center" rowspan="1" colspan="1">0.172</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">inflorescence position</td>
+     <td align="center" rowspan="1" colspan="1">-0.716</td>
+     <td align="center" rowspan="1" colspan="1">-0.06454</td>
+     <td align="center" rowspan="1" colspan="1">3</td>
+     <td align="center" rowspan="1" colspan="1">0.006</td>
+     <td align="center" rowspan="1" colspan="1">0.422</td>
+     <td align="center" rowspan="1" colspan="1">100.5</td>
+     <td align="center" rowspan="1" colspan="1">1.83</td>
+     <td align="center" rowspan="1" colspan="1">0.156</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">heterospecific mating potential</td>
+     <td align="center" rowspan="1" colspan="1">-0.778</td>
+     <td align="center" rowspan="1" colspan="1">-0.04594</td>
+     <td align="center" rowspan="1" colspan="1">3</td>
+     <td align="center" rowspan="1" colspan="1">0.015</td>
+     <td align="center" rowspan="1" colspan="1">0.424</td>
+     <td align="center" rowspan="1" colspan="1">100.6</td>
+     <td align="center" rowspan="1" colspan="1">1.89</td>
+     <td align="center" rowspan="1" colspan="1">0.151</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">floral output</td>
+     <td align="center" rowspan="1" colspan="1">-0.960</td>
+     <td align="center" rowspan="1" colspan="1">0.00004</td>
+     <td align="center" rowspan="1" colspan="1">3</td>
+     <td align="center" rowspan="1" colspan="1">0.000</td>
+     <td align="center" rowspan="1" colspan="1">0.431</td>
+     <td align="center" rowspan="1" colspan="1">100.8</td>
+     <td align="center" rowspan="1" colspan="1">2.16</td>
+     <td align="center" rowspan="1" colspan="1">0.132</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="t005fn001">
+   <p>Coefficients are at the logit scale. All models are GLMMs that include random intercepts for pistillate plant identity. 
+    <italic>R</italic>
+    <sup>
+     <italic>2</italic>
+    </sup>
+    <sub>GLMM(m)</sub> refers to the marginal pseudo-
+    <italic>R</italic>
+    <sup>
+     <italic>2</italic>
+    </sup>, and 
+    <italic>R</italic>
+    <sup>
+     <italic>2</italic>
+    </sup>
+    <sub>GLMM(c)</sub> refers to the conditional pseudo-
+    <italic>R</italic>
+    <sup>
+     <italic>2</italic>
+    </sup> [
+    <xref rid="pone.0248635.ref051" ref-type="bibr">51</xref>, 
+    <xref rid="pone.0248635.ref052" ref-type="bibr">52</xref>].
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

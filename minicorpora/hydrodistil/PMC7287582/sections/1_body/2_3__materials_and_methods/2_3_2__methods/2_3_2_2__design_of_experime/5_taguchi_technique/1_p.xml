@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Taguchi’s technique is one of the most known methods for a robust experimental design that ensures the optimization of the product and the conditions of the process to obtain it. The robustness represents the quality of being able to overpass the on-going modifications. The Taguchi technique is a tool for process improvement and not for absolute optimization. In the frame of Taguchi’s approach, the independent variables (X
+ <sub>1</sub>–X
+ <sub>3</sub>) are considered control factors, which need to be optimized for reaching a specified value and to eliminate the variation. Besides the control factors, the system responses can be affected by the noise factors, influenced by the process deployment conditions, which are defined as the unwanted variability determining the decrease of the optimization process quality. In order to find a robust solution, Taguchi developed more than 70 such signal-to-noise ratios (S/N), according to the particular type of the characteristics involved. Among these, three performance indicators are the most used, “lower-the-better”, “larger-the-better”, and “nominal-the-better”. In this case, taking into account the constraints imposed on dependent variable Y we used “larger-the-better” criterion, known in literature also as “more-is-better”or “higher-is-better”. This S/N ratio can be seen as a criterion that has to be minimized if the reversed measured data are taken into account, using the following equation (Equation (3)) [
+ <xref rid="B30-molecules-25-02399" ref-type="bibr">30</xref>,
+ <xref rid="B31-molecules-25-02399" ref-type="bibr">31</xref>]:
+ <disp-formula id="FD3-molecules-25-02399">
+  <label>(3)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mi mathvariant="normal">S</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfrac>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mn>10</mn>
+     <mrow>
+      <mi>log</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mn>1</mn>
+        <mi mathvariant="normal">n</mi>
+       </mfrac>
+       <munderover>
+        <mstyle mathsize="140%" displaystyle="true">
+         <mo>∑</mo>
+        </mstyle>
+        <mrow>
+         <mi mathvariant="normal">i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi mathvariant="normal">n</mi>
+       </munderover>
+       <mfrac>
+        <mn>1</mn>
+        <mrow>
+         <msubsup>
+          <mi mathvariant="normal">Y</mi>
+          <mi mathvariant="normal">i</mi>
+          <mn>2</mn>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

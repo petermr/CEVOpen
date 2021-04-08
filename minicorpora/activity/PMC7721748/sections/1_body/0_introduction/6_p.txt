@@ -1,0 +1,10 @@
+0: One of the efficient models for the deep learning is the Convolutional Neural Network (CNN).
+1: The CNN is characterized by two novel types of layers:  convolution and pooling layers.
+2: These layers are based on using filters to convolve the range of the input data to a smaller range, detecting important or specific parts within this range 8.
+3: The CNN usually consists of Input Layer , Convolution Layer (i.e.
+4: produces a matrix of dimension smaller than the input matrix), ReLU or Rectified Linear Unit .
+5: ReLU is mathematically expressed as Max(0,  x) (i.e.
+6: it means that any number below 0 is converted to 0, while any positive number is allowed to pass as it is), Max pooling (i.e.
+7: passes the maximum value from amongst a small collection of elements of the incoming matrix to the output) and the final output layer (i.e.
+8: a fully-connected neural network layer, which makes the output based on the activation function), as shown in Fig.
+9: 19.

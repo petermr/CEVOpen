@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26"> By definition and for biological reasons, the parameter vector 
+ <inline-formula id="IEq77">
+  <alternatives>
+   <tex-math id="M175">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\varvec{\Theta}}}$$\end{document}</tex-math>
+   <math id="M176">
+    <mrow>
+     <mi mathvariant="bold">Θ</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq77.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> satisfies some constraints. First, 
+ <inline-formula id="IEq78">
+  <alternatives>
+   <tex-math id="M177">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$D \in \left( {10^{ - 4} ,10} \right){\text{ km}}^{2} /{\text{day}}$$\end{document}</tex-math>
+   <math id="M178">
+    <mrow>
+     <mi>D</mi>
+     <mo>∈</mo>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mn>10</mn>
+        <mrow>
+         <mo>-</mo>
+         <mn>4</mn>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <mn>10</mn>
+      </mrow>
+     </mfenced>
+     <msup>
+      <mrow>
+       <mspace width="0.333333em"/>
+       <mtext>km</mtext>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo stretchy="false">/</mo>
+     <mtext>day</mtext>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq78.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq79">
+  <alternatives>
+   <tex-math id="M179">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$r \in \left( {0.1,1} \right) {\text{day}}^{ - 1} ,$$\end{document}</tex-math>
+   <math id="M180">
+    <mrow>
+     <mi>r</mi>
+     <mo>∈</mo>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>0.1</mn>
+       <mo>,</mo>
+       <mn>1</mn>
+      </mrow>
+     </mfenced>
+     <msup>
+      <mrow>
+       <mtext>day</mtext>
+      </mrow>
+      <mrow>
+       <mo>-</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq79.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq80">
+  <alternatives>
+   <tex-math id="M181">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$m_{c} , m_{e} \in \left\{ {0,0.1,0.2, \ldots ,0.9} \right\},$$\end{document}</tex-math>
+   <math id="M182">
+    <mrow>
+     <msub>
+      <mi>m</mi>
+      <mi>c</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>m</mi>
+      <mi>e</mi>
+     </msub>
+     <mo>∈</mo>
+     <mfenced close="}" open="{">
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mn>0.1</mn>
+       <mo>,</mo>
+       <mn>0.2</mn>
+       <mo>,</mo>
+       <mo>…</mo>
+       <mo>,</mo>
+       <mn>0.9</mn>
+      </mrow>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq80.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">S7</xref> for a biological interpretation of these values). Second, we assumed that the locations of introductions 
+ <inline-formula id="IEq81">
+  <alternatives>
+   <tex-math id="M183">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{X}}_{{\varvec{k}}}$$\end{document}</tex-math>
+   <math id="M184">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">X</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold-italic">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq81.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> belong to the study area. To facilitate the estimation procedure, the points 
+ <inline-formula id="IEq82">
+  <alternatives>
+   <tex-math id="M185">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{X}}_{{\varvec{k}}}$$\end{document}</tex-math>
+   <math id="M186">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">X</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold-italic">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq82.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> were searched in a regular grid with 20 points (see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S3</xref>), and the dates of introduction 
+ <inline-formula id="IEq83">
+  <alternatives>
+   <tex-math id="M187">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n_{k}$$\end{document}</tex-math>
+   <math id="M188">
+    <msub>
+     <mi>n</mi>
+     <mi>k</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq83.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> were searched in 
+ <inline-formula id="IEq84">
+  <alternatives>
+   <tex-math id="M189">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left\{ {1985,1990,1995,2000} \right\}.$$\end{document}</tex-math>
+   <math id="M190">
+    <mrow>
+     <mfenced close="}" open="{">
+      <mrow>
+       <mn>1985</mn>
+       <mo>,</mo>
+       <mn>1990</mn>
+       <mo>,</mo>
+       <mn>1995</mn>
+       <mo>,</mo>
+       <mn>2000</mn>
+      </mrow>
+     </mfenced>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq84.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+</p>

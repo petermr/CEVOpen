@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par58">RNA-Seq was performed on an Illumina HiSeq4000 platform (Novogene, Singapore) to generate 150 bp paired-end reads. After trimming the poor-quality reads and adaptor sequences, the clean reads were then mapped onto the reference genome of 
+ <italic>Elaeis guineensis</italic> available in NCBI database under accession number PRJNA192219, using TopHat2 algorithm with a maximum of 2 mismatches. Transcript abundance in FPKM was estimated using HTSeq with union mode. For differential expression analysis, DESeq with a corrected 
+ <italic>p</italic>-values &lt; 0.05 was employed. All DEGs were then subjected to the GO term overrepresentation test using GOseq [
+ <xref ref-type="bibr" rid="CR93">93</xref>]. Regulatory pathways were investigated by matching DEGs to putative orthologs in the Kyoto Encyclopedia of Genes and Genomes (KEGG) protein database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.genome.jp/dbget/" xmlns:xlink="http://www.w3.org/1999/xlink">www.genome.jp/dbget/</ext-link>) [
+ <xref ref-type="bibr" rid="CR94">94</xref>].
+</p>

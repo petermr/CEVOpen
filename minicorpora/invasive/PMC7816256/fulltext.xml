@@ -1,0 +1,971 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecology</journal-id><journal-id journal-id-type="iso-abbrev">Ecology</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1939-9170</journal-id><journal-id journal-id-type="publisher-id">ECY</journal-id><journal-title-group><journal-title>Ecology</journal-title></journal-title-group><issn pub-type="ppub">0012-9658</issn><issn pub-type="epub">1939-9170</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7816256</article-id><article-id pub-id-type="pmid">32970846</article-id><article-id pub-id-type="doi">10.1002/ecy.3201</article-id><article-id pub-id-type="publisher-id">ECY3201</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Negative effects of an allelopathic invader on AM fungal plant species drive community&#x02010;level responses</article-title><alt-title alt-title-type="right-running-head">Mycorrhizae and Allelopathic Invasion</alt-title><alt-title alt-title-type="left-running-head">Morgan D. Roche et al.</alt-title></title-group><contrib-group><contrib id="ecy3201-cr-0001" contrib-type="author" corresp="yes"><name><surname>Roche</surname><given-names>Morgan D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2276-3944</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ecy3201-aff-0002">
+<sup>2</sup>
+</xref><address><email>mroche2@vols.utk.edu</email></address></contrib><contrib id="ecy3201-cr-0002" contrib-type="author"><name><surname>Pearse</surname><given-names>Ian S.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7098-0495</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ecy3201-cr-0003" contrib-type="author"><name><surname>Bialic&#x02010;Murphy</surname><given-names>Lalasia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6046-8316</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ecy3201-cr-0004" contrib-type="author"><name><surname>Kivlin</surname><given-names>Stephanie N.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2442-7773</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ecy3201-cr-0005" contrib-type="author"><name><surname>Sofaer</surname><given-names>Helen R.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9450-5223</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ecy3201-curr-0001">
+<sup>3</sup>
+</xref></contrib><contrib id="ecy3201-cr-0006" contrib-type="author"><name><surname>Kalisz</surname><given-names>Susan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1761-5752</contrib-id><xref ref-type="aff" rid="ecy3201-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ecy3201-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Ecology and Evolutionary Biology</named-content>
+<institution>University of Tennessee</institution>
+<city>Knoxville</city>
+<named-content content-type="country-part">Tennessee</named-content>
+<postal-code>37996</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ecy3201-aff-0002">
+<label><sup>2</sup></label>
+<institution>U.S. Geological Survey</institution>
+<named-content content-type="street">Fort Collins Science Center</named-content>
+<city>Fort Collins</city>
+<named-content content-type="country-part">Colorado</named-content>
+<postal-code>80526</postal-code>
+<country country="US">USA</country>
+</aff><aff id="ecy3201-curr-0001"><label><sup>3</sup></label>Present address:
+<institution>U.S. Geological Survey</institution>
+<institution>Pacific Island Ecosystems Research Center</institution>
+<city>Volcano</city>
+<named-content content-type="country-part">Hawaii</named-content>
+<postal-code>96718</postal-code>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+E&#x02010;mail: <email>mroche2@vols.utk.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>11</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2021</year></pub-date><volume>102</volume><issue>1</issue><issue-id pub-id-type="doi">10.1002/ecy.v102.1</issue-id><elocation-id>e03201</elocation-id><history><date date-type="received"><day>30</day><month>1</month><year>2020</year></date><date date-type="rev-recd"><day>28</day><month>5</month><year>2020</year></date><date date-type="accepted"><day>06</day><month>8</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2021 Ecological Society of America<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology</italic> published by Wiley Periodicals LLC on behalf of Ecological Society of America</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECY-102-e03201.pdf"/><abstract id="ecy3201-abs-0001"><title>Abstract</title><p>The mechanisms causing invasive species impact are rarely empirically tested, limiting our ability to understand and predict subsequent changes in invaded plant communities. Invader disruption of native mutualistic interactions is a mechanism expected to have negative effects on native plant species. Specifically, disruption of native plant&#x02010;fungal mutualisms may provide non&#x02010;mycorrhizal plant invaders an advantage over mycorrhizal native plants. Invasive <italic>Alliaria petiolata</italic> (garlic mustard) produces secondary chemicals toxic to soil microorganisms including mycorrhizal fungi, and is known to induce physiological stress and reduce population growth rates of native forest understory plant species. Here, we report on a 11&#x02010;yr manipulative field experiment in replicated forest plots testing if the effects of removal of garlic mustard on the plant community support the mutualism disruption hypothesis within the entire understory herbaceous community. We compare community responses for two functional groups: the mycorrhizal vs. the non&#x02010;mycorrhizal plant communities. Our results show that garlic mustard weeding alters the community composition, decreases community evenness, and increases the abundance of understory herbs that associate with mycorrhizal fungi. Conversely, garlic mustard has no significant effects on the non&#x02010;mycorrhizal plant community. Consistent with the mutualism disruption hypothesis, our results demonstrate that allelochemical producing invaders modify the plant community by disproportionately impacting mycorrhizal plant species. We also demonstrate the importance of incorporating causal mechanisms of biological invasion to elucidate patterns and predict community&#x02010;level responses.</p></abstract><kwd-group><kwd id="ecy3201-kwd-0001">allelopathy</kwd><kwd id="ecy3201-kwd-0002"><italic>Alliaria</italic><italic>petiolata</italic></kwd><kwd id="ecy3201-kwd-0003">arbuscular mycorrhizal fungi</kwd><kwd id="ecy3201-kwd-0004">community change</kwd><kwd id="ecy3201-kwd-0005">garlic mustard</kwd><kwd id="ecy3201-kwd-0006">invasion impacts</kwd><kwd id="ecy3201-kwd-0007">long&#x02010;term experiment</kwd><kwd id="ecy3201-kwd-0008">mutualism disruption</kwd><kwd id="ecy3201-kwd-0009">symbiosis</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>U.S. Geological Survey </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000203</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source>National Science Foundation Graduate Research Internship Program</funding-source></award-group><award-group id="funding-0003"><funding-source>National Science Foundation Graduate Research Fellowship Program</funding-source></award-group><award-group id="funding-0004"><funding-source>National Science Foundation Long Term Research in Environmental Biology</funding-source><award-id>0958676</award-id><award-id>144552</award-id><award-id>1457531</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="12"/><word-count count="10327"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.6 mode:remove_FC converted:20.01.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ecy3201-cit-1001">
+<string-name>
+<surname>Roche</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name>
+<given-names>I. S.</given-names>, <surname>Pearse</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>, <surname>Bialic&#x02010;Murphy</surname>
+</string-name>, <string-name>
+<given-names>S. N.</given-names>, <surname>Kivlin</surname>
+</string-name>, <string-name>
+<given-names>H. R.</given-names>, <surname>Sofaer</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>, <surname>Kalisz</surname>
+</string-name>.<year>2021</year>
+<article-title>Negative effects of an allelopathic invader on AM fungal plant species drive community&#x02010;level responses</article-title>. <source xml:lang="en">Ecology</source>. <volume>102</volume>(1):<elocation-id>e03201</elocation-id>
+<pub-id pub-id-type="doi">10.1002/ecy.3201</pub-id>
+<pub-id pub-id-type="pmid">32970846</pub-id></mixed-citation>
+</p><fn-group id="ecy3201-ntgp-0001"><fn id="ecy3201-note-0001"><p>Corresponding Editor: Katharine Stuble.</p></fn></fn-group></notes></front><body id="ecy3201-body-0001"><sec id="ecy3201-sec-0001"><title>Introduction</title><p>Biological invasions threaten biodiversity, with broad impacts on the economy, environment, health, and culture. Global meta&#x02010;analyses demonstrate that invasive species can have a range of negative impacts that include lower abundance and fitness of native species and altered microbial activity and nutrient availability in invaded sites (Vil&#x000e0; et al. <xref rid="ecy3201-bib-0069" ref-type="ref">2011</xref>, Py&#x00161;ek et al. <xref rid="ecy3201-bib-0053" ref-type="ref">2012</xref>). Despite these observed negative consequences, we are still largely unable to predict the potential outcomes of an introduced species prior to its establishment and spread (Ricciardi et al. <xref rid="ecy3201-bib-0055" ref-type="ref">2013</xref>, Sofaer et al. <xref rid="ecy3201-bib-0060" ref-type="ref">2018</xref>). Since the impacts of invasion depend on the interaction of traits of individual invasive species (Gurevitch and Padilla <xref rid="ecy3201-bib-0026" ref-type="ref">2004</xref>) and traits of the invaded community (Hejda et al. <xref rid="ecy3201-bib-0032" ref-type="ref">2009</xref>), it is unlikely that a single mechanism will fully explain the impacts of invasion. However, understanding causal mechanisms by which certain types of invasive species exert impacts on species in the resident community can lead to more accurate predictions of where and when negative effects will occur in the invaded range (Levine et al. <xref rid="ecy3201-bib-0038" ref-type="ref">2003</xref>).</p><p>Many studies have analyzed spatiotemporal patterns of community change to assess the impacts of an invasive species, but knowledge of the mechanism of impact is indispensable for generalizing individual or species&#x02010;level effects to those expected at the community level. Studies of community&#x02010;level patterns show that invasions can lead to biotic homogenization across locations (Sax et al. <xref rid="ecy3201-bib-0059" ref-type="ref">2002</xref>) but rarely reduce local species richness within one location (Powell et al. <xref rid="ecy3201-bib-0051" ref-type="ref">2011</xref>). In addition, invasive species alter community evenness by disproportionately displacing dominant native species (Powell et al. <xref rid="ecy3201-bib-0052" ref-type="ref">2013</xref>, Pearse et al. <xref rid="ecy3201-bib-0049" ref-type="ref">2019</xref>). Yet such patterns do not generally predict which species within the resident community will be most vulnerable to the invader, and thereby reliably link invader impacts at the individual, population, and community levels. In contrast, by understanding mechanisms of impact, we may be able to predict responses across levels of biological organization. For example, by understanding how herbivorous insects identify their host plants, we can anticipate the species&#x02010;specific impacts of invasive plants or insects on other trophic levels in the native food web (Pearse and Altermatt <xref rid="ecy3201-bib-0048" ref-type="ref">2013</xref>, Desurmont and Pearse <xref rid="ecy3201-bib-0023" ref-type="ref">2014</xref>). Moreover, evolutionary divergence time between native range host tree and invaded range host trees is a strong predictor of high impacts of introduced insects on forests (Mech et al. <xref rid="ecy3201-bib-0041" ref-type="ref">2019</xref>). For trophic interactions (such as herbivory, above), the mechanism of impact is a function of diet, and can be relatively straightforward and consistent across space and time.</p><p>The indirect or competitive interactions that are typical of plant invaders are particularly difficult to detect and predict (Suding et al. <xref rid="ecy3201-bib-0065" ref-type="ref">2008</xref>), and understanding mechanisms of invasion involving these types of interactions typically requires manipulative studies. Many processes can underlie invader impact (Ricciardi et al. <xref rid="ecy3201-bib-0055" ref-type="ref">2013</xref>), but the mutualism disruption hypothesis (Hale and Kalisz <xref rid="ecy3201-bib-0028" ref-type="ref">2012</xref>) is particularly well suited to evaluating invader impact from individual species to the community because we can make predictions about which native species within a community will be affected based on their known mutualism dependence. Under this hypothesis, an invasive species can gain a competitive advantage over mutualism&#x02010;dependent native species by reducing or eliminating the benefits of these mutualisms (Hale and Kalisz <xref rid="ecy3201-bib-0028" ref-type="ref">2012</xref>, Traveset and Richardson <xref rid="ecy3201-bib-0067" ref-type="ref">2014</xref>). The effects of mutualism disruption have been observed in a variety of invaded systems. Compelling examples include the disruption of ant seed dispersal in the presence of the Argentine ant (<italic>Linepithema humile</italic>) that resulted in a shift of the resident plant community based on seed and elaiosome size (Christian <xref rid="ecy3201-bib-0020" ref-type="ref">2001</xref>, Rowles and Dowd <xref rid="ecy3201-bib-0058" ref-type="ref">2009</xref>), the predation of seed dispersing birds to near extinction by the brown tree snake (<italic>Boiga irregularis</italic>) that severely reduced native tree recruitment on Guam (Rogers et al. <xref rid="ecy3201-bib-0057" ref-type="ref">2017</xref>), and the usurpation of native pollination services by the showy flowered purple loosestrife (<italic>Lythrum salicaria</italic>) that led to a steep decline in pollinator visitation to native flowers (Brown et al. <xref rid="ecy3201-bib-0014" ref-type="ref">2002</xref>). Mutualism disruption is widespread, and can negatively affect dispersal, reproductive, or nutritive mutualisms.</p><p>The global threat of mutualism disruption is particularly substantial for plant&#x02013;mycorrhizal mutualisms because of their ubiquity (Soudzilovskaia et al. <xref rid="ecy3201-bib-0061" ref-type="ref">2020</xref>) and their importance for plant growth, function, and community dynamics (Van Der Heijden et al. <xref rid="ecy3201-bib-0068" ref-type="ref">2008</xref>). Invasive plants can impact plant&#x02013;mycorrhizal mutualisms in various ways (Grove et al. <xref rid="ecy3201-bib-0025" ref-type="ref">2017</xref>): by directly competing with native plants, which weakens the native plant&#x02019;s contribution to their mycorrhizal partnership (Grove et al. <xref rid="ecy3201-bib-0025" ref-type="ref">2017</xref>), by changing soil properties to alter the balance of resource exchange between plant and fungal partners (Allison et al. <xref rid="ecy3201-bib-0001" ref-type="ref">2006</xref>, Johnson <xref rid="ecy3201-bib-0033" ref-type="ref">2010</xref>), or by directly inhibiting the mutualism via invader&#x02010;produced toxic secondary chemistry (allelochemicals) (Hale and Kalisz <xref rid="ecy3201-bib-0028" ref-type="ref">2012</xref>). The specific mechanism of mycorrhizal mutualism disruption may vary among invasive species but toxic allelochemistry is common. Using published lists of invasive plant families (Py&#x00161;ek et al. <xref rid="ecy3201-bib-0053" ref-type="ref">2012</xref>) and plant families with known allelopathic properties (Hale and Kalisz <xref rid="ecy3201-bib-0028" ref-type="ref">2012</xref>), we estimate that 41% of invasive plant families are allelopathic (<italic>unpublished data</italic>). Of these allelopathic plant invaders, <italic>Alliaria petiolata</italic> (Brassicaceae, Bieb. Cavara &#x00026; Grande, hereafter garlic mustard) is emerging as a model for understanding allelopathic mycorrhizal mutualism disruption (Cipollini and Cipollini <xref rid="ecy3201-bib-0021" ref-type="ref">2016</xref>).</p><p>Experimental evidence in both controlled and field settings has established that garlic mustard reduces native plant performance and population growth through the disruption of their mycorrhizal associations (e.g., Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>, Callaway et al. <xref rid="ecy3201-bib-0018" ref-type="ref">2008</xref>, Wolfe et al. <xref rid="ecy3201-bib-0070" ref-type="ref">2008</xref>, Barto et al. <xref rid="ecy3201-bib-0008" ref-type="ref">2011</xref>, Hale et al. <xref rid="ecy3201-bib-0030" ref-type="ref">2011</xref>, <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>, Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>, Bialic&#x02010;Murphy et al. <xref rid="ecy3201-bib-0009" ref-type="ref">2019</xref>). Furthermore, garlic mustard is a poor direct competitor (Meekins and McCarthy <xref rid="ecy3201-bib-0042" ref-type="ref">1999</xref>, Bossdorf et al. <xref rid="ecy3201-bib-0011" ref-type="ref">2004</xref>), and has no known direct phytotoxic effects (Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>, Hale et al. <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>). In addition, there is evidence that an increase in garlic mustard abundance is associated with lower native plant diversity (Stinson et al. <xref rid="ecy3201-bib-0063" ref-type="ref">2007</xref>), and that community&#x02010;level responses to garlic mustard vary by species and by abiotic conditions (Haines et al. <xref rid="ecy3201-bib-0027" ref-type="ref">2018</xref>). However, it is unknown whether the physiological consequences of mutualism disruption for individual plant species, mediated by declines in function of plant&#x02013;mycorrhizal fungal partnerships, are linked to the shifts in plant community diversity and composition following garlic mustard invasion (Stinson et al. <xref rid="ecy3201-bib-0063" ref-type="ref">2007</xref>, Callaway et al. <xref rid="ecy3201-bib-0018" ref-type="ref">2008</xref>, Cipollini and Cipollini <xref rid="ecy3201-bib-0021" ref-type="ref">2016</xref>, McCary et al. <xref rid="ecy3201-bib-0040" ref-type="ref">2019</xref>).</p><p>Here, we exploit the power of this well&#x02010;established mechanism of invasion impact to test for a link between mutualism disruption of mycorrhizal plant individuals and community&#x02010;level response of the forest understory to garlic mustard invasion. A large portion of the diversity in most Eastern deciduous forests exists in the understory, and these species are also diverse in their mycorrhizal associations (Gilliam <xref rid="ecy3201-bib-0024" ref-type="ref">2007</xref>, Soudzilovskaia et al. <xref rid="ecy3201-bib-0061" ref-type="ref">2020</xref>), making the forest understory community a highly relevant study system. We present analyses of data collected from a 11&#x02010;yr garlic mustard weeding experiment in replicated plots to assess whether garlic mustard differentially impacts native mycorrhizal vs. non&#x02010;mycorrhizal herbaceous understory plant species. We ask two questions: (1) Does the release and recovery from garlic mustard invasion (i.e., garlic mustard weeded treatment) differentially affect the community composition and diversity of mycorrhizal and non&#x02010;mycorrhizal herbaceous understory plant communities? (2) Are changes in community composition and diversity explained by shifts in abundance of mycorrhizal and non&#x02010;mycorrhizal plant species? Based on the mutualism disruption hypothesis, we expect a greater change in the community composition, diversity, and abundance of mycorrhizal plants (i.e., the functional groups most sensitive to garlic mustard&#x02019;s allelochemicals) than non&#x02010;mycorrhizal plants, culminating in a distinct signature of mutualism disruption at the community level.</p></sec><sec sec-type="methods" id="ecy3201-sec-0002"><title>Methods</title><sec id="ecy3201-sec-0003"><title>Study system</title><p>Trillium Trail Nature Reserve in Fox Chapel, Pennsylvania, USA (50.520237&#x000b0; N, 79.900932&#x000b0; W) is a beech&#x02013;maple forest with a diverse understory plant community (Hale et al. <xref rid="ecy3201-bib-0030" ref-type="ref">2011</xref>). The majority (~73%) of understory herbs at Trillium Trail partner with arbuscular mycorrhizal (AM) fungi (Hale et al. <xref rid="ecy3201-bib-0030" ref-type="ref">2011</xref>) and provide photosynthetically derived carbon compounds in exchange for water and nutrients acquired by the fungi (Aug&#x000e9; <xref rid="ecy3201-bib-0006" ref-type="ref">2001</xref>, Van Der Heijden et al. <xref rid="ecy3201-bib-0068" ref-type="ref">2008</xref>). Many of these mycorrhizal plant species have coarse roots with no root hairs (Brundrett and Kendrick <xref rid="ecy3201-bib-0015" ref-type="ref">1988</xref>), which suggests that they rely heavily on their fungal partners for soil resources. For these reasons, we expect that the effects of mycorrhizal mutualism disruption by allelopathic plant invaders could be dramatic at Trillium Trail, making it an ideal location to test for evidence of mutualism disruption at the community level.</p><p>Garlic mustard, a biennial herb, is invasive to temperate forests of North America and colonizes forest understories (Anderson et al. <xref rid="ecy3201-bib-0003" ref-type="ref">1996</xref>, Nuzzo <xref rid="ecy3201-bib-0046" ref-type="ref">1999</xref>). Garlic mustard&#x02019;s allelochemicals are toxic to AM fungi (Cantor et al. <xref rid="ecy3201-bib-0019" ref-type="ref">2011</xref>). Exposure to these allelochemicals decreases growth and abundance of AM fungal hyphae in soil and roots (Rodgers et al. <xref rid="ecy3201-bib-0056" ref-type="ref">2008</xref>, Cantor et al. <xref rid="ecy3201-bib-0019" ref-type="ref">2011</xref>, Hale et al. <xref rid="ecy3201-bib-0030" ref-type="ref">2011</xref>, <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>, Poon and Maherali <xref rid="ecy3201-bib-0050" ref-type="ref">2015</xref>). As a result, native plants that rely on AM fungi for nutrient and water acquisition are negatively affected. Garlic mustard was first documented at Trillium Trail in the early 1990s (Knight et al. <xref rid="ecy3201-bib-0035" ref-type="ref">2009</xref>). <italic>Maianthemum racemosum</italic>, a common species at Trillium Trail with coarse roots and high root AM fungal colonization rates, exhibited declines in carbon fixation and shifts in carbon storage, and altered vital rates following disruption of the mycorrhizal mutualism by garlic mustard (Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>, Hale et al. <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>). For another common mycorrhizal species at our site, <italic>Trillium erectum</italic>, garlic mustard invasion altered plant vital rates and reduced the population growth rate (Bialic&#x02010;Murphy et al. <xref rid="ecy3201-bib-0009" ref-type="ref">2019</xref>). It is clear from these prior studies that garlic mustard disrupts the plant root AM fungal mutualism, the consequences of mutualism disruption are physiological in nature, and the physiological effects of mutualism disruption are strong enough to reduce population growth rates.</p><p>In 2006, we began an experimental treatment in five 14 &#x000d7; 14&#x000a0;m replicate plots that were surrounded by 2.5&#x000a0;m tall wire fencing (erected in 2002) to prevent deer access. Each plot was divided into 36, 2 &#x000d7; 2&#x000a0;m subplots. After sampling in 2006, the 18 subplots on the left half of each plot were weeded of all garlic mustard plants and the right half of each plot was not manipulated and remained at ambient levels of garlic mustard invasion. All garlic mustard individuals, including roots, were hand pulled from the weeded side of each plot, bagged, and disposed of off&#x02010;site. In every subsequent year, weeding occurred in the spring when garlic mustard germinates and all weeded material was removed from the site. To preclude garlic mustard seed dispersal into the weeded half of each plot, we installed temporary barriers annually just prior to garlic mustard seed dispersal that we removed when seed dispersal was complete. Persistent weeding was an effective method for removing the invader. Garlic mustard relative abundance in ambient plots averaged 15.2% and ranged from 0.5% to 71.6%. After weeding in 2006, garlic mustard abundance averaged 0.08% in the weeded plots due to infrequent late emerging seedlings (Fig.&#x000a0;<xref rid="ecy3201-fig-0001" ref-type="fig">1</xref>). These seedlings were subsequently removed.</p><fig fig-type="Fig." xml:lang="en" id="ecy3201-fig-0001" orientation="portrait" position="float"><label>Fig. 1</label><caption><p>Graphical representation of garlic mustard treatment efficacy. Values are garlic mustard abundance (measured as percent cover; mean &#x000b1; SE) in ambient (red circles) and weeded (purple triangles) treatments (2006&#x02013;2016). Jittered data points for each plot in gray. The first year of garlic mustard weeding occurred after data collection in 2006. Vertical gray dashed line separates pre&#x02010;treatment (2006) from post&#x02010;treatment abundance values.</p></caption><graphic id="nlm-graphic-1" xlink:href="ECY-102-e03201-g001"/></fig><p>In late June to early July in even years beginning in 2006, all herbaceous species within each subplot were identified to the species&#x02010; or genus&#x02010;level.&#x000a0;Since some species within a genus are not distinguishable from each other when they are not flowering (e.g., <italic>Impatiens</italic>,<italic>Trillium</italic>), these species were grouped by genus when estimating abundance. To estimate species abundance, two observers were trained using standardized percent cover area templates. Within a 2 &#x000d7; 2&#x000a0;m subplot, total leaf area occupied by each species was independently estimated by each observer, and we averaged estimated cover of the two observers. Total abundance&#x000a0;across all species&#x000a0;for any subplot could be&#x0003e;&#x000a0;100% due to leaf overlap. We calculated the mean abundance of each species across the 18 subplots for the garlic mustard weeded and garlic mustard ambient treatments within each plot in each sampling year.</p></sec><sec id="ecy3201-sec-0004"><title>Data analyses</title><p>We assigned a mycorrhizal status (mycorrhizal or non&#x02010;mycorrhizal) to each recorded plant species based on available published and unpublished data (Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Table S1 and citations therein). Species that form associations with AM fungi were assigned to the &#x0201c;mycorrhizal&#x0201d; functional group and species that do not form mycorrhizal associations were assigned to the &#x0201c;non&#x02010;mycorrhizal&#x0201d; functional group. None of the understory herbaceous species in our study formed mycorrhizal associations with non&#x02010;AM fungi (i.e., ectomycorrhizal, ericoid). We excluded species from our analyses with unknown mycorrhizal status. The relative abundance of species with an unknown mycorrhizal status averaged 1.6% of the total abundance. Since we manipulated garlic mustard abundance by weeding one&#x02010;half of each plot, garlic mustard was also excluded from all analyses. In total, we were able to evaluate garlic mustard&#x02019;s effects on 28 plant taxa (19 mycorrhizal, 9 non&#x02010;mycorrhizal) across our experimental plots.</p><p>We characterized shifts in mycorrhizal and non&#x02010;mycorrhizal components of the plant community by quantifying changes in community dissimilarity in response to garlic mustard weeding and year. We further described patterns of community change by analyzing the effects of garlic mustard weeding and year on species richness, evenness, and diversity of mycorrhizal and non&#x02010;mycorrhizal plant species. We also tested for a difference in the abundance of mycorrhizal and non&#x02010;mycorrhizal plants between the garlic mustard ambient and weeded treatments. Finally, we asked whether individual species showed consistent responses that could be predicted by their functional group (i.e., mycorrhizal status).</p></sec><sec id="ecy3201-sec-0005"><title>Community composition</title><p>We tested for the effects of garlic mustard on community composition for the mycorrhizal and the non&#x02010;mycorrhizal plant communities separately because we expected only mycorrhizal plant species to directly respond to garlic mustard removal. We predicted that weeding would affect mycorrhizal plant communities, with increasing dissimilarity between garlic mustard ambient and weeded treatments over time, whereas we did not expect differences between treatments for non&#x02010;mycorrhizal plant communities. PERMANOVA is based on the ratio of differences in dissimilarity between vs. within groups (Anderson <xref rid="ecy3201-bib-0002" ref-type="ref">2014</xref>), which we used to compare dissimilarity in composition between ambient and garlic mustard weeded treatments and to test for different trends over time within those treatments. For each plant functional group, we used a PERMANOVA with an interaction between garlic mustard treatment and year of sampling to explain Bray&#x02010;Curtis dissimilarities between plant communities in the garlic mustard ambient and garlic mustard weeded treatments. The permutations were constrained within garlic mustard treatment nested within plot nested within year.</p></sec><sec id="ecy3201-sec-0006"><title>Diversity</title><p>To determine whether garlic mustard weeding changed diversity in the plots over time, we calculated species richness, Pielou&#x02019;s evenness, Shannon&#x02019;s diversity, and inverse Simpson diversity of the mycorrhizal plant community and of the non&#x02010;mycorrhizal plant community every year for each treatment in each plot. Of the two diversity indices (Shannon and inverse Simpson), Shannon&#x02019;s diversity is more sensitive to changes in rare species, whereas inverse Simpson diversity is more sensitive to changes in highly abundant species (Morris et al. <xref rid="ecy3201-bib-0044" ref-type="ref">2014</xref>). We included all of these metrics because compound measurements such as Shannon and inverse Simpson diversity contain slightly different information about which piece of diversity is changing (rare or abundant species). In addition, Pielou&#x02019;s evenness tends to correlate highly with Shannon&#x02019;s diversity, so it is useful to interpret both of these indices alongside inverse Simpson diversity, because it is independent from evenness and Shannon&#x02019;s diversity (Morris et al. <xref rid="ecy3201-bib-0044" ref-type="ref">2014</xref>). For each of these four diversity metrics, we fit a linear model with garlic mustard treatment, year, and their interaction as fixed effects. We included plot as a random effect to account for repeated measurements of each plot across years.</p></sec><sec id="ecy3201-sec-0007"><title>Abundance</title><p>We tested for changes in abundance within each functional group (i.e., mycorrhizal status) between garlic mustard ambient and weeded treatments using a generalized linear mixed effects model including the garlic mustard treatment, year, and their interaction as fixed effects. We fit separate models for each functional group, with the summed percent cover of all mycorrhizal species or of all non&#x02010;mycorrhizal species, as the response variable, respectively. To control for non&#x02010;independence due to repeated sampling of plots over time, we included plot as a random effect. Summed percent cover for each functional group never exceeded 100% so we modeled proportional cover using a beta distribution.</p></sec><sec id="ecy3201-sec-0008"><title>Individual species response</title><p>We tested whether mycorrhizal status affected species&#x02010;specific responses to garlic mustard treatments. To do this, we used the Relative Interaction Index (RII; Armas et al. <xref rid="ecy3201-bib-0005" ref-type="ref">2004</xref>), which calculates the biomass response to a biological interaction, here, the relative biomass difference with and without garlic mustard<disp-formula id="ecy3201-disp-0001"><mml:math id="nlm-math-1"><mml:mrow><mml:mtext>RII</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>B</mml:mi><mml:mi mathvariant="normal">a</mml:mi></mml:msub><mml:mo>&#x02010;</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mi mathvariant="normal">w</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>B</mml:mi><mml:mi mathvariant="normal">a</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mi mathvariant="normal">w</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula>
+</p><p>
+<italic>B</italic>
+<sub>w</sub> in our study is the abundance of the focal species in the garlic mustard weeded treatment, and <italic>B</italic>
+<sub>a</sub> is abundance in the ambient treatment within the same plot. Therefore, any negative RII values (i.e., <italic>B</italic>
+<sub>w</sub>&#x0003e;&#x000a0;<italic>B</italic>
+<sub>a</sub>) indicate a negative effect of garlic mustard on abundance, while positive RII values indicate a positive effect. To assess differences in RII, we fit a general linear mixed effects model including the garlic mustard treatment, year, and their interaction as fixed effects and plant species and plot as random effects. We predicted that mycorrhizal plant species would have more negative RII values, as well as a more negative temporal trend in RII than non&#x02010;mycorrhizal plant species. RII is only a meaningful metric when abundance is greater than zero in both the presence and absence of the biological interaction, so we only calculated RII when the focal species was present in both treatments for a plot and year (16 mycorrhizal species and 6 non&#x02010;mycorrhizal species).</p><p>Native plant response to garlic mustard invasion may be dependent on evolutionary history (e.g., have a phylogenetic signal). We tested for a phylogenetic signal (<italic>K</italic>; Blomberg et al. <xref rid="ecy3201-bib-0010" ref-type="ref">2003</xref>) in all metrics of native plant response separately for each year and treatment on an ultrametric super&#x02010;tree phylogeny created following methods in Worchel et al. (<xref rid="ecy3201-bib-0071" ref-type="ref">2013</xref>). After correcting for multiple comparisons with a Bonferroni correction, there was no consistent effect of phylogenetic history of native plant responses to invasion and therefore we did not account for phylogenetic history in our statistical analyses.</p><p>All statistical analyses were conducted in R version 3.5.1 (R Core Team <xref rid="ecy3201-bib-0054" ref-type="ref">2018</xref>). We tested for phylogenetic signal using the Picante package version 1.8 (Kembel et al. <xref rid="ecy3201-bib-0034" ref-type="ref">2010</xref>). Linear models were estimated with the glmmTMB package version 0.2.2.0 (Brooks et al. <xref rid="ecy3201-bib-0012" ref-type="ref">2017</xref>). We assessed the fit of these models using the DHARMa package version 0.2.0 (Hartig <xref rid="ecy3201-bib-0031" ref-type="ref">2016</xref>). Treatment effects of the linear models were tested using a Wald chi&#x02010;squared test. We analyzed linear model interaction terms using Type III sum of squares and, when interactions were not significant, we analyzed main effects using Type II sum of squares. We tested for significant pairwise comparisons between garlic mustard treatments within year at <italic>P</italic>&#x000a0;=&#x000a0;0.05 using the emmeans package version 1.3.5.1 (Lenth <xref rid="ecy3201-bib-0037" ref-type="ref">2019</xref>). We used the vegan package version 2.5&#x02010;3 (Oksanen et al. <xref rid="ecy3201-bib-0047" ref-type="ref">2019</xref>) to calculate diversity metrics and to test for changes in community composition using PERMANOVA.</p></sec></sec><sec sec-type="results" id="ecy3201-sec-0009"><title>Results</title><p>All analyses were performed with data from years 2006 to 2016. There were no significant differences in composition, diversity or abundance of the mycorrhizal or non&#x02010;mycorrhizal plant communities prior to establishment of the garlic mustard ambient and weeded treatments in 2006. These results suggest that the garlic mustard weeded treatment drove any subsequent changes in the mycorrhizal and non&#x02010;mycorrhizal plant communities. Since we manipulated the presence of garlic mustard as part of the experimental design, data on garlic mustard abundance were excluded from all analyses. We report the test statistics for the main effects between the garlic mustard treatment and year in Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Table S2 for the PERMANOVA, and in Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Table S3 for the linear models. All significant differences are for <italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05.</p><sec id="ecy3201-sec-0010"><title>Community composition</title><p>Composition of the mycorrhizal plant community (Fig.&#x000a0;<xref rid="ecy3201-fig-0002" ref-type="fig">2a</xref>) differed between the garlic mustard ambient and garlic mustard weeded treatments. Conversely, the non&#x02010;mycorrhizal plant community did not differ significantly between treatments (Fig.&#x000a0;<xref rid="ecy3201-fig-0002" ref-type="fig">2b</xref>). Community composition of both functional groups (mycorrhizal and non&#x02010;mycorrhizal) also changed over time (Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Fig. S1), However, we found no significant interaction between community composition and year in either functional group.</p><fig fig-type="Fig." xml:lang="en" id="ecy3201-fig-0002" orientation="portrait" position="float"><label>Fig. 2</label><caption><p>Ordination plots of Bray&#x02010;Curtis dissimilarities illustrating differences in composition between garlic mustard ambient (red) and garlic mustard weeded (purple) treatments for (a) mycorrhizal and (b) non&#x02010;mycorrhizal plant communities. Shapes represent different plots, plot 1,&#x000a0;down&#x02010;pointing triangle; plot 2,&#x000a0;square; plot 3,&#x000a0;diamond; plot 4,&#x000a0;up&#x02010;pointing triangle; plot 5,&#x000a0;circle. Symbols are plot means with 95% confidence intervals for data collected every other year over 11&#x000a0;yr (2006&#x02013;2016). Garlic mustard data was excluded from PERMANOVA and ordinations. Mycorrhizal plant communities differ significantly between treatments while non&#x02010;mycorrhizal plant communities did not.</p></caption><graphic id="nlm-graphic-3" xlink:href="ECY-102-e03201-g002"/></fig></sec><sec id="ecy3201-sec-0011"><title>Diversity</title><p>Garlic mustard weeding changed the diversity of mycorrhizal but not non&#x02010;mycorrhizal functional group. There was no effect of garlic mustard treatment or year on species richness of mycorrhizal plants (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3a</xref>). Richness of non&#x02010;mycorrhizal plants did not respond to garlic mustard treatment but changed over time (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3b</xref>). Evenness of the mycorrhizal functional group overall was 15.2% lower in the garlic mustard weeded treatments but did not change over time (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3a</xref>). In contrast, evenness of the non&#x02010;mycorrhizal functional group did not change between garlic mustard treatments but did change over time (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3b</xref>). Shannon and Inverse Simpson diversity of the mycorrhizal group decreased overall by 14% and 23%, respectively, in garlic mustard weeded treatments (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3a</xref>), but garlic mustard treatment had no effect on Shannon or inverse Simpson diversity of non&#x02010;mycorrhizal group (Fig.&#x000a0;<xref rid="ecy3201-fig-0003" ref-type="fig">3b</xref>). There was no temporal trend in Shannon or inverse Simpson diversity for the mycorrhizal functional group, but there was a significant effect of year on Shannon and inverse Simpson diversity for the non&#x02010;mycorrhizal functional group.</p><fig fig-type="Fig." xml:lang="en" id="ecy3201-fig-0003" orientation="portrait" position="float"><label>Fig. 3</label><caption><p>Species richness, evenness, Shannon diversity, and inverse Simpson (Simpson<sup>&#x02212;1</sup>) diversity for (a) mycorrhizal plant species and (b) non&#x02010;mycorrhizal plant species. Points represent plot means for garlic mustard ambient (red circles) and garlic mustard weeded (purple triangles) treatments (2006&#x02013;2016). Garlic mustard data were excluded from calculation of diversity metrics. Error bars are &#x000b1;SE. Vertical dashed lines separate pre&#x02010;garlic mustard weeded (2006) from post&#x02010;garlic mustard weeded time points. The interaction and main effects of garlic mustard treatment and time were nonsignificant for species richness for both mycorrhizal and non&#x02010;mycorrhizal plant species. The main effect of garlic mustard treatment was significantly different for evenness, Shannon and inverse Simpson diversity for mycorrhizal plant species, but not the non&#x02010;mycorrhizal plant species. Asterisks&#x000a0;indicate&#x000a0;significant pairwise comparisons at <italic>P</italic>&#x000a0;=&#x000a0;0.05.</p></caption><graphic id="nlm-graphic-5" xlink:href="ECY-102-e03201-g003"/></fig></sec><sec id="ecy3201-sec-0012"><title>Abundance</title><p>Weeding garlic mustard from the plots resulted in an overall 19.7% increase in abundance of mycorrhizal plant species relative to those in the ambient treatment (Fig.&#x000a0;<xref rid="ecy3201-fig-0004" ref-type="fig">4a</xref>). In contrast, there was no change in abundance of non&#x02010;mycorrhizal species between garlic mustard treatments (Fig.&#x000a0;<xref rid="ecy3201-fig-0004" ref-type="fig">4b</xref>). The overall abundance of both mycorrhizal and non&#x02010;mycorrhizal species changed over time, but these changes were independent of garlic mustard weeding. There was no significant interaction between garlic mustard treatment and year for abundance of mycorrhizal or non&#x02010;mycorrhizal species.</p><fig fig-type="Fig." xml:lang="en" id="ecy3201-fig-0004" orientation="portrait" position="float"><label>Fig. 4</label><caption><p>Effect of garlic mustard treatment over time on summed abundance of (a) mycorrhizal plant species and (b) non&#x02010;mycorrhizal plant species. Points are plot means of summed abundance in garlic mustard ambient (red circles) and garlic mustard weeded (purple triangles) treatments (2006&#x02013;2016). Garlic mustard abundance was excluded. Error bars are &#x000b1;SE. Vertical dashed lines separate pre&#x02010;garlic mustard weeded (2006) from post&#x02010;garlic mustard weeded time points. Summed abundance between treatments was not significantly different in 2006 (pre&#x02010;garlic mustard weeding). There was a significant main effect of the garlic mustard treatment on summed abundance of mycorrhizal plants, but no significant interaction between garlic mustard treatment and time. For non&#x02010;mycorrhizal plant species, the main effect of treatment was not significant, while the main effect of time was significant; there was no significant interaction between garlic mustard treatment and time. Asterisks&#x000a0;indicate significant pairwise comparisons at <italic>P</italic>&#x000a0;=&#x000a0;0.05.</p></caption><graphic id="nlm-graphic-7" xlink:href="ECY-102-e03201-g004"/></fig></sec><sec id="ecy3201-sec-0013"><title>Individual species response</title><p>Within functional group (mycorrhizal status), there was variation in strength and direction of each plant species RII response (Fig.&#x000a0;<xref rid="ecy3201-fig-0005" ref-type="fig">5</xref>). Ten mycorrhizal plant species increased in abundance in garlic mustard weeded vs. ambient treatments resulting in a negative RII, whereas four mycorrhizal species had a positive RII. One non&#x02010;mycorrhizal plant species had a higher abundance in garlic mustard weeded vs. ambient plots whereas two non&#x02010;mycorrhizal species had a positive RII. There was no effect of year or mycorrhizal status on the effect of garlic mustard (RII).</p><fig fig-type="Fig." xml:lang="en" id="ecy3201-fig-0005" orientation="portrait" position="float"><label>Fig. 5</label><caption><p>Relative interaction index (RII) of each plant species between garlic mustard ambient and garlic mustard weeded treatments. A negative RII indicates that a species relative abundance is higher in the weeded treatment than in the ambient treatment. Conversely, a positive RII indicates that a species has lower relative abundance in the ambient treatment. Points are the mean RII for each species across plots and years, error bars are &#x000b1;SE.</p></caption><graphic id="nlm-graphic-9" xlink:href="ECY-102-e03201-g005"/></fig></sec></sec><sec sec-type="discussion" id="ecy3201-sec-0014"><title>Discussion</title><p>Numerous studies demonstrate that invasive plants have negative impacts on native species (Vil&#x000e0; et al. <xref rid="ecy3201-bib-0069" ref-type="ref">2011</xref>, Py&#x00161;ek et al. <xref rid="ecy3201-bib-0053" ref-type="ref">2012</xref>). However, to anticipate <italic>how</italic> resident plant communities shift and which native species are most likely to be impacted by an invader, we must explore the mechanisms by which invasive plants displace natives (Levine et al. <xref rid="ecy3201-bib-0038" ref-type="ref">2003</xref>, Sofaer et al. <xref rid="ecy3201-bib-0060" ref-type="ref">2018</xref>). Using detailed data from a 11&#x02010;yr manipulative field experiment, we found that the removal of garlic mustard (i.e., weeded treatment) altered the composition, decreased the diversity, and increased the abundance of the mycorrhizal plant community in comparison to ambient levels of garlic mustard invasion. In contrast, there were no effects of the garlic mustard treatments on the non&#x02010;mycorrhizal plant community, which is not susceptible to garlic mustard&#x02019;s disruption of mycorrhizal mutualisms. Our study illustrates that the consequences of garlic mustard invasion for the plant community may be anticipated by incorporating an understanding of mutualism disruption into future invasion predictions, because garlic mustard weeding favored mycorrhizal, but not non&#x02010;mycorrhizal plant species. Our results are consistent with previous work that found variation in response to garlic mustard by mycorrhizal dependency of forest tree seedlings (Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>). Together, our findings and previous work demonstrate that garlic mustard invasion results in a functional shift in plant community membership that can be reversed over time with removal of the invader.</p><p>The shifts in the composition, diversity, and abundance of the mycorrhizal, but not the non&#x02010;mycorrhizal, functional group in response to garlic mustard weeding are indicative of mutualism disruption. Other mechanisms of impact, such as direct competition or direct phytotoxicity, would not disproportionately affect species that form mycorrhizal associations. Garlic mustard is a poor direct competitor in its invasive range (Meekins and McCarthy <xref rid="ecy3201-bib-0042" ref-type="ref">1999</xref>, Bossdorf et al. <xref rid="ecy3201-bib-0011" ref-type="ref">2004</xref>), and disrupts mycorrhizal mutualisms to indirectly compete against other plants (Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>, Hale et al. <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>). Removal of a competitive dominant plant species from a community is expected to result in an increase in abundance of other community members (MacDougall and Turkington <xref rid="ecy3201-bib-0039" ref-type="ref">2005</xref>), but unlike mutualism disruption, exploitative competition would not explicitly predict different responses for mycorrhizal and non&#x02010;mycorrhizal plants to the removal of a competitor. Since mycorrhizal and non&#x02010;mycorrhizal plants differ in their methods of resource acquisition (via roots alone or via fungal partners), they may respond differently to limiting resources under exploitative competition. However, soil resources do not differ between garlic mustard ambient and weeded treatments at our site (Bialic&#x02010;Murphy, L. et al. <italic>unpublished manuscript</italic>) and are, therefore, unlikely to cause the trends we observed here. Observed patterns of the plant community response to garlic mustard in our field site are consistent with those predicted by the mechanistic process of mutualism disruption.</p><p>Previous work has quantified responses of root fungal communities to garlic mustard and provides context for interpreting our results. At our study site, root fungal communities within some species&#x02019; roots changed in response to our garlic mustard treatments (Burke <xref rid="ecy3201-bib-0016" ref-type="ref">2008</xref>), particularly in the presence of deer (Burke et al. <xref rid="ecy3201-bib-0017" ref-type="ref">2019</xref>). Ongoing work shows that species in the ambient garlic mustard treatments have reduced hyphal colonization in their roots, and higher evenness in the soil AM fungal community (Bialic&#x02010;Murphy, L. et al. <italic>unpublished manuscript</italic>). In other locations, studies have documented no recovery of mycorrhizal fungi after three years (Anthony et al. <xref rid="ecy3201-bib-0004" ref-type="ref">2019</xref>) or only partial recovery after six years (Lankau et al. <xref rid="ecy3201-bib-0036" ref-type="ref">2014</xref>). Since we did not observe a response in the aboveground community until 4&#x02013;6&#x000a0;yr of garlic mustard weeding, it is possible that the aboveground response is mirroring the recovery of the belowground mycorrhizal fungal community, or that the mycorrhizal fungal community has not yet responded to garlic mustard removal. In addition, it is possible that changes in the abiotic soil conditions that are associated with garlic mustard invasion attribute to the observed response of mycorrhizal plant species (Rodgers et al. <xref rid="ecy3201-bib-0056" ref-type="ref">2008</xref>, Anthony et al. <xref rid="ecy3201-bib-0004" ref-type="ref">2019</xref>). However, no differences in abiotic soil conditions between ambient and weeded garlic mustard treatments after 14&#x000a0;yr were found by Bialic&#x02010;Murphy, L. et al. (<italic>unpublished manuscript</italic>). Thus, findings from our experiment provide a link between mechanistic evidence of mutualism disruption from careful fine&#x02010;scale experiments (e.g., Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>, Hale et al. <xref rid="ecy3201-bib-0030" ref-type="ref">2011</xref>, <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>, Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>) to observed shifts in mycorrhizal plant communities.</p><p>Our findings support the utility of our coarse classification into mycorrhizal and non&#x02010;mycorrhizal functional groups for anticipating responses to invasions but also highlight limitations in the degree of predictability within ecological communities. In particular, within the mycorrhizal group there was considerable variation in response to garlic mustard (RII) (Fig.&#x000a0;<xref rid="ecy3201-fig-0005" ref-type="fig">5</xref>), such that a simple binary assignment of mycorrhizal status would be insufficient to reliably predict changes in species&#x02010;level abundance. Plant species&#x02019; dependency on mycorrhizal partners (i.e., biomass response to mycorrhizal colonization) generally falls on a spectrum from highly positive plant biomass responses to mycorrhizal colonization to somewhat negative (Tawaraya <xref rid="ecy3201-bib-0066" ref-type="ref">2003</xref>), and variation in dependence of mycorrhizal plants on their fungal partners is known to influence the response of a particular species to mutualism disruption (Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>, McCary et al. <xref rid="ecy3201-bib-0040" ref-type="ref">2019</xref>). We do not know where our naturally occurring plant species fall along the spectrum of dependency on their mycorrhizal partners, and it is possible that differences among trajectories of the experimental plots in response to garlic mustard weeding (Fig.&#x000a0;<xref rid="ecy3201-fig-0002" ref-type="fig">2a</xref>) arise from variation in the dependency of the mycorrhizal species naturally occurring in those plots. Exploring the factors that may have driven the different trajectories of the unique plant communities in each plot is an important next step in understanding the intricacies of community responses to garlic mustard invasion.</p><p>Our results revealed that the mycorrhizal plant community had decreased evenness and diversity in the garlic mustard weeded treatments. The decreases in Shannon and inverse Simpson diversity of the mycorrhizal plant community are likely driven by the lower evenness in the garlic mustard weeded treatments, since there was no change in species richness for this group. Evenness of the mycorrhizal plant community decreased in the garlic mustard weeded plots because of the dramatic increase in the abundance of a common annual species, <italic>Impatiens</italic> spp., after 2006 (Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Fig. S2). This created a less balanced community with low evenness where one species (<italic>Impatiens</italic> spp.) has a very high abundance whereas the rest of the species remain at a low abundance. Since <italic>Impatiens spp</italic>. have an annual life history and often exhibit ruderal growth patterns in comparison to many of the long&#x02010;lived perennials at our site, we expect that the long&#x02010;lived perennial species will rebound as well with more time.</p><p>Over the course of this study, we found that the main effect of time on the abundance of both plant communities was significant, but the interactions between the garlic mustard treatment and year were not. The non&#x02010;mycorrhizal plant abundance decreased over time in both garlic mustard treatments. Therefore, this decline in non&#x02010;mycorrhizal plant abundance cannot be attributable only to the increase in mycorrhizal plant abundance in the garlic mustard weeded treatment. We see similar declines in non&#x02010;mycorrhizal plant abundance in other plots at our site that are not protected from deer herbivory by fences (<italic>unpublished data</italic>), indicating that exclusion of deer is also not driving the declines in non&#x02010;mycorrhizal plant abundance. These results suggest that there are other sources of environmental variability (e.g., annual fluctuations in precipitation patterns) that likely influenced the abundance of both plant community types over time. Despite this, there is a strong signature of the effects of garlic mustard weeding on mycorrhizal plant abundance.</p><p>Garlic mustard consistently has negative effects on native mycorrhizal plant species (e.g., Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>, Cipollini et al. <xref rid="ecy3201-bib-0022" ref-type="ref">2008</xref>, Wolfe et al. <xref rid="ecy3201-bib-0070" ref-type="ref">2008</xref>). These negative effects on mycorrhizal plant species are consistent with garlic mustard&#x02019;s disruption of native mycorrhizal mutualisms, which leads to water stress and carbon stress (Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>, Hale et al. <xref rid="ecy3201-bib-0029" ref-type="ref">2016</xref>) and decreases in vital rates (Brouwer et al. <xref rid="ecy3201-bib-0013" ref-type="ref">2015</xref>) and population growth rates (Bialic&#x02010;Murphy et al. <xref rid="ecy3201-bib-0009" ref-type="ref">2019</xref>). In addition, garlic mustard alters plant communities (Stinson et al. <xref rid="ecy3201-bib-0063" ref-type="ref">2007</xref>). Our results build on these findings to show that the outcomes symptomatic of mutualism disruption in individual plants follow a similar pattern for plant communities in the field. Our 11&#x02010;yr long&#x02010;term field experiment shows that, even at the modest garlic mustard abundances at Trillium Trail, mutualism disruption alters the community composition, changes diversity, and reduces the abundance of only the mycorrhizal plants within the entire plant community. We stress that the length of our experiment provides strong support for the long&#x02010;term effects of garlic mustard on the mycorrhizal plant community. Most studies that evaluate the impacts of invasive species last only 1&#x000a0;yr (Stricker et al. <xref rid="ecy3201-bib-0064" ref-type="ref">2015</xref>) even though the effects of invaders are known to lag after the invasion establishes and have legacy effects after they are removed. Land managers attempting to restore native understories through garlic mustard removal may expect to see an increase in abundance of mycorrhizal plant species, but likely no changes in species richness. However, responses may differ by species&#x02019; sensitivity to garlic mustard (see Fig.&#x000a0;<xref rid="ecy3201-fig-0005" ref-type="fig">5</xref> and Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Fig. S3), and may require multiple years (in our experimental study 4&#x02013;6&#x000a0;yr) of annual garlic mustard removal to occur.</p><p>Many invasive plant species are thought to impact native species by allelopathy and/or mutualism disruption (e.g., <italic>Alliaria petiolata, Tamarisk</italic> spp., various <italic>Fallopia</italic> species; Stinson et al. <xref rid="ecy3201-bib-0062" ref-type="ref">2006</xref>, Wolfe et al. <xref rid="ecy3201-bib-0070" ref-type="ref">2008</xref>, Bainard et al. <xref rid="ecy3201-bib-0007" ref-type="ref">2009</xref>, Murrell et al. <xref rid="ecy3201-bib-0045" ref-type="ref">2011</xref>, Hale and Kalisz <xref rid="ecy3201-bib-0028" ref-type="ref">2012</xref>, Meinhardt and Gehring <xref rid="ecy3201-bib-0043" ref-type="ref">2012</xref>), so our findings likely apply to the impacts of invasive plants beyond garlic mustard. In addition, since approximately 80% of understory herbs globally (and two&#x02010;thirds of the study species in our experimental plots; Appendix&#x000a0;<xref rid="ecy3201-sup-0001" ref-type="supplementary-material">S1</xref>: Table S1) form mycorrhizal associations (Soudzilovskaia et al. <xref rid="ecy3201-bib-0061" ref-type="ref">2020</xref>), there is potential for garlic mustard to drastically shift understory plant communities across its invasive range. We demonstrate that mycorrhizal mutualism disruption by an invasive plant leads to a shift in plant communities but found that responses were variable among species within functional groups. This suggests that the ability to predict invader impacts across space and time may require refinement of the focal functional trait, in this case a shift from a binary to a continuous view of mycorrhizal dependency. Our study highlights the utility of exploring the mechanisms by which invasive species cause impact because we find a shift in functional groups of the resident plant community that would only be anticipated by knowing that mechanism.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ecy3201-sup-0001"><caption><p>Appendix S1</p></caption><media xlink:href="ECY-102-e03201-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ecy3201-sec-0015"><title>Acknowledgments</title><p>This project was funded by National Science Foundation Long Term Research in Environmental Biology (LTREB) awards to SK (NSF DEB 0958676, NSF DEB 1457531, NSF DEB 144552), NSF Graduate Research Fellowship and NSF Graduate Research Internship to M. D. Roche, and the Invasive Species Program of the U.S. Geological Survey. We thank members of the Kalisz lab for field assistance and the Borough of Fox Chapel, Pennsylvania for permission to conduct this research at the Trillium Trail Nature Reserve. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</p></ack><sec sec-type="data-availability" id="ecy3201-sec-0017"><title>Data Availability Statement</title><p>Data are available from the USGS ScienceBase repository: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5066/P9VP7BFU" specific-use="dataset is-supplemented-by">https://doi.org/10.5066/P9VP7BFU</ext-link>
+</p></sec><ref-list content-type="cited-references" id="ecy3201-bibl-0001"><title>Literature Cited</title><ref id="ecy3201-bib-0001"><mixed-citation publication-type="journal" id="ecy3201-cit-0001">
+<string-name>
+<surname>Allison</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Nielsen</surname>
+</string-name>, and <string-name>
+<given-names>R. F.</given-names>
+<surname>Hughes</surname>
+</string-name>. <year>2006</year>
+<article-title>Elevated enzyme activities in soils under the invasive nitrogen&#x02010;fixing tree <italic>Falcataria moluccana</italic>
+</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>
+<volume>38</volume>:<fpage>1537</fpage>&#x02013;<lpage>1544</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0002"><mixed-citation publication-type="miscellaneous" id="ecy3201-cit-0002">
+<string-name>
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>. Permutational multivariate analysis of variance (PERMANOVA)</article-title>. Wiley StatsRef: Statistics Reference Online:1&#x02013;15.</mixed-citation></ref><ref id="ecy3201-bib-0003"><mixed-citation publication-type="journal" id="ecy3201-cit-0003">
+<string-name>
+<surname>Anderson</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name>
+<given-names>S. S.</given-names>
+<surname>Dhillion</surname>
+</string-name>, and <string-name>
+<given-names>T. M.</given-names>
+<surname>Kelley</surname>
+</string-name>. <year>1996</year>
+<article-title>Aspects of the ecology of an invasive plant, garlic mustard (Alliaria petiolata), in central Illinois</article-title>. <source xml:lang="en">Restoration Ecology</source>
+<volume>4</volume>:<fpage>181</fpage>&#x02013;<lpage>191</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0004"><mixed-citation publication-type="journal" id="ecy3201-cit-0004">
+<string-name>
+<surname>Anthony</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<given-names>K. A.</given-names>
+<surname>Stinson</surname>
+</string-name>, <string-name>
+<given-names>A. N.</given-names>
+<surname>Trautwig</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Coates&#x02010;Connor</surname>
+</string-name>, and <string-name>
+<given-names>S. D.</given-names>
+<surname>Frey</surname>
+</string-name>. <year>2019</year>
+<article-title>Fungal communities do not recover after removing invasive <italic>Alliaria petiolata</italic> (garlic mustard)</article-title>. <source xml:lang="en">Biological Invasions</source>
+<volume>21</volume>:<fpage>3085</fpage>&#x02013;<lpage>3099</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0005"><mixed-citation publication-type="journal" id="ecy3201-cit-0005">
+<string-name>
+<surname>Armas</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Ordiales</surname>
+</string-name>, and <string-name>
+<given-names>F. I.</given-names>
+<surname>Pugnaore</surname>
+</string-name>. <year>2004</year>
+<article-title>Measuring plant interactions: A new comparative index</article-title>. <source xml:lang="en">Ecology</source>
+<volume>85</volume>:<fpage>2682</fpage>&#x02013;<lpage>2686</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0006"><mixed-citation publication-type="journal" id="ecy3201-cit-0006">
+<string-name>
+<surname>Aug&#x000e9;</surname>, <given-names>R. M.</given-names>
+</string-name>
+<year>2001</year>
+<article-title>Water relations, drought and vesicular&#x02010;arbuscular mycorrhizal symbiosis</article-title>. <source xml:lang="en">Mycorrhiza</source>
+<volume>11</volume>:<fpage>3</fpage>&#x02013;<lpage>42</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0007"><mixed-citation publication-type="journal" id="ecy3201-cit-0007">
+<string-name>
+<surname>Bainard</surname>, <given-names>L. D.</given-names>
+</string-name>, <string-name>
+<given-names>P. D.</given-names>
+<surname>Brown</surname>
+</string-name>, and <string-name>
+<given-names>M. K.</given-names>
+<surname>Upadhyaya</surname>
+</string-name>. <year>2009</year>
+<article-title>Inhibitory effect of tall hedge mustard (<italic>Sisymbrium loeselii</italic>) allelochemicals on rangeland plants and arbuscular mycorrhizal fungi</article-title>. <source xml:lang="en">Weed Science</source>
+<volume>57</volume>:<fpage>386</fpage>&#x02013;<lpage>393</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0008"><mixed-citation publication-type="journal" id="ecy3201-cit-0008">
+<string-name>
+<surname>Barto</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name>
+<given-names>P. M.</given-names>
+<surname>Antunes</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Stinson</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Koch</surname>
+</string-name>, <string-name>
+<given-names>J. N.</given-names>
+<surname>Klironomos</surname>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Cipollini</surname>
+</string-name>. <year>2011</year>
+<article-title>Differences in arbuscular mycorrhizal fungal communities associated with sugar maple seedlings in and outside of invaded garlic mustard forest patches</article-title>. <source xml:lang="en">Biological Invasions</source>
+<volume>13</volume>:<fpage>2755</fpage>&#x02013;<lpage>2762</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0009"><mixed-citation publication-type="journal" id="ecy3201-cit-0009">
+<string-name>
+<surname>Bialic&#x02010;Murphy</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>N. L.</given-names>
+<surname>Brouwer</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2019</year>
+<article-title>Direct effects of a non&#x02010;native invader erode native plant fitness in the forest understory</article-title>. <source xml:lang="en">Journal of Ecology</source>
+<volume>108</volume>:<fpage>1</fpage>&#x02013;<lpage>10</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0010"><mixed-citation publication-type="journal" id="ecy3201-cit-0010">
+<string-name>
+<surname>Blomberg</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Garland</surname>
+</string-name>, and <string-name>
+<given-names>A. R.</given-names>
+<surname>Ives</surname>
+</string-name>. <year>2003</year>
+<article-title>Testing for phylogenetic signal in comparative data: Behavioral traits are more labile</article-title>. <source xml:lang="en">Evolution</source>
+<volume>57</volume>:<fpage>717</fpage>&#x02013;<lpage>745</lpage>.<pub-id pub-id-type="pmid">12778543</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0011"><mixed-citation publication-type="journal" id="ecy3201-cit-0011">
+<string-name>
+<surname>Bossdorf</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Prati</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Auge</surname>
+</string-name>, and <string-name>
+<given-names>B.</given-names>
+<surname>Schmid</surname>
+</string-name>. <year>2004</year>
+<article-title>Reduced competitive ability in an invasive plant</article-title>. <source xml:lang="en">Ecology Letters</source>
+<volume>7</volume>:<fpage>346</fpage>&#x02013;<lpage>353</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0012"><mixed-citation publication-type="journal" id="ecy3201-cit-0012">
+<string-name>
+<surname>Brooks</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kristensen</surname>
+</string-name>, <string-name>
+<given-names>K. J.</given-names>
+<surname>van Benthem</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Magnusson</surname>
+</string-name>, <string-name>
+<given-names>C. W.</given-names>
+<surname>Berg</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Skaug</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Maechler</surname>
+</string-name>, and <string-name>
+<given-names>B. M.</given-names>
+<surname>Bolker</surname>
+</string-name>. <year>2017</year>
+<article-title>glmmTMB balances speed and flexibility among packages for zero&#x02010;inflated generalized linear mixed modeling</article-title>. <source xml:lang="en">R Journal</source>
+<volume>9</volume>:<fpage>378</fpage>&#x02013;<lpage>400</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0013"><mixed-citation publication-type="journal" id="ecy3201-cit-0013">
+<string-name>
+<surname>Brouwer</surname>, <given-names>N. L.</given-names>
+</string-name>, <string-name>
+<given-names>A. N.</given-names>
+<surname>Hale</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2015</year>
+<article-title>Mutualism&#x02010;disrupting allelopathic invader drives carbon stress and vital rate decline in a forest perennial herb</article-title>. <source xml:lang="en">AoB PLANTS</source>
+<volume>7</volume>:<fpage>plv014</fpage>.<pub-id pub-id-type="pmid">25725084</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0014"><mixed-citation publication-type="journal" id="ecy3201-cit-0014">
+<string-name>
+<surname>Brown</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Mitchell</surname>
+</string-name>, and <string-name>
+<given-names>S. A.</given-names>
+<surname>Graham</surname>
+</string-name>. <year>2002</year>
+<article-title>Competition for pollination between an invasive species (purple loosestrife) and a native congener</article-title>. <source xml:lang="en">Ecology</source>
+<volume>83</volume>:<fpage>2328</fpage>&#x02013;<lpage>2336</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0015"><mixed-citation publication-type="journal" id="ecy3201-cit-0015">
+<string-name>
+<surname>Brundrett</surname>, <given-names>M. C.</given-names>
+</string-name>, and <string-name>
+<given-names>B.</given-names>
+<surname>Kendrick</surname>
+</string-name>. <year>1988</year>
+<article-title>The mycorrhizal status, root anatomy, and phenology of plants in a sugar maple forest</article-title>. <source xml:lang="en">Canada Journal of Botany</source>
+<volume>66</volume>:<fpage>1153</fpage>&#x02013;<lpage>1173</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0016"><mixed-citation publication-type="journal" id="ecy3201-cit-0016">
+<string-name>
+<surname>Burke</surname>, <given-names>D. J.</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Effects of <italic>Alliaria petiolata</italic> (garlic mustard; Brassicaceae) on mycorrhizal colonization and community structure in three herbaceous plants in a mixed deciduous forest</article-title>. <source xml:lang="en">American Journal of Botany</source>
+<volume>95</volume>:<fpage>1416</fpage>&#x02013;<lpage>1425</lpage>.<pub-id pub-id-type="pmid">21628149</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0017"><mixed-citation publication-type="journal" id="ecy3201-cit-0017">
+<string-name>
+<surname>Burke</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<given-names>S. R.</given-names>
+<surname>Carrino&#x02010;Kyker</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hoke</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Cassidy</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Bialic&#x02010;Murphy</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2019</year>
+<article-title>Deer and invasive plant removal alters mycorrhizal fungal communities and soil chemistry: Evidence from a long&#x02010;term field experiment</article-title>. <source xml:lang="en">Soil Biology and Biochemistry</source>
+<volume>128</volume>:<fpage>13</fpage>&#x02013;<lpage>21</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0018"><mixed-citation publication-type="journal" id="ecy3201-cit-0018">
+<string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Cipollini</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Barto</surname>
+</string-name>, <string-name>
+<given-names>G. C.</given-names>
+<surname>Thelen</surname>
+</string-name>, <string-name>
+<given-names>S. G.</given-names>
+<surname>Hallett</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Prati</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Stinson</surname>
+</string-name>, and <string-name>
+<given-names>J.</given-names>
+<surname>Klironomos</surname>
+</string-name>. <year>2008</year>
+<article-title>Novel weapons: Invasive plant suppresses fungal mutualists in America but not in its native Europe</article-title>. <source xml:lang="en">Ecology</source>
+<volume>89</volume>:<fpage>1043</fpage>&#x02013;<lpage>1055</lpage>.<pub-id pub-id-type="pmid">18481529</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0019"><mixed-citation publication-type="journal" id="ecy3201-cit-0019">
+<string-name>
+<surname>Cantor</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hale</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Aaron</surname>
+</string-name>, <string-name>
+<given-names>M. B.</given-names>
+<surname>Traw</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2011</year>
+<article-title>Low allelochemical concentrations detected in garlic mustard&#x02010;invaded forest soils inhibit fungal growth and AMF spore germination</article-title>. <source xml:lang="en">Biological Invasions</source>
+<volume>13</volume>:<fpage>3015</fpage>&#x02013;<lpage>3025</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0020"><mixed-citation publication-type="journal" id="ecy3201-cit-0020">
+<string-name>
+<surname>Christian</surname>, <given-names>C. E.</given-names>
+</string-name>
+<year>2001</year>
+<article-title>Consequences of a biological invasion reveal the importance of mutualism for plant communities</article-title>. <source xml:lang="en">Nature</source>
+<volume>413</volume>:<fpage>635</fpage>&#x02013;<lpage>639</lpage>.<pub-id pub-id-type="pmid">11675787</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0021"><mixed-citation publication-type="journal" id="ecy3201-cit-0021">
+<string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Cipollini</surname>
+</string-name>. <year>2016</year>
+<article-title>A review of garlic mustard (<italic>Alliaria petiolata</italic>, Brassicaceae) as an allelopathic plant</article-title>. <source xml:lang="en">Journal of the Torrey Botanical Society</source>
+<volume>143</volume>:<fpage>339</fpage>&#x02013;<lpage>348</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0022"><mixed-citation publication-type="journal" id="ecy3201-cit-0022">
+<string-name>
+<surname>Cipollini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Stevenson</surname>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Cipollini</surname>
+</string-name>. <year>2008</year>
+<article-title>Contrasting effects of allelochemicals from two invasive plants on the performance of a nonmycorrhizal plant</article-title>. <source xml:lang="en">International Journal of Plant Sciences</source>
+<volume>169</volume>:<fpage>371</fpage>&#x02013;<lpage>375</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0023"><mixed-citation publication-type="journal" id="ecy3201-cit-0023">
+<string-name>
+<surname>Desurmont</surname>, <given-names>G. A.</given-names>
+</string-name>, and <string-name>
+<given-names>I. S.</given-names>
+<surname>Pearse</surname>
+</string-name>. <year>2014</year>
+<article-title>Alien plants versus alien herbivores: Does it matter who is non&#x02010;native in a novel trophic interaction?</article-title>
+<source xml:lang="en">Current Opinion in Insect Science</source>
+<volume>2</volume>:<fpage>20</fpage>&#x02013;<lpage>25</lpage>.<pub-id pub-id-type="pmid">32846720</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0024"><mixed-citation publication-type="journal" id="ecy3201-cit-0024">
+<string-name>
+<surname>Gilliam</surname>, <given-names>F. S.</given-names>
+</string-name>
+<year>2007</year>
+<article-title>The ecological significance of the herbaceous layer in temperate forest ecosystems</article-title>. <source xml:lang="en">BioScience</source>
+<volume>57</volume>:<fpage>845</fpage>&#x02013;<lpage>858</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0025"><mixed-citation publication-type="journal" id="ecy3201-cit-0025">
+<string-name>
+<surname>Grove</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<given-names>K. A.</given-names>
+<surname>Haubensak</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Gehring</surname>
+</string-name>, and <string-name>
+<given-names>I. M.</given-names>
+<surname>Parker</surname>
+</string-name>. <year>2017</year>
+<article-title>Mycorrhizae, invasions, and the temporal dynamics of mutualism disruption</article-title>. <source xml:lang="en">Journal of Ecology</source>
+<volume>105</volume>:<fpage>1496</fpage>&#x02013;<lpage>1508</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0026"><mixed-citation publication-type="journal" id="ecy3201-cit-0026">
+<string-name>
+<surname>Gurevitch</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name>
+<given-names>D. K.</given-names>
+<surname>Padilla</surname>
+</string-name>. <year>2004</year>
+<article-title>Are invasive species a major cause of extinctions?</article-title>
+<source xml:lang="en">Trends in Ecology and Evolution</source>
+<volume>19</volume>:<fpage>470</fpage>&#x02013;<lpage>474</lpage>.<pub-id pub-id-type="pmid">16701309</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0027"><mixed-citation publication-type="journal" id="ecy3201-cit-0027">
+<string-name>
+<surname>Haines</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Aylward</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Frey</surname>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Stinson</surname>
+</string-name>. <year>2018</year>
+<article-title>Regional patterns of floristic diversity and composition in forests invaded by garlic mustard (Alliaria petiolata)</article-title>. <source xml:lang="en">Northeastern Naturalist</source>
+<volume>25</volume>:<fpage>399</fpage>&#x02013;<lpage>417</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0028"><mixed-citation publication-type="journal" id="ecy3201-cit-0028">
+<string-name>
+<surname>Hale</surname>, <given-names>A. N.</given-names>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2012</year>
+<article-title>Perspectives on allelopathic disruption of plant mutualisms: A framework for individual&#x02010; and population&#x02010;level fitness consequences</article-title>. <source xml:lang="en">Plant Ecology</source>
+<volume>213</volume>:<fpage>1991</fpage>&#x02013;<lpage>2006</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0029"><mixed-citation publication-type="journal" id="ecy3201-cit-0029">
+<string-name>
+<surname>Hale</surname>, <given-names>A. N.</given-names>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Lapointe</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2016</year>
+<article-title>Invader disruption of belowground plant mutualisms reduces carbon acquisition and alters allocation patterns in a native forest herb</article-title>. <source xml:lang="en">New Phytologist</source>
+<volume>209</volume>:<fpage>542</fpage>&#x02013;<lpage>549</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0030"><mixed-citation publication-type="journal" id="ecy3201-cit-0030">
+<string-name>
+<surname>Hale</surname>, <given-names>A. N.</given-names>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Tonsor</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2011</year>
+<article-title>Testing the mutualism disruption hypothesis: physiological mechanisms for invasion of intact perennial plant communities</article-title>. <source xml:lang="en">Ecosphere</source>
+<volume>2</volume>:<fpage>art110</fpage>.</mixed-citation></ref><ref id="ecy3201-bib-0031"><mixed-citation publication-type="miscellaneous" id="ecy3201-cit-0031">
+<string-name>
+<surname>Hartig</surname>, <given-names>F.</given-names>
+</string-name>
+<year>2016</year>
+<article-title>. DHARMa: residual diagnostics for hierarchical (multi&#x02010;level/mixed) regression models</article-title>. <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=DHARMa">https://CRAN.R&#x02010;project.org/package=DHARMa</ext-link>
+</mixed-citation></ref><ref id="ecy3201-bib-0032"><mixed-citation publication-type="journal" id="ecy3201-cit-0032">
+<string-name>
+<surname>Hejda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Py&#x00161;ek</surname>
+</string-name>, and <string-name>
+<given-names>V.</given-names>
+<surname>Jaro&#x00161;&#x000ed;k</surname>
+</string-name>. <year>2009</year>
+<article-title>Impact of invasive plants on the species richness, diversity and composition of invaded communities</article-title>. <source xml:lang="en">Journal of Ecology</source>
+<volume>97</volume>:<fpage>393</fpage>&#x02013;<lpage>403</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0033"><mixed-citation publication-type="journal" id="ecy3201-cit-0033">
+<string-name>
+<surname>Johnson</surname>, <given-names>N. C.</given-names>
+</string-name>
+<year>2010</year>
+<article-title>Resource stoichiometry elucidates the structure and function of arbuscular mycorrhizas across scales</article-title>. <source xml:lang="en">New Phytologist</source>
+<volume>185</volume>:<fpage>631</fpage>&#x02013;<lpage>647</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0034"><mixed-citation publication-type="journal" id="ecy3201-cit-0034">
+<string-name>
+<surname>Kembel</surname>, <given-names>S. W.</given-names>
+</string-name>, <string-name>
+<given-names>P. D.</given-names>
+<surname>Cowan</surname>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Helmus</surname>
+</string-name>, <string-name>
+<given-names>W. K.</given-names>
+<surname>Cornwell</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Morlon</surname>
+</string-name>, <string-name>
+<given-names>D. D.</given-names>
+<surname>Ackerly</surname>
+</string-name>, <string-name>
+<given-names>S. P.</given-names>
+<surname>Blomberg</surname>
+</string-name>, and <string-name>
+<given-names>C. O.</given-names>
+<surname>Webb</surname>
+</string-name>. <year>2010</year>
+<article-title>Picante: R tools for integrating phylogenies and ecology</article-title>. <source xml:lang="en">Bioinformatics</source>
+<volume>26</volume>:<fpage>1463</fpage>&#x02013;<lpage>1464</lpage>.<pub-id pub-id-type="pmid">20395285</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0035"><mixed-citation publication-type="journal" id="ecy3201-cit-0035">
+<string-name>
+<surname>Knight</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Dunn</surname>
+</string-name>, <string-name>
+<given-names>L. A.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Davis</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Kalisz</surname>
+</string-name>. <year>2009</year>
+<article-title>Deer facilitate invasive plant success in a Pennsylvania forest understory</article-title>. <source xml:lang="en">Natural Areas Journal</source>
+<volume>29</volume>:<fpage>110</fpage>&#x02013;<lpage>116</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0036"><mixed-citation publication-type="journal" id="ecy3201-cit-0036">
+<string-name>
+<surname>Lankau</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<given-names>J. T.</given-names>
+<surname>Bauer</surname>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Anderson</surname>
+</string-name>, and <string-name>
+<given-names>R. C.</given-names>
+<surname>Anderson</surname>
+</string-name>. <year>2014</year>
+<article-title>Long&#x02010;term legacies and partial recovery of mycorrhizal communities after invasive plant removal</article-title>. <source xml:lang="en">Biological Invasions</source>
+<volume>16</volume>:<fpage>1979</fpage>&#x02013;<lpage>1990</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0037"><mixed-citation publication-type="miscellaneous" id="ecy3201-cit-0037">
+<string-name>
+<surname>Lenth</surname>, <given-names>R.</given-names>
+</string-name>
+<year>2019</year>
+<article-title>emmeans: estimated marginal means, aka least&#x02010;squares means</article-title>. <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=emmeans">https://CRAN.R&#x02010;project.org/package=emmeans</ext-link>
+</mixed-citation></ref><ref id="ecy3201-bib-0038"><mixed-citation publication-type="journal" id="ecy3201-cit-0038">
+<string-name>
+<surname>Levine</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Vil&#x000e0;</surname>
+</string-name>, <string-name>
+<given-names>C. M.</given-names>
+<surname>D&#x02019;Antonio</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Dukes</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Grigulis</surname>
+</string-name>, and <string-name>
+<given-names>S.</given-names>
+<surname>Lavorel</surname>
+</string-name>. <year>2003</year>
+<article-title>Mechanisms underlying the impacts of exotic plant invasions</article-title>. <source xml:lang="en">Proceedings of the Royal Society B</source>
+<volume>270</volume>:<fpage>775</fpage>&#x02013;<lpage>781</lpage>.<pub-id pub-id-type="pmid">12737654</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0039"><mixed-citation publication-type="journal" id="ecy3201-cit-0039">
+<string-name>
+<surname>MacDougall</surname>, <given-names>A. S.</given-names>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Turkington</surname>
+</string-name>. <year>2005</year>
+<article-title>Are invasive species the drivers or passengers of change in degraded ecosystems?</article-title>
+<source xml:lang="en">Ecology</source>
+<volume>86</volume>:<fpage>42</fpage>&#x02013;<lpage>55</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0040"><mixed-citation publication-type="journal" id="ecy3201-cit-0040">
+<string-name>
+<surname>McCary</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Zellner</surname>
+</string-name>, and <string-name>
+<given-names>D. H.</given-names>
+<surname>Wise</surname>
+</string-name>. <year>2019</year>
+<article-title>The role of plant&#x02010;mycorrhizal mutualisms in deterring plant invasions: Insights from an individual&#x02010;based model</article-title>. <source xml:lang="en">Ecology and Evolution</source>
+<volume>9</volume>:<fpage>1</fpage>&#x02013;<lpage>13</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0041"><mixed-citation publication-type="journal" id="ecy3201-cit-0041">
+<string-name>
+<surname>Mech</surname>, <given-names>A. M.</given-names>
+</string-name> et al. <year>2019</year>
+<article-title>Evolutionary history predicts high&#x02010;impact invasions by herbivorous insects</article-title>. <source xml:lang="en">Ecology and Evolution</source>
+<volume>9</volume>:<fpage>1</fpage>&#x02013;<lpage>15</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0042"><mixed-citation publication-type="journal" id="ecy3201-cit-0042">
+<string-name>
+<surname>Meekins</surname>, <given-names>J. F.</given-names>
+</string-name>, and <string-name>
+<given-names>B. C.</given-names>
+<surname>McCarthy</surname>
+</string-name>. <year>1999</year>
+<article-title>Competitive ability of <italic>Alliaria petiolata</italic> (garlic mustard, Brassicaceae), an invasive, nonindigenous forest herb</article-title>. <source xml:lang="en">International Journal of Plant Sciences</source>
+<volume>160</volume>:<fpage>743</fpage>&#x02013;<lpage>752</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0043"><mixed-citation publication-type="journal" id="ecy3201-cit-0043">
+<string-name>
+<surname>Meinhardt</surname>, <given-names>K. A.</given-names>
+</string-name>, and <string-name>
+<given-names>C. A.</given-names>
+<surname>Gehring</surname>
+</string-name>. <year>2012</year>
+<article-title>Disrupting mycorrhizal mutualisms: A potential mechanism by which exotic tamarisk outcompetes native cottonwoods</article-title>. <source xml:lang="en">Ecological Applications</source>
+<volume>22</volume>:<fpage>532</fpage>&#x02013;<lpage>549</lpage>.<pub-id pub-id-type="pmid">22611852</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0044"><mixed-citation publication-type="journal" id="ecy3201-cit-0044">
+<string-name>
+<surname>Morris</surname>, <given-names>E. K.</given-names>
+</string-name> et al. <year>2014</year>
+<article-title>Choosing and using diversity indices: Insights for ecological applications from the German Biodiversity Exploratories</article-title>. <source xml:lang="en">Ecology and Evolution</source>
+<volume>4</volume>:<fpage>3514</fpage>&#x02013;<lpage>3524</lpage>.<pub-id pub-id-type="pmid">25478144</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0045"><mixed-citation publication-type="journal" id="ecy3201-cit-0045">
+<string-name>
+<surname>Murrell</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Gerber</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Krebs</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Parepa</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schaffner</surname>
+</string-name>, and <string-name>
+<given-names>O.</given-names>
+<surname>Bossdorf</surname>
+</string-name>. <year>2011</year>
+<article-title>Invasive knotweed affects native plants through allelopathy</article-title>. <source xml:lang="en">American Journal of Botany</source>
+<volume>98</volume>:<fpage>38</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">21613083</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0046"><mixed-citation publication-type="journal" id="ecy3201-cit-0046">
+<string-name>
+<surname>Nuzzo</surname>, <given-names>V.</given-names>
+</string-name>
+<year>1999</year>
+<article-title>Invasion pattern of the herb garlic mustard (<italic>Alliaria petiolata</italic>) in high quality forests</article-title>. <source xml:lang="en">Biological Invasions</source>
+<volume>1</volume>:<fpage>169</fpage>&#x02013;<lpage>179</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0047"><mixed-citation publication-type="miscellaneous" id="ecy3201-cit-0047">
+<string-name>
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name> et al. <year>2019</year>
+<article-title>vegan: community ecology package</article-title>. <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=vegan">https://CRAN.R&#x02010;project.org/package=vegan</ext-link>
+</mixed-citation></ref><ref id="ecy3201-bib-0048"><mixed-citation publication-type="journal" id="ecy3201-cit-0048">
+<string-name>
+<surname>Pearse</surname>, <given-names>I. S.</given-names>
+</string-name>, and <string-name>
+<given-names>F.</given-names>
+<surname>Altermatt</surname>
+</string-name>. <year>2013</year>
+<article-title>Predicting novel trophic interactions in a non&#x02010;native world</article-title>. <source xml:lang="en">Ecology Letters</source>
+<volume>16</volume>:<fpage>1088</fpage>&#x02013;<lpage>1094</lpage>.<pub-id pub-id-type="pmid">23800217</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0049"><mixed-citation publication-type="journal" id="ecy3201-cit-0049">
+<string-name>
+<surname>Pearse</surname>, <given-names>I. S.</given-names>
+</string-name>, <string-name>
+<given-names>H. R.</given-names>
+<surname>Sofaer</surname>
+</string-name>, <string-name>
+<given-names>D. N.</given-names>
+<surname>Zaya</surname>
+</string-name>, and <string-name>
+<given-names>G.</given-names>
+<surname>Spyreas</surname>
+</string-name>. <year>2019</year>
+<article-title>Non&#x02010;native plants have greater impacts because of differing per&#x02010;capita effects and nonlinear abundance&#x02013;impact curves</article-title>. <source xml:lang="en">Ecology Letters</source>
+<volume>22</volume>:<fpage>1214</fpage>&#x02013;<lpage>1220</lpage>.<pub-id pub-id-type="pmid">31112014</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0050"><mixed-citation publication-type="journal" id="ecy3201-cit-0050">
+<string-name>
+<surname>Poon</surname>, <given-names>G. T.</given-names>
+</string-name>, and <string-name>
+<given-names>H.</given-names>
+<surname>Maherali</surname>
+</string-name>. <year>2015</year>
+<article-title>Competitive interactions between a nonmycorrhizal invasive plant, <italic>Alliaria petiolata</italic>, and a suite of mycorrhizal grassland, old field, and forest species</article-title>. <source xml:lang="en">PeerJ</source>
+<volume>3</volume>:<elocation-id>e1090</elocation-id>.<pub-id pub-id-type="pmid">26213654</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0051"><mixed-citation publication-type="journal" id="ecy3201-cit-0051">
+<string-name>
+<surname>Powell</surname>, <given-names>K. I.</given-names>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Chase</surname>
+</string-name>, and <string-name>
+<given-names>T. M.</given-names>
+<surname>Knight</surname>
+</string-name>. <year>2011</year>
+<article-title>A synthesis of plant invasion effects on biodiversity across spatial scales</article-title>. <source xml:lang="en">American Journal of Botany</source>
+<volume>98</volume>:<fpage>539</fpage>&#x02013;<lpage>548</lpage>.<pub-id pub-id-type="pmid">21613145</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0052"><mixed-citation publication-type="journal" id="ecy3201-cit-0052">
+<string-name>
+<surname>Powell</surname>, <given-names>K. I.</given-names>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Chase</surname>
+</string-name>, and <string-name>
+<given-names>T. M.</given-names>
+<surname>Knight</surname>
+</string-name>. <year>2013</year>
+<article-title>Invasive plants have scale&#x02010;dependent effects on diversity by altering species&#x02010;area relationships</article-title>. <source xml:lang="en">Science</source>
+<volume>339</volume>:<fpage>317</fpage>&#x02013;<lpage>319</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0053"><mixed-citation publication-type="journal" id="ecy3201-cit-0053">
+<string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Jaro&#x00161;&#x000ed;k</surname>
+</string-name>, <string-name>
+<given-names>P. E.</given-names>
+<surname>Hulme</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Pergl</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hejda</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schaffner</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Vil&#x000e0;</surname>
+</string-name>. <year>2012</year>
+<article-title>A global assessment of invasive plant impacts on resident species, communities and ecosystems: The interaction of impact measures, invading species&#x02019; traits and environment</article-title>. <source xml:lang="en">Global Change Biology</source>
+<volume>18</volume>:<fpage>1725</fpage>&#x02013;<lpage>1737</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0054"><mixed-citation publication-type="book" id="ecy3201-cit-0054">
+<collab collab-type="authors">R Core Team</collab>
+. <year>2018</year>
+<source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>, <publisher-loc>Vienna, Austria</publisher-loc>. www.R&#x02010;project.org</mixed-citation></ref><ref id="ecy3201-bib-0055"><mixed-citation publication-type="journal" id="ecy3201-cit-0055">
+<string-name>
+<surname>Ricciardi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>M. F.</given-names>
+<surname>Hoopes</surname>
+</string-name>, <string-name>
+<given-names>M. P.</given-names>
+<surname>Marchetti</surname>
+</string-name>, and <string-name>
+<given-names>J. L.</given-names>
+<surname>Lockwood</surname>
+</string-name>. <year>2013</year>
+<article-title>Progress toward understanding the ecological impacts of non&#x02010;native species</article-title>. <source xml:lang="en">Ecological Monographs</source>
+<volume>83</volume>:<fpage>263</fpage>&#x02013;<lpage>282</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0056"><mixed-citation publication-type="journal" id="ecy3201-cit-0056">
+<string-name>
+<surname>Rodgers</surname>, <given-names>V. L.</given-names>
+</string-name>, <string-name>
+<given-names>B. E.</given-names>
+<surname>Wolfe</surname>
+</string-name>, <string-name>
+<given-names>L. K.</given-names>
+<surname>Werden</surname>
+</string-name>, and <string-name>
+<given-names>A. C.</given-names>
+<surname>Finzi</surname>
+</string-name>. <year>2008</year>
+<article-title>The invasive species <italic>Alliaria petiolata</italic> (garlic mustard) increases soil nutrient availability in northern hardwood&#x02010;conifer forests</article-title>. <source xml:lang="en">Oecologia</source>
+<volume>157</volume>:<fpage>459</fpage>&#x02013;<lpage>471</lpage>.<pub-id pub-id-type="pmid">18612654</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0057"><mixed-citation publication-type="journal" id="ecy3201-cit-0057">
+<string-name>
+<surname>Rogers</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name>
+<given-names>E. R.</given-names>
+<surname>Buhle</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>HilleRisLambers</surname>
+</string-name>, <string-name>
+<given-names>E. C.</given-names>
+<surname>Fricke</surname>
+</string-name>, <string-name>
+<given-names>R. H.</given-names>
+<surname>Miller</surname>
+</string-name>, and <string-name>
+<given-names>J. J.</given-names>
+<surname>Tewksbury</surname>
+</string-name>. <year>2017</year>
+<article-title>Effects of an invasive predator cascade to plants via mutualism disruption</article-title>. <source xml:lang="en">Nature Communications</source>
+<volume>8</volume>:<fpage>1</fpage>&#x02013;<lpage>8</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0058"><mixed-citation publication-type="journal" id="ecy3201-cit-0058">
+<string-name>
+<surname>Rowles</surname>, <given-names>A. D.</given-names>
+</string-name>, and <string-name>
+<given-names>D. J. O.</given-names>
+<surname>Dowd</surname>
+</string-name>. <year>2009</year>
+<article-title>New mutualism for old: indirect disruption and direct facilitation of seed dispersal following Argentine ant invasion</article-title>. <source xml:lang="en">Oecologia</source>
+<volume>158</volume>:<fpage>709</fpage>&#x02013;<lpage>716</lpage>.<pub-id pub-id-type="pmid">18941793</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0059"><mixed-citation publication-type="journal" id="ecy3201-cit-0059">
+<string-name>
+<surname>Sax</surname>, <given-names>D. F.</given-names>
+</string-name>, <string-name>
+<given-names>S. D.</given-names>
+<surname>Gaines</surname>
+</string-name>, and <string-name>
+<given-names>J. H.</given-names>
+<surname>Brown</surname>
+</string-name>. <year>2002</year>
+<article-title>Species invasions exceed extinctions on islands worldwide: A comparative study of plants and birds</article-title>. <source xml:lang="en">American Naturalist</source>
+<volume>160</volume>:<fpage>766</fpage>&#x02013;<lpage>783</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0060"><mixed-citation publication-type="journal" id="ecy3201-cit-0060">
+<string-name>
+<surname>Sofaer</surname>, <given-names>H. R.</given-names>
+</string-name>, <string-name>
+<given-names>C. S.</given-names>
+<surname>Jarnevich</surname>
+</string-name>, and <string-name>
+<given-names>I. S.</given-names>
+<surname>Pearse</surname>
+</string-name>. <year>2018</year>
+<article-title>The relationship between invader abundance and impact</article-title>. <source xml:lang="en">Ecosphere</source>
+<volume>9</volume>:<elocation-id>e02415</elocation-id>.</mixed-citation></ref><ref id="ecy3201-bib-0061"><mixed-citation publication-type="journal" id="ecy3201-cit-0061">
+<string-name>
+<surname>Soudzilovskaia</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Vaessen</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Barcelo</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>He</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Rahimlou</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Abarenkov</surname>
+</string-name>, <string-name>
+<given-names>M. C.</given-names>
+<surname>Brundrett</surname>
+</string-name>, <string-name>
+<given-names>S. I. F.</given-names>
+<surname>Gomes</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Merckx</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Tedersoo</surname>
+</string-name>. <year>2020</year>
+<article-title>FungalRoot: global online database of plant mycorrhizal associations</article-title>. <source xml:lang="en">New Phytologist</source>
+<volume>227</volume>: <fpage>955</fpage> &#x02013;<lpage>966</lpage>. <pub-id pub-id-type="doi">10.1111/nph.16569</pub-id>
+</mixed-citation></ref><ref id="ecy3201-bib-0062"><mixed-citation publication-type="journal" id="ecy3201-cit-0062">
+<string-name>
+<surname>Stinson</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name>
+<given-names>S. A.</given-names>
+<surname>Campbell</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Powell</surname>
+</string-name>, <string-name>
+<given-names>B. E.</given-names>
+<surname>Wolfe</surname>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Callaway</surname>
+</string-name>, <string-name>
+<given-names>G. C.</given-names>
+<surname>Thelen</surname>
+</string-name>, <string-name>
+<given-names>S. G.</given-names>
+<surname>Hallett</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Prati</surname>
+</string-name>, and <string-name>
+<given-names>J. N.</given-names>
+<surname>Klironomos</surname>
+</string-name>. <year>2006</year>
+<article-title>Invasive plant suppresses the growth of native tree seedlings by disrupting belowground mutualisms</article-title>. <source xml:lang="en">PLoS Biology</source>
+<volume>4</volume>:<fpage>727</fpage>&#x02013;<lpage>731</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0063"><mixed-citation publication-type="journal" id="ecy3201-cit-0063">
+<string-name>
+<surname>Stinson</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kaufman</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Durbin</surname>
+</string-name>, and <string-name>
+<given-names>F.</given-names>
+<surname>Lowenstein</surname>
+</string-name>. <year>2007</year>
+<article-title>Impacts of garlic mustard invasion on a forest understory community</article-title>. <source xml:lang="en">Northeastern Naturalist</source>
+<volume>14</volume>:<fpage>73</fpage>&#x02013;<lpage>88</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0064"><mixed-citation publication-type="journal" id="ecy3201-cit-0064">
+<string-name>
+<surname>Stricker</surname>, <given-names>K. B.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Hagan</surname>
+</string-name>, and <string-name>
+<given-names>S. L.</given-names>
+<surname>Flory</surname>
+</string-name>. <year>2015</year>
+<article-title>Improving methods to evaluate the impacts of plant invasions: Lessons from 40 years of research</article-title>. <source xml:lang="en">AoB Plants</source>
+<volume>7</volume>:<fpage>1</fpage>&#x02013;<lpage>10</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0065"><mixed-citation publication-type="journal" id="ecy3201-cit-0065">
+<string-name>
+<surname>Suding</surname>, <given-names>K. N.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Lavorel</surname>
+</string-name>, <string-name>
+<given-names>F. S.</given-names>
+<surname>Chapin</surname>
+</string-name>, <string-name>
+<given-names>J. H. C.</given-names>
+<surname>Cornelissen</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>D&#x000ed;az</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Garnier</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Goldberg</surname>
+</string-name>, <string-name>
+<given-names>D. U.</given-names>
+<surname>Hooper</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>Jackson</surname>
+</string-name>, and <string-name>
+<given-names>M.&#x02010;L.</given-names>
+<surname>Navas</surname>
+</string-name>. <year>2008</year>
+<article-title>Scaling environmental change through the community&#x02010;level: A trait&#x02010;based response&#x02010;and&#x02010;effect framework for plants</article-title>. <source xml:lang="en">Global Change Biology</source>
+<volume>14</volume>:<fpage>1125</fpage>&#x02013;<lpage>1140</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0066"><mixed-citation publication-type="journal" id="ecy3201-cit-0066">
+<string-name>
+<surname>Tawaraya</surname>, <given-names>K.</given-names>
+</string-name>
+<year>2003</year>
+<article-title>Arbuscular mycorrhizal dependency of different plant species and cultivars</article-title>. <source xml:lang="en">Soil Science and Plant Nutrition</source>
+<volume>49</volume>:<fpage>655</fpage>&#x02013;<lpage>668</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0067"><mixed-citation publication-type="journal" id="ecy3201-cit-0067">
+<string-name>
+<surname>Traveset</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name>
+<given-names>D. M.</given-names>
+<surname>Richardson</surname>
+</string-name>. <year>2014</year>
+<article-title>Mutualistic interactions and biological invasions</article-title>. <source xml:lang="en">Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>45</volume>:<fpage>89</fpage>&#x02013;<lpage>113</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0068"><mixed-citation publication-type="journal" id="ecy3201-cit-0068">
+<string-name>
+<surname>Van Der Heijden</surname>, <given-names>M. G. A.</given-names>
+</string-name>, <string-name>
+<given-names>R. D.</given-names>
+<surname>Bardgett</surname>
+</string-name>, and <string-name>
+<given-names>N. M.</given-names>
+<surname>Van Straalen</surname>
+</string-name>. <year>2008</year>
+<article-title>The unseen majority: Soil microbes as drivers of plant diversity and productivity in terrestrial ecosystems</article-title>. <source xml:lang="en">Ecology Letters</source>
+<volume>11</volume>:<fpage>296</fpage>&#x02013;<lpage>310</lpage>.<pub-id pub-id-type="pmid">18047587</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0069"><mixed-citation publication-type="journal" id="ecy3201-cit-0069">
+<string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Espinar</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hejda</surname>
+</string-name>, <string-name>
+<given-names>P. E.</given-names>
+<surname>Hulme</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Jaro&#x00161;&#x000ed;k</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Maron</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Pergl</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schaffner</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name>
+<given-names>P.</given-names>
+<surname>Py&#x00161;ek</surname>
+</string-name>. <year>2011</year>
+<article-title>Ecological impacts of invasive alien plants: A meta&#x02010;analysis of their effects on species, communities and ecosystems</article-title>. <source xml:lang="en">Ecology Letters</source>
+<volume>14</volume>:<fpage>702</fpage>&#x02013;<lpage>708</lpage>.<pub-id pub-id-type="pmid">21592274</pub-id></mixed-citation></ref><ref id="ecy3201-bib-0070"><mixed-citation publication-type="journal" id="ecy3201-cit-0070">
+<string-name>
+<surname>Wolfe</surname>, <given-names>B. E.</given-names>
+</string-name>, <string-name>
+<given-names>V. L.</given-names>
+<surname>Rodgers</surname>
+</string-name>, <string-name>
+<given-names>K. A.</given-names>
+<surname>Stinson</surname>
+</string-name>, and <string-name>
+<given-names>A.</given-names>
+<surname>Pringle</surname>
+</string-name>. <year>2008</year>
+<article-title>The invasive plant <italic>Alliaria petiolata</italic> (garlic mustard) inhibits ectomycorrhizal fungi in its introduced range</article-title>. <source xml:lang="en">Journal of Ecology</source>
+<volume>96</volume>:<fpage>777</fpage>&#x02013;<lpage>783</lpage>.</mixed-citation></ref><ref id="ecy3201-bib-0071"><mixed-citation publication-type="journal" id="ecy3201-cit-0071">
+<string-name>
+<surname>Worchel</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name>
+<given-names>H. E.</given-names>
+<surname>Giauque</surname>
+</string-name>, and <string-name>
+<given-names>S. N.</given-names>
+<surname>Kivlin</surname>
+</string-name>. <year>2013</year>
+<article-title>Fungal symbionts alter plant drought response</article-title>. <source xml:lang="en">Microbial Ecology</source>
+<volume>65</volume>:<fpage>671</fpage>&#x02013;<lpage>678</lpage>.<pub-id pub-id-type="pmid">23250115</pub-id></mixed-citation></ref></ref-list></back></article>

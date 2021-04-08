@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">All data were analyzed using R
+ <sup>
+  <xref ref-type="bibr" rid="CR102">102</xref>
+ </sup>, version 3.6.3. We checked for normality and homogeneity using Shapiro–Wilk`s tests and by visual inspections of residuals against fitted values and histograms. Data that violated basic model assumptions were log-transformed prior to the analysis. To assess the effect of soil depth on percent SOC and on SOC per volume soil (g cm
+ <sup>-3</sup>) across land cover types, we fitted linear mixed effect model using the 
+ <italic>lme</italic> function within the 
+ <italic>nlme</italic> package
+ <sup>
+  <xref ref-type="bibr" rid="CR103">103</xref>
+ </sup>. We included land cover, soil depth and the interaction of land cover and soil depth as fixed effects in the model, and plot as random factor. Differences between the means among land cover types and soil depths were evaluated with Tukey`s HSD Post-hoc test on the model`s least square means. To assess land cover effects on SOC down to 1 m depth, species richness and herbaceous biomass, we applied general linear models with land cover type as fixed effect, followed by Tukey`s HSD Post-hoc test. Estimates of SOC stocks per unit area (t C ha
+ <sup>-1</sup>) were computed using the formula: SOC t ha
+ <sup>-1</sup> = %SOC x BD (g cm
+ <sup>-3</sup>) x d (cm), where %SOC = carbon concentration of the sample, BD = bulk density in g cm
+ <sup>-3</sup>, and d = height of the depth increment (cm)
+ <sup>
+  <xref ref-type="bibr" rid="CR98">98</xref>,
+  <xref ref-type="bibr" rid="CR104">104</xref>
+ </sup>. Total carbon stocks down to 1 m depth were then obtained by summing up the SOC tons per hectare values estimated for each depth increment
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR105">105</xref>
+ </sup>. To determine which species are characteristic for the different land cover types, we conducted an indicator species analysis test using the 
+ <italic>labdsv</italic> package.
+</p>

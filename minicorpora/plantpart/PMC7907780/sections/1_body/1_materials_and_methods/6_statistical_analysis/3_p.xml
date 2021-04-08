@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0090">According to 
+ <xref rid="fd1" ref-type="disp-formula">equation (1)</xref>, 
+ <bold>
+  <italic>T</italic>
+ </bold> is a score matrix, representing the relationship among the studied samples. On the other hand, 
+ <bold>
+  <italic>P</italic>
+ </bold> is a loading matrix, visualizing the behavior among the parameters. 
+ <bold>
+  <italic>E</italic>
+ </bold> is a residual matrix, containing the variation which is excluded from the analysis. Generally, the samples with relatively similar score values are located near each other on the PCA score plot implying that they have similarity property or share the same relationship in the dataset. Prior to the analysis, the intensity data was preprocessed by standardization scaling to ensure that all the intensity variables were adjusted to be on the same scale [
+ <xref rid="bib20" ref-type="bibr">20</xref>]. Therefore, the variables with low intensities had equal influence on the PCA model and were conducted using in-house scripts based on Matlab software, Matlab V7.10.0 (R2010a).
+</p>

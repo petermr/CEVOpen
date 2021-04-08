@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The relationships between distillation time (DT; the 10 timeframes excluding the control) and the concentrations of α-pinene, camphene, sabinene, β-pinene, myrcene, α-phellandrene, 3-carene, 
+ <italic>p</italic>-cymene, and limonene were adequately described by the asymptotic (convex) model (Equation (1)); the relationships between DT and the concentrations of α-thujene, α-terpinene, γ-terpinene, and terpinolene were adequately described by the power model (Equation (2)); and the relationship between DT and the concentration (%) of myristicin was adequately described by Michaelis–Menten model (Equation (3)). There was no definite relationship between DT and nutmeg EO content, as well as between DT and the concentrations of terpinen-4-ol and safrole. Since all these three models shown in Equation (1), Equation (2), and Equation (3) are nonlinear, their parameters were estimated iteratively using the NLIN Procedure of SAS [
+ <xref rid="B26-molecules-25-00565" ref-type="bibr">26</xref>] and the fitted models met all model adequacy requirements described in Bates and Watts [
+ <xref rid="B27-molecules-25-00565" ref-type="bibr">27</xref>]. 
+ <disp-formula id="FD1-molecules-25-00565">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>2</mn>
+     </msub>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>θ</mi>
+        <mn>3</mn>
+       </msub>
+       <mi>x</mi>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD2-molecules-25-00565">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>θ</mi>
+      <mn>1</mn>
+     </msub>
+     <msup>
+      <mi>X</mi>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-molecules-25-00565">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>1</mn>
+       </msub>
+       <mi>x</mi>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>+</mo>
+       <mi>x</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where Y is the dependent (response) variable, X is the independent (DT) variable, and ε is the error term assumed to have normal distribution with constant variance. Validity of the normality, constant variance, and independence assumptions on the error terms were verified by examining the residuals [
+ <xref rid="B27-molecules-25-00565" ref-type="bibr">27</xref>].
+</p>

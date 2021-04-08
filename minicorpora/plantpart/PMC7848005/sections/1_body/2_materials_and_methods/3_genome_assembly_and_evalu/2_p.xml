@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">For the evaluation of assembly coverage, all paired-end short reads were mapped to our assembly using BWA
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. RNA-Seq data from leaf, root, and stem tissues were assembled by Trinity
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. HISAT2 was used to map all expressed sequence tags generated from RNA-Seq to the assembly with the default settings
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> to evaluate gene completeness. The completeness of the assembly was assessed by the CEG mapping approach (v2.5) (CEGMA)
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> and benchmarking universal single-copy ortholog (v4.0) (BUSCO) analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup>.
+</p>

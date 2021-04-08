@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0065">The plant species diversity of the seed bank of all stands was determined by calculating species richness (Simpson index) and species evenness (Shannon-evenness) according to the following equations:
+ <disp-formula id="e0010">
+  <math id="M2" altimg="si2.svg">
+   <mrow>
+    <mi mathvariant="italic">Simpson</mi>
+    <mspace width="5.0pt"/>
+    <mi>i</mi>
+    <mi>n</mi>
+    <mi>d</mi>
+    <mi>e</mi>
+    <mi>x</mi>
+    <mspace width="5.0pt"/>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>S</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mo>∑</mo>
+       <mi>i</mi>
+      </msub>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>n</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>×</mo>
+       <mrow>
+        <mfenced close=")" open="(">
+         <mrow>
+          <msub>
+           <mi>n</mi>
+           <mi>i</mi>
+          </msub>
+          <mo>-</mo>
+          <mn>1</mn>
+         </mrow>
+        </mfenced>
+       </mrow>
+       <mo stretchy="false">]</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mi>N</mi>
+      <mo>×</mo>
+      <mrow>
+       <mfenced close=")" open="(">
+        <mrow>
+         <mi>N</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="e0015">
+  <math id="M3" altimg="si3.svg">
+   <mrow>
+    <mi mathvariant="italic">Shannon</mi>
+    <mo>-</mo>
+    <mi>W</mi>
+    <mi>i</mi>
+    <mi>e</mi>
+    <mi>n</mi>
+    <mi>e</mi>
+    <mi>r</mi>
+    <mspace width="5.0pt"/>
+    <mi>i</mi>
+    <mi>n</mi>
+    <mi>d</mi>
+    <mi>e</mi>
+    <mi>x</mi>
+    <mspace width="5.0pt"/>
+    <mrow>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>H</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+    <mo>=</mo>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>s</mi>
+    </munderover>
+    <msub>
+     <mi>P</mi>
+     <mi>i</mi>
+    </msub>
+    <mi mathvariant="italic">ln</mi>
+    <msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>P</mi>
+     </mrow>
+     <mi>i</mi>
+    </msub>
+    <mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="e0020">
+  <math id="M4" altimg="si4.svg">
+   <mrow>
+    <mi mathvariant="italic">Shannon</mi>
+    <mo>-</mo>
+    <mi>E</mi>
+    <mi>v</mi>
+    <mi>e</mi>
+    <mi>n</mi>
+    <mi>n</mi>
+    <mi>e</mi>
+    <mi>s</mi>
+    <mi>s</mi>
+    <mspace width="5.0pt"/>
+    <mi>i</mi>
+    <mi>n</mi>
+    <mi>d</mi>
+    <mi>e</mi>
+    <mi>x</mi>
+    <mspace width="5.0pt"/>
+    <mrow>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>E</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mi>H</mi>
+     <msub>
+      <mrow>
+       <mi mathvariant="italic">ln</mi>
+      </mrow>
+      <mi>s</mi>
+     </msub>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>P
+  <sub>i</sub> = n
+  <sub>i</sub>/N =
+ </italic> proportional abundance of species, 
+ <italic>i</italic> in a habitat made up of 
+ <italic>s</italic> species, 
+ <italic>n
+  <sub>i</sub>
+ </italic> = the number of quadrats containing species 
+ <italic>i</italic> and 
+ <italic>N = S n
+  <sub>i</sub>.
+ </italic>
+</p>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="DS1" orientation="portrait" position="anchor">
+ <label>Data set 1.</label>
+ <table frame="hsides" rules="all">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1">Column label</th>
+    <th rowspan="1" colspan="1">Column description</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">scientificName</td>
+    <td rowspan="1" colspan="1">The full scientific name. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/scientificName" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/scientificName</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">taxonRank</td>
+    <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/taxonRank" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/taxonRank</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">kingdom</td>
+    <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/kingdom" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/kingdom</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">phylum</td>
+    <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/phylum" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/phylum</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">class</td>
+    <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/class" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/class</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">family</td>
+    <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/family" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/family</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">genus</td>
+    <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/genus" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/genus</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">specificEpithet</td>
+    <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/specificEpithet" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/specificEpithet</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">infraspecificEpithet</td>
+    <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/infraspecificEpithet" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/infraspecificEpithet</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">stateProvince</td>
+    <td rowspan="1" colspan="1">The name of the next smaller administrative region than country.
+     <ext-link ext-link-type="uri" xlink:href="%20http:/rs.tdwg.org/dwc/terms/stateProvince" xmlns:xlink="http://www.w3.org/1999/xlink"> http://rs.tdwg.org/dwc/terms/stateProvince</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">municipality</td>
+    <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than county. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/municipality" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/municipality</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">locality</td>
+    <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardise the description. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/locality" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/locality</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">decimalLatitude</td>
+    <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/decimalLatitude" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/decimalLatitude</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">decimalLongitude</td>
+    <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/decimalLongitude" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/decimalLongitude</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">coordinateUncertaintyInMetres</td>
+    <td rowspan="1" colspan="1">The horizontal distance (in metres) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated or is not applicable (because there are no coordinates). Zero is not a valid value for this term. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMe</ext-link>
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters" xmlns:xlink="http://www.w3.org/1999/xlink">ters</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">georeferencedBy</td>
+    <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who determined the georeference (spatial representation) for the Location. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/georeferencedBy" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/georeferencedBy</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">establishmentMeans</td>
+    <td rowspan="1" colspan="1">The process by which the biological individual(s) represented in the Occurrence became established at the location. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/establishmentMeans" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/establishmentMeans</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">year</td>
+    <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/year" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/year</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">recordedBy</td>
+    <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations responsible for recording the original Occurrence.
+     <ext-link ext-link-type="uri" xlink:href="%20http:/rs.tdwg.org/dwc/terms/recordedBy" xmlns:xlink="http://www.w3.org/1999/xlink"> http://rs.tdwg.org/dwc/terms/recordedBy</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">identifiedBy</td>
+    <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/identifiedBy" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/identifiedBy</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">сollectionCode</td>
+    <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/collectionCode" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/collectionCode</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">geodeticDatum</td>
+    <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude are based.
+     <ext-link ext-link-type="uri" xlink:href="%20http:/rs.tdwg.org/dwc/terms/geodeticDatum" xmlns:xlink="http://www.w3.org/1999/xlink"> http://rs.tdwg.org/dwc/terms/geodeticDatum</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">basisOfRecord</td>
+    <td rowspan="1" colspan="1">The specific nature of the data record. Included value: HumanObservation. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/basisOfRecord" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/basisOfRecord</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">countryCode</td>
+    <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs. Included value: RU
+     <ext-link ext-link-type="uri" xlink:href=".%20http:/rs.tdwg.org/dwc/terms/countryCode" xmlns:xlink="http://www.w3.org/1999/xlink">. http://rs.tdwg.org/dwc/terms/countryCode</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">country</td>
+    <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs. Included value: Russia 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/country" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/country</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">occurrenceID</td>
+    <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/occurrenceID" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/occurrenceID</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">institutionCode</td>
+    <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/institutionCode" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/institutionCode</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">language</td>
+    <td rowspan="1" colspan="1">A language of the resource. Included value: ru. 
+     <ext-link ext-link-type="uri" xlink:href="http://purl.org/dc/terms/language" xmlns:xlink="http://www.w3.org/1999/xlink">http://purl.org/dc/terms/language</ext-link>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">associatedReferences</td>
+    <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence. 
+     <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/associatedReferences" xmlns:xlink="http://www.w3.org/1999/xlink">http://rs.tdwg.org/dwc/terms/associatedReferences</ext-link>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">In the proposed MNN algorithm, the training model runs a sequence of binary classifiers and trains each to decide a separate classification outcome according to the 
+ <italic>softmax</italic> activation function results. The architecture of the proposed MNN is a fully connected layers network with one hidden layer contains 50 nodes, and an output layer with 8 nodes each one represents an output class. The outputs of the hidden layer 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$O{h}_{i}$$\end{document}</tex-math>
+   <math id="M2">
+    <mrow>
+     <mi>O</mi>
+     <msub>
+      <mi>h</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and the output layer 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${O}_{k}$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mi>O</mi>
+     <mi>k</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78449_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> are calculated by Eq. 
+ <xref rid="Equ1" ref-type="">1</xref> and 
+ <xref rid="Equ3" ref-type="">3</xref> respectively
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>.
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$O{h}_{i}=\frac{1}{1+{e}^{{-zh}_{i}}} \forall i=1,\dots \dots , 50$$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mrow>
+     <mi>O</mi>
+     <msub>
+      <mi>h</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+        <msub>
+         <mrow>
+          <mo>-</mo>
+          <mi>z</mi>
+          <mi>h</mi>
+         </mrow>
+         <mi>i</mi>
+        </msub>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mo>∀</mo>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mo>⋯</mo>
+     <mo>⋯</mo>
+     <mo>,</mo>
+     <mn>50</mn>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78449_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">Hi-C libraries were constructed from DNA extracted from fresh leaf tissue of 
+ <italic>A. trifoliata</italic>, similar to what was used for genome assembly, as previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>. The purified and enriched DNA was used for sequencing using the Illumina HiSeq X ten platform. A total of 103 Gb of clean data (151-fold the estimated genome size) was obtained and aligned to the PacBio assembly contigs using BOWTIE2
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>. The valid paired reads required for genome assembly were defined as uniquely mapped paired-end reads. Hi-C unique mapped paired-end reads were then applied to scaffold the assembled genome using the LACHESIS program
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup>. The mapped read pairs were clustered into different chromosomal groups based on agglomerative hierarchical clustering. LACHESIS iterated all the possibilities of scaffold orientation and generated finely oriented scaffolds using a weighted directed acyclic graph.
+</p>

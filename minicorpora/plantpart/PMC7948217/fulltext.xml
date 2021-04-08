@@ -1,0 +1,645 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xml:lang="EN" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7948217</article-id><article-id pub-id-type="doi">10.1021/acsomega.0c04782</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Development of a Methodology for the Synthesis of
+Biorefineries Based on Incremental Economic and Exergetic Return on
+Investment</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Romero-Perez</surname><given-names>Juan C.</given-names></name></contrib><contrib contrib-type="author" id="ath2"><name><surname>Vergara</surname><given-names>Leidy</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>&#x000c1;ngel Dar&#x000ed;o</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">Chemical Engineering Department,
+Nanomaterials and Computer-Aided Process Engineering Research Group
+(NIPAC), <institution>University of Cartagena</institution>, Avenida del Consulado Calle 30 No.
+48-152, Cartagena 130015, <country>Colombia</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>agonzalezd1@unicartagena.edu.co</email>.</corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>02</month><year>2021</year></pub-date><pub-date pub-type="collection"><day>09</day><month>03</month><year>2021</year></pub-date><volume>6</volume><issue>9</issue><fpage>6112</fpage><lpage>6123</lpage><history><date date-type="received"><day>29</day><month>09</month><year>2020</year></date><date date-type="accepted"><day>12</day><month>02</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; 2021 The
+Authors. Published by American
+Chemical Society</copyright-statement><copyright-year>2021</copyright-year><copyright-holder>The Authors</copyright-holder><license license-type="open-access"><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0008" id="ab-tgr1"/></p><p>Colombia is experiencing
+significant growth in its agricultural
+areas, its diverse production chains make the country an excellent
+candidate in the development of biorefineries, and as a result, there
+is an increasing need to take full advantage of biomass and obtain
+high value-added by-products from waste. In this sense, biorefineries
+are presented as a great alternative for the use of biomass; however,
+the methodologies of biorefinery synthesis lack a parameter that limits
+the growth of production lines under incremental exergetic and economic
+returns. This research develops a biorefinery synthesis methodology
+using an African palm biorefinery as a case study; a novel approach
+is developed to facilitate a stop criterion for biorefinery expansion
+through a combined consideration of economic incremental returns (IROI)
+and exegetical returns of investment (ExROI), avoiding unnecessary
+plant expansions or new processes that are not profitable or adequate
+in terms of useful energy. The development of this methodology required
+simulations in Aspen Plus software and technical-economic and exergetic
+evaluation with an incremental approach of four scenarios in Excel.
+The base case is palm oil production from African palm clusters. The
+second case includes the production of palm kernel oil and palm cake
+from residues. The third case implements the production of hydrogen
+based on other residues from the base case. The last case study incorporates
+the preceding case and the addition of biodiesel and glycerin production
+from palm oil. Case 3 exhibits a higher economic performance with
+an IROI of 42.98%; in terms of exergy, case 2 exhibits considerable
+improvements over the base case, with an ExROI of 158%. A parameter
+called the exergo-economic weighted incremental return on investment
+(IExWROI) was obtained, evidencing a 75% improvement in case 2 compared
+to the base case. The new indicator aims to provide a more comprehensive
+approach to biorefinery design by optimization of economic and exergetic
+returns, contributing a new alternative for decision-making in regard
+to plant design, plant expansion projects, and implementation of subprocesses.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao0c04782</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao0c04782</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Colombia enjoys a strategic
+location and reliefs that provide the
+country with important agro-climatic variations, making it a territory
+suitable for the production of a great diversity of food and agricultural
+products. According to the United Nations Food and Agriculture Organization
+(FAO), the country can become the world&#x02019;s largest food producer
+as it is one of the seven countries in Latin America with the highest
+potential for the development of cultivable areas.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Its growth during the past few years in the agricultural
+production evidences such panorama, where coffee, banana, sugar, flowers,
+palm oil, fresh fruits, and more are the protagonists.</p><p>However,
+the current economy presents an evident dependence on
+oil and its derivatives; satisfying energy needs with the use of nonrenewable
+resources results in an unsustainable practice, a situation that is
+worsening with the increase in world energy consumption. Special attention
+has been given to the study of biofuels to meet the demand.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> These products are biodegradable, renewable,
+nontoxic, and more ecological.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> In this
+sense, biofuels have established themselves as an integral alternative
+to enhance energy generation and pollution mitigation; a positive
+future is expected for biofuels as they can reduce dependence on fossil
+fuels, along with reduction of environmental impacts and emissions
+of polluting chemicals.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> On the other hand,
+the biorefinery concept incorporates a wide range of technologies
+capable of separating biomass into its basic components and converting
+them by integrating processes and equipment for conversion into value-added
+products, biofuels, and chemicals.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> Then,
+under this concept, it is possible to obtain environmentally friendly
+fuels, take advantage of residues to manufacture by-products with
+a high added value, in turn generate economic and energy stability,
+and reduce negative effects on the environment and health; in other
+words, biorefinery implementation for biomass valorization provides
+several benefits due to the diversification of raw materials and products
+while dealing with sustainability issues.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup></p><p>In this study, a methodology for biorefinery synthesis was developed,
+considering technical, economic, and exergetic factors, to determine
+the convenience of additional investments. The methodology was applied
+to a biorefinery based on African palm as a case study, biomass found
+in 124 municipalities in Colombia,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> and
+was gaining great importance in different industries. Companies are
+choosing to use the waste obtained from their main production process
+(palm oil); to manufacture by-products with a high added value, palm
+kernel oil and palm cake have been presented in recent times as suitable
+alternatives.</p><p>The palm rachis is also waste with a great potential
+to be exploited.
+Through a gasification process, this biomass will be converted into
+hydrogen, a fuel with a high added value as a very attractive and
+feasible project.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> Gasification is viewed
+as a potentially beneficial technology for the use of biomass, which
+converts biomass into combustible gases, biochar, and useful chemicals.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> It is important to note that the interest in
+the study of biomass to produce hydrogen is not recent; its advantage
+as a clean fuel for power generation was a reason for different authors
+to propose strategies for obtaining it.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref></sup> Hydrogen is
+considered a novel fuel for the 21st century due to its advantages
+compared to fossil fuels; studies related to this fuel focus on aspects
+of efficiency and economy.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Our study
+was conducted with an incremental approach to the economic and exergetic
+returns of each incorporated process to avoid stages that are not
+energy-efficient and economically profitable.</p></sec><sec id="sec2"><label>2</label><title>Proposed
+Methodology</title><p>This methodology has the purpose of obtaining
+a new parameter as
+a dimensioning criterion in the synthesis of biorefineries through
+incremental economic and exergetic returns of the investment. It is
+necessary to make economic and exergetic evaluations of the case studies.
+These evaluations are described as follows.</p><sec id="sec2.1"><label>2.1</label><title>Economic
+Evaluation</title><p>Economic evaluation
+is an important criterion for analyzing the quality of a biorefinery&#x02019;s
+systems.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> This assessment permits one
+to identify promising processes, evaluate investment projects, and
+assure funding.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> The design of a process
+or the improvement of an existing one requires different criteria,
+including technical and economic considerations for decision-making
+and project development. It is essential to examine the economic viability,
+profitability, and performance, establish solid objectives, compare
+different alternatives, and determine positive factors in terms of
+safety, quality, and profitability. The mathematical method implemented
+was proposed by El-Halwagi;<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> the indicators
+and parameters to be calculated for the development of economic evaluations
+are specified below.</p><p>The economic evaluation was conducted using
+U.S. dollars and a plant life of 15 years as a reference. According
+to <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>, the total capital
+investment (TCI) is calculated, considering the fixed capital investment
+(FCI), the working capital investment (WCI), and the start-up cost
+(SUC). Operating costs (OC) (<xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref>) take into account direct production costs (CPD), fixed charges
+(FCH), overhead POH, and general expenses (GE). The total annualized
+process costs (TAC) (<xref rid="eq3" ref-type="disp-formula">eq <xref rid="eq3" ref-type="disp-formula">3</xref></xref>) are subject to annualized operating costs (AOC) and fixed costs
+(AFC) (<xref rid="eq4" ref-type="disp-formula">eq <xref rid="eq4" ref-type="disp-formula">4</xref></xref>). FCI<sub>0</sub> is the initial value of the depreciable fixed capital investment,
+and ECI is the salvage value of the FCI, which corresponds to the
+value of the FCI at the end of the recovery period (<italic>N</italic> years).<sup><xref ref-type="bibr" rid="ref17">17</xref></sup></p><p><xref rid="eq5" ref-type="disp-formula">Equations <xref rid="eq5" ref-type="disp-formula">5</xref></xref>&#x02013;<xref rid="eq11" ref-type="disp-formula">11</xref> are indicators
+of profitability, where DGP is the
+devaluation of assets, PAT is profitability after taxes, CCF is the
+accumulated cash flow, PBP is the payback period, %ROI is the percentage
+of return on investment, NPV is the net present value, and IROI is
+the incremental economic return on investment. This last parameter
+is established to identify whether adding stages and obtaining new
+products improve the performance of a linear production chain or base
+case; the IROI is represented in <xref rid="eq11" ref-type="disp-formula">eq <xref rid="eq11" ref-type="disp-formula">11</xref></xref> where it relates the annual incremental net benefit
+of the complementary project (AATP) with the incremental TCI of the
+complementary project.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup><disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m001" position="anchor"/><label>1</label></disp-formula><disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m002" position="anchor"/><label>2</label></disp-formula><disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m003" position="anchor"/><label>3</label></disp-formula><disp-formula id="eq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m004" position="anchor"/><label>4</label></disp-formula><disp-formula id="eq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m005" position="anchor"/><label>5</label></disp-formula><disp-formula id="eq6"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m006" position="anchor"/><label>6</label></disp-formula><disp-formula id="eq7"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m007" position="anchor"/><label>7</label></disp-formula><disp-formula id="eq8"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m008" position="anchor"/><label>8</label></disp-formula><disp-formula id="eq9"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m009" position="anchor"/><label>9</label></disp-formula><disp-formula id="eq10"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m010" position="anchor"/><label>10</label></disp-formula><disp-formula id="eq11"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m011" position="anchor"/><label>11</label></disp-formula></p></sec><sec id="sec2.2"><label>2.2</label><title>Exergetic Evaluation</title><p>The exergy of
+a thermodynamic system is the maximum useful theoretical work that
+is possible to obtain as the system enters into thermodynamic equilibrium
+with the environment.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> The energy analysis
+of a process includes balances based on the first law of thermodynamics
+and calculations of energy efficiency. However, it does not provide
+information related to energy degradation or quantify the utility
+or quality of the mass and energy streams of the system under evaluation.
+For this reason, exergetic analysis is presented as an alternative
+that overcomes the limitations of the first law of thermodynamics.
+This analysis reveals the sites of energy degradation in a process
+and it can contribute to improving a unit operation, a technology,
+or a process. Therefore, exergetic analysis allows the evaluation
+and selection of different alternatives to enhance a process design,
+making it a suitable tool for the analysis of new technologies for
+advanced biofuel production.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup></p><p>To
+achieve a steady-state and constant flow process, four equilibrium
+equations must be applied to find the interactions of work and heat.
+These equations are the conservation of mass/matter principle presented
+in <xref rid="eq12" ref-type="disp-formula">eq <xref rid="eq12" ref-type="disp-formula">12</xref></xref>, the first
+law of thermodynamics presented in <xref rid="eq13" ref-type="disp-formula">eq <xref rid="eq13" ref-type="disp-formula">13</xref></xref>, the second law of thermodynamics presented in <xref rid="eq14" ref-type="disp-formula">eq <xref rid="eq14" ref-type="disp-formula">14</xref></xref>, and the global exergetic
+equilibrium presented in <xref rid="eq15" ref-type="disp-formula">eq <xref rid="eq15" ref-type="disp-formula">15</xref></xref>. The exergy for heat is determined by Carnot&#x02019;s efficiency,
+which is the portion of energy transferred from a heat source <italic>Q<sub>i</sub></italic> and it is transformed into work of a temperature <italic>T</italic> given at a reference temperature <italic>T</italic><sub>0</sub> (<xref rid="eq16" ref-type="disp-formula">eq <xref rid="eq16" ref-type="disp-formula">16</xref></xref>). The
+exergy for work is equal to the work itself as long as there are no
+changes in volume in the system (<xref rid="eq17" ref-type="disp-formula">eq <xref rid="eq17" ref-type="disp-formula">17</xref></xref>). The exergy of mass is defined in <xref rid="eq18" ref-type="disp-formula">eq <xref rid="eq18" ref-type="disp-formula">18</xref></xref>.</p><p>Physical exergy is associated
+with pressure, temperature, enthalpy,
+and entropy, and it is defined as the work achievable by subjecting
+a substance to reversible physical processes from an initial temperature
+and pressure to the state determined by the pressure and temperature
+of the environment (<xref rid="eq19" ref-type="disp-formula">eq <xref rid="eq19" ref-type="disp-formula">19</xref></xref>). This exergy can vary according to the state or behavior of the
+stream. For a stream that behaves as an ideal gas with constant <italic>C<sub>p</sub></italic>, <xref rid="eq20" ref-type="disp-formula">eq <xref rid="eq20" ref-type="disp-formula">20</xref></xref> must be considered, and for a stream in a solid or liquid
+state with constant <italic>C<sub>p</sub></italic>, <xref rid="eq21" ref-type="disp-formula">eq <xref rid="eq21" ref-type="disp-formula">21</xref></xref> must be considered. Chemical exergy,
+on the other hand, connects the chemical exergy of each compound,
+its composition, and the free energy of Gibbs; this exergy is defined
+in <xref rid="eq22" ref-type="disp-formula">eq <xref rid="eq22" ref-type="disp-formula">22</xref></xref>. For a mixture,
+it is required to use <xref rid="eq23" ref-type="disp-formula">eq <xref rid="eq23" ref-type="disp-formula">23</xref></xref>.</p><p>Nevertheless, it is necessary to identify the total
+exergy inputs
+in a system or a step, <xref rid="eq24" ref-type="disp-formula">eq <xref rid="eq24" ref-type="disp-formula">24</xref></xref> is applied for this purpose, and it is defined based on the
+exergy of the incoming streams or flows and the exergetic contributions
+of the industrial utilities. The total exergy output considers product
+flows and residue flows (<xref rid="eq25" ref-type="disp-formula">eq <xref rid="eq25" ref-type="disp-formula">25</xref></xref>). The exergy destroyed is defined as the potential of the
+system to produce work that is unused; exergetic losses are irreversibilities
+provided in <xref rid="eq26" ref-type="disp-formula">eq <xref rid="eq26" ref-type="disp-formula">26</xref></xref> and
+are calculated, subtracting the exergies of the product flows from
+the total input exergies of a system. <xref rid="eq27" ref-type="disp-formula">Equations <xref rid="eq27" ref-type="disp-formula">27</xref></xref> and <xref rid="eq28" ref-type="disp-formula">28</xref> allow obtaining
+the exergetic efficiencies and the percentage of exergy destroyed
+for a stage regarding the remaining part of the process, respectively.</p><p>The exergetic return on investment (ExROI) is defined as the relationship
+between the exergy generated by the system and the exergy required
+to develop the system or process.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> Based
+on this definition, the equation for the exergetic return of investment
+is established, <xref rid="eq29" ref-type="disp-formula">eq <xref rid="eq29" ref-type="disp-formula">29</xref></xref>. The ExROI permits one to identify the exergetic return of a punctual
+process; as a comparative criterion of the study cases, the incremental
+exergetic return of investment (IExROI) is implemented, and this is
+a parameter used to determine whether the addition of stages and obtaining
+new products improve the exergetic return of a linear production chain
+or base case. It is represented in <xref rid="eq30" ref-type="disp-formula">eq <xref rid="eq30" ref-type="disp-formula">30</xref></xref> and correlates the exergy generated by the complementary
+system with the exergy required to build or develop the complementary
+system; this indicator is analogous to the IROI (incremental return
+on investment).<disp-formula id="eq12"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m012" position="anchor"/><label>12</label></disp-formula><disp-formula id="eq13"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m013" position="anchor"/><label>13</label></disp-formula><disp-formula id="eq14"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m014" position="anchor"/><label>14</label></disp-formula><disp-formula id="eq15"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m015" position="anchor"/><label>15</label></disp-formula><disp-formula id="eq16"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m016" position="anchor"/><label>16</label></disp-formula><disp-formula id="eq17"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m017" position="anchor"/><label>17</label></disp-formula><disp-formula id="eq18"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m018" position="anchor"/><label>18</label></disp-formula><disp-formula id="eq19"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m019" position="anchor"/><label>19</label></disp-formula><disp-formula id="eq20"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m020" position="anchor"/><label>20</label></disp-formula><disp-formula id="eq21"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m021" position="anchor"/><label>21</label></disp-formula><disp-formula id="eq22"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m022" position="anchor"/><label>22</label></disp-formula><disp-formula id="eq23"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m023" position="anchor"/><label>23</label></disp-formula><disp-formula id="eq24"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m024" position="anchor"/><label>24</label></disp-formula><disp-formula id="eq25"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m025" position="anchor"/><label>25</label></disp-formula><disp-formula id="eq26"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m026" position="anchor"/><label>26</label></disp-formula><disp-formula id="eq27"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m027" position="anchor"/><label>27</label></disp-formula><disp-formula id="eq28"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m028" position="anchor"/><label>28</label></disp-formula><disp-formula id="eq29"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m029" position="anchor"/><label>29</label></disp-formula><disp-formula id="eq30"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m030" position="anchor"/><label>30</label></disp-formula></p></sec><sec id="sec2.3"><label>2.3</label><title>Methodological Structure</title><p><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> illustrates
+the
+proposed methodology structure for the biorefinery synthesis through
+economic and exergetic incremental returns of the investment. As an
+initial step, a detailed bibliographic review is done to establish
+the main production process (linear chain) and various extensions
+to consider, and the data collection provides options for possible
+additions of a base case and the necessary information such as operating
+conditions, required equipment, specifications, input flow, raw material,
+and its properties, among other data of significant relevance for
+subsequent evaluations.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Flow chart of the proposed methodology.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0002" id="gr1" position="float"/></fig><p>After defining the case studies and creating the
+block diagrams,
+the proposed expansions are simulated. Computer-assisted simulation
+is used to establish the thermal requirements of the process flows
+and the equipment involved to produce the mass and energy balances,
+as well as to obtain data on the physical exergy.</p><p>Following
+the development of base case mass and energy balances,
+the economic evaluation and exergetic analysis of this first case
+are performed. At this point in the methodology, the economic indicators
+of the process, price of raw materials, ROI, and recovery period are
+already available. From the exergetic perspective, it is possible
+to establish the critical stages and identify the irreversibilities,
+as well as data on product exergy, input exergy, residue exergy, and
+industrial utility exergy, in addition to the overall efficiency of
+the process.</p><p>Now, the proposed case study mass and energy balances
+are made,
+following the economic evaluations and exergetic analysis on an incremental
+basis for each case. A comparative study on the behavior of the parameters
+concerning the suggested additions is undertaken. Then, it is feasible
+to specify the inefficient stages and to gain a broader view of the
+viability of the additions. To estimate the hybrid indicator of biorefinery
+sizing, it is necessary to calculate the incremental economic return
+on investment (IROI) and the incremental exergetic return on investment
+(IExROI). The results of the hybrid indicator determine the viability
+or percentage of improvement of a process concerning a previous one.</p></sec><sec id="sec2.4"><label>2.4</label><title>Description of Case Studies</title><p>The case
+under study consists of a biorefinery based on African palm, the growth,
+and importance of this palm in the country and is supported by numerous
+reports to assess the efficiency, viability, and particularly, the
+use of waste from its main process (production of palm oil) to achieve
+high value-added by-products. This project&#x02019;s case studies are
+specified as follows, where the block diagram presents the main stages
+and the input and output flow of the products, by-products, and residues
+(<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).<list list-type="bullet"><list-item><p>Base case: Plant with linear
+production chain for African
+palm oil.</p></list-item><list-item><p>Case 2: Biorefinery based on
+African palm for the production
+of palm oil, palm kernel oil, and palm cake.</p></list-item><list-item><p>Case 3: Biorefinery producing palm oil, palm kernel
+oil, palm cake, and hydrogen from African palm rachis.</p></list-item><list-item><p>Case 4: Biorefinery producing palm kernel oil, palm
+cake, hydrogen, biodiesel, and glycerin from African palm oil.</p></list-item></list></p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Block diagram of case studies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0003" id="gr2" position="float"/></fig><p>The base case, in blue, includes a plant with a linear production
+chain for African palm oil. Case study 2, in red, consists of an African
+palm-based biorefinery for the production of palm oil, palm kernel
+oil, and palm cake. Case 3, in green, incorporates the production
+of hydrogen using the African palm rachis, which was previously considered
+as a waste. Finally, case 4 compiles all the stages of the previous
+cases and additionally uses palm oil for the production of biodiesel
+and glycerin.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup></p><p><xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref> presents
+information to consider when calculating the technical-economic indicators
+of the case studies. In terms of location considerations, the discount
+rate, tax rate, wage costs, product costs, raw material costs, and
+other market factors have been applied under Colombian conditions.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Technical-Economic Considerations
+for Case Studies</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">base case</th><th colspan="2" align="center">case 2</th><th style="border:none;" align="center">case 3</th><th colspan="2" align="center">case 4</th></tr></thead><tbody><tr><td style="border:none;" align="left">processing
+capacity (t/year)</td><td colspan="6" align="left">240,000</td></tr><tr><td rowspan="2" style="border:none;" align="left">main product flow (t/year)</td><td style="border:none;" align="left">palm oil</td><td colspan="2" align="left">palm oil</td><td style="border:none;" align="left">palm oil</td><td colspan="2" align="left">biodiesel</td></tr><tr><td style="border:none;" align="left">40,560</td><td colspan="2" align="left">40,560</td><td style="border:none;" align="left">40,560</td><td colspan="2" align="left">40,000</td></tr><tr><td style="border:none;" align="left">raw material cost ($/t)</td><td colspan="6" align="left">77.18</td></tr><tr><td rowspan="2" style="border:none;" align="left">final product cost ($/kg)</td><td style="border:none;" align="left">palm oil</td><td style="border:none;" align="left">palm
+kernel oil</td><td style="border:none;" align="left">palm kernel
+cake</td><td style="border:none;" align="left">hydrogen</td><td style="border:none;" align="left">glycerol</td><td style="border:none;" align="left">biodiesel</td></tr><tr><td style="border:none;" align="left">0.83</td><td style="border:none;" align="left">1.74</td><td style="border:none;" align="left">0.15</td><td style="border:none;" align="left">6.00</td><td style="border:none;" align="left">0.65</td><td style="border:none;" align="left">0.94</td></tr><tr><td style="border:none;" align="left">plant life (years)</td><td colspan="6" align="left">15</td></tr><tr><td style="border:none;" align="left">salvage value</td><td colspan="6" align="left">10% of FCI depreciable</td></tr><tr><td style="border:none;" align="left">construction
+time of the plant (years)</td><td colspan="6" align="left">3 years</td></tr><tr><td style="border:none;" align="left">location</td><td colspan="6" align="left">Colombia</td></tr><tr><td style="border:none;" align="left">tax rate</td><td colspan="6" align="left">39%</td></tr><tr><td style="border:none;" align="left">discount
+rate</td><td colspan="6" align="left">8%</td></tr><tr><td style="border:none;" align="left">capacity operated</td><td colspan="6" align="left">50% the first year, 75% the second
+year, 100% the third year</td></tr><tr><td style="border:none;" align="left">subsidies ($/year)</td><td colspan="6" align="left">0</td></tr><tr><td style="border:none;" align="left">type
+of process</td><td colspan="3" align="left">proven processes</td><td colspan="3" align="left">new and unproven processes</td></tr><tr><td style="border:none;" align="left">process control</td><td colspan="6" align="left">digital</td></tr><tr><td style="border:none;" align="left">project type</td><td colspan="6" align="left">plant on undeveloped land</td></tr><tr><td style="border:none;" align="left">soil type</td><td colspan="6" align="left">soft clay</td></tr><tr><td style="border:none;" align="left">percentage of contingency (%)</td><td colspan="6" align="left">20</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec3"><label>3</label><title>Results and Discussion</title><sec id="sec3.1"><label>3.1</label><title>Economic Evaluation of Case Studies</title><p><xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref> specifies
+the individual costs that were considered for the TCI calculation
+in the base case. The most significant cost in the total capital investment
+consists of the purchase of the equipment; therefore, the FOB (free
+on board) price of the units involved in the production of palm oil
+was estimated according to the production capacity and process specifications.
+The cost of the equipment acquired is a sum of the FOB price estimated
+plus the transport price. The latter was assumed as 20% of the FOB
+price; this fraction is variable and depends on local taxes and geographical
+difficulties, among others. Installation costs represent 12% of the
+value of the equipment purchased.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref></sup></p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Total Capital Investment for Biorefinery</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">headings</th><th style="border:none;" align="center" char=".">base case (USD)</th><th style="border:none;" align="center" char=".">case 2 (USD)</th><th style="border:none;" align="center" char=".">case 3 (USD)</th><th style="border:none;" align="center" char=".">case 4 (USD)</th></tr></thead><tbody><tr><td style="border:none;" align="left">delivered purchased equipment cost</td><td style="border:none;" align="char" char=".">2,245,852</td><td style="border:none;" align="char" char=".">3,496,273</td><td style="border:none;" align="char" char=".">8,607,394</td><td style="border:none;" align="char" char=".">9,974,648</td></tr><tr><td style="border:none;" align="left">purchased equipment (installation)</td><td style="border:none;" align="char" char=".">673,755</td><td style="border:none;" align="char" char=".">1,048,882</td><td style="border:none;" align="char" char=".">2,582,218</td><td style="border:none;" align="char" char=".">2,992,394</td></tr><tr><td style="border:none;" align="left">instrumentation (installed)</td><td style="border:none;" align="char" char=".">269,502</td><td style="border:none;" align="char" char=".">419,553</td><td style="border:none;" align="char" char=".">1,032,887</td><td style="border:none;" align="char" char=".">1,196,958</td></tr><tr><td style="border:none;" align="left">piping (installed)</td><td style="border:none;" align="char" char=".">673,755</td><td style="border:none;" align="char" char=".">1,048,882</td><td style="border:none;" align="char" char=".">2,582,218</td><td style="border:none;" align="char" char=".">2,992,394</td></tr><tr><td style="border:none;" align="left">electrical (installed)</td><td style="border:none;" align="char" char=".">426,712</td><td style="border:none;" align="char" char=".">664,292</td><td style="border:none;" align="char" char=".">1,635,405</td><td style="border:none;" align="char" char=".">1,895,183</td></tr><tr><td style="border:none;" align="left">buildings (including services)</td><td style="border:none;" align="char" char=".">1,122,926</td><td style="border:none;" align="char" char=".">1,748,137</td><td style="border:none;" align="char" char=".">4,303,697</td><td style="border:none;" align="char" char=".">4,987,324</td></tr><tr><td style="border:none;" align="left">services facilities (installed)</td><td style="border:none;" align="char" char=".">898,341</td><td style="border:none;" align="char" char=".">1,398,509</td><td style="border:none;" align="char" char=".">3,442,958</td><td style="border:none;" align="char" char=".">3,989,859</td></tr><tr><td style="border:none;" align="left">total DFCI</td><td style="border:none;" align="char" char=".">6,310,843</td><td style="border:none;" align="char" char=".">9,824,528</td><td style="border:none;" align="char" char=".">24,186,777</td><td style="border:none;" align="char" char=".">28,028,760</td></tr><tr><td style="border:none;" align="left">land</td><td style="border:none;" align="char" char=".">224,585</td><td style="border:none;" align="char" char=".">349,627</td><td style="border:none;" align="char" char=".">860,739</td><td style="border:none;" align="char" char=".">997,465</td></tr><tr><td style="border:none;" align="left">yard improvements</td><td style="border:none;" align="char" char=".">898,341</td><td style="border:none;" align="char" char=".">1,398,509</td><td style="border:none;" align="char" char=".">3,442,958</td><td style="border:none;" align="char" char=".">3,989,859</td></tr><tr><td style="border:none;" align="left">engineering and supervision</td><td style="border:none;" align="char" char=".">1,167,843</td><td style="border:none;" align="char" char=".">1,818,062</td><td style="border:none;" align="char" char=".">4,475,845</td><td style="border:none;" align="char" char=".">5,186,817</td></tr><tr><td style="border:none;" align="left">equipment (R + D)</td><td style="border:none;" align="char" char=".">224,585</td><td style="border:none;" align="char" char=".">349,627</td><td style="border:none;" align="char" char=".">860,739</td><td style="border:none;" align="char" char=".">997,465</td></tr><tr><td style="border:none;" align="left">construction expenses</td><td style="border:none;" align="char" char=".">763,590</td><td style="border:none;" align="char" char=".">1,188,733</td><td style="border:none;" align="char" char=".">2,926,514</td><td style="border:none;" align="char" char=".">3,391,380</td></tr><tr><td style="border:none;" align="left">legal expenses</td><td style="border:none;" align="char" char=".">22,459</td><td style="border:none;" align="char" char=".">34,963</td><td style="border:none;" align="char" char=".">86,074</td><td style="border:none;" align="char" char=".">99,746</td></tr><tr><td style="border:none;" align="left">contractors&#x02019;
+fee</td><td style="border:none;" align="char" char=".">441,759</td><td style="border:none;" align="char" char=".">687,717</td><td style="border:none;" align="char" char=".">1,693,074</td><td style="border:none;" align="char" char=".">1,962,013</td></tr><tr><td style="border:none;" align="left">contingency</td><td style="border:none;" align="char" char=".">1,347,511</td><td style="border:none;" align="char" char=".">2,097,764</td><td style="border:none;" align="char" char=".">5,164,436</td><td style="border:none;" align="char" char=".">5,984,789</td></tr><tr><td style="border:none;" align="left">total IFCI</td><td style="border:none;" align="char" char=".">5,090,672</td><td style="border:none;" align="char" char=".">7,925,002</td><td style="border:none;" align="char" char=".">19,510,380</td><td style="border:none;" align="char" char=".">22,609,534</td></tr><tr><td style="border:none;" align="left">fixed capital investment
+(FCI)</td><td style="border:none;" align="char" char=".">11,401,515</td><td style="border:none;" align="char" char=".">17,749,530</td><td style="border:none;" align="char" char=".">43,697,157</td><td style="border:none;" align="char" char=".">50,638,293</td></tr><tr><td style="border:none;" align="left">working
+capital (WC)</td><td style="border:none;" align="char" char=".">9,121,212</td><td style="border:none;" align="char" char=".">14,199,624</td><td style="border:none;" align="char" char=".">34,957,726</td><td style="border:none;" align="char" char=".">40,510,635</td></tr><tr><td style="border:none;" align="left">start-up (SU)</td><td style="border:none;" align="char" char=".">1,140,151</td><td style="border:none;" align="char" char=".">1,774,953</td><td style="border:none;" align="char" char=".">4,369,716</td><td style="border:none;" align="char" char=".">5,063,829</td></tr><tr><td style="border:none;" align="left">total capital investment (TCI)</td><td style="border:none;" align="char" char=".">21,662,878</td><td style="border:none;" align="char" char=".">33,724,107</td><td style="border:none;" align="char" char=".">83,024,598</td><td style="border:none;" align="char" char=".">96,212,757</td></tr></tbody></table></table-wrap><p>Economic indicators
+resulting from the analysis of the processes
+under study are presented in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>. These results permit us to compare each case and
+obtain a clearer vision in making final investment decisions.</p><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Results of Economic Indicators for
+Biorefinery</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">indicators</th><th style="border:none;" align="center">base case</th><th style="border:none;" align="center">case 2</th><th style="border:none;" align="center">case 3</th><th style="border:none;" align="center">case 4</th></tr></thead><tbody><tr><td style="border:none;" align="left">gross
+profit (GP)</td><td style="border:none;" align="left">5,309,033</td><td style="border:none;" align="left">13,183,779</td><td style="border:none;" align="left">47,473,822</td><td style="border:none;" align="left">51,140,611</td></tr><tr><td style="border:none;" align="left">gross profit (depreciation) (DGP)</td><td style="border:none;" align="left">4,623,445</td><td style="border:none;" align="left">12,362,957</td><td style="border:none;" align="left">44,846,254</td><td style="border:none;" align="left">48,095,663</td></tr><tr><td style="border:none;" align="left">profit after taxes (PAT)</td><td style="border:none;" align="left">3,505,890</td><td style="border:none;" align="left">8,149,404</td><td style="border:none;" align="left">29,983,783</td><td style="border:none;" align="left">32,383,302</td></tr><tr><td style="border:none;" align="left">products (revenues)</td><td style="border:none;" align="left">33,664,800</td><td style="border:none;" align="left">43,524,941</td><td style="border:none;" align="left">100,644,941</td><td style="border:none;" align="left">108,318,941</td></tr><tr><td style="border:none;" align="left">economic potential ($/year) 1</td><td style="border:none;" align="left">15,131,106</td><td style="border:none;" align="left">24,991,247</td><td style="border:none;" align="left">82,111,247</td><td style="border:none;" align="left">89,785,247</td></tr><tr><td style="border:none;" align="left">economic potential ($/year) 2</td><td style="border:none;" align="left">14,157,016</td><td style="border:none;" align="left">23,795,510</td><td style="border:none;" align="left">70,908,653</td><td style="border:none;" align="left">78,020,968</td></tr><tr><td style="border:none;" align="left">economic potential ($/year) 3</td><td style="border:none;" align="left">5,309,033</td><td style="border:none;" align="left">12,474,630</td><td style="border:none;" align="left">47,473,822</td><td style="border:none;" align="left">51,140,611</td></tr><tr><td style="border:none;" align="left">cumulative cash flow (CCF) (1/year)</td><td style="border:none;" align="left">0.25</td><td style="border:none;" align="left">0.37</td><td style="border:none;" align="left">0.57</td><td style="border:none;" align="left">0.53</td></tr><tr><td style="border:none;" align="left">depreciation payback period (DPBP) (years)</td><td style="border:none;" align="left">6.69</td><td style="border:none;" align="left">5.36</td><td style="border:none;" align="left">3.75</td><td style="border:none;" align="left">2.91</td></tr><tr><td style="border:none;" align="left">%ROI</td><td style="border:none;" align="left">16.18%</td><td style="border:none;" align="left">23.80%</td><td style="border:none;" align="left">36.11%</td><td style="border:none;" align="left">33.66%</td></tr><tr><td style="border:none;" align="left">NPV (MM$)</td><td style="border:none;" align="left">8.03</td><td style="border:none;" align="left">27.89</td><td style="border:none;" align="left">148.83</td><td style="border:none;" align="left">153.95</td></tr><tr><td style="border:none;" align="left">annual cost/revenue</td><td style="border:none;" align="left">0.58</td><td style="border:none;" align="left">3.26</td><td style="border:none;" align="left">17.39</td><td style="border:none;" align="left">17.99</td></tr><tr><td style="border:none;" align="left">IROI</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">37.47%</td><td style="border:none;" align="left">42.98%</td><td style="border:none;" align="left">18.19%</td></tr></tbody></table></table-wrap><p>The progressive increase in profits is remarkable
+as more units
+are aggregated, especially when adding the stages for hydrogen production
+in case 3; hydrogen is the highest value product.</p><p>In addition,
+it is crucial to analyze other indicators such as
+return on investment (ROI) and years of return on investment; these
+do not exhibit the same progressive behavior as the other indicators.
+Results indicate that they decrease in the last case, leading to a
+lower return on investment at the end of the 15 years in case 4. Special
+care must be given to the return on investment (ROI) since this parameter
+analyzes each case in a specific manner, not in a progressive manner,
+i.e., the ROI does not consider the expansion from one plant to another;
+therefore, the values obtained do not provide a perspective of improvement
+compared to a previous project. In this sense, the incremental return
+of investment (IROI) is implemented, a parameter that accounts for
+both the TCI of the projects under study and the addition of new units. <xref rid="eq11" ref-type="disp-formula">Equation <xref rid="eq11" ref-type="disp-formula">11</xref></xref> was fundamental
+to obtain the IROI of the expansions studied.</p><p>It is observed
+that as the residues are valorized, the incidence
+in the IROI is favorable. In case 2, when using the press cake to
+transform it into palm kernel oil and palm cake, the improvement is
+37.47%. Similar behavior is experienced in case 3 using another waste
+(rachis) from the base case in the production of hydrogen; at this
+point, three by-products have been achieved from two wastes and it
+is reflected in the progressive increase in IROI. Case 4 implementation
+compared to case 3 demonstrates a less favorable behavior in IROI,
+with a percentage of improvement of 18.19%, since this expansion does
+not suggest the use of another waste. Although the production of biodiesel
+and glycerin has palm oil as a raw material (product in the previous
+cases) and the commercial value of biodiesel is higher than palm oil,
+the IROI under the considerations made in this work does not justify
+this investment.</p><p>In support of the current literature, it is
+important to note that
+&#x0201c;any project that requires additional capital expenditure beyond
+a base case must be justified by a supplementary profit that meets
+the company&#x02019;s ROI&#x0201d;.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Now,
+the IROI is the most important parameter to analyze the relevance
+of adding stages or processes to a base case from an economic perspective;
+also, from this indicator, it is possible to determine a stopping
+criterion for progressive projects.</p><p><xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> depicts
+the behavior of cash flow during the construction and operation time
+of the biorefineries studied. Cases 3 and 4 reach a positive net present
+value (NPV) from the fifth year of operation of the plant, i.e., the
+investor recovers the investment at the end of year 4; in this period,
+it has already paid all expenses and discounted the annual rate of
+8%.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Cash flow diagram for the four case studies</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0004" id="gr3" position="float"/></fig></sec><sec id="sec3.2"><label>3.2</label><title>Exergetic Evaluation of the Case Studies</title><p><xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> illustrates,
+in addition to the total irreversibilities of the case studies, the
+exergy of utilities and exergy of waste.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Overall results of the
+case studies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0005" id="gr4" position="float"/></fig><p>The total exergy destroyed from
+the base case is 139,813 MJ/h,
+while case 2 presents a slight reduction of 6631 MJ/h. Now, it is
+evident that cases 3 and 4 exhibit high data of irreversibilities
+compared to the first two plants under study; 1,552,763 and 2, 838,404
+MJ/h are the values, respectively. These values of unused useful energy
+are closely related to the exergetic losses due to residues in the
+different expansions, which increase in the final cases.</p><p>A highly
+favorable alternative, however, would be to recover selexol
+for commercial or reuse purposes. The exegetical requirements for
+industrial utilities are also increasing especially for the process
+of hydrogen, biodiesel, and glycerin production. The gasification
+stage contributes significantly to this increase due to their high
+requirements in terms of heat and work exergy. Therefore, it is not
+appropriate at this time to establish a criterion to determine the
+application or viability of the cases under study. Each of the proposals
+has been evaluated individually and it has been possible to determine
+the critical stages to suggest potential improvements.</p><p><xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> represents
+the contribution in percentages of the major stages to the total irreversibilities
+for the proposed case studies. In case 1, the stages that report the
+greatest exergy destruction are sterilization, threshing, and pressing.
+These three stages together represent 96.26% of exergy destruction,
+and by implementing proposal 2 for waste use in the pressing unit,
+this stage goes from an exergy efficiency of 90.42% to 99.53%, demonstrating
+its low contribution to the total exergy destroyed in case 2.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Contribution
+to the total irreversibilities of the main stages</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0006" id="gr5" position="float"/></fig><p>It is also remarkable that peel separation, centrifugation, threshing,
+and esterification present the highest percentages of irreversibilities
+in the second case study. These stages contain outputs not used (waste),
+which justifies their contribution to total irreversibilities. The
+last three stages mentioned present a greater contribution in terms
+of percentage. It is pertinent to clarify that the data on irreversibilities
+in these stages remain the same, but the percentages increase since
+100% of total exergy destroyed in case 2 has decreased compared to
+case 1, and the contribution of pressing is less due to the recovery
+of its waste and the added stages are very efficient (all above 95%
+except for shell separation, which is 75.76%).</p><p>Hydrogen production
+from the rachis is the focus of the third case
+study. Using this residue, the fruiting stage goes from 82,587.97
+MJ/h of exergy destroyed to 68,381.04 MJ/h; its contribution to the
+irreversibilities of case 3 is relatively low, although the exergy
+of the input used is slightly higher. This low contribution is mostly
+due to the implementation of two very inefficient exergetic stages
+that generally affect case 3: indirect gasification and hydrogen purification,
+with exergetic efficiencies of 42.25 and 18.59%, respectively; the
+first is inefficient due to its complexity in operating conditions
+and requirements of additional industrial utilities and the second
+is inefficient due to the output stream that does not contain a product
+and represents a higher flow compared to the hydrogen output stream.
+The inefficient stages of case 3 contribute considerably to the total
+irreversibilities of proposal 4, where a heating stage and transesterification
+provide for total exergetic destruction.</p><p><xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> illustrates
+the overall exergetic efficiency of each case study. The overall exergetic
+efficiencies present a behavior that is not expected, and the implementation
+of new stages for residue utilization should decrease the exergetic
+losses by residues and therefore increase the overall exergetic efficiency
+of the process as it occurs when case 2 is implemented through the
+production of palm kernel oil and palm cake from palm kernel cake
+(residue of the base case); however, a completely different panorama
+is emerging when implementing cases 3 and 4.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Overall exergetic efficiencies
+of case studies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_0007" id="gr6" position="float"/></fig><p>Case 3 suggests the use
+of the rachis by adding the necessary units
+for hydrogen production; these stages include gasifiers, HTS and LTS
+reactors, an adsorption column for hydrogen purification, and a desorption
+column for selexol recovery, among other equipment. The overall exergetic
+efficiency tends to decrease, a result that can be attributed to the
+number of waste streams where the exergetic potential of biomass and
+the necessary industrial utilities are not exploited. The criterion
+of incremental exergetic return of the investment (IExROI) is now
+developed to analyze the viability or pertinence of adding stages
+to a base case in terms of energy.</p><p><xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref> contains
+information of interest for the IExROI calculations of each case study.
+The product exergy is constituted by the sum of mass exergies of the
+product streams, while the required exergy is composed of the raw
+material stream exergies, the overall process inputs, and the industrial
+service exergy required for each stage in the suggested extensions.</p><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>IExROI Data for the Case Studies</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">base case</th><th style="border:none;" align="center">case 2</th><th style="border:none;" align="center">case 3</th><th style="border:none;" align="center">case 4</th></tr></thead><tbody><tr><td style="border:none;" align="left">product exergy (MJ/h)</td><td style="border:none;" align="left">202,216</td><td style="border:none;" align="left">222,053</td><td style="border:none;" align="left">345,160</td><td style="border:none;" align="left">262,729</td></tr><tr><td style="border:none;" align="left">exergy required (MJ/h)</td><td style="border:none;" align="left">342,434</td><td style="border:none;" align="left">355,006</td><td style="border:none;" align="left">1,894,039</td><td style="border:none;" align="left">2,993,538</td></tr><tr><td style="border:none;" align="left">IExROI</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">158%</td><td style="border:none;" align="left">8%</td><td style="border:none;" align="left">&#x02013;7%</td></tr></tbody></table></table-wrap><p>Implementing case 2 to the linear
+production chain provides significant
+improvements. The additional exergy required to apply this case is
+12,571.82 MJ/h, while in the products, it goes from using 202,216
+MJ/h to 222,053 MJ/h. The total products of case 2 increase by 19,836.96
+MJ/h in comparison with palm oil (the only product in the base case),
+and then the percentage of improvement of case 2 concerning the base
+case is 158%, a considerably high value, although it is justified
+since it increases to a greater extent the exergetic use of products
+with no need to add a larger amount of exergy required; in other words,
+the numerator (exergetic difference of products) is greater than the
+difference in the denominator, which allows an improvement that exceeds
+100%.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup></p><p>Case 3 application is 8%
+higher than case 2. The additional exergetic
+requirements of proposal 3 exceed the use of exergy reflected in the
+products, i.e., to increase 123,106.52 MJ/h in the products, it is
+necessary to add 1,539,032.64 MJ/h (exergy required). Taking into
+account the fact that the hydrogen production process involves large
+amounts of exergy in terms of industrial profits, global input flows,
+and considerable waste outputs, these factors make the process critical
+as a proposal for improvement of case 2. However, the IExROI should
+not be, by itself, a criterion to determine the application of the
+case; it is very important to consider other factors such as economic
+factor, for example, to establish its feasibility from different aspects
+of interest.</p><p>A particular case is proposal 4 to enhance case
+3: the results
+are not favorable from the exergetic point of view. In this case,
+biodiesel and glycerin obtained from palm oil (the product in the
+previous cases) are not being used. The total exergy of these two
+new products is 119,785.92 MJ/h and does not exceed the exergy of
+palm oil (202,216.20 MJ/h), which implies that there is no increase
+in exergy of the products when implementing this new case despite
+the addition of 1,099,498.98 MJ/h for the production and purification
+processes of biodiesel and glycerin. The application of case 4 is
+not viable as a prospect for the utilization of useful energy.</p></sec><sec id="sec3.3"><label>3.3</label><title>Implementation of Exergonomic Weighted Incremental
+Return on Investment as a Stopgap Criterion for Biorefinery Synthesis</title><p>The hybrid parameter as a dimensioning criterion for biorefineries
+with economic and exergetic incremental investment indicators (final
+objective of this project) is based on the approach presented by El-Halwagi.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> The mathematical approach is described below,
+where ExWROI is the exergo-economic weighted incremental return of
+the investment<disp-formula id="eq31"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m031" position="anchor"/><label>31</label></disp-formula></p><p>Subindex 2 corresponds
+to the proposed extension and subindex 1 to the previous case.</p><p>PAT<sub>2</sub> &#x02013; PAT<sub>1</sub> is the difference between
+the annualized after-tax profits of the evaluated cases.</p><p>TCI<sub>2</sub> &#x02013; TCI<sub>1</sub> is the total invested
+capital of the proposed expansion subtracted from the total invested
+capital of the preceding case.</p><p><italic>w<sub>i</sub></italic> is a weighted factor that indicates
+the relative importance of the parameter incorporated; for this project,
+it will be assumed as 1, maintaining equality of importance between
+the economic and exergetic criteria. This value can be defined by
+the company.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup></p><p>IExROI<sub>P</sub> is the exergetic incremental return of proposal
+P over the previous case.</p><p>IExROI* is the objective incremental
+exergetic return of the project;
+it can be established as the highest IExROI of the suggested proposals
+or it can be established by the company as a target.</p><p><inline-formula id="d33e1369"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m032.gif"/></inline-formula> represents the fractional contribution
+of the incremental exergetic return in the design, which will be represented
+with &#x003b2;.</p><p>To obtain a formulation of the ExWROI as a function
+of IExROI and
+IROI, <xref rid="eq32" ref-type="disp-formula">eq <xref rid="eq32" ref-type="disp-formula">32</xref></xref> is developed.<disp-formula id="eq32"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m033" position="anchor"/><label>32</label></disp-formula></p><p>Finally, the equation
+will be set as follows<disp-formula id="eq33"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao0c04782_m034" position="anchor"/><label>33</label></disp-formula></p><p>It
+is important to highlight the following:<list list-type="bullet"><list-item><p>The IExWROI is a parameter that integrates the conventional
+IROI calculations, generating a value of easy interpretation in the
+decision-making.</p></list-item><list-item><p>In case the fractional
+contribution of the incremental
+exergetic return becomes zero, the IExWROI will be equal to the economic
+IROI.</p></list-item><list-item><p>The IExROIP does not necessarily
+have to be a positive
+value since project P is an improvement project and is not always
+driven by favorable values. The exergetic indicator can generate a
+positive, negative, or zero impact on the IROI; in this sense, the
+IExROI can be greater, less, or equal to the IROI.</p></list-item><list-item><p>If the IExWROI is lower than the IROI, then the company
+can exclude the project based on the fact that the exergetic indicator
+affects the IROI. Conversely, if the IExWROI is higher than the IROI,
+indicating a positive impact, then the project can be approved.</p></list-item></list></p><p>Since the incremental exergetic return of
+case 2 is the highest
+(158%), it was established as the objective IExROI* indicator for
+the project. According to the results presented in <xref rid="tbl5" ref-type="other">Table <xref rid="tbl5" ref-type="other">5</xref></xref>, it is possible to identify
+first the behavior of the exergo-economic weighted incremental return
+of the investment for case 2, an extension that represents an improvement
+of 75% compared to case 1. In this initial value, the positive effect
+of the incremental exergetic criterion on the incremental economic
+return is notorious; the extension proposed in case 2 should be approved
+as it exceeds the IROI of the project.</p><table-wrap id="tbl5" position="float"><label>Table 5</label><caption><title>IExWROI
+Data for Case Studies</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">indicator</th><th style="border:none;" align="center">case 1</th><th style="border:none;" align="center">case 2</th><th style="border:none;" align="center">case 3</th><th style="border:none;" align="center">case 4</th></tr></thead><tbody><tr><td style="border:none;" align="left">IROI</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">37.47%</td><td style="border:none;" align="left">42.98%</td><td style="border:none;" align="left">18.19%</td></tr><tr><td style="border:none;" align="left">IExROI</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">158%</td><td style="border:none;" align="left">8%</td><td style="border:none;" align="left">&#x02013;7%</td></tr><tr><td style="border:none;" align="left"><italic>w<sub>i</sub></italic></td><td style="border:none;" align="left">1</td><td style="border:none;" align="left">1</td><td style="border:none;" align="left">1</td><td style="border:none;" align="left">1</td></tr><tr><td style="border:none;" align="left">IExWROI</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">75%</td><td style="border:none;" align="left">45%</td><td style="border:none;" align="left">17%</td></tr></tbody></table></table-wrap><p>The IExWROI for case
+3 against proposal 2 contributes to a 45%
+improvement. In this case, the positive effect of the exergetic criterion
+was not very pronounced and is reasonable since, from a merely exergetic
+perspective, case 3 contributes only 8% over case 2; this project
+can be approved as it is superior to the IROI of extension 3. Case
+4 presents a particular condition: the IExROI is negative. From an
+exergetic point of view, it is not convenient to approve the extension.
+Now, the IExWROI gives an idea of the contribution of this exergetic
+criterion regarding the IROI of the last case. The new parameter is
+lower than the IROI, which confirms its negative effect and the punctual
+reason to avoid extension 4. The IExWROI is an appropriate indicator
+to evaluate, in a comparative manner, the performance of a proposed
+extension, becoming a useful tool for perspectives of improvement
+and process development.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> It also allows
+the assessment and articulation of energy and economic efficiency
+indicators, two aspects that are currently indispensable to determine
+the viability of a project. IExWROI provides details of synthesis
+and selection of design alternatives, cost&#x02013;benefit analysis,
+and exergetic use of extensions proposed under the concept of biorefineries.</p></sec></sec><sec id="sec4"><label>4</label><title>Conclusions</title><p>This work is focused on the development
+of a methodology that provides
+a new parameter for the stopping criteria against the proposal of
+extensions in a biorefinery; this parameter is based on the return
+of incremental economic and exergetic returns on the investment and
+also allows one to determine the viability of the studied proposal.
+For this project, an African palm biorefinery is taken as a base.
+Four study proposals were established: a base case or a palm oil-producing
+plant and three proposals for extensions defined under aspects of
+waste use and increased value added to products. The production of
+palm kernel oil, palm cake, and hydrogen allows the exploration of
+residues with great economic and energy potential; the units necessary
+for the production of biodiesel and glycerin provide an added value
+to palm oil as evidenced in the proposed expansion 4.</p><p>Economic
+analyses show improvements in the value of their products
+as the waste is valued, with an IROI of 42.98%. Case 3 is shown as
+the best expansion in economic terms, while with 18.19%, case 4 is
+the expansion with the least contribution to economic performance;
+under the conditions of the project, the expansion of the plant from
+an already established product is not justified as in case 4. In exergy
+aspects, case 2 with an IExROI of 158% is presented as the best alternative
+with more efficient stages and sustainability, while case 4 with an
+incremental return of &#x02212;7% shows its low contribution to exergy
+use compared to the case studies. Exergy evaluations are strongly
+affected by the destruction of exergy by residues and inefficiencies
+in the stages. Case 4 is unfavorable for both parameters because the
+expansion does not propose an improvement on waste; it is also evident
+that waste losses have a considerable influence on the overall efficiency
+of the processes.</p><p>The implementation of the IExWROI yields improvements
+for cases
+2 and 3 concerning the IROI of 38 and 2%, respectively, and case 2
+represents the best topology with a maximum percentage of 75%, the
+impact of the IExROI in case 4. Due to the low exergetic efficiency,
+it leads to a negative contribution, where the IExWROI is lower than
+the IROI, with this being the stopping criterion in the synthesis
+of the biorefinery studied. The applied methodology allows obtaining
+a stopping criterion by integrating exercise and economic incremental
+parameters. The IExWROI provides logical results, is easy to interpret,
+and is comparable with the IROI to determine its feasibility. Then,
+the parameter allows us to determine the best topology of different
+proposals of extensions to a case of linear production.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup></p><p>To improve the rigor and precision of
+this methodology in the synthesis
+of biorefineries, future research is recommended where this method
+is evaluated with other case studies, for example, biorefineries based
+on sugar cane or corn and/or application of new adjustments and considerations.
+In addition, more indicators can be included in this parameter such
+as environmental or safety indicators. We study in detail the production
+of hydrogen and propose improvements in the tentative resulting process
+because it is a good alternative economically. Finally, the order
+in which the extensions or proposals are raised can be studied, determining
+whether it affects the hydride indicator IExWROI.</p></sec></body><back><notes notes-type="COI-statement" id="NOTES-d7e3110-autogenerated"><p>The
+authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors thank the University of Cartagena for
+providing the equipment and software necessary to successfully complete
+this work.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="book" id="cit1"><person-group person-group-type="allauthors"><collab>FINAGRO</collab></person-group>. <source>Informe de Gestion Sotenible</source>; <publisher-name>FINAGRO</publisher-name>: <year>2015</year>, 105.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Gulum</surname><given-names>M.</given-names></name>; <name><surname>Bilgin</surname><given-names>A.</given-names></name>
+<article-title>An experimental optimization research of methyl and
+ethyl esters production from safflower oil</article-title>. <source>Environ. Clim. Technol.</source>
+<year>2018</year>, <volume>22</volume>, <fpage>132</fpage>&#x02013;<lpage>148</lpage>. <pub-id pub-id-type="doi">10.2478/rtuect-2018-0009</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Figueroa-Jimenez</surname><given-names>S.</given-names></name>; <name><surname>Gamarra-Torres</surname><given-names>J.</given-names></name>; <name><surname>Bonilla-Correa</surname><given-names>D.</given-names></name>; <name><surname>Peralta-Ruiz</surname><given-names>Y.</given-names></name>
+<article-title>Evaluation
+of biodiesel production process from palm oil (Eleais Guineensis)
+using exergy analysis methodology</article-title>. <source>Chem. Eng.
+Trans.</source>
+<year>2015</year>, <volume>43</volume>, <fpage>529</fpage>&#x02013;<lpage>534</lpage>. <pub-id pub-id-type="doi">10.3303/CET1543089</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Meramo-Hurtado</surname><given-names>S. I.</given-names></name>; <name><surname>Sanchez-Tuiran</surname><given-names>E.</given-names></name>; <name><surname>Ponce-Ortega</surname><given-names>J. M.</given-names></name>; <name><surname>El-Halwagi</surname><given-names>M. M.</given-names></name>; <name><surname>Ojeda-Delgado</surname><given-names>K. A.</given-names></name>
+<article-title>Synthesis
+and Sustainability Evaluation of a Lignocellulosic
+Multifeedstock Biorefinery Considering Technical Performance Indicators</article-title>. <source>ACS Omega</source>
+<year>2020</year>, <volume>5</volume>, <fpage>9259</fpage>&#x02013;<lpage>9275</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.0c00114</pub-id>.<pub-id pub-id-type="pmid">32363277</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Cherubini</surname><given-names>F.</given-names></name>
+<article-title>The biorefinery
+concept: Using biomass instead of oil for producing energy and chemicals</article-title>. <source>Energy Convers. Manage.</source>
+<year>2010</year>, <volume>51</volume>, <fpage>1412</fpage>&#x02013;<lpage>1421</lpage>. <pub-id pub-id-type="doi">10.1016/j.enconman.2010.01.015</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Su</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>Zhang</surname><given-names>A.</given-names></name>; <name><surname>Shao</surname><given-names>W.</given-names></name>
+<article-title>Biorefinery: The production
+of isobutanol from biomass feedstocks</article-title>. <source>Appl.
+Sci.</source>
+<year>2020</year>, <volume>10</volume>, <fpage>8222</fpage><pub-id pub-id-type="doi">10.3390/app10228222</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Ni&#x000f1;o-Villalobos</surname><given-names>A.</given-names></name>; <name><surname>Puello-yarce</surname><given-names>J.</given-names></name>; <name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>&#x000c1;.</given-names></name>; <name><surname>Ojeda</surname><given-names>K. A.</given-names></name>; <name><surname>S&#x000e1;nchez-Tuir&#x000e1;n</surname><given-names>E.</given-names></name>
+<article-title>Biodiesel
+and Hydrogen Production
+in a Combined Palm and Jatropha Biomass Biore fi nery : Simulation
+, Techno-Economic , and Environmental Evaluation</article-title>. <source>ACS Omega</source>
+<year>2020</year>, <fpage>7074</fpage><pub-id pub-id-type="doi">10.1021/acsomega.9b03049</pub-id>.<pub-id pub-id-type="pmid">32280848</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="book" id="cit8"><person-group person-group-type="allauthors"><collab>Fedepalma</collab></person-group>. <source>Informe de Gesti&#x000f3;n de Fedepalma 2016</source>; <publisher-name>Fedepalma</publisher-name>: <year>2016</year>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Per&#x000e9;z</surname><given-names>D. L.</given-names></name>; <name><surname>Luna</surname><given-names>E. J.</given-names></name>; <name><surname>Gonz&#x000e1;lez-delgado</surname><given-names>A. D.</given-names></name>; <name><surname>Peralta-ruiz</surname><given-names>Y. Y.</given-names></name>
+<article-title>Valorisation
+of palm oil crop residues through hydrogen production using computer
+aided</article-title>. <source>Process Eng.</source>
+<year>2016</year>, <volume>52</volume>, <fpage>3989</fpage>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>Q.</given-names></name>; <name><surname>Tao</surname><given-names>J.</given-names></name>; <name><surname>Yan</surname><given-names>B.</given-names></name>; <name><surname>Chen</surname><given-names>G.</given-names></name>
+<article-title>Experimental
+and Comprehensive Evaluation of Vegetable Oils for Biomass Tar Absorption</article-title>. <source>ACS Omega</source>
+<year>2020</year>, <volume>5</volume>, <fpage>19579</fpage>&#x02013;<lpage>19588</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.0c02050</pub-id>.<pub-id pub-id-type="pmid">32803052</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Wang</surname><given-names>D.</given-names></name>; <name><surname>Czernik</surname><given-names>S.</given-names></name>; <name><surname>Chornet</surname><given-names>E.</given-names></name>
+<article-title>98/02076 Production
+of hydrogen from
+biomass by catalytic steam reforming of fast pyrolysis oils</article-title>. <source>Fuel Energy Abstr.</source>
+<year>1998</year>, <volume>39</volume>, <fpage>188</fpage><pub-id pub-id-type="doi">10.1016/s0140-6701(98)80265-8</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>G&#x000fc;l&#x000fc;m</surname><given-names>M.</given-names></name>; <name><surname>Yesilyurt</surname><given-names>M. K.</given-names></name>; <name><surname>Bilgin</surname><given-names>A.</given-names></name>
+<article-title>The performance assessment of cubic
+spline interpolation and response surface methodology in the mathematical
+modeling to optimize biodiesel production from waste cooking oil</article-title>. <source>Fuel</source>
+<year>2019</year>, <volume>255</volume>, <fpage>115778</fpage><pub-id pub-id-type="doi">10.1016/j.fuel.2019.115778</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Nath</surname><given-names>K.</given-names></name>; <name><surname>Das</surname><given-names>D.</given-names></name>
+<article-title>Hydrogen from biomass</article-title>. <source>Curr. Sci.</source>
+<year>2003</year>, <volume>85</volume>, <fpage>265</fpage>&#x02013;<lpage>271</lpage>. <pub-id pub-id-type="doi">10.1016/b978-008043947-1/50003-x</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Bora</surname><given-names>R. R.</given-names></name>; <name><surname>Tao</surname><given-names>Y.</given-names></name>; <name><surname>Lehmann</surname><given-names>J.</given-names></name>; <name><surname>Tester</surname><given-names>J. W.</given-names></name>; <name><surname>Richardson</surname><given-names>R. E.</given-names></name>; <name><surname>You</surname><given-names>F.</given-names></name>
+<article-title>Techno-Economic Feasibility
+and Spatial Analysis of Thermochemical
+Conversion Pathways for Resgional Poultry Waste Valorization</article-title>. <source>ACS Sustainable Chem. Eng.</source>
+<year>2020</year>, <volume>8</volume>, <fpage>5763</fpage>&#x02013;<lpage>5775</lpage>. <pub-id pub-id-type="doi">10.1021/acssuschemeng.0c01229</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="book" id="cit15"><person-group person-group-type="allauthors"><name><surname>Lindorfer</surname><given-names>J.</given-names></name>; <name><surname>Lettner</surname><given-names>M.</given-names></name>; <name><surname>Hesser</surname><given-names>F.</given-names></name>; <name><surname>Fazeni</surname><given-names>K.</given-names></name>; <name><surname>Rosenfeld</surname><given-names>D.</given-names></name>; <name><surname>Annevelink</surname><given-names>B.</given-names></name>; <name><surname>Mandl</surname><given-names>M.</given-names></name></person-group><source>Technical, Economic and Environmental
+Assessment of Biorefinery Concepts</source>; <publisher-name>IEA</publisher-name>: <year>2019</year>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>El-Halwagi</surname><given-names>M. M.</given-names></name>
+<article-title>Overview
+of Process Economics</article-title>. <source>Sustain Des. Process Integr.</source>
+<year>2012</year>, <fpage>15</fpage>&#x02013;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/b978-1-85617-744-3.00002-3</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>&#x000c1;. D.</given-names></name>; <name><surname>Peralta-Ruiz</surname><given-names>Y. Y.</given-names></name>; <name><surname>Kafarov</surname><given-names>V.</given-names></name>
+<article-title>Ajuste experimental
+y evaluaci&#x000f3;n econ&#x000f3;mica de la extracci&#x000f3;n HBE de
+aceite de microalgas para biocombustibles y bioproductos Experimental
+adjustment and economic evaluation of HBE microalgae oil extraction
+for biofuels and bioproducts</article-title>. <source>Prospectiva</source>
+<year>2016</year>, <volume>14</volume>, <fpage>45</fpage>&#x02013;<lpage>52</lpage>. <pub-id pub-id-type="doi">10.15665/rp.v14i2.650</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Romero</surname><given-names>J. C.</given-names></name>; <name><surname>Vergara</surname><given-names>L. A.</given-names></name>; <name><surname>Peralta-Ruiz</surname><given-names>Y. Y.</given-names></name>; <name><surname>Conz&#x000e1;lez-Delgado</surname><given-names>A. D.</given-names></name>
+<article-title>A techno-economic
+sensitivity approach for development of a palm-based biorefineries
+in Colombia</article-title>. <source>Chem. Eng. Trans.</source>
+<year>2017</year>, <volume>57</volume>, <fpage>13</fpage>&#x02013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.3303/CET1757003</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Tsatsaronis</surname><given-names>G.</given-names></name>
+<article-title>Definitions
+and nomenclature in exergy analysis and exergoeconomics</article-title>. <source>Energy</source>
+<year>2007</year>, <volume>32</volume>, <fpage>249</fpage>&#x02013;<lpage>253</lpage>. <pub-id pub-id-type="doi">10.1016/j.energy.2006.07.002</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Peralta-Ruiz</surname><given-names>Y.</given-names></name>; <name><surname>Gonzalez-Delgadi</surname><given-names>A.-D.</given-names></name>; <name><surname>Kafarov</surname><given-names>V.</given-names></name>
+<article-title>Evaluation of alternatives for microalgae
+oil extraction based on exergy analysis</article-title>. <source>Appl.
+Energy</source>
+<year>2013</year>, <volume>101</volume>, <fpage>226</fpage>&#x02013;<lpage>236</lpage>. <pub-id pub-id-type="doi">10.1016/j.apenergy.2012.06.065</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Colombo</surname><given-names>E.</given-names></name>; <name><surname>Rocco</surname><given-names>M. V.</given-names></name>; <name><surname>Toro</surname><given-names>C.</given-names></name>; <name><surname>Sciubba</surname><given-names>E.</given-names></name>
+<article-title>An exergy-based approach
+to the joint economic and environmental impact assessment of possible
+photovoltaic scenarios: A case study at a regional level in Italy</article-title>. <source>Ecol. Modell.</source>
+<year>2015</year>, <volume>318</volume>, <fpage>64</fpage>&#x02013;<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2014.11.006</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>G&#x000fc;l&#x000fc;m</surname><given-names>M.</given-names></name>; <name><surname>Yesilyurt</surname><given-names>M. K.</given-names></name>; <name><surname>Bilgin</surname><given-names>A.</given-names></name>
+<article-title>The modeling and analysis of transesterification
+reaction conditions in the selection of optimal biodiesel yield and
+viscosity</article-title>. <source>Environ. Sci. Pollut. Res.</source>
+<year>2020</year>, <volume>27</volume>, <fpage>10351</fpage>&#x02013;<lpage>10366</lpage>. <pub-id pub-id-type="doi">10.1007/s11356-019-07473-0</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Perez
+Z&#x000fa;&#x000f1;iga</surname><given-names>D. L.</given-names></name>; <name><surname>Luna Barrios</surname><given-names>E. J.</given-names></name>; <name><surname>Peralta-Ruiz</surname><given-names>Y. Y.</given-names></name>; <name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>A. D.</given-names></name>
+<article-title>Techno-economic
+sensitivity of bio-hydrogen production from empty palm fruit bunches
+under colombian conditions</article-title>. <source>Chem. Eng. Trans.</source>
+<year>2016</year>, <volume>52</volume>, <fpage>1117</fpage>&#x02013;<lpage>1122</lpage>. <pub-id pub-id-type="doi">10.3303/CET1652187</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Vargas-Mira</surname><given-names>A.</given-names></name>; <name><surname>Zuluaga-Garc&#x000ed;a</surname><given-names>C.</given-names></name>; <name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>&#x000c1;. D.</given-names></name>
+<article-title>A Technical and Environmental Evaluation of Six Routes for Industrial
+Hydrogen Production from Empty Palm Fruit Bunches</article-title>. <source>ACS Omega</source>
+<year>2019</year>, <volume>4</volume>, <fpage>15457</fpage>&#x02013;<lpage>15470</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.9b01683</pub-id>.<pub-id pub-id-type="pmid">31572846</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Rocco</surname><given-names>M. V.</given-names></name>; <name><surname>Colombo</surname><given-names>E.</given-names></name>
+<article-title>Exergy Life Cycle Assessment
+of a Waste-to-Energy Plant</article-title>. <source>Energy Procedia.</source>
+<year>2016</year>, <volume>104</volume>, <fpage>562</fpage>&#x02013;<lpage>567</lpage>. <pub-id pub-id-type="doi">10.1016/j.egypro.2016.12.095</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Sengupta</surname><given-names>D.</given-names></name>
+<article-title>Sustainability
+in the context of process engineeringSengupta, D. (2019). Sustainability
+in the context of process engineering. Process Development Symposium
+2019: Developing Processes for Today and Tomorrow, 173&#x02013;203</article-title>. <source>Process Dev. Symp. 2019 Dev. Process Today Tomorrow</source>
+<year>2019</year>, <fpage>173</fpage>&#x02013;<lpage>203</lpage>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Meramo-Hurtado</surname><given-names>S. I.</given-names></name>; <name><surname>Gonz&#x000e1;lez-Delgado</surname><given-names>&#x000c1;. D.</given-names></name>
+<article-title>Aggregate/Weighted Global Sustainability
+and Exergy Metric for Assessing Emerging Transformation Technologies</article-title>. <source>ACS Sustainable Chem. Eng.</source>
+<year>2020</year>, <fpage>16637</fpage><pub-id pub-id-type="doi">10.1021/acssuschemeng.0c06046</pub-id>.</mixed-citation></ref></ref-list></back></article>

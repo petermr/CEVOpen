@@ -1,0 +1,5 @@
+0: The relationship between the mortality rate and the concentrations of the different oils tested was fitted with a Hill function using Scipy module of Python v.3.8.2 (Beaverton, OR, USA).
+1: This allowed us to estimate the LC50 (lethal concentration that produces 50% of mortality) and LC90 (lethal concentration that produces 90% of mortality).
+2: The Hill function is frequently used in different disciplines, from biochemistry and cellular biology to Physics [ 39] with the following Equation (1): (1)M=CnCn+Kn where  M is the mortality proportion;  C is the concentration of oil used;  K a threshold concentration value beyond which the mortality exceeds 50% (which corresponds to the LC50) and  n a cooperativity exponent.
+3: A value of  n that is larger than 1 signals the presence of cooperative processes between the concentration level and the propagation of the mortality inside the population.
+4: In order to calculate the resulting LC for an arbitrary proportion of the population by rearranging the previous Equation (1): (2)Cx= (Mx1Mx)1/nK which as in Equation (3) gives for the  LC90  (3)C90=LC90= 91/nK

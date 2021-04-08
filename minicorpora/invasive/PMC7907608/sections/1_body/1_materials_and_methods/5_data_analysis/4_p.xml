@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We log10-transformed the PSFs and MGRs. To fits statistical assumptions (i.e., normality and homogeneity of variance for the data set), we conducted bootstrapping (
+ <italic>n</italic> = 1,000) for the resulting mean and variance statistics of PSF and MGR. It was considered to be significantly positive or negative when their 95% confidence intervals (CIs) for the mean values did not overlap zero. Tukey’s HSD (
+ <italic>P</italic> &lt; 0.05) was used for multiple comparisons. Statistical procedures were conducted in R for Windows 3.3.3 (
+ <xref rid="B53" ref-type="bibr">R Development Core Team, 2016</xref>).
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0050">All GC-MS raw data were converted into NetCDF format and further processed using automated software for peak deconvolution (AMDIS). Compound identification was performed by comparing the ratios of mass-to-charge with a standard mass of NIST Mass Spectral 2008 library. Putative metabolites were assigned to peaks having similarity index of more than 70%. Peak alignment and peak area were obtained using Metabolomics Ion-based Data Extraction Algorithm, version 1.2.0 (MET-IDEA) software [
+ <xref rid="bib4" ref-type="bibr">4</xref>]. A dataset comprising compound name, retention time (RT), fragments 
+ <italic>m</italic>/
+ <italic>z</italic> and the associated peak areas was obtained. Data normalisation was carried out using MetaboAnalyst 4.0 [
+ <xref rid="bib5" ref-type="bibr">5</xref>]. Briefly, peak area was normalised to the internal standard, nanodecanoic acid, followed by log transformation and subjected to data scaling using auto scaling. One way analysis of variance (ANOVA) (SPSS version 22) was used to calculate statistical significance for each metabolite.
+</p>

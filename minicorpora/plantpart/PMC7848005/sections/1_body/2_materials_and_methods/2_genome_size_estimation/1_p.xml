@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">Flow cytometry was used to estimate the genome size of 
+ <italic>A. trifoliata</italic> according to the method described by Huang et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>. First, young fresh leaves of 
+ <italic>A. trifoliata</italic> were chopped in nuclear isolation buffer. The supernatant was filtered through a 50-μm CellTrics filter. After being treated with RNase, cell nuclei were stained with propidium iodide in the dark. The fluorescence intensity of the sample was determined using a flow cytometer (BD FACSVerse). Maize B73 was used as an internal standard. The genome size of 
+ <italic>A. trifoliata</italic> was evaluated by k-mer frequency analysis using Illumina short reads. After removing contaminants, the optimal k-mer size was analyzed using KmerGenie
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. Then, Jellyfish was used to analyze the k-mer counts, which were used to estimate the genome size and heterozygosity
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup>.
+</p>

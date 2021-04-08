@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="table-1" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.7717/peerj.10161/table-1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>Output of generalized linear mixed-effects models and logistic regression model that assessed flammability in terms of burn intensity, completeness of burn, time-to-ignition and spontaneous ignition.</title>
+ </caption>
+ <alternatives>
+  <graphic xlink:href="peerj-08-10161-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups" content-type="text">
+   <colgroup span="1">
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+    <col span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th rowspan="1" colspan="1">Factors</th>
+     <th colspan="3" rowspan="1">Burn intensity</th>
+     <th colspan="3" rowspan="1">Completeness of burn</th>
+     <th colspan="3" rowspan="1">Time-to-ignition</th>
+     <th colspan="3" rowspan="1">Spontaneous ignition</th>
+    </tr>
+    <tr>
+     <th rowspan="1" colspan="1"/>
+     <th rowspan="1" colspan="1">Estimate</th>
+     <th rowspan="1" colspan="1">Chisq
+      <xref ref-type="fn" rid="table-1fn3">
+       <sup>a</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Scaled estimate
+      <xref ref-type="fn" rid="table-1fn4">
+       <sup>b</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Estimate</th>
+     <th rowspan="1" colspan="1">Chisq
+      <xref ref-type="fn" rid="table-1fn3">
+       <sup>a</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Scaled estimate
+      <xref ref-type="fn" rid="table-1fn4">
+       <sup>b</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Estimate</th>
+     <th rowspan="1" colspan="1">Chisq
+      <xref ref-type="fn" rid="table-1fn3">
+       <sup>a</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Scaled estimate
+      <xref ref-type="fn" rid="table-1fn4">
+       <sup>b</sup>
+      </xref>
+     </th>
+     <th rowspan="1" colspan="1">Estimate</th>
+     <th rowspan="1" colspan="1">Chisqa</th>
+     <th rowspan="1" colspan="1">Scaled estimate
+      <xref ref-type="fn" rid="table-1fn4">
+       <sup>b</sup>
+      </xref>
+     </th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td rowspan="1" colspan="1">Fire weather</td>
+     <td rowspan="1" colspan="1">0.0007</td>
+     <td rowspan="1" colspan="1">4.1*</td>
+     <td rowspan="1" colspan="1">0.06731</td>
+     <td rowspan="1" colspan="1">0.1300</td>
+     <td rowspan="1" colspan="1">11.0***</td>
+     <td rowspan="1" colspan="1">0.1175</td>
+     <td rowspan="1" colspan="1">−0.0339</td>
+     <td rowspan="1" colspan="1">21.0***</td>
+     <td rowspan="1" colspan="1">0.19471</td>
+     <td rowspan="1" colspan="1">0.0650</td>
+     <td rowspan="1" colspan="1">23.8***</td>
+     <td rowspan="1" colspan="1">0.6671</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Fuel moisture</td>
+     <td rowspan="1" colspan="1">−0.0015</td>
+     <td rowspan="1" colspan="1">4.4*</td>
+     <td rowspan="1" colspan="1">0.11524</td>
+     <td rowspan="1" colspan="1">−0.1616</td>
+     <td rowspan="1" colspan="1">4.6*</td>
+     <td rowspan="1" colspan="1">0.1225</td>
+     <td rowspan="1" colspan="1">0.0271</td>
+     <td rowspan="1" colspan="1">2.8</td>
+     <td rowspan="1" colspan="1">0.09747</td>
+     <td rowspan="1" colspan="1">−0.0379</td>
+     <td rowspan="1" colspan="1">4.5*</td>
+     <td rowspan="1" colspan="1">0.3265</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Fuel load</td>
+     <td rowspan="1" colspan="1">0.0004</td>
+     <td rowspan="1" colspan="1">5.6*</td>
+     <td rowspan="1" colspan="1">0.10090</td>
+     <td rowspan="1" colspan="1">−0.0180</td>
+     <td rowspan="1" colspan="1">1.1</td>
+     <td rowspan="1" colspan="1">0.0477</td>
+     <td rowspan="1" colspan="1">0.0121</td>
+     <td rowspan="1" colspan="1">9.3*</td>
+     <td rowspan="1" colspan="1">0.16529</td>
+     <td rowspan="1" colspan="1">−0.0063</td>
+     <td rowspan="1" colspan="1">2.6</td>
+     <td rowspan="1" colspan="1">0.1900</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Veg group (IAP and Fyn)</td>
+     <td rowspan="1" colspan="1">−0.0427</td>
+     <td rowspan="2" colspan="1">8.1*</td>
+     <td rowspan="1" colspan="1">0.39141</td>
+     <td rowspan="1" colspan="1">−1.1895</td>
+     <td rowspan="2" colspan="1">5.7</td>
+     <td rowspan="1" colspan="1">0.1048</td>
+     <td rowspan="1" colspan="1">−0.7575</td>
+     <td rowspan="2" colspan="1">9.6**</td>
+     <td rowspan="1" colspan="1">0.36388</td>
+     <td rowspan="1" colspan="1">0.2156</td>
+     <td rowspan="2" colspan="1">16.3***</td>
+     <td rowspan="1" colspan="1">0.2156</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Veg group (IAP and Thi)</td>
+     <td rowspan="1" colspan="1">−0.0648</td>
+     <td rowspan="1" colspan="1">0.59446</td>
+     <td rowspan="1" colspan="1">−5.2832</td>
+     <td rowspan="1" colspan="1">0.4657</td>
+     <td rowspan="1" colspan="1">0.8838</td>
+     <td rowspan="1" colspan="1">0.42458</td>
+     <td rowspan="1" colspan="1">−1.5563</td>
+     <td rowspan="1" colspan="1">1.5564</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Conditional 
+      <italic>R</italic>
+      <sup>2</sup>
+      <xref ref-type="fn" rid="table-1fn5">
+       <sup>c</sup>
+      </xref>
+     </td>
+     <td colspan="3" rowspan="1">0.2961</td>
+     <td colspan="3" rowspan="1">0.2442</td>
+     <td colspan="3" rowspan="1">0.3983</td>
+     <td colspan="3" rowspan="1">0.3459</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">Marginal 
+      <italic>R</italic>
+      <sup>2</sup>
+      <xref ref-type="fn" rid="table-1fn5">
+       <sup>c</sup>
+      </xref>
+     </td>
+     <td colspan="3" rowspan="1">0.0942</td>
+     <td colspan="3" rowspan="1">0.0798</td>
+     <td colspan="3" rowspan="1">0.1935</td>
+     <td colspan="3" rowspan="1">0.2258</td>
+    </tr>
+    <tr>
+     <td rowspan="1" colspan="1">
+      <italic>R</italic>
+      <sup>2</sup> (1|Species)
+      <xref ref-type="fn" rid="table-1fn5">
+       <sup>c</sup>
+      </xref>
+     </td>
+     <td colspan="3" rowspan="1">0.2019</td>
+     <td colspan="3" rowspan="1">0.1644</td>
+     <td colspan="3" rowspan="1">0.2048</td>
+     <td colspan="3" rowspan="1">0.1201</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="table-1fn">
+   <p>
+    <bold>Notes:</bold>
+   </p>
+  </fn>
+  <fn id="table-1fn1" fn-type="other">
+   <p>Fixed factors included in the generalized linear mixed-effects models (gaussian family, identity function; details in 
+    <xref ref-type="supplementary-material" rid="supp-3">Table S2</xref>) and logistic regression model (binomial family, logit link function) were fire weather, fuel moisture, fuel load, and vegetation groups (IAPs, invasive alien plants; Fyn, fynbos; and Thi, thicket), while species was included as a random factor.
+   </p>
+  </fn>
+  <fn id="table-1fn2" fn-type="other">
+   <p>Significance codes: *
+    <italic>p</italic> &lt; 0.05, **
+    <italic>p</italic> &lt; 0.01, ***
+    <italic>p</italic> &lt;0.001.
+   </p>
+  </fn>
+  <fn id="table-1fn3" fn-type="other">
+   <label>a</label>
+   <p>Chisq statistics and significance levels were obtained from deviance tables (Type II Wald chi-square tests; details in 
+    <xref ref-type="supplementary-material" rid="supp-4">Table S3</xref>).
+   </p>
+  </fn>
+  <fn id="table-1fn4" fn-type="other">
+   <label>b</label>
+   <p>Scaled estimates were derived from incorporating the scale function in the generalized linear mixed-effects models and logistic regression model.</p>
+  </fn>
+  <fn id="table-1fn5" fn-type="other">
+   <label>c</label>
+   <p>
+    <italic>R</italic>
+    <sup>2</sup> values were derived using the 
+    <italic>R</italic>
+    <sup>2</sup> GLMM function, where conditional 
+    <italic>R</italic>
+    <sup>2</sup> indicates the proportion of variance explained by fixed and random factors combined, marginal 
+    <italic>R</italic>
+    <sup>2</sup> indicates the proportion of variance explained by fixed factors alone and 
+    <italic>R</italic>
+    <sup>2</sup> (1|Species) indicates variance explained by the random factor alone.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

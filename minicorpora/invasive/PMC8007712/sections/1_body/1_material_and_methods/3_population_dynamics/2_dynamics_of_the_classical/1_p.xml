@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Before the introduction of the first emerging strain, the intra-annual dynamics of the population CS is described by a standard diffusion model with logistic growth: 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\partial_{t} c^{n} = D{\Delta }c^{n} + rc^{n} \left( {z\left( {\varvec{x}} \right) - c^{n} } \right)$$\end{document}</tex-math>
+   <math id="M40">
+    <mrow>
+     <msub>
+      <mi>∂</mi>
+      <mi>t</mi>
+     </msub>
+     <msup>
+      <mi>c</mi>
+      <mi>n</mi>
+     </msup>
+     <mo>=</mo>
+     <mi>D</mi>
+     <mi mathvariant="normal">Δ</mi>
+     <msup>
+      <mi>c</mi>
+      <mi>n</mi>
+     </msup>
+     <mo>+</mo>
+     <mi>r</mi>
+     <msup>
+      <mi>c</mi>
+      <mi>n</mi>
+     </msup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>z</mi>
+       <mfenced close=")" open="(">
+        <mrow>
+         <mi mathvariant="bold-italic">x</mi>
+        </mrow>
+       </mfenced>
+       <mo>-</mo>
+       <msup>
+        <mi>c</mi>
+        <mi>n</mi>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Here, 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\Delta }$$\end{document}</tex-math>
+   <math id="M42">
+    <mi mathvariant="normal">Δ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the Laplace 2D diffusion operator (sum of the second derivatives with respect to coordinate). This operator describes uncorrelated random walk movements of the viruses, with the coefficient 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$D$$\end{document}</tex-math>
+   <math id="M44">
+    <mi>D</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> measuring the mobility of the viruses (e.g.,
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>,
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup>). The term 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$r z\left( {\varvec{x}} \right)$$\end{document}</tex-math>
+   <math id="M46">
+    <mrow>
+     <mi>r</mi>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the intrinsic growth rate (i.e., growth rate in the absence of competition) of the population, which depends on the density of host plants 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\varvec{x}} \right)$$\end{document}</tex-math>
+   <math id="M48">
+    <mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and on a coefficient 
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$r$$\end{document}</tex-math>
+   <math id="M50">
+    <mi>r</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (intrinsic growth rate at maximum host density). Under these assumptions, the carrying capacity at a position 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{x}}$$\end{document}</tex-math>
+   <math id="M52">
+    <mrow>
+     <mi mathvariant="bold-italic">x</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is equal to 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\varvec{x}} \right)$$\end{document}</tex-math>
+   <math id="M54">
+    <mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which means that the population densities are expressed in units of the maximum host population density. The model is initialized by setting 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$c^{1980} \left( {0,{\varvec{x}}} \right) = (1 - m_{c} ) z\left( {\varvec{x}} \right)$$\end{document}</tex-math>
+   <math id="M56">
+    <mrow>
+     <msup>
+      <mi>c</mi>
+      <mn>1980</mn>
+     </msup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mrow>
+        <mi mathvariant="bold-italic">x</mi>
+       </mrow>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+       <mi>m</mi>
+       <mi>c</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>z</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M57">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$m_{c}$$\end{document}</tex-math>
+   <math id="M58">
+    <msub>
+     <mi>m</mi>
+     <mi>c</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the winter decay rate of the CS (see the description of the inter-annual stage below). In other terms, we assume that the CS density is at the carrying capacity in 1979, i.e., 5 years after its first detection and 20 years before the first detections of ESs
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>.
+</p>

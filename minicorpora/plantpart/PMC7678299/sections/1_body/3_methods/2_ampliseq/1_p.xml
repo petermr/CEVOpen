@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">To confirm CRISPR/Cas9-induced mutations, AmpliSeq was conducted according to the Illumina protocol (16S Metagenomic Sequencing Library Preparation # 15044223 Rev. B, Illumina AS, San Diego, CA, USA). DNA was isolated from selected individuals from both liver and muscle using DNeasy blood and tissue kits (Qiagen, Hilden, Germany). Primers were designed to specifically amplify the regions around the CRISPR gRNA target sites (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). For each sample the amplicons were generated in singleplex reactions, pooled and then purified using AMPure beads (Beckman Coulter Life Sciences, Indianapolis, IN, USA) before running index-PCR using the Nextera XT Index Kit (Illumina AS, San Diego, CA, USA). AmpliSeq libraries were subsequently normalized before sequencing the libraries as 300 bp paired-end reads on Illumina MiSeq (Illumina, San Diego, CA, USA) at Centre of Integrative Genetics (CIGENE, Ås, Norway). Raw .fastq reads were quality trimmed using 
+ <italic>cutdapt</italic> [
+ <xref ref-type="bibr" rid="CR41">41</xref>] before aligning them to the salmon genome ICSASG_v2 (Accession Number GCF_000233375.1, available for download at NCBI database 
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/assembly/GCF_000233375.1/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/assembly/GCF_000233375.1/</ext-link>) using 
+ <italic>bwa mem</italic> [
+ <xref ref-type="bibr" rid="CR42">42</xref>] and saving files in .bam format. For each sample the proportion of indels for each base in a 25 bp window around the target sites was determined using the python3 coverage.py (
+ <ext-link ext-link-type="uri" xlink:href="https://gitlab.com/fabian.grammes/crispr-indel" xmlns:xlink="http://www.w3.org/1999/xlink">https://gitlab.com/fabian.grammes/crispr-indel</ext-link>). Additionally we predicted the effect of each indel on the main transcript/protein using 
+ <italic>SnpEff</italic> [
+ <xref ref-type="bibr" rid="CR43">43</xref>]. 
+</p>

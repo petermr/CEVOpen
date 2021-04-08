@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Given the sizes of the data sets used and the need to detect and classify parts of the images that only trained experts can confidently tell apart the use of deep learning in problems that are closely related to the current work is of common use. For example, a recent study [
+ <xref rid="B36-sensors-21-00471" ref-type="bibr">36</xref>] used CNN (convolutional neutral network) in order to classify images from wetlands in an area of 700 km
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <msup>
+     <mrow/>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>. They used a fully trained and fine-tuned CNN with a limited amount of data. A comparison of the CNN with random forest was performed to evaluate the capacity and classification accuracies of CNNs. Canadian wetlands were captured with two RapidEye images with 5 m resolution in 2015. The validation data were sampled in 2015 and 2016 and four wetland classes were identified using 1000 samples. The network was trained with patches and 30,000 iterations and then tested in a second step. The CNN outperformed the random forests and an overall accuracy of 94.82% was achieved, varying between 76.65% and 98.74%. Deep convolutional neural networks were also used by [
+ <xref rid="B37-sensors-21-00471" ref-type="bibr">37</xref>] in order to classify AUV-acquired wetland images. The 677 m × 518 m study area was located in Southern Florida. The authors used processed orthomosaics and multi-view images and then compared them with the performances of random forests and support vector machines. Image segmentation was done with Trimble’s eCognition by first segmenting objects, then extracting features, and finally training a classifier. The results of the study show the advantages of deep CNN, reaching an accuracy of 82.02%, when multi-view images were used and with lower accuracy when orthomosaics were used (71.69%). A similar approach was used in [
+ <xref rid="B38-sensors-21-00471" ref-type="bibr">38</xref>]. 3800 images of the Brazilian national forest (Kaggle dataset) were used in order to identify 
+ <italic>hydrangea</italic> in the images. The dataset contained two-thirds of images, including the invasive species, a smaller fraction, where the invasive species appeared only in parts of the images, and a third small fraction that included no plants at all. The authors used three models: VGGNet, DenseNet, and Inception, which were pre-trained with ImageNet. Data augmentation was used and accuracies of 97.6% were reached.
+</p>

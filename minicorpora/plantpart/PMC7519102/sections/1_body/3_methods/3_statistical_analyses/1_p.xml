@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">Statistical analyses was performed by using the software R 3.5.3 (R Core Team 2019)
+ <sup>
+  <xref ref-type="bibr" rid="CR79">79</xref>
+ </sup>. The efficacy of the products in terms of induced mortality on OSW different instars was assessed through Negative Binomial Generalized Linear model (glm.nb) (“MASS” package)
+ <sup>
+  <xref ref-type="bibr" rid="CR80">80</xref>
+ </sup>, with treatment, time, and their reciprocal interaction as explanatory variables. In case of significant difference among treatments, multiple comparisons with the Tukey test (Tukey’s post-hoc test) (
+ <italic>p</italic> &lt; 0.05) were performed using the “emmeans” package
+ <sup>
+  <xref ref-type="bibr" rid="CR81">81</xref>
+ </sup>, with adjusted 
+ <italic>p</italic> values. We checked the models for overdispersion and residual distribution using the “DHARMa” package
+ <sup>
+  <xref ref-type="bibr" rid="CR82">82</xref>
+ </sup>. The effect of the compounds on adults’ emergence from puparia, eggs hatching , host searching behavior (number of adults on the plants), and oviposition (number of plants with eggs per treatment) was assessed by Kruskal–Wallis rank sum test, followed in case of significant differences by pairwise comparisons using Wilcoxon rank sum test.
+</p>

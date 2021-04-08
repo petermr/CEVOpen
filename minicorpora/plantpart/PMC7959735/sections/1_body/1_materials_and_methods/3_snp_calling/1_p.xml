@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>SNP calling was performed using the software Axiom Analysis Suite (AAS) from Affymetrix
+ <sup>®</sup>, following the instructions provided in the Axiom Analysis Suite 3.1 user guide
+ <sup>
+  <xref ref-type="fn" rid="footnote3">3</xref>
+ </sup>. Before SNP calling of the 874 samples of the combined data set (EUCLEG and NJAU), we first checked the performance of the 355K SoySNP microarray on the 480 EUCLEG samples separately. This step was considered necessary, as the 355K SoySNP microarray was developed using the NJAU collection and might perform sub-optimally with plant materials of a different origin. In brief, the Affymetrix
+ <sup>®</sup> Power Tools (APT) software package, version 1.15.0 implemented in AAS performed sample quality control based on 20,000 non-polymorphic probe sets and considering the parameters Dish Quality Control (DQC; determines the intensity of contrast between signal and noise) and Sample Call Rate (QC-CR; refers to the ratio of genotype-called SNPs to attempted SNPs in a sample). Based on criteria DQC &gt; 0.82 and QC-CR ≥ 97, AAS filtered out four poor-quality samples. The R package SNPolisher version 1.3.6.7 implemented in AAS was used for SNP calling using 609,883 probe sets targeting 355,595 SNPs. Its Ps_Classification function classified the SNPs/probe sets into six categories based on the following SNP QC metrics: call rate (CR) ≥97%, Fisher’s linear discriminant (FLD) ≥ 3.6, heterozygous strength offset (HetSO) ≥−0.1, and homozygote ratio offset (HomRO) ≥0.3 for one-cluster or two-cluster SNPs or ≥−0.9 for three-cluster SNPs. A summary of the SNP classification was obtained for the 476 good quality samples of the EUCLEG collection. We compared this summary with the SNP classification summary obtained from the NJAU collection by 
+ <xref rid="B60" ref-type="bibr">Wang et al. (2016)</xref>.
+</p>

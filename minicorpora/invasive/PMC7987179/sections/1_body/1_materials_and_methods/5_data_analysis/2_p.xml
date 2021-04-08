@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We were interested in the influence of conspecific and heterospecific pollen on the fate of individual flowers (at fertilization and fruit set), and how it differed between species. To explore these relationships, we used generalized linear mixed-effects models (GLMM), with maternal identity as a random factor. The two species were analyzed separately. The subjects of the analysis were individual flowers (for 
+ <italic>C</italic>. 
+ <italic>scandens</italic>, n = 317 in 23 maternal groups; for 
+ <italic>C</italic>. 
+ <italic>orbiculatus</italic>, n = 399 in 17 maternal groups). The response variable tested was the binary fate of a flower at the fertilization stage (fertilized or unfertilized) or fruit stage (developed or not developed). Analyses of fruit development only included fertilized flowers. Four explanatory variables were tested as fixed effects: total floral production during the reproductive period, weighted conspecific mating potential, weighted heterospecific mating potential, and inflorescence position (in 
+ <italic>C</italic>. 
+ <italic>scandens</italic>, only). We constructed candidate models with a maximum of one fixed effect because of significant collinearity among potential explanatory variables. The “weighted mating potential” is a measure that considers both the distance to and floral production of available mates. Greater values indicate higher potential for pollen transfer. It is constructed to be inversely related to the distance to a potential mate, and positively associated with floral production of a potential mate. The weighted mating potential was calculated after Wagenius et al. [
+ <xref rid="pone.0248635.ref046" ref-type="bibr">46</xref>], with some modification: 
+ <disp-formula id="pone.0248635.e001">
+  <alternatives>
+   <graphic xlink:href="pone.0248635.e001.jpg" id="pone.0248635.e001g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1">
+    <msub>
+     <mrow>
+      <mi>P</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+     <munderover>
+      <mo stretchy="false">∑</mo>
+      <mrow>
+       <mi>j</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+     </munderover>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi mathvariant="normal">e</mi>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <mi>γ</mi>
+        <msub>
+         <mrow>
+          <mi>d</mi>
+         </mrow>
+         <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mspace width="0.25em"/>
+      <mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">log</mi>
+         </mrow>
+         <mrow>
+          <mn>10</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>F</mi>
+          </mrow>
+          <mrow>
+           <mi>j</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(1)</label>
+ </disp-formula>
+</p>

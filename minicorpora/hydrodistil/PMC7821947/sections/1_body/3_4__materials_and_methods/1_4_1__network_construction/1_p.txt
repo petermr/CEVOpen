@@ -1,0 +1,5 @@
+0: Two main components of MEO, menthol and menthone, were candidate compounds of peppermint oil for network construction [ 36].
+1: Information and target of the menthol (PubChem ID: 1254) and menthone (PubChem ID: 26447) were extracted from PubChem ( https://pubchem.ncbi.nlm.nih.gov/) and summed ( Figure 1A).
+2: Using GeneMania, we sorted the targets and create PPI.
+3: The condition for sorting targets was the score 0.7, which means high confidence [ 37].
+4: Then, PPIN was constructed with the targets sorted by GeneMania using a Cytoscape software according to the previous report [ 38].

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par92">Before performing differential expression analysis of unigenes, we mapped all the clean reads of each sample to the unigenes with Bowtie2 [
+ <xref ref-type="bibr" rid="CR88">88</xref>], and we calculated the gene expression level with RSEM software based on the assembly results [
+ <xref ref-type="bibr" rid="CR89">89</xref>]. The FPKM (expected number of fragments per kilobase of transcript sequence per million mapped fragments) value was used to quantify gene expression levels [
+ <xref ref-type="bibr" rid="CR86">86</xref>]. All expression data sets and assembled unigenes are available at the NCBI Gene Expression Omnibus (GEO) database under accession number GSE151746. Next, we conducted a differential expression analysis of the samples with three biological replications using DESeq2 as described by Michaekl et al. [
+ <xref ref-type="bibr" rid="CR90">90</xref>]. Genes with a fold change ≥ 2.0 and adjusted 
+ <italic>P</italic>-value ≤ 0.05 were regarded as differentially expressed. DEG functions were explored through GO and KEGG pathway analysis, and a false discovery rate (FDR) no larger than 0.01 was defined as significant enrichment. This process was performed to identify significantly enriched metabolic pathways.
+</p>

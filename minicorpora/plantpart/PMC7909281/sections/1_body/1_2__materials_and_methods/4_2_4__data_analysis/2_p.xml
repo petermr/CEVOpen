@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The relationship between the mortality rate and the concentrations of the different oils tested was fitted with a Hill function using Scipy module of Python v.3.8.2 (Beaverton, OR, USA). This allowed us to estimate the LC50 (lethal concentration that produces 50% of mortality) and LC90 (lethal concentration that produces 90% of mortality). The Hill function is frequently used in different disciplines, from biochemistry and cellular biology to Physics [
+ <xref rid="B39-foods-10-00200" ref-type="bibr">39</xref>] with the following Equation (1):
+ <disp-formula id="FD1-foods-10-00200">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>M</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>C</mi>
+        <mi>n</mi>
+       </msup>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>C</mi>
+        <mi>n</mi>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mi>K</mi>
+        <mi>n</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mi>M</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the mortality proportion; 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mi>C</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the concentration of oil used; 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> a threshold concentration value beyond which the mortality exceeds 50% (which corresponds to the LC50) and 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula> a cooperativity exponent. A value of 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula> that is larger than 1 signals the presence of cooperative processes between the concentration level and the propagation of the mortality inside the population. In order to calculate the resulting LC for an arbitrary proportion of the population by rearranging the previous Equation (1):
+ <disp-formula id="FD2-foods-10-00200">
+  <label>(2)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mi>x</mi>
+     </msub>
+     <mo>=</mo>
+     <mo> </mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>M</mi>
+            <mi>x</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <mn>1</mn>
+           <mo>−</mo>
+           <msub>
+            <mi>M</mi>
+            <mi>x</mi>
+           </msub>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mi>n</mi>
+      </mrow>
+     </msup>
+     <mi>K</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> which as in Equation (3) gives for the 
+ <italic>LC</italic>90 
+ <disp-formula id="FD3-foods-10-00200">
+  <label>(3)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mrow>
+       <mn>90</mn>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>L</mi>
+     <mi>C</mi>
+     <mn>90</mn>
+     <mo>=</mo>
+     <mo> </mo>
+     <msup>
+      <mn>9</mn>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mi>n</mi>
+      </mrow>
+     </msup>
+     <mi>K</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

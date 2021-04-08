@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The experiments were randomly performed. The following response function approximated by the second degree polynomial equation (Equation (2)) was used to correlate the dependent variable (Y) with input parameters (X
+ <sub>1</sub>–X
+ <sub>3</sub>):
+ <disp-formula id="FD2-molecules-25-02399">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>1</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>2</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>3</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mrow>
+       <mn>3</mn>
+       <mtext> </mtext>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>11</mn>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mi mathvariant="normal">X</mi>
+      <mn>1</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>22</mn>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mi mathvariant="normal">X</mi>
+      <mrow>
+       <mn>2</mn>
+       <mtext> </mtext>
+      </mrow>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mi mathvariant="normal">X</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>12</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>1</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>13</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>1</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>3</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>23</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>2</mn>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">X</mi>
+      <mn>3</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the model constant, 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>–</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mn>3</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> the linear coefficients,
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="sans-serif">β</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>11</mn>
+      </mrow>
+     </msub>
+     <mo>–</mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> the quadratic coefficients, and 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mrow>
+       <mn>12</mn>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <mo> </mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mrow>
+       <mn>13</mn>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <mo> </mo>
+     <msub>
+      <mi mathvariant="sans-serif">β</mi>
+      <mrow>
+       <mn>23</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> the cross-products coefficients. Statistica StatSoft Release software package was used for the determination of the coefficients of Equation (1) by regressional analysis of the experimental data. A stepwise regression analysis was conducted to build the second order polynomial equations for the response variable. The significant terms (
+ <italic>p</italic> &lt; 0.05) were selected for the final equation and the reduced quadratic polynomial model was obtained. The best fitting mathematical model was selected based on the determination coefficient, correlation coefficient, analysis of variance, and residual analysis. To investigate the combined effect of independent variables on the response, three-dimensional response surfaces were also drawn. The Taguchi signal/noise ratio was finally used for the evaluation of the design robustness. 
+</p>

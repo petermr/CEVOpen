@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Image collection was performed by using a DJI phantom 4 UAV in autumn 2018, because of the seasonal red colouring of blueberry leaves, which makes them easily detectable (
+ <xref ref-type="fig" rid="sensors-21-00471-f002">Figure 2</xref>). For sites B1 to B4, 490 to 584 images were collected, while 1346 images were taken for B6. The flight height was 50 m and front and side overlaps of 80% were chosen. These images were then processed while using the Metashape software [
+ <xref rid="B40-sensors-21-00471" ref-type="bibr">40</xref>] to align images in order to produce one orthomosaic and DEM (Digital Elevation Model) for each site (
+ <xref ref-type="fig" rid="sensors-21-00471-f001">Figure 1</xref>). It should be mentioned that an overlap between the sites B1 to B4 was chosen, so the east and west borders of the orthomosaics B1 to B4 are overlapping. All of the obtained orthomosaics were annotated while using the open source image manipulation software GIMP [
+ <xref rid="B41-sensors-21-00471" ref-type="bibr">41</xref>]. For three of them (B1, B2, and B3), the whole orthomosaic was annotated and each pixel was given one of the following six labels: blueberries, trees, yellow bushes, soil, water, and dead trees (
+ <xref ref-type="fig" rid="sensors-21-00471-f001">Figure 1</xref>). The class trees contains pine trees (
+ <italic>Pinus sylvestris</italic>), the class yellow bushes contains shrubby birches (predominantly 
+ <italic>Betula pubescens</italic>, secondarily 
+ <italic>Betula pendula</italic>). Binary layers for each of the six classes were created for each of the three orthomosaics while using the pixel-level labels. These annotations were based on colour, shape, and context information contained in the orthomosaics. In the last two orthomosaics (B4 and B6), only blueberry bushes were annotated.
+</p>

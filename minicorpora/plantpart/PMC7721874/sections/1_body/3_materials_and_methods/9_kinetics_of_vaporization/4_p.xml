@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">Taking into account the heating rate equation, β = dT/dt, the Eq. (
+ <xref rid="Equ4" ref-type="">4</xref>) can be written as follows, in Eq. (
+ <xref rid="Equ5" ref-type="">5</xref>):
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ln \left( {\frac{d\alpha }{{dT}}} \right)\, = \,\ln \frac{A}{\beta }\left( {1 - \alpha } \right)^{n} \, - \,\frac{{E_{a} }}{RT}$$\end{document}</tex-math>
+   <math id="M10" display="block">
+    <mrow>
+     <mo>ln</mo>
+     <mfenced close=")" open="(">
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="italic">dT</mi>
+       </mrow>
+      </mfrac>
+     </mfenced>
+     <mspace width="0.166667em"/>
+     <mo>=</mo>
+     <mspace width="0.166667em"/>
+     <mo>ln</mo>
+     <mfrac>
+      <mi>A</mi>
+      <mi>β</mi>
+     </mfrac>
+     <msup>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>α</mi>
+       </mrow>
+      </mfenced>
+      <mi>n</mi>
+     </msup>
+     <mspace width="0.166667em"/>
+     <mo>-</mo>
+     <mspace width="0.166667em"/>
+     <mfrac>
+      <msub>
+       <mi>E</mi>
+       <mi>a</mi>
+      </msub>
+      <mrow>
+       <mi mathvariant="italic">RT</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78263_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

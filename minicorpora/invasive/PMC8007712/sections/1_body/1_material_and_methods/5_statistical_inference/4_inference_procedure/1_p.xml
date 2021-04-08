@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">Due to the important computation time (4 min in average for one simulation of the model on an Intel(R) Core(R) CPU i7-4790 @ 3.60 GHz), we were not able to compute an a posteriori distribution of the parameters in a Bayesian framework. Rather, we used a simulated annealing algorithm to compute the maximum likelihood estimate (MLE), i.e., the parameter 
+ <inline-formula id="IEq85">
+  <alternatives>
+   <tex-math id="M191">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\varvec{\Theta}}}^{*}$$\end{document}</tex-math>
+   <math id="M192">
+    <msup>
+     <mrow>
+      <mrow>
+       <mi mathvariant="bold">Θ</mi>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mrow/>
+      <mo>∗</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq85.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> which leads to the highest log-likelihood. This is an iterative algorithm, which constructs a sequence 
+ <inline-formula id="IEq86">
+  <alternatives>
+   <tex-math id="M193">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$({{\varvec{\Theta}}}_{j} )_{j \ge 1}$$\end{document}</tex-math>
+   <math id="M194">
+    <msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">Θ</mi>
+       </mrow>
+       <mi>j</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+      <mo>≥</mo>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq86.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> converging in probability towards a MLE. It is based on an acceptance-rejection procedure, where the acceptance rate depends on the current iteration 
+ <inline-formula id="IEq87">
+  <alternatives>
+   <tex-math id="M195">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$j$$\end{document}</tex-math>
+   <math id="M196">
+    <mi>j</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq87.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> through a "cooling rate" (
+ <inline-formula id="IEq88">
+  <alternatives>
+   <tex-math id="M197">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\alpha )$$\end{document}</tex-math>
+   <math id="M198">
+    <mrow>
+     <mi>α</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq88.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Empirically, a good trade-off between quality of optimization and time required for computation (number of iterations) is obtained with exponential cooling rates of the type 
+ <inline-formula id="IEq89">
+  <alternatives>
+   <tex-math id="M199">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T_{0} \alpha^{j}$$\end{document}</tex-math>
+   <math id="M200">
+    <mrow>
+     <msub>
+      <mi>T</mi>
+      <mn>0</mn>
+     </msub>
+     <msup>
+      <mi>α</mi>
+      <mi>j</mi>
+     </msup>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq89.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> with 
+ <inline-formula id="IEq90">
+  <alternatives>
+   <tex-math id="M201">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$0 &lt; \alpha &lt; 1$$\end{document}</tex-math>
+   <math id="M202">
+    <mrow>
+     <mn>0</mn>
+     <mo>&lt;</mo>
+     <mi>α</mi>
+     <mo>&lt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq90.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and some constant 
+ <inline-formula id="IEq91">
+  <alternatives>
+   <tex-math id="M203">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T_{0} \gg 1$$\end{document}</tex-math>
+   <math id="M204">
+    <mrow>
+     <msub>
+      <mi>T</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>≫</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq91.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (this cooling schedule was first proposed in= 
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup> = 
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>). Too rapid cooling (
+ <inline-formula id="IEq92">
+  <alternatives>
+   <tex-math id="M205">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\alpha \ll 1$$\end{document}</tex-math>
+   <math id="M206">
+    <mrow>
+     <mi>α</mi>
+     <mo>≪</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq92.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) results in a system frozen into a state far from the optimal one, whereas too slow cooling (
+ <inline-formula id="IEq93">
+  <alternatives>
+   <tex-math id="M207">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\alpha \approx 1$$\end{document}</tex-math>
+   <math id="M208">
+    <mrow>
+     <mi>α</mi>
+     <mo>≈</mo>
+     <mn>1</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq93.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) leads to important computation times due to very slow convergence. Here, we ran 
+ <inline-formula id="IEq94">
+  <alternatives>
+   <tex-math id="M209">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$6$$\end{document}</tex-math>
+   <math id="M210">
+    <mrow>
+     <mn>6</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq94.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> parallel sequences with cooling rates 
+ <inline-formula id="IEq95">
+  <alternatives>
+   <tex-math id="M211">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\alpha \in \left\{ {0.995,0.999,0.9995} \right\}$$\end{document}</tex-math>
+   <math id="M212">
+    <mrow>
+     <mi>α</mi>
+     <mo>∈</mo>
+     <mfenced close="}" open="{">
+      <mrow>
+       <mn>0.995</mn>
+       <mo>,</mo>
+       <mn>0.999</mn>
+       <mo>,</mo>
+       <mn>0.9995</mn>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq95.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. For this type of algorithm, there are no general rules for the choice of the stopping criterion [HenJac03], which should be heuristically adapted to the considered optimization problem. Here, our stopping criterion was that 
+ <inline-formula id="IEq96">
+  <alternatives>
+   <tex-math id="M213">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\varvec{\Theta}}}_{j}$$\end{document}</tex-math>
+   <math id="M214">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">Θ</mi>
+     </mrow>
+     <mi>j</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq96.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> remained unchanged during 500 iterations. The computations took about 100 days (CPU time).
+</p>

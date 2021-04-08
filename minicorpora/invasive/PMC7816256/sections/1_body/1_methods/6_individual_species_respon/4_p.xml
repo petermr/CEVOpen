@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All statistical analyses were conducted in R version 3.5.1 (R Core Team 
+ <xref rid="ecy3201-bib-0054" ref-type="ref">2018</xref>). We tested for phylogenetic signal using the Picante package version 1.8 (Kembel et al. 
+ <xref rid="ecy3201-bib-0034" ref-type="ref">2010</xref>). Linear models were estimated with the glmmTMB package version 0.2.2.0 (Brooks et al. 
+ <xref rid="ecy3201-bib-0012" ref-type="ref">2017</xref>). We assessed the fit of these models using the DHARMa package version 0.2.0 (Hartig 
+ <xref rid="ecy3201-bib-0031" ref-type="ref">2016</xref>). Treatment effects of the linear models were tested using a Wald chi‐squared test. We analyzed linear model interaction terms using Type III sum of squares and, when interactions were not significant, we analyzed main effects using Type II sum of squares. We tested for significant pairwise comparisons between garlic mustard treatments within year at 
+ <italic>P</italic> = 0.05 using the emmeans package version 1.3.5.1 (Lenth 
+ <xref rid="ecy3201-bib-0037" ref-type="ref">2019</xref>). We used the vegan package version 2.5‐3 (Oksanen et al. 
+ <xref rid="ecy3201-bib-0047" ref-type="ref">2019</xref>) to calculate diversity metrics and to test for changes in community composition using PERMANOVA.
+</p>

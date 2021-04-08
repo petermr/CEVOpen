@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene prediction, taxonomy, and functional annotation were carried out according to the protocols described by 
+ <xref rid="ref-35" ref-type="bibr">Wang et al. (2019)</xref>. Briefly, open reading frames (ORFs) from each soil sample were predicted using MetaGene (
+ <ext-link ext-link-type="uri" xlink:href="http://metagene.nig.ac.jp/metagene/download_mga.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://metagene.nig.ac.jp/metagene/download_mga.html</ext-link>). The predicted ORFs with lengths of more than 100 bp were retrieved and translated to amino acid sequences using the NCBI translation table (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=tgencodes#SG1" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=tgencodes#SG1</ext-link>). All sequences from gene sets with a 95% sequence identity (90% coverage) were clustered as a non-redundant gene catalog by CD-HIT (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.org/cd-hit/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.org/cd-hit/</ext-link>). After quality control, reads were mapped to the representative genes with 95% identity using SOAPaligner (
+ <ext-link ext-link-type="uri" xlink:href="https://sourceforge.net/projects/soapfuse/" xmlns:xlink="http://www.w3.org/1999/xlink">https://sourceforge.net/projects/soapfuse/</ext-link>), and gene abundances in each sample were evaluated. BLASTP (Version 2.2.28+, 
+ <ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/Blast.cgi" xmlns:xlink="http://www.w3.org/1999/xlink">http://blast.ncbi.nlm.nih.gov/Blast.cgi</ext-link>) was employed for taxonomic annotations by aligning non-redundant gene catalogs against the NCBI NR database with an e-value cutoff of 1 e
+ <sup>−5</sup>. Clustering of orthologous groups (COG) of proteins for ORF annotation was performed using BLASTP against the eggNOG database (v4.5) with an e-value cutoff of 1 e
+ <sup>−5</sup>. Unigene expression heatmaps in the different rhizosphere soil samples were constructed using R package software (
+ <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.r-project.org</ext-link>).
+</p>

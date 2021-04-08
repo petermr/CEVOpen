@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Following the original study [
+ <xref rid="B27-ijms-22-01033" ref-type="bibr">27</xref>], we mapped the filtered reads to the 
+ <italic>B. napus</italic> reference genome version 4.1 (obtained from [
+ <xref rid="B94-ijms-22-01033" ref-type="bibr">94</xref>] and available under 
+ <uri xlink:href="https://wwwdev.genoscope.cns.fr/brassicanapus/data/" xmlns:xlink="http://www.w3.org/1999/xlink">https://wwwdev.genoscope.cns.fr/brassicanapus/data/</uri>) while using STAR 2.4.4a [
+ <xref rid="B95-ijms-22-01033" ref-type="bibr">95</xref>]. We then obtained the gene counts from the aligned sequence reads by applying the htseq-count program [
+ <xref rid="B96-ijms-22-01033" ref-type="bibr">96</xref>]. In total, the data set comprises raw count values for 80,927 genes and 16 samples (four time points with two biological replicates each for two cultivars). Finally, the raw counts were normalized while using the R function 
+ <monospace>voom</monospace> with normalization method “cyclicloess” of the package 
+ <monospace>limma</monospace> (version 3.40.6) [
+ <xref rid="B97-ijms-22-01033" ref-type="bibr">97</xref>] in order to obtain the counts-per-million (CPM) normalized values.
+</p>

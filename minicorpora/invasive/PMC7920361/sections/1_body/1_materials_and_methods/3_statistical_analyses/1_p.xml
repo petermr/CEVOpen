@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate disease incidence on plants across the 
+ <italic>Microstegium</italic> density gradient, we fit a generalized linear regression to the estimated proportion of 
+ <italic>Microstegium</italic> leaves with lesions per pathogen-inoculated pot using 
+ <italic>Microstegium</italic> density (the number of 
+ <italic>Microstegium</italic> seeds added to each pot), native species identity, and their interaction as the explanatory variables. The model was fit with Bayesian statistical inference using the brm function in the brms package [
+ <xref rid="pone.0237894.ref047" ref-type="bibr">47</xref>], an interface for Stan [
+ <xref rid="pone.0237894.ref048" ref-type="bibr">48</xref>], in R version 3.5.2 [
+ <xref rid="pone.0237894.ref049" ref-type="bibr">49</xref>]. The model contained three Markov chains with 6000 iterations each and a discarded burn-in period of 1000 iterations. We chose prior distributions based on whether model variables could reasonably take on negative values in addition to positive values (Gaussian or Cauchy) or not (gamma or exponential). We chose parameters for prior distributions that reflected limited a priori information about variable values. We used a binomial response distribution (logit link) and a Gaussian distribution for the intercept and coefficient priors (location = 0, scale = 10). We calculated the mean and 95% highest posterior density interval (hereafter, “credible interval”) of back-transformed (from logit to percentage) model estimates using the mean_hdi function in the tidybayes package [
+ <xref rid="pone.0237894.ref050" ref-type="bibr">50</xref>]. There were too few native plant leaves with lesions to statistically analyze disease incidence, nevertheless, we present these results graphically to assess qualitative patterns.
+</p>

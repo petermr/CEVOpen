@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>First, to predict the occurrence of invasive plants, we ran a separate logistic regression for each species (one for 
+ <italic>R</italic>. 
+ <italic>multiflora</italic>, one for 
+ <italic>B</italic>. 
+ <italic>thunbergii</italic>) to model occurrence (presence/absence) as a function of land-use and distance to roads. Second, to predict the abundance of invasive plants (i.e., abundance in those sites that contained the invasive species, ignoring sites where they did not occur), we also ran two separate logistic regressions (one for 
+ <italic>R</italic>. 
+ <italic>multiflora</italic>, one for 
+ <italic>B</italic>. 
+ <italic>thunbergii</italic>) to model abundance as a function of land-use and distance to roads. In this case, we divided invasive plant abundance into two classes, low and high, based on percent cover assigned in the field, as stated above. Low abundance sites had trace-10% cover of the invasive plant; high abundance sites had &gt;10% cover. All models of invasive species occurrence and abundance used a binomial error structure and a logit link function. Finally, to predict the number of invasive plant species, we ran a generalized linear model with a Poisson error structure, to model the number of invasive plant species as a function of land-use history and distance to roads. All models used a Type III sum of square errors.
+</p>

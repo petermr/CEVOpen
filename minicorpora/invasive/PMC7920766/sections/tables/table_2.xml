@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="ece37139-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float">
+ <label>TABLE 2</label>
+ <caption>
+  <p>Approximate cost analysis for processing one sample, including filtering, eDNA extraction, library preparation, and MiSeq sequencing at the Genomics Facility of the Advanced Analysis Centre (AAC) at the University of Guelph</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <thead valign="top">
+   <tr style="border-bottom:solid 1px #000000">
+    <th align="left" valign="top" rowspan="1" colspan="1">Laboratory steps for processing one sample</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Cost per step CAD/USD
+     <xref ref-type="fn" rid="ece37139-note-0005">
+      <sup>b</sup>
+     </xref> (this study)
+    </th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Cost per step CAD/USD
+     <xref ref-type="fn" rid="ece37139-note-0005">
+      <sup>b</sup>
+     </xref> (Illumina protocol)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Filters (pore size 1 μm, diameter 47 mm; an average of 2.5 per trap)</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">CTAB extraction method (4 per filter)</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">DNA quantification (Qubit) and normalization</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+    <td align="left" rowspan="1" colspan="1">2.5</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">First PCR (pooled extracts per filter)</td>
+    <td align="left" rowspan="1" colspan="1">5</td>
+    <td align="left" rowspan="1" colspan="1">5</td>
+   </tr>
+   <tr>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">Magnetic beads (at all stages)</td>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">0.7</td>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">7</td>
+   </tr>
+   <tr>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">Second PCR (Indexing reaction and primers
+     <xref ref-type="fn" rid="ece37139-note-0004">
+      <sup>a</sup>
+     </xref>)
+    </td>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">7</td>
+    <td align="left" style="background-color:#A5A5A5" rowspan="1" colspan="1">25</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">HTS Sequencing (Illumina MiSeq)</td>
+    <td align="left" rowspan="1" colspan="1">30</td>
+    <td align="left" rowspan="1" colspan="1">30</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Overall</td>
+    <td align="left" rowspan="1" colspan="1">50.2 CAD/36.7 USD</td>
+    <td align="left" rowspan="1" colspan="1">74.5 CAD/54.5 USD</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot id="ece37139-ntgp-0002">
+  <title>Note</title>
+  <fn id="ece37139-note-0002">
+   <p>Processing steps are compared to library preparation costs of Illumina's 16S Metagenomic Sequencing Library Preparation (“
+    <xref rid="ece37139-bib-0001" ref-type="ref">16S</xref> Metagenomic Sequencing Library Preparation”, 
+    <xref rid="ece37139-bib-0001" ref-type="ref">2013</xref>). Shaded cells represent steps common to both protocols where modifications were completed to reduce the protocol's total cost.
+   </p>
+  </fn>
+  <fn id="ece37139-note-0003">
+   <p>Nonhighlighted fields represent steps common to both protocols where no modifications were needed. The costs apply to all three molecular markers: COI, 16S, and ITS.</p>
+  </fn>
+  <fn id="ece37139-note-0004">
+   <label>
+    <sup>a</sup>
+   </label>
+   <p>Illumina protocol adapted by the AAC at the University of Guelph.</p>
+  </fn>
+  <fn id="ece37139-note-0005">
+   <label>
+    <sup>b</sup>
+   </label>
+   <p>Currency exchange rates (CAD/USD) as of 09 August 2020:1 CAD = 0.73105.</p>
+  </fn>
+ </table-wrap-foot>
+ <permissions>
+  <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+ </permissions>
+</table-wrap>

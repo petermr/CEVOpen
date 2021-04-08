@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>With data obtained in the time-kill assay, we carried out the mathematical modeling to describe the growth and death of 
+ <italic>S. aureus</italic> in presence of EO. For growth, we applied the Gompertz model obtaining the specific growth rate (μ), the lag phase duration (LPD), and the maximum population density (MPD) [
+ <xref rid="B23-antibiotics-10-00222" ref-type="bibr">23</xref>]. The mathematical expression of this model is:
+ <disp-formula>Log N = a + c. exp (−exp (−b (t − m)))
+  <label>(1)</label>
+ </disp-formula> where Log N is the decimal logarithm of the microbial counts (Log
+ <sub>10</sub> CFU/mL) at time t (hours), a is the Log
+ <sub>10</sub> of the asymptotic bacterial counts when the time decreases indefinitely (Log
+ <sub>10</sub> CFU/mL), c is the Log
+ <sub>10</sub> of the asymptotic counts when the time increases indefinitely (Log
+ <sub>10</sub> CFU/mL), m is the time required to reach the maximum growth rate (hours), and b is the growth rate relative to time m (hours
+ <sup>−1</sup>). Therefore, we can obtain: µ = b. c/e (Log
+ <sub>10</sub> CFU/mL. hours), where e = 2.7182, LPD = m -1/b (hours), and MPD = a + c (Log
+ <sub>10</sub> CFU/mL). The equation was fitted to the microbial development data using a nonlinear regression with the Sigma Plot program (Sigma Plot 12.0, 2011), since the parameters of the Gompertz model are nonlinear.
+</p>

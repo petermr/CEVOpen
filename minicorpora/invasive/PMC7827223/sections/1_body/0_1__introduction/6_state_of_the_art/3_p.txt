@@ -1,0 +1,18 @@
+0: Given the sizes of the data sets used and the need to detect and classify parts of the images that only trained experts can confidently tell apart the use of deep learning in problems that are closely related to the current work is of common use.
+1: For example, a recent study [ 36] used CNN (convolutional neutral network) in order to classify images from wetlands in an area of 700 km 2.
+2: They used a fully trained and fine-tuned CNN with a limited amount of data.
+3: A comparison of the CNN with random forest was performed to evaluate the capacity and classification accuracies of CNNs.
+4: Canadian wetlands were captured with two RapidEye images with 5 m resolution in 2015.
+5: The validation data were sampled in 2015 and 2016 and four wetland classes were identified using 1000 samples.
+6: The network was trained with patches and 30,000 iterations and then tested in a second step.
+7: The CNN outperformed the random forests and an overall accuracy of 94.82% was achieved, varying between 76.65% and 98.74%.
+8: Deep convolutional neural networks were also used by [ 37] in order to classify AUV-acquired wetland images.
+9: The 677 m  518 m study area was located in Southern Florida.
+10: The authors used processed orthomosaics and multi-view images and then compared them with the performances of random forests and support vector machines.
+11: Image segmentation was done with Trimbles eCognition by first segmenting objects, then extracting features, and finally training a classifier.
+12: The results of the study show the advantages of deep CNN, reaching an accuracy of 82.02%, when multi-view images were used and with lower accuracy when orthomosaics were used (71.69%).
+13: A similar approach was used in [ 38].
+14: 3800 images of the Brazilian national forest (Kaggle dataset) were used in order to identify  hydrangea in the images.
+15: The dataset contained two-thirds of images, including the invasive species, a smaller fraction, where the invasive species appeared only in parts of the images, and a third small fraction that included no plants at all.
+16: The authors used three models: VGGNet, DenseNet, and Inception, which were pre-trained with ImageNet.
+17: Data augmentation was used and accuracies of 97.6% were reached.

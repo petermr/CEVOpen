@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">Expression analysis of the genes was performed using R (v3.4.1). Only genes with a minimum counts level of at least 1 count per million (CPM) in 75% of the samples were kept for further differential expression analysis (DEA). DEA was performed between groups (strain by dietary treatment, 
+ <italic>n</italic> = 6), using the generalized linear model (GLM) method in R package edgeR [
+ <xref ref-type="bibr" rid="CR48">48</xref>]. The present study focuses on three contrasts, 
+ <italic>Δ6abc/5</italic>-mutated salmon versus WT fed plant oil diet, 
+ <italic>Δ6abc/5</italic>-mutated salmon versus WT fed fish oil diet, and WT salmon fed plant oil versus fish oil diet. Genes with a false discovery rate (FDR), an adjusted 
+ <italic>p</italic> value (
+ <italic>q</italic>) &lt; 0.05 and absolute log2 fold change (|Log2FC|) &gt; 0.5 were considered to be differentially expressed genes (DEGs) between the two test conditions. Subsequently, a KEGG ontology enrichment analysis (KOEA) was conducted using edgeR. A hypergeometric test was applied based on number of DEGs compared to total genes annotated to each KEGG pathway, and differences were considered significant when 
+ <italic>p</italic> &lt; 0.005. All figures were made by using R package ggplot2 [
+ <xref ref-type="bibr" rid="CR49">49</xref>].
+</p>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Intra-annual dynamics were described by a neutral competition model with diffusion (properties of this model have been analyzed in [
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup>]):
+ <disp-formula id="Equb">
+  <alternatives>
+   <tex-math id="M75">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left\{ {\begin{array}{*{20}c} {\partial_{t} c^{n} \left( {t,x} \right) = D\Delta c^{n} + rc^{n} \left( {z\left( {\varvec{x}} \right) - c^{n} - \mathop \sum \limits_{i = 1}^{4} e_{i}^{n} \left( {t,{\varvec{x}}} \right)} \right)} \\ {\partial_{t} e_{k}^{n} \left( {t,x} \right) = D\Delta e_{k}^{n} + re_{k}^{n} \left( {z\left( {\varvec{x}} \right) - c^{n} - \mathop \sum \limits_{i = 1}^{4} e_{i}^{n} \left( {t,{\varvec{x}}} \right)} \right)} \\ \end{array} } \right.,$$\end{document}</tex-math>
+   <math id="M76" display="block">
+    <mrow>
+     <mfenced open="{">
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>∂</mi>
+            <mi>t</mi>
+           </msub>
+           <msup>
+            <mi>c</mi>
+            <mi>n</mi>
+           </msup>
+           <mfenced close=")" open="(">
+            <mrow>
+             <mi>t</mi>
+             <mo>,</mo>
+             <mi>x</mi>
+            </mrow>
+           </mfenced>
+           <mo>=</mo>
+           <mi>D</mi>
+           <mi mathvariant="normal">Δ</mi>
+           <msup>
+            <mi>c</mi>
+            <mi>n</mi>
+           </msup>
+           <mo>+</mo>
+           <mi>r</mi>
+           <msup>
+            <mi>c</mi>
+            <mi>n</mi>
+           </msup>
+           <mfenced close=")" open="(">
+            <mrow>
+             <mi>z</mi>
+             <mfenced close=")" open="(">
+              <mrow>
+               <mi mathvariant="bold-italic">x</mi>
+              </mrow>
+             </mfenced>
+             <mo>-</mo>
+             <msup>
+              <mi>c</mi>
+              <mi>n</mi>
+             </msup>
+             <mo>-</mo>
+             <munderover>
+              <mo movablelimits="false">∑</mo>
+              <mrow>
+               <mi>i</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+              </mrow>
+              <mn>4</mn>
+             </munderover>
+             <msubsup>
+              <mi>e</mi>
+              <mrow>
+               <mi>i</mi>
+              </mrow>
+              <mi>n</mi>
+             </msubsup>
+             <mfenced close=")" open="(">
+              <mrow>
+               <mi>t</mi>
+               <mo>,</mo>
+               <mrow>
+                <mi mathvariant="bold-italic">x</mi>
+               </mrow>
+              </mrow>
+             </mfenced>
+            </mrow>
+           </mfenced>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mrow/>
+           <mrow>
+            <msub>
+             <mi>∂</mi>
+             <mi>t</mi>
+            </msub>
+            <msubsup>
+             <mi>e</mi>
+             <mrow>
+              <mi>k</mi>
+             </mrow>
+             <mi>n</mi>
+            </msubsup>
+            <mfenced close=")" open="(">
+             <mrow>
+              <mi>t</mi>
+              <mo>,</mo>
+              <mi>x</mi>
+             </mrow>
+            </mfenced>
+            <mo>=</mo>
+            <mi>D</mi>
+            <mi mathvariant="normal">Δ</mi>
+            <msubsup>
+             <mi>e</mi>
+             <mrow>
+              <mi>k</mi>
+             </mrow>
+             <mi>n</mi>
+            </msubsup>
+            <mo>+</mo>
+            <mi>r</mi>
+            <msubsup>
+             <mi>e</mi>
+             <mrow>
+              <mi>k</mi>
+             </mrow>
+             <mi>n</mi>
+            </msubsup>
+            <mfenced close=")" open="(">
+             <mrow>
+              <mi>z</mi>
+              <mfenced close=")" open="(">
+               <mrow>
+                <mi mathvariant="bold-italic">x</mi>
+               </mrow>
+              </mfenced>
+              <mo>-</mo>
+              <msup>
+               <mi>c</mi>
+               <mi>n</mi>
+              </msup>
+              <mo>-</mo>
+              <munderover>
+               <mo movablelimits="false">∑</mo>
+               <mrow>
+                <mi>i</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+               </mrow>
+               <mn>4</mn>
+              </munderover>
+              <msubsup>
+               <mi>e</mi>
+               <mrow>
+                <mi>i</mi>
+               </mrow>
+               <mi>n</mi>
+              </msubsup>
+              <mfenced close=")" open="(">
+               <mrow>
+                <mi>t</mi>
+                <mo>,</mo>
+                <mrow>
+                 <mi mathvariant="bold-italic">x</mi>
+                </mrow>
+               </mrow>
+              </mfenced>
+             </mrow>
+            </mfenced>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_86314_Article_Equb.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>for 
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M77">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t = 0 \ldots t_{f}$$\end{document}</tex-math>
+   <math id="M78">
+    <mrow>
+     <mi>t</mi>
+     <mo>=</mo>
+     <mn>0</mn>
+     <mo>…</mo>
+     <msub>
+      <mi>t</mi>
+      <mi>f</mi>
+     </msub>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and for all introduced emerging strains, i.e. all 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M79">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k$$\end{document}</tex-math>
+   <math id="M80">
+    <mi>k</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> such that 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M81">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n \ge n_{k} .$$\end{document}</tex-math>
+   <math id="M82">
+    <mrow>
+     <mi>n</mi>
+     <mo>≥</mo>
+     <msub>
+      <mi>n</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> We assume reflecting boundary conditions, meaning that the population flows vanish at the boundary of the study area, due to truly reflecting boundaries (e.g., sea coast in the southern part of the site) or symmetric inward and outward fluxes
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. In addition, in order to limit the number of unknown parameters, and in the absence of precise knowledge on the differences between the strains, we assume here that the diffusion, competition and growth coefficients are common to all the strains during the intra-annual stage (see the discussion for more details on this assumption).
+</p>

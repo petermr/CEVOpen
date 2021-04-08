@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">
+ <italic>A. trifoliata</italic> seeds were collected at 20, 50, 80, 110, and 140 days after flowering in May, June, July, August, and September, respectively. Library construction and RNA-Seq were performed as mentioned above. Clean reads were mapped to the reference genomes by HISAT2
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup>. The expression level (fragments per kilobase of transcript per million fragments mapped, FPKM value) of unigenes was calculated by StringTie
+ <sup>
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup>. DEGs were identified by DESeq2
+ <sup>
+  <xref ref-type="bibr" rid="CR91">91</xref>
+ </sup> (adjusted 
+ <italic>P</italic> value, FDR &lt; 0.05). To clarify the biological functions of the DEGs, KEGG enrichment analysis was performed (
+ <ext-link ext-link-type="uri" xlink:href="http://www.genome.jp/kegg" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.genome.jp/kegg</ext-link>). Pathways with 
+ <italic>P</italic> &lt; 0.05 were considered significantly enriched. A quantitative real-time polymerase chain reaction (qRT-PCR) assay was performed as described in Zahn et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. The 
+ <italic>actin</italic> gene was used as a reference in all experiments. Primers used for qRT-PCR are listed in Table 
+ <xref rid="MOESM1" ref-type="media">S11</xref>. The qRT-PCR results were derived from three repeated reactions for each gene and sample. Fold change was calculated using the formula 2
+ <sup>−ΔΔCt</sup>.
+</p>

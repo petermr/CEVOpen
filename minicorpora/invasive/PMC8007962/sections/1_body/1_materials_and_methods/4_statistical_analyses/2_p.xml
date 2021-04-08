@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Earthworm effects on the total biomass (above- and belowground) and cover of the community, as well as community root traits, were tested using linear models of the package “stats” with Type II F-tests from the package “car” (
+ <xref rid="B44" ref-type="bibr">Fox and Weisber, 2019</xref>), with the earthworm treatment as factor and the tree biomass as a covariate. Tree biomass was included as a covariate in models due to its potential effect on plant biomass, cover, and traits 
+ <italic>via</italic> the competition for resources (e.g., light and soil nutrients), i.e., this was done to remove the variability in the plant trait values due to the competition with trees. The linear model with a Type II F-test showed that tree biomass was not significantly affected by the earthworm treatment [
+ <italic>F</italic>
+ <sub>(</sub>
+ <sub>1</sub>,
+ <sub>10</sub>
+ <sub>)</sub> = 0.06 and 
+ <italic>p</italic> = 0.81], and the tree biomass effect on the plant traits was not further discussed. Variables measured at the species or individual level (i.e., species-specific biomass and cover, and functional traits) were tested using linear mixed-effects models with restricted maximum-likelihood (REML) estimates using the “lme4” package (
+ <xref rid="B5" ref-type="bibr">Bates et al., 2014</xref>) and Type II Wald Chi-square tests from the package “car” (
+ <xref rid="B44" ref-type="bibr">Fox and Weisber, 2019</xref>). The same model structure was used for the different variables: the fixed effects were the tree biomass, the earthworm treatment, the plant species identity, and the interaction of the latest, while the EcoUnit was specified as a random effect. The variance explained by the different linear mixed-effects models (i.e., Conditional 
+ <italic>R</italic>
+ <sup>2</sup>, including fixed and random effects) was obtained using the “MuMIn” package (
+ <xref rid="B4" ref-type="bibr">Barton, 2019</xref>). Model diagnostics were performed by visual inspection. When necessary, variables were log-transformed (log
+ <sub>10</sub>) to meet the requirements of parametric tests, such as the species biomass, root dry matter content, and root tissue density at the community level, as well as the height, shoot:root ratio, specific leaf area, leaf dry matter content, number of ramets, leaf C:N ratio, root length, root diameter, and specific root length at the individual level. The total cover, species cover, and the proportion of flowering individuals were transformed prior analyses with the logit transformation from the package “car” (
+ <xref rid="B44" ref-type="bibr">Fox and Weisber, 2019</xref>). One outlier corresponding to an extreme proportion of flowering individuals of 0.9 for the species 
+ <italic>B. ciliatus</italic> in the control treatment (i.e., a proportion around 9 times higher than the one in the other EcoUnits for the same species) was not included in the analysis. Pairwise comparisons with Holm correction were performed by species and by earthworm treatments, when interaction effects of earthworms and species identity were significant, using the package “emmeans” (
+ <xref rid="B63" ref-type="bibr">Lenth et al., 2020</xref>).
+</p>

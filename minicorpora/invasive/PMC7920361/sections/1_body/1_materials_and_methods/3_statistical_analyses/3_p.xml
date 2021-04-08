@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate the effects of inoculation treatment and 
+ <italic>Microstegium</italic> density on native plant biomass, we fit a Beverton-Holt function to native plant biomass: 
+ <disp-formula id="pone.0237894.e002">
+  <alternatives>
+   <graphic xlink:href="pone.0237894.e002.jpg" id="pone.0237894.e002g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M2">
+    <mrow>
+     <mi>b</mi>
+     <mi>i</mi>
+     <mi>s</mi>
+     <mi>m</mi>
+     <mi>a</mi>
+     <mi>s</mi>
+     <mi>s</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>b</mi>
+        </mrow>
+        <mrow>
+         <mn>0</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>α</mi>
+       <mo>×</mo>
+       <mi>M</mi>
+       <mi>i</mi>
+       <mi>c</mi>
+       <mi>r</mi>
+       <mi>o</mi>
+       <mi>s</mi>
+       <mi>t</mi>
+       <mi>e</mi>
+       <mi>g</mi>
+       <mi>i</mi>
+       <mi>u</mi>
+       <mi>m</mi>
+       <mspace width="0.25em"/>
+       <mi>d</mi>
+       <mi>e</mi>
+       <mi>n</mi>
+       <mi>s</mi>
+       <mi>i</mi>
+       <mi>t</mi>
+       <mi>y</mi>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> We fit this function to all of the native plant biomass data, estimating separate b
+ <sub>0</sub> (biomass in the absence of competition) and α (biomass response to 
+ <italic>Microstegium</italic> density, i.e., competition coefficient) values for each native species–inoculation treatment combination. We used a Gaussian response distribution, a Gamma distribution for the b
+ <sub>0</sub> prior (shape = 2, scale = 1), an exponential distribution for the α prior (rate = 0.5), and a Cauchy distribution for the standard deviation prior (location = 0, scale = 1). Otherwise, the model was fit using the same methods described for disease incidence. To evaluate differences in b
+ <sub>0</sub> and α between treatments, we subtracted the estimate for one treatment from the other for each posterior sample (
+ <italic>n</italic> = 1500) and then calculated the mean and 95% credible intervals [
+ <xref rid="pone.0237894.ref050" ref-type="bibr">50</xref>]. To assess model fits, we checked that the r-hat value for each parameter was equal to one, visually examined convergence of the three chains, and compared the observed data to simulated data from the posterior predictive distributions using the pp_check function [
+ <xref rid="pone.0237894.ref047" ref-type="bibr">47</xref>]. We report a model coefficient as statistically significant if its 95% credible interval (“CI”, i.e., 95% probability that this interval of the posterior distribution contains the true estimate value) omits zero [
+ <xref rid="pone.0237894.ref051" ref-type="bibr">51</xref>, 
+ <xref rid="pone.0237894.ref052" ref-type="bibr">52</xref>]. We used the tidyverse packages to clean data and create figures [
+ <xref rid="pone.0237894.ref053" ref-type="bibr">53</xref>].
+</p>

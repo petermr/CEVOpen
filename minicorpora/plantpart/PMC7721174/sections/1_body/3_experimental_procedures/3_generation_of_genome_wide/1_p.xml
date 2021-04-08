@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The DNA variants used for association analysis were from three sources including the re-sequencing of 
+ <italic>G</italic>. 
+ <italic>soja</italic> soybean accessions, SoySNP50K BeadChip [
+ <xref rid="pgen.1009114.ref042" ref-type="bibr">42</xref>], and the archived sequencing reads deposited at the public data repository NCBI SRA (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/sra" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/sra</ext-link>). A total of 91 diverse 
+ <italic>G</italic>. 
+ <italic>soja</italic>, representing over 90% diversity of the wild soybean collection in the US Soybean Collection, were re-sequenced using the Illumina NextSeq 500 sequencer. The sequencing reads from the 
+ <italic>G</italic>. 
+ <italic>soja</italic> collection and NCBI SRA were processed and aligned to the soybean reference genome 
+ <italic>Wm82</italic>.
+ <italic>a2</italic>.
+ <italic>v1</italic> that was downloaded from Phytozome (
+ <ext-link ext-link-type="uri" xlink:href="https://phytozome.jgi.doe.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://phytozome.jgi.doe.gov</ext-link>) using BWA [
+ <xref rid="pgen.1009114.ref043" ref-type="bibr">43</xref>]. The UnifiedGenotyper of the GATKs pipeline [
+ <xref rid="pgen.1009114.ref044" ref-type="bibr">44</xref>] was used for the variant (SNP and indel) calling as previously described [
+ <xref rid="pgen.1009114.ref044" ref-type="bibr">44</xref>]. The qualified variants from the calling met the following criteria: read depth ≥ 5 &amp; quality ≥ 50 &amp; ≤ 2 SNPs in a 10-bp window allowed. Indel variants were converted to SNP-type variants compatible with association analysis using TASSEL5 [
+ <xref rid="pgen.1009114.ref045" ref-type="bibr">45</xref>]. Read alignments were visualized using the Integrative Genomics Viewer [
+ <xref rid="pgen.1009114.ref046" ref-type="bibr">46</xref>].
+</p>

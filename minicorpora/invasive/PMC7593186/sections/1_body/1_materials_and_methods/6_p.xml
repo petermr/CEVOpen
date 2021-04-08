@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Data manipulation and statistical analyses were performed using R 3.4.4 (R Core &amp; Team, 
+ <xref rid="ece36752-bib-0053" ref-type="ref">2018</xref>). We used linear regression to analyze relationships between spider δ
+ <sup>15</sup>N and δ
+ <sup>13</sup>C and park unit, the presence of 
+ <italic>M. vimineum</italic>, and their interaction. For each response variable, we first included understory plant structure as an additional covariate in the model. Likelihood ratio tests showed that plant structure was never an important explanatory covariate. Thus, we excluded this metric from all analyses. Similarly, we also regressed the Shannon–Weiner diversity, abundance, and richness of spider and insect communities in models with the same independent variables. For those linear models and variables that exhibited non‐normality, including models with spider body mass and isotopic carbon and nitrogen, we employed a square root transformation of the dependent variable. For count data, including invertebrate abundance and richness, we used generalized linear models with a negative binomial probability distribution using 
+ <italic>glm.nb</italic> in the 
+ <italic>MASS</italic> package (Venables &amp; Ripley, 
+ <xref rid="ece36752-bib-0068" ref-type="ref">2002</xref>). We obtained 
+ <italic>p</italic>‐values from the likelihood ratio test statistic using 
+ <italic>anova.glm</italic>. For spider and insect community data, we calculated the Euclidean distance between taxa within community matrices after Hellinger transformation (Borcard, Gillet, &amp; Legendre, 
+ <xref rid="ece36752-bib-0005" ref-type="ref">2011</xref>; Legendre &amp; Legendre, 
+ <xref rid="ece36752-bib-0030" ref-type="ref">2012</xref>; Rao, 
+ <xref rid="ece36752-bib-0055" ref-type="ref">1995</xref>). We used the Euclidean distance of Hellinger‐transformed data as these data are metric and considered robust in ordination analyses (Legendre &amp; Gallagher, 
+ <xref rid="ece36752-bib-0029" ref-type="ref">2001</xref>). We then conducted permutational multivariate analysis of variance using 
+ <italic>adonis2</italic> in the 
+ <italic>vegan</italic> package to understand how communities differ in patches of 
+ <italic>M. vimineum</italic> after testing for multivariate homogeneity of variance using 
+ <italic>betadisper</italic> and 
+ <italic>anova.betadisper</italic> (Anderson, Ellingsen, &amp; McArdle, 
+ <xref rid="ece36752-bib-0003" ref-type="ref">2006</xref>; McArdle &amp; Anderson, 
+ <xref rid="ece36752-bib-0035" ref-type="ref">2001</xref>; Oksanen et al., 
+ <xref rid="ece36752-bib-0046" ref-type="ref">2017</xref>). To test for significance, we examined the marginal effects of variables after 20,000 permutations.
+</p>

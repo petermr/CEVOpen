@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>List of DEGs related to biomass accumulation in 
+   <italic>Asarum</italic> leaves grown under different light intensities. L1, L2, L3 and L4 represent full sunlight, 50% sunlight, 28% sunlight and 12% sunlight, respectively
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Treatment</th>
+    <th>Gene ID</th>
+    <th>Log2 fold change</th>
+    <th>Pvalue adjusted</th>
+    <th>Description</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="5">Ascorbate and aldarate metabolism</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L1 to L2</td>
+    <td>
+     <italic>Cluster-24,085.74455</italic>
+    </td>
+    <td>−1.6322</td>
+    <td>0.0091074</td>
+    <td>L-ascorbate oxidase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.63483</italic>
+    </td>
+    <td>3.2081</td>
+    <td>0.003801</td>
+    <td>UDP-glycosyltransferase 76F1-like</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L1 to L4</td>
+    <td>
+     <italic>Cluster-24,085.74455</italic>
+    </td>
+    <td>−3.9989</td>
+    <td>2.04E-09</td>
+    <td>L-ascorbate oxidase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.74454</italic>
+    </td>
+    <td>−3.9441</td>
+    <td>3.30E-06</td>
+    <td>L-ascorbate oxidase</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L2 to L4</td>
+    <td>
+     <italic>Cluster-24,085.74455</italic>
+    </td>
+    <td>−2.3647</td>
+    <td>0.001596</td>
+    <td>L-ascorbate oxidase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.50783</italic>
+    </td>
+    <td>−1.8271</td>
+    <td>0.016912</td>
+    <td>UDP-glycosyltransferase 76F1-like</td>
+   </tr>
+   <tr>
+    <td> L3to L4</td>
+    <td>
+     <italic>Cluster-24,085.74455</italic>
+    </td>
+    <td>−2.6414</td>
+    <td>0.0095753</td>
+    <td>L-ascorbate oxidase</td>
+   </tr>
+   <tr>
+    <td colspan="5">Carbon fixation in photosynthetic organisms</td>
+   </tr>
+   <tr>
+    <td> L1 to L2</td>
+    <td>
+     <italic>Cluster-17,798.0</italic>
+    </td>
+    <td>6.3318</td>
+    <td>0.0006952</td>
+    <td>Phosphoenolpyruvate carboxykinase (ATP)</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L2 to L3</td>
+    <td>
+     <italic>Cluster-20,520.0</italic>
+    </td>
+    <td>−6.3406</td>
+    <td>0.03053</td>
+    <td>Ribulose bisphosphate carboxylase small chain</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-23,656.0</italic>
+    </td>
+    <td>−6.1474</td>
+    <td>0.0089179</td>
+    <td>Ribulose-bisphosphate carboxylase small chain</td>
+   </tr>
+   <tr>
+    <td> L2 to L4</td>
+    <td>
+     <italic>Cluster-164.0</italic>
+    </td>
+    <td>−7.439</td>
+    <td>0.0009329</td>
+    <td>Ribulose bisphosphate carboxylase small chain</td>
+   </tr>
+   <tr>
+    <td rowspan="2"> L3 to L4</td>
+    <td>
+     <italic>Cluster-23,656.0</italic>
+    </td>
+    <td>5.8291</td>
+    <td>0.034387</td>
+    <td>Ribulose-bisphosphate carboxylase small chain</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-164.0</italic>
+    </td>
+    <td>−7.3099</td>
+    <td>0.0052386</td>
+    <td>Ribulose bisphosphate carboxylase small chain</td>
+   </tr>
+   <tr>
+    <td colspan="5">Starch and sucrose metabolism</td>
+   </tr>
+   <tr>
+    <td> L1 to L2</td>
+    <td>
+     <italic>Cluster-24,085.63483</italic>
+    </td>
+    <td>3.2081</td>
+    <td>0.003801</td>
+    <td>UDP-glycosyltransferase 76F1-like</td>
+   </tr>
+   <tr>
+    <td rowspan="4"> L1 to L4</td>
+    <td>
+     <italic>Cluster-24,085.9268</italic>
+    </td>
+    <td>−2.4712</td>
+    <td>7.81E-05</td>
+    <td>Alpha,alpha-trehalose-phosphate synthase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.20752</italic>
+    </td>
+    <td>4.2334</td>
+    <td>1.38E-05</td>
+    <td>Glucose-1-phosphate adenylyltransferase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.45906</italic>
+    </td>
+    <td>2.3643</td>
+    <td>2.53E-05</td>
+    <td>1,4-alpha-glucan-branching enzyme</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.42146</italic>
+    </td>
+    <td>2.0882</td>
+    <td>0.005112</td>
+    <td>Beta-amylase 3, chloroplastic-like</td>
+   </tr>
+   <tr>
+    <td rowspan="5"> L2to L4</td>
+    <td>
+     <italic>Cluster-24,085.48054</italic>
+    </td>
+    <td>−1.4951</td>
+    <td>0.0051263</td>
+    <td>UDP-glucuronate 4-epimerase 6</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.9268</italic>
+    </td>
+    <td>−1.877</td>
+    <td>0.0049111</td>
+    <td>Alpha,alpha-trehalose-phosphate synthase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.77617</italic>
+    </td>
+    <td>−6.2549</td>
+    <td>0.026686</td>
+    <td>UDP-glucuronate decarboxylase</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.43359</italic>
+    </td>
+    <td>−2.5661</td>
+    <td>0.049914</td>
+    <td>Growth-regulating factor 1-like</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>Cluster-24,085.42146</italic>
+    </td>
+    <td>2.4966</td>
+    <td>0.0002086</td>
+    <td>Beta-amylase 3, chloroplastic-like</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

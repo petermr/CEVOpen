@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Before merging, core sample inference algorithm was applied to data [
+ <xref rid="B49" ref-type="bibr">49</xref>]. The forward and reverse reads were then merged together to obtain full denoised sequences with function “
+ <italic>mergePairs</italic>.” As defaults in DADA2, merged sequences were only output if forward and reverse reads overlapped with a minimum of 12 bases. The merged sequences were then rearranged in an Amplicon Sequence Variant (ASV) table [
+ <xref rid="B50" ref-type="bibr">50</xref>] and cleaned for chimeras with functions “
+ <italic>makeSequenceTable</italic>” and “
+ <italic>removeBimeraDenovo,</italic>” respectively. For taxonomic classification, recommendations of Callahan and colleagues were used [
+ <xref rid="B50" ref-type="bibr">50</xref>], together with a native implementation of Naïve Bayesian classifier method [
+ <xref rid="B51" ref-type="bibr">51</xref>] using function “
+ <italic>assignTaxonomy</italic>” still in DADA2 package. The ASVs with chimeras were removed from analysis using “
+ <italic>subset</italic>_
+ <italic>taxa</italic>” function in “
+ <italic>Phyloseq</italic>” package (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/joey711/phyloseq" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/joey711/phyloseq</ext-link>).
+</p>

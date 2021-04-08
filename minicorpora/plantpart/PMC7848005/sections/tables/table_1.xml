@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Statistics of 
+   <italic>A. trifoliata</italic> subsp. 
+   <italic>australis</italic> genome sequencing, assembly, and annotation
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Genomic feature</th>
+    <th>
+     <italic>A. trifoliata</italic> subsp. 
+     <italic>australis</italic>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Assembled genome size (Mb)</td>
+    <td>682.14</td>
+   </tr>
+   <tr>
+    <td>PacBio reads (Gb)</td>
+    <td>65.96 (96.7 X
+     <sup>a</sup>)
+    </td>
+   </tr>
+   <tr>
+    <td>Illumina reads (Gb)</td>
+    <td>24.75 (36.28 X)</td>
+   </tr>
+   <tr>
+    <td>Hi-C (Gb)</td>
+    <td>103.00 (151.03 X)</td>
+   </tr>
+   <tr>
+    <td>Total reads (Gb)</td>
+    <td>193.71 (284.02 X)</td>
+   </tr>
+   <tr>
+    <td>GC content (%)</td>
+    <td>35.02</td>
+   </tr>
+   <tr>
+    <td>Percentage of anchoring</td>
+    <td>98.05%</td>
+   </tr>
+   <tr>
+    <td>Number of contigs</td>
+    <td>689</td>
+   </tr>
+   <tr>
+    <td>Contigs N50 (kb)</td>
+    <td>6,198</td>
+   </tr>
+   <tr>
+    <td>Contigs N90 (kb)</td>
+    <td>1,563</td>
+   </tr>
+   <tr>
+    <td>Number of scaffolds</td>
+    <td>109</td>
+   </tr>
+   <tr>
+    <td>Scaffold N50 (kb)</td>
+    <td>43,106</td>
+   </tr>
+   <tr>
+    <td>Scaffold N90 (kb)</td>
+    <td>30,967</td>
+   </tr>
+   <tr>
+    <td>Longest sequence length (kb)</td>
+    <td>64,151</td>
+   </tr>
+   <tr>
+    <td>Total repetitive sequences (Mb)</td>
+    <td>485.55 (71.18%)</td>
+   </tr>
+   <tr>
+    <td>Total protein-coding genes</td>
+    <td>25,598</td>
+   </tr>
+   <tr>
+    <td>Annotated protein-coding genes</td>
+    <td>25,008</td>
+   </tr>
+   <tr>
+    <td>Average length per gene (kb)</td>
+    <td>6.47</td>
+   </tr>
+   <tr>
+    <td>Total exon length (kb)</td>
+    <td>41.34</td>
+   </tr>
+   <tr>
+    <td>Average exon length (kb)</td>
+    <td>1.62</td>
+   </tr>
+   <tr>
+    <td>Total intron length (kb)</td>
+    <td>124.39</td>
+   </tr>
+   <tr>
+    <td>Average intron length (kb)</td>
+    <td>4.86</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>Sequence coverage
+  </p>
+ </table-wrap-foot>
+</table-wrap>

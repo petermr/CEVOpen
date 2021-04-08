@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate the effects of 
+ <italic>Microstegium</italic> density and 
+ <italic>B</italic>. 
+ <italic>gigantea</italic> inoculation on 
+ <italic>Microstegium</italic> performance, we fit a linear regression to 
+ <italic>Microstegium</italic> biomass: 
+ <disp-formula id="pone.0237894.e001">
+  <alternatives>
+   <graphic xlink:href="pone.0237894.e001.jpg" id="pone.0237894.e001g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M1">
+    <mrow>
+     <mi>b</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>m</mi>
+     <mi>a</mi>
+     <mi>s</mi>
+     <mi>s</mi>
+     <mo>∼</mo>
+     <mi>n</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>v</mi>
+     <mi>e</mi>
+     <mspace width="0.25em"/>
+     <mi>s</mi>
+     <mi>p</mi>
+     <mi>e</mi>
+     <mi>c</mi>
+     <mi>i</mi>
+     <mi>e</mi>
+     <mi>s</mi>
+     <mo>×</mo>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>u</mi>
+     <mi>l</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mo>×</mo>
+     <mo stretchy="false">(</mo>
+     <mi>M</mi>
+     <mi>i</mi>
+     <mi>c</mi>
+     <mi>r</mi>
+     <mi>o</mi>
+     <mi>s</mi>
+     <mi>t</mi>
+     <mi>e</mi>
+     <mi>g</mi>
+     <mi>i</mi>
+     <mi>u</mi>
+     <mi>m</mi>
+     <mspace width="0.25em"/>
+     <mi>d</mi>
+     <mi>e</mi>
+     <mi>n</mi>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>t</mi>
+     <mi>y</mi>
+     <mo>+</mo>
+     <mi>M</mi>
+     <mi>i</mi>
+     <mi>c</mi>
+     <mi>r</mi>
+     <mi>o</mi>
+     <mi>s</mi>
+     <mi>t</mi>
+     <mi>e</mi>
+     <mi>g</mi>
+     <mi>i</mi>
+     <mi>u</mi>
+     <mi>m</mi>
+     <mspace width="0.25em"/>
+     <mi>d</mi>
+     <mi>e</mi>
+     <mi>n</mi>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>t</mi>
+     <msup>
+      <mi>y</mi>
+      <mn>2</mn>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mo>.</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> This formulation allowed us to estimate quadratic relationships between 
+ <italic>Microstegium</italic> biomass and 
+ <italic>Microstegium</italic> density for each native species–inoculation treatment combination. We used a Gaussian response distribution, a Gaussian distribution for the intercept prior (location = 2, scale = 10) and the coefficient priors (location = 0, scale = 10), and a Cauchy distribution for the standard deviation prior (location = 0, scale = 1). Otherwise, the model was fit using the same methods described for disease incidence.
+</p>

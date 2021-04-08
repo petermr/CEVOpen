@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Sequence quality control and genome assembly were carried out according the protocols described in 
+ <xref rid="ref-36" ref-type="bibr">Xia et al. (2019b)</xref>. Briefly, we truncated cDNA sequences at the 3′ and 5′ ends using SeqPrep (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/jstjohn/SeqPrep" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/jstjohn/SeqPrep</ext-link>) and removed adapter contamination (at least 10 Ns from the raw data (FASTQ format)) using Sickle (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/najoshi/sickle" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/najoshi/sickle</ext-link>). Then, we assembled them using SOAPdenovo (
+ <ext-link ext-link-type="uri" xlink:href="https://sourceforge.net/projects/soapfuse/" xmlns:xlink="http://www.w3.org/1999/xlink">https://sourceforge.net/projects/soapfuse/</ext-link>, Version 1.06). Scaffolds over 500 bp were extracted and broken into contigs without gaps. Contigs were used for further gene prediction and annotation.
+</p>

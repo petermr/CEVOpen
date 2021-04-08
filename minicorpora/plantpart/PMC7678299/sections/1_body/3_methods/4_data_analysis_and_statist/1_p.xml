@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42">Read sequences were processed using the 
+ <italic>bcbio-nextgen</italic> pipeline (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/bcbio/bcbio-nextgen" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <underline>https://github.com/bcbio/bcbio-nextgen</underline>
+ </ext-link>). In brief reads were aligned to the salmon genome (ICSASG_v2) using 
+ <italic>STAR</italic> [
+ <xref ref-type="bibr" rid="CR44">44</xref>]. The resulting .bam files were subsequently used to generate i) raw gene counts using 
+ <italic>featureCounts</italic> (v1.4.4) [
+ <xref ref-type="bibr" rid="CR45">45</xref>] using the NCBI 
+ <italic>Salmo salar</italic> Annotation Release 100 (available for download at 
+ <ext-link ext-link-type="uri" xlink:href="https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/8030/100/" xmlns:xlink="http://www.w3.org/1999/xlink">https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/8030/100/</ext-link>). ii) exon counts using 
+ <italic>DEXSeq</italic> (dexseq_count.py) [
+ <xref ref-type="bibr" rid="CR46">46</xref>]. In addition reads were mapped directly to the transcriptome using Salmon (v0.10.2) [
+ <xref ref-type="bibr" rid="CR47">47</xref>]. Gene IDs from NCBI GeneBank database (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/</ext-link>) were used to identify genes in this study.
+</p>

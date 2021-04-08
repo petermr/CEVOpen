@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">where 
+ <italic>l</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> is the minimum distance (radius of a grid cell), 
+ <italic>l</italic>
+ <sub>
+  <italic>max</italic>
+ </sub> is the maximum distance (equal to the domain size) and 
+ <italic>μ</italic> is the scaling exponent. The scaling exponent determines the power-law decay of the dispersal kernel. This scaling exponent makes the 2D-Pareto kernel a very convenient tool to explore different dispersal strategies. By changing only one parameter, the kernel can cover a full range of dispersal strategies ranging from very local (short-distance dispersal dominated, 
+ <italic>μ</italic> &gt; 3) to non-local (relatively high probability of long-distance dispersal, 
+ <italic>μ</italic> → 1) and all scales in between. For 
+ <italic>μ</italic> ~ 2 (i.e., canonical multi-scale strategy), this kernel produces a highly heterogeneous distribution of dispersal distances, which slowly decays in frequency from short to long dispersal distances. From search theory we know that the scaling exponent in power law kernels strongly determines the inherent spreading properties (i.e. from Brownian motion to anomalous diffusivity) and effectively trades the sampling effort across scales [
+ <xref ref-type="bibr" rid="CR35">35</xref>]. This is not always true when considering other kinds of distributions described by a shape and a scale parameter, where the heterogeneity of dispersal scales is not as high as in power laws. Indeed, in power-law kernels, convergence to Gaussian spreading (normal diffusion) is very slow, whereas other distributions may converge to Gaussian spreading very fast.
+</p>

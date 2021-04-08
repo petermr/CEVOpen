@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Total RNA of tender inflorescence stems from WT and gpat1 plants was extracted for RNA-sequencing. cDNA library construction and Illumina sequencing were performed by Shanghai Majorbio Bio-pharm Technology Co., Ltd. (Shanghai, China). The RNA-seq data were aligned to TAIR10 reference genome using hisat2 [
+ <xref rid="B84-ijms-22-00785" ref-type="bibr">84</xref>] with default parameters. The alignments were passed through StringTie [
+ <xref rid="B85-ijms-22-00785" ref-type="bibr">85</xref>] for transcript assembly, while RSEM [
+ <xref rid="B86-ijms-22-00785" ref-type="bibr">86</xref>] was used to quantify the expression levels of all transcripts, which were normalized with Transcripts Per Million (TPM). We identified significantly differentially expressed genes (DEGs) using the R package DEseq2 [
+ <xref rid="B87-ijms-22-00785" ref-type="bibr">87</xref>] with a cut-off of adjusted 
+ <italic>p</italic>-value (FDR) &lt; 0.05 and |log
+ <sub>2</sub>FC| ≥ 1 between WT and gpat1 mutants. An enrichment analysis was performed to predict the biological processes and KEGG pathways of the DEGs via the online tool Metascape [
+ <xref rid="B88-ijms-22-00785" ref-type="bibr">88</xref>].
+</p>

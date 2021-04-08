@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par70">The raw reads were filtered to obtain clean reads. Adapter sequences were trimmed, low quality reads containing &gt; 50% bases with a Phred quality score ≤ 20 were removed, and reads with unknown nucleotides (more than 10% ambiguous residues N) using the FastQC tool (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>) [
+ <xref ref-type="bibr" rid="CR68">68</xref>]. To stitch clean reads, Trinity was used (Version r20140717, [
+ <xref ref-type="bibr" rid="CR69">69</xref>]) and Trinity spliced transcript sequences were used as reference sequences for subsequent analyses. For hierarchical clustering, Corset was used (
+ <ext-link ext-link-type="uri" xlink:href="https://code.google.com/p/corset-project/" xmlns:xlink="http://www.w3.org/1999/xlink">https://code.google.com/p/corset-project/</ext-link>). The assembled unigenes were then aligned with various databases such as KEGG [
+ <xref ref-type="bibr" rid="CR70">70</xref>], GO [
+ <xref ref-type="bibr" rid="CR71">71</xref>], Clusters of Orthologous Groups (COG) [
+ <xref ref-type="bibr" rid="CR72">72</xref>], PfAM (protein family), Swissprot [
+ <xref ref-type="bibr" rid="CR73">73</xref>], NR (NCBI non-redundant protein sequences) [
+ <xref ref-type="bibr" rid="CR74">74</xref>], KOG [
+ <xref ref-type="bibr" rid="CR75">75</xref>], and NT (NCBI non-redundant nucleotide sequences). The software KAAS (Moriya et al., 2007) was employed to get the unigene KEGG orthology with a threshold of E-value = 1.0 × 10
+ <sup>− 10</sup>. For Swiss-Prot (E-value = 1.0 × 10
+ <sup>− 5</sup>), KOG/COG (E-value = 1.0 × 10
+ <sup>− 3</sup>), and NR (E-value = 1.0 × 10
+ <sup>− 5</sup>) annotation we employed diamond V 0.8.22, respectively. For Nt annotation, NCBI BLAST 2.2.28+ was used with a threshold of E-value = 1.0 × 10
+ <sup>− 5</sup>. The analogs of the unigene amino acid sequences were searched against the Pfam database [
+ <xref ref-type="bibr" rid="CR76">76</xref>] using HMMER tool [
+ <xref ref-type="bibr" rid="CR77">77</xref>] with a threshold of E-value = 0.01. For GO annotation was performed using Blast2GO V2.5 with a threshold E-value = 1.0 × 10
+ <sup>− 6</sup>. The sequenced reads were compared with the unigene library using Bowtie2 with default parameters [
+ <xref ref-type="bibr" rid="CR78">78</xref>], and the level of expression was estimated in combination with RSEM [
+ <xref ref-type="bibr" rid="CR79">79</xref>]. The gene expression level was determined according to the Fragments Per Kilobase of transcript sequence per Millions base pairs sequenced (FPKM). For overall RNA-seq quality assessment, Pearson correlation check between samples (and treatments) was performed.
+</p>

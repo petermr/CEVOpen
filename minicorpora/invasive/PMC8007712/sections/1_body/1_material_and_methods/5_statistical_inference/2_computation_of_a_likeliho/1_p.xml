@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">Given the set of parameters 
+ <inline-formula id="IEq68">
+  <alternatives>
+   <tex-math id="M151">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\varvec{\Theta}}}$$\end{document}</tex-math>
+   <math id="M152">
+    <mrow>
+     <mi mathvariant="bold">Θ</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq68.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, the densities 
+ <inline-formula id="IEq69">
+  <alternatives>
+   <tex-math id="M153">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$c^{n} \left( {t,{\varvec{x}}|{{\varvec{\Theta}}}} \right)$$\end{document}</tex-math>
+   <math id="M154">
+    <mrow>
+     <msup>
+      <mi>c</mi>
+      <mi>n</mi>
+     </msup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>t</mi>
+       <mo>,</mo>
+       <mrow>
+        <mi mathvariant="bold-italic">x</mi>
+       </mrow>
+       <mo stretchy="false">|</mo>
+       <mrow>
+        <mi mathvariant="bold">Θ</mi>
+       </mrow>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq69.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq70">
+  <alternatives>
+   <tex-math id="M155">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$e_{k}^{n} \left( {t,{\varvec{x}}|{{\varvec{\Theta}}}} \right)$$\end{document}</tex-math>
+   <math id="M156">
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mi>n</mi>
+     </msubsup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>t</mi>
+       <mo>,</mo>
+       <mrow>
+        <mi mathvariant="bold-italic">x</mi>
+       </mrow>
+       <mo stretchy="false">|</mo>
+       <mrow>
+        <mi mathvariant="bold">Θ</mi>
+       </mrow>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq70.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> can be computed explicitly with the mechanistic model for population dynamics. Thus, at a given year 
+ <inline-formula id="IEq71">
+  <alternatives>
+   <tex-math id="M157">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n$$\end{document}</tex-math>
+   <math id="M158">
+    <mi>n</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq71.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, at 
+ <inline-formula id="IEq72">
+  <alternatives>
+   <tex-math id="M159">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left( {t_{i} ,x_{i} } \right)$$\end{document}</tex-math>
+   <math id="M160">
+    <mfenced close=")" open="(">
+     <mrow>
+      <msub>
+       <mi>t</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>x</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+    </mfenced>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq72.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, the parameter 
+ <inline-formula id="IEq73">
+  <alternatives>
+   <tex-math id="M161">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varvec{p}}_{i}$$\end{document}</tex-math>
+   <math id="M162">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">p</mi>
+     </mrow>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq73.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> of the multinomial distribution 
+ <inline-formula id="IEq74">
+  <alternatives>
+   <tex-math id="M163">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathcal{M}}\left( {V_{i} ,{\varvec{p}}_{i} } \right)$$\end{document}</tex-math>
+   <math id="M164">
+    <mrow>
+     <mi mathvariant="script">M</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msub>
+        <mi>V</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi mathvariant="bold-italic">p</mi>
+        </mrow>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_86314_Article_IEq74.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> writes:
+ <disp-formula id="Equd">
+  <alternatives>
+   <tex-math id="M165">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$p_{i}^{c} \left( {{\varvec{\Theta}}} \right) = \frac{{c^{n} \left( {t_{i} ,{\varvec{x}}_{i} |{{\varvec{\Theta}}}} \right)}}{{c^{n} \left( {t_{i} ,{\varvec{x}}_{i} |{{\varvec{\Theta}}}} \right) + \mathop \sum \nolimits_{i = 1}^{4} e_{i}^{n} \left( {t_{i} ,{\varvec{x}}_{i} {|}{{\varvec{\Theta}}}} \right)}}, p_{i}^{{e_{k} }} \left( {{\varvec{\Theta}}} \right) = \frac{{e_{k}^{n} \left( {t_{i} ,{\varvec{x}}_{i} |{{\varvec{\Theta}}}} \right)}}{{c^{n} \left( {t_{i} ,{\varvec{x}}_{i} |{{\varvec{\Theta}}}} \right) + \mathop \sum \nolimits_{i = 1}^{4} e_{i}^{n} (t_{i} ,{\varvec{x}}_{i} |{{\varvec{\Theta}}})}}.$$\end{document}</tex-math>
+   <math id="M166" display="block">
+    <mrow>
+     <msubsup>
+      <mi>p</mi>
+      <mrow>
+       <mi>i</mi>
+      </mrow>
+      <mi>c</mi>
+     </msubsup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold">Θ</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>c</mi>
+        <mi>n</mi>
+       </msup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo stretchy="false">|</mo>
+          <mrow>
+           <mi mathvariant="bold">Θ</mi>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>c</mi>
+        <mi>n</mi>
+       </msup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo stretchy="false">|</mo>
+          <mrow>
+           <mi mathvariant="bold">Θ</mi>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mfenced>
+       <mo>+</mo>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mn>4</mn>
+       </msubsup>
+       <msubsup>
+        <mi>e</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mi>i</mi>
+         </msub>
+         <mo stretchy="false">|</mo>
+         <mrow>
+          <mi mathvariant="bold">Θ</mi>
+         </mrow>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+     <msubsup>
+      <mi>p</mi>
+      <mrow>
+       <mi>i</mi>
+      </mrow>
+      <msub>
+       <mi>e</mi>
+       <mi>k</mi>
+      </msub>
+     </msubsup>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi mathvariant="bold">Θ</mi>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mi>e</mi>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo stretchy="false">|</mo>
+          <mrow>
+           <mi mathvariant="bold">Θ</mi>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>c</mi>
+        <mi>n</mi>
+       </msup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>,</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo stretchy="false">|</mo>
+          <mrow>
+           <mi mathvariant="bold">Θ</mi>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mfenced>
+       <mo>+</mo>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mn>4</mn>
+       </msubsup>
+       <msubsup>
+        <mi>e</mi>
+        <mrow>
+         <mi>i</mi>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msub>
+         <mi>t</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>,</mo>
+        <msub>
+         <mrow>
+          <mi mathvariant="bold-italic">x</mi>
+         </mrow>
+         <mi>i</mi>
+        </msub>
+        <mo stretchy="false">|</mo>
+        <mrow>
+         <mi mathvariant="bold">Θ</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_86314_Article_Equd.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

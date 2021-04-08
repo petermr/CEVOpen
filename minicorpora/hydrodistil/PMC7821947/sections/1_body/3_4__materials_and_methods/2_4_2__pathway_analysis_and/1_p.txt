@@ -1,0 +1,8 @@
+0: Based on the protein network constructed above, gene set enrichment analysis (GSEA) based on KEGG pathway 2019 Human ( https://www.kegg.jp/) was conducted using Enrichr ( https://amp.pharm.mssm.edu/Enrichr/).
+1: The pathways were sorted by  p value, which is the  p value computed using Fishers exact test to assess the deviation from the expected rank.
+2: To see the detailed network of MEO, we performed a module division and analysis using a Molecular Complex Detection (MCODE) in Cytoscape.
+3: The condition for division was node score cut off = 0.2, K-core = 2, and degree cutoff = 2.
+4: For the modules of MEO, after selecting module (M) 2, we conducted pathway analysis based on KEGG pathway 2019 Human, and also GO term analysis based on GO Biological Process 2018 ( http://geneontology.org/) in Enrichr.
+5: The KEGG pathway and GO term of each module were sorted by  p value.
+6: We excluded  p value > 0.05 of KEGG pathway and GO term in system and selected one representing term, which had lowest  p value in each module.
+7: Clustergram of pathways and genes was also constructed in Enrichr.
