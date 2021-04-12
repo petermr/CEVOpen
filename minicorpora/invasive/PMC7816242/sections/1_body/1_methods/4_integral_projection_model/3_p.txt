@@ -1,0 +1,8 @@
+0: We discretized the continuous IPM kernel using 300 mesh points between lower bound  L = 1 and upper bound  U = 4.5.
+1: Note that these bounds are for the logtransformed longest leaf length in centimeters, and a negative lower bound does not reflect negative leaf sizes.
+2: Model predictions were not sensitive to slight increases and decreases in the number of mesh points.
+3: We used the midpoint rule for integration to estimate the numerical solution to the IPM (Easterling et al.
+4: 2000).
+5: We used this discretized IPM kernel to estimate the stable annual population growth rate , the average size at reproduction and the average age at reproduction (Ellner et al.
+6: 2016).
+7: We estimated 95% confidence intervals for  and average size and age at reproduction by bootstrapping our original data, stratified by temperature treatment, 2,000 times.

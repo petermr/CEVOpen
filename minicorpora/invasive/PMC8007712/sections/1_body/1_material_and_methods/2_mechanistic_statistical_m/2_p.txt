@@ -1,0 +1,4 @@
+0: Here, the mechanistic part of the model describes the spatio-temporal dynamics of the virus strains, given the model parameters (demographic parameters, introduction dates/sites).
+1: This allows us to compute the expected proportions of the five types of virus strains (CS and ES 1 to ES 4) at each date and site of observation.
+2: The probabilistic part of the mechanistic-statistical model describes the conditional distribution of the observed proportions of the virus strains, given the expected proportions.
+3: Using this approach, it is then possible to derive a numerically tractable formula for the likelihood function associated with the model parameters.

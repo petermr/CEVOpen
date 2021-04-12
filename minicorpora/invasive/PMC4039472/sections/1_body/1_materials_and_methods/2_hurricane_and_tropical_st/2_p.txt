@@ -1,0 +1,7 @@
+0: Information about hurricane and tropical storm (tropical and sub-tropical) tracks and maximum wind speeds along those tracks were collected from the International Best Track Archive for Climate Stewardship (IBTrACS, v03r04 WMO) for the North American Basin  [35].
+1: Using ArcMAP 10.1, storm tracks passing within a radius of 200 km around each study site during the study period were extracted.
+2: The maximum wind speed of each storm in the study site was estimated using the Rankine combined vortex approximation model  [36].
+3: First, the minimum distance between the center of the study site and storm track was determined for each storm.
+4: Second, because the radius of maximum winds for a hurricane is estimated to be 48 km  [37], if the storm passed within this distance of the study-site center, the maximum sustained wind speed was considered the wind speed experienced at the site.
+5: For the storms more than 48 km from the site center, maximum sustained wind speed for that site was estimated as where   is wind speed at the site,   is the maximum wind speed,   is the distance between the site and hurricane path,   is the radius of maximum winds, and   is the scaling parameter  [36].
+6: We used   as recommended by Hsu and Babin  [38].

@@ -1,0 +1,3 @@
+0: Sequence data were processed using a modified data analysis pipeline 14,  38.
+1: Raw reads were trimmed to remove low-quality regions (Trimmomatic v. 0.33), paired, and then merged (FLASH v. 1.2.11), with merged reads shorter than 450 bp discarded.
+2: Identical reads were dereplicated within samples and then clustered at 100% identity across all samples (vsearch v. 2.3.2), with singletons (sequence reads that occurred only once across all samples) discarded.

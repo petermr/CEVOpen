@@ -1,0 +1,8 @@
+0: Finally, we modified the algorithm to present the results in a way that was more usable for end-users.
+1: The 100  100 patches used for prediction managed to capture most of the occurrences of the Blueberry class (see  Section 3.2 for details).
+2: However, these rather large patches also included large areas that actually contained no blueberries.
+3: While expert users could easily use these results as a starting point in order to quickly identify the exact location of blueberry bushes, we felt that refining our prediction using smaller patches would make their work faster, while also providing clearer information for non-expert users.
+4: Consequently, we divided each of the predicted 100  100 patches into 16 25  25 patches, re-sampled each of these newly-made smaller patches to the image size that is used by our DNN and re-classified them.
+5: This resulted in a refined result made up of 25  25 patches.
+6: This process had the disadvantage that, if errors were made, some of the correctly predicted blueberry pixels might be lost.
+7: In order to evaluate this issue, we considered the  TP,  FP,  TN, and  FP status of each pixel in each patch and measured the percentage of positive pixels that were covered by our predicted patches as well as the Dice coefficient that gave us an indication of the relative weight of blueberry pixels inside of our predicted patches: (2)Dice=2TP2TP+FP+FN

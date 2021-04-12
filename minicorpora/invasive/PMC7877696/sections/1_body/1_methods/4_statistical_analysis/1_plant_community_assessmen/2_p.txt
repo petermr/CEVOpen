@@ -1,0 +1,7 @@
+0: In addition, we conducted a contingency table analysis and found that the presence of one invader did not influence the presence of the other (  2 = 1.53, df = 1,  P = 0.22).
+1: Thus, we treated the presence of  Alliaria petiolata and earthworms as independent variables in the following analysis.
+2: We used the presence/absence of  Alliaria petiolata (rather than percent cover) for parallel structure with the experimental design, described below.
+3: Next we modelled percent cover of  Pododphyllum peltatum as a response variable in a linear model with a Guassian error distribution and log transformed percent cover, with a small constant added (0.001) to prevent zero values of percent cover from being dropped from the model.
+4: We included predictors:  Alliaria petiolata presence, earthworm presence, soil nitrogen and all of their interactions.
+5: Because our analyses indicated that soil phosphorus was not independent of earthworms, we did this analysis only for soil nitrogen  [see Supporting Information  Table S1].
+6: We used stepAIC to select a minimal model ( Venables and Ripley 2002) and we used the drop1 function in R to test for significance.

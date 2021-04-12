@@ -1,0 +1,5 @@
+0: The RF builds the trees in parallel processes (Breiman,  2001).
+1: The trees are fully grown and each is used to predict the outofbag observations that do not occur in a bootstrap sample (Breiman,  2001).
+2: The predicted class of an outofbag observation is calculated average of the results of all predictions (Breiman,  2001; Youssef, Pourghasemi, Pourtaghi, & AlKatheeri,  2016).
+3: The RF has some limitations like incapable of predicting beyond the range of response values in the training data (Hengl et al.,  2015), and overestimate low values and underestimate high values (Horning,  2010).
+4: In this study, we only varied the number of trees, testing two different settings: 1,000 and 5,000 trees while all other parameters were set to default.

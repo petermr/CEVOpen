@@ -1,0 +1,12 @@
+0: For each set of parameter combinations, model simulations ran until one of the plant types was outcompeted, i.e.
+1: when it occupied less than 5% of all habitat grid cells, while the other type increased to at least 80% of all habitat grid cells or reached a stable equilibrium (no significant decrease over 200 generations).
+2: If both types were maintained after 1000 generations, we assigned no winner and scored this as no strong selection on dispersal strategy.
+3: For each landscape, all possible combinations of dispersal kernels (55 paired simulations) were used to determine the evolutionarily stable strategy (ESS).
+4: We repeated each simulation 12 times to test robustness of results.
+5: We summarized the outcome of these 12 replicate runs as follows: 1) a clear winner (one population won in at least 11 out of 12 repetitions), 2) extinction of both populations, or 3) no clear winner or no convergence.
+6: Most pairwise simulations resulted in a clear winner (at least 11 out of 12 wins), pointing to a clear winning strategy in almost all scenarios.
+7: In few cases the 11 out of 12 wins was not reached, namely in highly stochastic scenarios or between two very similar strategies very close to an ESS.
+8: Per landscape, these results are presented in pairwise invasibility plots (PIPs, [ 50]).
+9: From each PIP, we extracted the ESS (expressed by parameter  ) and used this to identify changes of evolved strategy in relation to patch size, inter-patch distance, and patch turnover rate.
+10: We performed robustness tests of our model results to variations in plant seed number (Appendix  S3) and our FFT approach (Appendix  S4), which both had no significant impact on resulting patterns of ESSs, although a lower seed number (seed production) in some cases leads to no ESS, especially in scenarios with small distant patches and rapid turnover (Fig.
+11: S3).

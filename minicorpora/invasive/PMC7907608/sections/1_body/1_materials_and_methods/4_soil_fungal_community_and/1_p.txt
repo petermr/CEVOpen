@@ -1,0 +1,13 @@
+0: To determine difference on soil microbes and soil nutrients of the nine focal tree species in  Experiment 1, we collected three species-specific soil samples for each focal species.
+1: Every soil sample was divided into two parts.
+2: One part of 5-g soil was used for analyzed the soil fungal community.
+3: The total genomic DNA was extracted from each sample by a standard protocol using CTAB (cetyl trimethylammonium bromide) ( Allen et al., 2006).
+4: The nuclear ribosomal internal transcribed spacer region (ITS rDNA gene) was amplified by polymerase chain reaction (PCR) using the fungal primer set ITS1-1F (5-CTTGGTCATTTAGAGGAAGTAA-3) and ITS2 (5-GCTGCGTTCTTCATCGATGC-3).
+5: PCR products were mixed in equal density ratios and then purified with a Qiagen Gel Extraction Kit (Qiagen, Germany).
+6: DNA samples were sequenced on an Illumina HiSeq2500 platform (Illumina, San Diego, CA, United States).
+7: The sequencing libraries were generated using a TruSeq DNA PCR-Free Sample Preparation Kit (Illumina, United States).
+8: Raw tags data were demultiplexed, quality-filtered and merged by FLASH (V1.2.7 1) ( Magoc and Salzberg, 2011).
+9: Standard quality control procedures for tags data were conducted by the BLAST taxonomy assignment method in QIIME (V1.7.0 2) ( Caporaso et al., 2010).
+10: We identified fungal operational taxonomic units (OTUs) with 97% similarity cutoff using UPARSE (version 7.
+11: 01 3) ( Edgar, 2013) and removed chimeric sequences using UCHIME ( Edgar et al., 2011).
+12: The taxonomy of each sequence was analyzed by the RDP Classifier algorithm (version 2.2 4) against GreenGene Database 5 ( DeSantis et al., 2006).

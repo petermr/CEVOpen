@@ -1,0 +1,6 @@
+0: We then broke all of the patches into the usual classification categories of: True Positives or TP, predicted to contain the blueberry class and also marked in the ground truth as containing them.
+1: False Positives or FP, predicted to contain the blueberry class but NOT marked as such in the ground truth.
+2: These patches correspond to over-prediction errors where the algorithm sees the blueberry class when it is not really there.
+3: True Negatives or TN, not containing the blueberry class in the prediction or in the ground truth.
+4: False Negatives or FN, not predicted to contain blueberries, but actually being marked as containing them in the ground truth.
+5: These patches correspond to under-prediction errors where existing blueberry instances are missed by the algorithm.

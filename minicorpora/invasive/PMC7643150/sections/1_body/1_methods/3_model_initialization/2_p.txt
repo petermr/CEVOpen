@@ -1,0 +1,5 @@
+0: The amount of buffelgrass on the landscape at the start of the simulations was assigned based on SAGU mapping data.
+1: In addition to known buffelgrass locations, we randomly assigned some cells to buffelgrass state classes based on detection probabilities estimated by SAGU staff 29.
+2: Buffelgrass occurrence at SAGU is regularly inventoried and SAGU staff and the authors felt that their estimate of undetected buffelgrass could reasonably be assumed to be within  10% of the true value of undetected cells for the entire SAGU.
+3: To account for uncertainty in the amount of undetected buffelgrass present on the landscape, we varied the amount of buffelgrass at the start of the simulation by either increasing the number of grid cells assigned to buffelgrass cover classes by 10% (high) or decreasing the number by 10% (low).
+4: This resulted in very small changes in the overall amount of buffelgrass present at model initialization (Table  1).

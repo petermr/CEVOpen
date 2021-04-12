@@ -1,0 +1,9 @@
+0: Deep learning is a trending field of machine learning that focuses on fitting large models with millions of parameters for a variety of tasks, such as image classification and segmentation.
+1: These approaches have been rapidly gaining attention in computer vision tasks, due to their recently increased accuracy.
+2: Deep learning models commonly learn from examples in a supervised manner.
+3: First, an  architecture or a graph of connected nodes is defined.
+4: These nodes are often grouped in  layers that perform a specific operation, and the combination of a large number of layers is referred to as a  deep neural network ( DNN).The typology of the nodes, the number of nodes per layer and the connections between them determine the behaviour of the network.
+5: In general, two main types of nodes are used: linear nodes, expressed as matrix multiplications and nodes that introduce non-linear functions (such as the sigmoid function).
+6: The weights in linear nodes are usually initialised with random values following a specific distribution.
+7: Afterwards, the network is given samples of the data, known as  training samples, which contain instances of the problem (i.e., image intensities) with their corresponding solutions (i.e., labels).
+8: These samples are iteratively run through the network in order to evaluate its current accuracy and the weights are updated following an optimization process.

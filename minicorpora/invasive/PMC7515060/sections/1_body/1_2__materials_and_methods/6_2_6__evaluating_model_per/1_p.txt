@@ -1,0 +1,7 @@
+0: The overall model performance was determined based on two statistics, the threshold-independent area under the receiver operating characteristic curve (AUC) [ 81, 82] and the threshold-dependent true skill statistic (TSS) [ 83].
+1: Model performance was considered as good only if both measures were satisfied.
+2: The suitable area for individual species was determined by a binary threshold value which discriminates presences (suitable) and absences (not suitable) in grid cells.
+3: An ideal threshold determining approach should comply with bigger sensitivity and specificity values meaning smaller false negatives rate and false positives rate in turn in the evaluation data set [ 84].
+4: Maximizing the sum of sensitivity and specificity approach which satisfies the 3 main threshold selection criteria (objectivity, equality and discriminability) has been recommended for models that use presence-only data and background or pseudo-absence data (i.e., MaxEnt) [ 85, 86].
+5: This threshold has been previously used in several modeling studies to discriminate the suitable areas of invasive species [ 49, 87].
+6: The relative importance of predictor variables to the individual IAPS models was analyzed using variable contribution table and jackknife test [ 50, 51, 88].

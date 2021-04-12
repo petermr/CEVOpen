@@ -1,0 +1,5 @@
+0: The modelling was conducted using the maximum entropy method implemented in Maxent version 3.3.3k [ 23] which is widely used and is known for its reliability ([ 24] and references therein).
+1: The maximum iterations were set to 10 4 and convergence threshold to 10 5.
+2: For each run, 20% of the data were used and set aside as test points.
+3: The random seed option which provided random test partition and background subset for each run was applied.
+4: The run was performed as a bootstrap with 10 3 replicates, auto features were used, and the output was set to logistic.

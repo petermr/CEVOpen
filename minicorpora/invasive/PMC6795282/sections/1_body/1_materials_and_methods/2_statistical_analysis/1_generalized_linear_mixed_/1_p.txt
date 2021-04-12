@@ -1,0 +1,7 @@
+0: We analysed the numbers of naturalized and invasive species dependent on region variables by means of generalized linear mixed-effects models (GLMMs;  Faraway 2006).
+1: We fitted two different GLMMs with richness of naturalized ( Table 1A) and of invasive per native species ( Table 1B) as response variables.
+2: To account for differences in the number of native species per regions, we used GLMMs with absolute numbers of alien species as Poisson-distributed response variables and the natural logarithm of native species numbers as an offset variable.
+3: We used the canonical log-link function.
+4: In this setup, the modelled response was effectively a Poisson-rate (rate of alien species per native species).
+5: Consequently, for each predictor the GLMMs assessed whether the particular predictor resulted in more (positive coefficient) or fewer (negative coefficient) alien species relative to native species.
+6: The number of regions per model varied due to data availability of naturalized and invasive species numbers.

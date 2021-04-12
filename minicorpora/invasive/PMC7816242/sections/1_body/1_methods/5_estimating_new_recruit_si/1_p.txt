@@ -1,0 +1,13 @@
+0: To complete our IPM model, here we specify  c0z,df=P(z|df), a probability distribution of  zsized offspring produced by a mother plant reaching full flowering on date  df.
+1: By the law of total probability (2)P(z|df)=drP(dr|df)P(z|dr,df)=drP(dr|df)P(z|dr)where  dr is the date of seed release ( drdf).
+2: The last equality in Eq.
+3: ( 2) holds, because we assume that the seedlings grow once the seeds are released irrespective of when the mother has flowered, i.e.,  P(z|dr,df)=P(z|dr).
+4: We compute Eq.
+5: ( 2) by the following.
+6: First, mother plants flower on a given day of the year  df.
+7: After flowering, seeds are fertilized, mature, and are released a number of days later, on day of year  dr. We estimated the probability of seeds being released on a particular day of year provided that the mother plant flowered on a particular day  P( dr| df) based on data from McCarty ( 1982), which details seed counts from flower heads collected over time after the first terminal flower head on an individual reached full bloom [McCarty  1982].
+8: Second, after being released, seeds germinate and grow to an endofseason size  z.
+9: We estimated the probability of seeds reaching size  z provided that they were released on a particular day  P( z| dr) using a twostep process.
+10: First we estimated the joint probability  P( z,  dr) by twodimensional probability density kernel estimation (package KernSmooth in R v. 3.4.1; Ripley  2002) fit to data describing endofseason rosette sizes reached by individuals planted on different dates throughout our field experiment.
+11: We selected smoothing parameters for the estimation process that avoided overfitting while still reflecting differences in sizes reached by seeds arriving on different dates.
+12: Then, we calculated the conditional probability  P( z| dr) using the Kolmogorov definition of conditional probability (3)P(z|dr)=P(z,dr)P(dr).

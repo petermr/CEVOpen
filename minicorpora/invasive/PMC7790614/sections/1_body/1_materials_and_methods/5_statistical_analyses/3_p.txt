@@ -1,0 +1,9 @@
+0: All statistical analyses were performed using the R statistical package version 3.2.4 (R Foundation for Statistical Computing).
+1: To compare morphological and functional traits among treatments and species, threeway analyses of variance (ANOVA) were conducted using aov function.
+2: The measured traits were the dependent variable, and the fertilization treatment, competition treatment, species, and their interactions were independent variables.
+3: In order to interpret the species by treatment interactions, we conducted two additional analyses.
+4: First, to examine whether testing species exhibited differential trait values in each treatment, differences between species were evaluated for each treatment with post hoc Tukey mean comparison test (tukeyHSD function).
+5: To assess differential treatment effects among species, we conducted twoway ANOVA for each species with environmental treatments and their interactions as independent variables.
+6: The total biomass, shoot biomass, and crosssectional area of achenes were logtransformed to meet the normality assumption.
+7: To examine whether  Bidens species showed differential phenotypic plasticity, oneway ANOVA was conducted with the relative distances of a trait as dependent variable and species as independent variable.
+8: Differences between species were evaluated using  post hoc Tukey mean comparison test.

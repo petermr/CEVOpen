@@ -1,0 +1,7 @@
+0: Removing highly correlated variables are recommended in predictive modeling [ 55, 67] as variables can be correlated and the combined effect may change the models performance, resulting in inaccurate and misleading predictions [ 68].
+1: Pearson Correlation Coefficients (r) among 19 bioclim variables were calculated using removeCollinearity function of the Package virtualspecies (version 1.4-4) in R [ 69].
+2: Variables with a correlation value of r 0.7 were excluded ( Supplementary material S1).
+3: This threshold level is an acceptable measure to minimize multicollinearity of the fitted models [ 68].
+4: This resulted in variables into seven groups of intercorrelated variables.
+5: A subset of seven non-correlated environmental variables was selected for the model run ( Table 2).
+6: While selecting variables, special attention was paid to select variables that were highly responsive for a plausible forecast of species relationship to climate change and widely used in invasive species modeling literature [ 70, 71, 72].

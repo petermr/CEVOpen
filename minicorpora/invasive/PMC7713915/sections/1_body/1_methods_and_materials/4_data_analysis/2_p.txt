@@ -1,0 +1,7 @@
+0: Data were analyzed using mixed model of analysis of variance in R version 3.5.2  "Eggshell Igloo" (R Core Team,  2013) using the lmer function from the package lme4 (Bates et al.,  2015; R Core Team,  2013).
+1: All models included block (replicate) as a random variable.
+2: Models regarding total shoot biomass included both intra and interspecific competition treatments.
+3: To assess how competition from the various species affected productivity, a model was created using RII as the response variable and the four planting intervals, four species, and two competition levels (intraspecific, and interspecific) were used as explanatory variables.
+4: Models exploring plant composition were also created using all relevant response variables (percent biomass by species, richness, dominance, and evenness) but included only interspecific competition treatments.
+5: Models were selected based on meeting model assumptions, and quality was tested using the Akaike information criterion (AIC); percent biomass by species was natural log transformed for normality.
+6: Tukey's HSD post hoc analyses were performed on all models using the emmeans package to generate estimated marginal means (EMMs; also known as leastsquares means; Lenth,  2019).

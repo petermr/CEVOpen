@@ -1,0 +1,9 @@
+0: Gene prediction, taxonomy, and functional annotation were carried out according to the protocols described by  Wang et al.
+1: (2019).
+2: Briefly, open reading frames (ORFs) from each soil sample were predicted using MetaGene ( http://metagene.nig.ac.jp/metagene/download_mga.html).
+3: The predicted ORFs with lengths of more than 100 bp were retrieved and translated to amino acid sequences using the NCBI translation table ( http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=tgencodes#SG1).
+4: All sequences from gene sets with a 95% sequence identity (90% coverage) were clustered as a non-redundant gene catalog by CD-HIT ( http://www.bioinformatics.org/cd-hit/).
+5: After quality control, reads were mapped to the representative genes with 95% identity using SOAPaligner ( https://sourceforge.net/projects/soapfuse/), and gene abundances in each sample were evaluated.
+6: BLASTP (Version 2.2.28+,  http://blast.ncbi.nlm.nih.gov/Blast.cgi) was employed for taxonomic annotations by aligning non-redundant gene catalogs against the NCBI NR database with an e-value cutoff of 1 e 5.
+7: Clustering of orthologous groups (COG) of proteins for ORF annotation was performed using BLASTP against the eggNOG database (v4.5) with an e-value cutoff of 1 e 5.
+8: Unigene expression heatmaps in the different rhizosphere soil samples were constructed using R package software ( https://www.r-project.org).

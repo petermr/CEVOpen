@@ -1,0 +1,4 @@
+0: To compare mean species richness of the native and exotic species in the vegetation and the seed bank, total seed density and the seed density of exotic and native species, functional groups and the most abundant species (distinguishing between native or exotic) between RS and RA and for each plot, we used generalized linear mixed models (bglmerR package blmer) with a Poisson distribution [ 57,  58].
+1: The number of species and seeds were taken as response variables in the models.
+2: For the comparisons between RS and RA the plot was taken as the explanatory variable and the sampling points as a random effect.
+3: Origin, functional groups or the most abundant species were considered as explanatory variables for comparisons within each plot, and the sampling points as the random effect.

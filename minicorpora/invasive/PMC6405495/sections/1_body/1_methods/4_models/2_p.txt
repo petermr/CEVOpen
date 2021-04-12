@@ -1,0 +1,11 @@
+0: Our study evaluates the performances of seven algorithms in mapping  Prosopis distribution and fractional cover abundance.
+1: We chose five MLAs: two different implementations of gradient boosting machine (GBM and GBMBRT), random forest (RF), support vector machine (SVM), and deep (learning) neural network (DNN), an ensemble model composed of the four bestperforming tested algorithms, and a generalized linear model (GLM) for comparison reasons.
+2: All model calculations and model performance assessments were implemented in R programming (R Core Team,  2017).
+3: A comprehensive overview of the R packages and the different parameter settings are provided in the Supporting information (Table  S1).
+4: We checked collinearity of explanatory variables before applying to any model and those having high variable inflated factors (VIF) were removed.
+5: In this study, we used a threshold level of VIF > 10 to exclude variable(s) from any model (Bruce & Bruce,  2017; Gareth, Witten, Hastie, & Tibshirani,  2014).
+6: Accordingly, three variables, the blue, green and second shortwaveinfrared (SWIR 2) bands were removed from all models as they had high VIF (Dormann et al.,  2012).
+7: We then assessed the influence (importance) of variables in each model by using the method described by Natekin and Knoll ( 2013).
+8: Furthermore, 10fold crossvalidation was applied to assess model performance (Fushiki,  2009).
+9: Finally, the predictive power of all tested MLAs was evaluated using several performance parameters (Table  2).
+10: The general functionality of each tested model is described below.

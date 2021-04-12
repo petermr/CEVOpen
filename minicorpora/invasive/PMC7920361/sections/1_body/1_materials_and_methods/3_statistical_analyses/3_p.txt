@@ -1,0 +1,8 @@
+0: To evaluate the effects of inoculation treatment and  Microstegium density on native plant biomass, we fit a Beverton-Holt function to native plant biomass:  bismass=b01+Microstegiumdensity.
+1: We fit this function to all of the native plant biomass data, estimating separate b 0 (biomass in the absence of competition) and  (biomass response to  Microstegium density, i.e., competition coefficient) values for each native speciesinoculation treatment combination.
+2: We used a Gaussian response distribution, a Gamma distribution for the b 0 prior (shape = 2, scale = 1), an exponential distribution for the  prior (rate = 0.5), and a Cauchy distribution for the standard deviation prior (location = 0, scale = 1).
+3: Otherwise, the model was fit using the same methods described for disease incidence.
+4: To evaluate differences in b 0 and  between treatments, we subtracted the estimate for one treatment from the other for each posterior sample ( n = 1500) and then calculated the mean and 95% credible intervals [ 50].
+5: To assess model fits, we checked that the r-hat value for each parameter was equal to one, visually examined convergence of the three chains, and compared the observed data to simulated data from the posterior predictive distributions using the pp_check function [ 47].
+6: We report a model coefficient as statistically significant if its 95% credible interval (CI, i.e., 95% probability that this interval of the posterior distribution contains the true estimate value) omits zero [ 51,  52].
+7: We used the tidyverse packages to clean data and create figures [ 53].

@@ -1,0 +1,8 @@
+0: To ensure the predictors in the model below were statistically independent, we tested whether soil nutrients (% soil nitrogen, phosphorus 1, phosphorus 2) predicted  Alliaria petiolata percent cover in the observational data set.
+1: We used three separate linear models with log transformed  Alliaria petiolata percent coverwith a small constant (0.001) added before transformation to retain zero values in the dataas a function of log transformed % soil nitrogen, phosphorus 1 or phosphorus 2.
+2: This is important because  Alliaria petiolata may directly influence soil nutrient availability ( Rodgers   et al.
+3: 2008 ).
+4: Further, we also explored whether  Alliaria petiolata presence, invasive earthworm presence or their interaction predicted soil nutrient availability for % soil nitrogen, phosphorus 1 and phosphorus 2 in separate linear models.
+5: Soil nitrogen and phosphorus were log transformed to normalize the data.
+6: Because we used observational data, the design of this analysis was unbalanced.
+7: Therefore, we used type II sums of squares ( Herr 1986), using the drop1 function in R.

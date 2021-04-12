@@ -1,0 +1,8 @@
+0: Regional experts also indicated that patch infill rates could be influenced by precipitation amounts during the monsoon season.
+1: This influence could be broken into two pieces: the probability that a year is wet, and a patch infill acceleration factor resulting from greater precipitation in a wet year (hereafter referred to as wet-year infill acceleration factor).
+2: To determine the probability of a wet year, we examined historic climate variability to calculate the probability of having a year with above median monsoon length and above median cumulative monsoon precipitation.
+3: We compared individual years from 1987 to 2016 to a 30-year median of monsoon length and cumulative monsoon precipitation using data from the nearest long term weather station, located at Tucson International Airport (GHCND:USW00023160; obtained from  www.ncdc.noaa.gov on 23 Feb 2017).
+4: This comparison resulted in 26.7% of years with values above the 30-year median.
+5: We also calculated the lower-quartile (10% of years) and the upper-quartile (57% of years).
+6: We randomly assigned years as being wet within the simulations based on these probabilities using the random number function in R version 3.4.2 35.
+7: This process was repeated for 20 Monte Carlo realizations per model scenario except for the scenarios that included fire simulations (described below).

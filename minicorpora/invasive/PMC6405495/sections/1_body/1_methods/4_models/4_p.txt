@@ -1,0 +1,13 @@
+0: Gradient boosting machine as well as GBMBRT use a boosting approach where datasets are resampled several times to generate results that form a weighted average of the resampled dataset.
+1: This is done by creating a gradient (or stepbystep) boosting by minimizing errors among series of decision trees that together form a single predictive model (Natekin & Knoll,  2013; Olinsky, Kennedy, & Kennedy,  2012; Wana & Beierkuhnlein,  2010; Boser,Guyon, & Vapnik, 1992).
+2: In our study, we tested two implementations of GBM and GBMBRT.
+3: They are both based on the same packages: gbm, caret, dismo, and raster, with dismo and caret using the gbm package to fit the models.
+4: The main differences of the two implementations are the use of different hyperparameters.
+5: We varied the interaction depth (i.e., tree complexity in GBMBRT) which we set to 3 for GBM and was set to 5 for GBMBRT, as well as the loss function.
+6: While GBM used the Gaussian family (Friedman, 2001), GBMBRT used the "Bernoulli" (Elith, Leathwick, & Hastie,  2008).
+7: Furthermore, the final selection of number of trees and the learning rate was different.
+8: We tuned the models by only varying the number of trees and the number of repeats while other parameters were kept stable using their respective R package default settings (for details see also Supporting information Table  S1).
+9: Finetuning the number of iterations is done to improve the performance of a model by fitting either many submodels or gradient fitting and combining them for final prediction.
+10: All models were tuned using the same performance metrics.
+11: For the finetuning, we calculated mean change in predictive deviance one standard error (Elith et al.,  2011).
+12: The optimization of the number of trees improved the performance substantially (Supporting information Figure  S1).

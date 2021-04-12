@@ -1,0 +1,13 @@
+0: Data manipulation and statistical analyses were performed using R 3.4.4 (R Core & Team,  2018).
+1: We used linear regression to analyze relationships between spider  15N and  13C and park unit, the presence of  M. vimineum, and their interaction.
+2: For each response variable, we first included understory plant structure as an additional covariate in the model.
+3: Likelihood ratio tests showed that plant structure was never an important explanatory covariate.
+4: Thus, we excluded this metric from all analyses.
+5: Similarly, we also regressed the ShannonWeiner diversity, abundance, and richness of spider and insect communities in models with the same independent variables.
+6: For those linear models and variables that exhibited nonnormality, including models with spider body mass and isotopic carbon and nitrogen, we employed a square root transformation of the dependent variable.
+7: For count data, including invertebrate abundance and richness, we used generalized linear models with a negative binomial probability distribution using  glm.nb in the  MASS package (Venables & Ripley,  2002).
+8: We obtained  pvalues from the likelihood ratio test statistic using  anova.glm.
+9: For spider and insect community data, we calculated the Euclidean distance between taxa within community matrices after Hellinger transformation (Borcard, Gillet, & Legendre,  2011; Legendre & Legendre,  2012; Rao,  1995).
+10: We used the Euclidean distance of Hellingertransformed data as these data are metric and considered robust in ordination analyses (Legendre & Gallagher,  2001).
+11: We then conducted permutational multivariate analysis of variance using  adonis2 in the  vegan package to understand how communities differ in patches of  M. vimineum after testing for multivariate homogeneity of variance using  betadisper and  anova.betadisper (Anderson, Ellingsen, & McArdle,  2006; McArdle & Anderson,  2001; Oksanen et al.,  2017).
+12: To test for significance, we examined the marginal effects of variables after 20,000 permutations.

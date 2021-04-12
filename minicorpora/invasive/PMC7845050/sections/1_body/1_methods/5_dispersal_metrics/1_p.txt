@@ -1,0 +1,11 @@
+0: We expected that, similar to random searches by animals, evolutionarily stable dispersal kernels would adequately balance a complex trade-off across a range of scales conditioned to the landscape configuration (habitat patch size, inter-patch distance and patch turnover).
+1: To facilitate interpretation of these trade-offs, we calculated three dispersal metrics that relate to the success of dispersal for each landscape configuration.
+2: First, we calculated the success rate of finding habitat (hereafter referred to as habitat encounter), as the fraction of seeds landing in suitable habitat.
+3: Second, we calculated the success rate of avoiding kin competition (hereafter kin avoidance).
+4: Grid cells close to parent plants typically receive a high quantity of seeds (> 1), but only one individual can occupy a cell in the next time step.
+5: For each parent, we calculated kin competition using the following steps: I) We selected all grid cells where more than one seed arrived (remember here that we dont have discrete seeds, so 1.5 seeds in a grid cell is also possible).
+6: II) We subtracted 1 seed from the values in these grid cells and summed all remaining (fractions of) seeds.
+7: III) We calculated the average number of superfluous seeds for all parents and then normalized the resulting value for the average number of grid cells where more than one seed arrived.
+8: Subsequently, we calculated kin avoidance as 1 - kin competition.
+9: Kin avoidance has a much stronger spatial signature than conspecific avoidance, which is why we selected this metric to analyse the evolution of dispersal patterns.
+10: Third, we determined the success rate of colonizing new patches (hereafter colonization) as the fraction of dispersed seeds landing in a new patch that emerged due to patch turnover.

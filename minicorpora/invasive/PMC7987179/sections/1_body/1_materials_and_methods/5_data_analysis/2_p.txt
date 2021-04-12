@@ -1,0 +1,13 @@
+0: We were interested in the influence of conspecific and heterospecific pollen on the fate of individual flowers (at fertilization and fruit set), and how it differed between species.
+1: To explore these relationships, we used generalized linear mixed-effects models (GLMM), with maternal identity as a random factor.
+2: The two species were analyzed separately.
+3: The subjects of the analysis were individual flowers (for  C.  scandens, n = 317 in 23 maternal groups; for  C.  orbiculatus, n = 399 in 17 maternal groups).
+4: The response variable tested was the binary fate of a flower at the fertilization stage (fertilized or unfertilized) or fruit stage (developed or not developed).
+5: Analyses of fruit development only included fertilized flowers.
+6: Four explanatory variables were tested as fixed effects: total floral production during the reproductive period, weighted conspecific mating potential, weighted heterospecific mating potential, and inflorescence position (in  C.  scandens, only).
+7: We constructed candidate models with a maximum of one fixed effect because of significant collinearity among potential explanatory variables.
+8: The weighted mating potential is a measure that considers both the distance to and floral production of available mates.
+9: Greater values indicate higher potential for pollen transfer.
+10: It is constructed to be inversely related to the distance to a potential mate, and positively associated with floral production of a potential mate.
+11: The weighted mating potential was calculated after Wagenius et al.
+12: [ 46], with some modification:  Pi=j=1nedijlog10(Fj)(1)

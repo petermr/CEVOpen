@@ -1,0 +1,4 @@
+0: In order to perform the evaluation of the proposed model, two of the three orthomosaics were used for training and validation and the third one was used for testing.
+1: This cross-validation strategy is usually referred to as a leave-one-out strategy.
+2: All of the orthomosaics were used once for testing, training, and validation by rotating them for each experiment.
+3: Patches from the testing orthomosaic were not included for training or validation to avoid data leakage during training.

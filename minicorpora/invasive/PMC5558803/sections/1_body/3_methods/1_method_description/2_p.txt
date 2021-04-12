@@ -1,0 +1,6 @@
+0: All the images were geotagged by a GPS track log with GPS Correlate software (v 1.6.1,  https://github.com/freefoote/gpscorrelate) according to the methods described in the OpenStreetMap Project documentation (Geotagging Source Photos 2016;  http://wiki.openstreetmap.org/wiki/Geotagging_Source_Photos).
+1: The video files were broken into frames (one frame per second) and the frames were saved as jpeg files with the program FFmpeg (v 3.1.4  http://www.ffmpeg.org) followed by geotagging of these files similar to that of the photographs.
+2: The array of images was hand sorted into two groups: images that contained  Heracleumsosnowskyi plants and images  without these plants.
+3: The coordinates of the photographs obtained from a Car DVR Camera were corrected in the Quantum GIS Geographic Information System (QGIS) program (v 2.16.3  http://www.qgis.org,  QGIS Development Team 2016) by shifting the group of points on the side of the road.
+4: All geotagged  Heracleumsosnowskyi images were uploaded to the online database Occurrence of invasive plant species  Heracleumsosnowskyi Manden.
+5: ( RIVR 2016).

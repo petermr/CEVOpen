@@ -1,0 +1,9 @@
+0: We took three main attributes of pollinatorsflower choice (on a binary scale; ant-occupied flowers or ant-unoccupied flowers), visitation rate and visit durationto study the effects ants have on flowers.
+1: The pollinators choice of visit or not visit the ant-occupied and ant-unoccupied flowers was tested using a generalized linear mixed model with binomial distribution as the error type, visit-no visit data of pollinators on flowers (binary response) as the dependent variable, flower type as the fixed factor, flower ID nested in plant ID and sites as random factors and logit as a link function.
+2: We studied the effect of flower type (ant-unoccupied and ant-occupied) on visitation rate and the time the pollinators spent in flowers using two generalized linear models with negative binomial distribution as an error type, flower type and flower sex (staminate and pistillate) as the fixed effects and visitation rate and time spent by the bees as the response variables.
+3: We studied the interactive effects of ant type (invasive/native), number of ants and flower sex on a) visitation rate and b) the time the pollinators spent on ant-occupied flowers using two GLMMs.
+4: In the models, the ant type, number of ants on flowers, and flower sex were the fixed factors, visitation rate and the time the pollinators spent on flowers were the response variables, flower ID nested in plants and sites were the random factors and negative binomial distribution as the error type.
+5: We also examined the effect of ant species on visitation rate and time the pollinators spent on flowers by constructing two other GLMMs.
+6: These overall models' significance was tested using Walds Chi-square test available in the R-package  car.
+7: In the results, mean  standard deviation and estimate   standard error are given throughout.
+8: All analyses were carried out using R version 3.5.2 40.

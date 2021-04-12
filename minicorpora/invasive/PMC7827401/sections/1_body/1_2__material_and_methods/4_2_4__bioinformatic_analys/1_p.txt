@@ -1,0 +1,12 @@
+0: Paired-end Illumina (HiSeq, NextSeq, Seqomics Kft., Morahalom, Hungary) reads were quality trimmed using the CLC Genomics Workbench tool version 11.0 (CLC Bio/Qiagen) removing ambiguous nucleotides as well as low quality read ends.
+1: The quality cutoff (error probability) was set to 0.05, corresponding to a Phred score of 13.
+2: Trimmed reads of >40 bases were mapped using the RNA-Seq Analysis 2.16 package in CLC requiring >80% sequence identity over >80% of the read length; strand specificity was omitted.
+3: Reads with less than 30 equally scoring mapping positions were mapped to all possible locations while reads with >30 potential mapping positions were considered as uninformative repeat reads and were excluded.
+4: Total counts RNA-Seq count data was imported from CLC into R version 3.0.2.
+5: We kept only genes detected by at least five mapped reads in at least 25% of the samples.
+6: Subsequently, calcNormFactors from edgeR version 3.4.2 [ 37] was used to perform data scaling based on thetrimmed mean of M-values (TMM) method [ 38].
+7: Log transformation was carried out by the voom function of the limma package version 3.18.13 [ 39].
+8: Linear modeling, empirical Bayes moderation as well as the calculation of differentially expressed genes were carried out using limma.
+9: Genes showing an at least two-fold gene expression change with an FDR value<0.05 were considered as significant.
+10: Multidimensional scaling (plotMDS function in edgeR) was applied to visually summarize gene expression profiles.
+11: In addition, unsupervised cluster analysis with Euclidean distance calculation and complete-linkage clustering was carried out on the normalized data using heatmap.2 function from R package gplots.

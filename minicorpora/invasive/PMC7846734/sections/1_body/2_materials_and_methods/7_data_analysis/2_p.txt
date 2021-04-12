@@ -1,0 +1,4 @@
+0: For the mark and release study, a correlation analysis was made using linear models to correlate the distance in log10(meter) from release point and the average trap catch of marked and resident flies.
+1: For visualization purposes a map was produced using the average trap catch average per location and the package ggmap, a wrapper for ggplot2 was used for accessing the google API and downloading the map 28, temperature and wind data was gathered using the package WeatherData 29, where a temperature set was filtered for 12:00 h local time.
+2: The map was annotated with each of the orchards and trap position and concentric circles representing the distances from release point.
+3: Temperature data was plotted using a violin plot with a dotted line representing the average, and wind direction using a radial plot where the number and strength of each wind vector was plotted.

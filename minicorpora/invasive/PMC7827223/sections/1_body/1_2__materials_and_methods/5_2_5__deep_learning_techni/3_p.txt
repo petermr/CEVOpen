@@ -1,0 +1,4 @@
+0: Our approach is based on a patch classification model that uses the patches of 100  100 pixels described in  Section 2.3.
+1: A patch of orthomosaic B1 and B3 covered; therefore, 700 cm  700 cm and a patch of orthomosaic B2 500 cm  500 cm.
+2: For each patch, a list containing the class labels was created from the binary maps for each class.
+3: This classification is usually referred as multi-label, since each input patch might contain different labels (i.e., a part of the patch may contain soil, while other parts of the same patch could also contain bushes or blueberries).

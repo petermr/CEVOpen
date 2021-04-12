@@ -1,0 +1,8 @@
+0: To account for correlative effects of political/socio-economic, biogeographic, and environmental factors and spatial autocorrelation due to selection of regions and their distribution on Earth, the GLMMs included (normally distributed) random-effect intercepts with sovereign states (i.e.
+1: all regions belonging to a country, but separated for each TDWG continent in the case of overseas territories), TDWG continent and zonobiome as orthogonal grouping variables.
+2: We further added an observation-level random effect to handle possible Poisson-distribution overdispersion ( Bolker   et al.
+3: 2009 ;  Harrison 2014).
+4: To improve the symmetry of predictor variables, linearity with the modelled response variables and to stabilize variances, numerical predictors were subjected to appropriate transformations (power or log) if so indicated, and furthermore standardized (subtraction of sample mean and division by sample standard deviation).
+5: Multicollinearity among predictors was tested by means of eigenvalue ratios and was found to be unproblematic (highest condition number of any GLMM: 9.8).
+6: All analyses were conducted using R ( R Development Core Team 2015), with the GLMMs fitted by the function  glmer from the package  lme4 ( Bates   et al.
+7: 2014 ).

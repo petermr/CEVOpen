@@ -1,0 +1,6 @@
+0: All statistical tests were completed using R version 3.6.2 [ 47].
+1: The GLMM tests were implemented using the  lme4 package [ 48], and in all cases random intercept models were constructed with maternal identity as the random effect.
+2: For each test, we used the Akaike Information Criterion corrected for small sample size (AICc) to select the best model from a group of candidate models.
+3: Akaike weights were calculated for each model, which can be interpreted as the probability that a given model is the one that best approximates the data assuming one exists in the candidate set.
+4: In all cases a null model, with no fixed effects, was included as a candidate model.
+5: The coefficient of determination ( R2) was estimated for GLM using the  rsq package [ 49,  50] and for GLMM using the pseudo- R2 ( R2GLMM) [ 51,  52] from the  MuMIn package [ 53].

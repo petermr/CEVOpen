@@ -1,0 +1,5 @@
+0: We log10-transformed the PSFs and MGRs.
+1: To fits statistical assumptions (i.e., normality and homogeneity of variance for the data set), we conducted bootstrapping ( n = 1,000) for the resulting mean and variance statistics of PSF and MGR.
+2: It was considered to be significantly positive or negative when their 95% confidence intervals (CIs) for the mean values did not overlap zero.
+3: Tukeys HSD ( P< 0.05) was used for multiple comparisons.
+4: Statistical procedures were conducted in R for Windows 3.3.3 ( R Development Core Team, 2016).

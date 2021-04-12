@@ -1,0 +1,11 @@
+0: The remotely sensed datasets were checked for geometric correspondence to all other datasets.
+1: Further, these datasets were atmospherically corrected using the Landsat Ecosystem Disturbance Adaptive Processing System (LEDAPS) algorithm (Chavez,  1996; Lu, Mausel, Brondizio, & Moran,  2002).
+2: The Red, the nearinfrared (NIR) and the first shortwaveinfrared (SWIR1) bands of Landsat 8 were selected as explanatory variables.
+3: Furthermore, the normalized difference vegetation index (NDVI) was calculated from Red and NIR bands and used as another input.
+4: All selected bands, as well as the NDVI, have proven to be particularly suitable to capture photosynthetic active vegetation, and soil and vegetation moisture content (Barsi, Lee, Kvaran, Markham, & Pedelty,  2014).
+5: Additionally, daytime (LSTd) and nighttime (LSTn) land surface temperatures from MODIS sensor were included.
+6: In order to have longerterm LSTd and LSTn average data, a 5year average of these products was generated between 2012 and 2017.
+7: The spatial resolution of these datasets is 1 km.
+8: Although this seems rather low compared to the other datasets, these day and nighttime temperature datasets have shown to be useful in species distribution modeling and, particularly in Africa where weather stations are scarce.
+9: These datasets have shown to be more accurate than other global climate datasets (Ashby, MorenoMadrinan, Yiannoutsos, & Stanforth,  2017; He et al.,  2015).
+10: Moreover, we used variables representing topography, infrastructure as well as watercourses as these variables have shown to have an influence on  Prosopis distribution (Shiferaw et al.,  2019).

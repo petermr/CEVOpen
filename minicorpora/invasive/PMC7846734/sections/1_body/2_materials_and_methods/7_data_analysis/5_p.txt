@@ -1,0 +1,5 @@
+0: To analyze capture efficiency and combination of lures, a generalized linear mixed-effects model (glmm) fitted with a negative binomial was used.
+1: The theta value was calculated from a zero model.
+2: For models using glmm the package lme4 30 was used, while stats package was used for glm.
+3: Post hoc tests were done using package multcomp 31 and Tukeys all-pairwise comparisons.
+4: All graphs were made using ggplot2 32 and all analysis were done using R (version 3.53.12 33).

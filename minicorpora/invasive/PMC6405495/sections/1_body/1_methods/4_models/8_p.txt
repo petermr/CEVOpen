@@ -1,0 +1,5 @@
+0: The purpose of ensemble models is that it should combine the benefits of each included optimized model and penalize the overestimate or underestimate of each individual model.
+1: Thus, in order to be able to do so they should be diverse and complement each other on the one hand, but also each one of them independently achieving a high performance (Chitra & Uma,  2010).
+2: Our ensemble model consisted of the four bestperforming models (RF, GBM, SVM, and GLM).
+3: They were weighted using the function glmnet where the predictions from each model are used as a predictor in a GLM and the resulting GLM coefficients determine how much each model should be weighted (Hastie & Qian,  2016; R Core Team,  2017).
+4: The coefficients of contribution of each model in our ensemble were 0.2 for RF, 0.1 for GBM, 0.05 for SVM, and 0.01 for GLM as indicated in Figure  2.

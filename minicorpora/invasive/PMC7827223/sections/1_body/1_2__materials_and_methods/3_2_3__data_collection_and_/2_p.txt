@@ -1,0 +1,6 @@
+0: In order to train deep learning models to detect blueberry bushes orthomosaics annotated with all of the aforementioned labels were needed.
+1: Therefore, only B1 to B3 were used in the deep learning section of this study.
+2: These three orthomosaics, as well as the corresponding annotated binary layers were divided into axis-parallel patches of side length = 100 (hereafter "patch size").
+3: This value was determined by taking the sizes of the blueberry bushes in the images, which ranged from 20 to 100 pixels in radius, into account.
+4: The classes in each patch were stored in a separate  label list.
+5: In general, patches contained more than one class and, therefore, our problem can be defined as a multi-label patch classification problem.

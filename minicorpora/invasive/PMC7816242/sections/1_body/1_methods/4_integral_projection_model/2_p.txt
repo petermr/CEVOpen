@@ -1,0 +1,13 @@
+0: We built our IPM kernel as follows: (1)K(z,z,w,df)=s(z,w)(1pb(z))G(z,z,w)+s(z,w)pb(z)b(z)prc0(z,df)where  z denotes size at time  t,  z denotes size at time  t + 1,  w denotes temperature treatment, and  df denotes day of year of first flowering.
+1: We included the effects of temperature and phenology in model components wherever statistical analysis indicated they had a significant effect.
+2: The kernel  K( z,  z, w, df) describes how the population of individuals with sizes  z at time  t transitions to a population with sizes  z at time  t + 1, under temperature treatment  w and with date of first flowering  df.
+3: The first term in the kernel describes yeartoyear size transitions for individuals that do not reproduce.
+4: These individuals survive with probability given by the size and temperaturedependent survival function  s( z, w).
+5: They do not reproduce, so this term includes 1   p  b( z), where  p  b( z) is the sizedependent probability of reproduction.
+6: Nonflowering individuals grow to a new size given by the size and temperaturedependent growth kernel  G( z ,z,w), which projects the probabilities of all possible annual size transitions from  z to  z.
+7: The second term in the kernel describes annual transitions for reproducing individuals.
+8: Because  C. nutans is a monocarp, these individuals all die, but they contribute to the next years population by producing offspring.
+9: They survive to reproduction with probability  s( z, w) and flower with probability  p  b( z).
+10: They produce a number of seeds given by  b( z), which germinate and become established with probability  p  r. Offspring enter the population with size given by  c  0( z , df).
+11: This frequency distribution of offspring sizes depends on the day of first flowering as described in the following section.
+12: See Appendix  S1: Table S2 for fitted model parameters.

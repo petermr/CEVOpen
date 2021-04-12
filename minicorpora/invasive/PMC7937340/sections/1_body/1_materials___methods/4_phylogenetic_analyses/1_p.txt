@@ -1,0 +1,9 @@
+0: Phylogenetic analyses were carried out according to the methods described by  Kong et al.
+1: (2017) and  Xia et al.
+2: (2019a) with modifications.
+3: The V4 amplicons of the 16S rRNA genes and ITS fragments were pair-end assembled and checked using Flash software ( Magoc & Salzberg, 2011) to ensure that their sequences matched perfectly with the index sequences, had no more than one mismatch error present in the forward primer sequences, and the trimmed sequences were longer than 200 bp.
+4: Then, QIIME ( Caporaso et al., 2010) was used to analyze the 16S rRNA and ITS amplicons to generate OTU clusters and perform alpha diversity analyses.
+5: The V4 and ITS amplicon sequences were grouped into OTUs at the 97% identity threshold (3% dissimilarity levels) using the RDP classifier (Release 11.1  http://rdp.cme.msu.edu/) and Unite (Release 6.0  https://unite.ut.ee/index.php), respectively.
+6: Any OTU represented by 3 sequences was removed.
+7: The 16S rRNA and ITS amplicon sequences were deposited in the NCBI Sequence Read Archive under Submission ID SUB7457084 and BioProject ID  PRJNA633422.
+8: Biodiversity indices, including the Chao1 index, Shannon index, and coverage ratios, were calculated with Mothur  (  Schloss et al., 2009) following the procedures provided and again applying a 97% identity threshold.
