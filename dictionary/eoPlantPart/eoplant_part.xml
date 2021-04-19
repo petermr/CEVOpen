@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary title="eoplant_part">
   <desc>Created from SPARQL query</desc>
-  <entry description="anatomical coordinate" name="apical" term="apical" wikidataAltLabel="apex" wikidataURL="http://www.wikidata.org/entity/Q66571835" wikidataID="Q66571835" >
+  <entry description="anatomical coordinate" name="apical" term="apical"  wikidataURL="http://www.wikidata.org/entity/Q66571835" wikidataID="Q66571835" >
+    <synonym>apex</synonym>
+
   </entry>
-  <entry description="top of a plant when in flower, including the stems, leaves and blooms" name="flowering top" term="flowering top" wikidataAltLabel="Flowering Tops" wikidataURL="http://www.wikidata.org/entity/Q70062083" wikidataID="Q70062083" >
+  <entry description="top of a plant when in flower, including the stems, leaves and blooms" name="flowering top" term="flowering top"  wikidataURL="http://www.wikidata.org/entity/Q70062083" wikidataID="Q70062083" >
+    <synonym>Flowering Tops</synonym>
+
   </entry>
-  <entry description="Seed-bearing organ on gymnosperm plants. A type of fruit, usually woody, ovoid to globular, including scales, bracts, or bracteoles arranged around a central axis, especially in conifers and cycads." name="cone" term="cone" wikidataAltLabel="Cone, Conifer cones, Strobilus, pine cone, pine-cone, pinecone, pine cones" wikidataURL="http://www.wikidata.org/entity/Q22710" wikidataID="Q22710"  wikipediaPage="https://en.wikipedia.org/wiki/Conifer_cone">
+  <entry description="Seed-bearing organ on gymnosperm plants. A type of fruit, usually woody, ovoid to globular, including scales, bracts, or bracteoles arranged around a central axis, especially in conifers and cycads." name="cone" term="cone"  wikidataURL="http://www.wikidata.org/entity/Q22710" wikidataID="Q22710"  wikipediaPage="https://en.wikipedia.org/wiki/Conifer_cone">
+    <synonym>Cone, Conifer cones, Strobilus, pine cone, pine-cone, pinecone, pine cones</synonym>
+
     <synonym xml:lang="zh">松球</synonym>
     <synonym xml:lang="de">Koniferenzapfen</synonym>
     <synonym xml:lang="hi">कोणधारी कोण</synonym>
@@ -14,7 +20,9 @@
     <description xml:lang="fr">organe reproducteur des conifères</description>
     <description xml:lang="es">estructura vegetal</description>
   </entry>
-  <entry description="the female reproductive part of a flower, consisting of one or more separate or fused carpels" name="pistil" term="pistil" wikidataAltLabel="gynoecium" wikidataURL="http://www.wikidata.org/entity/Q62779" wikidataID="Q62779"  wikipediaPage="https://en.wikipedia.org/wiki/Pistil">
+  <entry description="the female reproductive part of a flower, consisting of one or more separate or fused carpels" name="pistil" term="pistil"  wikidataURL="http://www.wikidata.org/entity/Q62779" wikidataID="Q62779"  wikipediaPage="https://en.wikipedia.org/wiki/Pistil">
+    <synonym>gynoecium</synonym>
+
     <synonym xml:lang="zh">雌蕊</synonym>
     <synonym xml:lang="de">Stempel</synonym>
     <synonym xml:lang="hi">गर्भकेशर चक्र</synonym>
@@ -36,7 +44,9 @@
     <description xml:lang="fr">matériau naturel</description>
     <description xml:lang="es">material duro y fibroso obtenido de los árboles</description>
   </entry>
-  <entry description="plant part used for flavoring, food, medicine, or perfume" name="herb" term="herb" wikidataAltLabel="herbs" wikidataURL="http://www.wikidata.org/entity/Q207123" wikidataID="Q207123"  wikipediaPage="https://en.wikipedia.org/wiki/Herb">
+  <entry description="plant part used for flavoring, food, medicine, or perfume" name="herb" term="herb"  wikidataURL="http://www.wikidata.org/entity/Q207123" wikidataID="Q207123"  wikipediaPage="https://en.wikipedia.org/wiki/Herb">
+    <synonym>herbs</synonym>
+
     <synonym xml:lang="zh">香草植物</synonym>
     <synonym xml:lang="de">Küchenkraut</synonym>
     <synonym xml:lang="ur">جڑی بوٹیاں</synonym>
@@ -48,7 +58,9 @@
     <description xml:lang="fr">Les plantes aromatiques sont un ensemble de plantes utilisées en cuisine et en phytothérapie pour les arômes qu'elles dégagent</description>
     <description xml:lang="es">planta usada como alimento, medicina, perfume o para dar sabor</description>
   </entry>
-  <entry description="A branch that is a sclerified, pointed outgrowth. Modified stems, leaves, stipules, or parts of leaves, with sharp, rigid ends (like prickles), that commonly contain vascular tissue (unlike prickles)" name="spine" term="spine" wikidataAltLabel="thorn" wikidataURL="http://www.wikidata.org/entity/Q201851" wikidataID="Q201851"  wikipediaPage="https://en.wikipedia.org/wiki/Thorns,_spines,_and_prickles">
+  <entry description="A branch that is a sclerified, pointed outgrowth. Modified stems, leaves, stipules, or parts of leaves, with sharp, rigid ends (like prickles), that commonly contain vascular tissue (unlike prickles)" name="spine" term="spine"  wikidataURL="http://www.wikidata.org/entity/Q201851" wikidataID="Q201851"  wikipediaPage="https://en.wikipedia.org/wiki/Thorns,_spines,_and_prickles">
+    <synonym>thorn</synonym>
+
     <synonym xml:lang="zh">刺</synonym>
     <synonym xml:lang="de">Dorn</synonym>
     <synonym xml:lang="ur">کانٹے</synonym>
@@ -78,7 +90,9 @@
     <description xml:lang="de">aus Sprossachse und Blättern bestehenden, meist oberirdisch wachsenden, Teil des Kormus</description>
     <description xml:lang="fr">nouvelle croissance d'une plante</description>
   </entry>
-  <entry description="main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk" name="leaf" term="leaf" wikidataAltLabel="leaves, plant leaves, tree leaf" wikidataURL="http://www.wikidata.org/entity/Q33971" wikidataID="Q33971"  wikipediaPage="https://en.wikipedia.org/wiki/Leaf">
+  <entry description="main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk" name="leaf" term="leaf"  wikidataURL="http://www.wikidata.org/entity/Q33971" wikidataID="Q33971"  wikipediaPage="https://en.wikipedia.org/wiki/Leaf">
+    <synonym>leaves, plant leaves, tree leaf</synonym>
+
     <synonym xml:lang="zh">葉</synonym>
     <synonym xml:lang="de">Blatt</synonym>
     <synonym xml:lang="ur">پتا</synonym>
@@ -104,7 +118,9 @@
     <description xml:lang="fr">structure qui contient et protège l'embryon végétal</description>
     <description xml:lang="es">planta embrionaria</description>
   </entry>
-  <entry description="organ of a higher plant that anchors the rest of the plant in the ground, absorbs water and mineral salts from the soil, and does not bear leaves or buds" name="root" term="root" wikidataAltLabel="plant root, roots, plant roots" wikidataURL="http://www.wikidata.org/entity/Q41500" wikidataID="Q41500"  wikipediaPage="https://en.wikipedia.org/wiki/Root">
+  <entry description="organ of a higher plant that anchors the rest of the plant in the ground, absorbs water and mineral salts from the soil, and does not bear leaves or buds" name="root" term="root"  wikidataURL="http://www.wikidata.org/entity/Q41500" wikidataID="Q41500"  wikipediaPage="https://en.wikipedia.org/wiki/Root">
+      <synonym>plant root</synonym>
+
     <synonym xml:lang="zh">根</synonym>
     <synonym xml:lang="de">Wurzel</synonym>
     <synonym xml:lang="ur">جڑ</synonym>
@@ -124,7 +140,9 @@
     <synonym xml:lang="es">Espádice</synonym>
     <synonym xml:lang="fr">spadice</synonym>
   </entry>
-  <entry description="part of a tree; a shoot axis that develops from an axillary bud meristem or from equal divisions of a meristematic apical cell" name="branch" term="branch" wikidataAltLabel="branchlet" wikidataURL="http://www.wikidata.org/entity/Q2923673" wikidataID="Q2923673"  wikipediaPage="https://en.wikipedia.org/wiki/Branch">
+  <entry description="part of a tree; a shoot axis that develops from an axillary bud meristem or from equal divisions of a meristematic apical cell" name="branch" term="branch"  wikidataURL="http://www.wikidata.org/entity/Q2923673" wikidataID="Q2923673"  wikipediaPage="https://en.wikipedia.org/wiki/Branch">
+    <synonym>branchlet</synonym>
+
     <synonym xml:lang="de">Ast</synonym>
     <synonym xml:lang="ur">ٹہنی</synonym>
     <synonym xml:lang="hi">शाखा</synonym>
@@ -134,7 +152,9 @@
     <description xml:lang="fr">Partie grandissante d'un arbre</description>
     <description xml:lang="es">parte de un árbol</description>
   </entry>
-  <entry description="small, pulpy, usually edible fruit, which may or may not be a &quot;berry&quot; in the botanical sense" name="berry" term="berry" wikidataAltLabel="forest fruits, soft fruits" wikidataURL="http://www.wikidata.org/entity/Q16128920" wikidataID="Q16128920"  wikipediaPage="https://en.wikipedia.org/wiki/Berry">
+  <entry description="small, pulpy, usually edible fruit, which may or may not be a &quot;berry&quot; in the botanical sense" name="berry" term="berry"  wikidataURL="http://www.wikidata.org/entity/Q16128920" wikidataID="Q16128920"  wikipediaPage="https://en.wikipedia.org/wiki/Berry">
+    <synonym>forest fruits, soft fruits</synonym>
+
     <synonym xml:lang="zh">浆果</synonym>
     <synonym xml:lang="de">Beere</synonym>
     <synonym xml:lang="ur">توت</synonym>
@@ -143,7 +163,9 @@
     <description xml:lang="de">Beerenobst</description>
     <description xml:lang="fr">aliment</description>
   </entry>
-  <entry description="one of 2 main structural axes of a vascular plant (together with the root), that supports leaves, flowers and fruits, transports fluids between the roots and the shoots in the xylem and phloem, stores nutrients and produces new living tissue" name="plant stem" term="plant stem" wikidataAltLabel="stem" wikidataURL="http://www.wikidata.org/entity/Q134267" wikidataID="Q134267"  wikipediaPage="https://en.wikipedia.org/wiki/Plant_stem">
+  <entry description="one of 2 main structural axes of a vascular plant (together with the root), that supports leaves, flowers and fruits, transports fluids between the roots and the shoots in the xylem and phloem, stores nutrients and produces new living tissue" name="plant stem" term="plant stem"  wikidataURL="http://www.wikidata.org/entity/Q134267" wikidataID="Q134267"  wikipediaPage="https://en.wikipedia.org/wiki/Plant_stem">
+    <synonym>stem</synonym>
+
     <synonym xml:lang="zh">茎</synonym>
     <synonym xml:lang="de">Sprossachse</synonym>
     <synonym xml:lang="ur">نباتی تنا</synonym>
@@ -156,7 +178,9 @@
     <description xml:lang="fr">partie de plantes</description>
     <description xml:lang="es">órgano que sostiene las hojas, flores y frutos de una planta</description>
   </entry>
-  <entry description="sexual reproductive structure found on flowering plants" name="flower" term="flower" wikidataAltLabel="bloom, blossom, flowers" wikidataURL="http://www.wikidata.org/entity/Q506" wikidataID="Q506"  wikipediaPage="https://en.wikipedia.org/wiki/Flower">
+  <entry description="sexual reproductive structure found on flowering plants" name="flower" term="flower"  wikidataURL="http://www.wikidata.org/entity/Q506" wikidataID="Q506"  wikipediaPage="https://en.wikipedia.org/wiki/Flower">
+    <synonym>bloom, blossom, flowers</synonym>
+
     <synonym xml:lang="zh">花</synonym>
     <synonym xml:lang="de">Blüte</synonym>
     <synonym xml:lang="ur">پھول</synonym>
@@ -169,7 +193,9 @@
     <description xml:lang="fr">partie d'une plante</description>
     <description xml:lang="es">estructura reproductiva de las plantas fanerógamas</description>
   </entry>
-  <entry description="part of a flowering plant" name="fruit" term="fruit" wikidataAltLabel="Fruit, fruits" wikidataURL="http://www.wikidata.org/entity/Q1364" wikidataID="Q1364"  wikipediaPage="https://en.wikipedia.org/wiki/Fruit">
+  <entry description="part of a flowering plant" name="fruit" term="fruit"  wikidataURL="http://www.wikidata.org/entity/Q1364" wikidataID="Q1364"  wikipediaPage="https://en.wikipedia.org/wiki/Fruit">
+    <synonym>Fruit, fruits</synonym>
+
     <synonym xml:lang="zh">果实</synonym>
     <synonym xml:lang="de">Frucht</synonym>
     <synonym xml:lang="ur">پھل</synonym>
@@ -183,7 +209,9 @@
     <description xml:lang="fr">organe végétal</description>
     <description xml:lang="es">órgano de una flor que contiene las semillas de una planta</description>
   </entry>
-  <entry description="fine to coarse powder containing the microgametophytes of seed plants" name="pollen" term="pollen" wikidataAltLabel="pollen grain" wikidataURL="http://www.wikidata.org/entity/Q79932" wikidataID="Q79932"  wikipediaPage="https://en.wikipedia.org/wiki/Pollen">
+  <entry description="fine to coarse powder containing the microgametophytes of seed plants" name="pollen" term="pollen"  wikidataURL="http://www.wikidata.org/entity/Q79932" wikidataID="Q79932"  wikipediaPage="https://en.wikipedia.org/wiki/Pollen">
+    <synonym>pollen grain</synonym>
+
     <synonym xml:lang="zh">花粉</synonym>
     <synonym xml:lang="de">Pollen</synonym>
     <synonym xml:lang="hi">पराग</synonym>
@@ -280,13 +308,17 @@
     <synonym xml:lang="es">Racimo</synonym>
     <synonym xml:lang="fr">grappe</synonym>
   </entry>
-  <entry description="an inflorescence in which the first flower is the terminal bud of the main stem and subsequent flowers develop as terminal buds of lateral stems" name="cyme" term="cyme" wikidataAltLabel="cymose inflorescence" wikidataURL="http://www.wikidata.org/entity/Q158967" wikidataID="Q158967" >
+  <entry description="an inflorescence in which the first flower is the terminal bud of the main stem and subsequent flowers develop as terminal buds of lateral stems" name="cyme" term="cyme"  wikidataURL="http://www.wikidata.org/entity/Q158967" wikidataID="Q158967" >
+    <synonym>cymose inflorescence</synonym>
+
     <synonym xml:lang="es">Cima</synonym>
     <synonym xml:lang="fr">cyme</synonym>
     <description xml:lang="fr">type d'inflorescence</description>
     <description xml:lang="es">tipo de inflorescencia</description>
   </entry>
-  <entry description="the outer protective layer of a fruit or vegetable which can be peeled off" name="peel" term="peel" wikidataAltLabel="skin, pericarp, rind" wikidataURL="http://www.wikidata.org/entity/Q171187" wikidataID="Q171187"  wikipediaPage="https://en.wikipedia.org/wiki/Peel_(fruit)">
+  <entry description="the outer protective layer of a fruit or vegetable which can be peeled off" name="peel" term="peel"  wikidataURL="http://www.wikidata.org/entity/Q171187" wikidataID="Q171187"  wikipediaPage="https://en.wikipedia.org/wiki/Peel_(fruit)">
+    <synonym>skin, pericarp, rind</synonym>
+
     <synonym xml:lang="zh">果皮</synonym>
     <synonym xml:lang="de">Schale</synonym>
     <synonym xml:lang="hi">छिलका</synonym>
@@ -296,7 +328,9 @@
     <description xml:lang="fr">enveloppe extérieure d'un fruit</description>
     <description xml:lang="es">capa protectora de una fruta o vegetal</description>
   </entry>
-  <entry description="plant's underground storage organ formed by the swelling of an underground stem which produces buds and stores photosynthate metabolites/nutrients, forming a seasonal perennating organ, e.g. a potato" name="tuber" term="tuber" wikidataAltLabel="plant tuber, plant tubers, tubers" wikidataURL="http://www.wikidata.org/entity/Q183319" wikidataID="Q183319"  wikipediaPage="https://en.wikipedia.org/wiki/Tuber">
+  <entry description="plant's underground storage organ formed by the swelling of an underground stem which produces buds and stores photosynthate metabolites/nutrients, forming a seasonal perennating organ, e.g. a potato" name="tuber" term="tuber"  wikidataURL="http://www.wikidata.org/entity/Q183319" wikidataID="Q183319"  wikipediaPage="https://en.wikipedia.org/wiki/Tuber">
+    <synonym>plant tuber, plant tubers, tubers</synonym>
+
     <synonym xml:lang="zh">塊莖</synonym>
     <synonym xml:lang="de">Pflanzenknolle</synonym>
     <synonym xml:lang="ta">கிழங்கு</synonym>
@@ -326,7 +360,9 @@
     <description xml:lang="fr">Partie extérieur du tronc d'un arbre</description>
     <description xml:lang="es">capa más externa de tallos y de raíces de plantas leñosas</description>
   </entry>
-  <entry description="part of a plant; living tissue that transports the soluble organic compounds made during photosynthesis (known as photosynthate), in particular the sugar sucrose, to parts of the plant where needed" name="phloem" term="phloem" wikidataAltLabel="Phloem" wikidataURL="http://www.wikidata.org/entity/Q185138" wikidataID="Q185138"  wikipediaPage="https://en.wikipedia.org/wiki/Phloem">
+  <entry description="part of a plant; living tissue that transports the soluble organic compounds made during photosynthesis (known as photosynthate), in particular the sugar sucrose, to parts of the plant where needed" name="phloem" term="phloem"  wikidataURL="http://www.wikidata.org/entity/Q185138" wikidataID="Q185138"  wikipediaPage="https://en.wikipedia.org/wiki/Phloem">
+    <synonym>Phloem</synonym>
+
     <synonym xml:lang="zh">韧皮部</synonym>
     <synonym xml:lang="de">Phloem</synonym>
     <synonym xml:lang="hi">फ्लोएम</synonym>
@@ -338,7 +374,9 @@
     <description xml:lang="fr">type de tissu végétal</description>
     <description xml:lang="es">floema de las plantas</description>
   </entry>
-  <entry description="short, enlarged shoot system that has as parts a short stem in which the shoot internodes do not elongate, and one or more buds enclosed by fleshy leaves or leaf bases" name="bulb" term="bulb" wikidataAltLabel="Bulb" wikidataURL="http://www.wikidata.org/entity/Q188748" wikidataID="Q188748"  wikipediaPage="https://en.wikipedia.org/wiki/Bulb">
+  <entry description="short, enlarged shoot system that has as parts a short stem in which the shoot internodes do not elongate, and one or more buds enclosed by fleshy leaves or leaf bases" name="bulb" term="bulb"  wikidataURL="http://www.wikidata.org/entity/Q188748" wikidataID="Q188748"  wikipediaPage="https://en.wikipedia.org/wiki/Bulb">
+    <synonym>Bulb</synonym>
+
     <synonym xml:lang="zh">鳞茎</synonym>
     <synonym xml:lang="de">Zwiebel</synonym>
     <synonym xml:lang="hi">कंद</synonym>
@@ -355,7 +393,9 @@
     <description xml:lang="de">äußere Holzschicht eines Baumstammes</description>
     <description xml:lang="fr">bois périphérique, conduisant la sève brute</description>
   </entry>
-  <entry description="strong central wood in a trunk or branch. the dead inner portion of the xylem (wood) of a trunk or large root" name="heartwood" term="heartwood" wikidataAltLabel="duramen" wikidataURL="http://www.wikidata.org/entity/Q191556" wikidataID="Q191556"  wikipediaPage="https://en.wikipedia.org/wiki/Heartwood">
+  <entry description="strong central wood in a trunk or branch. the dead inner portion of the xylem (wood) of a trunk or large root" name="heartwood" term="heartwood"  wikidataURL="http://www.wikidata.org/entity/Q191556" wikidataID="Q191556"  wikipediaPage="https://en.wikipedia.org/wiki/Heartwood">
+    <synonym>duramen</synonym>
+
     <synonym xml:lang="de">Kernholz</synonym>
     <synonym xml:lang="es">Duramen</synonym>
     <synonym xml:lang="fr">duramen</synonym>
@@ -377,7 +417,9 @@
     <description xml:lang="de">vielzellige Vegetationskörper bei Pflanzen, der nicht in Sprossachse, Wurzel und Blatt unterteilt ist</description>
     <description xml:lang="es">conjunto de la raíz, el tallo y las hojas de las plantas metafitas</description>
   </entry>
-  <entry description="part of a plant. A pore or small hole in the surface a leaf (or other aerial organ) allowing the exchange of gases between tissues and the atmosphere." name="stomata" term="stomata" wikidataAltLabel="plant stomata, Stoma" wikidataURL="http://www.wikidata.org/entity/Q216635" wikidataID="Q216635"  wikipediaPage="https://en.wikipedia.org/wiki/Stoma">
+  <entry description="part of a plant. A pore or small hole in the surface a leaf (or other aerial organ) allowing the exchange of gases between tissues and the atmosphere." name="stomata" term="stomata"  wikidataURL="http://www.wikidata.org/entity/Q216635" wikidataID="Q216635"  wikipediaPage="https://en.wikipedia.org/wiki/Stoma">
+    <synonym>plant stomata, Stoma</synonym>
+
     <synonym xml:lang="zh">气孔</synonym>
     <synonym xml:lang="de">Stoma</synonym>
     <synonym xml:lang="ta">இலை துளை</synonym>
@@ -386,7 +428,9 @@
     <description xml:lang="de">Spaltöffnung eines Blattes</description>
     <description xml:lang="fr">orifice de petite taille dans l'épiderme des organes aériens des végétaux</description>
   </entry>
-  <entry description="slim, cylindrical flower cluster with inconspicuous or no petals. an inflorescence consisting of a spike, usually hanging, of much reduced flowers of either sex: occurs in birch, hazel, etc" name="catkin" term="catkin" wikidataAltLabel="ament, amentaceous plants, amentiferae, amentiferous plants, catkin-bearing plants" wikidataURL="http://www.wikidata.org/entity/Q217753" wikidataID="Q217753"  wikipediaPage="https://en.wikipedia.org/wiki/Catkin">
+  <entry description="slim, cylindrical flower cluster with inconspicuous or no petals. an inflorescence consisting of a spike, usually hanging, of much reduced flowers of either sex: occurs in birch, hazel, etc" name="catkin" term="catkin"  wikidataURL="http://www.wikidata.org/entity/Q217753" wikidataID="Q217753"  wikipediaPage="https://en.wikipedia.org/wiki/Catkin">
+    <synonym>ament, amentaceous plants, amentiferae, amentiferous plants, catkin-bearing plants</synonym>
+
     <synonym xml:lang="zh">柔荑花序</synonym>
     <synonym xml:lang="de">Kätzchen</synonym>
     <synonym xml:lang="es">Amento</synonym>
@@ -406,7 +450,9 @@
     <synonym xml:lang="zh">保卫细胞</synonym>
     <synonym xml:lang="de">Schließzelle</synonym>
   </entry>
-  <entry description="process in an organism depending on a period of light or dark of a given length" name="photoperiodism" term="photoperiodism" wikidataAltLabel="GO:0009648, response to day length, response to night length, response to photoperiod" wikidataURL="http://www.wikidata.org/entity/Q259028" wikidataID="Q259028"  wikipediaPage="https://en.wikipedia.org/wiki/Photoperiodism">
+  <entry description="process in an organism depending on a period of light or dark of a given length" name="photoperiodism" term="photoperiodism"  wikidataURL="http://www.wikidata.org/entity/Q259028" wikidataID="Q259028"  wikipediaPage="https://en.wikipedia.org/wiki/Photoperiodism">
+    <synonym>GO:0009648, response to day length, response to night length, response to photoperiod</synonym>
+
     <synonym xml:lang="zh">光周期</synonym>
     <synonym xml:lang="de">Photoperiodismus</synonym>
     <synonym xml:lang="hi">प्रकाशकालिता</synonym>
@@ -454,7 +500,9 @@
     <synonym xml:lang="fr">réceptacle floral</synonym>
     <description xml:lang="de">Abschnitt der Sprossachse, der die Organe der Blüte trägt</description>
   </entry>
-  <entry description="The collective term for the sepals and petals, or either of them if one is absent. the outer part of a flower, consisting of the calyx and corolla" name="perianth" term="perianth" wikidataAltLabel="perigone, floral envelope" wikidataURL="http://www.wikidata.org/entity/Q504930" wikidataID="Q504930"  wikipediaPage="https://en.wikipedia.org/wiki/Perianth">
+  <entry description="The collective term for the sepals and petals, or either of them if one is absent. the outer part of a flower, consisting of the calyx and corolla" name="perianth" term="perianth"  wikidataURL="http://www.wikidata.org/entity/Q504930" wikidataID="Q504930"  wikipediaPage="https://en.wikipedia.org/wiki/Perianth">
+    <synonym>perigone, floral envelope</synonym>
+
     <synonym xml:lang="zh">花被</synonym>
     <synonym xml:lang="de">Blütenhülle</synonym>
     <synonym xml:lang="es">perianto</synonym>
@@ -475,7 +523,9 @@
     <synonym xml:lang="fr">Coléoptile</synonym>
     <description xml:lang="de">Schutzorgan für das aufgehende erste Blatt bei den Monokotyledonen</description>
   </entry>
-  <entry description="A type of inflorescence, with a monopodial growth habit, which at anthesis is composed of pedicellate flowers on a first order inflorescence axis with compressed inflorescence axis internodes. Appear as clusters originating from a single point." name="umbel" term="umbel" wikidataAltLabel="flowering umbel" wikidataURL="http://www.wikidata.org/entity/Q577430" wikidataID="Q577430"  wikipediaPage="https://en.wikipedia.org/wiki/Umbel">
+  <entry description="A type of inflorescence, with a monopodial growth habit, which at anthesis is composed of pedicellate flowers on a first order inflorescence axis with compressed inflorescence axis internodes. Appear as clusters originating from a single point." name="umbel" term="umbel"  wikidataURL="http://www.wikidata.org/entity/Q577430" wikidataID="Q577430"  wikipediaPage="https://en.wikipedia.org/wiki/Umbel">
+    <synonym>flowering umbel</synonym>
+
     <synonym xml:lang="de">Dolde</synonym>
     <synonym xml:lang="ta">அம்பெல்</synonym>
     <synonym xml:lang="es">Umbela</synonym>
@@ -513,7 +563,9 @@
     <synonym xml:lang="fr">Nectaire</synonym>
     <description xml:lang="de">Drüsengewebe innerhalb oder außerhalb der Blüte, das den Nektar abscheidet</description>
   </entry>
-  <entry description="modified or specialized leaf, especially one associated with a reproductive structure such as a flower, inflorescence axis or cone scale" name="bract" term="bract" wikidataAltLabel="bracteole, bractlet" wikidataURL="http://www.wikidata.org/entity/Q729496" wikidataID="Q729496"  wikipediaPage="https://en.wikipedia.org/wiki/Bract">
+  <entry description="modified or specialized leaf, especially one associated with a reproductive structure such as a flower, inflorescence axis or cone scale" name="bract" term="bract"  wikidataURL="http://www.wikidata.org/entity/Q729496" wikidataID="Q729496"  wikipediaPage="https://en.wikipedia.org/wiki/Bract">
+    <synonym>bracteole, bractlet</synonym>
+
     <synonym xml:lang="zh">苞片</synonym>
     <synonym xml:lang="de">Tragblatt</synonym>
     <synonym xml:lang="es">Bráctea</synonym>
@@ -549,7 +601,9 @@
     <description xml:lang="de">primäres Abschlussgewebe von Sprossachse und Blättern bei höheren Pflanzen</description>
     <description xml:lang="fr">surface des plantes</description>
   </entry>
-  <entry description="wall of a fruit, developed from the ovary/carpel wall" name="pericarp" term="pericarp" wikidataAltLabel="pericarpium" wikidataURL="http://www.wikidata.org/entity/Q876445" wikidataID="Q876445"  wikipediaPage="https://en.wikipedia.org/wiki/Pericarp">
+  <entry description="wall of a fruit, developed from the ovary/carpel wall" name="pericarp" term="pericarp"  wikidataURL="http://www.wikidata.org/entity/Q876445" wikidataID="Q876445"  wikipediaPage="https://en.wikipedia.org/wiki/Pericarp">
+    <synonym>pericarpium</synonym>
+
     <synonym xml:lang="de">Perikarp</synonym>
     <synonym xml:lang="es">pericarpio</synonym>
     <synonym xml:lang="fr">péricarpe</synonym>
@@ -574,7 +628,9 @@
     <synonym xml:lang="fr">Coussinet foliaire</synonym>
     <description xml:lang="de">verdickte Stellen in den Stielen oder an der Basis der Fiedern von Pflanzenblättern, die als Gelenke fungieren</description>
   </entry>
-  <entry description="remains of pressing fruit" name="pomace" term="pomace" wikidataAltLabel="marc, pommace" wikidataURL="http://www.wikidata.org/entity/Q927202" wikidataID="Q927202"  wikipediaPage="https://en.wikipedia.org/wiki/Pomace">
+  <entry description="remains of pressing fruit" name="pomace" term="pomace"  wikidataURL="http://www.wikidata.org/entity/Q927202" wikidataID="Q927202"  wikipediaPage="https://en.wikipedia.org/wiki/Pomace">
+    <synonym>marc, pommace</synonym>
+
     <synonym xml:lang="zh">果渣</synonym>
     <synonym xml:lang="de">Trester</synonym>
     <synonym xml:lang="es">Hollejo</synonym>
@@ -582,7 +638,9 @@
     <description xml:lang="de">vorwiegend feste Rückstände nach dem Auspressen des Saftes von Pflanzenbestandteilen</description>
     <description xml:lang="fr">résidu de pressurage du fruit</description>
   </entry>
-  <entry description="a longitudinal strand of vascular tissue in the stems and leaves of higher plants" name="vascular bundle" term="vascular bundle" wikidataAltLabel="plant vascular bundle" wikidataURL="http://www.wikidata.org/entity/Q987774" wikidataID="Q987774"  wikipediaPage="https://en.wikipedia.org/wiki/Vascular_bundle">
+  <entry description="a longitudinal strand of vascular tissue in the stems and leaves of higher plants" name="vascular bundle" term="vascular bundle"  wikidataURL="http://www.wikidata.org/entity/Q987774" wikidataID="Q987774"  wikipediaPage="https://en.wikipedia.org/wiki/Vascular_bundle">
+    <synonym>plant vascular bundle</synonym>
+
     <synonym xml:lang="zh">维管束</synonym>
     <synonym xml:lang="de">Leitbündel</synonym>
     <synonym xml:lang="es">haz vascular</synonym>
@@ -601,7 +659,9 @@
     <synonym xml:lang="de">Plazenta</synonym>
     <synonym xml:lang="fr">Placenta</synonym>
   </entry>
-  <entry description="fine outgrowths or appendages on plants, algae, lichens, and certain protists. A unicellular or multicellular plant structure that forms a non-sclerified outgrowth from the epidermis" name="trichomes" term="trichomes" wikidataAltLabel="trichome" wikidataURL="http://www.wikidata.org/entity/Q1125215" wikidataID="Q1125215"  wikipediaPage="https://en.wikipedia.org/wiki/Trichome">
+  <entry description="fine outgrowths or appendages on plants, algae, lichens, and certain protists. A unicellular or multicellular plant structure that forms a non-sclerified outgrowth from the epidermis" name="trichomes" term="trichomes"  wikidataURL="http://www.wikidata.org/entity/Q1125215" wikidataID="Q1125215"  wikipediaPage="https://en.wikipedia.org/wiki/Trichome">
+    <synonym>trichome</synonym>
+
     <synonym xml:lang="zh">藻絲</synonym>
     <synonym xml:lang="de">Trichom</synonym>
     <synonym xml:lang="es">Tricoma</synonym>
@@ -673,7 +733,9 @@
     <description xml:lang="de">Träger der Geschlechtsorgane der Archegonien und der Antheridien</description>
     <description xml:lang="fr">terme</description>
   </entry>
-  <entry description="Plant part. An elongated part of a carpel or a group of fused carpels between the ovary and the stigma." name="Style" term="Style" wikidataAltLabel="style" wikidataURL="http://www.wikidata.org/entity/Q1546595" wikidataID="Q1546595" >
+  <entry description="Plant part. An elongated part of a carpel or a group of fused carpels between the ovary and the stigma." name="Style" term="Style"  wikidataURL="http://www.wikidata.org/entity/Q1546595" wikidataID="Q1546595" >
+    <synonym>style</synonym>
+
     <synonym xml:lang="zh">花柱</synonym>
     <synonym xml:lang="de">Griffel</synonym>
     <synonym xml:lang="es">Estilo (botánica)</synonym>
@@ -687,7 +749,9 @@
     <synonym xml:lang="fr">pédicelle</synonym>
     <description xml:lang="fr">tige portant les fleurs individuelles d'une inflorescence</description>
   </entry>
-  <entry description="the petals of a flower collectively, forming an inner floral envelope" name="corona" term="corona" wikidataAltLabel="corolla" wikidataURL="http://www.wikidata.org/entity/Q1840192" wikidataID="Q1840192"  wikipediaPage="https://en.wikipedia.org/wiki/Corona_(perianth)">
+  <entry description="the petals of a flower collectively, forming an inner floral envelope" name="corona" term="corona"  wikidataURL="http://www.wikidata.org/entity/Q1840192" wikidataID="Q1840192"  wikipediaPage="https://en.wikipedia.org/wiki/Corona_(perianth)">
+    <synonym>corolla</synonym>
+
     <synonym xml:lang="zh">花冠</synonym>
     <synonym xml:lang="de">Blütenkrone</synonym>
     <synonym xml:lang="es">corola</synonym>
@@ -708,7 +772,9 @@
     <synonym xml:lang="fr">nucelle</synonym>
     <description xml:lang="de">Gewebe in der Samenanlage der Samenpflanzen, das die Megasporen ausbildet</description>
   </entry>
-  <entry description="an inflorescence in the form of a flat-topped flower cluster with the oldest flowers at the periphery. This type of raceme occurs in the candytuft" name="corymb" term="corymb" wikidataAltLabel="Corymboid" wikidataURL="http://www.wikidata.org/entity/Q2322325" wikidataID="Q2322325"  wikipediaPage="https://en.wikipedia.org/wiki/Corymb">
+  <entry description="an inflorescence in the form of a flat-topped flower cluster with the oldest flowers at the periphery. This type of raceme occurs in the candytuft" name="corymb" term="corymb"  wikidataURL="http://www.wikidata.org/entity/Q2322325" wikidataID="Q2322325"  wikipediaPage="https://en.wikipedia.org/wiki/Corymb">
+    <synonym>Corymboid</synonym>
+
     <synonym xml:lang="de">Schirmtraube</synonym>
     <synonym xml:lang="ta">காரிம்ப்</synonym>
     <synonym xml:lang="es">Corimbo</synonym>
@@ -727,7 +793,9 @@
     <synonym xml:lang="de">Staubfaden</synonym>
     <synonym xml:lang="es">Filamento</synonym>
   </entry>
-  <entry description="A gemma (plural gemmae) is a single cell, or a mass of cells, or a modified bud of tissue, that detaches from the parent and develops into a new individual. This type of asexual reproduction is referred to as fragmentation." name="Gemma" term="Gemma" wikidataAltLabel="gemmae" wikidataURL="http://www.wikidata.org/entity/Q2746099" wikidataID="Q2746099"  wikipediaPage="https://en.wikipedia.org/wiki/Gemma_(botany)">
+  <entry description="A gemma (plural gemmae) is a single cell, or a mass of cells, or a modified bud of tissue, that detaches from the parent and develops into a new individual. This type of asexual reproduction is referred to as fragmentation." name="Gemma" term="Gemma"  wikidataURL="http://www.wikidata.org/entity/Q2746099" wikidataID="Q2746099"  wikipediaPage="https://en.wikipedia.org/wiki/Gemma_(botany)">
+    <synonym>gemmae</synonym>
+
     <synonym xml:lang="de">gemmae</synonym>
   </entry>
   <entry description="part of a flower. A collective phyllome structure that is composed of one or more sepals, and comprises the outer whorl (floral envelope) of non-reproductive floral organs that protects the developing flower bud" name="calyx" term="calyx" wikidataURL="http://www.wikidata.org/entity/Q2933965" wikidataID="Q2933965"  wikipediaPage="https://en.wikipedia.org/wiki/Calyx_(botany)">
@@ -738,14 +806,18 @@
     <description xml:lang="fr">ensemble des sépales</description>
     <description xml:lang="es">verticilo externo en las flores</description>
   </entry>
-  <entry description="flat part of a leaf" name="leaf blade" term="leaf blade" wikidataAltLabel="blade" wikidataURL="http://www.wikidata.org/entity/Q3087886" wikidataID="Q3087886" >
+  <entry description="flat part of a leaf" name="leaf blade" term="leaf blade"  wikidataURL="http://www.wikidata.org/entity/Q3087886" wikidataID="Q3087886" >
+    <synonym>blade</synonym>
+
     <synonym xml:lang="de">Blattspreite</synonym>
     <synonym xml:lang="es">limbo foliar</synonym>
     <synonym xml:lang="fr">limbe foliaire</synonym>
     <description xml:lang="de">der flächige Teil eines Blattes</description>
     <description xml:lang="es">parte de una hoja</description>
   </entry>
-  <entry description="In botany, the lower, usually larger, of two bracts enclosing a floret (the other is the palea), in a grass spikelet" name="lemma" term="lemma" wikidataAltLabel="flowering glume" wikidataURL="http://www.wikidata.org/entity/Q3089146" wikidataID="Q3089146"  wikipediaPage="https://en.wikipedia.org/wiki/Lemma_(botany)">
+  <entry description="In botany, the lower, usually larger, of two bracts enclosing a floret (the other is the palea), in a grass spikelet" name="lemma" term="lemma"  wikidataURL="http://www.wikidata.org/entity/Q3089146" wikidataID="Q3089146"  wikipediaPage="https://en.wikipedia.org/wiki/Lemma_(botany)">
+    <synonym>flowering glume</synonym>
+
     <synonym xml:lang="zh">外稃</synonym>
     <synonym xml:lang="de">Deckspelze</synonym>
     <synonym xml:lang="fr">lemme</synonym>
@@ -765,7 +837,9 @@
   <entry description="botany term. A protective case, covering, or structure, such as a plant bud, in which an organism remains dormant for the winter." name="Hibernaculum" term="Hibernaculum" wikidataURL="http://www.wikidata.org/entity/Q3791538" wikidataID="Q3791538"  wikipediaPage="https://en.wikipedia.org/wiki/Hibernaculum_(botany)">
     <synonym xml:lang="es">Hibernáculo</synonym>
   </entry>
-  <entry description="the inner of two bracts surrounding each floret in a grass spikelet" name="Palea" term="Palea" wikidataAltLabel="palea" wikidataURL="http://www.wikidata.org/entity/Q3894544" wikidataID="Q3894544"  wikipediaPage="https://en.wikipedia.org/wiki/Palea_(botany)">
+  <entry description="the inner of two bracts surrounding each floret in a grass spikelet" name="Palea" term="Palea"  wikidataURL="http://www.wikidata.org/entity/Q3894544" wikidataID="Q3894544"  wikipediaPage="https://en.wikipedia.org/wiki/Palea_(botany)">
+    <synonym>palea</synonym>
+
     <synonym xml:lang="de">Vorspelze</synonym>
     <synonym xml:lang="fr">paléa</synonym>
   </entry>
@@ -773,7 +847,9 @@
   </entry>
   <entry name="Q7201653" term="Q7201653" wikidataURL="http://www.wikidata.org/entity/Q7201653" wikidataID="Q7201653" >
   </entry>
-  <entry description="the stalk of a leaf" name="petiole" term="petiole" wikidataAltLabel="petiolate" wikidataURL="http://www.wikidata.org/entity/Q10289985" wikidataID="Q10289985"  wikipediaPage="https://en.wikipedia.org/wiki/Petiole_(botany)">
+  <entry description="the stalk of a leaf" name="petiole" term="petiole"  wikidataURL="http://www.wikidata.org/entity/Q10289985" wikidataID="Q10289985"  wikipediaPage="https://en.wikipedia.org/wiki/Petiole_(botany)">
+    <synonym>petiolate</synonym>
+
     <synonym xml:lang="zh">葉柄</synonym>
     <synonym xml:lang="de">Blattstiel</synonym>
     <synonym xml:lang="ta">இலைக்காம்பு</synonym>
@@ -781,7 +857,9 @@
     <synonym xml:lang="fr">pétiole</synonym>
     <description xml:lang="fr">Élément d'une feuille</description>
   </entry>
-  <entry description="A small, deciduous bulb or tuber formed in the axil of a leaf or pinna; a means of vegetative propagation" name="bulbil" term="bulbil" wikidataAltLabel="bulbel, bulbet, bulblet, pup" wikidataURL="http://www.wikidata.org/entity/Q10437539" wikidataID="Q10437539"  wikipediaPage="https://en.wikipedia.org/wiki/Bulbil">
+  <entry description="A small, deciduous bulb or tuber formed in the axil of a leaf or pinna; a means of vegetative propagation" name="bulbil" term="bulbil"  wikidataURL="http://www.wikidata.org/entity/Q10437539" wikidataID="Q10437539"  wikipediaPage="https://en.wikipedia.org/wiki/Bulbil">
+    <synonym>bulbel, bulbet, bulblet, pup</synonym>
+
   </entry>
   <entry description="small thin terminal branch of a woody plant" name="twig" term="twig" wikidataURL="http://www.wikidata.org/entity/Q11162356" wikidataID="Q11162356"  wikipediaPage="https://en.wikipedia.org/wiki/Twig">
     <synonym xml:lang="zh">樹枝</synonym>
@@ -800,9 +878,13 @@
   </entry>
   <entry description="the main (aerial) stem of a plant" name="caulis" term="caulis" wikidataURL="http://www.wikidata.org/entity/Q16535076" wikidataID="Q16535076" >
   </entry>
-  <entry description="a cymose inflorescence in which each branch gives rise to one other branch only, as in the forget-me-not and buttercup" name="monochasium" term="monochasium" wikidataAltLabel="cymose inflorescence" wikidataURL="http://www.wikidata.org/entity/Q18088308" wikidataID="Q18088308" >
+  <entry description="a cymose inflorescence in which each branch gives rise to one other branch only, as in the forget-me-not and buttercup" name="monochasium" term="monochasium"  wikidataURL="http://www.wikidata.org/entity/Q18088308" wikidataID="Q18088308" >
+    <synonym>cymose inflorescence</synonym>
+
   </entry>
-  <entry description="collective name for leaves of a tree or plant" name="foliage" term="foliage" wikidataAltLabel="leaves" wikidataURL="http://www.wikidata.org/entity/Q18250160" wikidataID="Q18250160" >
+  <entry description="collective name for leaves of a tree or plant" name="foliage" term="foliage"  wikidataURL="http://www.wikidata.org/entity/Q18250160" wikidataID="Q18250160" >
+    <synonym>leaves</synonym>
+
     <synonym xml:lang="de">Laub</synonym>
     <description xml:lang="de">Gesamtheit der Blattorgane von Laubbäumen und Sträuchern.</description>
   </entry>

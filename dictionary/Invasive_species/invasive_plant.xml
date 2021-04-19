@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary title="invasive_plant">
  <desc>Created from SPARQL query</desc>
- <entry _p1843_taxon_common_name="水草,草海桐" _p225_taxon_name="Scaevola sericea" name="Scaevola sericea" term="Scaevola sericea" wikidataURL="http://www.wikidata.org/entity/Q73291738" wikipediaPage="https://en.wikipedia.org/wiki/Scaevola_sericea" wikidataID="Q73291738"/>
+ <entry name="Scaevola sericea" term="Scaevola sericea" wikidataURL="http://www.wikidata.org/entity/Q73291738" wikipediaPage="https://en.wikipedia.org/wiki/Scaevola_sericea" wikidataID="Q73291738">
+	 <related xml:lang="zh" wikidataID="p1843" name="taxon_common_name">水草,草海桐</related>
+	 <related wikidataID="p225" name="taxon_name">Scaevola sericea"</related> 
+ </entry>
  <entry description="species of plant" _p1843_taxon_common_name="Brazilian vervain,狹葉馬鞭草" _p225_taxon_name="Verbena brasiliensis" name="Verbena brasiliensis" term="Verbena brasiliensis" wikidataURL="http://www.wikidata.org/entity/Q3279023" wikipediaPage="https://en.wikipedia.org/wiki/Verbena_brasiliensis" wikidataID="Q3279023"/>
  <entry description="species of plant" _p1843_taxon_common_name="Bay Biscayne creeping-oxeye,南美蟛蜞菊" _p225_taxon_name="Sphagneticola trilobata" name="Sphagneticola trilobata" term="Sphagneticola trilobata" wikidataURL="http://www.wikidata.org/entity/Q2707027" wikipediaPage="https://en.wikipedia.org/wiki/Sphagneticola_trilobata" wikidataID="Q2707027">
   <synonym>Indian Daisy</synonym>
