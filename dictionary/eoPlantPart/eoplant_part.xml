@@ -69,16 +69,6 @@
     <description xml:lang="de">stechendes Gebilde an einer Pflanze, das an der Stelle eines Organs sitzt</description>
     <description xml:lang="fr">terme générique du langage courant désignant épine foliaire, rameau-épine, aiguillon</description>
   </entry>
-  <entry description="type of herbaceous plant" name="grass" term="grass" wikidataURL="http://www.wikidata.org/entity/Q643352" wikidataID="Q643352"  wikipediaPage="https://en.wikipedia.org/wiki/True_grass">
-    <synonym xml:lang="de">Gras</synonym>
-    <synonym xml:lang="ur">گھاس</synonym>
-    <synonym xml:lang="ta">புல்</synonym>
-    <synonym xml:lang="es">hierba</synonym>
-    <synonym xml:lang="fr">herbe</synonym>
-    <description xml:lang="ta">பூண்டுத்தாவர செடி வகை</description>
-    <description xml:lang="de">einkeimblättrige, krautige Pflanzen mit unscheinbaren Blüten und langen, schmalen Blättern</description>
-    <description xml:lang="fr">plante à tige dressée peu ou non lignifiée</description>
-  </entry>
   <entry description="young stem or branch" name="shoot" term="shoot" wikidataURL="http://www.wikidata.org/entity/Q220869" wikidataID="Q220869"  wikipediaPage="https://en.wikipedia.org/wiki/Shoot">
     <synonym xml:lang="zh">芽</synonym>
     <synonym xml:lang="de">Spross</synonym>
@@ -221,14 +211,6 @@
     <description xml:lang="de">Blütenstaub, auch Mehlstaub</description>
     <description xml:lang="fr">élément fécondant mâle de la fleur</description>
     <description xml:lang="es">polvillo compuesto por los granos portadores del gametófilo masculino en las plantas con semilla</description>
-  </entry>
-  <entry description="German politician (1903-1973)" name="Karl Hamann" term="Karl Hamann" wikidataURL="http://www.wikidata.org/entity/Q88224" wikidataID="Q88224"  wikipediaPage="https://en.wikipedia.org/wiki/Karl_Hamann">
-    <synonym xml:lang="de">Karl Hamann</synonym>
-    <synonym xml:lang="es">Karl Hamann</synonym>
-    <synonym xml:lang="fr">Karl Hamann</synonym>
-    <description xml:lang="de">deutscher Politiker (LDPD), MdV, Handelsminister der DDR</description>
-    <description xml:lang="fr">personnalité politique allemande</description>
-    <description xml:lang="es">político alemán</description>
   </entry>
   <entry description="The male organ of a flower, consisting (usually) of a stalk called the filament and a pollen-bearing head called the anther" name="stamen" term="stamen" wikidataURL="http://www.wikidata.org/entity/Q103129" wikidataID="Q103129"  wikipediaPage="https://en.wikipedia.org/wiki/Stamen">
     <synonym xml:lang="zh">雄蕊</synonym>
@@ -450,19 +432,7 @@
     <synonym xml:lang="zh">保卫细胞</synonym>
     <synonym xml:lang="de">Schließzelle</synonym>
   </entry>
-  <entry description="process in an organism depending on a period of light or dark of a given length" name="photoperiodism" term="photoperiodism"  wikidataURL="http://www.wikidata.org/entity/Q259028" wikidataID="Q259028"  wikipediaPage="https://en.wikipedia.org/wiki/Photoperiodism">
-    <synonym>GO:0009648, response to day length, response to night length, response to photoperiod</synonym>
-
-    <synonym xml:lang="zh">光周期</synonym>
-    <synonym xml:lang="de">Photoperiodismus</synonym>
-    <synonym xml:lang="hi">प्रकाशकालिता</synonym>
-    <synonym xml:lang="es">fotoperiodismo</synonym>
-    <synonym xml:lang="fr">photopériodisme</synonym>
-    <description xml:lang="hi">पौधों की कार्यिकीय (शरीरक्रियात्मक) अनुक्रिया</description>
-    <description xml:lang="de">genetisch bedingtes Blühverhalten, abhängig von der Tageslänge</description>
-    <description xml:lang="es">reacción fisiológica de los organismos, plantas y animales, a la duración del día o la noche</description>
-  </entry>
-  <entry description="a mass of cohering pollen grains, produced by plants such as orchids and transported as a whole during pollination" name="Pollinium" term="Pollinium" wikidataURL="http://www.wikidata.org/entity/Q279513" wikidataID="Q279513"  wikipediaPage="https://en.wikipedia.org/wiki/Pollinium">
+  <entry description="a mass of cohering pollen grains, produced by plants such as orchids and transported as a whole during pollination" name="pollinium" term="pollinium" wikidataURL="http://www.wikidata.org/entity/Q279513" wikidataID="Q279513"  wikipediaPage="https://en.wikipedia.org/wiki/Pollinium">
     <synonym xml:lang="zh">花粉块</synonym>
     <synonym xml:lang="de">Pollinium</synonym>
     <synonym xml:lang="es">Polinio</synonym>
@@ -517,7 +487,7 @@
     <description xml:lang="de">Gesamtheit der männlichen Sexualorgane in einer Blüte</description>
     <description xml:lang="es">estructura reproductora masculina que consta del conjunto de los estambres de una flor</description>
   </entry>
-  <entry description="A sheath-like plant organ that surrounds the plumule of a plant embryo or the emerging shoot apex of a seedling. Protects the emerging shoot system as it grows through the soil." name="Coleoptile" term="Coleoptile" wikidataURL="http://www.wikidata.org/entity/Q572097" wikidataID="Q572097"  wikipediaPage="https://en.wikipedia.org/wiki/Coleoptile">
+  <entry description="A sheath-like plant organ that surrounds the plumule of a plant embryo or the emerging shoot apex of a seedling. Protects the emerging shoot system as it grows through the soil." name="coleoptile" term="coleoptile" wikidataURL="http://www.wikidata.org/entity/Q572097" wikidataID="Q572097"  wikipediaPage="https://en.wikipedia.org/wiki/Coleoptile">
     <synonym xml:lang="de">Koleoptile</synonym>
     <synonym xml:lang="es">Coleoptile</synonym>
     <synonym xml:lang="fr">Coléoptile</synonym>
@@ -557,7 +527,7 @@
     <description xml:lang="de">fleischige Hülle, die einen Samen ganz oder teilweise umhüllt</description>
     <description xml:lang="fr">enveloppe charnue développée autour d'une graine</description>
   </entry>
-  <entry description="any of various glandular structures secreting nectar that occur in the flowers, leaves, stipules, etc, of a plant" name="Nectary" term="Nectary" wikidataURL="http://www.wikidata.org/entity/Q687699" wikidataID="Q687699"  wikipediaPage="https://en.wikipedia.org/wiki/Nectary">
+  <entry description="any of various glandular structures secreting nectar that occur in the flowers, leaves, stipules, etc, of a plant" name="nectary" term="nectary" wikidataURL="http://www.wikidata.org/entity/Q687699" wikidataID="Q687699"  wikipediaPage="https://en.wikipedia.org/wiki/Nectary">
     <synonym xml:lang="de">Nektarium</synonym>
     <synonym xml:lang="es">Nectario</synonym>
     <synonym xml:lang="fr">Nectaire</synonym>
@@ -573,7 +543,7 @@
     <description xml:lang="de">Blatt, das in seiner Blattachsel einen Seitenspross trägt</description>
     <description xml:lang="fr">pièce florale</description>
   </entry>
-  <entry description="In botany, a term for a part of the perianth used when the sepals and petals cannot be distinguished because of similarity in size and shape. Any of the subdivisions of a perianth that is not clearly differentiated into calyx and corolla" name="Tepal" term="Tepal" wikidataURL="http://www.wikidata.org/entity/Q756954" wikidataID="Q756954"  wikipediaPage="https://en.wikipedia.org/wiki/Tepal">
+  <entry description="In botany, a term for a part of the perianth used when the sepals and petals cannot be distinguished because of similarity in size and shape. Any of the subdivisions of a perianth that is not clearly differentiated into calyx and corolla" name="tepal" term="tepal" wikidataURL="http://www.wikidata.org/entity/Q756954" wikidataID="Q756954"  wikipediaPage="https://en.wikipedia.org/wiki/Tepal">
     <synonym xml:lang="zh">花被片</synonym>
     <synonym xml:lang="de">Perigonblatt</synonym>
     <synonym xml:lang="es">Tépalo</synonym>
@@ -584,7 +554,7 @@
     <synonym xml:lang="de">Außenkelch</synonym>
     <description xml:lang="de">zusätzliche kelchähnliche Hülle, die außerhalb des eigentlichen Kelches direkt unterhalb der eigentlichen Blüte liegt</description>
   </entry>
-  <entry description="water-secreting pore or gland, a small glandular structure supplied by tracheids with water-secreting epithem, often associated with a stomata which may be somewhat different in size and/or morphology from the other stomata on the plant" name="Hydathode" term="Hydathode" wikidataURL="http://www.wikidata.org/entity/Q794374" wikidataID="Q794374"  wikipediaPage="https://en.wikipedia.org/wiki/Hydathode">
+  <entry description="water-secreting pore or gland, a small glandular structure supplied by tracheids with water-secreting epithem, often associated with a stomata which may be somewhat different in size and/or morphology from the other stomata on the plant" name="hydathode" term="hydathode" wikidataURL="http://www.wikidata.org/entity/Q794374" wikidataID="Q794374"  wikipediaPage="https://en.wikipedia.org/wiki/Hydathode">
     <synonym xml:lang="zh">泌水孔</synonym>
     <synonym xml:lang="de">Hydathode</synonym>
     <synonym xml:lang="ta">நீர்க்கசிவுத்துளைகள்</synonym>
@@ -615,14 +585,14 @@
     <synonym xml:lang="fr">Ligule</synonym>
     <description xml:lang="de">Anhängsel an der Übergangsstelle von Scheide und Spreitenoberseite</description>
   </entry>
-  <entry description="A cup- or tube-shaped cardinal organ part, bearing perianth and stamens on its rim, so these arise above the base, and often above the top, of the ovary" name="Hypanthium" term="Hypanthium" wikidataURL="http://www.wikidata.org/entity/Q887231" wikidataID="Q887231"  wikipediaPage="https://en.wikipedia.org/wiki/Hypanthium">
+  <entry description="A cup- or tube-shaped cardinal organ part, bearing perianth and stamens on its rim, so these arise above the base, and often above the top, of the ovary" name="hypanthium" term="hypanthium" wikidataURL="http://www.wikidata.org/entity/Q887231" wikidataID="Q887231"  wikipediaPage="https://en.wikipedia.org/wiki/Hypanthium">
     <synonym xml:lang="zh">托杯</synonym>
     <synonym xml:lang="de">Blütenbecher</synonym>
     <synonym xml:lang="es">Hipanto</synonym>
     <synonym xml:lang="fr">Hypanthe</synonym>
     <description xml:lang="de">becherförmige oder röhrenförmige Struktur am Grunde der Blüte</description>
   </entry>
-  <entry description="thickening at the base of a plant leaf" name="Pulvinus" term="Pulvinus" wikidataURL="http://www.wikidata.org/entity/Q913294" wikidataID="Q913294"  wikipediaPage="https://en.wikipedia.org/wiki/Pulvinus">
+  <entry description="thickening at the base of a plant leaf" name="pulvinus" term="pulvinus" wikidataURL="http://www.wikidata.org/entity/Q913294" wikidataID="Q913294"  wikipediaPage="https://en.wikipedia.org/wiki/Pulvinus">
     <synonym xml:lang="de">Pulvinus</synonym>
     <synonym xml:lang="es">Pulvino</synonym>
     <synonym xml:lang="fr">Coussinet foliaire</synonym>
@@ -681,7 +651,7 @@
     <synonym xml:lang="fr">aiguille</synonym>
     <description xml:lang="fr">feuille longue et fine de conifère</description>
   </entry>
-  <entry description="in a grass floret, one of a pair (or three?) of tiny green or white scales or flaps of tissue between the lemma and palea and the stamens, possibly representing reduced inner perianth members" name="Lodicule" term="Lodicule" wikidataURL="http://www.wikidata.org/entity/Q1271979" wikidataID="Q1271979"  wikipediaPage="https://en.wikipedia.org/wiki/Lodicule">
+  <entry description="in a grass floret, one of a pair (or three?) of tiny green or white scales or flaps of tissue between the lemma and palea and the stamens, possibly representing reduced inner perianth members" name="lodicule" term="lodicule" wikidataURL="http://www.wikidata.org/entity/Q1271979" wikidataID="Q1271979"  wikipediaPage="https://en.wikipedia.org/wiki/Lodicule">
     <synonym xml:lang="de">Lodiculae</synonym>
     <synonym xml:lang="es">Lodícula</synonym>
     <synonym xml:lang="fr">lodicule</synonym>
@@ -728,12 +698,12 @@
     <description xml:lang="de">oberer Abschnitt des Stempels des Fruchtblattes einer Blüte</description>
     <description xml:lang="fr">partie d'une fleur</description>
   </entry>
-  <entry description="the part of a plant that bears the reproductive organs" name="Gametophore" term="Gametophore" wikidataURL="http://www.wikidata.org/entity/Q1493115" wikidataID="Q1493115"  wikipediaPage="https://en.wikipedia.org/wiki/Gametophore">
+  <entry description="the part of a plant that bears the reproductive organs" name="gametophore" term="gametophore" wikidataURL="http://www.wikidata.org/entity/Q1493115" wikidataID="Q1493115"  wikipediaPage="https://en.wikipedia.org/wiki/Gametophore">
     <synonym xml:lang="de">Gametophor</synonym>
     <description xml:lang="de">Träger der Geschlechtsorgane der Archegonien und der Antheridien</description>
     <description xml:lang="fr">terme</description>
   </entry>
-  <entry description="Plant part. An elongated part of a carpel or a group of fused carpels between the ovary and the stigma." name="Style" term="Style"  wikidataURL="http://www.wikidata.org/entity/Q1546595" wikidataID="Q1546595" >
+  <entry description="Plant part. An elongated part of a carpel or a group of fused carpels between the ovary and the stigma." name="style" term="style"  wikidataURL="http://www.wikidata.org/entity/Q1546595" wikidataID="Q1546595" >
     <synonym>style</synonym>
 
     <synonym xml:lang="zh">花柱</synonym>
@@ -781,7 +751,7 @@
     <synonym xml:lang="fr">corymbe</synonym>
     <description xml:lang="de">Form des Blütenstands</description>
   </entry>
-  <entry description="the stalk of a plant bearing an inflorescence or solitary flower" name="Peduncle" term="Peduncle" wikidataURL="http://www.wikidata.org/entity/Q2331384" wikidataID="Q2331384"  wikipediaPage="https://en.wikipedia.org/wiki/Peduncle_(botany)">
+  <entry description="the stalk of a plant bearing an inflorescence or solitary flower" name="peduncle" term="peduncle" wikidataURL="http://www.wikidata.org/entity/Q2331384" wikidataID="Q2331384"  wikipediaPage="https://en.wikipedia.org/wiki/Peduncle_(botany)">
     <synonym xml:lang="zh">花序梗</synonym>
     <synonym xml:lang="de">Blütenstandsstiel</synonym>
     <synonym xml:lang="es">Pedúnculo</synonym>
@@ -789,7 +759,7 @@
     <description xml:lang="de">bei Blütenpflanzen derjenige Abschnitt einer Sprossachse, der unterhalb des Blütenstandes liegt und diesen trägt</description>
     <description xml:lang="fr">tige florale</description>
   </entry>
-  <entry description="in botany, the stalk of the stamen" name="Filament" term="Filament" wikidataURL="http://www.wikidata.org/entity/Q2365301" wikidataID="Q2365301" >
+  <entry description="in botany, the stalk of the stamen" name="filament" term="filament" wikidataURL="http://www.wikidata.org/entity/Q2365301" wikidataID="Q2365301" >
     <synonym xml:lang="de">Staubfaden</synonym>
     <synonym xml:lang="es">Filamento</synonym>
   </entry>
@@ -822,7 +792,7 @@
     <synonym xml:lang="de">Deckspelze</synonym>
     <synonym xml:lang="fr">lemme</synonym>
   </entry>
-  <entry description="Radicle forms the future root" name="Radicle" term="Radicle" wikidataURL="http://www.wikidata.org/entity/Q3129307" wikidataID="Q3129307"  wikipediaPage="https://en.wikipedia.org/wiki/Radicle">
+  <entry description="Radicle forms the future root" name="radicle" term="radicle" wikidataURL="http://www.wikidata.org/entity/Q3129307" wikidataID="Q3129307"  wikipediaPage="https://en.wikipedia.org/wiki/Radicle">
     <synonym xml:lang="zh">胚根</synonym>
     <synonym xml:lang="de">Radicula</synonym>
     <synonym xml:lang="es">Radícula (botánica)</synonym>
@@ -834,16 +804,16 @@
     <synonym xml:lang="fr">micropyle</synonym>
     <description xml:lang="fr">ouverture dans le tégument de l'ovule des plantes à graine</description>
   </entry>
-  <entry description="botany term. A protective case, covering, or structure, such as a plant bud, in which an organism remains dormant for the winter." name="Hibernaculum" term="Hibernaculum" wikidataURL="http://www.wikidata.org/entity/Q3791538" wikidataID="Q3791538"  wikipediaPage="https://en.wikipedia.org/wiki/Hibernaculum_(botany)">
+  <entry description="botany term. A protective case, covering, or structure, such as a plant bud, in which an organism remains dormant for the winter." name="hibernaculum" term="hibernaculum" wikidataURL="http://www.wikidata.org/entity/Q3791538" wikidataID="Q3791538"  wikipediaPage="https://en.wikipedia.org/wiki/Hibernaculum_(botany)">
     <synonym xml:lang="es">Hibernáculo</synonym>
   </entry>
-  <entry description="the inner of two bracts surrounding each floret in a grass spikelet" name="Palea" term="Palea"  wikidataURL="http://www.wikidata.org/entity/Q3894544" wikidataID="Q3894544"  wikipediaPage="https://en.wikipedia.org/wiki/Palea_(botany)">
+  <entry description="the inner of two bracts surrounding each floret in a grass spikelet" name="palea" term="palea"  wikidataURL="http://www.wikidata.org/entity/Q3894544" wikidataID="Q3894544"  wikipediaPage="https://en.wikipedia.org/wiki/Palea_(botany)">
     <synonym>palea</synonym>
 
     <synonym xml:lang="de">Vorspelze</synonym>
     <synonym xml:lang="fr">paléa</synonym>
   </entry>
-  <entry description="a shoot or branch growing from the main stem of a plant" name="Offshoot" term="Offshoot" wikidataURL="http://www.wikidata.org/entity/Q7079661" wikidataID="Q7079661"  wikipediaPage="https://en.wikipedia.org/wiki/Offshoot_(plant)">
+  <entry description="a shoot or branch growing from the main stem of a plant" name="offshoot" term="offshoot" wikidataURL="http://www.wikidata.org/entity/Q7079661" wikidataID="Q7079661"  wikipediaPage="https://en.wikipedia.org/wiki/Offshoot_(plant)">
   </entry>
   <entry name="Q7201653" term="Q7201653" wikidataURL="http://www.wikidata.org/entity/Q7201653" wikidataID="Q7201653" >
   </entry>
@@ -867,8 +837,8 @@
     <synonym xml:lang="ta">சிறுகிளை</synonym>
     <description xml:lang="de">Verzweigung eines Stängels bzw. Asts einer Pflanze</description>
   </entry>
-  <entry description="a cymose inflorescence in which each branch bearing a flower gives rise to two other flowering branches, as in the stitchwort" name="Dichasium" term="Dichasium" wikidataURL="http://www.wikidata.org/entity/Q11895190" wikidataID="Q11895190" >
-    <synonym xml:lang="de">Dichasium</synonym>
+  <entry description="a cymose inflorescence in which each branch bearing a flower gives rise to two other flowering branches, as in the stitchwort" name="dichasium" term="dichasium" wikidataURL="http://www.wikidata.org/entity/Q11895190" wikidataID="Q11895190" >
+    <synonym xml:lang="de">dichasium</synonym>
   </entry>
   <entry description="Plant cell, usually two in number, in the micropylar end of the embryo sac of angiosperms associated with the egg in the egg apparatus" name="synergid" term="synergid" wikidataURL="http://www.wikidata.org/entity/Q12057965" wikidataID="Q12057965" >
   </entry>
@@ -908,6 +878,6 @@
   </entry>
   <entry description="The secondary axis of a branched inflorescence" name="rachilla" term="rachilla" wikidataURL="http://www.wikidata.org/entity/Q46723512" wikidataID="Q46723512" >
   </entry>
-  <entry description="The sac-like or scale-like structure that encloses the ovary in Carex" name="Perigynium" term="Perigynium" wikidataURL="http://www.wikidata.org/entity/Q65089222" wikidataID="Q65089222"  wikipediaPage="https://en.wikipedia.org/wiki/Perigynium">
+  <entry description="The sac-like or scale-like structure that encloses the ovary in Carex" name="perigynium" term="perigynium" wikidataURL="http://www.wikidata.org/entity/Q65089222" wikidataID="Q65089222"  wikipediaPage="https://en.wikipedia.org/wiki/Perigynium">
   </entry>
 </dictionary>
