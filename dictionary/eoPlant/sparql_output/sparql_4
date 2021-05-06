@@ -7,9 +7,59 @@
 		<variable name='taxon_range_map_image'/>
 		<variable name='image_link'/>
 		<variable name='wikipedia'/>
-		<variable name='synonym'/>
 	</head>
 	<results>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Persea americana</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q37153</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Avocado</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>酪梨, hedelmäavokado, Avocado</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Persea%20americana%20fruit%202.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Persea-americana%202.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pimpinella anisum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q28692</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anise</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Anis vert, anisruoho, anise burnet saxifrage, bedrník anýz, Anijs, anís, Anis</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Koehler1887-PimpinellaAnisum.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ocimum basilicum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q38859</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Basil</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>零陵香, 灰羅勒, sweet basil, bazalka vonná, 羅勒, Basilicum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Basil-Basilico-Ocimum%20basilicum-albahaca.jpg</literal>
+			</binding>
+		</result>
 		<result>
 			<binding name='Commons_category'>
 				<literal>Nasturtium officinale</literal>
@@ -21,7 +71,7 @@
 				<uri>https://en.wikipedia.org/wiki/Watercress</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Creixen, წყლის წიწმატი, ミズガラシ, クレソン, オランダガラシ, Vætukarsi, Kreso, Selada air, Orvosi vízitorma, Kreson frans, Lěkarska ropucha, Krěz, Dragušac, גרגר הנחלים, גרגיר הנחלים, Burley, Agrón, Biolar, Biolar uisce, Cresson officinal, Cresson des fontaines, Cresson de Fontaine, Cresson de fontaine, Isovesikrassi, isovesikrassi, علف چشمه, شاهی آبی, ابتره, اب تره, آبتره, آب تره, Ur-berro, Iturri-belar, Ürt-allikkerss, mastuerzo de agua, berro de agua, Akvokreso, watercress, Water-cress, Gemeine Brunnenkresse, Echte Brunnenkresse, Brunnenkresse, Bachkresse, Tykskulpet Brøndkarse, potočnice lékařská, Créixens, Adi acıqıjı, جرجير الماء, Berro, Berro, بولاغ اوتی, 西洋菜, 西洋菜, 西洋菜, 豆瓣菜, 西洋菜, 水蔊菜, 水芹菜, 水芥菜, 水芥, 水田芥菜, 水田芥, 水甕菜, 西洋菜, Cải xoong, Настурція лікарська, Su teresi, Vattenkrasse, Källkrasse, Källfräne, Navadna vodna kreša, potočnica lekárska, Kerse, Кресс водяной, Жеруха обыкновенная, Жеруха лекарственная, Жеруха аптечная, Водяной кресс, Năsturel, Ch'inkil, Rukiew wodna, Witte waterkers, सिमसाग, Brønnkarse, поточарка, Anandrano, Paprastasis rėžiukas, Tûzik, تووزک, Tûzik</literal>
+				<literal>Krěz, Dragušac, גרגר הנחלים, גרגיר הנחלים, Burley, Agrón, Biolar, Biolar uisce, Cresson officinal, Cresson des fontaines, Cresson de Fontaine, Cresson de fontaine, Isovesikrassi, isovesikrassi, علف چشمه, شاهی آبی, ابتره, اب تره, آبتره, آب تره, Ur-berro, Iturri-belar, Ürt-allikkerss, mastuerzo de agua, berro de agua, Akvokreso, watercress, Water-cress, Gemeine Brunnenkresse, Echte Brunnenkresse, Brunnenkresse, Bachkresse, Tykskulpet Brøndkarse, potočnice lékařská, Créixens, Adi acıqıjı, جرجير الماء, Berro, Berro, بولاغ اوتی, 西洋菜, 西洋菜, 西洋菜, 豆瓣菜, 西洋菜, 水蔊菜, 水芹菜, 水芥菜, 水芥, 水田芥菜, 水田芥, 水甕菜, 西洋菜, Cải xoong, Настурція лікарська, Su teresi, Vattenkrasse, Källkrasse, Källfräne, Navadna vodna kreša, potočnica lekárska, Kerse, Кресс водяной, Жеруха обыкновенная, Жеруха лекарственная, Жеруха аптечная, Водяной кресс, Năsturel, Ch'inkil, Rukiew wodna, Witte waterkers, सिमसाग, Brønnkarse, поточарка, Anandrano, Paprastasis rėžiukas, Tûzik, تووزک, Tûzik, Creixen, წყლის წიწმატი, ミズガラシ, クレソン, オランダガラシ, Vætukarsi, Kreso, Selada air, Orvosi vízitorma, Kreson frans, Lěkarska ropucha</literal>
 			</binding>
 			<binding name='image_link'>
 				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Watercress%20%282%29.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Nasturtium%20officinale0.jpg</literal>
@@ -63,73 +113,70 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Ricinus communis</literal>
+				<literal>Pogostemon cablin</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q155867</uri>
+				<uri>http://www.wikidata.org/entity/Q257757</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ricinus</uri>
+				<uri>https://en.wikipedia.org/wiki/Patchouli</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Wunderbaum, trogenllys, Skočec obecný, Ricí, Рицин, Gənəgərçək, خروع, Ricino, Ricino, Клещевина, Mamona, 蓖麻, Thầu dầu, Рицина, Kene otu, Hint yağı bitkisi, Lepo, ఆముదము, ஆமணக்கு மரம், Ricin (växt), Ricín obyčajný, එඬරු, Ikibonobono (Ricinus), клещевина, Ricin, mamoneira, carrapato, carrapateira, Rącznik pospolity, Wonderboom, Pokok Jarak, एरंड, ആവണക്ക്, Paprastasis ricinmedis, Kerçik, 피마자, Mwarĩki, Mũbarĩki, აბუსალათინი, トウゴマ, Jarak (tumbuhan), Maskreti, Wšědny ricinus, अरण्डी, קיקיון מצוי, Zirman, Ricin commun, Risiini, risiini, Ricino, (Ordinara) ricino, castorbean, Castor oil plant, castor bean</literal>
+				<literal>到手香, patchouli</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Ricinus%20communis0.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Ricinus%20communis%20%28castor%20oil%20plant%29%20at%20Bandlaguda%20002.JPG</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/2006castor%20oil%20seed.PNG</uri>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pogostemon%20cablin%20001.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Nigella damascena</literal>
+				<literal>Ridolfia segetum</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q158338</uri>
+				<uri>http://www.wikidata.org/entity/Q310463</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Nigella_damascena</uri>
+				<uri>https://en.wikipedia.org/wiki/Ridolfia</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Şam çörek otu, Jungfrun i det gröna, Чернушка дамасская, Juffertje-in-het-groen, scapigilate, damigella, anigella, török katicavirág, török kandilla, Borzaskata, Nigelle de Damas, cheveux de Vénus, barbiche, Tarhaneito, tarhaneito, love-in-a-mist, love in a mist, Devil-in-the-bush, devil in the bush, Jungfer im Grünen, Damaszener Schwarzkümmel, černucha damašská</literal>
+				<literal>ffenigl ffug</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20damascena%20Kaldari%2001.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20damascena-white2.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ridolfia%20segetum%201.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Persea americana</literal>
+				<literal>Plectranthus barbatus</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q37153</uri>
+				<uri>http://www.wikidata.org/entity/Q311226</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Avocado</uri>
+				<uri>https://en.wikipedia.org/wiki/Coleus_barbatus</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>酪梨, hedelmäavokado, Avocado</literal>
+				<literal>forskohlii</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Persea%20americana%20fruit%202.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Persea-americana%202.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Plectranthus%20barbatus.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Pimpinella anisum</literal>
+				<literal>Peucedanum officinale</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q28692</uri>
+				<uri>http://www.wikidata.org/entity/Q459253</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Anise</uri>
+				<uri>https://en.wikipedia.org/wiki/Peucedanum_officinale</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Anis vert, anisruoho, anise burnet saxifrage, bedrník anýz, Anijs, anís, Anis</literal>
+				<literal>Varkensvenkel, hog's-fennel, Echter Haarstrang, smldník lékařský</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Koehler1887-PimpinellaAnisum.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Peucedanum%20officinale%20%27hogs%20fennel%27%202007-06-02.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -147,108 +194,6 @@
 			</binding>
 			<binding name='image_link'>
 				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Bacuri%20Platonia%20insignis%203.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Bacuri%20Platonia%20insignis%201.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ocimum tenuiflorum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q960124</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ocimum_tenuiflorum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>holy basil</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ocimum%20tenuiflorum2.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Paeonia emodi</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1023699</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Paeonia_emodi</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Näckrospion</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Paeonia%20emodi1UME.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Myrciaria dubia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1031775</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Myrciaria_dubia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Camu-Camu, Camu-Camu</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Camu-camu.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Vanda falcata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1037607</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Vanda_falcata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>風蘭, Неофинетия серповидная, 풍란, フウラン, Неофинетия фалката</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vanda%20falcata.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pulicaria dysenterica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q743794</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pulicaria_dysenterica</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Heelblaadjes, heelblaadjes, pulicaire dysentérique, vanukirppuruoho, meadow false fleabane, Großes Flohkraut, blešník úplavičný, Ruhrwurz, common fleabane</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pulicaria%20dysenterica%20compressed.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Porophyllum ruderale</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q891381</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Porophyllum_ruderale</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>yerba porosa</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Quirquina%20mature1.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -332,285 +277,36 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Pentaceras australe</literal>
+				<literal>Pulicaria dysenterica</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q18080592</uri>
+				<uri>http://www.wikidata.org/entity/Q743794</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pentaceras</uri>
+				<uri>https://en.wikipedia.org/wiki/Pulicaria_dysenterica</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal></literal>
+				<literal>Heelblaadjes, heelblaadjes, pulicaire dysentérique, vanukirppuruoho, meadow false fleabane, Großes Flohkraut, blešník úplavičný, Ruhrwurz, common fleabane</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pentaceras%20australe%20RBG%20Sydney.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pulicaria%20dysenterica%20compressed.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Potentilla grandiflora</literal>
+				<literal>Porophyllum ruderale</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q21877141</uri>
+				<uri>http://www.wikidata.org/entity/Q891381</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Potentilla_grandiflora</uri>
+				<uri>https://en.wikipedia.org/wiki/Porophyllum_ruderale</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal></literal>
+				<literal>yerba porosa</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Potentilla%20grandiflora.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pimpinella saxifraga</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1473991</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pimpinella_saxifraga</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>burnet saxifrage, Бядрынец, Pfefferkraut, Бедринець ломикаменевий, Vanlig Bockrot, Bockrot, Backanis, bedrovník lomikameňový, Бедренец-камнеломка, Бедренец камнеломковый, Бедренец камнеломка, Biedrzeniec mniejszy, Gjeldkarve, Kleine bevernel, kleine bevernel, Mažoji ožiažolė, გვერდელა, گیجاواش, Petit boucage, petit boucage, pukinjuuri, Ahopukinjuuri, ahopukinjuuri, گیجاواش, Gaitun harrautsi, Harilik näär, Pimpinela blanca, solidstem burnet saxifrage, burnet-saxifrage, Steinpetersilie, Steinbrechwurz, Stein-Bibernelle, Kleine Bibernelle, Gemeine Bibernelle, Bumbernell, Bockwurz, Almindelig Pimpinelle, gwreiddiriog, Кушак кĕпçи, bedrník obecný, Бядрынец каменяломкавы, Бядрынец каменаломнікавы, Кәзә һаҡалы, Yabanı cirəgülü</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pimpinella%20saxifraga%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-241.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1606492</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Persea_schiedeana</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>coyó, chinini, coyo avocado, coyo</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Persea%20schiedeana%20J%20bost%202014.png</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1745164</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Origanum_onites</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>pot marjoram</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20onites%20%27Aurea%27%20kz02.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pistacia atlantica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1788810</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pistacia_atlantica</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Mt. Atlas mastic tree</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20atlantica%20%28Ein%20Ovdat%29.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Oenanthe crocata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1818309</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Oenanthe_crocata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>dodemansvingers, oenanthe safrané, hemlock water-dropwort, Safranwasserfenchel, cegiden y dŵr, Dodemansvingers</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe%20crocata1.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe%20crocata%20002.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pourouma cecropiifolia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2024176</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pourouma_cecropiifolia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pourouma%20cecropiifolia.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Perilla frutescens</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1076038</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Perilla_frutescens</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>荏, 紫蘇, 紫苏, 白苏, 白紫苏, 野荏, 荏子, 白蘇, 水荏, 들깨, エゴマ, Korean perilla, perilla</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Perilla%20frutescens%20in%20Gimpo.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Myrrhis odorata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1137175</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cicely</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Misk Maydanozu, Spansk Körvel, marchewnik anyżowy, Roomse kervel, roomse kervel, Spansk Kjørvel, Garduoklė, Mirride Odorosa, Gros Persil, Fougère Musquée, Cerfeuil Perpétuel, Cerfeuil Musqué, cerfeuil musqué, Cerfeuil d'Espagne, Saksankirveli, saksankirveli, Perifollo Oloroso, Sweet Cicely, sweet cicely, Garden Myrrh, anise, Süßdolde, Süssdolde, Myrrhenkerbel, Echte Süßdolde, čechřice vonná, Mirr, Finocchiella, Cicely</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Myrrhis%20odorata0.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Osmanthus fragrans</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1209922</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Osmanthus_fragrans</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>桂花，木犀, 桂花, 목서, モクセイ, Olivier odorant, Olivier de Chine, Tea Olive, Sweet Osmanthus, sweet osmanthus, Sweet Olive, Fragrant Olive, Süße Duftblüte</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Osmanthus%20fragrans%20%28orange%20flowers%29.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Origanum dictamnus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1227336</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Origanum_dictamnus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Dittany of Crete</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20dictamnus%20%28cropped%29.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Phlomis fruticosa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1322796</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Phlomis_fruticosa</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Sauge de Jérusalem, Pensaspaloyrtti, shrubby Jerusalem sage, saets Caersalem</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/0%20Phlomis%20fruticosa%20-%20Samo%C3%ABns%20%282%29.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Nepeta racemosa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2319755</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Nepeta_racemosa</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Blauw kattenkruid, katinminttu, raceme catnip, šanta hroznovitá</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nepeta%20mussinii4.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ocimum gratissimum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2355390</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ocimum_gratissimum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>美羅勒, 印度零陵香, African basil</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20030202-0053%20Ocimum%20gratissimum.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Plectranthus amboinicus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2359202</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Coleus_amboinicus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Mexican mint, 到手香</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/IndianBorage.jpeg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Myrciaria floribunda</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2464662</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Myrciaria_floribunda</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>guavaberry</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Guavaberry.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Quirquina%20mature1.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -679,6 +375,74 @@
 			</binding>
 			<binding name='image_link'>
 				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pinus%20caribaea%2C%20Candelaria%2C%20Pinar%20del%20R%C3%ADo%2C%20Cuba%202.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Pinus%20caribaea%2C%20Candelaria%2C%20Pinar%20del%20R%C3%ADo%2C%20Cuba%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Nepeta racemosa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2319755</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Nepeta_racemosa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Blauw kattenkruid, katinminttu, raceme catnip, šanta hroznovitá</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nepeta%20mussinii4.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ocimum gratissimum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2355390</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ocimum_gratissimum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>美羅勒, 印度零陵香, African basil</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20030202-0053%20Ocimum%20gratissimum.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Plectranthus amboinicus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2359202</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Coleus_amboinicus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Mexican mint, 到手香</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/IndianBorage.jpeg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Myrciaria floribunda</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2464662</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Myrciaria_floribunda</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>guavaberry</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Guavaberry.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1053,36 +817,390 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Piper nigrum</literal>
+				<literal>Pimpinella saxifraga</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q43084</uri>
+				<uri>http://www.wikidata.org/entity/Q1473991</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Black_pepper</uri>
+				<uri>https://en.wikipedia.org/wiki/Pimpinella_saxifraga</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>black pepper</literal>
+				<literal>Bockwurz, Almindelig Pimpinelle, gwreiddiriog, Кушак кĕпçи, bedrník obecný, Бядрынец каменяломкавы, Бядрынец каменаломнікавы, Кәзә һаҡалы, Yabanı cirəgülü, burnet saxifrage, Бядрынец, Pfefferkraut, Бедринець ломикаменевий, Vanlig Bockrot, Bockrot, Backanis, bedrovník lomikameňový, Бедренец-камнеломка, Бедренец камнеломковый, Бедренец камнеломка, Biedrzeniec mniejszy, Gjeldkarve, Kleine bevernel, kleine bevernel, Mažoji ožiažolė, გვერდელა, گیجاواش, Petit boucage, petit boucage, pukinjuuri, Ahopukinjuuri, ahopukinjuuri, گیجاواش, Gaitun harrautsi, Harilik näär, Pimpinela blanca, solidstem burnet saxifrage, burnet-saxifrage, Steinpetersilie, Steinbrechwurz, Stein-Bibernelle, Kleine Bibernelle, Gemeine Bibernelle, Bumbernell</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20nigrum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-107.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20nigrum%20dsc00198.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pimpinella%20saxifraga%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-241.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1606492</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Persea_schiedeana</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>coyó, chinini, coyo avocado, coyo</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Persea%20schiedeana%20J%20bost%202014.png</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1745164</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Origanum_onites</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>pot marjoram</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20onites%20%27Aurea%27%20kz02.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Rubus ulmifolius</literal>
+				<literal>Pistacia atlantica</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q59843</uri>
+				<uri>http://www.wikidata.org/entity/Q1788810</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Rubus_ulmifolius</uri>
+				<uri>https://en.wikipedia.org/wiki/Pistacia_atlantica</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Ronce à feuilles d'Orme, elmleaf blackberry, Mittelmeer-Brombeere, ostružiník středozemský</literal>
+				<literal>Mt. Atlas mastic tree</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Esbarzer.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Blackberries%20Rubus%20ulmifolius2.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20atlantica%20%28Ein%20Ovdat%29.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Oenanthe crocata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1818309</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Oenanthe_crocata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>dodemansvingers, oenanthe safrané, hemlock water-dropwort, Safranwasserfenchel, cegiden y dŵr, Dodemansvingers</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe%20crocata1.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe%20crocata%20002.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pourouma cecropiifolia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2024176</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pourouma_cecropiifolia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pourouma%20cecropiifolia.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ocimum tenuiflorum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q960124</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ocimum_tenuiflorum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>holy basil</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ocimum%20tenuiflorum2.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Paeonia emodi</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1023699</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Paeonia_emodi</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Näckrospion</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Paeonia%20emodi1UME.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Myrciaria dubia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1031775</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Myrciaria_dubia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Camu-Camu, Camu-Camu</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Camu-camu.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Vanda falcata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1037607</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Vanda_falcata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>風蘭, Неофинетия серповидная, 풍란, フウラン, Неофинетия фалката</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vanda%20falcata.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Perilla frutescens</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1076038</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Perilla_frutescens</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>白苏, 白紫苏, 野荏, 荏子, 白蘇, 水荏, 들깨, エゴマ, Korean perilla, perilla, 荏, 紫蘇, 紫苏</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Perilla%20frutescens%20in%20Gimpo.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Myrrhis odorata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1137175</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cicely</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Misk Maydanozu, Spansk Körvel, marchewnik anyżowy, Roomse kervel, roomse kervel, Spansk Kjørvel, Garduoklė, Mirride Odorosa, Gros Persil, Fougère Musquée, Cerfeuil Perpétuel, Cerfeuil Musqué, cerfeuil musqué, Cerfeuil d'Espagne, Saksankirveli, saksankirveli, Perifollo Oloroso, Sweet Cicely, sweet cicely, Garden Myrrh, anise, Süßdolde, Süssdolde, Myrrhenkerbel, Echte Süßdolde, čechřice vonná, Mirr, Finocchiella, Cicely</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Myrrhis%20odorata0.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Osmanthus fragrans</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1209922</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Osmanthus_fragrans</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>桂花，木犀, 桂花, 목서, モクセイ, Olivier odorant, Olivier de Chine, Tea Olive, Sweet Osmanthus, sweet osmanthus, Sweet Olive, Fragrant Olive, Süße Duftblüte</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Osmanthus%20fragrans%20%28orange%20flowers%29.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Origanum dictamnus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1227336</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Origanum_dictamnus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Dittany of Crete</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20dictamnus%20%28cropped%29.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Phlomis fruticosa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1322796</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Phlomis_fruticosa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Sauge de Jérusalem, Pensaspaloyrtti, shrubby Jerusalem sage, saets Caersalem</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/0%20Phlomis%20fruticosa%20-%20Samo%C3%ABns%20%282%29.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ricinus communis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q155867</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ricinus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>蓖麻, Thầu dầu, Рицина, Kene otu, Hint yağı bitkisi, Lepo, ఆముదము, ஆமணக்கு மரம், Ricin (växt), Ricín obyčajný, එඬරු, Ikibonobono (Ricinus), клещевина, Ricin, mamoneira, carrapato, carrapateira, Rącznik pospolity, Wonderboom, Pokok Jarak, एरंड, ആവണക്ക്, Paprastasis ricinmedis, Kerçik, 피마자, Mwarĩki, Mũbarĩki, აბუსალათინი, トウゴマ, Jarak (tumbuhan), Maskreti, Wšědny ricinus, अरण्डी, קיקיון מצוי, Zirman, Ricin commun, Risiini, risiini, Ricino, (Ordinara) ricino, castorbean, Castor oil plant, castor bean, Wunderbaum, trogenllys, Skočec obecný, Ricí, Рицин, Gənəgərçək, خروع, Ricino, Ricino, Клещевина, Mamona</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ricinus%20communis%20%28castor%20oil%20plant%29%20at%20Bandlaguda%20002.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Ricinus%20communis0.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/2006castor%20oil%20seed.PNG</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pistacia lentiscus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q159812</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pistacia_lentiscus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Mastixstrauch, řečík lentišek, Мастиково дърво, Sakız ağacı, Mastika, Mastiekboom, Lentisco, Mastiksipistaasi, mata charneca, lentisco, entina, Mastic Tree, mastic tree, Lentisk, μαστιχόδεντρο</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20lentiscus%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-110.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20lentiscus.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Nigella sativa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q160575</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Nigella_sativa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>کلونجی, çörek otu, Svartkummin, Чурукот, Černuška siata, Чернушка посевная, Czarnuszka siewna, Zwarte komijn, Sējas melnsēklīte, Sėjamoji juodgrūdė, Jintan hitam, Sywna čornucha, קצח תרבותי, Nigelle cultivée, Ryytineito, ryytineito, سیاهدانه, sema nigelo, black onion seed, ކަޅު ދިރި, Echter Schwarzkümmel, Černucha setá, Pebreta, Čurekot, Çörəkotu, حبة البركة, black cumin, black caraway</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nsativa001Wien.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20sativa%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-227.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Nepeta cataria</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q161139</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Catnip</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Nezle otu, Kedi nanesi, Kattmynta, кошачья мята, Котовник кошачий, wilde kattenkruid, Wild kattenkruid, wild kattenkruid, Paprastoji katžolė, 개박하, herbe aux chats, Cataire, Aitokissanminttu, aitokissanminttu, Harilik naistenõges, katminto, katherbo, or catmint, catswort, Catnip, catnip, Echte Katzenminze, šanta kočičí</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nepeta%20cataria%20Sturm24.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Catnip%20flowers.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Nigella damascena</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q158338</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Nigella_damascena</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Şam çörek otu, Jungfrun i det gröna, Чернушка дамасская, Juffertje-in-het-groen, scapigilate, damigella, anigella, török katicavirág, török kandilla, Borzaskata, Nigelle de Damas, cheveux de Vénus, barbiche, Tarhaneito, tarhaneito, love-in-a-mist, love in a mist, Devil-in-the-bush, devil in the bush, Jungfer im Grünen, Damaszener Schwarzkümmel, černucha damašská</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20damascena%20Kaldari%2001.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20damascena-white2.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pimenta dioica</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q158468</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pimenta_dioica</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Sipaisi, Pepe della Giamaica, tout-épice, myrte-piment, Grand piment, pimienta de Jamaica, Jamaican pepper, Allgewürz, malaguette, Kryddpeppar, Maustepippuri, Allspice, allspice, Piment, Nelkenpfeffer, Yenibahar, Malagueta</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pimenta%20dioica%20dsc07807.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia aethiopis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q159131</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_aethiopis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Magyar zsálya, Mediterranean sage, šalvěj etiopská</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salviaaethiopis.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Monarda citriodora</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q159776</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Monarda_citriodora</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Sitruunaväriminttu, lemon beebalm, Zitronen-Monarde, Lemon mint</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Monarda%20citriodora.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1936,87 +2054,468 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Pimenta dioica</literal>
+				<literal>Pittosporum tobira</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q158468</uri>
+				<uri>http://www.wikidata.org/entity/Q161375</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pimenta_dioica</uri>
+				<uri>https://en.wikipedia.org/wiki/Pittosporum_tobira</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Sipaisi, Pepe della Giamaica, tout-épice, myrte-piment, Grand piment, pimienta de Jamaica, Jamaican pepper, Allgewürz, malaguette, Kryddpeppar, Maustepippuri, Allspice, allspice, Piment, Nelkenpfeffer, Yenibahar, Malagueta</literal>
+				<literal>海桐, Japanese cheesewood</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pimenta%20dioica%20dsc07807.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pittosporum%20Tobira%20JPG0.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Salvia aethiopis</literal>
+				<literal>Ozothamnus diosmifolius</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q159131</uri>
+				<uri>http://www.wikidata.org/entity/Q7116665</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_aethiopis</uri>
+				<uri>https://en.wikipedia.org/wiki/Ozothamnus_diosmifolius</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Magyar zsálya, Mediterranean sage, šalvěj etiopská</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salviaaethiopis.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ozthamn.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Monarda citriodora</literal>
+				<literal>Piper chaba</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q159776</uri>
+				<uri>http://www.wikidata.org/entity/Q7197320</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Monarda_citriodora</uri>
+				<uri>https://en.wikipedia.org/wiki/Piper_chaba</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Sitruunaväriminttu, lemon beebalm, Zitronen-Monarde, Lemon mint</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Monarda%20citriodora.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20chaba%20BotGardBln1105Z.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7205210</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pluchea_purpurascens</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Pistacia lentiscus</literal>
+				<literal>Myrcianthes coquimbensis</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q159812</uri>
+				<uri>http://www.wikidata.org/entity/Q9047577</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pistacia_lentiscus</uri>
+				<uri>https://en.wikipedia.org/wiki/Myrcianthes_coquimbensis</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Sakız ağacı, Mastika, Mastiekboom, Lentisco, Mastiksipistaasi, mata charneca, lentisco, entina, Mastic Tree, mastic tree, Lentisk, μαστιχόδεντρο, Mastixstrauch, řečík lentišek, Мастиково дърво</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20lentiscus%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-110.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Pistacia%20lentiscus.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Myrcianthes%20coquimbensis.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Nigella sativa</literal>
+				<literal>Rosmarinus eriocalix</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q160575</uri>
+				<uri>http://www.wikidata.org/entity/Q9070818</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Nigella_sativa</uri>
+				<uri>https://en.wikipedia.org/wiki/Salvia_jordanii</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>کلونجی, çörek otu, Svartkummin, Чурукот, Černuška siata, Чернушка посевная, Czarnuszka siewna, Zwarte komijn, Sējas melnsēklīte, Sėjamoji juodgrūdė, Jintan hitam, Sywna čornucha, קצח תרבותי, Nigelle cultivée, Ryytineito, ryytineito, سیاهدانه, sema nigelo, black onion seed, ކަޅު ދިރި, Echter Schwarzkümmel, Černucha setá, Pebreta, Čurekot, Çörəkotu, حبة البركة, black cumin, black caraway</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nsativa001Wien.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Nigella%20sativa%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-227.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Rosmarinus%20eriocalyx3.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Rosmarinus%20eriocalix.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Rosa abyssinica</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q9325796</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Rosa_abyssinica</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Rosa%20abyssinica%20%282167710243%29.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ocimum minimum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q10323720</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ocimum_minimum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Väike basiilik</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Bush%20basil%20AKA%20manjerico.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q10355301</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Psidium_sartorianum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Minthostachys mollis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q10752270</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Minthostachys_mollis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mu%C3%B1a.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Polygala paniculata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q10926678</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Polygala_paniculata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>圓錐花遠志, orosne</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070306-5117%20Polygala%20paniculata.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q11179121</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Prunus_phaeosticta</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>黑星櫻, 腺葉桂櫻, 墨點櫻桃</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Origanum libanoticum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q12242096</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Origanum_libanoticum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20libanoticum%202.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q12242097</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Origanum_cordifolium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q13861083</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Neolitsea_dealbata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Neolitsea%20dealbata.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Plectranthus neochilus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15351462</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Coleus_neochilus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Gardenology.org-IMG%203003%20rbgs11jan.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15352220</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Phlomis_bourgaei</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Phlomis%20bourgaei-Clapiers-7645~2020%2003%2027.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Prostanthera staurophylla</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15355282</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Prostanthera_staurophylla</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Prostanthera%20staurophyllaDistA92.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15376795</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Myrciaria_tenella</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15377161</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pimenta_pseudocaryophyllus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15381387</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Myrcianthes_fragrans</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>twinberry</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mycianthes%20fragans%20tree.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15477043</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Psorothamnus_scoparius</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>broom dalea</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Portlandia coccinea</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15488778</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Portlandia_coccinea</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Portlandia%20coccinea%20-%20Naples%20Botanical%20Garden%20-%20Naples%2C%20Florida%20-%20DSC00092.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pittosporum viridiflorum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15590374</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pittosporum_viridiflorum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Cape cheesewood</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070404-6713%20Pittosporum%20viridiflorum.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Piper capense</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15596744</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Piper_capense</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20capense%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Pentaceras australe</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18080592</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pentaceras</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pentaceras%20australe%20RBG%20Sydney.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Potentilla grandiflora</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q21877141</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Potentilla_grandiflora</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Potentilla%20grandiflora.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Piper nigrum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q43084</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Black_pepper</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>black pepper</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20nigrum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-107.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20nigrum%20dsc00198.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Rubus ulmifolius</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q59843</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Rubus_ulmifolius</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Ronce à feuilles d'Orme, elmleaf blackberry, Mittelmeer-Brombeere, ostružiník středozemský</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Esbarzer.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Blackberries%20Rubus%20ulmifolius2.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -2859,506 +3358,6 @@
 			</binding>
 			<binding name='image_link'>
 				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Nepeta cataria</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q161139</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Catnip</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Nezle otu, Kedi nanesi, Kattmynta, кошачья мята, Котовник кошачий, wilde kattenkruid, Wild kattenkruid, wild kattenkruid, Paprastoji katžolė, 개박하, herbe aux chats, Cataire, Aitokissanminttu, aitokissanminttu, Harilik naistenõges, katminto, katherbo, or catmint, catswort, Catnip, catnip, Echte Katzenminze, šanta kočičí</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nepeta%20cataria%20Sturm24.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Catnip%20flowers.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pittosporum tobira</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q161375</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pittosporum_tobira</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>海桐, Japanese cheesewood</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pittosporum%20Tobira%20JPG0.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pogostemon cablin</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q257757</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Patchouli</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>到手香, patchouli</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pogostemon%20cablin%20001.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ridolfia segetum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q310463</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ridolfia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>ffenigl ffug</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ridolfia%20segetum%201.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Plectranthus barbatus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q311226</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Coleus_barbatus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>forskohlii</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Plectranthus%20barbatus.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Peucedanum officinale</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q459253</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Peucedanum_officinale</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Varkensvenkel, hog's-fennel, Echter Haarstrang, smldník lékařský</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Peucedanum%20officinale%20%27hogs%20fennel%27%202007-06-02.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ozothamnus diosmifolius</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q7116665</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ozothamnus_diosmifolius</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ozthamn.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Piper chaba</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q7197320</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Piper_chaba</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20chaba%20BotGardBln1105Z.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q7205210</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pluchea_purpurascens</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Myrcianthes coquimbensis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q9047577</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Myrcianthes_coquimbensis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Myrcianthes%20coquimbensis.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Rosmarinus eriocalix</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q9070818</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_jordanii</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Rosmarinus%20eriocalyx3.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Rosmarinus%20eriocalix.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Rosa abyssinica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q9325796</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Rosa_abyssinica</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Rosa%20abyssinica%20%282167710243%29.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ocimum minimum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q10323720</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ocimum_minimum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Väike basiilik</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Bush%20basil%20AKA%20manjerico.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q10355301</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Psidium_sartorianum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Minthostachys mollis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q10752270</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Minthostachys_mollis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mu%C3%B1a.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Polygala paniculata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q10926678</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Polygala_paniculata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>圓錐花遠志, orosne</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070306-5117%20Polygala%20paniculata.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q11179121</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Prunus_phaeosticta</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>黑星櫻, 腺葉桂櫻, 墨點櫻桃</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Origanum libanoticum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q12242096</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Origanum_libanoticum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Origanum%20libanoticum%202.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q12242097</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Origanum_cordifolium</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q13861083</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Neolitsea_dealbata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Neolitsea%20dealbata.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Plectranthus neochilus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15351462</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Coleus_neochilus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Gardenology.org-IMG%203003%20rbgs11jan.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15352220</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Phlomis_bourgaei</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Phlomis%20bourgaei-Clapiers-7645~2020%2003%2027.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Prostanthera staurophylla</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15355282</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Prostanthera_staurophylla</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Prostanthera%20staurophyllaDistA92.png</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15376795</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Myrciaria_tenella</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15377161</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pimenta_pseudocaryophyllus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15381387</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Myrcianthes_fragrans</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>twinberry</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mycianthes%20fragans%20tree.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15477043</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Psorothamnus_scoparius</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>broom dalea</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Portlandia coccinea</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15488778</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Portlandia_coccinea</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Portlandia%20coccinea%20-%20Naples%20Botanical%20Garden%20-%20Naples%2C%20Florida%20-%20DSC00092.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Pittosporum viridiflorum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15590374</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Pittosporum_viridiflorum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Cape cheesewood</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070404-6713%20Pittosporum%20viridiflorum.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Piper capense</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15596744</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Piper_capense</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Piper%20capense%201.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ocimum basilicum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q38859</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Basil</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>零陵香, 灰羅勒, sweet basil, bazalka vonná, 羅勒, Basilicum</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Basil-Basilico-Ocimum%20basilicum-albahaca.jpg</literal>
 			</binding>
 		</result>
 	</results>
