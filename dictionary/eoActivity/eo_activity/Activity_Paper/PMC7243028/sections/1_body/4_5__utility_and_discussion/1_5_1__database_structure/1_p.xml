@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>Based on the primary fields, UNaProd database contained 1741 drug monographs which increased to 2696 by manually creating the secondary tuples. In addition to “Identity,” “
- <italic>Mizaj</italic>,” “ActionsandMedicinalUses,” “Dosage,” “AdverseEffects,” “Refinements,” “Substitute,” and “Expression,” which constitute the primary fields of the database extracted from the text of 
- <italic>Makhzan al-Advieh</italic>, three fields including two columns of scientific names, a column of common name, were extracted from resources other than the text. An origin was ascribed to each drug based on the identity text fields (
- <xref ref-type="fig" rid="fig1">Figure 1</xref>). 
- <italic>Mizaj</italic> types and degrees of drug monographs were extracted using IrGo database and stored in a separate “DrugMizaj” table. Furthermore, synonyms mentioned by other scholars or translations were extracted from the “Expression” and “Identity” fields and stored in a separate “Synonyms” table. The diagram of the resultant database was depicted in Supplementary 
- <xref ref-type="supplementary-material" rid="supplementary-material-1">file 1</xref>.
-</p>

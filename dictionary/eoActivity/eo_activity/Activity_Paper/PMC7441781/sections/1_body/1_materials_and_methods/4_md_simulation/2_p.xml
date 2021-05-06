@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The stability of the docked 
- <bold>A38/5R82</bold> complex was investigated by performing a 100 ns MD (Guo et al., 
- <xref rid="CIT0012" ref-type="bibr">2010</xref>) simulation study. The complex in the explicit solvent system with OPLS3 force field was studied using Desmond module of Schrödinger 2019-4. The molecular system was solvated with crystallographic water (TIP3P) molecules (Jorgensen et al., 
- <xref rid="CIT0017" ref-type="bibr">1983</xref>) under orthorhombic periodic boundary conditions for 10 Å buffer region. The overlapping water molecules are deleted, and the system was neutralized by adding Na
- <sup>+</sup> as counter ions. The total system consists of 39,270 atoms and 11,507 water molecules. An ensemble (NPT) of Nose-Hoover thermostat (Martyna et al., 
- <xref rid="CIT0035" ref-type="bibr">1992</xref>, 
- <xref rid="CIT0036" ref-type="bibr">1994</xref>) and barostat was applied to maintain the constant temperature (300 K) and pressure (1 bar) of the systems, respectively. A hybrid energy minimization algorithm with 1000 steps of steepest descent followed by conjugate gradient algorithms was utilized. Another algorithm, limited memory Broyden-Fletcher-Goldfarb-Shanno (LBFGS) algorithm with convergence threshold gradient of 1 kcal/mol/Å was also employed for energy minimization. A Smooth Particle Mesh Ewald method for calculating long range electrostatic interactions with a cut-off radius of 9 Å for short range van der Waals and Coulomb interactions was used. Multiple time step RESPA integration (reference system propagator algorithms) was used in the dynamics study for bonded, near and far-bonded interactions with 2, 2 and 6 fs, respectively. The data were collected for every 100 ps, and the obtained trajectory was analyzed with Maestro graphical interphase.
-</p>

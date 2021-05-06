@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="para0015">(b) Operational Taxonomic Units (OTUs) analysis: The paired-end raw FASTQ reads generated from Illumina MiSeq platform were filtered using Bowtie 2. Trimmomatic was used to remove sequences with average QV&lt;20 to produce clean reads. Low-quality tails and primers were then trimmed and filtered based on length using Mothur to produce filtered tags. USEARCH was used to remove PCR chimeras to produce effective tags and to construct OTUs at 97% sequence identity.</p>

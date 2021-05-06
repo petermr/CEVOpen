@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>AutoDock Vina [
- <xref rid="B34-molecules-25-03822" ref-type="bibr">34</xref>] was used to perform the molecular docking of energy-minimized 3D structures of ligands with energy-minimized structure of target proteins. Accordingly, the 3D structures of prepared ligands in .pdb format were converted to .pdbqt format using the python script 
- <italic>prepare_ligand4.py</italic> from AutoDockTools [
- <xref rid="B78-molecules-25-03822" ref-type="bibr">78</xref>]. Similarly, the energy-minimized structure of TMPRSS2 and cathepsin L in .pdb format were converted to .pdbqt format using the python script 
- <italic>prepare_receptor4.py</italic> from AutoDockTools [
- <xref rid="B78-molecules-25-03822" ref-type="bibr">78</xref>].
-</p>

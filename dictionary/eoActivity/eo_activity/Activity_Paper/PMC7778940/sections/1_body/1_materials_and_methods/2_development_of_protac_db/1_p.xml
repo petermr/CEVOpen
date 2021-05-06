@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>PROTAC-DB was built using the Python web framework of Tornado (an asynchronous networking library, 
- <ext-link ext-link-type="uri" xlink:href="https://www.tornadoweb.org/en/stable/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.tornadoweb.org/en/stable/</ext-link>) and deployed on a Linux server, accessible at 
- <ext-link ext-link-type="uri" xlink:href="http://cadd.zju.edu.cn/protacdb/" xmlns:xlink="http://www.w3.org/1999/xlink">http://cadd.zju.edu.cn/protacdb/</ext-link>. All the data was stored in PostgreSQL (an object-relational database, 
- <ext-link ext-link-type="uri" xlink:href="https://www.postgresql.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.postgresql.org/</ext-link>). For the visualization of 2D chemical structures, the OpenEye Python toolkits were employed to generate the images of structures. Moreover, ChemDoodle was utilized as the molecule editor, which helps users to query the database with self-edited molecules (
- <xref rid="B26" ref-type="bibr">26</xref>).
-</p>
