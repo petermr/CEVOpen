@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="Par57">Paired-end reads were assigned to samples based on their unique barcode and truncated by cutting off the barcode and primer sequence. The paired-end reads of each sample were spliced using FLASH (V1.2.7) [
- <xref ref-type="bibr" rid="CR66">66</xref>] and then assembled to generate raw tags. To avoid the influence of non-microbiota sequences (such as, chloroplast and mitochondrial sequences), the raw sequences were further filtered by QIIME (V1.9.1) [
- <xref ref-type="bibr" rid="CR67">67</xref>] to remove non-microbiota taxa before subsequent analysis. Then raw tags were subjected to a strict quality filtering process using QIIME to obtain high-quality clean tags [
- <xref ref-type="bibr" rid="CR68">68</xref>]. Effective tags were obtained by comparison of the clean tags sequence with the UCHIME Algorithm [
- <xref ref-type="bibr" rid="CR69">69</xref>] and Gold database to detect and remove chimeric sequences.
-</p>

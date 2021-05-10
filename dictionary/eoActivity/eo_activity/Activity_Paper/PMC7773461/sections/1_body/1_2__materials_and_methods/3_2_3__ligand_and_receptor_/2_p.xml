@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>Ligand structures were obtained from the PubChem site (
- <ext-link ext-link-type="uri" xlink:href="http://pubchem.ncbi.nlm.nih.gov" xmlns:xlink="http://www.w3.org/1999/xlink">http://pubchem.ncbi.nlm.nih.gov</ext-link>). The search was performed by entering the name of the ligand in the search option. Each ligand's file was downloaded and saved. Files in the sdf format were converted to pdb using Open Babel. The pdb format of the ligand was opened using Autodock Tools. Torque adjustment was made by detecting root and adjusting as desired. The file was saved in the pdbqt format. Properties of active compounds were calculated using Lipinski's rule of five calculated on the SWISSADME predictor (
- <ext-link ext-link-type="uri" xlink:href="http://www.swissadme.ch/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.swissadme.ch/</ext-link>) [
- <xref rid="B46" ref-type="bibr">46</xref>].
-</p>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>
- <sup>1</sup>H NMR spectra were processed by binning 0.001 ppm width and normalized by the integration of the peaks separated at 
- <italic>δ</italic> 9.16∼9.25 ppm of the internal standard, methyl 3,5-dinitrobenzoate, by Mnova (ver. 6.0.2, Mestrelab Research, Compostela, Spain) software. The processed NMR spectra were bucketed with more than 3.00 ppm, excluding the residual MeOH at 3.45∼3.51 ppm, methyl 3,5-dinitrobenzoate at 4.05∼4.10 and 9.16∼9.25 ppm, and the residual non-deuterated chloroform signals at 7.24∼7.28 ppm, respectively. The multivariate analyses, PCA and PLS-DA, were performed with 
- <italic>R</italic> package ropls (ver. 1.14.0). The variables of the processed data matrix were scaled to the Pareto scaling method. In PLS-DA model, the R2X, R2Y, and Q2 values were calculated to describe the total variation in 
- <italic>X</italic> and the variation in the response variable Y, and the predictive ability of the models, respectively. The score and loading plots were visualized in the optimal three-dimensional space for identifying differences among groups by 
- <italic>R</italic> package rgl (ver. 0.99.16).
-</p>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>We used a total of 2,882 approved and investigational drugs to train the model and 4,507 natural compounds for testing. To train the model, the output layer needed data indicating the effects of the drugs. As the indication information in DrugBank is described using free text, named entity recognition (NER) was applied to extract disease terms with standard identifiers. We used a Bidirectional Encoder Representations from Transformers (BERT)-based NER tool, known as BERN, to extract the disease terms from the drug indications (
- <xref rid="B47" ref-type="bibr">Kim et al., 2019</xref>; 
- <xref rid="B55" ref-type="bibr">Lee et al., 2019</xref>). The extracted disease terms were mapped to Medical Subject Headings (MeSH) IDs and then converted into class labels (
- <xref rid="B61" ref-type="bibr">Lipscomb, 2000</xref>). For each drug, an average of 2.57 ± 0.11 (confidence interval = 0.95) MeSH IDs were mapped. All the NER results are provided in 
- <xref ref-type="sec" rid="s9">Supplementary Data S2</xref>. In this study, out of a total of 1,607 diseases, 15 disease terms that most frequently appeared in the indication information of drugs were used for predictions. We have provided the runnable source code in 
- <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.fshare.13153184" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.6084/m9.figshare.13153184</ext-link>.
-</p>
