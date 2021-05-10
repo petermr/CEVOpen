@@ -3,6 +3,7 @@
 	<head>
 		<variable name='Commons_category'/>
 		<variable name='item'/>
+		<variable name='GRIN_URL'/>
 		<variable name='taxon'/>
 		<variable name='taxon_range_map_image'/>
 		<variable name='image_link'/>
@@ -11,27 +12,13 @@
 	<results>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Curcuma longa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q42562</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Turmeric</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>鬱金, 郁金, 薑黃, common turmeric</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr-140925-1977-Curcuma%20longa-flowering%20habit-Pali%20o%20Waipio%20Huelo-Maui%20%2825128294462%29.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Curcuma%20longa%20%28Haldi%29%20W%20IMG%202440.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Curcuma%20longa.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
 				<literal>Cymbopogon citratus</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q33913</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12797</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cymbopogon_citratus</uri>
@@ -50,6 +37,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q41611</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=11523</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Coriander</uri>
 			</binding>
@@ -57,7 +47,27 @@
 				<literal>芫荽, Koriander, maustekorianteri, coriander, coriander, koriandr setý</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Coriandrum%20sativum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-193.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/A%20scene%20of%20Coriander%20leaves.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Coriandrum%20sativum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-193.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/A%20scene%20of%20Coriander%20leaves.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Curcuma longa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q42562</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12676</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Turmeric</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>鬱金, 郁金, 薑黃, common turmeric</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr-140925-1977-Curcuma%20longa-flowering%20habit-Pali%20o%20Waipio%20Huelo-Maui%20%2825128294462%29.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Curcuma%20longa%20%28Haldi%29%20W%20IMG%202440.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Curcuma%20longa.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -84,6 +94,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5405566</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15530</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_cladocalyx</uri>
 			</binding>
@@ -91,7 +104,7 @@
 				<literal>sugargum</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20cladocalyx%20leaves%20and%20bark.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20cladocalyx%20%281%29.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20cladocalyx%20leaves%20and%20bark.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20cladocalyx%20%281%29.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
 				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E.%20cladocalyx.JPG</uri>
@@ -103,6 +116,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5405659</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15980</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_orbifolia</uri>
@@ -121,6 +137,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5405682</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16001</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_propinqua</uri>
 			</binding>
@@ -137,6 +156,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5405694</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16003</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_punctata</uri>
@@ -155,6 +177,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5405723</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=405679</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_urophylla</uri>
 			</binding>
@@ -171,6 +196,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5409948</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104218</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eupatorium_capillifolium</uri>
@@ -189,6 +217,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5462023</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104237</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Flourensia_cernua</uri>
 			</binding>
@@ -205,6 +236,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5837281</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15719</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eryngium_pandanifolium</uri>
@@ -237,6 +271,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q782073</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402629</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Melaleuca_alternifolia</uri>
 			</binding>
@@ -244,7 +281,7 @@
 				<literal>澳洲茶樹</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Melaleuca%20alternifolia%20%28Maria%20Serena%29.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Gardenology.org-IMG%202664%20rbgs11jan.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Melaleuca%20alternifolia%20%28Maria%20Serena%29.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Gardenology.org-IMG%202664%20rbgs11jan.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -253,6 +290,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q805037</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=423</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Geranium_macrorrhizum</uri>
@@ -267,6 +307,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q838540</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21413</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Lallemantia_iberica</uri>
@@ -285,6 +328,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q889234</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19571</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Hypericum_hircinum</uri>
 			</binding>
@@ -301,6 +347,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q905916</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21680</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Lavandula_latifolia</uri>
@@ -319,6 +368,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q928175</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15963</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_microtheca</uri>
 			</binding>
@@ -331,10 +383,64 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
+				<literal>Leonotis ocymifolia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15338194</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Leonotis_ocymifolia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Leonotis%20dysophylla%20%288667158793%29.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15341383</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=418366</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mentha_grandiflora</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Micromeria cristata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15343265</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Micromeria_cristata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Micromeria%20cristata%20subsp.%20kosaninii.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
 				<literal>Kaempferia rotunda</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1635447</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=20920</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Kaempferia_rotunda</uri>
@@ -353,6 +459,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1636806</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=27971</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Helichrysum_stoechas</uri>
 			</binding>
@@ -360,7 +469,7 @@
 				<literal>Immortelle jaune, Immortelle commune, yellow amaranth</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Helichrysum%20stoechas%20barrelieri%201.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Helichrysum%20stoechas.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Helichrysum%20stoechas%20barrelieri%201.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Helichrysum%20stoechas.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -370,6 +479,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1723636</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=20814</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Juniperus_cedrus</uri>
 			</binding>
@@ -377,7 +489,7 @@
 				<literal>Canary Islands Juniper, Canary Islands juniper, Cedro</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20cedrus%20trunk.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20cedrus%20detail.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20cedrus%20trunk.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20cedrus%20detail.JPG</literal>
 			</binding>
 		</result>
 		<result>
@@ -386,6 +498,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1761719</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=101142</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Lippia_graveolens</uri>
@@ -404,6 +519,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1813408</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=105723</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Melaleuca_quinquenervia</uri>
 			</binding>
@@ -416,297 +534,82 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Hedychium coronarium</literal>
+				<literal>Cymbopogon winterianus</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1994229</uri>
+				<uri>http://www.wikidata.org/entity/Q11107842</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=103628</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Hedychium_coronarium</uri>
+				<uri>https://en.wikipedia.org/wiki/Cymbopogon_winterianus</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>野薑花, 草果藥, 穗花山奈, white garland-lily</literal>
+				<literal>爪哇香茅, 楓茅, cymbopogon grass</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020803-0036%20Hedychium%20coronarium.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon%20winterianus.jpeg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Eucalyptus nitens</literal>
+				<literal>Cistus monspeliensis</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2512644</uri>
+				<uri>http://www.wikidata.org/entity/Q1414643</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=10643</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_nitens</uri>
+				<uri>https://en.wikipedia.org/wiki/Cistus_monspeliensis</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>shining gum</literal>
+				<literal>Sargação, Ciste de Montpellier, Kaitakistus, Jaguarzo, Montpelier cistus, Montpellier-Zistrose, Estepa negra</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20nitens%20New%20England%20National%20Park.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cistus%20monspeliensis%20%28Puntagorda%29%2001.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Cistus%20monspeliensis.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Corymbia citriodora</literal>
+				<literal>Heracleum persicum</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2549523</uri>
+				<uri>http://www.wikidata.org/entity/Q1418112</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=311994</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Corymbia_citriodora</uri>
+				<uri>https://en.wikipedia.org/wiki/Heracleum_persicum</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>lemonscented gum</literal>
+				<literal>Perzische berenklauw, persianjättiputki, Golpar, bolševník perský</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Corymbia%20citriodora.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Distribution%20Corymbia%20citriodora.jpg</uri>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Heracleum%20sphondylium0.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Eucalyptus dives</literal>
+				<literal>Lavandula dentata</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2559069</uri>
+				<uri>http://www.wikidata.org/entity/Q1450735</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21678</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_dives</uri>
+				<uri>https://en.wikipedia.org/wiki/Lavandula_dentata</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>broadleaf peppermint gum</literal>
+				<literal>Fransız lavantası, Kamlavendel, Spigo-nardo, Lavande dentée, Nyhälaventeli, Alhucema rizada, toothed lavender, French lavender, Gezähnter Lavendel</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20dives.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus albens</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2559087</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_albens</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20albens%20at%20Ilanot%20arboretum-RJP.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2607185</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eau_de_Cologne_mint</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mentha%20x%20piperita%20var.%20citrata%20%27Eau%20de%20Cologne%20Mint%27%20%28Labatae%29%20flower.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus radiata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2664982</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_radiata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>narrow-leaf peppermint gum</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20radiata.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20radiata.jpg</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus deanei</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2068758</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_deanei</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>roundleaf gum</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptusdeanei-Blue%20Mountains%20National%20Park.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus blakelyi</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2069230</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_blakelyi</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20blakely%20juvenile%20leaves.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus viminalis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2137116</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_viminalis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>manna gum, ewcalyptws gwialennog</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20viminalis.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20viminalis.jpg</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Erigeron acris</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2140433</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Erigeron_acer</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>karvaskallioinen, Blue Fleabane, turan ostrý</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Erigeron%20acris%20ssp.%20acris%20Kiiminki%2C%20Finland%2025.06.2013.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Lavandula viridis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2206924</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Lavandula_viridis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/L.viridis.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Hymenaea courbaril</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2234016</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Hymenaea_courbaril</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>stinkingtoe</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hymenaea%20courbaril%201.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Hyptis suaveolens</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2235341</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Mesosphaerum_suaveolens</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>香苦草, 狗母蘇, 山香, 假走馬風, pignut</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hyptis%20suaveolens%20%28Vilayti%20Tulsi%29%20in%20Hyderabad%2C%20AP%20W%20IMG%200117.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eugenia stipitata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2347464</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eugenia_stipitata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eugenia%20stipitata.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Erigeron bonariensis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2453589</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Erigeron_bonariensis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>美洲假蓬, 野桐蒿, 美州假蓬, Gevlamde fijnstraal, argentiinankoiransilmä, rabo de gato, asthmaweed, amrhydlwyd yr Ariannin</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Conyza%20bonariensis.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Erigeron%20bonariensis%20DistMap.png</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q21275377</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Hypericum_tenuifolium</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hypericum%20tenuifolium.png</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20dentata1.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -716,6 +619,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1510186</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=20875</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Juniperus_thurifera</uri>
 			</binding>
@@ -723,7 +629,7 @@
 				<literal>Genévrier thurifère, Espanjankataja, Trabina, Sabina Blanca, Sabina albar, Incensa junipero, Spanish Juniper, Incense Juniper, Cedro de España, Enebro</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20thurifera.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus-thurifera-01.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20thurifera.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus-thurifera-01.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
 				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Juniperus%20thurifera%20range.svg</uri>
@@ -735,6 +641,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1520920</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=314291</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Persian_lime</uri>
@@ -752,6 +661,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1552597</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=312690</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cupressus_guadalupensis</uri>
@@ -773,6 +685,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1587861</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316298</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Helichrysum_italicum</uri>
 			</binding>
@@ -790,6 +705,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1619002</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12670</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cupressus_torulosa</uri>
 			</binding>
@@ -797,7 +715,7 @@
 				<literal>Himalayan Cypress, Himalayan cypress</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Opatija034.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20torulosa%20Manali-Leh.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Opatija034.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20torulosa%20Manali-Leh.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1015,6 +933,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15367875</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21806</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Leptospermum_coriaceum</uri>
 			</binding>
@@ -1022,7 +943,7 @@
 				<literal>green teatree</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Leptospermum%20coriaceum.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Leptospermum%20coriaceum%20fruit.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Leptospermum%20coriaceum.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Leptospermum%20coriaceum%20fruit.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
 				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Leptospermum%20coriaceumDistA12.png</uri>
@@ -1067,181 +988,19 @@
 		</result>
 		<result>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q18076143</uri>
+				<uri>http://www.wikidata.org/entity/Q21275377</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=446611</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Coatesia</uri>
+				<uri>https://en.wikipedia.org/wiki/Hypericum_tenuifolium</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Malus domestica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q18674606</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Malus_domestica</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>セイヨウリンゴ, tarhaomenapuu, jabloň domácí, pomaro</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tree%20with%20red%20apples%20in%20Barkedal%204.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Cupressus atlantica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q20731329</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cupressus_atlantica</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20atlantica0.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus sideroxylon</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2667019</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_sideroxylon</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>red ironbark</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020203-0032%20Eucalyptus%20sideroxylon.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20sideroxylon%20flowers.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20sideroxylon.jpg</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Cymbopogon martini</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2671107</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cymbopogon_martinii</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>rosha grass</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus deglupta</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2704355</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_deglupta</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Indonesian gum</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20deglupta-trees.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Melaleuca linariifolia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2709936</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Melaleuca_linariifolia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>cajeput tree</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Melaleuca%20linariifolia.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus largiflorens</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2710313</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_largiflorens</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>black-box</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Black%20Box%20foliage%20and%20flowers%20%2815299115414%29.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/EucalyptuslargiflorensDistMap.png</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus macrocarpa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2712369</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_macrocarpa</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>mottlecah</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20macrocarpa.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E.%20macrocarpa.JPG</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eucalyptus miniata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2713279</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_miniata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptusminiata4922379331%207629cb26ca%20o.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20miniata%20from%20%22Eucalyptographia.%20A%20descriptive%20atlas%20of%20the%20eucalypts%20of%20Australia%20and%20the%20adjoining%20islands%22%3B%20%281879%29%20%2820165942804%29.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/EucalyptusminiataDistMap.png</uri>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hypericum%20tenuifolium.png</literal>
 			</binding>
 		</result>
 		<result>
@@ -1250,6 +1009,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q2837067</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16022</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_saligna</uri>
@@ -1268,6 +1030,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3006305</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16042</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_tereticornis</uri>
 			</binding>
@@ -1284,6 +1049,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3011274</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15961</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_microcorys</uri>
@@ -1302,6 +1070,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3953968</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401748</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eugenia_foetida</uri>
 			</binding>
@@ -1315,6 +1086,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q4529684</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15890</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_dealbata</uri>
@@ -1361,6 +1135,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5182508</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104177</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Crassocephalum_rubens</uri>
 			</binding>
@@ -1374,6 +1151,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5199493</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=449490</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cymbopogon_proximus</uri>
@@ -1480,58 +1260,13 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Leonotis ocymifolia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15338194</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Leonotis_ocymifolia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Leonotis%20dysophylla%20%288667158793%29.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15341383</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Mentha_grandiflora</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Micromeria cristata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15343265</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Micromeria_cristata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Micromeria%20cristata%20subsp.%20kosaninii.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
 				<literal>Hemidesmus indicus</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15356241</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402594</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Hemidesmus_indicus</uri>
@@ -1540,192 +1275,488 @@
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hemidesmus%20indicus%2001.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Hemidesmus%20indicus%20-%20Agri-Horticultural%20Society%20of%20India%20-%20Alipore%20-%20Kolkata%202013-01-05%202301.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hemidesmus%20indicus%2001.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Hemidesmus%20indicus%20-%20Agri-Horticultural%20Society%20of%20India%20-%20Alipore%20-%20Kolkata%202013-01-05%202301.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Eucalyptus ovata</literal>
+				<literal>Hedychium coronarium</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q955858</uri>
+				<uri>http://www.wikidata.org/entity/Q1994229</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=18576</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eucalyptus_ovata</uri>
+				<uri>https://en.wikipedia.org/wiki/Hedychium_coronarium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>野薑花, 草果藥, 穗花山奈, white garland-lily</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020803-0036%20Hedychium%20coronarium.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus deanei</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2068758</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15891</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_deanei</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>roundleaf gum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptusdeanei-Blue%20Mountains%20National%20Park.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus blakelyi</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2069230</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401129</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_blakelyi</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20ovata.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20blakely%20juvenile%20leaves.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus viminalis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2137116</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16104</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_viminalis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>manna gum, ewcalyptws gwialennog</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20viminalis.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E.%20ovata.JPG</uri>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20viminalis.jpg</uri>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Meum athamanticum</literal>
+				<literal>Erigeron acris</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1019275</uri>
+				<uri>http://www.wikidata.org/entity/Q2140433</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15506</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Meum_athamanticum</uri>
+				<uri>https://en.wikipedia.org/wiki/Erigeron_acer</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Bjørnerot, Karhunjuuri, karhunjuuri, Bärwurz, Finbladet Bjørnerod, koprník štětinolistý</literal>
+				<literal>karvaskallioinen, Blue Fleabane, turan ostrý</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Meum%20athamanticum0.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Erigeron%20acris%20ssp.%20acris%20Kiiminki%2C%20Finland%2025.06.2013.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Crassocephalum crepidioides</literal>
+				<literal>Lavandula viridis</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1027615</uri>
+				<uri>http://www.wikidata.org/entity/Q2206924</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=453643</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Crassocephalum_crepidioides</uri>
+				<uri>https://en.wikipedia.org/wiki/Lavandula_viridis</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>昭和草, redflower ragleaf</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020803-0125%20Crassocephalum%20crepidioides.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/L.viridis.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Maclura pomifera</literal>
+				<literal>Hymenaea courbaril</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1066106</uri>
+				<uri>http://www.wikidata.org/entity/Q2234016</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19489</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Maclura_pomifera</uri>
+				<uri>https://en.wikipedia.org/wiki/Hymenaea_courbaril</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Spino degli Osagi, oszázsnarancs, Narancseper, Oranger des Osages, Värimulperi, Osage orange, Horse-apple, Osagedorn, maklura oranžová, Osage-orange, Milchorangenbaum</literal>
+				<literal>stinkingtoe</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Farms%20Park%20Memphis%20TN%202013-12-01%20017.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Bois%27d%20Arc%20-osage%20orange-%20tree.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hymenaea%20courbaril%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Hyptis suaveolens</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2235341</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19643</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mesosphaerum_suaveolens</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>香苦草, 狗母蘇, 山香, 假走馬風, pignut</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hyptis%20suaveolens%20%28Vilayti%20Tulsi%29%20in%20Hyderabad%2C%20AP%20W%20IMG%200117.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eugenia stipitata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2347464</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=312741</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eugenia_stipitata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eugenia%20stipitata.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Erigeron bonariensis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2453589</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104170</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Erigeron_bonariensis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>美洲假蓬, 野桐蒿, 美州假蓬, Gevlamde fijnstraal, argentiinankoiransilmä, rabo de gato, asthmaweed, amrhydlwyd yr Ariannin</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Conyza%20bonariensis.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Maclura%20pomifera%20range%20map.png</uri>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Erigeron%20bonariensis%20DistMap.png</uri>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Lapageria rosea</literal>
+				<literal>Eucalyptus nitens</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1072906</uri>
+				<uri>http://www.wikidata.org/entity/Q2512644</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15971</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Lapageria</uri>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_nitens</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Лапажерия розовая, ツバキカズラ, Punasuppilo</literal>
+				<literal>shining gum</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lapageria%20rosea1.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20nitens%20New%20England%20National%20Park.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Corymbia citriodora</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2549523</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=404658</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Corymbia_citriodora</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>lemonscented gum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Corymbia%20citriodora.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Lapageria%20rosea%20range%20map.png</uri>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Distribution%20Corymbia%20citriodora.jpg</uri>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Kaempferia galanga</literal>
+				<literal>Eucalyptus dives</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1113398</uri>
+				<uri>http://www.wikidata.org/entity/Q2559069</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15897</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Kaempferia_galanga</uri>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_dives</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>cananga-do-japão, Guineangalangali, galanga</literal>
+				<literal>broadleaf peppermint gum</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Galangal.web.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20dives.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Crithmum maritimum</literal>
+				<literal>Eucalyptus albens</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1136311</uri>
+				<uri>http://www.wikidata.org/entity/Q2559087</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15839</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Crithmum</uri>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_albens</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Deniz rezenesi, Zeevenkel, zeevenkel, Finocchio marino, passe-pierre, fenouil marin, Merifenkoli, Sea fennel, samphire, rock samphire, Meerfenchel</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Crithmum%20maritimum.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Perce-pierre.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20albens%20at%20Ilanot%20arboretum-RJP.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2607185</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=313204</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eau_de_Cologne_mint</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mentha%20x%20piperita%20var.%20citrata%20%27Eau%20de%20Cologne%20Mint%27%20%28Labatae%29%20flower.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Cupressus macrocarpa</literal>
+				<literal>Eucalyptus radiata</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1137183</uri>
+				<uri>http://www.wikidata.org/entity/Q2664982</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16007</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cupressus_macrocarpa</uri>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_radiata</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Monteri servisi, Кипарис крупноплодный, Montereycipres, Cipresso di Monterey, Ciprés de Monterrei, Cyprès de Lambert, Montereynsypressi, Ciprés Monterrey, Ciprés de California, Monterey cypress, Monterey-Zypresse, cypreswydden Monterey, Monterey Cypress</literal>
+				<literal>narrow-leaf peppermint gum</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lone%20cypress%20in%2017-mile-drive.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20radiata.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macrocarpa%20range%20map.png</uri>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20radiata.jpg</uri>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Cupressus macnabiana</literal>
+				<literal>Eucalyptus sideroxylon</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1144379</uri>
+				<uri>http://www.wikidata.org/entity/Q2667019</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16030</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cupressus_macnabiana</uri>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_sideroxylon</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Shasta Cypress, MacNab's cypress, MacNab Cypress, Fragrant Cypress</literal>
+				<literal>red ironbark</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macnabiana.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020203-0032%20Eucalyptus%20sideroxylon.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20sideroxylon%20flowers.jpg</literal>
 			</binding>
 			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macnabiana%20range%20map.png</uri>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E%20sideroxylon.jpg</uri>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Eryngium foetidum</literal>
+				<literal>Cymbopogon martini</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1146782</uri>
+				<uri>http://www.wikidata.org/entity/Q2671107</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12809</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Eryngium_foetidum</uri>
+				<uri>https://en.wikipedia.org/wiki/Cymbopogon_martinii</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>刺芫荽, Mexikansk Koriander, 大葉コエンドロ, Salaattipiikkiputki, Wild Coriander, Spiritweed Sawtooth Herb, spiritweed, Shadow beni, Saw-leaf Herb, Mexican Coriander, Fitweed, Cilantro Cimarron, Chardon Benit Shadon beni, Mexikanischer Koriander, Langer Koriander, মান ধনিয়া</literal>
+				<literal>rosha grass</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hombay3.jpg</literal>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus deglupta</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2704355</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15893</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_deglupta</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Indonesian gum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20deglupta-trees.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Melaleuca linariifolia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2709936</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=23806</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Melaleuca_linariifolia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>cajeput tree</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Melaleuca%20linariifolia.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus largiflorens</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2710313</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401168</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_largiflorens</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>black-box</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Black%20Box%20foliage%20and%20flowers%20%2815299115414%29.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/EucalyptuslargiflorensDistMap.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus macrocarpa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2712369</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15949</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_macrocarpa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>mottlecah</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20macrocarpa.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E.%20macrocarpa.JPG</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus miniata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2713279</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15964</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_miniata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptusminiata4922379331%207629cb26ca%20o.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20miniata%20from%20%22Eucalyptographia.%20A%20descriptive%20atlas%20of%20the%20eucalypts%20of%20Australia%20and%20the%20adjoining%20islands%22%3B%20%281879%29%20%2820165942804%29.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/EucalyptusminiataDistMap.png</uri>
 			</binding>
 		</result>
 		<result>
@@ -1735,11 +1766,14 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1165724</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12901</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cyperus_esculentus</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>黃土香, แห้วไทย, Чуфа, Сыть съедобная, Cibora jadalna, Knolcyperus, knolcyperus, Zigolo dolce, Souchet Comestible, Souchet comestible, Amande de Terre, Chufa, Yellow Nutsedge, Tiger Nut, edible cyperus, Earth Nut, Earth Almond, Erdmandel, šáchor jedlý, Atadwe, yellow nutsedge</literal>
+				<literal>Souchet Comestible, Souchet comestible, Amande de Terre, Chufa, Yellow Nutsedge, Tiger Nut, edible cyperus, Earth Nut, Earth Almond, Erdmandel, šáchor jedlý, Atadwe, yellow nutsedge, 黃土香, แห้วไทย, Чуфа, Сыть съедобная, Cibora jadalna, Knolcyperus, knolcyperus, Zigolo dolce</literal>
 			</binding>
 			<binding name='image_link'>
 				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cyperus%20esculentus%20L.%20%28AM%20AK301430-1%29%2C%20white%20background.jpg</literal>
@@ -1752,6 +1786,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1342976</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21685</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Lavandula_stoechas</uri>
 			</binding>
@@ -1759,7 +1796,7 @@
 				<literal>Karabaş otu, Rosmaninho, Tupsulaventeli, Schopf-Lavendel, Cantueso, French lavender</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Topped%20lavendar%20flowerhead.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20stoechas%20kz10.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Topped%20lavendar%20flowerhead.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20stoechas%20kz10.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1768,6 +1805,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1353278</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=395</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Genipa_americana</uri>
@@ -1786,6 +1826,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1357371</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=403974</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Elsholtzia_ciliata</uri>
 			</binding>
@@ -1803,6 +1846,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1391422</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316644</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cyperus_rotundus</uri>
 			</binding>
@@ -1811,57 +1857,6 @@
 			</binding>
 			<binding name='image_link'>
 				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Nutgrass%20Cyperus%20rotundus02.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Cistus monspeliensis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1414643</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cistus_monspeliensis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Sargação, Ciste de Montpellier, Kaitakistus, Jaguarzo, Montpelier cistus, Montpellier-Zistrose, Estepa negra</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cistus%20monspeliensis%20%28Puntagorda%29%2001.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Cistus%20monspeliensis.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Heracleum persicum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1418112</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Heracleum_persicum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Perzische berenklauw, persianjättiputki, Golpar, bolševník perský</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Heracleum%20sphondylium0.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Lavandula dentata</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1450735</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Lavandula_dentata</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Fransız lavantası, Kamlavendel, Spigo-nardo, Lavande dentée, Nyhälaventeli, Alhucema rizada, toothed lavender, French lavender, Gezähnter Lavendel</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20dentata1.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1885,6 +1880,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15363997</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=409847</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eugenia_pyriformis</uri>
 			</binding>
@@ -1901,6 +1899,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15364786</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=415499</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eugenia_punicifolia</uri>
@@ -2001,11 +2002,71 @@
 			</binding>
 		</result>
 		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18076143</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=455022</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Coatesia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Malus domestica</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18674606</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104681</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Malus_domestica</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>セイヨウリンゴ, tarhaomenapuu, jabloň domácí, pomaro</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tree%20with%20red%20apples%20in%20Barkedal%204.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Cupressus atlantica</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q20731329</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316125</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cupressus_atlantica</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20atlantica0.jpg</literal>
+			</binding>
+		</result>
+		<result>
 			<binding name='Commons_category'>
 				<literal>Foeniculum vulgare</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q43511</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=300219</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Fennel</uri>
@@ -2014,51 +2075,7 @@
 				<literal>茴香, Fenouil commun, maustefenkoli, sweet fennel, Echter Fenchel, fenykl obecný, Fonoll, Venkel</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum%20vulgare.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum%20July%202011-1a.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q64375390</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q65938274</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15367624wd:Q15367683</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/15588334</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum%20vulgare.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum%20July%202011-1a.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -2222,6 +2239,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15365437</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=467657</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2244,6 +2264,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15365741</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=438371</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2254,6 +2277,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15365765</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16200</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2321,6 +2347,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15369361</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=438451</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2365,6 +2394,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15512750</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=10502</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2375,6 +2407,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15514822</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12801</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2389,6 +2424,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15515143</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12805</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2412,6 +2450,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15529789</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401478</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2422,6 +2463,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15531151</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=412909</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2652,6 +2696,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15575938</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15722</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2807,6 +2854,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15595009</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104149</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>southwestern rabbitbrush</literal>
 			</binding>
@@ -2862,6 +2912,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15629521</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104148</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2909,6 +2962,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q17139254</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=410303</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2931,6 +2987,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q17139625</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16610</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2941,6 +3000,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q17140046</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16612</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3008,6 +3070,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q21256159</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=14660</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3030,6 +3095,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q21874253</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=410311</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3041,6 +3109,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q24852935</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15874</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3051,6 +3122,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q24852937</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15951</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>spotted gum</literal>
@@ -3085,6 +3159,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q28935003</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=407805</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3095,6 +3172,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q38710079</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104224</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3107,6 +3187,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q39276129</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401240</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3117,6 +3200,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q39276663</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401278</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3140,6 +3226,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q50832830</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12794</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3151,6 +3240,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q50837010</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104422</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3160,7 +3252,314 @@
 		</result>
 		<result>
 			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q64375390</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q65938274</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15367624wd:Q15367683</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/15588334</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eucalyptus ovata</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q955858</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401264</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eucalyptus_ovata</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus%20ovata.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/E.%20ovata.JPG</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Meum athamanticum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1019275</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=475413</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Meum_athamanticum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Bjørnerot, Karhunjuuri, karhunjuuri, Bärwurz, Finbladet Bjørnerod, koprník štětinolistý</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Meum%20athamanticum0.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Crassocephalum crepidioides</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1027615</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=447235</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Crassocephalum_crepidioides</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>昭和草, redflower ragleaf</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20020803-0125%20Crassocephalum%20crepidioides.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Maclura pomifera</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1066106</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=23061</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Maclura_pomifera</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Spino degli Osagi, oszázsnarancs, Narancseper, Oranger des Osages, Värimulperi, Osage orange, Horse-apple, Osagedorn, maklura oranžová, Osage-orange, Milchorangenbaum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Farms%20Park%20Memphis%20TN%202013-12-01%20017.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Bois%27d%20Arc%20-osage%20orange-%20tree.JPG</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Maclura%20pomifera%20range%20map.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Lapageria rosea</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1072906</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21455</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Lapageria</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Лапажерия розовая, ツバキカズラ, Punasuppilo</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lapageria%20rosea1.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Lapageria%20rosea%20range%20map.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Kaempferia galanga</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1113398</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=20916</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Kaempferia_galanga</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>cananga-do-japão, Guineangalangali, galanga</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Galangal.web.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Crithmum maritimum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1136311</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402237</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Crithmum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Deniz rezenesi, Zeevenkel, zeevenkel, Finocchio marino, passe-pierre, fenouil marin, Merifenkoli, Sea fennel, samphire, rock samphire, Meerfenchel</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Crithmum%20maritimum.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Perce-pierre.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Cupressus macrocarpa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1137183</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12659</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cupressus_macrocarpa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Monteri servisi, Кипарис крупноплодный, Montereycipres, Cipresso di Monterey, Ciprés de Monterrei, Cyprès de Lambert, Montereynsypressi, Ciprés Monterrey, Ciprés de California, Monterey cypress, Monterey-Zypresse, cypreswydden Monterey, Monterey Cypress</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lone%20cypress%20in%2017-mile-drive.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macrocarpa%20range%20map.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Cupressus macnabiana</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1144379</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=413228</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cupressus_macnabiana</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Shasta Cypress, MacNab's cypress, MacNab Cypress, Fragrant Cypress</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macnabiana.JPG</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Cupressus%20macnabiana%20range%20map.png</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eryngium foetidum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1146782</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15716</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Eryngium_foetidum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>刺芫荽, Mexikansk Koriander, 大葉コエンドロ, Salaattipiikkiputki, Wild Coriander, Spiritweed Sawtooth Herb, spiritweed, Shadow beni, Saw-leaf Herb, Mexican Coriander, Fitweed, Cilantro Cimarron, Chardon Benit Shadon beni, Mexikanischer Koriander, Langer Koriander, মান ধনিয়া</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Hombay3.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Mantisalca duriaei</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q5991951</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mantisalca%20duriaei-1.jpeg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Eugenia rhombea</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q6433682</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>red stopper</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Red-Stopper%20%282885708151%29.gif</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Lavandula coronopifolia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q6559588</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=453681</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20coronopifolia%201.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q7361764</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19247</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3172,6 +3571,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q8469603</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=417505</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3187,16 +3589,22 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q8777465</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=410306</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eryngium%20paniculatum%202.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Eryngium%20paniculatum%201.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Eryngium%20paniculatum%202.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Eryngium%20paniculatum%201.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q9600748</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=432187</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3225,6 +3633,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10888620</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316382</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>蔓澤蘭, heartleaf hempvine</literal>
@@ -3262,6 +3673,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10898672</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19093</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>刺芙蓉</literal>
 			</binding>
@@ -3286,6 +3700,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10933067</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=450154</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3321,24 +3738,13 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Cymbopogon winterianus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q11107842</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>爪哇香茅, 楓茅, cymbopogon grass</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon%20winterianus.jpeg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
 				<literal>Hyptis pectinata</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q11110344</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401710</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>櫛穗香苦草, comb bushmint</literal>
@@ -3350,6 +3756,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q11126589</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=312735</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3365,6 +3774,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q11153450</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=11182</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3378,6 +3790,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q11174323</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=403972</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3393,6 +3808,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q12205358</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=100777</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3403,6 +3821,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q12207377</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=14737</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3437,6 +3858,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q12849139</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=461241</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3447,6 +3871,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q12892282</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=310501</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3473,6 +3900,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q14905792</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=418870</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>Vaal-skraalhans</literal>
 			</binding>
@@ -3494,6 +3924,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15231502</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=18950</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3519,6 +3952,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15231690</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16618</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -3552,6 +3988,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15251066</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=10180</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>臭杏, 土荊芥, welriekende ganzenvoet, chénopode fausse-ambroisie, Wohlriechende Gänsefuss, te Mecsico, Welriekende ganzenvoet, Mexican tea, merlík vonný</literal>
@@ -3864,6 +4303,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15338381</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21761</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -3874,6 +4316,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15338486</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=407734</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>Rice Paddy Herb, Finger Grass</literal>
@@ -4080,6 +4525,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15357825</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=438358</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>white stopper</literal>
 			</binding>
@@ -4160,6 +4608,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q111185</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16603</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>Pirunkeltaputki, Asafoetida</literal>
 			</binding>
@@ -4188,6 +4639,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q303325</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=14550</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>kamzičník rakúsky, Österreichische Gämswurz, kamzičník rakouský</literal>
 			</binding>
@@ -4202,6 +4656,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q486951</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=238</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>長實金柑, 金棗, 圓實金柑, oval kumquat</literal>
 			</binding>
@@ -4212,6 +4669,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q571266</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=313076</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>mabolo</literal>
@@ -4227,6 +4687,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q794305</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104171</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>魚膽草, 鐵道車蓬, 野茼蒿, 蛇舌草, 苦蒿, 臭艾, 竹葉艾, 祁州一隻蒿, 破布艾, 小飛蓬, 小白酒草, 小燕草, 小山艾, 姬昔蓬, 加拿大蓬, canadese fijnstraal, vergerette du canada, kanadankoiransilmä, Canadian horseweed, canadian fleabane, amrhydlwyd Canada, 小蓬草, Canadese fijnstraal, Kanadisches Berufkraut, turanka kanadská</literal>
 			</binding>
@@ -4240,6 +4703,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q1549723</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402617</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>alpine lovage, Adonisblättrige Mutterwurz, koprníček bezobalný</literal>
@@ -4255,6 +4721,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q2071326</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=404865</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -4269,16 +4738,22 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q2167755</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=406716</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>Gewöhnlicher Rosskümmel, timoj trojlaločný</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Laser%20trilobum%20eF.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Laser%20trilobium%20flowers%201.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Laser%20trilobum%20eF.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Laser%20trilobium%20flowers%201.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q2235405</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21414</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>kilpikormikki, lion's heart</literal>
@@ -4294,6 +4769,26 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q2494758</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=407799</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Wollige munt, omenaminttu, Falsche Apfel-Minze</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mentha%20rotundifolia0.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Mentha × rotundifolia</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2494758</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=24080</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>Wollige munt, omenaminttu, Falsche Apfel-Minze</literal>
 			</binding>
@@ -4304,6 +4799,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3004060</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=417497</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -4329,6 +4827,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3004324</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12407</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>yellow balsam</literal>
@@ -4385,6 +4886,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3005418</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=433203</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -4395,6 +4899,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3144432</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19642</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>穗花香苦草, marubio</literal>
@@ -4410,6 +4917,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3517919</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=428102</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -4424,6 +4934,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3731564</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=408733</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -4437,6 +4950,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q3828025</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=400265</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>lavandin</literal>
@@ -4462,6 +4978,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q4483170</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16611</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>galbanum</literal>
@@ -4496,6 +5015,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q4531529</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15015</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -4509,6 +5031,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5609419</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402593</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -4524,11 +5049,14 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5708539</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=419814</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>雞角刺, 薊, 白花小薊, 小薊, 南國薊, 南國小薊, 刺薊, Japanese thistle</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cirsium%20japonicum%20var.%20maackii%205.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Cirsium%20japonicum%20var.%20maackii%203.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/%EC%97%89%EA%B2%85%ED%80%B4%20%EC%83%88%EC%88%9C.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cirsium%20japonicum%20var.%20maackii%205.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Cirsium%20japonicum%20var.%20maackii%203.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/%EC%97%89%EA%B2%85%ED%80%B4%20%EC%83%88%EC%88%9C.JPG</literal>
 			</binding>
 		</result>
 		<result>
@@ -4537,6 +5065,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5892134</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=417521</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -4560,6 +5091,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5905871</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=19640</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>tropical bushmint</literal>
 			</binding>
@@ -4571,53 +5105,14 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5972432</uri>
 			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Mantisalca duriaei</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q5991951</uri>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21716</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Mantisalca%20duriaei-1.jpeg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Eugenia rhombea</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q6433682</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>red stopper</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Red-Stopper%20%282885708151%29.gif</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Lavandula coronopifolia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q6559588</uri>
-			</binding>
-			<binding name='taxon'>
 				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Lavandula%20coronopifolia%201.JPG</literal>
 			</binding>
 		</result>
 	</results>

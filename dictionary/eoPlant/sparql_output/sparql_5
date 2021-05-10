@@ -3,6 +3,7 @@
 	<head>
 		<variable name='Commons_category'/>
 		<variable name='item'/>
+		<variable name='GRIN_URL'/>
 		<variable name='taxon'/>
 		<variable name='taxon_range_map_image'/>
 		<variable name='image_link'/>
@@ -16,6 +17,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q26736</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=50069</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Clove</uri>
 			</binding>
@@ -28,70 +32,22 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Citrus × aurantium</literal>
+				<literal>Fragaria vesca</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q147096</uri>
+				<uri>http://www.wikidata.org/entity/Q146684</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=264</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Bitter_orange</uri>
+				<uri>https://en.wikipedia.org/wiki/Fragaria_vesca</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>來母, පැණි දොඩම්, Aranzu, Pomarańcza gorzka, Zure sinaasappel, Pomerans, Bigaradier, Pomeranssi, hapanappelsiini, Bigaradujo, sour orange, Bitter orange, Νερατζιά, Pomeranze, Bitterorange, Kahet, Taronger agre, Turunç</literal>
+				<literal>Ҡайын еләге, Meşə çiyələyi, Jarðarber, Amorodeira, woodland strawberry, 野草莓, Суниці лісові, Нюлэс узы, Orman çileği, Smultron, Šumska jagoda, Шумска јагода, Шумска јагода, Dredhëza e malit, Navadni jagodnjak, Jahoda obyčajná, Šumska jagoda, Gieddemuorji, Земляника лесная, Frag, Morango-silvestre, Poziomka pospolita, Markjordbær, Bosaardbei, bosaardbei, Markjordbær, Frávëla salvátëca, Шумска јагода, Paprastoji žemuogė, Адам джилек, エゾヘビイチゴ, Fragola di bosco, Erdei szamóca, Lěsna truskalca, Šumska jagoda, Wylde ierdbei, fraisier sauvage, Fraisier des bois, Ahomansikka, توتفرنگی وحشی, Marrubi arrunt, Metsmaasikas, Fresa salvaje, Arbara fragujo, Wild Strawberry, wild strawberry, Χαμοκέρασο, Glinicka, Walderdbeere, Wald-Erdbeere, Skov-Jordbær, Llwyn Mefus Gwyllt, Jahodník obecný, Maduixera, Горска ягода, Суніцы лясныя</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Turun%C3%A7%20-%20Citrus%20aurantium%2002.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Citrus%20aurantium%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-042.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Citrus%20aurantium.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tamarindus indica</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q80235</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tamarind</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>羅望子, tamarind</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tamarindus%20indica%20pods.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Tamarind%20of%20Salem.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Tamarind%20fruit.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tanacetum vulgare</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q27079</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tansy</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Boerenwormkruid, boerenwormkruid, tanaisie vulgaire, rohtopietaryrtti, tansy, common tansy, Rainfarn, vratič obecný</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tansy%20and%20Queen%20of%20Spain%20Fritilllary.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Tanacetum%20vulgare%20-%20harilik%20soolikarohi%20Keilas2.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Vitis vinifera</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q30046</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Vitis_vinifera</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>葡萄, Wijnstok, Vigne Sauvage, Lambrusque, aitoviiniköynnös, Wild Grape, Echte Weinrebe, réva vinná, wine grape</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vitis-vinifera-2.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Vitis%20vinifera%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-145.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Landschaftsschutzgebiet%20R%C3%B6derhofer%20Teiche%20und%20Egenstedter%20Forst%20-%20Walderdbeere%20%282%29.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Fragaria%20vesca%20LC0389.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/3%20wild%20strawberries%20close%20up%20UK%202006.JPG</literal>
 			</binding>
 		</result>
 		<result>
@@ -100,6 +56,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q129775</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32976</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_verticillata</uri>
@@ -118,6 +77,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q138044</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=453789</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cupressus_chengiana</uri>
 			</binding>
@@ -134,6 +96,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q138085</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12646</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Cupressus_duclouxiana</uri>
@@ -152,6 +117,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q139112</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=404947</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Sundacarpus</uri>
 			</binding>
@@ -164,121 +132,82 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Fragaria vesca</literal>
+				<literal>Citrus × aurantium</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q146684</uri>
+				<uri>http://www.wikidata.org/entity/Q147096</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=10684</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Fragaria_vesca</uri>
+				<uri>https://en.wikipedia.org/wiki/Bitter_orange</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Суниці лісові, Нюлэс узы, Orman çileği, Smultron, Šumska jagoda, Шумска јагода, Шумска јагода, Dredhëza e malit, Navadni jagodnjak, Jahoda obyčajná, Šumska jagoda, Gieddemuorji, Земляника лесная, Frag, Morango-silvestre, Poziomka pospolita, Markjordbær, Bosaardbei, bosaardbei, Markjordbær, Frávëla salvátëca, Шумска јагода, Paprastoji žemuogė, Адам джилек, エゾヘビイチゴ, Fragola di bosco, Erdei szamóca, Lěsna truskalca, Šumska jagoda, Wylde ierdbei, fraisier sauvage, Fraisier des bois, Ahomansikka, توتفرنگی وحشی, Marrubi arrunt, Metsmaasikas, Fresa salvaje, Arbara fragujo, Wild Strawberry, wild strawberry, Χαμοκέρασο, Glinicka, Walderdbeere, Wald-Erdbeere, Skov-Jordbær, Llwyn Mefus Gwyllt, Jahodník obecný, Maduixera, Горска ягода, Суніцы лясныя, Ҡайын еләге, Meşə çiyələyi, Jarðarber, Amorodeira, woodland strawberry, 野草莓</literal>
+				<literal>來母, පැණි දොඩම්, Aranzu, Pomarańcza gorzka, Zure sinaasappel, Pomerans, Bigaradier, Pomeranssi, hapanappelsiini, Bigaradujo, sour orange, Bitter orange, Νερατζιά, Pomeranze, Bitterorange, Kahet, Taronger agre, Turunç</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Landschaftsschutzgebiet%20R%C3%B6derhofer%20Teiche%20und%20Egenstedter%20Forst%20-%20Walderdbeere%20%282%29.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Fragaria%20vesca%20LC0389.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/3%20wild%20strawberries%20close%20up%20UK%202006.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Turun%C3%A7%20-%20Citrus%20aurantium%2002.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Citrus%20aurantium%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-042.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Citrus%20aurantium.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Chrysopogon zizanioides</literal>
+				<literal>Tanacetum vulgare</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q378568</uri>
+				<uri>http://www.wikidata.org/entity/Q27079</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=80037</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Chrysopogon_zizanioides</uri>
+				<uri>https://en.wikipedia.org/wiki/Tansy</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>培地茅</literal>
+				<literal>Boerenwormkruid, boerenwormkruid, tanaisie vulgaire, rohtopietaryrtti, tansy, common tansy, Rainfarn, vratič obecný</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vetiveria%20zizanioides0.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tansy%20and%20Queen%20of%20Spain%20Fritilllary.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Tanacetum%20vulgare%20-%20harilik%20soolikarohi%20Keilas2.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Trachyspermum ammi</literal>
+				<literal>Vitis vinifera</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q413254</uri>
+				<uri>http://www.wikidata.org/entity/Q30046</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=41905</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ajwain</uri>
+				<uri>https://en.wikipedia.org/wiki/Vitis_vinifera</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Ajowan caraway, ajowan</literal>
+				<literal>葡萄, Wijnstok, Vigne Sauvage, Lambrusque, aitoviiniköynnös, Wild Grape, Echte Weinrebe, réva vinná, wine grape</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Carom%20Flowers.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vitis-vinifera-2.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Vitis%20vinifera%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-145.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Thapsia villosa</literal>
+				<literal>Tamarindus indica</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q537992</uri>
+				<uri>http://www.wikidata.org/entity/Q80235</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36219</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thapsia_villosa</uri>
+				<uri>https://en.wikipedia.org/wiki/Tamarind</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal></literal>
+				<literal>羅望子, tamarind</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thapsia%20villosa%20InflorescenceCloseupPuertollano.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia sclarea</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q157872</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_sclarea</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Misk ada çayı, Muskatellsalvia, Šalvia muškátová, Шалфей мускатный, Szałwia muszkatołowa, scharlei, muskaatsalie, Mušotowa želbija, Sauge sclarée, Myskisalvia, European sage, Europe sage, clary sage, Muskatellersalbei, Broget Salvie, clari, šalvěj muškátová, Müşk sürvəsi</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20sclarea3.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia glutinosa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q158374</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_glutinosa</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Yapışkan adaçayı, Klibbsalvia, Шалфей железистый, или Шалфей клейкий, Sauge glutineuse, Keltasalvia, sticky sage, sticky clary, Jupiter's sage, Jupiter's distaff, hardy sage, glutinous sage, Klebriger Salbei, Kleb-Salbei, šalvěj lepkavá</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20glutinosa%20-%20Glutinous%20sage%20-%20Oklu%20%C5%9Falba.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Lamiaceae%20-%20Salvia%20glutinosa-1.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Teucrium scordium</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q158832</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Teucrium_scordium</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Дубравник чесночный, Ożanka czosnkowa, Moerasgamander, moerasgamander, Camedrio scordio, Kobołkata dubčica, germandrée des marais, Rohtoteurikka, wood sage, water germander, Lauchgamander, Lauch-Gamander, Knoblauch-Gamander, Ožanka čpavá, Kurtluca</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20scordium1%20eF.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tamarindus%20indica%20pods.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Tamarind%20of%20Salem.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Tamarind%20fruit.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -288,6 +217,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q159060</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316848</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Teucrium_botrys</uri>
 			</binding>
@@ -295,211 +227,7 @@
 				<literal>Trosgamander, trosgamander, Camedrio secondo, germandrée botryde, Liuskateurikka, cutleaf germander, cut-leaved germander, Traubengamander, Trauben-Gamander, ožanka hroznatá</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20botrys%20sabliere-fere-en-tardenois%2002%2014072008%2003.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Teucrium%20botrys0.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Vitex agnus-castus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q259318</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Vitex_agnus-castus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>lilac chastetree</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vitex2180.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Vitex%20agnus-castus%20flowers.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Thymus mastichina</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q292582</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_mastichina</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Tomillo Blanco, Mejorana, Spanish Marjoram, Mastic Thyme</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20mastichina.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Torilis arvensis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q341578</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Torilis_arvensis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Akkerdoornzaad, akkerdoornzaad, torilis des moissons, spreading hedgeparsley, Feld-Klettenkerbel, tořice rolní</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Torilis%20arvensis%202005.07.21%2014.27.51-p7210042.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Torilisarvensis1.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Ziziphus spina-christi</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2920458</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ziziphus_spina-christi</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Christ's thorn</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ziziphus-areva-israel.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tristaniopsis laurina</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3005022</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tristaniopsis_laurina</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>water-gum</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tristaniopsis%20laurina-tree.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Senecio adenotrichius</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3013841</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Senecio_adenotrichius</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Senecio%20adenotrichius.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3018287</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Santalum_spicatum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sandalwood%20in%20Primer%20of%20Forestry%20Poole%201922.png</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Zanthoxylum brachyacanthum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3024456</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_brachyacanthum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20brachyacanthum%20Tooloom%20NP%20April%201998.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tephrosia vogelii</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3206576</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tephrosia_vogelii</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>威氏鐵富豆, Vogel's tephrosia, 白花鐵富豆</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tephrosia%20vogelii--%20the%20Fish%20Poison%20Bean%20%2826805852961%29.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Senecio squalidus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q3955284</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Senecio_squalidus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Glanzend kruiskruid, rikkavillakko, oxford ragwort, creulys Rhydychen</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Senetio%20rupester.jpg</literal>
-			</binding>
-			<binding name='taxon_range_map_image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Range%20map-Senecio%20squalidus-World.svg</uri>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia palaestina</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q4116560</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_palaestina</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20palaestina%201.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Clinopodium brownei</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q4256977</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Clinopodium_brownei</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>伏生風輪菜, Browne's savory</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Clinopodium%20brownei%20imported%20from%20iNaturalist%20photo%2059710085%20on%2028%20March%202020.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20botrys%20sabliere-fere-en-tardenois%2002%2014072008%2003.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Teucrium%20botrys0.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -508,6 +236,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q159121</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=70593</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_nemorosa</uri>
@@ -526,6 +257,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q160186</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316819</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Winter_savory</uri>
 			</binding>
@@ -543,6 +277,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q161772</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32955</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_pratensis</uri>
 			</binding>
@@ -550,7 +287,7 @@
 				<literal>Veldsalie, veldsalie, sauge des prés, niittysalvia, meadow clary, introduced sage, Wiesen-Salbei, šalvěj luční</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Wiesensalbei%201.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Gallocresta%20%28Salvia%20pratensis%29%2C%20Hartelholz%2C%20M%C3%BAnich%2C%20Alemania%2C%202020-06-20%2C%20DD%2073-82%20FS.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Wiesensalbei%201.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Gallocresta%20%28Salvia%20pratensis%29%2C%20Hartelholz%2C%20M%C3%BAnich%2C%20Alemania%2C%202020-06-20%2C%20DD%2073-82%20FS.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -560,6 +297,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q161937</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=314460</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Teucrium_chamaedrys</uri>
 			</binding>
@@ -567,7 +307,7 @@
 				<literal>Echte gamander, echte gamander, Germandrée petit-chêne, germandrée petit-chêne, wall germander, Edel-Gamander, Edel-gamander, ožanka kalamandra</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20chamaedrys%2015.06.07.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20chamaedrys%201.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20chamaedrys%2015.06.07.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20chamaedrys%201.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -576,6 +316,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q163769</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=35411</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Stachys_recta</uri>
@@ -594,6 +337,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q210858</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=33075</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Santalum_album</uri>
 			</binding>
@@ -606,10 +352,73 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
+				<literal>Vitex agnus-castus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q259318</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=41813</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Vitex_agnus-castus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>lilac chastetree</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vitex2180.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Vitex%20agnus-castus%20flowers.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus mastichina</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q292582</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=402033</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_mastichina</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Tomillo Blanco, Mejorana, Spanish Marjoram, Mastic Thyme</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20mastichina.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Torilis arvensis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q341578</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36761</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Torilis_arvensis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Akkerdoornzaad, akkerdoornzaad, torilis des moissons, spreading hedgeparsley, Feld-Klettenkerbel, tořice rolní</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Torilis%20arvensis%202005.07.21%2014.27.51-p7210042.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Torilisarvensis1.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
 				<literal>Eucalyptus crucis</literal>
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15396352</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=15887</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_crucis</uri>
@@ -641,6 +450,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15396813</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401201</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eucalyptus_kingsmillii</uri>
@@ -713,257 +525,598 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Salvia officinalis</literal>
+				<literal>Chrysopogon zizanioides</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1111359</uri>
+				<uri>http://www.wikidata.org/entity/Q378568</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=424704</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_officinalis</uri>
+				<uri>https://en.wikipedia.org/wiki/Chrysopogon_zizanioides</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>鼠尾草, Tıbbi ada çayı, Sherebela, šalvia lekárska, sauvia, sauvi, sàlvia, tuinsalie, franse salie, Echte salie, echte salie, Kadulja, Sauge Officinale, Sauge officinale, Sauge, Ryytisalvia, ryytisalvia, Salvia Real, Salvia fina, Salvia, Mermasangre, kitchen sage, common sage, Heilsalbei, Echter Salbei, Læge-Salvie, šalvěj lékařská, Sage</literal>
+				<literal>培地茅</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20officinalis0.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Vetiveria%20zizanioides0.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Salvia verbenaca</literal>
+				<literal>Trachyspermum ammi</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1313052</uri>
+				<uri>http://www.wikidata.org/entity/Q413254</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36803</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_verbenaca</uri>
+				<uri>https://en.wikipedia.org/wiki/Ajwain</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Шалфей вербеновый, Kleinbloemige salie, kleinbloemige salie, sauge verveine, wild sage, wild clary, vervain sage, verbena sage, Eisenkraut-Salbei, clari gwyllt, šalvěj sporýšová, Tàrrec, Wildesalie</literal>
+				<literal>Ajowan caraway, ajowan</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20verbenaca%20b.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/SALVIA%20VERBENACA%20-%20LLANERA%20-%20IB-379%20%28T%C3%A0rrec%29.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Carom%20Flowers.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Tanacetum balsamita</literal>
+				<literal>Thapsia villosa</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1451844</uri>
+				<uri>http://www.wikidata.org/entity/Q537992</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=310966</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tanacetum_balsamita</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Пижма бальзамическая, menta greca, fritola, erba amara, Menthe-coq, Palsamipietaryrtti, palsamipäivänkakkara, Costmary, costmary, Alecost or Balsam Herb, Balsamkraut, maří list balšámový</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Balsamita%20major.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Santolina chamaecyparissus</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1543811</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Santolina_chamaecyparissus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Heiligenbloem, cypressenkruid, Nyhähopeayrtti, Graues Heiligenkraut, hen wraig, Espernallac, lavender cotton, Abrótano hembra</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Santoline%20petit-cypr%C3%A8s%20FR%202012.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia nubicola</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q1953850</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_nubicola</uri>
+				<uri>https://en.wikipedia.org/wiki/Thapsia_villosa</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20nubicola%20flower.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thapsia%20villosa%20InflorescenceCloseupPuertollano.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Xanthostemon chrysanthus</literal>
+				<literal>Tagetes tenuifolia</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2005777</uri>
+				<uri>http://www.wikidata.org/entity/Q572693</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36205</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Xanthostemon_chrysanthus</uri>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_tenuifolia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>kääpiösamettikukka</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20tenuifolia%20g122.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Solidago virgaurea</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q599435</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=34927</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Solidago_virgaurea</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Echte guldenroede, echte guldenroede, solidage verge dor, kultapiisku, goldenrod, Gewöhnliche Goldrute, Gemeine Goldrute, zlatobýl obecný</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Solidago%20virgaurea%20minuta1.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/S.%20virgaurea2015-10-10.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Tagetes minuta</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q599870</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36201</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_minuta</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>印加孔雀草, Geelgroen afrikaantje, haisusamettikukka, muster John Henry, gold y De, Camamilla americana</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20minuta00.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20minuta%20flower.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Tordylium apulum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q622341</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tordylium_apulum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Tordyle des Pouilles, Mediterranean hartwort, zapalička apulijská</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Kafkalithra%20Tordylium%20apulum.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Tagetes erecta</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q644934</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36202</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_patula</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>孔雀草, French marigold, French marigold, gold Ffrainc, aksamitník rozkladitý</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/French%20marigold%20Tagetes%20patula.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/French%20marigold.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus herba-barona</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q648505</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=409872</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_herba-barona</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20chrysanthus%202.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20herba-barona.jpg</literal>
 			</binding>
 		</result>
 		<result>
-			<binding name='Commons_category'>
-				<literal>Stachys byzantina</literal>
-			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2034131</uri>
+				<uri>http://www.wikidata.org/entity/Q673731</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=406695</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Stachys_byzantina</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>peixinho-da-horta, peixinho, lambari, Gyapjas tisztesfű, nukkapähkämö, woolly hedgenettle, clust yr oen, čistec vlnatý</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/0%20Stachys%20byzantina%20-%20Yvoire%20%282%29.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Xeranthemum annuum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2054752</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Xeranthemum_annuum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>suchokvět roční</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xeranthemum%20annuum.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Sideritis syriaca</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2376648</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Sideritis_syriaca</uri>
+				<uri>https://en.wikipedia.org/wiki/Trachyspermum_roxburghianum</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sideritis%20syriaca%20%28Ironwort%20scan%29.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Radhuniseeds.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Teucrium polium</literal>
+				<literal>Tagetes erecta</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2415298</uri>
+				<uri>http://www.wikidata.org/entity/Q759876</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36197</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Teucrium_polium</uri>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_erecta</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Germandrée tomenteuse, Germandrée blanc-grisâtre, ožanka polejová</literal>
+				<literal>萬壽菊, cempōhualxōchitl, flor de muerto, cempasúchil, Aztec marigold, gold talsyth, aksamitník vzpřímený</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20capitatum2006.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Aztec%20Marigold%20Tagetes%20erecta.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20x%20erecta1.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Syzygium cordatum</literal>
+				<literal>Tanacetum parthenium</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2477640</uri>
+				<uri>http://www.wikidata.org/entity/Q818481</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104584</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Syzygium_cordatum</uri>
+				<uri>https://en.wikipedia.org/wiki/Tanacetum_parthenium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>moederkruid, grande camomille, reunuspietaryrtti, feverfew, Mutterkraut, Moederkruid</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Feverfew.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus zygis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q851544</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36632</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_zygis</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Syzygium%20cordatum%20flower.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20zygis%201.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Talisia esculenta</literal>
+				<literal>Schinus molle</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2600407</uri>
+				<uri>http://www.wikidata.org/entity/Q855896</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=70668</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Talisia_esculenta</uri>
+				<uri>https://en.wikipedia.org/wiki/Schinus_molle</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Peruvian peppertree</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Schinus%20molle.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Arequipa%20-%20Canyon%20de%20Colca%20123%20Schinus%20molle%201.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Xanthium strumarium</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q857159</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42072</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Xanthium_strumarium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>蒼耳, 羊帶來, Late stekelnoot, late stekelnoot, lampourde glouteron, vaaleasappiruoho, rough cocklebur, Gewöhnliche Spitzklette, Gemeine Spitzklette, řepeň durkoman</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthium%20strumarium%20L..jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Xanthium%20strumarium-1.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia fruticosa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q864698</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=318127</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_fruticosa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Greek oregano</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/SalviaFruticosa1%20ST%2006.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Trinia glauca</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q882880</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Trinia_glauca</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Blaugrüner Faserschirm, bezobalka sivá</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Trinia%20glauca%20eF.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Theobroma bicolor</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q893238</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=101884</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Theobroma_bicolor</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>theobroma</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20Tree%20%28Theobroma%20bicolor%29%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia apiana</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q899812</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32906</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_apiana</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>white sage</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20apiana%204.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20apiana.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Sium latifolium</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q905931</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=400332</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sium_latifolium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Grote watereppe, grote watereppe, grande berle, isosorsanputki, wideleaf waterparsnip, greater water-parsnip, Grosser Merk, Breitblättriger Merk, sevlák potoční</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sium%20latifolium%20Prague%202012%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Solidago puberula</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15567835</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Solidago_puberula</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>downy goldenrod</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Solidago%20puberula01.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q15587059</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36198</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_filifolia</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Irish lace marigold</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20filifolia.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Ziziphus spina-christi</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2920458</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42295</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ziziphus_spina-christi</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Christ's thorn</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Ziziphus-areva-israel.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Tristaniopsis laurina</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3005022</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=404856</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tristaniopsis_laurina</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>water-gum</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tristaniopsis%20laurina-tree.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Senecio adenotrichius</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3013841</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Senecio_adenotrichius</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pitomba%20fruit%2C%20in%20Futuro%20Beach%2C%20Fortaleza%2C%20Brazil.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Senecio%20adenotrichius.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3018287</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=33077</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Santalum_spicatum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sandalwood%20in%20Primer%20of%20Forestry%20Poole%201922.png</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Sphagneticola trilobata</literal>
+				<literal>Zanthoxylum brachyacanthum</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2707027</uri>
+				<uri>http://www.wikidata.org/entity/Q3024456</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Sphagneticola_trilobata</uri>
+				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_brachyacanthum</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>南美蟛蜞菊, Bay Biscayne creeping-oxeye</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Wedelia.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/WEDELIA-Sphagneticola%20trilobata%20%286%29.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20brachyacanthum%20Tooloom%20NP%20April%201998.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Tagetes lucida</literal>
+				<literal>Tephrosia vogelii</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2714702</uri>
+				<uri>http://www.wikidata.org/entity/Q3206576</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=80185</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_lucida</uri>
+				<uri>https://en.wikipedia.org/wiki/Tephrosia_vogelii</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>sweetscented marigold</literal>
+				<literal>威氏鐵富豆, Vogel's tephrosia, 白花鐵富豆</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/TagetesLucida244.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tephrosia%20vogelii--%20the%20Fish%20Poison%20Bean%20%2826805852961%29.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Xylopia aethiopica</literal>
+				<literal>Senecio squalidus</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2717116</uri>
+				<uri>http://www.wikidata.org/entity/Q3955284</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316824</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Xylopia_aethiopica</uri>
+				<uri>https://en.wikipedia.org/wiki/Senecio_squalidus</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Ethiopian pepper</literal>
+				<literal>Glanzend kruiskruid, rikkavillakko, oxford ragwort, creulys Rhydychen</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xylopiaaethiopica.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Senetio%20rupester.jpg</literal>
+			</binding>
+			<binding name='taxon_range_map_image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/Range%20map-Senecio%20squalidus-World.svg</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia palaestina</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4116560</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=407907</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_palaestina</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20palaestina%201.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Clinopodium brownei</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4256977</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Clinopodium_brownei</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>伏生風輪菜, Browne's savory</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Clinopodium%20brownei%20imported%20from%20iNaturalist%20photo%2059710085%20on%2028%20March%202020.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -972,6 +1125,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q4519773</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32961</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_ringens</uri>
@@ -989,6 +1145,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q4753499</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42182</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_acanthopodium</uri>
@@ -1023,6 +1182,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q5224068</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42092</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Xanthostemon_oppositifolius</uri>
@@ -1083,6 +1245,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q7406839</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32948</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_moorcroftiana</uri>
 			</binding>
@@ -1114,6 +1279,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q7439559</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=430881</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Scutellaria_californica</uri>
 			</binding>
@@ -1130,6 +1298,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q7515561</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=33946</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Silphium_integrifolium</uri>
@@ -1196,6 +1367,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q7974146</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=447686</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Waterhousea_floribunda</uri>
 			</binding>
@@ -1261,6 +1435,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q8045504</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42124</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Xylopia_aromatica</uri>
 			</binding>
@@ -1277,6 +1454,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q8066282</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=431920</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_nitidum</uri>
@@ -1295,6 +1475,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q9097481</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=417587</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_zanthoxyloides</uri>
 			</binding>
@@ -1309,6 +1492,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q9298209</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomygenus.aspx?id=5607</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Heteranthemis</uri>
 			</binding>
@@ -1322,6 +1508,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10327268</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=450512</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eschweilera_coriacea</uri>
@@ -1354,6 +1543,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10923785</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16196</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Eugenia_pitanga</uri>
 			</binding>
@@ -1366,248 +1558,299 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Cupressus sempervirens</literal>
+				<literal>Salvia officinalis</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q147513</uri>
+				<uri>http://www.wikidata.org/entity/Q1111359</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32950</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Cupressus_sempervirens</uri>
+				<uri>https://en.wikipedia.org/wiki/Salvia_officinalis</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Cyprès commun, Välimerensypressi, سرو ناز, Ciprés del Mediterráneo, Mediteranea cipreso, Mediterranean Cypress, Italian Cypress, Italian cypress, Trauerzypresse, Xiprer mediterrani, Обикновен кипарис, Cipresso, Selvia, Čempres, Čempres, Akdeniz servisi, Äkta cypress, Cipreste-italiano, Italiaanse cipres, Обичен чемпрес, ברוש מצוי</literal>
+				<literal>鼠尾草, Tıbbi ada çayı, Sherebela, šalvia lekárska, sauvia, sauvi, sàlvia, tuinsalie, franse salie, Echte salie, echte salie, Kadulja, Sauge Officinale, Sauge officinale, Sauge, Ryytisalvia, ryytisalvia, Salvia Real, Salvia fina, Salvia, Mermasangre, kitchen sage, common sage, Heilsalbei, Echter Salbei, Læge-Salvie, šalvěj lékařská, Sage</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cypress%20Halefka.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Cypr%C3%A8s.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20officinalis0.jpg</literal>
 			</binding>
 		</result>
 		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia verbenaca</literal>
+			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q148310</uri>
+				<uri>http://www.wikidata.org/entity/Q1313052</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32974</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Zataria</uri>
+				<uri>https://en.wikipedia.org/wiki/Salvia_verbenaca</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Шалфей вербеновый, Kleinbloemige salie, kleinbloemige salie, sauge verveine, wild sage, wild clary, vervain sage, verbena sage, Eisenkraut-Salbei, clari gwyllt, šalvěj sporýšová, Tàrrec, Wildesalie</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20verbenaca%20b.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/SALVIA%20VERBENACA%20-%20LLANERA%20-%20IB-379%20%28T%C3%A0rrec%29.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Tanacetum balsamita</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1451844</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=317329</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tanacetum_balsamita</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Пижма бальзамическая, menta greca, fritola, erba amara, Menthe-coq, Palsamipietaryrtti, palsamipäivänkakkara, Costmary, costmary, Alecost or Balsam Herb, Balsamkraut, maří list balšámový</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Balsamita%20major.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Santolina chamaecyparissus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1543811</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Santolina_chamaecyparissus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Heiligenbloem, cypressenkruid, Nyhähopeayrtti, Graues Heiligenkraut, hen wraig, Espernallac, lavender cotton, Abrótano hembra</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Santoline%20petit-cypr%C3%A8s%20FR%202012.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia nubicola</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1953850</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=466887</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_nubicola</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20nubicola%20flower.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Xanthostemon chrysanthus</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2005777</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=465334</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Xanthostemon_chrysanthus</uri>
+			</binding>
+			<binding name='taxon'>
 				<literal></literal>
 			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Thymus vulgaris</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q148668</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_vulgaris</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Kryddtimjan, Cimbru de câmp, Tomilho, Macierzanka tymianek, frigola, ferigola, farigola, baiassa, badassa, Echte tijm, Timiāns, Vaistinis čiobrelis, Ten, Thym Commun, Thym commun, Frigoule, Farigoule, Timjami, timjami, tarha-ajuruoho, Ezkai, Aed-liivatee, Tomillo limonero, Tomillo Común, Tomillo, Thyme, Garden Thyme, garden thyme, English Thyme, Common Thyme, Echter Thymian, Have-Timian, teim y gerddi, Tymián obecný, Tomell, Farigola</literal>
-			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris100.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris1.JPG/http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris0.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20chrysanthus%202.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Stachys officinalis</literal>
+				<literal>Stachys byzantina</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q157297</uri>
+				<uri>http://www.wikidata.org/entity/Q2034131</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=316846</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Stachys_officinalis</uri>
+				<uri>https://en.wikipedia.org/wiki/Stachys_byzantina</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>药水苏, Буквиця лікарська, Läkebetonika, betonika lekárska, Буковица, Буквица лекарственная, Czyściec lekarski, Bukwica zwyczajna, Bukwica lekarska, Brotonica, Betonie, betonie, Vaistinė notra, Дәрілік жөтелшай, სამკურნალო ბარისპირა, Erba betonica, Orvosi tisztesfű, Wšědna bukwica, Serpinka, Pomjatkowe zelo, Dobra přeslička, Botentki, Lus beatha, Épiaire officinale, Epiaire officinale, Bétoine, bétoine, Rohtopähkämö, Harilik tõnnike, vetónica, selima fina, salima fina, bretónica, bretoña, betónicao, betónica, Betoniko, wood betony, purple betony, common hedgenettle, bishopwort, bishop's wort, betony, Heilziest, Heilbatunge, Heil-Ziest, Gemeiner Ziest, Echte Betonie, Læge-Galtetand, Læge-Betonie, Betonie, cribau San Ffraid, čistec lékařský, Betònica, лечебен ранилист, Dərman mərcanotu, Humlesuga, ベトニー, rohtopähkämö, bukvice lékařská, wild hop, lousewort</literal>
+				<literal>peixinho-da-horta, peixinho, lambari, Gyapjas tisztesfű, nukkapähkämö, woolly hedgenettle, clust yr oen, čistec vlnatý</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Stachys%20officinalis3.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Stachys%20officinalis1.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/0%20Stachys%20byzantina%20-%20Yvoire%20%282%29.JPG</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Thymus serpyllum</literal>
+				<literal>Xeranthemum annuum</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q147251</uri>
+				<uri>http://www.wikidata.org/entity/Q2054752</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42102</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_serpyllum</uri>
+				<uri>https://en.wikipedia.org/wiki/Xeranthemum_annuum</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>鋪地香, 鋪地百里香, 野百里香, 匍匐百里香, Såvaedje pilé, Чебрець звичайний, Backtimjan, Majkina dušica, materina dúška úzkolistá, dúška úzkolistá, dúška materina, Majčina dušica, Deanutimjan, Чабрец обыкновенный, Тимьян ползучий, Богородицына травка, Cimbrișor, Cimbrişor, Thymus serpillum, Macierzanka piaskowa, Serpoulet, serpolet, Menudet, ferigoleta, farigoleta, Wilde tijm, Kleine tijm, kleine tijm, Mazais mārsils, Paprastasis čiobrelis, მხოხავი ბეგქონდარა, Serpillo, Serpolo, vadkakukkfű, Mezei kakukkfű, keskenylevelű kakukkfű, Pólna babyduška, Płónc, Pěskowa babyduška, Kulowske zelo, Thym serpolet, serpolet à feuilles étroites, Serpolet, Kangasajuruoho, kangasajuruoho, Rabanduserohi, Nõmmeliivatee, Nõmm-liivatee, Mehitsehein, Kaetisrohi, Jaanitee, tomillo sanjuanero, tomillo salsero, serpol, creeping thyme, breckland thyme, Pěskowy płonjak, Wilder Thymian, Sandthymian, Sand-Thymian, Gundelkraut, Feldquendel, Smalbladet Timian, Teim Breckland, mateřídouška úzkolistá, Timó negre, Serpoll, Salsa de pastor, Frigoleta, Farigola mascle, Farigola de muntanya, Majčina dušica, Tin-lann, Munudig, дива мащерка, Кейәү үләне, Sürünən kəklikotu, زعتر بري, Timó, Feldkümmel, Богородская трава, Majčina dušica, Timo, wild thyme, سوسنبر, Serpol, Serpol</literal>
+				<literal>suchokvět roční</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20serpyllum1.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xeranthemum%20annuum.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Taxodium distichum</literal>
+				<literal>Sideritis syriaca</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q148950</uri>
+				<uri>http://www.wikidata.org/entity/Q2376648</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=411422</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Taxodium_distichum</uri>
+				<uri>https://en.wikipedia.org/wiki/Sideritis_syriaca</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>落羽松, Таксодиум двурядный, Cypryśnik błotny, ラクウショウ, Cipresso di palude, Wšědny ćisowc, ברוש הביצות, Ciprés dos Illós, Cyprès chauve, Floridansuosypressi, Ciprés de los pantanos, Bald Cypress, Echte Sumpfzypresse, Almindelig Sumpcypres, Tisovec dvouřadý, Xiprer dels pantans, Moerascipres, Baldcypress, bald cypress</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Taxodium%20distichum%20NRCSMS01010.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Thymus pulegioides</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q149474</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_pulegioides</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Macierzanka zwyczajna, Grote tijm, grote tijm, Keturbriaunis čiobrelis, Wšědna babyduška, Thym faux pouliot, serpolet commun, Nurmiajuruoho, nurmiajuruoho, Paljalehine liivatee, Serpillo, Large Thyme, large thyme, Wšedny płonjak, Breitblättriger Thymian, Arzneithymian, Bredbladet Timian, teim gwyllt mawr, mateřídouška vejčitá, lemon thyme</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20pulegioides.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q151002</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_carnosus</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Tomillo Carnoso</literal>
-			</binding>
-			<binding name='image_link'>
 				<literal></literal>
 			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Satureja hortensis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q157283</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Summer_savory</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Sommarkyndel, Saturejka záhradná, Чабер садовый, или Чабер душистый, Cząber ogrodowy, tuinbonenkruid, scharekruid, peperkruid, eenjarig bonenkruid, Poprica, Kesäkynteli, kesäkynteli, Ajedrea de jardín, summer savory, Sommer-Bohnenkraut, Saturejka zahradní, Sajolida de jardí, Градинска чубрица, Cimbru, Bonenkruid, Borsikafű, Sater</literal>
-			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Satureja%20hortensis%20bgiu.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sideritis%20syriaca%20%28Ironwort%20scan%29.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Zingiber officinale</literal>
+				<literal>Teucrium polium</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q35625</uri>
+				<uri>http://www.wikidata.org/entity/Q2415298</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36417</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Ginger</uri>
+				<uri>https://en.wikipedia.org/wiki/Teucrium_polium</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>garden ginger, 薑</literal>
+				<literal>Germandrée tomenteuse, Germandrée blanc-grisâtre, ožanka polejová</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cassell%27s%20dictionary%20of%20cookery.%20With%20numerous%20illustrations.%20Containing%20about%20nine%20thousand%20recipes%20%28IA%20b21529553%29.pdf</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20capitatum2006.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Zingiber zerumbet</literal>
+				<literal>Syzygium cordatum</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q60980</uri>
+				<uri>http://www.wikidata.org/entity/Q2477640</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=459881</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Zingiber_zerumbet</uri>
+				<uri>https://en.wikipedia.org/wiki/Syzygium_cordatum</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>薑花, bitter ginger</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zingiber-zerumbet.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Syzygium%20cordatum%20flower.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Valeriana officinalis</literal>
+				<literal>Talisia esculenta</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q157819</uri>
+				<uri>http://www.wikidata.org/entity/Q2600407</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=312999</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Valerian_(herb)</uri>
+				<uri>https://en.wikipedia.org/wiki/Talisia_esculenta</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>纈草, 缬草, 鹿子草, 缬草, 欧缅草, Nữ lang, Валеріана лікарська, Писэйтурын, Валерьянка, Kedi otu, Vendelört, Läkevänderot, Äkta vänderot, одољен, Валериан, Valerijana, Valerianaofficinalis, Makebohija, Zdravilna špajka, Baldrijan, valeriána lekárska, Valerijana, Odoljen, Odolen, Macina trava, Валерьяновые капли, Валерьянка, Валерианы лекарственной корневища с корнями, Валериана лекарственная, Valeriană, طبي والرين, Kozłek Lekarski, Lækjevendelrot, Echte Valeriaan, Echte valeriaan, echte valeriaan, सुगन्धवाल, Legevendelrot, legevendelrot, Боза тикше, Baldriāns, Ārstnieciskais baldriāns, Ārstniecības baldriāns, Vaistinis valerijonas, Мышык тамыр, 설령쥐오줌풀, Түйіншөп, 纈草, 吉草, バルドリアン, セイヨウカノコソウ, ケッソウ, Valeriana Comune, Erba dei Gatti, Garðabrúða, Akar Valerian, Orvosi macskagyökér, Lěkarski bałdrijan, Valerijana, ולריאן רפואי, ולריאן, Herba benta, Caorthann corraigh, Valériane sauvage, Valériane Officinale, valériane officinale, Valeriane officinale, Valériane des collines, Valériane à petites feuilles, Herbe de Saint-Georges, Herbe aux Chats, Herbe à la Femme Meurtrie, Rohtovirmajuuri, rohtovirmajuuri, سنبلالطیب, سنبل طیب, سنبل الطیب, Belar bedeinkatu, Harilik palderjan, valeriana medicinal, valeriana de las boticas, valeriana común, hierba o yerba de los gatos, alfeñique, garden valerian, common valerian, cat's valerian, all heal, Βαλεριάνα, Αγριοζαμπούκος, Echter Baldrian, Tolljan, Stinkwurz, Mondwurz, Katzenwargel, Echter Baldrian, Bullerjan, Augenwurzel, Arzneibaldrian, Læge-Baldrian, Triaglog gyffredin, triaglog, Кушак ути, kozlík lékařský, Valeriana vera, Odoljen, лечебна дилянка, Валяр'ян лекавы, Dərman pişikotu, 纈草, 纈草, Корневища с корнями валерианы, Hexenkraut, Macina trava, Palderjan, Katzenkraut, Валериана, ناردين مخزني, Valeriaan, garden heliotrope, Valerian, Valerian</literal>
+				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Valeriana%20officinalis%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-143.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Valeriana%20officinalis.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Pitomba%20fruit%2C%20in%20Futuro%20Beach%2C%20Fortaleza%2C%20Brazil.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Sium latifolium</literal>
+				<literal>Sphagneticola trilobata</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q905931</uri>
+				<uri>http://www.wikidata.org/entity/Q2707027</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=409995</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Sium_latifolium</uri>
+				<uri>https://en.wikipedia.org/wiki/Sphagneticola_trilobata</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Breitblättriger Merk, sevlák potoční, Grote watereppe, grote watereppe, grande berle, isosorsanputki, wideleaf waterparsnip, greater water-parsnip, Grosser Merk</literal>
+				<literal>南美蟛蜞菊, Bay Biscayne creeping-oxeye</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Sium%20latifolium%20Prague%202012%201.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Wedelia.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/WEDELIA-Sphagneticola%20trilobata%20%286%29.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='Commons_category'>
-				<literal>Solidago puberula</literal>
+				<literal>Tagetes lucida</literal>
 			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15567835</uri>
+				<uri>http://www.wikidata.org/entity/Q2714702</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36200</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Solidago_puberula</uri>
+				<uri>https://en.wikipedia.org/wiki/Tagetes_lucida</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>downy goldenrod</literal>
+				<literal>sweetscented marigold</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Solidago%20puberula01.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/TagetesLucida244.JPG</literal>
 			</binding>
 		</result>
 		<result>
+			<binding name='Commons_category'>
+				<literal>Xylopia aethiopica</literal>
+			</binding>
 			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q15587059</uri>
+				<uri>http://www.wikidata.org/entity/Q2717116</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=101925</uri>
 			</binding>
 			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_filifolia</uri>
+				<uri>https://en.wikipedia.org/wiki/Xylopia_aethiopica</uri>
 			</binding>
 			<binding name='taxon'>
-				<literal>Irish lace marigold</literal>
+				<literal>Ethiopian pepper</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20filifolia.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xylopiaaethiopica.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1616,6 +1859,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q17140701</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42126</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Xylopia_frutescens</uri>
@@ -1643,6 +1889,260 @@
 		</result>
 		<result>
 			<binding name='Commons_category'>
+				<literal>Cupressus sempervirens</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q147513</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=12665</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cupressus_sempervirens</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Cyprès commun, Välimerensypressi, سرو ناز, Ciprés del Mediterráneo, Mediteranea cipreso, Mediterranean Cypress, Italian Cypress, Italian cypress, Trauerzypresse, Xiprer mediterrani, Обикновен кипарис, Cipresso, Selvia, Čempres, Čempres, Akdeniz servisi, Äkta cypress, Cipreste-italiano, Italiaanse cipres, Обичен чемпрес, ברוש מצוי</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cypress%20Halefka.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Cypr%C3%A8s.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q148310</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=467780</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Zataria</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal></literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus vulgaris</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q148668</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36631</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_vulgaris</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Kryddtimjan, Cimbru de câmp, Tomilho, Macierzanka tymianek, frigola, ferigola, farigola, baiassa, badassa, Echte tijm, Timiāns, Vaistinis čiobrelis, Ten, Thym Commun, Thym commun, Frigoule, Farigoule, Timjami, timjami, tarha-ajuruoho, Ezkai, Aed-liivatee, Tomillo limonero, Tomillo Común, Tomillo, Thyme, Garden Thyme, garden thyme, English Thyme, Common Thyme, Echter Thymian, Have-Timian, teim y gerddi, Tymián obecný, Tomell, Farigola</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris100.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris1.JPG | http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20vulgaris0.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus serpyllum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q147251</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36628</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_serpyllum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Nõmmeliivatee, Nõmm-liivatee, Mehitsehein, Kaetisrohi, Jaanitee, tomillo sanjuanero, tomillo salsero, serpol, creeping thyme, breckland thyme, Pěskowy płonjak, Wilder Thymian, Sandthymian, Sand-Thymian, Gundelkraut, Feldquendel, Smalbladet Timian, Teim Breckland, mateřídouška úzkolistá, Timó negre, Serpoll, Salsa de pastor, Frigoleta, Farigola mascle, Farigola de muntanya, Majčina dušica, Tin-lann, Munudig, дива мащерка, Кейәү үләне, Sürünən kəklikotu, زعتر بري, Timó, Feldkümmel, Богородская трава, Majčina dušica, Timo, wild thyme, سوسنبر, Serpol, Serpol, 鋪地香, 鋪地百里香, 野百里香, 匍匐百里香, Såvaedje pilé, Чебрець звичайний, Backtimjan, Majkina dušica, materina dúška úzkolistá, dúška úzkolistá, dúška materina, Majčina dušica, Deanutimjan, Чабрец обыкновенный, Тимьян ползучий, Богородицына травка, Cimbrișor, Cimbrişor, Thymus serpillum, Macierzanka piaskowa, Serpoulet, serpolet, Menudet, ferigoleta, farigoleta, Wilde tijm, Kleine tijm, kleine tijm, Mazais mārsils, Paprastasis čiobrelis, მხოხავი ბეგქონდარა, Serpillo, Serpolo, vadkakukkfű, Mezei kakukkfű, keskenylevelű kakukkfű, Pólna babyduška, Płónc, Pěskowa babyduška, Kulowske zelo, Thym serpolet, serpolet à feuilles étroites, Serpolet, Kangasajuruoho, kangasajuruoho, Rabanduserohi</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20serpyllum1.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Stachys officinalis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q157297</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=35407</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Stachys_officinalis</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>药水苏, Буквиця лікарська, Läkebetonika, betonika lekárska, Буковица, Буквица лекарственная, Czyściec lekarski, Bukwica zwyczajna, Bukwica lekarska, Brotonica, Betonie, betonie, Vaistinė notra, Дәрілік жөтелшай, სამკურნალო ბარისპირა, Erba betonica, Orvosi tisztesfű, Wšědna bukwica, Serpinka, Pomjatkowe zelo, Dobra přeslička, Botentki, Lus beatha, Épiaire officinale, Epiaire officinale, Bétoine, bétoine, Rohtopähkämö, Harilik tõnnike, vetónica, selima fina, salima fina, bretónica, bretoña, betónicao, betónica, Betoniko, wood betony, purple betony, common hedgenettle, bishopwort, bishop's wort, betony, Heilziest, Heilbatunge, Heil-Ziest, Gemeiner Ziest, Echte Betonie, Læge-Galtetand, Læge-Betonie, Betonie, cribau San Ffraid, čistec lékařský, Betònica, лечебен ранилист, Dərman mərcanotu, Humlesuga, ベトニー, rohtopähkämö, bukvice lékařská, wild hop, lousewort</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Stachys%20officinalis3.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Stachys%20officinalis1.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Taxodium distichum</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q148950</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=80066</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Taxodium_distichum</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>落羽松, Таксодиум двурядный, Cypryśnik błotny, ラクウショウ, Cipresso di palude, Wšědny ćisowc, ברוש הביצות, Ciprés dos Illós, Cyprès chauve, Floridansuosypressi, Ciprés de los pantanos, Bald Cypress, Echte Sumpfzypresse, Almindelig Sumpcypres, Tisovec dvouřadý, Xiprer dels pantans, Moerascipres, Baldcypress, bald cypress</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Taxodium%20distichum%20NRCSMS01010.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Thymus pulegioides</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q149474</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=50003</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_pulegioides</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Macierzanka zwyczajna, Grote tijm, grote tijm, Keturbriaunis čiobrelis, Wšědna babyduška, Thym faux pouliot, serpolet commun, Nurmiajuruoho, nurmiajuruoho, Paljalehine liivatee, Serpillo, Large Thyme, large thyme, Wšedny płonjak, Breitblättriger Thymian, Arzneithymian, Bredbladet Timian, teim gwyllt mawr, mateřídouška vejčitá, lemon thyme</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20pulegioides.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q151002</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=475258</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Thymus_carnosus</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Tomillo Carnoso</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal></literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Satureja hortensis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q157283</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=33176</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Summer_savory</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Sommarkyndel, Saturejka záhradná, Чабер садовый, или Чабер душистый, Cząber ogrodowy, tuinbonenkruid, scharekruid, peperkruid, eenjarig bonenkruid, Poprica, Kesäkynteli, kesäkynteli, Ajedrea de jardín, summer savory, Sommer-Bohnenkraut, Saturejka zahradní, Sajolida de jardí, Градинска чубрица, Cimbru, Bonenkruid, Borsikafű, Sater</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Satureja%20hortensis%20bgiu.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Valeriana officinalis</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q157819</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=400139</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Valerian_(herb)</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Валерьяновые капли, Валерьянка, Валерианы лекарственной корневища с корнями, Валериана лекарственная, Valeriană, طبي والرين, Kozłek Lekarski, Lækjevendelrot, Echte Valeriaan, Echte valeriaan, echte valeriaan, सुगन्धवाल, Legevendelrot, legevendelrot, Боза тикше, Baldriāns, Ārstnieciskais baldriāns, Ārstniecības baldriāns, Vaistinis valerijonas, Мышык тамыр, 설령쥐오줌풀, Түйіншөп, 纈草, 吉草, バルドリアン, セイヨウカノコソウ, ケッソウ, Valeriana Comune, Erba dei Gatti, Garðabrúða, Akar Valerian, Orvosi macskagyökér, Lěkarski bałdrijan, Valerijana, ולריאן רפואי, ולריאן, Herba benta, Caorthann corraigh, Valériane sauvage, Valériane Officinale, valériane officinale, Valeriane officinale, Valériane des collines, Valériane à petites feuilles, Herbe de Saint-Georges, Herbe aux Chats, Herbe à la Femme Meurtrie, Rohtovirmajuuri, rohtovirmajuuri, سنبلالطیب, سنبل طیب, 纈草, 缬草, 鹿子草, 缬草, 欧缅草, Nữ lang, Валеріана лікарська, Писэйтурын, Валерьянка, Kedi otu, 纈草, 纈草, Корневища с корнями валерианы, Hexenkraut, Macina trava, Palderjan, Katzenkraut, Валериана, ناردين مخزني, Valeriaan, garden heliotrope, Valerian, Valerian, Vendelört, Läkevänderot, Äkta vänderot, одољен, Валериан, Valerijana, Valerianaofficinalis, Makebohija, Zdravilna špajka, Baldrijan, valeriána lekárska, Valerijana, Odoljen, Odolen, Macina trava, سنبل الطیب, Belar bedeinkatu, Harilik palderjan, valeriana medicinal, valeriana de las boticas, valeriana común, hierba o yerba de los gatos, alfeñique, garden valerian, common valerian, cat's valerian, all heal, Βαλεριάνα, Αγριοζαμπούκος, Echter Baldrian, Tolljan, Stinkwurz, Mondwurz, Katzenwargel, Echter Baldrian, Bullerjan, Augenwurzel, Arzneibaldrian, Læge-Baldrian, Triaglog gyffredin, triaglog, Кушак ути, kozlík lékařský, Valeriana vera, Odoljen, лечебна дилянка, Валяр'ян лекавы, Dərman pişikotu</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Valeriana%20officinalis.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Valeriana%20officinalis%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-143.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia sclarea</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q157872</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32964</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_sclarea</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Misk ada çayı, Muskatellsalvia, Šalvia muškátová, Шалфей мускатный, Szałwia muszkatołowa, scharlei, muskaatsalie, Mušotowa želbija, Sauge sclarée, Myskisalvia, European sage, Europe sage, clary sage, Muskatellersalbei, Broget Salvie, clari, šalvěj muškátová, Müşk sürvəsi</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20sclarea3.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Salvia glutinosa</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q158374</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=32931</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Salvia_glutinosa</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Yapışkan adaçayı, Klibbsalvia, Шалфей железистый, или Шалфей клейкий, Sauge glutineuse, Keltasalvia, sticky sage, sticky clary, Jupiter's sage, Jupiter's distaff, hardy sage, glutinous sage, Klebriger Salbei, Kleb-Salbei, šalvěj lepkavá</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20glutinosa%20-%20Glutinous%20sage%20-%20Oklu%20%C5%9Falba.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Lamiaceae%20-%20Salvia%20glutinosa-1.JPG</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Teucrium scordium</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q158832</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=430901</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Teucrium_scordium</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>Дубравник чесночный, Ożanka czosnkowa, Moerasgamander, moerasgamander, Camedrio scordio, Kobołkata dubčica, germandrée des marais, Rohtoteurikka, wood sage, water germander, Lauchgamander, Lauch-Gamander, Knoblauch-Gamander, Ožanka čpavá, Kurtluca</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Teucrium%20scordium1%20eF.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
 				<literal>Cinnamomum iners</literal>
 			</binding>
 			<binding name='item'>
@@ -1665,6 +2165,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q10955930</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=410525</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Salvia_amplexicaulis</uri>
 			</binding>
@@ -1682,6 +2185,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q11065930</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42195</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_ovalifolium</uri>
 			</binding>
@@ -1689,7 +2195,7 @@
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20ovalifolium%20from%20Parambikulam%2004.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Aramadalu%20%28Kannada-%20%E0%B2%85%E0%B2%B0%E0%B2%AE%E0%B2%BE%E0%B2%A6%E0%B2%B2%E0%B3%81%29%20%2814393351718%29.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20ovalifolium%20from%20Parambikulam%2004.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Aramadalu%20%28Kannada-%20%E0%B2%85%E0%B2%B0%E0%B2%AE%E0%B2%BE%E0%B2%A6%E0%B2%B2%E0%B3%81%29%20%2814393351718%29.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1713,6 +2219,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q12701073</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=10517</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Chukrasia</uri>
 			</binding>
@@ -1730,6 +2239,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q13114182</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42199</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zanthoxylum_rhetsa</uri>
 			</binding>
@@ -1737,12 +2249,15 @@
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20rhetsa%20-%20Dried%20fruits%20and%20seeds%20-MHNT.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20rhetsa.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20rhetsa%20-%20Dried%20fruits%20and%20seeds%20-MHNT.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum%20rhetsa.jpg</literal>
 			</binding>
 		</result>
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q13399102</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36622</uri>
 			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Thymus_capitatus</uri>
@@ -1775,6 +2290,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15231437</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401864</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Sphaeranthus_indicus</uri>
 			</binding>
@@ -1792,6 +2310,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15245321</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42258</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Zinnia_elegans</uri>
 			</binding>
@@ -1799,7 +2320,7 @@
 				<literal>百日草, ostálka sličná</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zinnienbl%C3%BCte%20Zinnia%20elegans%20stack15%2020190722-RM-7222254.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Zinnia%20elegans%20with%20Bombus%2001.JPG</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zinnienbl%C3%BCte%20Zinnia%20elegans%20stack15%2020190722-RM-7222254.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Zinnia%20elegans%20with%20Bombus%2001.JPG</literal>
 			</binding>
 		</result>
 		<result>
@@ -1837,6 +2358,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15389985</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42093</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Xanthostemon_paradoxus</uri>
 			</binding>
@@ -1844,7 +2368,7 @@
 				<literal></literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20paradoxus%20fruit%201.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20paradoxus%20flowers%201.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20paradoxus%20fruit%201.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Xanthostemon%20paradoxus%20flowers%201.jpg</literal>
 			</binding>
 		</result>
 		<result>
@@ -1893,6 +2417,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15393006</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=16595</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Feroniella_lucida</uri>
 			</binding>
@@ -1910,6 +2437,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q31936</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=70774</uri>
+			</binding>
 			<binding name='wikipedia'>
 				<uri>https://en.wikipedia.org/wiki/Syzygium_malaccense</uri>
 			</binding>
@@ -1917,7 +2447,47 @@
 				<literal>馬來蓮霧, Malaysian apple</literal>
 			</binding>
 			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070321-6134%20Syzygium%20malaccense.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Pommerac%20trinidad.jpg</literal>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070321-6134%20Syzygium%20malaccense.jpg | http://commons.wikimedia.org/wiki/Special:FilePath/Pommerac%20trinidad.jpg</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Zingiber officinale</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q35625</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=42254</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ginger</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>薑, garden ginger</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Cassell%27s%20dictionary%20of%20cookery.%20With%20numerous%20illustrations.%20Containing%20about%20nine%20thousand%20recipes%20%28IA%20b21529553%29.pdf</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='Commons_category'>
+				<literal>Zingiber zerumbet</literal>
+			</binding>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q60980</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=401412</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Zingiber_zerumbet</uri>
+			</binding>
+			<binding name='taxon'>
+				<literal>薑花, bitter ginger</literal>
+			</binding>
+			<binding name='image_link'>
+				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Zingiber-zerumbet.JPG</literal>
 			</binding>
 		</result>
 		<result>
@@ -1970,6 +2540,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15358644</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=468764</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2112,6 +2685,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15399126</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=101934</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>sterculia</literal>
 			</binding>
@@ -2122,6 +2698,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15428022</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=465442</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2147,6 +2726,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15428024</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=36755</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2180,6 +2762,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15542628</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=80145</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal>ashen hoarypea</literal>
@@ -2228,6 +2813,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15551460</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=475438</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>Santolina, Manzanilla de Gredos</literal>
 			</binding>
@@ -2256,8 +2844,11 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15555509</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=317326</uri>
+			</binding>
 			<binding name='taxon'>
-				<literal>Büyük yapraklı pire otu, Großblättrige Straußmargerite</literal>
+				<literal>Маруна великолиста, Grossblättrige Margerite, Velecvetni vratič, Řimbaba velkolistá, Gronjasti vratić, Karajpel gjethemadh, Büyük yapraklı pire otu, Wrotycz wielkolistny, Großblättrige Straußmargerite</literal>
 			</binding>
 			<binding name='image_link'>
 				<literal></literal>
@@ -2313,6 +2904,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15557688</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=406506</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2375,6 +2969,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15565151</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=417889</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2408,6 +3005,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15568521</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=41222</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2419,6 +3019,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15570649</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=104631</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal>toothleaf goldeneye</literal>
 			</binding>
@@ -2429,6 +3032,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15588328</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=423954</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2496,6 +3102,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q15634490</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=455152</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2550,6 +3159,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q17134874</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=406728</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2719,6 +3331,9 @@
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q21300629</uri>
 			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=419380</uri>
+			</binding>
 			<binding name='taxon'>
 				<literal></literal>
 			</binding>
@@ -2732,6 +3347,9 @@
 			</binding>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q21302968</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=33178</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2809,6 +3427,9 @@
 		<result>
 			<binding name='item'>
 				<uri>http://www.wikidata.org/entity/Q39095689</uri>
+			</binding>
+			<binding name='GRIN_URL'>
+				<uri>https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=454247</uri>
 			</binding>
 			<binding name='taxon'>
 				<literal></literal>
@@ -2925,275 +3546,6 @@
 			</binding>
 			<binding name='image_link'>
 				<literal></literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tagetes tenuifolia</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q572693</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_tenuifolia</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>kääpiösamettikukka</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20tenuifolia%20g122.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Solidago virgaurea</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q599435</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Solidago_virgaurea</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Echte guldenroede, echte guldenroede, solidage verge dor, kultapiisku, goldenrod, Gewöhnliche Goldrute, Gemeine Goldrute, zlatobýl obecný</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Solidago%20virgaurea%20minuta1.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/S.%20virgaurea2015-10-10.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tagetes minuta</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q599870</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_minuta</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>印加孔雀草, Geelgroen afrikaantje, haisusamettikukka, muster John Henry, gold y De, Camamilla americana</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20minuta00.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20minuta%20flower.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tordylium apulum</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q622341</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tordylium_apulum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Tordyle des Pouilles, Mediterranean hartwort, zapalička apulijská</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Kafkalithra%20Tordylium%20apulum.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tagetes erecta</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q644934</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_patula</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>孔雀草, French marigold, French marigold, gold Ffrainc, aksamitník rozkladitý</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/French%20marigold%20Tagetes%20patula.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/French%20marigold.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Thymus herba-barona</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q648505</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_herba-barona</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20herba-barona.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q673731</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Trachyspermum_roxburghianum</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Radhuniseeds.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tagetes erecta</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q759876</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tagetes_erecta</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>cempōhualxōchitl, flor de muerto, cempasúchil, Aztec marigold, gold talsyth, aksamitník vzpřímený, 萬壽菊</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20x%20erecta1.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Aztec%20Marigold%20Tagetes%20erecta.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Tanacetum parthenium</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q818481</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Tanacetum_parthenium</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>moederkruid, grande camomille, reunuspietaryrtti, feverfew, Mutterkraut, Moederkruid</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Feverfew.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Thymus zygis</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q851544</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Thymus_zygis</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal></literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Thymus%20zygis%201.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Schinus molle</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q855896</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Schinus_molle</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Peruvian peppertree</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Schinus%20molle.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Arequipa%20-%20Canyon%20de%20Colca%20123%20Schinus%20molle%201.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Xanthium strumarium</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q857159</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Xanthium_strumarium</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>蒼耳, 羊帶來, Late stekelnoot, late stekelnoot, lampourde glouteron, vaaleasappiruoho, rough cocklebur, Gewöhnliche Spitzklette, Gemeine Spitzklette, řepeň durkoman</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Xanthium%20strumarium%20L..jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Xanthium%20strumarium-1.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia fruticosa</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q864698</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_fruticosa</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Greek oregano</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/SalviaFruticosa1%20ST%2006.JPG</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Trinia glauca</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q882880</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Trinia_glauca</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>Blaugrüner Faserschirm, bezobalka sivá</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Trinia%20glauca%20eF.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Theobroma bicolor</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q893238</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Theobroma_bicolor</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>theobroma</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20Tree%20%28Theobroma%20bicolor%29%201.jpg</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='Commons_category'>
-				<literal>Salvia apiana</literal>
-			</binding>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q899812</uri>
-			</binding>
-			<binding name='wikipedia'>
-				<uri>https://en.wikipedia.org/wiki/Salvia_apiana</uri>
-			</binding>
-			<binding name='taxon'>
-				<literal>white sage</literal>
-			</binding>
-			<binding name='image_link'>
-				<literal>http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20apiana%204.jpg/http://commons.wikimedia.org/wiki/Special:FilePath/Salvia%20apiana.jpg</literal>
 			</binding>
 		</result>
 	</results>
