@@ -1,0 +1,133 @@
+So, this lecture is about
+what genomic data science is. So, I'm going to try to quickly introduce
+the major disciplines that comprise genomic data science and tell you what,
+what we consider to be part of it. So, genomic data science is at the
+intersection of biology, statistics and computer science. And we're calling it genomic data science. But it actually goes by many other names,
+some of which you might have heard, such as computational genomics,
+computational biology, bioinformatics, or statistical genomics. Regardless of which name you use, the
+activities of genomic data scientists do all sort of fall into these same and
+to similar categories. So what do we do in,
+in genomic data science? We start with some, some,
+let's talk about sort of humans, we start with some subjects. By the way, it doesn't have to be humans,
+it could be mice or model organisms. But let's say we're talking about humans. We'd want to go and
+collect some samples from those humans. So, those could just be,
+if we're looking at normal development, we might just collect some
+skin cells from normal people. And then prepare those samples in the lab,
+send them for sequencing. The sequencer then generates enormous
+amounts of data that we have to do something with. So what we typically will do
+when we're looking at humans is, we take those sequences which
+are very short fragments. We call those reads,
+because you're reading the DNA, so I'll use the term reads, and
+others will in this course as well. To mean a little bit of sequences
+come off a sequencer which is part of someone's genome. And we take those reads and we align
+them to the reference human genome, and there is one reference genome, for now. Which represents, for now,
+sort of average northern European male. Oh, in the near future we're probably
+going to have many other reference genomes as well. But in any case, we align these
+reads to the reference genome and that tells us how the differ
+from the reference genome. And also lets us kind of compile them
+all up on one another and see how, see what sort of differences
+there are even within the genome. Now, remember for every genome of a person you actually
+have two copies of every chromosome. And that's because you got one
+copy from mom and one from dad. So one of the things we study for example
+at this phase, is how do your copies of those, of each gene differ between
+the two copies that you have. And then once we've done some kind of
+analysis we may deposit that data in a public database such as one
+of the databases at N, at NCBI. And we apply many other types of analyses to these data sets to make more biological
+conclusions about what's going on. So that's sort of very, very broadly
+speaking, what genomic data science is. So we start typically
+with experimental design. So if you're, if you're going to do
+genomics, you have to first think about, well, I have a question,
+a scientific question I want to answer. And I have to decide, well,
+how much data do I need? How many subjects do I need? What kind of data we get? I've been talking about sequence data so far, but actually there's
+various modifications we can do. Some new technologies that go by
+names like ChIP-seq and methyl-seq. They'll let you study other
+things about the genome as well. So the first thing you do is you, you
+come up with an experimental design which if everything goes will you hope will
+allow you to answer those questions. And that's really critical. If you don't, these experiments, even though we're generating a lot of
+data far more cheaply than before, it's still is expensive and
+time consuming to do these experiments. And you don't want to reach
+the end of your experiment and discover that you simply don't have
+the right data to answer your question. So once you've decided on
+your experimental design, you generate your data,
+these, then your typical, then you'll take those big data sets and
+as I was saying a few minutes ago. The first thing you would typically do is
+align them to the reference genome and find out how they're,
+how they differ from that genome and assemble them together in some form. So that might, that might mean
+that you're looking at say, if you've captured RNA from the,
+from the cells. When you align them to
+the genome you can see, for every gene in the genome,
+how much of that gene was present. So, that's the kind of
+thing that you would, you'd be doing at the pa, part where
+you're aligning and assembling things. You might be assembling the genes that
+were expressed in a set of cells or tissue you were studying. So, another big s, important step,
+in this process is preprocessing and normalization of the data. Now these, because these data
+sets are very big, there's, there's various types of,
+of biases that can, that can come out. And this is sort of the, the law of large
+numbers comes into play a lot here. Even, all of the technology that
+we're talking about, even though I'm talking about it like it's very nice,
+clean technology, it's not perfect. So the sequencing machine itself,
+it makes mistakes. The process of collecting
+the data introduces biases. We might collect more of
+some tissues than others. We might collect some genes might be
+representative of higher levels because of biases, not because of true bio,
+biological differences. The sequences machines
+themselves sometimes have have errors that are not random and
+are hard to identify. And sometimes they have other errors that
+are random and we can identify those and get rid of those. So we basically want to take
+these big data sets and apply some computational and
+statistical methods. To, to sort of correct as best we can
+any kinds of systematic errors or any sort of bias that are in that data
+before we move onto the next steps. So once we've got the data normalized,
+preprocessed and normalized we then apply
+a variety of techniques. That come from fields within statistics,
+within computer science and within biology to,
+to make our conclusions. So, so for example, in statistics and
+machine learning scientists develop a wide variety of techniques, some of which
+we'll talk about later in this course. To, to go from this preprocessed
+normalized data to scientific conclusions. So, in order to then take
+that normalized data and make this conclusions one of the things
+that people within the field of genomic data science themselves
+do is develop software. So when we've, once we've,
+when we have an experiment and I'll just take one as an example. One that I'm, I'm,
+very familiar with is RNAC. because RNAC, which we'll talk about
+probably time and again in this course, is, is a set of experiments or
+an experimental protocol. Where you can capture just the genes that
+are being turned on in a set of cells. And you measure those by sequencing. And this is a pro, this is
+an experimental, an experimental paradome. It's very popular. You can use it to study cancer. You can use, use it to study development. You can use it to study evolution and
+hundreds or thousands of different
+kinds of conditions. And because of that,
+the experimental protocol for doing the RNAC part is more or
+less standardized. That means that we can design
+software that will in a more or less standardized way go from this raw sequence data to something which is more
+amenable to making biological conclusions. What you really want when
+you're doing RNA seq-, RNA sequencing is you would like
+to know okay, I had my samples. I want to know in each sample
+what genes were turned on and what levels were those genes present in? So there are,
+there are software packages to do that, are developed by people in,
+in genomic data science. And software development
+of course requires, not just getting the code
+to work one time. But also documenting it, making sure
+it works for lots of different cases. So there's a lot of software engineering
+kind of principles, and, and algorithmic principles that are important
+in doing that sort of development. So another thing that we study
+in genome data science is broa, another broad category of,
+of questions, or population genomics. So, I've mostly been talking about
+individual sorts of questions like what causes a cancer to be a cancer? But we can study other things too, such
+as we can look at a population and ask, what makes a particular group of people
+more susceptible to a particular type of disease? Or why do some people have, resistance
+to a particular type of disease? So, or why do some people have certain
+traits in their, in their population? So population genomics refers to looking
+at, rather than looking at one person at a time or small groups, look at whole
+populations and fi, and, and, and studying their genomes
+to see how they differ. And how those differences lead to, to recognizable differences in,
+in the people in those populations. So, so another way to,
+to characterize genomics and to characterize some work in,
+in genomic data science is, when we collect experiments of different
+types and pull them all together. So you might call that
+integrative genomics, you could also call it systems biology,
+another popular term. But that refers to computational and
+statistical activities where we're taking data that comes from sequencing
+experiments, say of different types. As well as other kinds of measurements. They might be measurements
+on what we call the proteon, measurements separate from the DNA. And integrating this all together
+to make biological conclusions. So we would call that
+integrative genomics.
