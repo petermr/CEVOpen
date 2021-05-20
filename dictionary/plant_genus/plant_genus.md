@@ -29,3 +29,19 @@ The dictionary contains ~25,000 terms
   - date of creation
   - Restful URL of the query
 - Add property id to the dictionary (P1421)
+
+### Updated SPARQL query (2021-05-20)
+```
+#Plant Genera
+SELECT ?plant_genus ?plant_genusLabel ?GRINid ?plant_genusAltLabel  (GROUP_CONCAT(DISTINCT ?image;separator="|") as ?images) ?wikipedia ?synonym ?taxon_range_map_image WHERE {
+  ?plant_genus wdt:P31 wd:Q16521;
+    wdt:P105 wd:Q34740;
+    wdt:P1421 ?GRINid.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  OPTIONAL { ?plant_genus wdt:P18 ?image. }
+  OPTIONAL { ?plant_genus wdt:P5973 ?synonym. }
+  OPTIONAL { ?plant_genus wdt:P181 ?taxon_range_map_image. }
+  OPTIONAL { ?wikipedia schema:about ?plant_genus ; schema:isPartOf <https://en.wikipedia.org/> }
+}
+GROUP BY ?plant_genus ?plant_genusLabel ?GRINid ?plant_genusAltLabel ?wikipedia ?synonym ?taxon_range_map_image
+```
