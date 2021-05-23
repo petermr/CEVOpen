@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='item'/>
+		<variable name='itemLabel'/>
+		<variable name='synonyms'/>
+		<variable name='itemDescription'/>
+		<variable name='wikipedia'/>
+	</head>
+	<results>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q788558</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Plant_breeding</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>plant breeding</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>the art and science of changing the traits of plants in order to produce desired characteristics</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1066303</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Spray_drying</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>spray drying</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>method of producing a dry powder from a liquid or slurry by rapidly drying with a hot gas</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q723912</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Freeze-drying</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>freeze-drying</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>low temperature dehydration process</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>cryodesiccation, lyophilisation, lyophilization</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q332585</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Supercritical_drying</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Supercritical drying</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Scientific process</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1648382</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Vacuum_distillation</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>vacuum distillation</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>distillation performed under reduced pressure, which allows the purification of compounds not readily distilled at ambient pressures or simply to save time or energy</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q787099</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Autolysis_(biology)</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>autolysis</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A programmed cell death process observed in bacteria and filamentous fungi and leading to spontaneous death by lysis. Examples are lysis of the mother cell during sporulation of Bacillus subtilis and self-degradation of fungal cells in Aspergillus ni</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q903071</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Desiccation</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>desiccation</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>state of extreme dryness, or the process of extreme drying</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q845312</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Budding</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>budding</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>form of cellular asexual reproduction</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q464666</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Vegetative_reproduction</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>vegetative reproduction</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>leaf</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q593803</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anthesis</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Anthesis</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>period of flowering</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3117517</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Wet_season</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>wet season</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>yearly period of high rainfall, especially in the tropics</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q51504589</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Methods and equipment for the sun-drying of fruits</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Berkeley, Calif. :University of California, College of Agriculture, Agricultural Experiment Station,1941. | University of California, Davis Libraries (archive.org) View Book</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q48834911</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>developmental stage</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>biological phase</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>life stage, stage of life</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q12142810</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Drought_tolerance</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Drought tolerance</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q885360</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>blooming</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1312</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Spring_(season)</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>spring</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>one of the Earth's four temperate seasons, occurring between winter and summer</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>spring season, springtime, springtime season</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1313</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Summer</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>summer</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>warmest of the four temperate seasons, beginning or centered around the summer solstice</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>summer season, summertime season</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q43445</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Female</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>female organism</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>plant or animal which is female</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>♀, female, female creature, sex — female</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q28456368</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Plant_LED_incubator</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Plant LED Incubator</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1342838</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>growth</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>the increase in size or mass of an entire organism, a part of an organism or a cell</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>GO:0040007</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1364</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Fruit</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>fruit</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>part of a flowering plant</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>fruits</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q38018232</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Contact drying: a review of experimental and mechanistic modeling approaches.</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>scientific article published on 09 June 2012</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q44148</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Male</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>male organism</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>male animal or plant</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>♂, male creature, male organism, sex — male</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q56355737</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Rehydration</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Rehydration</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Wikimedia disambiguation page</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3612405</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Fruit set</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q16999820</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Residual_oil</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Residual oil</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q57712541</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>CONVECTIVE DRYING OF AGRICULTURAL PRODUCTS. EFFECT OF CONTINUOUS AND STEPWISE CHANGE IN DRYING AIR TEMPERATURE</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q193788</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sunlight</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>sunlight</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>electromagnetic radiation given off by the Sun</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>Sunlight</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q63385598</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>microwave drying</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drying materials with a microwave oven</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q11466</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Temperature</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>temperature</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>physical property of matter that quantitatively expresses the common notions of hot and cold</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>temp</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q193838</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Germination</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>germination</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Process by which an organism grows from a seed</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q5283759</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Diurnal_temperature_variation</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>diurnal temperature variation</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>variation between a high temperature and a low temperature that occurs during the same day</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q58232462</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Studies on Microwave-Vacuum Drying of Foods</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q213753</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Harvest</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>harvest</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>process of gathering mature crops from the fields</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>harvesting</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q40763</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Seed</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>seed</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>embryonic plant enclosed in a protective outer covering (seed coat)</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q146575</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Dry_season</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>dry season</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>yearly period of low rainfall, especially in the tropics</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>hemanta</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1934105</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Micropropagation</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Micropropagation</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>practice of rapidly multiplying stock plant material to produce many progeny plants, using modern plant tissue culture methods</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1807716</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Food_dehydrator</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Food dehydrator</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1314</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Autumn</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>autumn</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>one of the Earth's four temperate seasons, occurring between summer and winter</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>autumn season, autumntime, autumntime season, fall, fall season, falltime</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1311</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Winter</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>winter</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>one of the Earth's four temperate seasons, occurring between autumn and spring</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>winter season, wintertime, wintertime season</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q190200</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Altitude</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>altitude</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>height in relation to a certain reference point; (general) distance measurement, usually in the vertical or "up" direction, between a reference datum and a point or object. The reference datum also often varies according to the context</literal>
+			</binding>
+			<binding name='synonyms'>
+				<literal xml:lang='en'>height</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q134624</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pollination</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>pollination</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>biological pollination process occurring in plants</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
