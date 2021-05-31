@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to determine how different these 93 samples are, we took the 227 ingredients (201 species) as a reference. This led us to build a simplified presence/absence matrix reduced to 83 herbal tea samples and 10 spices mixtures (as outgroup) totalizing 93 individuals, and 201 species (variables). The crude matrix of presence/absence of species was used to compute a dissimilarity matrix using Darwin 6 V.6.0.9 (2015-04-15) (
+ <xref rid="B94" ref-type="bibr">Perrier et al., 2003</xref>; 
+ <xref rid="B95" ref-type="bibr">Perrier and Jacquemoud-Collet, 2006</xref>). The Sokal-Sneath dissimilarity index was calculated (un2) (
+ <xref ref-type="disp-formula" rid="e1">Eq. 1</xref>).
+ <disp-formula id="e1">
+  <math id="me1">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo> </mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mi>b</mi>
+        <mo>+</mo>
+        <mi>c</mi>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mi>b</mi>
+        <mo>+</mo>
+        <mi>c</mi>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+  <label>(1)</label>
+ </disp-formula>Where d
+ <sub>ij</sub> is the dissimilarity between samples i and j, a: number of variables where x
+ <sub>i</sub> = presence and x
+ <sub>j</sub> = presence, b: number of variables where x
+ <sub>i</sub> = presence and x
+ <sub>j</sub> = absence and c: number of variables where x
+ <sub>i</sub> = absence and x
+ <sub>j</sub> = absence. Dissimilarities are even and are Euclidean distances. The dissimilarity is = 0 for two samples sharing the 201 species and = 1 for two samples which present 0 species shared. This index concerns “presence/absence” data where only “presence” modality is informative, modality “absence” expressing mainly an absence of information. These two modalities are not symmetrical and their exchange leads to a completely different dissimilarity value. This index considers that a common absence for two units is uninformative to measure their dissimilarity (
+ <xref rid="B95" ref-type="bibr">Perrier and Jacquemoud-Collet, 2006</xref>). Therefore, similarity here reflects the number of coinciding species and dissimilarity is inversely proportional to this.
+</p>

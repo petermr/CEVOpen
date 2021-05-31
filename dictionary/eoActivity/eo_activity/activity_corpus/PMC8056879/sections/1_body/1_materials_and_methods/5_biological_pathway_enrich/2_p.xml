@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0080">SwissTargetPrediction web server (
+ <ext-link ext-link-type="uri" xlink:href="http://www.swisstargetprediction.ch" id="intref0030" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.swisstargetprediction.ch</ext-link>) was used to predict the top fifteen human protein targets for each of the selected bioactives of HMPs [
+ <xref rid="bib27" ref-type="bibr">27</xref>]. Ninety-three human protein targets were set after redundancy removal (
+ <xref rid="appsec1" ref-type="sec">Supplementary Table S4</xref>). Besides, one hundred seventy-two human protein targets of the SARS-CoV-2 were chosen from the literature [
+ <xref rid="bib28" ref-type="bibr">28</xref>,
+ <xref rid="bib29" ref-type="bibr">29</xref>]. Pathway enrichment analysis was performed by the Enrichr database [
+ <xref rid="bib30" ref-type="bibr">30</xref>,
+ <xref rid="bib31" ref-type="bibr">31</xref>]. Enrichr displayed results according to 
+ <italic>p</italic>-values computed using the Fisher exact test for pathway and database enrichment for Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways and VirusMint database. VirusMint (
+ <ext-link ext-link-type="uri" xlink:href="https://maayanlab.cloud/Harmonizome/resource/Virus+MINT" id="intref0035" xmlns:xlink="http://www.w3.org/1999/xlink">https://maayanlab.cloud/Harmonizome/resource/Virus+MINT</ext-link>) is a database that contains all the protein interactions between the virus and human proteins [
+ <xref rid="bib32" ref-type="bibr">32</xref>]. Further, the Revigo web server (
+ <ext-link ext-link-type="uri" xlink:href="http://revigo.irb.hr/" id="intref0040" xmlns:xlink="http://www.w3.org/1999/xlink">http://revigo.irb.hr/</ext-link>) was used to remove redundancy from the list of Gene Ontology (GO) biological processes (p &lt; 0.001) obtained from Enrichr. Results were plotted using a scatterplot on the Revigo database.
+</p>

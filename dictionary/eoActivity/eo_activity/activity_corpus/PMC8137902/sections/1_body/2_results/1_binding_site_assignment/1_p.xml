@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The structure of spike protein co-crystallized with the ligand is yet to be available in PDB, hence P2RANK was used to identify the potential drug binding pockets in concurrence with key hotspot residues reported in the literature. Based on the interaction plot of Spike protein (RBD)-ACE2 receptor complex (PDB ID: 6M0J), the residues of Spike protein that are involved in the interactions were identified as GLY502, THR500, LYS417, TYR449, GLY446, ASN487, and GLY496. In addition, the P2RANK prediction also covered the ASN343 glycosylation site spanning the RBD of spike glycoprotein. Considering all these important residues based on the literature, cavities and solvent accessible areas as predicted by P2RANK, an optimal docking grid box was created over the spike protein (PBD ID: 7BZ5). It should be noted that the 6M0J structure was only utilized for mapping the ACE2-Binding region on the spike protein, and was not used for docking studies, as some atoms were found missing in the structure. Hence, the 7BZ5 structure (ACE2 unbound form) with no such issues were utilized for docking and simulation studies. The Grid file was generated with the following coordinates (
+ <italic>x</italic> = −85.56, 
+ <italic>y</italic> = −23.44, 
+ <italic>z</italic> = −16.90) using Autodock tools program and was proceeded for molecular docking using Vina as shown in 
+ <xref ref-type="fig" rid="F5">Figure 5</xref>.
+</p>

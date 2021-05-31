@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A point grid was used to calculate the slice area, which was completely randomized to the cutting surface. First, calculate the area around each point 
+ <math id="jats-math-1">
+  <mrow>
+   <mo stretchy="false">(</mo>
+   <mi>a</mi>
+   <mo stretchy="false">(</mo>
+   <mi>p</mi>
+   <mo stretchy="false">)</mo>
+   <mo>=</mo>
+   <mi mathvariant="normal">Δ</mi>
+   <mi>X</mi>
+   <mo>×</mo>
+   <mi mathvariant="normal">Δ</mi>
+   <mi>Y</mi>
+   <mo stretchy="false">)</mo>
+  </mrow>
+ </math>. In the grid, then estimate the area of each slice by multiplying the total number of the points on the grid that hitting the slices 
+ <math id="jats-math-2">
+  <mfenced close=")" open="(" separators="">
+   <mrow>
+    <msubsup>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>n</mi>
+    </msubsup>
+    <mi>p</mi>
+   </mrow>
+  </mfenced>
+ </math>. Then, the total volume is calculated by multiplying the aggregate areas in slices thickness (Figure 
+ <xref rid="vms3372-fig-0001" ref-type="fig">1</xref>). Briefly, the total volume of the uterine horn was estimation using the following formulas:
+ <disp-formula id="vms3372-disp-0001">
+  <math id="jats-math-3">
+   <mrow>
+    <msub>
+     <mi>V</mi>
+     <mtext>total uterine horn</mtext>
+    </msub>
+    <mo>=</mo>
+    <munderover>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>n</mi>
+    </munderover>
+    <mrow>
+     <mi>p</mi>
+     <mo>×</mo>
+     <mi>a</mi>
+     <mo stretchy="false">(</mo>
+     <mi>p</mi>
+     <mo stretchy="false">)</mo>
+     <mo>×</mo>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

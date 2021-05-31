@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The sequenced 
+ <italic>P. caerulea</italic> specimen was collected from the Xishuangbanna Tropical Flowers and Plants Garden (100.786661 E, 22.014452 N) and deposited in the herbarium of the Yunnan Institute of Tropical Crops (Xishuangbanna, China) under the specimen voucher number YITC-2020-FZ-P-023. Its genomic DNA was extracted using the DNeasy Plant Mini Kit (Qiagen), and the quality and quantity of the genomic DNA were characterized using gel electrophoresis and the Nano-Drop 2000 spectrometer (Thermo Fisher Scientific, Waltham, MA, USA), respectively. DNA library construction followed the manufacturer's instructions (Illumina, San Diego, CA, USA) with insert sizes of 350 bp, and paired-end (PE) sequencing was conducted using the Illumina HiSeq 2500 platform). The clean reads were assembled with SPAdes-3.5.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://soap.genomics.org.cn/soapdenovo.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://soap.genomics.org.cn/soapdenovo.html</ext-link>) based on sequence overlap and paired-end relationships, the Kmer values used were Kmer 79 and Kmer 97 . To validate the assembly, the 4 boundaries of the IR region have been verified by Sanger sequencing, and the Sanger sequencing results are consistent with the second-generation sequencing assembly results. Annotation was performed using CpGAVAS2 (Shi et al. 
+ <xref rid="CIT0008" ref-type="bibr">2019</xref>) and ORF Finder (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/orffinder/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/orffinder/</ext-link>). To validate the correctness of gene annotation, putative gene and protein sequences were BLAST searched in the Nt (nucleotide databases) and Nr (non-redundant protein sequences) NCBI databases (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/</ext-link>). The tRNA genes were further verified using the online tools ARWEN (Version 1.2, 
+ <ext-link ext-link-type="uri" xlink:href="http://mbio-serv2.mbioekol.lu.se/ARWEN/" xmlns:xlink="http://www.w3.org/1999/xlink">http://mbio-serv2.mbioekol.lu.se/ARWEN/</ext-link>) (Laslett and Canbäck 
+ <xref rid="CIT0006" ref-type="bibr">2008</xref>) and tRNAscan-SE 2.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://lowelab.ucsc.edu/tRNAscan-SE/" xmlns:xlink="http://www.w3.org/1999/xlink">http://lowelab.ucsc.edu/tRNAscan-SE/</ext-link>) (Lowe and Chan 
+ <xref rid="CIT0009" ref-type="bibr">2016</xref>). The chloroplast genome data of 
+ <italic>P. caerulea</italic> was uploaded to GenBank (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih.gov/</ext-link>) under the accession number MT884000.
+</p>

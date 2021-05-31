@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Compounds from each plant with best binding energy/score.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Plant id</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Plant name</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Compound name</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Binding energy</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>KDeep ΔG (Kcal/mol)</bold>
+    </th>
+    <th valign="top" align="center" colspan="3" style="border-bottom: thin solid #000000;" rowspan="1">
+     <bold>Interactions</bold>
+    </th>
+   </tr>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>(kcal/mol)</bold>
+    </th>
+    <th rowspan="1" colspan="1"/>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Hydrogen bond (Distance in Å)</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Hydrophobic interaction (Distance in Å)</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Pi-stacking</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM1</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Tylophora indica</italic> (Burm. F.) Merrill Syn. 
+     <italic>Tylophora asthmatica</italic> (Roxb.) Wt &amp; Arn.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Rutaecarpine</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−7.9</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−6.15</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">SER371 (3.23), SER373 (3.14)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE342 (3.16), VAL367 (3.39), LEU368 (3.67), PHE374 (3.64)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">TRP436</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM2</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Glycyrrhiza glabra</italic> L.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Licoagrodin</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.7</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−9.45</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">GLY339 (3.13), ASP364 (3.49), VAL367 (4.06), SER371 (3.13)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE338 (3.89), GLU340 (3.71), ASP364 (2.93), VAL367 (3.69), LEU368 (3.46), PHE374 (3.93), TRP436 (3.83)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM3</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Camellia sinensis</italic> L.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3-O-Galloylepicatechin-(4Beta-6)-Epicatechin-3-O-Gallate</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.3</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−10.95</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE338 (2.46), ASN370 (2.17), SER71 (2.57), SER373 (2.21), ASN437 (3.44), ASN440 (2.67)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE338 (3.77), PHE342 (3.63), VAL367 (3.58)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM4</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Justicia adhatoda</italic> L., Syn. 
+     <italic>Adhatoda vasica</italic> Nees
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Daucosterol</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−7.6</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−12.77</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE342 (3.23), SER373 (3.72), TRP436 (3.13) ARG509 (2.94)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">LEU335 (3.41), PHE338 (3.55), PHE342 (3.51), ASP364 (3.94), VAL367 (3.72), PHE374 (3.80)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM5</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Ocimum tenuiflorum</italic> L., Syn. 
+     <italic>Ocimum sanctum</italic> L.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Caryophyllene</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.1</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−13.77</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE338 (2.87), GLY339 (2.88), SER373 (2.70)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">LEU335 (3.00), PHE338 (3.75), PHE342 (3.89), ASP364 (3.30), VAL367 (3.62), LEU368 (3.19), PHE374 (3.72)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM6</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Zingiber officinale</italic> Roscoe
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Geraniin</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.2</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−9.40</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">VAL362 (3.79), ASP364 (3.04), VAL367 (3.29), SER371 (3.81)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">LEU368 (3.68)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM7</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Curcuma longa</italic> L.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">O-Demethyl demethoxycurcumin</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.0</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−7.84</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CYS336 (3.04), ASP364 (3.84)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">LEU335 (3.70), PHE338 (3.42), ASP364 (3.67), VAL367 (3.55), LEU368 (3.95), PHE374 (3.85)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE374, TRP436</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">NITM8</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>Syzygium aromaticum</italic> L.
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Tellimagrandin-II</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−8.2</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">−15.68</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CYS336 (2.90), PRO337 (3.52), GLY339 (3.72), GLU340 (3.37), ASN343 (3.15), ASP364 (3.73), VAL367 (3.72), SER371 (2.91), SER373 (2.93)</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">PHE338 (3.28), VAL367 (3.47), LEU368 (3.39)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>Binding energy—Autodock binding score; KDeep ΔG—absolute protein ligand binding affinity calculated using KDeep tool</italic>.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

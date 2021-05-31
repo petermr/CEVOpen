@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Considering 100% cell viability in control sets, viability of treated groups was calculated using the following formula: 
+ <disp-formula id="eq2">
+  <label>(2)</label>
+  <math id="M2">
+   <mtable>
+    <mtr>
+     <mtd>
+      <mi>%</mi>
+      <mtext>cell viability</mtext>
+      <mo>=</mo>
+      <mfrac>
+       <mrow>
+        <mtext>treated group</mtext>
+        <mfenced open="(" close=")">
+         <mrow>
+          <mtext>mean O</mtext>
+          <mo>.</mo>
+          <mtext>D</mtext>
+          <mo>.</mo>
+         </mrow>
+        </mfenced>
+       </mrow>
+       <mrow>
+        <mtext>control group</mtext>
+        <mfenced open="(" close=")">
+         <mrow>
+          <mtext>mean O</mtext>
+          <mo>.</mo>
+          <mtext>D</mtext>
+          <mo>.</mo>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </mfrac>
+      <mo>×</mo>
+      <mn>100</mn>
+      <mo>.</mo>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+</p>

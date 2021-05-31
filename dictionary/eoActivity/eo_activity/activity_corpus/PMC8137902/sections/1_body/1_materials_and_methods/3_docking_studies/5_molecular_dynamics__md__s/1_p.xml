@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MD simulation of Apo protein and docked complexes were carried out using Desmond version 2020. Here, OPLS_2005 force field was used to initiate the MD simulation, and the system was solvated using SPC (Simple point charge) water model (
+ <xref rid="B106" ref-type="bibr">106</xref>). The neutralization of the system was performed by adding counter ions and the details of ions and concentration added to complexes are given in 
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 11</xref>. Energy minimization of the entire system was performed using OPLS_2005, as it is an all-atom type force field (
+ <xref rid="B107" ref-type="bibr">107</xref>). In the studies on natural compounds, the application of OPLS_2005 force field was found to be highly optimal. Hence, it was adopted for this study (
+ <xref rid="B27" ref-type="bibr">27</xref>). The geometry of water molecules, the bond lengths and the bond angles of heavy atoms was restrained using the SHAKE algorithm (
+ <xref rid="B108" ref-type="bibr">108</xref>). Simulation of the continuous system was executed by applying periodic boundary conditions (
+ <xref rid="B109" ref-type="bibr">109</xref>) and long-range electrostatics was maintained by the particle mesh Ewald method (
+ <xref rid="B110" ref-type="bibr">110</xref>, 
+ <xref rid="B111" ref-type="bibr">111</xref>). The equilibration of the system was done using NPT ensemble with temperature at 300 k and pressure at 1.0 bar. The coupling of temperature-pressure parameters was done using the Berendsen coupling algorithm (
+ <xref rid="B112" ref-type="bibr">112</xref>). On post-minimization and equilibration of the system, the Apo protein system consisted of 28,645 atoms in total and number of atoms for all the complexes are given in 
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 11</xref>. On post-preparation of the system, the production run was performed for 50 ns with a time step of 1.2 fs and trajectory recording was done for every 5.0 ps summing up to the recording of 10,000 frames. The calculation of the RMSD (Root mean square deviation) was done for the backbone atoms and was analyzed graphically to understand the nature of protein-ligand interactions (
+ <xref rid="B113" ref-type="bibr">113</xref>, 
+ <xref rid="B114" ref-type="bibr">114</xref>). RMSF (Root Mean Square Fluctuation) for every residue was calculated to understand the major conformational changes in the residues in comparison between the initial state and dynamics state (
+ <xref rid="B115" ref-type="bibr">115</xref>). The compactness of the protein-ligand complexes in comparison to Apo form was calculated using radius of gyration rGyr (
+ <xref rid="B116" ref-type="bibr">116</xref>). The 2D interactions of Protein-ligand complex showing the stability of the complexes and interaction sites were generated for the complete run time.
+</p>

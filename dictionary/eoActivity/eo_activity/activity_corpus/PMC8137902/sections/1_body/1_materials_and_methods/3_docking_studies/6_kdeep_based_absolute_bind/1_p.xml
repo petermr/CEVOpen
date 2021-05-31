@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>On post-molecular dynamics simulation, the top ranking complexes from each plant were energy minimized and was also analyzed for absolute binding affinity (ΔG) using KDeep (
+ <xref rid="B117" ref-type="bibr">117</xref>). KDeep employs machine learning approach with implementation of 3D convolutional neural networks. KDeep analyses the input and voxelizes into pharmacophore features like (aromatic, hydrophobic, hydrogen-bond acceptor/donor, positive, and negative ionizable). The prepared input is passed to the DCNN (Deep Convolutional Neural Network) model which is pre-trained by PDB bind v.2016 database, wherein, based on adaptability to the model the absolute free energy of the protein-ligand complex is calculated.
+</p>

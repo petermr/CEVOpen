@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An internal Perl script was initially used to handle the raw read data in fastq (fq) format. Clean reads were acquired by deleting reads including adapters, poly-N sequences, and low-quality reads from the raw data. Moreover, we statistically assessed the sequence repetition, GC content, and Q20 and Q30 levels of clean read data. For all library samples, the left read1 and right read2 files were placed in two larger files (left fq and right fq, respectively). Assembly of the transcriptome was performed based on left/right fq data using the Trinity method, with min_kmer_cov set to 2 and all other parameters automatically set to default [
+ <xref rid="pone.0242776.ref043" ref-type="bibr">43</xref>, 
+ <xref rid="pone.0242776.ref044" ref-type="bibr">44</xref>].
+</p>

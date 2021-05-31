@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="cancers-13-02036-f006" orientation="portrait" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>Overall impact of dietary compounds on infections. Dietary compounds can modify the bacterial population indirectly, based on the interaction between phages and bacteria, and by bacterial competition. (
+   <bold>a</bold>) A dietary compound (nutrient) can interfere with the activity of a pathogenic bacterium at different levels by: inactivating a bacterial toxin (interposed inhibition); inducing a prophage already present in the invading bacterium, which then lyses the pathogen (indirect inhibition); acting bactericidal on invading species (direct inhibition); inactivating a lytic phage of an antagonist commensal species that, freed from the phagial burden, can compete with the pathogen (mediated inhibition). (
+   <bold>b</bold>) Simulation of the interaction between bacteria and phages. The model considers the presence of a commensal bacterium (resident) and its phage. These reach an equilibrium where the number of cells or phages remains constant. A pathogenic bacterium (invader) will have virulence factors that favor its replication. As a result, it overgrows the commensal species. The activation of phages, namely through dietary-mediated induction of prophages, reduces the replication rate of the invader and re-establish, as a result, the commensal population. For the simulation, the parameters used were as follows. Carrying capacity: 2.2 × 10
+   <sup>7</sup>. Maximum growth rate, 0.47 (commensal), and 0.72 (invader). Phage adsorption rate: 10
+   <sup>–9</sup>, Phage lyse rate: 1.0. Phage burst size: 50. Particle loss rate: 0.05. Initial population of commensal bacteria: 50 000 cells. Amount of invader bacteria inoculated: 500 cells. Amount of phages: 1000 particles each. The model was implemented in 
+   <italic>Julia</italic> language using the 
+   <italic>DifferentialEquations</italic> package.
+  </p>
+ </caption>
+ <graphic xlink:href="cancers-13-02036-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

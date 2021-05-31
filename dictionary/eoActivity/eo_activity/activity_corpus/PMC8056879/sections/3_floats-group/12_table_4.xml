@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl4">
+ <label>Table 4</label>
+ <caption>
+  <p>ADME/T prediction of selected bioactives from HMP</p>
+ </caption>
+ <alt-text id="alttext0010a">Table 4</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Class</th>
+    <th>Properties</th>
+    <th>6,6' Biapigenin</th>
+    <th>Candibirin G</th>
+    <th>Candibirin H</th>
+    <th>Catechin 5-O-gallate</th>
+    <th>Hypericin</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="5" align="left">
+     <bold>Absorption</bold>
+    </td>
+    <td align="left">Caco-2 permeability (&gt; -5.15 cm/s)</td>
+    <td align="left">Not optimal
+     <break/>-6.351 cm/s
+    </td>
+    <td align="left">Optimal
+     <break/>-5.06 cm/s
+    </td>
+    <td align="left">Optimal
+     <break/>-5.06 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.716 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.277 cm/s
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Pgp-inhibitor</td>
+    <td align="left">+
+     <break/>0.649
+    </td>
+    <td align="left">++
+     <break/>0.863
+    </td>
+    <td align="left">++
+     <break/>0.863
+    </td>
+    <td align="left">++
+     <break/>0.727
+    </td>
+    <td align="left">---
+     <break/>0.04
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Pgp-substrate</td>
+    <td align="left">---
+     <break/>0.022
+    </td>
+    <td align="left">---
+     <break/>0.166
+    </td>
+    <td align="left">---
+     <break/>0.166
+    </td>
+    <td align="left">---
+     <break/>0.044
+    </td>
+    <td align="left">---
+     <break/>0.071
+    </td>
+   </tr>
+   <tr>
+    <td align="left">HIA (Human Intestinal Absorption)
+     <break/>(≥30%: HIA+; &lt;30%: HIA-)
+    </td>
+    <td align="left">-
+     <break/>0.43
+    </td>
+    <td align="left">+
+     <break/>0.5
+    </td>
+    <td align="left">+
+     <break/>0.5
+    </td>
+    <td align="left">-
+     <break/>0.355
+    </td>
+    <td align="left">-
+     <break/>0.499
+    </td>
+   </tr>
+   <tr>
+    <td align="left">F (20% Bioavailability)
+     <break/>(≥20%: F20+; &lt;20%: F20-)
+    </td>
+    <td align="left">+
+     <break/>0.572
+    </td>
+    <td align="left">-
+     <break/>0.434
+    </td>
+    <td align="left">-
+     <break/>0.434
+    </td>
+    <td align="left">+
+     <break/>0.522
+    </td>
+    <td align="left">+
+     <break/>0.616
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3" align="left">
+     <bold>Distribution</bold>
+    </td>
+    <td align="left">PPB (Plasma Protein Binding)
+     <break/>(90%)
+    </td>
+    <td align="left">83.574 %</td>
+    <td align="left">82.842 %</td>
+    <td align="left">82.842 %</td>
+    <td align="left">86.718 %</td>
+    <td align="left">79.862 %</td>
+   </tr>
+   <tr>
+    <td align="left">Volume distribution (0.04∼20 L/kg)</td>
+    <td align="left">-0.821 L/kg</td>
+    <td align="left">-0.169 L/kg</td>
+    <td align="left">-0.169 L/kg</td>
+    <td align="left">-1.187 L/kg</td>
+    <td align="left">-1.026 L/kg</td>
+   </tr>
+   <tr>
+    <td align="left">BBB (Blood–Brain Barrier)
+     <break/>(BB ratio &gt;=0.1: BBB+; BB ratio &lt;0.1: BBB-)
+    </td>
+    <td align="left">---
+     <break/>0.236
+    </td>
+    <td align="left">-
+     <break/>0.38
+    </td>
+    <td align="left">-
+     <break/>0.38
+    </td>
+    <td align="left">++
+     <break/>0.736
+    </td>
+    <td align="left">++
+     <break/>0.885
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="10" align="left">
+     <bold>Metabolism</bold>
+    </td>
+    <td align="left">P450 CYP1A2 inhibitor</td>
+    <td align="left">++
+     <break/>0.812
+    </td>
+    <td align="left">---
+     <break/>0.15
+    </td>
+    <td align="left">---
+     <break/>0.15
+    </td>
+    <td align="left">---
+     <break/>0.099
+    </td>
+    <td align="left">++
+     <break/>0.848
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP1A2 substrate</td>
+    <td align="left">-
+     <break/>0.428
+    </td>
+    <td align="left">-
+     <break/>0.488
+    </td>
+    <td align="left">-
+     <break/>0.488
+    </td>
+    <td align="left">-
+     <break/>0.424
+    </td>
+    <td align="left">-
+     <break/>0.444
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP3A4 inhibitor</td>
+    <td align="left">++
+     <break/>0.827
+    </td>
+    <td align="left">++
+     <break/>0.847
+    </td>
+    <td align="left">++
+     <break/>0.847
+    </td>
+    <td align="left">-
+     <break/>0.312
+    </td>
+    <td align="left">---
+     <break/>0.042
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP3A4 substrate</td>
+    <td align="left">-
+     <break/>0.458
+    </td>
+    <td align="left">+
+     <break/>0.674
+    </td>
+    <td align="left">+
+     <break/>0.674
+    </td>
+    <td align="left">+
+     <break/>0.532
+    </td>
+    <td align="left">-
+     <break/>0.336
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C9 inhibitor</td>
+    <td align="left">---
+     <break/>0.156
+    </td>
+    <td align="left">+
+     <break/>0.517
+    </td>
+    <td align="left">+
+     <break/>0.517
+    </td>
+    <td align="left">---
+     <break/>0.251
+    </td>
+    <td align="left">---
+     <break/>0.116
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C9 substrate</td>
+    <td align="left">+
+     <break/>0.619
+    </td>
+    <td align="left">-
+     <break/>0.352
+    </td>
+    <td align="left">-
+     <break/>0.352
+    </td>
+    <td align="left">-
+     <break/>0.488
+    </td>
+    <td align="left">-
+     <break/>0.398
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C19 inhibitor</td>
+    <td align="left">---
+     <break/>0.116
+    </td>
+    <td align="left">---
+     <break/>0.2
+    </td>
+    <td align="left">---
+     <break/>0.2
+    </td>
+    <td align="left">+
+     <break/>0.568
+    </td>
+    <td align="left">---
+     <break/>0.119
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C19 substrate</td>
+    <td align="left">-
+     <break/>0.403
+    </td>
+    <td align="left">-
+     <break/>0.469
+    </td>
+    <td align="left">-
+     <break/>0.469
+    </td>
+    <td align="left">-
+     <break/>0.404
+    </td>
+    <td align="left">-
+     <break/>0.496
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2D6 inhibitor</td>
+    <td align="left">-
+     <break/>0.455
+    </td>
+    <td align="left">+
+     <break/>0.513
+    </td>
+    <td align="left">+
+     <break/>0.513
+    </td>
+    <td align="left">-
+     <break/>0.404
+    </td>
+    <td align="left">---
+     <break/>0.235
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2D6 substrate</td>
+    <td align="left">-
+     <break/>0.484
+    </td>
+    <td align="left">-
+     <break/>0.425
+    </td>
+    <td align="left">-
+     <break/>0.425
+    </td>
+    <td align="left">+
+     <break/>0.517
+    </td>
+    <td align="left">-
+     <break/>0.322
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <bold>Excretion</bold>
+    </td>
+    <td align="left">T 
+     <sub>1/2</sub> (Half Life Time)
+     <break/>( &gt;8h: high;
+     <break/>3h&lt; Cl &lt; 8h: moderate;
+     <break/>&lt;3h: low)
+    </td>
+    <td align="left">Low
+     <break/>2.432 h
+    </td>
+    <td align="left">Low
+     <break/>2.044 h
+    </td>
+    <td align="left">Low
+     <break/>2.044 h
+    </td>
+    <td align="left">Low
+     <break/>1.494 h
+    </td>
+    <td align="left">Moderate
+     <break/>3.306 h
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Clearance rate (&gt;15 mL/min/kg:high; 5mL/min/kg&lt; Cl &lt; 15mL/min/kg: moderate;
+     <break/>&lt;5 mL/min/kg: low)
+    </td>
+    <td align="left">Low
+     <break/>1.177 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>1.103 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>1.103 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>1.201 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>0.671 mL/min/kg
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5" align="left">
+     <bold>Toxicity</bold>
+    </td>
+    <td align="left">hERG (hERG Blockers)</td>
+    <td align="left">+
+     <break/>0.666
+    </td>
+    <td align="left">++
+     <break/>0.722
+    </td>
+    <td align="left">++
+     <break/>0.722
+    </td>
+    <td align="left">+
+     <break/>0.662
+    </td>
+    <td align="left">-
+     <break/>0.494
+    </td>
+   </tr>
+   <tr>
+    <td align="left">H-HT (Human Hepatotoxicity)</td>
+    <td align="left">---
+     <break/>0.248
+    </td>
+    <td align="left">+
+     <break/>0.528
+    </td>
+    <td align="left">+
+     <break/>0.528
+    </td>
+    <td align="left">-
+     <break/>0.366
+    </td>
+    <td align="left">---
+     <break/>0.182
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Ames (Ames Mutagenicity)</td>
+    <td align="left">-
+     <break/>0.388
+    </td>
+    <td align="left">---
+     <break/>0.298
+    </td>
+    <td align="left">---
+     <break/>0.298
+    </td>
+    <td align="left">-
+     <break/>0.47
+    </td>
+    <td align="left">---
+     <break/>0.292
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Skin sensitization</td>
+    <td align="left">---
+     <break/>0.282
+    </td>
+    <td align="left">---
+     <break/>0.263
+    </td>
+    <td align="left">---
+     <break/>0.263
+    </td>
+    <td align="left">---
+     <break/>0.271
+    </td>
+    <td align="left">-
+     <break/>0.313
+    </td>
+   </tr>
+   <tr>
+    <td align="left">FDAMDD (Maximum Recommended Daily Dose</td>
+    <td align="left">+
+     <break/>0.608
+    </td>
+    <td align="left">---
+     <break/>0.272
+    </td>
+    <td align="left">---
+     <break/>0.272
+    </td>
+    <td align="left">+
+     <break/>0.624
+    </td>
+    <td align="left">+
+     <break/>0.674
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Class</th>
+    <th>Properties</th>
+    <th>Pseudohypericin</th>
+    <th>Kaempferol 3-glucoside 7-rhamnoside</th>
+    <th>Kaempferol 7,4 diglucoside</th>
+    <th>Tribuloside</th>
+    <th>Tribulosin</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="5" align="left">
+     <bold>Absorption</bold>
+    </td>
+    <td align="left">Caco-2 permeability (&gt; -5.15 cm/s)</td>
+    <td align="left">Not optimal
+     <break/>-6.466 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.485 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.651 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.433 cm/s
+    </td>
+    <td align="left">Not optimal
+     <break/>-6.417 cm/s
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Pgp-inhibitor</td>
+    <td align="left">---
+     <break/>0.06
+    </td>
+    <td align="left">-
+     <break/>0.401
+    </td>
+    <td align="left">-
+     <break/>0.393
+    </td>
+    <td align="left">++
+     <break/>0.723
+    </td>
+    <td align="left">++
+     <break/>0.802
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Pgp-substrate</td>
+    <td align="left">---
+     <break/>0.101
+    </td>
+    <td align="left">---
+     <break/>0.053
+    </td>
+    <td align="left">---
+     <break/>0.011
+    </td>
+    <td align="left">---
+     <break/>0.039
+    </td>
+    <td align="left">---
+     <break/>0.082
+    </td>
+   </tr>
+   <tr>
+    <td align="left">HIA (Human Intestinal Absorption)
+     <break/>(≥30%: HIA+; &lt;30%: HIA-)
+    </td>
+    <td align="left">-
+     <break/>0.427
+    </td>
+    <td align="left">---
+     <break/>0.184
+    </td>
+    <td align="left">---
+     <break/>0.107
+    </td>
+    <td align="left">---
+     <break/>0.127
+    </td>
+    <td align="left">---
+     <break/>0.162
+    </td>
+   </tr>
+   <tr>
+    <td align="left">F (20% Bioavailability)</td>
+    <td align="left">+
+     <break/>0.559
+    </td>
+    <td align="left">+
+     <break/>0.56
+    </td>
+    <td align="left">-
+     <break/>0.451
+    </td>
+    <td align="left">-
+     <break/>0.443
+    </td>
+    <td align="left">---
+     <break/>0.26
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="3" align="left">
+     <bold>Distribution</bold>
+    </td>
+    <td align="left">PPB (Plasma Protein Binding)
+     <break/>(90%)
+    </td>
+    <td align="left">80.653 %</td>
+    <td align="left">75.785 %</td>
+    <td align="left">75.492 %</td>
+    <td align="left">85.891 %</td>
+    <td align="left">50.279 %</td>
+   </tr>
+   <tr>
+    <td align="left">Volume distribution (0.04∼20 L/kg)</td>
+    <td align="left">
+     <break/>-0.719 L/kg
+    </td>
+    <td align="left">
+     <break/>-1.06 L/kg
+    </td>
+    <td align="left">
+     <break/>-1.092 L/kg
+    </td>
+    <td align="left">-0.733 L/kg</td>
+    <td align="left">
+     <break/>-0.574 L/kg
+    </td>
+   </tr>
+   <tr>
+    <td align="left">BBB (Blood–Brain Barrier)
+     <break/>(BB ratio&gt;=0.1: BBB+; BB ratio &lt;0.1: BBB-)
+    </td>
+    <td align="left">++
+     <break/>0.709
+    </td>
+    <td align="left">---
+     <break/>0.015
+    </td>
+    <td align="left">---
+     <break/>0.098
+    </td>
+    <td align="left">---
+     <break/>0.04
+    </td>
+    <td align="left">---
+     <break/>0.162
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="10" align="left">
+     <bold>Metabolism</bold>
+    </td>
+    <td align="left">P450 CYP1A2 inhibitor</td>
+    <td align="left">+
+     <break/>0.657
+    </td>
+    <td align="left">---
+     <break/>0.158
+    </td>
+    <td align="left">---
+     <break/>0.127
+    </td>
+    <td align="left">---
+     <break/>0.288
+    </td>
+    <td align="left">---
+     <break/>0.061
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP1A2 substrate</td>
+    <td align="left">-
+     <break/>0.438
+    </td>
+    <td align="left">---
+     <break/>0.228
+    </td>
+    <td align="left">---
+     <break/>0.178
+    </td>
+    <td align="left">---
+     <break/>0.257
+    </td>
+    <td align="left">---
+     <break/>0.266
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP3A4 inhibitor</td>
+    <td align="left">---
+     <break/>0.11
+    </td>
+    <td align="left">---
+     <break/>0.151
+    </td>
+    <td align="left">---
+     <break/>0.072
+    </td>
+    <td align="left">+
+     <break/>0.615
+    </td>
+    <td align="left">+
+     <break/>0.509
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP3A4 substrate</td>
+    <td align="left">-
+     <break/>0.44
+    </td>
+    <td align="left">-
+     <break/>0.366
+    </td>
+    <td align="left">-
+     <break/>0.31
+    </td>
+    <td align="left">-
+     <break/>0.372
+    </td>
+    <td align="left">-
+     <break/>0.495
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C9 inhibitor</td>
+    <td align="left">---
+     <break/>0.131
+    </td>
+    <td align="left">---
+     <break/>0.158
+    </td>
+    <td align="left">---
+     <break/>0.109
+    </td>
+    <td align="left">-
+     <break/>0.398
+    </td>
+    <td align="left">-
+     <break/>0.431
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C9 substrate</td>
+    <td align="left">-
+     <break/>0.361
+    </td>
+    <td align="left">-
+     <break/>0.366
+    </td>
+    <td align="left">-
+     <break/>0.481
+    </td>
+    <td align="left">-
+     <break/>0.469
+    </td>
+    <td align="left">---
+     <break/>0.218
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C19 inhibitor</td>
+    <td align="left">---
+     <break/>0.09
+    </td>
+    <td align="left">---
+     <break/>0.07
+    </td>
+    <td align="left">---
+     <break/>0.075
+    </td>
+    <td align="left">---
+     <break/>0.268
+    </td>
+    <td align="left">---
+     <break/>0.088
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2C19 substrate</td>
+    <td align="left">+
+     <break/>0.51
+    </td>
+    <td align="left">-
+     <break/>0.405
+    </td>
+    <td align="left">-
+     <break/>0.35
+    </td>
+    <td align="left">-
+     <break/>0.322
+    </td>
+    <td align="left">-
+     <break/>0.378
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2D6 inhibitor</td>
+    <td align="left">-
+     <break/>0.332
+    </td>
+    <td align="left">-
+     <break/>0.351
+    </td>
+    <td align="left">-
+     <break/>0.323
+    </td>
+    <td align="left">-
+     <break/>0.406
+    </td>
+    <td align="left">-
+     <break/>0.334
+    </td>
+   </tr>
+   <tr>
+    <td align="left">P450 CYP2D6 substrate</td>
+    <td align="left">-
+     <break/>0.333
+    </td>
+    <td align="left">---
+     <break/>0.276
+    </td>
+    <td align="left">-
+     <break/>0.305
+    </td>
+    <td align="left">-
+     <break/>0.345
+    </td>
+    <td align="left">---
+     <break/>0.275
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <bold>Excretion</bold>
+    </td>
+    <td align="left">T 
+     <sub>1/2</sub> (Half Life Time)
+     <break/>( &gt;8h: high;
+     <break/>3h&lt; Cl &lt; 8h: moderate;
+     <break/>&lt;3h: low)
+    </td>
+    <td align="left">Moderate
+     <break/>3.042 h
+    </td>
+    <td align="left">Low
+     <break/>2.09 h
+    </td>
+    <td align="left">Low
+     <break/>2.194 h
+    </td>
+    <td align="left">Low
+     <break/>2.299 h
+    </td>
+    <td align="left">Low
+     <break/>2.70 h
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Clearance rate (&gt;15 mL/min/kg:high; 5mL/min/kg&lt; Cl &lt; 15mL/min/kg: moderate;
+     <break/>&lt;5 mL/min/kg: low)
+    </td>
+    <td align="left">Low
+     <break/>0.212 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>0.701 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>0.656 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>0.998 mL/min/kg
+    </td>
+    <td align="left">Low
+     <break/>0.189 mL/min/kg
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="5" align="left">
+     <bold>Toxicity</bold>
+    </td>
+    <td align="left">hERG (hERG Blockers)</td>
+    <td align="left">+
+     <break/>0.511
+    </td>
+    <td align="left">+
+     <break/>0.582
+    </td>
+    <td align="left">+
+     <break/>0.648
+    </td>
+    <td align="left">+
+     <break/>0.672
+    </td>
+    <td align="left">+
+     <break/>0.664
+    </td>
+   </tr>
+   <tr>
+    <td align="left">H-HT (Human Hepatotoxicity)</td>
+    <td align="left">---
+     <break/>0.072
+    </td>
+    <td align="left">---
+     <break/>0.212
+    </td>
+    <td align="left">---
+     <break/>0.17
+    </td>
+    <td align="left">-
+     <break/>0.314
+    </td>
+    <td align="left">---
+     <break/>0.0
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Ames (Ames Mutagenicity)</td>
+    <td align="left">++
+     <break/>0.788
+    </td>
+    <td align="left">+
+     <break/>0.646
+    </td>
+    <td align="left">-
+     <break/>0.478
+    </td>
+    <td align="left">+
+     <break/>0.672
+    </td>
+    <td align="left">---
+     <break/>0.236
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Skin sensitization</td>
+    <td align="left">---
+     <break/>0.288
+    </td>
+    <td align="left">---
+     <break/>0.236
+    </td>
+    <td align="left">---
+     <break/>0.261
+    </td>
+    <td align="left">---
+     <break/>0.293
+    </td>
+    <td align="left">---
+     <break/>0.258
+    </td>
+   </tr>
+   <tr>
+    <td align="left">FDAMDD (Maximum Recommended Daily Dose</td>
+    <td align="left">+
+     <break/>0.668
+    </td>
+    <td align="left">+
+     <break/>0.602
+    </td>
+    <td align="left">+
+     <break/>0.628
+    </td>
+    <td align="left">+
+     <break/>0.544
+    </td>
+    <td align="left">-
+     <break/>0.37
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

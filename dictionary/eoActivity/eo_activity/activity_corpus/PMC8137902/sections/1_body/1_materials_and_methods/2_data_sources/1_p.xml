@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this study, the dataset of phytochemicals of eight plants were acquired from different sources like CMAUP (
+ <xref rid="B95" ref-type="bibr">95</xref>), NPASS (
+ <xref rid="B96" ref-type="bibr">96</xref>), Dr. Dukes Database and KnapSack (
+ <xref rid="B97" ref-type="bibr">97</xref>) database (
+ <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 1</xref>). Initially, the list of all the phytochemicals were collated out from individual sources by manual curation. In the next step, all the duplicate entries and the ubiquitous chemicals were removed from the list. The final list was taken as input for downloading structural files from the PubChem database using an automation script created using Python programming (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/sandes89/PubDown" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/sandes89/PubDown</ext-link>). The structures which were accessible online and documented were only considered for screening.
+</p>

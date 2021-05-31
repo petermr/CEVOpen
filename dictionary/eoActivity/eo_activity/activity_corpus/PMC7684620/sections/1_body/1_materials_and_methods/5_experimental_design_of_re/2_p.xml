@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>According to the single‐factor experimental results, a Box–Behnken design (BBD) with four independent variables was applied to optimize the process conditions. Each independent variable was coded: −1, 0, and +1. Four parameters, including GA to MD ratio, total solids content of emulsion, wall to core ratio, and inlet air temperature, were designated as 
+ <italic>X</italic>
+ <sub>1</sub>, 
+ <italic>X</italic>
+ <sub>2</sub>, 
+ <italic>X</italic>
+ <sub>3</sub>, and 
+ <italic>X</italic>
+ <sub>4</sub>, respectively. ME (
+ <italic>Y</italic>) was taken as the corresponding value. Table 
+ <xref rid="fsn31828-tbl-0001" ref-type="table">1</xref> summarized the scope and level of the independent variables. A quadratic polynomial was fitted by regression analysis:
+ <disp-formula id="fsn31828-disp-0001">
+  <label>(1)</label>
+  <math id="nlm-math-1">
+   <mrow>
+    <mi>Y</mi>
+    <mo>=</mo>
+    <msub>
+     <mi>β</mi>
+     <mn>0</mn>
+    </msub>
+    <mo>+</mo>
+    <msubsup>
+     <mo>∑</mo>
+     <mrow>
+      <mi>j</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>κ</mi>
+    </msubsup>
+    <mrow>
+     <msub>
+      <mi>β</mi>
+      <mi>j</mi>
+     </msub>
+     <msub>
+      <mi>X</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+    <mo>+</mo>
+    <msubsup>
+     <mo>∑</mo>
+     <mrow>
+      <mi>j</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>k</mi>
+    </msubsup>
+    <mrow>
+     <msub>
+      <mi>β</mi>
+      <mi mathvariant="italic">jj</mi>
+     </msub>
+     <msubsup>
+      <mi>X</mi>
+      <mi>j</mi>
+      <mn>2</mn>
+     </msubsup>
+    </mrow>
+    <mo>+</mo>
+    <mo>∑</mo>
+    <mrow>
+     <msub>
+      <mo>∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>&lt;</mo>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <msub>
+       <mi>β</mi>
+       <mi mathvariant="italic">ij</mi>
+      </msub>
+      <msub>
+       <mi>X</mi>
+       <mi>i</mi>
+      </msub>
+      <msub>
+       <mi>X</mi>
+       <mi>j</mi>
+      </msub>
+     </mrow>
+    </mrow>
+    <mspace width="2em"/>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>k</mi>
+      <mo>=</mo>
+      <mn>4</mn>
+     </mrow>
+    </mfenced>
+    <mo>.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

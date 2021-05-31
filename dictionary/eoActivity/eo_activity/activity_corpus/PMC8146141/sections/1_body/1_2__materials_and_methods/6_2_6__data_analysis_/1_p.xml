@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We tested the causal structure of selected variables using a path-analysis (structural equation modelling (SEM) [
+ <xref rid="B46-insects-12-00404" ref-type="bibr">46</xref>]). SEM provides a way to model indirect effects and allowed us to obtain causal relationships, and not just correlations, between variables [
+ <xref rid="B46-insects-12-00404" ref-type="bibr">46</xref>] joining multiple predictor and response variables in a single network. “Piecewise SEM” package (R version 4.0.2 2020-06-22 [
+ <xref rid="B47-insects-12-00404" ref-type="bibr">47</xref>]) provides a method of assessing the goodness-of-fit based on Shipley’s test of directed separation that combines the 
+ <italic>p</italic>-values of all independence claims in Fisher’s C [
+ <xref rid="B46-insects-12-00404" ref-type="bibr">46</xref>,
+ <xref rid="B48-insects-12-00404" ref-type="bibr">48</xref>,
+ <xref rid="B49-insects-12-00404" ref-type="bibr">49</xref>,
+ <xref rid="B50-insects-12-00404" ref-type="bibr">50</xref>] 
+ <disp-formula id="FD1-insects-12-00404">
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mn>2</mn>
+     <msubsup>
+      <mo>∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>k</mi>
+     </msubsup>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mo stretchy="false">(</mo>
+     <mi>p</mi>
+     <mi>i</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>pi</italic> is the 
+ <italic>i</italic>
+ <sup>th</sup> independence claim in a basis set consisting of 
+ <italic>k</italic> claims. The 
+ <italic>C</italic> statistics can be then compared to a 
+ <italic>χ</italic>
+ <sup>2</sup> distribution with 2
+ <italic>k</italic> degrees of freedom [
+ <xref rid="B46-insects-12-00404" ref-type="bibr">46</xref>,
+ <xref rid="B48-insects-12-00404" ref-type="bibr">48</xref>,
+ <xref rid="B49-insects-12-00404" ref-type="bibr">49</xref>]. The hypothesized relationships are consistent with the data when the collection of the relationships represented by 
+ <italic>C</italic> could have occurred by chance, in which case the 
+ <italic>p</italic>-value for the 
+ <italic>χ</italic>
+ <sup>2</sup> test is greater than the threshold 0.05, and the path model is rejected if the 
+ <italic>p</italic>-value is &lt;0.05 [
+ <xref rid="B46-insects-12-00404" ref-type="bibr">46</xref>,
+ <xref rid="B48-insects-12-00404" ref-type="bibr">48</xref>,
+ <xref rid="B49-insects-12-00404" ref-type="bibr">49</xref>].
+</p>

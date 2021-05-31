@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Raw reads from each sample were filtered by removing reads containing more than 10% of unknown nucleotides, low-quality reads that contained more than 40% of low-quality (
+ <italic>Q</italic> value ≤ 20) bases, and adapter sequences according to the Illumina adapter list. Residual ribosome RNA (rRNA) reads were identified by mapping the filtered reads to rRNA, and the identified sequences were then removed. The resulting 87.9 M reads were assembled using short read assembler, Trinity (
+ <xref rid="B15" ref-type="bibr">Grabherr et al., 2011</xref>), and further clustered to obtain non-redundant unigenes by Corset (
+ <xref rid="B11" ref-type="bibr">Davidson and Oshlack, 2014</xref>). The completeness of the transcriptomic assembly was assessed using BUSCO (
+ <xref rid="B37" ref-type="bibr">Simao et al., 2015</xref>) by comparing the 1,440 embryophyta-specific genes to our unigenes. Unigenes were annotated by BLASTx (with an 
+ <italic>E</italic>-value threshold of 1e
+ <sup>–5</sup>) to the Swiss-Prot protein database (
+ <xref rid="B3" ref-type="bibr">Bairoch and Apweiler, 2000</xref>) and NCBI non-redundant protein (Nr) database (
+ <xref rid="B29" ref-type="bibr">O’Leary et al., 2016</xref>). Nr annotation results of unigenes were used for Gene Ontology (GO) annotation by Blast2GO software (
+ <xref rid="B10" ref-type="bibr">Conesa et al., 2005</xref>), and functional classification of unigenes was performed using WEGO software (
+ <xref rid="B44" ref-type="bibr">Ye et al., 2006</xref>).
+</p>

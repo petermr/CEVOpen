@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0075">SARS-CoV-2 3CL
+ <sup>pro</sup>, PLpro, RdRp, helicase, spike protein, and human ACE2 receptor were used as the target molecules for docking with the bioactives from HMPs. Molecular docking was carried out using AutoDock Vina [
+ <xref rid="bib24" ref-type="bibr">24</xref>]. Grid boxes were created around the active sites of SARS-CoV-2 3CL
+ <sup>pro</sup>, PLpro, RdRp, helicase, and the interacting crucial residues of the SARS-CoV-2 spike protein-human ACE2 receptor complex using Autodock tools with dimensions relative to the ligands (XYZ) with a resolution of 1 Å [
+ <xref rid="bib22" ref-type="bibr">22</xref>,
+ <xref rid="bib23" ref-type="bibr">23</xref>,
+ <xref rid="bib25" ref-type="bibr">25</xref>]. Each docking calculation was performed three-times using different seeds and retaining the remaining values as default. Protein-ligand interactive models were selected based on the binding energies (BEs), the potential hydrogen bonds (H-bonds), and hydrophobic interactions. Protein-ligand interaction profiler (PLIP) (
+ <ext-link ext-link-type="uri" xlink:href="https://projects.biotec.tu-dresden.de/plip-web/plip/" id="intref0020" xmlns:xlink="http://www.w3.org/1999/xlink">https://projects.biotec.tu-dresden.de/plip-web/plip/</ext-link>) was used to determine H-bonds and non-bonded interactions. 3D stereo figures of protein-ligand interactions were computed using PyMOL (
+ <ext-link ext-link-type="uri" xlink:href="https://pymol.org/2" id="intref0025" xmlns:xlink="http://www.w3.org/1999/xlink">https://pymol.org/2</ext-link>). Further, the inhibition constant (Ki) for HMP bioactives with SARS-CoV-2 protein targets was calculated using the following equation [
+ <xref rid="bib23" ref-type="bibr">23</xref>,
+ <xref rid="bib26" ref-type="bibr">26</xref>].
+ <disp-formula id="ufd1">Ki = 10
+  <sup>(Binding energy/1.366)</sup>
+ </disp-formula>
+</p>

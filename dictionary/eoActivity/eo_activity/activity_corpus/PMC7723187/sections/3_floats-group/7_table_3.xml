@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="fsn31940-tbl-0003" xml:lang="en" content-type="TABLE" orientation="portrait" position="float">
+ <label>TABLE 3</label>
+ <caption>
+  <p>Performance of genetic algorithm optimized neural network for predicting qualitative and microbial properties of the ostrich meat samples without and with QSSM + LO during storage at 4°C for 9 days</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <thead valign="top">
+   <tr style="border-bottom:solid 1px #000000">
+    <th align="left" valign="top" rowspan="1" colspan="1">Performance</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Moisture</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">pH</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Chroma</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">TVC</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Hardness</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">
+     <italic>MSE</italic>
+    </td>
+    <td align="char" char="." rowspan="1" colspan="1">0.113084114</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.002593513</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.940061989</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.062692623</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.053105265</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">
+     <italic>NMSE</italic>
+    </td>
+    <td align="char" char="." rowspan="1" colspan="1">0.005198725</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.133667841</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.4215096</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.01989906</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.006973125</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">
+     <italic>MAE</italic>
+    </td>
+    <td align="char" char="." rowspan="1" colspan="1">0.301636668</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.031777163</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.431425678</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.196148593</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.193794808</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Min Abs Error</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.098656529</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.001386638</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.013294699</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.007703981</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.084053627</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Max Abs Error</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.52772656</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.169172552</td>
+    <td align="char" char="." rowspan="1" colspan="1">3.593463816</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.550806149</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.481981193</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">
+     <italic>r</italic>
+    </td>
+    <td align="char" char="." rowspan="1" colspan="1">.997630079</td>
+    <td align="char" char="." rowspan="1" colspan="1">.938340014</td>
+    <td align="char" char="." rowspan="1" colspan="1">.768659774</td>
+    <td align="char" char="." rowspan="1" colspan="1">.99033706</td>
+    <td align="char" char="." rowspan="1" colspan="1">.997042814</td>
+   </tr>
+  </tbody>
+ </table>
+ <permissions>
+  <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+ </permissions>
+</table-wrap>

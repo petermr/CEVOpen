@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular Mechanics-Poisson Boltzmann Surface Area (MM-PBSA) calculation is one of the most commonly used method for enumerating binding free energy of protein-ligand complexes. The MM-PBSA combines energy calculations based on molecular mechanics and implicit solvent model. This method precisely estimates the binding free energy of the protein-ligand complex, which is estimated by the differences between the free energy of the complex and free energies of unbound individual components of the complex (
+ <xref rid="B118" ref-type="bibr">118</xref>). In this study, the MM-PBSA (PB3) based binding free energy of top most stable complexes were calculated using farPPI server. WhilePB3 option was considered as it was benchmarked to be highly accurate when compared to all the other methods in FarPPI (
+ <xref rid="B119" ref-type="bibr">119</xref>). The force fields, GAFF2 and ff14SB as provided in the server were applied for ligand and protein, respectively. This calculation was performed for the lowest potential energy conformation of the top most stable complexes.
+</p>
