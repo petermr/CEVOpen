@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>We used R (R‐Core‐Team, 
- <xref rid="ece37171-bib-0049" ref-type="ref">2019</xref>) and ‘dada2’ package (Callahan et al., 
- <xref rid="ece37171-bib-0009" ref-type="ref">2016</xref>) to process the 454 reads following default parameters for 454 data, and to generate amplicon sequence variants (ASVs). We filtered the data to only contain ASVs that occurred at least once in at least two samples (i.e., filtered singletons). Four of the 70 samples (from Lab Day 0 and Field Day 0 samples) did not yield any sequences and were not included in analyses. To identify ASVs associated with particular sampling days across sites, we merged samples by Day across the ten replicate sites (see results—no significant differences in microbiome composition among sites were observed). We identified ASVs that we termed ‘fresh tissue biomarkers’, defined as ASVs present in only Day 0 lab, Day 0 field, and/or Day 1. We identified ASVs that we termed ‘decayed tissue biomarkers’, defined as ASVs present only in Days 2, 4, 7, and/or 11.
-</p>

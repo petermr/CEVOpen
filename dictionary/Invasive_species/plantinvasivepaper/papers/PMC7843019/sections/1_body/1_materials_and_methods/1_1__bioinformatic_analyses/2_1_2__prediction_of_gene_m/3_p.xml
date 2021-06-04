@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>AUGUSTUS software [
- <xref rid="pone.0246079.ref043" ref-type="bibr">43</xref>, 
- <xref rid="pone.0246079.ref044" ref-type="bibr">44</xref>] was used to process the data and generate the first gene models version. Then, the MAKER annotation pipeline [
- <xref rid="pone.0246079.ref045" ref-type="bibr">45</xref>] was used to improve the gene models. We masked the repetitive DNA regions of the genomes by using RepeatMasker software (
- <ext-link ext-link-type="uri" xlink:href="http://www.repeatmasker.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.repeatmasker.org</ext-link>). The entries for MAKER included the masked genomes; all of the resulting contigs from the assembly of transcriptomic data, the gene models predicted by AUGUSTUS, as well as a protein database containing complete proteomes of a total of 43 ascomycete fungi (
- <xref ref-type="supplementary-material" rid="pone.0246079.s004">S2 Table</xref>). We used the generated gene models in subsequent analyses.
-</p>

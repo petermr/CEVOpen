@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The RF builds the trees in parallel processes (Breiman, 
- <xref rid="ece34919-bib-0008" ref-type="ref">2001</xref>). The trees are fully grown and each is used to predict the out‐of‐bag observations that do not occur in a bootstrap sample (Breiman, 
- <xref rid="ece34919-bib-0008" ref-type="ref">2001</xref>). The predicted class of an out‐of‐bag observation is calculated average of the results of all predictions (Breiman, 
- <xref rid="ece34919-bib-0008" ref-type="ref">2001</xref>; Youssef, Pourghasemi, Pourtaghi, &amp; Al‐Katheeri, 
- <xref rid="ece34919-bib-0100" ref-type="ref">2016</xref>). The RF has some limitations like incapable of predicting beyond the range of response values in the training data (Hengl et al., 
- <xref rid="ece34919-bib-0042" ref-type="ref">2015</xref>), and overestimate low values and underestimate high values (Horning, 
- <xref rid="ece34919-bib-0046" ref-type="ref">2010</xref>). In this study, we only varied the number of trees, testing two different settings: 1,000 and 5,000 trees while all other parameters were set to default.
-</p>

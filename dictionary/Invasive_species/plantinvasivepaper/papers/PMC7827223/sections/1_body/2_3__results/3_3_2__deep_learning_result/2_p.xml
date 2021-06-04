@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>Regarding transfer learning, 
- <italic>unfrozen</italic> ImageNet [
- <xref rid="B45-sensors-21-00471" ref-type="bibr">45</xref>] weights were considered to initialise the network. When the model weights are 
- <italic>unfrozen</italic>, all of the layers are normally trained and, thus, all the weights are updated. Regarding the data balance, the blueberry patch loss was weighted eight times that of the soil class, and four times the amount of the other classes. We also performed upsampling of the blueberry class by creating 12 new samples for each patch, as detailed in 
- <xref ref-type="sec" rid="sec2dot5-sensors-21-00471">Section 2.5</xref>. Finally, the soil class was downsampled to 50% of its original number of patches.
-</p>

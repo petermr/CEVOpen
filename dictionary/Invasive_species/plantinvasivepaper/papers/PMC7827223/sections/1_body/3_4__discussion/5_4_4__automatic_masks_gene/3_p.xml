@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>Wetland image classification was performed by [
- <xref rid="B36-sensors-21-00471" ref-type="bibr">36</xref>,
- <xref rid="B37-sensors-21-00471" ref-type="bibr">37</xref>] identifying four and six classes, reaching an overall accuracy of 94.82% and 82.02%. Transfer learning which was only applied in [
- <xref rid="B36-sensors-21-00471" ref-type="bibr">36</xref>] showed the effectiveness of this technique for natural environment studies, when the dataset is large enough. Interestingly, the best result of [
- <xref rid="B37-sensors-21-00471" ref-type="bibr">37</xref>] was obtained when using multi-view images. We will consider this type of images in our future work. A similar approach to detect invasive species was used by [
- <xref rid="B38-sensors-21-00471" ref-type="bibr">38</xref>]. Their approach applied deep learning with data augmentation and transfer learning. Their highest accuracy was 97.6%, which is slightly lower than our overall accuracies of 98.83% and 98.10%. It is important to consider that, in [
- <xref rid="B38-sensors-21-00471" ref-type="bibr">38</xref>], the dataset was mainly composed of images of the invasive species, while, in our case, only 2.64% of the generated patches contained the invasive species. This illustrates the effectiveness of the techniques used in our approach to overcome the imbalance in our dataset.
-</p>

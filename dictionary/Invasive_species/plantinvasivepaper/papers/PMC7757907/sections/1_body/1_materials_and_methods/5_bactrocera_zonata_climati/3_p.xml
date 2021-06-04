@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The occurrence records were randomly divided into 75% training and 25% test datasets using an inbuilt option in MaxEnt. The 25% independent test dataset were used to assess 
- <italic>B</italic>. 
- <italic>zonata</italic> climatic suitability model performance. The Area Under the curve of the Receiver Operating Characteristic (ROC) [
- <xref rid="pone.0243047.ref076" ref-type="bibr">76</xref>] was used to assess the performance of the MaxEnt models. The use of AUC as a statistic to assess the discriminatory capacity of ENMs has been widely accepted [
- <xref rid="pone.0243047.ref020" ref-type="bibr">20</xref>,
- <xref rid="pone.0243047.ref076" ref-type="bibr">76</xref>]. By default, MaxEnt calculates the AUC which determines how the models distinguished between presence and absence observations, but with presence only data as in our case, the AUC compared presence observation with the pseudoabsence background points. The AUC values range from 0 to 1 where values of 0.5–0.7 indicate low accuracy, values of 0.7–0.9 are usually interpreted as useful for applications and those greater than 0.9 imply high accuracy [
- <xref rid="pone.0243047.ref077" ref-type="bibr">77</xref>].
-</p>

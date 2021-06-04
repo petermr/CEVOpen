@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="Par37">Sequence data were processed using a modified data analysis pipeline
- <sup>
-  <xref ref-type="bibr" rid="CR14">14</xref>,
-  <xref ref-type="bibr" rid="CR38">38</xref>
- </sup>. Raw reads were trimmed to remove low-quality regions (Trimmomatic v. 0.33), paired, and then merged (FLASH v. 1.2.11), with merged reads shorter than 450 bp discarded. Identical reads were dereplicated within samples and then clustered at 100% identity across all samples (vsearch v. 2.3.2), with singletons (sequence reads that occurred only once across all samples) discarded.
-</p>

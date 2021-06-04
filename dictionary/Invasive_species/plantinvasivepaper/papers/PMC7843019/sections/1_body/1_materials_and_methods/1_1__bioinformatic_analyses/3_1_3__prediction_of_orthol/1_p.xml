@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The identification of orthologous and paralogous gene groups (orthogroups) was performed using the GET_HOMOLOGUES [
- <xref rid="pone.0246079.ref047" ref-type="bibr">47</xref>, 
- <xref rid="pone.0246079.ref048" ref-type="bibr">48</xref>] pipeline, a software that uses reciprocal/bi-directional BLAST analysis to identify sequences maintaining similarities across different taxa above a certain threshold (in this case, 75% of identity and coverage); after that, proteins with similarities were grouped by using OrthoMCL software [
- <xref rid="pone.0246079.ref049" ref-type="bibr">49</xref>]. Groups were created using normalized scores based on an algorithm that uses Markov chain models, which allowed for the identification of orthologous and paralogous putative genes. Finally, using the Perl script (parse_pangenome_matrix.pl) included with the pipeline, we identified genes present only in 
- <italic>Fusarium</italic> genera, as well as the specific genes for each of the 
- <italic>Fusarium</italic> species.
-</p>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>We quality filtered and processed sequence reads using the program Quantitative Insights Into Microbial Ecology 2 (vQIIME2‐2018.8; Bolyen et al., 
- <xref rid="ece37171-bib-0008" ref-type="ref">2019</xref>). We imported demultiplexed reads from the Illumina MiSeq and filtered them using the following criteria: ‐‐p‐trunc‐len‐f 270 ‐‐p‐trunc‐len‐r 200 ‐‐p‐trim‐left‐f 19 ‐‐p‐trim‐left‐r 23. Sequences were then categorized into ASVs via the dada2 pipeline (Callahan et al., 
- <xref rid="ece37171-bib-0009" ref-type="ref">2016</xref>) and taxonomy was assigned by aligning ASVs with the Greengenes 13_8 99% database (DeSantis et al., 
- <xref rid="ece37171-bib-0017" ref-type="ref">2006</xref>) using a Naïve Bayes classifier trained on the 515F/939R region. A phylogenetic tree was built using the fasttree algorithm (Price et al., 
- <xref rid="ece37171-bib-0048" ref-type="ref">2010</xref>). These files were imported into R using the package ‘phyloseq’ (McMurdie &amp; Holmes, 
- <xref rid="ece37171-bib-0035" ref-type="ref">2013</xref>), where all subsequent analyses were conducted. We filtered the data to only contain ASVs that occurred at least once on at least two samples (i.e., filtered singletons). One fecal sample (P‐173A) had low sequence coverage (1,012 sequences) and was not included in analyses.
-</p>

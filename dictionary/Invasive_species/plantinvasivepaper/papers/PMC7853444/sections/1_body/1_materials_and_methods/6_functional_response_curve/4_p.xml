@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The “nll.ode.general.mort” function [
- <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>] was used to fit data that included some background prey mortality to the statistical model (
- <xref ref-type="disp-formula" rid="pone.0246178.e001">Eq 1</xref>). In cases where the mortality rate was shown to be insignificant, or where no larval mortality was originally observed, the “nll.bolker” function [
- <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>], which assumes a mortality rate of zero, was used. Both functions are negative log-likelihood functions that are minimized by applying maximum likelihood estimation methods [
- <xref rid="pone.0246178.ref048" ref-type="bibr">48</xref>]. Confidence intervals for the model parameters of interest, attack coefficient and handling time, were computed by the “confint” function, base package, R version 3.4.2. To detect differences in functional response parameter estimates due to either temperature category or copepod species, 95% confidence intervals were compared; this method for comparing parameter estimates across temperatures has previously been used in a similar analysis of copepod predation [
- <xref rid="pone.0246178.ref051" ref-type="bibr">51</xref>].
-</p>

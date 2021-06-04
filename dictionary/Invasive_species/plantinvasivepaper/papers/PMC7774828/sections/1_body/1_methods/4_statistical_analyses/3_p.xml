@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>To account for the potential effect of phylogenetic relatedness among host species on prevalence and infection probability, we also used phylogenetically-informed analyses implemented in the package “MCMCglmm” [
- <xref rid="pntd.0008946.ref054" ref-type="bibr">54</xref>], using one of the trees drawn at random from the distribution of near-complete mammal phylogenies [
- <xref rid="pntd.0008946.ref055" ref-type="bibr">55</xref>]. This Bayesian implementation used weak (nu = 1) and diffuse (V = 0.02) priors on the variance components, after comparing model performance with varying prior values, and four chains were run for 5X10^6 million generations, discarding the first one thousand as burn-in, and sampling every 500 generations. Convergence and stationarity were assessed based on potential scale reduction factors close to 1, and effective sample sizes &gt; 200.
-</p>

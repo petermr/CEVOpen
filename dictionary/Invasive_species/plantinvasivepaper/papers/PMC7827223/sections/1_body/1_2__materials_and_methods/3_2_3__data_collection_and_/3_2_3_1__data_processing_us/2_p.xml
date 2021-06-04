@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>In this context, the positions of the blueberry bushes in the five orthomosaics were digitised by hand as point data in an ArcGIS shapefile and several analytical tools were then used (
- <xref ref-type="fig" rid="sensors-21-00471-f002">Figure 2</xref>). The 
- <italic>kernel density</italic> tool functions were used to calculate the magnitude-per-unit area from the blueberry points. Smaller search radiuses were used to show a detailed density raster. The tool 
- <italic>integrate</italic> was used to group blueberry bushes that fall into a specified distance, as specified distance, 3 and 6 m were used. With the tool 
- <italic>collect event</italic>, the number of points which were integrated before, were summarized in a new layer. Those steps were necessary to perform an 
- <italic>optimized hotspot analysis</italic> of the blueberry abundance with the blueberry point shapefile. The hotspot analysis identifies the significant difference between the neighbourhood of a feature in comparison to the extent of the respective study area. Is the value of a feature significantly higher, it is considered to be a hotspot and the tool provides a feature map with three levels of confidence (90%, 95%, and 99%). As input for the hot spot analysis, the created layer of the tool 
- <italic>collect events</italic> was used and analysis field counts were chosen. Furthermore, it also indicates the significantly lower features.
-</p>

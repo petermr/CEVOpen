@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>We assessed plant community composition at both Fermilab and West Point with non-metric multidimensional scaling (NMDS) and permutational multivariate analysis of variance (PerMANOVA) including site and plot within site as strata (
- <xref rid="plx026-B2" ref-type="bibr">Anderson 2001</xref>). We fitted NMDS and PerMANOVA with the metaMDS and adonis functions, respectively, in R package vegan (
- <xref rid="plx026-B64" ref-type="bibr">Oksanen 
-  <italic>et al.</italic> 2012
- </xref>). We used Bray-Curtis distance matrices, based on log-transformed species abundance data for both procedures. We fitted our study factors [deer exclusion (West Point) or reduction (Fermilab), and earthworm abundance and site invasion (at West Point only)] to the ordination (NMDS) using the envirofit function, which provides a goodness of fit and p-value via a permutation procedure. We only included species with maximum cover higher than 0.01 % and present at least 10 times over the study period.
-</p>

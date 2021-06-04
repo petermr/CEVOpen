@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>After reducing the 33 variables to eight, using the described three-step procedures, these eight variables were used to investigate the importance of (i) the opponent (
- <italic>La. neglectus</italic>, 
- <italic>La. niger</italic> or no opponent), (ii) the status (resident vs. colonizer) and their interaction. In order to do that, we performed eight mixed models using the package glmmTMB [
- <xref rid="B37-animals-10-02451" ref-type="bibr">37</xref>]. The identity of the 20 combinations of source colonies and status was introduced in the model as a random effect. M1, M3, M7 and M8 were fitted with linear models, M2 and M4 were fitted with linear models performed following a square root transformation of the dependent variables, M5 and M6 were fitted with generalized linear models using Poisson family. The significance of each explanatory term was tested using Chi-squared tests. For every significant variable, post hoc, pairwise contrasts among treatments were performed by calculating the least square means (package lsmeans; [
- <xref rid="B38-animals-10-02451" ref-type="bibr">38</xref>]), and t-tests were adjusted to the number of tests using Tukey corrections. The raw data and scripts are available on the Zenodo repository (
- <uri xlink:href="https://doi.org/10.5281/zenodo.4327129" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.5281/zenodo.4327129</uri>).
-</p>

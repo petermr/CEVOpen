@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>To implement the optimal routing model in a spatial setting, an area of 
- <italic>N</italic> sites (i.e. potential survey locations) must be depicted as a network of interconnected nodes. The nodes depicting adjacent sites are connected by arcs. The optimal scheduling of daily surveys can then be characterized as a problem of finding daily routes through this network of interconnected sites, subject to the working day length constraint and the rule that each route must start and end at the main facility (
- <xref rid="ETLS-4-513F1" ref-type="fig">Figure 1</xref>). For a multi-day surveillance campaign of length 
- <italic>T</italic>, the team orienteering problem determines 
- <italic>T</italic> routes that maximize the total detection rate at the sites visited along the scheduled routes.
-</p>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>ArcGIS 10.5 software (Esri, CA, USA) was used to calculate the areas of different suitable zones in different periods, and SDM toolbox 2.4 (Esri, CA, USA) was used to calculate changes in the potential distribution areas and distribution center of 
- <italic>L. invasa</italic> in China in different periods [
- <xref rid="B39-insects-12-00092" ref-type="bibr">39</xref>]. Using the function of “Reclass” in ArcGIS 10.5 software, the grid values of the suitable and non-suitable zones predicted for 
- <italic>L. invasa</italic> in each period were modified to 1 and 0, respectively. Then, the SDM toolbox was added to select the “MaxEnt Tools” subdirectory in the “SDM Tools” module. The “Distribution Changes Between Binary SDMs” tool was used to calculate the area variation range of potential distribution areas in each period (2030: SSPs1–2.6, SSPs 2–4.5, SSPs 5–8.5, 2050: SSPs1–2.6, SSPs 2–4.5, and SSPs 5–8.5), and the expansion region, stable area, and contraction area of the distribution were obtained. The “Centroid Changes (Lines)” tool (Esri, CA, USA) was used to calculate the geometric center displacement of the predicted distribution in different periods, to detect the overall change trend of the 
- <italic>L. invasa</italic> distribution area, and to obtain the vector overlap density of the geometric center change. The high-density area of vector overlap is likely to be a crucial area in the process of species migration to suitable habitats.
-</p>

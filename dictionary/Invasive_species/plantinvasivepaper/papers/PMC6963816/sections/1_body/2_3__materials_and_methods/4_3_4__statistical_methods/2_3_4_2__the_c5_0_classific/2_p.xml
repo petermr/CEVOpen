@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>We fine-tuned the C5.0 model by setting up a grid of tuning parameters using the train function of the R package “caret” [
- <xref rid="B52-plants-08-00593" ref-type="bibr">52</xref>]. Five-fold repeated cross-validation was used during the fine-tuning. The aforementioned unbalanced data were handled by the R package ROSE [
- <xref rid="B38-plants-08-00593" ref-type="bibr">38</xref>], which down-samples the majority class and synthesizes new data points in the minority class. The selected quality metric was the ROC (receiver operating characteristic). The best tune of the C5.0 model was validated using the test set, and it was used (i) for exploring and interpreting the geographical driving forces of common milkweed occurrence, and (ii) for mapping the potential occurrence of common milkweed using the spatially exhaustive environmental covariates listed in 
- <xref rid="plants-08-00593-t003" ref-type="table">Table 3</xref>.
-</p>
