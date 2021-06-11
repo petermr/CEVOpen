@@ -1,302 +1,153 @@
-15:24:44.641 INFO  org.contentmine.ami.tools.AMI - args: [-p, activity, search, --dictionary, country.xml]
-15:24:44.676 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
-15:24:44.677 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
-15:24:44.678 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
-15:24:44.678 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to C:\Users\DELL\CEVOpen\minicorpora\logs\ami.log)
-15:24:44.680 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
+17:16:59.588 INFO  org.contentmine.ami.tools.AMI - args: [-p, activity, section]
+17:16:59.622 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+17:16:59.622 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+17:16:59.622 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+17:16:59.623 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to C:\Users\DELL\CEVOpen\minicorpora\logs\ami.log)
+17:16:59.624 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
 (jar:file:/C:/Users/DELL/ami3/target/appassembler/repo/ami3-2020.08.09_09.54-NEXT-SNAPSHOT.jar)
 JVM: 13.0.2 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 13.0.2+8)
 OS: Windows 10 10.0 amd64
 
-15:24:44.681 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-15:24:44.682 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMISearchTool)
-15:24:44.682 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            C:\Users\DELL\CEVOpen\minicorpora\activity
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           100 trees [activity\10.21203, activity\PMC7514039, activity\
-15:24:45.047 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
-15:24:45.048 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
-15:24:45.048 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-15:24:45.048 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMISearchTool)
-15:24:45.048 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-15:24:45.049 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami search':
-15:24:45.050 INFO  org.contentmine.ami.tools.AbstractAMITool - --stripNumbers      : d     false
-15:24:45.050 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordCount         : d (20,1000000)
-15:24:45.050 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordLength        : d    (1,20)
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --wikidataBiblio    : d     false
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-oldstyle       : d      true
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionary        : m [country.xml]
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionarySuffix  : d     [xml]
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionaryTop     : d [C:\Users\DELL/ami/dictionary]
-15:24:45.051 INFO  org.contentmine.ami.tools.AbstractAMITool - --ignorePlugins     : d        []
-15:24:45.052 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
-15:24:45.052 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
-15:24:45.205 DEBUG org.contentmine.ami.tools.AMISearchTool - cannot find dictionar: C:\Users\DELL\ami\dictionary\country.xml.xml
-15:24:45.224 INFO  org.contentmine.ami.tools.AMISearchTool - cannot find dictionary: country.xml
-15:24:45.224 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt search(country.xml)
-15:24:45.233 DEBUG org.contentmine.ami.tools.AbstractAMISearchTool - old style search command); to be changed
-15:24:45.234 WARN  org.contentmine.ami.tools.AMISearchTool - cProject: activity
-15:24:45.235 DEBUG org.contentmine.ami.tools.AMISearchTool - cannot find dictionar: C:\Users\DELL\ami\dictionary\country.xml.xml
-15:24:45.236 INFO  org.contentmine.ami.tools.AMISearchTool - cannot find dictionary: country.xml
-15:24:45.236 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt search(country.xml)
-15:24:45.236 INFO  org.contentmine.ami.tools.AMISearchTool - ASTrunning search: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt search(country.xml)
-15:24:45.236 INFO  org.contentmine.ami.tools.AbstractAMISearchTool - SEARCH running legacy processors
-15:24:45.237 DEBUG org.contentmine.ami.plugins.CommandProcessor - ComProc> Reading old AMI abbreviations: obsolete these
-15:24:45.240 WARN  org.contentmine.ami.tools.AbstractAMISearchTool - legacy cmd> word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
-15:24:45.241 WARN  org.contentmine.ami.tools.AbstractAMISearchTool - legacy cmd> search(country.xml)
-15:24:45.307 DEBUG org.contentmine.ami.plugins.CommandProcessor - running NORMA -i fulltext.xml -o scholarly.html --transform nlm2html --project activity
-15:24:47.698 DEBUG org.contentmine.ami.plugins.CommandProcessor - 
-+++++++++++++++++++running: word; word([frequencies])[{xpath:@count>20}, {w.stopwords:pmcstop.txt stopwords.txt}]
-15:24:47.767 WARN  org.contentmine.ami.wordutil.WordSetWrapper - WSW> Cannot read stopword stream: /org/contentmine/ami/wordutil, ami3, version 2020/08/09_09/54-NEXT-SNAPSHOT/pmcstop.txt
-15:24:47.769 WARN  org.contentmine.ami.wordutil.WordSetWrapper - WSW> Cannot read stopword stream: /org/contentmine/ami/wordutil, ami3, version 2020/08/09_09/54-NEXT-SNAPSHOT/stopwords.txt
-15:24:47.778 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - no words found to extract
-15:24:48.193 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7493
-15:24:48.708 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 11175
-15:24:48.900 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5100
-15:24:49.075 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6937
-15:24:49.334 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9178
-15:24:49.506 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6800
-15:24:50.054 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 14465
-15:24:50.169 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5583
-15:24:50.322 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7559
-15:24:50.390 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4248
-15:24:50.505 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8110
-15:24:50.686 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5650
-15:24:50.834 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6824
-15:24:50.966 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7161
-15:24:51.136 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 11107
-15:24:51.238 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4511
-15:24:51.447 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9871
-15:24:51.557 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7244
-15:24:51.687 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4952
-15:24:51.803 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8444
-15:24:51.918 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4404
-15:24:52.061 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8335
-15:24:52.287 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 11622
-15:24:52.425 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7329
-15:24:52.485 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4879
-15:24:52.591 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8115
-15:24:52.749 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 11247
-15:24:52.889 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8873
-15:24:53.038 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4980
-15:24:53.171 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 10095
-15:24:53.227 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5550
-15:24:53.310 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6234
-15:24:53.411 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4231
-15:24:53.491 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5809
-15:24:53.623 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6381
-15:24:53.738 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7095
-15:24:53.836 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6854
-15:24:53.902 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4048
-15:24:53.985 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5694
-15:24:54.080 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5899
-15:24:54.232 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5173
-15:24:54.325 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8114
-15:24:54.398 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 3315
-15:24:54.455 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 3827
-15:24:54.563 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9138
-15:24:54.770 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 19363
-15:24:54.922 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7731
-15:24:55.108 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 16716
-15:24:55.271 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 10202
-15:24:55.471 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9003
-15:24:55.767 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7857
-15:24:55.863 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7308
-15:24:55.937 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8345
-15:24:55.995 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4710
-15:24:56.095 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 13868
-15:24:56.179 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5171
-15:24:56.269 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7030
-15:24:56.336 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9541
-15:24:56.396 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5049
-15:24:56.467 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8907
-15:24:56.622 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 18630
-15:24:56.804 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5600
-15:24:56.900 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8094
-15:24:56.984 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5447
-15:24:57.074 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8706
-15:24:57.272 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 10427
-15:24:57.345 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7319
-15:24:57.421 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7741
-15:24:57.490 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7725
-15:24:57.612 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9523
-15:24:57.655 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 2032
-15:24:57.697 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7579
-15:24:57.732 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4069
-15:24:57.879 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 16232
-15:24:58.011 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 15677
-15:24:58.111 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9301
-15:24:58.198 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 7870
-15:24:58.317 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6557
-15:24:58.415 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4847
-15:24:58.616 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6691
-15:24:58.700 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 12654
-15:24:58.777 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6249
-15:24:58.940 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 17322
-15:24:59.092 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 10389
-15:24:59.217 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 13626
-15:24:59.318 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6817
-15:24:59.385 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 10164
-15:24:59.465 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5747
-15:24:59.514 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5224
-15:24:59.567 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5590
-15:24:59.724 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 5379
-15:24:59.796 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 3281
-15:24:59.832 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 2818
-15:24:59.951 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 8720
-15:24:59.983 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4273
-15:25:00.055 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 6769
-15:25:00.125 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 4752
-15:25:00.185 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - WCF>created words: 9940
-15:25:00.200 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - no words found to extract
-15:25:02.015 DEBUG org.contentmine.ami.plugins.CommandProcessor - 
-+++++++++++++++++++running: search; search([country.xml])[]
-15:25:02.015 DEBUG org.contentmine.ami.plugins.search.SearchPluginOption - SEARCH --project activity -i scholarly.html --sr.search country.xml
-15:25:03.157 DEBUG org.contentmine.cproject.lookup.DefaultStringDictionary - lead by wikidata {null=[Afghanistan, Åland, Albania, Algeria, American, Andorra, Angola, Anguilla, Antarctica, Antigua, Antigua, Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, Bahrain, Bahamas, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire,, Bosnia, Botswana, Bouvet, Brazil, British, Brunei, Bulgaria, Burkina, Burundi, Cambodia, Cameroon, Canada, Cape, Cayman, Central, Chad, Chile, China, Christmas, Cocos, Colombia, Comoros, Congo, Democratic, Cook, Costa, Côte, Croatia, Cuba, Curaçao, Cyprus, Czech, Denmark, Djibouti, Dominica, Dominican, Ecuador, Egypt, El, Equatorial, Eritrea, Estonia, Ethiopia, Falkland, Faroe, Fiji, Finland, France, French, French, French, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard, Holy, Honduras, Hong, Hungary, Iceland, India, Indonesia, Iran,, Iraq, Ireland, Isle, Israel, Italy, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, Korea,, Korea,, Kuwait, Kyrgyzstan, Lao, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macao, Macedonia,, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia,, Moldova,, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New, New, Nicaragua, Niger, Nigeria, Niue, Norfolk, Northern, Norway, Oman, Pakistan, Palau, Palestine,, Panama, Papua, Paraguay, Peru, Philippines, Pitcairn, Poland, Portugal, Puerto, Qatar, Réunion, Romania, Russian, Rwanda, Saint, Saint, Saint, Saint, Saint, Saint, Saint, Samoa, San, Sao, Saudi, Senegal, Serbia, Seychelles, Sierra, Singapore, Sint, Slovakia, Slovenia, Solomon, Somalia, South, South, South, Spain, Sri, Sudan, Suriname, Svalbard, Swaziland, Sweden, Switzerland, Syrian, Taiwan,, Tajikistan, Tanzania,, Thailand, Timor-Leste, Togo, Tokelau, Tonga, Trinidad, Tunisia, Turkey, Turkmenistan, Turks, Tuvalu, Uganda, Ukraine, United, United, United, United, Uruguay, Uzbekistan, Vanuatu, Venezuela,, Viet, British, U,S., Wallis, Western, Yemen, Zambia, Zimbabwe]}
-15:25:03.159 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.212 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.373 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.411 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.470 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.536 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.593 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.794 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.835 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.891 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.912 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:03.952 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.002 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.066 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.206 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.271 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.300 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.383 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.415 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.451 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.505 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.537 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.604 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.686 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.723 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.747 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.778 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.853 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.900 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:04.949 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.003 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.027 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.060 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.075 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.171 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.211 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.239 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.279 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.299 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.325 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.356 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.373 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.405 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.424 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.447 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.487 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.652 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.684 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.871 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.940 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:05.999 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.063 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.097 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.154 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.179 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.229 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.244 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.285 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.316 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.397 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.444 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.542 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.585 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.609 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.641 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.679 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.741 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.807 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.840 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.871 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.947 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:06.955 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.038 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.054 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.193 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.248 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.301 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.337 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.407 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.434 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.473 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.530 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.559 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.763 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.835 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.955 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:07.997 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.038 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.067 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.094 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.110 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.147 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.160 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.160 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.219 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.237 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.273 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.291 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.325 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:08.325 DEBUG org.contentmine.ami.plugins.AMISearcher - SEARCH with dictionary
-15:25:09.330 INFO  org.contentmine.ami.tools.AbstractAMISearchTool - Running oldstyle datatales
-15:25:09.380 WARN  org.contentmine.ami.plugins.CommandProcessor - 
-create data tables
-15:25:10.087 DEBUG org.contentmine.ami.AMIProcessor - dicts: [country.xml]
-15:25:10.165 DEBUG org.contentmine.ami.AMIProcessor - Analysing facets: [country.xml]
-15:25:10.610 DEBUG org.contentmine.ami.plugins.OccurrenceAnalyzer - Globbed 80 results files under (activity) with regex (.*\\country\\results\.xml)
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - rowA number of elements 106
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - colA number of elements 106
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - rows trees> 80 / [activity\PMC7514039, activity\PMC7553295, activity\PMC7676924, activity\PMC7689164, activity\PMC7694078, activity\PMC7723237, activity\PMC7767362, activity\PMC7786145, activity\PMC7791585, activity\PMC7824638, activity\PMC7870401, activity\PMC7889342, activity\PMC7898454, activity\PMC7902805, activity\PMC7904114, activity\PMC7914077, activity\PMC7922514, activity\PMC7922936, activity\PMC7923432, activity\PMC7960047, activity\PMC7993383, activity\PMC7996600, activity\PMC8000339, activity\PMC8000775, activity\PMC8003562, activity\PMC8017187, activity\PMC8019382, activity\PMC8032473, activity\PMC8036487, activity\PMC8038092, activity\PMC8038783, activity\PMC8044169, activity\PMC8051319, activity\PMC8053776, activity\PMC8061179, activity\PMC8066157, activity\PMC8066327, activity\PMC8067791, activity\PMC8067826, activity\PMC8069027, activity\PMC8069618, activity\PMC8072588, activity\PMC8073370, activity\PMC8074127, activity\PMC8074158, activity\PMC8076785, activity\PMC8084682, activity\PMC8093886, activity\PMC8102109, activity\PMC8105153, activity\PMC8107825, activity\PMC8115310, activity\PMC8116876, activity\PMC8122903, activity\PMC8123286, activity\PMC8123808, activity\PMC8125735, activity\PMC8126209, activity\PMC8126244, activity\PMC8129181, activity\PMC8137295, activity\PMC8141741, activity\PMC8141878, activity\PMC8143160, activity\PMC8147612, activity\PMC8147947, activity\PMC8151122, activity\PMC8151751, activity\PMC8152457, activity\PMC8155592, activity\PMC8155620, activity\PMC8156077, activity\PMC8156192, activity\PMC8156404, activity\PMC8156645, activity\PMC8156972, activity\PMC8159270, activity\PMC8161122, activity\PMC8161325, activity\PMC8166860]
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - cols trees> 80 / [activity\PMC7514039, activity\PMC7553295, activity\PMC7676924, activity\PMC7689164, activity\PMC7694078, activity\PMC7723237, activity\PMC7767362, activity\PMC7786145, activity\PMC7791585, activity\PMC7824638, activity\PMC7870401, activity\PMC7889342, activity\PMC7898454, activity\PMC7902805, activity\PMC7904114, activity\PMC7914077, activity\PMC7922514, activity\PMC7922936, activity\PMC7923432, activity\PMC7960047, activity\PMC7993383, activity\PMC7996600, activity\PMC8000339, activity\PMC8000775, activity\PMC8003562, activity\PMC8017187, activity\PMC8019382, activity\PMC8032473, activity\PMC8036487, activity\PMC8038092, activity\PMC8038783, activity\PMC8044169, activity\PMC8051319, activity\PMC8053776, activity\PMC8061179, activity\PMC8066157, activity\PMC8066327, activity\PMC8067791, activity\PMC8067826, activity\PMC8069027, activity\PMC8069618, activity\PMC8072588, activity\PMC8073370, activity\PMC8074127, activity\PMC8074158, activity\PMC8076785, activity\PMC8084682, activity\PMC8093886, activity\PMC8102109, activity\PMC8105153, activity\PMC8107825, activity\PMC8115310, activity\PMC8116876, activity\PMC8122903, activity\PMC8123286, activity\PMC8123808, activity\PMC8125735, activity\PMC8126209, activity\PMC8126244, activity\PMC8129181, activity\PMC8137295, activity\PMC8141741, activity\PMC8141878, activity\PMC8143160, activity\PMC8147612, activity\PMC8147947, activity\PMC8151122, activity\PMC8151751, activity\PMC8152457, activity\PMC8155592, activity\PMC8155620, activity\PMC8156077, activity\PMC8156192, activity\PMC8156404, activity\PMC8156645, activity\PMC8156972, activity\PMC8159270, activity\PMC8161122, activity\PMC8161325, activity\PMC8166860]
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - rows country / {activity\PMC8155592=[China x 15, India x 3, Thailand x 2, Nepal x 2, Singapore, South Africa,, United States, Niger, New Zealand, Lebanon, Sri Lanka,, Brazil, Italy, Uganda, Zimbabwe, Israel, France, South Africa., Indonesia], activity\PMC8129181=[Italy], activity\PMC8141741=[Brazil x 20, India x 9, Pakistan x 7, Mexico x 6, Nigeria x 5, Cameroon x 3, China x 3, South Africa x 3, United States x 2, Bangladesh x 2, Ethiopia x 2, Benin, South Africa,, Egypt, Kenya, Cuba, Guadeloupe, Uganda], activity\PMC7922514=[Tunisia x 4, Algeria x 2, Saudi Arabia.], activity\PMC8123286=[Lithuania x 59, Cuba x 56, Romania x 28, Germany x 25, Egypt x 24, Japan x 15, Iraq x 15, Bosnia and Herzegovina,, Albania, Turkey, Saudi Arabia,, China, Tajikistan, Croatia], activity\PMC8125735=[Greece x 2], activity\PMC7723237=[Egypt x 2, Italy, Saudi Arabia.], activity\PMC8137295=[Sri Lanka], activity\PMC8066157=[Lebanon], activity\PMC8107825=[Morocco x 8, Pakistan x 6, Egypt x 5, Bangladesh x 5, India x 4, Turkey x 3, China x 3, Italy x 3, Tunisia x 3, Algeria x 2, Romania, Guinea, Niger, Czech Republic;, United Kingdom, Malaysia, Saudi Arabia., Qatar, Poland, Serbia, Ethiopia], activity\PMC8044169=[Saudi Arabia x 3, Bulgaria x 2, India x 2, Turkey, Pakistan, United States], activity\PMC8069027=[India], activity\PMC8122903=[Poland x 3, China, India], activity\PMC8038092=[Japan, Poland, Australia], activity\PMC8155620=[China x 3, Nigeria x 2, South Africa,, Togo, United States, Kenya, Portugal, Congo, Pakistan, Malawi, Senegal, South Africa, Uganda], activity\PMC8156077=[Cameroon x 2, India x 2, China x 2, Brazil x 2, Benin, United States, Ghana, Congo, Gabon, Bangladesh, Belgium, Trinidad and Tobago, Australia, Nigeria, Germany, Nepal, Indonesia], activity\PMC8161325=[Serbia x 4, Croatia x 2, Italy, France], activity\PMC7904114=[Pakistan, United States, Oman], activity\PMC7694078=[New Zealand x 13, Australia x 5, United States x 2, South Africa, New Zealand,, New Zealand.], activity\PMC8019382=[United States], activity\PMC8116876=[Azerbaijan], activity\PMC8051319=[Egypt], activity\PMC8156192=[Portugal x 3, Spain x 2], activity\PMC8126244=[South Africa x 4, Italy], activity\PMC7993383=[China x 2, Macao], activity\PMC8053776=[Guinea x 3, Saudi Arabia x 2, Ethiopia x 2, Eritrea, United States., China, Brazil], activity\PMC8161122=[Congo], activity\PMC7767362=[Egypt, Malaysia, Australia, Peru], activity\PMC7902805=[South Africa, Australia], activity\PMC8143160=[India x 21, Egypt x 4, Brazil x 2, Saudi Arabia, Bangladesh, Pakistan, Philippines, Japan, France], activity\PMC7960047=[Ethiopia x 7, Kenya x 2, Burkina Faso,, Niger], activity\PMC8073370=[India x 3, Malaysia x 2, Mauritius x 2, Thailand, Indonesia], activity\PMC7689164=[Morocco x 23, Algeria, Spain], activity\PMC7898454=[Pakistan x 4], activity\PMC8115310=[Ethiopia x 2, Bangladesh, Somalia], activity\PMC8003562=[Spain x 10, United States., Morocco, Palau], activity\PMC8066327=[Bangladesh, Philippines, Mexico, India], activity\PMC8123808=[Guatemala x 7, India x 3, Saudi Arabia. x 2, Papua New Guinea,, Saudi Arabia,, Sri Lanka,, El Salvador,], activity\PMC8076785=[Azerbaijan x 2, Romania x 2, Lebanon, United States,, Mongolia, Afghanistan, Turkey, Italy, Mexico, Tajikistan], activity\PMC7870401=[Egypt x 2, Bangladesh], activity\PMC7889342=[Niger x 3, Sri Lanka], activity\PMC8067791=[China x 2, France x 2, India x 2, Pakistan, Turkey, Cyprus, Mauritius, Switzerland, Tajikistan], activity\PMC7786145=[Morocco x 23, France x 2], activity\PMC8000775=[Nigeria x 5, Guinea x 3, India x 3, Ghana], activity\PMC8093886=[Cameroon, India], activity\PMC7996600=[United States, India], activity\PMC8000339=[Slovakia x 7, Switzerland x 6, Greece x 6, Portugal x 5, Italy x 5, Finland x 4, Germany x 3, Romania x 2, Spain x 2, China x 2, Poland x 2, Serbia x 2, Croatia x 2, Hungary, Cyprus, India, Czech Republic,, Slovenia, Bulgaria], activity\PMC8105153=[Argentina x 2, Japan, India], activity\PMC8072588=[Algeria x 3, Morocco x 2, Tunisia x 2, Egypt], activity\PMC8074127=[Greece x 2, Egypt x 2, Bulgaria x 2, South Africa;, Niger, France, India], activity\PMC8166860=[Azerbaijan, Argentina], activity\PMC7553295=[Argentina x 8, Egypt x 6, Saudi Arabia x 4, India x 4, Pakistan x 3, Saudi Arabia, x 2, Switzerland x 2, Yemen x 2, Turkey, China, Algeria, Iraq], activity\PMC8067826=[Turkey, Italy, Serbia], activity\PMC8126209=[Cuba, United States], activity\PMC8084682=[Malaysia x 5, Germany], activity\PMC8147947=[Chile], activity\PMC7914077=[China, Brazil, Italy], activity\PMC8152457=[United States., Italy, Australia], activity\PMC7676924=[Ethiopia], activity\PMC8151122=[China x 18, France x 2, India x 2, United States, Japan, Poland, Mexico, Serbia, Australia], activity\PMC8156972=[Turkey, Mozambique, Hungary], activity\PMC8074158=[Colombia, Mexico], activity\PMC7824638=[Brazil], activity\PMC7923432=[Canada, Saudi Arabia,, United States, Tunisia], activity\PMC8141878=[Turkey x 2, Egypt, Libya, South Africa.], activity\PMC8017187=[China x 3, Brazil, Italy], activity\PMC8032473=[United States,, Saudi Arabia, China], activity\PMC7791585=[Sri Lanka, Peru], activity\PMC7514039=[China x 3, Bangladesh], activity\PMC8147612=[Thailand x 7, Benin, Malaysia], activity\PMC7922936=[Madagascar x 3, China], activity\PMC8036487=[Morocco, Sri Lanka,, China, India], activity\PMC8038783=[Chile x 7, Morocco], activity\PMC8061179=[Lebanon], activity\PMC8069618=[Algeria x 17, Tunisia x 15, Italy x 14, Morocco x 10, Spain x 6, Turkey x 4, Greece x 3, Egypt x 2, Iraq, Israel, Jordan, Libya], activity\PMC8102109=[China x 5, Myanmar], activity\PMC8159270=[China x 5, Georgia], activity\PMC8156404=[Turkey x 3, Israel x 3, Jordan x 3, Lebanon x 2, Egypt x 2, Morocco, Algeria, Libya, Spain], activity\PMC8156645=[China, Thailand], activity\PMC8151751=[Lebanon]}
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - cols country / {activity\PMC8155592=[China x 15, India x 3, Thailand x 2, Nepal x 2, Singapore, South Africa,, United States, Niger, New Zealand, Lebanon, Sri Lanka,, Brazil, Italy, Uganda, Zimbabwe, Israel, France, South Africa., Indonesia], activity\PMC8129181=[Italy], activity\PMC8141741=[Brazil x 20, India x 9, Pakistan x 7, Mexico x 6, Nigeria x 5, Cameroon x 3, China x 3, South Africa x 3, United States x 2, Bangladesh x 2, Ethiopia x 2, Benin, South Africa,, Egypt, Kenya, Cuba, Guadeloupe, Uganda], activity\PMC7922514=[Tunisia x 4, Algeria x 2, Saudi Arabia.], activity\PMC8123286=[Lithuania x 59, Cuba x 56, Romania x 28, Germany x 25, Egypt x 24, Japan x 15, Iraq x 15, Bosnia and Herzegovina,, Albania, Turkey, Saudi Arabia,, China, Tajikistan, Croatia], activity\PMC8125735=[Greece x 2], activity\PMC7723237=[Egypt x 2, Italy, Saudi Arabia.], activity\PMC8137295=[Sri Lanka], activity\PMC8066157=[Lebanon], activity\PMC8107825=[Morocco x 8, Pakistan x 6, Egypt x 5, Bangladesh x 5, India x 4, Turkey x 3, China x 3, Italy x 3, Tunisia x 3, Algeria x 2, Romania, Guinea, Niger, Czech Republic;, United Kingdom, Malaysia, Saudi Arabia., Qatar, Poland, Serbia, Ethiopia], activity\PMC8044169=[Saudi Arabia x 3, Bulgaria x 2, India x 2, Turkey, Pakistan, United States], activity\PMC8069027=[India], activity\PMC8122903=[Poland x 3, China, India], activity\PMC8038092=[Japan, Poland, Australia], activity\PMC8155620=[China x 3, Nigeria x 2, South Africa,, Togo, United States, Kenya, Portugal, Congo, Pakistan, Malawi, Senegal, South Africa, Uganda], activity\PMC8156077=[Cameroon x 2, India x 2, China x 2, Brazil x 2, Benin, United States, Ghana, Congo, Gabon, Bangladesh, Belgium, Trinidad and Tobago, Australia, Nigeria, Germany, Nepal, Indonesia], activity\PMC8161325=[Serbia x 4, Croatia x 2, Italy, France], activity\PMC7904114=[Pakistan, United States, Oman], activity\PMC7694078=[New Zealand x 13, Australia x 5, United States x 2, South Africa, New Zealand,, New Zealand.], activity\PMC8019382=[United States], activity\PMC8116876=[Azerbaijan], activity\PMC8051319=[Egypt], activity\PMC8156192=[Portugal x 3, Spain x 2], activity\PMC8126244=[South Africa x 4, Italy], activity\PMC7993383=[China x 2, Macao], activity\PMC8053776=[Guinea x 3, Saudi Arabia x 2, Ethiopia x 2, Eritrea, United States., China, Brazil], activity\PMC8161122=[Congo], activity\PMC7767362=[Egypt, Malaysia, Australia, Peru], activity\PMC7902805=[South Africa, Australia], activity\PMC8143160=[India x 21, Egypt x 4, Brazil x 2, Saudi Arabia, Bangladesh, Pakistan, Philippines, Japan, France], activity\PMC7960047=[Ethiopia x 7, Kenya x 2, Burkina Faso,, Niger], activity\PMC8073370=[India x 3, Malaysia x 2, Mauritius x 2, Thailand, Indonesia], activity\PMC7689164=[Morocco x 23, Algeria, Spain], activity\PMC7898454=[Pakistan x 4], activity\PMC8115310=[Ethiopia x 2, Bangladesh, Somalia], activity\PMC8003562=[Spain x 10, United States., Morocco, Palau], activity\PMC8066327=[Bangladesh, Philippines, Mexico, India], activity\PMC8123808=[Guatemala x 7, India x 3, Saudi Arabia. x 2, Papua New Guinea,, Saudi Arabia,, Sri Lanka,, El Salvador,], activity\PMC8076785=[Azerbaijan x 2, Romania x 2, Lebanon, United States,, Mongolia, Afghanistan, Turkey, Italy, Mexico, Tajikistan], activity\PMC7870401=[Egypt x 2, Bangladesh], activity\PMC7889342=[Niger x 3, Sri Lanka], activity\PMC8067791=[China x 2, France x 2, India x 2, Pakistan, Turkey, Cyprus, Mauritius, Switzerland, Tajikistan], activity\PMC7786145=[Morocco x 23, France x 2], activity\PMC8000775=[Nigeria x 5, Guinea x 3, India x 3, Ghana], activity\PMC8093886=[Cameroon, India], activity\PMC7996600=[United States, India], activity\PMC8000339=[Slovakia x 7, Switzerland x 6, Greece x 6, Portugal x 5, Italy x 5, Finland x 4, Germany x 3, Romania x 2, Spain x 2, China x 2, Poland x 2, Serbia x 2, Croatia x 2, Hungary, Cyprus, India, Czech Republic,, Slovenia, Bulgaria], activity\PMC8105153=[Argentina x 2, Japan, India], activity\PMC8072588=[Algeria x 3, Morocco x 2, Tunisia x 2, Egypt], activity\PMC8074127=[Greece x 2, Egypt x 2, Bulgaria x 2, South Africa;, Niger, France, India], activity\PMC8166860=[Azerbaijan, Argentina], activity\PMC7553295=[Argentina x 8, Egypt x 6, Saudi Arabia x 4, India x 4, Pakistan x 3, Saudi Arabia, x 2, Switzerland x 2, Yemen x 2, Turkey, China, Algeria, Iraq], activity\PMC8067826=[Turkey, Italy, Serbia], activity\PMC8126209=[Cuba, United States], activity\PMC8084682=[Malaysia x 5, Germany], activity\PMC8147947=[Chile], activity\PMC7914077=[China, Brazil, Italy], activity\PMC8152457=[United States., Italy, Australia], activity\PMC7676924=[Ethiopia], activity\PMC8151122=[China x 18, France x 2, India x 2, United States, Japan, Poland, Mexico, Serbia, Australia], activity\PMC8156972=[Turkey, Mozambique, Hungary], activity\PMC8074158=[Colombia, Mexico], activity\PMC7824638=[Brazil], activity\PMC7923432=[Canada, Saudi Arabia,, United States, Tunisia], activity\PMC8141878=[Turkey x 2, Egypt, Libya, South Africa.], activity\PMC8017187=[China x 3, Brazil, Italy], activity\PMC8032473=[United States,, Saudi Arabia, China], activity\PMC7791585=[Sri Lanka, Peru], activity\PMC7514039=[China x 3, Bangladesh], activity\PMC8147612=[Thailand x 7, Benin, Malaysia], activity\PMC7922936=[Madagascar x 3, China], activity\PMC8036487=[Morocco, Sri Lanka,, China, India], activity\PMC8038783=[Chile x 7, Morocco], activity\PMC8061179=[Lebanon], activity\PMC8069618=[Algeria x 17, Tunisia x 15, Italy x 14, Morocco x 10, Spain x 6, Turkey x 4, Greece x 3, Egypt x 2, Iraq, Israel, Jordan, Libya], activity\PMC8102109=[China x 5, Myanmar], activity\PMC8159270=[China x 5, Georgia], activity\PMC8156404=[Turkey x 3, Israel x 3, Jordan x 3, Lebanon x 2, Egypt x 2, Morocco, Algeria, Libya, Spain], activity\PMC8156645=[China, Thailand], activity\PMC8151751=[Lebanon]}
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - files by rows country / {United States,=[activity\PMC8076785, activity\PMC8032473], Benin=[activity\PMC8156077, activity\PMC8147612, activity\PMC8141741], United States.=[activity\PMC8152457, activity\PMC8053776, activity\PMC8003562], El Salvador,=[activity\PMC8123808], Portugal=[activity\PMC8156192, activity\PMC8000339, activity\PMC8155620], Greece=[activity\PMC8125735, activity\PMC8069618, activity\PMC8000339, activity\PMC8074127], Mongolia=[activity\PMC8076785], Morocco=[activity\PMC8036487, activity\PMC8038783, activity\PMC8069618, activity\PMC7786145, activity\PMC8156404, activity\PMC8107825, activity\PMC7689164, activity\PMC8003562, activity\PMC8072588], Guadeloupe=[activity\PMC8141741], Guatemala=[activity\PMC8123808], Iraq=[activity\PMC7553295, activity\PMC8069618, activity\PMC8123286], Chile=[activity\PMC8038783, activity\PMC8147947], Nepal=[activity\PMC8156077, activity\PMC8155592], Papua New Guinea,=[activity\PMC8123808], Argentina=[activity\PMC7553295, activity\PMC8105153, activity\PMC8166860], Ghana=[activity\PMC8156077, activity\PMC8000775], Congo=[activity\PMC8156077, activity\PMC8161122, activity\PMC8155620], India=[activity\PMC8156077, activity\PMC8155592, activity\PMC8067791, activity\PMC8000775, activity\PMC8141741, activity\PMC8093886, activity\PMC7996600, activity\PMC8000339, activity\PMC8105153, activity\PMC8074127, activity\PMC7553295, activity\PMC8036487, activity\PMC8143160, activity\PMC8073370, activity\PMC8107825, activity\PMC8044169, activity\PMC8069027, activity\PMC8122903, activity\PMC8066327, activity\PMC8151122, activity\PMC8123808], Canada=[activity\PMC7923432], Turkey=[activity\PMC7553295, activity\PMC8076785, activity\PMC8067826, activity\PMC8069618, activity\PMC8067791, activity\PMC8141878, activity\PMC8156404, activity\PMC8107825, activity\PMC8044169, activity\PMC8156972, activity\PMC8123286], Belgium=[activity\PMC8156077], Sri Lanka,=[activity\PMC8155592, activity\PMC8036487, activity\PMC8123808], Finland=[activity\PMC8000339], South Africa=[activity\PMC7902805, activity\PMC7694078, activity\PMC8141741, activity\PMC8126244, activity\PMC8155620], Trinidad and Tobago=[activity\PMC8156077], New Zealand,=[activity\PMC7694078], Georgia=[activity\PMC8159270], New Zealand.=[activity\PMC7694078], Peru=[activity\PMC7767362, activity\PMC7791585], Germany=[activity\PMC8156077, activity\PMC8084682, activity\PMC8000339, activity\PMC8123286], Yemen=[activity\PMC7553295], Eritrea=[activity\PMC8053776], United States=[activity\PMC8156077, activity\PMC8155592, activity\PMC7904114, activity\PMC8126209, activity\PMC7694078, activity\PMC8019382, activity\PMC7923432, activity\PMC8141741, activity\PMC8044169, activity\PMC7996600, activity\PMC8151122, activity\PMC8155620], Guinea=[activity\PMC8000775, activity\PMC8107825, activity\PMC8053776], Somalia=[activity\PMC8115310], Madagascar=[activity\PMC7922936], Thailand=[activity\PMC8147612, activity\PMC8155592, activity\PMC8073370, activity\PMC8156645], Libya=[activity\PMC8069618, activity\PMC8141878, activity\PMC8156404], South Africa;=[activity\PMC8074127], Malawi=[activity\PMC8155620], Poland=[activity\PMC8107825, activity\PMC8122903, activity\PMC8000339, activity\PMC8151122, activity\PMC8038092], Nigeria=[activity\PMC8156077, activity\PMC8000775, activity\PMC8141741, activity\PMC8155620], Bulgaria=[activity\PMC8044169, activity\PMC8000339, activity\PMC8074127], Jordan=[activity\PMC8069618, activity\PMC8156404], South Africa.=[activity\PMC8155592, activity\PMC8141878], Tunisia=[activity\PMC8069618, activity\PMC7923432, activity\PMC8107825, activity\PMC7922514, activity\PMC8072588], Croatia=[activity\PMC8161325, activity\PMC8000339, activity\PMC8123286], South Africa,=[activity\PMC8155592, activity\PMC8141741, activity\PMC8155620], Sri Lanka=[activity\PMC7889342, activity\PMC8137295, activity\PMC7791585], United Kingdom=[activity\PMC8107825], Kenya=[activity\PMC7960047, activity\PMC8141741, activity\PMC8155620], Switzerland=[activity\PMC7553295, activity\PMC8067791, activity\PMC8000339], Spain=[activity\PMC8069618, activity\PMC8156404, activity\PMC7689164, activity\PMC8156192, activity\PMC8000339, activity\PMC8003562], Lebanon=[activity\PMC8155592, activity\PMC8076785, activity\PMC8061179, activity\PMC8156404, activity\PMC8066157, activity\PMC8151751], Cuba=[activity\PMC8126209, activity\PMC8141741, activity\PMC8123286], Azerbaijan=[activity\PMC8076785, activity\PMC8116876, activity\PMC8166860], Palau=[activity\PMC8003562], Israel=[activity\PMC8155592, activity\PMC8069618, activity\PMC8156404], Australia=[activity\PMC8156077, activity\PMC7767362, activity\PMC7902805, activity\PMC7694078, activity\PMC8152457, activity\PMC8151122, activity\PMC8038092], Tajikistan=[activity\PMC8076785, activity\PMC8067791, activity\PMC8123286], Myanmar=[activity\PMC8102109], Cameroon=[activity\PMC8156077, activity\PMC8141741, activity\PMC8093886], Cyprus=[activity\PMC8067791, activity\PMC8000339], Malaysia=[activity\PMC8147612, activity\PMC7767362, activity\PMC8084682, activity\PMC8073370, activity\PMC8107825], Oman=[activity\PMC7904114], Gabon=[activity\PMC8156077], Mozambique=[activity\PMC8156972], Brazil=[activity\PMC8156077, activity\PMC8155592, activity\PMC7824638, activity\PMC8143160, activity\PMC7914077, activity\PMC8141741, activity\PMC8017187, activity\PMC8053776], Algeria=[activity\PMC7553295, activity\PMC8069618, activity\PMC8156404, activity\PMC8107825, activity\PMC7689164, activity\PMC7922514, activity\PMC8072588], Slovenia=[activity\PMC8000339], Colombia=[activity\PMC8074158], Hungary=[activity\PMC8000339, activity\PMC8156972], Japan=[activity\PMC8143160, activity\PMC8105153, activity\PMC8151122, activity\PMC8123286, activity\PMC8038092], Czech Republic;=[activity\PMC8107825], Bosnia and Herzegovina,=[activity\PMC8123286], Saudi Arabia.=[activity\PMC7723237, activity\PMC8107825, activity\PMC7922514, activity\PMC8123808], Mauritius=[activity\PMC8067791, activity\PMC8073370], Albania=[activity\PMC8123286], New Zealand=[activity\PMC8155592, activity\PMC7694078], Saudi Arabia,=[activity\PMC7553295, activity\PMC7923432, activity\PMC8123286, activity\PMC8123808], Senegal=[activity\PMC8155620], Czech Republic,=[activity\PMC8000339], Italy=[activity\PMC8161325, activity\PMC8155592, activity\PMC8076785, activity\PMC8129181, activity\PMC8017187, activity\PMC8126244, activity\PMC8000339, activity\PMC8067826, activity\PMC8069618, activity\PMC7723237, activity\PMC7914077, activity\PMC8107825, activity\PMC8152457], Ethiopia=[activity\PMC7960047, activity\PMC8141741, activity\PMC8107825, activity\PMC8115310, activity\PMC7676924, activity\PMC8053776], Afghanistan=[activity\PMC8076785], Singapore=[activity\PMC8155592], Egypt=[activity\PMC7870401, activity\PMC8141878, activity\PMC8141741, activity\PMC8051319, activity\PMC8123286, activity\PMC8072588, activity\PMC8074127, activity\PMC7553295, activity\PMC7767362, activity\PMC8069618, activity\PMC7723237, activity\PMC8143160, activity\PMC8156404, activity\PMC8107825], Saudi Arabia=[activity\PMC7553295, activity\PMC8143160, activity\PMC8032473, activity\PMC8044169, activity\PMC8053776], Burkina Faso,=[activity\PMC7960047], Pakistan=[activity\PMC7553295, activity\PMC7904114, activity\PMC8143160, activity\PMC8067791, activity\PMC8141741, activity\PMC8107825, activity\PMC8044169, activity\PMC7898454, activity\PMC8155620], China=[activity\PMC8156077, activity\PMC8155592, activity\PMC8067791, activity\PMC8141741, activity\PMC8017187, activity\PMC8032473, activity\PMC8000339, activity\PMC7993383, activity\PMC8053776, activity\PMC8123286, activity\PMC7514039, activity\PMC7553295, activity\PMC7922936, activity\PMC8036487, activity\PMC8102109, activity\PMC8159270, activity\PMC7914077, activity\PMC8107825, activity\PMC8156645, activity\PMC8122903, activity\PMC8151122, activity\PMC8155620], Qatar=[activity\PMC8107825], Slovakia=[activity\PMC8000339], France=[activity\PMC8161325, activity\PMC8155592, activity\PMC8143160, activity\PMC8067791, activity\PMC7786145, activity\PMC8151122, activity\PMC8074127], Lithuania=[activity\PMC8123286], Serbia=[activity\PMC8161325, activity\PMC8067826, activity\PMC8107825, activity\PMC8000339, activity\PMC8151122], Romania=[activity\PMC8076785, activity\PMC8107825, activity\PMC8000339, activity\PMC8123286], Togo=[activity\PMC8155620], Niger=[activity\PMC8155592, activity\PMC7889342, activity\PMC7960047, activity\PMC8107825, activity\PMC8074127], Philippines=[activity\PMC8143160, activity\PMC8066327], Bangladesh=[activity\PMC8156077, activity\PMC7870401, activity\PMC8143160, activity\PMC8141741, activity\PMC8107825, activity\PMC8115310, activity\PMC8066327, activity\PMC7514039], Macao=[activity\PMC7993383], Uganda=[activity\PMC8155592, activity\PMC8141741, activity\PMC8155620], Zimbabwe=[activity\PMC8155592], Mexico=[activity\PMC8074158, activity\PMC8076785, activity\PMC8141741, activity\PMC8066327, activity\PMC8151122], Indonesia=[activity\PMC8156077, activity\PMC8155592, activity\PMC8073370]}
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - files by cols country / {United States,=[activity\PMC8076785, activity\PMC8032473], Benin=[activity\PMC8156077, activity\PMC8147612, activity\PMC8141741], United States.=[activity\PMC8152457, activity\PMC8053776, activity\PMC8003562], El Salvador,=[activity\PMC8123808], Portugal=[activity\PMC8156192, activity\PMC8000339, activity\PMC8155620], Greece=[activity\PMC8125735, activity\PMC8069618, activity\PMC8000339, activity\PMC8074127], Mongolia=[activity\PMC8076785], Morocco=[activity\PMC8036487, activity\PMC8038783, activity\PMC8069618, activity\PMC7786145, activity\PMC8156404, activity\PMC8107825, activity\PMC7689164, activity\PMC8003562, activity\PMC8072588], Guadeloupe=[activity\PMC8141741], Guatemala=[activity\PMC8123808], Iraq=[activity\PMC7553295, activity\PMC8069618, activity\PMC8123286], Chile=[activity\PMC8038783, activity\PMC8147947], Nepal=[activity\PMC8156077, activity\PMC8155592], Papua New Guinea,=[activity\PMC8123808], Argentina=[activity\PMC7553295, activity\PMC8105153, activity\PMC8166860], Ghana=[activity\PMC8156077, activity\PMC8000775], Congo=[activity\PMC8156077, activity\PMC8161122, activity\PMC8155620], India=[activity\PMC8156077, activity\PMC8155592, activity\PMC8067791, activity\PMC8000775, activity\PMC8141741, activity\PMC8093886, activity\PMC7996600, activity\PMC8000339, activity\PMC8105153, activity\PMC8074127, activity\PMC7553295, activity\PMC8036487, activity\PMC8143160, activity\PMC8073370, activity\PMC8107825, activity\PMC8044169, activity\PMC8069027, activity\PMC8122903, activity\PMC8066327, activity\PMC8151122, activity\PMC8123808], Canada=[activity\PMC7923432], Turkey=[activity\PMC7553295, activity\PMC8076785, activity\PMC8067826, activity\PMC8069618, activity\PMC8067791, activity\PMC8141878, activity\PMC8156404, activity\PMC8107825, activity\PMC8044169, activity\PMC8156972, activity\PMC8123286], Belgium=[activity\PMC8156077], Sri Lanka,=[activity\PMC8155592, activity\PMC8036487, activity\PMC8123808], Finland=[activity\PMC8000339], South Africa=[activity\PMC7902805, activity\PMC7694078, activity\PMC8141741, activity\PMC8126244, activity\PMC8155620], Trinidad and Tobago=[activity\PMC8156077], New Zealand,=[activity\PMC7694078], Georgia=[activity\PMC8159270], New Zealand.=[activity\PMC7694078], Peru=[activity\PMC7767362, activity\PMC7791585], Germany=[activity\PMC8156077, activity\PMC8084682, activity\PMC8000339, activity\PMC8123286], Yemen=[activity\PMC7553295], Eritrea=[activity\PMC8053776], United States=[activity\PMC8156077, activity\PMC8155592, activity\PMC7904114, activity\PMC8126209, activity\PMC7694078, activity\PMC8019382, activity\PMC7923432, activity\PMC8141741, activity\PMC8044169, activity\PMC7996600, activity\PMC8151122, activity\PMC8155620], Guinea=[activity\PMC8000775, activity\PMC8107825, activity\PMC8053776], Somalia=[activity\PMC8115310], Madagascar=[activity\PMC7922936], Thailand=[activity\PMC8147612, activity\PMC8155592, activity\PMC8073370, activity\PMC8156645], Libya=[activity\PMC8069618, activity\PMC8141878, activity\PMC8156404], South Africa;=[activity\PMC8074127], Malawi=[activity\PMC8155620], Poland=[activity\PMC8107825, activity\PMC8122903, activity\PMC8000339, activity\PMC8151122, activity\PMC8038092], Nigeria=[activity\PMC8156077, activity\PMC8000775, activity\PMC8141741, activity\PMC8155620], Bulgaria=[activity\PMC8044169, activity\PMC8000339, activity\PMC8074127], Jordan=[activity\PMC8069618, activity\PMC8156404], South Africa.=[activity\PMC8155592, activity\PMC8141878], Tunisia=[activity\PMC8069618, activity\PMC7923432, activity\PMC8107825, activity\PMC7922514, activity\PMC8072588], Croatia=[activity\PMC8161325, activity\PMC8000339, activity\PMC8123286], South Africa,=[activity\PMC8155592, activity\PMC8141741, activity\PMC8155620], Sri Lanka=[activity\PMC7889342, activity\PMC8137295, activity\PMC7791585], United Kingdom=[activity\PMC8107825], Kenya=[activity\PMC7960047, activity\PMC8141741, activity\PMC8155620], Switzerland=[activity\PMC7553295, activity\PMC8067791, activity\PMC8000339], Spain=[activity\PMC8069618, activity\PMC8156404, activity\PMC7689164, activity\PMC8156192, activity\PMC8000339, activity\PMC8003562], Lebanon=[activity\PMC8155592, activity\PMC8076785, activity\PMC8061179, activity\PMC8156404, activity\PMC8066157, activity\PMC8151751], Cuba=[activity\PMC8126209, activity\PMC8141741, activity\PMC8123286], Azerbaijan=[activity\PMC8076785, activity\PMC8116876, activity\PMC8166860], Palau=[activity\PMC8003562], Israel=[activity\PMC8155592, activity\PMC8069618, activity\PMC8156404], Australia=[activity\PMC8156077, activity\PMC7767362, activity\PMC7902805, activity\PMC7694078, activity\PMC8152457, activity\PMC8151122, activity\PMC8038092], Tajikistan=[activity\PMC8076785, activity\PMC8067791, activity\PMC8123286], Myanmar=[activity\PMC8102109], Cameroon=[activity\PMC8156077, activity\PMC8141741, activity\PMC8093886], Cyprus=[activity\PMC8067791, activity\PMC8000339], Malaysia=[activity\PMC8147612, activity\PMC7767362, activity\PMC8084682, activity\PMC8073370, activity\PMC8107825], Oman=[activity\PMC7904114], Gabon=[activity\PMC8156077], Mozambique=[activity\PMC8156972], Brazil=[activity\PMC8156077, activity\PMC8155592, activity\PMC7824638, activity\PMC8143160, activity\PMC7914077, activity\PMC8141741, activity\PMC8017187, activity\PMC8053776], Algeria=[activity\PMC7553295, activity\PMC8069618, activity\PMC8156404, activity\PMC8107825, activity\PMC7689164, activity\PMC7922514, activity\PMC8072588], Slovenia=[activity\PMC8000339], Colombia=[activity\PMC8074158], Hungary=[activity\PMC8000339, activity\PMC8156972], Japan=[activity\PMC8143160, activity\PMC8105153, activity\PMC8151122, activity\PMC8123286, activity\PMC8038092], Czech Republic;=[activity\PMC8107825], Bosnia and Herzegovina,=[activity\PMC8123286], Saudi Arabia.=[activity\PMC7723237, activity\PMC8107825, activity\PMC7922514, activity\PMC8123808], Mauritius=[activity\PMC8067791, activity\PMC8073370], Albania=[activity\PMC8123286], New Zealand=[activity\PMC8155592, activity\PMC7694078], Saudi Arabia,=[activity\PMC7553295, activity\PMC7923432, activity\PMC8123286, activity\PMC8123808], Senegal=[activity\PMC8155620], Czech Republic,=[activity\PMC8000339], Italy=[activity\PMC8161325, activity\PMC8155592, activity\PMC8076785, activity\PMC8129181, activity\PMC8017187, activity\PMC8126244, activity\PMC8000339, activity\PMC8067826, activity\PMC8069618, activity\PMC7723237, activity\PMC7914077, activity\PMC8107825, activity\PMC8152457], Ethiopia=[activity\PMC7960047, activity\PMC8141741, activity\PMC8107825, activity\PMC8115310, activity\PMC7676924, activity\PMC8053776], Afghanistan=[activity\PMC8076785], Singapore=[activity\PMC8155592], Egypt=[activity\PMC7870401, activity\PMC8141878, activity\PMC8141741, activity\PMC8051319, activity\PMC8123286, activity\PMC8072588, activity\PMC8074127, activity\PMC7553295, activity\PMC7767362, activity\PMC8069618, activity\PMC7723237, activity\PMC8143160, activity\PMC8156404, activity\PMC8107825], Saudi Arabia=[activity\PMC7553295, activity\PMC8143160, activity\PMC8032473, activity\PMC8044169, activity\PMC8053776], Burkina Faso,=[activity\PMC7960047], Pakistan=[activity\PMC7553295, activity\PMC7904114, activity\PMC8143160, activity\PMC8067791, activity\PMC8141741, activity\PMC8107825, activity\PMC8044169, activity\PMC7898454, activity\PMC8155620], China=[activity\PMC8156077, activity\PMC8155592, activity\PMC8067791, activity\PMC8141741, activity\PMC8017187, activity\PMC8032473, activity\PMC8000339, activity\PMC7993383, activity\PMC8053776, activity\PMC8123286, activity\PMC7514039, activity\PMC7553295, activity\PMC7922936, activity\PMC8036487, activity\PMC8102109, activity\PMC8159270, activity\PMC7914077, activity\PMC8107825, activity\PMC8156645, activity\PMC8122903, activity\PMC8151122, activity\PMC8155620], Qatar=[activity\PMC8107825], Slovakia=[activity\PMC8000339], France=[activity\PMC8161325, activity\PMC8155592, activity\PMC8143160, activity\PMC8067791, activity\PMC7786145, activity\PMC8151122, activity\PMC8074127], Lithuania=[activity\PMC8123286], Serbia=[activity\PMC8161325, activity\PMC8067826, activity\PMC8107825, activity\PMC8000339, activity\PMC8151122], Romania=[activity\PMC8076785, activity\PMC8107825, activity\PMC8000339, activity\PMC8123286], Togo=[activity\PMC8155620], Niger=[activity\PMC8155592, activity\PMC7889342, activity\PMC7960047, activity\PMC8107825, activity\PMC8074127], Philippines=[activity\PMC8143160, activity\PMC8066327], Bangladesh=[activity\PMC8156077, activity\PMC7870401, activity\PMC8143160, activity\PMC8141741, activity\PMC8107825, activity\PMC8115310, activity\PMC8066327, activity\PMC7514039], Macao=[activity\PMC7993383], Uganda=[activity\PMC8155592, activity\PMC8141741, activity\PMC8155620], Zimbabwe=[activity\PMC8155592], Mexico=[activity\PMC8074158, activity\PMC8076785, activity\PMC8141741, activity\PMC8066327, activity\PMC8151122], Indonesia=[activity\PMC8156077, activity\PMC8155592, activity\PMC8073370]}
-15:25:11.229 DEBUG org.contentmine.ami.plugins.CooccurrenceAnalyzer - COOC: {25,25}
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+17:16:59.626 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+17:16:59.626 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMISectionTool)
+17:16:59.627 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+17:16:59.731 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+17:16:59.731 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            C:\Users\DELL\CEVOpen\minicorpora\activity
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           101 trees [activity\10.21203, activity\10.21203rs.3.rs-33785
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+17:16:59.732 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+17:16:59.733 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+17:16:59.733 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+17:16:59.733 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+17:16:59.733 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+17:16:59.733 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+17:16:59.733 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMISectionTool)
+17:16:59.733 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+17:16:59.734 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami section':
+17:16:59.735 INFO  org.contentmine.ami.tools.AbstractAMITool - --boldsections      : d     false
+17:16:59.735 INFO  org.contentmine.ami.tools.AbstractAMITool - --extract           : d [tab, fig, supplementary]
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --html              : d      null
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --hypertree         : d        {}
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --sections          : d    [AUTO]
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --sectiontype       : d       XML
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --summary           : d        []
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --whitespace        : d      true
+17:16:59.736 INFO  org.contentmine.ami.tools.AbstractAMITool - --write             : d      true
+17:16:59.737 INFO  org.contentmine.ami.tools.AbstractAMITool - --xpath             : d      null
+17:16:59.737 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+17:16:59.737 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+17:16:59.737 DEBUG org.contentmine.ami.tools.AMISectionTool - sec>[]
+17:16:59.737 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: 10.21203
+17:16:59.739 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml
+17:16:59.739 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: 10.21203rs.3.rs-337854v1
+17:16:59.740 WARN  org.contentmine.ami.tools.AMISectionTool - no fulltext.xml
+17:16:59.740 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7514039
+17:17:00.493 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7553295
+17:17:00.949 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7676924
+17:17:01.161 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7689164
+17:17:01.389 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7694078
+17:17:01.732 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7723237
+17:17:01.979 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7767362
+17:17:03.017 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7782911
+17:17:03.043 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span article-version
+17:17:03.055 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span postal-code
+17:17:03.230 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7786145
+17:17:03.463 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7791585
+17:17:03.993 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7802582
+17:17:04.201 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7824638
+17:17:04.529 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7870401
+17:17:04.756 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7889342
+17:17:04.974 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7898454
+17:17:06.645 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7902805
+17:17:06.933 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7904114
+17:17:07.073 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7913593
+17:17:07.415 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7914077
+17:17:07.610 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7914769
+17:17:07.817 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7918425
+17:17:08.036 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7922514
+17:17:08.197 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7922936
+17:17:08.399 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7923432
+17:17:08.816 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7952497
+17:17:09.034 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7960047
+17:17:09.465 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7993383
+17:17:09.479 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span article-version
+17:17:09.486 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span postal-code
+17:17:09.492 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Div support-group
+17:17:09.674 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC7996600
+17:17:10.026 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8000339
+17:17:10.195 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8000775
+17:17:10.328 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8003562
+17:17:11.449 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8017187
+17:17:11.620 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8019382
+17:17:11.742 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8032473
+17:17:11.846 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8036487
+17:17:12.042 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8038092
+17:17:12.270 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8038241
+17:17:12.474 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8038783
+17:17:12.631 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8043823
+17:17:12.719 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8044169
+17:17:12.821 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8044233
+17:17:12.930 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8051319
+17:17:13.038 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8053776
+17:17:13.161 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8061179
+17:17:13.233 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8066157
+17:17:13.361 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8067791
+17:17:15.163 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8067826
+17:17:15.323 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8069027
+17:17:15.683 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8069618
+17:17:15.880 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8072588
+17:17:16.029 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8073370
+17:17:16.329 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8073654
+17:17:17.400 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8074127
+17:17:17.892 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8074158
+17:17:18.012 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8076785
+17:17:18.184 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8084682
+17:17:18.326 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8093886
+17:17:18.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8099760
+17:17:18.719 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8102109
+17:17:18.866 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8105153
+17:17:19.084 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8107825
+17:17:19.733 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8111249
+17:17:19.873 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8115310
+17:17:20.038 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8116876
+17:17:20.271 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8122903
+17:17:20.461 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8123286
+17:17:20.651 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8123808
+17:17:21.060 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8125735
+17:17:21.273 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8126209
+17:17:23.107 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8126244
+17:17:23.924 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8129181
+17:17:24.049 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8131895
+17:17:24.471 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8137295
+17:17:24.583 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8141741
+17:17:25.058 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8141878
+17:17:25.403 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8143160
+17:17:25.742 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8147612
+17:17:26.141 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8147947
+17:17:26.329 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8151122
+17:17:26.433 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8151751
+17:17:26.549 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8152457
+17:17:26.802 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8152473
+17:17:26.913 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8155592
+17:17:27.385 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8155620
+17:17:28.885 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8156077
+17:17:29.179 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8156192
+17:17:29.345 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8156404
+17:17:29.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8156645
+17:17:29.602 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8156972
+17:17:29.737 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8159270
+17:17:29.747 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span article-version
+17:17:29.750 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Span postal-code
+17:17:29.757 WARN  org.contentmine.norma.sections.JATSFactory - Unknown JATS Div support-group
+17:17:29.873 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8160637
+17:17:29.992 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8160999
+17:17:30.056 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8161122
+17:17:30.114 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8161325
+17:17:30.258 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8162633
+17:17:30.353 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8164802
+17:17:31.802 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8165558
+17:17:31.933 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8166860
+17:17:32.159 WARN  org.contentmine.ami.tools.AbstractAMITool - AMISectionTool cTree: PMC8179865
