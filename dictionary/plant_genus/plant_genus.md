@@ -1,5 +1,8 @@
 # plant_genus dictionary
 `plant_genus` dictionary contains names of important plant genera with GRIN Id (https://en.wikipedia.org/wiki/Germplasm_Resources_Information_Network). 
+
+# Motivation
+We already have a `eo_plant` dictionary which contains 186 plants manually scraped from oil186 corpus. However, it's impossible to have create a dicitonary of all plant species because of the sheer number. A good proxy would be to create a `plant_genus` dictionary. The current dictionary contains 17, 000 plant genus names. 
 # SPARQL query
 ```
 #Plant Genera
