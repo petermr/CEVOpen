@@ -41,3 +41,8 @@ sns.catplot(x="v1", y="v1", order=["No", "Yes"], data=df)
 #swapped assignment of variables
 sns.catplot(x="v1", y="v2", hue="v3", kind="swarm", data=df)
 
+example of a catplot:
+
+![download](https://user-images.githubusercontent.com/84655810/123065918-3a337600-d42d-11eb-8c4d-4debf5cbdd9f.png)
+
+
