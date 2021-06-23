@@ -38,6 +38,11 @@ df['coordinates'] = list(zip(df['latitude'], df['longitude']))
 # Obtain list of mercator coordinates
 mercators = [x_coord(x, y) for x, y in df['coordinates'] ]
 
+# Create mercator column in our df
+df['mercator'] = mercators
+# Split that column out into two separate columns - mercator_x and mercator_y
+df[['mercator_x', 'mercator_y']] = df['mercator'].apply(pd.Series)
+
 df = df.drop(columns=['geometry']
 
 # Examine our modified DataFrame
