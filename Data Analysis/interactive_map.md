@@ -2,6 +2,7 @@
 This is an example of how the map should look like, using bokeh. It will be interactive, so hovering over a data point should give individual information for that respective data point.
 
 Code:
+#install bokeh and import libraries
 
 !pip install bokeh
 
@@ -15,6 +16,7 @@ from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar, Numeral
 import numpy as np
 import pandas as pd
 
+#import and define dataset
 import pandas as pd
 df = pd.read_csv('name_df.csv', index_col=0)
 display(df.head())
