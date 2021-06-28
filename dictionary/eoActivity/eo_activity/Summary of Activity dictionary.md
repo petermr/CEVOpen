@@ -3,7 +3,7 @@
   - number of terms with synonyms: 141
   - percentage of entries with wikidataIDs: 100%
   - percentage of entries with Wikipages: 81%
-  - summary of page count in non-EN languages: `Hindi, Tamil, Spanish, French, German, Chinese, Urdu`
+  - summary of page count in non-EN languages: `Hindi`, `Tamil`, `Spanish`, `French`, `German`, `Chinese`,` Urdu`
   - percentage of entries with images: -
   - other links (taxon, formal sites (GDIS, etc.): NA
   - images: NA
