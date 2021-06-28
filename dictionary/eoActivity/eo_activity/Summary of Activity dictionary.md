@@ -21,7 +21,7 @@
   - problems in searching: NO
 
 ### use of dictionary
-  - demonstration that other colleagues can and have used your dictionary: Sagar and Vasant
+  - demonstration that other colleagues can and have used your dictionary: Kanishka and Vasant
   - analysis of outputs - frequency of terms WITH insightful commentary: 
        - `Antioxidant`, `Antimicrobial`, `Antifungal`, and `Anti-inflammatory` properties are common.
        - `Carvacrol` and `thymol` are two essential oil compounds that are frequently mentioned and Essential oil plants like _`Rosmarinus Officinalis`_, _`Origanum vulgar`_, _`Thymus vulgaris`_ and _`Ocimum basilicum`_ are commonly present in Open scientific literature.
