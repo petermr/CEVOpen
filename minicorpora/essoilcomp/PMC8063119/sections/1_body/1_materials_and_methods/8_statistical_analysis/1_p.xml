@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The results from the targeted VOCs were visualised, and detailed nonparametric statistical analysis (Kruskal–Wallis test and Dunn’s test) was generated in Rstudio with ggstatplots (
+ <xref rid="B61" ref-type="bibr">Patil, 2018</xref>). The untargeted VOC profiles, either contained or emitted, underwent several statistical analyses to understand the impact of the treatments performed on the apple trees. First, one-way analysis of variance (ANOVA) was performed for each VOC present in the profiles to understand which of them were significantly different between treatments using Tukey’s 
+ <italic>post hoc</italic> test. Descriptive statistics were coupled with principal component analyses (PCA) and heatmaps to visualise treatment effects and which VOCs they impact. All of these analyses were performed with metaboanalyst
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup> (
+ <xref rid="B59" ref-type="bibr">Pang et al., 2020</xref>). Analysis of similarity (ANOSIM) and permutational multivariate analysis of variance (PERMANOVA) were performed between the different treatments. PERMANOVA tests the simultaneous response of one or more variables to one or more factors based on a similarity/distance matrix with permutation methods (
+ <xref rid="B8" ref-type="bibr">Anderson, 2017</xref>). The ANOSIM and PERMANOVA were calculated in Rstudio (R 3.5.2 software, R Development Core Team, Boston United States) using the VEGAN package. ANOSIM and PERMANOVA were performed to establish if the contained and emitted VOC profiles were significantly impacted by the treatment. For fluorescence measurements, two-way repeated measures ANOVA was performed on the Fv/Fm dataset with treatments and time as a factor, followed by the pairwise 
+ <italic>t-</italic>test. A probability cutoff of α = 0.05 was applied for tests of significance in all statistical analyses and adjusted with the Bonferroni correction.
+</p>

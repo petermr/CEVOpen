@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par46">Transcripts per million is a measure used to calculate the proportion of a transcript in an RNA pool. It takes into account the sequence depth and the length of the gene as well as the influence of the sample on the read count. Salmon (version 0.8.2) was used to calculate the read count and transcripts per million of the unigenes. DEGs were calculated based on the read counts of each gene. For samples with biological repetition, DESeq (version 1.12.4) was used for the analysis. To obtain significant differential genes, the screening conditions were set as follows: q-value &lt; 0.05, and difference multiple |FoldChange|&gt; 2. Functional enrichment analysis of the DEGs is shown in Supplementary File 
+ <xref rid="MOESM18" ref-type="media">1</xref>.
+</p>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Adjusted mortality is calculated by 
+ <xref ref-type="disp-formula" rid="e2">Eq. 2</xref>:
+ <disp-formula id="e2">
+  <math id="m2">
+   <mrow>
+    <mi mathvariant="normal">Adjusted mortality </mi>
+    <mrow>
+     <mo>(</mo>
+     <mi mathvariant="normal">%</mi>
+     <mo>)</mo>
+    </mrow>
+    <mi mathvariant="normal">=</mi>
+    <mfrac>
+     <mrow>
+      <mi mathvariant="italic">mortality of testing group-mortality of blank group</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">1</mi>
+      <mo>−</mo>
+      <mi mathvariant="italic">mortality of blank group</mi>
+     </mrow>
+    </mfrac>
+    <mi mathvariant="normal">×100</mi>
+    <mi mathvariant="normal">.</mi>
+   </mrow>
+  </math>
+  <label>(2)</label>
+ </disp-formula>
+</p>

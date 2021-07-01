@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math id="M1">
+ <mo>Inhibition %=</mo>
+ <mfrac>
+  <mrow>
+   <mo>(</mo>
+   <msub>
+    <mi>Abs</mi>
+    <mi>contr</mi>
+   </msub>
+   <msub>
+    <mi>Abs</mi>
+    <mi>contr blank</mi>
+   </msub>
+   <mo>)</mo>
+   <mo>-</mo>
+   <mo>(</mo>
+   <msub>
+    <mi>Abs</mi>
+    <mi>sample</mi>
+   </msub>
+   <mo>-</mo>
+   <msub>
+    <mi>Abs</mi>
+    <mi>sample blank</mi>
+   </msub>
+   <mo>)</mo>
+  </mrow>
+  <mrow>
+   <mo>(</mo>
+   <msub>
+    <mi>Abs</mi>
+    <mi>contr</mi>
+   </msub>
+   <mo>-</mo>
+   <msub>
+    <mi>Abs</mi>
+    <mi>contr blank</mi>
+   </msub>
+   <mo>)</mo>
+  </mrow>
+ </mfrac>
+ <mo>x</mo>
+ <mn>100</mn>
+</math>
