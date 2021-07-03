@@ -86,15 +86,13 @@ SELECT * WHERE {
 ```
 3. Once you get the results, Click on 'Link' and then "SPARQL endpoint' . This will let you download your SPARQL file.
 
-4. Open the SPARQL results in notepad.
-
-5. Use amidict for SPARQL mapping. Command for SPARQL mapping as follows:
+4. Use amidict for SPARQL mapping. Command for SPARQL mapping as follows:
 ```
 amidict -vv --dictionary Activity --directory Activity --input sparql create --informat wikisparqlxml --sparqlmap wikidataURL=item,wikipediaPage=wikipedia,name=itemLabel,term=itemLabel,Description=itemDescription,Hindi=hindiLabel,Hindi_description=hindi,Hindi_altLabel=hindialtLabel,Tamil=tamilLabel,Tamil_description=tamil,Tamil_altLabel=tamilaltLabel,Spanish=esLabel,Spanish_description=es,Spanish_altLabel=esaltLabel,French=frLabel,French_description=fr,French_altLabel=fraltLabel,Germam=deLabel,German_description=de,German_altLabel=dealtLabel,Chinese=zhLabel,Chinese_altLabel=zhaltLabel,Chinese_description=zh,Urdu=urLabel,Urdu_altLabel=uraltLabel,Urdu_description=ur --transformName wikidataID=EXTRACT(wikidataURL,./(.)) --synonyms=itemAltLabel
 
 ```
-6. Commit all these results in Github.
+5. Commit all these results in Github.
 
-7. Activity dictionary has 158 entries in it.
+6. Activity dictionary has 158 entries in it.
 
-8. The attributes in the dictionary includes WikidataID, wikidataURL, description, etc.
+7. The attributes in the dictionary includes WikidataID, wikidataURL, description, name, term etc.

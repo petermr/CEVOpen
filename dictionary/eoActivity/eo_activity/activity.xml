@@ -14,15 +14,6 @@
     <synonym xml:lang="es">sebostasis</synonym>
     <synonym>sebostasis agent</synonym>
   </entry>
-  <entry description="drug that induces vomiting" name="emetic" term="emetic" wikidataURL="http://www.wikidata.org/entity/Q1930829" wikidataID="Q1930829">
-    <description xml:lang="de">Erbrechen herbeiführende Substanz</description>
-    <description xml:lang="fr">médicament destiné à faire vomir</description>
-    <synonym xml:lang="de">Emetikum</synonym>
-    <synonym xml:lang="fr">émétique</synonym>
-    <synonym>Emetic Agents</synonym>
-    <synonym>Emetic Drugs</synonym>
-    <synonym>emetics</synonym>
-  </entry>
   <entry description="substance that acts locally on cutaneous or mucosal surfaces to produce inflammation" name="irritant" term="irritant" wikidataURL="http://www.wikidata.org/entity/Q2142251" wikidataID="Q2142251">
     <description xml:lang="de">Gefahrstoffe</description>
     <description xml:lang="fr">substance qui provoque des irritations</description>
@@ -73,7 +64,7 @@
   <entry description="An agent that promotes healing through the formation of scar tissue. For example, sandalwood is a natural cicatrizant." name="Cicatrizant" term="Cicatrizant" wikidataURL="http://www.wikidata.org/entity/Q5119340" wikidataID="Q5119340">
     <synonym xml:lang="de">Vernarbungsmittel</synonym>
   </entry>
-  <entry name="Q7833952" term="Q7833952" wikidataURL="http://www.wikidata.org/entity/Q7833952">
+  <entry name="Q3375179" term="Q3375179" wikidataURL="http://www.wikidata.org/entity/Q3375179" wikidataID="Q3375179">
   </entry>
   <entry description="medication or chemical compound that treats neuralgia" name="antineuralgic" term="antineuralgic" wikidataURL="http://www.wikidata.org/entity/Q11905748" wikidataID="Q11905748">
   </entry>
@@ -91,7 +82,7 @@
     <synonym>Ornithine decarboxylase antizyme</synonym>
     <synonym>GO:0008073</synonym>
   </entry>
-  <entry name="Q26697606" term="Q26697606" wikidataURL="http://www.wikidata.org/entity/Q26697606">
+  <entry name="cyclooxygenase inhibitors " term="cyclooxygenase inhibitors " wikidataURL="http://www.wikidata.org/entity/Q20522059"  wikidataID="Q20522059">
   </entry>
   <entry description="class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract" name="anti-ulcer drug" term="anti-ulcer drug" wikidataURL="http://www.wikidata.org/entity/Q41602594" wikidataID="Q41602594">
     <synonym xml:lang="fr">antiulcéreux</synonym>
@@ -126,8 +117,6 @@
     <synonym>Oxytocic Drugs</synonym>
     <synonym>parturifacient</synonym>
     <synonym>Uterine Stimulants</synonym>
-  </entry>
-  <entry name="Q50430144" term="Q50430144" wikidataURL="http://www.wikidata.org/entity/Q50430144">
   </entry>
   <entry description="Agents that are used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)" name="Anti-Allergic Agents" term="Anti-Allergic Agents" wikidataURL="http://www.wikidata.org/entity/Q50430264" wikidataID="Q50430264">
     <synonym xml:lang="fr">médicament anti-allergie</synonym>
@@ -380,17 +369,6 @@
     <synonym xml:lang="de">Mastzellstabilisator</synonym>
     <synonym xml:lang="zh">肥大細胞安定劑</synonym>
   </entry>
-  <entry description="topical skin product that helps protect against sunburn" name="sunscreen" term="sunscreen" wikidataURL="http://www.wikidata.org/entity/Q827658" wikidataID="Q827658" wikipediaPage="https://en wikipedia.org/wiki/Sunscreen">
-    <description xml:lang="de">Emulsion zum Schutz vor Sonnenbrand</description>
-    <synonym xml:lang="hi">धूपावरण</synonym>
-    <synonym xml:lang="de">Sonnencreme</synonym>
-    <synonym xml:lang="fr">crème solaire</synonym>
-    <synonym xml:lang="es">protector solar</synonym>
-    <synonym xml:lang="zh">防曬油</synonym>
-    <synonym>sun screens</synonym>
-    <synonym>Sunscreening Agents</synonym>
-    <synonym>suntan</synonym>
-  </entry>
   <entry description="class of medications" name="antiviral drug" term="antiviral drug" wikidataURL="http://www.wikidata.org/entity/Q846227" wikidataID="Q846227" wikipediaPage="https://en wikipedia.org/wiki/Antiviral_drug">
     <description xml:lang="es">tipo de medicamento usado para el tratamiento de infecciones producidas por virus</description>
     <description xml:lang="de">Klasse von Arzneimitteln</description>
@@ -521,16 +499,6 @@
     <synonym xml:lang="es">Quimioprevención</synonym>
     <synonym>Chemoprevention</synonym>
   </entry>
-  <entry description="drug or chemical that affects skeletal muscle function, decreases muscle tone" name="muscle relaxant" term="muscle relaxant" wikidataURL="http://www.wikidata.org/entity/Q1225289" wikidataID="Q1225289" wikipediaPage="https://en wikipedia.org/wiki/Muscle_relaxant">
-    <description xml:lang="de">Substanz, die eine reversible Entspannung der Skelettmuskulatur bewirkt</description>
-    <synonym xml:lang="de">Muskelrelaxans</synonym>
-    <synonym xml:lang="fr">myorelaxant</synonym>
-    <synonym xml:lang="es">relajante muscular</synonym>
-    <synonym xml:lang="zh">肌肉鬆弛劑</synonym>
-    <synonym>spasmolytics</synonym>
-    <synonym>myorelaxant</synonym>
-    <synonym>neuromuscular blockers</synonym>
-  </entry>
   <entry description="substance which repels insects" name="insect repellent" term="insect repellent" wikidataURL="http://www.wikidata.org/entity/Q1340459" wikidataID="Q1340459" wikipediaPage="https://en wikipedia.org/wiki/Insect_repellent">
     <synonym xml:lang="de">Repellent</synonym>
     <synonym xml:lang="fr">Répulsif</synonym>
@@ -543,22 +511,6 @@
   </entry>
   <entry description="A compound or agent that combines with the Hyaluronidase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction. Hyaluronidases are a family of enzymes that catalyse the degradation of hyaluronic acid" name="hyaluronidase inhibitor" term="hyaluronidase inhibitor" wikidataURL="http://www.wikidata.org/entity/Q85002068" wikidataID="Q85002068">
     <synonym>antihyaluronidase</synonym>
-  </entry>
- <entry description="substances used to enhance the appearance or odor of the human body" name="cosmetics" term="cosmetics" wikidataURL="http://www.wikidata.org/entity/Q131207" wikidataID="Q131207" wikipediaPage="https://en wikipedia.org/wiki/Cosmetics">
-    <description xml:lang="zh">用於提升或改變人體外觀或氣味的物質</description>
-    <description xml:lang="es">productos que se utilizan para la higiene corporal</description>
-    <description xml:lang="de">Substanzen, die das Erscheinungsbild des Menschen verschönern sollen</description>
-    <description xml:lang="fr">traitement destiné à améliorer l'esthétique humaine</description>
-    <synonym xml:lang="hi">सौन्दर्य प्रसाधन</synonym>
-    <synonym xml:lang="de">Kosmetik</synonym>
-    <synonym xml:lang="fr">cosmétique</synonym>
-    <synonym xml:lang="es">cosmético</synonym>
-    <synonym xml:lang="ur">تزویق</synonym>
-    <synonym xml:lang="ta">ஒப்பனைப் பொருட்கள்</synonym>
-    <synonym xml:lang="zh">化妝品</synonym>
-    <synonym>make-up</synonym>
-    <synonym>make up</synonym>
-    <synonym>makeup</synonym>
   </entry>
   <entry description="medication or other intervention that inhibits anxiety" name="anxiolytic" term="anxiolytic" wikidataURL="http://www.wikidata.org/entity/Q62903" wikidataID="Q62903" wikipediaPage="https://en wikipedia.org/wiki/Anxiolytic">
     <description xml:lang="zh">药物或其他干扰用于抑制焦虑症状</description>
@@ -592,20 +544,6 @@
     <synonym>sleeping pill</synonym>
     <synonym>soporific drug</synonym>
   </entry>
-  <entry description="mixture used to produce a pleasant smell" name="perfume" term="perfume" wikidataURL="http://www.wikidata.org/entity/Q131746" wikidataID="Q131746" wikipediaPage="https://en wikipedia.org/wiki/Perfume">
-    <description xml:lang="zh">带有香味的液体</description>
-    <description xml:lang="es">líquido aromático que se usa para desprender olores agradables</description>
-    <description xml:lang="de">alkoholische Mixtur, die verdampfend einen angenehmen Geruch erzeugt</description>
-    <description xml:lang="fr">composition odorante</description>
-    <synonym xml:lang="hi">इत्र</synonym>
-    <synonym xml:lang="de">Parfüm</synonym>
-    <synonym xml:lang="fr">parfum</synonym>
-    <synonym xml:lang="es">perfume</synonym>
-    <synonym xml:lang="ur">خوشبو</synonym>
-    <synonym xml:lang="zh">香水</synonym>
-    <synonym>Perfume</synonym>
-    <synonym>parfum</synonym>
-  </entry>
   <entry description="substance used to destroy pests" name="pesticide" term="pesticide" wikidataURL="http://www.wikidata.org/entity/Q131656" wikidataID="Q131656" wikipediaPage="https://en wikipedia.org/wiki/Pesticide">
     <description xml:lang="es">sustancia diseñada para eliminar una peste</description>
     <description xml:lang="de">Substanz, die zur Vernichtung von Schädlingen eingesetzt wird</description>
@@ -618,33 +556,6 @@
     <synonym xml:lang="ta">உயிர்கொல்லி மருந்து</synonym>
     <synonym xml:lang="zh">农药</synonym>
     <synonym>pesticides</synonym>
-  </entry>
-  <entry description="financial instrument whose value is based on one or more underlying assets" name="derivative" term="derivative" wikidataURL="http://www.wikidata.org/entity/Q66295" wikidataID="Q66295" wikipediaPage="https://en wikipedia.org/wiki/Derivative_(finance)">
-    <description xml:lang="es">producto financiero cuyo valor se basa en el precio de otro activo</description>
-    <description xml:lang="de">Produkt der Finanzwirtschaft, das mit realwirtschaftlichen Werten unterlegt ist</description>
-    <description xml:lang="fr">instrument financier qui est soutenue par des valeurs économiques réelles</description>
-    <synonym xml:lang="hi">व्युत्पादन</synonym>
-    <synonym xml:lang="de">Derivat</synonym>
-    <synonym xml:lang="fr">produit dérivé financier</synonym>
-    <synonym xml:lang="es">derivado financiero</synonym>
-    <synonym xml:lang="zh">金融衍生工具</synonym>
-    <synonym>derivative contract</synonym>
-    <synonym>derivative instrument</synonym>
-    <synonym>derivative security</synonym>
-    <synonym>derivatives</synonym>
-    <synonym>financial derivative</synonym>
-  </entry>
-  <entry description="antimicrobial agent that is applied to non-living objects (compare: antisepsis) to reduce the number of microorganisms (unwanted germs and parasites) on them (compare:sterilization)" name="disinfectant" term="disinfectant" wikidataURL="http://www.wikidata.org/entity/Q73984" wikidataID="Q73984" wikipediaPage="https://en wikipedia.org/wiki/Disinfectant">
-    <description xml:lang="zh">除菌过程</description>
-    <description xml:lang="de">Keimtötender Stoff, der auf Gegenstände (vgl. Antisepsis) angewendet wird, um die Zahl der Mikroorganismen (unerwünschte Keime und Parasiten) darauf zu vermindern (vgl. Sterilisation)</description>
-    <description xml:lang="fr">produit qui tue ou inactive des micro-organismes</description>
-    <synonym xml:lang="hi">निस्संक्रामक</synonym>
-    <synonym xml:lang="de">Desinfektionsmittel</synonym>
-    <synonym xml:lang="fr">désinfectant</synonym>
-    <synonym xml:lang="es">desinfección</synonym>
-    <synonym xml:lang="ur">سینیٹائزر</synonym>
-    <synonym xml:lang="zh">消毒</synonym>
-    <synonym>Disinfectants</synonym>
   </entry>
   <entry description="class of medications" name="antispasmodic" term="antispasmodic" wikidataURL="http://www.wikidata.org/entity/Q93978" wikidataID="Q93978" wikipediaPage="https://en wikipedia.org/wiki/Antispasmodic">
     <description xml:lang="de">Klasse von Arzneimitteln</description>
@@ -760,16 +671,6 @@
     <synonym>Central Stimulants</synonym>
     <synonym>psychostimulants</synonym>
   </entry>
-  <entry description="Chemical agents or odorants that stimulate sexual desires." name="aphrodisiac" term="aphrodisiac" wikidataURL="http://www.wikidata.org/entity/Q211420" wikidataID="Q211420" wikipediaPage="https://en wikipedia.org/wiki/Aphrodisiac">
-    <description xml:lang="es">sustancia que incrementa el deseo sexual</description>
-    <description xml:lang="de">Wirkstoff zur Belebung oder Steigerung der Libido</description>
-    <description xml:lang="fr">Moyen de stimuler le désir sexuel</description>
-    <synonym xml:lang="hi">Aphrodisiacs</synonym>
-    <synonym xml:lang="de">Aphrodisiakum</synonym>
-    <synonym xml:lang="fr">aphrodisiaque</synonym>
-    <synonym xml:lang="es">afrodisíaco</synonym>
-    <synonym xml:lang="zh">春药</synonym>
-  </entry>
   <entry description="chemical substances that prevent or reduce coagulation of blood, prolonging the clotting time." name="anticoagulant" term="anticoagulant" wikidataURL="http://www.wikidata.org/entity/Q215118" wikidataID="Q215118" wikipediaPage="https://en wikipedia.org/wiki/Anticoagulant">
     <description xml:lang="de">Medikamentöse Hemmung der Blutgerinnung</description>
     <description xml:lang="fr">substance chimique inhibant la coagulation du sang</description>
@@ -828,12 +729,6 @@
     <synonym>antimutagenic agent</synonym>
     <synonym>antimutagenic agents</synonym>
     <synonym>antimutagens</synonym>
-  </entry>
-  <entry description="drug class" name="5-lipoxygenase inhibitor" term="5-lipoxygenase inhibitor" wikidataURL="http://www.wikidata.org/entity/Q16909071" wikidataID="Q16909071" wikipediaPage="https://en wikipedia.org/wiki/Arachidonate_5-lipoxygenase_inhibitor">
-    <synonym>lipoxygenase inhibitor</synonym>
-    <synonym>arachidonate 5-lipoxygenase inhibitor</synonym>
-  </entry>
-  <entry name="Stomachic" term="Stomachic" wikidataURL="http://www.wikidata.org/entity/Q17100700" wikidataID="Q17100700" wikipediaPage="https://en wikipedia.org/wiki/Stomachic">
   </entry>
   <entry description="Histaminergic means &quot;working on the histamine system&quot;, and histaminic means &quot;related to histamine&quot;. A histaminergic agent (or drug) is a chemical which functions to directly modulate the histamine system in the body or brain." name="histaminergic" term="histaminergic" wikidataURL="http://www.wikidata.org/entity/Q18349602" wikidataID="Q18349602" wikipediaPage="https://en wikipedia.org/wiki/Histaminergic">
     <description xml:lang="de">Arzneimittelklasse</description>
@@ -982,16 +877,6 @@
     <synonym xml:lang="es">nefrotoxicidad</synonym>
     <synonym xml:lang="zh">中毒性腎損害</synonym>
     <synonym>drug-induced kidney injury</synonym>
-  </entry>
-  <entry description="series of events that restore integrity to a damaged tissue, following an injury" name="wound healing" term="wound healing" wikidataURL="http://www.wikidata.org/entity/Q1509074" wikidataID="Q1509074" wikipediaPage="https://en wikipedia.org/wiki/Wound_healing">
-    <description xml:lang="es">proceso biológico mediante el cual los tejidos vivos reparan sus heridas</description>
-    <description xml:lang="de">physiologische Prozesse der Wiederherstellung beschädigter Zellstrukturen</description>
-    <synonym xml:lang="hi">घाव का भरना</synonym>
-    <synonym xml:lang="de">Wundheilung</synonym>
-    <synonym xml:lang="fr">cicatrisation</synonym>
-    <synonym xml:lang="es">cicatrización</synonym>
-    <synonym xml:lang="zh">傷口癒合</synonym>
-    <synonym>GO:0042060</synonym>
   </entry>
   <entry description="Pungency is the condition of having a strong, sharp smell or flavor that is often so strong that it is unpleasant" name="pungency" term="pungency" wikidataURL="http://www.wikidata.org/entity/Q1517948" wikidataID="Q1517948" wikipediaPage="https://en wikipedia.org/wiki/Pungency">
     <description xml:lang="es">sensación de ardor agudo producido por productos hortícolas</description>
@@ -1328,16 +1213,6 @@
     <synonym>hallucinogenic substance</synonym>
     <synonym>psychotomimetic agent</synonym>
   </entry>
-  <entry description="substance that promotes the production of urine" name="diuretic" term="diuretic" wikidataURL="http://www.wikidata.org/entity/Q200656" wikidataID="Q200656" wikipediaPage="https://en wikipedia.org/wiki/Diuretic">
-    <description xml:lang="es">sustancia que al ser ingerida provoca una eliminación de agua</description>
-    <description xml:lang="fr">substance qui entraîne une augmentation de la sécrétion urinaire</description>
-    <synonym xml:lang="hi">मूत्रल</synonym>
-    <synonym xml:lang="de">Diuretikum</synonym>
-    <synonym xml:lang="fr">diurétique</synonym>
-    <synonym xml:lang="es">diurético</synonym>
-    <synonym xml:lang="zh">利尿劑</synonym>
-    <synonym>Diuretic</synonym>
-  </entry>
   <entry description="chemical family" name="barbiturates" term="barbiturates" wikidataURL="http://www.wikidata.org/entity/Q206348" wikidataID="Q206348" wikipediaPage="https://en wikipedia.org/wiki/Barbiturate">
     <description xml:lang="zh">镇静剂</description>
     <description xml:lang="es">familia de fármacos derivados del ácido barbitúrico que actúan como sedantes del sistema nervioso central</description>
@@ -1451,9 +1326,6 @@
     <synonym xml:lang="zh">藥害</synonym>
     <synonym>phototoxic</synonym>
   </entry>
-  <entry description="Hepatoprotection or antihepatotoxicity is the ability of a chemical substance to prevent damage to the liver" name="Hepatoprotection" term="Hepatoprotection" wikidataURL="http://www.wikidata.org/entity/Q3817359" wikidataID="Q3817359" wikipediaPage="https://en wikipedia.org/wiki/Hepatoprotection">
-    <synonym>antihepatotoxicity</synonym>
-  </entry>
   <entry description="Prooxidants are chemicals that induce oxidative stress, either by generating reactive oxygen species or by inhibiting antioxidant systems." name="Pro-oxidant" term="Pro-oxidant" wikidataURL="http://www.wikidata.org/entity/Q3922210" wikidataID="Q3922210" wikipediaPage="https://en wikipedia.org/wiki/Pro-oxidant">
     <synonym xml:lang="zh">助氧化劑</synonym>
   </entry>
@@ -1562,20 +1434,6 @@
     <synonym xml:lang="zh">鼻腔去阻塞劑</synonym>
     <synonym>nasal decongestant</synonym>
   </entry>
-  <entry description="drug that softens, separates, and causes desquamation of the cornified epithelium or horny layer of skin" name="keratolytic" term="keratolytic" wikidataURL="http://www.wikidata.org/entity/Q445580" wikidataID="Q445580" wikipediaPage="https://en wikipedia.org/wiki/Keratolytic">
-    <description xml:lang="de">hornlösender Wirkstoff</description>
-    <synonym xml:lang="de">Keratolytikum</synonym>
-    <synonym xml:lang="fr">Kératolytique</synonym>
-    <synonym xml:lang="es">queratolítico</synonym>
-    <synonym xml:lang="zh">角质软化剂</synonym>
-    <synonym>desquamating agent</synonym>
-    <synonym>Desquamating Agents</synonym>
-    <synonym>keratolytic agent</synonym>
-    <synonym>keratolytic drug</synonym>
-    <synonym>skin-peeling agent</synonym>
-    <synonym>Skin-Peeling Agents</synonym>
-    <synonym>keratolytic agents</synonym>
-  </entry>
   <entry description="substance that quells or blunts the libido" name="anaphrodisiac" term="anaphrodisiac" wikidataURL="http://www.wikidata.org/entity/Q486061" wikidataID="Q486061" wikipediaPage="https://en wikipedia.org/wiki/Anaphrodisiac">
     <description xml:lang="es">sustancia que reduce o anula el deseo sexual</description>
     <description xml:lang="de">Mittel zur Dämpfung des Geschlechtstriebs</description>
@@ -1588,22 +1446,6 @@
     <synonym>antiaphrodisiac</synonym>
     <synonym>antilibido</synonym>
     <synonym>antiviagra</synonym>
-  </entry>
-  <entry description="contraceptive substance that destroys sperm" name="spermicide" term="spermicide" wikidataURL="http://www.wikidata.org/entity/Q513122" wikidataID="Q513122" wikipediaPage="https://en wikipedia.org/wiki/Spermicide">
-    <description xml:lang="zh">破壞精子的生育控制物質</description>
-    <description xml:lang="es">Método anticonceptivo complementario</description>
-    <synonym xml:lang="hi">शुक्राणुनाशक</synonym>
-    <synonym xml:lang="de">Spermizid</synonym>
-    <synonym xml:lang="fr">Spermicide</synonym>
-    <synonym xml:lang="es">Espermicida</synonym>
-    <synonym xml:lang="zh">殺精子劑</synonym>
-    <synonym>Contraceptive Agents</synonym>
-    <synonym>Spermatocidal</synonym>
-    <synonym>Spermatocidal Agents</synonym>
-    <synonym>Spermatocidal Drugs</synonym>
-    <synonym>Spermatocides</synonym>
-    <synonym>Spermicidal Agents</synonym>
-    <synonym>Spermicidal Contraceptive Agents</synonym>
   </entry>
   <entry description="agents used in the treatment of malaria" name="antimalarial" term="antimalarial" wikidataURL="http://www.wikidata.org/entity/Q521616" wikidataID="Q521616" wikipediaPage="https://en wikipedia.org/wiki/Antimalarial_medication">
     <description xml:lang="hi">मलेरिया के उपचार में प्रयोग की जाने वाली औषधि</description>

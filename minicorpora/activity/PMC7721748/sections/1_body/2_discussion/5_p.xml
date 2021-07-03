@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p id="Par16">In order to classify the EO's according to their biological activities, two classification models rely on the supervised learning are constructed; the first one is based on the Multiclass Neural Network (MNN) (i.e. the Multiclass N.N module in Azure). The second model depends on the Convolutional Neural Network (CNN) and it has been implemented by Python and executed as a module on the open source Azure Machine learning studio
- <sup>
-  <xref ref-type="bibr" rid="CR56">56</xref>
- </sup>. Figure 
- <xref rid="Fig3" ref-type="fig">3</xref> presents an inclusive flowchart for the proposed methodology stages. The two proposed supervised learning algorithms are applied on nearly 68,760 values that represent the percentage of chemical compounds concentrations in the EO’s dataset on study. The training process for both MNN and CNN algorithms is done on 60% of the dataset, whilst the remaining 40% is divided between the testing and the prediction processes. That means the actual size for the training, testing, and validation processes are 45,840, 11,460, and 11,460 values, respectively. Figure 
- <xref rid="Fig4" ref-type="fig">4</xref> shows a sample for the EOs dataset stored in azure format.
-</p>

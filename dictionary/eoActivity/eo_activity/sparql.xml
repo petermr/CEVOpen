@@ -1,0 +1,4869 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='item'/>
+		<variable name='itemLabel'/>
+		<variable name='itemAltLabel'/>
+		<variable name='itemDescription'/>
+		<variable name='hindialtlabel'/>
+		<variable name='hindi'/>
+		<variable name='tamilaltlabel'/>
+		<variable name='tamil'/>
+		<variable name='esaltlabel'/>
+		<variable name='es'/>
+		<variable name='fraltlabel'/>
+		<variable name='fr'/>
+		<variable name='dealtlabel'/>
+		<variable name='de'/>
+		<variable name='zhaltlabel'/>
+		<variable name='zh'/>
+		<variable name='uraltlabel'/>
+		<variable name='ur'/>
+		<variable name='wikipedia'/>
+	</head>
+	<results>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1423889</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>antiperspirant, antisudoral</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Antiperspirants</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antihidrotic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents that are put on the skin to reduce sweating or prevent excess sweating (hyperhidrosis)</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1696730</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Sebostatic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>sebostasis agent</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A substance causing the halt in the production of sebum (sebostasis) by the sebaceous glands.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1930829</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Emetique, Gerbant, Vomitif</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>emetic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Emetic Agents, Emetic Drugs, emetics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that induces vomiting</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiperistaltika, Antiperistaltikum, Brechmittel, Emetika, Emetogenität, Vomitivum</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Erbrechen herbeiführende Substanz</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament destiné à faire vomir</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2142251</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>irritant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Irritants, irritating</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that acts locally on cutaneous or mucosal surfaces to produce inflammation</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Reizend</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Gefahrstoffe</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui provoque des irritations</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2853144</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>agent antinéoplasique, Anti-mitotique, antinéoplasique, Antinéoplasique, Médicament anticancéreux, Médicaments anticancéreux, Molécule anticancéreuse, Oncostatique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antineoplastic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anticancer agent, Anticancer Agents, anticancer drug, antineoplastic, antineoplastic agent, antineoplastic agents, antineoplastic drug, Antineoplastic Drugs, Antineoplastics, Antitumor Agents, Antitumor Drugs, Cancer Chemotherapy Agents, Cancer Chemotherapy Drugs, Chemotherapeutic Anticancer Agents, Chemotherapeutic Anticancer Drug</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>group of chemical compounds</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament destiné à bloquer la prolifération des cellules cancéreuses</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Agente antineoplasico alquilante, Agente antineoplásico alquilante, Agentes antineoplasicos, Agentes antineoplásicos, Anticancerigeno, Anticancerígeno, Antineoplasico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento destinado a bloquear la proliferación de celulas cancerígenas</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2853342</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antiprostaglandines</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiprostaglandin</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>medicine or chemical compound that inhibits or blocks prostaglandin</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3410946</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Purgation</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>purgative</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>preparation to induce evacuation of the bowels. produces a soft formed stool, and relaxes and loosens the bowels, typically used over a protracted period, to relieve constipation.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4008956</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>vasodilator agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>vasodilator, vasodilator agents, vasodilator drugs, vasodilators, vasorelaxants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug used to cause dilation of the blood vessels</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente vasodilatador, Antianginosos, fármaco vasodilatador, vasodilatador, vasorelajante</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>Fármacos usados para relajar los músculos de las arterias. Usados en angina de pecho.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q5119340</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Cicatrizant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>An agent that promotes healing through the formation of scar tissue. For example, sandalwood is a natural cicatrizant.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7833952</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q7833952</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q11905748</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antineuralgic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>medication or chemical compound that treats neuralgia</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q14862699</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>cytokine activity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>GO:0005125</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Functions to control the survival, growth, differentiation and effector function of tissues and cells.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18663259</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q18663259</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q21045470</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti alopecic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A substance that counteracts hair loss.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q21139980</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>ornithine decarboxylase inhibitor activity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>GO:0008073, Ornithine decarboxylase antizyme</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>The stopping, prevention or reduction of the activity of the enzyme ornithine decarboxylase. Ornithine decarboxylase antizyme (ODC-AZ) is an ornithine decarboxylase inhibitor.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q26697606</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q26697606</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q41602594</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti-ulcer drug</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-ulcer agent, Anti-Ulcer Agents, Anti-Ulcer Drugs, antiulcer, antiulcer drug, antiulcerogenic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of drugs used to treat or ameliorate peptic ulcer or irritation of the gastrointestinal tract</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente antiulcera, fármaco antiulcera</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50377176</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti-infective agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antiinfective Agents, Anti-Infective Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that prevents infectious agents or organisms from spreading or kill infectious agents in order to prevent the spread of infection</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50415114</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Abortifacient Agents, Nonsteroidal</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Abortifacient Agents, Non-Steroidal</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Non-steroidal chemical compounds with abortifacient activity.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50429885</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antitrichomonal agents</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antitrichomonal agent, Antitrichomonal Drugs, Antitrichomonals, Trichomonicides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>An agent that kills Trichomonas organisms, such as in treating vaginitis that is caused by Trichomonas vaginalis.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50430113</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>ocytocique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>oxytocics</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Oxytocic Agents, Oxytocic Drugs, parturifacient, Uterine Stimulants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Drugs that stimulate contraction of the myometrium. They are used to induce labor, obstetric at term, to prevent or control postpartum or postabortion hemorrhage, and to assess fetal status in high risk pregnancies.</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui favorise les contractions utérines</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50430144</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q50430144</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50430264</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Anti-Allergic Agents</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anti-Allergics, Anti-Allergy Drugs, Antiallergic Agents, Antiallergic Drugs, Antiallergics, Antiallergy Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents that are used to treat allergic reactions. Most of these drugs act by preventing the release of inflammatory mediators or inhibiting the actions of released mediators on their target cells. (from ama drug evaluations annual, 1994, p475)</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiallergika, Antiallergisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q50430265</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Anti-Asthmatic Agents</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anti-Asthmatic Drugs, Anti-Asthmatics, Antiasthmatic Agents, Antiasthmatic Drugs, Antiasthmatics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Drugs that are used to treat asthma</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q76797715</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Procollagen</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A biosynthetic precursor of collagen containing additional amino acid sequences at the amino-terminal and carboxyl-terminal ends of the polypeptide chains.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84944531</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84944531</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84951095</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84951095</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84953056</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84953056</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84953547</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84953547</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84953576</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84953576</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84953633</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84953633</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84953651</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84953651</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84954230</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84954230</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84954685</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84954685</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84955111</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84955111</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84955132</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84955132</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84955175</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84955175</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956389</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956389</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956474</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956474</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956495</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956495</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956492</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956492</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956500</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956500</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956514</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956514</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956686</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956686</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956852</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956852</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84956887</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84956887</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957317</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957317</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957398</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957398</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957440</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957440</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957471</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957471</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957488</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957488</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957489</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957489</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957495</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957495</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957506</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957506</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957504</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957504</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957510</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957510</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957514</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anaphylactic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Allergent causing anaphylaxis, an allergic reaction with symptoms such as itchy rash, throat swelling, low blood pressure.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84957515</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84957515</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84958628</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84958628</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84958741</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84958741</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84958793</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84958793</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84959117</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84959117</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84959304</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84959304</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84959377</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84959377</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84959751</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84959751</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84959790</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84959790</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84960246</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84960246</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84960335</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84960335</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84960524</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84960524</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84961334</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84961334</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84961500</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84961500</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84961820</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84961820</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84961856</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84961856</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84961940</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84961940</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84962003</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84962003</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84962361</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84962361</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84962587</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84962587</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84962840</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84962840</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84962992</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84962992</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84963984</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84963984</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84997245</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84997245</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84997315</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84997315</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84997335</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84997335</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84997332</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84997332</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84997870</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84997870</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998042</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998042</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998043</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998043</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998040</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998040</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998051</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998051</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998059</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998059</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998172</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998172</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998248</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998248</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84998654</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84998654</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84999146</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84999146</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q84999154</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q84999154</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001503</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001503</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001558</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001558</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001732</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001732</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001844</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001844</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001855</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001855</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1734091</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Carminative</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Carminativum</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arznei gegen Flatulenz</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Carminative</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Carminativa</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia, medicamento</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>carminative</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>carminativum</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>herb or preparation intended to either prevent formation of gas in the gastrointestinal tract or facilitate the expulsion of said gas, thereby combatting flatulence</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1926141</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mitogen</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Mitogene</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>mitogen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>mitogens</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A chemical substance that encourages a cell to commence cell division, triggering mitosis.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1941660</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Tranquilizer</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneimittel</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de fármaco</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>tranquilizer</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Ataractics, tranquilizing drug, Tranquilizing Drugs, Tranquillizing Agents, Tranquillizing Drugs</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that induces tranquility in an individual</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>鎮靜劑, 鎮定劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1976211</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Depressant</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Depresseur, Dépresseurs</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>depresor del sistema nervioso central, depresor del SNC</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia química que ralentiza la actividad del sistema nervioso central</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>depressant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>central depressant, central nervous system depressant, Central Nervous System Depressants, CNS depressant, Depressants, nerve depressant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug or endogenous compound that lowers neurotransmission levels</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>中樞神經抑制劑, 抑鬱劑, 镇静剂, 抑製劑</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui ralentit l'activité du système nerveux central</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1981368</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Neuroprotection</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Schutz von Nervenzellen vor dem Absterben</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>efecto de cualquier sustancia o molécula química o biológica, con efectos protectores en el sistema nervioso</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>neuroprotection</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>relative preservation of neuronal structure and function</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2088972</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Phototoxicity</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Phototoxisch, Phototoxische Stoffe</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Krankheit</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Phototoxicity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>phototoxic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>An agent that renders the skin susceptible to damage (as sunburn or blisters) upon exposure to light and especially ultraviolet light.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q131746</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Perfume</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Basisnote, Duftwasser, Herznote, Kopfnote, Parfum, Riechwasser</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>alkoholische Mixtur, die verdampfend einen angenehmen Geruch erzeugt</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Parfums, Fragrance, Fragrances synthétiques</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Perfumes, Fragancia, Perfumar, Perfumeria, Perfumería</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>líquido aromático que se usa para desprender olores agradables</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>perfume</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Perfume, parfum</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>mixture used to produce a pleasant smell</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>composition odorante</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>带有香味的液体</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q133948</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antioxidant</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antioxidantien, Antioxidanz, Antioxidationsmittel, Antioxidativ, Oxidationshemmer, TAC Totale antioxidative Kapazität</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Chemische Verbindung, die eine Oxidation anderer Stoffe verlangsamt oder gänzlich verhindert</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-oxydant, Anti-oxydants, Antioxydants, Antioxygène</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antioxidantes</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>molécula capaz de retardar o prevenir la oxidación de otras moléculas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antioxidant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antioxidants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>molecule that inhibits the oxidation of other molecules</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗氧劑, 抗氧化, 抗氧化劑, 抗氧化物</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>ஆக்சிசனேற்ற எதிர்ப்பொருள், ஆக்சிஜனேற்ற எதிர்ப்பொருள்</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>एंटीआक्सीडेंट, एंटीआक्सीडेण्ट्स, एंटीऑक्सीडेंट, एंटीऑक्सीडेंट्स, एंटीऑक्सीडेन्ट, प्रति आक्सीकारक</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q166774</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Protease_inhibitor_(biology)</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antagonista de la proteasa, antiproteasa, Inhibidores de la proteasa</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>protease inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>proteinase inhibitor, Antiproteases, Endopeptidase Inhibitors, Peptidase Inhibitors, Peptide Hydrolase Inhibitors, Peptide Peptidohydrolase Inhibitors, Protease Antagonists, protease inhibitors</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>compound which inhibits or antagonizes the biosynthesis or actions of proteases (endopeptidases).</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抑制蛋白酶, 蛋白酶抑制劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q167377</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pheromone</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Pheromone, Sexuallockstoff</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Botenstoff zur Informationsübertragung zwischen Individuen innerhalb einer Art</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Pheromones, Pheromone, phérohormone, Phéromonal, Phéromones, phérormone</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Feromonas</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancias químicas secretadas por los seres vivos, con el fin de provocar comportamientos específicos en otros individuos de la misma especie</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>pheromone</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>pheromones</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>secreted or excreted chemical factor that triggers a social response in members of the same species</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>外激素, 费洛蒙</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance chimique agissant comme un message entre les individus d'une même espèce</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q173235</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Analgesic</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Analgesia, Analgetika, Schmerzmittel, Schmerztablette, Schmerztabletten</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Schmerzmittel</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Analgesique, Antidouleur</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Analgesia, Analgesica, Analgésica, Analgesico, Analgesicos, Analgésicos</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de medicamento</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>analgesic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>analgesic agent, Analgesic Agents, analgesic drug, Analgesic Drugs, analgesics, Anodynes, pain reliever, painkiller</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drugs used to relieve pain</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>止痛劑, 止痛回憶, 止痛藥, 獵魔人, 鎮痛劑</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament antidouleur</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>पीड़ाहरण</literal>
+			</binding>
+			<binding name='uraltlabel'>
+				<literal xml:lang='ur'>Analgesic, Analgesics, انالجیزک, انالجیزکس, انالجیسک, انالجیسکس, اینالجیزک, اینالجیزکس, اینالجیسک, اینالجیسکس, درد ختم کرنے والی دوا, درد مار دوا, مسکن</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q178266</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Herbicide</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Unkrautvernichtungsmittel, Breitbandherbizid, Herbizide, Unkrautbekämpfungsmittel, Unkrautvertilgungsmittel, Wuchsstoff</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Chemikalie, die als Unkrautbekämpfungsmittel Pflanzen vernichten kann</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>desherbant, désherbant, désherbants, désherbants totaux, herbicides, phytocide</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>producto fitosanitario utilizado para eliminar plantas indeseadas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>herbicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>herbicides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical used to kill unwanted plants</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>殺草劑</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>produit chimique biocide</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q181322</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Insecticide</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Insektengift, Insektenbekämpfungsmittel, Insektenvernichtungsmittel, Insektenvertilgungsmittel, Insektizide</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Insekten abtötender Wirkstoff</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Insecticides</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>insectifugo, insectífugo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>pesticida usado contra insectos</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>insecticide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Insecticides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pesticide used against insects</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>杀虫剂, 殺蟲水, 除蟲劑</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>produit utilisé pour tuer des insectes</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>பூச்சிகொல்லி, பூச்சிக் கொல்லி, பூச்சிநாசினி</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q186752</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Allergen</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Allergene, Kontaktallergen</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz die eine Überempfindlichkeits-Reaktion des Immunsystems auslösen kann</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Allergene, Allergènes, Allergénicité</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>alergeno</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que puede inducir una reacción de hipersensibilidad</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>allergen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>allergens</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>type of antigen that produces an abnormally vigorous immune response, in which the immune system reacts to fight off a perceived threat that would otherwise be harmless to the body</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>变应原, 过敏物</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance capable de provoquer une réaction allergique</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q187661</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Carcinogen</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Cancerogen, Carcinogen, Carzinogen, Kanzerogen, Karzinogene, Krebserregend, Krebserzeugend</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz, ein Organismus oder eine Strahlung, die Krebs erzeugen oder die Krebserzeugung fördern kann</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Cancérigène, Cancerogene, Cancérogénicité, Carcinogène, Carcinogènes, Risque de cancer</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>cancerigeno, cancerígeno, carcinogena, carcinógena, carcinogenico, carcinogénico, carcinogeno</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que actúa sobre los tejidos vivos de tal forma que produce cáncer</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>carcinogen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>carcinogens, oncogen, oncogens</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>any substance, radionuclide, or radiation that promotes carcinogenesis, the formation of cancer</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>Human Carcinogen, 致癌, 致癌性, 致癌物</literal>
+			</binding>
+			<binding name='uraltlabel'>
+				<literal xml:lang='ur'>Carcinogen, کارسینوجن, مسرطن</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q187689</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Oxidizing_agent</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Oxidans, Oxidantien, Oxidator, Oxidierend, Oxydator</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Stoff, der Elektronen aufnehmen kann</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>agent d'oxydation, agent oxydant</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente oxidante, comburente</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>compuesto químico que oxida a otra sustancia</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>oxidizing agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>oxidant, oxidants, oxidiser, oxidising agent, oxidizer, Oxidizing Agents, prooxidant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical compound used to oxidize another substance</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>氟化剂, 氧化劑</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui reçoit au moins un électron d'une autre espèce chimique lors d'une réaction d'oxydoréduction</literal>
+			</binding>
+			<binding name='ur'>
+				<literal xml:lang='ur'>وہ کیمیائی شے جو کیمیائی تعامل میں کسی دوسرے کیمیائی شے کی تکسید کرے یا وہ جو تخسیدی تعاملات میں دوسرے متعامل سے برقیہ حزف کرتا ہو۔</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q190012</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Adenosine</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Adrekar</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Nukleosid, organische Verbindung</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>58-61-7, Adenosine, Adénosinergique</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>compuesto químico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>adenosine</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Ado, Adenosine, Deoxyadenosine, Desoxyadenosine, Adenoscan, (2R,3R,4R,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol, (2R,3R,4R,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)tetrahydrofuran-3,4-diol, (2R,3R,4R,5R)-2-(6-aminopurin-9-yl)-5-methylol-tetrahydrofuran-3,4-diol, (2R,3R,4S,5R)-2-(6-amino-9H-purin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol, (2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol, 1-(6-Amino-9H-purin-9-yl)-1-deoxy-beta-D-Ribofuranose, 1-(6-Amino-9H-purin-9-yl)-1-deoxy-beta-delta-Ribofuranose, 6-Amino-9-beta-D-ribofuranosyl-9H-purine, 6-Amino-9beta-D-ribofuranosyl-9H-purine, 6-Amino-9beta-delta-ribofuranosyl-9H-purine, 9-beta-D-Arabinofuranosyladenine, 9-beta-D-Ribofuranosidoadenine, 9-beta-D-ribofuranosyl-9H-purin-6-amine, 9-beta-D-Ribofuranosyl-9H-purin-6-amine, 9-beta-D-Ribofuranosyladenine, 9-beta-delta-Arabinofuranosyladenine, 9-beta-delta-Ribofuranosidoadenine, 9-beta-delta-Ribofuranosyl-9H-purin-6-amine, 9-beta-delta-Ribofuranosyladenine, 9-β-D-ribofuranosyl-9H-purin-6-amine, 9beta-D-ribofuranosyl-9H-Purin-6-amine, 9beta-D-Ribofuranosyladenine, 9beta-delta-ribofuranosyl-9H-Purin-6-amine, 9beta-delta-Ribofuranosyladenine, Ade-Rib, Adenin riboside, Adenine Deoxyribonucleoside, Adenine nucleoside, Adenine riboside, Adenine-9beta-D-Ribofuranoside, Adenine-9beta-delta-Ribofuranoside, Adenocard, Adenocard®, Adenosin, Adenosina, Adenosinum, Adenyldeoxyriboside, b-D-Adenosine, beta-Adenosine, beta-D-Adenosine, beta-delta-Adenosine, Boniton</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical compound</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>腺甘</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>composé chimique</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q190334</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Allelopathy</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Wechselwirkungen zwischen Pflanzen durch freigesetzte organische Verbindungen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Allelopathie, Allélopathique</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>fenómeno biológico por el cual un organismo produce uno o más compuestos bioquímicos que influyen en el crecimiento, supervivencia o reproducción de otros organismos</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>allelopathy</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>interspecies interaction between organisms mediated by chemical signal</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>Allelopathy, 他感作用, 异种克生, 异种化感</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q193237</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Fungicide</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Fungizide, Fungizidie</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Stoff zum Abtöten von Pilzen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Fongicides, Protection fongique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Fungica, Fúngica, Fungicidas</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>pesticida</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>fungicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>fungicides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pesticide used to kill fungi</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗真菌剂, 抗真菌药物</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>composé chimique</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>फफूंदनाशी</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q194270</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hallucinogen</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Halluzinogene</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>psychotrope Substanzen, die Veränderungen der Wahrnehmung bewirken</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Drogue hallucinogène, Hallucinogene, Plantes hallucinogènes, Psychodysleptique, Psychotomimétique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Alucinógena, Alucinógenas, Alucinógenos, droga alucinógena, fármaco alucinógeno, fármacos alucinogenos, Fármacos alucinógenos, planta alucinógena, sustancia alucinógena</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de drogas que, en dosis no tóxicas, causan alteraciones profundas en la percepción de la realidad del consumidor</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>hallucinogen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>hallucinogenic agent, hallucinogenic drug, hallucinogenic substance, psychotomimetic agent</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agent that causes hallucinations, perception anomalies, and other substantial subjective changes in thoughts, emotion, and consciousness</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q200656</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Diuretic</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Diureticum, Diuretika, Saluretika, Saluretikum, Wassertablette</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Diuretique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Acuaretico, Acuarético, Diuretica, Diurética, Diuretico, Diureticos, Diuréticos</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que al ser ingerida provoca una eliminación de agua</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>diuretic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Diuretic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that promotes the production of urine</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>利尿药</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui entraîne une augmentation de la sécrétion urinaire</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q206348</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Barbiturate</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Barbiturat, Schlaferzwinger</literal>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Derivate der Barbitursäure</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Barbituriques</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Barbiturico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>familia de fármacos derivados del ácido barbitúrico que actúan como sedantes del sistema nervioso central</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>barbiturates</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>barbiturate</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical family</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>巴比妥酸盐</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>镇静剂</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3705665</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Depigmentation</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>décoloration de la peau</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Despigmentacion</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>de colores</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>depigmentation</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>skin discoloration, depigmentor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>lightening of the skin or loss of pigment</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>脫色</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>皮膚的淡化或色素的損失的病徵名稱</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3774852</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cathartic</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Catartica, Catartico, Catártico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Cathartic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Bowel Evacuants, Cathartics, Purgatives</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents that are used to stimulate evacuation of the bowels</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui accélère la défécation</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3774857</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Phytotoxicity</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>phytotoxicity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>phototoxic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>toxic effect by a compound on plant growth. An agent poisonous to plants, having a toxic effect on plant growth.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3817359</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hepatoprotection</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Hepatoprotection</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antihepatotoxicity</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Hepatoprotection or antihepatotoxicity is the ability of a chemical substance to prevent damage to the liver</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3922210</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pro-oxidant</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Pro-oxidant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Prooxidants are chemicals that induce oxidative stress, either by generating reactive oxygen species or by inhibiting antioxidant systems.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>促氧化劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4669896</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Absorption_(skin)</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Kontakt zwischen einer Substanz und der Haut</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>absorption par la peau, absorption par voie cutanée, voie cutanée</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>absorcion cutanea, contacto cutaneo, contacto cutáneo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>ruta de ingreso de sustancias al cuerpo</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>skin absorption</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>dermal exposure, dermal via, skin contact, skin exposure</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>route through which substances may be received</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>type d'absorption</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4713968</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Aldose_reductase_inhibitor</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Aldose reductase inhibitor</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4742080</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Amebicide</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>amoébicide</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Amebicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Amoebicides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents which are destructive to amebae, especially the parasitic species causing amebiasis in man and animal</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4803792</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Ascaricide</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Ascaricide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Ascaricides are drugs to treat ascariasis that is caused by infections with parasitic nematodes (roundworms) of the genus Ascaris (giant intestinal roundworms).</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>驱蛔虫药</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q4990531</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anesthetic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Medikament zur Erzeugung einer Empfindungslosigkeit</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de medicamento</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anesthetic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anaesthetic, anaesthetics, Anesthetic Agents, Anesthetic Drugs, anesthetics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that causes anesthesia</literal>
+			</binding>
+			<binding name='hindi'>
+				<literal xml:lang='hi'>चतनाशून्य करनेवाली औषधि</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q5166679</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Convulsant</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>convulsant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Convulsants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that acts in the brain stem or spinal cord to produce tonic or clonic convulsions, often by removing normal inhibitory tone</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q5958197</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hyperkeratinization</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Hyperkeratinization</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>hyperkeratinisation</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>a disorder of the cells lining the inside of a hair follicle</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q6881918</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mitotic_inhibitor</uri>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Mitosegift</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente antimitotico, agente antimitótico, antimitotico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia química que produce una desviación consistente del ciclo mitótico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>mitotic inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-microtubule drug, antimitotic agent, Antimitotic Agents, Antimitotic Drugs, Antimitotics, microtubule poison, microtubule-active drug, microtubule-targeting agent, mitotic poison</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>有丝分裂抑制剂</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui s'oppose à la mitose</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001852</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001852</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85001861</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85001861</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85002068</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>hyaluronidase inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antihyaluronidase</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A compound or agent that combines with the Hyaluronidase enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction. Hyaluronidases are a family of enzymes that catalyse the degradation of hyaluronic acid</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85002288</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85002288</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85002611</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85002611</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85002666</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85002666</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85002964</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85002964</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003091</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003091</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003128</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003128</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003208</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003208</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003209</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003209</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003234</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003234</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q85003391</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal>Q85003391</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q66295</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Derivative_(finance)</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Produkt der Finanzwirtschaft, das mit realwirtschaftlichen Werten unterlegt ist</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>contrat dérivé, derivative product</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>instrument financier qui est soutenue par des valeurs économiques réelles</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>instrumento derivado</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>producto financiero cuyo valor se basa en el precio de otro activo</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>डेरिवेटिव्स</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>derivative</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>derivative contract, derivative instrument, derivative security, derivatives, financial derivative</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>financial instrument whose value is based on one or more underlying assets</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q73984</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Disinfectant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Keimtötender Stoff, der auf Gegenstände (vgl. Antisepsis) angewendet wird, um die Zahl der Mikroorganismen (unerwünschte Keime und Parasiten) darauf zu vermindern (vgl. Sterilisation)</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-bactérien, anti-bactériens, biocide, désinfection</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>produit qui tue ou inactive des micro-organismes</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Desinfeccion, Desinfección, Desinfectante</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>विसंक्रामक</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>disinfectant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Disinfectants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>antimicrobial agent that is applied to non-living objects (compare: antisepsis) to reduce the number of microorganisms (unwanted germs and parasites) on them (compare:sterilization)</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>消毒劑</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>除菌过程</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Desinfiziens</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q93978</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antispasmodic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneimitteln</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>spasmolytique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antiespasmodico, antiespastico, antiespástico, espsmolitico, espsmolítico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antispasmodic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antispasmodic agent, antispasmodic drug, antispasmotic agent, spasmolytics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of medications</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antispasmodica, Antispasmodicum, Antispasmodika, Antispasmodikum, Spasmolytika, Spasmolytisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q62903</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anxiolytic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Angstlöser, heterogene Gruppe von Arzneistoffen</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>Famille de médicaments, luttant contre l'anxiété</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Ansiolitico, tranquilizante menor</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>fármaco psicotrópico, destinado a disminuir o eliminar los síntomas de la ansiedad</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anxiolytic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anti-Anxiety Agent, Anti-Anxiety Agents, Anti-Anxiety Drugs, antianxiety agent, antipanic, minor tranquilizer, Tranquilizing Agents, Minor, Tranquillizing Agents, Minor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>medication or other intervention that inhibits anxiety</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗不安药, 抗焦慮劑, 抗焦慮藥, 抗焦慮藥物, 抗焦虑药物</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>药物或其他干扰用于抑制焦虑症状</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Angstlöser, Anxiolytika, Ataraktika, Ataraktikum, Minor tranquilizer</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q62962</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hypnotic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneimittel, das den Schlafvorgang fördert</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>dépendance aux somnifères, somnifère, somnifères</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Somnifero, Somnífero, Hipnótica, Hipnotica, Hipnotico, Hipnoticos, Hipnóticos</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>hypnotic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>hypnotics, sleeping pill, soporific drug</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of psychoactive drugs whose primary function is to induce sleep and to be used in the treatment of insomnia (sleeplessness), or for surgical anesthesia.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>催眠药, 睡眠药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Hypnotika, Hypnotikum, Schlaftablette</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>தூக்க மருந்து, தூக்க மாத்திரை</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q131207</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cosmetics</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanzen, die das Erscheinungsbild des Menschen verschönern sollen und schön erscheinen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Produit cosmétique, Cosmetique, Cosmétiques, Cosmétologie, Industrie des cosmétique, Produit de beauté, Produits cosmétiques, Produits de beauté</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>traitement destiné à améliorer l'esthétique humaine</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Cosmeticos, Cosméticos, Afeite, Cosmetico, Cosmetologa, Cosmetóloga</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>productos que se utilizan para la higiene corporal</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>अंगराग</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>cosmetics</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>make-up, make up, makeup</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substances used to enhance the appearance or odor of the human body</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>化妆品</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>用於提升或改變人體外觀或氣味的物質</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Kosmetiker, Kosmetikerin, Körperpflegemittel, Kosmetika, Kosmetikum, Kosmetisch, Schönheitspflege</literal>
+			</binding>
+			<binding name='uraltlabel'>
+				<literal xml:lang='ur'>Cosmetic, Cosmetics, کاسمیٹک, کاسمیٹکس, کوسمیٹک, کوسمیٹکس</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q131656</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pesticide</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz, die zur Vernichtung von Schädlingen eingesetzt wird</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance chimique utilisée pour tuer les organismes "nuisibles"</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>plaguicida</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia diseñada para eliminar una peste</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>कीटनाशी</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>pesticide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>pesticides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance used to destroy pests</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Pestizide</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>தீங்குயிர்கொல்லி</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2255024</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anti-obesity_medication</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti-obesity medication</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-obesity agent, Anti-Obesity Drugs, Antiobesity Agents, Antiobesity Drugs</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agents that increase energy expenditure and weight loss by neural and chemical regulation</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗肥胖药, 抗肥胖药物</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2592323</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Acetylcholinesterase_inhibitor</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Anticolinesterasa</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>acetylcholinesterase inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Acetylcholinesterase inhibitor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drugs that inhibit acetylcholinesterase</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>乙酰胆碱酯酶抑制剂, 乙酰膽鹼酯酶抑制劑, 乙醯膽鹼抑制劑, 乙醯膽鹼脂酶抑制劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2602077</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Emmenagogue</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arznei</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Emmenagogue</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Emenagoga</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Emmenagogue</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>herbs which stimulate blood flow in the pelvic area and uterus; some stimulate menstruation</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2742649</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antidiarrhoeal</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antidiarrheique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antidiarrhoeal</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antidiarrheal agents, antidiarrheal drugs, antidiarrheals</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Miscellaneous agents found useful in the symptomatic treatment of diarrhea. They have no effect on the agent(s) that cause diarrhea, but merely alleviate the condition</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2853347</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antipruritic</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-prurigineux</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antipruriginosa, medicamento anti-picazón</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento que inhibe el prurito</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antipruritic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-itching agent, anti-itching drug, antipruritic agent, Antipruritic Agents, antipruritic drug, Antipruritic Drugs</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug, usually applied topically, that relieves pruritus (itching)</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>止痒剂, 止癢</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3009547</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cytostasis</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Cytostatique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>cytostasis</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3411675</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pediculicide</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Pediculicide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drugs or chemicals which irradicate the infestation of human head lice</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3427345</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Reproductive_toxicity</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Repro-toxique, Reprotoxicite, Reprotoxique, Toxicité pour la reproduction, Toxiques pour la reproduction</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>toxicidad reproductiva</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>reproductive toxicity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>reproductive effects, reprotoxicity</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Reproductive toxicity is a hazard associated with some chemical substances, which interfere in some way with normal reproduction; such substances are called reprotoxic.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3446580</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Rubefacient</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Rubefacción</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia de aplicación tópica que produce enrojecimiento de la piel</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>rubefacient</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Revulsives, Topical irritation agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance for topical application that produces redness of the skin</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3482889</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sialogogue</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Sialogogue</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>ptyalagogue, ptysmagogue, sialagogue</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A drug or substance that increases the flow rate of saliva.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q3560867</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Virucide</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Herabsetzung oder Verhinderung der Infektiosität von Viren</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Virucide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Viricide, Viruscide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A virucide is any physical or chemical agent that deactivates or destroys viruses. This differs from an antiviral drug, which inhibits the proliferation of the virus.</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>வைரசைடு</literal>
+			</binding>
+			<binding name='tamil'>
+				<literal xml:lang='ta'>வைரசுகளை செயலிழக்கச் செய்யும் அல்லது அழிக்கும் எந்தவொரு உடலியல் அல்லது வேதியியல் முகவரையும் குறிப்பதாகும்.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q211420</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Aphrodisiac</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Wirkstoff zur Belebung oder Steigerung der Libido</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Aphrodisiaques</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>Moyen de stimuler le désir sexuel</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Afrodisiaco, Afrodisiaca, Afrodisíaca</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que incrementa el deseo sexual</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>aphrodisiac</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Chemical agents or odorants that stimulate sexual desires.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>催淫药, 媚药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Aphrodisiaka, Aphrodisierend, Aphrodisisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q215118</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anticoagulant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Medikamentöse Hemmung der Blutgerinnung</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-coagulant</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance chimique inhibant la coagulation du sang</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anticoagulant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anticoagulant drug, anticoagulant agent, anticoagulants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical substances that prevent or reduce coagulation of blood, prolonging the clotting time.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗凝固素, 抗凝血劑, 抗凝血素, 薄血藥</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antikoagulantien, Antikoagulanz, Antikoagulanzien, Antikoagulation, Antikoagulierend, Blutgerinnungshemmer, Blutverdünner, Gerinnungshemmer, Gerinnungshemmung, Orale Antikoagulation</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q217972</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Laxative</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneistoffe, verschiedene Wirkmechanismen</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Purga intestinal, Purgante</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>preparación usada para provocar la defecación o la eliminación de heces</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>आरेचक</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>laxative</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents that produce a soft formed stool, and relax and loosen the bowels, typically used over a protracted period, to relieve constipation</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>轻泻药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Abführende Mittel, Drastika, Laxans, Laxantien, Laxanzien, Laxativa, Laxativum, Laxieren, Purgativa, Purgiermittel</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q223417</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Bacteriostatic_agent</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz, die das Wachstum von Bakterien hemmt</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>propriété d'un antibiotique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Bacteriostatico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>agente biológico o químico que detiene la reproducción de bacterias</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>bacteriostatic agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Bacteriostacitc agent, bacteriostat, Bacteriostatic, bacteriostatic antibiotics, Bstatic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>biological or chemical agent that stops bacteria from reproducing, while not necessarily killing them otherwise</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>制菌剂, 抑菌剂</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>抑制细菌繁殖药效的抗菌药物</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q246181</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cytotoxicity</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>cytotoxicity</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>The quality of being toxic to cells</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q249619</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Immunosuppressive_drug</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanzen, welche die Funktionen des Immunsystems vermindern</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Imnunosupresion, Imnunosupresión, Inmunosupresores</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>immunosuppressive drug</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Immunosuppressants, Immunosuppressant drugs, Immunosuppressive Agent, Immunosuppressive Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agent that suppresses immune function by one of several mechanisms of action (e.g. inhibiting DNA synthesis, inhibiting activation of T-cells, or inhibiting the activation of helper cells)</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>药物</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Immunsuppressiva</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q209717</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Prostaglandin</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneistoffe, körpereigene Vasodilatatoren</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>prostaglandines</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>prostaglandinas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>prostaglandins</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>prostaglandin</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>group of physiologically active lipid compounds</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>前列腺素E1, 前列腺素E</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>PGE2, Prostaglandin</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q211036</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Stimulant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Psychoaktive Substanz, die die Aktivität der Nerven erhöht, beschleunigt oder verbessert</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>stimulants</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>drogas estimulantes, estimulantes, psicoestimulante, psicoestimulantes, psicotonico, psicotónico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>droga que acelera y altera los procesos de actividad motriz y cognitiva, refuerza la vigilia, el estado de alerta y la atención perjudicando a los sentidos y los órganos vitales del cuerpo humano.</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>stimulant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Central Nervous System Stimulants, Central Stimulants, psychostimulants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>overarching term covers many drugs that increase activity of the central nervous system</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>中枢神经兴奋剂, 中枢神经刺激剂</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>精神药物</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Aufputschmittel, Psychoanaleptika, Psychoanaleptikum, Psychostimulans, Psychostimulantien, Psychostimulanz, Psychostimulanzien, Stimulantien, Stimulanz, Stimulanzien</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7187720</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Photocarcinogen</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Photocarcinogen</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A photocarcinogen is a substance which causes cancer when an organism is exposed to it, then illuminated</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7250944</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Prostaglandin_antagonist</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>prostaglandin antagonist</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antagonists, Prostaglandin, Inhibitors, Prostaglandin, Prostaglandin Antagonist, prostaglandin inhibitor, Prostaglandin Inhibitors</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>compound that inhibits the action of prostaglandins</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7251487</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Protein_kinase_inhibitor</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>protein kinase inhibitors</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>protein kinase inhibitor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>EC 2.7.* (P-containing group transferase) inhibitor that interferes with the action of protein kinases</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>蛋白激酶抑制剂, 蛋白質激酶抑制劑, 酪胺酸激酶抑制劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7431537</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/List_of_drugs_used_to_treat_schistosomiasis</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Wikimedia-Liste</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>liste d'un projet Wikimedia</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>artículo de lista de Wikimedia</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Schistosomicide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Schistosomiasis, also known as snail fever and bilharzia,[9] is a disease caused by parasitic flatworms called schistosomes.</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>维基媒体列表条目</literal>
+			</binding>
+			<binding name='tamil'>
+				<literal xml:lang='ta'>விக்கிப்பீடியா:பட்டியலிடல்</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q7902662</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Uterotonic</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Uterotonic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>ecbolic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that induces labor and stimulates childbirth and delivery</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q12529398</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antimutagen</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Antimutagen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-mutagenic agents, antimutagen, antimutagenic agent, antimutagenic agents, antimutagens</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agent that reduce the frequency or rate of spontaneous or induced mutations independently of the mechanism involved</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q16909071</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Arachidonate_5-lipoxygenase_inhibitor</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>5-lipoxygenase inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>lipoxygenase inhibitor, arachidonate 5-lipoxygenase inhibitor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug class</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q17100700</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Stomachic</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Stomachic</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18349602</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Histaminergic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneimittelklasse</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>histaminergic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>H1 receptor antagonists, H2 receptor antagonists, H3 receptor antagonists, Histamine Drugs, Histaminergic Agents, histaminergic drug, Histaminergic Drugs</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Histaminergic means "working on the histamine system", and histaminic means "related to histamine". A histaminergic agent (or drug) is a chemical which functions to directly modulate the histamine system in the body or brain.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18356742</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/GABAergic</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>GABAergico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>GABAergic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Affecting GABA systems</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q18388377</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Photosensitizer</uri>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>molécula que produce un cambio químico en otra molécula en un proceso fotoquímico.</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>photosensitizer</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Photosensitizing Agents, Photosensitizers, Photosensitizing Agent</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>molecule that produces a chemical change in another molecule in a photochemical process</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>光敏劑, 光敏感劑, 感光剂, 感光劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q56062995</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antifeedant</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Antifeedant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>organic compound</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q68541106</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antimicrobial</uri>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>Sustancia que mata o ralentiza el crecimiento de microorganismos, incluidas bacterias, virus, hongos y protozoos.</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antimicrobial agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antimicrobial</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗微生物劑, 抗微生物藥物, 寄生蟲感染, 抗微生物剂, 抗菌剂, 抗菌劑, 抗菌物, 抗菌藥物, 殺微生物藥</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q584209</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Cold_medicine</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneimittel gegen Husten</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antitussive</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antitusigeno, Antitusiva, Antitusivo</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antitussive</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antitussives, Antitussive Drug, Cold and cough medicine, Cold medicine, Cough medicine, cough suppressant, Cough Suppressant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Agents that suppress cough. They act centrally on the medullary cough center. Expectorants, also used in the treatment of cough, act locally</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>Gee潤喉止咳糖漿</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Hustensaft, Antitussiva, Hustenblocker, Hustenstiller</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q608085</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Photodermatitis</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Krankheit</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>dermatite photoallergique, Photosensibilisant, Photosensibilisation</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>activation d'un allergène par la lumière</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>dermatitis fotoalérgica, eccema fotoalérgico, fotodermatitis</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>photodermatitis</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Dermatitis, Photoallergic, Photoallergic contact dermatitis, photoallergic dermatitis, Photoallergic dermatitis, Photoallergic dermatitis (disorder), Photoallergic eczema, Photodermatitis, Photodermatitis (disorder)</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>photosensitivity disorder in which an agent or allergen is activated by light to sensitize the allergic response</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q676558</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Photoprotection</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Photoprotection</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Photoprotective, Photoprotector</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Photoprotection is the biochemical process that helps organisms cope with molecular damage caused by sunlight</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q721432</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiplatelet_drug</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antiagregant, Antiagrégant plaquettaire</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>platelet aggregation inhibitors</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antiaggregants, Platelet, antiplatelet agent, Blood Platelet Aggregation Inhibitors, Blood Platelet Antiaggregants, platelet aggregation inhibitor, Platelet Antiaggregants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of pharmaceuticals that decrease platelet aggregation and inhibit thrombus formation</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗血小板药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Doppelte Plättchenhemmung, Duale Plättchenhemmung, Godamed, TAH, Thrombozytenaggregationshemmung, Thrombozytenfunktionshemmer</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q745130</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mast_cell_stabilizer</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneistoffen</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Mast cell stabilizer</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>category of pharmaceutical drugs</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q827658</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sunscreen</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Emulsion zum Schutz vor Sonnenbrand</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>creme solaire, écran solaire, écran total</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>bloqueador solar, crema solar, fotoprotector</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>sunscreen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>sun screens, Sunscreening Agents, suntan</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>topical skin product that helps protect against sunburn</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>太陽油, 防晒霜, 防曬乳, 防曬乳液, 防曬劑, 防曬液, 防曬霜, 防曬露</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Sonnencrème, Sonnenmilch, Sonnenschutzcreme, Sonnenschutzcrème, Sonnenschutzmittel</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q274083</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antacid</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneimittel</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antacid, Antacide, Anti-acide</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>a, Antiácidos</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antacid</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antacids, Alkalinizing Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance which neutralizes stomach acidity, used to relieve heartburn, indigestion or an upset stomach</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>制酸劑, 抑酸剂, 抑酸劑, 抗酸剂</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antacida, Antacidum, Antazida, Gaviscon, Ultilac</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>நடுநிலையாக்கி</literal>
+			</binding>
+			<binding name='tamil'>
+				<literal xml:lang='ta'>காடியை நடுநிலையாக்கும் பொருள்</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q274493</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiseptic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>chemischer Stoff zur Verhinderung einer Wundinfektion</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>antibactérien, antiseptiques, germicide</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>désinfectant à usage corporel</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antiseptica, Antiséptica, Antiseptico, antisepticos, antisépticos</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia antimicrobiana</literal>
+			</binding>
+			<binding name='hindialtlabel'>
+				<literal xml:lang='hi'>एंटीसेप्टिक, पूतिहर, प्रतिरोधी</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiseptic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antibacterials, Antiseptics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>antimicrobial substance</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>殺菌劑, 消毒液</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>抗菌物质</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiseptika</literal>
+			</binding>
+			<binding name='tamil'>
+				<literal xml:lang='ta'>உயிர்த்திசுக்களில் நுண்ணுயிர்கள் வளர்வதைத் தடுக்கும் பொருள்கள்</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q288280</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/ACE_inhibitor</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>kardiologische Arzneistoffe</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Inhibiteur De L'enzyme De Conversion, Inhibiteur de l'enzyme de conversion de l'angiotensine, Inhibiteur de l’ECA, Inhibiteurs de l'enzyme de conversion</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>IECA, IECAs, Inhibidor de la ECA</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento utilizado principalmente para el tratamiento de la hipertensión (presión arterial elevada) y la insuficiencia cardíaca congestiva</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>ACE inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Angiotensin converting enzyme inhibitors, Angiotensin-converting enzyme inhibitors, Angiotensin-Converting Enzyme Inhibitors, ACE inhibitors, Acei, Ace inhibitor, ACE Inhibitor, ACE-I, ACE-inhibitor, ACEi, ACEI, Angiotensin converting enzyme inhibitor, Angiotensin I-Converting Enzyme Inhibitors, Angiotensin-converting enzyme (ACE) inhibitors, Angiotensin-Converting Enzyme Antagonists, Angiotensin-converting enzyme inhibitor, Antagonists, Angiotensin-Converting Enzyme, Antagonists, Kininase II, Inhibitors, ACE, Inhibitors, Angiotensin-Converting Enzyme, Inhibitors, Kininase II, Kininase II Antagonists, Kininase II Inhibitors</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pharmaceutical drug used primarily for the treatment of hypertension (elevated blood pressure) and congestive heart failure</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>ACEI, ACEI类, ACEI類, ACE抑制药, 血管紧张素转化酶抑制剂, 血管紧张素转换酶抑制剂, 血管紧张肽Ⅰ转化酶抑制剂, 血管緊張素轉化酶抑製劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q309035</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Deodorant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Körperpflegemittel</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Déo, Antiperspirant, Antitranspirant, Deodorant</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>deodorant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Deodorants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance exerted in the groin or armpits to lessen the smell of body odour</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抑汗劑, 止汗劑, 除臭劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Deo-Roller, Deodorantspray, Deodorantstift, Deoroller, Deospray, Deostift, Roll-On-Deodorant</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q324089</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antihistamine</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Gruppe von Arzneiwirkstoffen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-histaminique</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>Medicament</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antagonista de histamina, antihistamínica</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>histamine antagonist</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antihistamine, histamine inhibitor</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that binds to but does not activate histamine receptors, thereby blocking the actions of histamine or histamine agonists</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗组胺药, 組胺H1受體拮抗劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antihistamin, Antihistaminika</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q352551</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Adaptogen</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Sammelbegriff für biologisch aktive Pflanzenstoffe</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Adaptogene</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Adaptogeno</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>adaptogen</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>adaptogenic substance</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance used in herbal medicine to promote homeostasis</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Adaptogene</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q357896</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Adjuvant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Hilfsstoff, der die Wirkung eines Reagenz oder eines Arzneistoffes verstärkt</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que se añade a una vacuna para potenciar o dirigir la respuesta inmunológica frente a un antígeno</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>adjuvant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Any pharmacological or immunological agent that modifies or enhances the effect of other agents such as drugs or vaccines while having few if any direct effects when given by itself.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>佐剂</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q377458</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/COX-2_inhibitor</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>COX-2 inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>COX-2 Inhibitors, COX2 inhibitor, COX2 Inhibitors, Coxibs, cyclooxygenase 2 inhibitors, Cyclooxygenase-2 Inhibitors</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Nonsteroidal anti-inflammatory drugs (NSAID)</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>COX-2抑制剂, COX-2抑製劑, COX-2特异性抑制剂, 环氧合酶-2抑制剂, 環氧合酶-2 抑制劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q378705</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Astringent</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Astringent, Astringente, Astringentes</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>Substance provoquant la crispation des muqueuses</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Estipsis, Estiptico, Estíptico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>astringent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Astringent</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>chemical compound that tends to shrink or constrict body tissues</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>Astringent</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Adstringentien, Adstringieren, Adstringierend, Adstringierung</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q407752</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Neurotoxin</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Naturstoffe oder organische Phosphor-Verbindungen, chemische Kampfstoffe</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Neuro-toxine, Neurotoxines</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Neurotoxica, Neurotóxica, Neurotoxicidad, Neurotoxico, Neurotóxico, Neurotoxinas</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>clase extensa de sustancias químicas exógenas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>neurotoxin</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>neurotoxicity, neurotoxins</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance poisonous or destructive to nerve tissue</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>神經性毒劑, 神经毒剂, 神經毒理學, 神经毒气, 神经毒素</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Neurotoxin, Neurotoxisch, Neurotoxizität, Synapsengift</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q416014</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Acaricide</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Milben und Zecken abtötender Wirkstoff</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>produit destiné à tuer les acariens</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>acaricide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>acaricides, mite control agent, miticide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agent that kills members of the arachnid subclass Acari</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>杀螨剂, 杀螨药, 殺蟎劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q421700</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Calcium_channel_blocker</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse kardiologischer Pharmaka</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Antagoniste du calcium, Bloqueurs de canaux calciques</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Bloqueantes calcicos, Bloqueantes cálcicos, Calcio antagonista</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>calcium channel blocker</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>calcium antagonist, calcium channel antagonist, Calcium Channel Antagonists, calcium channel blockers, Calcium Channel Blocking Drugs, CCB, Channel Blockers, Calcium</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>several medications that disrupt the movement of calcium (Ca2+) through calcium channels</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>鈣離子阻斷劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Calciumantagonisten, Calciumkanalblocker, Kalziumantagonist, Kalziumblocker, Kalziumkanalblocker</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q421978</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Enterotoxin</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Proteine, Giftstoffe aus pathogenen Keimen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Enterotoxine</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>enterotoxin</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>enterotoxins</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>protein exotoxin released by a microorganism that targets the intestines</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Enterotoxin A, Enterotoxine</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q430719</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Decongestant</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>decongestant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>nasal decongestant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug to relieve nasal congestion</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>减充血剂, 解充血药, 解充血藥, 鼻粘膜充血消除劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q445580</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Keratolytic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>hornlösender Wirkstoff</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Keratolytique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>keratolytic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>desquamating agent, Desquamating Agents, keratolytic agent, keratolytic agents, keratolytic drug, skin-peeling agent, Skin-Peeling Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that softens, separates, and causes desquamation of the cornified epithelium or horny layer of skin</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Keratolyticum, Keratolytika</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q486061</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anaphrodisiac</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Mittel zur Dämpfung des Geschlechtstriebs</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Alpha-stimulant, Anaphrodisiaques, Anti libido, Anti viagra, Anti-aphrodisiaque, Anti-libido, Anti-sexe, Anti-viagra, Antiaphrodisiaque, Antiaphrodisiaques, Inhibition sexuel</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance qui réduit ou annule les désirs sexuels</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>anafrodisiaco, antiafrodisiaco, antiafrodisíaco</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que reduce o anula el deseo sexual</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anaphrodisiac</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antaphrodisiac, antiaphrodisiac, antilibido, antiviagra</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that quells or blunts the libido</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q513122</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Spermicide</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Spermicides</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Espermaticida, Espermaticidas, Espermicidas</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>Método anticonceptivo complementario</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>spermicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Contraceptive Agents, Spermatocidal, Spermatocidal Agents, Spermatocidal Drugs, Spermatocides, Spermicidal Agents, Spermicidal Contraceptive Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>contraceptive substance that destroys sperm</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>殺精劑</literal>
+			</binding>
+			<binding name='zh'>
+				<literal xml:lang='zh'>破壞精子的生育控制物質</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q521616</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antimalarial_medication</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antimalarico, antimalárico, antipaludico, farmaco antimalarico, fármaco antimalárico, farmaco antipaludico, fármaco antipalúdico, medicamento antimalarico, medicamento antimalárico, medicamento antipaludico, medicamento antipalúdico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antimalarial</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anti-Malarials, antimalarial agent, Antimalarial Agents, Antimalarial Drugs, antimalarial medication, antimalarials</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agents used in the treatment of malaria</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗瘧疾藥物</literal>
+			</binding>
+			<binding name='hindi'>
+				<literal xml:lang='hi'>मलेरिया के उपचार में प्रयोग की जाने वाली औषधि</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q522817</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Larvicide</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>larvicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>larvacide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>an insecticide that is specifically targeted against the larval life stage of an insect. Their most common use is against mosquitoes. Larvicides may be contact poisons, stomach poisons, growth regulators, or (increasingly) biological control agents.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>殺幼蟲劑</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q567709</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anorectic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneistoffe mit einer Appetit hemmenden Wirkung</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anorexigene, Coupe-faim</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>composés chimiques diminuant l'appétit</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Anorexigeno</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anorectic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anorectic Agents, Anorectics, Anorexic Drugs, Anorexigenic Drugs, anti appetant, appetite depressant, Appetite Suppressants, Appetite-Depressing Drugs, Appetite-Suppressant Drugs</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug which reduces appetite</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>降食欲剂</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Anorektika, Appetithemmer, Appetitzügler, Schlankheitsmittel, Schlankheitspille, Schlankmacher</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q572294</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anthelmintic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneistoff zur Bekämpfung von Würmern</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anthelmintique, Antihelminthique, Vermicide, Vermifuge</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antihelmintico, Antihelminticos, Antihelmínticos, vermicida, Vermifuga, Vermífuga, Vermifugo, vermífugo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento utilizado en el tratamiento de las helmintiasis</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anthelmintic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>vermifuge, anthelmintics, Antihelmintics, vermicide, Vermifuges</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance intended to kill helminths (parasitic worms)</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗蠕虫药物, 驱肠虫剂, 驱虫药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Anthelminthicum, Anthelminthika, Anthelminticum, Anthelmintika, Anthelmintikum, Antihelminthika, Antihelminthikum, Wurmmittel</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q575062</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Diabetes_medication</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Arzneimittel</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-diabétique, Antidiabetique, Antidiabétiques oraux</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament utilisé pour traiter le diabète sucré.</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antidiabetico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti-diabetic medication</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antidiabetic, antidiabetic agent, antihyperglycemic, Antihyperglycemic Agents, Antihyperglycemics, hypoglycemic agent, hypoglycemic agents, Hypoglycemic Drugs, Hypoglycemics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Substances which lower blood glucose levels</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antidiabetika</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q575136</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiemetic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Medikamentengruppe</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-émétique, Antiemetique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antiemetico, Antiemeticos, Antieméticos, Antivomitivo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>fármaco que impide el vómito (emesis) o la náusea</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiemetic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-emetics, antiemetic agents, antiemetic drug, antiemetic drugs, antiemetics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug used to prevent nausea or vomiting</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>止吐药, 止恶心药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiemetika, Antiemetisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q575222</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antifibrinolytic</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente antifibrinolítico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antifibrinolytic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antifibrinolysins, Antifibrinolytic Agents, Antifibrinolytics</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>agent that prevents fibrinolysis or lysis of a blood clot or thrombus</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q575890</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antihypertensive_drug</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>blutdrucksenkendes Arzneimittel</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-hypertenseur, Antihypertenseurs, Hypotenseur, Traitements contre l'hypertension</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>Antihypertenseur</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente hipertensivo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>grupo de fármacos utilizados para el tratamiento de la hipertensión</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antihypertensive drug</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Anti-Hypertensive Agents, Anti-Hypertensive Drugs, anti-hypertensive therapy, Anti-Hypertensives, antihypertensive agent, antihypertensive agents, Antihypertensive Drugs, Antihypertensives</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>all drugs for hypertension's treatment</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>作用于毛细小动脉的抗高血压药, 抗血壓藥物, 抗高血壓藥物, 降血壓藥物</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antihypertensiva, Antihypertonika, Antihypertonikum, Blutdruckmittel, Blutdrucksenker</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q576618</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anticonvulsant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneimitteln</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-convulsivant, Anti-épileptique, Anticomitial, Anticomitiaux, Anticonvulsant, Anticonvulsif, Anticonvulsivant, Antiepileptique</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Anticonvulsiva, Anticonvulsivante, anticonvulsivo, Antiepileptico, Antileptico, Antiléptico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de medicamento</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anticonvulsant agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anticonvulsant agent, anticonvulsant drug, anticonvulsants, anticonvulsive agent, anticonvulsive drug</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of medications</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗惊厥剂, 抗惊厥药, 抗抽搐藥物, 抗痉挛药, 抗痙攣劑, 抗痙攣藥, 抗癫痫药, 抗癫痫药物, 抗驚厥劑, 抗驚厥藥物</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiepilepitikum, Antiepileptika, Antiepileptikum, Antikonvulsiva</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q578726</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antifungal</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Medikamentenklasse</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-fongique, Antifongique, Antifungal</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antifungal, Antifungica, Antifúngica, Antifungico, Antimicotico, antimicótico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antifungal</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antifungal, Antifungal Agent, Antifungal Agents, Antifungal drug, Antifungal drugs, antimycotic, Fungicides, Therapeutic, Therapeutic Fungicides</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pharmaceutical or chemical fungicide or fungistatic used to treat and prevent mycosis</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗真菌藥膏, 抗黴菌藥</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antifungal, Antimykotika, Antimykotisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q581102</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiparasitic</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-parasitaire, Anti-parasite, Antiparasitaire, Antiparasite, Parasiticides, Produit antiparasitaire contre les ennemis des cultures, Trypanicide, Trypanocide</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>parasiticida</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento usado para el tratamiento de infecciones causadas por bacterias y parásitos</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiparasitic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Parasiticides, Antiparasitic, Antiparasitic Agents, Antiparasitic Drugs, Antiparasitics, Parasiticide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance used to treat or prevent parasitic infections</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗寄生蟲藥</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiparasitika, Endektozid</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q581996</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Anti-inflammatory</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>symptomatischer Therapieansatz</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>anti inflammatoire, anti-inflammatoires, antiinflammatoire</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente antiinflamatorio, antiinflamatoria, desinflamatorio</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>anti-inflammatory agent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>agents, anti-Inflammatory, agents, Antiinflammatory, Anti-Inflammatories, anti-inflammatory, anti-inflammatory agents, antiinflammatories, antiinflammatory agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that reduces or suppresses inflammation</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiinflammatorikum, Antiinflammatorisch, Antiinflammatorium, Antiphlogisticum, Antiphlogistika, Antiphlogistisch, Antiphlogistischer Wirkstoff, Entzündungshemmend, Entzündungshemmer</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q582559</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiprotozoal</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente antiprotozoario, medicamento antiprotozoario</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>clase de fármacos para el tratamiento de parásitos protozoarios</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiprotozoal</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antiprotozoal agent, antiprotozoal agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of pharmaceuticals used in treatment of protozoan infection</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗原生动物药, 抗原虫剂, 抗原蟲藥</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antiprotozoenmittel, Antiprotozoika</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q582687</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antipyretic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Fiebersenkender Arzneistoff</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-pyrétique, Antipyretique, Antipyrétiques, Fébrifuge</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antifebril, antiflogístico, Antipirética, Antipiréticos, antitérmico, Antpirética, Diaforética, Febrífuga, febrífugo</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>fármaco que hace disminuir la fiebre</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antipyretic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Antifebrile Agents, Antipyretic Agents, febrifuge</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug that prevents or reduces fever by lowering the body temperature from a raised state</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>解热药, 解熱藥, 退烧药, 退热, 退热剂, 退熱劑, 退燒藥</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antipyretika, Antipyretisch, Febrifugum</literal>
+			</binding>
+			<binding name='tamilaltlabel'>
+				<literal xml:lang='ta'>அனல்குறைப்பி</literal>
+			</binding>
+			<binding name='uraltlabel'>
+				<literal xml:lang='ur'>Antipyretic, اینٹی پائریٹک, اینٹی پائیریٹک, مانع بخار</literal>
+			</binding>
+			<binding name='tamil'>
+				<literal xml:lang='ta'>காய்ச்சலின் போது வெப்ப நிலையினைக் குறைக்கும் மருந்து</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q846227</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antiviral_drug</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneimitteln</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti-viral, Antiviraux</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>classe de médicaments</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Antivirales, Antivirico, Antivírico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>tipo de medicamento usado para el tratamiento de infecciones producidas por virus</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antiviral drug</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antiviral</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of medications</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗病毒, 抗病毒药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Virustatika, Antiviral, Antivirale Medikamente, Virostatika, Virostatisch, Virusstatikum, Virustatikum, Virustatisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q847705</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sedative</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Gruppe von Psychopharmaka</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>sedatif, tranquillisant</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>substance ayant une action dépressive sur le système nerveux central</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>sedativo, tranquilizante</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia química</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>sedative</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Sedative</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Tranquilizer, Tranquillantien</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q886593</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hemotoxin</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Hemotoxico, Hemotóxico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Hemotoxin</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>haemotoxins, hematotoxins, Hemotoxins</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Hemotoxins, haemotoxins or hematotoxins are toxins that destroy red blood cells, disrupt blood clotting, and/or cause organ degeneration and generalized tissue damage</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Hämotoxin, Hämotoxisch</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q901434</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Deliriant</uri>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>clase de droga psicoactiva</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>deliriant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>class of psychoactive drugs</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Delirantia</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q901537</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Molluscicide</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>molluscicide</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>slug pellets, snail baits, snail pellets</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pesticide against molluscs, which are usually used in agriculture or gardening, in order to control gastropod pests specifically slugs and snails which damage crops or other valued plants by feeding on them</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q901656</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Immunostimulant</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Adjuvant vaccinal, Adjuvants vaccinaux, Adjuvants vacciniques, Immunoactivateur, Immunoadjuvant, Immunopotentialisateur</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>immunostimulant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>immunostimulator</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A substance that augments, stimulates, activates, potentiates, or modulates the immune response at either the cellular or humoral level.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>免疫兴奋剂, 免疫兴奋药, 免疫刺激剂, 免疫調節劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Immunstimulation</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q905101</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Choleretic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>organische Verbindungen, Arzneistoffe</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Coleretica, Colerética, Coleretico</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Choleretic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance   that increase the volume of secretion of bile from the liver</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Choleretika</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q905648</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Sequestrant</uri>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>agente quelante, agente secuestrante, agentes quelantes, agentes secuestrantes, secuestrantes</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>sequestrant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>A food preservative that acts by chelating with metal cations (particularly those of copper, iron and nickel) that catalyse the oxidation of fats in food.</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Chelatbildner</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q910391</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Nematicide</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Wirkstoffe gegen bodenlebende Nematoden</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Nematicide</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>produit phytosanitaire</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>nematicide</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pesticide used to kill plant-parasitic nematodes</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>杀线虫剂</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Nematozid, Nematozide</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q911854</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Humectant</uri>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia química que humedece y suaviza</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>humectant</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>hygroscopic substance used to keep things moist. A humectant that is used as a food additive to prevent foodstuffs from drying out.</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q911922</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Colourant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Sammelbezeichnung für alle farbgebenden Stoffe</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Colorants, Colorants organiques</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>terme générique pour toutes les matières décolorer les autres matières</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Colorantes</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia química capaz de teñir fibras vegetales y animales</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>colourant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>coloring agent, coloring agents, colouring agent, colouring agents, ouring matter</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance used to impart colour to another substance or object</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q927234</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Bronchodilator</uri>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia que causa que los bronquios y bronquiolos se dilaten, provocando una disminución en la resistencia aérea y permitiendo así el flujo de aire</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>bronchodilator</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Bronchial-Dilating Agent, Bronchodilator Agent, Bronchodilator Agents</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that dilates the bronchi and bronchioles, decreasing resistance in the respiratory airway and increasing airflow to the lungs</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>支氣管擴張劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Bronchodilatator, Bronchodilator</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q955332</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Lipid-lowering_agent</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>hypolipidémiant</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament dont l'action thérapeutique vise à diminuer les lipides circulant dans le sang</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antihiperlipidémico, antilipémico</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sustancia farmacológicamente activa que tenga la propiedad de disminuir los niveles de lípidos en sangre</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>hypolipidemic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>LLD, antihyperlipemic, Antihyperlipemics, antihyperlipidemic, antihyperlipidemic agent, Antihyperlipidemics, antilipemic, Antilipemic Agents, antilipemic drug, Antilipemic Drugs, Antilipemics, hypocholesterolemic, hypolipidemic agent, hypolipidemic agents, Hypolipidemic Drugs, lipid-lowering agent, lipid-lowering drug</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>pharmaceuticals used in the treatment of high levels of fats in the blood</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1069606</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Chemoprophylaxis</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Chémoprevention, Chimioprevention, Chimioprophylaxie</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Quimioprevencion</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>chemoprophylaxis</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Chemoprevention</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>use of chemical compounds to prevent the development of a specific disease</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1225289</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Muscle_relaxant</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz, die eine reversible Entspannung der Skelettmuskulatur bewirkt</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Décontracturant</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>antiespasmodico, antiespasmódico, miorrelajante, relajante esqueletomuscular</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>muscle relaxant</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>spasmolytics, myorelaxant, neuromuscular blockers</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>drug or chemical that affects skeletal muscle function, decreases muscle tone</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>肌松剂</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Muskelrelaxantien, Muskelrelaxantium, Muskelrelaxanzien, Myorelaxans, Relaxanzien</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1340459</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Insect_repellent</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Bayrepel, Repellant, Repellants, Repulsif, Répulsifs</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>insect repellent</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>bug spray, Insect Repellents, insectifuge, repellent</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance which repels insects</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>蚊不叮, 蚊怕水</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Repellens, Repellentium, Repellents, Repulsivstoff, Vergrämungsmittel</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1349821</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Hepatotoxicity</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Giftigkeit fuer Leberzellen</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>enfermedad hepatica toxica inducida por drogas, enfermedad hepática tóxica inducida por drogas</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>condición médica</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>hepatotoxicity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Chemical and Drug Induced Liver Injury, chemical or drug-induced liver injury, liver damage, toxic hepatitis</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>medical condition</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>肝中毒, 肝毒性, 肝毒素</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Hepatotoxin, Hepatotoxisch, Hepatotoxische Substanz, Lebergift, Lebertoxin, Lebertoxisch, Lebertoxische Substanz, Lebertoxizität</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1384342</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Mucoactive_agent</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Klasse von Arzneimitteln</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Expectorantes</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Expectorantes</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>Mucokinetic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>Expectorants</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>An agent that aids in the clearance of mucus from the airways, lungs, bronchi, and trachea.</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>化痰劑, 黏活性劑, 黏液促进剂, 黏液动力药</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Expectorans, Expektorantia, Hustenlöser, Mucolytika, Mucolytikum, Mukolytika, Mukolytikum, Schleimlöser, Sekretolytika, Sekretolytikum</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1468324</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Nephrotoxicity</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Giftige Substanzen, die die Niere schädigen</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>nephrotoxique</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>nephrotoxicity</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>drug-induced kidney injury</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>toxic effect on the kidneys</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>肾毒性, 腎毒性</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Nierengift, Nierengifte</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1509074</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Wound_healing</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>physiologische Prozesse der Wiederherstellung beschädigter Zellstrukturen</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Cicatrizacion, Cicatrizante, Cicatrizar, Vulnerario</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>proceso biológico mediante el cual los tejidos vivos reparan sus heridas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>wound healing</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>GO:0042060</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>series of events that restore integrity to a damaged tissue, following an injury</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>伤口愈合, 創傷癒合, 結痂癒合</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1517948</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Pungency</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>gustatorische Wahrnehmung</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>goût</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>picor, Picante</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>sensación de ardor agudo producido por productos hortícolas</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>pungency</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>hotness, spiciness</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Pungency is the condition of having a strong, sharp smell or flavor that is often so strong that it is unpleasant</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>辣味</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Scharfstoff</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1536078</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/TNF_inhibitor</uri>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>Anti TNF, Anti-TNF, Anti-TNF alpha, Inhibiteur du TNF-alpha</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>Anti TNF</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>TNF inhibitor</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>anti-TNF</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>a pharmaceutical drug that suppresses the physiologic response to tumor necrosis factor (TNF)</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>抗腫瘤壞死因子製劑, 肿瘤坏死因子抑制剂, 腫瘤壞死因子-α 抑制劑, 腫瘤壞死因子抑制劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>TNF-Hemmer, TNF-Inhibitor, TNF-α-Blocker, TNF-α-Hemmer, TNF-α-Inhibitor, TNFα-Blocker, TNFα-Hemmer, TNFα-Inhibitor</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1642182</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Antihemorrhagic</uri>
+			</binding>
+			<binding name='de'>
+				<literal xml:lang='de'>Substanz, die zur Blutstillung angewendet wird</literal>
+			</binding>
+			<binding name='fraltlabel'>
+				<literal xml:lang='fr'>antihémorragique</literal>
+			</binding>
+			<binding name='fr'>
+				<literal xml:lang='fr'>médicament pour arrêter les hémorragies</literal>
+			</binding>
+			<binding name='esaltlabel'>
+				<literal xml:lang='es'>hemostático</literal>
+			</binding>
+			<binding name='es'>
+				<literal xml:lang='es'>medicamento para detener las hemorragias</literal>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>antihemorrhagic</literal>
+			</binding>
+			<binding name='itemAltLabel'>
+				<literal xml:lang='en'>antihæmorrhagic, hæmostatic, hemostatic</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>substance that promotes hemostasis</literal>
+			</binding>
+			<binding name='zhaltlabel'>
+				<literal xml:lang='zh'>止血剂, 止血劑</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Antihämorrhagika, Antihämorrhagikum, Antihämorrhagisch, Blutstillendes Mittel, Blutungsstillende Mittel, Hämostypika, Hämostypikum</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q1660194</uri>
+			</binding>
+			<binding name='wikipedia'>
+				<uri>https://en.wikipedia.org/wiki/Immunomodulator</uri>
+			</binding>
+			<binding name='itemLabel'>
+				<literal xml:lang='en'>immunomodulator</literal>
+			</binding>
+			<binding name='itemDescription'>
+				<literal xml:lang='en'>Immunomodulators are the active agents of immunotherapy. They are a diverse array of recombinant, synthetic, and natural preparations.</literal>
+			</binding>
+			<binding name='dealtlabel'>
+				<literal xml:lang='de'>Immunmodulator</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>

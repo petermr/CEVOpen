@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The statistical analysis was performed in two steps. The effect of dose (high and low) of each mixture of EO was analyzed using the MIXED procedure of SAS with the fixed effects of dose, treatment and their interaction, and the random effect of period. Treatments were compared with control using the Dunnett test. Results are reported as least squares means and significance was set at 
+ <italic>p</italic> &lt; 0.05, and 0.05 &lt; 
+ <italic>p</italic> &lt; 0.10 was considered a tendency. The second analysis was for the Simplex Centroid Design using the R software from the R foundation for statistical computing (v. 4.0.2, 2020, 
+ <uri xlink:href="https://www.R-project.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.R-project.org/</uri> accessed on 2 February 2021). The analysis of such design is a multiple regression analysis without intercept [
+ <xref rid="B26-animals-11-01205" ref-type="bibr">26</xref>]. The regression model included the three EO and their interactions as described below:
+ <disp-formula>Y = a 
+  <sub>lem</sub> × LEM + a 
+  <sub>cor</sub> × COR + a 
+  <sub>GIN</sub> × GIN + b 
+  <sub>lem/cor</sub> × LEM × COR + b 
+  <sub>lem/GIN</sub> × LEM × GIN +b 
+  <sub>cor/GIN</sub> × COR × GIN + c 
+  <sub>lem/cor/GIN</sub> × LEM × COR × GIN+ ε.
+  <label>(1)</label>
+ </disp-formula> where Y was the outcome (total VFA, A:P ratio, etc.); a, b, c were the regression coefficient associated with corresponding term; LEM, COR, and GIN were the values of the factor for the low and high doses (LEM + COR + GIN = 150 mg/L); and ε was the residual error. Then, the sum of squares of the prediction error (PRESS) was calculated. For each fitted value, PRESS is obtained by deleting the i
+ <sub>th</sub> observation from the data set, estimating the regression equation from the remaining n-1 observations, then using the fitted regression function to obtain the predicted value for the i
+ <sub>th</sub> observation. The predictive ability of the model was assessed with PRESS. In general, the smaller the PRESS value, the better the model’s predictive ability. The models adjusted in the second analysis was used to represent a contour plot. The contour plot provides a 2-dimensional view where all points that have the same response are connected by a line of constant responses.
+</p>
