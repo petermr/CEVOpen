@@ -35,6 +35,6 @@ getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC 
  -  PMC8231073 contains no sections.
 
 ## Note:
-### Aerial parts: T
+### Aerial parts: 
 - The word "aerial" refers to anything which is above a solid surface in the air or in the space. It refers to the plants that are above the earth, including the stems, leaves,   petioles, flowers, fruit and seeds. 
 - Wikidata Id is yet not available for this term.
