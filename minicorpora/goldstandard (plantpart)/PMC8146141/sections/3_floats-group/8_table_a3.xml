@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="insects-12-00404-t0A3" orientation="portrait" position="anchor">
+ <object-id pub-id-type="pii">insects-12-00404-t0A3_Table A3</object-id>
+ <label>Table A3</label>
+ <caption>
+  <p>Insect abundance model selection based on the comparison of their corrected Akaike Information Criterion-AICc with the dredge function (MuMin package of R version 4.0.2 2020-06-22).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">(Int)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SNH Dist.</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">IJI</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">% SNH</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Pesticide</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Parcel Size</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">df</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">logLik</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">AICc</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Δ</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Weight</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.953</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.532</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−138.459</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">286.500</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.254</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.954</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.636</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.166</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−137.312</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">287.100</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.610</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.181</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.954</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−0.122</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.581</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−137.621</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">287.700</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.220</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.133</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.953</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.515</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.082</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−138.019</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">288.500</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.020</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.089</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">…</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.955</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−147.459</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">301.800</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15.320</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.000</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>
