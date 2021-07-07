@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math id="M2">
+ <mo>Inhibition %=</mo>
+ <mn>100</mn>
+ <mo>-</mo>
+ <mfrac>
+  <mrow>
+   <mo>(</mo>
+   <msub>
+    <mi>OD</mi>
+    <mi>test compound</mi>
+   </msub>
+   <mo>-</mo>
+   <msub>
+    <mi>OD</mi>
+    <mi>blank</mi>
+   </msub>
+   <mo>)</mo>
+  </mrow>
+  <mrow>
+   <mo>(</mo>
+   <msub>
+    <mi>OD</mi>
+    <mi>solvent control</mi>
+   </msub>
+   <mo>-</mo>
+   <msub>
+    <mi>OD</mi>
+    <mi>blank</mi>
+   </msub>
+   <mo>)</mo>
+  </mrow>
+ </mfrac>
+ <mo>x</mo>
+ <mn>100</mn>
+</math>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">AutoDock Vina with previously reported protocol
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup> was used to dock the proteins (PDB ID: 6F86) and isolated compounds (
+ <bold>1–5</bold>) into the active site of proteins
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The chemical structures of compounds 
+ <bold>1–5</bold> were drawn using ChemOffice tool (Chem Draw 16.0) assigned with proper 2D orientation, and energy of each molecule was minimized using ChemBio3D. The energy minimized ligand molecules were then used as input for AutoDock Vina, in order to carry out the docking simulation. The crystal structure of receptor molecule 
+ <italic>E. coli</italic> gyraseB (PDB ID: 6F86) were downloaded from protein data bank. The protein preparation was done using the reported standard protocol
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup> by removing the co-crystallized ligand, selected water molecules and cofactors. Next, the target protein file was prepared by leaving the associated residue with protein by using Auto Preparation of target protein file Auto Dock 4.2 (MGL tools1.5.6). The graphical user interface program was used to set the grid box for docking simulations. The grid was set so that it surrounds the region of interest in the macromolecule. The docking algorithm provided with Auto Dock Vina was used to search for the best docked conformation between ligand and protein. During the docking process, a maximum of nine conformers were considered for each ligand. The conformations with the most favorable (least) free binding energy were selected for analyzing the interactions between the target receptor and ligands by Discovery studio visualizer and PyMOL. The ligands are represented in different color, H-bonds and the interacting residues are represented in ball and stick model representation.
+</p>
