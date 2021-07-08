@@ -16,7 +16,7 @@ getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC 
 - The research publications issued in the years 2020 and 2021 will be considered for download from EuropePMC.
 - Downloaded 50 research papers once the query was successfully run. 
 - Downloaded articles in JSON, XML, and full text pdf format, each with a unique PMC ID.
-- Here is a link to Corpora : https://github.com/petermr/CEVOpen/tree/master/minicorpora/goldstandard%20(plantpart)
+- Here is a link to Corpus : https://github.com/petermr/CEVOpen/tree/master/minicorpora/goldstandard%20(plantpart)
 
 ## `ami section`
 - The downloaded research articles were divided into several parts using the `ami section`.
