@@ -31,3 +31,9 @@ https://github.com/petermr/openDiagram/blob/master/physchem/resources/oil26/PMC5
  - cosine similarity https://en.wikipedia.org/wiki/Cosine_similarity
  - spacy  https://spacy.io/models#conventions
  - Jupyter Notebook for ease of collaboration, documentation and packaging.  
+ ## 6. Methodology : 
+ 1. Extract features using unsupervised K-means clustering . 
+ 2. Use obtained features to immplement semisupervised sentence level search. Usage of weight and numbder of hits/ sentence to retreive unlabelled acknowledgments. 
+ 3. Build a classifier using logistic regression and k nearest neighbours. 
+ 4. Label unlabelled amd wrongly labelled sections using the classifier. 
+  
