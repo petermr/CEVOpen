@@ -38,3 +38,10 @@ getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC 
 ### Aerial parts: 
 - The word "aerial" refers to anything which is above a solid surface in the air or in the space. It refers to the plants that are above the earth, including the stems, leaves,   petioles, flowers, fruit and seeds. 
 - Wikidata Id is yet not available for this term.
+
+# Aim : Goldstandard of 200 papers
+- Downloaded papers using getpapers:
+```
+getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC OR SRC:AGR OR SRC:CBA) NOT (PUB_TYPE:Review)))) AND (FIRST_PDATE:2020 OR FIRST_PDATE:2021)" -x -p -k 200 -o goldstandard1
+```
+-
