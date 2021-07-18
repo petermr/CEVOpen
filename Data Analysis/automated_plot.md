@@ -14,4 +14,12 @@ Data Files being used: Oil128 fulltext.xml files in each PMC folder
 
 These were retrieved by downloading the zip of the repository off of github. In the texts, is all the text of the paper. What I want to currently extract is simply location names for now.
 
+Issues:
+
+the thing is, I can extract the location names from a pasted text string in the code by using geotext, however I don't know how to use it when the input is multiple xml files.
+
+Also, currently using nomnatim instead of googlemapsapi, the latter is more accurate and should speeden up the process.
+
+Also, the user has to download the repo and the ipynb file right now, since I haven't been able to figure out how to create a global path and access the files from our Github itself.
+
 
