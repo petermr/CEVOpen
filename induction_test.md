@@ -58,3 +58,4 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 ## 2.2. `pyami`
 
 # 3. Intern’s documentation
+#TO-DO: Ether pad template
