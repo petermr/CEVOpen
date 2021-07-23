@@ -18,6 +18,31 @@ For the first week or two, you will be assigned certain tasks which you should t
 
 The induction process is designed to find out whether you and we are a good fit for a longer internship period. 
 
+# Some thoughts on teamwork, especially for new/inducted interns (by PMR):
+## Teamwork and Openness
+CEVOpen is based on Open Teamwork, which may be new to some of you. Unlike traditional taught courses , and some research projects, the goal is for the project members, as a whole, to build tools and do research. The approach is like being in a sports team , e.g. cricket or soccer, where success is contributed by the whole team working together, sometimes in new ways. So, sometimes we will all do repetitive tasks such as annotating documents because we need several independent annotations. Or different members will work on different dictionaries or document sections. If one of these is missing, the whole project will be lessened or delayed or give the wrong results. Therefore the priority is the success of the project.
+
+But always because of the way we work we recognise and appreciate your individual contributions.
+
+Openness may be new to you although it is becoming mainstream in many scientific organizations. It involves:
+- transparency. What did you do? what are you thinking?
+- sharing. If you have a solution, or a problem then by sharing it with others we all benefit.
+- continued improvement. When you create something, if you share it immediately then you only have to create it once. It won't be perfect, but that's fine. The system is designed for continual improvement.
+## How we work.
+Whenever possible we work in small teams and share daily. We ask for a daily "standup" where  you tell everyone (in a sentence, with links):
+- what I did yesterday
+- what I am going to do today
+- what's blocking me (obstacles of any kind)
+This means that we can all connect with your activity and make comments or offer help. Any problem over a few hours can be discussed by the community as a whole. We recognise when things are going well and badly (they will do both!).
+We discuss and plan using Github Wikis - essentially a communal notebook of  "pages" where you can record and edit.
+We often create small communal miniprojects which act as targets and make sure we can integrate the work we have all done.
+We know that people come with a wide variety of knowledge and skills and through frequent communal discussion we adjust for this. There is a lot to learn and people do this at different rates.
+## The wider picture
+The principles and practice of CEVOpen are increasingly important in modern science and industry, particularly software. Being a team player is highly valued. This is also true of science funding where governments are insisting that research is Open, and there are specific funded projects.
+We also know from experience that Open Science is Better Science. The data and practice are continually refined from the start, the records are clearer (there is no "copying from private machine"), and the data are more validated.
+And the world can watch and appreciate what we are doing. We make presentations whenever opportunities arise.
+
+
 ## 1.1. What we expect
 - Information on other known commitments 
     - Early warning of other commitments
