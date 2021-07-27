@@ -25,7 +25,7 @@ The induction process is designed to find out whether you and we are a good fit 
 
 
 ## 2.1. What we expect
--Early warnings about other commitments like college, exam and so on. 
+- Early warnings about other commitments like college, exam and so on. 
 - Correct equipment at your end
 - Clear writing and communication skills
 - Prior experience with running software
