@@ -80,7 +80,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 ## 4.1. `pygetpapers` 
 - Read the [official documentation](https://github.com/petermr/pygetpapers)
 - [Install](https://github.com/petermr/pygetpapers#6-installation) the tool
-- Run a query to download a hundred papers related to “invasive plant species” in XML and PDF - format
+- Run a query to download a 25 papers related to “invasive plant species” in XML and PDF - format
 - Document your steps coherently
 
 ## 4.2. `pyami`
