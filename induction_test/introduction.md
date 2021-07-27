@@ -86,4 +86,5 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 ## 4.2. `pyami`
 
 # 5. Intern’s documentation
-You will find a `.docx` template in this folder. We've outlined what we expect from your documentation for you to follow along. 
+- Download the [Induction test](https://github.com/petermr/CEVOpen/blob/master/induction_test/CEVOpen_induction_test_template%20(1).docx) Word document. 
+- We've outlined what we expect from your documentation for you to follow along in the Word document. 
