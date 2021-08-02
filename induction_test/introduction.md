@@ -85,9 +85,17 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 
 ## 4.2. `pyami`
 (Optional)
-- Read the documentation 
-- _to be continued_
-
+- Read the [documentation](https://github.com/petermr/pyami). Might not be complete
+- `git clone` the Repo since it's not packaged yet.
+- You would have to ensure that you've also git cloned the following repositories
+    - dictionary  https://github.com/petermr/dictionary.git
+    - CEVOpen  https://github.com/petermr/CEVOpen.git
+    - openVirus https://github.com/petermr/openvirus.git
+- Make changes to the `config.ini` as outlined in the documentation which you can find, [here](https://github.com/petermr/pyami/blob/main/pyami/CONFIG.md) 
+- Run `examples.py`
+- Record your documentation in doc. Template below.
+- Briefly describe your understanding of the software. 
 # 5. Intern’s documentation
 - Download the [Induction test](https://github.com/petermr/CEVOpen/blob/master/induction_test/CEVOpen_induction_test_template%20(1).docx) Word document. 
 - We've outlined what we expect from your documentation for you to follow along in the Word document. 
+- Please email the documentation Word Document to cbl@nipgr.ac.in
