@@ -98,4 +98,4 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 # 5. Intern’s documentation
 - Download the [Induction test](https://github.com/petermr/CEVOpen/blob/master/induction_test/cevopen_induction_test_template.docx) Word document. 
 - We've outlined what we expect from your documentation for you to follow along in the Word document. 
-- Please email the documentation Word Document to cbl@nipgr.ac.in
+- Please email the documentation Word Docx to cbl@nipgr.ac.in
