@@ -76,7 +76,8 @@ And the world can watch and appreciate what we are doing. We make presentations 
 # 4. Assigned Tasks for the probation period
 Assuming you have installed `git` and python, follow the [prerequisites](https://github.com/petermr/CEVOpen/wiki#3-prerequisites) section to install our tools. Please spend some time learning the workings of git if you aren’t well-versed in using it. 
 
-Below are the details of your tasks. It mainly involves downloading, testing and using the tools. 
+Below are the details of your tasks. It mainly involves downloading, testing and using the tools. `pygetpapers` is beta quality, i.e. tested in many environments, so we expect it to work. `pyami` is alpha quality, more recent and might not work on all platforms. If you believe you have a problem, report it clearly and carefully so that we can reproduce it.
+
 ## 4.1. `pygetpapers` 
 - Read the [official documentation](https://github.com/petermr/pygetpapers)
 - [Install](https://github.com/petermr/pygetpapers#6-installation) the tool
