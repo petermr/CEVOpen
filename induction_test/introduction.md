@@ -63,11 +63,11 @@ Openness may be new to you although it is becoming mainstream in many scientific
 Whenever possible we work in small teams and share daily. We ask for a daily "standup" where  you tell everyone (in a sentence, with links):
 - what I did yesterday
 - what I am going to do today
-- what's blocking me (obstacles of any kind)
+- what's blocking me (obstacles of any kind)  
+
 This means that we can all connect with your activity and make comments or offer help. Any problem over a few hours can be discussed by the community as a whole. We recognise when things are going well and badly (they will do both!).
-We discuss and plan using Github Wikis - essentially a communal notebook of  "pages" where you can record and edit.
-We often create small communal miniprojects which act as targets and make sure we can integrate the work we have all done.
-We know that people come with a wide variety of knowledge and skills and through frequent communal discussion we adjust for this. There is a lot to learn and people do this at different rates.
+
+We discuss and plan using Github Wikis - essentially a communal notebook of "pages" where you can record and edit. We often create small communal miniprojects which act as targets and make sure we can integrate the work we have all done. We know that people come with a wide variety of knowledge and skills and through frequent communal discussion we adjust for this. There is a lot to learn and people do this at different rates.
 ## 3.3. The wider picture
 The principles and practice of CEVOpen are increasingly important in modern science and industry, particularly software. Being a team player is highly valued. This is also true of science funding where governments are insisting that research is Open, and there are specific funded projects.
 We also know from experience that Open Science is Better Science. The data and practice are continually refined from the start, the records are clearer (there is no "copying from private machine"), and the data are more validated.
