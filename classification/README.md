@@ -35,8 +35,8 @@ https://github.com/petermr/openDiagram/blob/master/physchem/resources/oil26/PMC5
  - Jupyter Notebook for ease of collaboration, documentation and packaging.  
  ## 5. Methodology : 
  1. Extract features(frequently occuring words) using unsupervised K-means clustering . This is followed by keyphrase extraction using [pke library](https://github.com/boudinfl/pke). 
- 2. Use obtained features and keyphrases to come up with an xml dictionary to immplement semisupervised sentence level search using spacy's phrase matcher. Usage of weight and numbder of hits per sentence to retreive unlabelled acknowledgments. 
- 3. Build a training data set (also known as the gold standard) by manually labelling statements using human intelligence and inference. Acknow vs Not_Acknow label binary classification dataset. 
+ 2. Use obtained features and keyphrases to come up with an [xml dictionary](https://github.com/petermr/CEVOpen/blob/master/classification/machine_learning_miniproject/acknowledgment_feature_names.xml) to immplement semisupervised sentence level search using spacy's phrase matcher. Usage of weight and numbder of hits per sentence to retreive unlabelled acknowledgments. 
+ 3. Build a [training data set](https://github.com/petermr/CEVOpen/blob/master/classification/machine_learning_miniproject/acknow_training_dataset.csv) (also known as the gold standard) by manually labelling statements using human intelligence and inference. Acknow vs Not_Acknow label binary classification dataset. 
  4. Build a classifier using support vector machines, multinomialNB naive bayes, random classifier, logistic regression and k nearest neighbors. The code for the same can be found [here](https://github.com/petermr/CEVOpen/blob/master/classification/machine_learning_miniproject/acknowledgments_classifier.ipynb).
  5. Cross validate the classifier by running testing the model on external data (From [oil1000 corpus](https://github.com/petermr/CEVOpen/tree/master/searches/oil1000)). 
  6. Make the code conformant and document the python module using docstrings, pylint and pyment. 
