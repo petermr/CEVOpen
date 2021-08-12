@@ -34,8 +34,9 @@ https://github.com/petermr/openDiagram/blob/master/physchem/resources/oil26/PMC5
  - spacy  https://spacy.io/models#conventions
  - Jupyter Notebook for ease of collaboration, documentation and packaging.  
  ## 5. Methodology : 
- 1. Extract features using unsupervised K-means clustering . 
- 2. Use obtained features to immplement semisupervised sentence level search. Usage of weight and numbder of hits/ sentence to retreive unlabelled acknowledgments. 
- 3. Build a classifier using support vector machines and multinomialNB naive bayes. 
- 4. Label unlabelled amd wrongly labelled sections using the classifier. 
-  
+ 1. Extract features(frequently occuring words) using unsupervised K-means clustering . This is followed by keyphrase extraction using [pke library](https://github.com/boudinfl/pke). 
+ 2. Use obtained features and keyphrases to come up with an xml dictionary to immplement semisupervised sentence level search using spacy's phrase matcher. Usage of weight and numbder of hits per sentence to retreive unlabelled acknowledgments. 
+ 3. Build a training data set (also known as the gold standard) by manually labelling statements using human intelligence and inference. Acknow vs Not_Acknow label binary classification dataset. 
+ 4. Build a classifier using support vector machines, multinomialNB naive bayes, random classifier, logistic regression and k nearest neighbors. 
+ 5. Cross validate the classifier by running testing the model on external data (From oil1000 corpus). 
+ 6. Make the code conformant and document the python module using docstrings, pylint and pyment. 
