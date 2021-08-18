@@ -92,7 +92,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
     - dictionary  https://github.com/petermr/dictionary.git
     - CEVOpen  https://github.com/petermr/CEVOpen.git
     - openVirus https://github.com/petermr/openvirus.git
-- Make changes to the `config.ini` as outlined in the documentation which you can find, [here](https://github.com/petermr/pyami/blob/main/pyami/CONFIG.md) 
+- Make changes to the `config.ini` as outlined in the documentation which you can find, [here](https://github.com/petermr/pyami/blob/main/CONFIG.md) 
 - Run `examples.py`
 - Record your documentation in doc. Template below.
 - Briefly describe your understanding of the software. 
