@@ -1,0 +1,1219 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Adv Model Earth Syst</journal-id><journal-id journal-id-type="iso-abbrev">J Adv Model Earth Syst</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1942-2466</journal-id><journal-id journal-id-type="publisher-id">JAME</journal-id><journal-title-group><journal-title>Journal of Advances in Modeling Earth Systems</journal-title></journal-title-group><issn pub-type="epub">1942-2466</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7540049</article-id><article-id pub-id-type="doi">10.1029/2019MS002029</article-id><article-id pub-id-type="publisher-id">JAME21170</article-id><article-id pub-id-type="other">10.1029/2019MS002029</article-id><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Community Earth System Model version 2 (CESM2) Special Collection</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Cryosphere</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ice Sheets</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Glaciology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Geodesy and Gravity</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Mass Balance</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Global Change from Geodesy</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Global Change</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Cryospheric Change</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Earth System Modeling</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Land/Atmosphere Interactions</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Hydrology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Land/Atmosphere Interactions</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Atmospheric Processes</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Land/Atmosphere Interactions</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Natural Hazards</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Physical Modeling</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Global Warming Threshold and Mechanisms for Accelerated Greenland Ice Sheet Surface Mass Loss</article-title><alt-title alt-title-type="left-running-head">SELLEVOLD AND VIZCAINO</alt-title></title-group><contrib-group><contrib id="jame21170-cr-0001" contrib-type="author" corresp="yes"><name><surname>Sellevold</surname><given-names>Raymond</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7699-8223</contrib-id><xref ref-type="aff" rid="jame21170-aff-0001">
+<sup>1</sup>
+</xref><address><email>R.Sellevold-1@tudelft.nl</email></address></contrib><contrib id="jame21170-cr-0002" contrib-type="author"><name><surname>Vizca&#x000ed;no</surname><given-names>Miren</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9553-7104</contrib-id><xref ref-type="aff" rid="jame21170-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="jame21170-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Geoscience and Remote Sensing</named-content>
+<institution>Delft University of Technology</institution>
+<city>Delft</city>
+<country country="NL">the Netherlands</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence to:</bold><break/>
+R. Sellevold,<break/><email>R.Sellevold-1@tudelft.nl</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>9</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>9</month><year>2020</year></pub-date><volume>12</volume><issue>9</issue><issue-id pub-id-type="doi">10.1002/jame.v12.9</issue-id><elocation-id>e2019MS002029</elocation-id><history><date date-type="received"><day>06</day><month>1</month><year>2020</year></date><date date-type="rev-recd"><day>14</day><month>6</month><year>2020</year></date><date date-type="accepted"><day>28</day><month>6</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9;2020. American Geophysical Union. All Rights Reserved. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9;2020. The Authors.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:JAME-12-e2019MS002029.pdf"/><abstract id="jame21170-abs-0001"><title>Abstract</title><p>The Community Earth System Model version 2.1 (CESM2.1) is used to investigate the evolution of the Greenland ice sheet (GrIS) surface mass balance (SMB) under an idealized CO<inline-formula><sub>2</sub></inline-formula> forcing scenario of 1% increase until stabilization at 4<inline-formula>&#x000d7;</inline-formula> pre&#x02010;industrial at model year 140. In this simulation, the SMB calculation is coupled with the atmospheric model, using a physically based surface energy balance scheme for melt, explicit calculation of snow albedo, and a realistic treatment of polar snow and firn compaction. By the end of the simulation (years 131&#x02013;150), the SMB decreases with 994&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> with respect to the pre&#x02010;industrial SMB, which represents a sea&#x02010;level rise contribution of 2.8&#x02009;mm&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>. For a threshold of 2.7&#x02010;K global temperature increase with respect to pre&#x02010;industrial, the rate of expansion of the ablation area increases, the mass loss accelerates due to loss of refreezing capacity and accelerated melt, and the SMB becomes negative 6&#x02009;years later. Before acceleration, longwave radiation is the most important contributor to increasing energy for melt. After acceleration, the large expansion of the ablation area strongly reduces surface albedo. This and much increased turbulent heat fluxes as the GrIS&#x02010;integrated summer surface temperature approaches melt point become the major sources of energy for&#x000a0;melt.</p></abstract><abstract abstract-type="short"><title>Key Points</title><p>
+<list list-type="bullet"><list-item id="jame21170-li-0001"><p>GrIS surface mass loss accelerates for a global warming of 2.7&#x02009;K through increased surface melt and loss of refreezing capacity</p></list-item><list-item id="jame21170-li-0002"><p>Longwave radiation is the main contributor to melt increase before acceleration; albedo and turbulent fluxes add major contributions after</p></list-item><list-item id="jame21170-li-0003"><p>Anthropogenic&#x02010;forced atmospheric circulation changes (North Atlantic Oscillation and Greenland blocking index) partially reduce melt</p></list-item></list>
+</p></abstract><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>European Research Council </institution><institution-id institution-id-type="open-funder-registry">10.13039/100010663</institution-id></institution-wrap></funding-source><award-id>ERC&#x02010;StG&#x02010;678145&#x02010;CoupledIceClim</award-id></award-group><award-group id="funding-0002"><funding-source>Nederlandse Organizatie voor Wetenschappelijk Onderzoek</funding-source><award-id>ALWOP.2015.096</award-id></award-group></funding-group><counts><fig-count count="10"/><table-count count="2"/><page-count count="18"/><word-count count="7394"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.2 mode:remove_FC converted:07.10.2020</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="jame21170-body-0001"><sec id="jame21170-sec-0001"><label>1</label><title>Introduction</title><p>Since the 1990s, the Greenland ice sheet (GrIS) has lost mass (Bamber et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0002" ref-type="ref">2018</xref>; King et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0032" ref-type="ref">2018</xref>; Shepherd et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0043" ref-type="ref">2012</xref>). This mass loss has further accelerated since around 2000 (Bamber et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0002" ref-type="ref">2018</xref>). The cumulative mass loss from Greenland since the 2000s is equivalent to <inline-formula>&#x0223c;</inline-formula>11&#x02009;mm of sea&#x02010;level rise (Bamber et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0002" ref-type="ref">2018</xref>). Both increasing ice discharge and a decreased surface mass balance (SMB) contribute to the mass loss. Of these, the SMB is the dominant contributor (Fettweis et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0016" ref-type="ref">2017</xref>; van den Broeke et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0051" ref-type="ref">2016</xref>), and the acceleration in mass loss is attributed to accelerated SMB decline (Enderlin et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0014" ref-type="ref">2014</xref>). Proposed driving mechanisms behind the accelerated surface mass loss are changes in North Atlantic circulation (Delhasse et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0012" ref-type="ref">2018</xref>; Fettweis, Hanna, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0018" ref-type="ref">2013</xref>; Hanna et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0027" ref-type="ref">2018</xref>), albedo&#x02010;melt feedback (Box et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0005" ref-type="ref">2012</xref>), depletion of firn refreezing capacity (Vandecrux et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0052" ref-type="ref">2019</xref>), and the hypsometric geometry of the GrIS (van As et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0048" ref-type="ref">2017</xref>).</p><p>State&#x02010;of&#x02010;the&#x02010;art modeling project reductions of GrIS SMB. These projections are made with either simple positive degree day calculations (Golledge et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0025" ref-type="ref">2019</xref>; Yoshimori &#x00026; Abe&#x02010;Ouchi,&#x000a0;<xref rid="jame21170-bib-0056" ref-type="ref">2012</xref>), using regional climate models (RCMs) (Fettweis, Franco, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0017" ref-type="ref">2013</xref>; Franco et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0020" ref-type="ref">2013</xref>; Mottram et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0035" ref-type="ref">2017</xref>; Rae et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0041" ref-type="ref">2012</xref>; van Angelen et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0047" ref-type="ref">2013</xref>) or earth system models (Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>). There is a consensus among these studies that future SMB decline is due to increased surface melt and runoff, with a small offset due to increased snow accumulation in the interior. However, the magnitude of the SMB decline varies greatly. Scenario uncertainty and model sensitivity to CO<inline-formula><sub>2</sub></inline-formula> are the greatest contributors to this uncertainty (Fettweis, Franco, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0017" ref-type="ref">2013</xref>).</p><p>Here we present projections of GrIS SMB with the Community Earth System Model version 2.1 (CESM2.1) under an idealized high CO<inline-formula><sub>2</sub></inline-formula> scenario. CESM2.1 produces realistic present&#x02010;day GrIS SMB, both through its interactive calculation (van Kampenhout et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0049" ref-type="ref">2020</xref>) and as a driving model of RCM downscaling (No&#x000eb;l et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0039" ref-type="ref">2020</xref>). The SMB is calculated in the land component and is downscaled through elevation classes (Sellevold et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0042" ref-type="ref">2019</xref>), with a prognostic albedo, and an advanced snow&#x02010;model fit for applications to polar ice sheets (van Kampenhout et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0050" ref-type="ref">2017</xref>). This paper seeks to answer the following scientific questions: What is the modeled SMB evolution in response to CO<inline-formula><sub>2</sub></inline-formula>? What are the mechanisms involved in the surface mass change? What is the impact of future changes in atmospheric circulation on the SMB?</p><p>The model, experimental setup, and analysis methods are described in section&#x000a0;<xref rid="jame21170-sec-0002" ref-type="sec">2</xref>. Section&#x000a0;<xref rid="jame21170-sec-0008" ref-type="sec">3</xref> shows an overview of projected global and Arctic changes. GrIS SMB projections and processes are described in section&#x000a0;<xref rid="jame21170-sec-0009" ref-type="sec">4</xref>, with linkages to atmospheric circulation metrics in section&#x000a0;<xref rid="jame21170-sec-0013" ref-type="sec">5</xref>. We make a summary, discussion, and conclusions in section&#x000a0;<xref rid="jame21170-sec-0014" ref-type="sec">6</xref>.</p></sec><sec id="jame21170-sec-0002"><label>2</label><title>Method</title><sec id="jame21170-sec-0003"><label>2.1</label><title>Model</title><p>The model used for this study is CESM2.1 (Danabasoglu et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0009" ref-type="ref">2020</xref>). This model features a fully coupled atmosphere, ocean, sea ice, land, and ice sheet components. The atmospheric model is the Community Atmosphere Model version 6. This model uses a finite&#x02010;volume dynamical core at 0.9&#x000b0; (latitude)&#x02009;<inline-formula>&#x000d7;</inline-formula>&#x02009;1.25&#x000b0; (longitude) horizontal resolution, with 32 vertical levels where the model top is at 3.6&#x02009;hPa. This model features a new subgrid orographic drag parameterization (Beljaars et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0003" ref-type="ref">2004</xref>), new cloud microphysics (Gettelman &#x00026; Morrison,&#x000a0;<xref rid="jame21170-bib-0023" ref-type="ref">2015</xref>), and a new subgrid cloud parameterization (Bogenschutz &#x00026; Krueger,&#x000a0;<xref rid="jame21170-bib-0004" ref-type="ref">2013</xref>). The ocean component is the Parallel Ocean Program version 2 (Danabasoglu et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0011" ref-type="ref">2012</xref>; Smith et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0044" ref-type="ref">2010</xref>) with a nominal resolution of 1&#x000b0;. The ocean model uses 60 vertical levels, with a maximum depth of 5,500&#x02009;m. The sea ice is simulated with the Los Alamos Sea Ice model version 5 (Hunke et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0029" ref-type="ref">2017</xref>) at the same grid as the ocean model.</p><p>The land model is the Community Land Model version 5 (Lawrence et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0033" ref-type="ref">2019</xref>). This model now features a realistic representation of polar snow (van Kampenhout et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0050" ref-type="ref">2017</xref>), which allows for an explicit and realistic calculation of snow refreezing and extending the snow cap from 1&#x02010;m water equivalent in the previous generation CESM model to 10&#x02010;m water equivalent. The simulation of melt over glaciated surfaces is done through the use of elevation classes to account for subgrid topographical variations (Sellevold et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0042" ref-type="ref">2019</xref>). For each of the 10 elevation classes, the near&#x02010;surface atmospheric temperature is downscaled using a fixed lapse rate of 6&#x02009;K&#x02009;km<inline-formula><sup>&#x02212;1</sup></inline-formula>, the near&#x02010;surface humidity is downscaled by assuming fixed relative humidity, and the incoming longwave radiation is downscaled with a fixed lapse rate of 32&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>&#x02009;km<inline-formula><sup>&#x02212;1</sup></inline-formula>. The phase of precipitation is also downscaled to the elevation classes based on near&#x02010;surface air temperature. At temperatures lower than <inline-formula>&#x02212;</inline-formula>2&#x000b0;C, precipitation falls purely as snow; at temperatures higher than 0&#x000b0;C, precipitation falls exclusively as&#x000a0;rain.</p><p>The melt is calculated at each elevation class independently with a surface energy balance (SEB) scheme. The scheme computes melt energy <italic>M</italic> (in W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>) from the sum of radiative, turbulent, and conductive fluxes at the ice sheet surface: 
+<disp-formula id="jame21170-disp-0001"><label>(1)</label><mml:math id="nlm-math-1"><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mtext>SW</mml:mtext></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mtext>LW</mml:mtext></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mtext>SHF</mml:mtext><mml:mo>+</mml:mo><mml:mtext>LHF</mml:mtext><mml:mo>+</mml:mo><mml:mtext>GHF</mml:mtext></mml:math></disp-formula>where SW<inline-formula><sub><italic>net</italic></sub></inline-formula> is net shortwave radiation, LW<inline-formula><sub><italic>net</italic></sub></inline-formula> is net longwave radiation, SHF is the sensible heat flux, LHF is the latent heat flux, and GHF is the ground heat&#x000a0;flux.</p><p>This equation can be rewritten more specifically as 
+<disp-formula id="jame21170-disp-0002"><label>(2)</label><mml:math id="nlm-math-2"><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mtext>SW</mml:mtext></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mi>&#x003b1;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mtext>LW</mml:mtext></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003c3;</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mi>&#x003f5;</mml:mi><mml:msubsup><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mi>f</mml:mi><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:mtext>SHF</mml:mtext><mml:mo>+</mml:mo><mml:mtext>LHF</mml:mtext><mml:mo>+</mml:mo><mml:mtext>GHF</mml:mtext></mml:math></disp-formula>where SW<inline-formula><sub><italic>in</italic></sub></inline-formula> is the incoming shortwave (solar) radiation, <inline-formula><italic>&#x003b1;</italic></inline-formula> is the albedo, LW<inline-formula><sub><italic>in</italic></sub></inline-formula> is the incoming longwave radiation, <inline-formula><italic>&#x003c3;</italic><sub><italic>sb</italic></sub></inline-formula> is the Stefan Boltzman constant, <inline-formula><italic>&#x003f5;</italic></inline-formula> is the surface emissivity, and <inline-formula><italic>T</italic><sub><italic>sfc</italic></sub></inline-formula> is the surface temperature. For bare ice, the albedo is fixed to 0.5 in the visible spectrum and 0.3 in the near&#x02010;infrared spectrum. The snow albedo is prognostically simulated (Flanner &#x00026; Zender,&#x000a0;<xref rid="jame21170-bib-0019" ref-type="ref">2006</xref>).</p><p>The SMB (in mm of water equivalent) is calculated at each elevation class as 
+<disp-formula id="jame21170-disp-0003"><label>(3)</label><mml:math id="nlm-math-3"><mml:mi>S</mml:mi><mml:mi>M</mml:mi><mml:mi>B</mml:mi><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mi>N</mml:mi><mml:mi>O</mml:mi><mml:mi>W</mml:mi><mml:mo>+</mml:mo><mml:mi>R</mml:mi><mml:mi>E</mml:mi><mml:mi>F</mml:mi><mml:mi>R</mml:mi><mml:mi>E</mml:mi><mml:mi>E</mml:mi><mml:mi>Z</mml:mi><mml:mi>I</mml:mi><mml:mi>N</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi>M</mml:mi><mml:mi>E</mml:mi><mml:mi>L</mml:mi><mml:mi>T</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi>S</mml:mi><mml:mi>U</mml:mi><mml:mi>B</mml:mi><mml:mi>L</mml:mi><mml:mi>I</mml:mi><mml:mi>M</mml:mi><mml:mi>A</mml:mi><mml:mi>T</mml:mi><mml:mi>I</mml:mi><mml:mi>O</mml:mi><mml:mi>N</mml:mi></mml:math></disp-formula>
+</p><p>The SMB, and its components, is then represented by the area&#x02010;weighted average across the elevation classes at the lower resolution (same as atmospheric component) grid cell of the land model.</p><p>The land ice model is the Community Ice Sheet Model (CISM) version 2.1 (Lipscomb et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0034" ref-type="ref">2019</xref>). This model has a default horizontal resolution of 4&#x02009;km for the Greenland domain. In this study, ice sheet evolution is turned off, so CISM2.1 is used purely as a diagnostic model to output downscaled SMB. The SMB downscaling from elevation classes to CISM is done through a bilinear horizontal interpolation and vertical linear interpolation. SMB in CISM does not account for snowmass variations, as in the land model, but only variations in ice&#x000a0;mass.</p></sec><sec id="jame21170-sec-0004"><label>2.2</label><title>Simulations</title><p>The control simulation (CTRL) is a pre&#x02010;industrial simulation with a fixed atmospheric CO<inline-formula><sub>2</sub></inline-formula> concentration of 284.7&#x02009;ppm (Danabasoglu et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0010" ref-type="ref">2019</xref>). This simulation participates in the Tier 1 simulations of the Coupled Model Intercomparison Project (CMIP) 6 Diagnostic, Evaluation and Characterization of Klima (DECK) experiments (Eyring et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0015" ref-type="ref">2016</xref>). It is <inline-formula>&#x0223c;</inline-formula>1,200&#x02009;years long. Here we only use the years 501&#x02013;650 from the CTRL simulation, as our sensitivity simulation is branched off at year 501 and run for 150&#x02009;years. As the pre&#x02010;industrial simulation is at steady state, 150&#x02009;years are sufficient to sample the unforced climate variability.</p><p>To assess the response of the GrIS SMB to CO<inline-formula><sub>2</sub></inline-formula> forcing, we use a 1% increase in CO<inline-formula><sub>2</sub></inline-formula> concentration per year, until 4<inline-formula>&#x000d7;</inline-formula> pre&#x02010;industrial CO<inline-formula><sub>2</sub></inline-formula> concentration (1PCT Danabasoglu,&#x000a0;<xref rid="jame21170-bib-0008" ref-type="ref">2019</xref>). After reaching stabilization at 1,140&#x02009;ppm of CO<inline-formula><sub>2</sub></inline-formula> concentration, the CO<inline-formula><sub>2</sub></inline-formula> forcing is kept constant. The simulation is 150&#x02009;years long. This simulation is also participating as a Tier 1 CMIP6 DECK simulation.</p><p>A longer simulation with the same greenhouse gas forcing and a dynamical GrIS is analyzed in Muntjewerf et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0037" ref-type="ref">2020</xref>). In the current study, the main focus is on the coupling between the atmosphere and the GrIS SMB, with detailed analysis of SMB and SEB components.</p></sec><sec id="jame21170-sec-0005"><label>2.3</label><title>Analysis</title><sec id="jame21170-sec-0006"><label>2.3.1</label><title>Oceanic and Atmospheric Circulation Metrics</title><p>The North Atlantic Meridional Overturning Circulation (NAMOC) index is calculated from annual values as the maximum of the overturning stream function north of 28&#x000b0;N to 90&#x000b0;N and below 500&#x02010;m depth.</p><p>The North Atlantic Oscillation (NAO) is calculated as the leading empirical orthogonal function (EOF) of the seasonal mean (December&#x02013;February: DJF, and June&#x02013;August: JJA) sea&#x02010;level pressure in the North Atlantic region (20&#x000b0;N to 80&#x000b0;N, and 90&#x000b0;W to 40&#x000b0;E (Hurrell,&#x000a0;<xref rid="jame21170-bib-0030" ref-type="ref">1995</xref>; Hurrell &#x00026; Deser,&#x000a0;<xref rid="jame21170-bib-0031" ref-type="ref">2010</xref>). The NAO index is calculated from the resulting principal component (PC) time series and standardized with respect to the index from&#x000a0;CTRL.</p><p>To calculate the Greenland blocking index (GBI), we use the revised index from Hanna et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0027" ref-type="ref">2018</xref>). The procedure to calculate this index is as follows:
+<list list-type="order"><list-item id="jame21170-li-0004"><p>We make seasonal means (DJF and JJA) of 500&#x02010;hPa geopotential heights (Z<inline-formula><sub>500</sub></inline-formula>). The next steps are applied to the seasonal averages independently.</p></list-item><list-item id="jame21170-li-0005"><p>Calculate the area&#x02010;averaged Z<inline-formula><sub>500</sub></inline-formula> over the Greenland region (60&#x000b0;N to 80&#x000b0;N, and 80&#x000b0;W to 20&#x000b0;W).</p></list-item><list-item id="jame21170-li-0006"><p>Calculate the area&#x02010;averaged Z<inline-formula><sub>500</sub></inline-formula> over the Arctic region (60&#x000b0;N to 80&#x000b0;N).</p></list-item><list-item id="jame21170-li-0007"><p>Subtract the Arctic averaged Z<inline-formula><sub>500</sub></inline-formula> from the Greenland Z<inline-formula><sub>500</sub></inline-formula>.</p></list-item><list-item id="jame21170-li-0008"><p>The resulting time series is standardized with respect to the CTRL.</p></list-item></list>
+</p><p>The North Atlantic jet latitude is calculated with the formula from Woollings et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0055" ref-type="ref">2010</xref>). The calculation is as follows:
+<list list-type="order"><list-item id="jame21170-li-0009"><p>Daily zonal winds at 700, 775, 850, and 925 hPa are vertically averaged.</p></list-item><list-item id="jame21170-li-0010"><p>We extract data in the region 15&#x000b0;N to 75&#x000b0;N and 60&#x000b0;W to 0&#x000b0;W based on the resulting profile from (1).</p></list-item><list-item id="jame21170-li-0011"><p>The resulting profile is zonally averaged.</p></list-item><list-item id="jame21170-li-0012"><p>We then apply a Lanczos low&#x02010;pass filter with 61 weights and a 10&#x02010;day cutoff frequency to remove winds associated with individual synoptic systems.</p></list-item><list-item id="jame21170-li-0013"><p>The jet latitude is the latitude where we find the maximum zonal wind speed.</p></list-item></list>
+</p><p>The NAO, GBI, and jet latitude are further decomposed into a sub&#x02010;decadal and decadal component. To extract sub&#x02010;decadal variations, we use a Lanczos high&#x02010;pass filter with 21 weights and a cutoff frequency of 10&#x02009;years. For the decadal component, we use a 10&#x02010; to 30&#x02010;year Lanczos band&#x02010;pass filter with 21 weights.</p></sec><sec id="jame21170-sec-0007"><label>2.3.2</label><title>Composite and Trend Analysis</title><p>For maps illustrating responses to greenhouse gas forcing, we compare the last 20&#x02009;years of the 1PCT simulation with the entire CTRL simulation. We use a Wilcoxon <italic>t</italic>&#x02010;test with a threshold of <inline-formula><italic>p</italic>&#x0003c;0.01</inline-formula> to test the significance of responses. The choice of using the Wilcoxon <italic>t</italic>&#x02010;test instead of the more common Student's <italic>t</italic>&#x02010;test is our expectation of a change in variability and the different sample sizes of our CTRL and the last 20&#x02009;years of the 1PCT simulation.</p><p>To assess trends, we use linear least squares regression fits and consider trends as significant when <inline-formula><italic>p</italic>&#x0003c;0.01</inline-formula>. Wherever the trends are nonlinear due to, for example, acceleration, we use piecewise linear regression fits and report on the slope and length of each of these.</p><p>To address the question of whether a CO<inline-formula><sub>2</sub></inline-formula> forced signal has emerged or not from internal variability, we apply a similar metric as outlined by Fyke et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0021" ref-type="ref">2014</xref>). We consider a signal emerged, if the 20&#x02010;year backward running mean is lower or higher than the mean <inline-formula>&#x000b1;</inline-formula>2 standard deviations of the corresponding quantity from the CTRL. Also, we apply the condition that the running mean needs to stay lower or higher than this threshold for the rest of the simulation.</p></sec></sec></sec><sec id="jame21170-sec-0008"><label>3</label><title>Global and Arctic Climate Change</title><p>The response to the increased CO<inline-formula><sub>2</sub></inline-formula> forcing (Figure&#x000a0;<xref rid="jame21170-fig-0001" ref-type="fig">1a</xref>) is an increase in the amount of radiation in the earth system (Figure&#x000a0;<xref rid="jame21170-fig-0001" ref-type="fig">1b</xref>). This leads to a rise in global mean surface air temperatures (<inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula>; Figures&#x000a0;<xref rid="jame21170-fig-0001" ref-type="fig">1c</xref> and <xref rid="jame21170-fig-0001" ref-type="fig">1d</xref>). The radiation imbalance, defined as LW<inline-formula><sub><italic>net</italic></sub></inline-formula>&#x02009;+&#x02009;SW<inline-formula><sub><italic>net</italic></sub></inline-formula> at the top of the atmosphere, is increasing with time. In the last 20&#x02009;years of the simulation, the imbalance is 3.2&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.3&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>. Part of this excess energy increase is used to raise atmospheric temperatures. The global mean near&#x02010;surface temperature trend in the simulation is 0.04&#x02009;K&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>. The annual global mean temperature increase (<inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>) by the end of the simulation (years 131&#x02013;150) compared to CTRL is 5.3&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.4&#x02009;K. The Arctic region (north of 60&#x000b0;N) warms the most (Figure&#x000a0;<xref rid="jame21170-fig-0001" ref-type="fig">1d</xref>), by 8.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.0&#x02009;K, or 1.6 times the global mean. Within the Arctic, the highest warming occurs over the ocean. Northern Canada, the Weddell Sea, and the Bellingshausen Sea are areas with high warming. The North Atlantic stands out, as it is the only region with cooling (of up to <inline-formula>&#x02212;</inline-formula>1&#x02009;K), in connection with a large slowdown in the NAMOC (<xref rid="jame21170-supinf-0001" ref-type="supplementary-material">supporting information Figure S1</xref>) (Bryden et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0006" ref-type="ref">2020</xref>; Drijfhout et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0013" ref-type="ref">2012</xref>). This NAMOC slowdown is a common feature in CESM2.1 (Muntjewerf et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0036" ref-type="ref">2020</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Global responses in the 1PCT simulation. Annual average time series of (a) CO<inline-formula><sub>2</sub></inline-formula> forcing (ppm),(b) cumulative top&#x02010;of&#x02010;the&#x02010;atmosphere radiation imbalance (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>), (c) global mean temperature anomaly (K), and (d) map of change in global temperatures (K) for years 131&#x02013;150 of 1PCT with respect to CTRL. Note the nonlinear color scale.</p></caption><graphic id="nlm-graphic-1" xlink:href="JAME-12-e2019MS002029-g001"/></fig><p>A CO<inline-formula><sub>2</sub></inline-formula> forced signal in September sea ice decline emerges by year 31, for a <inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;0.8&#x02009;K (Figure&#x000a0;<xref rid="jame21170-fig-0002" ref-type="fig">2a</xref>). Further, the Arctic becomes seasonally ice free (&#x0003c;1&#x02009;<inline-formula>&#x000d7;</inline-formula>&#x02009;10<inline-formula><sup>6</sup></inline-formula>&#x02009;km<inline-formula><sup>2</sup></inline-formula> sea ice extent) in year 72 at <inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;2.1&#x02009;K. Despite this large reduction, the turbulent heat fluxes from the now sea ice&#x02010;free ocean do not significantly change (Figure&#x000a0;<xref rid="jame21170-fig-0002" ref-type="fig">2b</xref>). Rather, the temperature and humidity increase of the atmosphere inhibits the turbulent transfer of heat and moisture from the ocean to the atmosphere over the Arctic ocean in September. In the North Atlantic, less turbulent heat is transferred from the ocean to the atmosphere. The largest reduction is collocated with the region of cooling in the North Atlantic (Figure&#x000a0;<xref rid="jame21170-fig-0001" ref-type="fig">1d</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Sea ice responses to the CO<inline-formula><sub>2</sub></inline-formula> forcing for (top) September and (bottom) March. (a, c) Sea ice extent (<inline-formula>&#x000d7;</inline-formula>10<inline-formula><sup>6</sup></inline-formula>&#x02009;km<inline-formula><sup>2</sup></inline-formula>) and (b, d) turbulent heat flux anomaly (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>) for the years 131&#x02013;150 compared to CTRL. Note the nonlinear color scales. For the time series (a, c) the blue line shows the CTRL, while the black line shows the 1PCT simulation. The sea ice extent is defined as the area north of 60&#x000b0;N where sea ice concentration is greater than 15%. For (b) and (d) the black line shows the sea ice extent from CTRL, and the red line shows the sea ice extent from the 1PCT. Positive turbulent heat flux means energy gain at the surface. Areas with non&#x02010;significant changes are patched.</p></caption><graphic id="nlm-graphic-3" xlink:href="JAME-12-e2019MS002029-g002"/></fig><p>The yearly maximum (March) sea ice extent in the Arctic decreases with <inline-formula>&#x02212;</inline-formula>2.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.1&#x02009;<inline-formula>&#x000d7;</inline-formula>&#x02009;10<inline-formula><sup>6</sup></inline-formula>&#x02009;km<inline-formula><sup>2</sup></inline-formula> by years 131&#x02013;150 with respect to CTRL. The anthropogenic signal can be separated from natural variability in year 89, when <inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;2.8&#x02009;K. The ice edge retreats everywhere except for the Baffin Bay. Outside of the CTRL ice edge, the turbulent heat fluxes increase (i.e., there is less surface&#x02010;to&#x02010;atmosphere energy transfer) as in September, but the response is stronger. The strongest positive responses are located close to the GrIS. On the other hand, the turbulent heat fluxes decrease (i.e., more surface&#x02010;to&#x02010;atmosphere transfer) everywhere inside of the CTRL ice edge, due to reduced pan&#x02010;Arctic sea ice and snow thickness. Strongest responses are co&#x02010;located with the 1PCT ice edge and the Beaufort Gyre. The areas co&#x02010;located with the 1PCT ice edge experience a large decrease as the surface becomes ice&#x000a0;free.</p><p>Increases in Arctic summer temperature by the end of 1PCT are strongest over land (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3a</xref>), in connection with large snow cover decrease. Additionally, the cloud cover over the Arctic land is reduced (Figure &#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3b</xref>), increasing incoming solar radiation at the surface. The Arctic ocean warms less, likely due to the additional energy being used to melt sea ice and raise ocean temperatures. Summer precipitation increases over the Arctic, including the GrIS, and decreases over land toward midlatitudes (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3c</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Overview of Arctic climate change in the last 20&#x02009;years of the 1PCT simulation compared to CTRL for JJA (top) and DJF (bottom). (a, d) Near&#x02010;surface temperature (K), (b, e) cloud fraction (&#x02010;), and (c, f) precipitation (mm&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>). Areas with non&#x02010;significant changes are patched. Note the nonlinear color scale for (c) and (f).</p></caption><graphic id="nlm-graphic-5" xlink:href="JAME-12-e2019MS002029-g003"/></fig><p>In winter, the warming over the Arctic ocean is strongest (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3d</xref>), in connection with sea ice reduction and increased turbulent fluxes as already shown. The strongest local warming is over the Beaufort Gyre. This area also sees the strongest increase in cloud cover during winter (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3e</xref>). As clouds increase the incoming longwave radiation, this contributes to generating the strongest warming here. Winter precipitation decreases along the southern Greenland margin and in the Greenland sea (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3f</xref>). This precipitation decrease is co&#x02010;located with the lowering of near&#x02010;surface temperatures. It is likely that the decreased ocean&#x02010;to&#x02010;atmosphere fluxes of heat and moisture act to stabilize the atmosphere, resulting in fewer or weaker storms (<xref rid="jame21170-supinf-0002" ref-type="supplementary-material">Figure S2</xref>) and less precipitation&#x000a0;here.</p></sec><sec id="jame21170-sec-0009"><label>4</label><title>GrIS SMB and SEB Evolution</title><sec id="jame21170-sec-0010"><label>4.1</label><title>SMB Evolution</title><p>The SMB of the GrIS decreases with <inline-formula>&#x0223c;</inline-formula>994&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> in the 1PCT simulation (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4a</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>). According to the criteria in section&#x000a0;<xref rid="jame21170-sec-0007" ref-type="sec">2.3.2</xref>, we consider the CO<inline-formula><sub>2</sub></inline-formula> forced SMB signal emerged from variability in year 90 (<inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;2.7&#x02009;K). The SMB becomes negative in year 96 (<inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;3.0&#x02009;K). In the first 90&#x02009;years of the simulation, the trend is <inline-formula>&#x02212;</inline-formula>2.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.4&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula>. Around year 90, this trend transitions to <inline-formula>&#x02212;</inline-formula>15.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.1&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula>, which represent a sixfold increase.</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Annual ice sheet integrated (a) SMB (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>) and (b) ablation area (%; as a percentage of total ice sheet area) for CTRL (blue) and 1PCT (black). Maps of annually averaged SMB (mm&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>) at the ice sheet model grid (4&#x02009;km) in (a) CTRL, (b) years 131&#x02013;150 of 1PCT, and (c) SMB anomalies of years 131&#x02013;150 of 1PCT with respect to CTRL. Note the nonlinear color scale. Dashed lines show surface elevation contours, starting with 500 up to 3,000&#x02009;m by 500&#x02009;m.</p></caption><graphic id="nlm-graphic-7" xlink:href="JAME-12-e2019MS002029-g004"/></fig><table-wrap id="jame21170-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>SMB and SMB Components in the CTRL, the Last 20&#x02009;Years of 1PCT, and Their Difference (Diff)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Component</th><th align="center" valign="bottom" rowspan="1" colspan="1">CTRL (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">1PCT (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Diff (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Trend 1 (Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Trend 2 (Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula>)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">SMB (4&#x02009;km)</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">472&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;91</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>522&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;239</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>994</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>2.5</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.4</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>15.9</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>1.1</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SMB</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">464&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;99</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>615&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;285</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>1,081</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>2.6</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.5</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>17.1</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>1.4</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Snowfall</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">763&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;75</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">757&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;78</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>6</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">0.3&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.3</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>0.1&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Rainfall</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">77&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;14</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">257&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;33</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<bold>180</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>0.6</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.1</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>2.5</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Refreezing</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">227&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;36</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">692&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;83</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<bold>466</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>2.0</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.2</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>4.8</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.5</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Melt</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">496&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;81</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">2,036&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;317</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<bold>1,540</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>5.9</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.5</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>22.0</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>1.5</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sublimation</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">30&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">30&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>1</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<bold>0.1</bold>&#x02009;
+<inline-formula>&#x000b1;</inline-formula>&#x02009;
+<bold>0.0</bold>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>0.2&#x02009;</bold>
+<inline-formula>&#x000b1;</inline-formula>
+<bold>&#x02009;0.0</bold>
+</td></tr></tbody></table><table-wrap-foot><fn id="jame21170-note-0001"><p>
+<italic>Note</italic>. Trend 1 is the linear regression slope between years 1 and 89; trend 2 is the slope in years 90&#x02013;150. Differences and trends in bold are significant. SMB (4&#x02009;km) only accounts for ice mass variations, while SMB also includes snowmass variations. The <inline-formula>&#x000b1;</inline-formula> indicates the 1 standard deviation.</p></fn></table-wrap-foot></table-wrap><p>The ablation area expands from 8.1% (pre&#x02010;industrial) to 27.6% (years 131&#x02013;150) during the 1PCT (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4b</xref>). The CO<inline-formula><sub>2</sub></inline-formula> forced signal emerges already in year 44 (<inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;1.0&#x02009;K), 46&#x02009;years before the anthropogenic SMB signal emerges. This is due to much lower interannual variability in ablation&#x000a0;area.</p><p>The lower row of Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4</xref> shows the SMB as simulated by CTRL, 1PCT, and their difference. The CTRL simulation (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4c</xref>) shows SMB patterns comparable to present&#x02010;day SMB (Fettweis et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0016" ref-type="ref">2017</xref>; No&#x000eb;l et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0040" ref-type="ref">2016</xref>). There are two local accumulation maxima, one located in the South&#x02010;East and one in the North&#x02010;West. Ablation areas are along the margins, in western and northern parts of the ice sheet. The regionally heterogenous equilibrium line altitude is in the range 500&#x02013;1,500&#x02009;m.</p><p>The most striking SMB feature of the last 20&#x02009;years of the 1PCT is the large expansion of the ablation areas (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4d</xref>). This raises the equilibrium line with <inline-formula>&#x0223c;</inline-formula>500&#x02009;m. The high accumulation area in the South&#x02010;East remains the area with the highest accumulation.</p><p>The anomaly map (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4e</xref>) reveals that SMB is decreased along the margin, and up to approximately 2,000&#x02009;m. On the other hand, SMB increases in the interior. This result is in line with 21st&#x02010;century projections of GrIS SMB (Mottram et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0035" ref-type="ref">2017</xref>; Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>).</p></sec><sec id="jame21170-sec-0011"><label>4.2</label><title>SMB Components Evolution</title><p>To understand the processes contributing to the large and rapid decline in SMB, particularly after year 90, we investigate individual SMB components. Precipitation increases over most parts of the ice sheet (Figure &#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5c</xref>). The highest increases are in the high accumulation area in the North&#x02010;West, in the South&#x02010;West, and at the northern margin. Precipitation decreases along the high accumulation area in the South&#x02010;East, likely due to reduced cyclogenesis in the Greenland&#x000a0;sea.</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Annual ice sheet integrated (a) SMB components (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>) and (b) fractional components (%). In (a) we show snowfall (blue), rainfall (yellow), refreezing (green), melt (red), and sublimation (purple). In (b) we show rain fraction (blue; defined as the fraction of rain to total precipitation) and refreezing fraction (yellow; the ratio of refreezing to melt and rainfall). Annual anomaly maps of the last 20&#x02009;years of 1PCT compared to CTRL for selected SMB components (mm&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>). (c) Precipitation, (d) snowfall, (e) rainfall, (f) surface melt, (g) refreezing, and (h) sublimation. Note the nonlinear color scale. Only values corresponding to the glaciated part of the grid cell are shown. Areas showing non&#x02010;significant changes are patched.</p></caption><graphic id="nlm-graphic-9" xlink:href="JAME-12-e2019MS002029-g005"/></fig><p>Snowfall, the largest SMB component in the CTRL simulation (Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>), shows a non&#x02010;significant decrease of <inline-formula>&#x02212;</inline-formula>6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;78&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5a</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>). This decrease is likely related to (multi&#x02010;)decadal variations in the snowfall. This result is in contrast to other studies (Fettweis, Franco, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0017" ref-type="ref">2013</xref>; Mottram et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0035" ref-type="ref">2017</xref>; Rae et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0041" ref-type="ref">2012</xref>; van Angelen et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0047" ref-type="ref">2013</xref>; Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>) which show increased snowfall over the GrIS in 21st&#x02010;century projections. Although the integrated snowfall does not significantly change during the simulation, significant local changes in snowfall are apparent in Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5d</xref>. In the interior and the north, snowfall increases. The map of increased snowfall corresponds well to the map of where SMB increases (Figure&#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4e</xref>). At the South&#x02010;West margin, snowfall decreases due to higher temperatures causing the precipitation to fall as rain. At the South&#x02010;East margin, less snowfall is caused by both a higher fraction of rainfall and less total precipitation (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5c</xref>).</p><p>Rainfall increases significantly with 180&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;33&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5a</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>) by 131&#x02013;150, which is a threefold increase. The time series reveals that the trend in rainfall is small (Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>) before year 90. After year 90, the trend becomes positive. Part of the explanation of this positive trend is the general precipitation increase from a warmer and moister atmosphere. Additionally, due to the warmer atmosphere over the ice sheet, a higher fraction of precipitation falls as rain (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5b</xref>). The fraction of precipitation falling as rain on the GrIS goes from 8% to 27%. Increased rainfall is robust among projections of future GrIS SMB. Spatially, rainfall increases everywhere on the ice sheet (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5e</xref>). The largest increase in rainfall is in the South&#x02010;West.</p><p>Melt production at the surface of the GrIS increases significantly with 1,540&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;317&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5a</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>), and thereby, melt becomes the largest SMB component around year 90 (<inline-formula>&#x00394;<italic>T</italic><sub><italic>global</italic></sub></inline-formula>&#x02009;=&#x02009;2.7&#x02009;K). After year 90, the positive melt trend increases (Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>). Melt increases significantly over the entire ice sheet (Figure &#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5f</xref>). The increase in the melt is topographically dependent, with the largest increases at the margins (low elevation) and the smallest increases in the interior (high elevation).</p><p>Refreezing, the amount of available water at the surface from surface melt and rain that is being refrozen in the snow mass significantly increases with 466&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;83&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>. The rate of refreezing increase is positive and significant (Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>) in the first 90&#x02009;years of the simulation. After year 90, the refreezing increase accelerates (Table&#x000a0;<xref rid="jame21170-tbl-0001" ref-type="table">1</xref>). The refreezing capacity (the fraction of refrozen water to available water at the surface) decreases at the start of the 1PCT simulation up to year 40 (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5b</xref>), whereafter the refreezing capacity recovers for a period of <inline-formula>&#x0223c;</inline-formula>40&#x02013;50&#x02009;years. After this period, the refreezing capacity continuously declines until the end of the simulation. The reason for this latter rapid loss of refreezing capacity is that the melt generation and rainfall increases are largest in areas experiencing larger loss of snow mass. As a result, refreezing decreases in areas where the melt increase is highest (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5g</xref>).</p><p>The integrated sublimation change in the 1PCT is <inline-formula>&#x02212;</inline-formula>1&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;7&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> (not significant). However, the anomaly map of sublimation reveals significant local changes (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5h</xref>). Along the margins, the sublimation decreases, while in the accumulation area, sublimation increases. These changes can be explained through changes in LHF, which will be addressed in the next subsection.</p></sec><sec id="jame21170-sec-0012"><label>4.3</label><title>SEB Evolution</title><p>Figure&#x000a0;<xref rid="jame21170-fig-0006" ref-type="fig">6</xref> shows the evolution of summer SEB components. With the exception of GHF, all SEB components significantly increase in the ablation area (Figure&#x000a0;<xref rid="jame21170-fig-0006" ref-type="fig">6</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>). This results in a 69.8&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;12.4&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula> increase in melt energy by 131&#x02013;150. Until year 100, SW<inline-formula><sub><italic>net</italic></sub></inline-formula> only increases slightly and after that stabilizes. This is due to the compensation of a decreased SW<inline-formula><sub><italic>in</italic></sub></inline-formula> due to thicker clouds and a decreased albedo (Figures&#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7a</xref> and <xref rid="jame21170-fig-0007" ref-type="fig">7c</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>). After year 100, SW<inline-formula><sub><italic>net</italic></sub></inline-formula> increases as the SW<inline-formula><sub><italic>in</italic></sub></inline-formula> stabilizes while the albedo continues to decrease. LW<inline-formula><sub><italic>net</italic></sub></inline-formula> is the largest contributor to the melt energy increase (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>). This is caused by increased LW<inline-formula><sub><italic>in</italic></sub></inline-formula> (Figure &#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7b</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>), caused by more emission of longwave radiation from the atmosphere to the surface as the atmosphere warms. SHF increase (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>) is caused by atmospheric warming, more heat advected over the ice sheet, and the difference between <inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula> and <inline-formula><italic>T</italic><sub><italic>sfc</italic></sub></inline-formula> becoming larger (Figure&#x000a0;<xref rid="jame21170-fig-0008" ref-type="fig">8</xref>) as the ice sheet surface has an upper limit of warming to 0&#x000b0;C. LHF increases (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>). There is a regime shift around year 80, where LHF goes from being negative during the summer to positive, likely due to the higher amount of moisture held by the atmosphere together with lengthened bare ice exposure. GHF decreases as the refreezing is much lower in the ablation area (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Summer (JJA) ice sheet averaged surface energy balance components (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>) in (a) ablation area, (b) transitional area, and (c) accumulation area. The ablation area is defined as the ablation area in the CTRL simulation. The transitional area is defined as the area that is accumulation area in the CTRL simulation but transition into ablation area during the 1PCT. The accumulation area is the area of the ice sheet that is an accumulation area in the CTRL and remains an accumulation area through the 1PCT simulation. The components shown are SW<inline-formula><sub><italic>n</italic><italic>e</italic><italic>t</italic></sub></inline-formula> (blue), LW<inline-formula><sub><italic>n</italic><italic>e</italic><italic>t</italic></sub></inline-formula> (yellow), SHF (red), LHF (green), GHF (purple), and melt energy (pink) (all in units of W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>. Positive values mean increased energy at the ice sheet surface.</p></caption><graphic id="nlm-graphic-11" xlink:href="JAME-12-e2019MS002029-g006"/></fig><table-wrap id="jame21170-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>Surface Energy Balance Components in the CTRL, the Last 20&#x02009;Years of 1PCT, and Their Difference for the Ablation Area, Transitional Area, and the Accumulation Area</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Component</th><th align="center" valign="bottom" rowspan="1" colspan="1">CTRL (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">1PCT (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Difference (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Ablation area</italic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">251.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;6.9</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">226.1&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;8.0</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>25.6</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">82.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;5.8</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">102.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;6.9</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>20.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">260.2&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;3.1</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">289.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>29.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>44.3&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.7</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>23.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.0</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>20.4</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">11.8&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.1</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">29.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.0</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>17.9</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>3.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.2</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">10.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.0</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>13.6</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>0.2&#x02009;<inline-formula>&#x000b1;</inline-formula> 0.5</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>2.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>2.3</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Melt energy</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">46.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;7.1</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">116.2&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;12.4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>69.8</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Transitional area</italic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">279.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.6</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">253.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;5.2</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>26.5</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">66.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.7</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">82.8&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;5.4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>16.3</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">245.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;3.4</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">277.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.7</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>31.9</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>48.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.5</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>32.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.0</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>15.4</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">5.1&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.0</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">16.2&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;3.1</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>11.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>8.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.6</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>0.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.8</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>8.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">1.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.6</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">1.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.6</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>0.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Melt energy</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">16.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.7</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">67.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;9.3</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>51.0</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Accumulation area</italic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">300.1&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.6</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">276.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.3</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>23.5</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">59.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.2</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">62.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;3.5</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>3.0</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>in</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">220.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.9</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">260.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;3.4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>40.7</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LW<inline-formula><sub><italic>net</italic></sub></inline-formula>
+</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>51.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.8</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>40.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;2.5</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>11.2</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">2.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.0</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">3.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.4</td><td align="center" valign="top" rowspan="1" colspan="1">0.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>6.8&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.5</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>0.4&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.8</td><td align="center" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>
+<bold>2.3</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GHF</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">
+<inline-formula>&#x02212;</inline-formula>2.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.3</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">1.7&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.1</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>4.6</bold>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Melt energy</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">1.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.5</td><td align="char" char="&#x000b1;" valign="top" rowspan="1" colspan="1">17.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.3</td><td align="center" valign="top" rowspan="1" colspan="1">
+<bold>16.6</bold>
+</td></tr></tbody></table><table-wrap-foot><fn id="jame21170-note-0002"><p>
+<italic>Note</italic>. Differences in bold are significant. The <inline-formula>&#x000b1;</inline-formula> indicates the 1 standard deviation.</p></fn></table-wrap-foot></table-wrap><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Summer (JJA) anomaly maps of the last 20&#x02009;years of 1PCT compared to CTRL for selected radiation influent quantities. (a) Incoming solar radiation (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>), (b) incoming longwave radiation (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>), (c) albedo (&#x02010;), and (d) cloud water path (mm). Only values corresponding to the glaciated part of the grid cell are shown. Areas showing no significant change are patched.</p></caption><graphic id="nlm-graphic-13" xlink:href="JAME-12-e2019MS002029-g007"/></fig><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>Summer (JJA) anomaly maps of the last 20&#x02009;years of 1PCT compared to CTRL for selected sensible heat flux influential quantities. (a) Sensible heat flux (W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>), (b) 10&#x02010;m wind speed (m&#x02009;s<inline-formula><sup>&#x02212;1</sup></inline-formula>), and (c) <inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula>&#x02010;<inline-formula><italic>T</italic><sub><italic>s</italic><italic>f</italic><italic>c</italic></sub></inline-formula> (K). Note the nonlinear color scale for (a). Only values corresponding to the glaciated part of the grid cell are shown. Arrows on (a) indicate wind speed and direction at 850&#x02009;hPa. Areas showing no significant change are patched.</p></caption><graphic id="nlm-graphic-15" xlink:href="JAME-12-e2019MS002029-g008"/></fig><p>In the transitional area, the melt energy increases with 51.0&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;9.3&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula> (Figure&#x000a0;<xref rid="jame21170-fig-0006" ref-type="fig">6b</xref> and Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>), somewhat less than in the ablation area. The largest contributor to this increase is the SW<inline-formula><sub><italic>net</italic></sub></inline-formula>. Also here, the compensation between SW<inline-formula><sub><italic>in</italic></sub></inline-formula> and albedo maintains a stable SW<inline-formula><sub><italic>net</italic></sub></inline-formula> in the first decades. Albedo decrease accelerates after year 90 as snow mass decreases, and there is more bare ice exposure, leading to increased SW<inline-formula><sub><italic>net</italic></sub></inline-formula>. In the last 30&#x02009;years, SW<inline-formula><sub><italic>in</italic></sub></inline-formula> does not further decrease. LW<inline-formula><sub><italic>net</italic></sub></inline-formula> increases (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>) for the same reason as in the ablation area. However, the increase in LW<inline-formula><sub><italic>net</italic></sub></inline-formula> is less, due to the compensation of increasing LW<inline-formula><sub><italic>out</italic></sub></inline-formula> as the surface temperature increases. As in the ablation area, SHF is stable in the first 90&#x02009;years, whereafter it increases for the same reasons. However, the increase is less than in the ablation area (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>), likely due to the <inline-formula><italic>T</italic><sub><italic>sfc</italic></sub></inline-formula> being at the melting point for a shorter period than in the ablation area during the summer. The same mechanism leading to increased LHF in the ablation area leads to an LHF increase in the transitional area. With this increase, the 20&#x02010;year summer mean indicates this area has not transitioned from being dominated by sublimation to condensation. GHF shows no significant change, likely due to a competition between increased water available for refreezing and reduced refreezing capacity.</p><p>Also, the melt energy increases in the accumulation area (16.6&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;4.3&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>, Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>, and Figure&#x000a0;<xref rid="jame21170-fig-0006" ref-type="fig">6c</xref>) by 131&#x02013;150. The SW<inline-formula><sub><italic>net</italic></sub></inline-formula> only increases slightly in the last 30&#x02009;years of the simulation, for the same reasons as the SW<inline-formula><sub><italic>net</italic></sub></inline-formula> showing a late response in the other areas. As the albedo change in this area is rather small (Figure &#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7c</xref>), the SW<inline-formula><sub><italic>net</italic></sub></inline-formula> increase is also smaller than in the other areas. LW<inline-formula><sub><italic>net</italic></sub></inline-formula> is the largest contributor to increased melt energy for the accumulation area (Table&#x000a0;<xref rid="jame21170-tbl-0002" ref-type="table">2</xref>). This increase is caused by enhanced LW<inline-formula><sub><italic>in</italic></sub></inline-formula> due to increased cloud thickness and higher atmospheric temperatures. SHF shows no significant change, due to a very small change in the difference between <inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula> and <inline-formula><italic>T</italic><sub><italic>sfc</italic></sub></inline-formula>. On the other hand, the LHF decreases and becomes more negative, indicating more energy is used for sublimation. GHF increases due to more melting in the accumulation area, allowing for more refreezing, which releases heat in the snowpack.</p><p>Figure&#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7</xref> shows spatial maps of SW<inline-formula><sub><italic>in</italic></sub></inline-formula>, LW<inline-formula><sub><italic>in</italic></sub></inline-formula>, albedo, and cloud water path (CWP) anomalies. SW<inline-formula><sub><italic>in</italic></sub></inline-formula> decreases the most in the north due to increased cloud fraction (Figure&#x000a0;<xref rid="jame21170-fig-0003" ref-type="fig">3b</xref>) and increased CWP (Figure&#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7d</xref>). Over large parts of the ice sheet, the decrease in SW<inline-formula><sub><italic>in</italic></sub></inline-formula> is between 20 and 30&#x02009;W&#x02009;m<inline-formula><sup>&#x02212;2</sup></inline-formula>. This smaller change is due to no change in cloud fraction and a smaller increase in cloud thickness. Increases in LW<inline-formula><sub><italic>in</italic></sub></inline-formula> show a different pattern than decreases in SW<inline-formula><sub><italic>in</italic></sub></inline-formula>. Except for the north, the LW<inline-formula><sub><italic>in</italic></sub></inline-formula> increase shows a topographically and latitudinal dependent pattern. The topographically dependent pattern is caused by summer atmospheric warming being stronger at higher elevations. A positive south&#x02010;to&#x02010;north gradient causes the latitudinal pattern in cloud fraction and thickness change. Albedo decreases significantly over the entire ice sheet (Figure &#x000a0;<xref rid="jame21170-fig-0007" ref-type="fig">7c</xref>). The largest increases are found along the margins, particularly in regions covered permanently by snow now has bare ice exposure. Also, we expect in areas with seasonal snow cover at the margins, that the bare ice exposure is prolonged.</p><p>We showed that the melt energy accelerates after year 90, causing larger amounts of surface melt and results in an accelerated SMB decrease. SHF contributes to this acceleration over the regions of the GrIS, producing the largest amounts of melt. The SHF increases the most at the margins (Figure&#x000a0;<xref rid="jame21170-fig-0008" ref-type="fig">8a</xref>). In the interior, the SHF slightly decreases. The 850&#x02010;hPa winds over Greenland are cyclonic, which is the pattern associated with a positive phase of&#x000a0;NAO.</p><p>The 10&#x02010;m wind speed (Figure&#x000a0;<xref rid="jame21170-fig-0008" ref-type="fig">8b</xref>), a proxy for the strength of turbulent transfer between atmosphere and surface, only changes significantly in the north, at the summit, locally in the southwest and along the southeastern margin. Over large parts of the northern ice sheet, wind speeds increase. Also, in the west, wind speeds increase locally. On the other hand, in the South&#x02010;East, wind speed decreases of up to the same magnitude appear.</p><p>The temperature difference between the near&#x02010;surface atmosphere and the surface increases the most in the ablation and transitional area. In this area, the surface reaches the melting point and cannot further increase its temperature while the <inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula> continues to increase in response to the CO<inline-formula><sub>2</sub></inline-formula> forcing. This increase in the difference between <inline-formula><italic>T</italic><sub>2<italic>m</italic></sub></inline-formula> and <inline-formula><italic>T</italic><sub><italic>sfc</italic></sub></inline-formula> increases the&#x000a0;SHF.</p></sec></sec><sec id="jame21170-sec-0013"><label>5</label><title>Effects of North Atlantic Atmospheric Circulation Change on GrIS SMB</title><p>The aim of this section is to (1) explore variability and trends in North Atlantic circulation and (2) investigate its potential impact on GrIS precipitation and melt. For the first part, we examine the evolution of the indices for the NAO, GBI, and latitudinal position of the North Atlantic jet, with the metrics outlined in section&#x000a0;<xref rid="jame21170-sec-0007" ref-type="sec">2.3.2</xref> and separately for winter and summer (Figure&#x000a0;<xref rid="jame21170-fig-0009" ref-type="fig">9</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>Indices of North Atlantic circulation metrics in red (positive) and blue (negative) bars. The upper row shows DJF means, and the lower row shows JJA means of (a, d) North Atlantic Oscillation, (b, e) Greenland blocking index, and (c, f) jet latitude. All indices are standardized with respect to CTRL. Significant trends are indicated with a dashed black line. The green line shows 10&#x02010; to 30&#x02010;year band&#x02010;pass filtered time series.</p></caption><graphic id="nlm-graphic-17" xlink:href="JAME-12-e2019MS002029-g009"/></fig><p>The winter NAO exhibits a small, but a significant trend toward its positive phase during years 1 to 150 of the 1PCT simulation. On the contrary, the winter GBI index does not exhibit a significant trend. As the winter GBI, the winter jet latitudinal position does not have a significant trend.</p><p>The summer NAO exhibits a strong significant trend toward its positive phase in response to CO<inline-formula><sub>2</sub></inline-formula> forcing. As seen in Figure&#x000a0;<xref rid="jame21170-fig-0008" ref-type="fig">8a</xref>, we do see a circulation anomaly related to this phase of the NAO. The GBI exhibits a significant negative trend toward its negative phase. We find that these two indices are correlated to SSTs around southern Greenland (<xref rid="jame21170-supinf-0003" ref-type="supplementary-material">Figure S3</xref>), which might be causing the trends in these two indices. The jet stream, on the other hand, does not significantly change its position.</p><p>Figure&#x000a0;<xref rid="jame21170-fig-0010" ref-type="fig">10</xref> shows linear regressions between GrIS&#x02010;integrated, summer melt, and winter precipitation and the corresponding seasonal NAO, GBI, and jet latitude indices.</p><fig fig-type="Figure" xml:lang="en" id="jame21170-fig-0010" orientation="portrait" position="float"><label>Figure 10</label><caption><p>DJF GrIS&#x02010;integrated filtered precipitation (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>) regressed onto DJF North Atlantic circulation filtered indices (upper row) and JJA GrIS&#x02010;integrated filtered surface melt (Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>) regressed onto JJA North Atlantic circulation filtered indices (lower row). Circulation indices used are (a, d) NAO, (b, e) GBI, and (c, f) jet latitude. Black dots represent 10&#x02010;year high&#x02010;pass filtered quantities, and gray dots represent 10&#x02010; to 30&#x02010;year band&#x02010;pass filtered quantities. The timescale of the filtered quantities effectively removes both the mean and the trend of each time series. Black (gray) lines are drawn where the regression is significant, with an annotated <italic>m</italic> (slope), and <inline-formula><italic>r</italic><sup>2</sup></inline-formula> for the explained variance.</p></caption><graphic id="nlm-graphic-19" xlink:href="JAME-12-e2019MS002029-g010"/></fig><p>The NAO and the jet position modulate the amount of winter precipitation falling on the GrIS (Figures&#x000a0;<xref rid="jame21170-fig-0010" ref-type="fig">10a</xref> and <xref rid="jame21170-fig-0010" ref-type="fig">10c</xref>). A more positive NAO results in less precipitation. This relationship is robust through the timescales investigated here, where sub&#x02010;decadal variations in NAO explain 15% of the precipitation variability, while decadal oscillations explain 23% of the variability. For the jet stream, only its decadal component seems to have an impact on GrIS precipitation variability. On this timescale, a more northern displaced jet stream results in higher precipitation rates over the GrIS. Changes in the jet stream position account for 32% of the precipitation variability. Variations in GBI do not show any significant relationship to GrIS precipitation (Figure&#x000a0;<xref rid="jame21170-fig-0010" ref-type="fig">10b</xref>).</p><p>The relationship between melt and NAO is significant, on both sub&#x02010;decadal and decadal timescales. A more negative NAO implies higher melt rates. The change in the melt due to decadal variations in the NAO is stronger than on sub&#x02010;decadal timescales. Sub&#x02010;decadal variations in the NAO explain 15% of melt variability, while 18% is explained for decadal variations in melt variability. A relationship between GBI and surface melt is also shown (Figure&#x000a0;<xref rid="jame21170-fig-0010" ref-type="fig">10e</xref>). On sub&#x02010;decadal timescales, the GBI explains 49% of the surface melt variability. The GBI also shows to have a strong influence on surface melt on decadal timescales, explaining around 44% of the variation. The NAO and the GBI trends toward its positive and negative phases, respectively (Figure &#x000a0;<xref rid="jame21170-fig-0009" ref-type="fig">9d</xref>), while the melt increases in response to higher CO<inline-formula><sub>2</sub></inline-formula> (Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5</xref>). This result shows that the NAO and GBI are not the main drivers of increased melt. Instead, the relationship suggests that the change in NAO and GBI counteracts the effect of global warming on the surface melt. Our simulation also shows a relationship between the position of the jet stream and the GrIS surface melt (Figure&#x000a0;<xref rid="jame21170-fig-0010" ref-type="fig">10f</xref>). A more southern displaced jet stream is related to more surface melt, on both sub&#x02010;decadal and decadal timescales. In contrast to the GBI, a change in jet position explains more of surface melt variability on decadal timescales (40%) than on sub&#x02010;decadal timescales (35%).</p></sec><sec id="jame21170-sec-0014"><label>6</label><title>Summary and Discussion</title><p>This study projects the transient climate and GrIS SMB response to increasing CO<inline-formula><sub>2</sub></inline-formula> forcing until quadrupled pre&#x02010;industrial levels with a fully coupled Earth System Model. With respect to previous work that focuses on regional climate modeling or simplified melt calculations from global models, the main novelty is in the detailed analysis of GrIS surface energy and mass budgets using a global climate model coupled with a realistic representation of ice sheet snow and firn processes (van Kampenhout et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0050" ref-type="ref">2017</xref>).</p><p>CESM2.1 simulates a global mean temperature anomaly of 5.3&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.4&#x02009;K by the end of the simulation (years 131&#x02013;150). The model has a high equilibrium climate sensitivity of 5.3&#x02009;K (Gettelman et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0022" ref-type="ref">2019</xref>) to CO<inline-formula><sub>2</sub></inline-formula> forcing compared to models from the CMIP5 (Taylor et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0046" ref-type="ref">2012</xref>) that simulate equilibrium climate sensitivities in the range of 2.1&#x02013;4.7&#x02009;K (Andrews et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0001" ref-type="ref">2012</xref>). At the same time, CESM2.1 projects high reductions in NAMOC (<xref rid="jame21170-supinf-0001" ref-type="supplementary-material">Figure S1</xref>). Both high climate sensitivity and NAMOC reduction are important controls on the GrIS SMB response to CO<inline-formula><sub>2</sub></inline-formula> forcing.</p><p>The simulated Arctic amplification (ratio between mean temperature &#x0003e;60&#x000b0;N and global mean temperature) is 1.6 (years 131&#x02013;150). Major summer contributions to Arctic warming are loss of snow over the terrestrial Arctic, associated albedo feedback, and decreased cloud cover. In winter, the main contribution is from sea ice loss. The Arctic amplification factor was found to be 1.5&#x02013;4.5 in CMIP3 (Holland &#x00026; Bitz,&#x000a0;<xref rid="jame21170-bib-0028" ref-type="ref">2003</xref>). Also, a previous study with CESM version 1.0 found an amplification factor of 2.1 (Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>). So the Arctic warming, compared to the global warming found here, is in the lower range. This may be due to the Arctic sea ice being biased thin in CESM2.1. Further, we find that the Arctic becomes seasonally sea ice free at a global warming of 2.1&#x02009;K. A September sea ice&#x02010;free Arctic is a robust response (Snape &#x00026; Forster,&#x000a0;<xref rid="jame21170-bib-0045" ref-type="ref">2014</xref>) to representative concentration pathway (RCP) 8.5 forcing, which ends with a CO<inline-formula><sub>2</sub></inline-formula> forcing of &#x0003e;1,370&#x02009;ppm (which is similar to the final CO<inline-formula><sub>2</sub></inline-formula> of 1,140&#x02009;ppm in this study). The timing of seasonal sea ice&#x02010;free conditions under RCP8.5 forcing is estimated as <inline-formula>&#x0223c;</inline-formula>2,040&#x02013;2,060 in Wang and Overland&#x000a0;(<xref rid="jame21170-bib-0054" ref-type="ref">2012</xref>) and Snape and Forster&#x000a0;(<xref rid="jame21170-bib-0045" ref-type="ref">2014</xref>).</p><p>The SMB of the GrIS decreases with 994&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> in our simulation. In a similar CESM2.1 study, though with a dynamically evolving ice sheet, the SMB decreases with 952&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> by the same time (Muntjewerf et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0037" ref-type="ref">2020</xref>). This SMB decrease represents a 2.8&#x02009;mm&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula> contribution to global mean sea&#x02010;level rise, assuming that the pre&#x02010;industrial ice sheet SMB would give no change in sea&#x02010;level rise. Compared to Church et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0007" ref-type="ref">2013</xref>), this contribution is at the high end, likely due to the high climate sensitivity simulated here. The main contributor of the SMB decrease is a melt increase of 1,540&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>. This melt is higher than what is projected under an RCP8.5 scenario (600&#x02013;700&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>;Fettweis, Franco, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0017" ref-type="ref">2013</xref>; Rae et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0041" ref-type="ref">2012</xref>; Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>), likely due to the higher climate sensitivity. The refreezing is here projected to increase with 466&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>, which is a factor of 0.30 to the melt increase. Rae et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0041" ref-type="ref">2012</xref>) find this factor to be in the range 0.19&#x02013;0.45, depending on the forcing model and RCM. Vizcano et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>)) find this factor to be 0.21, likely in connection with limited refreezing capacity from an absence of firn modeling as GrIS snow thickness is capped at 1&#x02009;m of water equivalent.</p><p>An interesting feature of the SMB decrease is the pause in the decrease around the years 120&#x02013;135 (Figure &#x000a0;<xref rid="jame21170-fig-0004" ref-type="fig">4a</xref>). Figure&#x000a0;<xref rid="jame21170-fig-0005" ref-type="fig">5a</xref> shows that this timing corresponds to a time of temporarily increased snowfall, and a pause in surface melt increase. The reason for this pause in surface melt increase is due to a pause in the increase of SHF and SW<inline-formula><sub><italic>net</italic></sub></inline-formula> in the ablation area (Figure&#x000a0;<xref rid="jame21170-fig-0006" ref-type="fig">6a</xref>). Due to the low summer GBI together with high summer NAO in these years (Figures&#x000a0;<xref rid="jame21170-fig-0009" ref-type="fig">9d</xref> and <xref rid="jame21170-fig-0009" ref-type="fig">9e</xref>), it is likely that reduction in warm air advection compensates for increased atmospheric warming and temporarily prevents further albedo&#x02010;melt feedback.</p><p>Increases in GrIS precipitation are projected in state&#x02010;of&#x02010;the&#x02010;art studies (Fettweis, Franco, et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0017" ref-type="ref">2013</xref>;Mottram et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0035" ref-type="ref">2017</xref>; Vizcano et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0053" ref-type="ref">2014</xref>). These projected increases in both snow and rainfall, while CESM2.1 projects only rainfall increase of 180&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;33&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;1</sup></inline-formula>. Further, the spatial patterns of precipitation change modeled here differ substantially from other studies (e.g., Mottram et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0035" ref-type="ref">2017</xref>) that find the maximum increase in the area where CESM2.1 projects decreased precipitation. In our simulation, this decrease is attributed to regional cooling from NAMOC reduction, which induces stabilization of the atmosphere in the North Atlantic and the Greenland sea and reduces storminess in South&#x02010;East Greenland.</p><p>At a global mean surface temperature increase of 2.7&#x02009;K, we find that SMB decrease accelerates (from <inline-formula>&#x02212;</inline-formula>2.5&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;0.4&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula> to <inline-formula>&#x02212;</inline-formula>15.9&#x02009;<inline-formula>&#x000b1;</inline-formula>&#x02009;1.1&#x02009;Gt&#x02009;yr<inline-formula><sup>&#x02212;2</sup></inline-formula>). This threshold temperature may be subject to change if we considered an evolving ice sheet. Gregory et&#x000a0;al.&#x000a0;(<xref rid="jame21170-bib-0026" ref-type="ref">2004</xref>) found this temperature to be a threshold for GrIS deglaciation, as melt becomes larger than snowfall, which is in line with our findings. The surface mass loss acceleration is due to melt acceleration, together with loss of refreezing capacity. The latter has previously been identified as a key driver to the accelerated ice sheet and ice caps surface mass loss (No&#x000eb;l et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0038" ref-type="ref">2017</xref>; van Angelen et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0047" ref-type="ref">2013</xref>). The main contributor to melt increase before acceleration is the LW<inline-formula><sub><italic>net</italic></sub></inline-formula>. The summer LW<inline-formula><sub><italic>net</italic></sub></inline-formula> increases due to higher atmospheric temperatures and thicker clouds over the GrIS in this season. At the time of acceleration, a large fraction of the GrIS reaches the melting point during the summer. This accelerates the SHF over the ablation areas, as the difference between the surface and air temperatures increases at the rate of the air temperature increase. This further contributes to an expansion of the ablation area, which exposes more bare ice leading to accelerated solar radiation absorption from the albedofeedback.</p><p>The simulated ablation area expansion emerges from background variability already at a global mean temperature increase of 1.0&#x02009;K with respect to pre&#x02010;industrial, decades before SMB (decrease) emergence. Therefore, we suggest that the monitoring of ablation area expansion can be used as a precursor for the detection of an emerging anthropogenic signal in&#x000a0;SMB.</p><p>The most SMB&#x02010;relevant changes in North Atlantic atmospheric circulation projected by CESM2.1 are trends toward more positive NAO in the winter and summer and more negative GBI in summer. High GBI in recent decades has been proposed to explain a large fraction of the recent melt increase (Delhasse et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0012" ref-type="ref">2018</xref>; Hanna et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0027" ref-type="ref">2018</xref>). The increase in the NAO index is robust among the CMIP5 ensemble (Gillett &#x00026; Fyfe,&#x000a0;<xref rid="jame21170-bib-0024" ref-type="ref">2013</xref>). In winter, we find that a positive NAO is related to less precipitation over the GrIS. The simulated summer trends in both NAO and GBI indices are apparent in the CMIP5 models (Hanna et&#x000a0;al.,&#x000a0;<xref rid="jame21170-bib-0027" ref-type="ref">2018</xref>) and cause partial reduction of melt. From this, we suggest that care must be taken when extrapolating the current circulation anomaly to the future, as, for example, potential NAMOC weakening may result in future atmospheric circulation changes that reduce melt. On the other hand, there is no guarantee that the models have a correct representation of, for example, future NAMOC weakening and the current observed anomalous circulation pattern may continue to intensify.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="jame21170-supinf-0001"/><supplementary-material content-type="local-data" id="jame21170-supitem-0001"><caption><p>Figure S1</p></caption><media xlink:href="JAME-12-e2019MS002029-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="jame21170-supinf-0002"><caption><p>Figure S2</p></caption><media xlink:href="JAME-12-e2019MS002029-s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="jame21170-supinf-0003"><caption><p>Figure S3</p></caption><media xlink:href="JAME-12-e2019MS002029-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="jame21170-sec-0015"><title>Acknowledgments</title><p>Raymond Sellevold acknowledges support from the Nederlandse Organisatie voor Wetenschappelijk Onderzoek (grant no. ALWOP.2015.096), and Miren Vizcaino from the European Research Council (grant no. ERC&#x02010;StG&#x02010;678145&#x02010;CoupledIceClim). We acknowledge the World Climate Research Programme, which, through its Working Group on Coupled Modelling, coordinated and promoted CMIP6. We thank the climate modeling groups for producing and making available their model output, the Earth System Grid Federation (ESGF) for archiving the data and providing access, and the multiple funding agencies who support CMIP6 and&#x000a0;ESGF.</p></ack><sec id="jame21170-sec-0016" sec-type="data-availability"><title>Data Availability Statement</title><p>Computing and data storage resources, including the Cheyenne supercomputer (<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5065/D6RX99HX" specific-use="dataset is-supplemented-by">https://doi.org/10.5065/D6RX99HX</ext-link>), were provided by the Computational and Information Systems Laboratory (CISL) at the National Center for Atmospheric Research (NCAR). The material is based upon work supported by NCAR, which is a major facility sponsored by the National Science Foundation under cooperative agreement no. 1852977. The CESM project is supported primarily by the National Science Foundation.</p></sec><ref-list id="jame21170-bibl-0001"><title>References</title><ref id="jame21170-bib-0001"><mixed-citation publication-type="journal" id="jame21170-cit-0001">
+<string-name>
+<surname>Andrews</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Webb</surname>, <given-names>M. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taylor</surname>, <given-names>K. E.</given-names>
+</string-name> (<year>2012</year>). <article-title>Forcing, feedbacks and climate sensitivity in CMIP5 coupled atmosphere&#x02010;ocean climate models</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>39</volume>, <elocation-id>L09712</elocation-id>
+<pub-id pub-id-type="doi">10.1029/2012GL051607</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0002"><mixed-citation publication-type="journal" id="jame21170-cit-0002">
+<string-name>
+<surname>Bamber</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Westaway</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<surname>Marzeion</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wouters</surname>, <given-names>B.</given-names>
+</string-name> (<year>2018</year>). <article-title>The land ice contribution to sea level during the satellite era</article-title>. <source xml:lang="en">Environmental Research Letters</source>, <volume>13</volume>(<issue>6</issue>), <fpage>63008</fpage>
+<pub-id pub-id-type="doi">10.1088/1748-9326/aac2f0</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0003"><mixed-citation publication-type="journal" id="jame21170-cit-0003">
+<string-name>
+<surname>Beljaars</surname>, <given-names>A. C. M.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>A. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wood</surname>, <given-names>N.</given-names>
+</string-name> (<year>2004</year>). <article-title>A new parametrization of turbulent orographic form drag</article-title>. <source xml:lang="en">Quarterly Journal of the Royal Meteorological Society</source>, <volume>130</volume>(<issue>599</issue>), <fpage>1327</fpage>&#x02013;<lpage>1347</lpage>. <pub-id pub-id-type="doi">10.1256/qj.03.73</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0004"><mixed-citation publication-type="journal" id="jame21170-cit-0004">
+<string-name>
+<surname>Bogenschutz</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Krueger</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2013</year>). <article-title>A simplified PDF parameterization of subgrid&#x02010;scale clouds and turbulence for cloud&#x02010;resolving models</article-title>. <source xml:lang="en">Journal of Advances in Modeling Earth Systems</source>, <volume>5</volume>, <fpage>195</fpage>&#x02013;<lpage>211</lpage>. <pub-id pub-id-type="doi">10.1002/jame.20018</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0005"><mixed-citation publication-type="journal" id="jame21170-cit-0005">
+<string-name>
+<surname>Box</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Stroeve</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Tedesco</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>, <given-names>D. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Steffen</surname>, <given-names>K.</given-names>
+</string-name> (<year>2012</year>). <article-title>Greenland ice sheet albedo feedback: Thermodynamics and atmospheric drivers</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>6</volume>(<issue>4</issue>), <fpage>821</fpage>&#x02013;<lpage>839</lpage>. <pub-id pub-id-type="doi">10.5194/tc-6-821-2012</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0006"><mixed-citation publication-type="journal" id="jame21170-cit-0006">
+<string-name>
+<surname>Bryden</surname>, <given-names>H. L.</given-names>
+</string-name>, <string-name>
+<surname>Johns</surname>, <given-names>W. E.</given-names>
+</string-name>, <string-name>
+<surname>King</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>McCarthy</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>McDonagh</surname>, <given-names>E. L.</given-names>
+</string-name>, <string-name>
+<surname>Moat</surname>, <given-names>B. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smeed</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Reduction in ocean heat transport at 26&#x000b0;N since 2008 cools the eastern subpolar gyre of the North Atlantic Ocean</article-title>. <source xml:lang="en">Journal of Climate</source>, <volume>33</volume>(<issue>5</issue>), <fpage>1677</fpage>&#x02013;<lpage>1689</lpage>. <pub-id pub-id-type="doi">10.1175/JCLI-D-19-0323.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0007"><mixed-citation publication-type="book" id="jame21170-cit-0007">
+<string-name>
+<surname>Church</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Clark</surname>, <given-names>P. U.</given-names>
+</string-name>, <string-name>
+<surname>Cazenave</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Jevrejeva</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Levermann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Merrifield</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Milne</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name>
+<surname>Nerem</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Nunn</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name>
+<surname>Payne</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Pfeffer</surname>, <given-names>W. T.</given-names>
+</string-name>, <string-name>
+<surname>Stammer</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Unnikrishnan</surname>, <given-names>A. S.</given-names>
+</string-name> (<year>2013</year>). <chapter-title>Sea Level Change</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Stocker</surname><given-names>T. F.</given-names></name></person-group> et al. (Eds.), <source xml:lang="en">Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</source>. <publisher-loc>Cambridge, United Kingdom and New York, NY, USA</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="jame21170-bib-0008"><mixed-citation publication-type="miscellaneous" id="jame21170-cit-0008">
+<string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name> (<year>2019</year>). <article-title>NCAR CESM2 model output prepared for CMIP6 CMIP 1pctCO2. Version 20190128</article-title>. <pub-id pub-id-type="doi">10.22033/ESGF/CMIP6.7497</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0009"><mixed-citation publication-type="journal" id="jame21170-cit-0009">
+<string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Lamarque</surname>, <given-names>J.&#x02010;F.</given-names>
+</string-name>, <string-name>
+<surname>Bacmeister</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bailey</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>DuVivier</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Emmons</surname>, <given-names>L. K.</given-names>
+</string-name>, <string-name>
+<surname>Fasullo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Garcia</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Gettelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Hannay</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Holland</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name>
+<surname>Large</surname>, <given-names>W. G.</given-names>
+</string-name>, <string-name>
+<surname>Lauritzen</surname>, <given-names>P. H.</given-names>
+</string-name>, <string-name>
+<surname>Lawrence</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Lindsay</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Mills</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Neale</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Oleson</surname>, <given-names>K. W.</given-names>
+</string-name>, <string-name>
+<surname>Otto&#x02010;Bliesner</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Phillips</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Tilmes</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Vertenstein</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bertini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Dennis</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Deser</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Fischer</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Fox&#x02010;Kemper</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Kay</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Kinnison</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kushner</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Larson</surname>, <given-names>V. E.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Mickelson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Moore</surname>, <given-names>J. K.</given-names>
+</string-name>, <string-name>
+<surname>Nienhouse</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Polvani</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Rasch</surname>, <given-names>P. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strand</surname>, <given-names>W. G.</given-names>
+</string-name> (<year>2020</year>). <article-title>The Community Earth System Model version 2 (CESM2)</article-title>. <source xml:lang="en">Journal of Advances in Modeling Earth Systems</source>, <volume>12</volume>, <fpage>e2019MS001916</fpage>
+<pub-id pub-id-type="doi">10.1029/2019MS001916</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0010"><mixed-citation publication-type="miscellaneous" id="jame21170-cit-0010">
+<string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Lawrence</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Lindsay</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strand</surname>, <given-names>G.</given-names>
+</string-name> (<year>2019</year>). <article-title>NCAR CESM2 model output prepared for CMIP6 CMIP piControl. Version 20190128</article-title>. <pub-id pub-id-type="doi">10.22033/ESGF/CMIP6.7733</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0011"><mixed-citation publication-type="journal" id="jame21170-cit-0011">
+<string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Yeager</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name>
+<surname>Kwon</surname>, <given-names>Y.&#x02010;O.</given-names>
+</string-name>, <string-name>
+<surname>Tribbia</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Phillips</surname>, <given-names>A. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hurrell</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>2012</year>). <article-title>Variability of the Atlantic meridional overturning circulation in CCSM4</article-title>. <source xml:lang="en">Journal of Climate</source>, <volume>25</volume>(<issue>15</issue>), <fpage>5153</fpage>&#x02013;<lpage>5172</lpage>. <pub-id pub-id-type="doi">10.1175/JCLI-D-11-00463.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0012"><mixed-citation publication-type="journal" id="jame21170-cit-0012">
+<string-name>
+<surname>Delhasse</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Kittel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Amory</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Agosta</surname>, <given-names>C.</given-names>
+</string-name> (<year>2018</year>). <article-title>Brief communication: Impact of the recent atmospheric circulation change in summer on the future surface mass balance of the Greenland ice sheet</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>12</volume>(<issue>11</issue>), <fpage>3409</fpage>&#x02013;<lpage>3418</lpage>. <pub-id pub-id-type="doi">10.5194/tc-12-3409-2018</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0013"><mixed-citation publication-type="journal" id="jame21170-cit-0013">
+<string-name>
+<surname>Drijfhout</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>van Oldenborgh</surname>, <given-names>G. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cimatoribus</surname>, <given-names>A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Is a decline of AMOC causing the warming hole above the North Atlantic in observed and modeled warming patterns?</article-title>
+<source xml:lang="en">Journal of Climate</source>, <volume>25</volume>(<issue>24</issue>), <fpage>8373</fpage>&#x02013;<lpage>8379</lpage>. <pub-id pub-id-type="doi">10.1175/JCLI-D-12-00490.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0014"><mixed-citation publication-type="journal" id="jame21170-cit-0014">
+<string-name>
+<surname>Enderlin</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Howat</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name>
+<surname>Jeong</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Noh</surname>, <given-names>M.&#x02010;J.</given-names>
+</string-name>, <string-name>
+<surname>van Angelen</surname>, <given-names>J. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2014</year>). <article-title>An improved mass budget for the Greenland ice sheet</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>41</volume>, <fpage>866</fpage>&#x02013;<lpage>872</lpage>. <pub-id pub-id-type="doi">10.1002/2013GL059010</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0015"><mixed-citation publication-type="journal" id="jame21170-cit-0015">
+<string-name>
+<surname>Eyring</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Bony</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Meehl</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name>
+<surname>Senior</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Stevens</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Stouffer</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taylor</surname>, <given-names>K. E.</given-names>
+</string-name> (<year>2016</year>). <article-title>Overview of the Coupled Model Intercomparison Project phase 6 (CMIP6) experimental design and organization</article-title>. <source xml:lang="en">Geoscientific Model Development</source>, <volume>9</volume>(<issue>5</issue>), <fpage>1937</fpage>&#x02013;<lpage>1958</lpage>. <pub-id pub-id-type="doi">10.5194/gmd-9-1937-2016</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0016"><mixed-citation publication-type="journal" id="jame21170-cit-0016">
+<string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Box</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Agosta</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Amory</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Kittel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Lang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>van As</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Machguth</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gallee</surname>, <given-names>H.</given-names>
+</string-name> (<year>2017</year>). <article-title>Reconstructions of the 1900&#x02013;2015 Greenland ice sheet surface mass balance using the regional climate MAR model</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>11</volume>(<issue>2</issue>), <fpage>1015</fpage>&#x02013;<lpage>1033</lpage>. <pub-id pub-id-type="doi">10.5194/tc-11-1015-2017</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0017"><mixed-citation publication-type="journal" id="jame21170-cit-0017">
+<string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Franco</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Tedesco</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>van Angelen</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gall&#x000e9;e</surname>, <given-names>H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Estimating the Greenland ice sheet surface mass balance contribution to future sea level rise using the regional atmospheric climate model MAR</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>7</volume>(<issue>2</issue>), <fpage>469</fpage>&#x02013;<lpage>489</lpage>. <pub-id pub-id-type="doi">10.5194/tc-7-469-2013</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0018"><mixed-citation publication-type="journal" id="jame21170-cit-0018">
+<string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Hanna</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Lang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Belleflamme</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Erpicum</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gall&#x000e9;e</surname>, <given-names>H.</given-names>
+</string-name> (<year>2013</year>). <article-title>Brief communication: &#x0201c;Important role of the mid&#x02010;tropospheric atmospheric circulation in the recent surface melt increase over the Greenland ice sheet&#x0201d;</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>7</volume>(<issue>1</issue>), <fpage>241</fpage>&#x02013;<lpage>248</lpage>. <pub-id pub-id-type="doi">10.5194/tc-7-241-2013</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0019"><mixed-citation publication-type="journal" id="jame21170-cit-0019">
+<string-name>
+<surname>Flanner</surname>, <given-names>M. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zender</surname>, <given-names>C. S.</given-names>
+</string-name> (<year>2006</year>). <article-title>Linking snowpack microphysics and albedo evolution</article-title>. <source xml:lang="en">Journal of Geophysical Research</source>, <volume>111</volume>, <elocation-id>D12208</elocation-id>
+<pub-id pub-id-type="doi">10.1029/2005JD006834</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0020"><mixed-citation publication-type="journal" id="jame21170-cit-0020">
+<string-name>
+<surname>Franco</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Erpicum</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Future projections of the Greenland ice sheet energy balance driving the surface melt</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>7</volume>(<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>18</lpage>.</mixed-citation></ref><ref id="jame21170-bib-0021"><mixed-citation publication-type="journal" id="jame21170-cit-0021">
+<string-name>
+<surname>Fyke</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name>
+<surname>Vizcano</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name> (<year>2014</year>). <article-title>The pattern of anthropogenic signal emergence in Greenland ice sheet surface mass balance</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>41</volume>, <fpage>6002</fpage>&#x02013;<lpage>6008</lpage>. <pub-id pub-id-type="doi">10.1002/2014GL060735</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0022"><mixed-citation publication-type="journal" id="jame21170-cit-0022">
+<string-name>
+<surname>Gettelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Hannay</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Bacmeister</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name>
+<surname>Neale</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name>
+<surname>Pendergrass</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Lamarque</surname>, <given-names>J.&#x02010;F.</given-names>
+</string-name>, <string-name>
+<surname>Fasullo</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name>
+<surname>Bailey</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Lawrence</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mills</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>High climate sensitivity in the Community Earth System Model version 2 (CESM2)</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>46</volume>, <fpage>8329</fpage>&#x02013;<lpage>8337</lpage>. <pub-id pub-id-type="doi">10.1029/2019GL083978</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0023"><mixed-citation publication-type="journal" id="jame21170-cit-0023">
+<string-name>
+<surname>Gettelman</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Morrison</surname>, <given-names>H.</given-names>
+</string-name> (<year>2015</year>). <article-title>Advanced two&#x02010;moment bulk microphysics for global models. Part I: Off&#x02010;line tests and comparison with other schemes</article-title>. <source xml:lang="en">Journal of Climate</source>, <volume>28</volume>(<issue>3</issue>), <fpage>1268</fpage>&#x02013;<lpage>1287</lpage>. <pub-id pub-id-type="doi">10.1175/JCLI-D-14-00102.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0024"><mixed-citation publication-type="journal" id="jame21170-cit-0024">
+<string-name>
+<surname>Gillett</surname>, <given-names>N. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fyfe</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2013</year>). <article-title>Annular mode changes in the CMIP5 simulations</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>40</volume>, <fpage>1189</fpage>&#x02013;<lpage>1193</lpage>. <pub-id pub-id-type="doi">10.1002/grl.50249</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0025"><mixed-citation publication-type="journal" id="jame21170-cit-0025">
+<string-name>
+<surname>Golledge</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name>
+<surname>Keller</surname>, <given-names>E. D.</given-names>
+</string-name>, <string-name>
+<surname>Gomez</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Naughten</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name>
+<surname>Bernales</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Trusel</surname>, <given-names>L. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Edwards</surname>, <given-names>T. L.</given-names>
+</string-name> (<year>2019</year>). <article-title>Global environmental consequences of twenty&#x02010;first&#x02010;century ice&#x02010;sheet melt</article-title>. <source xml:lang="en">Nature</source>, <volume>566</volume>(<issue>7742</issue>), <fpage>65</fpage>
+<pub-id pub-id-type="doi">10.1038/s41586-019-0889-9</pub-id>
+<pub-id pub-id-type="pmid">30728520</pub-id></mixed-citation></ref><ref id="jame21170-bib-0026"><mixed-citation publication-type="journal" id="jame21170-cit-0026">
+<string-name>
+<surname>Gregory</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Huybrechts</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Raper</surname>, <given-names>S. C. B.</given-names>
+</string-name> (<year>2004</year>). <article-title>Threatened loss of the Greenland ice&#x02010;sheet</article-title>. <source xml:lang="en">Nature</source>, <volume>428</volume>(<issue>6983</issue>), <fpage>616</fpage>.<pub-id pub-id-type="pmid">15071587</pub-id></mixed-citation></ref><ref id="jame21170-bib-0027"><mixed-citation publication-type="journal" id="jame21170-cit-0027">
+<string-name>
+<surname>Hanna</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hall</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Brief communication: Recent changes in summer Greenland blocking captured by none of the CMIP5 models</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>12</volume>(<issue>10</issue>), <fpage>3287</fpage>&#x02013;<lpage>3292</lpage>. <pub-id pub-id-type="doi">10.5194/tc-12-3287-2018</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0028"><mixed-citation publication-type="journal" id="jame21170-cit-0028">
+<string-name>
+<surname>Holland</surname>, <given-names>M. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bitz</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2003</year>). <article-title>Polar amplification of climate change in coupled models</article-title>. <source xml:lang="en">Climate Dynamics</source>, <volume>21</volume>(<issue>3</issue>), <fpage>221</fpage>&#x02013;<lpage>232</lpage>. <pub-id pub-id-type="doi">10.1007/s00382-003-0332-6</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0029"><mixed-citation publication-type="miscellaneous" id="jame21170-cit-0029">
+<string-name>
+<surname>Hunke</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Turner</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Jeffery</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Elliott</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>CICE, the Los Alamos Sea Ice Model, version 00</article-title>.</mixed-citation></ref><ref id="jame21170-bib-0030"><mixed-citation publication-type="journal" id="jame21170-cit-0030">
+<string-name>
+<surname>Hurrell</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>1995</year>). <article-title>Decadal trends in the North Atlantic oscillation: Regional temperatures and precipitation</article-title>. <source xml:lang="en">Science</source>, <volume>269</volume>(<issue>5224</issue>), <fpage>676</fpage>&#x02013;<lpage>679</lpage>. <pub-id pub-id-type="doi">10.1126/science.269.5224.676</pub-id>
+<pub-id pub-id-type="pmid">17758812</pub-id></mixed-citation></ref><ref id="jame21170-bib-0031"><mixed-citation publication-type="journal" id="jame21170-cit-0031">
+<string-name>
+<surname>Hurrell</surname>, <given-names>J. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Deser</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <article-title>North Atlantic climate variability: The role of the North Atlantic oscillation</article-title>. <source xml:lang="en">Journal of Marine Systems</source>, <volume>79</volume>(<issue>3</issue>), <fpage>231</fpage>&#x02013;<lpage>244</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmarsys.2009.11.002</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0032"><mixed-citation publication-type="journal" id="jame21170-cit-0032">
+<string-name>
+<surname>King</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name>
+<surname>Howat</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name>
+<surname>Jeong</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Noh</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Wouters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2018</year>). <article-title>Seasonal to decadal variability in ice discharge from the Greenland ice sheet</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>12</volume>(<issue>12</issue>), <fpage>3813</fpage>&#x02013;<lpage>3825</lpage>. <pub-id pub-id-type="doi">10.5194/tc-12-3813-2018</pub-id>
+<pub-id pub-id-type="pmid">31217911</pub-id></mixed-citation></ref><ref id="jame21170-bib-0033"><mixed-citation publication-type="journal" id="jame21170-cit-0033">
+<string-name>
+<surname>Lawrence</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Fisher</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Koven</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name>
+<surname>Oleson</surname>, <given-names>K. W.</given-names>
+</string-name>, <string-name>
+<surname>Swenson</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name>
+<surname>Bonan</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Collier</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Ghimire</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Kennedy</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kluzek</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Lawrence</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Lombardozzi</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Riley</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Shi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Vertenstein</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Wieder</surname>, <given-names>W. R.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Ali</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name>
+<surname>Badger</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Bisht</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Brunke</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Burns</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name>
+<surname>Buzan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Clark</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Craig</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Dahlin</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Drewniak</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Fisher</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name>
+<surname>Flanner</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Fox</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Gentine</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Hoffman</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Keppel&#x02010;Aleks</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Knox</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Leung</surname>, <given-names>L. R.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Pandey</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Pelletier</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name>
+<surname>Perket</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Randerson</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name>
+<surname>Ricciuto</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Sanderson</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name>
+<surname>Slater</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Subin</surname>, <given-names>Z. M.</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>, <given-names>R. Q.</given-names>
+</string-name>, <string-name>
+<surname>Val&#x000a0;Martin</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zeng</surname>, <given-names>X.</given-names>
+</string-name> (<year>2019</year>). <article-title>The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty</article-title>. <source xml:lang="en">Journal of Advances in Modeling Earth Systems</source>, <volume>11</volume>, <fpage>4245</fpage>&#x02013;<lpage>4287</lpage>. <pub-id pub-id-type="doi">10.1029/2018MS001583</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0034"><mixed-citation publication-type="journal" id="jame21170-cit-0034">
+<string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Price</surname>, <given-names>S. F.</given-names>
+</string-name>, <string-name>
+<surname>Hoffman</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Leguy</surname>, <given-names>G. R.</given-names>
+</string-name>, <string-name>
+<surname>Bennett</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Bradley</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name>
+<surname>Fyke</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name>
+<surname>Kennedy</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>Perego</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ranken</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Salinger</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name>
+<surname>Vargo</surname>, <given-names>L. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Worley</surname>, <given-names>P. H.</given-names>
+</string-name> (<year>2019</year>). <article-title>Description and evaluation of the Community Ice Sheet Model (CISM) v2.1</article-title>. <source xml:lang="en">Geoscientific Model Development</source>, <volume>12</volume>(<issue>1</issue>), <fpage>387</fpage>&#x02013;<lpage>424</lpage>. <pub-id pub-id-type="doi">10.5194/gmd-12-387-2019</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0035"><mixed-citation publication-type="journal" id="jame21170-cit-0035">
+<string-name>
+<surname>Mottram</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Boberg</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Langen</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Rodehacke</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Christensen</surname>, <given-names>J. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Madsen</surname>, <given-names>M. S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Surface mass balance of the Greenland ice sheet in the regional climate model HIRHAM5: Present state and future prospects</article-title>. <source xml:lang="en">Low Temperature Science</source>, <volume>75</volume>, <fpage>105</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.14943/lowtemsci.75.105</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0036"><mixed-citation publication-type="journal" id="jame21170-cit-0036">
+<string-name>
+<surname>Muntjewerf</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Petrini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ernani&#x000a0;da Silva</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Sellevold</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Scherrenberg</surname>, <given-names>M. D. W.</given-names>
+</string-name>, <string-name>
+<surname>Thayer&#x02010;Calder</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Bradley</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lofverstrom</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Greenland ice sheet contribution to 21st century sea level rise as simulated by the coupled CESM2.1&#x02010;CISM2.1</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>47</volume>, <fpage>e2019GL086836</fpage>
+<pub-id pub-id-type="doi">10.1029/2019GL086836</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0037"><mixed-citation publication-type="journal" id="jame21170-cit-0037">
+<string-name>
+<surname>Muntjewerf</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Sellevold</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ernani&#x000a0;da Silva</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Petrini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Thayer&#x02010;Calder</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Scherrenberg</surname>, <given-names>M. D. W.</given-names>
+</string-name>, <string-name>
+<surname>Bradley</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Fyke</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Lofverstrom</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Accelerated Greenland ice sheet mass loss under high greenhouse gas forcing as simulated by the coupled CESM2.1&#x02010;CISM2.1</article-title>. <source xml:lang="en">Journal of Advances in Modeling Earth Systems</source>, <volume>12</volume>, <fpage>e2019MS002031</fpage>
+<pub-id pub-id-type="doi">10.1029/2019MS002031</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0038"><mixed-citation publication-type="journal" id="jame21170-cit-0038">
+<string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Berg</surname>, <given-names>W. R.</given-names>
+</string-name>, <string-name>
+<surname>Lhermitte</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Wouters</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Machguth</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Howat</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Citterio</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Moholdt</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2017</year>). <article-title>A tipping point in refreezing accelerates mass loss of Greenland's glaciers and ice caps</article-title>. <source xml:lang="en">Nature Communications</source>, <volume>8</volume>, <fpage>14,730</fpage>.</mixed-citation></ref><ref id="jame21170-bib-0039"><mixed-citation publication-type="journal" id="jame21170-cit-0039">
+<string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;deBerg</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Wouters</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2020</year>). <article-title>Brief communication: CESM2 climate forcing (1950&#x02013;2014) yields realistic Greenland ice sheet surface mass balance</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>14</volume>(<issue>4</issue>), <fpage>1425</fpage>&#x02013;<lpage>1435</lpage>. <pub-id pub-id-type="doi">10.5194/tc-14-1425-2020</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0040"><mixed-citation publication-type="journal" id="jame21170-cit-0040">
+<string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Berg</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Machguth</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Lhermitte</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Howat</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2016</year>). <article-title>A daily, 1&#x02009;km resolution data set of downscaled Greenland ice sheet surface mass balance (1958&#x02013;2015)</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>10</volume>(<issue>5</issue>), <fpage>2361</fpage>&#x02013;<lpage>2377</lpage>. <pub-id pub-id-type="doi">10.5194/tc-10-2361-2016</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0041"><mixed-citation publication-type="journal" id="jame21170-cit-0041">
+<string-name>
+<surname>Rae</surname>, <given-names>J. G. L.</given-names>
+</string-name>, <string-name>
+<surname>Adalgeirsdottir</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Hewitt</surname>, <given-names>H. T.</given-names>
+</string-name>, <string-name>
+<surname>Lowe</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Lucas&#x02010;Picher</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Mottram</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name>
+<surname>Payne</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Ridley</surname>, <given-names>J. K.</given-names>
+</string-name>, <string-name>
+<surname>Shannon</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Berg</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Wal</surname>, <given-names>R. S. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2012</year>). <article-title>Greenland ice sheet surface mass balance: Evaluating simulations and making projections with regional climate models</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>6</volume>(<issue>6</issue>), <fpage>1275</fpage>&#x02013;<lpage>1294</lpage>. <pub-id pub-id-type="doi">10.5194/tc-6-1275-2012</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0042"><mixed-citation publication-type="journal" id="jame21170-cit-0042">
+<string-name>
+<surname>Sellevold</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vizcaino</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Surface mass balance downscaling through elevation classes in an Earth system model: Application to the Greenland ice sheet</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>13</volume>(<issue>12</issue>), <fpage>3193</fpage>&#x02013;<lpage>3208</lpage>. <pub-id pub-id-type="doi">10.5194/tc-13-3193-2019</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0043"><mixed-citation publication-type="journal" id="jame21170-cit-0043">
+<string-name>
+<surname>Shepherd</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Ivins</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name>
+<surname>A</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Barletta</surname>, <given-names>V. R.</given-names>
+</string-name>, <string-name>
+<surname>Bentley</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Bettadpur</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Briggs</surname>, <given-names>K. H.</given-names>
+</string-name>, <string-name>
+<surname>Bromwich</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name>
+<surname>Forsberg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Galin</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Horwath</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Jacobs</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Joughin</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>King</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ligtenberg</surname>, <given-names>S. R. M.</given-names>
+</string-name>, <string-name>
+<surname>Luckman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Luthcke</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name>
+<surname>McMillan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Meister</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Milne</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Mouginot</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Muir</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nicolas</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Paden</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Payne</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Pritchard</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Rignot</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Rott</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000f8;rensen</surname>, <given-names>L. S.</given-names>
+</string-name>, <string-name>
+<surname>Scambos</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name>
+<surname>Scheuchl</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Schrama</surname>, <given-names>E. J. O.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Sundal</surname>, <given-names>A. V.</given-names>
+</string-name>, <string-name>
+<surname>van Angelen</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Berg</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Vaughan</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Velicogna</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Wahr</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Whitehouse</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name>
+<surname>Wingham</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Yi</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zwally</surname>, <given-names>H. J.</given-names>
+</string-name> (<year>2012</year>). <article-title>A reconciled estimate of ice&#x02010;sheet mass balance</article-title>. <source xml:lang="en">Science</source>, <volume>338</volume>(<issue>6111</issue>), <fpage>1183</fpage>&#x02013;<lpage>1189</lpage>. <pub-id pub-id-type="doi">10.1126/science.1228102</pub-id>
+<pub-id pub-id-type="pmid">23197528</pub-id></mixed-citation></ref><ref id="jame21170-bib-0044"><mixed-citation publication-type="miscellaneous" id="jame21170-cit-0044">
+<string-name>
+<surname>Smith</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Briegleb</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Bryan</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Danabasoglu</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Dennis</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Dukowicz</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Eden</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Fox&#x02010;Kemper</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gent</surname>, <given-names>P.</given-names>
+</string-name> (<year>2010</year>). <article-title>The Parallel Ocean Program (POP) reference manual ocean component of the Community Climate System Model (CCSM) and Community Earth System Model (CESM)</article-title>.</mixed-citation></ref><ref id="jame21170-bib-0045"><mixed-citation publication-type="journal" id="jame21170-cit-0045">
+<string-name>
+<surname>Snape</surname>, <given-names>T. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Forster</surname>, <given-names>P. M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Decline of Arctic sea ice: Evaluation and weighting of CMIP5 projections</article-title>. <source xml:lang="en">Journal of Geophysical Research: Atmospheres</source>, <volume>119</volume>, <fpage>546</fpage>&#x02013;<lpage>554</lpage>. <pub-id pub-id-type="doi">10.1002/2013JD020593</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0046"><mixed-citation publication-type="journal" id="jame21170-cit-0046">
+<string-name>
+<surname>Taylor</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name>
+<surname>Stouffer</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Meehl</surname>, <given-names>G. A.</given-names>
+</string-name> (<year>2012</year>). <article-title>An overview of CMIP5 and the experiment design</article-title>. <source xml:lang="en">Bulletin of the American Meteorological Society</source>, <volume>93</volume>(<issue>4</issue>), <fpage>485</fpage>&#x02013;<lpage>498</lpage>. <pub-id pub-id-type="doi">10.1175/BAMS-D-11-00094.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0047"><mixed-citation publication-type="journal" id="jame21170-cit-0047">
+<string-name>
+<surname>van Angelen</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>M.&#x000a0;Lenaerts</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Fettweis</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Meijgaard</surname>, <given-names>E.</given-names>
+</string-name> (<year>2013</year>). <article-title>Rapid loss of firn pore space accelerates 21st century Greenland mass loss</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>40</volume>, <fpage>2109</fpage>&#x02013;<lpage>2113</lpage>. <pub-id pub-id-type="doi">10.1002/grl.50490</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0048"><mixed-citation publication-type="journal" id="jame21170-cit-0048">
+<string-name>
+<surname>van As</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Bech&#x000a0;Mikkelsen</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Holtegaard&#x000a0;Nielsen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Box</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Claesson&#x000a0;Liljedahl</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lindb&#x000e4;ck</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Pitcher</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hasholt</surname>, <given-names>B.</given-names>
+</string-name> (<year>2017</year>). <article-title>Hypsometric amplification and routing moderation of Greenland ice sheet meltwater release</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>11</volume>(<issue>3</issue>), <fpage>1371</fpage>&#x02013;<lpage>1386</lpage>. <pub-id pub-id-type="doi">10.5194/tc-11-1371-2017</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0049"><mixed-citation publication-type="journal" id="jame21170-cit-0049">
+<string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Lhermitte</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Vizca&#x000ed;no</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2020</year>). <article-title>Present&#x02010;day Greenland ice sheet climate and surface mass balance in CESM2</article-title>. <source xml:lang="en">Journal of Geophysical Research: Earth Surface</source>, <volume>125</volume>, <fpage>e2019JF005318</fpage>
+<pub-id pub-id-type="doi">10.1029/2019JF005318</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0050"><mixed-citation publication-type="journal" id="jame21170-cit-0050">
+<string-name>
+<surname>van Kampenhout</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lenaerts</surname>, <given-names>J. T. M.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Lawrence</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Slater</surname>, <given-names>A. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2017</year>). <article-title>Improving the representation of polar snow and firn in the Community Earth System Model</article-title>. <source xml:lang="en">Journal of Advances in Modeling Earth Systems</source>, <volume>9</volume>, <fpage>2583</fpage>&#x02013;<lpage>2600</lpage>. <pub-id pub-id-type="doi">10.1002/2017MS000988</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0051"><mixed-citation publication-type="journal" id="jame21170-cit-0051">
+<string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Enderlin</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Howat</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name>
+<surname>Kuipers&#x000a0;Munneke</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>No&#x000eb;l</surname>, <given-names>B. P. Y.</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;de Berg</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>van Meijgaard</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wouters</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>On the recent contribution of the Greenland ice sheet to sea level change</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>10</volume>(<issue>5</issue>), <fpage>1933</fpage>&#x02013;<lpage>1946</lpage>. <pub-id pub-id-type="doi">10.5194/tc-10-1933-2016</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0052"><mixed-citation publication-type="journal" id="jame21170-cit-0052">
+<string-name>
+<surname>Vandecrux</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>MacFerrin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Machguth</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Colgan</surname>, <given-names>W. T.</given-names>
+</string-name>, <string-name>
+<surname>van As</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Heilig</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Stevens</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Charalampidis</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Fausto</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<surname>Mosley&#x02010;Thompson</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Koenig</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Montgomery</surname>, <given-names>L. N.</given-names>
+</string-name>, <string-name>
+<surname>Mi&#x000e8;ge</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name>
+<surname>Ingeman&#x02010;Nielsen</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Box</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2019</year>). <article-title>Firn data compilation reveals widespread decrease of firn air content in western Greenland</article-title>. <source xml:lang="en">The Cryosphere</source>, <volume>13</volume>(<issue>3</issue>), <fpage>845</fpage>&#x02013;<lpage>859</lpage>. <pub-id pub-id-type="doi">10.5194/tc-13-845-2019</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0053"><mixed-citation publication-type="journal" id="jame21170-cit-0053">
+<string-name>
+<surname>Vizcano</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lipscomb</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name>
+<surname>Sacks</surname>, <given-names>W. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van&#x000a0;den Broeke</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Greenland surface mass balance as simulated by the Community Earth System Model. Part II: Twenty&#x02010;first&#x02010;century changes</article-title>. <source xml:lang="en">Journal of Climate</source>, <volume>27</volume>(<issue>1</issue>), <fpage>215</fpage>&#x02013;<lpage>226</lpage>. <pub-id pub-id-type="doi">10.1175/JCLI-D-12-00588.1</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0054"><mixed-citation publication-type="journal" id="jame21170-cit-0054">
+<string-name>
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Overland</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2012</year>). <article-title>A sea ice free summer Arctic within 30&#x02009;years: An update from CMIP5 models</article-title>. <source xml:lang="en">Geophysical Research Letters</source>, <volume>39</volume>, <elocation-id>L18501</elocation-id>
+<pub-id pub-id-type="doi">10.1029/2012GL052868</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0055"><mixed-citation publication-type="journal" id="jame21170-cit-0055">
+<string-name>
+<surname>Woollings</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hannachi</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hoskins</surname>, <given-names>B.</given-names>
+</string-name> (<year>2010</year>). <article-title>Variability of the North Atlantic eddy&#x02010;driven jet stream</article-title>. <source xml:lang="en">Quarterly Journal of the Royal Meteorological Society</source>, <volume>136</volume>(<issue>649</issue>), <fpage>856</fpage>&#x02013;<lpage>868</lpage>. <pub-id pub-id-type="doi">10.1002/qj.625</pub-id>
+</mixed-citation></ref><ref id="jame21170-bib-0056"><mixed-citation publication-type="journal" id="jame21170-cit-0056">
+<string-name>
+<surname>Yoshimori</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Abe&#x02010;Ouchi</surname>, <given-names>A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Sources of spread in multimodel projections of the Greenland ice sheet surface mass balance</article-title>. <source xml:lang="en">Journal of Climate</source>, <volume>25</volume>(<issue>4</issue>), <fpage>1157</fpage>&#x02013;<lpage>1175</lpage>. <pub-id pub-id-type="doi">10.1175/2011JCLI4011.1</pub-id>
+</mixed-citation></ref></ref-list></back></article>
