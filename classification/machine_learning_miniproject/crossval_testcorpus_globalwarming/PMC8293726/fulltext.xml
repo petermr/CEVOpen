@@ -1,0 +1,617 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article id="ece37816" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8293726</article-id><article-id pub-id-type="doi">10.1002/ece3.7816</article-id><article-id pub-id-type="publisher-id">ECE37816</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>The toughest animals of the Earth versus global warming: Effects of long&#x02010;term experimental warming on tardigrade community structure of a temperate deciduous forest</article-title><alt-title alt-title-type="left-running-head">VECCHI et al.</alt-title></title-group><contrib-group><contrib id="ece37816-cr-0001" contrib-type="author" corresp="yes"><name><surname>Vecchi</surname><given-names>Matteo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7995-6827</contrib-id><xref rid="ece37816-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>matteo.m.vecchi@jyu.fi</email></address></contrib><contrib id="ece37816-cr-0002" contrib-type="author"><name><surname>Kossi Adakpo</surname><given-names>Laurent</given-names></name><xref rid="ece37816-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece37816-cr-0003" contrib-type="author"><name><surname>Dunn</surname><given-names>Robert R.</given-names></name><xref rid="ece37816-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ece37816-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ece37816-cr-0004" contrib-type="author"><name><surname>Nichols</surname><given-names>Lauren M.</given-names></name><xref rid="ece37816-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece37816-cr-0005" contrib-type="author"><name><surname>Penick</surname><given-names>Clint A.</given-names></name><xref rid="ece37816-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ece37816-cr-0006" contrib-type="author"><name><surname>Sanders</surname><given-names>Nathan J.</given-names></name><xref rid="ece37816-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="ece37816-cr-0007" contrib-type="author"><name><surname>Rebecchi</surname><given-names>Lorena</given-names></name><xref rid="ece37816-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece37816-cr-0008" contrib-type="author"><name><surname>Guidetti</surname><given-names>Roberto</given-names></name><xref rid="ece37816-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece37816-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biological and Environmental Science</named-content>
+<institution>University of Jyvaskyla</institution>
+<city>Jyvaskyla</city>
+<country country="FI">Finland</country>
+</aff><aff id="ece37816-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Life Sciences</named-content>
+<institution>University of Modena and Reggio Emilia</institution>
+<city>Modena</city>
+<country country="IT">Italy</country>
+</aff><aff id="ece37816-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Applied Ecology</named-content>
+<institution>North Carolina State University</institution>
+<city>Raleigh</city>
+<named-content content-type="country-part">NC</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece37816-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Center for Evolutionary Hologenomics</named-content>
+<institution>University of Copenhagen</institution>
+<city>Copenhagen</city>
+<country country="DK">Denmark</country>
+</aff><aff id="ece37816-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ecology, Evolution, and Organismal Biology</named-content>
+<institution>Kennesaw State University</institution>
+<city>Kennesaw</city>
+<named-content content-type="country-part">GA</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece37816-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ecology and Evolutionary Biology</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Matteo Vecchi, Department of Biological and Environmental Science, University of Jyvaskyla, P.O. Box 35, FI&#x02010;40014 Jyvaskyla, Finland.<break/>
+Email: <email>matteo.m.vecchi@jyu.fi</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>6</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2021</year></pub-date><volume>11</volume><issue seq="570">14</issue><issue-id pub-id-type="doi">10.1002/ece3.v11.14</issue-id><fpage>9856</fpage><lpage>9863</lpage><history>
+<date date-type="rev-recd"><day>10</day><month>5</month><year>2021</year></date>
+<date date-type="received"><day>27</day><month>1</month><year>2021</year></date>
+<date date-type="accepted"><day>02</day><month>6</month><year>2021</year></date>
+</history><permissions><!--&#x000a9; 2021 Published by John Wiley & Sons Ltd.--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic toggle="yes">Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-11-9856.pdf"/><abstract id="ece37816-abs-0001"><title>Abstract</title><p>Understanding how different taxa respond to global warming is essential for predicting future changes and elaborating strategies to buffer them. Tardigrades are well known for their ability to survive environmental stressors, such as drying and freezing, by undergoing cryptobiosis and rapidly recovering their metabolic function after stressors cease. Determining the extent to which animals that undergo cryptobiosis are affected by environmental warming will help to understand the real magnitude climate change will have on these organisms. Here, we report on the responses of tardigrades within a five&#x02010;year&#x02010;long, field&#x02010;based artificial warming experiment, which consisted of 12 open&#x02010;top chambers heated to simulate the projected effects of global warming (ranging from 0 to 5.5&#x000b0;C above ambient temperature) in a temperate deciduous forest of North Carolina (USA). To elucidate the effects of warming on the tardigrade community inhabiting the soil litter, three community diversity indices (abundance, species richness, and Shannon diversity) and the abundance of the three most abundant species (<italic toggle="yes">Diphascon pingue</italic>, <italic toggle="yes">Adropion scoticum</italic>, and <italic toggle="yes">Mesobiotus</italic> sp.) were determined. Their relationships with air temperature, soil moisture, and the interaction between air temperature and soil moisture were tested using Bayesian generalized linear mixed models. Despite observed negative effects of warming on other ground invertebrates in previous studies at this site, long&#x02010;term warming did not affect the abundance, richness, or diversity of tardigrades in this experiment. These results are in line with previous experimental studies, indicating that tardigrades may not be directly affected by ongoing global warming, possibly due to their thermotolerance and cryptobiotic abilities to avoid negative effects of stressful temperatures, and the buffering effect on temperature of the soil litter substrate.</p></abstract><abstract abstract-type="graphical" id="ece37816-abs-0002"><p>Tardigrades are well known for their ability to survive harsh environmental conditions; however, it is not known if they have the potential to survive global warming. We tested the ability of leaf litter tardigrades to resist future warming through a long&#x02010;term experimental warming approach. We failed to find any significant effect of warming on leaf litter tardigrades community, suggesting their potential to resist global warming.
+<boxed-text position="anchor" content-type="graphic" id="ece37816-blkfxd-0001"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-11-9856-g001.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece37816-kwd-0001">climate change</kwd><kwd id="ece37816-kwd-0002">experimental</kwd><kwd id="ece37816-kwd-0003">global warming</kwd><kwd id="ece37816-kwd-0004">Tardigrades</kwd><kwd id="ece37816-kwd-0005">water bears</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>United States Department of Energy</funding-source><award-id>DEFG02&#x02010; 08ER64510</award-id></award-group><award-group id="funding-0002"><funding-source>Department of the Interior&#x02019;s Southeast Climate Science Center</funding-source><award-id>G13AC00405</award-id></award-group><award-group id="funding-0003"><funding-source>National Science Fundation Dimensions of Biodiversity</funding-source><award-id>1136703</award-id></award-group><award-group id="funding-0004"><funding-source>Departmental FAR grant of the University of Modena and Reggio Emilia</funding-source><award-id>FAR2017DIP</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="2"/><page-count count="8"/><word-count count="6469"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.4 mode:remove_FC converted:21.07.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece37816-cit-1001">
+<string-name>
+<surname>Vecchi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kossi Adakpo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Penick</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name> (<year>2021</year>). <article-title>The toughest animals of the Earth versus global warming: Effects of long&#x02010;term experimental warming on tardigrade community structure of a temperate deciduous forest</article-title>. <source>Ecology and Evolution</source>, <volume>11</volume>, <fpage>9856</fpage>&#x02013;<lpage>9863</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.7816</pub-id>
+</mixed-citation>
+</p><fn-group id="ece37816-ntgp-0001"><fn id="ece37816-note-0001"><p>Summary statement: Tardigrade communities inhabiting upper soil horizon (leaf litter) are not affected by a long&#x02010;term experimental warming simulating different global warming scenarios.</p></fn></fn-group></notes></front><body id="ece37816-body-0001"><sec id="ece37816-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Soil organisms such as nematodes, tardigrades, and rotifers&#x02014;a microfauna that needs a film of water surrounding the body to be active&#x02014;are generally abundant in most terrestrial biomes. They are relatively poorly studied, especially regarding their response to ongoing climatic changes. Most of the studies concerning the effect of experimental warming on this type of fauna are mainly focused on Antarctic nematode communities (e.g. Andriuzzi et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0001" ref-type="bibr">2018</xref>; Convey &#x00026; Wynn&#x02010;Williams,&#x000a0;<xref rid="ece37816-bib-0008" ref-type="bibr">2002</xref>; Newsham et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0028" ref-type="bibr">2020</xref>; Prather et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0033" ref-type="bibr">2019</xref>; Simmons et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0038" ref-type="bibr">2009</xref>), and contrasting results on their community have been found according to species and temperature increase (see Section <xref rid="ece37816-sec-0007" ref-type="sec">4</xref>). On one hand, these organisms might be particularly susceptible to changes in climate because their surface area relative to volume is great. On the other hand, some of these organisms have life stages that could buffer them from climatic changes. For example, tardigrades (water bears; Figure&#x000a0;<xref rid="ece37816-fig-0001" ref-type="fig">1a</xref>) have the ability to enter ametabolic physiological states in all phases of their life cycle, allowing them to survive harsh environmental stressors such as desiccation (anhydrobiosis) and freezing (cryobiosis) (Guidetti et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0016" ref-type="bibr">2011</xref>). The ability of tardigrades to tolerate chemical and physical extremes in an anhydrobiotic state is so extraordinary (Rebecchi et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0035" ref-type="bibr">2007</xref>) that tardigrades have been called the &#x0201c;toughest animals on the Earth&#x0201d; (Copley,&#x000a0;<xref rid="ece37816-bib-0009" ref-type="bibr">1999</xref>). Though their densities in soil and leaf litter can vary by several orders of magnitude (from 300 up to 33,600&#x000a0;animals/m<sup>2</sup>; Guidetti et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0017" ref-type="bibr">1999</xref>; Hohberg,&#x000a0;<xref rid="ece37816-bib-0020" ref-type="bibr">2006</xref>), they are commonly detected in leaf litter (Guil &#x00026; Sanchez&#x02010;Moreno,&#x000a0;<xref rid="ece37816-bib-0018" ref-type="bibr">2013</xref>) on all continents (Guidetti et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0017" ref-type="bibr">1999</xref>).</p><fig position="float" fig-type="FIGURE" id="ece37816-fig-0001"><label>FIGURE 1</label><caption><p>(a) Tardigrade of the genus <italic toggle="yes">Milnesium</italic> (SEM; scale bar&#x000a0;=&#x000a0;50&#x000a0;&#x000b5;m). (b) One open&#x02010;top chamber experimental setup</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-11-9856-g003" position="anchor" id="jats-graphic-3"/></fig><p>Previous studies on the impacts of climate changes on tardigrade communities have found somewhat surprising results: no effect of increasing temperature on tardigrade communities has been detected (Briones et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0005" ref-type="bibr">1997</xref>; Sohlenius &#x00026; Bostr&#x000f6;m, <xref rid="ece37816-bib-0039" ref-type="bibr">1999a</xref>). To better understand the effects of increasing air temperature on tardigrade communities of soil litter, we sampled a tardigrade community within an extensive set of experimental warming arrays in the eastern United States, performed in the Duke Forest in the Piedmont region of North Carolina (Pelini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0030" ref-type="bibr">2011</xref>). Experimental warming has the potential to analyze the response of the entire tardigrade community compared to transplant experiments because the warming is performed in situ without the need to move the animals. Moreover, the use of open&#x02010;top chambers minimizes the substrate disturbance and allows for long&#x02010;term, consistent warming over a sustained period (Pelini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0030" ref-type="bibr">2011</xref>). Previous studies in the experimental warming array used in this study (Figure&#x000a0;<xref rid="ece37816-fig-0001" ref-type="fig">1b</xref>) found that warming had differential effects on ants, other ground&#x02010;living arthropods, and microbial communities, with some species benefiting from warming and others declining. In particular, ants have species&#x02010;specific responses to temperature increase with some species benefiting from warming and others declining probably linked to physiological traits that differ between species (Diamond et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0012" ref-type="bibr">2013</xref>, <xref rid="ece37816-bib-0011" ref-type="bibr">2016</xref>; MacLean et al., <xref rid="ece37816-bib-0047" ref-type="bibr">2017</xref>; Pelini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0031" ref-type="bibr">2014</xref>; Penick et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0032" ref-type="bibr">2017</xref>), and the same is true for other ground&#x02010;living arthropods (Fitzgerald et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0014" ref-type="bibr">2021</xref>), while the effect of warming on microbial community structure and function may become more pronounced as soil temperatures increase and carbon substrates are depleted through time at the Duke Forest site but were not affected at a more northern site where this experiment was replicated (Cregger et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0010" ref-type="bibr">2014</xref>).</p><p>The experimental design allowed the opportunity to test for the interactive effects between air warming and other environmental variables, such as soil moisture. We hypothesized two possible outcomes of this experiment: (a) we predicted that the tardigrade community (or part of it) would be influenced by both increasing temperature and soil moisture with regard to abundance (positive correlation between increased temperature and moisture on tardigrade abundances) and community composition (change in dominant species and/or diversity); (b) alternatively, we predicted that the tardigrade community (or part of it) will show no change in responses to the warming treatment, because they escape negative impacts of warming due to anhydrobiosis (avoiding period of substrate drying) or due to an extreme tolerance of high temperatures (see Giovannini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0015" ref-type="bibr">2018</xref>; Li &#x00026; Wang,&#x000a0;<xref rid="ece37816-bib-0024" ref-type="bibr">2005</xref>; Neves et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0027" ref-type="bibr">2020</xref>; Rebecchi, Boschini, et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0036" ref-type="bibr">2009</xref>). Those predictions come from the general trend observed for the effect of artificial warming on other terrestrial organisms belonging to the hydrobios, as the soil nematodes, that share the same habitat with tardigrades (Bakonyi &#x00026; Nagy,&#x000a0;<xref rid="ece37816-bib-0002" ref-type="bibr">2000</xref>; Hiltpold et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0019" ref-type="bibr">2017</xref>; Yan et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0046" ref-type="bibr">2017</xref>).</p></sec><sec sec-type="materials-and-methods" id="ece37816-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece37816-sec-0003"><label>2.1</label><title>Experimental design and warming chambers</title><p>The experimental facilities used in this study are described in Pelini et&#x000a0;al.&#x000a0;(<xref rid="ece37816-bib-0030" ref-type="bibr">2011</xref>). These facilities were established in a relatively warm site at Duke Forest near Hillsborough (35&#x000b0;52&#x02032;00&#x02033;N, 79&#x000b0;59&#x02032;45&#x02033;W, 130&#x000a0;m a.s.l.) in the Piedmont region of North Carolina (USA). The site is located near the center of the deciduous forest biome in eastern North America. The experimental site at Duke Forest was in a ca. 80&#x02010;year&#x02010;old oak&#x02010;hickory stand within the Eno River Unit. The mean annual temperature at Duke Forest is 15.5&#x000b0;C, and the mean annual precipitation is 1,140&#x000a0;mm. The site had 12 octagonal open&#x02010;top chambers (each one 5&#x000a0;m in diameter with eight walls each 1.9&#x000a0;m wide and 1.2&#x000a0;m tall with an area of 17.4&#x000a0;m<sup>2</sup>), coded with numbers from 1 to 12, that warmed the forest floor year&#x02010;round with thermostat&#x02010;controlled forced air passed over hydronic heaters (Figure&#x000a0;<xref rid="ece37816-fig-0001" ref-type="fig">1b</xref>). Nine chambers were warmed with a different target temperature each (from 1.5 to 5.5&#x000b0;C above ambient temperature with increments of 0.5&#x000b0;C). The heating of the chambers was dynamically adjusted based on the external environment temperature to obtain a constant increment over the environment temperature (Figure&#x000a0;<xref rid="ece37816-fig-0002" ref-type="fig">2a</xref>). The highest temperature increase of 5.5&#x000b0;C was included to mimic the worst scenario predicted for the year 2100 (RCP 8.5; IPCC,&#x000a0;<xref rid="ece37816-bib-0021" ref-type="bibr">2013</xref>). Three chambers considered as controls had air blown at environment temperature (no heat). The experiment lasted for five years (2010&#x02013;2015).</p><fig position="float" fig-type="FIGURE" id="ece37816-fig-0002"><label>FIGURE 2</label><caption><p>(a) Average air temperature by month over 5&#x000a0;years of the experimental chambers. (b) Average soil moisture by month over 5&#x000a0;years of the experimental chambers</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-11-9856-g002" position="anchor" id="jats-graphic-5"/></fig></sec><sec id="ece37816-sec-0004"><label>2.2</label><title>Leaf litter sampling and tardigrade extraction</title><p>Leaf litter sampling was conducted on May 15, 2015. Two samples (each one of a volume of about 0.5&#x000a0;dm<sup>3</sup>) of the superficial layer of leaf litter (~10&#x000a0;cm of depth, composed by a variety of leaves of tree plant species but dominated by <italic toggle="yes">Quercus</italic>
+<italic toggle="yes">alba</italic> L.) were collected from two random points from each of the 12 chambers (nine chambers with increasing air temperatures and three control chambers), for a total of 24 samples. Samples were air&#x02010;dried immediately after collection and shipped in zip&#x02010;locked plastic bags to the Department of Life Sciences of University of Modena and Reggio Emilia (UNIMORE) in Modena (Italy). The leaf litter was kept desiccated for 2&#x000a0;years until tardigrade extraction. Before animal extraction, desiccated leaf litter was kept at 45% relative humidity (RH) at 20&#x000b0;C for 24&#x000a0;hr, and then, 10&#x000a0;g of each sample (pseudoreplicate) for each chamber were rehydrated in tap water for 30&#x000a0;min. We then sieved the leaf litter and water using two sieves of different mesh sizes: 500&#x000a0;&#x003bc;m and 37&#x000a0;&#x003bc;m. The leaf litter left in the 500 &#x003bc;m sieve was resubmerged in water and sieved a second time after 2&#x000a0;hr to be sure to extract all tardigrades and their eggs. The debris collected from the 37 &#x003bc;m sieve was resuspended in distilled water and tardigrades along with their eggs were collected manually with a glass pipette under a stereomicroscope.</p></sec><sec id="ece37816-sec-0005"><label>2.3</label><title>Species identification and data analysis</title><p>The tardigrades were fixed in Carnoy's fixative (&#x000be; methanol, &#x000bc; acetic acid) and mounted on microscopic slides in Faure's mounting medium. Animal observations were carried out with light microscopy (LM) under phase contrast (PhC) and differential interference contrast (DIC) up to the maximum magnification (100&#x000d7; oil objective) with a Leica DM RB microscope, at the Laboratory of Evolutionary Zoology (UNIMORE). Eggs were not included in the analyses due to their low number. Tardigrade classification was mainly done by following Ramazzotti and Maucci (<xref rid="ece37816-bib-0034" ref-type="bibr">1983</xref>) and Bingemer and Hohberg (<xref rid="ece37816-bib-0003" ref-type="bibr">2017</xref>).</p><p>Tardigrades are very sensitive to the moisture of the substrates being aquatic animals (although able to live in terrestrial substrates); soil moisture is one of the main environmental factors that could be effected by the air temperature increase. For these reasons, in addition to chamber air temperature, soil moisture was chosen as an additional variable. In this specific experimental setup, soil temperature is correlated with air temperature (Cregger et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0010" ref-type="bibr">2014</xref>) but soil moisture is not correlated with the air temperature measures (Burt et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0006" ref-type="bibr">2014</xref>; Figure&#x000a0;<xref rid="ece37816-fig-0002" ref-type="fig">2b</xref>). We chose to present the analysis done with air temperature as independent variable instead of soil temperature because within the experimental setup, air temperature was the directly manipulated variable and soil temperature was then causally dependent on it. We also performed the analysis with organic soil temperature instead of air temperature, and the results were very similar (analysis with soil temperature is available as Appendices&#x000a0;<xref rid="ece37816-sup-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ece37816-sup-0001" ref-type="supplementary-material">S2</xref>). Average air temperature and soil moisture were calculated from the raw data file in Ellison and Dunn (<xref rid="ece37816-bib-0013" ref-type="bibr">2017</xref>); for statistical analysis, the 5&#x02010;years average of each chamber was used.</p><p>Three community indices considering all tardigrade species (abundance, species richness, and Shannon index) and the abundance of the three most abundant tardigrade species [<italic toggle="yes">Diphascon pingue</italic> (Marcus, 1936), <italic toggle="yes">Adropion scoticum</italic> (Murray, 1905), and <italic toggle="yes">Mesobiotus</italic> sp.] were examined and related to the artificially increased air temperatures and soil moisture (singly and in pair). Diversity index calculations and variance partitioning were performed with R software (base package, stats package, vegan package; Oksanen et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0029" ref-type="bibr">2018</xref>). Variance partitioning was performed to compare the variance contribution of the pseudoreplicates within samples by means of the &#x0201c;aov&#x0201d; function from the R base package with a nested design, without considering the significance testing. Differences in specimen abundances (of all species and the three individual species), number of species (Species richness), and Shannon index were tested against air temperature, soil moisture, and their interaction using Bayesian generalized linear mixed models (GLMMs) implemented in JAGS with the R package R2jags (Su &#x00026; Yajima,&#x000a0;<xref rid="ece37816-bib-0043" ref-type="bibr">2012</xref>). In all models, chamber identity (i.e., each individual chamber code) was used as a random effect. Predictors (air temperature and soil moisture) were scaled and centered before model fitting. For all three response variables, a log link function was used. The error families used were negative binomial, Poisson, and Gamma for number of specimens, number of species, and Shannon index, respectively. From the posterior distributions of the model parameter estimates, a Bayesian <italic toggle="yes">p</italic>&#x02010;value and standardized effect sizes were calculated according to Makowski et&#x000a0;al.&#x000a0;(<xref rid="ece37816-bib-0025" ref-type="bibr">2019</xref>) and Cohen (<xref rid="ece37816-bib-0007" ref-type="bibr">1988</xref>). All of the analyses performed with their code are reported in Appendix&#x000a0;<xref rid="ece37816-sup-0001" ref-type="supplementary-material">S1</xref>.</p></sec></sec><sec sec-type="results" id="ece37816-sec-0006"><label>3</label><title>RESULTS</title><p>Each of the 24 samples of leaf litter contained tardigrades. A total of 1,762 tardigrades, belonging to 13 taxa, were collected, for a mean of 14.6 (min 6, max 40) tardigrades/g of dry leaf litter (Table&#x000a0;<xref rid="ece37816-tbl-0001" ref-type="table">1</xref>). Three species, namely <italic toggle="yes">Diphascon pingue</italic>, <italic toggle="yes">Adropion scoticum,</italic> and <italic toggle="yes">Mesobiotus</italic> sp., were found to be numerically dominant, accounting for more than 95% of all observed individuals (41.03%, 40.69%, and 13.96%, respectively). One species (<italic toggle="yes">Pseudechiniscus</italic> sp.) was a singleton, found as a single individual in a single chamber (Appendix&#x000a0;<xref rid="ece37816-sup-0002" ref-type="supplementary-material">S3</xref>).</p><table-wrap position="float" id="ece37816-tbl-0001" content-type="TABLE"><label>TABLE 1</label><caption><p>Average temperature and soil moisture of each chamber (from 5&#x000a0;years of measuring) and the tardigrades abundance in the leaf litter</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Chamber</th><th align="left" valign="top" rowspan="1" colspan="1">Average air temperature (&#x000b0;C)</th><th align="left" valign="top" rowspan="1" colspan="1">Average soil moisture (v/v)</th><th align="left" valign="top" rowspan="1" colspan="1">Average abundance of tardigrades (per 10 gram sample of leaf litter)</th><th align="left" valign="top" rowspan="1" colspan="1">Standard deviation of tardigrade abundance (per 10 gram sample of leaf litter)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">12.9443</td><td align="char" char="." rowspan="1" colspan="1">0.1267</td><td align="char" char="." rowspan="1" colspan="1">32.5</td><td align="char" char="." rowspan="1" colspan="1">26.16</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">12.2119</td><td align="char" char="." rowspan="1" colspan="1">0.1290</td><td align="char" char="." rowspan="1" colspan="1">122.0</td><td align="char" char="." rowspan="1" colspan="1">56.57</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">10.2466</td><td align="char" char="." rowspan="1" colspan="1">0.1133</td><td align="char" char="." rowspan="1" colspan="1">44.5</td><td align="char" char="." rowspan="1" colspan="1">9.19</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<underline underline-style="single">4</underline>
+</td><td align="char" char="." rowspan="1" colspan="1">8.6845</td><td align="char" char="." rowspan="1" colspan="1">0.1087</td><td align="char" char="." rowspan="1" colspan="1">84.5</td><td align="char" char="." rowspan="1" colspan="1">103.95</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">12.6972</td><td align="char" char="." rowspan="1" colspan="1">0.1196</td><td align="char" char="." rowspan="1" colspan="1">43.5</td><td align="char" char="." rowspan="1" colspan="1">31.82</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<underline underline-style="single">6</underline>
+</td><td align="char" char="." rowspan="1" colspan="1">8.4891</td><td align="char" char="." rowspan="1" colspan="1">0.1485</td><td align="char" char="." rowspan="1" colspan="1">28.5</td><td align="char" char="." rowspan="1" colspan="1">23.34</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">11.2096</td><td align="char" char="." rowspan="1" colspan="1">0.1144</td><td align="char" char="." rowspan="1" colspan="1">47.0</td><td align="char" char="." rowspan="1" colspan="1">25.46</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">9.9831</td><td align="char" char="." rowspan="1" colspan="1">0.1158</td><td align="char" char="." rowspan="1" colspan="1">112.0</td><td align="char" char="." rowspan="1" colspan="1">131.52</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">10.3387</td><td align="char" char="." rowspan="1" colspan="1">0.1894</td><td align="char" char="." rowspan="1" colspan="1">31.5</td><td align="char" char="." rowspan="1" colspan="1">4.95</td></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">12.1041</td><td align="char" char="." rowspan="1" colspan="1">0.1784</td><td align="char" char="." rowspan="1" colspan="1">79.5</td><td align="char" char="." rowspan="1" colspan="1">65.76</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<underline underline-style="single">11</underline>
+</td><td align="char" char="." rowspan="1" colspan="1">8.4038</td><td align="char" char="." rowspan="1" colspan="1">0.1445</td><td align="char" char="." rowspan="1" colspan="1">53.5</td><td align="char" char="." rowspan="1" colspan="1">65.76</td></tr><tr><td align="left" rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">11.4322</td><td align="char" char="." rowspan="1" colspan="1">0.1919</td><td align="char" char="." rowspan="1" colspan="1">202.0</td><td align="char" char="." rowspan="1" colspan="1">206.48</td></tr></tbody></table><table-wrap-foot id="ece37816-ntgp-0002"><title>Note</title><fn id="ece37816-note-0002"><p>Underlined chambers are controls (i.e., chambers without heating).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>The variance partition (Table&#x000a0;<xref rid="ece37816-tbl-0002" ref-type="table">2</xref>) between pseudoreplicates within each chamber and among chambers showed that most of the variance for all examined indexes was best explained by the differences among pseudoreplicates of the same chamber than the difference among different chambers (e.g., for <italic toggle="yes">D</italic>. <italic toggle="yes">pingue</italic> individuals, this difference explains almost 100% of the variation). These high values of variance shown by pseudoreplicates indicate a very high small&#x02010;scale heterogeneity (at grains less than 5&#x000a0;m) in the distribution of tardigrades. The Bayesian GLMMs converged with good Rhat and autocorrelation values (see Appendixs&#x000a0;<xref rid="ece37816-sup-0001" ref-type="supplementary-material">S1</xref>).</p><table-wrap position="float" id="ece37816-tbl-0002" content-type="TABLE"><label>TABLE 2</label><caption><p>Variance partitioning and Bayesian GLMM results</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">Abundance</th><th align="left" valign="top" rowspan="1" colspan="1">Taxa</th><th align="left" valign="top" rowspan="1" colspan="1">Shannon</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Adropion</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Mesobiotus</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">Diphascon</italic>
+</th></tr></thead><tbody><tr><td align="left" colspan="7" rowspan="1">Variance partitioning</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Variance between pseudoreplicates/total variance</td><td align="left" rowspan="1" colspan="1">94.85%</td><td align="left" rowspan="1" colspan="1">94.08%</td><td align="left" rowspan="1" colspan="1">99.20%</td><td align="left" rowspan="1" colspan="1">91.49%</td><td align="left" rowspan="1" colspan="1">99.14%</td><td align="left" rowspan="1" colspan="1">99.91%</td></tr><tr><td align="left" colspan="7" rowspan="1">Bayesian GLMM results</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Air temperature</td><td align="left" rowspan="1" colspan="1">0.369/0.003</td><td align="left" rowspan="1" colspan="1">0.927/0.007</td><td align="left" rowspan="1" colspan="1">0.788/0.073</td><td align="left" rowspan="1" colspan="1">0.715/0.004</td><td align="left" rowspan="1" colspan="1">0.515/0.015</td><td align="left" rowspan="1" colspan="1">0.522/0.004</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Soil moisture</td><td align="left" rowspan="1" colspan="1">0.886/0.000</td><td align="left" rowspan="1" colspan="1">0.422/0.059</td><td align="left" rowspan="1" colspan="1">0.979/&#x02212;0.007</td><td align="left" rowspan="1" colspan="1">0.510/0.008</td><td align="left" rowspan="1" colspan="1">0.141/&#x02212;0.039</td><td align="left" rowspan="1" colspan="1">0.753/&#x02212;0.002</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Temperature*Moisture</td><td align="left" rowspan="1" colspan="1">0.086/0.008</td><td align="left" rowspan="1" colspan="1">0.778/&#x02212;0.029</td><td align="left" rowspan="1" colspan="1">0.255/<bold>&#x02212;0.472</bold>
+</td><td align="left" rowspan="1" colspan="1">0.728/&#x02212;0.007</td><td align="left" rowspan="1" colspan="1">0.088/0.063</td><td align="left" rowspan="1" colspan="1">
+<bold>0.049</bold>/0.021</td></tr></tbody></table><table-wrap-foot id="ece37816-ntgp-0003"><title>Note</title><fn id="ece37816-note-0003"><p>Existence (Bayesian <italic toggle="yes">p</italic>&#x02010;value (<italic toggle="yes">p</italic>)) and effect size statistics (directional median Cohen's <italic toggle="yes">d</italic> (<italic toggle="yes">d</italic>)) of the effect of the environmental parameters (air temperature, soil moisture, air temperature * soil moisture) on the community structure parameters (abundance&#x000a0;=&#x000a0;total number of tardigrades, taxa&#x000a0;=&#x000a0;total number of species, Shannon&#x000a0;=&#x000a0;Shannon index, <italic toggle="yes">Adropion</italic>&#x000a0;=&#x000a0;number of animals of <italic toggle="yes">Adropion scoticum</italic>, <italic toggle="yes">Diphascon</italic>&#x000a0;=&#x000a0;number of animal of <italic toggle="yes">Diphascon pingue</italic>, <italic toggle="yes">Mesobiotus</italic>&#x000a0;=&#x000a0;number of animal of <italic toggle="yes">Mesobiotus</italic> sp. Statistics are presented as <italic toggle="yes">p</italic>/<italic toggle="yes">d</italic>. In bold: <italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.05, |<italic toggle="yes">d</italic>|&#x000a0;&#x0003e;&#x000a0;0.1.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Bayesian <italic toggle="yes">p</italic>&#x02010;values and effect sizes (Table&#x000a0;<xref rid="ece37816-tbl-0002" ref-type="table">2</xref>) suggest the absence of an effect for all the combinations of predictors and response variables. The effect of the interaction of temperature and moisture on <italic toggle="yes">Diphascon</italic> has a <italic toggle="yes">p</italic>&#x02010;value slightly below 0.05; however, the effect size of 0.049 suggests that even if the effect exists, it would be so small to not be of biological relevance. Inversely, the effect of the interaction of air temperature and moisture on the Shannon index shows a high absolute value of effect size (&#x02212;0.472); however, it is not possible to confirm whether this effect exists as the Bayesian <italic toggle="yes">p</italic>&#x02010;value is 0.255. Additionally, in all posterior estimates of the regression parameters, the 95% highest density interval (HDI) comprises the value 0 (Appendix&#x000a0;<xref rid="ece37816-sup-0001" ref-type="supplementary-material">S1</xref>).</p><p>This can be translated in the absence of a significant effect of the predictors tested (i.e., air temperature, soil moisture, and their interaction). In other words, none of the three diversity indexes (number of specimens, species richness, and Shannon index) nor the abundances of the three species tested individually were correlated with mean chamber measurements of air temperature values, soil moisture, or air temperature and soil moisture when considered together (i.e., the synergic/cross related effects of these environmental parameters) after the 5&#x000a0;years of the experiment. To summarize, no significant influence of the long&#x02010;term warming environmental treatments was found on the examined ecological indexes of the tardigrade community.</p></sec><sec sec-type="discussion" id="ece37816-sec-0007"><label>4</label><title>DISCUSSION</title><p>We found that 5&#x000a0;years of experimental warming had no detectable effect on the tardigrade community (nor on a specific component of it) inhabiting the soil litter. While warming has generally affected community composition of those taxa (i.e., bacteria, ants, and other ground arthropods) studied within the context of the Duke Forest warming experiment (Cregger et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0010" ref-type="bibr">2014</xref>; Diamond et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0011" ref-type="bibr">2016</xref>; Fitzgerald et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0014" ref-type="bibr">2021</xref>; Pelini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0031" ref-type="bibr">2014</xref>), our results for tardigrades are unique in that we observed no effects of the warming treatment. This was true even in the warmest chambers in which temperatures were raised to mimic the worst scenario predicted (RCP 8.5; IPCC,&#x000a0;<xref rid="ece37816-bib-0021" ref-type="bibr">2013</xref>) for the year 2100.</p><p>Our results are in line with other studies that have failed to find an effect of warming or other manipulations on tardigrade communities. Sohlenius and Bostr&#x000f6;m (<xref rid="ece37816-bib-0039" ref-type="bibr">1999a</xref>), for example, found no differences in tardigrade abundance between the treatments (samples transplanted to other climatic conditions). Their work was based on short&#x02010;term transplant studies lasting around one year during which temperature and rainfall changed but also the surrounding substrate. On the other hand, in another short&#x02010;term transplant study, Briones et&#x000a0;al.&#x000a0;(<xref rid="ece37816-bib-0005" ref-type="bibr">1997</xref>) found that tardigrade population oscillations were positively correlated with temperature, though only in the colder sites.</p><p>There are difficulties in comparing the results of the studies related to the effects of environmental warming on terrestrial microfauna (e.g., tardigrades vs nematodes) due to the differences in the experimental designs used in those studies. For example, the studies on nematodes, that are those performed more extensively, have been conducted: in different geographic areas, ecotypes, and habitats, e.g., bryophytes (Newsham et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0028" ref-type="bibr">2020</xref>), acid soil (Stevnbak et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0042" ref-type="bibr">2012</xref>), temperate&#x02010;semiarid soil (Bakonyi &#x00026; Nagy,&#x000a0;<xref rid="ece37816-bib-0002" ref-type="bibr">2000</xref>; Yan et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0046" ref-type="bibr">2017</xref>), temperate&#x02010;boreal forest soil (Thakur et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0044" ref-type="bibr">2014</xref>), and tundra (Sohlenius &#x00026; Bostrom,&#x000a0;<xref rid="ece37816-bib-0040" ref-type="bibr">1999b</xref>); moreover, most of them were performed in Antarctic soils (Andriuzzi et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0001" ref-type="bibr">2018</xref>; Convey &#x00026; Wynn&#x02010;Williams,&#x000a0;<xref rid="ece37816-bib-0008" ref-type="bibr">2002</xref>; Knox et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0022" ref-type="bibr">2017</xref>; Simmons et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0038" ref-type="bibr">2009</xref>) where the effects of warming are difficult to separate from those of the freeze&#x02013;thaw cycles (Knox et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0022" ref-type="bibr">2017</xref>; Simmons et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0038" ref-type="bibr">2009</xref>); using different experimental approaches, e.g., transplants (Sohlenius &#x00026; Bostr&#x000f6;m, <xref rid="ece37816-bib-0039" ref-type="bibr">1999a</xref>, <xref rid="ece37816-bib-0040" ref-type="bibr">1999b</xref>), greenhouses (Convey &#x00026; Wynn&#x02010;Williams,&#x000a0;<xref rid="ece37816-bib-0008" ref-type="bibr">2002</xref>; Stevnbak et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0042" ref-type="bibr">2012</xref>), open&#x02010;top chambers (Newsham et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0028" ref-type="bibr">2020</xref>; Prather et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0033" ref-type="bibr">2019</xref>), or different heating systems (e.g. infrared [Yan et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0046" ref-type="bibr">2017</xref>], ceramic and cable heaters [Thakur et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0044" ref-type="bibr">2014</xref>], and sun reflection [Bakonyi &#x00026; Nagy,&#x000a0;<xref rid="ece37816-bib-0002" ref-type="bibr">2000</xref>]); to last for different times, e.g., months (Bakonyi &#x00026; Nagy,&#x000a0;<xref rid="ece37816-bib-0002" ref-type="bibr">2000</xref>) or years (Newsham et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0028" ref-type="bibr">2020</xref>); and targeting different taxa (e.g. Andriuzzi et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0001" ref-type="bibr">2018</xref>; Convey &#x00026; Wynn&#x02010;Williams,&#x000a0;<xref rid="ece37816-bib-0008" ref-type="bibr">2002</xref>). These studies performed in different conditions showed some contrasting results of the effects of warming on nematode communities: for example, reduction (Simmons et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0038" ref-type="bibr">2009</xref>; Stevnbak et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0042" ref-type="bibr">2012</xref>; Yan et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0046" ref-type="bibr">2017</xref>) and/or increase (Blankinship et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0004" ref-type="bibr">2011</xref>; Sohlenius &#x00026; Bostrom,&#x000a0;<xref rid="ece37816-bib-0040" ref-type="bibr">1999b</xref>) in abundances, or different responses according to the species and/or trophic level (see Hiltpold et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0019" ref-type="bibr">2017</xref>). Therefore, soil nematode communities show responses to climate change that are context&#x02010;dependent and are moderated by ecosystem characteristics such as vegetation type and/or nutrient levels (Hiltpold et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0019" ref-type="bibr">2017</xref>; Prather et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0033" ref-type="bibr">2019</xref>). Moreover, for most of the microfauna species considered in this and previous studies (e.g., tardigrades and nematodes), very little is known about their ecology and microhabitats conditions.</p><p>Our findings come from a single tardigrade community from a single location; they may indicate that tardigrades are resilient to the increases in temperature. The comparisons of our results with those obtained with nematodes, with which share similar size, anhydrobiotic capabilities, and often existing in similar substrates, can be difficult due to the abovementioned reasons. Anyway, in an experiment conducted in a similar habitat (i.e., temperate forest), the effects of 2&#x000a0;years increased soil temperature recorded on nematode community were similar to those found in our experiment: no effect on total or trophic group abundances (Thakur et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0044" ref-type="bibr">2014</xref>).</p><p>We have three hypotheses, that are not necessarily mutually exclusive, that could explain the lack of response of tardigrades to extreme experimental warming. First, the tardigrades at the study site may have unusually high thermal optima and maxima, such that they thrive even as conditions warm. Even tardigrade species living in cold regions appear to have relatively high thermal limits. For example, the Antarctic species <italic toggle="yes">Acutuncus antarcticus</italic> (Richters, 1904) can withstand short heat shocks up to 33&#x000b0;C (Giovannini et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0015" ref-type="bibr">2018</xref>). Similarly, the boreo&#x02010;alpine tardigrade species <italic toggle="yes">Borealibius zetlandicus</italic> (Murray, 1907) showed a lethal temperature (LT50) of 33&#x000b0;C (Rebecchi, Boschini, et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0036" ref-type="bibr">2009</xref>). It seems plausible that the thermal limits of tardigrades living in the far warmer conditions of the southern part of North America would be higher and perhaps high enough to allow success even in light of the warming studied here.</p><p>Second, the resistance of tardigrades to warming may be further explained by the characteristics of their habitat. The top layer of soil, the upper horizon, is made up of living and decomposed materials (e.g., leaf litter); the presence of wide air&#x02010;filled spaces and its heterogeneity can buffer the increase of external temperature and allow animals to select the most suitable microhabitat. Tardigrade responses to small&#x02010;scale habitat heterogeneity (patchiness) could explain the high variability among pseudoreplicates as shown to be the predominant source of variance for all six examined indexes (Table&#x000a0;<xref rid="ece37816-tbl-0002" ref-type="table">2</xref>). Leetham et&#x000a0;al.&#x000a0;(<xref rid="ece37816-bib-0023" ref-type="bibr">1982</xref>) and Hohberg (<xref rid="ece37816-bib-0020" ref-type="bibr">2006</xref>) also found a high intrasite variance in the number of tardigrades in soil habitats, and a similar level of patchiness has been shown for other substrates as well (Meyer,&#x000a0;<xref rid="ece37816-bib-0026" ref-type="bibr">2006</xref>; Sohlenius et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0041" ref-type="bibr">2004</xref>; Tilbert et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0045" ref-type="bibr">2019</xref>). In our experimental setup, soil moisture was not correlated with air temperature and was instead correlated with air relative humidity (Burt et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0006" ref-type="bibr">2014</xref>). The difference between soil moisture and air humidity is likely to create a moisture gradient in the leaf litter, generating microhabitats with different moisture levels. The potential indirect effect of warming (moisture change) could then be buffered by tardigrades moving to or living in different leaf litter areas/layers with a more suitable moisture, as tardigrades have been shown to be able to differentially colonize different soil and leaf litter layers according to the seasons (Briones et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0005" ref-type="bibr">1997</xref>; Guidetti et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0017" ref-type="bibr">1999</xref>, respectively).</p><p>Third, the ability of tardigrades to enter anhydrobiosis (Guidetti et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0016" ref-type="bibr">2011</xref>). The thermal tolerance of tardigrades in their desiccated state is known to be higher than when they are in their active state (Neves et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0027" ref-type="bibr">2020</xref>; Rebecchi, Cesari, et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0037" ref-type="bibr">2009</xref>). It is possible that tardigrades escaped the negative effects of high temperatures in our study, especially during summer; because they were in a desiccated state of anhydrobiosis, they could compensate the larger amount of time spent in anhydrobiosis in summer by taking advantage of a reduced frozen period in winter. During summer when temperatures peak in temperate environments, water availability is usually reduced in substrates (leaf litter, mosses, and lichens) inhabited by tardigrades, which dry out quickly. It is thus possible that, in our study site, tardigrades are most active in cooler times of year and spend the hottest time of the year in a state of anhydrobiosis, a state in which their thermal tolerance is increased (Neves et&#x000a0;al.,&#x000a0;<xref rid="ece37816-bib-0027" ref-type="bibr">2020</xref>). The co&#x02010;occurrence of warmer temperatures with dry conditions could be an additional factor that increases tardigrade survival to warming in specific climatic areas.</p><p>The experimental data obtained in this work represent a small light to illuminate the effects of climate changes in the dark world of soil microfauna. It highlights that tardigrades in soil litter are part of those tolerant species able to survive the increase in air temperature due to global warming, and this may be related to their ability to enter anhydrobiosis or a higher tolerance of thermal extremes.</p></sec><sec sec-type="COI-statement" id="ece37816-sec-009"><title>CONFLICT OF INTERESTS</title><p>The authors have no competing interests to declare.</p></sec><sec id="ece37816-sec-0010"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Matteo Vecchi:</bold> Conceptualization (equal); Data curation (equal); Formal analysis (lead); Investigation (equal); Methodology (equal); Visualization (lead); Writing&#x02010;original draft (lead); Writing&#x02010;review &#x00026; editing (equal). <bold>Laurent</bold>
+<bold>Kossi Adakpo:</bold> Data curation (equal); Investigation (equal). <bold>Robert R. Dunn:</bold> Conceptualization (equal); Funding acquisition (equal); Project administration (lead); Resources (equal); Supervision (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Lauren M. Nichols:</bold> Conceptualization (equal); Data curation (equal); Funding acquisition (equal); Resources (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Clint A</bold>. <bold>Penick:</bold> Conceptualization (equal); Data curation (equal); Funding acquisition (equal); Resources (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Nathan J. Sanders:</bold> Conceptualization (equal); Data curation (equal); Funding acquisition (equal); Resources (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Lorena</bold>
+<bold>Rebecchi:</bold> Funding acquisition (equal); Supervision (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Roberto</bold>
+<bold>Guidetti:</bold> Conceptualization (equal); Funding acquisition (equal); Resources (equal); Supervision (equal); Writing&#x02010;original draft (supporting); Writing&#x02010;review &#x00026; editing (equal).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece37816-sup-0001" position="float" content-type="local-data"><caption><p>Appendix S1&#x02010;S2</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-11-9856-s002.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="ece37816-sup-0002" position="float" content-type="local-data"><caption><p>Appendix S3</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-11-9856-s001.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece37816-sec-0008"><title>ACKNOWLEDGMENTS</title><p>We thank the anonymous referees and the editor for their comments that allowed us to improve the manuscript. This work was supported by the National Science Foundation Dimensions of Biodiversity [grant number 1136703]; the United States Department of Energy [grant number DEFG02&#x02010;08ER64510]; the Department of the Interior's Southeast Climate Science Center, under cooperative agreement numbers G13AC00405; and the departmental FAR grant of the University of Modena and Reggio Emilia, Italy.</p></ack><sec sec-type="data-availability" id="ece37813-sec-0012"><title>DATA AVAILABILITY STATEMENT</title><p>Warming chamber environmental variables are available at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf113" ext-link-type="uri" specific-use="software is-supplemented-by">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf113</ext-link>. Appendices&#x000a0;<xref rid="ece37816-sup-0001" ref-type="supplementary-material">[Link]</xref>, <xref rid="ece37816-sup-0002" ref-type="supplementary-material">[Link]</xref> and a copy of the raw environmental measurements are also available in Figshare under the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.14742699" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.6084/m9.figshare.14742699</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece37816-bibl-0001"><title>REFERENCES</title><ref id="ece37816-bib-0001"><mixed-citation publication-type="journal" id="ece37816-cit-0001">
+<string-name>
+<surname>Andriuzzi</surname>, <given-names>W. S.</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Barrett</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Virginia</surname>, <given-names>R. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wall</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>2018</year>). <article-title>Observed trends of soil fauna in the Antarctic Dry Valleys: Early signs of shifts predicted under climate change</article-title>. <source>Ecology</source>, <volume>99</volume>(<issue>2</issue>), <fpage>312</fpage>&#x02013;<lpage>321</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.2090</pub-id>
+<pub-id pub-id-type="pmid">29315515</pub-id></mixed-citation></ref><ref id="ece37816-bib-0002"><mixed-citation publication-type="journal" id="ece37816-cit-0002">
+<string-name>
+<surname>Bakonyi</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nagy</surname>, <given-names>P.</given-names>
+</string-name> (<year>2000</year>). <article-title>Temperature&#x02010;and moisture&#x02010;induced changes in the structure of the nematode fauna of a semiarid grassland&#x02013;patterns and mechanisms</article-title>. <source>Global Change Biology</source>, <volume>6</volume>(<issue>6</issue>), <fpage>697</fpage>&#x02013;<lpage>707</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2486.2000.00354.x</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0003"><mixed-citation publication-type="journal" id="ece37816-cit-0003">
+<string-name>
+<surname>Bingemer</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hohberg</surname>, <given-names>K.</given-names>
+</string-name> (<year>2017</year>). <article-title>An illustrated identification key to the eutardigrade species (Tardigrada, Eutardigrada) presently known from European soils</article-title>. <source>Soil Organisms</source>, <volume>89</volume>(<issue>3</issue>), <fpage>127</fpage>&#x02013;<lpage>149</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0004"><mixed-citation publication-type="journal" id="ece37816-cit-0004">
+<string-name>
+<surname>Blankinship</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Niklaus</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hungate</surname>, <given-names>B. A.</given-names>
+</string-name> (<year>2011</year>). <article-title>A meta&#x02010;analysis of responses of soil biota to global change</article-title>. <source>Oecologia</source>, <volume>165</volume>(<issue>3</issue>), <fpage>553</fpage>&#x02013;<lpage>565</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-011-1909-0</pub-id>
+<pub-id pub-id-type="pmid">21274573</pub-id></mixed-citation></ref><ref id="ece37816-bib-0005"><mixed-citation publication-type="journal" id="ece37816-cit-0005">
+<string-name>
+<surname>Briones</surname>, <given-names>M. J. I.</given-names>
+</string-name>, <string-name>
+<surname>Ineson</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Piearce</surname>, <given-names>T. G.</given-names>
+</string-name> (<year>1997</year>). <article-title>Effects of climate change on soil fauna; responses of enchytraeids, Diptera larvae and tardigrades in a transplant experiment</article-title>. <source>Applied Soil Ecology</source>, <volume>6</volume>(<issue>2</issue>), <fpage>117</fpage>&#x02013;<lpage>134</lpage>. <pub-id pub-id-type="doi">10.1016/S0929-1393(97)00004-8</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0006"><mixed-citation publication-type="journal" id="ece37816-cit-0006">
+<string-name>
+<surname>Burt</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>L. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Interactions in a warmer world: Effects of experimental warming, conspecific density, and herbivory on seedling dynamics</article-title>. <source>Ecosphere</source>, <volume>5</volume>(<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1890/ES13-00198.1</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0007"><mixed-citation publication-type="book" id="ece37816-cit-0007">
+<string-name>
+<surname>Cohen</surname>, <given-names>J.</given-names>
+</string-name> (<year>1988</year>). <source>Statistical power analysis for the social sciences</source>. <publisher-name>Academic Publishers</publisher-name>.</mixed-citation></ref><ref id="ece37816-bib-0008"><mixed-citation publication-type="journal" id="ece37816-cit-0008">
+<string-name>
+<surname>Convey</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wynn&#x02010;Williams</surname>, <given-names>D. D.</given-names>
+</string-name> (<year>2002</year>). <article-title>Antarctic soil nematode response to artificial climate amelioration</article-title>. <source>European Journal of Soil Biology</source>, <volume>38</volume>(<issue>3&#x02013;4</issue>), <fpage>255</fpage>&#x02013;<lpage>259</lpage>. <pub-id pub-id-type="doi">10.1016/S1164-5563(02)01155-X</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0009"><mixed-citation publication-type="journal" id="ece37816-cit-0009">
+<string-name>
+<surname>Copley</surname>, <given-names>J.</given-names>
+</string-name> (<year>1999</year>). <article-title>Indestructible</article-title>. <source>New Scientist</source>, <volume>2209</volume>, <fpage>44</fpage>&#x02013;<lpage>46</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0010"><mixed-citation publication-type="journal" id="ece37816-cit-0010">
+<string-name>
+<surname>Cregger</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Classen</surname>, <given-names>A. T.</given-names>
+</string-name> (<year>2014</year>). <article-title>Microbial communities respond to experimental warming, but site matters</article-title>. <source>PeerJ</source>, <volume>2</volume>, <elocation-id>e358</elocation-id>. <pub-id pub-id-type="doi">10.7717/peerj.358</pub-id>
+<pub-id pub-id-type="pmid">24795850</pub-id></mixed-citation></ref><ref id="ece37816-bib-0011"><mixed-citation publication-type="journal" id="ece37816-cit-0011">
+<string-name>
+<surname>Diamond</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Pelini</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Penick</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Barber</surname>, <given-names>G. W.</given-names>
+</string-name>, <string-name>
+<surname>Cahan</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name>
+<surname>Ellison</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Climatic warming destabilizes forest ant communities</article-title>. <source>Science Advances</source>, <volume>2</volume>(<issue>10</issue>), <elocation-id>e1600842</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.1600842</pub-id>
+<pub-id pub-id-type="pmid">27819044</pub-id></mixed-citation></ref><ref id="ece37816-bib-0012"><mixed-citation publication-type="journal" id="ece37816-cit-0012">
+<string-name>
+<surname>Diamond</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Penick</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Pelini</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Ellison</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>2013</year>). <article-title>Using physiology to predict the responses of ants to climatic warming</article-title>. <source>Integrative &#x00026; Comparative Biology</source>, <volume>53</volume>(<issue>6</issue>), <fpage>965</fpage>&#x02013;<lpage>974</lpage>. <pub-id pub-id-type="doi">10.1093/icb/ict085</pub-id>
+<pub-id pub-id-type="pmid">23892370</pub-id></mixed-citation></ref><ref id="ece37816-bib-0013"><mixed-citation publication-type="book" id="ece37816-cit-0013">
+<string-name>
+<surname>Ellison</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunn</surname>, <given-names>R.</given-names>
+</string-name> (<year>2017</year>). <source>Ants Under Climate Change at Harvard Forest and Duke Forest 2009&#x02010;2015</source>. Harvard Forest Data Archive: HF113. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://harvardforest.fas.harvard.edu:8080/exist/apps/datasets/showData.html?id=hf113" ext-link-type="uri">http://harvardforest.fas.harvard.edu:8080/exist/apps/datasets/showData.html?id=hf113</ext-link>
+</mixed-citation></ref><ref id="ece37816-bib-0014"><mixed-citation publication-type="journal" id="ece37816-cit-0014">
+<string-name>
+<surname>Fitzgerald</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Stuble</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Diamond</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Wentworth</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name>
+<surname>Pelini</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Penick</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2021</year>). <article-title>Abundance of spring&#x02010;and winter&#x02010;active arthropods declines with warming</article-title>. <source>Ecosphere</source>, <volume>12</volume>(<issue>4</issue>), <elocation-id>e03473</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecs2.3473</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0015"><mixed-citation publication-type="journal" id="ece37816-cit-0015">
+<string-name>
+<surname>Giovannini</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Altiero</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name> (<year>2018</year>). <article-title>Will the Antarctic tardigrade <italic toggle="yes">Acutuncus</italic>
+<italic toggle="yes">antarcticus</italic> be able to withstand environmental stresses related to global climate change?</article-title>
+<source>Journal of Experimental Biology</source>, <volume>221</volume>(<issue>4</issue>), <fpage>jeb160622</fpage>.</mixed-citation></ref><ref id="ece37816-bib-0016"><mixed-citation publication-type="journal" id="ece37816-cit-0016">
+<string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Altiero</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name> (<year>2011</year>). <article-title>On dormancy strategies in tardigrades</article-title>. <source>Journal of Insects Physiology</source>, <volume>57</volume>(<issue>5</issue>), <fpage>567</fpage>&#x02013;<lpage>576</lpage>. <pub-id pub-id-type="doi">10.1016/j.jinsphys.2011.03.003</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0017"><mixed-citation publication-type="journal" id="ece37816-cit-0017">
+<string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bertolani</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nelson</surname>, <given-names>D. R.</given-names>
+</string-name> (<year>1999</year>). <article-title>Ecological and Faunistic Studies on Tardigrades in leaf litter of beech forest</article-title>. <source>Zoologischer Anzeiger</source>, <volume>238</volume>, <fpage>215</fpage>&#x02013;<lpage>223</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0018"><mixed-citation publication-type="journal" id="ece37816-cit-0018">
+<string-name>
+<surname>Guil</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sanchez&#x02010;Moreno</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>Fine&#x02010;scale patterns in micrometazoans: Tardigrade diversity, community composition and trophic dynamics in leaf litter</article-title>. <source>Systematics and Biodiversity</source>, <volume>11</volume>(<issue>2</issue>), <fpage>181</fpage>&#x02013;<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1080/14772000.2013.798370</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0019"><mixed-citation publication-type="book" id="ece37816-cit-0019">
+<string-name>
+<surname>Hiltpold</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name>
+<surname>Bayon</surname>, <given-names>R. C. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nielsen</surname>, <given-names>U. N.</given-names>
+</string-name> (<year>2017</year>). <chapter-title>Climate change in the underworld: Impacts for soil&#x02010;dwelling invertebrates</chapter-title>. In <person-group person-group-type="editor">
+<string-name>
+<given-names>S. N.</given-names>
+<surname>Johnson</surname>
+</string-name>
+</person-group> &#x00026; <person-group person-group-type="editor">
+<string-name>
+<given-names>T. H.</given-names>
+<surname>Jones</surname>
+</string-name>
+</person-group> (Eds.), <source>Global climate change and terrestrial invertebrates</source> (pp. <fpage>201</fpage>&#x02013;<lpage>228</lpage>). <publisher-name>John Wiley &#x00026; Sons Ltd</publisher-name>.</mixed-citation></ref><ref id="ece37816-bib-0020"><mixed-citation publication-type="journal" id="ece37816-cit-0020">
+<string-name>
+<surname>Hohberg</surname>, <given-names>K.</given-names>
+</string-name> (<year>2006</year>). <article-title>Tardigrade species composition in young soils and some aspects on life history of <italic toggle="yes">Macrobiotus</italic>
+<italic toggle="yes">richtersi</italic> J. Murray, 1911</article-title>. <source>Pedobiologia</source>, <volume>50</volume>, <fpage>267</fpage>&#x02013;<lpage>274</lpage>. <pub-id pub-id-type="doi">10.1016/j.pedobi.2006.02.004</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0021"><mixed-citation publication-type="book" id="ece37816-cit-0021">
+<collab collab-type="authors">IPCC</collab>
+(<year>2013</year>). <source>Climate change 2013: The physical science basis. Contribution of working group I to the fifth assessment report of the intergovernmental panel on climate change</source>. <publisher-name>IPCC</publisher-name>.</mixed-citation></ref><ref id="ece37816-bib-0022"><mixed-citation publication-type="journal" id="ece37816-cit-0022">
+<string-name>
+<surname>Knox</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Andriuzzi</surname>, <given-names>W. S.</given-names>
+</string-name>, <string-name>
+<surname>Buelow</surname>, <given-names>H. N.</given-names>
+</string-name>, <string-name>
+<surname>Takacs&#x02010;Vesbach</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>, <given-names>B. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wall</surname>, <given-names>D. H.</given-names>
+</string-name> (<year>2017</year>). <article-title>Decoupled responses of soil bacteria and their invertebrate consumer to warming, but not freeze&#x02013;thaw cycles, in the Antarctic Dry Valleys</article-title>. <source>Ecology Letters</source>, <volume>20</volume>(<issue>10</issue>), <fpage>1242</fpage>&#x02013;<lpage>1249</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12819</pub-id>
+<pub-id pub-id-type="pmid">28797136</pub-id></mixed-citation></ref><ref id="ece37816-bib-0023"><mixed-citation publication-type="journal" id="ece37816-cit-0023">
+<string-name>
+<surname>Leetham</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name>
+<surname>McNary</surname>, <given-names>T. J.</given-names>
+</string-name>, <string-name>
+<surname>Dodd</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lauenroth</surname>, <given-names>W. K.</given-names>
+</string-name> (<year>1982</year>). <article-title>Response of soil nematodes, rotifers and tardigrades to three levels of season&#x02010;long sulfur dioxide exposures</article-title>. <source>Water, Air, and Soil Pollution</source>, <volume>17</volume>(<issue>4</issue>), <fpage>343</fpage>&#x02013;<lpage>356</lpage>. <pub-id pub-id-type="doi">10.1007/BF00460102</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0024"><mixed-citation publication-type="journal" id="ece37816-cit-0024">
+<string-name>
+<surname>Li</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name> (<year>2005</year>). <article-title>Effect of thermal acclimation on preferred temperature, avoidance temperature and lethal thermal maximum of <italic toggle="yes">Macrobiotus</italic>
+<italic toggle="yes">harmsworthi</italic> Murray (Tardigrada, Macrobiotidae)</article-title>. <source>Journal of Thermal Biology</source>, <volume>30</volume>(<issue>6</issue>), <fpage>443</fpage>&#x02013;<lpage>448</lpage>. <pub-id pub-id-type="doi">10.1016/j.jtherbio.2005.05.003</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0047"><mixed-citation publication-type="journal" id="ece37816-cit-0047">
+<string-name>
+<surname>Maclean</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name>
+<surname>Suggitt</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Wilson</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Duffy</surname>, <given-names>J. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bennie</surname>, <given-names>J. J.</given-names>
+</string-name> (<year>2017</year>). <article-title>Fine&#x02010;scale climate change: modelling spatial variation in biologically meaningful rates of warming</article-title>. <source>Global Change Biology</source>, <volume>23</volume>(<issue>1</issue>), <fpage>256</fpage>&#x02013;<lpage>268</lpage>.<pub-id pub-id-type="pmid">27151406</pub-id></mixed-citation></ref><ref id="ece37816-bib-0025"><mixed-citation publication-type="journal" id="ece37816-cit-0025">
+<string-name>
+<surname>Makowski</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Ben&#x02010;Shachar</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>S. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>L&#x000fc;decke</surname>, <given-names>D.</given-names>
+</string-name> (<year>2019</year>). <article-title>Indices of effect existence and significance in the Bayesian framework</article-title>. <source>Frontiers in Psychology</source>, <volume>10</volume>, <fpage>2767</fpage>. <pub-id pub-id-type="doi">10.3389/fpsyg.2019.02767</pub-id>
+<pub-id pub-id-type="pmid">31920819</pub-id></mixed-citation></ref><ref id="ece37816-bib-0026"><mixed-citation publication-type="journal" id="ece37816-cit-0026">
+<string-name>
+<surname>Meyer</surname>, <given-names>H. A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Small&#x02010;scale spatial distribution variability in terrestrial tardigrade populations</article-title>. <source>Hydrobiologia</source>, <volume>558</volume>(<issue>1</issue>), <fpage>133</fpage>&#x02013;<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1007/s10750-005-1412-x</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0027"><mixed-citation publication-type="journal" id="ece37816-cit-0027">
+<string-name>
+<surname>Neves</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name>
+<surname>Hvidepil</surname>, <given-names>L. K.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000f8;rensen&#x02010;Hygum</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name>
+<surname>Stuart</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000f8;bjerg</surname>, <given-names>N.</given-names>
+</string-name> (<year>2020</year>). <article-title>Thermotolerance experiments on active and desiccated states of <italic toggle="yes">Ramazzottius</italic>
+<italic toggle="yes">varieornatus</italic> emphasize that tardigrades are sensitive to high temperatures</article-title>. <source>Scientific Reports</source>, <volume>10</volume>(<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-56965-z</pub-id>
+<pub-id pub-id-type="pmid">31913322</pub-id></mixed-citation></ref><ref id="ece37816-bib-0028"><mixed-citation publication-type="journal" id="ece37816-cit-0028">
+<string-name>
+<surname>Newsham</surname>, <given-names>K. K.</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maslen</surname>, <given-names>N. R.</given-names>
+</string-name> (<year>2020</year>). <article-title>Experimental warming of bryophytes increases the population density of the nematode <italic toggle="yes">Plectus</italic>
+<italic toggle="yes">belgicae</italic> in maritime Antarctica</article-title>. <source>Antarctic Science</source>, <volume>33</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0029"><mixed-citation publication-type="book" id="ece37816-cit-0029">
+<string-name>
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Guillaume</surname>, <given-names>F. B.</given-names>
+</string-name>, <string-name>
+<surname>Friendly</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kindt</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>McGlinn</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Minchin</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<surname>O'Hara</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name>
+<surname>Simpson</surname>, <given-names>G. L.</given-names>
+</string-name>, <string-name>
+<surname>Solymos</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Henry</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name>
+<surname>Eduard</surname>, <given-names>S. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wagner</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>). <source>vegan: Community Ecology Package</source>. R package version 2.5&#x02010;3. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://CRAN.R-project.org/package=vegan" ext-link-type="uri">https://CRAN.R&#x02010;project.org/package=vegan</ext-link>
+</mixed-citation></ref><ref id="ece37816-bib-0030"><mixed-citation publication-type="journal" id="ece37816-cit-0030">
+<string-name>
+<surname>Pelini</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Bowles</surname>, <given-names>F. P.</given-names>
+</string-name>, <string-name>
+<surname>Ellison</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>Heating up the forest: Open&#x02010;top chamber warming manipulation of arthropod communities at Harvard and Duke Forests</article-title>. <source>Methods in Ecology and Evolution</source>, <volume>2</volume>(<issue>5</issue>), <fpage>534</fpage>&#x02013;<lpage>540</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210X.2011.00100.x</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0031"><mixed-citation publication-type="journal" id="ece37816-cit-0031">
+<string-name>
+<surname>Pelini</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Diamond</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Stuble</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name>
+<surname>Ellison</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Geographic differences in effects of experimental warming on ant species diversity and community composition</article-title>. <source>Ecosphere</source>, <volume>5</volume>(<issue>10</issue>), <fpage>1</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1890/ES14-00143.1</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0032"><mixed-citation publication-type="journal" id="ece37816-cit-0032">
+<string-name>
+<surname>Penick</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Diamond</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Sanders</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunn</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>2017</year>). <article-title>Beyond thermal limits: Comprehensive metrics of performance identify key axes of thermal adaptation in ants</article-title>. <source>Functional Ecology</source>, <volume>31</volume>(<issue>5</issue>), <fpage>1091</fpage>&#x02013;<lpage>1100</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2435.12818</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0033"><mixed-citation publication-type="journal" id="ece37816-cit-0033">
+<string-name>
+<surname>Prather</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name>
+<surname>Casanova&#x02010;Katny</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Clements</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name>
+<surname>Chmielewski</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Balkan</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Shortlidge</surname>, <given-names>E. E.</given-names>
+</string-name>, <string-name>
+<surname>Rosenstiel</surname>, <given-names>T. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Eppley</surname>, <given-names>S. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Species&#x02010;specific effects of passive warming in an Antarctic moss system</article-title>. <source>Royal Society Open Science</source>, <volume>6</volume>(<issue>11</issue>), <fpage>190744</fpage>. <pub-id pub-id-type="doi">10.1098/rsos.190744</pub-id>
+<pub-id pub-id-type="pmid">31827828</pub-id></mixed-citation></ref><ref id="ece37816-bib-0034"><mixed-citation publication-type="journal" id="ece37816-cit-0034">
+<string-name>
+<surname>Ramazzotti</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maucci</surname>, <given-names>W.</given-names>
+</string-name> (<year>1983</year>). <article-title>Il Phylum Tardigrada. Terza edizione riveduta e corretta. Memorie dell&#x000b4;Istituto Italiano di Idrobiologia Dott</article-title>. <source>Marco Marchi</source>, <volume>41</volume>, <fpage>1</fpage>&#x02013;<lpage>1012</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0035"><mixed-citation publication-type="journal" id="ece37816-cit-0035">
+<string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Altiero</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name> (<year>2007</year>). <article-title>Anhydrobiosis: The extreme limit of desiccation tolerance</article-title>. <source>ISJ&#x02010;Invertebrate Survival Journal</source>, <volume>4</volume>, <fpage>65</fpage>&#x02013;<lpage>81</lpage>.</mixed-citation></ref><ref id="ece37816-bib-0036"><mixed-citation publication-type="journal" id="ece37816-cit-0036">
+<string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Boschini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Cesari</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lencioni</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Bertolani</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Stress response of a boreo&#x02010;alpine species of tardigrade, <italic toggle="yes">Borealibius</italic>
+<italic toggle="yes">zetlandicus</italic> (Eutardigrada, Hypsibiidae)</article-title>. <source>Journal of Experimental Biology</source>, <volume>212</volume>, <fpage>4033</fpage>&#x02013;<lpage>4039</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.033266</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0037"><mixed-citation publication-type="journal" id="ece37816-cit-0037">
+<string-name>
+<surname>Rebecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Cesari</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Altiero</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Frigieri</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guidetti</surname>, <given-names>R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Survival and DNA degradation in anhydrobiotic tardigrades</article-title>. <source>Journal of Experimental Biology</source>, <volume>212</volume>(<issue>24</issue>), <fpage>4033</fpage>&#x02013;<lpage>4039</lpage>. <pub-id pub-id-type="doi">10.1242/jeb.033266</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0038"><mixed-citation publication-type="journal" id="ece37816-cit-0038">
+<string-name>
+<surname>Simmons</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name>
+<surname>Wall</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Ayres</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Barrett</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Virginia</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2009</year>). <article-title>Long&#x02010;term experimental warming reduces soil nematode populations in the McMurdo Dry Valleys</article-title>. <source>Antarctica. Soil Biology and Biochemistry</source>, <volume>41</volume>(<issue>10</issue>), <fpage>2052</fpage>&#x02013;<lpage>2060</lpage>. <pub-id pub-id-type="doi">10.1016/j.soilbio.2009.07.009</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0039"><mixed-citation publication-type="journal" id="ece37816-cit-0039">
+<string-name>
+<surname>Sohlenius</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bostr&#x000f6;m</surname>, <given-names>S.</given-names>
+</string-name> (<year>1999a</year>). <article-title>Effects of climate change on soil factors and metazoan microfauna (nematodes, tardigrades and rotifers) in a Swedish tundra soil&#x02013;a soil transplantation experiment</article-title>. <source>Applied Soil Ecology</source>, <volume>12</volume>(<issue>2</issue>), <fpage>113</fpage>&#x02013;<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1016/S0929-1393(98)00168-1</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0040"><mixed-citation publication-type="journal" id="ece37816-cit-0040">
+<string-name>
+<surname>Sohlenius</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bostrom</surname>, <given-names>S.</given-names>
+</string-name> (<year>1999b</year>). <article-title>Effects of global warming on nematode diversity in a Swedish tundra soil&#x02010;a soil transplantation experiment</article-title>. <source>Nematology</source>, <volume>1</volume>(<issue>7</issue>), <fpage>695</fpage>&#x02013;<lpage>709</lpage>. <pub-id pub-id-type="doi">10.1163/156854199508720</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0041"><mixed-citation publication-type="journal" id="ece37816-cit-0041">
+<string-name>
+<surname>Sohlenius</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Bostr&#x000f6;m</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>J&#x000f6;nsson</surname>, <given-names>K. I.</given-names>
+</string-name> (<year>2004</year>). <article-title>Occurrence of nematodes, tardigrades and rotifers on ice&#x02010;free areas in East Antarctica</article-title>. <source>Pedobiologia</source>, <volume>48</volume>(<issue>4</issue>), <fpage>395</fpage>&#x02013;<lpage>408</lpage>. <pub-id pub-id-type="doi">10.1016/j.pedobi.2004.06.001</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0042"><mixed-citation publication-type="journal" id="ece37816-cit-0042">
+<string-name>
+<surname>Stevnbak</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Maraldo</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Georgieva</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Bj&#x000f8;rnlund</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Beier</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>, <given-names>I. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Christensen</surname>, <given-names>S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Suppression of soil decomposers and promotion of long&#x02010;lived, root herbivorous nematodes by climate change</article-title>. <source>European Journal of Soil Biology</source>, <volume>52</volume>, <fpage>1</fpage>&#x02013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejsobi.2012.04.001</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0043"><mixed-citation publication-type="book" id="ece37816-cit-0043">
+<string-name>
+<surname>Su</surname>, <given-names>Y. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yajima</surname>, <given-names>M.</given-names>
+</string-name> (<year>2012</year>). <source>Package &#x02018;R2jags&#x02019;</source>. A Package for Running jags from R.</mixed-citation></ref><ref id="ece37816-bib-0044"><mixed-citation publication-type="journal" id="ece37816-cit-0044">
+<string-name>
+<surname>Thakur</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Fisichelli</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name>
+<surname>Stefanski</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Cesarz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Dobies</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Rich</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Hobbie</surname>, <given-names>S. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Eisenhauer</surname>, <given-names>N.</given-names>
+</string-name> (<year>2014</year>). <article-title>Nematode community shifts in response to experimental warming and canopy conditions are associated with plant community changes in the temperate&#x02010;boreal forest ecotone</article-title>. <source>Oecologia</source>, <volume>175</volume>, <fpage>713</fpage>&#x02013;<lpage>723</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-014-2927-5</pub-id>
+<pub-id pub-id-type="pmid">24668014</pub-id></mixed-citation></ref><ref id="ece37816-bib-0045"><mixed-citation publication-type="journal" id="ece37816-cit-0045">
+<string-name>
+<surname>Tilbert</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>de <surname>Castro</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name>
+<surname>Tavares</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>J&#x000fa;nior</surname>, <given-names>M. N.</given-names>
+</string-name> (<year>2019</year>). <article-title>Spatial variation of meiofaunal tardigrades in a small tropical estuary (~ 6&#x000b0; S; Brazil)</article-title>. <source>Marine and Freshwater Research</source>, <volume>70</volume>(<issue>8</issue>), <fpage>1094</fpage>&#x02013;<lpage>1104</lpage>. <pub-id pub-id-type="doi">10.1071/MF18222</pub-id>
+</mixed-citation></ref><ref id="ece37816-bib-0046"><mixed-citation publication-type="journal" id="ece37816-cit-0046">
+<string-name>
+<surname>Yan</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wu</surname>, <given-names>D.</given-names>
+</string-name> (<year>2017</year>). <article-title>Daytime warming has stronger negative effects on soil nematodes than night&#x02010;time warming</article-title>. <source>Scientific Reports</source>, <volume>7</volume>, <fpage>44888</fpage>.<pub-id pub-id-type="pmid">28317914</pub-id></mixed-citation></ref></ref-list></back></article>

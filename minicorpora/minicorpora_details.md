@@ -34,7 +34,22 @@ getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC 
  -  aerial part is not involved in the plant part dictionary.
  -  PMC8231073 contains no sections.
 
+### Machine annotations using `ami search`
+- ami search was performed on the corpus "goldstandard" containing 50 papers which were manually annotated earlier.
+```
+ ami -p "goldstandard" search --dictionary eoplant_part.xml
+ ```
+- Here we are using dictionary plant_part for the searching.
+- After a succesfull run the search provides the common data tables.
+- 
 ## Note:
 ### Aerial parts: 
 - The word "aerial" refers to anything which is above a solid surface in the air or in the space. It refers to the plants that are above the earth, including the stems, leaves,   petioles, flowers, fruit and seeds. 
 - Wikidata Id is yet not available for this term.
+
+# Aim : Goldstandard of 200 papers
+- Downloaded papers using getpapers:
+```
+getpapers -q "(essential oil AND (METHOD: plant part) AND (((SRC:MED OR SRC:PMC OR SRC:AGR OR SRC:CBA) NOT (PUB_TYPE:Review)))) AND (FIRST_PDATE:2020 OR FIRST_PDATE:2021)" -x -p -k 200 -o goldstandard1
+```
+-
