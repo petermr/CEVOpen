@@ -6,4 +6,4 @@ To Upload a file follow these simple steps:
 3. Click on the icon ADD FILE.
 4. Then click on Upload files, there you can choose the edited csv file from your computer and hit upload.
 
-Name your File as: annotator_name. 
+Name your File as: annotator_name For eg: annotator_vaishnavi. 
