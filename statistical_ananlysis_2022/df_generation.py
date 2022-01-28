@@ -37,13 +37,13 @@ def create_df(path, class_label):
 
   ## saving the map_list
   map_df = pd.DataFrame(map_list)
-  save_path = os.path.dirname(os.path.dirname(path)) +'/'+class_label+'/'           # path where mapping info is saved under the parent directory with folder name "mapping_info"
+  save_path = os.path.dirname(os.path.dirname(path)) +'/'+class_label.lower()+'/'           # path where mapping info is saved under the parent directory with folder name "mapping_info"
   if not os.path.exists(save_path):                                              # checking id already a folder exists with path - map_save_path
     os.makedirs(save_path)
   map_df.columns = ['column_name','file_name']  
-  map_df.to_csv(save_path +'mapping_info_'+ class_label+'.csv')   #  saving the mapping list into the direct path
+  map_df.to_csv(save_path +'mapping_info_'+ class_label.lower()+'.csv')   #  saving the mapping list into the direct path
   
   ## saving the generated data
-  data.to_csv(save_path +'all_annotators_'+ class_label+'.csv')
+  data.to_csv(save_path +'all_annotators_'+ class_label.lower()+'.csv')
   
   return data, map_list 
