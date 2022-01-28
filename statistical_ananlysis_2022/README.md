@@ -7,11 +7,4 @@ In the statistical_ananlysis_2022 folder you will find:
 
 
 
-Inside the example_data folder you can find these folders:
-1. **annotators_label** :  which contain samples of annotators label for a random set of images collected from Alex Pico [shiny-terpeneplant](https://gladstone-bioinformatics.shinyapps.io/shiny-terpeneplant/) website.
-2. **terpene** : contains statistical analysis performnace of annotators for the column "Trepene".
-3. **pathway** : contains statistical analysis performnace of annotators for the column "Pathway".
-4. **pre_terpene** : contains statistical analysis performnace of annotators for the column "Pre-Terpene".
-5. **metabolic** : contains statistical analysis performnace of annotators for the column "Metabolic".
-
 
