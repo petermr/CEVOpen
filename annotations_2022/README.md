@@ -10,7 +10,7 @@ Anyone and Everyone can be an annotator. You don't need to have a biology backgr
 
 **Methodology**:
 
-We will be collecting raw data and with the help of the correlation matrix using Kappa method will analyze the annotation and come to a certain conclusion. 
+We will be collecting raw data and with the help of statistical analysis based on intern annotator agreement and correlation coefficient will analyze the annotation and come to a certain conclusion.
 
 **CURRENT STATUS:**
 
