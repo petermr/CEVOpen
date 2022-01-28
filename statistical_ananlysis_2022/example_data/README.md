@@ -3,7 +3,7 @@
 2. **outputs** : which shows how the ouput files will look like for the original data after you run the statiical_analysis_annotator.ipynb.
 
 
-Further, insode the folder outputs you can find folder with name:
+Further, inside the folder outputs you can find folder with name:
 
  1. **terpene** : contains statistical analysis performnace of annotators for the column "Trepene".
  2. **pathway** : contains statistical analysis performnace of annotators for the column "Pathway".
