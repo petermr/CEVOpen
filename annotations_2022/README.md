@@ -14,7 +14,7 @@ We will be collecting raw data and with the help of statistical analysis based o
 
 **CURRENT STATUS:**
 
-We have asked people to annotate the csv file with the help of the rules that we have formulated. Everything could be found at this link: https://github.com/petermr/petermr/discussions/4#discussioncomment-2017118
+We have asked people to annotate the csv file with the help of the rules that we have formulated. Everything could be found at this link, you can download the CSV file and it will also take you to the rules link: https://github.com/petermr/petermr/discussions/4#discussioncomment-2017118
 
 **Data Collection**: By asking the annotators to upload the CSV file in this folder
 
