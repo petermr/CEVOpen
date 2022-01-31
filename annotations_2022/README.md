@@ -22,7 +22,7 @@ If you are a volunteer who wish to contribute your annotations, follow the steps
 [//]: # (### Download the annotation template)
 
 ## Regrading Filling of CSV file
-You will have four columns to fill, that is **Pathway**, **Metabolic**, **Pre-Terpene**, **Terpene**. Please fill each of these columns with **"yes"** and **"no"**. Please avoid usinging any upper case letter, alongwith 0's and 1's while filling the CSV file.
+You will have four columns to fill, that is **Pathway**, **Metabolic**, **Pre-Terpene**, **Terpene**. Please fill each of these columns with **"yes"** and **"no"**. Please avoid using any upper case letter, alongwith 0's and 1's while filling the CSV file.
 
 ### Upload the CSV file
 
