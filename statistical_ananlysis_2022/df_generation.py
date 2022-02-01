@@ -32,6 +32,9 @@ def create_df(path, class_label):
       data['annotator_'+ str(i)] = df[class_label].to_numpy()
     else:  
       data['annotator_'+ str(i)] = df[class_label].to_numpy()    # adding columns to data each having labels from respective annotator on the converned class label(ex: Terpene)
+      if i == len(list_files)-1:
+        data['link']= df['Link'].to_numpy()
+    
     map_list.append(sub_list)                                  # appending the sub_kist to map_list
   
 
