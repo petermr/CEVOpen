@@ -1,8 +1,10 @@
 # Classification of Terpene Pathway
 
+**Download the CSV file** [Classification.of.30.fig.csv](https://github.com/petermr/CEVOpen/files/7976813/Classification.of.30.fig.csv)
+
 ## Purpose:
 
-To come to a confirmation that whether the extracted images on wikipathway page: https://gladstone-bioinformatics.shinyapps.io/shiny-terpeneplant/ from various papers, articles, journels etc. consistis of Terpene Pathway. 
+To come to a confirmation that whether the extracted images on [wikipathway page](https://gladstone-bioinformatics.shinyapps.io/shiny-terpeneplant/) from various papers, articles, journels etc. consistis of Terpene Pathway. 
 
 For this purpose we need various people with any background to annotate the CSV file and we will analyze the database and get the needed confirmation. 
 
@@ -14,7 +16,7 @@ We will be collecting raw data and with the help of statistical analysis based o
 
 ## CURRENT STATUS:
 
-We have asked people to annotate the csv file with the help of the rules that we have formulated. Everything could be found at this link, you can download the CSV file and it will also take you to the rules link: https://github.com/petermr/petermr/discussions/4#discussioncomment-2017118
+We have asked people to annotate the csv file with the help of the rules that we have formulated. Everything could be found at this link, you can download the CSV file and it will also take you to the rules [link](https://github.com/petermr/petermr/discussions/4#discussioncomment-2017118)
 
 ## Data Collection: 
 If you are a volunteer who wish to contribute your annotations, follow the steps below
@@ -23,6 +25,15 @@ If you are a volunteer who wish to contribute your annotations, follow the steps
 
 ## Regrading Filling of CSV file
 You will have four columns to fill, that is **Pathway**, **Metabolic**, **Pre-Terpene**, **Terpene**. Please fill each of these columns with **"yes"** and **"no"**. Please avoid using any upper case letter, alongwith 0's and 1's while filling the CSV file.
+
+## How to perform the task:
+
+1. **Download the CSV file** [Classification.of.30.fig.csv](https://github.com/petermr/CEVOpen/files/7976813/Classification.of.30.fig.csv)
+2. Edit the CSV file 
+   - Click on the link in the link coloumn (will take you to the image).
+   - Analyze the figure by refering to the [rules](https://github.com/petermr/CEVOpen/wiki/Rules-for-Classification-of-terpene-pathway). 
+   - Please fill the column with "YES" and "NO".
+3. Upload the editted file could refer to the steps down below.
 
 ### Upload the CSV file
 
@@ -37,6 +48,6 @@ eg: annotator_vaishnavi
 
 ## Feedback
 
-If anyone has any comments related to our system or about our work could defenietly leave a comment over our discussion channel: https://github.com/petermr/petermr/discussions/4#discussion-3783455
+If anyone has any comments related to our system or about our work could defenietly leave a comment over our [discussion channel](https://github.com/petermr/petermr/discussions/4#discussion-3783455)
 
 
