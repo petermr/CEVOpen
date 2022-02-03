@@ -2,6 +2,8 @@
 
 **Download the CSV file** [Classification.of.30.fig.csv](https://github.com/petermr/CEVOpen/files/7976813/Classification.of.30.fig.csv)
 
+**Refer to the** [**rules**](https://github.com/petermr/CEVOpen/wiki/Rules-for-Classification-of-terpene-pathway)
+
 ## Purpose:
 
 To come to a confirmation that whether the extracted images on [wikipathway page](https://gladstone-bioinformatics.shinyapps.io/shiny-terpeneplant/) from various papers, articles, journels etc. consistis of Terpene Pathway. 
