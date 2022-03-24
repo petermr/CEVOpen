@@ -1,0 +1,40 @@
+Dictionary Repo Location,Dictionary Name,Has .md?,New xml? (Child Syn),File Name & Title match?,Desc tag,Version tag,Encoding tag,Date tag?,Author tag?,Contributors?,Name tag,Term tag,wikipediaPage tag,wikipediaURL tag,wikidataURL tag,wikidataID tag,Other ID tag,Notes,has it's own ID format?
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/country/country.xml,country.xml,NO,NO,YES,YES,NO,NO,NO,NO,NO,YES,YES,YES,YES,YES,YES,-,,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/disease/disease.xml,disease.xml,YES,YES,YES,YES,NO,NO,YES,YES,NO,YES,YES,YES,YES,YES,YES,-,,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/drug/drug.xml,drug.xml,NO,YES,YES,NO,NO,NO,YES,NO,NO,YES,YES,NO,YES,YES,YES,-,,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/npi/npi.xml,npi.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,YES,,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/organization/organization.xml,organization.xml,NO,-,YES,YES,YES,YES,NO,NO,NO,YES,YES,NO,YES,YES,YES,YES,Data is in a different order than other dictionaries. Usually name and term come first. Also has crossrefIDs,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/test_trace/test_trace.xml,test_trace.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,YES,YES,"has it's own ID format ""CM.PROJECT_TEST.11""","""CM.PROJECT_TEST.11"""
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/virus/virus.xml,virus.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,YES,NO,,
+https://github.com/petermr/dictionary/blob/main/openVirus20210120/zoonosis/zoonosis.xml,zoonosis.xml,NO,YES,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,YES,YES,YES,NO,,
+https://github.com/petermr/dictionary/blob/main/cevopen/activity/eo_activity.xml,eo_activity.xml,YES,YES,YES,YES,YES,YES,YES,YES,YES,NO,YES,NO,NO,NO,YES,NO,,
+https://github.com/petermr/dictionary/blob/main/cevopen/analysis/eo_analysis_method.xml,eo_analysis_method.xml,YES,YES,YES,YES,YES,YES,YES,YES,YES,NO,YES,NO,NO,NO,YES,NO,,
+https://github.com/petermr/dictionary/blob/main/cevopen/compound/eo_compound.xml,eo_compound.xml,YES,-,YES,YES,YES,YES,YES,YES,YES,YES,YES,NO,NO,NO,YES,NO,,
+https://github.com/petermr/dictionary/blob/main/cevopen/extraction/eo_extraction.xml,eo_extraction.xml,YES,YES,YES,YES,YES,YES,YES,YES,YES,NO,YES,NO,NO,NO,YES,YES,Data is in a different order than other dictionaries. Usually name and term come first. Also has crossrefIDs,"entry id=""EM16"""
+https://github.com/petermr/dictionary/blob/main/cevopen/gene/eo_plant_gene.xml,,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,this is a dummy file. No data,
+https://github.com/petermr/dictionary/tree/main/cevopen/genus,,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,this is a dummy file. No data,
+https://github.com/petermr/dictionary/blob/main/cevopen/plant_part/eo_plant_part.xml,eo_plant_part.xml,YES,-,YES,YES,YES,YES,YES,YES,YES,NO,YES,NO,NO,NO,YES,YES,,"entry id=""PP06"
+https://github.com/petermr/dictionary/blob/main/cevopen/target/eo_target_organism.xml,eo_target_organism,YES,YES,YES,YES,YES,YES,YES,YES,YES,NO,YES,NO,NO,NO,YES,YES,,"entry id=""id.TO05"
+https://github.com/petermr/dictionary/blob/main/ami3/animaltest.xml,animaltest.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/cochrane.xml,cochrane.xml,NO,-,YES,YES,YES,YES,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/compchem.xml,compchem.xnl,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,-,NO,"Has wikidata tag, but no WikiID data in any entries",
+https://github.com/petermr/dictionary/blob/main/ami3/dinogenera.txt,dinogenera.txt,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,just a list of terms. No tags,
+https://github.com/petermr/dictionary/blob/main/ami3/crystal.xml,crystal.sml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,-,NO,"Has wikidata tag, but no WikiID data in any entries",
+https://github.com/petermr/dictionary/blob/main/ami3/crispr.xml,crispr.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,YES,,"Has empty id tags: entry id="""""
+https://github.com/petermr/dictionary/blob/main/ami3/distributions.xml,distributions.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/ethics.xml,ethics.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/eurofunders.xml,eurofunders.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,Just a description. No data,
+https://github.com/petermr/dictionary/blob/main/ami3/monoterpene.xml,monoterpene.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,,"wikipedia=""Carene"""
+https://github.com/petermr/dictionary/blob/main/ami3/nal.xml,nal.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/pectin.xml,pectin.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,no wikidata data just the tags,
+https://github.com/petermr/dictionary/blob/main/ami3/plantDevelopment.xml,plantDevelopment.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,no wikidata data just the tags,
+https://github.com/petermr/dictionary/blob/main/ami3/poverty.xml,poverty.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,YES,NO,tags don't specify ID or URL,"wikidata="""" wikipedia=""""/>"
+https://github.com/petermr/dictionary/blob/main/ami3/proteinstruct.xml,proteinstruct.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/protpredict.xml,protpredict.xml,NO,-,YES,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/refugeeUNHCR.xml,refugeeUNHCR.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,,"id="""""
+https://github.com/petermr/dictionary/blob/main/ami3/sesquiterpene.xml,sesquiterpene.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/solvents.xml,solvents.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,YES,NO,no wikidata data just the tags,
+https://github.com/petermr/dictionary/blob/main/ami3/statistics.xml,statistics.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/tropicalVirus.xml,tropicalVirus.xml,NO,-,YES,YES,YES,YES,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/wetlands.xml,wetlands.xml,NO,-,YES,YES,YES,YES,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,,
+https://github.com/petermr/dictionary/blob/main/ami3/wildlife.xml,wildlife.xml,NO,-,YES,YES,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,YES,NO,no wikidata data just the tags,
