@@ -5,10 +5,10 @@
 
 Further, inside the folder outputs you can find folder with name:
 
- 1. **terpene** : contains statistical analysis performnace of annotators for the column "Trepene".
- 2. **pathway** : contains statistical analysis performnace of annotators for the column "Pathway".
- 3. **pre_terpene** : contains statistical analysis performnace of annotators for the column "Pre-Terpene".
- 4. **metabolic** : contains statistical analysis performnace of annotators for the column "Metabolic".
+ 1. **terpene** : contains statistical analysis performance of annotators for the column "Terpene".
+ 2. **pathway** : contains statistical analysis performance of annotators for the column "Pathway".
+ 3. **pre_terpene** : contains statistical analysis performance of annotators for the column "Pre-Terpene".
+ 4. **metabolic** : contains statistical analysis performance of annotators for the column "Metabolic".
 
 
 
