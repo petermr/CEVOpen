@@ -1,11 +1,11 @@
 ## This folder contains codes and materials related to terpene pathway classification task.
 
 ## Q. What is terpene?
-Terpene are the chemical compound found in biosynthetic pathways. Terpenes are highly aromatic compounds that determine the smell of many plants and herbs, such as rosemary and lavender. In biosynthetic pathway there are two major pathway which result in terpene production, MVA Pathway and MEP Pathway. 
+Terpene are chemical compounds found in biosynthetic pathways. Terpenes are highly aromatic compounds that determine the smell of many plants and herbs, such as rosemary and lavender. In biosynthetic pathway there are two major pathway which result in terpene production, MVA Pathway and MEP Pathway. 
 ## Q. What is pathway?
 
 ## Q  Why terpene pathway Classification?
-Our Goal of terpene pathway image classification is a subset of a bigger project. To accomplish the task we collected images from Alex Pico's website and tried to classify those images with help human annotators. This subtask carried out by Human annotators gave us baseline standard for our higher level task of using Machine Learning to classify terpene pathway images over the internet.Further the statistics from the human annotation experiment made us realize how ambigous it gets for humans to distinguish Terpene pathway from Pre-Terpene Pathway. The analysis also pointed out that its very easy fr human to capture low leevel classification task i.e to identify is the given image is pathway or not ot if th epathway image is metabolic pathway or not.
+Our Goal of terpene pathway image classification is a subset of a bigger project. To accomplish the task we collected images from Alex Pico's website and tried to classify those images with help human annotators. This subtask carried out by Human annotators gave us baseline standard for our higher level task of using Machine Learning to classify terpene pathway images captured over the internet.Further the statistics from the human annotation experiment made us realize how ambigous it gets for humans to distinguish Terpene pathway from Pre-Terpene Pathway. The analysis also pointed out that its very easy fr human to capture low leevel classification task i.e to identify is the given image is pathway or not ot if th epathway image is metabolic pathway or not.
 
 ## Brief on the Experimentation (Terepene Classification by Human Annotators)
 To sucessfully operate on terpene classification task we took dataset from a trusted source. In this website you can more than 300 pathway images some belong to terpene and others not. Therefore it suited our purpose the best, as we wanted to understnd the statistics behind terpene classification task and learn how difficult is gets for human to classifiy images to narrower domains like [pre- terpene, terpene] from broader domain like [Pathway, Metabolic].
@@ -42,7 +42,7 @@ From the above table we can see that the average value for terpene is below 0.5 
 ## Future Take
 1. Modify the rules for terpene images. So that the ambuguity among the annotators reduces.
 2. Finding the troubling imges. And identify what the cause of major confussion among annotators.
-3.  
+  
 ## In the statistical_ananlysis_2022 folder you will find:
 1. **df_generation.py** : script file that generates dataframe from all the annotators csv files for a concrened column name [ex. pathway, terpene]
 2. **statiscal_analysis.iypnb**: is an interactive jupyter notebook which computes correlation between annotators based on diffrent metrics. In order to see how we are comparing and analysis annotator's performance. Open the notebook in your google colaboratoty by just clicking on the "open colab" button at the top of the notebook, and then experience our methodoly for the analysis. 
