@@ -100,8 +100,8 @@ Below are the details of your tasks. It mainly involves downloading, testing and
  -    Method 1. Use PyCharm (or other IDE):
       * Here you should right-click on the `test` directory and run the Unit tests
  -    Method 2. Use the commandline:
-    * cd pyami
-    * python3 -m test.test_wikidata
+    *   cd pyami
+    *   python3 -m test.test_wikidata
 - We have tested both of these and they worked. 
 - If you cannot run them try to identify/document what went wrong so we can help to correct it.
 
