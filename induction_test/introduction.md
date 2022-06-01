@@ -93,13 +93,13 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 -py4ami can be found at https://github.com/petermr/py4ami. 
 - Read Documentation
 - Clone the Repo
-  - Following are your tasks: 
-*   How many current branches does it have? When was the last merge?
-*   how many open issues are there? 
-*   Can you run the unit tests? There are two methods (choose whichever works for you)
- - Method 1. Use PyCharm (or other IDE):
-  * Here you should right-click on the `test` directory and run the Unit tests
- - Method 2. Use the commandline:
+- Following are your tasks: 
+  - How many current branches does it have? When was the last merge?
+  - How many open issues are there? 
+  - Can you run the unit tests? There are two methods (choose whichever works for you)
+ -    Method 1. Use PyCharm (or other IDE):
+      * Here you should right-click on the `test` directory and run the Unit tests
+ -    Method 2. Use the commandline:
     * cd pyami
     * python3 -m test.test_wikidata
 - We have tested both of these and they worked. 
