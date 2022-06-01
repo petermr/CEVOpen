@@ -81,11 +81,40 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 ## 4.1. `pygetpapers` 
 - Read the [official documentation](https://github.com/petermr/pygetpapers)
 - [Install](https://github.com/petermr/pygetpapers#6-installation) the tool
-- Run a query to download a 25 papers related to “invasive plant species” in XML and PDF - format
+- Run a query to download a 25 papers related to “PHYTOCHEMISTRY” in XML and PDF formats
 - Document your steps coherently
 
 ## 4.2. `pyami`
-(Optional)
+["Pyami (py4ami) is one of the main tools that we are using and developing. It is therefore partially documented (your role might be to test/document it). This task shows us how well and quickly you can understand it and whether you have the skills and aptitude to improve it and its use.]
+
+-You can use any reasonable means to tackle these tasks, including asking other people. 
+-You may post issues but make sure they are well explained
+
+-py4ami can be found at https://github.com/petermr/py4ami. 
+- Read Documentation
+- Please Clone the Repo
+- Following are your tasks: 
+* How many current branches does it have? When was the last merge?
+* how many open issues are there? 
+* can you run the unit tests? There are two methods (choose whichever works for you)
+ - Method 1. Use PyCharm (or other IDE):
+  Here you should right-click on the `test` directory and run the Unit tests
+ - Method 2. Use the commandline:
+    cd pyami
+    python3 -m test.test_wikidata
+We have tested both of these and they worked. 
+If you cannot run them try to identify/document what went wrong so we can help to correct it.
+
+[We are using py4ami to retrieve Wikidata entries. explore these interatively on wikidata.org]
+- What does the method: test_wikidata_id_lookup(self) do?
+_You may need to browse Wikidata.org and its api._
+
+**Try to see how much you can understand what we are doing **
+
+- Record your documentation in doc. Template Given below.
+- Briefly describe your understanding of the software. 
+
+## 4.3 (Older version- Optional)
 - Read the [documentation](https://github.com/petermr/pyami). Might not be complete
 - `git clone` the Repo since it's not packaged yet.
 - You would have to ensure that you've also git cloned the following repositories
@@ -96,6 +125,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - Run `examples.py`
 - Record your documentation in doc. Template below.
 - Briefly describe your understanding of the software. 
+
 # 5. Intern’s documentation
 - Download the [Induction test](https://github.com/petermr/CEVOpen/blob/master/induction_test/cevopen_induction_test_template.docx) Word document. 
 - We've outlined what we expect from your documentation for you to follow along in the Word document. 
