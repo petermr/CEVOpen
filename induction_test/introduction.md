@@ -100,6 +100,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 -py4ami can be found at https://github.com/petermr/py4ami. 
 - Read Documentation
 - Clone the Repo
+     * You can do this using cmd, or GitHub’s front end)
 - Following are your tasks: 
   - How many current branches does it have? When was the last merge?
   - How many open issues are there? 
