@@ -109,8 +109,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
  -    Method 2. Use the commandline:
         * cd pyami
         * python3 -m test.test_wikidata
-[We have tested both of these and they worked.]
-[If you cannot run them try to identify/document what went wrong so we can help to correct it.]
+ -[FYI: We have tested both of these and they worked. If you cannot run them try to identify/document what went wrong so we can help to correct it.]
 
 [We are using py4ami to retrieve Wikidata entries. explore these interatively on wikidata.org]
 - What does the method: test_wikidata_id_lookup(self) do?
