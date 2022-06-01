@@ -84,6 +84,18 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - Run a query to download a 25 papers related to “PHYTOCHEMISTRY” in XML and PDF formats
 - Document your steps coherently
 
+- **In all there are four sub tasks to Task 4.1 `pygetpapers` **
+- 
+1.1. Installation documentation 
+-	Run a query and download papers. Eg: Phytochemistry (from EPMC repository)
+1.2. Comment on downloaded papers 
+-	Number of hits (not the number of hits you limited your query to)
+-	Read the abstracts and see which ones are actually about the topic you chose.
+1.3. Give us feedback on improving existing documentation
+1.4. A brief account of your understanding of the software and the query you put in. 
+
+
+
 ## 4.2. `pyami`
 ["Pyami (py4ami) is one of the main tools that we are using and developing. It is therefore partially documented (your role might be to test/document it). This task shows us how well and quickly you can understand it and whether you have the skills and aptitude to improve it and its use.]
 
@@ -114,7 +126,7 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - Record your documentation in doc. Template Given below.
 - Briefly describe your understanding of the software. 
 
-## 4.3 (Older version- Optional)
+## 4.3 (Older version of pyami - Optional)
 - Read the [documentation](https://github.com/petermr/pyami). Might not be complete
 - `git clone` the Repo since it's not packaged yet.
 - You would have to ensure that you've also git cloned the following repositories
@@ -127,6 +139,5 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - Briefly describe your understanding of the software. 
 
 # 5. Intern’s documentation
-- Download the [Induction test](https://github.com/petermr/CEVOpen/blob/master/induction_test/cevopen_induction_test_template.docx) Word document. 
-- We've outlined what we expect from your documentation for you to follow along in the Word document. 
-- Please email the documentation Word Docx to cbl@nipgr.ac.in
+- Perform the above Tasks 4.1 and 4.2
+- Please email the documentation to cbl@nipgr.ac.in
