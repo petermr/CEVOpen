@@ -81,18 +81,13 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 ## 4.1. `pygetpapers` 
 - Read the [official documentation](https://github.com/petermr/pygetpapers)
 - [Install](https://github.com/petermr/pygetpapers#6-installation) the tool
-- Run a query to download a 25 papers related to “PHYTOCHEMISTRY” in XML and PDF formats
-- Document your steps coherently
-
-**In all there are four sub tasks to Task 4.1 `pygetpapers` **
- 
-A. Installation documentation 
-    -Run a query and download papers. Eg: Phytochemistry (from EPMC repository) 
-B. Comment on downloaded papers 
-    -Number of hits (not the number of hits you limited your query to)
-      - Read the abstracts and see which ones are actually about the topic you chose.
-C. Give us feedback on improving existing documentation
-D. A brief account of your understanding of the software and the query you put in. 
+- Run a query to download a 25 papers related to “PHYTOCHEMISTRY” (from EPMC repository) in XML and PDF formats
+- Comment on downloaded papers 
+-   * Number of hits (not the number of hits you limited your query to)
+-   * Read the abstracts and see which ones are actually about the topic you chose.
+- Document your steps coherently. Include the following:
+- Feedback on improving existing documentation
+- Brief account of your understanding of the software and the query you put in.
 
 
 
