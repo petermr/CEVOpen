@@ -83,11 +83,11 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - [Install](https://github.com/petermr/pygetpapers#6-installation) the tool
 - Run a query to download a 25 papers related to “PHYTOCHEMISTRY” (from EPMC repository) in XML and PDF formats
 - Comment on downloaded papers 
--   * Number of hits (not the number of hits you limited your query to)
--   * Read the abstracts and see which ones are actually about the topic you chose.
+   * Number of hits (not the number of hits you limited your query to)
+   * Read the abstracts and see which ones are actually about the topic you chose.
 - Document your steps coherently. Include the following:
-- Feedback on improving existing documentation
-- Brief account of your understanding of the software and the query you put in.
+   * Feedback on improving existing documentation
+   * Brief account of your understanding of the software and the query you put in.
 
 
 
