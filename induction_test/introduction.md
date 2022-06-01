@@ -102,8 +102,11 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 - Clone the Repo
      * You can do this using cmd, or GitHub’s front end
 - Following are your tasks: 
-  - How many current branches does it have? When was the last merge?
+  - How many current branches does the Repo have? When was the last merge?
   - How many open issues are there? (It is always a good practice to also read closed issues, that might answer any problems you encounter while doing the induction)
+  - After downloading pyami, use “pyami –-help” (This will display commands used by software to users.) 
+  - Read the commands and their description and briefly describe in layman’s language what each command does.
+  - Find the config.ini file in the pyami folder, and make sure to update its settings to the latest version as in the GitHub documentation 
   - Can you run the unit tests? There are two methods (choose whichever works for you)
  -    Method 1. Use PyCharm (or other IDE):
       * Here you should right-click on the `test` directory and run the Unit tests
