@@ -86,14 +86,13 @@ Below are the details of your tasks. It mainly involves downloading, testing and
 
 **In all there are four sub tasks to Task 4.1 `pygetpapers` **
  
-*A. Installation documentation 
-  * Run a query and download papers. Eg: Phytochemistry (from EPMC repository)
- 
-*B. Comment on downloaded papers 
-  * Number of hits (not the number of hits you limited your query to)
-  * Read the abstracts and see which ones are actually about the topic you chose.
-*C. Give us feedback on improving existing documentation
-*D. A brief account of your understanding of the software and the query you put in. 
+A. Installation documentation 
+    -Run a query and download papers. Eg: Phytochemistry (from EPMC repository) 
+B. Comment on downloaded papers 
+    -Number of hits (not the number of hits you limited your query to)
+      - Read the abstracts and see which ones are actually about the topic you chose.
+C. Give us feedback on improving existing documentation
+D. A brief account of your understanding of the software and the query you put in. 
 
 
 
