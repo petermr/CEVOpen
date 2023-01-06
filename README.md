@@ -12,7 +12,7 @@ These  report some/all of:
 * plant identity
 * literature survey of previously reported activities 
 * oil chemical composition (by chemical name)
-* experimentals determination of activity (often against organisms)
+* experimental determination of activity (often against organisms)
 
 Dictionaries
 ------------
